@@ -1,0 +1,98 @@
+---
+import Base from '../../layouts/Base.astro';
+import Contact from '../../components/Contact.astro';
+import Sources from '../../components/Sources.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const gemeenten = await getCollection('gemeenten');
+  return gemeenten.map((g) => ({ params: { slug: g.id }, props: { g } }));
+}
+const { g } = Astro.props;
+const d = g.data;
+const routeLabel: Record<string, string> = {
+  wijkteam: 'Gemeentelijke toegang', huisarts: 'Medische route', school: 'Via school',
+  'gecertificeerde-instelling': 'Jeugdbescherming', spoed: 'Spoed', overig: 'Overig',
+};
+---
+<Base title={`Jeugdhulp in ${d.naam}`} description={d.toegang.samenvatting}>
+  <p><span class={`badge ${d.meta.status}`}>{d.meta.status}</span></p>
+  <h1>Jeugdhulp in {d.naam}</h1>
+  <p class="lead">{d.provincie}{d.jeugdzorgregio && <> · regio {d.jeugdzorgregio}</>} · <a href={d.websiteJeugd} target="_blank" rel="noopener">Website gemeente</a></p>
+
+  {d.meta.status === 'voorbeeld' && (
+    <div class="notice"><strong>Let op:</strong> deze pagina bevat voorbeeldgegevens die nog niet zijn geverifieerd. Controleer contactgegevens altijd op de website van de gemeente.</div>
+  )}
+
+  <nav class="toc" aria-label="Inhoud">
+    <a href="#toegang">1. Hoe krijg ik hulp?</a>
+    <a href="#rechten">2. Waar heb ik recht op?</a>
+    <a href="#aanbod">3. Welke hulp is er?</a>
+    <a href="#lokaal">4. Lokale steun</a>
+    <a href="#bronnen">Bronnen</a>
+  </nav>
+
+  <section class="section" id="toegang">
+    <h2><span class="section-num">1</span>Hoe krijg ik hulp?</h2>
+    <p>{d.toegang.samenvatting}</p>
+    {d.toegang.routes.map((r) => (
+      <div class="route">
+        <span class="badge">{routeLabel[r.type]}</span>
+        <h3>{r.naam}</h3>
+        <p>{r.omschrijving}</p>
+        <ol>{r.stappen.map((s) => <li>{s}</li>)}</ol>
+        {r.doorlooptijd && <p class="meta"><em>{r.doorlooptijd}</em></p>}
+        {r.contact && <Contact contact={r.contact} />}
+      </div>
+    ))}
+  </section>
+
+  <section class="section" id="rechten">
+    <h2><span class="section-num">2</span>Waar heb ik recht op?</h2>
+    <h3>Onafhankelijke cliëntondersteuning (gratis)</h3>
+    {d.rechten.onafhankelijkeClientondersteuning.toelichting && <p>{d.rechten.onafhankelijkeClientondersteuning.toelichting}</p>}
+    <Contact contact={d.rechten.onafhankelijkeClientondersteuning} />
+
+    <h3>Persoonsgebonden budget (pgb)</h3>
+    <p>{d.rechten.pgb.mogelijk ? 'Een pgb is mogelijk.' : 'Een pgb wordt in deze gemeente niet of beperkt verstrekt.'} {d.rechten.pgb.toelichting}
+      {d.rechten.pgb.url && <> <a href={d.rechten.pgb.url} target="_blank" rel="noopener">Meer informatie</a></>}</p>
+
+    <h3>Bezwaar en klachten</h3>
+    <p>{d.rechten.bezwaarEnKlacht.toelichting}
+      {d.rechten.bezwaarEnKlacht.url && <> <a href={d.rechten.bezwaarEnKlacht.url} target="_blank" rel="noopener">Bezwaar maken</a></>}</p>
+
+    {d.rechten.vertrouwenspersoon && (<><h3>Vertrouwenspersoon</h3><Contact contact={d.rechten.vertrouwenspersoon} /></>)}
+  </section>
+
+  <section class="section" id="aanbod">
+    <h2><span class="section-num">3</span>Welke hulp is er?</h2>
+    {d.aanbod.samenvatting && <p>{d.aanbod.samenvatting}</p>}
+    {d.aanbod.categorieen.length > 0 && (
+      <ul>{d.aanbod.categorieen.map((c) => <li><strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}</li>)}</ul>
+    )}
+    {d.aanbod.gecontracteerdeAanbiedersUrl && <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Overzicht gecontracteerde aanbieders</a></p>}
+  </section>
+
+  <section class="section" id="lokaal">
+    <h2><span class="section-num">4</span>Lokale steun en initiatieven</h2>
+    {d.lokaleInitiatieven.length === 0 ? <p>Nog geen lokale initiatieven opgenomen.</p> : (
+      <div class="grid">
+        {d.lokaleInitiatieven.map((i) => (
+          <div class="card">
+            <span class="badge">{i.soort}</span>
+            <h3>{i.naam}</h3>
+            <p>{i.omschrijving}</p>
+            {i.url && <a href={i.url} target="_blank" rel="noopener">Website</a>}
+            {i.contact && <Contact contact={i.contact} />}
+          </div>
+        ))}
+      </div>
+    )}
+    <p class="meta" style="margin-top:1rem">Zie ook de <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/organisaties/`}>landelijke organisaties</a>.</p>
+  </section>
+
+  <section id="bronnen">
+    {d.meta.opmerkingen && <p class="meta"><em>{d.meta.opmerkingen}</em></p>}
+    <Sources bronnen={d.meta.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />
+  </section>
+</Base>

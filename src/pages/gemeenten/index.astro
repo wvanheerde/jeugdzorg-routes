@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+---
+<Base title="Gemeenten">
+  <h1>Gemeenten</h1>
+  <p class="lead">Elke gemeentepagina volgt dezelfde indeling: toegang, rechten, aanbod en lokale steun.</p>
+  <div class="grid">
+    {gemeenten.map((g) => (
+      <a class="card link" href={`${base}/gemeenten/${g.id}/`}>
+        <h3>{g.data.naam}</h3>
+        <p class="meta">{g.data.provincie}{g.data.jeugdzorgregio && <> · {g.data.jeugdzorgregio}</>}</p>
+        <span class={`badge ${g.data.meta.status}`}>{g.data.meta.status}</span>
+      </a>
+    ))}
+  </div>
+</Base>

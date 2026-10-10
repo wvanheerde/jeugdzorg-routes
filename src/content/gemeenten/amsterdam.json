@@ -1,0 +1,106 @@
+{
+  "naam": "Amsterdam",
+  "cbsCode": "GM0363",
+  "provincie": "Noord-Holland",
+  "jeugdzorgregio": "Amsterdam-Amstelland",
+  "websiteJeugd": "https://www.amsterdam.nl/zorg-ondersteuning/ondersteuning/jeugdhulp/",
+  "toegang": {
+    "samenvatting": "In Amsterdam loopt de toegang tot jeugdhulp via het Ouder- en Kindteam (OKT) in uw buurt. Daarnaast kan de huisarts, jeugdarts of medisch specialist rechtstreeks verwijzen.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Ouder- en Kindteam (OKT)",
+        "omschrijving": "Het OKT is het gemeentelijke toegangsteam. Elke buurt heeft een eigen team met ouder- en kindadviseurs, jeugdartsen en jeugdpsychologen.",
+        "stappen": [
+          "Zoek het OKT van uw buurt via de website of bel het centrale nummer.",
+          "Een ouder- en kindadviseur plant een gesprek (thuis, op school of op locatie).",
+          "Samen maakt u een plan; het OKT kan zelf hulp bieden of specialistische jeugdhulp inzetten.",
+          "Bij specialistische hulp ontvangt u een verwijzing/beschikking van de gemeente."
+        ],
+        "contact": {
+          "naam": "Ouder- en Kindteams Amsterdam",
+          "telefoon": "020 555 5961",
+          "url": "https://oktamsterdam.nl/"
+        },
+        "doorlooptijd": "Eerste gesprek doorgaans binnen 1-2 weken."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen direct doorverwijzen naar jeugd-GGZ en andere specialistische jeugdhulp, zonder tussenkomst van het OKT.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of jeugdarts (GGD).",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij acute onveiligheid of crisis.",
+        "stappen": [
+          "Bij direct gevaar: bel 112.",
+          "Zorgen over veiligheid: Veilig Thuis, 0800-2000 (gratis, 24/7).",
+          "Psychische crisis: neem contact op met de huisarts of huisartsenpost; die schakelt de crisisdienst in."
+        ]
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Amstel en Zaan / Cliëntenbelang Amsterdam",
+      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner kan meegaan naar gesprekken met het OKT en helpen bij het formuleren van uw hulpvraag.",
+      "url": "https://www.meeaz.nl/",
+      "telefoon": "020 512 7272"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een persoonsgebonden budget voor jeugdhulp is mogelijk als u motiveert waarom zorg in natura niet passend is en u het budget kunt beheren.",
+      "url": "https://www.amsterdam.nl/zorg-ondersteuning/pgb/"
+    },
+    "bezwaarEnKlacht": {
+      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken bij de gemeente. Over de bejegening door het OKT of een aanbieder kunt u een klacht indienen bij die organisatie.",
+      "url": "https://www.amsterdam.nl/veelgevraagd/bezwaar-maken/"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Amsterdam koopt jeugdhulp in via het Regionaal Inkoopteam. Specialistische hulp wordt geleverd door een beperkt aantal kernpartners met onderaannemers.",
+    "gecontracteerdeAanbiedersUrl": "https://www.amsterdam.nl/zorg-ondersteuning/ondersteuning/jeugdhulp/",
+    "categorieen": [
+      { "naam": "Opvoed- en opgroeiondersteuning", "omschrijving": "Laagdrempelig via het OKT, zonder beschikking." },
+      { "naam": "Jeugd-GGZ", "omschrijving": "Via verwijzing van OKT of arts." },
+      { "naam": "Hulp bij (licht) verstandelijke beperking" },
+      { "naam": "Dagbesteding, logeren en respijtzorg" },
+      { "naam": "Pleegzorg en gezinshuizen" }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Cliëntenbelang Amsterdam",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Behartigt de belangen van Amsterdammers die zorg of ondersteuning nodig hebben; organiseert bijeenkomsten en signaleert knelpunten.",
+      "url": "https://www.clientenbelangamsterdam.nl/"
+    },
+    {
+      "naam": "Mantelzorg & Meer",
+      "soort": "vrijwilligers",
+      "omschrijving": "Ondersteuning en respijt voor mantelzorgers, waaronder ouders van kinderen met een beperking of ziekte.",
+      "url": "https://www.mantelzorgenmeer.nl/"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-10",
+    "status": "voorbeeld",
+    "bronnen": [
+      { "titel": "Gemeente Amsterdam – Jeugdhulp", "url": "https://www.amsterdam.nl/zorg-ondersteuning/ondersteuning/jeugdhulp/", "geraadpleegd": "2026-10-10" },
+      { "titel": "Ouder- en Kindteams Amsterdam", "url": "https://oktamsterdam.nl/", "geraadpleegd": "2026-10-10" }
+    ],
+    "opmerkingen": "Voorbeelddata op basis van algemeen bekende structuur; telefoonnummers en URL's nog te verifiëren."
+  }
+}

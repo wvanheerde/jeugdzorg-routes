@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Sources from '../components/Sources.astro';
+import { getCollection, render } from 'astro:content';
+const items = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const rendered = await Promise.all(items.map(async (i) => ({ i, Content: (await render(i)).Content })));
+---
+<Base title="Landelijke rechten">
+  <h1>Waar u landelijk recht op heeft</h1>
+  <p class="lead">Dit geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's.</p>
+  <nav class="toc" aria-label="Inhoud">{items.map((i) => <a href={`#${i.id}`}>{i.data.titel}</a>)}</nav>
+  {rendered.map(({ i, Content }) => (
+    <section class="section prose" id={i.id}>
+      <h2>{i.data.titel}</h2>
+      <p class="lead" style="font-size:1rem">{i.data.samenvatting}</p>
+      <Content />
+      <Sources bronnen={i.data.bronnen} laatstGecontroleerd={i.data.laatstGecontroleerd} />
+    </section>
+  ))}
+</Base>

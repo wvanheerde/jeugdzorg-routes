@@ -1,0 +1,93 @@
+{
+  "naam": "Groningen",
+  "cbsCode": "GM0014",
+  "provincie": "Groningen",
+  "jeugdzorgregio": "Groningen (RIGG)",
+  "websiteJeugd": "https://gemeente.groningen.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Groningen vormen de WIJ-teams de toegang tot jeugdhulp. De regionale inkoop loopt via de RIGG (Regionale Inkooporganisatie Groninger Gemeenten).",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "WIJ Groningen",
+        "omschrijving": "WIJ-teams zijn er in elke wijk voor vragen over opvoeden, opgroeien, geld, wonen en gezondheid.",
+        "stappen": [
+          "Loop binnen bij het WIJ-team in uw wijk of bel.",
+          "Een medewerker bespreekt uw vraag en maakt samen met u een plan.",
+          "Bij specialistische hulp verzorgt WIJ de toeleiding naar een gecontracteerde aanbieder."
+        ],
+        "contact": {
+          "naam": "WIJ Groningen",
+          "telefoon": "050 367 4200",
+          "url": "https://wij.groningen.nl/"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Rechtstreekse verwijzing naar gecontracteerde jeugdhulp is mogelijk. Veel huisartsen werken met een praktijkondersteuner jeugd (POH-jeugd).",
+        "stappen": [
+          "Bespreek de zorgen met de huisarts.",
+          "De POH-jeugd kan kortdurende hulp bieden of verwijzen.",
+          "Bij verwijzing neemt de aanbieder contact met u op."
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij acute onveiligheid of crisis.",
+        "stappen": [
+          "Bij direct gevaar: bel 112.",
+          "Veilig Thuis Groningen: 0800-2000.",
+          "Crisis: via huisarts(enpost) wordt Spoed4Jeugd ingeschakeld."
+        ]
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Noord",
+      "toelichting": "Gratis onafhankelijke cliëntondersteuning voor inwoners van Groningen.",
+      "url": "https://www.meenoord.nl/",
+      "telefoon": "088 023 1000"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Aanvraag via het WIJ-team; u moet een budgetplan opstellen."
+    },
+    "bezwaarEnKlacht": {
+      "toelichting": "Bezwaar tegen een beschikking binnen 6 weken bij de gemeente. Klachten over WIJ via de klachtenregeling van WIJ Groningen."
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Regionaal ingekocht via de RIGG; een overzicht van gecontracteerde aanbieders staat op de RIGG-website.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rigg.nl/",
+    "categorieen": [
+      { "naam": "Ambulante jeugdhulp" },
+      { "naam": "Jeugd-GGZ" },
+      { "naam": "Verblijf en pleegzorg" },
+      { "naam": "Dyslexiezorg" }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Humanitas Groningen – Home-Start",
+      "soort": "vrijwilligers",
+      "omschrijving": "Ervaren vrijwilligers ondersteunen gezinnen met jonge kinderen bij opvoeding en dagelijkse zorgen.",
+      "url": "https://www.humanitas.nl/afdeling/groningen-stad/"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-10",
+    "status": "voorbeeld",
+    "bronnen": [
+      { "titel": "Gemeente Groningen – Jeugdhulp", "url": "https://gemeente.groningen.nl/jeugdhulp", "geraadpleegd": "2026-10-10" }
+    ],
+    "opmerkingen": "Voorbeelddata; contactgegevens nog te verifiëren."
+  }
+}

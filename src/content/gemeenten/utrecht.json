@@ -1,0 +1,110 @@
+{
+  "naam": "Utrecht",
+  "cbsCode": "GM0344",
+  "provincie": "Utrecht",
+  "jeugdzorgregio": "Utrecht Stad",
+  "websiteJeugd": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/",
+  "toegang": {
+    "samenvatting": "In Utrecht zijn de buurtteams Jeugd & Gezin (uitgevoerd door Lokalis) de toegang tot jeugdhulp. Zij bieden zelf basishulp en verwijzen waar nodig naar specialistische jeugdhulp (o.a. KOOS en Spoor030).",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Buurtteam Jeugd & Gezin (Lokalis)",
+        "omschrijving": "Gezinswerkers van het buurtteam bieden gratis begeleiding bij opvoeden, opgroeien, scheiding, schulden en meer. Geen verwijzing nodig.",
+        "stappen": [
+          "Neem contact op met het buurtteam in uw wijk (telefonisch, online of via inloop).",
+          "Binnen enkele dagen volgt een kennismakingsgesprek.",
+          "Het buurtteam biedt zelf hulp of schakelt specialistische hulp in via de aanvullende zorg."
+        ],
+        "contact": {
+          "naam": "Lokalis – Buurtteams Jeugd & Gezin",
+          "telefoon": "030 740 0500",
+          "url": "https://www.lokalis.nl/"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Artsen kunnen rechtstreeks verwijzen naar specialistische jeugdhulp; de aanbieder regelt de toewijzing met de gemeente.",
+        "stappen": [
+          "Bespreek de hulpvraag met de huisarts of jeugdarts.",
+          "De arts verwijst naar KOOS Utrecht, Spoor030 of een andere gecontracteerde aanbieder.",
+          "De aanbieder neemt contact met u op voor een intake."
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school en samenwerkingsverband",
+        "omschrijving": "Elke school heeft een vast contactpersoon van het buurtteam. Bij zorgen rond onderwijs kan de school meedenken over passend onderwijs én jeugdhulp.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht of intern begeleider.",
+          "School schakelt de gezinswerker van het buurtteam in.",
+          "Bij onderwijsondersteuning loopt de aanvraag via het samenwerkingsverband."
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij acute onveiligheid of crisis.",
+        "stappen": [
+          "Bij direct gevaar: bel 112.",
+          "Zorgen over veiligheid: Veilig Thuis, 0800-2000.",
+          "Crisis jeugd: via huisarts(enpost) wordt de crisisdienst ingeschakeld."
+        ]
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Utrecht, Gooi & Vecht / U Centraal",
+      "toelichting": "Gratis en onafhankelijk van de gemeente en zorgaanbieders.",
+      "url": "https://www.meeugv.nl/",
+      "telefoon": "030 264 2222"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Mogelijk na een gesprek met het buurtteam, mits u aantoont dat zorg in natura niet passend is.",
+      "url": "https://www.utrecht.nl/zorg-en-onderwijs/persoonsgebonden-budget-pgb/"
+    },
+    "bezwaarEnKlacht": {
+      "toelichting": "Bezwaar tegen een beschikking binnen 6 weken bij de gemeente Utrecht. Klachten over het buurtteam via de klachtenregeling van Lokalis.",
+      "url": "https://www.utrecht.nl/bestuur-en-organisatie/bezwaar-maken/"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Utrecht werkt met twee grote specialistische partners: KOOS Utrecht (jeugd-GGZ en LVB) en Spoor030 (jeugdhulp en jeugdbescherming).",
+    "categorieen": [
+      { "naam": "Basishulp via het buurtteam" },
+      { "naam": "Specialistische jeugdhulp (KOOS, Spoor030)" },
+      { "naam": "Dyslexiezorg" },
+      { "naam": "Pleegzorg en gezinshuizen" }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Steunpunt GGZ Utrecht",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Informatie, advies en lotgenotencontact voor mensen met psychische problemen en hun naasten.",
+      "url": "https://www.steunpuntggzutrecht.nl/"
+    },
+    {
+      "naam": "Handjehelpen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Koppelt vrijwilligers aan gezinnen met een kind met een beperking of ziekte voor een paar uur per week.",
+      "url": "https://www.handjehelpen.nl/"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-10",
+    "status": "voorbeeld",
+    "bronnen": [
+      { "titel": "Gemeente Utrecht – Jeugd en gezin", "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/", "geraadpleegd": "2026-10-10" }
+    ],
+    "opmerkingen": "Voorbeelddata; contactgegevens nog te verifiëren."
+  }
+}

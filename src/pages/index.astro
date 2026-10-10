@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+---
+<Base title="Wegwijs in de jeugdzorg">
+  <section class="hero">
+    <h1>Wegwijs in de jeugdzorg, per gemeente</h1>
+    <p class="lead">
+      Jeugdhulp wordt in Nederland door gemeenten geregeld, en elke gemeente doet dat anders.
+      Deze site zet per gemeente op dezelfde manier op een rij hoe u aan hulp komt, waar u recht op heeft en wie u verder kan helpen.
+    </p>
+    <div class="actions">
+      <a class="btn primary" href={`${base}/gemeenten/`}>Kies uw gemeente</a>
+      <a class="btn secondary" href={`${base}/landelijk/`}>Uw rechten (landelijk)</a>
+    </div>
+  </section>
+
+  <h2>Drie dingen om te weten</h2>
+  <div class="grid">
+    <div class="card"><h3>U hoeft niet via het wijkteam</h3><p>De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dat is een gelijkwaardige route.</p></div>
+    <div class="card"><h3>Gratis cliëntondersteuning</h3><p>Elke gemeente moet een onafhankelijke cliëntondersteuner aanbieden die met u meegaat naar gesprekken. Vraag ernaar.</p></div>
+    <div class="card"><h3>Bezwaar is mogelijk</h3><p>Niet eens met een besluit? U heeft zes weken om bezwaar te maken. Een vertrouwenspersoon van Jeugdstem helpt gratis.</p></div>
+  </div>
+
+  <h2>Gemeenten</h2>
+  <div class="grid">
+    {gemeenten.map((g) => (
+      <a class="card link" href={`${base}/gemeenten/${g.id}/`}>
+        <h3>{g.data.naam}</h3>
+        <p class="meta">{g.data.provincie}{g.data.jeugdzorgregio && <> · {g.data.jeugdzorgregio}</>}</p>
+      </a>
+    ))}
+  </div>
+</Base>

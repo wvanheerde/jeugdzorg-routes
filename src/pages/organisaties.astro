@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const orgs = (await getCollection('organisaties')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const soortLabel: Record<string, string> = {
+  belangenorganisatie: 'Belangenorganisatie', patientenorganisatie: 'Patiëntenorganisatie', oudervereniging: 'Oudervereniging',
+  vrijwilligers: 'Vrijwilligers', kennisinstituut: 'Kennisinstituut', overheid: 'Overheid', hulplijn: 'Hulplijn',
+};
+const groepen = Object.keys(soortLabel).map((k) => ({ k, label: soortLabel[k], items: orgs.filter((o) => o.data.soort === k) })).filter((g) => g.items.length);
+---
+<Base title="Organisaties">
+  <h1>Organisaties die u verder helpen</h1>
+  <p class="lead">Belangen- en patiëntenorganisaties, ouderverenigingen en hulplijnen. Zij bieden informatie, lotgenotencontact en vaak ook bijeenkomsten en activiteiten.</p>
+  <nav class="toc" aria-label="Inhoud">{groepen.map((g) => <a href={`#${g.k}`}>{g.label}</a>)}</nav>
+  {groepen.map((g) => (
+    <section id={g.k}>
+      <h2>{g.label}</h2>
+      <div class="grid">
+        {g.items.map((o) => (
+          <div class="card">
+            <h3>{o.data.naam}</h3>
+            <div class="tags">{o.data.themas.map((t) => <span>{t}</span>)}</div>
+            <p>{o.data.omschrijving}</p>
+            {o.data.watBiedenZij.length > 0 && <ul>{o.data.watBiedenZij.map((w) => <li>{w}</li>)}</ul>}
+            <p class="contact">
+              <a href={o.data.url} target="_blank" rel="noopener">Website</a>
+              {o.data.telefoon && <> · <a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></>}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>

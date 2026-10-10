@@ -1,0 +1,12 @@
+---
+interface Props { contact: { naam: string; omschrijving?: string; telefoon?: string; email?: string; url?: string; adres?: string; openingstijden?: string } }
+const { contact: c } = Astro.props;
+---
+<p class="contact">
+  <strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}<br />
+  {c.telefoon && <>Telefoon: <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a> · </>}
+  {c.email && <>E-mail: <a href={`mailto:${c.email}`}>{c.email}</a> · </>}
+  {c.url && <a href={c.url} target="_blank" rel="noopener">Website</a>}
+  {c.adres && <><br />{c.adres}</>}
+  {c.openingstijden && <><br />{c.openingstijden}</>}
+</p>

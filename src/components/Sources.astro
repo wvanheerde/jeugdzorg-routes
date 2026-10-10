@@ -1,0 +1,10 @@
+---
+interface Props { bronnen: { titel: string; url: string; geraadpleegd: string }[]; laatstGecontroleerd: string }
+const { bronnen, laatstGecontroleerd } = Astro.props;
+---
+<div class="sources">
+  Laatst gecontroleerd: {laatstGecontroleerd}
+  {bronnen.length > 0 && (
+    <ul>{bronnen.map((b) => <li><a href={b.url} target="_blank" rel="noopener">{b.titel}</a> (geraadpleegd {b.geraadpleegd})</li>)}</ul>
+  )}
+</div>
