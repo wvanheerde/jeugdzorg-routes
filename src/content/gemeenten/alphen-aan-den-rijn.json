@@ -1,0 +1,133 @@
+{
+  "naam": "Alphen aan den Rijn",
+  "cbsCode": "GM0484",
+  "provincie": "Zuid-Holland",
+  "jeugdzorgregio": "Holland Rijnland",
+  "websiteJeugd": "https://www.alphenaandenrijn.nl/Jeugdhulp",
+  "toegang": {
+    "samenvatting": "Sinds 1 januari 2024 verzorgt Oog voor Thuis (voorheen Jeugd- en Gezinsteams) de toegang tot jeugdhulp in Alphen aan den Rijn, Boskoop en Rijnwoude. Oog voor Thuis is een organisatie van de gemeente zelf en werkt vanuit de CJG-locaties. Daarnaast kunnen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen. Tot eind 2023 liep de toegang via GO! voor jeugd; oudere informatie op internet kan daardoor verouderd zijn.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Oog voor Thuis (Jeugd- en Gezinsteams)",
+        "omschrijving": "Gemeentelijk toegangsteam voor kinderen en jongeren tot 18 jaar. Werkt volgens de aanpak 'Gezin Centraal': niet alleen het kind, maar het hele gezin en de omgeving worden betrokken. Biedt zelf laagdrempelige hulp en zet specialistische jeugdhulp in.",
+        "stappen": [
+          "Meld uw kind aan via het online aanmeldformulier op oogvoorthuis.nl of bel voor een terugbelafspraak.",
+          "Een medewerker neemt contact op en plant een eerste gesprek, bijvoorbeeld op een CJG-locatie of thuis.",
+          "Samen maakt u een gezinsplan. Oog voor Thuis biedt zelf hulp of zet specialistische jeugdhulp in.",
+          "Bij specialistische hulp ontvangt u een beschikking van de gemeente."
+        ],
+        "contact": {
+          "naam": "Oog voor Thuis",
+          "telefoon": "0172 227 000",
+          "email": "info@oogvoorthuis.nl",
+          "url": "https://www.oogvoorthuis.nl/",
+          "adres": "Stadhuisplein 12, 2405 SH Alphen aan den Rijn. Locaties: CJG Stadhuis (Stadhuisplein 7), CJG Ridderveld (Troubadourweg 2a), CJG Boskoop (Snijdelwijklaan 4a), CJG Rijnwoude (Lindehof 1, Hazerswoude-Dorp)",
+          "openingstijden": "Maandag t/m vrijdag 8.30–17.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de regio Holland Rijnland gecontracteerde jeugdhulp, zonder tussenkomst van Oog voor Thuis.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
+          "De arts verwijst naar een gecontracteerde aanbieder, bijvoorbeeld voor jeugd-GGZ.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Scholen in Alphen aan den Rijn werken samen met Oog voor Thuis. Bij zorgen rond leren of gedrag kan de school meedenken en contact leggen.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht of intern begeleider.",
+          "School schakelt zo nodig de contactpersoon van Oog voor Thuis in.",
+          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs Rijnstreek."
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij acute onveiligheid of crisis. Oog voor Thuis is buiten kantoortijden bereikbaar voor crisissituaties.",
+        "stappen": [
+          "Bij direct gevaar: bel 112.",
+          "Zorgen over veiligheid: Veilig Thuis Hollands Midden, 0800-2000 (gratis, 24/7).",
+          "Crisis buiten kantoortijden: zie de crisispagina van oogvoorthuis.nl of bel de huisartsenpost, die de crisisdienst inschakelt."
+        ]
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Servicepunt (MEE Zuid-Holland Noord)",
+      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner helpt bij het voorbereiden van gesprekken met Oog voor Thuis of het CJG, gaat mee en bespreekt het na. Let op: de gemeente beperkt de ondersteuning tot gesprekken met de genoemde organisaties.",
+      "telefoon": "088 775 2000",
+      "email": "info@meezhn.nl",
+      "url": "https://www.alphenaandenrijn.nl/Zorg_en_ondersteuning/Hulp_bij_een_gesprek"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb voor jeugdhulp vraagt u aan via Oog voor Thuis. U moet motiveren waarom zorg in natura niet passend is en een budgetplan opstellen."
+    },
+    "bezwaarEnKlacht": {
+      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken bij de gemeente Alphen aan den Rijn. Klachten over Oog voor Thuis dient u in bij Oog voor Thuis zelf; de organisatie valt onder de gemeente. Loopt uw hulp vast na de overgang van GO! voor jeugd? Mail jeugdhulplooptdoor@alphenaandenrijn.nl.",
+      "url": "https://www.alphenaandenrijn.nl/Bestuur_en_organisatie/Bezwaar_maken"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Oog voor Thuis biedt zelf opvoedondersteuning en ambulante jeugdhulp. Specialistische jeugdhulp wordt regionaal ingekocht via Holland Rijnland (Tijdelijke Werkorganisatie Opdrachtgeverschap Jeugdhulp).",
+    "gecontracteerdeAanbiedersUrl": "https://www.hollandrijnland.nl/",
+    "categorieen": [
+      { "naam": "Opvoed- en opgroeiondersteuning", "omschrijving": "Laagdrempelig via CJG en Oog voor Thuis, zonder beschikking." },
+      { "naam": "Ambulante gezinsbegeleiding", "omschrijving": "Door Oog voor Thuis zelf." },
+      { "naam": "Jeugd-GGZ", "omschrijving": "Via verwijzing van Oog voor Thuis of arts." },
+      { "naam": "Hulp bij (licht) verstandelijke beperking" },
+      { "naam": "Dagbesteding, logeren en respijtzorg" },
+      { "naam": "Pleegzorg en gezinshuizen" }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Centrum voor Jeugd en Gezin (CJG) Alphen aan den Rijn",
+      "soort": "informatiepunt",
+      "omschrijving": "Inlooppunt voor vragen over opvoeden en opgroeien, consultatiebureau, jeugdgezondheidszorg en cursussen voor ouders.",
+      "url": "https://www.cjgalphenaandenrijn.nl/"
+    },
+    {
+      "naam": "Tom in de buurt",
+      "soort": "informatiepunt",
+      "omschrijving": "Samenwerking van welzijns- en zorgorganisaties voor ondersteuning in de wijk (Wmo). Ook voor ouders die zelf ondersteuning nodig hebben, bijvoorbeeld bij mantelzorg of financiën.",
+      "url": "https://www.tomindebuurt.nl/"
+    },
+    {
+      "naam": "Kwadraad maatschappelijk werk",
+      "soort": "overig",
+      "omschrijving": "Gratis maatschappelijk werk voor volwassenen en gezinnen in Alphen aan den Rijn.",
+      "url": "https://www.kwadraad.nl/waar-vind-ik-kwadraad/alphen-aan-den-rijn/"
+    },
+    {
+      "naam": "Jongeren Informatie Punt (JIP)",
+      "soort": "informatiepunt",
+      "omschrijving": "Informatie en advies voor jongeren zelf, over school, geld, wonen en hulp.",
+      "url": "https://www.alphenaandenrijn.nl/Jeugdhulp/Jongeren_Informatie_Punt_JIP/Jongeren_Informatie_Punt_JIP"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-10",
+    "status": "concept",
+    "bronnen": [
+      { "titel": "Oog voor Thuis", "url": "https://www.oogvoorthuis.nl/", "geraadpleegd": "2026-10-10" },
+      { "titel": "CJG Alphen aan den Rijn – Jeugd- en Gezinsteams", "url": "https://www.cjgalphenaandenrijn.nl/pagina/jeugd--en-gezinsteams/663752", "geraadpleegd": "2026-10-10" },
+      { "titel": "Gemeente Alphen aan den Rijn – Hulp bij een gesprek", "url": "https://www.alphenaandenrijn.nl/Zorg_en_ondersteuning/Hulp_bij_een_gesprek", "geraadpleegd": "2026-10-10" },
+      { "titel": "IGJ – Verscherpt toezicht Jeugdhulplooptdoor (beëindigd feb. 2026)", "url": "https://www.igj.nl/actueel/nieuws/2025/05/22/verscherpt-toezicht-jeugdhulplooptdoor", "geraadpleegd": "2026-10-10" }
+    ],
+    "opmerkingen": "Toegang, contactgegevens en cliëntondersteuning geverifieerd op de genoemde bronnen. Nog te controleren: pgb-procedure, bezwaar-URL, samenwerkingsverband onderwijs en de inkoopstructuur van Holland Rijnland."
+  }
+}
