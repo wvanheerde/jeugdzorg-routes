@@ -1,5 +1,25 @@
-{ "naam": "MIND", "soort": "patientenorganisatie", "themas": ["ggz", "psychische gezondheid", "naasten"],
+{
+  "naam": "MIND",
+  "soort": "patientenorganisatie",
+  "themas": [
+    "ggz",
+    "psychische gezondheid",
+    "naasten",
+    "angst",
+    "somberheid",
+    "depressie",
+    "eetstoornis"
+  ],
   "omschrijving": "Landelijke organisatie voor mensen met psychische klachten en hun naasten. Biedt informatie, lotgenotencontact en een luisterend oor.",
-  "watBiedenZij": ["MIND Korrelatie: hulplijn voor psychische en sociale problemen", "Informatie over jeugd-GGZ en wachtlijsten", "Platform voor naasten"],
-  "url": "https://mindplatform.nl/", "telefoon": "0900 1450",
-  "meta": { "laatstGecontroleerd": "2026-10-10", "status": "concept" } }
+  "watBiedenZij": [
+    "MIND Korrelatie: hulplijn voor psychische en sociale problemen",
+    "Informatie over jeugd-GGZ en wachtlijsten",
+    "Platform voor naasten"
+  ],
+  "url": "https://mindplatform.nl/",
+  "telefoon": "0900 1450",
+  "meta": {
+    "laatstGecontroleerd": "2026-10-10",
+    "status": "concept"
+  }
+}

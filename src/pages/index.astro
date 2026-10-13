@@ -1,36 +1,72 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import GemeenteCard from '../components/GemeenteCard.astro';
+import GemeenteZoeker from '../components/GemeenteZoeker.astro';
+import Wegwijzer from '../components/Wegwijzer.astro';
 import { getCollection } from 'astro:content';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 ---
-<Base title="Wegwijs in de jeugdzorg">
+<Base title="Wegwijs in de jeugdzorg" description="Waar begint u als uw kind hulp nodig heeft? Per gemeente: waar u zich meldt, wat uw rechten zijn en waar u steun vindt. Onafhankelijk en gratis.">
   <section class="hero">
+    <span class="eyebrow">Voor ouders en verzorgers</span>
     <h1>Wegwijs in de jeugdzorg, per gemeente</h1>
     <p class="lead">
-      Jeugdhulp wordt in Nederland door gemeenten geregeld, en elke gemeente doet dat anders.
-      Deze site zet per gemeente op dezelfde manier op een rij hoe u aan hulp komt, waar u recht op heeft en wie u verder kan helpen.
+      <span class="alleen-breed">Jeugdhulp wordt door uw gemeente geregeld, en elke gemeente doet dat anders.</span>{" "}
+      Kies hieronder uw gemeente en wat er speelt.
     </p>
-    <div class="actions">
-      <a class="btn primary" href={`${base}/gemeenten/`}>Kies uw gemeente</a>
-      <a class="btn secondary" href={`${base}/landelijk/`}>Uw rechten (landelijk)</a>
-    </div>
+    <Wegwijzer />
+    <p class="hint">Of lees eerst <a href={`${base}/landelijk/`} style="color:#fff">wat landelijk voor iedereen geldt</a>.</p>
   </section>
 
-  <h2>Drie dingen om te weten</h2>
-  <div class="grid">
-    <div class="card"><h3>U hoeft niet via het wijkteam</h3><p>De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dat is een gelijkwaardige route.</p></div>
-    <div class="card"><h3>Gratis cliëntondersteuning</h3><p>Elke gemeente moet een onafhankelijke cliëntondersteuner aanbieden die met u meegaat naar gesprekken. Vraag ernaar.</p></div>
-    <div class="card"><h3>Bezwaar is mogelijk</h3><p>Niet eens met een besluit? U heeft zes weken om bezwaar te maken. Een vertrouwenspersoon van Jeugdstem helpt gratis.</p></div>
+  <div class="kicker"><h2>Drie dingen om te weten</h2><span class="line"></span></div>
+  <div class="grid" style="margin-top:1.25rem">
+    <div class="card">
+      <div class="icon"><Icon name="compass" /></div>
+      <h3>U hoeft niet via het wijkteam</h3>
+      <p>De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dat is een gelijkwaardige route.</p>
+    </div>
+    <div class="card">
+      <div class="icon ok"><Icon name="users" /></div>
+      <h3>Gratis cliëntondersteuning</h3>
+      <p>Elke gemeente moet een onafhankelijke cliëntondersteuner aanbieden die met u meegaat naar gesprekken. Vraag ernaar.</p>
+    </div>
+    <div class="card">
+      <div class="icon accent"><Icon name="scale" /></div>
+      <h3>Bezwaar is mogelijk</h3>
+      <p>Niet eens met een besluit? U heeft zes weken om bezwaar te maken. Een vertrouwenspersoon van Jeugdstem helpt gratis.</p>
+    </div>
   </div>
 
-  <h2>Gemeenten</h2>
-  <div class="grid">
-    {gemeenten.map((g) => (
-      <a class="card link" href={`${base}/gemeenten/${g.id}/`}>
-        <h3>{g.data.naam}</h3>
-        <p class="meta">{g.data.provincie}{g.data.jeugdzorgregio && <> · {g.data.jeugdzorgregio}</>}</p>
-      </a>
-    ))}
+  <div class="kicker"><h2>Financieel: waar u mogelijk recht op heeft</h2><span class="line"></span><a class="btn secondary" href={`${base}/overzicht/?k=geld`}>Bekijk wat u kunt regelen</a></div>
+  <p class="lead" style="font-size:1.05rem;margin-top:.75rem">Zorgen voor een kind dat extra zorg nodig heeft, kost geld en tijd. Er zijn regelingen die helpen. Meestal gaan ze niet vanzelf: u moet ze zelf aanvragen.</p>
+  <div class="grid" style="margin-top:1.25rem">
+    <a class="card link" href={`${base}/landelijk/#05-financieel`}>
+      <div class="icon accent"><Icon name="euro" /></div>
+      <h3>Dubbele kinderbijslag</h3>
+      <p>Heeft uw kind van 3 tot 18 jaar veel meer zorg nodig dan andere kinderen? Dan krijgt u misschien twee keer kinderbijslag. Dat kan ook bij autisme of ADHD. U vraagt het aan bij de SVB.</p>
+      <span class="arrow">Wat u opschrijft en hoe u aanvraagt →</span>
+    </a>
+    <a class="card link" href={`${base}/landelijk/#05-financieel`}>
+      <div class="icon accent"><Icon name="coins" /></div>
+      <h3>Extra kinderbijslag</h3>
+      <p>Bent u alleenstaande ouder, of heeft uw partner weinig of geen inkomen? En kreeg u een heel jaar dubbele kinderbijslag? Dan krijgt u nog een extra bedrag: over 2025 € 2.702,13. U vraagt het aan als het jaar voorbij is.</p>
+      <span class="arrow">Hoe het werkt →</span>
+    </a>
+    <a class="card link" href={`${base}/landelijk/#05-financieel`}>
+      <div class="icon accent"><Icon name="calculator" /></div>
+      <h3>Geen eigen bijdrage, wel aftrek</h3>
+      <p>Voor jeugdhulp betaalt u niets zelf. Sommige zorgkosten, zoals reiskosten naar behandelaars of dieetkosten, kunt u misschien aftrekken bij de belasting. Veel gemeenten hebben ook een regeling voor extra kosten.</p>
+      <span class="arrow">Alle regelingen →</span>
+    </a>
   </div>
+
+  <div class="kicker" id="gemeenten"><h2>Gemeenten <span class="badge count">{gemeenten.length}</span></h2><span class="line"></span><a class="btn secondary" href={`${base}/gemeenten/`}>Alle gemeenten</a></div>
+  <div style="max-width:30rem;margin:1rem 0 1.25rem"><GemeenteZoeker target="#gemeenten-grid" /></div>
+  <div class="grid" id="gemeenten-grid">
+    {gemeenten.map((g) => <GemeenteCard g={g} />)}
+  </div>
+  <p class="empty empty-result" hidden style="margin-top:1rem">Geen gemeente gevonden. De <a href={`${base}/landelijk/`}>landelijke rechten</a> gelden overal.</p>
+
 </Base>

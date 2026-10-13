@@ -1,0 +1,357 @@
+{
+  "naam": "Westervoort",
+  "cbsCode": "GM0293",
+  "provincie": "Gelderland",
+  "jeugdzorgregio": "Centraal Gelderland",
+  "websiteJeugd": "https://www.westervoort.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Westervoort meldt u zich bij het Sociaal loket van de gemeente. U belt of vult het aanmeldformulier in. Een verwijzing is niet nodig. Het loket kijkt eerst of lichte hulp genoeg is, zoals maatschappelijk werk, jongerenwerk of een steungezin. Is meer nodig, dan komt een jeugdconsulent van de gemeente meestal bij u thuis voor een gesprek. De consulent besluit over de hulp. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. Hoe lang u wacht op het gesprek met een consulent, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal loket en jeugdconsulenten van de gemeente",
+        "omschrijving": "Het Sociaal loket is de ingang voor jeugdhulp en andere ondersteuning van de gemeente. Een medewerker voert het eerste gesprek. Daarna zoekt een jeugdconsulent (medewerker van de gemeente) met u en uw kind uit welke hulp past. In het team werkt ook een specialist voor vragen over psychische problemen (jeugd-ggz). U kunt uzelf aanmelden.",
+        "stappen": [
+          "Bel het Sociaal loket of vul het online aanmeldformulier in.",
+          "Beantwoord de vragen van de medewerker. Die kijkt of lichte hulp genoeg is, zoals maatschappelijk werk of jongerenwerk. Is dat niet zo, dan neemt een consulent contact met u op.",
+          "Bereid het gesprek met de consulent voor. Dat is meestal bij u thuis. Schrijf vooraf op wat u nodig vindt, en neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Vraag om het schriftelijke verslag van het gesprek. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit). De gemeente streeft naar een besluit binnen acht weken."
+        ],
+        "contact": {
+          "naam": "Sociaal loket Westervoort",
+          "telefoon": "026 317 9911",
+          "email": "sociaalloket@westervoort.nl",
+          "url": "https://www.westervoort.nl/jeugdhulp",
+          "openingstijden": "Telefonisch op werkdagen 8.30–12.30 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal loket. Sinds september 2026 werkt bij één huisartsenpraktijk een praktijkondersteuner jeugd, als proef van de gemeente. Die helpt bij vragen over opvoeden en opgroeien.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. Bij lichtere vragen verwijst de arts naar het Sociaal loket.",
+          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
+          "telefoon": "0800 8446 000",
+          "url": "https://ggdgm.nl/contact-met-de-ggd",
+          "openingstijden": "Gratis, tijdens kantooruren"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Heeft uw kind op school extra hulp nodig, begin dan bij de leerkracht of mentor. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat SWV De Liemers, voor de middelbare school SWV De Verbinding. Is meer hulp nodig dan school kan bieden, meld u dan bij het Sociaal loket.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+          "Is meer hulp nodig dan de school kan bieden? Meld u dan aan bij het Sociaal loket."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal loket Westervoort",
+            "telefoon": "026 317 9911",
+            "email": "sociaalloket@westervoort.nl",
+            "url": "https://www.westervoort.nl/jeugdhulp",
+            "openingstijden": "Telefonisch op werkdagen 8.30–12.30 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Midden-Gelderland: basisonderwijs (SWV De Liemers)",
+            "telefoon": "0316 34 16 18",
+            "email": "info@swvdeliemers-po.nl",
+            "url": "https://www.steunpuntmiddengelderland.nl/contact/",
+            "openingstijden": "Telefonisch maandag t/m donderdag 10.00–12.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Midden-Gelderland: voortgezet onderwijs (SWV De Verbinding)",
+            "telefoon": "026 365 0321",
+            "email": "loket@swvdeverbinding.nl",
+            "url": "https://www.steunpuntmiddengelderland.nl/contact/",
+            "openingstijden": "Telefonisch maandag t/m donderdag 10.00–12.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Wat u kunt doen bij huiselijk geweld of kindermishandeling, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk op de pagina Huiselijk geweld van de gemeente wat u kunt doen."
+        ],
+        "contact": {
+          "naam": "Gemeente Westervoort: huiselijk geweld en kindermishandeling",
+          "url": "https://www.westervoort.nl/huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Adviespunt Zorgbelang",
+      "toelichting": "De gemeente verwijst voor hulp bij een aanvraag naar Adviespunt Zorgbelang. Dat is gratis en onafhankelijk. De cliëntondersteuner gaat mee naar het gesprek met de consulent en helpt ook bij bezwaar. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "url": "https://adviespuntzorgbelang.nl/cli%C3%ABntondersteuning-sociaal-domein"
+    },
+    "klacht": {
+      "naam": "Klacht over de gemeente en het Sociaal loket",
+      "toelichting": "Het Sociaal loket en de jeugdconsulenten werken voor de gemeente. Een klacht over hoe u bent behandeld, dient u daarom in bij de gemeente. Dat kan online (met DigiD of eHerkenning), per brief of via het Sociaal loket. Binnen 6 weken krijgt u een brief met de beslissing. Een klacht over een zorgaanbieder meldt u bij die aanbieder, of bij het Meldpunt signalen zorg van de regio. Een vertrouwenspersoon van Jeugdstem kan met u meedenken.",
+      "url": "https://www.westervoort.nl/klacht-over-behandeling-gemeente",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar maken kan online met DigiD, met een formulier of per post. Een onafhankelijke bezwaarschriftencommissie kan u uitnodigen om uw bezwaar toe te lichten (hoorzitting). De beslissing volgt meestal binnen 12 weken na het einde van de bezwaartermijn. Hulp bij bezwaar krijgt u van Sociaal Raadslieden of van de onafhankelijke cliëntondersteuner.",
+      "url": "https://www.westervoort.nl/bezwaar-en-beroep"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als hulp van een aanbieder met een contract niet past. Leg uit waarom die aanbieders niet passen. U moet het budget zelf of met een beheerder kunnen beheren, en hulp kiezen van goede kwaliteit. Hulp van iemand uit uw netwerk, ook familie, kan onder voorwaarden. Bij spoed is een pgb niet mogelijk. De voorwaarden staan in de Verordening jeugdhulp.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR696843/1"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bijvoorbeeld maatschappelijk werk, jongerenwerk of een steungezin. Specialistische jeugdhulp koopt Westervoort samen met tien andere gemeenten in de regio Centraal Gelderland in. De regio heeft een eigen openbare zoektool met aanbieders die een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de consulent om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://www.inkoopsdcg.nl/home%2Binkoop/inkoop/zoektool%2Bgecontracteerd%2Baanbod%2Bsdcg/default.aspx",
+    "categorieen": [
+      {
+        "naam": "Lichte hulp en opvoedondersteuning",
+        "omschrijving": "Algemeen maatschappelijk werk, jongerenwerk en steungezinnen. Zonder besluit van de gemeente.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, pleegzorg en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Buurtgezinnen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Een steungezin uit de buurt vangt uw kind af en toe op, zodat u wat meer rust heeft.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.buurtgezinnen.nl/waar/gelderland/duiven/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Hulp aanvragen bij het Sociaal loket",
+      "omschrijving": "Online aanmeldformulier voor zorg en ondersteuning.",
+      "url": "https://formulieren.westervoort.nl/aanmeldformulier-zorg-en-ondersteuning/"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://formulieren.westervoort.nl/klacht-indienen/",
+      "nodig": "DigiD of eHerkenning"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.westervoort.nl/bezwaar-en-beroep",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",
+        "url": "https://organisaties.overheid.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Westervoort: Jeugdhulp",
+        "url": "https://www.westervoort.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Westervoort: Informatie over verordening Jeugdhulp",
+        "url": "https://www.westervoort.nl/informatie-over-verordening-jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Westervoort: Sociaal team",
+        "url": "https://www.westervoort.nl/sociaal-team",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Westervoort: Klacht over behandeling gemeente",
+        "url": "https://www.westervoort.nl/klacht-over-behandeling-gemeente",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Westervoort: Bezwaar en beroep",
+        "url": "https://www.westervoort.nl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Westervoort: Huiselijk geweld",
+        "url": "https://www.westervoort.nl/huiselijk-geweld",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp Westervoort 2023",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR696843/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Adviespunt Zorgbelang: cliëntondersteuning sociaal domein",
+        "url": "https://adviespuntzorgbelang.nl/cli%C3%ABntondersteuning-sociaal-domein",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop sociaal domein Centraal Gelderland",
+        "url": "https://www.inkoopsdcg.nl/home%2Binkoop/default.aspx",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop SDCG: zoektool gecontracteerd aanbod",
+        "url": "https://www.inkoopsdcg.nl/home%2Binkoop/inkoop/zoektool%2Bgecontracteerd%2Baanbod%2Bsdcg/default.aspx",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop SDCG: Meldpunt signalen zorg",
+        "url": "https://inkoopsdcg.nl/home+inkoop/inwoner/meldpunt/default.aspx",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Gelderland-Midden: Contact",
+        "url": "https://ggdgm.nl/contact-met-de-ggd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Steunpunt Midden-Gelderland: Contact",
+        "url": "https://www.steunpuntmiddengelderland.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarrekening 2025 gemeente Westervoort",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=0650e9a6-8f1e-4444-ba33-5718da86ed76",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027-2030 Westervoort",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=75979ef6-bd56-473f-ab53-eb6ee93029c4",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Rapport cliëntervaringsonderzoek Jeugd 2025 (over 2024)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=40fb7a29-e4f2-4bc8-a2dc-2ceabe88d3b3",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Rapport Rekenkamer Duiven, Doesburg en Westervoort: jeugdzorgbeleid",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=286b65d8-7796-40bc-9c3f-9e976012b430",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Kennisgeving aanpak wachtlijsten 1Stroom (5 maart 2024)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=874ccee4-ffe1-4684-9741-83aefeb5e8b2",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Contactgegevens Adviespunt Zorgbelang (telefoon) niet gevonden; de contactpagina laadt via JavaScript. Doorlooptijden toegang en een klachtencommissie voor het Sociaal loket niet gevonden. Regionale journalistiek niet doorzocht."
+  },
+  "ervaringen": {
+    "samenvatting": "In het onderzoek van 2025 wisten minder ouders en jongeren waar ze terechtkunnen (61 procent, een jaar eerder 74 procent). Ook voelden minder zich goed geholpen (76 tegen 88 procent). De rekenkamer zag in 2024 dat jeugdconsulenten veel administratie en personeelswisselingen hebben. De gemeente heeft het team van consulenten in 2025 versterkt om wachtlijsten te verminderen.\n\nVraag bij uw aanmelding hoe lang het duurt tot het gesprek met een jeugdconsulent. Leg afspraken schriftelijk vast en vraag om het verslag. Neem een onafhankelijke cliëntondersteuner van Adviespunt Zorgbelang mee. Een klacht over het loket dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Ouders en jongeren: minder tevreden dan een jaar eerder",
+        "samenvatting": "Westervoort deed dit onderzoek samen met Duiven, met 65 deelnemers (21,5 procent). 61 procent weet vaak of altijd waar ze terechtkunnen, tegen 74 procent een jaar eerder. Maar 26 procent kende de onafhankelijke cliëntondersteuner.",
+        "datum": "2025-07-08",
+        "bron": {
+          "titel": "Rapport cliëntervaringsonderzoek Jeugd 2025 (over 2024)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=40fb7a29-e4f2-4bc8-a2dc-2ceabe88d3b3"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamer: consulenten onder druk, wachtlijsten bij aanbieders",
+        "samenvatting": "Jeugdconsulenten hebben veel administratie en door personeelswisselingen een vol takenpakket. Wachtlijsten bij zorgaanbieders zijn soms zo lang dat kinderen niet direct de juiste hulp krijgen. Kinderen in Westervoort krijgen relatief vaak specialistische jeugdhulp waarvoor een besluit of verwijzing nodig is.",
+        "datum": "2024-05-07",
+        "bron": {
+          "titel": "Rapport Rekenkamer: Jeugdzorgbeleid Westervoort (Regioplan)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=286b65d8-7796-40bc-9c3f-9e976012b430"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachtlijst bij het Sociaal loket nam eind 2023 weer toe",
+        "samenvatting": "De gemeente spreekt van een wachtlijst als een aanvraag niet binnen acht weken is afgehandeld. Die wachtlijst werd tot de zomer van 2023 korter en nam daarna weer toe. De gemeente noemde een nieuw computersysteem en personeelswisselingen als oorzaak.",
+        "datum": "2024-03-05",
+        "bron": {
+          "titel": "Kennisgeving aanpak wachtlijsten 1Stroom",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=874ccee4-ffe1-4684-9741-83aefeb5e8b2"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Meer consulenten, Veilig Thuis en jeugdbescherming schuiven aan",
+        "samenvatting": "In 2025 kreeg het team van consulenten extra mensen om wachtlijsten te verminderen. Medewerkers van Veilig Thuis en Jeugdbescherming Gelderland overleggen elke twee weken met de consulenten. Een jongerenwerker en een maatschappelijk werker van Santé Partners werken mee in het Sociaal loket.",
+        "datum": "2026-06-29",
+        "bron": {
+          "titel": "Jaarrekening 2025 gemeente Westervoort",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=0650e9a6-8f1e-4444-ba33-5718da86ed76"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan voor één team voor jeugd en Wmo, proef met praktijkondersteuner",
+        "samenvatting": "Tot eind 2028 wil de gemeente één team maken voor jeugdhulp en Wmo, dat sneller helder krijgt welke hulp nodig is. Sinds september 2026 werkt bij één huisartsenpraktijk een praktijkondersteuner jeugd, als proef. Per 1 januari 2029 willen Doesburg, Duiven, Westervoort en Zevenaar samengaan tot één gemeente.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Programmabegroting 2027-2030 Westervoort",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=75979ef6-bd56-473f-ab53-eb6ee93029c4"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westervoort&id=40fb7a29-e4f2-4bc8-a2dc-2ceabe88d3b3",
+        "samenvatting": "Er is geen onderzoek dat iets zegt over hoe ouders de hulp hier in het algemeen ervaren: alleen een kleine of eigen meting. Vragenlijst onder ouders en jongeren, samen met Duiven. 65 deelnemers (21,5 procent), de resultaten zijn indicatief."
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      },
+      "aandeelHuisarts": {
+        "percentage": 38,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

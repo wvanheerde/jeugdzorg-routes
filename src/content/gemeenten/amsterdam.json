@@ -3,64 +3,116 @@
   "cbsCode": "GM0363",
   "provincie": "Noord-Holland",
   "jeugdzorgregio": "Amsterdam-Amstelland",
-  "websiteJeugd": "https://www.amsterdam.nl/zorg-ondersteuning/ondersteuning/jeugdhulp/",
+  "websiteJeugd": "https://www.amsterdam.nl/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Amsterdam loopt de toegang tot jeugdhulp via het Ouder- en Kindteam (OKT) in uw buurt. Daarnaast kan de huisarts, jeugdarts of medisch specialist rechtstreeks verwijzen.",
+    "samenvatting": "In Amsterdam is het Ouder- en Kindteam (OKT) de toegang tot jeugdhulp: een samenwerking van Stichting Ouder- en Kindteams en de jeugdgezondheidszorg van de GGD, met een team per wijk en een vaste ouder- en kindadviseur op elke school. Het OKT geeft zelf advies en begeleiding en beslist over aanvullende (specialistische) jeugdhulp en een pgb. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; sinds 1 mei 2025 loopt een verwijzing naar aanvullende jeugdhulp via het Gebiedsknooppunt van het stadsdeel, dat samen met de verwijzer bepaalt welke hulp passend is. In 2025 begon een kwart van de Amsterdamse trajecten via een arts, tegen ruim veertig procent landelijk.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Ouder- en Kindteam (OKT)",
-        "omschrijving": "Het OKT is het gemeentelijke toegangsteam. Elke buurt heeft een eigen team met ouder- en kindadviseurs, jeugdartsen en jeugdpsychologen.",
+        "omschrijving": "Gemeentelijk toegangsteam voor alle vragen over opvoeden, opgroeien, gezondheid en gedrag, gratis en zonder verwijzing. Elke wijk heeft een team met ouder- en kindadviseurs, jeugdpsychologen, jeugdartsen en jeugdverpleegkundigen. Het OKT helpt zelf of regelt aanvullende jeugdhulp; dan stelt u samen een perspectiefplan op en ontvangt u een besluit.",
         "stappen": [
-          "Zoek het OKT van uw buurt via de website of bel het centrale nummer.",
-          "Een ouder- en kindadviseur plant een gesprek (thuis, op school of op locatie).",
-          "Samen maakt u een plan; het OKT kan zelf hulp bieden of specialistische jeugdhulp inzetten.",
-          "Bij specialistische hulp ontvangt u een verwijzing/beschikking van de gemeente."
+          "Zoek uw wijkteam op postcode via oktamsterdam.nl/zoek-je-team of bel het algemene nummer (werkdagen 8.30–12.30 uur).",
+          "Een ouder- en kindadviseur plant een gesprek: thuis, op school, in de wijk of online. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Samen maakt u een plan; het OKT biedt zelf begeleiding of regelt aanvullende jeugdhulp via het Gebiedsknooppunt van uw stadsdeel.",
+          "Bij aanvullende jeugdhulp of een pgb ontvangt u een schriftelijk besluit van de gemeente; daartegen kunt u binnen 6 weken bezwaar maken."
         ],
         "contact": {
           "naam": "Ouder- en Kindteams Amsterdam",
           "telefoon": "020 555 5961",
-          "url": "https://oktamsterdam.nl/"
-        },
-        "doorlooptijd": "Eerste gesprek doorgaans binnen 1-2 weken."
+          "url": "https://oktamsterdam.nl/zoek-je-team/",
+          "openingstijden": "Werkdagen 8.30–12.30 uur (algemene vragen); 13.00–16.00 uur alleen voor het verzetten van vaccinatieafspraken"
+        }
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen direct doorverwijzen naar jeugd-GGZ en andere specialistische jeugdhulp, zonder tussenkomst van het OKT.",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar aanvullende jeugdhulp, zoals jeugd-ggz. In Amsterdam gaat die verwijzing sinds 1 mei 2025 langs het Gebiedsknooppunt van het stadsdeel, waar professionals van het OKT en de gecontracteerde aanbieders samen met de verwijzer bepalen welke hulp passend is en waar plek is.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of jeugdarts (GGD).",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of met de jeugdarts van het OKT (GGD).",
+          "De arts stuurt een verwijsformat naar het Gebiedsknooppunt; dat adviseert over passende hulp en koppelt u aan een gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen. Vraag de arts om een kopie van de verwijzing voor uw eigen dossier."
+        ],
+        "contact": {
+          "naam": "Ouder- en Kindteams Amsterdam",
+          "telefoon": "020 555 5961",
+          "url": "https://oktamsterdam.nl/zoek-je-team/",
+          "openingstijden": "Werkdagen 8.30–12.30 uur (algemene vragen); 13.00–16.00 uur alleen voor het verzetten van vaccinatieafspraken"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via de ouder- en kindadviseur op school",
+        "omschrijving": "Aan elke Amsterdamse school is een ouder- en kindadviseur van het OKT verbonden, die op vaste momenten aanwezig is en onafhankelijk van de school werkt. Bij zorgen over leren, gedrag of thuis kunt u die rechtstreeks benaderen; de adviseur is dezelfde toegang als het wijkteam.",
+        "stappen": [
+          "Zoek de contactpersoon van de school op oktamsterdam.nl/contactpersoon-op-school of vraag de leerkracht, mentor of intern begeleider ernaar.",
+          "Bel, mail of app de ouder- en kindadviseur; een gesprek kan op school, thuis, in de wijk of online.",
+          "De adviseur denkt mee, biedt zelf begeleiding of regelt aanvullende jeugdhulp. Extra onderwijsondersteuning loopt via de school en het samenwerkingsverband passend onderwijs.",
+          "Komt u er met school niet uit? Vraag advies bij het oudersteunpunt passend onderwijs. Jongeren kunnen terecht bij het Leerlingsteunpunt 020."
+        ],
+        "contact": [
+          {
+            "naam": "Contactpersoon OKT op school",
+            "url": "https://oktamsterdam.nl/contactpersoon-op-school/"
+          },
+          {
+            "naam": "Oudersteunpunt passend onderwijs Amsterdam en Diemen (basis- en voortgezet onderwijs)",
+            "telefoon": "020 3306320",
+            "email": "info@oudersteunpunt020.nl",
+            "url": "https://www.onderwijsconsument.nl/oudersteunpunt/",
+            "openingstijden": "WhatsApp 06 1600 4600. Inloopspreekuur ma 15.00-17.00 uur (OBA Waterlandplein), di 15.00-17.00 uur (OBA Osdorp), do 15.00-17.00 uur (OBA Bijlmerplein)"
+          },
+          {
+            "naam": "Leerlingsteunpunt 020 (voor leerlingen en jongeren)",
+            "telefoon": "020 5777900",
+            "email": "info@leerlingsteunpunt020.nl",
+            "url": "https://leerlingsteunpunt020.nl/",
+            "openingstijden": "WhatsApp 06 3982 2229"
+          }
         ]
       },
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij acute onveiligheid of crisis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
         "stappen": [
-          "Bij direct gevaar: bel 112.",
-          "Zorgen over veiligheid: Veilig Thuis, 0800-2000 (gratis, 24/7).",
-          "Psychische crisis: neem contact op met de huisarts of huisartsenpost; die schakelt de crisisdienst in."
-        ]
+          "Krijgt uw kind al hulp van het OKT? Bel dan eerst de eigen hulpverlener.",
+          "Kijk voor de crisisdiensten in Amsterdam op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Amsterdam: Huiselijk geweld en kindermishandeling",
+          "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/huiselijk-geweld-en-kindermishandeling/"
+        }
       }
     ]
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "MEE Amstel en Zaan / Cliëntenbelang Amsterdam",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner kan meegaan naar gesprekken met het OKT en helpen bij het formuleren van uw hulpvraag.",
-      "url": "https://www.meeaz.nl/",
-      "telefoon": "020 512 7272"
+      "naam": "De ondersteuners van Amsterdam (Cliëntenbelang Amsterdam en MEE Amstel en Zaan)",
+      "toelichting": "Gratis en onafhankelijk van het OKT en de gemeente, zonder verwijzing. Een cliëntondersteuner helpt uw vraag te verwoorden, bereidt gesprekken voor, gaat mee naar het OKT of het Gebiedsknooppunt, legt uit hoe een verwijzing of pgb-aanvraag verloopt en helpt als u het oneens bent met de hulp. Voor jeugd verwijst de gemeente naar Cliëntenbelang Amsterdam (werkdagen 10.00–14.00 uur) en MEE Amstel en Zaan, tegenwoordig MEE Dichtbij (020 512 7272).",
+      "telefoon": "020 577 7999",
+      "email": "steunpunt@clientenbelangamsterdam.nl",
+      "url": "https://www.deondersteunersvanamsterdam.nl/voor-jongeren/"
+    },
+    "klacht": {
+      "naam": "Klacht over Stichting Ouder- en Kindteams Amsterdam",
+      "toelichting": "Bespreek het eerst met de medewerker; lukt dat niet, vraag dan een gesprek met de manager. Daarna mailt u de klacht naar het OKT; een klachtenfunctionaris neemt contact op om samen een passende vervolgstap te kiezen. In sommige gevallen kunt u naar de externe klachtencommissie van de stichting (reglement op de klachtenpagina). Gaat de klacht over de jeugdarts of jeugdverpleegkundige, dan loopt die via de klachtenregeling van GGD Amsterdam. Jeugdstem kan u gratis helpen bij het indienen. Bent u ontevreden over de gemeente zelf, dan kunt u na de interne klacht naar de Ombudsman Metropool Amsterdam.",
+      "url": "https://oktamsterdam.nl/over-ons/tips-en-klachten/tips-en-klachten-stichting-ouder-en-kindteams/",
+      "email": "klacht@oktamsterdam.nl",
+      "telefoon": "020 555 5961",
+      "extern": {
+        "naam": "Ombudsman Metropool Amsterdam (met Kinderombudsman)",
+        "url": "https://www.ombudsmanmetropool.nl/nl/contact-opnemen"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een besluit over aanvullende jeugdhulp of een pgb kunt u binnen 6 weken bezwaar maken bij de gemeente Amsterdam. Het adres staat onderaan het besluit; voor het sociaal domein is dat Burgemeester en wethouders, afdeling Juridische Zaken, Postbus 1840, 1000 BV Amsterdam, of als ondertekende pdf per e-mail naar bezwaarenberoep.sociaal@amsterdam.nl. Vermeld uw gegevens, de datum, het kenmerk van het besluit en de reden, en onderteken de brief. De gemeente beslist binnen 6 tot 12 weken; daarna staat beroep open bij de rechtbank Amsterdam.",
+      "url": "https://www.amsterdam.nl/contact/bezwaar-maken-besluit/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een persoonsgebonden budget voor jeugdhulp is mogelijk als u motiveert waarom zorg in natura niet passend is en u het budget kunt beheren.",
-      "url": "https://www.amsterdam.nl/zorg-ondersteuning/pgb/"
-    },
-    "bezwaarEnKlacht": {
-      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken bij de gemeente. Over de bejegening door het OKT of een aanbieder kunt u een klacht indienen bij die organisatie.",
-      "url": "https://www.amsterdam.nl/veelgevraagd/bezwaar-maken/"
+      "toelichting": "Een pgb is mogelijk voor jeugdhulp die onder de Jeugdwet valt (ambulante hulp, dagbehandeling, verblijf of logeren, vervoer) als uw kind jonger is dan 18, in Amsterdam woont en een ondertekend perspectiefplan heeft. U meldt zich bij het OKT; een pgb-specialist van het team legt de voorwaarden uit, u stelt een pgb-plan op en de ouder- en kindadviseur beoordeelt ook de zorgverlener. De gemeente hanteert maximumtarieven; de SVB betaalt uit. Loopt het pgb af, neem dan minstens 2 maanden van tevoren contact op.",
+      "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/hulp-zorg-betalen/zorg-voor-uw-kind-inkopen-met-een-0/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
@@ -70,37 +122,465 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Amsterdam koopt jeugdhulp in via het Regionaal Inkoopteam. Specialistische hulp wordt geleverd door een beperkt aantal kernpartners met onderaannemers.",
-    "gecontracteerdeAanbiedersUrl": "https://www.amsterdam.nl/zorg-ondersteuning/ondersteuning/jeugdhulp/",
+    "samenvatting": "Advies, lichte begeleiding en trainingen via het OKT zonder besluit. Aanvullende jeugdhulp (enkelvoudig specialistisch en hoogspecialistisch) koopt de gemeente in bij een beperkt aantal gecontracteerde aanbieders per stadsdeel, voor 2024 tot en met 2027; in 2028 start een nieuwe inkoop. De aanbieders staan in de openbare aanbiederszoeker van Gebiedsgericht Samenwerken Jeugdhulp, zoekbaar op gebied, leeftijd en probleem. De regio Amsterdam-Amstelland staat niet op de Beschikbaarheidswijzer; wachttijden per aanbieder zijn niet openbaar. Vraag het OKT of het Gebiedsknooppunt waar plek is.",
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpamsterdamduo.nl/aanbieders",
     "categorieen": [
-      { "naam": "Opvoed- en opgroeiondersteuning", "omschrijving": "Laagdrempelig via het OKT, zonder beschikking." },
-      { "naam": "Jeugd-GGZ", "omschrijving": "Via verwijzing van OKT of arts." },
-      { "naam": "Hulp bij (licht) verstandelijke beperking" },
-      { "naam": "Dagbesteding, logeren en respijtzorg" },
-      { "naam": "Pleegzorg en gezinshuizen" }
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Laagdrempelig via het OKT in de wijk en op school, zonder besluit; ook groepstrainingen voor ouders en jongeren.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via het OKT of een arts, met advies van het Gebiedsknooppunt.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en hulp bij een (licht) verstandelijke beperking",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "omschrijving": "De grootste aanbieder van verblijfszorg nam van eind juni tot 8 oktober 2026 nauwelijks nieuwe Amsterdamse kinderen aan; de gemeente staat sindsdien garant. Vraag bij een verblijfsindicatie expliciet naar de wachttijd en naar een plek in de stad.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
     ]
   },
   "lokaleInitiatieven": [
     {
-      "naam": "Cliëntenbelang Amsterdam",
+      "naam": "Jeugdplatform Amsterdam",
       "soort": "belangenorganisatie",
-      "omschrijving": "Behartigt de belangen van Amsterdammers die zorg of ondersteuning nodig hebben; organiseert bijeenkomsten en signaleert knelpunten.",
-      "url": "https://www.clientenbelangamsterdam.nl/"
+      "omschrijving": "Platform van jongeren en ouders dat de gemeente gevraagd en ongevraagd adviseert over jeugdhulp en passend onderwijs, ondersteund door Cliëntenbelang Amsterdam. Ouders kunnen ervaringen delen, meedoen in de adviesgroep en themabijeenkomsten bezoeken. In november 2025 kaartte het platform bij de raadscommissie aan dat aanvragen voor jeugdhulp werden geweigerd met een beroep op nieuw beleid.",
+      "themas": [
+        "belangen",
+        "gezin",
+        "onderwijs"
+      ],
+      "url": "https://jeugdplatformamsterdam.nl/",
+      "contact": {
+        "naam": "Jeugdplatform Amsterdam",
+        "email": "info@jeugdplatformamsterdam.nl",
+        "adres": "Jacob Bontiusplaats 9, 1018 LL Amsterdam"
+      }
     },
     {
-      "naam": "Mantelzorg & Meer",
-      "soort": "vrijwilligers",
-      "omschrijving": "Ondersteuning en respijt voor mantelzorgers, waaronder ouders van kinderen met een beperking of ziekte.",
-      "url": "https://www.mantelzorgenmeer.nl/"
+      "naam": "Cliëntenbelang Amsterdam",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Belangenorganisatie voor Amsterdammers met een beperking of chronische ziekte. Biedt gratis onafhankelijke cliëntondersteuning voor jongeren tot en met 21 jaar en hun ouders, hulp bij klachten en bezwaar (ook anoniem signaleren) en organiseert platforms en bijeenkomsten.",
+      "themas": [
+        "belangen",
+        "beperking",
+        "langdurig ziek"
+      ],
+      "url": "https://www.clientenbelangamsterdam.nl/onafhankelijke-clientondersteuning/clientondersteuning-jeugd",
+      "contact": {
+        "naam": "Steunpunt Cliëntenbelang Amsterdam",
+        "telefoon": "020 577 7999",
+        "email": "steunpunt@clientenbelangamsterdam.nl",
+        "openingstijden": "Werkdagen 10.00–14.00 uur"
+      }
+    },
+    {
+      "naam": "OASA, Ontmoetingsplek Autisme Steunpunt Amsterdam",
+      "soort": "oudergroep",
+      "omschrijving": "Ontmoetingsplek voor en door mensen met autisme en hun naasten, waaronder ouders, met inloop, gespreksgroepen en thema-avonden. Elke maandag vanaf 9.15 uur aan de Keizersgracht 252; onderdeel van het Expertisenetwerk Autisme Amsterdam.",
+      "themas": [
+        "autisme",
+        "gezin"
+      ],
+      "url": "https://www.autisme-amsterdam.nl/",
+      "contact": {
+        "naam": "OASA",
+        "email": "oasa@autisme-amsterdam.nl",
+        "adres": "Keizersgracht 252, Amsterdam"
+      }
+    },
+    {
+      "naam": "Markant, centrum voor mantelzorg",
+      "soort": "informatiepunt",
+      "omschrijving": "Amsterdams steunpunt voor mantelzorgers, ook voor ouders die intensief zorgen voor een kind met een beperking of ziekte: informatie, een luisterend oor, cursussen en vrijwillige thuishulp voor respijt.",
+      "themas": [
+        "mantelzorg",
+        "beperking",
+        "langdurig ziek"
+      ],
+      "url": "https://www.markant.org/"
     }
   ],
-  "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "voorbeeld",
-    "bronnen": [
-      { "titel": "Gemeente Amsterdam – Jeugdhulp", "url": "https://www.amsterdam.nl/zorg-ondersteuning/ondersteuning/jeugdhulp/", "geraadpleegd": "2026-10-10" },
-      { "titel": "Ouder- en Kindteams Amsterdam", "url": "https://oktamsterdam.nl/", "geraadpleegd": "2026-10-10" }
+  "directRegelen": [
+    {
+      "naam": "Uw Ouder- en Kindteam zoeken op postcode",
+      "omschrijving": "Vind het wijkteam met telefoonnummer en adres; aanmelden kan telefonisch of via de adviseur.",
+      "url": "https://oktamsterdam.nl/zoek-je-team/",
+      "nodig": "Postcode"
+    },
+    {
+      "naam": "Contactpersoon van het OKT op de school van uw kind",
+      "omschrijving": "Kies de school en zie wie de ouder- en kindadviseur, jeugdarts of jeugdverpleegkundige is, met telefoonnummer en e-mail.",
+      "url": "https://oktamsterdam.nl/contactpersoon-op-school/"
+    },
+    {
+      "naam": "Klacht indienen over het Ouder- en Kindteam",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Mail de klacht naar het OKT; de klachtenfunctionaris neemt contact op. Vaak sneller dan bezwaar.",
+      "url": "https://oktamsterdam.nl/over-ons/tips-en-klachten/tips-en-klachten-stichting-ouder-en-kindteams/"
+    },
+    {
+      "naam": "Onafhankelijke cliëntondersteuner vinden",
+      "omschrijving": "Gratis hulp bij het gesprek met het OKT, een pgb-aanvraag, een klacht of bezwaar; Cliëntenbelang Amsterdam en MEE Amstel en Zaan.",
+      "url": "https://www.deondersteunersvanamsterdam.nl/voor-jongeren/"
+    },
+    {
+      "naam": "Pgb voor jeugdhulp aanvragen",
+      "omschrijving": "Voorwaarden, stappen en tarieven van de gemeente; de aanvraag zelf loopt via de pgb-specialist van het OKT.",
+      "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/hulp-zorg-betalen/zorg-voor-uw-kind-inkopen-met-een-0/",
+      "nodig": "Ondertekend perspectiefplan en een pgb-plan"
+    },
+    {
+      "naam": "Gecontracteerde aanbieders zoeken",
+      "omschrijving": "Openbare zoeker van Gebiedsgericht Samenwerken Jeugdhulp: aanbieders van aanvullende jeugdhulp per stadsdeel, leeftijd en probleem. Zonder wachttijden; bekijk hem samen met uw adviseur.",
+      "url": "https://www.jeugdhulpamsterdamduo.nl/aanbieders"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op het besluit, per brief naar het adres onderaan het besluit of als ondertekende pdf naar bezwaarenberoep.sociaal@amsterdam.nl. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://www.amsterdam.nl/contact/bezwaar-maken-besluit/",
+      "nodig": "Het besluit en uw handtekening"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "De toegang via het Ouder- en Kindteam is in Amsterdam de hoofdroute: in 2025 startte een kwart van de trajecten via huisarts, jeugdarts of specialist, tegen 43 procent landelijk. Sinds mei 2025 lopen verwijzingen naar aanvullende jeugdhulp via een Gebiedsknooppunt per stadsdeel; huisartsen vinden dat extra werk, het OKT meldt dat gezinnen zo sneller passende hulp vinden. Tegelijk kaartten Jeugdplatform en Cliëntenbelang in november 2025 aan dat aanvragen werden geweigerd met een beroep op nieuw beleid en eigen verantwoordelijkheid van ouders, en steeg het aantal formele klachten over het OKT in 2025 van 39 naar 49. Bij de zwaardere zorg knelt het: de inspecties beoordeelden de jeugdbescherming in de regio in 2025 als grotendeels onvoldoende, en de grootste aanbieder van verblijfszorg nam van eind juni tot 8 oktober 2026 nauwelijks nieuwe Amsterdamse kinderen aan.\n\nVoor de meeste opvoed- en opgroeivragen is de ouder- en kindadviseur op school of in de wijk de snelste weg; de huisartsroute blijft open. Vraag bij een aanvraag altijd om een schriftelijk besluit, ook bij een afwijzing, zodat u bezwaar kunt maken; neem een onafhankelijke cliëntondersteuner mee. Wacht u op aanvullende jeugdhulp of een verblijfsplek, vraag dan bij het Gebiedsknooppunt of het OKT schriftelijk naar de stand van zaken en overbruggingshulp. Bij jeugdbescherming kunt u om een vaste jeugdbeschermer en regelmatig contact vragen; loopt het vast, dien dan een klacht in of schakel Jeugdstem in.",
+    "signalen": [
+      {
+        "soort": "nieuws",
+        "titel": "Opnamestop bij Levvel opgeheven; gemeente laat financiën extern onderzoeken",
+        "samenvatting": "Op 8 oktober 2026 werd de opnamestop opgeheven: Amsterdamse jongeren kunnen weer bij Levvel terecht. Levvel legt zelf geld bij en de gemeente staat financieel garant. De wethouder noemde het zorgwekkend hoe snel de noodsituatie ontstond, laat de financiële situatie van Levvel door een externe specialist doorlichten en werkt met Levvel en de Nederlandse Zorgautoriteit aan een verbeterplan.",
+        "datum": "2026-10-08",
+        "bron": {
+          "titel": "AT5 – Opnamestop bij jeugdzorgaanbieder Levvel opgeheven",
+          "url": "https://www.at5.nl/artikelen/240334/opnamestop-bij-jeugdzorgaanbieder-levvel-opgeheven"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Zorgautoriteit waarschuwt na instroomstop bij grootste jeugdzorgaanbieder",
+        "samenvatting": "Sinds eind juni 2026 nam jeugdzorgaanbieder Levvel vrijwel geen nieuwe Amsterdamse kinderen aan voor verblijf, wegens te weinig plekken, beperkte doorstroom en geld. Sinds 1 juli werden twaalf kinderen doorverwezen, van wie zes buiten de gemeente geplaatst; er waren nog drie crisisplekken per drie weken. De Nederlandse Zorgautoriteit eiste op 21 september 2026 een verbeterplan van Levvel en de gemeente. Uit de tijdlijn in de raadsbrief blijkt dat Levvel de vorige wethouder al op 9 april had geïnformeerd; de wethouder erkende dat de raad eerder had moeten worden ingelicht.",
+        "datum": "2026-09-21",
+        "bron": {
+          "titel": "AT5 – Toezichthouder waarschuwt voor dreigend tekort aan jeugdzorg vanwege instroomstop Levvel",
+          "url": "https://www.at5.nl/artikelen/240025/toezichthouder-waarschuwt-voor-dreigend-tekort-aan-jeugdzorg-vanwege-instroomstop-levvel"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Jaarrapportage OKT 2025: aanmeldpunten per stadsdeel, meer formele klachten",
+        "samenvatting": "In de jaarrapportage over 2025 (juli 2026) meldt het Ouder- en Kindteam dat sinds mei in elk stadsdeel een centraal aanmeldpunt is geopend en dat een uniforme aanmeldmodule inzicht moet geven in vragen, wachttijden en verwijzers; een teammonitor voor caseload, wachtenden en doorlooptijden is in ontwikkeling. De verwachte toename van aanmeldingen via huisartsen bleef vooralsnog uit. Er werden 49 formele klachten geregistreerd, tegen 39 het jaar ervoor, vooral over communicatie; het klachtenproces is aangescherpt. Twee calamiteiten zijn gemeld bij de inspectie. Het OKT noemt wachttijden bij aanvullende voorzieningen en personeelstekorten als blijvende knelpunten.",
+        "datum": "2026-07",
+        "bron": {
+          "titel": "Ouder- en Kindteams Amsterdam – Jaarrapportage 2025",
+          "url": "https://oktamsterdam.nl/wp-content/uploads/jaarrapportage-2025.pdf"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Inspecties sluiten onderzoek jeugdbescherming af; verbeterplan ambitieus, zorgen over haalbaarheid",
+        "samenvatting": "In een afsluitbrief van 22 december 2025 (openbaar gemaakt op 7 januari 2026) noemen de inspecties het verbeterplan van Jeugdbescherming Regio Amsterdam ambitieus, maar maken zij zich zorgen over de haalbaarheid en missen zij een oorzakenanalyse en een analyse van de gevolgen van de wachtlijst voor kinderen. Zij verwachten een vaste jeugdbeschermer met regelmatig contact voor elk kind en volledige openheid naar gezinnen als de wettelijke taak niet of aangepast wordt uitgevoerd.",
+        "datum": "2026-01-07",
+        "bron": {
+          "titel": "Inspectie Justitie en Veiligheid – Afsluitbrief Jeugdbescherming Regio Amsterdam",
+          "url": "https://www.inspectie-jenv.nl/documenten/2026/01/07/afsluitbrief-jeugdbescherming-regio-amsterdam"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Jeugdplatform en Cliëntenbelang: onaanvaardbare drempels bij aanvragen jeugdhulp",
+        "samenvatting": "Op 7 november 2025 meldden Jeugdplatform Amsterdam en Cliëntenbelang Amsterdam aan de raadscommissie Onderwijs, Zorg en Armoedebestrijding dat ouders aanvragen niet in behandeling zagen genomen met een verwijzing naar nieuw gemeentelijk beleid, te horen kregen dat zorg hun eigen verantwoordelijkheid is, en bestaande indicaties verloren. Zij vragen om een eenvoudiger aanvraag, instructie van OKT-medewerkers, betere informatie aan ouders, meer maatwerk en erkenning dat ernstige zorgvragen niet door ouders alleen zijn op te lossen.",
+        "datum": "2025-11-07",
+        "bron": {
+          "titel": "Cliëntenbelang Amsterdam – Onaanvaardbare drempels bij aanvragen jeugdhulp",
+          "url": "https://www.clientenbelangamsterdam.nl/actueel/nieuws/onaanvaardbare-drempels-bij-aanvragen-jeugdhulp"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Inspecties: jeugdbescherming in regio Amsterdam grotendeels onvoldoende",
+        "samenvatting": "Na onderzoek in april en mei 2025 beoordeelden de Inspectie Gezondheidszorg en Jeugd en de Inspectie Justitie en Veiligheid de uitvoering van jeugdbeschermings- en jeugdreclasseringsmaatregelen door Jeugdbescherming Regio Amsterdam als grotendeels onvoldoende. Veel gezinnen staan op een wachtlijst en wachten lang op bescherming en hulp. De inspecties wijzen op oorzaken buiten de organisatie, zoals personeelstekort en te weinig beschikbare jeugdhulp, en vragen om openheid naar gezinnen.",
+        "datum": "2025-09-22",
+        "bron": {
+          "titel": "Inspectie Justitie en Veiligheid – Inspectierapport Stichting Jeugdbescherming Regio Amsterdam",
+          "url": "https://www.inspectie-jenv.nl/documenten/2025/09/22/inspectierapport-stichting-jeugdbescherming-regio-amsterdam"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Nieuwe verwijsroute via Gebiedsknooppunt: huisartsen ervaren extra administratie",
+        "samenvatting": "Sinds 1 mei 2025 vragen huisartsen, Ouder- en Kindteams en jeugdbescherming voor aanvullende jeugdhulp eerst advies aan het Gebiedsknooppunt in het stadsdeel, dat bepaalt welke hulp passend is. Uit een peiling van de Amsterdamse Huisartsenalliantie in september 2025 blijkt dat het invullen van het formulier veel tijd kost en dat veel huisartsen niet begrijpen waarom het knooppunt tussenstation werd. Het formulier is daarna vereenvoudigd; het verwijsrecht van de huisarts blijft bestaan. Volgens de gemeente komen kinderen zo sneller op de juiste plek.",
+        "datum": "2025-09",
+        "bron": {
+          "titel": "Vereniging Amsterdamse Huisartsenalliantie – Optimalisatie van de nieuwe verwijsroute naar jeugdhulp",
+          "url": "https://www.amsterdamsehuisartsen.nl/nieuws-en-agenda/optimalisatie-van-de-nieuwe-verwijsroute-naar-jeugdhulp/"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Verscherpt toezicht op gesloten jeugdzorg van Levvel, in juni 2025 beëindigd",
+        "samenvatting": "De Inspectie Gezondheidszorg en Jeugd stelde op 13 januari 2025 verscherpt toezicht in op de JeugdzorgPlus-locatie van Levvel in Amsterdam, omdat jongeren 's nachts op hun kamer werden ingesloten, een aparte veilige ruimte ontbrak en huisregels te beperkend waren. Op 26 juni 2025 beëindigde de inspectie het toezicht bij zes aanbieders, omdat de staatssecretaris de wet op dit punt wil aanpassen; aan enkele normen was nog niet volledig voldaan.",
+        "datum": "2025-01-13",
+        "bron": {
+          "titel": "Inspectie Gezondheidszorg en Jeugd – Verscherpt toezicht voor Levvel in Amsterdam",
+          "url": "https://www.igj.nl/actueel/nieuws/2025/01/13/verscherpt-toezicht-voor-levvel-in-amsterdam"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Historie: rekenkamer ziet dat gemeente nauwelijks stuurt op preventieve taak van de Ouder- en Kindteams",
+        "samenvatting": "De Rekenkamer Metropool Amsterdam concludeerde in juli 2023 dat nauwelijks is vast te stellen hoe de preventieve opgave door Stichting OKT verloopt: de opdracht is breed en abstract en de gemeente verzamelt weinig informatie over de uitvoering. Professionals signaleerden dat de uitvoering onder druk staat, onder meer door personeelstekort en extra taken na het sluiten van de Samen DOEN-teams. De gemeente nam de zes aanbevelingen over.",
+        "datum": "2023-07-06",
+        "bron": {
+          "titel": "Rekenkamer Metropool Amsterdam – Preventieve jeugdhulp in Amsterdam (bestuurlijk rapport)",
+          "url": "https://publicaties.rekenkamer.amsterdam.nl/preventieve-jeugdhulp-in-amsterdambestuurlijk-rapport/"
+        }
+      }
     ],
-    "opmerkingen": "Voorbeelddata op basis van algemeen bekende structuur; telefoonnummers en URL's nog te verifiëren."
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Geen gemeentelijk cliëntervaringsonderzoek Jeugd over 2023, 2024 of 2025 gevonden op amsterdam.nl, openresearch.amsterdam, onderzoek.amsterdam.nl of amsterdam.raadsinformatie.nl; het laatste gepubliceerde onderzoek is de ClientErvaringsMonitor over 2015. De jaarrapportages van het OKT (2024 aangeboden aan de raadscommissie op 5 november 2025) bevatten geen rapportcijfer van ouders.",
+        "url": "https://openresearch.amsterdam/en/page/127934/jaarrapportage-2024---stichting-ouder--en-kindteams-okt"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Geen gepubliceerde doorlooptijden van de toegang. Het OKT meldt in de jaarrapportage 2025 dat een aanmeldmodule en een teammonitor voor wachtenden, wachttijden en doorlooptijden in ontwikkeling zijn; de gemeente kondigde eerder monitoring aan van de tijd tussen aanmelding bij het Gebiedsknooppunt en de match met een aanbieder. Cijfers zijn niet openbaar teruggevonden.",
+        "url": "https://oktamsterdam.nl/wp-content/uploads/jaarrapportage-2025.pdf"
+      },
+      "aandeelHuisarts": {
+        "percentage": 25,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Amsterdam – Jeugdhulp",
+        "url": "https://www.amsterdam.nl/jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Amsterdam – Cliëntondersteuning (jeugdhulp)",
+        "url": "https://www.amsterdam.nl/jeugdhulp/clientondersteuning/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Amsterdam – Klacht over uw jeugdhulpverlener",
+        "url": "https://www.amsterdam.nl/jeugdhulp/klacht-jeugdhulpverlener/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Amsterdam – Zorg voor uw kind aanvragen met een pgb",
+        "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/hulp-zorg-betalen/zorg-voor-uw-kind-inkopen-met-een-0/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Amsterdam – Bezwaar maken tegen een besluit",
+        "url": "https://www.amsterdam.nl/contact/bezwaar-maken-besluit/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Amsterdam – Bezwaar maken tegen een besluit Wmo-voorziening (adres sociaal domein)",
+        "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/wmo/bezwaar-maken-besluit-wmo-voorziening/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en Kindteams Amsterdam – Zoek je team",
+        "url": "https://oktamsterdam.nl/zoek-je-team/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en Kindteams Amsterdam – Op school",
+        "url": "https://oktamsterdam.nl/voor-ouders/op-school/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en Kindteams Amsterdam – Contactpersoon op school",
+        "url": "https://oktamsterdam.nl/contactpersoon-op-school/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en Kindteams Amsterdam – Tips en klachten",
+        "url": "https://oktamsterdam.nl/over-ons/tips-en-klachten/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en Kindteams Amsterdam – Tips en klachten Stichting Ouder- en Kindteams",
+        "url": "https://oktamsterdam.nl/over-ons/tips-en-klachten/tips-en-klachten-stichting-ouder-en-kindteams/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en Kindteams Amsterdam – Jaarrapportage 2025",
+        "url": "https://oktamsterdam.nl/wp-content/uploads/jaarrapportage-2025.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "openresearch.amsterdam – Jaarrapportage 2024 Stichting Ouder- en Kindteams",
+        "url": "https://openresearch.amsterdam/en/page/127934/jaarrapportage-2024---stichting-ouder--en-kindteams-okt",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "De ondersteuners van Amsterdam – Voor jongeren",
+        "url": "https://www.deondersteunersvanamsterdam.nl/voor-jongeren/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Cliëntenbelang Amsterdam – Cliëntondersteuning jeugd",
+        "url": "https://www.clientenbelangamsterdam.nl/onafhankelijke-clientondersteuning/clientondersteuning-jeugd",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Cliëntenbelang Amsterdam – Klachten",
+        "url": "https://www.clientenbelangamsterdam.nl/onafhankelijke-clientondersteuning/klachten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Cliëntenbelang Amsterdam – Onaanvaardbare drempels bij aanvragen jeugdhulp",
+        "url": "https://www.clientenbelangamsterdam.nl/actueel/nieuws/onaanvaardbare-drempels-bij-aanvragen-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Cliëntenbelang Amsterdam – OASA Ontmoetingsplek Autisme Steunpunt Amsterdam",
+        "url": "https://www.clientenbelangamsterdam.nl/actueel/nieuws/hartelijk-welkom-oasa-ontmoetingsplek-autisme-steunpunt-amsterdam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdplatform Amsterdam – Over en contact",
+        "url": "https://jeugdplatformamsterdam.nl/over-jeugdplatform-amsterdam/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Markant, centrum voor mantelzorg in Amsterdam",
+        "url": "https://www.markant.org/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Amsterdam-Amstelland",
+        "url": "https://020veiligthuis.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gebiedsgericht Samenwerken Jeugdhulp Amsterdam en DUO-gemeenten – Aanbieders",
+        "url": "https://www.jeugdhulpamsterdamduo.nl/aanbieders",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulpregio Amsterdam – Veranderingen jeugdhulp Amsterdam per 1 januari 2024",
+        "url": "https://jeugdhulpregioamsterdam.1sociaaldomein.nl/nieuws/10398-veranderingen-jeugdhulp-amsterdam-per-1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Amsterdamse Huisartsenalliantie – Gebiedsgerichte toegang jeugdhulp: eerste ervaringen en verbeterpunten",
+        "url": "https://www.amsterdamsehuisartsen.nl/nieuws/gebiedsgerichte-toegang-jeugdhulp-eerste-ervaringen-en-verbeterpunten/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Amsterdamse Huisartsenalliantie – Optimalisatie van de nieuwe verwijsroute naar jeugdhulp",
+        "url": "https://www.amsterdamsehuisartsen.nl/nieuws-en-agenda/optimalisatie-van-de-nieuwe-verwijsroute-naar-jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ombudsman Metropool Amsterdam – Contact opnemen",
+        "url": "https://www.ombudsmanmetropool.nl/nl/contact-opnemen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rekenkamer Metropool Amsterdam – Preventieve jeugdhulp in Amsterdam (bestuurlijk rapport)",
+        "url": "https://publicaties.rekenkamer.amsterdam.nl/preventieve-jeugdhulp-in-amsterdambestuurlijk-rapport/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "IGJ – Verscherpt toezicht voor Levvel in Amsterdam",
+        "url": "https://www.igj.nl/actueel/nieuws/2025/01/13/verscherpt-toezicht-voor-levvel-in-amsterdam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Inspectie Justitie en Veiligheid – Inspectierapport Stichting Jeugdbescherming Regio Amsterdam",
+        "url": "https://www.inspectie-jenv.nl/documenten/2025/09/22/inspectierapport-stichting-jeugdbescherming-regio-amsterdam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Inspectie Justitie en Veiligheid – Afsluitbrief Jeugdbescherming Regio Amsterdam",
+        "url": "https://www.inspectie-jenv.nl/documenten/2026/01/07/afsluitbrief-jeugdbescherming-regio-amsterdam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "AT5 – Toezichthouder waarschuwt voor dreigend tekort aan jeugdzorg vanwege instroomstop Levvel",
+        "url": "https://www.at5.nl/artikelen/240025/toezichthouder-waarschuwt-voor-dreigend-tekort-aan-jeugdzorg-vanwege-instroomstop-levvel",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "AT5 – Opnamestop bij jeugdzorgaanbieder Levvel opgeheven",
+        "url": "https://www.at5.nl/artikelen/240334/opnamestop-bij-jeugdzorgaanbieder-levvel-opgeheven",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "openresearch.amsterdam – Aanpak wachtenden aanvullende jeugdhulp 2023-2025",
+        "url": "https://openresearch.amsterdam/nl/page/104224/aanpak-wachtenden-aanvullend-jeugdhulp-amsterdam-2023-2025",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED – Jeugdhulptrajecten in natura; verwijzer, regio (OData)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – regiolijst",
+        "url": "https://beschikbaarheidswijzer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Amsterdam: Huiselijk geweld en kindermishandeling",
+        "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/huiselijk-geweld-en-kindermishandeling/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Oudersteunpunt passend onderwijs Amsterdam en Diemen",
+        "url": "https://www.onderwijsconsument.nl/oudersteunpunt/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Leerlingsteunpunt 020",
+        "url": "https://leerlingsteunpunt020.nl/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd na 2015, geen doorlooptijden, raadsbrief september 2026 over Levvel alleen via pers. Het klachtenreglement van de externe klachtencommissie OKT (pdf) kon niet worden uitgelezen. amsterdam.nl vereist volledige browser-headers."
   }
 }

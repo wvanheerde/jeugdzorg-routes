@@ -1,0 +1,18 @@
+{"stap":1,"tijd":"2026-10-12T19:17:36.740Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-12T19:17:37.307Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-12T19:17:37.357Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":41032}
+{"stap":4,"tijd":"2026-10-12T19:17:42.527Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["eerste-scherm"]}
+{"stap":5,"tijd":"2026-10-12T19:17:42.568Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":41032}
+{"stap":6,"tijd":"2026-10-12T19:17:45.831Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Geen nummer bovenaan, alleen een lijst met gemeenten. Ik zie niets over 113 of crisis. Ik probeer Het is nu acuut."],"tekst":"Geen nummer bovenaan, alleen een lijst met gemeenten. Ik zie niets over 113 of crisis. Ik probeer Het is nu acuut."}
+{"stap":7,"tijd":"2026-10-12T19:17:47.681Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["19"]}
+{"stap":8,"tijd":"2026-10-12T19:17:49.842Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":41032}
+{"stap":9,"tijd":"2026-10-12T19:17:57.030Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Er gebeurt niets zichtbaar na de knop. Geen nummer. Ik probeer Situaties in het menu."],"tekst":"Er gebeurt niets zichtbaar na de knop. Geen nummer. Ik probeer Situaties in het menu."}
+{"stap":10,"tijd":"2026-10-12T19:17:58.879Z","url":"http://127.0.0.1:4329/situaties/","cmd":"klik","args":["3"]}
+{"stap":11,"tijd":"2026-10-12T19:17:58.952Z","url":"http://127.0.0.1:4329/situaties/","cmd":"kijk","args":[],"lengte":10669}
+{"stap":12,"tijd":"2026-10-12T19:18:02.893Z","url":"http://127.0.0.1:4329/situaties/","cmd":"kijk","args":[],"lengte":10669}
+{"stap":13,"tijd":"2026-10-12T19:18:05.613Z","url":"http://127.0.0.1:4329/situaties/","cmd":"notitie","args":["Hier staat 'Het is nu acuut: mijn kind is in crisis'. Dat is het."],"tekst":"Hier staat 'Het is nu acuut: mijn kind is in crisis'. Dat is het."}
+{"stap":14,"tijd":"2026-10-12T19:18:07.469Z","url":"http://127.0.0.1:4329/overzicht/?k=spoed","cmd":"klik","args":["33"]}
+{"stap":15,"tijd":"2026-10-12T19:18:07.606Z","url":"http://127.0.0.1:4329/overzicht/?k=spoed","cmd":"foto","args":["acuut"]}
+{"stap":16,"tijd":"2026-10-12T19:18:07.651Z","url":"http://127.0.0.1:4329/overzicht/?k=spoed","cmd":"kijk","args":[],"lengte":4327}
+{"stap":17,"tijd":"2026-10-12T19:18:17.725Z","url":"http://127.0.0.1:4329/overzicht/?k=spoed","cmd":"notitie","args":["113, 0800-0113, dag en nacht. Ik bel nu."],"tekst":"113, 0800-0113, dag en nacht. Ik bel nu."}
+{"stap":18,"tijd":"2026-10-12T19:18:17.755Z","url":"http://127.0.0.1:4329/overzicht/?k=spoed","cmd":"stop"}

@@ -1,0 +1,21 @@
+{"stap":1,"tijd":"2026-10-12T19:11:32.687Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-12T19:11:38.869Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-12T19:11:38.911Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":41032}
+{"stap":4,"tijd":"2026-10-12T19:11:42.421Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["start"]}
+{"stap":5,"tijd":"2026-10-12T19:11:42.452Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Paniek. Geen telefoonnummer op het eerste scherm, alleen een keuzelijst en tekst. Ik zoek 'nu bellen'."],"tekst":"Paniek. Geen telefoonnummer op het eerste scherm, alleen een keuzelijst en tekst. Ik zoek 'nu bellen'."}
+{"stap":6,"tijd":"2026-10-12T19:11:42.921Z","url":"http://127.0.0.1:4329/","cmd":"scroll","args":[]}
+{"stap":7,"tijd":"2026-10-12T19:11:42.966Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":41032}
+{"stap":8,"tijd":"2026-10-12T19:11:46.705Z","url":"http://127.0.0.1:4329/","cmd":"scroll","args":[]}
+{"stap":9,"tijd":"2026-10-12T19:11:46.741Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Twee schermen gescrold, nog geen nummer. 'Het is nu acuut' lijkt wat ik nodig heb."],"tekst":"Twee schermen gescrold, nog geen nummer. 'Het is nu acuut' lijkt wat ik nodig heb."}
+{"stap":10,"tijd":"2026-10-12T19:11:48.594Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["19"]}
+{"stap":11,"tijd":"2026-10-12T19:11:50.828Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":41032}
+{"stap":12,"tijd":"2026-10-12T19:11:51.006Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["acuut"]}
+{"stap":13,"tijd":"2026-10-12T19:11:59.034Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Alleen een vinkje, geen nummer. Ik probeer Toon mijn overzicht."],"tekst":"Alleen een vinkje, geen nummer. Ik probeer Toon mijn overzicht."}
+{"stap":14,"tijd":"2026-10-12T19:12:00.879Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"klik","args":["41"]}
+{"stap":15,"tijd":"2026-10-12T19:12:00.918Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"kijk","args":[],"lengte":4330}
+{"stap":16,"tijd":"2026-10-12T19:12:01.029Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"foto","args":["overzicht"]}
+{"stap":17,"tijd":"2026-10-12T19:12:05.202Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":[]}
+{"stap":18,"tijd":"2026-10-12T19:12:05.670Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":[]}
+{"stap":19,"tijd":"2026-10-12T19:12:05.790Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"foto","args":["nummer"]}
+{"stap":20,"tijd":"2026-10-12T19:12:05.850Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["Hier staat 113 (0800-0113) en Veilig Thuis. Dat is wat ik zoek. Bellen maar."],"tekst":"Hier staat 113 (0800-0113) en Veilig Thuis. Dat is wat ik zoek. Bellen maar."}
+{"stap":21,"tijd":"2026-10-12T19:12:05.883Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"stop"}

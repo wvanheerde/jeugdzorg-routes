@@ -1,0 +1,15 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Icon from './Icon.astro';
+interface Props { b: CollectionEntry<'brieven'> }
+const { b } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de gemeente', wijkteam: 'Aan het wijkteam', huisarts: 'Aan de huisarts of jeugdarts', aanbieder: 'Aan de hulpverlener', overig: 'Aan meerdere partijen' };
+---
+<a class="card link" href={`${base}/brieven/${b.id}/`}>
+  <div class="icon"><Icon name="file" /></div>
+  <span class="badge">{aan[b.data.aan]}</span>
+  <h3 style="margin-top:.6rem">{b.data.titel}</h3>
+  <p class="meta">{b.data.wanneer}</p>
+  <span class="arrow">Bekijk en kopieer →</span>
+</a>

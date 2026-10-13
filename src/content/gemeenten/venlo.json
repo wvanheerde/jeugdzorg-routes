@@ -1,0 +1,526 @@
+{
+  "naam": "Venlo",
+  "cbsCode": "GM0983",
+  "provincie": "Limburg",
+  "jeugdzorgregio": "Limburg-Noord (MGR Sociaal Domein Limburg-Noord)",
+  "websiteJeugd": "https://www.venlo.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Venlo is het Sociaal Wijkteam de toegang tot jeugdhulp en Wmo. U meldt zich via het formulier op venlo.nl of telefonisch via de gemeente; een medewerker belt u en komt langs voor een keukentafelgesprek. Is een voorziening nodig, dan legt het team dat vast in een leefzorgplan. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in Venlo helpen ook het Voor Elkaar Team en een specialistisch ondersteuner jeugd bij huisartsen. Let op: de gemeente noemt alleen een streeftermijn van 8 weken om uw vraag te beantwoorden en meldt dat het gecontracteerde aanbod niet altijd past bij de hulpvraag.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal Wijkteam",
+        "omschrijving": "Team van professionals uit verschillende disciplines dat de toegang vormt tot jeugdhulp en Wmo; u kunt er terecht met vragen over opvoeden en opgroeien, en voor een aanvraag of wijziging van jeugdhulp. Het team coördineert de behandeling van uw vraag, in elk geval tot er een leefzorgplan is opgesteld, en regelt zo nodig de specialistische hulp.",
+        "stappen": [
+          "Neem contact op via het online formulier op venlo.nl (met DigiD, met eHerkenning of zonder DigiD) of bel de gemeente.",
+          "Een medewerker van het Sociaal Wijkteam belt u om een afspraak te maken. De gemeente streeft ernaar uw vraag binnen 8 weken te beantwoorden.",
+          "Een medewerker komt bij u thuis voor het keukentafelgesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Is jeugdhulp nodig, dan wordt dit vastgelegd in een leefzorgplan; volgens het Besluit jeugdhulp 2026 legt het team dat binnen zes weken na uw vraag aan u voor om te ondertekenen. Vraag ook om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+        ],
+        "contact": {
+          "naam": "Gemeente Venlo (Sociaal Wijkteam)",
+          "telefoon": "14 077",
+          "url": "https://www.venlo.nl/sociale-wijkteams",
+          "adres": "Bezoekadres gemeente: Hanzeplaats 1, 5912 AT Venlo"
+        },
+        "doorlooptijd": "Streeftermijn van de gemeente: uw vraag binnen 8 weken beantwoord. Gemeten doorlooptijden zijn niet gepubliceerd."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. In Venlo zetten het Voor Elkaar Team en een specialistisch ondersteuner jeugd bij huisartsen jeugdigen vroeg in beeld, voordat jeugdhulp via het Sociaal Wijkteam nodig is.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
+          "De arts verwijst naar een door de regio gecontracteerde aanbieder; de Zoektool van Sociaal Domein Limburg-Noord toont de aanbieders.",
+          "De aanbieder meldt de verwijzing binnen tien werkdagen bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
+            "telefoon": "088 119 1111",
+            "url": "https://www.ggdlimburgnoord.nl/voor-inwoners/kind-en-opgroeien"
+          },
+          {
+            "naam": "Gemeente Venlo (Sociaal Wijkteam)",
+            "telefoon": "14 077",
+            "url": "https://www.venlo.nl/sociale-wijkteams",
+            "adres": "Bezoekadres gemeente: Hanzeplaats 1, 5912 AT Venlo"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Venlo zet in het programma Gelijke Kansen brugfunctionarissen en schoolcontactpersonen in, en professionals zijn geschoold in het afwegingskader Jeugdwet en Wet Passend Onderwijs. Vanaf schooljaar 2026-2027 geldt de subsidieregeling Collectieve Zorg in Onderwijstijd voor zorg- en onderwijsarrangementen op school.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht of intern begeleider.",
+          "School kan een schoolcontactpersoon of brugfunctionaris inschakelen of contact leggen met het Sociaal Wijkteam.",
+          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs van uw school; vraag school om de afspraken schriftelijk vast te leggen."
+        ],
+        "contact": [
+          {
+            "naam": "Gemeente Venlo (Sociaal Wijkteam)",
+            "telefoon": "14 077",
+            "url": "https://www.venlo.nl/sociale-wijkteams",
+            "adres": "Bezoekadres gemeente: Hanzeplaats 1, 5912 AT Venlo"
+          },
+          {
+            "naam": "SWV VO Noord-Limburg (samenwerkingsverband passend onderwijs voortgezet onderwijs)",
+            "email": "info@swvvo3101.nl",
+            "url": "https://www.swvvo3101.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Venlo op de pagina Meldpunten zorg en jeugd van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Venlo: meldpunten zorg en jeugd",
+          "url": "https://www.venlo.nl/meldpunten-zorg-en-jeugd"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE (Servicepunt Onafhankelijke Cliëntondersteuning)",
+      "toelichting": "Gratis en onafhankelijk van de gemeente. De gemeente Venlo verwijst naar MEE voor vragen over onder meer jeugdhulp, opvoeding, onderwijs en de Wlz. De cliëntondersteuner kan u helpen een gesprek met het Sociaal Wijkteam voor te bereiden, vragen te stellen en keuzes te maken. Bel bij voorkeur vóór het keukentafelgesprek.",
+      "telefoon": "088 465 3555",
+      "email": "servicepunt@meedemeentgroep.nl",
+      "url": "https://www.meedemeentgroep.nl/contact",
+      "openingstijden": "Werkdagen 8.30–17.00 uur"
+    },
+    "klacht": {
+      "naam": "Klacht over behandeling door de gemeente of het Sociaal Wijkteam",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dan kunt u een klacht indienen bij de gemeente, online met DigiD of eHerkenning of per brief aan Gemeente Venlo, Postbus 3434, 5902 RK Venlo (met naam, adres, geboortedatum, telefoonnummer, toelichting en handtekening). Een klacht mag niet anoniem zijn. De gemeente behandelt de klacht vertrouwelijk en kan vragen de klacht mondeling toe te lichten. Een aparte klachtenregeling voor het Sociaal Wijkteam is niet gevonden. Voor klachten over een jeugdhulpaanbieder moet de aanbieder zelf een onafhankelijke klachtenprocedure hebben.",
+      "url": "https://www.venlo.nl/klacht-over-behandeling-gemeente",
+      "telefoon": "14 077",
+      "extern": {
+        "naam": "Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken, online met DigiD of eHerkenning of per brief aan Gemeente Venlo, Postbus 3434, 5902 RK Venlo, met een kopie van het besluit. Een bezwaarschrift per e-mail accepteert de gemeente niet. Team Juridische Zaken behandelt het bezwaar en een hoorcommissie kan u uitnodigen; de beslissing komt meestal binnen 12 weken nadat de bezwaartermijn is verstreken. Daarna staat beroep open bij de rechtbank.",
+      "url": "https://www.venlo.nl/bezwaar-en-beroep"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb is mogelijk als het gecontracteerde aanbod volgens het Sociaal Wijkteam niet toereikend of passend is en u pgb-vaardig bent. U stelt een plan met budgetplan op: hoe het pgb de doelen bereikt, welke hulp past, hoe u het budget besteedt en hoe u de taken en verplichtingen zelf of met een vertegenwoordiger uitvoert; de gemeente toetst dit aan de tien punten pgb-vaardigheid van VWS. Het pgb bedraagt niet meer dan de kostprijs van de goedkoopste passende hulp in natura die tijdig beschikbaar is: voor professionele hulp 100%, voor een zzp'er 90% en voor hulp uit het eigen netwerk 75%. Bij jeugdhulp uit het eigen netwerk moet de hulp passend en veilig zijn, geen ggz-behandeling betreffen en is een verklaring omtrent het gedrag nodig, tenzij het een bloed- of aanverwant in de eerste of tweede graad is. De beschikking duurt maximaal twee jaar; u sluit een schriftelijke zorgovereenkomst en declaraties lopen via de Sociale Verzekeringsbank. Er is geen pgb in een spoedeisende situatie.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR758578"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis; helpt ook bij een klachtbrief en bij een gesprek met het Sociaal Wijkteam.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Specialistische jeugdhulp wordt gezamenlijk ingekocht door de MGR Sociaal Domein Limburg-Noord, een samenwerking van veertien gemeenten in Noord- en Midden-Limburg. In 2025 sloot de regio nieuwe contracten met 'Kernpartners' en 'Partners' voor wonen, dagbesteding en dagbehandeling en ambulante hulp; zij moeten samen een passend en dekkend aanbod in Noord-Limburg bieden. De gemeente meldt dat steeds meer cliënten niet-gecontracteerd aanbod gebruiken, omdat het gecontracteerde aanbod niet altijd past. De Zoektool van Sociaal Domein Limburg-Noord toont de gecontracteerde aanbieders van de regio.",
+    "gecontracteerdeAanbiedersUrl": "https://www.sociaaldomein-limburgnoord.nl/zoektool",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via Buurtkracht Venlo, de jeugdgezondheidszorg van GGD Limburg-Noord en het Sociaal Wijkteam; algemene voorzieningen zijn zonder beschikking toegankelijk.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en behandeling",
+        "omschrijving": "Individuele hulp aan huis of op locatie, waaronder jeugd-ggz. Het grootste deel van de jeugdhulp in Venlo is ambulant.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en dagbehandeling",
+        "omschrijving": "Regionaal ingekocht; verwijzers en aanbieders maken per casus afspraken over passend aanbod (pilot aanmeldloket in 2025).",
+        "hulpsoorten": [
+          "dagbesteding"
+        ]
+      },
+      {
+        "naam": "Dyslexiezorg",
+        "omschrijving": "Regionaal ingekocht product 'Dyslexie' (zie de Zoektool).",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "omschrijving": "Behandeling met verblijf en (kleinschalige) woonvoorzieningen worden regionaal ingekocht; Venlo werft extra pleegouders.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Integrale Crisishulp Jeugd Noord- en Midden-Limburg, 24 uur per dag bereikbaar.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming en jeugdreclassering",
+        "omschrijving": "Uitgevoerd door gecertificeerde instellingen op basis van een provinciale subsidieregeling.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Buurtkracht Venlo – opvoeden, gezin en relatie",
+      "soort": "informatiepunt",
+      "omschrijving": "Welzijnsorganisatie met ondersteuning, trainingen en ontmoetingsmomenten voor ouders, opvoeders, kinderen en jongeren, bijvoorbeeld over puberteit, social media, zelfvertrouwen en veranderingen in het gezin. Ook hulp bij scheiden.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://buurtkrachtvenlo.nl/thema/opvoeden-gezin-relatie/"
+    },
+    {
+      "naam": "Informatie- en Adviespunt",
+      "soort": "informatiepunt",
+      "omschrijving": "Laagdrempelig punt in Venlo, Tegelen, Blerick en Belfeld voor vragen over geld, wonen, welzijn, wetten en regels en zorg; helpt met formulieren en verwijst zo nodig door naar het Sociaal Wijkteam. Het Jongeren Service Punt is er een van.",
+      "themas": [
+        "gezin",
+        "jongeren"
+      ],
+      "url": "https://www.venlo.nl/informatie-en-ontmoetingsplekken"
+    },
+    {
+      "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
+      "soort": "informatiepunt",
+      "omschrijving": "Consultatiebureau en jeugdgezondheidszorg voor 0 tot 18 jaar op locatie of op school, met opvoedinformatie, GroeiGids en een ouderportaal.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.ggdlimburgnoord.nl/voor-inwoners/kind-en-opgroeien",
+      "contact": {
+        "naam": "GGD Limburg-Noord",
+        "telefoon": "088 119 1111"
+      }
+    },
+    {
+      "naam": "Wegwijs in Venlo",
+      "soort": "informatiepunt",
+      "omschrijving": "Overzicht van organisaties in Venlo die hulp bieden bij opvoeding en gezin, met een vergelijking van het hulpaanbod.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.wegwijsinvenlo.nl/is/een-vraag-over/opvoeding-en-gezin"
+    },
+    {
+      "naam": "Buurtgezinnen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Brengt gezinnen die steun kunnen gebruiken in contact met een gezin uit de buurt dat graag iets wil betekenen. Venlo wil de inzet in 2027 verbreden naar de regio.",
+      "themas": [
+        "gezin",
+        "opvoeden"
+      ],
+      "url": "https://www.buurtgezinnen.nl/"
+    },
+    {
+      "naam": "Villa Pinedo",
+      "soort": "overig",
+      "omschrijving": "Laagdrempelige ondersteuning voor kinderen en jongeren met gescheiden ouders; de gemeente maakte hierover afspraken met de stichting.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.villapinedo.nl/over-villa-pinedo"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contact opnemen met het Sociaal Wijkteam (met DigiD)",
+      "omschrijving": "Online formulier voor een aanvraag of melding bij het Sociaal Wijkteam; daarna belt een medewerker u. Er is ook een formulier zonder DigiD.",
+      "url": "https://venlo.zaaksysteem.nl/aanvragen/2778/persoon/behandelen-melding-ondersteuningsvraag",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Contact opnemen met het Sociaal Wijkteam (zonder DigiD)",
+      "url": "https://venlo.zaaksysteem.nl/aanvragen/2778/onbekend/behandelen-melding-ondersteuningsvraag"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Vaak sneller dan bezwaar.",
+      "url": "https://www.venlo.nl/klacht-over-behandeling-gemeente",
+      "nodig": "DigiD of eHerkenning, of per brief"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Per e-mail wordt een bezwaarschrift niet geaccepteerd.",
+      "url": "https://www.venlo.nl/bezwaar-en-beroep",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Aanbieders zoeken (Zoektool Sociaal Domein Limburg-Noord)",
+      "omschrijving": "Gecontracteerde aanbieders van jeugdhulp in de regio. Openbaar, zonder inloggen.",
+      "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool"
+    },
+    {
+      "naam": "Persoonsgebonden budget (pgb): voorwaarden en tarieven",
+      "omschrijving": "Regels voor het pgb in de Verordening jeugdhulp en maatschappelijke ondersteuning Venlo 2026; regionale uitleg en tarieventabellen staan bij Sociaal Domein Limburg-Noord.",
+      "url": "https://www.sociaaldomein-limburgnoord.nl/informatie-voor-verwijzers/persoonsgebonden-budget",
+      "nodig": "budgetplan en motivering"
+    },
+    {
+      "naam": "Mijn Sociaal Domein: uw dossier inzien",
+      "omschrijving": "Bekijk uw persoonlijke gegevens, de toegekende hulp en de contactgegevens van uw consulent.",
+      "url": "https://mijnsociaaldomein.venlo.nl/Login",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Cliëntondersteuner aanvragen bij MEE",
+      "omschrijving": "Gratis. Doe dit bij voorkeur vóór het keukentafelgesprek.",
+      "url": "https://www.meedemeentgroep.nl/contact"
+    },
+    {
+      "naam": "Zorgsignaal melden (kwaliteit en rechtmatigheid van zorg)",
+      "omschrijving": "Twijfelt u of zorg goed of volgens de regels wordt geleverd? Iedereen kan melden, ook bij een vermoeden.",
+      "url": "https://www.sociaaldomein-limburgnoord.nl/meldpunt-zorgsignalen"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "omschrijving": "Gratis advies en ondersteuning bij klachten over jeugdhulp.",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In Venlo blijft de instroom in jeugdhulp volgens de jaarstukken 2025 relatief stabiel en neemt het aantal jongeren in jeugdhulp volgens de begroting 2027 licht af, maar de hulp wordt gemiddeld zwaarder en trajecten worden niet korter. De gemeente meldt dat het gecontracteerde aanbod niet altijd past: steeds meer cliënten gebruiken niet-gecontracteerd aanbod. Van de in 2025 gestarte trajecten begon 33% via huisarts, jeugdarts of medisch specialist, tegenover 43% landelijk. De gemeente zet in op preventie, een pilot voor een integrale toegang tot en met 2028 en een verbeterplan met Veilig Thuis Noord- en Midden-Limburg.\n\nVoor ouders betekent dit: leg uw hulpvraag en de afspraken schriftelijk vast en vraag na het gesprek om het leefzorgplan en, bij specialistische hulp, om een beschikking. Past het gecontracteerde aanbod niet, vraag het Sociaal Wijkteam dan naar de reden en naar alternatieven, zoals een pgb. Neem een onafhankelijke cliëntondersteuner van MEE mee naar het gesprek. Bij een slechte ervaring kunt u de vertrouwenspersoon van Jeugdstem bellen of een klacht indienen bij de gemeente.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Begroting 2027: minder jongeren in jeugdhulp, zwaardere hulp",
+        "samenvatting": "Het aantal jongeren in jeugdhulp neemt licht af, maar jongeren die nog hulp nodig hebben, hebben gemiddeld een zwaardere vorm van hulp, waardoor de druk op de specialistische jeugdzorg hoog blijft. De gemeente wil naar hulp die beter past bij jeugd, gezin en lokaal netwerk ('doen wat past'), met een regionale regeling transformatieopgaven en sturing op de grotere aanbieders. Er is ook aandacht voor aansluiting tussen behandeling met verblijf, kleinschalige woonvoorzieningen en crisishulp.",
+        "datum": "2026-10-02",
+        "bron": {
+          "titel": "Gemeente Venlo – Programmabegroting 2027-2030, programmalijn Zelfredzaamheid",
+          "url": "https://venlo.begroting-2027.nl/p17042/wat-gaan-we-daarvoor-doen"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Begroting 2027: pilot integrale toegang en Stevige Lokale Teams",
+        "samenvatting": "De gemeente start een pilot voor een integrale toegang voor alle sociaal-domeinwetten die loopt tot en met 2028, zet de ontwikkeling van Stevige Lokale Teams voort en start een pilot casusregie in het Sociaal Wijkteam. Doel is dat inwoners met vragen op meerdere gebieden één aanspreekpunt hebben.",
+        "datum": "2026-10-02",
+        "bron": {
+          "titel": "Gemeente Venlo – Programmabegroting 2027-2030, programmalijn Zelfredzaamheid",
+          "url": "https://venlo.begroting-2027.nl/p17042/wat-gaan-we-daarvoor-doen"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Begroting 2027: verbeterplan met Veilig Thuis Noord- en Midden-Limburg",
+        "samenvatting": "Gemeente en Veilig Thuis Noord- en Midden-Limburg werken aan een verbeterplan dat in 2027 klaar is: scherper opdrachtgeverschap, betere managementinformatie bij Veilig Thuis en sterkere samenwerking in de keten.",
+        "datum": "2026-10-02",
+        "bron": {
+          "titel": "Gemeente Venlo – Programmabegroting 2027-2030, programmalijn Zelfredzaamheid",
+          "url": "https://venlo.begroting-2027.nl/p17042/wat-gaan-we-daarvoor-doen"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Jaarstukken 2025: instroom stabiel, zorgzwaarte stijgt",
+        "samenvatting": "De instroom in jeugdhulp bleef in 2025 relatief stabiel. De zorgzwaarte blijft oplopen en de looptijd van trajecten wordt nog niet korter. Het aantal cliënten met pgb jeugd daalde; het aantal cliënten met niet-gecontracteerd aanbod steeg, omdat het gecontracteerde aanbod niet voldoende past.",
+        "datum": "2026-05-07",
+        "bron": {
+          "titel": "Gemeente Venlo – Jaarstukken 2025, programmalijn Zelfredzaamheid",
+          "url": "https://venlo.jaarverslag-2025.nl/p15779/wat-hebben-we-daarvoor-gedaan"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jaarstukken 2025: nieuwe regionale contracten en toezicht op zorgfraude",
+        "samenvatting": "Met de MGR kocht Venlo in 2025 jeugdhulp in Noord-Limburg opnieuw in, met afspraken over transformatieopgaven en indicatoren. De gemeente volgde de ontwikkelingen bij een jeugdzorgaanbieder die in zwaar weer kwam en stuurde op diens continuïteitsplan, zodat kinderen en gezinnen in Venlo de zorg konden blijven ontvangen. Toezicht op rechtmatigheid van Jeugdwet en Wmo wordt mogelijk in 2026 bij de MGR gepositioneerd, naar aanleiding van het rekenkameronderzoek 'Zorgfraude in beeld?'.",
+        "datum": "2026-05-07",
+        "bron": {
+          "titel": "Gemeente Venlo – Jaarstukken 2025, programmalijn Zelfredzaamheid",
+          "url": "https://venlo.jaarverslag-2025.nl/p15779/wat-hebben-we-daarvoor-gedaan"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe verordening jeugdhulp: onderzoek door geregistreerde professionals",
+        "samenvatting": "De raad stelde op 25 februari 2026 de Verordening jeugdhulp en maatschappelijke ondersteuning Venlo 2026 vast, met werking vanaf 1 januari 2026. Onderzoek naar een jeugdhulpvraag gebeurt door of onder verantwoordelijkheid van SKJ- of BIG-geregistreerde professionals. Ouders kunnen binnen twee weken na de aanvraag een familiegroepsplan aanbieden en mogen een onafhankelijke cliëntondersteuner meenemen naar het gesprek.",
+        "datum": "2026-02-25",
+        "bron": {
+          "titel": "Verordening jeugdhulp en maatschappelijke ondersteuning Venlo 2026",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR758578"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Lager aandeel jeugdhulp via de huisarts dan landelijk",
+        "samenvatting": "Van de in 2025 gestarte jeugdhulptrajecten in Venlo begon 33% via huisarts, jeugdarts of medisch specialist; landelijk is dat 43%. De medische route wordt in Venlo dus minder vaak gebruikt dan gemiddeld.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "CBS StatLine – Jeugdhulptrajecten in natura; verwijzer, regio (2025)",
+          "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Geen cliëntervaringsonderzoek Jeugd van Venlo gevonden in de jaarstukken 2025, de begroting 2027 of via zoekmachines; het raadsinformatiesysteem gaf alleen een beveiligingscontrole."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://www.venlo.nl/sociale-wijkteams",
+        "samenvatting": "De gemeente noemt alleen streeftermijnen: uw vraag binnen 8 weken beantwoorden en het leefzorgplan binnen zes weken na de ondersteuningsvraag aan u voorleggen. Gemeten doorlooptijden zijn niet gevonden."
+      },
+      "aandeelHuisarts": {
+        "percentage": 33,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Venlo – Jeugdhulp",
+        "url": "https://www.venlo.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Sociale wijkteams (aanvragen, keukentafelgesprek, leefzorgplan)",
+        "url": "https://www.venlo.nl/sociale-wijkteams",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Onafhankelijke cliëntondersteuning (MEE)",
+        "url": "https://www.venlo.nl/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Crisishulp",
+        "url": "https://www.venlo.nl/crisishulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Hulp bij onveilige situaties (meldpunten)",
+        "url": "https://www.venlo.nl/meldpunten-zorg-en-jeugd",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Meldpunt zorgsignalen en toezicht sociaal domein",
+        "url": "https://www.venlo.nl/meldpunt-zorgsignalen-en-toezicht-sociaal-domein",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Klacht over behandeling gemeente",
+        "url": "https://www.venlo.nl/klacht-over-behandeling-gemeente",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Bezwaar en beroep",
+        "url": "https://www.venlo.nl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Opvoeden en opgroeien",
+        "url": "https://www.venlo.nl/opvoeden-en-opgroeien",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Informatie- en ontmoetingsplekken",
+        "url": "https://www.venlo.nl/informatie-en-ontmoetingsplekken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Jaarstukken 2025, programmalijn Zelfredzaamheid (wat hebben we bereikt)",
+        "url": "https://venlo.jaarverslag-2025.nl/p15742/wat-hebben-we-bereikt",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Jaarstukken 2025, wat hebben we daarvoor gedaan",
+        "url": "https://venlo.jaarverslag-2025.nl/p15779/wat-hebben-we-daarvoor-gedaan",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Venlo – Programmabegroting 2027-2030, wat gaan we daarvoor doen",
+        "url": "https://venlo.begroting-2027.nl/p17042/wat-gaan-we-daarvoor-doen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp en maatschappelijke ondersteuning Venlo 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR758578",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Besluit jeugdhulp en maatschappelijke ondersteuning Venlo 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR760301",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord (MGR) – startpagina en samenwerkende gemeenten",
+        "url": "https://www.sociaaldomein-limburgnoord.nl",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord – Zoektool",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord – Persoonsgebonden budget",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/informatie-voor-verwijzers/persoonsgebonden-budget",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – regiolijst",
+        "url": "https://beschikbaarheidswijzer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE de Meent Groep – contact",
+        "url": "https://www.meedemeentgroep.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtkracht Venlo – Opvoeden, gezin en relatie",
+        "url": "https://buurtkrachtvenlo.nl/thema/opvoeden-gezin-relatie/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Limburg-Noord – Kind en opgroeien",
+        "url": "https://www.ggdlimburgnoord.nl/voor-inwoners/kind-en-opgroeien",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine – Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Limburg-Noord: Contact (nummer jeugdgezondheidszorg)",
+        "url": "https://www.ggdlimburgnoord.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV VO Noord-Limburg: Contact",
+        "url": "https://www.swvvo3101.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Regio Limburg-Noord staat niet op de regiolijst van de Beschikbaarheidswijzer; de Zoektool van Sociaal Domein Limburg-Noord is gebruikt. Open: cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden (gemeenteraad.venlo.nl gaf alleen een beveiligingscontrole), eigen klachtenregeling Sociaal Wijkteam, e-mailadres wijkteam. Contactgegevens samenwerkingsverband primair onderwijs niet gevonden."
+  }
+}

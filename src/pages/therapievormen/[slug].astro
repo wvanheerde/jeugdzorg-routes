@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sources from '../../components/Sources.astro';
+import TherapieToelichting from '../../components/TherapieToelichting.astro';
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+  const alle = await getCollection('therapievormen');
+  return alle.map((t) => ({ params: { slug: t.id }, props: { t } }));
+}
+const { t } = Astro.props;
+const d = t.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const situaties = (await getCollection('situaties')).filter((s) => d.situaties.includes(s.id)).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const brieven = (await getCollection('brieven')).filter((b) => b.id === 'aanvraag-jeugdhulp');
+const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard of jeugdhulprichtlijn', erkend: 'Erkend in de NJi-databank effectieve jeugdinterventies', gangbaar: 'Gangbaar, maar beperkter wetenschappelijk onderzocht' };
+---
+<Base title={d.naam} description={d.kort}>
+  <div class="page-head">
+    <p class="meta terug" style="margin-bottom:.5rem"><a href={`${base}/situaties/`} data-terug data-anchor="#therapie" data-situaties={situaties.map((s) => `${s.id}|${s.data.titel}`).join(';')}>← Terug naar situaties</a></p>
+    <span class="eyebrow">Therapievorm · {ob[d.onderbouwing.label]}</span>
+    <h1>{d.naam}</h1>
+    <p class="lead">{d.kort}</p>
+  </div>
+  <div class="page-with-side">
+    <aside class="side">
+      <nav aria-label="Inhoud">
+        <strong>Op deze pagina</strong>
+        <a href="#wat"><span class="n">1</span>Wat is het</a>
+        <a href="#voorwie"><span class="n">2</span>Voor wie</a>
+        <a href="#verwachting"><span class="n">3</span>Wat kunt u verwachten</a>
+        <a href="#onderbouwing"><span class="n">4</span>Onderbouwing en vergoeding</a>
+        <a href="#aanvragen"><span class="n">5</span>Zo vraagt u het aan</a>
+      </nav>
+    </aside>
+    <div>
+      <TherapieToelichting />
+      <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het en hoe werkt het?</h2><p>{d.watIsHet}</p><p>{d.hoeWerktHet}</p></section>
+      <section class="section" id="voorwie"><h2><span class="section-num">2</span>Voor wie past het?</h2><p>{d.voorWie}</p>{d.leeftijd && <p class="meta">Leeftijd: ongeveer {d.leeftijd.van ?? 0}{d.leeftijd.tot ? ` tot ${d.leeftijd.tot}` : ' jaar en ouder'}{d.leeftijd.tot ? ' jaar' : ''}.</p>}
+        {d.overwegingen.length > 0 && <ul>{d.overwegingen.map((o) => <li>{o}</li>)}</ul>}</section>
+      <section class="section" id="verwachting"><h2><span class="section-num">3</span>Wat kunt u verwachten?</h2><p>{d.verwachting}</p></section>
+      <section class="section" id="onderbouwing"><h2><span class="section-num">4</span>Onderbouwing en vergoeding</h2>
+        <p><strong>{ob[d.onderbouwing.label]}.</strong> {d.onderbouwing.toelichting}</p>
+        <p><strong>Vergoeding:</strong> {d.vergoeding}</p></section>
+      <section class="section regelen" id="aanvragen"><h2><span class="section-num">5</span>Zo vraagt u het aan</h2>
+        <p>{d.aanvragen}</p>
+        <p class="meta">Beschrijf in uw hulpvraag wat u ziet, wat u wilt bereiken en waarom deze vorm daarbij past. Zo kunnen u en het team samen de afweging maken; het team kent het lokale aanbod en kan een andere vorm voorstellen als die beter past. {brieven.length > 0 && <a href={`${base}/brieven/aanvraag-jeugdhulp/`}>Voorbeeldbrief hulpvraag →</a>}</p>
+      </section>
+      <Sources bronnen={d.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />
+    </div>
+  </div>
+</Base>
+<script>
+  const a = document.querySelector<HTMLAnchorElement>('[data-terug]');
+  if (a) {
+    const gekozen = (localStorage.getItem('jr.situaties') ?? '').split(',').filter(Boolean);
+    const opties = (a.dataset.situaties ?? '').split(';').filter(Boolean).map((x) => x.split('|'));
+    const hit = opties.find(([id]) => gekozen.includes(id)) ?? (opties.length === 1 ? opties[0] : undefined);
+    if (hit) { a.href = a.href.replace(/\/situaties\/.*$/, `/situaties/${hit[0]}/${a.dataset.anchor}`); a.textContent = `← Terug naar ${hit[1]}`; }
+  }
+</script>

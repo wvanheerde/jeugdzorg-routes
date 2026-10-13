@@ -1,0 +1,399 @@
+{
+  "naam": "Oudewater",
+  "cbsCode": "GM0589",
+  "provincie": "Utrecht",
+  "jeugdzorgregio": "Utrecht West",
+  "websiteJeugd": "https://stadsteamoudewater.nl/jeugd-en-gezin/",
+  "toegang": {
+    "samenvatting": "In Oudewater kunt u met vragen over opvoeden, opgroeien en jeugdhulp eerst terecht bij het Stadsteam Oudewater. Het team werkt namens de gemeente en hoort bij Stichting De Thuisbasis. U belt of mailt zelf, een verwijsbrief is niet nodig. Ook kinderen en jongeren mogen zelf contact opnemen. Voor specialistische hulp neemt het Stadsteam een besluit namens de gemeente. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen. Hoe lang het duurt voordat het Stadsteam uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw eerste contact.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Stadsteam Oudewater",
+        "omschrijving": "Het Stadsteam helpt bij vragen over opvoeden en opgroeien, de ontwikkeling van uw kind, psychische problemen of een beperking. Ook bij problemen in het gezin, zoals een scheiding, kunt u er terecht. U meldt zich zelf aan, zonder verwijsbrief. Voor een kind jonger dan 16 jaar is meestal toestemming nodig van beide ouders met gezag. Het team geeft advies, begeleidt zelf en verwijst zo nodig naar specialistische jeugdhulp. Daarvoor geeft het Stadsteam namens de gemeente een beschikking (besluit) of een pgb (persoonsgebonden budget).",
+        "stappen": [
+          "Bel of mail het Stadsteam, of vraag een gesprek aan. Het gesprek kan op kantoor of bij u thuis.",
+          "Loop ook gerust binnen bij het inloopspreekuur Oudewater Wegwijs in het Cultuurhuis, elke donderdag.",
+          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit."
+        ],
+        "contact": {
+          "naam": "Stadsteam Oudewater",
+          "telefoon": "0348 56 18 93",
+          "email": "info@stadsteamoudewater.nl",
+          "url": "https://stadsteamoudewater.nl/contact/",
+          "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Stadsteam. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD regio Utrecht: het consultatiebureau voor 0 tot 4 jaar en de schoolarts vanaf 4 jaar.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente. De arts kan u ook aanraden eerst naar het Stadsteam te gaan.",
+          "Doe zelf geen aanvraag. De aanbieder meldt de start van de hulp bij de gemeente."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
+          "telefoon": "030 608 60 86",
+          "url": "https://www.ggdru.nl/kind-en-opvoeden/mijn-jeugdgezondheidszorg/",
+          "openingstijden": "Telefonisch op werkdagen 8.00–12.00 en 13.00–16.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Vermoedt de school dat uw kind extra hulp nodig heeft, of komt u er met school niet uit? Dan kunt u bij het Stadsteam terecht. Over passend onderwijs (welke ondersteuning een school moet bieden) geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband gratis en onafhankelijk advies. Voor het basisonderwijs is dat Samenwijs van Passenderwijs, voor het voortgezet onderwijs Steunpunt RUW.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Heeft uw kind hulp nodig buiten school? Meld u dan aan bij het Stadsteam.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband van uw kind."
+        ],
+        "contact": [
+          {
+            "naam": "Stadsteam Oudewater",
+            "telefoon": "0348 56 18 93",
+            "email": "info@stadsteamoudewater.nl",
+            "url": "https://stadsteamoudewater.nl/contact/",
+            "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Samenwijs (samenwerkingsverband Passenderwijs, basisonderwijs)",
+            "telefoon": "0348 41 27 06",
+            "email": "samenwijs@passenderwijs.nl",
+            "url": "https://www.passenderwijs.nl/ouder-en-jeugdsteunpunt/"
+          },
+          {
+            "naam": "Steunpunt RUW (samenwerkingsverband voortgezet onderwijs Utrecht West)",
+            "email": "steunpunt@swvvo-ruw.nl",
+            "url": "https://steunpuntruw.nl/startpagina"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Is er geen spoed maar maakt u zich wel zorgen? Neem dan contact op met het Stadsteam.",
+          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina Het gaat thuis niet goed van Veilig Thuis Utrecht."
+        ],
+        "contact": {
+          "naam": "Veilig Thuis Utrecht: Het gaat thuis niet goed",
+          "url": "https://veiligthuisutrecht.nl/het-gaat-thuis-niet-goed/"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Dichtbij",
+      "toelichting": "Gratis en onafhankelijk. De gemeente betaalt de ondersteuning. De cliëntondersteuner denkt met u mee en helpt bij het regelen van ondersteuning. U kunt de ondersteuner ook meenemen naar het gesprek met het Stadsteam. Het telefoonnummer hier is voor vragen over de Wmo. Vraag daar naar jeugd.",
+      "telefoon": "030 264 22 55",
+      "email": "info@meedichtbij.nl",
+      "url": "https://stadsteamoudewater.nl/ondersteuning-en-zorg/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom hulp van een aanbieder met een contract niet past. U moet de taken die bij een pgb horen zelf goed kunnen uitvoeren. De gemeente moet ook vinden dat de hulp van goede kwaliteit is. Een pgb voor professionele hulp is 75% van het tarief voor zorg in natura: hulp die de gemeente regelt bij een aanbieder met een contract. Hulp van iemand uit uw netwerk krijgt een lager maximumtarief, 20 euro per uur voor begeleiding en verzorging. Is er geen goede hulp in natura die op tijd kan starten, dan kan het pgb 100% zijn.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR755659/1"
+    },
+    "klacht": {
+      "naam": "Klacht over het Stadsteam",
+      "toelichting": "Bespreek een klacht eerst met de hulpverlener. Komt u er niet uit, dan gaat u naar de manager van het Stadsteam. Gaat de klacht over de manager, dan kunt u terecht bij de directeur van Stichting De Thuisbasis. Wilt u een officiële klacht, dan zorgt de Stichting voor een onafhankelijke klachtenfunctionaris. Over een jeugdconsulent die onprofessioneel handelt, kunt u ook klagen bij de Stichting Kwaliteitsregister Jeugd (SKJ). Een klacht over de gemeente zelf mailt of schrijft u aan de gemeente. Die reageert binnen 6 weken.",
+      "url": "https://stadsteamoudewater.nl/klachtenregeling/",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling door de gemeente)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Het Stadsteam neemt besluiten over jeugdhulp namens de gemeente. Bent u het niet eens met een besluit? Bel dan gerust eerst het Stadsteam, soms lost dat al iets op. Daarna maakt u online of per brief bezwaar bij de gemeente. Bent u het na de beslissing op uw bezwaar nog niet eens, dan kunt u naar de rechtbank.",
+      "url": "https://www.oudewater.nl/Contact/Bezwaar_maken"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp en advies krijgt u bij het Stadsteam, zonder besluit van de gemeente. Het Stadsteam biedt zelf ook begeleiding, steungezinnen (vrijwilligers die een gezin steunen) en jongerenwerk. Sinds september 2025 is er een BSO-plus: buitenschoolse opvang in een kleine groep voor kinderen van 4 tot 12 jaar die extra ondersteuning nodig hebben. Daarvoor is een verwijsbrief van het Stadsteam nodig. Specialistische jeugdhulp koopt Oudewater in met vier andere gemeenten in Utrecht West. De Beschikbaarheidswijzer toont de aanbieders en hun wachttijden. Vanaf 1 januari 2027 neemt een nieuwe regionale organisatie de inkoop over. Wat dat voor ouders verandert, is nog niet bekend.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west",
+    "categorieen": [
+      {
+        "naam": "Opvoedondersteuning en advies",
+        "omschrijving": "Via het Stadsteam: gesprekken over opvoeden en opgroeien, begeleiding van ouders en kinderen, steungezinnen en jongerenwerk. Zonder verwijzing.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante begeleiding, jeugd-ggz, dagbehandeling, verblijf en pleegzorg. Regionaal ingekocht door Utrecht West.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Valt onder de specialistische jeugdhulp. Zie de spoedroute.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Steungezinnen Oudewater",
+      "soort": "vrijwilligers",
+      "omschrijving": "Gezinnen die af en toe bijspringen bij een gezin dat een steuntje kan gebruiken, bijvoorbeeld bij een kind met extra zorgvraag of een alleenstaande ouder. Verloopt via het Stadsteam.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://stadsteamoudewater.nl/over-ons/steungezinnen/"
+    },
+    {
+      "naam": "VLAS Oudewater",
+      "soort": "oudergroep",
+      "omschrijving": "Activiteiten en ouderontmoetingen voor kinderen met een extra zorgvraag en hun ouders, samen met onder meer HIT (Heksen in Touw) en Onderling Sterk.",
+      "themas": [
+        "gezin",
+        "opvoeden"
+      ],
+      "url": "https://stadsteamoudewater.nl/ouders-en-stadsteam-zetten-zich-in-voor-kinderen-met-een-extra-zorgvraag/"
+    },
+    {
+      "naam": "Jongerenwerk Oudewater",
+      "soort": "informatiepunt",
+      "omschrijving": "De jongerenwerker houdt contact met jongeren, steunt groepen jongeren en brengt jongeren die hulp nodig hebben in contact met een hulpverlener. Werkt onder verantwoordelijkheid van het Stadsteam.",
+      "themas": [
+        "jongeren"
+      ],
+      "url": "https://stadsteamoudewater.nl/jeugd-en-gezin/"
+    },
+    {
+      "naam": "Oudewater Wegwijs (inloopspreekuur)",
+      "soort": "informatiepunt",
+      "omschrijving": "Elke donderdag in het Cultuurhuis, zonder afspraak. Het Stadsteam is er voor vragen over opvoeden, gezin en ondersteuning; andere organisaties helpen bij werk, geld en digitale vragen.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://stadsteamoudewater.nl/oudewater-wegwijs-vernieuwd-inloopspreekuur-voor-inwoners-van-oudewater/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Gesprek aanvragen bij het Stadsteam Oudewater",
+      "url": "https://stadsteamoudewater.nl/contact/",
+      "nodig": "Naam, e-mailadres en telefoonnummer"
+    },
+    {
+      "naam": "Aanbieders en wachttijden bekijken (Beschikbaarheidswijzer Utrecht West)",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west"
+    },
+    {
+      "naam": "Klacht over het Stadsteam: de klachtenregeling",
+      "url": "https://stadsteamoudewater.nl/klachtenregeling/"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.oudewater.nl/Contact/Klacht_indienen",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.oudewater.nl/Contact/Bezwaar_maken",
+      "nodig": "Het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Volgens de jaarstukken over 2025 is het Stadsteam Oudewater de belangrijkste partij in de jeugdhulp. In 2024 had 11,2% van de jongeren tot 18 jaar in Oudewater jeugdhulp, tegen 14,0% in heel Nederland. Vanaf 1 januari 2027 regelt een nieuwe regionale organisatie voor Utrecht West de inkoop van jeugdhulp. Hoe lang het duurt voordat het Stadsteam een vraag oppakt, en een recent tevredenheidsonderzoek onder ouders, zijn niet openbaar te vinden.\n\nVraag bij uw aanmelding bij het Stadsteam hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE Dichtbij mee. Bent u ontevreden, bespreek het dan eerst met de hulpverlener en daarna met de manager van het Stadsteam.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jaarstukken 2025: ongeveer 1 op de 9 jongeren heeft jeugdhulp",
+        "samenvatting": "Volgens de jaarstukken had in 2024 11,2% van de jongeren tot 18 jaar jeugdhulp, tegen 14,0% in Nederland. De gemeente ziet het Stadsteam als de belangrijkste partij in de jeugdhulp en wil hulp dicht bij huis, zoals steungezinnen en jongerenwerk.",
+        "datum": "2026-05-29",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Oudewater, programma 3 Sociaal domein en BBV-indicatoren",
+          "url": "https://oudewater.begrotingsapp.nl/jaarstukken-2025/programma/programma-3-sociaal-domein"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regionale organisatie voor jeugdhulp in Utrecht West vanaf 2027",
+        "samenvatting": "De gemeenteraden van De Ronde Venen, Montfoort, Oudewater, Stichtse Vecht en Woerden stemden in februari en maart 2026 in met een gezamenlijke organisatie die vanaf 1 januari 2027 onder meer de jeugdhulp inkoopt. De huidige contracten met aanbieders lopen volgens de jaarstukken tot januari 2028. Wat dit voor ouders betekent, is nog niet beschreven.",
+        "datum": "2026-05-26",
+        "bron": {
+          "titel": "Raadsinformatiebrief begroting 2027 GR Sociaal Domein Utrecht West (gemeente Montfoort)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Montfoort&id=ecafe306-0c84-4c26-a514-dba84df07ef5"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee"
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Stadsteam Oudewater: Jeugd en gezin",
+        "url": "https://stadsteamoudewater.nl/jeugd-en-gezin/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Contact",
+        "url": "https://stadsteamoudewater.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Klachtenregeling",
+        "url": "https://stadsteamoudewater.nl/klachtenregeling/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Klachten en bezwaar",
+        "url": "https://stadsteamoudewater.nl/bezwaar-en-klachten/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Onafhankelijke cliëntondersteuning (MEE Dichtbij)",
+        "url": "https://stadsteamoudewater.nl/ondersteuning-en-zorg/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Over ons",
+        "url": "https://stadsteamoudewater.nl/over-ons/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Steungezinnen",
+        "url": "https://stadsteamoudewater.nl/over-ons/steungezinnen/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Oudewater Wegwijs",
+        "url": "https://stadsteamoudewater.nl/oudewater-wegwijs-vernieuwd-inloopspreekuur-voor-inwoners-van-oudewater/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Buitenschoolse opvang (BSO-plus)",
+        "url": "https://stadsteamoudewater.nl/buitenschoolse-opvang-voor-kinderen-die-extra-ondersteuning-nodig-hebben/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Stadsteam Oudewater: Ouders en Stadsteam, kinderen met een extra zorgvraag",
+        "url": "https://stadsteamoudewater.nl/ouders-en-stadsteam-zetten-zich-in-voor-kinderen-met-een-extra-zorgvraag/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Oudewater: Stadsteam Oudewater",
+        "url": "https://www.oudewater.nl/Zorg_en_onderwijs/Zorg/Stadsteam_Oudewater",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Oudewater: Bezwaar maken",
+        "url": "https://www.oudewater.nl/Contact/Bezwaar_maken",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Oudewater: Klacht indienen",
+        "url": "https://www.oudewater.nl/Contact/Klacht_indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Oudewater: Scholen",
+        "url": "https://www.oudewater.nl/Zorg_en_onderwijs/Onderwijs/Scholen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening Jeugdhulp gemeente Oudewater 2025",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR736990/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Nadere regels en beleidsregels Jeugdhulp gemeente Oudewater 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR755659/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD regio Utrecht: Mijn Jeugdgezondheidszorg (contact)",
+        "url": "https://www.ggdru.nl/kind-en-opvoeden/mijn-jeugdgezondheidszorg/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Passenderwijs: Ouder- en jeugdsteunpunt",
+        "url": "https://www.passenderwijs.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Steunpunt RUW: Ouder- en jeugdsteunpunt Regio Utrecht West",
+        "url": "https://steunpuntruw.nl/startpagina",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Utrecht West",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West",
+        "url": "https://www.inkooputrechtwest.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Oudewater",
+        "url": "https://oudewater.begrotingsapp.nl/jaarstukken-2025/programma/programma-3-sociaal-domein",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Oudewater: BBV-indicatoren",
+        "url": "https://oudewater.begrotingsapp.nl/jaarstukken-2025/programma/bbv-indicatoren",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027-2030 gemeente Oudewater, programma 3 Sociaal domein",
+        "url": "https://oudewater.begrotingsapp.nl/programmabegroting-2027---2030/programma/programma-3-sociaal-domein",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief begroting 2027 GR Sociaal Domein Utrecht West (gemeente Montfoort)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Montfoort&id=ecafe306-0c84-4c26-a514-dba84df07ef5",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht: Het gaat thuis niet goed",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wie-wij-zijn/",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Raadsinformatie zit achter bot-controle; cliëntervaringsonderzoek na 2017 en doorlooptijden niet gevonden. Steunpunt RUW gekozen omdat Oudewater geen vo-school heeft (leerlingen naar Gouda vallen onder een ander verband); geen aandeelHuisarts, want CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Spoedroute verwijst naar Veilig Thuis Utrecht: Het gaat thuis niet goed (geen eigen spoedpagina voor jeugd gevonden)."
+  }
+}

@@ -1,0 +1,7 @@
+---
+import { beschikking } from '../lib/routes';
+interface Props { waarde: 'ja' | 'nee' | 'soms' }
+const { waarde } = Astro.props;
+const b = beschikking[waarde];
+---
+<p class={`toegang t-${waarde}`} title={b.lang}><span class="dot" aria-hidden="true"></span>{b.kort}<span class="sr-only">. {b.lang}</span></p>

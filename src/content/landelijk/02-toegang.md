@@ -1,28 +1,28 @@
 ---
 titel: Hoe krijgt u toegang tot jeugdhulp?
-samenvatting: Er zijn meerdere wettelijke routes naar hulp. U bent niet verplicht om via het wijkteam te gaan.
+samenvatting: Er zijn meerdere wegen naar hulp. U hoeft niet via het wijkteam te gaan.
 volgorde: 2
-laatstGecontroleerd: "2026-10-10"
+laatstGecontroleerd: "2026-10-12"
 bronnen:
-  - titel: NJi – Toegang tot jeugdhulp
-    url: https://www.nji.nl/toegang
+  - titel: NJi – De Jeugdwet en beslissen over hulp
+    url: https://www.nji.nl/kennis/beslissen-over-hulp/jeugdwet-beslissen-over-hulp
     geraadpleegd: "2026-10-10"
 ---
 
-De Jeugdwet kent meerdere **wettelijke verwijzers**. Elke route is gelijkwaardig; de gemeente moet de hulp vergoeden als een van deze verwijzers doorverwijst naar een gecontracteerde aanbieder.
+Volgens de Jeugdwet mogen verschillende instanties u **doorverwijzen** naar jeugdhulp. Elke weg is even goed. Verwijst een van hen u door naar een zorgaanbieder met een contract bij de gemeente? Dan moet de gemeente de hulp betalen.
 
 | Route | Wie | Opmerking |
 |---|---|---|
-| Gemeentelijke toegang | Wijkteam, CJG, jeugdteam, buurtteam | Naam verschilt per gemeente |
-| Medische route | Huisarts, jeugdarts, medisch specialist | Rechtstreekse verwijzing, geen gesprek met de gemeente nodig |
-| Gecertificeerde instelling | Jeugdbescherming, jeugdreclassering | Bij een maatregel van de kinderrechter |
-| Spoed | Crisisdienst, Veilig Thuis | 24/7 bereikbaar |
+| Via de gemeente | Wijkteam, CJG, jeugdteam, buurtteam | Naam verschilt per gemeente |
+| Via een arts | Huisarts, jeugdarts, medisch specialist | Arts verwijst direct door, geen gesprek met de gemeente nodig |
+| Gecertificeerde instelling | Jeugdbescherming, jeugdreclassering | Als de kinderrechter een maatregel heeft opgelegd |
+| Spoed | Crisisdienst, Veilig Thuis | Dag en nacht bereikbaar, ook in het weekend |
 
 ## Het gesprek met de gemeente
 
-Als u via de gemeente gaat, volgt een onderzoek (vaak "keukentafelgesprek" genoemd). Daarbij heeft u recht op:
+Gaat u via de gemeente? Dan volgt eerst een onderzoek. Dat heet vaak het "keukentafelgesprek". U heeft dan recht op:
 
-- een **gratis onafhankelijke cliëntondersteuner** die meegaat;
-- een **schriftelijk verslag** van het gesprek;
-- een **beschikking** (besluit) binnen een redelijke termijn, in principe acht weken;
-- het inbrengen van een **familiegroepsplan**: uw eigen plan, dat de gemeente moet bespreken.
+- een **cliëntondersteuner** die met u meegaat. Die is gratis en onafhankelijk;
+- een **verslag op papier** van het gesprek;
+- een **beschikking** (besluit) binnen een redelijke tijd. In principe is dat binnen acht weken;
+- een **familiegroepsplan**: dat is uw eigen plan. De gemeente moet dat plan met u bespreken.

@@ -1,0 +1,656 @@
+{
+  "naam": "Haarlemmermeer",
+  "cbsCode": "GM0394",
+  "provincie": "Noord-Holland",
+  "jeugdzorgregio": "Haarlemmermeer (eigen jeugdhulpregio)",
+  "websiteJeugd": "https://haarlemmermeergemeente.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Haarlemmermeer is er geen wijkteam: het Centrum voor Jeugd en Gezin (CJG) is het eerste aanspreekpunt voor vragen over opvoeden en opgroeien en kan ook (gespecialiseerde) jeugdhulp regelen. Op de gemeentesite vult u de vragenlijst 'Jeugdhulp aanvragen' in; die wijst u door naar de organisatie die u het beste kan helpen, zoals het CJG, de GGD (jeugdgezondheidszorg) of de school van uw kind. Professionals rond school en kinderopvang, zoals schoolcoaches, werken in het zogeheten Haarlemmermeers model met mandaat van de gemeente. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; die route wordt hier opvallend vaak gebruikt. De gemeente meldt dat de jeugdzorgkosten snel stijgen en werkt aan besparingen en aan het terugdringen van wachttijden.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Centrum voor Jeugd en Gezin (CJG) Haarlemmermeer",
+        "omschrijving": "Gratis advies en ondersteuning voor ouders, kinderen, jongeren tot 23 jaar en professionals over opvoeden en opgroeien, van pesten en scheiden tot gedrag en school. Consulenten denken mee, bieden zelf lichte ondersteuning en regelen waar nodig specialistische jeugdhulp. Als een pgb beter past, neemt een CJG-medewerker uw aanvraag over.",
+        "stappen": [
+          "Vul op de gemeentesite de vragenlijst 'Jeugdhulp aanvragen' in, of bel het CJG (ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur). Buiten die tijden kunt u het contactformulier gebruiken of het CJG mailen.",
+          "Een medewerker neemt contact met u op en bespreekt de situatie van uw kind; u mag een onafhankelijke cliëntondersteuner meenemen.",
+          "Samen bepaalt u welke hulp past: lichte ondersteuning, zorg in natura of een persoonsgebonden budget (pgb).",
+          "Vraag om een schriftelijk verslag en vraag hoe het besluit over de hulp wordt vastgelegd; tegen een beschikking kunt u bezwaar maken."
+        ],
+        "contact": {
+          "naam": "CJG Haarlemmermeer",
+          "telefoon": "023 567 7474",
+          "email": "info@cjghaarlemmermeer.nl",
+          "url": "https://www.cjghaarlemmermeer.nl/",
+          "adres": "Marktlaan 124, 2132 DM Hoofddorp",
+          "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur (vanaf 1 september 2026)"
+        },
+        "doorlooptijd": "Via het contactformulier van het CJG neemt een consulent binnen 2 werkdagen contact op."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Volgens de Jeugdwet mogen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. In Haarlemmermeer begon in 2025 ongeveer twee op de drie jeugdhulptrajecten via deze route, tegenover ruim vier op de tien landelijk. Bij huisartsen is een praktijkondersteuner jeugd (POH-Jeugd) beschikbaar voor lichtere vragen.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Kennemerland.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder; u kunt de Beschikbaarheidswijzer gebruiken om aanbieders en wachttijden te vergelijken.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "GGD Kennemerland Jeugdgezondheidszorg",
+          "telefoon": "023 789 1777",
+          "email": "jgz@vrk.nl",
+          "openingstijden": "Telefonisch ma t/m vr 8.30–12.30 en 13.15–17.00 uur",
+          "url": "https://www.ggdkennemerland.nl/contact"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school (schoolcoach, jeugdarts, jeugdverpleegkundige)",
+        "omschrijving": "Scholen werken samen met het CJG en met schoolcoaches en de jeugdgezondheidszorg. Volgens de gemeente kunt u via de intern begeleider of zorgcoördinator terechtkomen bij de schoolcoach, jeugdarts of jeugdverpleegkundige die u verder helpt. Sinds 2025 start ook Jeugdhulp op School en ontstaan onderwijs-zorgarrangementen.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht, intern begeleider of zorgcoördinator.",
+          "Vraag wie voor uw kind de schoolcoach, jeugdarts of jeugdverpleegkundige is en vraag die om advies over jeugdhulp.",
+          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs; vraag de school om het ondersteuningsplan en schriftelijke afspraken."
+        ],
+        "contact": [
+          {
+            "naam": "GGD Kennemerland Jeugdgezondheidszorg",
+            "telefoon": "023 789 1777",
+            "email": "jgz@vrk.nl",
+            "openingstijden": "Telefonisch ma t/m vr 8.30–12.30 en 13.15–17.00 uur",
+            "url": "https://www.ggdkennemerland.nl/contact"
+          },
+          {
+            "naam": "CJG Haarlemmermeer",
+            "telefoon": "023 567 7474",
+            "email": "info@cjghaarlemmermeer.nl",
+            "url": "https://www.cjghaarlemmermeer.nl/",
+            "adres": "Marktlaan 124, 2132 DM Hoofddorp",
+            "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur (vanaf 1 september 2026)"
+          },
+          {
+            "naam": "Passend Onderwijs Haarlemmermeer (basisonderwijs)",
+            "telefoon": "023 303 0102",
+            "url": "https://www.passendonderwijshaarlemmermeer.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "overig",
+        "naam": "Voor jongeren zelf",
+        "omschrijving": "Jongeren kunnen zelf vragen stellen, anoniem als ze dat willen. Het CJG adviseert gratis, het Jongeren Informatie Punt (JIP) is er voor jongeren van 12 tot en met 23 jaar en de Kindertelefoon is gratis en anoniem.",
+        "stappen": [
+          "Neem contact op met het CJG of gebruik het contactformulier; vragen kunnen anoniem.",
+          "Bel of app het JIP (ook via WhatsApp). Het JIP verwijst zo nodig door.",
+          "De Kindertelefoon is gratis en anoniem."
+        ],
+        "contact": [
+          {
+            "naam": "CJG Haarlemmermeer",
+            "telefoon": "023 567 7474",
+            "email": "info@cjghaarlemmermeer.nl",
+            "url": "https://www.cjghaarlemmermeer.nl/",
+            "adres": "Marktlaan 124, 2132 DM Hoofddorp",
+            "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur (vanaf 1 september 2026)"
+          },
+          {
+            "naam": "Jongeren Informatie Punt (JIP) Haarlemmermeer",
+            "url": "https://www.jiphaarlemmermeer.nl/"
+          },
+          {
+            "naam": "De Kindertelefoon",
+            "telefoon": "0800 0432",
+            "url": "https://www.kindertelefoon.nl/",
+            "openingstijden": "Dagelijks 11.00–21.00 uur, ook via chat"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Haarlemmermeer op de pagina U maakt zich zorgen om iemand van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Haarlemmermeer: U maakt zich zorgen om iemand",
+          "url": "https://haarlemmermeergemeente.nl/u-maakt-zich-zorgen-om-iemand"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Onafhankelijke cliëntondersteuning (Eigen Plan, MeerWaarde, MEE Dichtbij en anderen)",
+      "toelichting": "Gratis en onafhankelijk van de gemeente. De gemeente heeft geen vaste uitvoerder maar verwijst naar meerdere organisaties; u neemt zelf contact op. Voor jeugdhulp noemt de Sociale Kaart Haarlemmermeer onder meer Eigen Plan (een familiegroepsplan samen met de eigen kring), Humanitas en MeerWaarde PlusPunten; MEE Dichtbij helpt bij een beperking, autisme of chronische ziekte, en Jongeren Ervaringscoaches ondersteunen jongeren van 16 tot en met 26 jaar. Een cliëntondersteuner kan een gesprek voorbereiden, meegaan naar het CJG of school, helpen met formulieren en met bezwaar. Bel bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "023 569 8888",
+      "url": "https://haarlemmermeergemeente.nl/clientondersteuning"
+    },
+    "klacht": {
+      "naam": "Klachtenmeldpunt gemeente Haarlemmermeer",
+      "toelichting": "Bespreek het eerst met de medewerker over wie u niet tevreden bent. Komt u er niet uit, dan kunt u de klacht online (met DigiD), telefonisch, per e-mail (onderwerp 'Klachtenmeldpunt') of per brief indienen; anonieme klachten worden niet behandeld. Een klachtenadviseur onderzoekt de klacht en u krijgt uiterlijk binnen 6 weken een brief (met 4 weken te verlengen). Voor hulp bij het opschrijven kunt u terecht bij de Formulierenbrigade van MeerWaarde. Over een zorgaanbieder klaagt u eerst bij de aanbieder zelf; Jeugdstem helpt daarbij.",
+      "url": "https://haarlemmermeergemeente.nl/ontevreden-over-hoe-u-bent-geholpen",
+      "email": "info@haarlemmermeer.nl",
+      "telefoon": "0900 1852",
+      "extern": {
+        "naam": "Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een beschikking (besluit) van de gemeente kunt u gratis binnen 6 weken na verzending bezwaar maken, online met DigiD of per brief aan Gemeente Haarlemmermeer, Team Juridische Zaken, Postbus 250, 2130 AG Hoofddorp. De gemeente beslist binnen 6 weken (na een ambtelijke hoorzitting) of binnen 12 weken (bij de commissie bezwaarschriften), beide met maximaal 6 weken verlenging. Bent u het niet eens met de uitkomst, dan staat beroep open bij de rechtbank Noord-Holland in Haarlem.",
+      "url": "https://haarlemmermeergemeente.nl/bezwaar-maken"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb vraagt u niet los aan: het is een manier om zorg te betalen. U vraagt jeugdhulp aan; bespreekt u met de medewerker of zorg in natura of een pgb past, dan neemt een medewerker van het CJG de pgb-aanvraag over. De gemeente betaalt het budget aan de Sociale Verzekeringsbank (SVB), die uw zorgaanbieder betaalt zodra u opdracht geeft; daarvoor is een zorgovereenkomst nodig. De gemeente let op de gebruikelijke bedragen; de tarieven staan op de pgb-pagina. Een pgb beheren is niet voor iedereen geschikt; de zelftest van Per Saldo helpt bij de afweging.",
+      "url": "https://haarlemmermeergemeente.nl/persoonsgebonden-budget-pgb"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp en advies via het CJG, de GGD en schoolcoaches; specialistische jeugdhulp koopt de gemeente in bij zorgaanbieders, bij een groot deel van de ambulante jeugdhulp met signaalbudgetten (kleine, snel inzetbare budgetten voor lichte hulp). Haarlemmermeer is een eigen jeugdhulpregio en is aangesloten op de Beschikbaarheidswijzer: alle gecontracteerde aanbieders met wachttijden, openbaar en zonder inloggen. Voorkeur gaat uit naar hulp thuis en, als dat niet kan, naar een gezinssituatie (pleegzorg of gezinshuis) boven een instelling.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/haarlemmermeer",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het CJG, de GGD en schoolcoaches; cursussen en groepen worden samen met partners zoals GGD, Prezens en MeerWaarde aangeboden.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en jeugdhulp op school",
+        "omschrijving": "Hulp thuis of op school, onder meer via Jeugdhulp op School; regelt het CJG of een gemandateerde professional.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Lichte hulp via de praktijkondersteuner jeugd bij de huisarts; specialistische jeugd-ggz via verwijzing van het CJG of een arts.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Via huisarts of huisartsenpost en Veilig Thuis; zie de route spoedeisende hulp.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming en jeugdreclassering",
+        "omschrijving": "Uitgevoerd door gecertificeerde instellingen in opdracht van de gemeente; geen startroute voor ouders.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Centrum voor Jeugd en Gezin (CJG) Haarlemmermeer",
+      "soort": "informatiepunt",
+      "omschrijving": "Gratis advies voor ouders, kinderen, jongeren en professionals over opvoeden en opgroeien. Een overzicht van gratis cursussen en trainingen van partners (zoals GGD, Prezens en MeerWaarde) staat op de website; consulenten helpen bij de keuze.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.cjghaarlemmermeer.nl/",
+      "contact": {
+        "naam": "CJG Haarlemmermeer",
+        "telefoon": "023 567 7474",
+        "email": "info@cjghaarlemmermeer.nl",
+        "adres": "Marktlaan 124, 2132 DM Hoofddorp",
+        "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur"
+      }
+    },
+    {
+      "naam": "GGD Kennemerland – Jeugdgezondheidszorg",
+      "soort": "informatiepunt",
+      "omschrijving": "Voor alle kinderen van 0 tot 18 jaar en hun ouders: vragen over opgroeien en opvoeden, het consultatiebureau (eerste 4 jaar) en vaccinaties. Jeugdartsen en jeugdverpleegkundigen kunnen doorverwijzen naar hulp.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.ggdkennemerland.nl/mijn-kind"
+    },
+    {
+      "naam": "Jongeren Informatie Punt (JIP) Haarlemmermeer",
+      "soort": "informatiepunt",
+      "omschrijving": "Gratis en vertrouwelijk informatie en advies voor jongeren van 12 tot en met 23 jaar over onder meer werk, onderwijs, geld, wonen, rechten en gezondheid. Verwijst zo nodig door.",
+      "themas": [
+        "jongeren"
+      ],
+      "url": "https://www.jiphaarlemmermeer.nl/"
+    },
+    {
+      "naam": "Jongeren Ervaringscoaches Haarlemmermeer (JEC)",
+      "soort": "overig",
+      "omschrijving": "Cliëntondersteuning voor jongeren van 16 tot en met 26 jaar die eenzaam, somber of ongelukkig zijn: praten met iemand die in dezelfde situatie zat, of vragen of iemand meegaat naar lastige gesprekken.",
+      "themas": [
+        "jongeren",
+        "somberheid"
+      ],
+      "url": "https://www.ontdec.nl/Ik-zoek-hulp/",
+      "contact": {
+        "naam": "Jongeren Ervaringscoaches",
+        "email": "iva@ontdec.nl"
+      }
+    },
+    {
+      "naam": "MeerWaarde PlusPunten",
+      "soort": "informatiepunt",
+      "omschrijving": "Inloopspreekuren op meerdere plaatsen in Haarlemmermeer voor informatie, advies en hulp bij onder meer opvoedvragen, formulieren en administratie. Via een PlusPunt kan een afspraak met een sociaal werker worden gemaakt; de Formulierenbrigade helpt ook bij het opschrijven van een klacht.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.meerwaarde.nl/pluspunten",
+      "contact": {
+        "naam": "MeerWaarde",
+        "telefoon": "023 569 8888"
+      }
+    },
+    {
+      "naam": "Eigen Plan",
+      "soort": "overig",
+      "omschrijving": "Onafhankelijke ondersteuning voor gezinnen die vastlopen, bijvoorbeeld bij opvoeden, veilig opgroeien of scheiding. Een coach brengt in kaart wat nodig is en helpt een familiegroepsplan te maken samen met mensen uit de eigen kring.",
+      "themas": [
+        "gezin",
+        "opvoeden",
+        "scheiding"
+      ],
+      "url": "https://www.eigen-plan.nl",
+      "contact": {
+        "naam": "Eigen Plan",
+        "email": "contact@eigen-plan.nl"
+      }
+    },
+    {
+      "naam": "Mantelzorg & Meer (ook voor jonge mantelzorgers)",
+      "soort": "informatiepunt",
+      "omschrijving": "Cliëntondersteuning en advies voor mensen die intensief voor een partner, kind, ouder of ander naaste zorgen, waaronder jonge mantelzorgers.",
+      "themas": [
+        "mantelzorg",
+        "jongemantelzorger"
+      ],
+      "url": "https://www.mantelzorgenmeer.nl/",
+      "contact": {
+        "naam": "Mantelzorg & Meer",
+        "telefoon": "020 512 7250",
+        "email": "info@mantelzorgenmeer.nl"
+      }
+    },
+    {
+      "naam": "Autisme Informatie Centrum (AIC) Hoofddorp",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Advies voor ouders, partners en kinderen met autisme: informatie, activiteiten en contact met lotgenoten.",
+      "themas": [
+        "beperking",
+        "ontwikkelingsproblemen"
+      ],
+      "url": "https://www.autisme.nl/",
+      "contact": {
+        "naam": "NVA Haarlemmermeer",
+        "email": "nva.haarlemmermeer@autisme.nl"
+      }
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Jeugdhulp aanvragen (vragenlijst)",
+      "omschrijving": "U ziet welke organisatie u of uw kind het beste kan helpen; een medewerker van die organisatie neemt contact op.",
+      "url": "https://formulier.haarlemmermeer.nl/waar-vraagt-u-jeugdhulp-aan/startpagina"
+    },
+    {
+      "naam": "Contactformulier CJG Haarlemmermeer",
+      "omschrijving": "Stel uw vraag aan een consulent; het CJG neemt binnen 2 werkdagen contact op.",
+      "url": "https://www.cjghaarlemmermeer.nl/ouders-opvoeders/raadpleeg-een-consulent/"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "omschrijving": "Laagdrempelig en zonder bezwaartermijn: bij geen reactie, geen plan of slechte bejegening. Reactie uiterlijk binnen 6 weken.",
+      "url": "https://formulier.haarlemmermeer.nl/klachten/startpagina",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Gecontracteerde jeugdhulpaanbieders met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/haarlemmermeer"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na verzending van het besluit.",
+      "url": "https://formulier.haarlemmermeer.nl/bezwaar-maken/startpagina",
+      "nodig": "DigiD en een digitale kopie van de beschikking"
+    },
+    {
+      "naam": "Persoonsgebonden budget (pgb): uitleg en bedragen",
+      "omschrijving": "Geen losse aanvraag: u vraagt jeugdhulp aan en bespreekt of een pgb past. De pagina toont ook de gebruikelijke bedragen.",
+      "url": "https://haarlemmermeergemeente.nl/persoonsgebonden-budget-pgb"
+    },
+    {
+      "naam": "Cliëntondersteuner zoeken",
+      "omschrijving": "Overzicht van organisaties voor gratis, onafhankelijke cliëntondersteuning; u neemt zelf contact op.",
+      "url": "https://haarlemmermeergemeente.nl/clientondersteuning"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "omschrijving": "Gratis advies en ondersteuning bij klachten over jeugdhulp.",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Cliënten waarderen de jeugdhulp in Haarlemmermeer over het algemeen: in het cliëntervaringsonderzoek over 2025 kreeg de toegang een 7,6, de kwaliteit een 7,9 en het probleemoplossend vermogen een 7,0. Tegelijk staat de jeugdzorg financieel onder druk: de uitgaven verdubbelden in vijf jaar en de gemeente moet flink besparen. De rekenkamer concludeerde in 2026 dat het college de kosten beter beheersbaar maakte, maar dat het aantal jongeren met jeugdhulp en de kosten per jongere nog stijgen. De raad en de rekenkamer vragen om meer kwalitatieve informatie van professionals en cliënten over de kwaliteit van zorg.\n\nVoor ouders betekent dit: begin bij het CJG, de schoolcoach of de huisarts, en vraag bij aanmelding naar de verwachte wachttijd en naar de Beschikbaarheidswijzer. Leg afspraken schriftelijk vast en neem zo nodig een onafhankelijke cliëntondersteuner mee. Komt u er niet uit, dien dan een klacht in bij het klachtenmeldpunt van de gemeente of maak binnen 6 weken bezwaar tegen een beschikking.",
+    "signalen": [
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek Jeugd over 2025: toegang 7,6, kwaliteit 7,9",
+        "samenvatting": "Van 1.299 uitgenodigde jeugdhulpcliënten vulden er 224 de vragenlijst in (respons volgens het rapport 13%). De toegang tot jeugdhulp kreeg gemiddeld een 7,6 en de kwaliteit van de hulp een 7,9; het probleemoplossend vermogen kreeg een 7,0. De meeste kinderen en ouders voelen zich geholpen; sommigen geven aan dat problemen niet oplosbaar zijn maar dat zij wel handvatten krijgen.",
+        "datum": "2026-06-23",
+        "bron": {
+          "titel": "Gemeente Haarlemmermeer – Brief aan de raad over voortgang sociaal domein (met CEO Wmo en Jeugd over 2025, Ipsos I&O)",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Haarlemmermeer&id=b39ff916-b618-4326-afa8-8e3081ab3ab9"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Opvolgonderzoek jeugdzorg: kosten beter beheersbaar, oorzaken nog niet onderzocht",
+        "samenvatting": "De rekenkamer toetste of aanbevelingen uit het onderzoek 'Koersvast maar doelloos' (2021) zijn opgevolgd. Drie van de vijf zijn opgevolgd; de raad stelde kaders vast en het bekostigingsmodel is aangescherpt, onder meer met signaalbudgetten. Niet opgevolgd: onderzoek naar de oorzaken van het groeiend beroep op jeugdzorg, en eisen voor kadernota's. Het aantal jongeren met jeugdhulp en de kosten per jongere stijgen nog steeds.",
+        "datum": "2026-05",
+        "bron": {
+          "titel": "Rekenkamer Haarlemmermeer – Opvolgonderzoek jeugdzorg",
+          "url": "https://haarlemmermeergemeente.nl/rekenkamer-haarlemmermeer/opvolgonderzoek-jeugdzorg"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Raad zoekt grip op toenemende kosten jeugdzorg",
+        "samenvatting": "Na het opvolgonderzoek van de rekenkamer debatteerde de gemeenteraad over de groeiende problemen rond jeugdzorg. Fracties vonden dat de problemen in Haarlemmermeer groter lijken dan gemiddeld en vroegen om onderzoek naar mogelijke eigen oorzaken. Het college zegde toe op termijn kwalitatieve informatie van deskundigen uit het veld aan de raad te geven.",
+        "datum": "2026-05-11",
+        "bron": {
+          "titel": "HCnieuws",
+          "url": "https://www.hcnieuws.nl/nieuws/politiek/127163/raad-probeert-grip-te-krijgen-op-toenemende-kosten-jeugdzorg"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Kosten verdubbeld in vijf jaar; gemeente moet besparen",
+        "samenvatting": "Volgens de gemeente zijn de uitgaven voor jeugdhulp in vijf jaar verdubbeld, mede doordat steeds meer jongeren jeugdzorg krijgen. In de begroting staan flinke besparingen. De gemeente scherpte de Verordening sociaal domein aan, zet in op preventie (Sterk van Start) en onderzoekt een eigen bijdrage en meer sturing op de duur van trajecten.",
+        "datum": "2026-03-17",
+        "bron": {
+          "titel": "Gemeente Haarlemmermeer – Waarom jeugdzorg steeds duurder wordt",
+          "url": "https://haarlemmermeergemeente.nl/informeer-online/waarom-jeugdzorg-steeds-duurder-wordt-en-wat-haarlemmermeer-daaraan-doet"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Programmabegroting 2027-2030: experimenten in Floriande en Vijfhuizen",
+        "samenvatting": "De gemeente wil in twee wijken, Floriande en Vijfhuizen, leren welke preventieve werkwijzen instroom in geïndiceerde jeugdzorg verminderen. Mede door de Hervormingsagenda Jeugd heeft de gemeente vanaf 2027 minder geld voor jeugdzorg. In 2026 zijn nog extra middelen beschikbaar voor het project om wachttijden duurzaam aan te pakken.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "Programmabegroting 2027-2030 – Beleidsdoel B: kinderen en jongeren ontvangen passende zorg",
+          "url": "https://programmabegroting.haarlemmermeer.nl/2027/programma-s/welzijn-zorg-en-onderwijs/beleidsdoel-b-kinderen-en-jongeren-ontvangen-passende-zorg-en-ondersteuning-wanneer-dat-nodig-is"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jaarstukken 2025: aanpak wachttijden leverde 'team Brede blik' op",
+        "samenvatting": "Het project Aanpak Wachttijden leverde twee opbrengsten op: 'team Brede blik' (professionals van verschillende organisaties werken samen aan complexe situaties) en een spel dat de band tussen jongere en behandelaar versterkt. Het aandeel jongeren met jeugdhulp bedroeg volgens een voorlopig cijfer 11,3% in 2025, tegenover 13,9% in 2024. Ook startte Jeugdhulp op School.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarstukken 2025 – Zorg en werk, beleidsdoel A",
+          "url": "https://jaarstukken.haarlemmermeer.nl/2025/programmaverantwoording/zorg-en-werk/beleidsdoel-a-inwoners-ontvangen-zorg-en-ondersteuning-thuis"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Veel jeugdhulp start via de huisarts",
+        "samenvatting": "Van de in 2025 gestarte jeugdhulptrajecten in Haarlemmermeer begon 65% via huisarts, jeugdarts of medisch specialist; landelijk ligt dat op 43%. De medische route wordt hier dus ruim vaker gebruikt dan gemiddeld.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "CBS StatLine – Jeugdhulptrajecten in natura; verwijzer, regio (2025)",
+          "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-13",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Haarlemmermeer&id=b39ff916-b618-4326-afa8-8e3081ab3ab9",
+        "samenvatting": "Haarlemmermeer voert jaarlijks een cliëntervaringsonderzoek Jeugd en Wmo uit (Ipsos I&O). Over 2025: 224 van 1.299 uitgenodigden deden mee (respons volgens het rapport 13%), toegang 7,6, kwaliteit van de hulp 7,9, probleemoplossend vermogen 7,0."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://haarlemmermeergemeente.nl/informeer-online/waarom-jeugdzorg-steeds-duurder-wordt-en-wat-haarlemmermeer-daaraan-doet",
+        "samenvatting": "Geen doorlooptijden van de toegang (CJG, schoolcoaches) gepubliceerd in de jaarstukken 2025, de programmabegroting 2027-2030 of het cliëntervaringsonderzoek. De gemeente meldt wel dat zij met dashboards cliëntaantallen, kosten en wachttijden bij aanbieders volgt, maar toont die cijfers niet openbaar; de Beschikbaarheidswijzer toont actuele wachttijden per aanbieder."
+      },
+      "aandeelHuisarts": {
+        "percentage": 65,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Haarlemmermeer – Jeugdhulp",
+        "url": "https://haarlemmermeergemeente.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Jeugdhulp aanvragen (formulier)",
+        "url": "https://formulier.haarlemmermeer.nl/waar-vraagt-u-jeugdhulp-aan/startpagina",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Persoonsgebonden budget (pgb)",
+        "url": "https://haarlemmermeergemeente.nl/persoonsgebonden-budget-pgb",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Cliëntondersteuning",
+        "url": "https://haarlemmermeergemeente.nl/clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Bezwaar maken",
+        "url": "https://haarlemmermeergemeente.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Online bezwaar maken",
+        "url": "https://formulier.haarlemmermeer.nl/bezwaar-maken/startpagina",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Ontevreden over hoe u bent geholpen (klachten)",
+        "url": "https://haarlemmermeergemeente.nl/ontevreden-over-hoe-u-bent-geholpen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Klachtenformulier",
+        "url": "https://formulier.haarlemmermeer.nl/klachten/startpagina",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – CJG, contact",
+        "url": "https://haarlemmermeergemeente.nl/centrum-voor-jeugd-en-gezin/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Haarlemmermeer",
+        "url": "https://www.cjghaarlemmermeer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Haarlemmermeer – Contact",
+        "url": "https://www.cjghaarlemmermeer.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Haarlemmermeer – Raadpleeg een consulent",
+        "url": "https://www.cjghaarlemmermeer.nl/ouders-opvoeders/raadpleeg-een-consulent/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Haarlemmermeer – Cursusaanbod",
+        "url": "https://www.cjghaarlemmermeer.nl/cursus/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociale Kaart Haarlemmermeer – Jeugdhulp regelen",
+        "url": "https://www.socialekaarthaarlemmermeer.nl/artikel/20705/opvoeden-en-opgroeien/jeugdhulp/jeugdhulp-regelen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Kennemerland – Mijn kind",
+        "url": "https://www.ggdkennemerland.nl/mijn-kind",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jongeren Informatie Punt Haarlemmermeer",
+        "url": "https://www.jiphaarlemmermeer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jongeren Ervaringscoaches (Ontdec)",
+        "url": "https://www.ontdec.nl/Ik-zoek-hulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MeerWaarde – PlusPunten",
+        "url": "https://www.meerwaarde.nl/pluspunten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Eigen Plan",
+        "url": "https://www.eigen-plan.nl",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Kennemerland",
+        "url": "https://veiligthuis-ken.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem – Contact",
+        "url": "https://jeugdstem.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – Jeugdhulp Haarlemmermeer",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/haarlemmermeer",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Waarom jeugdzorg steeds duurder wordt",
+        "url": "https://haarlemmermeergemeente.nl/informeer-online/waarom-jeugdzorg-steeds-duurder-wordt-en-wat-haarlemmermeer-daaraan-doet",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Gemeente zet in op sterke basis voor kinderen en jongeren",
+        "url": "https://haarlemmermeergemeente.nl/informeer-online/gemeente-zet-in-op-sterke-basis-voor-kinderen-en-jongeren",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rekenkamer Haarlemmermeer – Opvolgonderzoek jeugdzorg",
+        "url": "https://haarlemmermeergemeente.nl/rekenkamer-haarlemmermeer/opvolgonderzoek-jeugdzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "HCnieuws – Raad probeert grip te krijgen op toenemende kosten jeugdzorg",
+        "url": "https://www.hcnieuws.nl/nieuws/politiek/127163/raad-probeert-grip-te-krijgen-op-toenemende-kosten-jeugdzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 Haarlemmermeer",
+        "url": "https://jaarstukken.haarlemmermeer.nl/2025",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 – Zorg en werk, beleidsdoel A",
+        "url": "https://jaarstukken.haarlemmermeer.nl/2025/programmaverantwoording/zorg-en-werk/beleidsdoel-a-inwoners-ontvangen-zorg-en-ondersteuning-thuis",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 – Zorg en werk, beleidsdoel B",
+        "url": "https://jaarstukken.haarlemmermeer.nl/2025/programmaverantwoording/zorg-en-werk/beleidsdoel-b-inwoners-ontvangen-zorg-en-ondersteuning-met-verblijf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Programmabegroting 2027-2030 Haarlemmermeer",
+        "url": "https://programmabegroting.haarlemmermeer.nl/2027",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Programmabegroting 2027-2030 – Beleidsdoel B jeugdzorg",
+        "url": "https://programmabegroting.haarlemmermeer.nl/2027/programma-s/welzijn-zorg-en-onderwijs/beleidsdoel-b-kinderen-en-jongeren-ontvangen-passende-zorg-en-ondersteuning-wanneer-dat-nodig-is",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "iBabs Publieksportaal Haarlemmermeer (raadsinformatiesysteem)",
+        "url": "https://haarlemmermeer.bestuurlijkeinformatie.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer – Brief aan de raad over voortgang sociaal domein, incl. CEO Wmo en Jeugd 2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Haarlemmermeer&id=b39ff916-b618-4326-afa8-8e3081ab3ab9",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine – Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Haarlemmermeer: U maakt zich zorgen om iemand",
+        "url": "https://haarlemmermeergemeente.nl/u-maakt-zich-zorgen-om-iemand",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Kennemerland - Contact",
+        "url": "https://www.ggdkennemerland.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Passend Onderwijs Haarlemmermeer - Contact",
+        "url": "https://www.passendonderwijshaarlemmermeer.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "De Kindertelefoon",
+        "url": "https://www.kindertelefoon.nl/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Doorlooptijden van de toegang niet gevonden in jaarstukken 2025 of begroting 2027-2030. Eigen klachtenregeling van het CJG niet online gevonden; externe klachtinstantie (Nationale ombudsman) niet bevestigd door de gemeente. Jeugdzorgregio afgeleid uit CBS en Beschikbaarheidswijzer, geen gemeentebron. Contactgegevens samenwerkingsverband VO niet gevonden."
+  }
+}

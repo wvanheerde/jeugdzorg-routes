@@ -1,0 +1,382 @@
+{
+  "naam": "Wijchen",
+  "cbsCode": "GM0296",
+  "provincie": "Gelderland",
+  "websiteJeugd": "https://www.wijchen.nl/opvoeden-en-opgroeien",
+  "toegang": {
+    "samenvatting": "In Wijchen is het Sociaal Team van de gemeente de eerste stap voor hulp bij opvoeden en opgroeien. U kunt zich zelf aanmelden. Een verwijzing is niet nodig. U belt, vult het meldingsformulier in of loopt binnen bij het inlooppunt in 't Mozaïek. Daarna volgt een gesprek, meestal bij u thuis. Samen met het team maakt u een onderzoeksverslag. Bij zwaardere hulp krijgt u een beschikking (besluit van de gemeente). Ook de huisarts mag rechtstreeks verwijzen. Bij de huisartsen werkt een praktijkondersteuner jeugd van het Sociaal Team. Het onderdeel Jeugd van het team heeft lange wachttijden. Vraag bij uw melding hoe lang het duurt.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal Team Wijchen",
+        "omschrijving": "Het Sociaal Team werkt voor de gemeente en regelt de toegang tot hulp, ook voor jeugd. U hoeft geen ingewikkelde vraag te hebben: ook voor advies of een kleine vraag kunt u terecht. Het team kijkt eerst wat u zelf, uw netwerk en vrij toegankelijke hulp kunnen doen. Is meer nodig, dan regelt het team professionele hulp. Het Sociaal Team werkt samen met de gemeente Druten.",
+        "stappen": [
+          "Bel het Sociaal Team, vul het meldingsformulier in of loop binnen bij het inlooppunt in 't Mozaïek.",
+          "Voer daarna een gesprek met het Sociaal Team, het liefst bij u thuis. Elders mag ook. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner of een vertrouwenspersoon van Jeugdstem.",
+          "Maak samen een onderzoeksverslag. Daarin staat wat u zelf regelt en waarvoor u professionele hulp nodig hebt.",
+          "Vraag om een beschikking als professionele hulp nodig is. U krijgt die samen met het onderzoeksverslag."
+        ],
+        "contact": {
+          "naam": "Sociaal Team Wijchen",
+          "telefoon": "088 432 7432",
+          "url": "https://www.wijchen.nl/contact-sociaal-team",
+          "adres": "Inlooppunt in 't Mozaïek, Campuslaan 6, Wijchen",
+          "openingstijden": "Telefonisch ma t/m do 9.00–15.00 uur, vr 9.00–12.30 uur. Kan uw vraag niet wachten: ma t/m do ook 15.00–17.00 uur, vr ook 12.30–17.00 uur. Inloop ma, di en do 9.00–16.00 uur, wo 9.00–12.30 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisartsen werkt een praktijkondersteuner jeugd (POH-jeugd) van het Sociaal Team, voor kortdurende ondersteuning bij psychische klachten. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de huisarts om een verwijzing: eerst naar de POH-jeugd, of direct naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
+          "telefoon": "088 144 7111",
+          "email": "jeugdgezondheidszorg@ggdgelderlandzuid.nl",
+          "url": "https://www.ggdgelderlandzuid.nl/contact",
+          "openingstijden": "Werkdagen 8.00–16.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Op alle basisscholen en scholen voor voortgezet onderwijs in Wijchen werkt schoolmaatschappelijk werk. Dit zijn medewerkers van het Sociaal Team. Zij voeren gesprekken met leerlingen en ouders, bieden groepen aan en schakelen zo nodig meer hulp in. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om uw kind aan te melden bij het schoolmaatschappelijk werk, of neem zelf contact op met het Sociaal Team.",
+          "Vraag het schoolmaatschappelijk werk om het Sociaal Team in te schakelen als meer hulp nodig is.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal Team Wijchen",
+            "telefoon": "088 432 7432",
+            "url": "https://www.wijchen.nl/contact-sociaal-team",
+            "adres": "Inlooppunt in 't Mozaïek, Campuslaan 6, Wijchen",
+            "openingstijden": "Telefonisch ma t/m do 9.00–15.00 uur, vr 9.00–12.30 uur. Kan uw vraag niet wachten: ma t/m do ook 15.00–17.00 uur, vr ook 12.30–17.00 uur. Inloop ma, di en do 9.00–16.00 uur, wo 9.00–12.30 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Nijmegen Stromenland (samenwerkingsverbanden passend onderwijs)",
+            "telefoon": "024 204 9074",
+            "url": "https://www.steunpuntnijmegenstromenland.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staan de crisisdiensten en meldpunten in de regio.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in de regio op de pagina Met spoed zorg of hulp nodig van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Wijchen: met spoed zorg of hulp nodig",
+          "url": "https://www.wijchen.nl/met-spoed-zorg-of-hulp-nodig"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Gelderse Poort",
+      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. MEE Gelderse Poort helpt bij vragen over onder meer zorg, opvoeding en geld. Een cliëntondersteuner helpt u het gesprek met het Sociaal Team voor te bereiden en kan meegaan naar het gesprek. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "088 633 0000",
+      "email": "clientondersteuning@meegeldersepoort.nl",
+      "url": "https://www.meegeldersepoort.nl/clienten/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als hulp van een aanbieder met een contract (zorg in natura) niet past. U schrijft een pgb-plan. Daarin legt u uit waarom u een pgb wilt, hoe de hulp veilig en van goede kwaliteit is en hoe u het budget beheert. Hulp van iemand uit uw netwerk (familie, buren) kan alleen als dat aantoonbaar beter is. Die hulp wordt lager betaald en kan niet voor behandeling. Bij jeugdhulp is er in de regel geen pgb voor gemiste inkomsten of extra kosten van de ouder. De Sociale Verzekeringsbank betaalt de zorgverlener.",
+      "url": "https://www.wijchen.nl/persoonsgebonden-budget-pgb"
+    },
+    "klacht": {
+      "naam": "Klacht over het Sociaal Team (klachtencoördinator van de gemeente)",
+      "toelichting": "Het Sociaal Team werkt voor de gemeente. Een klacht over de bejegening dient u daarom in bij de klachtencoördinator van de gemeente: online, per brief of telefonisch. De gemeente neemt binnen een week contact met u op en handelt de klacht binnen 6 weken af. Die termijn kan één keer met 4 weken worden verlengd. Dien de klacht bij voorkeur binnen een jaar in. Bent u niet tevreden over de afhandeling, dan kunt u naar de gemeentelijke ombudsman. Een klacht over een zorgaanbieder meldt u eerst bij die aanbieder. Een vertrouwenspersoon van Jeugdstem helpt bij een klacht.",
+      "url": "https://www.wijchen.nl/klacht-indienen",
+      "telefoon": "088 432 7000",
+      "extern": {
+        "naam": "Gemeentelijke ombudsman Wijchen (onafhankelijk van de gemeente)",
+        "url": "https://www.wijchen.nl/gemeentelijke-ombudsman"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bent u het niet eens met een besluit over jeugdhulp? Maak dan bezwaar, online met DigiD of eHerkenning, of per post. Bezwaar per e-mail wordt niet behandeld. Praat eerst met het Sociaal Team: dat bespreekt het besluit met u. Een onafhankelijke bezwaarschriftencommissie adviseert de gemeente. U krijgt in de regel binnen 12 weken een beslissing, uiterlijk na 18 weken.",
+      "url": "https://www.wijchen.nl/bezwaar-maken"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u bij het Sociaal Team zelf of bij vrij toegankelijke hulp. Denk aan de groepen van MeerVoormekaar, Buurtgezinnen (sinds januari 2026) en schoolmaatschappelijk werk. Specialistische jeugdhulp koopt Wijchen in met de andere gemeenten in de regio Rijk van Nijmegen, via het Regionaal Ondersteuningsbureau (ROB). Een overzicht van aanbieders met een contract staat op de site van het ROB. Wachttijden per aanbieder staan daar niet bij. Vraag het Sociaal Team om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies bij het Sociaal Team, vrij toegankelijke groepen en trainingen van MeerVoormekaar en Buurtgezinnen, zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Schoolmaatschappelijk werk",
+        "omschrijving": "Op alle scholen in Wijchen, voor individuele hulp en groepsaanbod.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een beschikking of verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "MeerVoormekaar: jeugd en opvoeding",
+      "soort": "informatiepunt",
+      "omschrijving": "Informatie over jeugd en opvoeding en aanmelden voor bijeenkomsten en cursussen. De gemeente verwijst hiernaartoe.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.meervoormekaar.nl/jeugd-en-opvoeding/"
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt Nijmegen Stromenland",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Advies over passend onderwijs voor ouders en leerlingen, van de samenwerkingsverbanden passend onderwijs.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://www.steunpuntnijmegenstromenland.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Melding doen bij het Sociaal Team",
+      "url": "https://forms.wijchen.nl/meldingsformulier-sociaal-team/startpagina/"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://forms.wijchen.nl/klacht-indienen/startpagina",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaarschrift indienen",
+      "url": "https://forms.wijchen.nl/bezwaarschrift-indienen/startpagina",
+      "nodig": "DigiD of eHerkenning en het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-12",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Wijchen: Opvoeden en opgroeien",
+        "url": "https://www.wijchen.nl/opvoeden-en-opgroeien",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Het Sociaal Team",
+        "url": "https://www.wijchen.nl/het-sociaal-team",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Werkwijze Sociaal Team",
+        "url": "https://www.wijchen.nl/werkwijze-sociaal-team",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Contact Sociaal Team",
+        "url": "https://www.wijchen.nl/contact-sociaal-team",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Heeft u hulp nodig voor uw gesprek met het Sociaal Team",
+        "url": "https://www.wijchen.nl/heeft-u-vragen-of-hulp-nodig-voor-uw-gesprek-met-het-sociaal-team",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Compliment of klacht Sociaal Team of zorg",
+        "url": "https://www.wijchen.nl/compliment-of-klacht-sociaal-team-zorg",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Klacht indienen",
+        "url": "https://www.wijchen.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Gemeentelijke ombudsman",
+        "url": "https://www.wijchen.nl/gemeentelijke-ombudsman",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Bezwaar maken",
+        "url": "https://www.wijchen.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Persoonsgebonden budget (pgb)",
+        "url": "https://www.wijchen.nl/persoonsgebonden-budget-pgb",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Met spoed zorg of hulp nodig",
+        "url": "https://www.wijchen.nl/met-spoed-zorg-of-hulp-nodig",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Contractering Wmo en Jeugdhulp",
+        "url": "https://www.wijchen.nl/contractering-wmo-en-jeugdhulp",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Verordening maatschappelijke ondersteuning en jeugdhulp gemeente Wijchen 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR749720/1",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Gecontracteerde aanbieders",
+        "url": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Jaarrekening 2025 (Programmarekening, raad 9 juli 2026)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=ed8361da-7064-4b15-945c-8a6bb2a0a49b",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Wijchen: Programmabegroting 2027",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=d96e91f3-3281-4fd1-a0b7-86baa6b42804",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Monitor Jeugd en Wmo Q1 2026 (bijlage 2)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=cf325a6a-463b-458a-ad03-e68aaf19f9c3",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Informatienota Bestedingsplan Sociaal Team 2027-2030",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=4238e3dc-1e35-40a3-a9fb-7b0859a81f92",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "GGD Gelderland-Zuid: Contact",
+        "url": "https://www.ggdgelderlandzuid.nl/contact",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "MEE Gelderse Poort: Cliënten",
+        "url": "https://www.meegeldersepoort.nl/clienten/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland: Contact",
+        "url": "https://www.steunpuntnijmegenstromenland.nl/contact",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-12"
+      }
+    ],
+    "opmerkingen": "Gemeten wachttijd in weken en het cliëntervaringsonderzoek over 2025 zijn nog niet openbaar (onderzoek 2025 liep vertraging op). Beschikbaarheidswijzer dekt de regio Rijk van Nijmegen niet. Geen inspectie-, rekenkamer- of krantenberichten over jeugd in Wijchen gevonden; JGZ-contactgegevens uit het regiobestand."
+  },
+  "jeugdzorgregio": "Rijk van Nijmegen",
+  "ervaringen": {
+    "samenvatting": "In Wijchen loopt hulp voor jeugd via het Sociaal Team van de gemeente. In het voorjaar van 2026 meldde de gemeente dat het onderdeel Jeugd lange tijd te weinig mensen had, door ziekte en wisselingen van personeel. Daardoor liep het aantal openstaande hulpvragen op en wachten ouders langer. Spoedzaken pakt het team met voorrang op.\n\nVraag bij uw melding hoe lang het duurt en leg afspraken vast, bijvoorbeeld in het onderzoeksverslag. Wacht u op een gesprek, ga dan naar het inloopspreekuur van het Sociaal Team in 't Mozaïek voor advies over vrij toegankelijke hulp. Neem een onafhankelijke cliëntondersteuner van MEE Gelderse Poort of een vertrouwenspersoon van Jeugdstem mee. Een klacht over het Sociaal Team gaat naar de klachtencoördinator van de gemeente, daarna kunt u naar de gemeentelijke ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Lange wachttijden bij het Sociaal Team, onderdeel Jeugd",
+        "samenvatting": "De gemeente schrijft dat het team Jeugd lange tijd onderbezet was. Daardoor is het aantal openstaande hulpvragen opgelopen, al gaan spoedzaken voor. De gemeente verwacht dat de wachtlijst afneemt nu er vervangend personeel is.",
+        "datum": "2026-05-21",
+        "bron": {
+          "titel": "Monitor Jeugd en Wmo Q1 2026",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=cf325a6a-463b-458a-ad03-e68aaf19f9c3"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek 2024: tevredenheid over toegang en jeugdhulp",
+        "samenvatting": "Ouders gaven de toegang tot hulp een 6,7 (6,7 in 2023) en de kwaliteit van de jeugdhulp een 7,4 (6,7 in 2023). Jongeren gaven de toegang een 7,8 en de kwaliteit een 7,5. De cijfers over 2025 zijn nog niet bekend.",
+        "datum": "2026-05-21",
+        "bron": {
+          "titel": "Monitor Jeugd en Wmo Q1 2026",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=cf325a6a-463b-458a-ad03-e68aaf19f9c3"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Twaalf klachten over het Sociaal Team in 2025",
+        "samenvatting": "In 2025 kwamen twaalf klachten binnen over gedrag of bejegening door het Sociaal Team. Elf daarvan zijn informeel opgelost, in overleg met de klager. De gemeente probeert klachten altijd eerst zo te regelen.",
+        "datum": "2026-05-21",
+        "bron": {
+          "titel": "Monitor Jeugd en Wmo Q1 2026",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=cf325a6a-463b-458a-ad03-e68aaf19f9c3"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan: Sociaal Team gaat zelf meer lichte hulp bieden",
+        "samenvatting": "Vanaf 2027 wil het Sociaal Team zelf begeleiding aan gezinnen bieden: eerst met 2 fulltime banen (fte), vanaf 2028 met 4. Ook breidt de gemeente de praktijkondersteuner jeugd bij de huisarts uit. Zo wil de gemeente sneller en dichter bij huis helpen.",
+        "datum": "2026-09-22",
+        "bron": {
+          "titel": "Informatienota Bestedingsplan Sociaal Team 2027-2030",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=4238e3dc-1e35-40a3-a9fb-7b0859a81f92"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Praktijkondersteuner jeugd bij huisartsen sinds 2026",
+        "samenvatting": "In 2026 is de praktijkondersteuner jeugd (POH-jeugd) van het Sociaal Team gestart, met meer uren dan de specialistische ondersteuner die er eerder was. De gemeente verwacht dat de huisarts daardoor minder vaak naar jeugd-ggz hoeft te verwijzen. Vraag uw huisarts naar de POH-jeugd.",
+        "datum": "2026-07-09",
+        "bron": {
+          "titel": "Jaarrekening 2025 Wijchen (programmarekening)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=ed8361da-7064-4b15-945c-8a6bb2a0a49b"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2024",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=cf325a6a-463b-458a-ad03-e68aaf19f9c3",
+        "samenvatting": "Jaarlijks onderzoek onder inwoners die voor het eerst hulp vragen, met rapportcijfers. Over 2024 gaven ouders de toegang tot hulp een 6,7 en jongeren een 7,8. De kwaliteit van de jeugdhulp kreeg een 7,4 van ouders en een 7,5 van jongeren. De uitkomsten over 2025 zijn nog niet bekend."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=wdw&id=cf325a6a-463b-458a-ad03-e68aaf19f9c3",
+        "samenvatting": "De gemeente volgt het aantal openstaande hulpvragen bij het Sociaal Team, maar een gemeten wachttijd in weken is niet openbaar te vinden. Vraag bij uw melding hoe lang het duurt."
+      },
+      "aandeelHuisarts": {
+        "percentage": 40,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-12"
+  }
+}

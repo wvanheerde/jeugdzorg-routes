@@ -1,0 +1,351 @@
+{
+  "naam": "Mook en Middelaar",
+  "cbsCode": "GM0944",
+  "provincie": "Limburg",
+  "jeugdzorgregio": "Rijk van Nijmegen",
+  "websiteJeugd": "https://www.mookenmiddelaar.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Mook en Middelaar vraagt u jeugdhulp aan bij het Sociaal Team van de gemeente. Dat team helpt ook volwassenen die ondersteuning nodig hebben (Wmo). U meldt uw vraag zelf. Een verwijzing is niet nodig. Een jeugdconsulent bespreekt de situatie met u en schrijft een onderzoeksverslag. Zet u daar uw handtekening onder, dan geldt het als aanvraag. De huisarts mag ook rechtstreeks verwijzen. Volgens de website is de wachttijd voor een aanvraag nu ongeveer twee maanden. Het team is maar op drie ochtenden per week telefonisch bereikbaar. Mailen kan altijd.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal Team van de gemeente",
+        "omschrijving": "Het Sociaal Team werkt voor de gemeente. Jeugdconsulenten, Wmo-consulenten, een maatschappelijk werker en een wijkverpleegkundige werken er samen. Zij bepalen met u welke hulp past, ook voor jongeren tot 23 jaar. U meldt zich zelf aan. Jeugdhulp is gratis.",
+        "stappen": [
+          "Bel het Sociaal Team of stuur een e-mail. Is het team niet bereikbaar? Dan belt de gemeente u terug.",
+          "Voer een gesprek met een jeugdconsulent over uw kind. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Lees het onderzoeksverslag dat u na het gesprek krijgt. Bent u het ermee eens? Stuur het dan ondertekend terug. Het verslag geldt dan als aanvraag.",
+          "Wacht op het besluit van de gemeente. Vraag bij specialistische hulp om een schriftelijk besluit (beschikking)."
+        ],
+        "contact": {
+          "naam": "Sociaal Team gemeente Mook en Middelaar",
+          "telefoon": "024 696 91 11",
+          "email": "sociaalteam@mookenmiddelaar.nl",
+          "url": "https://www.mookenmiddelaar.nl/het-sociaal-team",
+          "openingstijden": "Telefonisch maandag, woensdag en donderdag 10.00–12.00 uur. Buiten die uren maakt de gemeente een terugbelnotitie."
+        },
+        "doorlooptijd": "Het onderzoek duurt volgens de gemeente hooguit 6 weken. Daarna beslist de gemeente binnen 2 weken op uw aanvraag. Op de website staat dat de wachttijd nu ongeveer twee maanden is."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz. Daar kan uw kind snel terecht met psychische klachten.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de huisarts of uw kind eerst naar de praktijkondersteuner jeugd-ggz kan, of direct naar een aanbieder met een contract.",
+          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
+          "telefoon": "088 144 71 11",
+          "url": "https://ggdgelderlandzuid.nl/jeugdgezondheidszorg/contact-met-jeugdgezondheidszorg/",
+          "openingstijden": "Telefonisch maandag t/m vrijdag 8.00–12.00 uur en 12.30–16.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Bespreek uw zorgen eerst met school. Heeft uw kind ook hulp buiten school nodig? Meld u dan bij het Sociaal Team. Het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs geeft advies over ondersteuning op school. Voor het basisonderwijs is dat SWV Primair Onderwijs Noord-Limburg, voor het voortgezet onderwijs Nijmegen Stromenland.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Heeft uw kind ook hulp buiten school nodig? Meld u aan bij het Sociaal Team.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal Team gemeente Mook en Middelaar",
+            "telefoon": "024 696 91 11",
+            "email": "sociaalteam@mookenmiddelaar.nl",
+            "url": "https://www.mookenmiddelaar.nl/het-sociaal-team",
+            "openingstijden": "Telefonisch maandag, woensdag en donderdag 10.00–12.00 uur. Buiten die uren maakt de gemeente een terugbelnotitie."
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt SWV Primair Onderwijs Noord-Limburg (basisonderwijs)",
+            "email": "noordlimburg@swvpo.nl",
+            "url": "https://www.swvpo.nl/contact/"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Nijmegen Stromenland (voortgezet onderwijs)",
+            "telefoon": "024 204 9074",
+            "url": "https://www.steunpuntnijmegenstromenland.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Het Sociaal Team is buiten kantooruren niet bereikbaar. Op de pagina Jeugdhulp van de gemeente staat bij wie u dan terechtkunt.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Lees op de pagina Jeugdhulp van de gemeente, onder het kopje Spoed, wat u buiten kantooruren kunt doen."
+        ],
+        "contact": {
+          "naam": "Gemeente Mook en Middelaar: Jeugdhulp, kopje Spoed",
+          "url": "https://www.mookenmiddelaar.nl/jeugdhulp"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Gelderse Poort",
+      "toelichting": "Gratis en onafhankelijk. De gemeente laat cliëntondersteuning over aan MEE. De ondersteuner kan meegaan naar het gesprek met het Sociaal Team en helpen bij een aanvraag. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "088 633 00 00",
+      "email": "contactgp@meeplus.nl",
+      "url": "https://www.meegeldersepoort.nl/contact"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U schrijft een plan. Daarin legt u uit waarom de hulp die de gemeente zelf regelt niet past. U schrijft ook op hoe u het budget beheert en hoe de hulp veilig en goed is. De ouder beheert het budget, want jongeren onder 18 jaar mogen dat niet zelf. Hulp van mensen uit uw netwerk krijgt een lager tarief dan hulp van een professional. De gemeente publiceert de maximale tarieven per soort hulp.",
+      "url": "https://www.mookenmiddelaar.nl/pgb-tarieven"
+    },
+    "klacht": {
+      "naam": "Klacht over het Sociaal Team",
+      "toelichting": "Bespreek uw klacht eerst met de coördinator van het Sociaal Team. Daarna volgt een gesprek met u, de medewerker en de coördinator om samen een oplossing te vinden. U mag een vertrouwd persoon of een onafhankelijke cliëntondersteuner meenemen. Komt u er niet uit? Dien dan een klacht in bij de gemeente zelf, per e-mail, brief of telefoon.",
+      "url": "https://www.mookenmiddelaar.nl/klachten-over-het-sociaal-team",
+      "email": "sociaalteam@mookenmiddelaar.nl",
+      "telefoon": "024 696 91 11",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bent u het niet eens met een besluit van de gemeente? Stuur dan een bezwaarschrift. Het adres staat in het besluit. De gemeente beslist binnen 6 weken, of binnen 12 weken als een bezwaarschriftencommissie meekijkt. Vraag zo nodig eerst advies bij het Juridisch Loket.",
+      "url": "https://www.mookenmiddelaar.nl/bezwaar-maken"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u via het Sociaal Team en de praktijkondersteuner jeugd-ggz bij de huisarts. Specialistische jeugdhulp koopt de gemeente samen met andere gemeenten in de jeugdhulpregio Rijk van Nijmegen in. Deze regio staat niet op de Beschikbaarheidswijzer. Het Regionaal Ondersteuningsbureau heeft een lijst met aanbieders met een contract. Een overzicht van wachttijden per aanbieder is niet openbaar te vinden. Vraag het Sociaal Team om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
+    "categorieen": [
+      {
+        "naam": "Lichte hulp en advies",
+        "omschrijving": "Via het Sociaal Team. De jeugdconsulenten kunnen zelf begeleiding geven. De gemeente wil hier korte basishulp aan toevoegen.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Praktijkondersteuner jeugd-ggz bij de huisarts",
+        "omschrijving": "Snelle hulp voor kinderen en ouders bij psychische klachten, zonder besluit van de gemeente.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (thuis of op een spreekuur), jeugd-ggz, dagbehandeling en verblijf. Deze hulp is vooral regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Synthese (jongerenwerk en ontmoeting)",
+      "soort": "informatiepunt",
+      "omschrijving": "Welzijnsorganisatie in de gemeente voor jongerenwerk, ontmoeting en steun aan mantelzorgers. Jongeren en ouders kunnen er terecht voor een luisterend oor of een activiteit.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ]
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht over de gemeente indienen",
+      "url": "https://www.mookenmiddelaar.nl/klacht-indienen",
+      "nodig": "Naam, adres en een beschrijving van wat er is gebeurd, met datum"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.mookenmiddelaar.nl/bezwaar-maken",
+      "nodig": "Het besluit bij de hand en uw handtekening"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Volgens de gemeente krijgt ongeveer één op de zes jeugdigen jeugdhulp na een besluit van de gemeente. In het cliëntervaringsonderzoek over 2023 gaven ouders een 7,9 voor hoe de hulp is geregeld en een 7,8 voor de hulp zelf; het ging om een kleine groep. Partners zien dat ouders soms bang zijn om naar de gemeente te stappen, omdat ze de gevolgen niet overzien. In 2026 onderzoekt de gemeente of het Sociaal Team zelf meer lichte hulp kan geven, voor alle leeftijden.\n\nUw eerste aanspreekpunt is het Sociaal Team. Het is telefonisch alleen op maandag-, woensdag- en donderdagochtend bereikbaar; mailen kan altijd. Vraag bij uw aanmelding hoe lang het duurt, vraag het onderzoeksverslag en het besluit op papier en neem zo nodig een onafhankelijke cliëntondersteuner van MEE mee. Een klacht over het team bespreekt u eerst met de coördinator, daarna kunt u een klacht indienen bij de gemeente.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan: lokaal team voor alle leeftijden",
+        "samenvatting": "De gemeente werkt aan een plan voor één lokaal team voor inwoners van 0 tot 100 jaar, dat zelf meer lichte hulp geeft. Het voorstel gaat naar verwachting in het eerste kwartaal van 2027 naar de raad. Daarna kan veranderen hoe en waar u zich meldt.",
+        "datum": "2026-09-03",
+        "bron": {
+          "titel": "Doorontwikkeling sociaal domein (raadsinformatie, augustus 2026)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=MookenMiddelaar&id=051271f3-622e-425a-a828-a921723078b8"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Partners: ouders durven soms niet naar de gemeente",
+        "samenvatting": "Eind 2025 vertelden meerdere partners dat ouders bang zijn om hulp te vragen, omdat ze de gevolgen niet overzien. Partners willen ook meer duidelijkheid over wat de gemeente kan doen. Jongeren raken volgens hen uit beeld als ze naar de middelbare school gaan.",
+        "datum": "2026-09-03",
+        "bron": {
+          "titel": "Doorontwikkeling sociaal domein (raadsinformatie, augustus 2026)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=MookenMiddelaar&id=051271f3-622e-425a-a828-a921723078b8"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuw team voor veiligheid verwacht eind 2026",
+        "samenvatting": "Eind 2026 start naar verwachting een gezamenlijk team van Veilig Thuis, jeugdbescherming en Moviera (hulp bij huiselijk geweld) voor vier gemeenten, waaronder Mook en Middelaar. Zij beoordelen meldingen dan samen met de gemeente. Volgens de gemeente staan hier relatief weinig kinderen onder toezicht en wonen weinig kinderen buiten het gezin.",
+        "datum": "2026-09-03",
+        "bron": {
+          "titel": "Doorontwikkeling sociaal domein (raadsinformatie, augustus 2026)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=MookenMiddelaar&id=051271f3-622e-425a-a828-a921723078b8"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Meer ruimte bij de praktijkondersteuner jeugd-ggz",
+        "samenvatting": "Volgens de jaarstukken over 2025 werkt de praktijkondersteuner jeugd-ggz bij de huisarts goed en is er meer ruimte gekomen. Vraag de huisarts of uw kind daar terecht kan.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Mook en Middelaar",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=MookenMiddelaar&id=634266a6-4659-4d7d-bbe4-ce677a4bcb83"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek 2023: ouders tevreden, kleine groep",
+        "samenvatting": "Alle 18 ouders die de vragenlijst over de toegang invulden, wisten waar ze moesten zijn en kregen genoeg informatie; 88% voelde zich serieus genomen. De hulp kreeg een 7,8. Omdat het om weinig ouders gaat, geeft dit alleen een globaal beeld.",
+        "datum": "2024-07-09",
+        "bron": {
+          "titel": "Factsheet cliëntervaringsonderzoek 2023 Jeugdwet ouders/verzorgers",
+          "url": "https://cuatro.sim-cdn.nl/mookenmiddelaar/uploads/mookmiddelaar_factsheet_jeugdwet_ouders_2023.pdf"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://www.mookenmiddelaar.nl/clientervaringsonderzoeken-2023",
+        "samenvatting": "Er is geen onderzoek dat iets zegt over hoe ouders de hulp hier in het algemeen ervaren: alleen een kleine of eigen meting. Onderzoek door ZorgfocuZ onder ouders en jongeren. 18 ouders vulden de vragenlijst over de toegang in en 22 die over de kwaliteit (respons 29%). Het regelen van de hulp kreeg een 7,9, de hulp zelf een 7,8."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://www.mookenmiddelaar.nl/wachttijd-aanvragen-van-jeugdhulp",
+        "samenvatting": "Gemeten doorlooptijden zijn niet openbaar te vinden. Op de website noemt de gemeente een wachttijd van ongeveer twee maanden, en een wettelijke termijn van 6 weken voor het onderzoek. Vraag bij uw aanmelding hoe lang het duurt."
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Mook en Middelaar: Jeugdhulp",
+        "url": "https://www.mookenmiddelaar.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Het Sociaal Team",
+        "url": "https://www.mookenmiddelaar.nl/het-sociaal-team",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Wachttijd aanvragen van jeugdhulp",
+        "url": "https://www.mookenmiddelaar.nl/wachttijd-aanvragen-van-jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Klachten over het Sociaal Team",
+        "url": "https://www.mookenmiddelaar.nl/klachten-over-het-sociaal-team",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Bezwaar maken",
+        "url": "https://www.mookenmiddelaar.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Klacht indienen",
+        "url": "https://www.mookenmiddelaar.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: PGB tarieven",
+        "url": "https://www.mookenmiddelaar.nl/pgb-tarieven",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening maatschappelijke ondersteuning en jeugdhulp Mook en Middelaar 2025",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR749349",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Cliëntervaringsonderzoeken 2023",
+        "url": "https://www.mookenmiddelaar.nl/clientervaringsonderzoeken-2023",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Doorontwikkeling sociaal domein (raadsinformatie)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=MookenMiddelaar&id=051271f3-622e-425a-a828-a921723078b8",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Mook en Middelaar",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=MookenMiddelaar&id=634266a6-4659-4d7d-bbe4-ce677a4bcb83",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Concept Programmabegroting 2027 gemeente Mook en Middelaar",
+        "url": "https://www.mookenmiddelaar.nl/concept-programmabegroting-2027-raad-2026-11-12",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Gelderland-Zuid: contact Jeugdgezondheidszorg",
+        "url": "https://ggdgelderlandzuid.nl/jeugdgezondheidszorg/contact-met-jeugdgezondheidszorg/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Gelderland-Zuid: zoek je consultatiebureau",
+        "url": "https://ggdgelderlandzuid.nl/jeugdgezondheidszorg/zoek-je-consultatiebureau/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Gelderse Poort: contact",
+        "url": "https://www.meegeldersepoort.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt SWV Primair Onderwijs Noord-Limburg: contact",
+        "url": "https://www.swvpo.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland: contact",
+        "url": "https://www.steunpuntnijmegenstromenland.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "ROB regio Nijmegen: gecontracteerde aanbieders",
+        "url": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Programmabegroting 2027 is nog concept (raad 12 november 2026); geen IGJ- of rekenkamerrapport gevonden, regionale journalistiek beperkt doorzocht. Gemeentepagina noemt GGD Gelderland-Zuid voor opvoedinformatie, regiobestand noemt GGD Limburg-Noord; JGZ 4-18 jaar niet apart bevestigd. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+  }
+}

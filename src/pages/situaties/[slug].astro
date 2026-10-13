@@ -1,0 +1,163 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import Sources from '../../components/Sources.astro';
+import GemeenteKeuze from '../../components/GemeenteKeuze.astro';
+import Contact from '../../components/Contact.astro';
+import TherapieKaart from '../../components/TherapieKaart.astro';
+import SpoedNummers from '../../components/SpoedNummers.astro';
+import BriefKaart from '../../components/BriefKaart.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+import { routeLabel, koppelThemas, contacten, datum } from '../../lib/routes';
+import Toegang from '../../components/Toegang.astro';
+import ToegangLegenda from '../../components/ToegangLegenda.astro';
+
+export async function getStaticPaths() {
+  const situaties = await getCollection('situaties');
+  return situaties.map((s) => ({ params: { slug: s.id }, props: { s } }));
+}
+const { s } = Astro.props;
+const d = s.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const { Content } = await render(s);
+
+const hulpsoorten = (await Promise.all(d.hulpsoorten.map((id) => getEntry('hulpsoorten', id)))).filter(Boolean);
+const landelijk = (await Promise.all(d.landelijk.map((id) => getEntry('landelijk', id)))).filter(Boolean);
+const kt = koppelThemas(d.themas);
+const matchT = (themas: string[]) => themas.some((t) => kt.includes(t));
+const organisaties = (await getCollection('organisaties')).filter((o) => matchT(o.data.themas)).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const routeTypes = d.routes.map((r) => r.type);
+const therapie = (await getCollection('therapievormen')).filter((t) => t.data.situaties.includes(s.id)).sort((a, c) => a.data.naam.localeCompare(c.data.naam));
+const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.includes(s.id)).sort((a, c) => a.data.volgorde - c.data.volgorde);
+---
+<Base title={d.titel} description={d.samenvatting}>
+  <div class="page-head">
+    <span class="eyebrow">Situatie</span>
+    <h1>{d.titel}</h1>
+    <p class="lead">{d.samenvatting}</p>
+    <div class="chips" style="margin-top:.75rem"><span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span>{d.themas.map((t) => <span class="chip">{t}</span>)}</div>
+    {d.landelijk.includes('05-financieel') && (
+      <div class="notice geld-hint"><Icon name="euro" /><div>Veel extra zorg thuis? Misschien heeft u recht op <strong>dubbele kinderbijslag</strong> of andere regelingen. <a href={`${base}/landelijk/#05-financieel`}>Lees wat er is en hoe u het aanvraagt</a>.</div></div>
+    )}
+  </div>
+
+  <div class="section" id="gemeente">
+    <h2><span class="section-num">·</span>In uw gemeente</h2>
+    <GemeenteKeuze />
+    <p class="meta gemeente-blok" data-gemeente="" hidden>Kies uw gemeente; de contactgegevens verschijnen dan bij de routes hieronder.</p>
+    <p class="meta gemeente-blok" data-gemeente="_overig" hidden>Uw gemeente staat nog niet op deze site. De routes hieronder gelden overal; de naam van het toegangsteam vindt u op de website van uw gemeente (zoek op "jeugdhulp" of "wijkteam").</p>
+    {gemeenten.map((g) => (
+      <p class="meta gemeente-blok" data-gemeente={g.id} hidden>
+        Contactgegevens van <strong>{g.data.naam}</strong> staan bij de routes hieronder. Aanbod, lokale steun en formulieren: <a href={`${base}/gemeenten/${g.id}/`}>volledige pagina van {g.data.naam} →</a>
+      </p>
+    ))}
+  </div>
+
+  <div class="page-with-side">
+    <aside class="side">
+      <nav aria-label="Inhoud">
+        <strong>Op deze pagina</strong>
+        <a href="#gemeente"><span class="n">·</span>In uw gemeente</a>
+        <a href="#routes"><span class="n">1</span>Welke route?</a>
+        <a href="#hulp"><span class="n">2</span>Welke hulp?</a>
+        <a href="#uitleg"><span class="n">3</span>Wat helpt</a>
+        <a href="#regelingen"><span class="n">4</span>Rechten en regelingen</a>
+        <a href="#organisaties"><span class="n">5</span>Organisaties</a>
+        <a href="#therapie"><span class="n">6</span>Therapievormen</a>
+        <a href="#brieven"><span class="n">7</span>Voorbeeldbrieven</a>
+      </nav>
+    </aside>
+    <div>
+      <section class="section" id="routes">
+        <h2><span class="section-num">1</span>Welke route is logisch?</h2>
+        {d.routes.map((r, i) => (
+          <div class={`route ${r.type}`}>
+            {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>
+            <p style="margin:.5rem 0 0">{r.waarom}</p>
+            {r.type === 'spoed' && <SpoedNummers />}
+            {gemeenten.map((g) => { const gr = g.data.toegang.routes.find((x) => x.type === r.type); return gr && (
+              <div class="route-gemeente gemeente-blok" data-gemeente={g.id} hidden>
+                <strong>In {g.data.naam}: {gr.naam}</strong>
+                {r.type === 'spoed' ? <ol class="steps">{gr.stappen.map((st) => <li>{st}</li>)}</ol> : <p class="meta" style="margin:.2rem 0 0">{gr.omschrijving}</p>}
+                {contacten(gr.contact).map((c) => <Contact contact={c} />)}
+              </div>
+            ); })}
+          </div>
+        ))}
+        <p class="meta">De eerste route is in deze situatie meestal de beste start, maar alle routes staan open; u mag kiezen. <a href={`${base}/landelijk/#02-toegang`}>Meer over toegang</a>.</p>
+      </section>
+
+      <section class="section" id="hulp">
+        <h2><span class="section-num">2</span>Welke hulp bestaat er?</h2>
+        <ToegangLegenda />
+        <div class="grid">
+          {hulpsoorten.map((h) => h && (
+            <div class="card">
+              <h3>{h.data.naam}</h3>
+              <p>{h.data.omschrijving}</p>
+              {h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
+              <Toegang waarde={h.data.beschikkingNodig} />
+            </div>
+          ))}
+        </div>
+        <p class="meta" style="margin-top:1rem"><a href={`${base}/situaties/#hulpsoorten`}>Alle hulpsoorten</a></p>
+      </section>
+
+      <section class="section prose" id="uitleg">
+        <h2><span class="section-num">3</span>Wat helpt, en waar het vaak misgaat</h2>
+        <Content />
+      </section>
+
+      <section class="section" id="regelingen">
+        <h2><span class="section-num">4</span>Rechten en regelingen</h2>
+        {d.regelingen.length > 0 && (
+          <ul class="linklist">{d.regelingen.map((r) => <li>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>)}</ul>
+        )}
+        {landelijk.length > 0 && (<><h3>Landelijke uitleg</h3><ul>{landelijk.map((l) => l && <li><a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}</li>)}</ul></>)}
+      </section>
+
+      <section class="section" id="organisaties">
+        <h2><span class="section-num">5</span>Organisaties die hierbij passen</h2>
+        {organisaties.length === 0 ? <p class="empty">Nog geen organisaties gekoppeld.</p> : (
+          <div class="grid">
+            {organisaties.map((o) => (
+              <div class="card">
+                <span class="badge">{o.data.soort}</span>
+                <h3 style="margin-top:.6rem">{o.data.naam}</h3>
+                <p>{o.data.omschrijving}</p>
+                <p class="meta"><a href={o.data.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>{o.data.telefoon && <> · {o.data.telefoon}</>}</p>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+
+      <section class="section" id="therapie">
+        <h2><span class="section-num">6</span>Welke therapievormen kunnen passen?</h2>
+        <p class="meta">Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar. <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.</p>
+        {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
+      </section>
+
+      {brieven.length > 0 && (
+        <section class="section" id="brieven">
+          <h2><span class="section-num">7</span>Voorbeeldbrieven</h2>
+          <p class="meta">Bij deze situatie horen deze kant-en-klare teksten om een gesprek, hulp of bezwaar schriftelijk aan te vragen. Invullen, kopiëren, versturen.</p>
+          <div class="grid">{brieven.map((b) => <BriefKaart b={b} />)}</div>
+        </section>
+      )}
+
+      <Sources bronnen={d.bronnen} laatstGecontroleerd={d.laatstGecontroleerd} />
+    </div>
+  </div>
+</Base>
+<script>
+  const show = (id: string) => {
+    document.querySelectorAll<HTMLElement>('.gemeente-blok').forEach((b) => { b.hidden = b.dataset.gemeente !== id; });
+    const any = Array.from(document.querySelectorAll<HTMLElement>('.gemeente-blok')).some((b) => !b.hidden);
+    if (!any) document.querySelector<HTMLElement>('.gemeente-blok[data-gemeente=""]')!.hidden = false;
+  };
+  document.addEventListener('jr:gemeente', (e) => show((e as CustomEvent).detail));
+  // Beginstand: URL of eerder gekozen gemeente, zodat het blok direct bij het laden klopt.
+  show(new URLSearchParams(location.search).get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '');
+</script>

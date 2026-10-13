@@ -5,106 +5,602 @@
   "jeugdzorgregio": "Utrecht Stad",
   "websiteJeugd": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/",
   "toegang": {
-    "samenvatting": "In Utrecht zijn de buurtteams Jeugd & Gezin (uitgevoerd door Lokalis) de toegang tot jeugdhulp. Zij bieden zelf basishulp en verwijzen waar nodig naar specialistische jeugdhulp (o.a. KOOS en Spoor030).",
+    "samenvatting": "In Utrecht vraagt u jeugdhulp aan bij het buurtteam Jeugd & Gezin van Lokalis. Er zijn achttien buurtteams in de wijken. Zij geven zelf gratis basishulp, zonder verwijzing. Is meer nodig, dan verwijzen zij naar aanvullende jeugdhulp. Die hulp komt van twee vaste partners: KOOS Utrecht in het westen van de stad en Spoor030 in het oosten. Yeph biedt hoogspecialistische hulp. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. In Utrecht gebeurt dat veel minder dan landelijk: 23 tegenover 43 procent van de trajecten in 2025.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Buurtteam Jeugd & Gezin (Lokalis)",
-        "omschrijving": "Gezinswerkers van het buurtteam bieden gratis begeleiding bij opvoeden, opgroeien, scheiding, schulden en meer. Geen verwijzing nodig.",
+        "omschrijving": "Gezinswerkers van het buurtteam begeleiden u gratis bij opvoeden, opgroeien, scheiding, geld en meer. U heeft geen verwijzing nodig. Elk buurtteam heeft een eigen telefoonnummer en e-mailadres. Op buurtteamsutrecht.nl vindt u met uw postcode het team van uw wijk. Bij Buurtteam Online praat u via beeldbellen.",
         "stappen": [
-          "Neem contact op met het buurtteam in uw wijk (telefonisch, online of via inloop).",
-          "Binnen enkele dagen volgt een kennismakingsgesprek.",
-          "Het buurtteam biedt zelf hulp of schakelt specialistische hulp in via de aanvullende zorg."
+          "Zoek op buurtteamsutrecht.nl het buurtteam van uw wijk. Bel, mail of loop binnen op het inloopspreekuur. Een medewerker bespreekt uw vraag.",
+          "Ga naar het eerste gesprek: thuis, bij het buurtteam of in een groepsbijeenkomst. Neem gerust iemand mee, bijvoorbeeld een cliëntondersteuner van U Centraal. De gemeente streeft naar dit gesprek binnen tien werkdagen.",
+          "Maak samen een gezinsplan. Het buurtteam geeft zelf basishulp of verwijst naar aanvullende jeugdhulp bij KOOS Utrecht of Spoor030. U kunt ook om een pgb vragen.",
+          "Vraag om een beschikking (het besluit van de gemeente) als u die niet vanzelf krijgt. Daarin staan de periode, het aantal uren of dagdelen en bij een pgb het tarief. Vanaf 1 juli 2026 staat in elk besluit over jeugdhulp welke hulp u krijgt en hoe lang."
         ],
         "contact": {
           "naam": "Lokalis – Buurtteams Jeugd & Gezin",
           "telefoon": "030 740 0500",
-          "url": "https://www.lokalis.nl/"
-        }
+          "email": "info@lokalis.nl",
+          "url": "https://www.buurtteamsutrecht.nl/contact/",
+          "openingstijden": "De meeste buurtteams telefonisch op werkdagen 9.00–17.00 uur; inloop en bereikbaarheid verschillen per team"
+        },
+        "doorlooptijd": "De gemeente streeft naar een eerste gesprek binnen tien werkdagen. In 2025 lukte dat bij 2.823 gezinnen; 1.965 gezinnen wachtten langer."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Artsen kunnen rechtstreeks verwijzen naar specialistische jeugdhulp; de aanbieder regelt de toewijzing met de gemeente.",
+        "omschrijving": "Artsen mogen rechtstreeks verwijzen naar de aanvullende jeugdhulp van KOOS Utrecht of Spoor030, zonder het buurtteam. Het buurtteam werkt bij de meeste huisartsenpraktijken. Ook na een verwijzing door de huisarts doen het buurtteam en KOOS of Spoor030 het eerste gesprek vaak samen.",
         "stappen": [
-          "Bespreek de hulpvraag met de huisarts of jeugdarts.",
-          "De arts verwijst naar KOOS Utrecht, Spoor030 of een andere gecontracteerde aanbieder.",
-          "De aanbieder neemt contact met u op voor een intake."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de Jeugdgezondheidszorg Utrecht.",
+          "Vraag om een verwijzing naar KOOS Utrecht (Leidsche Rijn, Vleuten-De Meern, West, Zuidwest) of Spoor030 (Binnenstad, Noordoost, Noordwest, Oost, Overvecht, Zuid). Welke het is, hangt af van uw wijk.",
+          "Wacht op contact van KOOS of Spoor030 en bepaal samen welke hulp past. Er kan een wachttijd zijn. U hoeft zelf geen aanvraag bij de gemeente te doen."
+        ],
+        "contact": [
+          {
+            "naam": "Lokalis – Buurtteams Jeugd & Gezin",
+            "telefoon": "030 740 0500",
+            "email": "info@lokalis.nl",
+            "url": "https://www.buurtteamsutrecht.nl/contact/",
+            "openingstijden": "De meeste buurtteams telefonisch op werkdagen 9.00–17.00 uur; inloop en bereikbaarheid verschillen per team"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg Utrecht",
+            "telefoon": "030 286 33 00",
+            "url": "https://www.jeugdengezinutrecht.nl/",
+            "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur"
+          }
         ]
       },
       {
         "type": "school",
         "naam": "Via school en samenwerkingsverband",
-        "omschrijving": "Elke school heeft een vast contactpersoon van het buurtteam. Bij zorgen rond onderwijs kan de school meedenken over passend onderwijs én jeugdhulp.",
+        "omschrijving": "Elke school heeft een vaste gezinswerker van het buurtteam. Voor leerlingen op de middelbare school en het speciaal onderwijs is er een apart Buurtteam VO&SO. Bij zorgen over leren of gedrag kan school meedenken over passend onderwijs én jeugdhulp.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht of intern begeleider.",
-          "School schakelt de gezinswerker van het buurtteam in.",
-          "Bij onderwijsondersteuning loopt de aanvraag via het samenwerkingsverband."
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om de gezinswerker van het buurtteam in te schakelen, of spreek de gezinswerker op school zelf aan.",
+          "Stel vragen over extra ondersteuning op school aan het samenwerkingsverband passend onderwijs: SWV Utrecht PO (basisschool) of Sterk VO (middelbare school)."
+        ],
+        "contact": [
+          {
+            "naam": "Lokalis – Buurtteams Jeugd & Gezin",
+            "telefoon": "030 740 0500",
+            "email": "info@lokalis.nl",
+            "url": "https://www.buurtteamsutrecht.nl/contact/",
+            "openingstijden": "De meeste buurtteams telefonisch op werkdagen 9.00–17.00 uur; inloop en bereikbaarheid verschillen per team"
+          },
+          {
+            "naam": "SWV Utrecht PO (basisschool)",
+            "telefoon": "030 303 6420",
+            "email": "info@swvutrechtpo.nl",
+            "url": "https://www.swvutrechtpo.nl/contact",
+            "openingstijden": "Telefonisch maandag t/m donderdag 9.00–17.00 uur"
+          },
+          {
+            "naam": "Sterk VO (middelbare school)",
+            "telefoon": "088 011 74 00",
+            "email": "secretariaat@sterkvo.nl",
+            "url": "https://www.sterkvo.nl/"
+          }
         ]
       },
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij acute onveiligheid of crisis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
         "stappen": [
-          "Bij direct gevaar: bel 112.",
-          "Zorgen over veiligheid: Veilig Thuis, 0800-2000.",
-          "Crisis jeugd: via huisarts(enpost) wordt de crisisdienst ingeschakeld."
-        ]
+          "Krijgt uw kind al hulp van KOOS Utrecht of Spoor030? Bel dan eerst de eigen hulpverlener.",
+          "Kijk voor de crisisdiensten in Utrecht op de pagina Hulp bij huiselijk geweld van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Utrecht: hulp bij huiselijk geweld",
+          "url": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/huiselijk-geweld"
+        }
       }
     ]
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "MEE Utrecht, Gooi & Vecht / U Centraal",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en zorgaanbieders.",
-      "url": "https://www.meeugv.nl/",
-      "telefoon": "030 264 2222"
+      "naam": "U Centraal – Onafhankelijke cliëntondersteuning",
+      "toelichting": "Gratis en onafhankelijk van het buurtteam, de gemeente en de jeugdhulpaanbieders. U Centraal legt de Jeugdwet uit en denkt mee waar u het beste terechtkunt. Een cliëntondersteuner gaat mee naar gesprekken met het buurtteam of de aanbieder en helpt bij een klacht of bezwaar. Aanmelden kan online, of telefonisch op maandag- en donderdagochtend (9.00–12.00 uur). MEE Dichtbij helpt in Utrecht alleen bij langdurige zorg (Wet langdurige zorg).",
+      "telefoon": "030 236 1760",
+      "email": "oco@u-centraal.nl",
+      "url": "https://www.u-centraal.nl/hulp-bij-onafhankelijke-clientondersteuning",
+      "adres": "Drift 11, 3512 BR Utrecht",
+      "openingstijden": "Telefonisch aanmelden maandag en donderdag 9.00–12.00 uur"
+    },
+    "klacht": {
+      "naam": "Klacht over het buurtteam Jeugd & Gezin (Lokalis)",
+      "toelichting": "Bespreek het eerst met uw gezinswerker. Lukt dat niet? Mail uw klacht naar Lokalis; binnen vijf werkdagen krijgt u een uitnodiging voor een gesprek. Komt u er niet uit, dan kunt u naar de onafhankelijke Klachtencommissie Jeugd Midden-Nederland. Die behandelt ook klachten over KOOS Utrecht, Spoor030, SAVE en Veilig Thuis Utrecht. De commissie bespreekt de klacht in een zitting en doet binnen twaalf weken uitspraak. Gaat de klacht over een medewerker van de gemeente zelf? Gebruik dan het digitale loket of bel 14 030. Daarna kunt u naar het Utrechts ombudsloket (030 286 1070), niet naar de Nationale ombudsman.",
+      "url": "https://www.buurtteamsutrecht.nl/klachten-en-bezwaar/",
+      "email": "klachtenjeugdengezin@lokalis.nl",
+      "extern": {
+        "naam": "Klachtencommissie Jeugd Midden-Nederland (KJMN)",
+        "url": "https://klachtencommissiejeugdmn.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een beschikking over jeugdhulp of pgb maakt u bij de gemeente Utrecht: online met DigiD via het digitale loket, of per brief. U krijgt altijd een beschikking als een pgb wordt toegekend of afgewezen, en als hulp wordt afgewezen. Krijgt u geen brief? Vraag er dan zelf om; de gemeente moet die binnen 8 weken na het gesprek sturen. Vanaf 1 juli 2026 staat in elk besluit over aanvullende jeugdhulp welke hulp u krijgt en hoe lang, zodat u bezwaar kunt maken. Bel eerst het buurtteam om het besluit door te nemen. U Centraal kan u helpen met het bezwaar.",
+      "url": "https://loket.digitaal.utrecht.nl/nl/producten/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Mogelijk na een gesprek met het buurtteam, mits u aantoont dat zorg in natura niet passend is.",
-      "url": "https://www.utrecht.nl/zorg-en-onderwijs/persoonsgebonden-budget-pgb/"
-    },
-    "bezwaarEnKlacht": {
-      "toelichting": "Bezwaar tegen een beschikking binnen 6 weken bij de gemeente Utrecht. Klachten over het buurtteam via de klachtenregeling van Lokalis.",
-      "url": "https://www.utrecht.nl/bestuur-en-organisatie/bezwaar-maken/"
+      "toelichting": "U vraagt een pgb aan via de gezinswerker van het buurtteam. Dat kan als u recht heeft op aanvullende jeugdhulp en hulp wilt van een aanbieder zonder contract met de gemeente. U moet uitleggen waarom de hulp van KOOS of Spoor030 niet past, en de administratie zelf kunnen doen. De gemeente heeft drie tarieven: voor instellingen, voor zelfstandige professionals en voor hulp uit uw eigen netwerk. Het pgb staat in de beschikking.",
+      "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/hulp-bij-opvoeden-en-opgroeien/aanvullende-jeugdhulp"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp; de gemeente en Lokalis verwijzen hiernaar.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Utrecht werkt met twee grote specialistische partners: KOOS Utrecht (jeugd-GGZ en LVB) en Spoor030 (jeugdhulp en jeugdbescherming).",
+    "samenvatting": "Basishulp krijgt u via het buurtteam Jeugd & Gezin, zonder besluit van de gemeente. Aanvullende (specialistische) jeugdhulp komt van twee vaste partners: KOOS Utrecht in het westen van de stad en Spoor030 in het oosten. Zij werken in de wijken en samen met scholen en huisartsen. Yeph biedt hoogspecialistische hulp. Een lijst met losse aanbieders is er daarom niet; op de gemeentepagina ziet u welke partner bij uw wijk hoort. Utrecht doet niet mee aan de Beschikbaarheidswijzer. Vraag het buurtteam, KOOS of Spoor030 naar de actuele wachttijd.",
     "categorieen": [
-      { "naam": "Basishulp via het buurtteam" },
-      { "naam": "Specialistische jeugdhulp (KOOS, Spoor030)" },
-      { "naam": "Dyslexiezorg" },
-      { "naam": "Pleegzorg en gezinshuizen" }
-    ]
+      {
+        "naam": "Basishulp via het buurtteam",
+        "omschrijving": "Opvoedondersteuning, gezinsbegeleiding, groepen en online trainingen van Lokalis. Geen besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "opvoedondersteuning",
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Aanvullende jeugdhulp (KOOS Utrecht, Spoor030)",
+        "omschrijving": "Jeugd-ggz, specialistische begeleiding en dagbehandeling, georganiseerd per wijk. Voor dagbehandeling van jonge kinderen is er een wachtlijst.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz",
+          "ambulante-begeleiding",
+          "dagbesteding"
+        ]
+      },
+      {
+        "naam": "Dyslexiezorg",
+        "omschrijving": "Vergoed onderzoek en behandeling bij ernstige dyslexie; de gemeente heeft hiervoor een eigen pagina.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Logeren en respijtzorg",
+        "omschrijving": "Via aanvullende jeugdhulp of een pgb. Steun van vrijwilligers via Handjehelpen en Mantelzorg Utrecht.",
+        "hulpsoorten": [
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "omschrijving": "De gemeente zoekt actief pleegouders. In 2025 vroegen meer kinderen om een verblijfplek, omdat de gesloten jeugdzorg wordt afgebouwd.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/hulp-bij-opvoeden-en-opgroeien/aanvullende-jeugdhulp"
   },
   "lokaleInitiatieven": [
     {
-      "naam": "Steunpunt GGZ Utrecht",
-      "soort": "belangenorganisatie",
-      "omschrijving": "Informatie, advies en lotgenotencontact voor mensen met psychische problemen en hun naasten.",
-      "url": "https://www.steunpuntggzutrecht.nl/"
-    },
-    {
       "naam": "Handjehelpen",
       "soort": "vrijwilligers",
-      "omschrijving": "Koppelt vrijwilligers aan gezinnen met een kind met een beperking of ziekte voor een paar uur per week.",
-      "url": "https://www.handjehelpen.nl/"
+      "omschrijving": "Utrechtse stichting, opgericht door ouders. Zij koppelt vrijwilligers aan gezinnen met een kind met een beperking, chronische ziekte of gedragsproblemen. Een paar uur per week: een maatje, oppas of hulp thuis. Gratis; aanmelden via de website.",
+      "themas": [
+        "beperking",
+        "langdurig ziek",
+        "gedragsproblemen",
+        "gezin",
+        "verlichting",
+        "respijtzorg"
+      ],
+      "url": "https://www.handjehelpen.nl/",
+      "contact": {
+        "naam": "Handjehelpen",
+        "telefoon": "030 263 2950",
+        "email": "info@handjehelpen.nl",
+        "adres": "Pallas Athenedreef 12, 3561 PE Utrecht"
+      }
+    },
+    {
+      "naam": "NVA regio Utrecht",
+      "soort": "oudergroep",
+      "omschrijving": "Regionale afdeling van de Nederlandse Vereniging voor Autisme met gespreksgroepen voor ouders, een Autismecafé, inlooppunten met ervaringsdeskundigen en thema-avonden in de regio Utrecht.",
+      "themas": [
+        "autisme",
+        "ontwikkelingsproblemen",
+        "gezin"
+      ],
+      "url": "https://www.autisme.nl/nva-regio-utrecht/",
+      "contact": {
+        "naam": "NVA regio Utrecht",
+        "telefoon": "030 229 9800",
+        "email": "voorzitter.nva.utrecht@autisme.nl"
+      }
+    },
+    {
+      "naam": "UGids (U Centraal)",
+      "soort": "informatiepunt",
+      "omschrijving": "Informatielijn van welzijnsorganisatie U Centraal, met een overzicht van hulp, regelingen en organisaties in Utrecht. Ook voor gezinnen met een kind met een beperking, autisme of psychische problemen. Persoonlijk advies via telefoon, chat of e-mail.",
+      "themas": [
+        "gezin",
+        "beperking",
+        "mantelzorg",
+        "ggz"
+      ],
+      "url": "https://www.ugids.nl/",
+      "contact": {
+        "naam": "Informatielijn UGids",
+        "telefoon": "030 236 1727",
+        "email": "ugids@u-centraal.nl",
+        "openingstijden": "Werkdagen 9.00–13.00 uur"
+      }
+    },
+    {
+      "naam": "Mantelzorg Utrecht (U Centraal)",
+      "soort": "informatiepunt",
+      "omschrijving": "Steunpunt voor mantelzorgers in de stad, ook voor ouders die intensief zorgen voor een kind en voor broers en zussen (jonge mantelzorgers). Advies over respijtzorg, regelingen en ontmoeting.",
+      "themas": [
+        "mantelzorg",
+        "jonge mantelzorger",
+        "brusjes",
+        "respijtzorg"
+      ],
+      "url": "https://www.mantelzorgutrecht.nl/",
+      "contact": {
+        "naam": "Mantelzorg Utrecht",
+        "telefoon": "030 236 1740",
+        "openingstijden": "Werkdagen 10.00–12.00 uur"
+      }
     }
   ],
-  "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "voorbeeld",
-    "bronnen": [
-      { "titel": "Gemeente Utrecht – Jeugd en gezin", "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/", "geraadpleegd": "2026-10-10" }
+  "directRegelen": [
+    {
+      "naam": "Vind uw buurtteam Jeugd & Gezin",
+      "omschrijving": "Vul uw postcode in en u ziet telefoonnummer, e-mailadres en inlooptijden van het buurtteam in uw wijk.",
+      "url": "https://www.buurtteamsutrecht.nl/contact/",
+      "nodig": "Postcode"
+    },
+    {
+      "naam": "Klacht indienen bij Lokalis (buurtteam Jeugd & Gezin)",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Lokalis nodigt u binnen vijf werkdagen uit voor een gesprek. Vaak sneller dan bezwaar.",
+      "url": "https://www.buurtteamsutrecht.nl/klachten-en-bezwaar/"
+    },
+    {
+      "naam": "Klacht indienen bij de Klachtencommissie Jeugd Midden-Nederland",
+      "omschrijving": "Onafhankelijke commissie voor klachten over Lokalis, KOOS Utrecht, Spoor030, SAVE en Veilig Thuis Utrecht, als u er met de organisatie niet uitkomt. Uitspraak binnen twaalf weken.",
+      "url": "https://klachtencommissiejeugdmn.nl/formulier/"
+    },
+    {
+      "naam": "Klacht over de gemeente Utrecht doorgeven",
+      "omschrijving": "Over medewerkers van de gemeente zelf, bijvoorbeeld bij een beschikking of de afhandeling van een pgb. Niet tevreden over de afhandeling? Bel het Utrechts ombudsloket, 030 286 1070.",
+      "url": "https://loket.digitaal.utrecht.nl/nl/producten/klacht-over-de-gemeente-doorgeven",
+      "nodig": "DigiD (of anoniem per telefoon via 14 030)"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://loket.digitaal.utrecht.nl/nl/producten/bezwaar-maken",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Pgb voor aanvullende jeugdhulp: voorwaarden en tarieven",
+      "omschrijving": "Gemeentepagina met de voorwaarden en de drie pgb-tarieven; de aanvraag zelf loopt via uw gezinswerker.",
+      "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/hulp-bij-opvoeden-en-opgroeien/aanvullende-jeugdhulp"
+    },
+    {
+      "naam": "Aanmelden voor onafhankelijke cliëntondersteuning (U Centraal)",
+      "omschrijving": "Gratis hulp bij het gesprek met het buurtteam, een klacht of een bezwaar. Online aanmelden of bellen op maandag- en donderdagochtend.",
+      "url": "https://www.u-centraal.nl/hulp-bij-onafhankelijke-clientondersteuning"
+    },
+    {
+      "naam": "Vrijwilliger aanvragen bij Handjehelpen",
+      "omschrijving": "Aanmeldformulier voor een hulpvraag: maatje, oppas of hulp thuis voor een kind met een beperking, ziekte of gedragsproblemen.",
+      "url": "https://www.handjehelpen.nl/hulp-nodig/aanmelden-hulpvraag"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In Utrecht doen de buurtteams van Lokalis de toegang en de basishulp; KOOS en Spoor030 geven de aanvullende hulp. Volgens de gemeente krijgen veel meer gezinnen basishulp dan landelijk, en is aanvullende hulp minder vaak nodig. De wachttijd na het eerste gesprek loopt wel op: eind 2025 wachtten 466 kinderen op aanvullende hulp, en begin 2026 rond de 120 jonge kinderen op dagbehandeling. In juni 2026 meldde het AD wachttijden van vier tot negen maanden. Ouders en jongeren zijn in de jaarlijkse peiling overwegend positief, maar minder over hoe snel ze hulp krijgen en wat het oplevert.\n\nVraag bij het eerste gesprek met het buurtteam naar de verwachte wachttijd en naar hulp in de tussentijd, en leg afspraken vast per e-mail. Vraag om een beschikking als u die niet vanzelf krijgt; vanaf 1 juli 2026 staat daarin welke hulp u krijgt en hoe lang, zodat u bezwaar kunt maken. Neem een gratis cliëntondersteuner van U Centraal mee. Staat de hulp stil, dien dan een klacht in bij Lokalis of de Klachtencommissie Jeugd Midden-Nederland; dat is eenvoudiger dan bezwaar.",
+    "signalen": [
+      {
+        "soort": "nieuws",
+        "titel": "AD: wachttijd aanvullende jeugdhulp tot negen maanden of langer",
+        "samenvatting": "Volgens het AD maken gezinnen, kinderen en hulpverleners zich grote zorgen over de wachtlijsten voor aanvullende jeugdhulp. Kinderen zonder voorrang wachten vier tot vijf maanden. Voor jongeren met specifieke problemen kan het negen maanden of langer duren.",
+        "datum": "2026-06-19",
+        "bron": {
+          "titel": "AD – Wachtlijsten Utrechtse jeugdhulp baren flinke zorgen: wachttijd loopt soms op tot negen maanden of langer",
+          "url": "https://www.ad.nl/utrecht/wachtlijsten-utrechtse-jeugdhulp-baren-flinke-zorgen-wachttijd-loopt-soms-op-tot-negen-maanden-of-langer~ac16be56/"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Geen passende plek voor een kleine groep jongeren met complexe problemen",
+        "samenvatting": "In 2024 en 2025 kregen minder dan tien jongeren een-op-eenzorg buiten een instelling, omdat er geen passende specialistische plek was. De gemeente noemt dat zelf onwenselijk: lang alleen zijn zonder dagbesteding kan tot achteruitgang leiden. Zij werkt aan nieuw aanbod voor jongeren met complexe problemen.",
+        "datum": "2026-05-08",
+        "bron": {
+          "titel": "UStad / RTV Utrecht",
+          "url": "https://www.ustad.nl/nieuws/4040538/utrecht-gaf-1-8-miljoen-uit-aan-intensieve-jeugdzorg-buiten-instellingen-onwenselijk"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Voortgangsrapportage Jeugd 2025: langere wachtlijst voor aanvullende hulp",
+        "samenvatting": "Eind 2025 wachtten 466 kinderen na het eerste gesprek op de start van aanvullende jeugdhulp; eind 2023 waren dat er 334. Bij het buurtteam kregen 2.823 gezinnen binnen tien werkdagen een eerste gesprek; 1.965 gezinnen wachtten langer. Vanaf 1 juli 2026 staat in elk besluit welke hulp een gezin krijgt en hoe lang, zodat gezinnen duidelijker weten waar ze aan toe zijn en bezwaar kunnen maken.",
+        "datum": "2026-03-18",
+        "bron": {
+          "titel": "Gemeente Utrecht – Voortgangsrapportage Jeugd 2025 (raadsinformatie)",
+          "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/bc2f12b1-696b-452c-b593-bd83e00fe35f"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachtlijst dagbehandeling jonge kinderen; meer plekken in 2026",
+        "samenvatting": "Volgens het college groeide de vraag naar dagbehandeling en verblijf in 2025 sterk, en wachten sommige kinderen al veel langer dan goed voor hen is. De wachtlijst voor dagbehandeling ging van 140 naar 120 kinderen. Met de jeugdhulppartners zijn ruimere afspraken gemaakt, zodat kinderen in 2026 kunnen blijven starten met dagbehandeling en verblijf.",
+        "datum": "2026-01-13",
+        "bron": {
+          "titel": "Gemeente Utrecht – Raadsbrief Contractafspraken aanvullende jeugdhulp 2026 (commissiebundel Jeugd, Welzijn, Cultuur en Sport)",
+          "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/c2c42310-c63f-4cfd-8536-4fe1b50a9bac"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Wethouder: jeugdbescherming moet anders",
+        "samenvatting": "Na een incident met een meisje van elf dat in de jeugdzorg buiten het gezin woonde zegt wethouder Dennis de Vries dat de jeugdbescherming te veel lagen heeft. Gezinnen raken daardoor de weg kwijt, en organisaties informeren elkaar slecht door privacyregels. Hij vraagt de raadsfracties om de landelijke politiek te bewegen het stelsel te herzien.",
+        "datum": "2025-11-27",
+        "bron": {
+          "titel": "RTV Utrecht – Volgens de gemeente Utrecht moet de hele jeugdbescherming op de schop",
+          "url": "https://www.rtvutrecht.nl/nieuws/3972499"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Inspectie beëindigt verscherpt toezicht op verblijfsaanbieder Hamber Zorg",
+        "samenvatting": "In december 2024 hief de Inspectie Gezondheidszorg en Jeugd het verscherpt toezicht op Hamber Zorg op, een kleine aanbieder van verblijf voor jongeren in de Utrechtse binnenstad. Het toezicht liep sinds januari 2024; de organisatie let nu onder meer beter op de veiligheid van jongeren. Volgens de inspectie moet nog blijken dat de verbeteringen blijvend zijn.",
+        "datum": "2024-12-13",
+        "bron": {
+          "titel": "RTV Utrecht",
+          "url": "https://www.rtvutrecht.nl/nieuws/3828248"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Historie: Rekenkamer kritisch over beleid voor mentale gezondheid van jongeren",
+        "samenvatting": "De Rekenkamer Utrecht concludeerde in november 2023 dat het beleid voor mentale gezondheid van jongeren en jongvolwassenen weinig heeft opgeleverd. 22 procent van de Utrechters van 16 tot 25 jaar heeft matige of ernstige psychische klachten, maar de initiatieven met gemeentegeld bereiken weinig mensen. Het college was het deels eens met de conclusies.",
+        "datum": "2023-11-07",
+        "bron": {
+          "titel": "Rekenkamer Utrecht – Het gaat niet goed (pdf)",
+          "url": "https://www.utrecht.nl/fileadmin/uploads/documenten/7.extern/Rekenkamer/20231106_Rekenkamerrapport_Het_gaat_niet_goed.pdf"
+        }
+      }
     ],
-    "opmerkingen": "Voorbeelddata; contactgegevens nog te verifiëren."
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2025",
+        "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/bc2f12b1-696b-452c-b593-bd83e00fe35f",
+        "samenvatting": "In 2025 vulden 372 ouders en jongeren de Ervaringwijzer in over het buurtteam, en 373 over de aanvullende hulp van KOOS en Spoor030. Er is geen rapportcijfer. Het beeld is overwegend positief en gelijk aan 2024, met meer kritiek op toegankelijkheid en resultaat dan op de kwaliteit van de hulp."
+      },
+      "doorlooptijden": {
+        "status": "ja",
+        "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/bc2f12b1-696b-452c-b593-bd83e00fe35f",
+        "samenvatting": "De gemeente publiceert hoeveel gezinnen binnen of na tien werkdagen een eerste gesprek met het buurtteam krijgen (2025: 2.823 binnen, 1.965 later). Ook meldt zij drie keer per jaar hoeveel kinderen wachten op aanvullende hulp (eind 2025: 466). Een gemiddelde wachttijd in weken staat er niet in."
+      },
+      "aandeelHuisarts": {
+        "percentage": 23,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Utrecht – Jeugd en gezin",
+        "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Hulp bij opvoeden en opgroeien",
+        "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/hulp-bij-opvoeden-en-opgroeien",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Aanvullende jeugdhulp (KOOS, Spoor030, pgb)",
+        "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/hulp-bij-opvoeden-en-opgroeien/aanvullende-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Tip, klacht, bezwaar (jeugdzorg)",
+        "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/tip-klacht-bezwaar-jeugdzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Digitaal loket: bezwaar maken",
+        "url": "https://loket.digitaal.utrecht.nl/nl/producten/bezwaar-maken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Digitaal loket: klacht over de gemeente doorgeven",
+        "url": "https://loket.digitaal.utrecht.nl/nl/producten/klacht-over-de-gemeente-doorgeven",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Verordening Jeugdwet gemeente Utrecht 2026 (raadsinformatie)",
+        "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/463c6c05-3484-4ac3-ad1d-4bb682fa065d",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Voortgangsrapportage Jeugd 2025 (raadsinformatie)",
+        "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/bc2f12b1-696b-452c-b593-bd83e00fe35f",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Raadsbrief Contractafspraken aanvullende jeugdhulp 2026 (commissiebundel)",
+        "url": "https://utrecht.bestuurlijkeinformatie.nl/Document/View/c2c42310-c63f-4cfd-8536-4fe1b50a9bac",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht (zorgprofessionals) – Toegang tot jeugdhulp",
+        "url": "https://zorgprofessionals.utrecht.nl/zorg-voor-jeugd/toegang-tot-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Utrecht – Vind je buurtteam (contact)",
+        "url": "https://www.buurtteamsutrecht.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Utrecht – Hoe we werken",
+        "url": "https://www.buurtteamsutrecht.nl/hoe-we-werken/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Utrecht – Klachten en bezwaar",
+        "url": "https://www.buurtteamsutrecht.nl/klachten-en-bezwaar/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Utrecht – Aanvullende jeugdhulp",
+        "url": "https://www.buurtteamsutrecht.nl/onderwerp/opvoeden-en-opgroeien/aanvullende-zorg/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Utrecht – Zorg in natura en pgb",
+        "url": "https://www.buurtteamsutrecht.nl/onderwerp/gezondheid/zorg-in-natura-en-pgb/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "UGids – Buurtteams Jeugd & Gezin (Lokalis), contactgegevens",
+        "url": "https://www.ugids.nl/organisaties/buurtteams-jeugd-gezin-lokalis/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Klachtencommissie Jeugd Midden-Nederland – Aangesloten instellingen",
+        "url": "https://klachtencommissiejeugdmn.nl/aangesloten-instellingen/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "U Centraal – Onafhankelijke cliëntondersteuning",
+        "url": "https://www.u-centraal.nl/hulp-bij-onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "U Centraal – Contact",
+        "url": "https://www.u-centraal.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Dichtbij (voorheen MEE Utrecht, Gooi & Vecht)",
+        "url": "https://meedichtbij.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht",
+        "url": "https://www.veiligthuisutrecht.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming – Er is thuis crisis",
+        "url": "https://savejeugdbescherming.nl/help/crisis/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdgezondheidszorg Utrecht",
+        "url": "https://www.jeugdengezinutrecht.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman – Gemeente Utrecht (verwijst naar Utrechts ombudsloket)",
+        "url": "https://www.nationaleombudsman.nl/overheidsinstanties/gemeente-utrecht",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Utrechts ombudsloket",
+        "url": "https://utrechtsombudsloket.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Handjehelpen",
+        "url": "https://www.handjehelpen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "NVA regio Utrecht",
+        "url": "https://www.autisme.nl/nva-regio-utrecht/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "UGids – Autisme (lokale organisaties)",
+        "url": "https://www.ugids.nl/leven-met-een-beperking/autisme/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – regio-overzicht",
+        "url": "https://beschikbaarheidswijzer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED – Jeugdhulptrajecten in natura; verwijzer, regio (OData)",
+        "url": "https://opendata.cbs.nl/ODataApi/odata/85097NED/TypedDataSet",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RTV Utrecht – Jeugdbescherming moet op de schop (27-11-2025)",
+        "url": "https://www.rtvutrecht.nl/nieuws/3972499",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RTV Utrecht – Verscherpt toezicht Hamber Zorg beëindigd (13-12-2024)",
+        "url": "https://www.rtvutrecht.nl/nieuws/3828248",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "UStad – Utrecht gaf 1,8 miljoen uit aan intensieve jeugdzorg buiten instellingen",
+        "url": "https://www.ustad.nl/nieuws/4040538/utrecht-gaf-1-8-miljoen-uit-aan-intensieve-jeugdzorg-buiten-instellingen-onwenselijk",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "AD – Wachtlijsten Utrechtse jeugdhulp baren flinke zorgen (19-06-2026)",
+        "url": "https://www.ad.nl/utrecht/wachtlijsten-utrechtse-jeugdhulp-baren-flinke-zorgen-wachttijd-loopt-soms-op-tot-negen-maanden-of-langer~ac16be56/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rekenkamer Utrecht – Het gaat niet goed (06-11-2023)",
+        "url": "https://www.utrecht.nl/fileadmin/uploads/documenten/7.extern/Rekenkamer/20231106_Rekenkamerrapport_Het_gaat_niet_goed.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht: Hulp bij huiselijk geweld",
+        "url": "https://www.utrecht.nl/zorg-en-onderwijs/hulp-en-ondersteuning-wmo/hulp-bij/huiselijk-geweld",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD regio Utrecht - Consultatiebureaus",
+        "url": "https://www.ggdru.nl/kind-en-opvoeden/consultatiebureau/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV Utrecht PO - Contact",
+        "url": "https://www.swvutrechtpo.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sterk VO - Contact",
+        "url": "https://www.sterkvo.nl/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Nog open: geen gemeentelijke pagina met jeugdcrisisnummer buiten kantoortijd en geen pgb-plan-formulier gevonden. lokalis.nl, koosutrecht.nl en spoor030.nl laden niet zonder browser; nummers via UGids. AD-artikel alleen via samenvatting gelezen (betaalmuur). KOOS Utrecht en Spoor030 (aanbieders) hebben geen eigen contactblok."
   }
 }

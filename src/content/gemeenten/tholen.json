@@ -1,0 +1,400 @@
+{
+  "naam": "Tholen",
+  "cbsCode": "GM0716",
+  "provincie": "Zeeland",
+  "jeugdzorgregio": "Zeeland (Inkooporganisatie Jeugdhulp Zeeland)",
+  "websiteJeugd": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/vragen-over-jeugd-en-gezin",
+  "toegang": {
+    "samenvatting": "In Tholen meldt u uw vraag over opgroeien of opvoeden bij de gemeente zelf. Er is geen apart wijkteam of Centrum voor Jeugd en Gezin meer. Bel de gemeente en vraag naar Inwonersondersteuning, of meld uw vraag online met DigiD. Een maatschappelijk werker van WijZijn kijkt dan met u mee. Is meer hulp nodig, dan beslist een consulent Wmo/Jeugd van de gemeente. Ook de huisarts mag verwijzen. Bij de huisartsen werkt een praktijkondersteuner jeugd. De gemeente wil per 1 januari 2028 een Stevig Lokaal Team hebben. In Sint-Maartensdijk wordt dat nu uitgeprobeerd. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Inwonersondersteuning Tholen (gemeente, met WijZijn)",
+        "omschrijving": "Inwonersondersteuning is het eerste aanspreekpunt van de gemeente voor vragen over jeugd, zorg, welzijn en werk en inkomen. U meldt zich zelf aan, een verwijzing is niet nodig. Een maatschappelijk werker van WijZijn (de welzijnsorganisatie) denkt met u mee. Is meer nodig, dan beslist de gemeente over jeugdhulp. Daarvoor vraagt u een besluit (beschikking) aan.",
+        "stappen": [
+          "Bel de gemeente en vraag naar Inwonersondersteuning Tholen, of vul online het meldformulier in (met DigiD).",
+          "Bespreek uw vraag met de maatschappelijk werker. Die geeft tips, denkt mee en plant zo nodig een uitgebreid gesprek.",
+          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Samen bekijkt u wat u zelf kunt doen, wat uw omgeving kan doen en welke voorzieningen helpen.",
+          "Is jeugdhulp nodig? Maak dan samen een plan van aanpak. De gemeente regelt de aanvraag met u.",
+          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+        ],
+        "contact": {
+          "naam": "Gemeente Tholen: Inwonersondersteuning (jeugd, Wmo, werk en inkomen)",
+          "telefoon": "14 0166",
+          "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/inwonersondersteuning-tholen"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Inwonersondersteuning. Bij de huisartsen in Tholen werkt een praktijkondersteuner jeugd, die kan helpen bij opvoed- en opgroeivragen.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de huisarts om een verwijzing naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de regio.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Zeeland",
+          "telefoon": "0113 249 315",
+          "url": "https://www.ggdzeeland.nl/contact"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Bespreek zorgen eerst met school. Komt u er niet uit, dan helpt het Zeeland ouder- en jeugdsteunpunt bij vragen over passend onderwijs op de basisschool. Het samenwerkingsverband passend primair onderwijs Kind op 1 regelt extra ondersteuning voor leerlingen. De gemeente werkt met scholen samen om problemen vroeg te zien, en aan onderwijs in combinatie met zorg.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht of de intern begeleider.",
+          "Vraag school welke extra ondersteuning mogelijk is en leg afspraken schriftelijk vast.",
+          "Komt u er met school niet uit? Vraag advies bij het Zeeland ouder- en jeugdsteunpunt.",
+          "Is meer hulp nodig buiten school? Meld u dan aan bij Inwonersondersteuning van de gemeente."
+        ],
+        "contact": [
+          {
+            "naam": "Zeeland ouder- en jeugdsteunpunt (passend onderwijs, basisonderwijs)",
+            "url": "https://www.ouderjeugdsteunpuntzeeland.nl/contact"
+          },
+          {
+            "naam": "Samenwerkingsverband passend primair onderwijs Kind op 1",
+            "telefoon": "0113 228887",
+            "email": "info@swvkindop1.nl",
+            "url": "https://www.swvkindop1.nl/over-ons/organisatie/"
+          },
+          {
+            "naam": "Gemeente Tholen: Inwonersondersteuning (jeugd, Wmo, werk en inkomen)",
+            "telefoon": "14 0166",
+            "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/inwonersondersteuning-tholen"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente over huiselijk geweld staat waar u verder terechtkunt.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Lees op de pagina van de gemeente over hulp bij huiselijk geweld waar u terechtkunt."
+        ],
+        "contact": {
+          "naam": "Gemeente Tholen: hulp en advies bij huiselijk geweld",
+          "url": "https://www.tholen.nl/hulp-en-advies-bij-huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "SMWO (onafhankelijke cliëntondersteuning)",
+      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. SMWO helpt bij vragen over jeugdhulp, Wmo en zorg. Een cliëntondersteuner helpt u het gesprek met de gemeente voor te bereiden. Ook helpt de ondersteuner bij een aanvraag, of als de hulp niet naar wens verloopt. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "0113 277 111",
+      "url": "https://www.smwo.nl/dienstverlening/onafhankelijke-clientondersteuning",
+      "openingstijden": "Telefonisch werkdagen 8.30–12.30 en 13.00–17.00 uur"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk, maar u moet een budgetplan maken. Daarin legt u uit waarom hulp van een aanbieder met een contract bij de gemeente niet past. Ook schrijft u welke hulp u wilt inkopen, hoe de kwaliteit is geregeld en wie het budget beheert. U moet het budget en de administratie zelf kunnen beheren. Hulp uit het eigen netwerk kan, behalve bij ggz-behandeling. Voor crisishulp krijgt u geen pgb. Het pgb is geen vrij te besteden bedrag.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR758897/1"
+    },
+    "klacht": {
+      "naam": "Klacht over het toegangsteam of de jeugdhulp: onafhankelijke klachtencoördinator sociaal domein",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dien dan een klacht in bij de onafhankelijke klachtencoördinator sociaal domein. Die werkt los van de gemeente en de zorgaanbieder. De coördinator kijkt naar klachten over de gemeente en over aanbieders met een contract. Na uw formulier neemt de coördinator binnen vijf werkdagen contact op. Een klacht over het gedrag van een gemeentemedewerker kunt u ook indienen via de algemene klachtenregeling. Die wordt meestal binnen 6 weken afgehandeld. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "url": "https://www.tholen.nl/klachtenformulier-sociaal-domein-wmo-jeugd-participatiewet",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling door de gemeente)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u bij de gemeente, schriftelijk of online met DigiD. De gemeente beslist binnen 6 weken nadat de bezwaartermijn is verstreken. Kijkt er een commissie mee, dan is dat binnen 12 weken.",
+      "url": "https://www.tholen.nl/bezwaarschrift-indienen"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u via Inwonersondersteuning, de buurtpedagoog en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Tholen samen met de andere Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland (IJZ). Sinds juni 2026 gelden contracten voor twee jaar. Nieuwe contracten vanaf 2028 worden voorbereid. Een overzicht van aanbieders staat in de Beschikbaarheidswijzer Zeeland: openbaar, zonder inloggen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+    "categorieen": [
+      {
+        "naam": "Eerste hulp bij opvoeden en opgroeien",
+        "omschrijving": "Inwonersondersteuning met een maatschappelijk werker van WijZijn, de buurtpedagoog (0 tot 18 jaar) en de praktijkondersteuner jeugd bij de huisarts. Het Stevig Lokaal Team komt hier stap voor stap bij.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Jeugd- en jongerenwerk",
+        "omschrijving": "Jongerenwerkers organiseren jeugdhonken en activiteiten, onder meer in Tholen, Sint Philipsland en Sint-Maartensdijk.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Zorgloketten in de kernen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Vrijwilligers in de dorpen helpen met een luisterend oor, boodschappen en praktische hulp. Per kern is er een eigen loket.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/zorgloketten"
+    },
+    {
+      "naam": "Jeugdhonken",
+      "soort": "overig",
+      "omschrijving": "Plekken voor jongeren, gerund met vrijwilligers en jongerenwerkers. In 2027 volgen jeugdhonken in Sint Philipsland en Sint-Maartensdijk, als er genoeg vrijwilligers zijn.",
+      "themas": [
+        "jongeren"
+      ],
+      "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/jeugd-en-jongerenwerk"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Melding bij Inwonersondersteuning (hulpvraag jeugd, zorg, welzijn)",
+      "url": "https://mijn.tholen.nl/aanvragen/8200/persoon/melding-inwonersondersteuning",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Klacht over het toegangsteam of de jeugdhulp melden",
+      "url": "https://www.tholen.nl/klachtenformulier-sociaal-domein-wmo-jeugd-participatiewet"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.tholen.nl/bezwaarschrift-indienen",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Beschikbaarheidswijzer Zeeland: aanbieders en wachttijden",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Tholen bouwt de toegang tot jeugdhulp om. Sinds april 2025 is Inwonersondersteuning het eerste aanspreekpunt, en sinds januari 2026 probeert de gemeente in Sint-Maartensdijk een Stevig Lokaal Team uit, dat per 2028 in de hele gemeente moet werken. Volgens de gemeente werkt de nieuwe aanpak vooral goed voor Wmo-vragen en is die voor jeugd nog in ontwikkeling. Door de praktijkondersteuner jeugd verwijzen huisartsen minder door, maar voor maatschappelijk werk is er een wachttijd van 8 tot 10 weken.\n\nVraag bij uw melding hoe lang het duurt tot een eerste gesprek en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van SMWO mee. Bent u ontevreden, gebruik dan het klachtenformulier sociaal domein: de klachtencoördinator werkt los van de gemeente. Woont u in Sint-Maartensdijk, dan kan de werkwijze tijdens de proef anders zijn dan in de andere kernen.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Proef Stevig Lokaal Team: voorzichtig positief, nog zonder cijfers",
+        "samenvatting": "In Sint-Maartensdijk loopt een proef met een Stevig Lokaal Team. De gemeente ziet meer samenwerking tussen hulpverleners, maar kan de resultaten door een technisch probleem nog niet in cijfers tonen. De evaluatie van juli 2026 komt na de zomer in de gemeenteraad.",
+        "datum": "2026-07",
+        "bron": {
+          "titel": "Beantwoording technische vragen SGP - Kadernota 2027",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=37c6b7d9-760e-4f0e-adf0-12fee0e2ee45"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Praktijkondersteuner jeugd: minder verwijzingen via de huisarts",
+        "samenvatting": "Huisartsen en gemeente zijn zeer positief over de praktijkondersteuner jeugd. Huisartsen verwijzen minder vaak door naar jeugdhulp met een besluit van de gemeente. De gemeente wil de praktijkondersteuner houden en onderbrengen in het Stevig Lokaal Team.",
+        "datum": "2026-07",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Tholen",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=63cda747-aa1e-4af7-914d-9984e5d2c5b6"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Buurtpedagoog gewaardeerd na externe evaluatie",
+        "samenvatting": "Een externe evaluatie in 2025 laat zien dat de rol van de buurtpedagoog (0 tot 18 jaar) wordt gewaardeerd. De taak gaat naar het Stevig Lokaal Team.",
+        "datum": "2026-07",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Tholen",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=63cda747-aa1e-4af7-914d-9984e5d2c5b6"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachttijd van 8 tot 10 weken voor maatschappelijk werk",
+        "samenvatting": "Door de nieuwe werkwijze vragen meer inwoners om maatschappelijk werk. Er is een wachtlijst en een wachttijd van 8 tot 10 weken. Dit gaat om maatschappelijk werk in het algemeen, niet alleen om jeugd.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "Programmarapportage per 1 september 2026",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=e72deab9-d892-4f8e-be0a-10172bcfcf6c"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Meer kinderen in jeugdhulp, meer verwijzingen via jeugdbescherming",
+        "samenvatting": "Steeds meer kinderen beginnen met jeugdhulp. Huisartsen verwijzen minder, jeugdbeschermingsorganisaties (gecertificeerde instellingen) verwijzen meer. De gemeente onderzoekt samen met die organisaties waarom.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "Programmarapportage per 1 september 2026",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=e72deab9-d892-4f8e-be0a-10172bcfcf6c"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Een cliëntervaringsonderzoek Jeugd van Tholen is niet openbaar te vinden. Vraag de gemeente of er een recent onderzoek is."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=e72deab9-d892-4f8e-be0a-10172bcfcf6c",
+        "samenvatting": "Gemeten doorlooptijden van de toegang zijn niet openbaar te vinden. Wel meldt de gemeente een wachttijd van 8 tot 10 weken voor maatschappelijk werk (geen jeugdtoegang). Vraag bij uw melding hoe lang het duurt."
+      },
+      "aandeelHuisarts": {
+        "percentage": 44,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Tholen: Vragen over jeugd en gezin",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/vragen-over-jeugd-en-gezin",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Inwonersondersteuning Tholen",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/inwonersondersteuning-tholen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Jeugd en Gezin, hulpvragen",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/jeugd-en-jongerenwerk/jeugd-en-gezin-hulpvragen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Jeugdgezondheidszorg",
+        "url": "https://www.tholen.nl/jeugdgezondheidszorg",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Persoonsgebonden budget",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/persoonsgebonden-budget",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Klachtenformulier sociaal domein",
+        "url": "https://www.tholen.nl/klachtenformulier-sociaal-domein-wmo-jeugd-participatiewet",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Onafhankelijke klachtencoördinator sociaal domein",
+        "url": "https://www.tholen.nl/actueel/nieuws-en-actualiteiten/onafhankelijke-klachtencooerdinator-sociaal-domein-voor-tholen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Klacht over de gemeente indienen",
+        "url": "https://www.tholen.nl/klacht-over-de-gemeente-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Bezwaarschrift indienen",
+        "url": "https://www.tholen.nl/bezwaarschrift-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Zorgloketten",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/zorgloketten",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Gezondheidszorg en maatschappelijk werk (WijZijn)",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/gezondheidszorg-en-maatschappelijk-werk",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Tholen 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR758897/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Tholen",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=63cda747-aa1e-4af7-914d-9984e5d2c5b6",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027 en meerjarenraming 2028-2030 gemeente Tholen",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=eb6f2d71-1807-4f56-a455-cb792d6305c5",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmarapportage per 1 september 2026 gemeente Tholen",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=e72deab9-d892-4f8e-be0a-10172bcfcf6c",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beantwoording technische vragen SGP - Kadernota 2027",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=37c6b7d9-760e-4f0e-adf0-12fee0e2ee45",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Kadernota 2027 gemeente Tholen",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Tholen&id=9ec5664e-5a13-415f-a630-fe6498ead1de",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Zeeland: Contact (Jeugdgezondheidszorg)",
+        "url": "https://www.ggdzeeland.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SMWO: Contact",
+        "url": "https://www.smwo.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SMWO: Onafhankelijke cliëntondersteuning",
+        "url": "https://www.smwo.nl/dienstverlening/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zeeland ouder- en jeugdsteunpunt: Contact",
+        "url": "https://www.ouderjeugdsteunpuntzeeland.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samenwerkingsverband Kind op 1: Organisatie",
+        "url": "https://www.swvkindop1.nl/over-ons/organisatie/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Zeeland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tholen: Hulp en advies bij huiselijk geweld",
+        "url": "https://www.tholen.nl/hulp-en-advies-bij-huiselijk-geweld",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Geen aparte crisispagina voor jeugd; spoedblok verwijst naar de pagina over huiselijk geweld (Veilig Thuis) en de oude CJG-website bestaat niet meer. Samenwerkingsverband VO en steunpunt voor voortgezet onderwijs in Tholen niet vastgesteld; cliëntervaringsonderzoek en doorlooptijden niet gevonden. Beschikbaarheidswijzer Zeeland noemt 7 van 13 gemeenten (Tholen volgens regiobestand wel)."
+  }
+}

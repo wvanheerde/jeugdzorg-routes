@@ -1,0 +1,375 @@
+{
+  "naam": "Beek",
+  "cbsCode": "GM0888",
+  "provincie": "Limburg",
+  "jeugdzorgregio": "Zuid-Limburg (16 gemeenten, centrumgemeente Maastricht)",
+  "websiteJeugd": "https://www.gemeentebeek.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Beek meldt u zich voor jeugdhulp bij Team Jeugd van de gemeente. Een verwijzing is niet nodig. U kunt bellen, mailen of online melden met DigiD. De gemeente zegt binnen drie weken contact met u op te nemen. Daarna maakt u met een casemanager een plan voor uw gezin. Met lichtere vragen over opvoeden kunt u ook naar het wijkteam, met spreekuren in Beek, Neerbeek en Spaubeek. Ook de huisarts kan rechtstreeks verwijzen. In de Carmelwijk loopt een proef met één loket voor alle vragen over zorg, wonen en geld.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Team Jeugd en het wijkteam van de gemeente Beek",
+        "omschrijving": "Team Jeugd werkt voor de gemeente. Het team bespreekt uw vraag en maakt met u een plan voor het hele gezin. Is jeugdhulp nodig, dan regelt het team die met een schriftelijk besluit. Het wijkteam is er voor kortere vragen en hulp dicht bij huis, voor alle leeftijden. Daar werken maatschappelijk werk van Partners in Welzijn en een wijkverpleegkundige van Zuyderland samen.",
+        "stappen": [
+          "Meld uw vraag bij Team Jeugd. Bel, mail of gebruik het meldingsformulier van de gemeente (met DigiD).",
+          "Wacht op het eerste gesprek. Volgens de gemeente neemt Team Jeugd binnen drie weken contact op. Neem gerust iemand mee, bijvoorbeeld een meedenker (onafhankelijke cliëntondersteuner).",
+          "Maak samen met een casemanager een plan voor uw gezin. Vraag om een schriftelijk verslag.",
+          "Vraag om een schriftelijk besluit als jeugdhulp nodig is. Volgens de gemeente krijgt u dat binnen acht weken na uw aanvraag.",
+          "Praat u liever eerst dicht bij huis? Ga dan naar een spreekuur van het wijkteam, of bel het wijkteam."
+        ],
+        "contact": [
+          {
+            "naam": "Team Jeugd (gemeente Beek)",
+            "telefoon": "046 438 9341",
+            "email": "jeugd@gemeentebeek.nl",
+            "url": "https://www.gemeentebeek.nl/jeugdhulp",
+            "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
+          },
+          {
+            "naam": "Wijkteam Beek (Partners in Welzijn)",
+            "telefoon": "046 457 5700",
+            "url": "https://www.gemeentebeek.nl/wijkteam",
+            "openingstijden": "Spreekuren in Beek, Neerbeek en Spaubeek, zie de pagina van de gemeente"
+          }
+        ]
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Zuid-Limburg.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. Soms raadt de arts aan om eerst contact op te nemen met Team Jeugd.",
+          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
+          "telefoon": "088 880 5044",
+          "url": "https://www.ggdzl.nl/onderwerpen/kind-en-gezin",
+          "openingstijden": "Maandag t/m donderdag 8.30–12.30 en 13.00–16.30 uur, vrijdag 8.30–12.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Die steunpunten geven onafhankelijk advies over passend onderwijs. Voor jeugdhulp meldt u zich bij Team Jeugd.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan bij Team Jeugd.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Team Jeugd (gemeente Beek)",
+            "telefoon": "046 438 9341",
+            "email": "jeugd@gemeentebeek.nl",
+            "url": "https://www.gemeentebeek.nl/jeugdhulp",
+            "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt samenwerkingsverband passend onderwijs PO Westelijke Mijnstreek (basisonderwijs)",
+            "url": "https://www.swvpowestelijkemijnstreek.nl/contentMenu/-3/Informatie-voor-Ouders"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt samenwerkingsverband passend onderwijs VO Westelijke Mijnstreek (voortgezet onderwijs)",
+            "email": "ouderenjeugdsteunpunt@swvzlvo.nl",
+            "url": "https://swvvowestelijkemijnstreek.nl/ouder-amp-jeugdsteunpunt/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst jeugd er in Zuid-Limburg is, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Neem bij een dreigende crisis tijdens kantooruren contact op met Team Jeugd.",
+          "Kijk voor de crisisdienst buiten kantooruren op de pagina Crisishulp Jeugd Zuid-Limburg van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Beek: Crisishulp Jeugd Zuid-Limburg",
+          "url": "https://www.gemeentebeek.nl/crisishulp-jeugd-zuid-limburg"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Meedenker (via Knooppunt Informele Zorg)",
+      "toelichting": "De gemeente heeft meedenkers aangesteld. Dat zijn onafhankelijke cliëntondersteuners. Zij helpen bij de aanvraag van jeugdhulp en bij het traject daarna. Het is gratis. Vraag een meedenker bij voorkeur vóór het eerste gesprek met Team Jeugd.",
+      "telefoon": "046 750 8410",
+      "email": "meedenkersbeek@knooppuntinformelezorg.nl",
+      "url": "https://www.gemeentebeek.nl/jeugdhulp"
+    },
+    "klacht": {
+      "naam": "Klacht over Team Jeugd of de gemeente",
+      "toelichting": "Team Jeugd werkt voor de gemeente. Een klacht over hoe u bent behandeld, of over vragen waarop niemand reageert, dient u daarom in bij de gemeente. Bespreek het eerst met de medewerker. Lukt dat niet, schrijf dan op waar de klacht over gaat en onderteken uw brief. Anonieme klachten behandelt de gemeente niet. De gemeente zegt een klacht binnen 6 weken te behandelen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een vertrouwenspersoon van Jeugdstem kan met u meedenken.",
+      "url": "https://www.gemeentebeek.nl/klacht-indienen",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Stuur uw bezwaarschrift naar het adres dat in het besluit staat. Noem uw naam en adres, het besluit en waarom u het er niet mee eens bent. Onderteken de brief. Soms bekijkt een bezwaarschriftencommissie uw bezwaar eerst. Het Juridisch Loket kan u vooraf gratis adviseren.",
+      "url": "https://www.gemeentebeek.nl/bezwaar-maken"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk onder voorwaarden. U schrijft zelf een budgetplan: hoe u de hulp regelt, wie de hulp geeft en waarom u een pgb wilt. Leg uit waarom hulp van een aanbieder met een contract niet past. De gemeente kijkt ook of u het budget kunt beheren en of de hulp veilig en goed is. Geeft iemand uit uw netwerk de hulp, dan is een verklaring omtrent gedrag (VOG) nodig. Voor jeugd-ggz door iemand uit uw netwerk geeft de gemeente geen pgb. Het pgb is hooguit zo hoog als de goedkoopste passende hulp via een aanbieder met contract. Het verschil betaalt u zelf.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR649869/4"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u via Team Jeugd en het wijkteam, vaak zonder besluit. Specialistische jeugdhulp koopt Beek samen met 15 andere gemeenten in Zuid-Limburg in. Op de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang u moet wachten. Die is openbaar, zonder inloggen. Vraag Team Jeugd om hulp bij het kiezen.",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp via Team Jeugd en het wijkteam. Ook zijn er (school)maatschappelijk werk, jeugd- en gezinswerkers en jongerenwerk.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van Team Jeugd of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, dagbesteding en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Crisisdienst Jeugd Zuid-Limburg voor een acute crisis buiten kantooruren. Zie de spoedroute.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg"
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Opgroeienin046.nl (CJG Westelijke Mijnstreek)",
+      "soort": "informatiepunt",
+      "omschrijving": "Artikelen, webinars, cursussen en een chatspreekuur over opvoeden en opgroeien, voor gezinnen in de regio.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://opgroeienin046.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Melding bij Team Jeugd doen",
+      "omschrijving": "Meldingsformulier Jeugd voor ouders en jongeren.",
+      "url": "https://www.gemeentebeek.nl/form/jeugd-meldingsformulier/inleiding-0-6-1",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.gemeentebeek.nl/klacht-indienen",
+      "nodig": "Beschrijf de klacht en onderteken de brief"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.gemeentebeek.nl/bezwaar-maken",
+      "nodig": "Het besluit bij de hand"
+    },
+    {
+      "naam": "Aanbieders en wachttijden bekijken (Beschikbaarheidswijzer Zuid-Limburg)",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg",
+      "nodig": "Openbaar, zonder inloggen."
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Beek: Jeugdhulp",
+        "url": "https://www.gemeentebeek.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beek: Wijkteam",
+        "url": "https://www.gemeentebeek.nl/wijkteam",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beek: Crisishulp Jeugd Zuid-Limburg",
+        "url": "https://www.gemeentebeek.nl/crisishulp-jeugd-zuid-limburg",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beek: Klacht indienen",
+        "url": "https://www.gemeentebeek.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beek: Bezwaar maken",
+        "url": "https://www.gemeentebeek.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening Jeugdhulp Gemeente Beek 2021 (geconsolideerd)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR649869/4",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Factsheet cliëntervaringsonderzoek Jeugdwet 2025 (ZorgfocuZ)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=b754f200-58ee-4e04-9d51-d0a988ff3c22",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief 1e en 2e kwartaalrapportage 2026 sociaal domein",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=bd4c10b9-258f-4b60-9c99-0301a6aa71d9",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Monitoringsrapportage strategische visie sociaal domein, 1e helft 2026",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=9fca892b-0b8e-4190-aacf-635536326647",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Beek",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=ee95dc54-eb4e-4475-9aec-b007ec935403",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmarekening 2025, programma 2 Zorg en inkomen",
+        "url": "https://beek.begrotingsapp.nl/programmarekening-2025/programma/programma-2--zorg-en-inkomen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027, programma 2 Zorg en inkomen",
+        "url": "https://beek.begrotingsapp.nl/programmabegroting-2027/programma/programma-2--zorg-en-inkomen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer: Zuid-Limburg",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg: Inkoop",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/inkoop-jeugdhulp-zuid-limburg",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Zuid-Limburg: Kind en gezin",
+        "url": "https://www.ggdzl.nl/onderwerpen/kind-en-gezin",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV PO Westelijke Mijnstreek: Ouder- en jeugdsteunpunt",
+        "url": "https://www.swvpowestelijkemijnstreek.nl/contentMenu/-3/Informatie-voor-Ouders",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV VO Westelijke Mijnstreek: Ouder- en jeugdsteunpunt",
+        "url": "https://swvvowestelijkemijnstreek.nl/ouder-amp-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Opgroeienin046.nl (CJG Westelijke Mijnstreek)",
+        "url": "https://opgroeienin046.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Doorlooptijden toegang niet gemeten gevonden; alleen toezeggingen op de gemeentesite. Aantallen jeugdigen uit het dashboard sociaal domein niet overgenomen (grafiek). Contactgegevens PO-steunpunt: alleen contactformulier gevonden; inspectie en rekenkamer over Beek niet gevonden, regionale journalistiek beperkt doorzocht."
+  },
+  "ervaringen": {
+    "samenvatting": "Ouders en jongeren gaven het aanvragen van hulp in 2025 een 7,1 en de hulp zelf een 7,8. Iets meer ouders voelen zich niet serieus genomen dan een jaar eerder, en jongeren komen makkelijker in contact met Team Jeugd. Hoe lang het in de praktijk duurt tot een besluit, is niet openbaar te vinden. De gemeente belooft binnen drie weken contact en binnen acht weken een besluit.\n\nUw aanspreekpunt is Team Jeugd. Vraag om een schriftelijk verslag van elk gesprek en leg het gezinsplan vast. Neem een meedenker (onafhankelijke cliëntondersteuner) mee naar het eerste gesprek. Hoort u na drie weken niets, vraag dan na bij Team Jeugd wanneer uw gesprek is.",
+    "signalen": [
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek Jeugd over 2025",
+        "samenvatting": "80 van de 488 uitgenodigde ouders en jongeren deden mee: aanvragen kreeg een 7,1 en de hulp een 7,8. Minder jongeren vinden het moeilijk om Team Jeugd te bereiken: 5 procent, tegen 16 procent in 2024. Het aandeel ouders dat zich helemaal niet serieus genomen voelt, steeg van 3 naar 9 procent.",
+        "datum": "2026-09-22",
+        "bron": {
+          "titel": "Raadsinformatiebrief kwartaalrapportage 2026 sociaal domein (met factsheet CEO Jeugdwet 2025)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=bd4c10b9-258f-4b60-9c99-0301a6aa71d9"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Proef met één loket in de Carmelwijk",
+        "samenvatting": "Sinds april 2026 is er vanuit de Muziekschool twee middagen per week een spreekuur voor vragen over zorg, wonen en geld. Tot eind juni kwamen bijna 100 inwoners, vooral met vragen over wonen en inkomen. Of dit loket blijft, is nog niet besloten.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Monitoringsrapportage strategische visie sociaal domein, 1e helft 2026",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=9fca892b-0b8e-4190-aacf-635536326647"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Zes op de tien inwoners weten waar ze hulp voor hun kind vinden",
+        "samenvatting": "63 procent van de inwoners weet waar ze terechtkunnen met een vraag over hun kind. Na contact met Team Jeugd heeft 54 procent meer overzicht over de situatie en de volgende stappen. 76 procent voelt zich betrokken bij het kiezen van die stappen.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Monitoringsrapportage strategische visie sociaal domein, 1e helft 2026 (dashboard, pagina 9)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=9fca892b-0b8e-4190-aacf-635536326647"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Team Jeugd houdt een vaste jeugdconsulent",
+        "samenvatting": "De raad besloot in 2024 dat Team Jeugd een vaste jeugdconsulent houdt. Die kijkt mee welke kinderen jeugdhulp krijgen en hoe die hulp verder verloopt. Volgens de gemeente heeft zij daardoor meer zicht op wie hulp krijgt.",
+        "datum": "2026-07-09",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Beek",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=ee95dc54-eb4e-4475-9aec-b007ec935403"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Aantal jeugdigen met hulp daalt licht",
+        "samenvatting": "In het eerste half jaar van 2026 kregen iets minder jeugdigen jeugdhulp dan gemiddeld in 2025. Het aantal met individuele behandeling bleef stabiel hoog. Er kwamen drie jongeren bij met verblijf buiten huis.",
+        "datum": "2026-09-22",
+        "bron": {
+          "titel": "Raadsinformatiebrief kwartaalrapportage 2026 sociaal domein",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=bd4c10b9-258f-4b60-9c99-0301a6aa71d9"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2025",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beek&id=b754f200-58ee-4e04-9d51-d0a988ff3c22",
+        "samenvatting": "Jaarlijks onderzoek van ZorgfocuZ onder ouders en jongeren: 80 reacties op 488 uitnodigingen (16 procent). Aanvragen kreeg een 7,1 en de hulp een 7,8."
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      },
+      "aandeelHuisarts": {
+        "percentage": 45,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

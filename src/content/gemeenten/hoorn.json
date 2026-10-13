@@ -1,0 +1,494 @@
+{
+  "naam": "Hoorn",
+  "cbsCode": "GM0405",
+  "provincie": "Noord-Holland",
+  "jeugdzorgregio": "West-Friesland",
+  "websiteJeugd": "https://www.hoorn.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Hoorn vraagt u jeugdhulp aan bij 1.Hoorn. Dat is het loket van de gemeente voor opvoeden, zorg, geldzaken en meedoen. Voor jeugdhulp werken drie gebiedsteams in de wijken. U meldt u zelf aan, via het formulier, telefonisch of op een inloopspreekuur. Ook huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Bij uw aanmelding krijgt u één vaste contactpersoon. Die maakt samen met u een perspectiefplan: wat is uw vraag, welke doelen zijn er en wat kunt u zelf doen. Voor specialistische hulp is dat plan de basis voor de verwijzing en het besluit van de gemeente.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "1.Hoorn (gebiedsteams)",
+        "omschrijving": "1.Hoorn is er voor inwoners van alle leeftijden. Eerst kijkt de medewerker wat u en uw omgeving zelf kunnen. Soms is een gesprek of advies genoeg, bijvoorbeeld van een opvoedadviseur. Is meer nodig, dan komt er meestal een huisbezoek en maakt u samen een perspectiefplan. Voor specialistische jeugdhulp neemt de gemeente een besluit (beschikking). U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "stappen": [
+          "Meld u aan via het aanmeldformulier op hoorn.nl, bel 1.Hoorn (ma-vr 9.00-17.00 uur) of loop binnen bij een inloopspreekuur.",
+          "Wacht op de bevestiging per e-mail. Een medewerker belt u voor een afspraak, bij u thuis of op een andere plek.",
+          "Bespreek met uw vaste contactpersoon wat er speelt, wat u zelf kunt en welke hulp past. Maak samen een perspectiefplan.",
+          "Vraag om het perspectiefplan en een schriftelijk verslag. Bij specialistische hulp krijgt u een beschikking: het besluit met welke hulp, hoeveel en hoe lang."
+        ],
+        "contact": {
+          "naam": "1.Hoorn",
+          "telefoon": "0229 252 200",
+          "email": "info@1punthoorn.nl",
+          "url": "https://www.hoorn.nl/contact1punthoorn",
+          "adres": "Stadhuis, Nieuwe Steen 1, 1625 HV Hoorn (melden bij de balie)",
+          "openingstijden": "Telefonisch ma-vr 9.00-17.00 uur. Inloopspreekuur jeugdhulp, Wmo en geld, zonder afspraak: dinsdag 15.00-17.00 uur, woensdag en donderdag 9.00-11.00 uur."
+        },
+        "doorlooptijd": "De gemeente besluit uiterlijk binnen acht weken op een aanvraag (artikel 4.1 Verordening jeugdhulp). Het eerste contact telt al als aanvraag. Rond de zomervakantie en het einde van het jaar kan het langer duren voor u een intakegesprek krijgt, volgens de rekenkamer tot één à twee maanden."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd (POH-jeugd) die u eerst kan helpen. Bij een verwijzing door de huisarts maakt de zorgaanbieder zelf het perspectiefplan en vraagt de beschikking aan.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. In de Beschikbaarheidswijzer ziet u welke aanbieders dat zijn.",
+          "Laat de aanbieder het perspectiefplan maken en de start van de hulp aan de gemeente doorgeven. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
+          "telefoon": "088 010 0550",
+          "url": "https://www.ggdhn.nl/contact/",
+          "openingstijden": "Telefonisch ma, di en do 8.00–16.30 uur, wo en vr 8.00–12.00 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Maakt u zich zorgen over leren, gedrag of schoolgang? Dan kan school meedenken en contact leggen met 1.Hoorn. U mag zich ook zelf aanmelden bij 1.Hoorn.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om contact met 1.Hoorn, of meld u zelf aan via het aanmeldformulier.",
+          "Vraag aan school en 1.Hoorn om samen één plan te maken, zodat u niet bij elk gesprek opnieuw begint.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "1.Hoorn",
+            "telefoon": "0229 252 200",
+            "email": "info@1punthoorn.nl",
+            "url": "https://www.hoorn.nl/contact1punthoorn",
+            "adres": "Stadhuis, Nieuwe Steen 1, 1625 HV Hoorn (melden bij de balie)",
+            "openingstijden": "Telefonisch ma-vr 9.00-17.00 uur. Inloopspreekuur jeugdhulp, Wmo en geld, zonder afspraak: dinsdag 15.00-17.00 uur, woensdag en donderdag 9.00-11.00 uur."
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Passend Onderwijs West-Friesland (basis- en voortgezet onderwijs)",
+            "telefoon": "0229 57 26 33",
+            "email": "ouderjeugdsteunpunt@passendonderwijswf.nl",
+            "url": "https://www.passendonderwijswf.nl/ouder-en-jeugdsteunpunt/",
+            "openingstijden": "Telefonisch ma t/m do 8.00–16.30 uur, vr 8.00–15.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Hoorn op de pagina Veilig thuis van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Hoorn: Veilig thuis",
+          "url": "https://www.hoorn.nl/veiligthuis"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "SMD (Westfriesland)",
+      "toelichting": "Gratis, kortdurend en onafhankelijk van de gemeente en 1.Hoorn. Een cliëntondersteuner gaat bijvoorbeeld mee naar een gesprek met 1.Hoorn, helpt bij een pgb-aanvraag of bij bezwaar en helpt u uw hulpvraag onder woorden te brengen. Na aanmelding neemt de SMD binnen 48 uur contact met u op. Neem bij voorkeur contact op vóór het eerste gesprek met 1.Hoorn.",
+      "telefoon": "0229 308 001",
+      "email": "westfriesland@desmd.nl",
+      "url": "https://www.desmd.nl/artikel/onafhankelijke-clientondersteuning-van-de-smd/"
+    },
+    "klacht": {
+      "naam": "Klacht over 1.Hoorn",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dien dan online of per e-mail een klacht in. Een brief sturen kan ook. Een leidinggevende van 1.Hoorn neemt contact met u op en zoekt samen met u een oplossing. Lukt dat niet, dan behandelt de onafhankelijke Klachtencommissie Sociaal Domein uw klacht. Meestal volgt een hoorzitting. Bij jeugdhulp geeft de commissie een oordeel, en daarna besluit het college wat er gebeurt. Een kind van 12 jaar of ouder mag zelf een klacht indienen. Gaat de klacht over een zorgaanbieder, dien hem dan bij de aanbieder zelf in.",
+      "url": "https://www.hoorn.nl/klacht1punthoorn",
+      "email": "klachtensociaaldomein@hoorn.nl",
+      "extern": {
+        "naam": "Klachtencommissie Sociaal Domein, daarna de Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een beschikking (het besluit van de gemeente) dient u in bij de gemeente Hoorn, bij voorkeur met DigiD of per post. Voeg een kopie van het besluit toe en leg uit waarom u het er niet mee eens bent. Meestal volgt een hoorzitting. Die wordt vaak gedaan door juristen van de gemeente zelf. Een cliëntondersteuner van de SMD kan u helpen.",
+      "url": "https://www.hoorn.nl/Bezwaar"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "U kunt een pgb krijgen als u uitlegt waarom hulp van een aanbieder van de gemeente (zorg in natura) niet past. U dient een perspectiefplan en een pgb-plan in. U moet het budget zelf kunnen beheren, of daarbij hulp hebben, en de gekozen hulp moet van goede kwaliteit zijn. Voor hulp van een organisatie is het pgb ten hoogste het laagste gecontracteerde tarief voor dezelfde hulp. Voor hulp van iemand uit uw netwerk is dat 60% van het tarief in natura. Voor pleegzorg, hoogspecialistische jeugdzorg, jeugdbescherming en dyslexiezorg is geen pgb mogelijk. Bemiddeling, administratie en hulp bij de aanvraag mag u niet uit het pgb betalen. Neem voor een pgb contact op met 1.Hoorn.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR744868/1"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u via 1.Hoorn zelf. Daar werken opvoedadviseurs die u adviseren en soms groepsaanbod of themaspreekuren geven, bijvoorbeeld over scheiden. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Hoorn koopt die hulp in met de andere Westfriese gemeenten. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. De wijzer is openbaar, zonder inloggen. Bij sommige aanbieders is de wachttijd opgelopen tot een jaar. In die tijd kan 1.Hoorn of de praktijkondersteuner jeugd bij de huisarts overbruggingshulp inzetten. Vraag ernaar.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/west-friesland",
+    "categorieen": [
+      {
+        "naam": "Opvoedondersteuning en lichte hulp",
+        "omschrijving": "Via de opvoedadviseurs van 1.Hoorn en de POH-jeugd bij de huisarts. Meestal geen besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "omschrijving": "Begeleiding thuis of op school, via een aanbieder met een contract. Daarvoor is een besluit van de gemeente of een verwijzing nodig.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-ggz",
+        "omschrijving": "Via 1.Hoorn of via een verwijzing van huisarts, jeugdarts of medisch specialist. Voor diagnostiek en behandeling kunnen wachttijden oplopen.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Pleegzorg is schaars. De regio werkt aan meer kleine woonvoorzieningen en aan hulp thuis in plaats van verblijf.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een crisis wordt direct zwaardere hulp ingeschakeld. Bel buiten kantoortijden de huisartsenpost.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Inloopspreekuur scheiden (1.Hoorn)",
+      "soort": "informatiepunt",
+      "omschrijving": "Vragen over uit elkaar gaan, een omgangsregeling, een ouderschapsplan of hoe u het de kinderen vertelt. Elke woensdag 9.00-11.00 uur in Wijkcentrum Grote Waal, Grote Beer 3. Zonder afspraak.",
+      "themas": [
+        "scheiding",
+        "gezin"
+      ],
+      "url": "https://www.hoorn.nl/inloopspreekuren"
+    },
+    {
+      "naam": "Stichting Netwerk Hoorn",
+      "soort": "vrijwilligers",
+      "omschrijving": "Organiseert activiteiten voor jong en oud, zodat inwoners elkaar ontmoeten. De gemeente verwijst hiernaar als eerste stap bij een zorg die u in uw eigen omgeving niet kunt oplossen.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.netwerkhoorn.nl"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Aanmelden bij 1.Hoorn",
+      "omschrijving": "Vraag jeugdhulp aan of verleng hulp. U krijgt een bevestiging per e-mail en een medewerker belt u voor een afspraak.",
+      "url": "https://webformulieren.hoorn.nl/aanmelden-bij-1hoorn"
+    },
+    {
+      "naam": "Vraag stellen aan 1.Hoorn",
+      "omschrijving": "Een vraag of zorg over een kind, zonder meteen hulp aan te vragen.",
+      "url": "https://webformulieren.hoorn.nl/1hoorn-vraag-stellen"
+    },
+    {
+      "naam": "Inloopspreekuren 1.Hoorn",
+      "omschrijving": "Jeugdhulp, Wmo en geld: zonder afspraak in het stadhuis, dinsdag 15.00-17.00 uur, woensdag en donderdag 9.00-11.00 uur.",
+      "url": "https://www.hoorn.nl/inloopspreekuren"
+    },
+    {
+      "naam": "Klacht over 1.Hoorn indienen",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen terugbelafspraak binnen 3 werkdagen, geen antwoord of slechte bejegening. Vaak sneller dan bezwaar.",
+      "url": "https://webformulieren.hoorn.nl/klacht-1punthoorn/startpagina"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Aanbieders met een contract in West-Friesland, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/west-friesland"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken nadat het besluit bekend is gemaakt. Schrijf erbij om welk besluit het gaat en waarom u het er niet mee eens bent.",
+      "url": "https://webformulieren.hoorn.nl/bezwaarschrift-indienen/startpagina",
+      "nodig": "De beschikking; DigiD of een ondertekend bezwaarschrift"
+    },
+    {
+      "naam": "Verordening jeugdhulp gemeente Hoorn 2025",
+      "omschrijving": "De volledige regels voor toegang, besluiten en pgb. Hierin staan uw rechten; de uitleg op de gemeentesite is niet bindend.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR744868/1"
+    },
+    {
+      "naam": "Cliëntondersteuner aanvragen bij de SMD",
+      "omschrijving": "Gratis. De SMD neemt binnen 48 uur contact met u op. Doe dit bij voorkeur vóór het eerste gesprek met 1.Hoorn.",
+      "url": "https://www.desmd.nl/aanmeldformulier-west-friesland/"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "omschrijving": "Gratis advies en ondersteuning bij klachten over jeugdhulp.",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In 2025 onderzochten de rekenkamers van zes Westfriese gemeenten de jeugdhulp, en het beeld voor Hoorn is positief. Gezinnen hebben een vaste regisseur bij 1.Hoorn en vinden dat waardevol, en de samenwerking met huisartsen is goed. Bij drukte kan een intakegesprek wel één à twee maanden duren, en bij sommige aanbieders loopt de wachttijd op tot een jaar. Hoe lang het gemiddeld duurt van aanmelding tot besluit, wordt niet bijgehouden.\n\nVraag bij aanmelding wie uw vaste contactpersoon is, en vraag om het perspectiefplan en een schriftelijk verslag. Neem een gratis cliëntondersteuner van de SMD mee. Wacht u lang op een aanbieder, vraag 1.Hoorn dan om overbruggingshulp en kijk in de Beschikbaarheidswijzer naar andere aanbieders. Hoort u niets terug, dien dan een klacht in bij 1.Hoorn.",
+    "signalen": [
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamers: toegang via 1.Hoorn laagdrempelig, maar wachttijden lopen op",
+        "samenvatting": "De rekenkamers noemen de toegang via 1.Hoorn laagdrempelig en de rol van de vaste regisseur sterk. Bij drukte, zoals voor de zomervakantie, kan een intake één à twee maanden duren. Bij sommige aanbieders loopt de wachtlijst op tot een jaar, onder meer voor autistische jongeren, complexe scheidingen en pleegzorg.",
+        "datum": "2026-02",
+        "bron": {
+          "titel": "Rekenkamers Hoorn, Medemblik-Opmeer en SED - Jeugdhulp in zes Westfriese gemeenten",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=dcd21519-132b-4d4c-940a-00db4515ba89"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Tijd tot een besluit wordt niet bijgehouden",
+        "samenvatting": "De tijd van aanmelding tot beschikking wordt niet structureel bijgehouden. Jeugd- en gezinswerkers schatten die op acht tot tien weken. Vraag daarom zelf bij het eerste gesprek hoe lang het duurt.",
+        "datum": "2026-02",
+        "bron": {
+          "titel": "Rekenkamers Hoorn, Medemblik-Opmeer en SED - Jeugdhulp in zes Westfriese gemeenten",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=dcd21519-132b-4d4c-940a-00db4515ba89"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Integrale Vroeghulp voor kinderen tot 7 jaar alleen via de gemeente",
+        "samenvatting": "Aanmelden voor Integrale Vroeghulp (kinderen van 0 tot 7 jaar met een ontwikkelingsachterstand) kan alleen via de gemeente, niet rechtstreeks via de huisarts of praktijkondersteuner. Soms besluit de gemeente dat het niet nodig is, ook als de huisarts het wel nodig vindt. Dan verwijst de huisarts soms liever naar andere jeugdhulp.",
+        "datum": "2026-02",
+        "bron": {
+          "titel": "Rekenkamers Hoorn, Medemblik-Opmeer en SED - Jeugdhulp in zes Westfriese gemeenten",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=dcd21519-132b-4d4c-940a-00db4515ba89"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Raad neemt aanbevelingen over wachttijden en registratie over",
+        "samenvatting": "De gemeenteraad nam alle aanbevelingen van de rekenkamers over. Daarbij horen: wachttijden bij drukte verkorten, de tijd tussen aanmelding, besluit en start van de hulp structureel bijhouden en wachtlijsten voor autistische jongeren en pleegzorg aanpakken. Ook onderzoekt de gemeente of huisartsen rechtstreeks naar Integrale Vroeghulp mogen verwijzen.",
+        "datum": "2026-02-10",
+        "bron": {
+          "titel": "Gemeente Hoorn - Raadsbesluit rapport rekenkamer Jeugdzorg in zes Westfriese gemeenten",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=f2c1153c-0e41-4ced-a94d-ba61fd4940bb"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Jeugdcliënten geven 1.Hoorn een 8,6 (meting 2022)",
+        "samenvatting": "De gemeente meet doorlopend, kort na het gesprek met 1.Hoorn, hoe cliënten de hulp ervaren. In 2022 gaven jeugdcliënten gemiddeld een 8,6. Het gaat om 26 van de 167 uitgenodigden (16%), en de gemeente zegt zelf dat de uitkomst wellicht niet representatief is.",
+        "datum": "2023-10-25",
+        "bron": {
+          "titel": "Gemeente Hoorn - Raadsbrief resultaten cliëntervaringsonderzoeken Wmo en Jeugd 2022",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=52c3c376-6886-4ea1-ab32-54b85c0022e4"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe regels jeugdhulp vanaf 1 juli 2025",
+        "samenvatting": "De raad stelde een nieuwe verordening jeugdhulp vast. Hulp wordt weer toegekend in uren, dagdelen of etmalen, zodat u weet op hoeveel hulp u kunt rekenen. Ook staat erin wat de gemeente van u en uw netwerk verwacht, zoals de zorg die ouders gewoonlijk zelf geven, voordat zij hulp met een besluit inzet.",
+        "datum": "2025-07-01",
+        "bron": {
+          "titel": "Gemeente Hoorn - Raadsvoorstel Verordeningen Jeugd en Maatschappelijke Ondersteuning 2025",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=fdc24f29-fc2b-4dd3-8f99-5ecc09b75652"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan: 1.Hoorn gaat zelf meer basishulp bieden",
+        "samenvatting": "In het plan van aanpak voor de Hervormingsagenda Jeugd wil de gemeente dat 1.Hoorn niet alleen de toegang regelt, maar ook zelf hulp biedt. Zo kan specialistische jeugdhulp vaker worden vervangen door hulp dichtbij. Voor ouders kan dat betekenen dat u vaker eerst hulp van 1.Hoorn zelf krijgt.",
+        "datum": "2026-04-10",
+        "bron": {
+          "titel": "Gemeente Hoorn - Plan van aanpak Hervormingsagenda Jeugd",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=889db459-bf9b-4181-b0ba-626846e41e28"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Gemeente werkt aan stevige lokale teams met één loket",
+        "samenvatting": "Voor 2027 kondigt de gemeente een plan aan voor stevige lokale teams, met één loket voor inwoners. Het gaat om plannen in een werkversie van de begroting. Wat dit voor u verandert, is nog niet bekend.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "Gemeente Hoorn - Begroting 2027 (werkversie)",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=8133c80a-96e0-4d03-9888-9d4394411f0d"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Aandeel jeugdhulp via de huisarts iets hoger dan landelijk",
+        "samenvatting": "Van de jeugdhulptrajecten die in 2025 in Hoorn begonnen, startte 45% via huisarts, jeugdarts of medisch specialist. Landelijk is dat 43%.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio (2025)",
+          "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-13",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=52c3c376-6886-4ea1-ab32-54b85c0022e4",
+        "samenvatting": "Het laatste cliëntervaringsonderzoek dat openbaar is, gaat over 2022. Dat is te oud om iets te zeggen over hoe het nu gaat. Kleine, doorlopende meting door een onderzoeksbureau onder cliënten van 1.Hoorn. Jeugdcliënten gaven gemiddeld een 8,6 (26 van 167 uitgenodigden, 16%). De gemeente zegt zelf dat de uitkomst wellicht niet representatief is."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=dcd21519-132b-4d4c-940a-00db4515ba89",
+        "samenvatting": "Gemeten doorlooptijden en wachttijden van 1.Hoorn zijn niet openbaar te vinden. De rekenkamers schrijven dat de tijd van aanmelding tot besluit niet structureel wordt bijgehouden. Werkers schatten acht tot tien weken. De wettelijke termijn voor een besluit is acht weken. Vraag bij het eerste gesprek hoe lang het duurt."
+      },
+      "aandeelHuisarts": {
+        "percentage": 45,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Hoorn - Jeugdhulp",
+        "url": "https://www.hoorn.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Aanmelden bij 1.Hoorn",
+        "url": "https://www.hoorn.nl/aanmeldenzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Dit is 1.Hoorn",
+        "url": "https://www.hoorn.nl/welkom-1punthoorn",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Contact met 1.Hoorn",
+        "url": "https://www.hoorn.nl/contact1punthoorn",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Langskomen bij 1.Hoorn (spreekuren)",
+        "url": "https://www.hoorn.nl/inloopspreekuren",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Bellen met 1.Hoorn",
+        "url": "https://www.hoorn.nl/bellen1punthoorn",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Zorgen om een ander",
+        "url": "https://www.hoorn.nl/zorgen-om-een-ander",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Zelf ondersteuning zoeken",
+        "url": "https://www.hoorn.nl/zelfondersteuningvinden",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Cliëntondersteuning",
+        "url": "https://www.hoorn.nl/clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SMD - Onafhankelijke cliëntondersteuning (Westfriesland)",
+        "url": "https://www.desmd.nl/artikel/onafhankelijke-clientondersteuning-van-de-smd/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Klacht over 1.Hoorn",
+        "url": "https://www.hoorn.nl/klacht1punthoorn",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Bezwaar maken",
+        "url": "https://www.hoorn.nl/Bezwaar",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Zorg betalen met een persoonsgebonden budget",
+        "url": "https://www.hoorn.nl/pgb",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Hoorn 2025 (CVDR744868)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR744868/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer - Jeugdhulp West-Friesland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/west-friesland",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rekenkamers - Jeugdhulp in zes Westfriese gemeenten",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=dcd21519-132b-4d4c-940a-00db4515ba89",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Raadsbesluit rapport rekenkamer Jeugdzorg in zes Westfriese gemeenten",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=f2c1153c-0e41-4ced-a94d-ba61fd4940bb",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Raadsbrief resultaten cliëntervaringsonderzoeken Wmo en Jeugd 2022",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=52c3c376-6886-4ea1-ab32-54b85c0022e4",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Raadsvoorstel Verordeningen Jeugd en Maatschappelijke Ondersteuning 2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=fdc24f29-fc2b-4dd3-8f99-5ecc09b75652",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Plan van aanpak Hervormingsagenda Jeugd",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=889db459-bf9b-4181-b0ba-626846e41e28",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Jaarstukken 2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=0a31c13a-f97e-423e-a9d8-8902d4822509",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn - Begroting 2027 (werkversie)",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hoorn&id=8133c80a-96e0-4d03-9888-9d4394411f0d",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Hoorn: Veilig thuis",
+        "url": "https://www.hoorn.nl/veiligthuis",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Hollands Noorden - Contact",
+        "url": "https://www.ggdhn.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Passend Onderwijs West-Friesland - Ouder- en jeugdsteunpunt",
+        "url": "https://www.passendonderwijswf.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Cliëntervaringsonderzoek nieuwer dan 2022 en gemeten doorlooptijden niet gevonden; jaarstukken 2025 bevatten geen wachttijden. IGJ-rapport over de gebiedsteams (2023) niet teruggevonden (link 404). Regionale journalistiek niet doorzocht; Begroting 2027 is nog een werkversie."
+  }
+}

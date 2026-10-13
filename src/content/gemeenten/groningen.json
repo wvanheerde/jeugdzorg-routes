@@ -2,92 +2,546 @@
   "naam": "Groningen",
   "cbsCode": "GM0014",
   "provincie": "Groningen",
-  "jeugdzorgregio": "Groningen (RIGG)",
-  "websiteJeugd": "https://gemeente.groningen.nl/jeugdhulp",
+  "jeugdzorgregio": "Groningen",
+  "websiteJeugd": "https://gemeente.groningen.nl/jeugdhulp-bij-wij-groningen",
   "toegang": {
-    "samenvatting": "In Groningen vormen de WIJ-teams de toegang tot jeugdhulp. De regionale inkoop loopt via de RIGG (Regionale Inkooporganisatie Groninger Gemeenten).",
+    "samenvatting": "In Groningen zijn de dertien WIJ-teams van Stichting WIJ Groningen de toegang tot jeugdhulp. Sinds 2023 voert WIJ ook zelf de Basis jeugdhulp uit: begeleiding en lichte behandeling zonder aanvraag, verwijzing of beschikking. Is meer nodig, dan doet het WIJ-team onderzoek en maakt een plan; de gemeente neemt daarop een besluit (beschikking) voor specialistische hulp, die regionaal wordt ingekocht door de RIGG (Regionale Inkooporganisatie Groninger Gemeenten). Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in Groningen start bijna de helft van de trajecten via die route.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "WIJ Groningen",
-        "omschrijving": "WIJ-teams zijn er in elke wijk voor vragen over opvoeden, opgroeien, geld, wonen en gezondheid.",
+        "naam": "WIJ-team (WIJ Groningen)",
+        "omschrijving": "Gemeentelijk toegangsteam per wijk voor vragen over opvoeden, opgroeien, geld, wonen en gezondheid. Het team Basis jeugdhulp van WIJ biedt zelf begeleiding en lichte behandeling, zonder indicatie. Is specialistische hulp nodig, dan onderzoekt het WIJ-team wat passend is en stuurt het plan naar de gemeente, die een beschikking afgeeft. De verordening geeft de gemeente daarvoor acht weken vanaf het eerste contact.",
         "stappen": [
-          "Loop binnen bij het WIJ-team in uw wijk of bel.",
-          "Een medewerker bespreekt uw vraag en maakt samen met u een plan.",
-          "Bij specialistische hulp verzorgt WIJ de toeleiding naar een gecontracteerde aanbieder."
+          "Zoek het WIJ-team van uw wijk op wij.groningen.nl (op wijk of postcode); u kunt zonder afspraak binnenlopen, bellen of mailen (werkdagen 9.00–17.00 uur).",
+          "Een WIJ-medewerker voert een kennismakingsgesprek; bij Basis jeugdhulp streeft WIJ naar contact binnen vijf werkdagen. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner van MEE Noord.",
+          "Samen maakt u een plan. Past uw vraag bij Basis jeugdhulp, dan start WIJ zelf de hulp, zonder beschikking.",
+          "Is meer nodig, vraag dan uitdrukkelijk om het uitgebreide onderzoek en om een beschikking van de gemeente; alleen tegen een beschikking kunt u bezwaar maken."
         ],
         "contact": {
           "naam": "WIJ Groningen",
-          "telefoon": "050 367 4200",
-          "url": "https://wij.groningen.nl/"
-        }
+          "omschrijving": "Dertien WIJ-teams met elk een eigen telefoonnummer en e-mailadres; er is geen centraal nummer.",
+          "url": "https://wij.groningen.nl/contact/",
+          "openingstijden": "Werkdagen 9.00–17.00 uur telefonisch; inloop zonder afspraak, tijden per WIJ-team op wij.groningen.nl/wij-teams"
+        },
+        "doorlooptijd": "Basis jeugdhulp: streven is contact binnen 5 werkdagen. Besluit op een aanvraag voor een individuele voorziening: uiterlijk 8 weken na het eerste contact (Verordening jeugdhulp 2026)."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Rechtstreekse verwijzing naar gecontracteerde jeugdhulp is mogelijk. Veel huisartsen werken met een praktijkondersteuner jeugd (POH-jeugd).",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar jeugdhulp die de RIGG voor de Groninger gemeenten heeft gecontracteerd; de gemeente zorgt voor inzet en betaling. Bij veel Groningse huisartsen werkt een Ondersteuner Jeugd en Gezin (OJG) van WIJ Groningen, die zelf lichte hulp biedt of doorverwijst.",
         "stappen": [
-          "Bespreek de zorgen met de huisarts.",
-          "De POH-jeugd kan kortdurende hulp bieden of verwijzen.",
-          "Bij verwijzing neemt de aanbieder contact met u op."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Groningen.",
+          "De Ondersteuner Jeugd en Gezin in de praktijk kan zelf kortdurende hulp bieden of met u kijken welke hulp past.",
+          "Bij verwijzing naar een gecontracteerde aanbieder meldt die de start bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdgezondheidszorg GGD Groningen",
+            "telefoon": "088 254 1200",
+            "url": "https://www.ggdgroningen.nl/kind-en-opvoeding/contact/",
+            "openingstijden": "Telefonisch advies over gezondheid, groei en opvoeding. Afspraak consultatiebureau maken of wijzigen: 088 254 1100"
+          },
+          {
+            "naam": "WIJ Groningen",
+            "omschrijving": "Dertien WIJ-teams met elk een eigen telefoonnummer en e-mailadres; er is geen centraal nummer.",
+            "url": "https://wij.groningen.nl/contact/",
+            "openingstijden": "Werkdagen 9.00–17.00 uur telefonisch; inloop zonder afspraak, tijden per WIJ-team op wij.groningen.nl/wij-teams"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "WIJ-medewerkers zijn aanwezig op alle basisscholen, scholen voor speciaal onderwijs, middelbare scholen en mbo's in de gemeente. Op de middelbare scholen werken zij in AOJ-teams (Aansluiting Onderwijs-Jeugdhulp) samen met de ondersteuningscoördinator, de leerplichtambtenaar, de jeugdarts van de GGD en het samenwerkingsverband passend onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor, intern begeleider of ondersteuningscoördinator; de school vraagt uw toestemming voordat zij externen inschakelt.",
+          "School kan u doorverwijzen naar de WIJ-medewerker op school of het AOJ-team; het gesprek kan op school, bij een WIJ-locatie of bij u thuis.",
+          "Extra onderwijsondersteuning loopt via het samenwerkingsverband: PO 20.01 voor het basisonderwijs (met een Leerling- en Oudersteunpunt en telefonisch spreekuur op woensdagochtend) en SWV VO Groningen Stad voor het voortgezet onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "WIJ Groningen – Zorgen op school",
+            "url": "https://wij.groningen.nl/hulp-bij-thema/gezin-opvoeden/zorgen-op-school/"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg GGD Groningen",
+            "telefoon": "088 254 1200",
+            "url": "https://www.ggdgroningen.nl/kind-en-opvoeding/contact/",
+            "openingstijden": "Telefonisch advies over gezondheid, groei en opvoeding. Afspraak consultatiebureau maken of wijzigen: 088 254 1100"
+          },
+          {
+            "naam": "Samenwerkingsverband PO 20.01 (Leerling- en Oudersteunpunt)",
+            "url": "https://www.passendonderwijsgroningen.nl/"
+          },
+          {
+            "naam": "Samenwerkingsverband VO Groningen Stad (Leerling- en Oudersteunpunt)",
+            "email": "steunpunt@swv-vo2001.nl",
+            "url": "https://www.swv-vo2001.nl/steunpunt-leerling-ouder/"
+          }
         ]
       },
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij acute onveiligheid of crisis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
         "stappen": [
-          "Bij direct gevaar: bel 112.",
-          "Veilig Thuis Groningen: 0800-2000.",
-          "Crisis: via huisarts(enpost) wordt Spoed4Jeugd ingeschakeld."
-        ]
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Groningen op de pagina Overlast en zorg melden van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Groningen: Overlast en zorg melden",
+          "url": "https://gemeente.groningen.nl/overlast-en-zorg-melden"
+        }
       }
     ]
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Noord",
-      "toelichting": "Gratis onafhankelijke cliëntondersteuning voor inwoners van Groningen.",
-      "url": "https://www.meenoord.nl/",
-      "telefoon": "088 023 1000"
+      "toelichting": "Sinds 1 januari 2022 verzorgt MEE Noord de gratis, onafhankelijke cliëntondersteuning in de gemeente Groningen. Een cliëntondersteuner helpt uw vragen en wensen op een rij te zetten en kan meegaan naar gesprekken met het WIJ-team. De gemeente moet u bij het onderzoek op deze mogelijkheid wijzen (Verordening jeugdhulp 2026, artikel 7).",
+      "telefoon": "088 023 1100",
+      "email": "aanmeldpunt@meenoord.nl",
+      "url": "https://wij.groningen.nl/clientondersteuning/"
+    },
+    "klacht": {
+      "naam": "Klacht bij WIJ Groningen",
+      "toelichting": "Bespreek het eerst met uw contactpersoon of het WIJ-team. Komt u er niet uit, dien dan een klacht in bij de klachtenfunctionaris van WIJ Groningen: via het klachtenformulier, per e-mail of per post (Klachtenfunctionaris WIJ Groningen, Postbus 263, 9704 CP Groningen). U krijgt in principe binnen 6 weken een reactie. Gaat de klacht over de Basis jeugdhulp, dan kunt u ook rechtstreeks naar de onafhankelijke Klachtencommissie Jeugd van Quasir (kcquasir@quasir.nl). Niet tevreden over de afhandeling, dan kunt u naar de Ombudsman Groningen. Zorgbelang Groningen (050 571 3999) en Jeugdstem helpen gratis bij het indienen.",
+      "url": "https://wij.groningen.nl/klachten/",
+      "email": "klachten@wij.groningen.nl",
+      "extern": {
+        "naam": "Ombudsman Groningen (ook jeugdombudsman), 050 318 6568",
+        "url": "https://www.ombudsmangroningen.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Alleen tegen een beschikking van de gemeente, binnen 6 weken na de datum van het besluit. Dien het bezwaar online in met DigiD via het formulier voor Participatiewet, Wmo of Jeugdwet op de bezwaarpagina. Een medewerker van Juridische Zaken belt u meestal eerst; daarna volgt een hoorgesprek met de gemeente of een hoorzitting van de Adviescommissie bezwaarschriften. De gemeente beslist binnen 6 weken, of 12 weken als de adviescommissie wordt ingeschakeld, met maximaal 6 weken verlenging. Krijgt u bij Basis jeugdhulp geen beschikking, vraag die dan schriftelijk aan; zonder besluit is bezwaar niet mogelijk.",
+      "url": "https://gemeente.groningen.nl/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Aanvraag via het WIJ-team; u moet een budgetplan opstellen."
-    },
-    "bezwaarEnKlacht": {
-      "toelichting": "Bezwaar tegen een beschikking binnen 6 weken bij de gemeente. Klachten over WIJ via de klachtenregeling van WIJ Groningen."
+      "toelichting": "Wilt u jeugdhulp zelf inkopen met een pgb, dan dient u een budgetplan in. Daarin staat in elk geval waarom het aanbod in natura niet passend is, wie de hulp gaat uitvoeren, hoe de kwaliteit is geborgd en een kostenberekening (Verordening jeugdhulp 2026, artikel 9). Een ondertekend budgetplan geldt als aanvraag. De gemeente hanteert vaste pgb-tarieven voor formele en informele hulp; kosten voor bemiddeling of pgb-administratie worden niet vergoed.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR752928/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor jongeren en ouders in de jeugdhulp. In Groningen werken de vertrouwenspersonen jeugdhulp van VP Noord, ondergebracht bij Zorgbelang Groningen (050 571 3999), gratis voor ouders en kinderen.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Regionaal ingekocht via de RIGG; een overzicht van gecontracteerde aanbieders staat op de RIGG-website.",
-    "gecontracteerdeAanbiedersUrl": "https://www.rigg.nl/",
+    "samenvatting": "Basis jeugdhulp (begeleiding, lichte behandeling, trainingen, huiskamers voor ouders) via de WIJ-teams, zonder beschikking. Specialistische jeugdhulp wordt voor de tien Groninger gemeenten ingekocht door de RIGG via Open House; de RIGG publiceert een verwijsgids en een database van gecontracteerde aanbieders, openbaar maar in vaktaal. De jeugdzorgregio Groningen is niet aangesloten op de Beschikbaarheidswijzer; wachttijden per aanbieder zijn niet centraal gepubliceerd.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rigg.nl/verwijzers/",
     "categorieen": [
-      { "naam": "Ambulante jeugdhulp" },
-      { "naam": "Jeugd-GGZ" },
-      { "naam": "Verblijf en pleegzorg" },
-      { "naam": "Dyslexiezorg" }
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Basis jeugdhulp van het WIJ-team: advies, begeleiding, trainingen voor ouders en kinderen, zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "omschrijving": "Lichte vormen via WIJ (Basis jeugdhulp); intensief ambulant via een gecontracteerde aanbieder met beschikking.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via verwijzing van huisarts, jeugdarts, medisch specialist of het WIJ-team.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Verblijf en pleegzorg",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Via Spoed voor Jeugd Groningen, samenwerking van de kernaanbieders in de regio.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Dyslexiezorg",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      }
     ]
   },
   "lokaleInitiatieven": [
     {
       "naam": "Humanitas Groningen – Home-Start",
       "soort": "vrijwilligers",
-      "omschrijving": "Ervaren vrijwilligers ondersteunen gezinnen met jonge kinderen bij opvoeding en dagelijkse zorgen.",
-      "url": "https://www.humanitas.nl/afdeling/groningen-stad/"
+      "omschrijving": "Ervaren vrijwilligers komen wekelijks bij gezinnen thuis voor steun bij opvoeden, praktische hulp en een luisterend oor. Gratis, minimaal drie maanden; er is een variant voor gezinnen met kinderen tot 6 jaar en één vanaf 7 jaar.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.humanitas.nl/groningen/homestart/",
+      "contact": {
+        "naam": "Humanitas afdeling Groningen",
+        "telefoon": "050 312 6000",
+        "email": "mip.groningen@humanitas.nl"
+      }
+    },
+    {
+      "naam": "Autisme Info Centrum (AIC) Groningen",
+      "soort": "informatiepunt",
+      "omschrijving": "Informatiepunt van ervaringsdeskundige vrijwilligers voor ouders van kinderen met autisme en voor mensen met autisme zelf. Maandelijkse afspraakmorgen (eerste maandag van de maand, 9.30–11.30 uur) in Buurtcentrum TuinPad, een Auticafé en thema-avonden.",
+      "themas": [
+        "autisme",
+        "onderwijs"
+      ],
+      "url": "https://aicgroningen.nl/",
+      "contact": {
+        "naam": "AIC Groningen",
+        "email": "aic_groningen@live.nl",
+        "adres": "Buurtcentrum TuinPad, Bessemoerstraat 4, Groningen"
+      }
+    },
+    {
+      "naam": "Huiskamers en Ouder & Kind Café van WIJ",
+      "soort": "oudergroep",
+      "omschrijving": "In de huiskamers van de WIJ-teams ontmoeten ouders elkaar en kunnen zij zonder afspraak vragen stellen aan een WIJ-medewerker. Voorbeelden: het Ouder & Kind Café in WIJ Selwerd en de ouderbegeleiding 'Druk en dwars'. Actuele tijden in de agenda van WIJ.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://wij.groningen.nl/agenda/"
     }
   ],
-  "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "voorbeeld",
-    "bronnen": [
-      { "titel": "Gemeente Groningen – Jeugdhulp", "url": "https://gemeente.groningen.nl/jeugdhulp", "geraadpleegd": "2026-10-10" }
+  "directRegelen": [
+    {
+      "naam": "WIJ-team in uw wijk zoeken",
+      "omschrijving": "Kies uw wijk of vul uw postcode in; u ziet dan het adres, telefoonnummer, e-mailadres en de inlooptijden van uw WIJ-team.",
+      "url": "https://wij.groningen.nl/wij-teams/",
+      "nodig": "Postcode en huisnummer"
+    },
+    {
+      "naam": "Klacht indienen bij WIJ Groningen",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Reactie in principe binnen 6 weken. Vaak sneller dan bezwaar.",
+      "url": "https://wij.groningen.nl/klachten/",
+      "nodig": "Naam, adres, e-mailadres, telefoonnummer en uw voorstel voor een oplossing"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente Groningen",
+      "omschrijving": "Over de gemeente zelf, bijvoorbeeld als een beschikking uitblijft. Afhandeling binnen 6 weken; daarna kunt u naar de Ombudsman Groningen.",
+      "url": "https://gemeente.groningen.nl/klacht-over-de-gemeente"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking, online via het formulier voor Participatiewet, Wmo of Jeugdwet. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://gemeente.groningen.nl/bezwaar-maken",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Onafhankelijke cliëntondersteuning aanvragen (MEE Noord)",
+      "omschrijving": "Gratis hulp bij het ordenen van uw vraag en bij gesprekken met WIJ; aanmelden kan telefonisch of per e-mail.",
+      "url": "https://www.meenoord.nl/ik-heb-een-hulpvraag-over/clientondersteuning"
+    },
+    {
+      "naam": "Gecontracteerde jeugdhulpaanbieders zoeken (RIGG)",
+      "omschrijving": "Database en verwijsgids van de regionale inkooporganisatie, bedoeld voor verwijzers maar openbaar.",
+      "url": "https://www.rigg.nl/verwijzers/"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In Groningen loopt de toegang tot jeugdhulp via WIJ Groningen, dat sinds 2023 ook zelf de Basis jeugdhulp uitvoert. Gezinnen zijn daar in de impactmeting van 2024 overwegend tevreden over (84 procent), maar de gemeentelijke ombudsman, onderzoeksjournalisten en de gemeenteraad wijzen sinds 2024 op dezelfde knelpunten: wachttijden aan de voorkant, gebrekkige communicatie en het ontbreken van een schriftelijk besluit, waardoor bezwaar maken lastig is. In oktober 2025 erkende het college achterstanden bij de toegang; in mei 2026 concludeerde de Rekenkamer dat de raad te weinig grip heeft op WIJ en in oktober 2026 oordeelde de ombudsman dat het toegangsproces niet behoorlijk is ingericht. Jeugdbescherming Noord stond van juli 2025 tot juni 2026 onder verscherpt toezicht van de inspecties.\n\nBijna de helft van de trajecten start hier via huisarts, jeugdarts of medisch specialist; die route is dus een reëel alternatief naast WIJ. Leg afspraken met WIJ schriftelijk vast (van gesprekken wordt volgens de ombudsman meestal geen verslag gemaakt) en vraag bij een wens voor specialistische hulp uitdrukkelijk om het onderzoek en een beschikking van de gemeente, zodat u bezwaar kunt maken. Neem een cliëntondersteuner van MEE Noord of een vertrouwenspersoon mee naar het gesprek. Blijft een reactie of besluit uit, dien dan een klacht in bij WIJ of de Ombudsman Groningen; bij spoed hoeft u volgens de gemeente nooit te wachten.",
+    "signalen": [
+      {
+        "soort": "ombudsman",
+        "titel": "Ombudsman: toegang tot jeugdhulp niet behoorlijk ingericht, gemeente 'verantwoordelijk, maar op afstand'",
+        "samenvatting": "In het rapport 'Verantwoordelijk, maar op afstand' concludeert de (jeugd)ombudsman van Groningen dat het proces van de toegang tot jeugdhulp niet behoorlijk is ingericht volgens een aantal normen uit de behoorlijkheidswijzer, en dat de gemeente bij haar besluitvorming onvoldoende in staat is het perspectief en de ervaringen van ouders en kind mee te wegen. Het college herkent de conclusie en aanbevelingen en zegt toe die mee te nemen in de verbeterslag die al is ingezet; de ombudsman volgt die toezegging.",
+        "datum": "2026-10-08",
+        "bron": {
+          "titel": "Ombudsman Groningen – Onderzoek naar toegang jeugdhulp gepubliceerd",
+          "url": "https://www.ombudsmangroningen.nl/nieuws/onderzoek-naar-toegang-jeugdhulp-gepubliceerd/"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Jeugdbescherming Noord: verscherpt toezicht van juli 2025 beëindigd in juni 2026",
+        "samenvatting": "De Inspectie Gezondheidszorg en Jeugd en de Inspectie Justitie en Veiligheid stelden Jeugdbescherming Noord (Groningen en Drenthe) op 24 juli 2025 onder verscherpt toezicht omdat de kwaliteit van jeugdbescherming en jeugdreclassering grotendeels niet aan de eisen voldeed en kinderen niet tijdig passende bescherming en hulp kregen; de tekortkomingen moesten binnen zeven maanden zijn weggenomen. Op 2 juni 2026 is het verscherpt toezicht beëindigd: op alle getoetste normen is sterk verbeterd, al zijn niet alle tekortkomingen volledig opgelost. De inspecties ontvangen elke twee maanden een voortgangsrapportage en blijven de uitvoering van het verbeterplan intensief volgen.",
+        "datum": "2026-06-02",
+        "bron": {
+          "titel": "Inspectie Gezondheidszorg en Jeugd – Einde verscherpt toezicht voor Jeugdbescherming Noord",
+          "url": "https://www.igj.nl/actueel/nieuws/2026/06/02/einde-verscherpt-toezicht-voor-jeugdbescherming-noord-in-groningen"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamer: gemeenteraad heeft te weinig grip op WIJ Groningen",
+        "samenvatting": "De Rekenkamer Groningen concludeert dat WIJ Groningen door een wildgroei aan deelopdrachten, schuivende taken en een onnavolgbaar digitaal archief voor de gemeenteraad een oncontroleerbare 'black box' is geworden; de democratische controle functioneert volgens de Rekenkamer niet naar behoren. Het college deelde de conclusie dat grip gaat over overzicht en vindbaarheid en kondigde op 2 juni 2026 aan in het vierde kwartaal van 2026 samen met de raad de informatievoorziening over WIJ te herijken.",
+        "datum": "2026-05-16",
+        "bron": {
+          "titel": "OOG – Rekenkamer: WIJ Groningen veranderd in oncontroleerbare 'black box' voor gemeenteraad",
+          "url": "https://www.oogtv.nl/2026/05/rekenkamer-wij-groningen-veranderd-in-oncontroleerbare-black-box-voor-gemeenteraad/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "College erkent wachtlijsten bij de toegang tot jeugdhulp bij WIJ",
+        "samenvatting": "In oktober 2025 meldde het college de raad dat bij WIJ Groningen meer hulpvragen binnenkomen dan het kan oppakken, waardoor mensen wachten op hun aanvraag; na de zomer kwamen meer aanvragen binnen dan verwacht. Wethouder Molema wees op druk in de hele keten en complexere vragen; er is extra personeel ingezet, crises en urgente vragen krijgen direct aandacht en wachtenden worden op de hoogte gehouden. Vrijwel de hele oppositie stelde hierover vragen; een voortgangsrapportage met acties werd toegezegd.",
+        "datum": "2025-10-18",
+        "bron": {
+          "titel": "OOG – Wethouder werkt aan oplossing wachtlijsten jeugdhulp WIJ",
+          "url": "https://www.oogtv.nl/2025/10/wethouder-werkt-aan-oplossing-wachtlijsten-jeugdhulp-wij-we-leven-niet-in-een-ideale-wereld/"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Onderzoek: vaak geen besluitbrief bij jeugdhulp, rechtsbescherming hapert",
+        "samenvatting": "Onderzoeksplatform Investico beschrijft dat inwoners van Groningen bij Basis jeugdhulp meestal geen beschikking krijgen, omdat de gemeente deze hulp als algemene voorziening ziet; daardoor is bezwaar of beroep niet mogelijk. Bij specialistische hulp krijgen inwoners wel een beschikking. Bestuursrechtdeskundigen noemen de werkwijze strijdig met de Algemene wet bestuursrecht; het ministerie van VWS bevestigt dat besluiten over zorg op papier moeten worden vastgelegd.",
+        "datum": "2025-09-24",
+        "bron": {
+          "titel": "OOG – Inwoners van Groningen vaak zonder besluitbrief bij jeugdhulp",
+          "url": "https://www.oogtv.nl/2025/09/inwoners-van-groningen-vaak-zonder-besluitbrief-bij-jeugdhulp-rechtsbescherming-hapert/"
+        }
+      },
+      {
+        "soort": "ombudsman",
+        "titel": "Jaarverslag 2024: ombudsman bezorgd over toegang tot jeugdhulp en communicatie van WIJ",
+        "samenvatting": "In haar jaarverslag over 2024 signaleert ombudsman Anja Janssen dat het regelmatig stil blijft als WIJ afspraken niet nakomt of termijnen niet haalt, dat van gesprekken in de regel geen verslag wordt gemaakt en dat ouders bij Basis jeugdhulp geen schriftelijk besluit krijgen, waardoor bezwaar niet mogelijk is; sommige ouders ervaren dat WIJ sterk stuurt op het accepteren van Basis jeugdhulp. De ombudsman ontving in 2024 291 verzoeken, waarvan 25 over WIJ Groningen.",
+        "datum": "2025-04-02",
+        "bron": {
+          "titel": "RTV Noord – Ombudsman hekelt gebrekkige communicatie WIJ Groningen",
+          "url": "https://www.rtvnoord.nl/politiek/1287267/ombudsman-hekelt-gebrekkige-communicatie-wij-groningen-leidt-tot-stilstand"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Impactmeting 2024: 84 procent van de gezinnen tevreden over Basis jeugdhulp",
+        "samenvatting": "Uit een narratieve impactmeting (september 2024) onder gezinnen die Basis jeugdhulp van WIJ kregen, blijkt dat 84 procent tevreden is, 81 procent een verbeterd welzijn van het kind ervaart en 75 procent een harmonieuzer gezinsleven. Sinds 1 januari 2023 ondersteunde WIJ zo'n 1.500 gezinnen; volgens WIJ is er geen wachtlijst bij de Basis jeugdhulp en vinden de eerste gesprekken normaal binnen een week plaats. Aandachtspunten zijn het betrekken van het sociale netwerk en de samenwerking met andere jeugdhulporganisaties.",
+        "datum": "2024-11-06",
+        "bron": {
+          "titel": "WIJ Groningen – 84% van Groningse gezinnen tevreden over nieuwe basis jeugdhulp",
+          "url": "https://wij.groningen.nl/84-van-groningse-gezinnen-tevreden-over-nieuwe-basis-jeugdhulp/"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Juridisch adviseurs: rechten van ouders geschonden doordat WIJ geen beschikkingen afgeeft",
+        "samenvatting": "RTV Noord beschrijft dat ouders die specialistische jeugdhulp willen, door de gemeente naar WIJ worden verwezen en daar geen beschikking krijgen, zodat bezwaar niet mogelijk is; juridisch adviseurs noemen dit een omzeiling van de Jeugdwet en wijzen erop dat WIJ geen formeel mandaat heeft om namens het college te besluiten. De directeur van WIJ stelde dat 'een aanvraag doen voor jeugdhulp niet bestaat'. In mei 2024 erkende WIJ dat de druk aan de voorkant, bij de wijkteams, zit en huurde het extra personeel in.",
+        "datum": "2024-04-06",
+        "bron": {
+          "titel": "RTV Noord – 'Rechten van kinderen en ouders geschonden' bij aanvragen jeugdhulp",
+          "url": "https://www.rtvnoord.nl/zorg/1144750/rechten-van-kinderen-en-ouders-geschonden-bij-aanvragen-jeugdhulp-er-worden-woordspelletjes-gespeeld"
+        }
+      }
     ],
-    "opmerkingen": "Voorbeelddata; contactgegevens nog te verifiëren."
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Geen jaarlijks cliëntervaringsonderzoek Jeugd gevonden op gemeente.groningen.nl, bij onderzoeksbureau OIS Groningen (dat wel jaarlijks het ervaringsonderzoek Wmo publiceert) of in het raadsinformatiesysteem 2024-2026. Het dichtstbijzijnde is de eenmalige narratieve impactmeting Basis jeugdhulp van september 2024 (84 procent tevreden), gepubliceerd op de gemeentepagina over jeugdhulp.",
+        "url": "https://gemeente.groningen.nl/jeugdhulp-bij-wij-groningen"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Geen gepubliceerde doorlooptijden of wachttijden van de toegang gevonden. WIJ noemt alleen het streven om bij Basis jeugdhulp binnen vijf werkdagen contact op te nemen; de Verordening jeugdhulp 2026 stelt acht weken vanaf het eerste contact als beslistermijn. In oktober 2025 meldde het college achterstanden bij WIJ zonder cijfers.",
+        "url": "https://wij.groningen.nl/hulp-bij-thema/gezin-opvoeden/opvoeden-opgroeien/"
+      },
+      "aandeelHuisarts": {
+        "percentage": 47,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Groningen – Jeugdhulp bij WIJ Groningen",
+        "url": "https://gemeente.groningen.nl/jeugdhulp-bij-wij-groningen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Groningen – Bezwaar maken",
+        "url": "https://gemeente.groningen.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Groningen – Klacht over de gemeente",
+        "url": "https://gemeente.groningen.nl/klacht-over-de-gemeente",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – Contact",
+        "url": "https://wij.groningen.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – WIJ-teams",
+        "url": "https://wij.groningen.nl/wij-teams/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – Niet tevreden? Laat het ons weten (klachten)",
+        "url": "https://wij.groningen.nl/klachten/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – Cliëntondersteuning",
+        "url": "https://wij.groningen.nl/clientondersteuning/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – Opvoeden & opgroeien (Basis jeugdhulp)",
+        "url": "https://wij.groningen.nl/hulp-bij-thema/gezin-opvoeden/opvoeden-opgroeien/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – Zorgen op school",
+        "url": "https://wij.groningen.nl/hulp-bij-thema/gezin-opvoeden/zorgen-op-school/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – Noodnummers",
+        "url": "https://wij.groningen.nl/noodnummers2/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJ Groningen – 84% van Groningse gezinnen tevreden over nieuwe basis jeugdhulp",
+        "url": "https://wij.groningen.nl/84-van-groningse-gezinnen-tevreden-over-nieuwe-basis-jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Groningen 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR752928/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Noord – Cliëntondersteuning",
+        "url": "https://www.meenoord.nl/ik-heb-een-hulpvraag-over/clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Zorgbelang Groningen – Vertrouwenspersoon Jeugdhulp (VP Noord)",
+        "url": "https://www.zorgbelang-groningen.nl/vertrouwenspersoon-jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ombudsman Groningen – Contact",
+        "url": "https://www.ombudsmangroningen.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ombudsman Groningen – Onderzoek naar toegang jeugdhulp gepubliceerd",
+        "url": "https://www.ombudsmangroningen.nl/nieuws/onderzoek-naar-toegang-jeugdhulp-gepubliceerd/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Spoed voor Jeugd Groningen",
+        "url": "https://spoedvoorjeugdgroningen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Groningen – Contact",
+        "url": "https://www.veiligthuisgroningen.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RIGG – Voor verwijzers",
+        "url": "https://www.rigg.nl/verwijzers/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RIGG – Jeugdzorg in Groningen: wat is het en hoe werkt het stelsel?",
+        "url": "https://www.rigg.nl/jeugdzorg-groningen/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samenwerkingsverbanden Passend Onderwijs Groningen – Info voor ouder & leerling",
+        "url": "https://www.swv-vo2001.nl/info-voor-ouder-leerling/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samenwerkingsverband PO 20.01 – Voor ouders",
+        "url": "https://po2001.nl/voor-ouders/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Humanitas Groningen – Home-Start",
+        "url": "https://www.humanitas.nl/groningen/homestart/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Autisme Info Centrum Groningen",
+        "url": "https://aicgroningen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "IGJ – Verscherpt toezicht voor Jeugdbescherming Noord (24 juli 2025)",
+        "url": "https://www.igj.nl/actueel/nieuws/2025/07/24/verscherpt-toezicht-voor-jeugdbescherming-noord-in-groningen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "IGJ – Einde verscherpt toezicht voor Jeugdbescherming Noord (2 juni 2026)",
+        "url": "https://www.igj.nl/actueel/nieuws/2026/06/02/einde-verscherpt-toezicht-voor-jeugdbescherming-noord-in-groningen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "OOG – Na kritiek Rekenkamer: college wil informatievoorziening over WIJ Groningen verbeteren",
+        "url": "https://www.oogtv.nl/2026/06/na-kritiek-rekenkamer-college-wil-informatievoorziening-over-wij-groningen-verbeteren/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "OOG – Jeugdhulp WIJ Groningen kampt met wachtlijsten (14 oktober 2025)",
+        "url": "https://www.oogtv.nl/2025/10/jeugdhulp-wij-groningen-kampt-met-wachtlijsten-politiek-verbijsterd-welke-debatten-voeren-wij/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RTV Noord – Wachten op jeugdhulp in Groningen: 'De druk zit bij de wijkteams' (1 mei 2024)",
+        "url": "https://www.rtvnoord.nl/zorg/1157871/wachten-op-jeugdhulp-in-groningen-de-druk-zit-bij-de-wijkteams",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED – Jeugdhulptrajecten in natura; verwijzer, regio (OData)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Groningen: Overlast en zorg melden",
+        "url": "https://gemeente.groningen.nl/overlast-en-zorg-melden",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Groningen: Contact Jeugdgezondheidszorg",
+        "url": "https://www.ggdgroningen.nl/kind-en-opvoeding/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Passend Onderwijs Groningen: Samenwerkingsverbanden",
+        "url": "https://www.passendonderwijsgroningen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV VO Groningen Stad: Steunpunt leerling en ouder",
+        "url": "https://www.swv-vo2001.nl/steunpunt-leerling-ouder/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Nog open: cliëntervaringsonderzoek Jeugd, doorlooptijden, het ombudsmanrapport van oktober 2026 (alleen nieuwsbericht) en het rekenkamerrapport over WIJ (raadsdocumenten weigerden geautomatiseerd ophalen). WIJ Groningen heeft geen centraal telefoonnummer. Beschikbaarheidswijzer kent geen regio Groningen; RIGG-database gebruikt. Telefoonnummer samenwerkingsverband PO 20.01 niet gevonden (site achter botcontrole)."
   }
 }

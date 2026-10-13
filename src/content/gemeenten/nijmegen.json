@@ -1,0 +1,532 @@
+{
+  "naam": "Nijmegen",
+  "cbsCode": "GM0268",
+  "provincie": "Gelderland",
+  "jeugdzorgregio": "Rijk van Nijmegen",
+  "websiteJeugd": "https://buurtteamsjeugdengezin.nl/",
+  "toegang": {
+    "samenvatting": "In Nijmegen zijn de Buurtteams Jeugd en Gezin de toegang tot jeugdhulp. Acht buurtteams (Centrum & Oost, Noord, Zuid & Hatert, Oud-West, Midden, Nieuw-West, Dukenburg en Lindenholt) bieden zelf kortdurende en langdurige begeleiding zonder beschikking, zetten specialistische jeugdhulp in en hebben vaste uren op vrijwel alle scholen. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Buurtteams Jeugd en Gezin",
+        "omschrijving": "Gemeentelijk toegangsteam per stadsdeel: Centrum & Oost, Noord, Zuid & Hatert, Oud-West, Midden, Nieuw-West, Dukenburg en Lindenholt. Basishulp is direct beschikbaar, zonder beschikking; elk team is ook rechtstreeks per telefoon en e-mail bereikbaar.",
+        "stappen": [
+          "Zoek met uw postcode het buurtteam van uw stadsdeel op buurtteamsjeugdengezin.nl/buurtteams, of bel het algemene nummer; elk team is op werkdagen van 9.00 tot 12.30 uur telefonisch bereikbaar.",
+          "Een medewerker bespreekt uw vraag en plant een gesprek, bij u thuis, op het buurtteam of elders.",
+          "Samen maakt u een gezinsplan; het buurtteam biedt zelf begeleiding of zet specialistische jeugdhulp in.",
+          "Kiest u samen voor specialistische hulp (een maatwerkvoorziening), dan ontvangt u een beschikking van de gemeente; vraag er zelf om als die niet vanzelf komt."
+        ],
+        "contact": {
+          "naam": "Buurtteams Jeugd en Gezin Nijmegen",
+          "telefoon": "024 220 3000",
+          "email": "info@buurtteamsjeugdengezin.nl",
+          "url": "https://buurtteamsjeugdengezin.nl/buurtteams/",
+          "openingstijden": "Werkdagen 9.00–12.30 uur (telefonisch); elk buurtteam is ook rechtstreeks per e-mail bereikbaar"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks doorverwijzen naar gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het buurtteam. Door een convenant met huisartsen verwijzen zij in Nijmegen gezinnen voor lichtere hulpvragen vaker eerst naar het buurtteam dan voorheen.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of jeugdarts.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder, of naar het buurtteam.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
+            "telefoon": "088 144 7111",
+            "email": "jeugdgezondheidszorg@ggdgelderlandzuid.nl",
+            "url": "https://www.ggdgelderlandzuid.nl/contact",
+            "openingstijden": "Werkdagen 8.00–16.30 uur"
+          },
+          {
+            "naam": "Buurtteams Jeugd en Gezin Nijmegen",
+            "telefoon": "024 220 3000",
+            "email": "info@buurtteamsjeugdengezin.nl",
+            "url": "https://buurtteamsjeugdengezin.nl/buurtteams/",
+            "openingstijden": "Werkdagen 9.00–12.30 uur (telefonisch); elk buurtteam is ook rechtstreeks per e-mail bereikbaar"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school of kinderopvang",
+        "omschrijving": "De buurtteams werken met vaste uren op vrijwel alle scholen in Nijmegen en werken samen met de kinderopvangorganisaties in de stad. Bij zorgen over leren, gedrag, verzuim of pesten kan school of de kinderopvang meedenken en de verbinding met het buurtteam leggen.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor, intern begeleider of pedagogisch medewerker.",
+          "School of kinderopvang schakelt de buurtteammedewerker in die aan de locatie verbonden is, of u neemt zelf contact op met het buurtteam in uw stadsdeel.",
+          "Extra ondersteuning op school loopt via het samenwerkingsverband passend onderwijs; jeugdhulp loopt via het buurtteam. Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Buurtteams Jeugd en Gezin – School en kinderopvang",
+            "url": "https://buurtteamsjeugdengezin.nl/hulp-bij/school-en-kinderopvang/"
+          },
+          {
+            "naam": "Buurtteams Jeugd en Gezin Nijmegen",
+            "telefoon": "024 220 3000",
+            "email": "info@buurtteamsjeugdengezin.nl",
+            "url": "https://buurtteamsjeugdengezin.nl/buurtteams/",
+            "openingstijden": "Werkdagen 9.00–12.30 uur (telefonisch); elk buurtteam is ook rechtstreeks per e-mail bereikbaar"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt SWV Nijmegen Stromenland (basis- en voortgezet onderwijs)",
+            "telefoon": "024 204 90 74",
+            "url": "https://www.steunpuntnijmegenstromenland.nl/contact/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Nijmegen op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Nijmegen: huiselijk geweld en kindermishandeling",
+          "url": "https://www.nijmegen.nl/diensten/zorg-en-hulp/huiselijk-geweld/"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Gelderse Poort, De Kentering en Stichting BWN",
+      "toelichting": "Gratis en onafhankelijk van de buurtteams. MEE Gelderse Poort ondersteunt met name bij een ontwikkelings- of verstandelijke beperking; De Kentering en Stichting BWN bieden bredere ondersteuning in het sociaal domein. De gemeente en de buurtteams wijzen zelf op deze drie organisaties voor hulp bij een aanvraag, een persoonlijk plan of het vinden van passende zorg.",
+      "telefoon": "088 633 0000",
+      "url": "https://buurtteamsjeugdengezin.nl/onafhankelijke-ondersteuning/",
+      "openingstijden": "MEE: werkdagen 9.00–12.30 uur; De Kentering: werkdagen 10.00–16.00 uur"
+    },
+    "klacht": {
+      "naam": "Klachtenregeling Buurtteams Jeugd en Gezin",
+      "toelichting": "Meld een klacht over hoe u bent behandeld bij de teamleider van uw buurtteam; die neemt binnen 5 werkdagen contact op voor een gesprek en streeft naar een oplossing binnen 6 weken (eenmalig te verlengen met 4 weken). Komt u er niet uit, dan kunt u de klacht voorleggen aan de Onafhankelijke Klachtencommissie (OKC). Gaat uw klacht over de gemeente zelf, of bent u niet tevreden over de afhandeling, dan kunt u terecht bij de Ombudsman Nijmegen (0800 1027, gratis).",
+      "url": "https://buurtteamsjeugdengezin.nl/klachten-en-bezwaren/klacht-buurtteams/",
+      "email": "klachten@buurtteamsjeugdengezin.nl",
+      "telefoon": "024 220 3000",
+      "extern": {
+        "naam": "Onafhankelijke Klachtencommissie (OKC)",
+        "url": "http://www.onafhankelijkeklachtencommissie.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bent u het niet eens met de beschikking, bespreek dit dan eerst met uw buurtteam. Daarna kunt u binnen 6 weken na de datum van het besluit bezwaar maken: online met DigiD via het bezwaarformulier van de gemeente, of per brief aan het College van burgemeester en wethouders, Postbus 9105, 6500 HG Nijmegen. De gemeente beslist binnen 18 weken (24 weken als een onafhankelijke commissie adviseert); daarna is beroep bij de rechtbank Gelderland mogelijk.",
+      "url": "https://www.nijmegen.nl/diensten/klacht-bezwaar-en-beroep/bezwaar-maken-beroep-instellen/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb is mogelijk als u zelf in staat bent de taken en verantwoordelijkheden die daarbij horen uit te voeren, zoals het afsluiten van een zorgovereenkomst en het bijhouden van een administratie. Na het gesprek met het buurtteam over wat u nodig heeft, toetst de gemeente of u aan de pgb-voorwaarden voldoet en ontvangt u een beschikking met het besluit.",
+      "url": "https://www.nijmegen.nl/diensten/zorg-en-hulp/pgb/"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Basishulp via de buurtteams zonder beschikking; specialistische jeugdhulp wordt ingekocht via het Regionaal Ondersteuningsbureau Rijk van Nijmegen. De Steunwijzer is het doorzoekbare overzicht van gecontracteerde aanbieders: vooral bedoeld voor verwijzers, maar ook door ouders te raadplegen. De regio Rijk van Nijmegen is niet aangesloten op de Beschikbaarheidswijzer.",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Laagdrempelig via het buurtteam, zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via verwijzing van het buurtteam of een arts; gecontracteerde aanbieders melden een wachtlijst, die de gemeente twee keer per jaar uitvraagt.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en gezinshuizen",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://robregionijmegen.nl/steunwijzer/"
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Wij-punt",
+      "soort": "oudergroep",
+      "omschrijving": "Zes ontmoetingsplekken van Bindkracht10 voor ouders en opvoeders, van net ouder geworden tot een puber in huis: open inloopmomenten zonder afspraak, groepsactiviteiten over opvoedthema's en seizoensactiviteiten. Locaties in Dukenburg, Hatert, Midden, Neerbosch-Oost, Noord en West.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.bindkracht10.nl/wij-punt",
+      "contact": {
+        "naam": "Bindkracht10",
+        "telefoon": "024 365 0111",
+        "email": "info@bindkracht10.nl"
+      }
+    },
+    {
+      "naam": "Steunpunt Mantelzorg Nijmegen",
+      "soort": "informatiepunt",
+      "omschrijving": "Onafhankelijk steunpunt van Sterker sociaal werk voor iedereen die zorgt voor een naaste, ook kinderen en jongeren (de jaarlijkse Week van de Jonge Mantelzorger). Biedt advies, lotgenotencontact en praktische ondersteuning; ook professionals en verwijzers kunnen er terecht.",
+      "themas": [
+        "mantelzorg",
+        "jonge mantelzorger"
+      ],
+      "url": "https://mantelzorg-nijmegen.nl/",
+      "contact": {
+        "naam": "Steunpunt Mantelzorg Nijmegen (Sterker sociaal werk)",
+        "telefoon": "088 001 1333",
+        "email": "info@sterker.nl",
+        "openingstijden": "Werkdagen 9.00–17.30 uur"
+      }
+    },
+    {
+      "naam": "STIP Nijmegen",
+      "soort": "informatiepunt",
+      "omschrijving": "Tien informatiepunten van Bindkracht10 in de wijken, voor advies, hulp bij formulieren en een luisterend oor, met een aparte JongerenStip. Breed sociaal domein, ook bruikbaar voor vragen rond gezin en opgroeien.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.stipnijmegen.nl",
+      "contact": {
+        "naam": "STIP Nijmegen",
+        "telefoon": "024 350 2000",
+        "email": "vraag@stipnijmegen.nl",
+        "openingstijden": "Werkdagen 9.00–17.00 uur"
+      }
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Buurtteam in uw stadsdeel",
+      "omschrijving": "Telefoonnummers en adressen van de acht buurtteams, te vinden met uw postcode.",
+      "url": "https://buurtteamsjeugdengezin.nl/buurtteams/"
+    },
+    {
+      "naam": "Klacht indienen over een buurtteam",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Vaak sneller dan bezwaar.",
+      "url": "https://buurtteamsjeugdengezin.nl/klachten-en-bezwaren/klacht-buurtteams/"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://formulier.nijmegen.nl/bezwaar-maken/startpagina",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Onafhankelijke ondersteuning aanvragen",
+      "omschrijving": "Overzicht van de drie organisaties voor cliëntondersteuning in Nijmegen.",
+      "url": "https://buurtteamsjeugdengezin.nl/onafhankelijke-ondersteuning/"
+    },
+    {
+      "naam": "Pgb aanvragen (gemeente Nijmegen)",
+      "url": "https://www.nijmegen.nl/diensten/zorg-en-hulp/pgb/"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In Nijmegen zijn de Buurtteams Jeugd en Gezin sinds 2021 de spil van de jeugdhulp: zij bieden zelf basishulp zonder beschikking en het aantal verwijzingen naar aanbieders daalt. Een externe evaluatie in 2024 was positief en de gemeente verlengde het contract tot en met 2027. Tegelijk staat het stelsel onder druk: de gemeente moet vanaf 2026 flink besparen op ambulante jeugdhulp en de wachttijden in de jeugd-GGZ lopen volgens de gemeente zelf op tot zes maanden of meer. Eind 2025 uitte de (Kinder-)Ombudsman Nijmegen in een uitgebreide zorgenbrief kritiek op de rechtsbescherming: gezinnen krijgen niet altijd een beschikking en weten vaak niet waar ze een aanvraag of klacht kunnen indienen; het college deelt die juridische conclusie niet, maar kondigde wel een actieprogramma voor betere informatie aan.\n\nVoor ouders betekent dit dat het eerste contact met het buurtteam meestal snel is, maar dat specialistische hulp (zeker jeugd-GGZ) lang op zich kan laten wachten. De toegang loopt hier vaker via het buurtteam dan elders: huisartsen hebben afgesproken gezinnen voor lichtere vragen eerst naar het buurtteam te sturen. Wilt u zekerheid over wat is toegekend of afgewezen, vraag dan uitdrukkelijk om een beschikking; de gemeente zegt die altijd te geven bij een maatwerkvoorziening of bij onenigheid, ook als u zelf geen bezwaar wilt maken. Leg afspraken schriftelijk vast en schakel bij vastlopen de onafhankelijke cliëntondersteuning, Jeugdstem of de Ombudsman Nijmegen in.",
+    "signalen": [
+      {
+        "soort": "ombudsman",
+        "titel": "Ombudsman Nijmegen uit zorgen over toegang tot jeugdhulp",
+        "samenvatting": "In een zorgenbrief aan college en raad schrijft de (Kinder-)Ombudsman Nijmegen dat inwoners vastlopen bij de toegang tot jeugdhulp en Wmo: hulp wordt ingezet, gewijzigd of beëindigd zonder beschikking, het moment van de aanvraag is onduidelijk en er is geen aparte route om rechtstreeks bij het college jeugdhulp aan te vragen. Volgens de ombudsman is de verordening op dit punt deels in strijd met de wet. Zij beveelt onder meer aan altijd een beschikking af te geven en de informatie over het besluitvormings- en klachtproces te verbeteren.",
+        "datum": "2025-11-24",
+        "bron": {
+          "titel": "Zorgenbrief Ombudsman Nijmegen (raadsinformatie)",
+          "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/62108190-ddfd-49b3-96a3-aa265cc511be"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "College houdt vast aan buurtteam-model, belooft betere informatie",
+        "samenvatting": "In reactie op de ombudsman schrijft het college dat de buurtteams basishulp bieden als algemene voorziening en dat professionals 'beschikkingssensitief' werken: altijd een beschikking geven bij een maatwerkvoorziening of bij onenigheid, ook als ouders geen bezwaar willen maken. Het college onderschrijft de conclusie dat de werkwijze in strijd is met de wet niet en past de verordening niet aan. Wel start in 2026 een actieprogramma met onder meer een centraal klachtenpunt, duidelijker informatie over klachten en bezwaar, een verduidelijkte route om rechtstreeks jeugdhulp aan te vragen bij het college, en versterking van de onafhankelijke cliëntondersteuning.",
+        "datum": "2025-12-09",
+        "bron": {
+          "titel": "Bestuurlijke reactie college op zorgenbrief ombudsman (raadsinformatie)",
+          "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/c98a60cd-71af-468f-995c-279a9b0271b9"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Uitvoeringsagenda: besparen op ambulante jeugdhulp, wachttijden jeugd-GGZ tot zes maanden",
+        "samenvatting": "De Uitvoeringsagenda Duurzame Jeugdhulp en Wmo-begeleiding werkt het raadsbesluit uit om structureel te besparen op ambulante jeugdhulp. De gemeente schrijft dat jeugdigen in de jeugd-GGZ soms zes maanden of langer moeten wachten en dat alle gecontracteerde jeugd-GGZ-aanbieders een wachtlijst hebben; zij gaat twee keer per jaar uitvragen hoeveel Nijmeegse kinderen op de wachtlijst staan. Door een convenant met huisartsen is het aantal huisartsverwijzingen naar ambulante hulp in de eerste helft van 2025 met 67% gedaald ten opzichte van 2022.",
+        "datum": "2025-09",
+        "bron": {
+          "titel": "Uitvoeringsagenda Duurzame Jeugdhulp en Wmo-begeleiding, september 2025 (raadsinformatie)",
+          "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/7dc01535-0cf7-4385-a723-b19f5140e5a3"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Gemeente kiest voor 'toekomstbestendige' jeugdhulp: eerst eigen netwerk, dan buurtteam",
+        "samenvatting": "De gemeente kondigt aan dat lichte vragen eerst via het eigen netwerk of collectief aanbod worden opgepakt, dat de buurtteams directe basishulp bieden en dat specialistische hulp wordt gereserveerd voor complexe situaties. Aanleiding zijn de jaarlijks groeiende vraag, personeelstekorten en stijgende kosten.",
+        "datum": "2025-09-30",
+        "bron": {
+          "titel": "Nieuws uit Nijmegen",
+          "url": "https://www.nieuwsuitnijmegen.nl/Nieuws/19992/gemeente-nijmegen-kiest-voor-toekomstbestendige-jeugdhulp-en-wmo.html"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Positieve evaluatie Buurtteams Jeugd en Gezin; contract verlengd tot en met 2027",
+        "samenvatting": "Op basis van een externe 'lerende evaluatie' besloot het college het contract met de stichting achter de Buurtteams Jeugd en Gezin met drie jaar te verlengen. Volgens de evaluatie bieden de teams steeds vaker zelf basishulp: het aantal jeugdigen dat naar begeleiding bij een zorgaanbieder werd verwezen daalde in 2023 met 20% ten opzichte van 2022, en bij de overige jeugdhulp met 7%. Bij de bespreking in de raad in augustus 2024 bleek breed draagvlak voor verlenging.",
+        "datum": "2024-09-17",
+        "bron": {
+          "titel": "Collegevoorstel verlenging overeenkomst Buurtteams Jeugd en Gezin 2025-2027 (raadsinformatie)",
+          "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/06f74430-b90c-41e6-abab-ab9da4e0d320"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Jongeren geven de jeugdhulp een 7,5",
+        "samenvatting": "In het cliëntervaringsonderzoek over 2023 gaven jongeren van 15 tot 21 jaar gemiddeld een 7,5 voor de hulp en een 7,4 voor hoe de hulp geregeld is. 81% wist waar de hulpvraag te melden en 71% had het gevoel dat er naar hen werd geluisterd. De respons was 15% (111 van 759 uitgenodigde jongeren).",
+        "datum": "2024-05",
+        "bron": {
+          "titel": "Cliëntervaringsonderzoek Jeugdwet Jongeren 2023, gemeente Nijmegen (ZorgfocuZ)",
+          "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/37854d7f-d733-4988-88fa-1c1e434b8e75"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Historie: buurtteams zonder wachtlijst, jeugd-GGZ bijna vier maanden wachten",
+        "samenvatting": "In een achtergrondartikel over de Nijmeegse jeugdzorg meldt de stadskrant begin 2023 dat de buurtteams hun wachtlijsten hadden teruggebracht en in december 2022 geen wachtlijst meer hadden, terwijl de wachttijd voor jeugd-GGZ bij de grootste regionale aanbieder was opgelopen tot bijna vier maanden. Raadsleden noemen de lange wacht op passende hulp en de abrupte overgang naar volwassenenzorg bij 18 jaar als knelpunten.",
+        "datum": "2023-03-05",
+        "bron": {
+          "titel": "De Nijmeegse Stadskrant",
+          "url": "https://www.denijmeegsestadskrant.nl/achtergrond/jeugdzorg-in-nijmegen-het-kind-staat-voorop-1/"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2023",
+        "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/37854d7f-d733-4988-88fa-1c1e434b8e75",
+        "samenvatting": "Jongeren gaven in het onderzoek over 2023 een 7,5 voor de hulp en een 7,4 voor het regelen ervan, bij een respons van 15%. Een recentere editie (over 2024 of 2025) is in het raadsinformatiesysteem en op nijmegen.nl niet gevonden."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Geen gepubliceerde doorlooptijden van de toegang gevonden in de Uitvoeringsagenda Duurzame Jeugdhulp (2025) en de raadsbrieven over de buurtteams; de gemeente stelt alleen dat het eerste contact met het buurtteam 'op korte termijn' kan plaatsvinden en dat de wachtlijsten jeugd-GGZ twee keer per jaar worden uitgevraagd."
+      },
+      "aandeelHuisarts": {
+        "percentage": 34,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Buurtteams Jeugd en Gezin Nijmegen – Buurtteams",
+        "url": "https://buurtteamsjeugdengezin.nl/buurtteams/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Jeugd en Gezin – Onafhankelijke ondersteuning",
+        "url": "https://buurtteamsjeugdengezin.nl/onafhankelijke-ondersteuning/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Jeugd en Gezin – Klachten en bezwaren",
+        "url": "https://buurtteamsjeugdengezin.nl/klachten-en-bezwaren/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Jeugd en Gezin – Klacht over een buurtteam",
+        "url": "https://buurtteamsjeugdengezin.nl/klachten-en-bezwaren/klacht-buurtteams/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Jeugd en Gezin – Bezwaar tegen hulpverlening",
+        "url": "https://buurtteamsjeugdengezin.nl/klachten-en-bezwaren/klacht-hulpverlening/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Jeugd en Gezin – Hoe werken wij",
+        "url": "https://buurtteamsjeugdengezin.nl/hoe-werken-wij/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Buurtteams Jeugd en Gezin – School en kinderopvang",
+        "url": "https://buurtteamsjeugdengezin.nl/hulp-bij/school-en-kinderopvang/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Klachtenregeling Buurtteams Jeugd en Gezin (pdf)",
+        "url": "https://buurtteamsjeugdengezin.nl/wp-content/uploads/2024/08/Klachtenregeling-Buurtteams-Jeugd-en-Gezin.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Klachtenregeling Onafhankelijke Klachtencommissie (OKC) 2022 (pdf)",
+        "url": "https://buurtteamsjeugdengezin.nl/wp-content/uploads/2024/01/Klachtenregeling-OKC-2022.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Onafhankelijke Klachtencommissie",
+        "url": "http://www.onafhankelijkeklachtencommissie.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Nijmegen – Pgb",
+        "url": "https://www.nijmegen.nl/diensten/zorg-en-hulp/pgb/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Nijmegen – Bezwaar maken, beroep instellen",
+        "url": "https://www.nijmegen.nl/diensten/klacht-bezwaar-en-beroep/bezwaar-maken-beroep-instellen/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Nijmegen – Bezwaarformulier",
+        "url": "https://formulier.nijmegen.nl/bezwaar-maken/startpagina",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Gelderse Poort – Cliëntondersteuning",
+        "url": "https://www.meegeldersepoort.nl/werk/clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "De Kentering – Cliëntondersteuning",
+        "url": "https://www.dekentering.info/clientondersteuning/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Stichting BWN",
+        "url": "https://www.stichtingbwn.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ombudsman Nijmegen",
+        "url": "https://www.ombudsman.nijmegen.nl",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Zorgenbrief Ombudsman Nijmegen (raadsinformatie)",
+        "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/62108190-ddfd-49b3-96a3-aa265cc511be",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Bestuurlijke reactie college op zorgenbrief ombudsman (raadsinformatie)",
+        "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/c98a60cd-71af-468f-995c-279a9b0271b9",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Uitvoeringsagenda Duurzame Jeugdhulp en Wmo-begeleiding (raadsinformatie)",
+        "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/7dc01535-0cf7-4385-a723-b19f5140e5a3",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Collegevoorstel verlenging overeenkomst Buurtteams Jeugd en Gezin 2025-2027 (raadsinformatie)",
+        "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/06f74430-b90c-41e6-abab-ab9da4e0d320",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Cliëntervaringsonderzoek Jeugdwet Jongeren 2023, gemeente Nijmegen (raadsinformatie)",
+        "url": "https://nijmegen.bestuurlijkeinformatie.nl/Document/View/37854d7f-d733-4988-88fa-1c1e434b8e75",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nieuws uit Nijmegen – toekomstbestendige jeugdhulp en Wmo",
+        "url": "https://www.nieuwsuitnijmegen.nl/Nieuws/19992/gemeente-nijmegen-kiest-voor-toekomstbestendige-jeugdhulp-en-wmo.html",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "De Nijmeegse Stadskrant – Jeugdzorg in Nijmegen, het kind staat voorop",
+        "url": "https://www.denijmeegsestadskrant.nl/achtergrond/jeugdzorg-in-nijmegen-het-kind-staat-voorop-1/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine – 85097NED, jeugdhulptrajecten in natura (OData)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regionaal Ondersteuningsbureau Rijk van Nijmegen – Steunwijzer",
+        "url": "https://robregionijmegen.nl/steunwijzer/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – aangesloten regio's",
+        "url": "https://beschikbaarheidswijzer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Bindkracht10 – Wij-punt",
+        "url": "https://www.bindkracht10.nl/wij-punt",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Bindkracht10 – Contact",
+        "url": "https://www.bindkracht10.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "STIP Nijmegen",
+        "url": "https://www.stipnijmegen.nl",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Steunpunt Mantelzorg Nijmegen (Sterker sociaal werk)",
+        "url": "https://mantelzorg-nijmegen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Nijmegen: Huiselijk geweld en kindermishandeling",
+        "url": "https://www.nijmegen.nl/diensten/zorg-en-hulp/huiselijk-geweld/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Gelderland-Zuid: Contact",
+        "url": "https://www.ggdgelderlandzuid.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland: contact",
+        "url": "https://www.steunpuntnijmegenstromenland.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd na 2023. De site van de Onafhankelijke Klachtencommissie is alleen via http bereikbaar."
+  }
+}

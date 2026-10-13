@@ -1,0 +1,155 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sources from '../../components/Sources.astro';
+import Icon from '../../components/Icon.astro';
+import { getCollection, render } from 'astro:content';
+import register from '../../../scripts/data/gemeenten-register.json';
+import TherapieToelichting from '../../components/TherapieToelichting.astro';
+export async function getStaticPaths() {
+  const brieven = await getCollection('brieven');
+  return brieven.map((b) => ({ params: { slug: b.id }, props: { b } }));
+}
+const { b } = Astro.props;
+const d = b.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const { Content } = await render(b);
+const situaties = (await getCollection('situaties')).filter((s) => d.situaties.includes(s.id)).sort((a, c) => a.data.volgorde - c.data.volgorde);
+const metTherapie = ['aanvraag-jeugdhulp', 'bezwaar-beschikking'].includes(b.id);
+// Medicatie hoort niet in een brief aan het wijkteam of de gemeente: daarover beslist een arts.
+const therapie = metTherapie ? (await getCollection('therapievormen')).filter((t) => t.id !== 'medicatie-als-aanvulling').sort((a, c) => a.data.naam.localeCompare(c.data.naam)) : [];
+/** Naam midden in een zin: kleine beginletter, behalve bij afkortingen (EMDR, CGT, MST). */
+const inZin = (naam: string) => { const n = naam.replace(/ \(.*\)$/, ''); return /^[A-Z][a-zà-ÿ]/.test(n) ? n[0].toLowerCase() + n.slice(1) : n; };
+const alleSituaties = await getCollection('situaties');
+// Brieven aan de gemeente: naam en postadres van de gekozen gemeente invullen (uit het Register van Overheidsorganisaties).
+const metPostadres = ['ingebrekestelling', 'bezwaar-beschikking'].includes(b.id);
+const postadressen = metPostadres
+  ? Object.fromEntries((await getCollection('gemeenten')).map((g) => [g.id, [g.data.naam, register.gemeenten.find((x: { cbsCode: string; postadres?: string }) => x.cbsCode === g.data.cbsCode)?.postadres ?? '']]))
+  : {};
+const titelVan = (id: string) => alleSituaties.find((x) => x.id === id)?.data.titel ?? id;
+const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de gemeente', wijkteam: 'Aan het wijkteam', huisarts: 'Aan de huisarts of jeugdarts', aanbieder: 'Aan de hulpverlener', overig: 'Aan meerdere partijen' };
+---
+<Base title={d.titel} description={d.wanneer}>
+  <div class="page-head">
+    <p class="meta terug" style="margin-bottom:.5rem"><a href={`${base}/situaties/`} data-terug data-anchor="#brieven" data-situaties={situaties.map((s) => `${s.id}|${s.data.titel}`).join(';')}>← Terug naar situaties</a></p>
+    <span class="eyebrow">Voorbeeldbrief · {aan[d.aan]}</span>
+    <h1>{d.titel}</h1>
+    <p class="lead">{d.wanneer}</p>
+  </div>
+  <div class="page-with-side">
+    <aside class="side">
+      <nav aria-label="Tips">
+        <strong>Voor u verstuurt</strong>
+        <ul class="tips-lijst">{d.tips.map((t) => <li>{t}</li>)}</ul>
+      </nav>
+    </aside>
+    <div>
+      <div class="brief-acties">
+        <button type="button" class="btn primary" data-kopieer><Icon name="file" class="inline-icon" /> Kopieer de brief</button>
+        <span class="meta" data-kopieer-status aria-live="polite"></span>
+      </div>
+      {metPostadres && <p class="meta" data-postadres-uitleg hidden></p>}
+      <article class="brief" data-brief><Content /></article>
+      <p class="meta" style="margin-top:1rem">Vul de velden tussen [haken] in en verwijder wat niet van toepassing is. Dit is een voorbeeld, geen juridisch advies.</p>
+      {metTherapie && (
+        <section class="section" id="therapie-in-brief" data-alleen-met-situatie={b.id === 'bezwaar-beschikking' ? '' : undefined}>
+          <h2 style="margin-top:0">Welke hulpvorm wilt u noemen?</h2>
+          <p class="meta" data-therapie-intro>Hieronder staan de therapievormen bij <span data-therapie-situaties>uw gekozen situaties</span>. Klik op "Zet in de brief" om de voorbeeldzin op de plek van de hulpvorm te zetten; pas hem daarna aan in uw eigen woorden.</p>
+          <TherapieToelichting />
+          <div class="grid">
+            {therapie.map((t) => {
+              const zin = `Wij vragen om ${inZin(t.data.naam)}. ${t.data.kort} ${t.data.onderbouwing.label === 'richtlijn' ? 'Deze vorm wordt aanbevolen in de richtlijn.' : t.data.onderbouwing.label === 'erkend' ? 'Deze vorm is erkend door het Nederlands Jeugdinstituut.' : ''} Wij denken dat dit past omdat [leg uit wat u ziet en waarom deze vorm daarbij aansluit].`;
+              return (
+                <div class="card therapie-keuze" data-situaties={t.data.situaties.join(' ')} hidden>
+                  <h3 style="margin-top:0">{t.data.naam}</h3>
+                  <p class="meta">{t.data.situaties.map(titelVan).join(' · ')}</p>
+                  <p class="voorbeeldzin" data-zin>{zin}</p>
+                  <div class="actions kaart-acties"><button type="button" class="btn secondary" data-zet-in-brief>Zet in de brief</button> <a class="meta" href={`${base}/therapievormen/${t.id}/`}>meer over deze vorm →</a></div>
+                </div>
+              );
+            })}
+          </div>
+          <p class="meta" data-therapie-leeg hidden>Kies eerst een situatie op de <a href={`${base}/`}>hoofdpagina</a> of het <a href={`${base}/overzicht/`}>overzicht</a>; dan verschijnen hier de passende vormen. <button type="button" class="btn secondary" data-toon-alles>Of toon alle therapievormen</button></p>
+        </section>
+      )}
+      <div class="tips-mobiel"><h3>Voor u verstuurt</h3><ul>{d.tips.map((t) => <li>{t}</li>)}</ul></div>
+      <Sources bronnen={d.bronnen} laatstGecontroleerd={d.laatstGecontroleerd} />
+    </div>
+  </div>
+</Base>
+{metPostadres && <script is:inline set:html={`window.__jrPostadres = ${JSON.stringify(postadressen)};`} />}
+<script>
+  // Gemeente gekozen? Dan staan naam en postadres al in de brief. Het adres in het besluit gaat voor; dat staat er bij bezwaar bij.
+  {
+    const pa = (window as any).__jrPostadres as Record<string, [string, string]> | undefined;
+    const gem = localStorage.getItem('jr.gemeente') ?? '';
+    const hit = pa?.[gem];
+    if (hit && hit[1]) {
+      const esc = (t: string) => t.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]!);
+      const [naam, adres] = hit;
+      const regels = esc(adres).split(', ').join('<br />');
+      document.querySelectorAll<HTMLElement>('[data-brief] p').forEach((p) => {
+        if (!p.innerHTML.includes('[postadres van de gemeente')) return;
+        p.innerHTML = p.innerHTML
+          .replace('[naam gemeente]', esc(naam))
+          .replace('[postadres van de gemeente, zie het besluit]', `${regels}<br />[staat er een ander adres in het besluit? Gebruik dat]`)
+          .replace('[postadres van de gemeente]', regels);
+      });
+      const uitleg = document.querySelector<HTMLElement>('[data-postadres-uitleg]');
+      if (uitleg) { uitleg.textContent = `Naam en postadres van de gemeente ${naam} staan al in de brief. U koos die gemeente eerder op deze site.`; uitleg.hidden = false; }
+    }
+  }
+
+  // Therapievormen filteren op gekozen situaties en in de brief plakken
+  const sel = (localStorage.getItem('jr.situaties') ?? '').split(',').filter(Boolean);
+  const kaarten = Array.from(document.querySelectorAll<HTMLElement>('.therapie-keuze'));
+  const toon = (alles: boolean) => {
+    let n = 0;
+    kaarten.forEach((k) => { const hit = alles || (k.dataset.situaties ?? '').split(' ').some((id) => sel.includes(id)); k.hidden = !hit; if (hit) n++; });
+    const leeg = document.querySelector<HTMLElement>('[data-therapie-leeg]'); if (leeg) leeg.hidden = n > 0;
+    const intro = document.querySelector<HTMLElement>('[data-therapie-intro]'); if (intro) intro.hidden = n === 0;
+  };
+  toon(false);
+  // Bij een bezwaar is een hulpvorm noemen optioneel: zonder gekozen situatie het blok weglaten en de invulregel neutraal maken.
+  {
+    const sectie = document.querySelector<HTMLElement>('[data-alleen-met-situatie]');
+    if (sectie && sel.length === 0) {
+      sectie.hidden = true;
+      document.querySelectorAll<HTMLElement>('[data-brief] p').forEach((p) => {
+        p.innerHTML = p.innerHTML.replace('Kies hieronder een therapievorm en zet de voorbeeldzin hier neer.', 'Noem de hulp en waarom die past bij uw kind.');
+      });
+    }
+  }
+  document.querySelector('[data-toon-alles]')?.addEventListener('click', () => toon(true));
+  // De invulregel herkennen aan een vast stuk tekst, niet aan de hele zin: dan breekt het niet als de brieftekst wordt bijgeschaafd.
+  const isInvulregel = (p: Element) => /\[[^\]]*(Kies hieronder een therapievorm|Noem de hulp en waarom)[^\]]*\]/.test(p.textContent ?? '');
+  document.querySelectorAll<HTMLButtonElement>('[data-zet-in-brief]').forEach((b) => b.addEventListener('click', () => {
+    const zin = b.closest('.therapie-keuze')?.querySelector('[data-zin]')?.textContent ?? '';
+    const brief = document.querySelector<HTMLElement>('[data-brief]'); if (!brief) return;
+    const ps = Array.from(brief.querySelectorAll('p'));
+    const doel = ps.find((p) => p.dataset.ingevoegd) ?? ps.find(isInvulregel);
+    if (!doel) return;
+    const label = doel.querySelector('strong')?.outerHTML ?? '';
+    doel.innerHTML = label ? `${label} ${zin}` : `Concreet vraag ik om de volgende hulp. ${zin}`;
+    doel.dataset.ingevoegd = '1';
+    doel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    b.textContent = 'In de brief gezet';
+  }));
+  const btn = document.querySelector<HTMLButtonElement>('[data-kopieer]');
+  const status = document.querySelector<HTMLElement>('[data-kopieer-status]');
+  const brief = document.querySelector<HTMLElement>('[data-brief]');
+  btn?.addEventListener('click', async () => {
+    const tekst = brief?.innerText ?? '';
+    try { await navigator.clipboard.writeText(tekst); status!.textContent = 'Gekopieerd. Plak de tekst in een e-mail of document.'; }
+    catch { status!.textContent = 'Kopiëren lukte niet; selecteer de tekst en kopieer handmatig.'; }
+  });
+  // Terugknop: naar de eerst gekozen situatie die bij deze pagina hoort, anders naar het situatieoverzicht
+  {
+    const a = document.querySelector<HTMLAnchorElement>('[data-terug]');
+    if (a) {
+      const gekozen = (localStorage.getItem('jr.situaties') ?? '').split(',').filter(Boolean);
+      const opties = (a.dataset.situaties ?? '').split(';').filter(Boolean).map((x) => x.split('|'));
+      const hit = opties.find(([id]) => gekozen.includes(id)) ?? (opties.length === 1 ? opties[0] : undefined);
+      if (hit) { a.href = a.href.replace(/\/situaties\/.*$/, `/situaties/${hit[0]}/${a.dataset.anchor}`); a.textContent = `← Terug naar ${hit[1]}`; }
+    }
+  }
+</script>

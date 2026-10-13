@@ -1,0 +1,21 @@
+{"stap":1,"tijd":"2026-10-13T19:53:22.301Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-13T19:53:22.855Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-13T19:53:22.912Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1599}
+{"stap":4,"tijd":"2026-10-13T19:53:26.281Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-13T19:53:26.311Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Er staat meteen een knop 'Ik wil een pgb'. Eerst gemeente kiezen denk ik. (stap 0/25)"],"tekst":"Er staat meteen een knop 'Ik wil een pgb'. Eerst gemeente kiezen denk ik. (stap 0/25)"}
+{"stap":6,"tijd":"2026-10-13T19:53:26.344Z","url":"http://127.0.0.1:4329/","cmd":"--help","args":[]}
+{"stap":7,"tijd":"2026-10-13T19:53:29.734Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Groningen"]}
+{"stap":8,"tijd":"2026-10-13T19:53:32.536Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1591}
+{"stap":9,"tijd":"2026-10-13T19:53:35.072Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 1/25: Groningen gekozen."],"tekst":"Stap 1/25: Groningen gekozen."}
+{"stap":10,"tijd":"2026-10-13T19:53:36.910Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["21"]}
+{"stap":11,"tijd":"2026-10-13T19:53:39.447Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1169}
+{"stap":12,"tijd":"2026-10-13T19:53:42.847Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 2/25: pgb-knop geklikt, vraagt leeftijd en wat speelt; optioneel. Ik ga direct naar overzicht."],"tekst":"Stap 2/25: pgb-knop geklikt, vraagt leeftijd en wat speelt; optioneel. Ik ga direct naar overzicht."}
+{"stap":13,"tijd":"2026-10-13T19:53:44.694Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"klik","args":["46"]}
+{"stap":14,"tijd":"2026-10-13T19:53:44.752Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"kijk","args":[],"lengte":1240}
+{"stap":15,"tijd":"2026-10-13T19:53:47.603Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"foto","args":[]}
+{"stap":16,"tijd":"2026-10-13T19:53:47.634Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"notitie","args":["Stap 3/25: overzicht pgb Groningen. Goed, direct over pgb. Ga verder lezen."],"tekst":"Stap 3/25: overzicht pgb Groningen. Goed, direct over pgb. Ga verder lezen."}
+{"stap":17,"tijd":"2026-10-13T19:53:48.154Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"scroll","args":["omlaag"]}
+{"stap":18,"tijd":"2026-10-13T19:53:51.293Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"notitie","args":["Stap 4/25: Mooi, stappen staan er: wijkteam, budgetplan, SVB, zorgovereenkomst. Per Saldo 0900 742 48 57, MEE Noord 088 023 1100. Wat ik mis: tarieven en hoe ik het bij het WIJ-team aanvraag concreet. Ik ga nog even door."],"tekst":"Stap 4/25: Mooi, stappen staan er: wijkteam, budgetplan, SVB, zorgovereenkomst. Per Saldo 0900 742 48 57, MEE Noord 088 023 1100. Wat ik mis: tarieven en hoe ik het bij het WIJ-team aanvraag concreet. Ik ga nog even door."}
+{"stap":19,"tijd":"2026-10-13T19:53:51.786Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"scroll","args":["omlaag"]}
+{"stap":20,"tijd":"2026-10-13T19:54:05.664Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"notitie","args":["Stap 5/25: Genoeg info om de stappen te weten. Ik bel Per Saldo en het WIJ-team. Klaar."],"tekst":"Stap 5/25: Genoeg info om de stappen te weten. Ik bel Per Saldo en het WIJ-team. Klaar."}
+{"stap":21,"tijd":"2026-10-13T19:54:05.697Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen&k=pgb","cmd":"stop"}

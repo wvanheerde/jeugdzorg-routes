@@ -1,0 +1,23 @@
+{"stap":1,"tijd":"2026-10-12T20:07:00.269Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-12T20:07:00.796Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-12T20:07:03.027Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1028}
+{"stap":4,"tijd":"2026-10-12T20:07:03.209Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["start"]}
+{"stap":5,"tijd":"2026-10-12T20:07:06.290Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 2: ik zoek 'verhuizen'. Kies Situaties."],"tekst":"Stap 2: ik zoek 'verhuizen'. Kies Situaties."}
+{"stap":6,"tijd":"2026-10-12T20:07:08.146Z","url":"http://127.0.0.1:4329/situaties/","cmd":"klik","args":["3"]}
+{"stap":7,"tijd":"2026-10-12T20:07:10.364Z","url":"http://127.0.0.1:4329/situaties/","cmd":"kijk","args":[],"lengte":2981}
+{"stap":8,"tijd":"2026-10-12T20:07:13.245Z","url":"http://127.0.0.1:4329/situaties/","cmd":"notitie","args":["Stap 3: geen situatie 'verhuizen'. Ik ga naar Gemeenten, Almere."],"tekst":"Stap 3: geen situatie 'verhuizen'. Ik ga naar Gemeenten, Almere."}
+{"stap":9,"tijd":"2026-10-12T20:07:15.093Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"klik","args":["4"]}
+{"stap":10,"tijd":"2026-10-12T20:07:15.143Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"kijk","args":[],"lengte":42904}
+{"stap":11,"tijd":"2026-10-12T20:07:19.322Z","url":"http://127.0.0.1:4329/gemeenten/almere/","cmd":"klik","args":["20"]}
+{"stap":12,"tijd":"2026-10-12T20:07:19.373Z","url":"http://127.0.0.1:4329/gemeenten/almere/","cmd":"kijk","args":[],"lengte":786}
+{"stap":13,"tijd":"2026-10-12T20:07:21.734Z","url":"http://127.0.0.1:4329/gemeenten/almere/","cmd":"notitie","args":["Stap 5: 'Wij verhuizen of de hulp stopt' - dat is mijn situatie."],"tekst":"Stap 5: 'Wij verhuizen of de hulp stopt' - dat is mijn situatie."}
+{"stap":14,"tijd":"2026-10-12T20:07:23.586Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"klik","args":["17"]}
+{"stap":15,"tijd":"2026-10-12T20:07:23.628Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"kijk","args":[],"lengte":909}
+{"stap":16,"tijd":"2026-10-12T20:07:26.016Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"foto","args":["overzicht"]}
+{"stap":17,"tijd":"2026-10-12T20:07:26.495Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"scroll","args":[]}
+{"stap":18,"tijd":"2026-10-12T20:07:26.995Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"scroll","args":[]}
+{"stap":19,"tijd":"2026-10-12T20:07:30.608Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"notitie","args":["Stap 7/25: Ik moet het wijkteam in Amsterdam melden, maar welk nummer is 088 002 9990? Almere staat erbij. Onduidelijk."],"tekst":"Stap 7/25: Ik moet het wijkteam in Amsterdam melden, maar welk nummer is 088 002 9990? Almere staat erbij. Onduidelijk."}
+{"stap":20,"tijd":"2026-10-12T20:07:31.076Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"scroll","args":[]}
+{"stap":21,"tijd":"2026-10-12T20:07:31.573Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"scroll","args":[]}
+{"stap":22,"tijd":"2026-10-12T20:07:44.540Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"notitie","args":["Stap 9/25: Genoeg. Almere: JGZ Almere melden na inschrijving; nu Amsterdam wijkteam melden + beschikking op papier. Nummer Amsterdam moet ik elders zoeken."],"tekst":"Stap 9/25: Genoeg. Almere: JGZ Almere melden na inschrijving; nu Amsterdam wijkteam melden + beschikking op papier. Nummer Amsterdam moet ik elders zoeken."}
+{"stap":23,"tijd":"2026-10-12T20:07:44.574Z","url":"http://127.0.0.1:4329/overzicht/?k=verhuizing&gemeente=almere","cmd":"stop"}

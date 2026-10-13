@@ -1,0 +1,515 @@
+{
+  "naam": "Zwolle",
+  "cbsCode": "GM0193",
+  "provincie": "Overijssel",
+  "jeugdzorgregio": "IJsselland",
+  "websiteJeugd": "https://www.swtzwolle.nl/",
+  "toegang": {
+    "samenvatting": "In Zwolle is het Sociaal wijkteam (SWT) van de gemeente de toegang tot jeugdhulp, Wmo en hulp bij geld en werk. Vijf wijkteams (Noord, Oost, Zuid, West en Midden) werken met jeugd- en gezinswerkers die zelf hulp bieden en zo nodig specialistische jeugdhulp inzetten. U meldt zich aan met het aanmeldformulier, telefonisch of op het inloopspreekuur van uw wijk. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen, maar in Zwolle start het grootste deel van de trajecten via het wijkteam.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal wijkteam Zwolle",
+        "omschrijving": "Gemeentelijk toegangsteam voor alle leeftijden, met een jeugd- en gezinswerker als vast aanspreekpunt. Het wijkteam biedt zelf begeleiding en trainingen en maakt samen met u een ondersteuningsplan; is specialistische jeugdhulp nodig, dan regelt het wijkteam die (zorg in natura of pgb) en ontvangt u een beschikking.",
+        "stappen": [
+          "Vul het aanmeldformulier in (met DigiD), bel op werkdagen tussen 9.00 en 17.00 uur, of kom naar het inloopspreekuur van uw wijkteam.",
+          "Een sociaal werker neemt contact op en plant een gesprek; u mag iemand meenemen.",
+          "Samen maakt u een ondersteuningsplan; het wijkteam biedt zelf hulp of zet specialistische jeugdhulp in.",
+          "Bij specialistische hulp ontvangt u een beschikking van de gemeente. Twijfelt u aan het advies, dan kunt u een second opinion vragen bij een ander wijkteam in de stad."
+        ],
+        "contact": {
+          "naam": "Sociaal wijkteam Zwolle",
+          "telefoon": "038 498 9980",
+          "email": "postbus@swt.zwolle.nl",
+          "url": "https://www.swtzwolle.nl/contact",
+          "openingstijden": "Werkdagen 9.00–17.00 uur; inloopspreekuren per wijk op swtzwolle.nl/mijn-wijkteam"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de regio IJsselland gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het Sociaal wijkteam.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD IJsselland.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdgezondheidszorg GGD IJsselland",
+            "telefoon": "088 443 0702",
+            "url": "https://www.ggdijsselland.nl/home/mijn-kind/contact/",
+            "openingstijden": "Werkdagen 8.00–17.00 uur"
+          },
+          {
+            "naam": "Sociaal wijkteam Zwolle",
+            "telefoon": "038 498 9980",
+            "email": "postbus@swt.zwolle.nl",
+            "url": "https://www.swtzwolle.nl/contact",
+            "openingstijden": "Werkdagen 9.00–17.00 uur; inloopspreekuren per wijk op swtzwolle.nl/mijn-wijkteam"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "De jeugd- en gezinswerkers van het Sociaal wijkteam werken samen met scholen en de jeugdgezondheidszorg. Bij zorgen rond leren of gedrag kan school meedenken en de verbinding met het wijkteam leggen.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
+          "School legt contact met de jeugd- en gezinswerker van het wijkteam of de jeugdverpleegkundige van de GGD.",
+          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal wijkteam Zwolle",
+            "telefoon": "038 498 9980",
+            "email": "postbus@swt.zwolle.nl",
+            "url": "https://www.swtzwolle.nl/contact",
+            "openingstijden": "Werkdagen 9.00–17.00 uur; inloopspreekuren per wijk op swtzwolle.nl/mijn-wijkteam"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg GGD IJsselland",
+            "telefoon": "088 443 0702",
+            "url": "https://www.ggdijsselland.nl/home/mijn-kind/contact/",
+            "openingstijden": "Werkdagen 8.00–17.00 uur"
+          },
+          {
+            "naam": "Samenwerkingsverband Passend Onderwijs Hanzeland (Ouder- en jeugdsteunpunt)",
+            "email": "steunpunt@swv-hanzeland.nl",
+            "url": "https://swv-hanzeland.nl/contact/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Zwolle op de pagina Meldpunten onveilige situaties van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Zwolle: meldpunten onveilige situaties",
+          "url": "https://www.zwolle.nl/meldpunten-onveilige-situaties"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Adviespunt Zorgbelang (Zorgbelang Overijssel)",
+      "toelichting": "Gratis en onafhankelijk van het Sociaal wijkteam. De gemeente verwijst voor hulp bij het gesprek, een klacht of een bezwaar naar het Adviespunt Zorgbelang (maandag t/m vrijdag 9.00–13.00 uur). Kent u niemand om mee te nemen, zeg dat dan bij de uitnodiging; het wijkteam kan ook een collega van een andere locatie vragen. MEE Samen biedt in Zwolle alleen cliëntondersteuning bij langdurige zorg (Wlz).",
+      "telefoon": "074 291 3597",
+      "email": "adviespunt@zorgbelang-overijssel.nl",
+      "url": "https://www.zorgbelang-overijssel.nl/"
+    },
+    "klacht": {
+      "naam": "Klacht over het Sociaal wijkteam",
+      "toelichting": "Bespreek het eerst met uw sociaal werker; u mag iemand meenemen of het Adviespunt Zorgbelang vragen. Komt u er niet uit, dan dient u de klacht in bij de gemeente Zwolle: een klachtencoördinator onderzoekt en handelt de klacht af. Dat geldt ook als het te lang duurt voordat u hulp krijgt. Bent u niet tevreden over de afhandeling, dan kunt u naar de Nationale ombudsman (0800 335 5555); Zwolle heeft geen eigen ombudscommissie.",
+      "url": "https://www.zwolle.nl/bezwaar-en-beroep-bij-hulpvragen",
+      "telefoon": "038 498 9980",
+      "extern": {
+        "naam": "Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/overheidsinstanties/gemeente-zwolle"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bent u het niet eens met de beschikking, bel dan eerst het Sociaal wijkteam om het besluit door te nemen; vaak is dat al voldoende. Lukt dat niet, dan kunt u binnen 6 weken na de datum van het besluit bezwaar maken: online met DigiD of per brief aan Burgemeester en Wethouders, Postbus 10007, 8000 GA Zwolle. Vragen over de procedure beantwoordt de Administratie Bezwaarschriften, 038 498 2173. De gemeente beslist binnen 6 of 12 weken, zo nodig na een hoorzitting en advies van de onafhankelijke Adviescommissie bezwaarschriften; daarna staat beroep open bij de rechtbank Overijssel.",
+      "url": "https://www.zwolle.nl/bezwaar-en-beroep"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Het Sociaal wijkteam bespreekt met u of zorg in natura of een pgb past. Voor een pgb vult u het pgb-plan Jeugd in op basis van het ondersteuningsplan en stuurt u dat naar uw sociaal werker; de gemeente hanteert vaste pgb-tarieven per soort jeugdhulp. Met de beschikking sluit u zelf een zorgovereenkomst met de zorgverlener.",
+      "url": "https://www.swtzwolle.nl/zorg-in-natura-of-persoonsgebonden-budget-pgb"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Basishulp, trainingen en gezinsbegeleiding via het Sociaal wijkteam zonder beschikking. Specialistische jeugdhulp wordt ingekocht door het Regionaal Serviceteam Jeugd (RSJ) IJsselland voor elf gemeenten, sinds 1 januari 2026 ondergebracht bij GGD IJsselland. De regio IJsselland is aangesloten op de Beschikbaarheidswijzer, waar u zelf de gecontracteerde aanbieders en hun wachttijden kunt bekijken.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het Sociaal wijkteam en de jeugdgezondheidszorg van GGD IJsselland, zonder beschikking. Het wijkteam biedt ook trainingen, zoals 'Plezier op school' voor kinderen die naar de brugklas gaan en 'Leer te durven' voor kinderen die angstig zijn.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via verwijzing van het Sociaal wijkteam of een arts.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en gezinshuizen",
+        "omschrijving": "De gemeente wil zoveel mogelijk voorkomen dat kinderen buiten het gezin moeten wonen. Is dat toch nodig, dan zo veel mogelijk in een gezin.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Inloopspreekuren Sociaal wijkteam",
+      "soort": "informatiepunt",
+      "omschrijving": "Elk van de vijf wijkteams (Noord, West, Midden, Oost, Zuid) houdt een wekelijks inloopspreekuur zonder afspraak in een wijkcentrum, meestal op twee of drie ochtenden tussen 9.00 en 12.00 uur. Wijkteam Noord houdt daarnaast eens in de twee weken een inloopspreekuur in het Turks bij de Ulu-moskee in Holtenbroek. Exacte dagen en adressen staan op swtzwolle.nl/mijn-wijkteam.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.swtzwolle.nl/mijn-wijkteam",
+      "contact": {
+        "naam": "Sociaal wijkteam Zwolle",
+        "telefoon": "038 498 9980",
+        "email": "postbus@swt.zwolle.nl"
+      }
+    },
+    {
+      "naam": "ZwolleDoet! – Steunpunt Mantelzorg",
+      "soort": "vrijwilligers",
+      "omschrijving": "Onafhankelijk steunpunt van welzijnsorganisatie Travers voor mantelzorgers in Zwolle, ook voor jonge mantelzorgers en brussen van een ziek of beperkt kind. Biedt informatie, lotgenotencontact, themabijeenkomsten en hulp bij het regelen van vervangende zorg; organiseert jaarlijks de Week van de Jonge Mantelzorger.",
+      "themas": [
+        "mantelzorg",
+        "jonge mantelzorger",
+        "brusjes",
+        "gezin"
+      ],
+      "url": "https://www.zwolledoet.nl/informatie-over-mantelzorg",
+      "contact": {
+        "naam": "ZwolleDoet!",
+        "telefoon": "038 422 5200",
+        "email": "info@zwolledoet.nl",
+        "url": "https://www.zwolledoet.nl/"
+      }
+    },
+    {
+      "naam": "Travers Welzijn (Het Werkt Sociaal)",
+      "soort": "overig",
+      "omschrijving": "Buurtgericht jeugd- en jongerenwerk van welzijnsorganisatie Travers in de Zwolse wijken: jeugdwerkers die met sport- en spelactiviteiten de wijk ingaan, het jongerenplatform Blauwhaus en de Kinderraad waarin kinderen van 10 tot 14 jaar meedenken over de stad. Laagdrempelig, zonder verwijzing.",
+      "themas": [
+        "opvoeden",
+        "gezin",
+        "onderwijs"
+      ],
+      "url": "https://www.hetwerktsociaal.nl/",
+      "contact": {
+        "naam": "Het Werkt Sociaal (Travers Welzijn)",
+        "adres": "Burgemeester Drijbersingel 11, 8021 DA Zwolle",
+        "url": "https://www.hetwerktsociaal.nl/contact"
+      }
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Aanmelden bij het Sociaal wijkteam",
+      "omschrijving": "Aanmeldformulier van de gemeente Zwolle; voor uzelf of namens uw kind.",
+      "url": "https://formulier.zwolle.nl/aanmeldformulier-sociaal-wijkteam/introductie",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Klacht indienen over het Sociaal wijkteam",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. De klachtencoördinator van de gemeente handelt de klacht af. Vaak sneller dan bezwaar.",
+      "url": "https://www.zwolle.nl/bezwaar-en-beroep-bij-hulpvragen"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Gecontracteerde jeugdhulpaanbieders in regio IJsselland met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://www.zwolle.nl/bezwaar-en-beroep",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Pgb-plan Jeugd downloaden",
+      "omschrijving": "Het formulier dat u samen met het ondersteuningsplan bij uw sociaal werker inlevert.",
+      "url": "https://www.swtzwolle.nl/file/pgb-plan-jeugd-2",
+      "nodig": "Ondersteuningsplan van het wijkteam"
+    },
+    {
+      "naam": "Hulp bij het gesprek (Adviespunt Zorgbelang)",
+      "omschrijving": "Onafhankelijke cliëntondersteuning waar het Sociaal wijkteam naar verwijst.",
+      "url": "https://www.swtzwolle.nl/hulp-bij-gesprek"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Mantelzorgondersteuning aanvragen bij ZwolleDoet!",
+      "omschrijving": "Voor (jonge) mantelzorgers: informatie, lotgenotencontact en hulp bij het regelen van vervangende zorg.",
+      "url": "https://www.zwolledoet.nl/informatie-over-mantelzorg"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "De toegang in Zwolle krijgt van buitenaf een wisselend beeld. Positief: de Inspectie Gezondheidszorg en Jeugd was in 2023 te spreken over de deskundigheid en bereikbaarheid van het Sociaal wijkteam, en in het cliëntervaringsonderzoek 2024 voelt 87 procent van de jongeren en 92 procent van de ouders zich goed behandeld, al is de respons laag. Een rekenkameronderzoek naar de organisatie van de jeugdhulp signaleerde in 2023 knelpunten; in juni 2026 meldde het college de raad dat eerder ingeboekte bezuinigingen op jeugdhulp grotendeels niet haalbaar zijn, ondanks dat het aantal gecontracteerde zorgaanbieders is teruggebracht van ongeveer 210 naar 130. Regionaal kreeg in 2024 11,7 procent van de jeugd in IJsselland jeugdhulp en erkent de regio dat velen lang moesten wachten; de eind 2025 geactualiseerde regiovisie 2026-2031 zet in op eerder lichte hulp en een sterker netwerk rond het gezin.\n\nVoor ouders betekent dit dat de toegang zelf meldt geen wachtlijst te hebben, maar dat specialistische hulp daarna kan wachten en dat de gemeente kritisch kijkt naar de kosten van langdurige trajecten. Vraag bij het ondersteuningsplan naar de verwachte wachttijd en naar overbrugging; het wijkteam kan een gedragswetenschapper inzetten om een wachtperiode te overbruggen. Twijfelt u aan het advies, vraag dan eerst een second opinion bij een ander wijkteam in de stad; dat kan zonder kosten en zonder dat u daarmee het recht op bezwaar verliest. Komt u er niet uit, dan is een klacht bij de gemeente vaak sneller dan bezwaar, en kunnen het Adviespunt Zorgbelang of vertrouwenspersoon Jeugdstem u daarbij ondersteunen.",
+    "signalen": [
+      {
+        "soort": "nieuws",
+        "titel": "Raad bezorgd: bezuinigingen op jeugdhulp blijken grotendeels niet haalbaar",
+        "samenvatting": "In een raadsbrief en tijdens een raadsdebat liet het college weten dat eerder ingeboekte besparingen op jeugdhulp grotendeels niet haalbaar zijn. Volgens wethouder Van Willigen bleek begin 2026 uit de cijfers dat het aantal jongeren met jeugdhulp niet verder daalt en dat enkele zeer complexe zorgtrajecten hoge kosten veroorzaken, ook al is het aantal gecontracteerde zorgaanbieders teruggebracht van ongeveer 210 naar 130. Zes fracties (D66, VVD, CDA, Swollwacht, PRO en Stadspartij) vroegen om het debat; vrijwel alle partijen pleitten voor meer inzet op vroegsignalering en riepen het Rijk op gemeenten tegemoet te komen voor tekorten die voortvloeien uit landelijk beleid.",
+        "datum": "2026-06-09",
+        "bron": {
+          "titel": "RTV Focus Zwolle – Verslag: Zwolse raad zoekt balans tussen financiële houdbaarheid en hulp aan jongeren",
+          "url": "https://www.rtvfocuszwolle.nl/verslag-zwolse-raad-zoekt-balans-tussen-financiele-houdbaarheid-en-hulp-aan-jongeren/"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek 2024: jongeren en ouders overwegend tevreden, respons laag",
+        "samenvatting": "In mei 2024 ondervroeg de gemeente 1.527 ouders en 920 jongeren die in 2023 jeugdhulp kregen; 303 personen vulden de vragenlijst in (12 procent). 87 procent van de jongeren voelt zich goed geholpen, 86 procent van de ouders voelt zich goed geïnformeerd en 90 respectievelijk 92 procent voelt zich met respect behandeld. 77 procent van de jongeren voelt zich beter en 68 procent van de ouders ziet beter gedrag bij hun kind. De gemeente merkt op dat de cijfers door de lage respons over het algemeen niet voldoende representatief zijn.",
+        "datum": "2024-05",
+        "bron": {
+          "titel": "Gemeente Zwolle – Cliëntervaringsonderzoek Jeugdhulp Zwolle 2024",
+          "url": "https://www.zwolle.nl/clientervaringsonderzoek-jeugdhulp-zwolle-2024"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regio IJsselland: 11,7 procent van de jeugd in jeugdhulp, velen wachtten lang",
+        "samenvatting": "Het Regionaal Serviceteam Jeugd IJsselland meldt dat in 2024 12.887 jeugdigen (11,7 procent van de 110.354 jongeren in de regio) jeugdhulp kregen en dat velen lang moesten wachten op een passende behandeling. De regio deed mee aan het landelijke programma Aanpak Wachttijden (afgerond 31 december 2025) en zet het werk voort als Jeugd Innovatie Netwerk IJsselland, met als doel dat eind 2026 elke jongere tijdig passende hulp dichtbij huis krijgt. Per 1 januari 2026 is het RSJ ondergebracht bij GGD IJsselland.",
+        "datum": "2026-01",
+        "bron": {
+          "titel": "Regionaal Serviceteam Jeugd IJsselland – Aanpak wachttijden",
+          "url": "https://www.rsj-ijsselland.nl/node/110"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regiovisie Jeugdhulp IJsselland 2026-2031: lichtere hulp en sterker netwerk rond het gezin",
+        "samenvatting": "De elf gemeenten van regio IJsselland, waaronder Zwolle, stelden eind 2025 een geactualiseerde regiovisie jeugdhulp 2026-2031 vast, onder het motto 'It takes a village to raise a child'. Kernidee: jeugdigen groeien het best op in hun eigen omgeving, met ondersteuning vanuit het sociale netwerk voordat specialistische hulp wordt ingezet. De visie bouwt voort op vijf jaar werken aan sterkere lokale teams en de aanpak van wachttijden, en noemt wachttijden opnieuw als aandachtspunt voor de komende periode.",
+        "datum": "2025-10",
+        "bron": {
+          "titel": "Regionaal Serviceteam Jeugd IJsselland – Regiovisie Jeugdhulp IJsselland 2026-2031 (pdf)",
+          "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Regiovisie%20Jeugdhulp%20IJsselland%202026-2031.pdf"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Historie: rekenkameronderzoek 'Sleutel voor Jeugdhulp' naar organisatie jeugdhulp in Zwolle",
+        "samenvatting": "De Rekenkamercommissie Zwolle onderzocht in 2023 hoe de gemeente de organisatie en sturing van de jeugdhulp had ingericht, vastgelegd in het rapport 'Sleutel voor Jeugdhulp' (april 2023). Het rapport en de bestuurlijke reactie van het college daarop werden op 17 juli 2023 aan de gemeenteraad aangeboden.",
+        "datum": "2023-04",
+        "bron": {
+          "titel": "Gemeente Zwolle – Rekenkamer, agendapunt 'Sleutel voor Jeugdhulp' (raadsinformatie)",
+          "url": "https://zwolle.bestuurlijkeinformatie.nl/Agenda/Document/50fbb426-1c30-450f-8ad3-eaa1408fbf21?documentId=8c39bb2f-be44-485e-a8f1-6ebd3ceca153&agendaItemId=dfeea05d-d3b2-43cd-b54a-430ed5f4e921"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Historie: inspectie positief over deskundigheid Sociaal wijkteam, geen vervolgtoezicht",
+        "samenvatting": "De Inspectie Gezondheidszorg en Jeugd bezocht het Sociaal wijkteam in februari 2023 als een van vijftien lokale teams. Zij was positief over de deskundige professionals, de bereikbaarheid, het betrekken van ouders en de aandacht voor veiligheid, en verwachtte verbetering in het actief betrekken van jeugdigen zelf, het systematisch vastleggen van veiligheid en de VOG's van medewerkers. Het wijkteam meldde zelf geen wachtlijst te hebben en zo nodig een gedragswetenschapper in te zetten om een wachtperiode te overbruggen. De inspectie had vertrouwen in de verbeterstappen en sloot het toezicht af.",
+        "datum": "2023-06",
+        "bron": {
+          "titel": "IGJ – Toezicht naar de vakbekwaamheid en cliëntgerichtheid bij Sociaal Wijkteam Zwolle (via raadsinformatie Zwolle)",
+          "url": "https://zwolle.bestuurlijkeinformatie.nl/Document/View/b8875f13-f953-4cb0-87eb-c1a02e649efa"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-11",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2024",
+        "samenvatting": "Jaarlijks onderzoek van de gemeente (negende editie in 2024; 303 respondenten, 12 procent respons): 87 procent van de jongeren voelt zich goed geholpen, 92 procent van de ouders met respect behandeld. Een editie over 2024 (meting 2025) is op zwolle.nl niet gevonden.",
+        "url": "https://www.zwolle.nl/clientervaringsonderzoek-jeugdhulp-zwolle-2024"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Geen doorlooptijden of beslistermijnen van het Sociaal wijkteam gepubliceerd. In het inspectierapport van 2023 meldde het wijkteam geen wachtlijst te hebben; de regio IJsselland rapporteert wel dat veel jeugdigen lang wachten op specialistische behandeling, zonder cijfers per gemeente.",
+        "url": "https://www.rsj-ijsselland.nl/node/110"
+      },
+      "aandeelHuisarts": {
+        "percentage": 21,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Sociaal wijkteam Zwolle – Contact",
+        "url": "https://www.swtzwolle.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Mijn wijkteam (locaties en inloopspreekuren)",
+        "url": "https://www.swtzwolle.nl/mijn-wijkteam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Klachten",
+        "url": "https://www.swtzwolle.nl/klachten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Hulp bij gesprek",
+        "url": "https://www.swtzwolle.nl/hulp-bij-gesprek",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Zorg in natura of pgb",
+        "url": "https://www.swtzwolle.nl/zorg-in-natura-of-persoonsgebonden-budget-pgb",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Pgb-plan Jeugd (download)",
+        "url": "https://www.swtzwolle.nl/file/pgb-plan-jeugd-2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Mantelzorg",
+        "url": "https://www.swtzwolle.nl/mantelzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal wijkteam Zwolle – Trainingen",
+        "url": "https://www.swtzwolle.nl/trainingen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Formulier gemeente Zwolle – Aanmeldformulier Sociaal wijkteam",
+        "url": "https://formulier.zwolle.nl/aanmeldformulier-sociaal-wijkteam/introductie",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zwolle – Bezwaar en beroep bij hulpvragen",
+        "url": "https://www.zwolle.nl/bezwaar-en-beroep-bij-hulpvragen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zwolle – Bezwaar en beroep",
+        "url": "https://www.zwolle.nl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zwolle – Cliëntervaringsonderzoek Jeugdhulp Zwolle 2024",
+        "url": "https://www.zwolle.nl/clientervaringsonderzoek-jeugdhulp-zwolle-2024",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zwolle – Rekenkamer (overzicht onderzoeken)",
+        "url": "https://www.zwolle.nl/rekenkamer",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zwolle – Rekenkamer, agendapunt 'Sleutel voor Jeugdhulp' (raadsinformatie)",
+        "url": "https://zwolle.bestuurlijkeinformatie.nl/Agenda/Document/50fbb426-1c30-450f-8ad3-eaa1408fbf21?documentId=8c39bb2f-be44-485e-a8f1-6ebd3ceca153&agendaItemId=dfeea05d-d3b2-43cd-b54a-430ed5f4e921",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "IGJ – Toezicht naar de vakbekwaamheid en cliëntgerichtheid bij Sociaal Wijkteam Zwolle (via raadsinformatie Zwolle)",
+        "url": "https://zwolle.bestuurlijkeinformatie.nl/Document/View/b8875f13-f953-4cb0-87eb-c1a02e649efa",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis IJsselland – Contact",
+        "url": "https://www.vtij.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RSJ IJsselland – Aanpak wachttijden",
+        "url": "https://www.rsj-ijsselland.nl/node/110",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regionaal Serviceteam Jeugd IJsselland – Regiovisie Jeugdhulp IJsselland 2026-2031 (pdf)",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Regiovisie%20Jeugdhulp%20IJsselland%202026-2031.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RTV Focus Zwolle – Verslag: Zwolse raad zoekt balans tussen financiële houdbaarheid en hulp aan jongeren",
+        "url": "https://www.rtvfocuszwolle.nl/verslag-zwolse-raad-zoekt-balans-tussen-financiele-houdbaarheid-en-hulp-aan-jongeren/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – Jeugdhulp IJsselland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman – Gemeente Zwolle",
+        "url": "https://www.nationaleombudsman.nl/overheidsinstanties/gemeente-zwolle",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Zorgbelang Overijssel – Adviespunt Zorgbelang",
+        "url": "https://www.zorgbelang-overijssel.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "ZwolleDoet! – Informatie over mantelzorg",
+        "url": "https://www.zwolledoet.nl/informatie-over-mantelzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Travers – Over Travers (Doomijn, Hedon, ZwolleDoet!, Het Werkt Sociaal)",
+        "url": "https://www.travers.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Het Werkt Sociaal (Travers Welzijn) – Aanbod",
+        "url": "https://www.hetwerktsociaal.nl/aanbod",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine – Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zwolle: Meldpunten onveilige situaties",
+        "url": "https://www.zwolle.nl/meldpunten-onveilige-situaties",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD IJsselland: Contact jeugdgezondheidszorg",
+        "url": "https://www.ggdijsselland.nl/home/mijn-kind/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV Hanzeland: Contact",
+        "url": "https://swv-hanzeland.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Nog open: cliëntervaringsonderzoek over 2024 (meting 2025) en doorlooptijden van het wijkteam niet gevonden. Inloopspreekuren wisselen per locatie; controleer swtzwolle.nl/mijn-wijkteam bij elke bijwerkronde. Pdf's van regiovisie en IGJ-rapport waren niet machinaal leesbaar."
+  }
+}

@@ -1,8 +1,8 @@
 ---
 titel: Uw rechten als ouder
-samenvatting: Cliëntondersteuning, pgb, inzage, bezwaar en een vertrouwenspersoon. Dit is landelijk geregeld, ongeacht uw gemeente.
+samenvatting: Cliëntondersteuning, pgb, uw dossier inzien, bezwaar en een vertrouwenspersoon. Dit is in heel Nederland hetzelfde geregeld, in elke gemeente.
 volgorde: 3
-laatstGecontroleerd: "2026-10-10"
+laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: Jeugdstem – Rechten in de jeugdhulp
     url: https://jeugdstem.nl/
@@ -14,34 +14,59 @@ bronnen:
 
 ## Onafhankelijke cliëntondersteuning
 
-Elke gemeente moet **gratis en onafhankelijke cliëntondersteuning** aanbieden (Wmo 2015, art. 2.2.4). De ondersteuner staat naast u, niet naast de gemeente, en kan helpen bij het voorbereiden en voeren van gesprekken. Vraag er expliciet naar; gemeenten wijzen er niet altijd uit zichzelf op.
+Elke gemeente moet **cliëntondersteuning** aanbieden. Die is gratis en onafhankelijk (Wmo 2015, art. 2.2.4). De cliëntondersteuner staat aan uw kant, niet aan de kant van de gemeente. Hij of zij helpt u gesprekken voor te bereiden en gaat mee naar het gesprek. Ook helpt de ondersteuner u om op papier te zetten welke hulp u zoekt.
+
+Goed om te weten:
+
+- Het recht geldt voor **alles wat de gemeente regelt rond zorg en welzijn**: jeugdhulp, Wmo, werk en inkomen. Maar ook onderwijs, zorg en wonen (Wmo 2015, art. 1.1.1). De gemeente mag de hulp niet beperken tot gesprekken met het eigen wijkteam.
+- U mag een cliëntondersteuner al **vóór het eerste gesprek** vragen. Juist dan maakt de hulp vaak het verschil.
+- De gemeente moet u **zelf vertellen** dat cliëntondersteuning bestaat. Hoort u er niets over? Vraag er dan zelf naar.
+- In veel gemeenten doet MEE de cliëntondersteuning. In andere gemeenten doet een welzijnsorganisatie het, of doen vrijwilligers het. Wie het bij u doet, staat op de pagina van uw gemeente.
+
+**Wie is MEE?** MEE is de grootste aanbieder van onafhankelijke cliëntondersteuning in Nederland. MEE bestaat uit regionale organisaties die samenwerken. Elke organisatie werkt in een eigen regio, zoals MEE Zuid-Holland Noord, MEE Rotterdam Rijnmond en MEE Gelderse Poort. MEE begon als steun voor mensen met een beperking of chronische ziekte. Daardoor kent MEE de grens tussen Jeugdwet, Wmo en Wlz goed. Gemeenten kopen de cliëntondersteuning vaak in bij MEE. Voor u betekent dat: het is gratis en u heeft geen verwijzing nodig. En MEE werkt niet voor de gemeente of voor een zorgaanbieder. Weet u niet welke MEE bij uw gemeente hoort? Bel dan het landelijke nummer 0900 999 8888 of gebruik de MEE-locator. <sup><a class="bron" href="https://www.mee.nl/clientondersteuning" target="_blank" rel="noopener">bron</a></sup>
 
 ## Persoonsgebonden budget (pgb)
 
-U kunt kiezen voor een **pgb** in plaats van zorg in natura, als u:
+Meestal regelt de gemeente de zorg voor u. Dat heet zorg in natura. U kunt ook kiezen voor een **pgb**. Dan krijgt u een budget en regelt u de zorg zelf. Dat kan als u:
 
-1. motiveert waarom zorg in natura niet passend is;
-2. in staat bent het budget te beheren (eventueel met hulp);
+1. uitlegt waarom zorg in natura niet past;
+2. het budget kunt beheren, eventueel met hulp;
 3. zorg inkoopt die van goede kwaliteit is.
 
-De Sociale Verzekeringsbank (SVB) beheert het budget en betaalt de zorgverleners uit.
+De Sociale Verzekeringsbank (SVB) beheert het budget. De SVB betaalt de zorgverleners.
+
+**Eerlijk over wat het vraagt.** Met een pgb heeft u zelf de regie. Maar het is ook veel werk. U moet:
+
+- een budgetplan schrijven;
+- met elke zorgverlener een zorgovereenkomst sluiten en die laten goedkeuren door de gemeente en de SVB;
+- elke maand declareren.
+
+Ook bent u werkgever of opdrachtgever van de zorgverlener, met alles wat daarbij hoort. De gemeente mag vooraf toetsen of u een pgb aankunt. Dat heet 'pgb-vaardig'. Daarvoor gebruikt de gemeente tien landelijke punten. Vindt de gemeente dat u niet pgb-vaardig bent? Dan mag zij het pgb weigeren. U mag dan wel iemand aanwijzen die het budget voor u beheert. Reken op een paar uur papierwerk per maand. En reken erop dat de aanvraag een paar maanden duurt.
+
+Per Saldo is de vereniging van budgethouders. Per Saldo heeft een advieslijn en geeft cursussen. In veel gemeenten kan ook de cliëntondersteuner meekijken bij het budgetplan. Kies een pgb als u een bepaalde zorgverlener of hulpvorm wilt waar de gemeente geen contract mee heeft. Kies een pgb niet als snelle weg om een wachtlijst te ontlopen. <sup><a class="bron" href="https://www.rijksoverheid.nl/onderwerpen/persoonsgebonden-budget-pgb/vraag-en-antwoord/pgb-vaardigheid" target="_blank" rel="noopener">bron</a></sup>
 
 ## Beschikking, bezwaar en beroep
 
-Een besluit over jeugdhulp is een **beschikking**. Bent u het er niet mee eens?
+Een besluit over jeugdhulp heet een **beschikking**. Bent u het niet eens met het besluit?
 
-- **Bezwaar** maken bij de gemeente binnen **6 weken** na de datum van de beschikking.
-- Bij afwijzing van het bezwaar: **beroep** bij de rechtbank, opnieuw binnen 6 weken.
-- Geen beschikking ontvangen terwijl u die wel verwacht? Vraag er schriftelijk om; ook een mondelinge weigering is een besluit waartegen u op kunt komen.
+- Maak **bezwaar** bij de gemeente. Dat moet binnen **6 weken** na de datum van de beschikking. Gebruik de [voorbeeldbrief bezwaar](../brieven/bezwaar-beschikking/).
+- Wijst de gemeente uw bezwaar af? Dan kunt u in **beroep** gaan bij de rechtbank. Ook dat moet binnen 6 weken.
+- Verwacht u een beschikking, maar krijgt u die niet? Vraag er dan schriftelijk om. Ook als de gemeente alleen mondeling "nee" zegt, is dat een besluit. Daartegen kunt u ook bezwaar maken.
 
 ## Klachten
 
-Over de bejegening door het wijkteam of een aanbieder kunt u een klacht indienen bij die organisatie. Elke organisatie moet een **klachtenregeling** hebben.
+Bent u niet tevreden over hoe het wijkteam of een zorgaanbieder werkt of met u omgaat? Dan kunt u een klacht indienen bij die organisatie. Elke organisatie moet een **klachtenregeling** hebben, met een onafhankelijke klachtencommissie. Voor een klacht geldt geen termijn. Een klacht is vaak sneller dan bezwaar. Lees meer bij [Klacht of bezwaar: wat werkt wanneer?](#07-klacht-of-bezwaar).
 
 ## Vertrouwenspersoon
 
-Iedereen die met jeugdhulp te maken heeft, kan gratis terecht bij een onafhankelijke **vertrouwenspersoon van Jeugdstem** (voorheen AKJ). Dit is wettelijk vastgelegd.
+Heeft u met jeugdhulp te maken? Dan kunt u gratis terecht bij een onafhankelijke **vertrouwenspersoon van Jeugdstem**. Jeugdstem heette vroeger AKJ. Dit recht staat in de wet.
 
 ## Inzage en privacy
 
-U heeft recht op **inzage** in het dossier van uw kind (tot 12 jaar volledig; 12-16 jaar samen met uw kind; vanaf 16 jaar beslist het kind). Gegevens mogen niet zonder toestemming worden gedeeld, behalve bij onveiligheid.
+U heeft het recht om het dossier van uw kind te **lezen**. Dat heet inzage. Hoe dat gaat, hangt af van de leeftijd van uw kind:
+
+- tot 12 jaar: u mag het hele dossier inzien;
+- van 12 tot 16 jaar: u doet het samen met uw kind;
+- vanaf 16 jaar: uw kind beslist.
+
+Gegevens mogen niet zonder toestemming worden gedeeld. Dat mag alleen wel als het niet veilig is.

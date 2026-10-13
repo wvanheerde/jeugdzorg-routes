@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import Toegang from '../../components/Toegang.astro';
+import ToegangLegenda from '../../components/ToegangLegenda.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+---
+<Base title="Situaties en hulpsoorten" description="Herkent u de situatie van uw kind? Lees per situatie welke hulp er is, waar u begint en wat u zelf kunt doen.">
+  <div class="page-head">
+    <span class="eyebrow">Wat speelt er?</span>
+    <h1>Situaties</h1>
+    <p class="lead">Kies wat het meest lijkt op uw situatie. U ziet dan welke hulp er bestaat, welke route logisch is en welke regelingen en organisaties erbij horen. Meerdere situaties tegelijk komt vaak voor; kijk gerust bij allebei.</p>
+  </div>
+  <div class="grid">
+    {situaties.map((s) => (
+      <a class="card link" href={`${base}/situaties/${s.id}/`}>
+        <h3>{s.data.titel}</h3>
+        <p class="meta">{s.data.herkenning}</p>
+        <span class="arrow">Bekijk →</span>
+      </a>
+    ))}
+  </div>
+
+  <div class="kicker" id="knelpunten"><h2>Waar gaat uw vraag over?</h2><span class="line"></span></div>
+  <p class="lead" style="font-size:1.05rem;margin-top:.75rem">Naast wat er bij uw kind speelt, telt waar uw vraag over gaat. Kies wat past; u krijgt dan direct de stappen, brieven en contactgegevens die daarbij horen.</p>
+  <div class="grid" style="margin-top:1.25rem">
+    {knelpunten.map((k) => (
+      <a class="card link" href={`${base}/overzicht/?k=${k.id}`}>
+        <h3>{k.data.titel}</h3>
+        <p class="meta">{k.data.herkenning}</p>
+        <span class="arrow">Wat kan ik nu doen →</span>
+      </a>
+    ))}
+  </div>
+
+  <div class="kicker" id="hulpsoorten"><h2>Welke soorten jeugdhulp bestaan er?</h2><span class="line"></span></div>
+  <p class="lead" style="font-size:1.05rem;margin-top:.75rem">Dit zijn de soorten hulp die elke gemeente moet kunnen bieden. De namen van aanbieders verschillen, de soorten niet.</p>
+  <ToegangLegenda />
+  <div class="grid" style="margin-top:1.25rem">
+    {hulpsoorten.map((h) => (
+      <div class="card" id={h.id} style="scroll-margin-top:5.5rem">
+        <h3>{h.data.naam}</h3>
+        <p>{h.data.omschrijving}</p>
+        <p class="meta"><strong>Voor wie:</strong> {h.data.voorWie}</p>
+        {h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
+        <Toegang waarde={h.data.beschikkingNodig} />
+      </div>
+    ))}
+  </div>
+</Base>

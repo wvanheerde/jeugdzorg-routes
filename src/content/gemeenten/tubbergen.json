@@ -1,0 +1,362 @@
+{
+  "naam": "Tubbergen",
+  "cbsCode": "GM0183",
+  "provincie": "Overijssel",
+  "websiteJeugd": "https://www.tubbergen.nl/schakel",
+  "toegang": {
+    "samenvatting": "In Tubbergen is Schakel de plek voor vragen over opvoeden, opgroeien en jeugdhulp. Schakel is een samenwerking van de gemeente en Stichting Welzijn Tubbergen Dinkelland. U meldt zich zelf aan. Een verwijzing is niet nodig. U kunt bellen, mailen of langskomen. Bij Schakel werkt ook de jeugdconsulent van de gemeente. Die bekijkt of uw kind specialistische jeugdhulp krijgt. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Schakel Tubbergen",
+        "omschrijving": "Schakel geeft informatie, advies en ondersteuning bij vragen over welzijn, inkomen, jeugd en zorg. Sociaal werkers van de welzijnsorganisaties helpen met lichtere ondersteuning, zoals opvoedvragen en schoolmaatschappelijk werk. De jeugdconsulent werkt voor de gemeente en onderzoekt uw hulpvraag. Specialistische jeugdhulp vraagt u aan bij de gemeente. De gemeente neemt daarover een schriftelijk besluit (beschikking).",
+        "stappen": [
+          "Bel of mail Schakel, of loop binnen bij het gemeentehuis in Tubbergen. Vertel waar u zich zorgen over maakt.",
+          "Bespreek uw vraag met een sociaal werker of de jeugdconsulent. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Is meer hulp nodig? Vraag dan jeugdhulp aan bij de gemeente. U mag ook een familiegroepsplan maken: een plan dat uw gezin zelf opstelt, samen met familie of bekenden. Dat is niet verplicht.",
+          "Vraag na het gesprek om een schriftelijk verslag en om een schriftelijk besluit over de hulp."
+        ],
+        "contact": {
+          "naam": "Schakel Tubbergen",
+          "telefoon": "0546 62 87 01",
+          "email": "info@schakeltubbergen.nl",
+          "url": "https://schakeltubbergen.nl/contact/",
+          "adres": "Raadhuisplein 1, Tubbergen (gemeentehuis)",
+          "openingstijden": "Werkdagen 9.00–12.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Schakel. De gemeente vergoedt alleen hulp van een aanbieder met een contract.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Twente",
+          "telefoon": "053 487 6670",
+          "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Begin bij de leerkracht of mentor. Schakel helpt bij vragen over school en extra ondersteuning, onder meer met schoolmaatschappelijk werk. Komt u er met school niet uit, dan geeft het samenwerkingsverband passend onderwijs advies. Voor de basisschool is dat Samenwerkingsverband Twente Noord PO. Voor de middelbare school hangt het af van de school: Canisius valt onder Samenwerkingsverband VO Twente West, het Twents Carmel College onder Samenwerkingsverband VO Twente Oost.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de school Schakel of het schoolmaatschappelijk werk kan inschakelen. U kunt zich ook zelf aanmelden bij Schakel.",
+          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Schakel Tubbergen",
+            "telefoon": "0546 62 87 01",
+            "email": "info@schakeltubbergen.nl",
+            "url": "https://schakeltubbergen.nl/contact/",
+            "adres": "Raadhuisplein 1, Tubbergen (gemeentehuis)",
+            "openingstijden": "Werkdagen 9.00–12.00 uur"
+          },
+          {
+            "naam": "Samenwerkingsverband Twente Noord PO (Ouder- en Jeugdsteunpunt)",
+            "telefoon": "0546 74 57 90",
+            "url": "https://swv-twentenoord.nl/contact/"
+          },
+          {
+            "naam": "Samenwerkingsverband VO Twente West (Ouder en Jeugd Steunpunt)",
+            "email": "info@swvvotwentewest.nl",
+            "url": "https://swvvotwentewest.nl/contact"
+          },
+          {
+            "naam": "Samenwerkingsverband VO Twente Oost",
+            "email": "secretariaat@swvvotwenteoost.nl",
+            "url": "https://www.swvvotwenteoost.nl/contact/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Wat de gemeente zelf over kindermishandeling en huiselijk geweld meldt, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Lees op de pagina Huiselijk geweld van de gemeente Tubbergen wat u kunt doen bij zorgen over de veiligheid van een kind."
+        ],
+        "contact": {
+          "naam": "Gemeente Tubbergen: huiselijk geweld en kindermishandeling",
+          "url": "https://www.tubbergen.nl/huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Onafhankelijke cliëntondersteuning via Schakel",
+      "toelichting": "Gratis en onafhankelijk. Bij Schakel werken sociaal werkers die individuele onafhankelijke cliëntondersteuning geven. Ze helpen met vragen en gaan mee naar gesprekken. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek met de jeugdconsulent. De cliëntondersteuner werkt onafhankelijk van de gemeente en van zorginstellingen.",
+      "url": "https://www.tubbergen.nl/onafhankelijke-clientondersteuning"
+    },
+    "klacht": {
+      "naam": "Klacht over de jeugdconsulent of de gemeente",
+      "toelichting": "De jeugdconsulenten werken voor de gemeente. Een klacht over hun bejegening gaat daarom via de klachtenregeling van de gemeente. Dat kan online (met of zonder DigiD), per brief, per e-mail of telefonisch. Een klachtbehandelaar neemt contact met u op en probeert het eerst in een gesprek op te lossen. Bent u daarna niet tevreden, dan krijgt u een schriftelijke beslissing. Bent u het daar niet mee eens, dan kunt u naar de Nationale ombudsman. Een klacht over een welzijnsorganisatie of zorgaanbieder dient u eerst bij die organisatie in. Een vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "url": "https://www.tubbergen.nl/klacht",
+      "email": "gemeente@tubbergen.nl",
+      "telefoon": "0546 62 80 00",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u per brief of per e-mail bij de gemeente. Bel gerust eerst de jeugdconsulent. Die kan het besluit uitleggen. Een onafhankelijke bezwaarschriftencommissie kan u uitnodigen voor een gesprek (hoorzitting). De gemeente beslist meestal binnen 12 weken na het einde van de bezwaartermijn.",
+      "url": "https://www.tubbergen.nl/zienswijze-bezwaar-en-beroep"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U maakt eerst een budgetplan. Met de hulpverlener sluit u een vaste overeenkomst van de Sociale Verzekeringsbank (SVB). Vraagt u hulp aan iemand uit uw eigen netwerk, zoals familie? Dan moet de gemeente die hulp aantoonbaar beter en doelmatiger (efficiënter) vinden. Specialistische hulp of behandeling moet komen van een gekwalificeerde beroepskracht. Ouders en mensen uit uw netwerk tellen daarvoor niet mee. Een vast bedrag per maand mag u niet declareren. Hulp die al is geleverd voordat u de aanvraag deed, vergoedt de gemeente niet.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR753428"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp, advies en schoolmaatschappelijk werk krijgt u via Schakel. Specialistische jeugdhulp koopt Tubbergen samen met de andere Twentse gemeenten in. De gemeente vergoedt alleen hulp van aanbieders met een contract. De Beschikbaarheidswijzer van Twente laat zien welke aanbieders er zijn en wat hun wachttijden zijn. Dat overzicht is openbaar, zonder inloggen. Vraag de jeugdconsulent om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via Schakel: informatie, advies en ondersteuning bij opvoedvragen, scheiden, rouw en jonge mantelzorgers. Schakel werkt hierbij samen met onder meer Loes opvoedondersteuning.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Schoolmaatschappelijk werk",
+        "omschrijving": "Kortdurende hulp op school, via Wijkracht.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbesteding en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "verblijf-pleegzorg",
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Adviesraad Sociaal Domein Tubbergen",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Inwoners die de gemeente adviseren over zorg, welzijn, jeugd en werk en inkomen. Over uw eigen situatie adviseert de raad niet. Problemen die bij veel gezinnen terugkomen, kan de raad wel bij de gemeente aankaarten.",
+      "themas": [
+        "jeugdhulp",
+        "gezin"
+      ],
+      "url": "https://www.tubbergen.nl/adviesraad-sociaal-domein-gemeente-tubbergen"
+    },
+    {
+      "naam": "Schakel Tubbergen: Jeugd & gezin",
+      "soort": "informatiepunt",
+      "omschrijving": "Informatie en ondersteuning bij opvoeden, school, scheiden, rouw en verlies en jonge mantelzorgers. Schakel vertelt ook of er in de buurt groepen zijn waar ouders ervaringen delen.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://schakeltubbergen.nl/jeugd-gezin/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contact opnemen met Schakel",
+      "omschrijving": "Telefoon, e-mail of langskomen bij het gemeentehuis in Tubbergen.",
+      "url": "https://schakeltubbergen.nl/contact/"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.tubbergen.nl/klacht",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen. DigiD is niet verplicht."
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.tubbergen.nl/zienswijze-bezwaar-en-beroep",
+      "nodig": "Het besluit bij de hand. Bezwaar kan per brief of e-mail."
+    },
+    {
+      "naam": "Beschikbaarheidswijzer Twente bekijken",
+      "omschrijving": "Overzicht van aanbieders en wachttijden in Twente. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Tubbergen: Schakel",
+        "url": "https://www.tubbergen.nl/schakel",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Schakel Tubbergen: Contact",
+        "url": "https://schakeltubbergen.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Schakel Tubbergen: Onze mensen",
+        "url": "https://schakeltubbergen.nl/onze-mensen/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Schakel Tubbergen: Jeugd & gezin",
+        "url": "https://schakeltubbergen.nl/jeugd-gezin/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Schakel Tubbergen: Opvoeden",
+        "url": "https://schakeltubbergen.nl/jeugd-gezin/opvoeden/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Schakel Tubbergen: School & studie",
+        "url": "https://schakeltubbergen.nl/jeugd-gezin/school-studie/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tubbergen: Onafhankelijke cliëntondersteuning",
+        "url": "https://www.tubbergen.nl/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tubbergen: Klacht",
+        "url": "https://www.tubbergen.nl/klacht",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tubbergen: Zienswijze, bezwaar en beroep",
+        "url": "https://www.tubbergen.nl/zienswijze-bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tubbergen: Huiselijk geweld",
+        "url": "https://www.tubbergen.nl/huiselijk-geweld",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tubbergen: Begroting en jaarstukken",
+        "url": "https://www.tubbergen.nl/begroting-en-jaarstukken",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Tubbergen: Adviesraad Sociaal Domein",
+        "url": "https://www.tubbergen.nl/adviesraad-sociaal-domein-gemeente-tubbergen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Tubbergen 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR753428",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsbrief 31 Voortgang inkoop Jeugdhulp 2025 (10 april 2024)",
+        "url": "https://bestuur.tubbergen.nl/Documenten/Raadsbrief-31-Voortgang-inkoop-Jeugdhulp-2025.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsbrief 38 Cliëntervaringsonderzoek Wmo en Jeugdwet Tubbergen 2025 over 2024",
+        "url": "https://bestuur.tubbergen.nl/Documenten/Raadsbrief-38-Clientervaringsonderzoek-Wmo-en-Jeugdwet-Tubbergen-2025-over-2024.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Twente: Contact met Jeugdgezondheid",
+        "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV Twente Noord PO: Contact",
+        "url": "https://swv-twentenoord.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV Twente Noord PO: Ouder- en Jeugdsteunpunt",
+        "url": "https://swv-twentenoord.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV VO Twente West: Contact",
+        "url": "https://swvvotwentewest.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV VO Twente Oost: Contact",
+        "url": "https://www.swvvotwenteoost.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Twente",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samen14: Inkoop",
+        "url": "https://samen14.nl/inkoop/default.aspx",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Raadsinformatie (bestuur.tubbergen.nl, Anubis) is niet te openen: jaarstukken 2025, cliëntervaringsonderzoek 2025 en Factsheet Jeugd niet gelezen; begroting 2027 niet gevonden. Doorlooptijden, klachtenregeling SWTD en Wijkracht niet gevonden. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+  },
+  "jeugdzorgregio": "Twente (Samen14)",
+  "ervaringen": {
+    "samenvatting": "In Tubbergen krijgt u jeugdhulp via Schakel of via de huisarts. Sinds 1 januari 2026 geldt een nieuwe Verordening jeugdhulp, met regels voor de aanvraag, het familiegroepsplan en het pgb. De gemeente liet onderzoeken hoe cliënten Wmo en jeugdhulp ervaren (2025, over 2024). Hoe lang het duurt tot een gesprek bij Schakel, is niet openbaar te vinden.\n\nVraag bij uw aanmelding bij Schakel hoe lang het duurt en leg afspraken schriftelijk vast, zoals het verslag van het gesprek en het besluit. Neem een onafhankelijke cliëntondersteuner mee. Een klacht over de jeugdconsulent dient u in via de klachtenregeling van de gemeente. Bent u niet tevreden over de afhandeling, dan kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe Verordening jeugdhulp 2026",
+        "samenvatting": "Sinds 1 januari 2026 geldt de Verordening jeugdhulp gemeente Tubbergen 2026. Daarin staan de regels voor de aanvraag, het familiegroepsplan en het pgb. Alleen hulp van aanbieders met een contract wordt vergoed.",
+        "datum": "2026-01",
+        "bron": {
+          "titel": "Verordening jeugdhulp gemeente Tubbergen 2026",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR753428"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe inkoop van jeugdhulp in Twente vanaf 2025",
+        "samenvatting": "De 14 Twentse gemeenten kochten de jeugdhulp voor 2025 opnieuw in. Alleen aanbieders die voldoen aan de eisen voor kwaliteit en integriteit, kregen een contract. Heeft uw aanbieder geen contract meer, dan kijkt de gemeente wat dat betekent voor kinderen die al hulp krijgen.",
+        "datum": "2024-04-10",
+        "bron": {
+          "titel": "Raadsbrief 31 Voortgang inkoop Jeugdhulp 2025",
+          "url": "https://bestuur.tubbergen.nl/Documenten/Raadsbrief-31-Voortgang-inkoop-Jeugdhulp-2025.pdf"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://bestuur.tubbergen.nl/Documenten/Raadsbrief-38-Clientervaringsonderzoek-Wmo-en-Jeugdwet-Tubbergen-2025-over-2024.pdf",
+        "samenvatting": "De gemeente liet in 2025 een onderzoek doen onder cliënten van Wmo en jeugdhulp, over 2024. De uitkomsten voor jeugd zijn niet openbaar te vinden. Vraag de gemeente ernaar."
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

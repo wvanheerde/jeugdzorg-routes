@@ -1,0 +1,20 @@
+{"stap":1,"tijd":"2026-10-12T21:24:16.117Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-12T21:24:16.685Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-12T21:24:16.732Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1028}
+{"stap":4,"tijd":"2026-10-12T21:24:20.759Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["eerste"]}
+{"stap":5,"tijd":"2026-10-12T21:24:20.793Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 1/10. Eerste scherm: geen telefoonnummer te zien, alleen gemeente kiezen. Ik wil nu bellen, niet kiezen. Ik scroll even."],"tekst":"stap 1/10. Eerste scherm: geen telefoonnummer te zien, alleen gemeente kiezen. Ik wil nu bellen, niet kiezen. Ik scroll even."}
+{"stap":6,"tijd":"2026-10-12T21:24:21.257Z","url":"http://127.0.0.1:4329/","cmd":"scroll","args":["omlaag"]}
+{"stap":7,"tijd":"2026-10-12T21:24:24.216Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 2/10 (scroll). 'Het kan niet wachten' is precies wat ik heb. Klik."],"tekst":"stap 2/10 (scroll). 'Het kan niet wachten' is precies wat ik heb. Klik."}
+{"stap":8,"tijd":"2026-10-12T21:24:26.060Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["19"]}
+{"stap":9,"tijd":"2026-10-12T21:24:28.433Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1241}
+{"stap":10,"tijd":"2026-10-12T21:24:28.606Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["na-klik"]}
+{"stap":11,"tijd":"2026-10-12T21:24:31.584Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 3/10. Er staat 'Gekozen' en een link 'Toon mijn overzicht'. Ik had gehoopt direct een nummer te zien. Klik."],"tekst":"stap 3/10. Er staat 'Gekozen' en een link 'Toon mijn overzicht'. Ik had gehoopt direct een nummer te zien. Klik."}
+{"stap":12,"tijd":"2026-10-12T21:24:33.453Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"klik","args":["42"]}
+{"stap":13,"tijd":"2026-10-12T21:24:33.500Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"kijk","args":[],"lengte":726}
+{"stap":14,"tijd":"2026-10-12T21:24:36.259Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["stap 4/10 (scroll). Huisartsenpost dag en nacht — dat weet ik wel, maar geen nummer. Verder."],"tekst":"stap 4/10 (scroll). Huisartsenpost dag en nacht — dat weet ik wel, maar geen nummer. Verder."}
+{"stap":15,"tijd":"2026-10-12T21:24:36.728Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":["omlaag"]}
+{"stap":16,"tijd":"2026-10-12T21:24:41.194Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"foto","args":["belangrijk"]}
+{"stap":17,"tijd":"2026-10-12T21:24:41.230Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["stap 5/10. Nuttig: huisartsenpost via nummer huisarts, Veilig Thuis 0800-2000, 113 0800-0113. Maar paniekaanval is geen zelfdoding of onveilig thuis; ik wil HAP. Nog 1 scroll."],"tekst":"stap 5/10. Nuttig: huisartsenpost via nummer huisarts, Veilig Thuis 0800-2000, 113 0800-0113. Maar paniekaanval is geen zelfdoding of onveilig thuis; ik wil HAP. Nog 1 scroll."}
+{"stap":18,"tijd":"2026-10-12T21:24:41.703Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":["omlaag"]}
+{"stap":19,"tijd":"2026-10-12T21:24:53.494Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["stap 5/10 klaar. Ik bel de huisartsenpost via het voicemailnummer van mijn huisarts. Zonder gemeente geen lokale gegevens, en ik had niet willen kiezen."],"tekst":"stap 5/10 klaar. Ik bel de huisartsenpost via het voicemailnummer van mijn huisarts. Zonder gemeente geen lokale gegevens, en ik had niet willen kiezen."}
+{"stap":20,"tijd":"2026-10-12T21:24:53.525Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"stop"}

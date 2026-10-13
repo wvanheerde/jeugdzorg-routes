@@ -1,91 +1,414 @@
+/* ---------- Ontwerp-tokens ---------- */
 :root {
-  --c-bg: #fbfbf9;
+  --c-bg: #f7f5f0;          /* warm zand */
   --c-surface: #ffffff;
-  --c-text: #1f2a37;
-  --c-muted: #5b6b7c;
-  --c-border: #e3e7ec;
-  --c-primary: #1f6f8b;
-  --c-primary-dark: #185a71;
-  --c-accent: #e9f3f6;
+  --c-surface-2: #fdfcfa;
+  --c-text: #1b2733;
+  --c-muted: #5c6b7a;
+  --c-border: #e6e1d8;
+  --c-primary: #0f6b6e;     /* diep teal */
+  --c-primary-dark: #0b5255;
+  --c-primary-soft: #e3f1f0;
+  --c-accent: #bf4f1c;      /* terracotta, spaarzaam */
+  --c-accent-soft: #fbeae1;
   --c-warn-bg: #fff6e5;
   --c-warn-border: #f0c67a;
-  --radius: 10px;
-  --maxw: 72rem;
-  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --c-ok-soft: #e6f4ea;
+  --c-ok: #1d7a3a;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px rgba(27,39,51,.05), 0 1px 1px rgba(27,39,51,.03);
+  --shadow-md: 0 6px 20px rgba(27,39,51,.08);
+  --maxw: 74rem;
+  --font-body: 'Inter Variable', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-head: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
 }
+
+/* ---------- Basis ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { font-family: var(--font); color: var(--c-text); background: var(--c-bg); line-height: 1.6; font-size: 17px; }
-body { margin: 0; }
-a { color: var(--c-primary); }
+[hidden] { display: none !important; }
+html { font-family: var(--font-body); color: var(--c-text); background: var(--c-bg); line-height: 1.65; font-size: 17px; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+body { margin: 0; display: flex; flex-direction: column; min-height: 100vh; }
+main { flex: 1; padding: 2.5rem 0 5rem; }
+a { color: var(--c-primary); text-underline-offset: 3px; }
 a:hover { color: var(--c-primary-dark); }
-h1, h2, h3 { line-height: 1.25; font-weight: 650; letter-spacing: -0.01em; }
-h1 { font-size: 2rem; margin: 0 0 .5rem; }
-h2 { font-size: 1.4rem; margin: 2.2rem 0 .8rem; }
-h3 { font-size: 1.1rem; margin: 1.4rem 0 .4rem; }
+h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 600; letter-spacing: -0.005em; color: var(--c-text); text-wrap: balance; }
+h1 { font-size: clamp(2rem, 4vw, 2.8rem); margin: 0 0 .75rem; }
+h2 { font-size: 1.65rem; margin: 2.4rem 0 .9rem; }
+h3 { font-size: 1.2rem; margin: 1.5rem 0 .4rem; }
 p { margin: 0 0 1rem; }
-.container { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem; }
-.lead { font-size: 1.15rem; color: var(--c-muted); max-width: 48rem; }
+ul, ol { padding-left: 1.3rem; }
+li { margin-bottom: .3rem; }
+.container { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem; }
+.lead { font-size: 1.2rem; color: var(--c-muted); max-width: 46rem; line-height: 1.55; }
+.meta { color: var(--c-muted); font-size: .92rem; }
+.eyebrow { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--c-primary); margin-bottom: .6rem; }
+:focus-visible { outline: 3px solid var(--c-accent); outline-offset: 2px; border-radius: 4px; }
+.skip { position: absolute; left: -999px; top: 0; background: var(--c-text); color: #fff; padding: .5rem 1rem; z-index: 100; }
+.skip:focus { left: 1rem; top: 1rem; }
 
-.site-header { background: var(--c-surface); border-bottom: 1px solid var(--c-border); }
-.site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 4rem; }
-.brand { font-weight: 700; text-decoration: none; color: var(--c-text); font-size: 1.1rem; }
+/* ---------- Toegankelijkheid ---------- */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.footer-kop { margin: 0 0 .6rem; color: var(--c-text); font-weight: 700; font-size: .95rem; }
+.tabel-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+/* ---------- Header ---------- */
+.site-header { position: sticky; top: 0; z-index: 50; background: rgba(247,245,240,.85); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--c-border); }
+.site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 4.75rem; }
+.brand { display: flex; align-items: center; gap: .7rem; font-family: var(--font-head); font-weight: 700; text-decoration: none; color: var(--c-text); font-size: 1.4rem; }
+.brand svg { width: 44px; height: 44px; flex: none; }
 .brand span { color: var(--c-primary); }
-.nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
-.nav a { text-decoration: none; color: var(--c-muted); font-weight: 500; }
-.nav a:hover, .nav a[aria-current="page"] { color: var(--c-primary); }
+.nav { display: flex; gap: .25rem; flex-wrap: wrap; }
+.nav a { text-decoration: none; color: var(--c-muted); font-weight: 500; font-size: .95rem; padding: .45rem .8rem; border-radius: 999px; transition: background .15s, color .15s; }
+.menu-knop { display: none; align-items: center; font: inherit; font-weight: 600; font-size: .95rem; color: var(--c-primary-dark); background: var(--c-primary-soft); border: 0; border-radius: 999px; padding: .45rem 1rem; cursor: pointer; }
+.menu-knop::after { content: ""; width: .45rem; height: .45rem; margin-left: .5rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
+.menu-open .menu-knop::after { transform: translateY(2px) rotate(-135deg); }
+.nav a:hover { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.nav a[aria-current="page"] { background: var(--c-primary); color: #fff; }
 
-main { padding: 2.5rem 0 4rem; }
-.site-footer { border-top: 1px solid var(--c-border); color: var(--c-muted); font-size: .9rem; padding: 1.5rem 0; }
+/* ---------- Hero ---------- */
+.hero { position: relative; overflow: hidden; background: linear-gradient(135deg, #0f6b6e 0%, #157f7f 55%, #1f8f86 100%); color: #fff; border-radius: calc(var(--radius) + 6px); padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 5vw, 4rem); margin-bottom: 3rem; box-shadow: var(--shadow-md); }
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+.hero::before { width: 32rem; height: 32rem; right: -10rem; top: -14rem; background: rgba(255,255,255,.07); }
+.hero::after { width: 18rem; height: 18rem; right: 8rem; bottom: -10rem; background: rgba(217,98,43,.25); }
+.hero > * { position: relative; }
+.hero h1 { color: #fff; max-width: 40rem; }
+.hero .lead { color: #fff; }
+.hero .eyebrow { color: #ffd9c4; }
+.search { display: flex; gap: .5rem; max-width: 34rem; margin-top: 1.75rem; background: #fff; border-radius: 999px; padding: .35rem .35rem .35rem 1.1rem; box-shadow: var(--shadow-md); align-items: center; }
+.search svg { width: 20px; height: 20px; color: var(--c-muted); flex: none; }
+.search input { flex: 1; border: 0; font: inherit; font-size: 1.05rem; padding: .55rem 0; outline: none; color: var(--c-text); background: transparent; min-width: 0; }
+.search input::placeholder { color: #66727f; }
+.search .btn { border-radius: 999px; padding: .6rem 1.2rem; }
+.hero .hint { font-size: .9rem; color: #fff; margin: .75rem 0 0 .5rem; }
 
+/* ---------- Wegwijzer ---------- */
+.wegwijzer { display: grid; gap: 1.25rem; margin-top: 1.75rem; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); border-radius: var(--radius); padding: 1.25rem 1.4rem; backdrop-filter: blur(6px); }
+.field { display: grid; gap: .45rem; min-width: 0; }
+.field > span { font-weight: 600; font-size: .95rem; }
+.gemeente-keuze { font: inherit; font-size: 1.02rem; padding: .65rem .9rem; border-radius: var(--radius-sm); border: 1px solid var(--c-border); background: #fff; color: var(--c-text); width: 100%; max-width: 28rem; min-width: 0; }
+.chips-select { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip-btn { font: inherit; font-size: .9rem; font-weight: 500; padding: .38rem .85rem; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.55); background: rgba(255,255,255,.12); color: #fff; cursor: pointer; transition: background .15s, border-color .15s; }
+.chip-btn:hover { background: rgba(255,255,255,.22); }
+.chip-btn[aria-pressed="true"] { background: #fff; color: var(--c-primary-dark); border-color: #fff; font-weight: 600; }
+.chip-btn[aria-pressed="true"]::before { content: "✓ "; }
+.wegwijzer-hint { margin: -.6rem 0 0; font-size: .92rem; color: rgba(255,255,255,.92); }
+.wegwijzer.light .wegwijzer-hint { color: var(--c-muted); }
+.wegwijzer.light { background: transparent; border: 0; padding: 0; backdrop-filter: none; }
+.wegwijzer.light .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
+.wegwijzer.light .chip-btn:hover { border-color: var(--c-primary); }
+.wegwijzer.light .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
+.section .wegwijzer, .section .field { margin-top: 0; }
+.section .gemeente-keuze { margin-bottom: .75rem; }
+.gemeente-blok { border-top: 1px solid var(--c-border); margin-top: 1rem; padding-top: .5rem; }
+.card { display: flex; flex-direction: column; }
+.toegang { display: flex; align-items: center; gap: .5rem; margin: auto 0 0; padding-top: .75rem; border-top: 1px solid var(--c-border); font-size: .85rem; font-weight: 600; color: var(--c-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: help; }
+.toegang .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.toegang.t-nee .dot { background: var(--c-ok); }
+.toegang.t-ja .dot { background: var(--c-accent); }
+.toegang.t-soms .dot { background: #e0a100; }
+.toegang-legenda { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; font-size: .85rem; color: var(--c-muted); margin: .25rem 0 1rem; }
+.toegang-legenda span { display: inline-flex; align-items: center; gap: .4rem; }
+
+/* ---------- Knoppen ---------- */
+.btn { display: inline-flex; align-items: center; gap: .4rem; padding: .7rem 1.25rem; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .98rem; border: 1.5px solid transparent; cursor: pointer; transition: transform .1s, box-shadow .15s, background .15s; font-family: var(--font-body); }
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--c-accent); color: #fff; }
+.btn.primary:hover { background: #a84415; color: #fff; }
+.btn.secondary { background: #fff; color: var(--c-primary); border-color: var(--c-primary); }
+.btn.secondary:hover { background: var(--c-primary-soft); }
+.btn.ghost { background: rgba(255,255,255,.14); color: #fff; border-color: rgba(255,255,255,.35); }
+.btn.ghost:hover { background: rgba(255,255,255,.22); color: #fff; }
+.actions { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+/* ---------- Kaarten ---------- */
 .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
-.card { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1.25rem 1.4rem; }
+.card { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1.5rem 1.6rem; box-shadow: var(--shadow-sm); }
 .card h3 { margin-top: 0; }
-.card.link { text-decoration: none; color: inherit; display: block; transition: border-color .15s, box-shadow .15s; }
-.card.link:hover { border-color: var(--c-primary); box-shadow: 0 2px 10px rgba(31,111,139,.08); }
-.card .meta { color: var(--c-muted); font-size: .9rem; }
+.card.link { text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: .35rem; transition: transform .15s, box-shadow .15s, border-color .15s; }
+.card.link:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--c-primary); }
+.card.link .arrow { margin-top: auto; color: var(--c-primary); font-weight: 600; font-size: .92rem; }
+.card .icon { width: 44px; height: 44px; border-radius: 12px; background: var(--c-primary-soft); color: var(--c-primary); display: grid; place-items: center; margin-bottom: 1rem; }
+.card .icon svg { width: 24px; height: 24px; }
+.card .icon.accent { background: var(--c-accent-soft); color: var(--c-accent); }
+.card .icon.ok { background: var(--c-ok-soft); color: var(--c-ok); }
+.card ul { padding-left: 1.1rem; margin: .5rem 0; font-size: .95rem; }
 
-.section { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1.5rem 1.75rem; margin-bottom: 1.5rem; }
-.section > h2 { margin-top: 0; }
-.section-num { display: inline-block; background: var(--c-accent); color: var(--c-primary-dark); font-weight: 700; border-radius: 6px; padding: 0 .55rem; margin-right: .5rem; font-size: .95rem; }
+/* ---------- Secties ---------- */
+.section { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1.9rem 2.1rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm); scroll-margin-top: 6rem; }
+.section > h2, .section h2:has(> .section-num) { margin-top: 0; display: flex; align-items: center; gap: .75rem; }
+.section-num { display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--c-primary); color: #fff; font-family: var(--font-body); font-weight: 700; font-size: 1rem; flex: none; }
+.section h3 { color: var(--c-primary-dark); }
 
-.badge { display: inline-block; font-size: .78rem; font-weight: 600; padding: .1rem .55rem; border-radius: 999px; background: var(--c-accent); color: var(--c-primary-dark); text-transform: uppercase; letter-spacing: .03em; }
+/* ---------- Badges & notices ---------- */
+.badge { display: inline-block; font-size: .74rem; font-weight: 700; padding: .18rem .65rem; border-radius: 999px; background: var(--c-primary-soft); color: var(--c-primary-dark); text-transform: uppercase; letter-spacing: .05em; }
+.badge.begin { background: var(--c-primary); color: #fff; }
 .badge.voorbeeld { background: var(--c-warn-bg); color: #8a5a00; }
-.notice { background: var(--c-warn-bg); border: 1px solid var(--c-warn-border); border-radius: var(--radius); padding: .9rem 1.2rem; margin: 0 0 1.5rem; font-size: .95rem; }
+.badge.concept { background: #eef0ff; color: #3b45a8; }
+.badge.count { font-size: .55em; vertical-align: middle; margin-left: .35rem; text-transform: none; letter-spacing: 0; }
+.badge.gecontroleerd { background: var(--c-ok-soft); color: var(--c-ok); }
+.notice { display: flex; gap: .8rem; background: var(--c-warn-bg); border: 1px solid var(--c-warn-border); border-radius: var(--radius-sm); padding: .9rem 1.2rem; margin: 0 0 1.5rem; font-size: .95rem; }
+.notice svg { width: 22px; height: 22px; flex: none; color: #b47400; margin-top: .1rem; }
 
-.route { border-left: 3px solid var(--c-primary); padding: .25rem 0 .25rem 1.1rem; margin: 1.25rem 0; }
-.route h3 { margin-top: 0; }
-.route ol { margin: .5rem 0 .75rem; padding-left: 1.3rem; }
-.contact { font-size: .95rem; color: var(--c-muted); }
+/* ---------- Routes (stappen) ---------- */
+.route { position: relative; background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: 1.25rem 1.4rem; margin: 1.25rem 0; }
+.route h3 { margin: .4rem 0 .3rem; }
+.route ol.steps { list-style: none; padding: 0; margin: .9rem 0; counter-reset: step; }
+.route ol.steps li { position: relative; padding-left: 2.4rem; margin-bottom: .6rem; counter-increment: step; }
+.route ol.steps li::before { content: counter(step); position: absolute; left: 0; top: .05rem; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: #fff; border: 2px solid var(--c-primary); color: var(--c-primary); font-weight: 700; font-size: .85rem; display: grid; place-items: center; }
+.route ol.steps li:not(:last-child)::after { content: ""; position: absolute; left: .8rem; top: 1.85rem; bottom: -.6rem; width: 2px; background: var(--c-border); }
+.route.spoed { border-color: #f3c2ab; background: #fff8f4; }
+.route.spoed .badge { background: var(--c-accent-soft); color: #a3400f; }
+.contact { font-size: .95rem; color: var(--c-muted); background: #fff; border: 1px dashed var(--c-border); border-radius: var(--radius-sm); padding: .75rem 1rem; margin: .75rem 0 0; }
+.contact strong { color: var(--c-text); }
 .contact a { white-space: nowrap; }
 
-dl.kv { display: grid; grid-template-columns: max-content 1fr; gap: .4rem 1.2rem; margin: 0; }
-dl.kv dt { font-weight: 600; color: var(--c-muted); }
-dl.kv dd { margin: 0; }
+/* ---------- Gemeentecontext in routes ---------- */
+.route-gemeente { margin-top: .75rem; padding: .7rem .9rem; background: var(--c-primary-soft); border-radius: var(--radius-sm); }
+.route-gemeente .contact { background: #fff; margin-top: .5rem; }
 
-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
-th, td { text-align: left; border-bottom: 1px solid var(--c-border); padding: .5rem .6rem; vertical-align: top; }
-th { color: var(--c-muted); font-weight: 600; }
-
+/* ---------- Gemeentepagina: zijbalk ---------- */
+.page-with-side { display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: start; }
+.side { display: none; }
+@media (min-width: 960px) {
+  .page-with-side { grid-template-columns: 15rem 1fr; }
+  .side { display: block; position: sticky; top: 6rem; }
+}
+.side nav { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; box-shadow: var(--shadow-sm); }
+.side nav strong { display: block; font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--c-muted); margin-bottom: .6rem; }
+.side nav a { display: flex; gap: .55rem; align-items: baseline; text-decoration: none; color: var(--c-text); padding: .4rem .35rem; border-radius: 6px; font-size: .93rem; }
+.side nav a:hover { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.side nav a .n { color: var(--c-primary); font-weight: 700; font-size: .8rem; min-width: 1rem; }
+.side .status-card { margin-top: 1rem; font-size: .88rem; color: var(--c-muted); padding: 0 .3rem; }
 .toc { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 2rem; }
-.toc a { font-size: .9rem; text-decoration: none; border: 1px solid var(--c-border); background: var(--c-surface); border-radius: 999px; padding: .25rem .8rem; }
-.toc a:hover { border-color: var(--c-primary); }
+.toc a { font-size: .9rem; text-decoration: none; border: 1px solid var(--c-border); background: var(--c-surface); border-radius: 999px; padding: .3rem .9rem; color: var(--c-text); }
+.toc a:hover { border-color: var(--c-primary); color: var(--c-primary-dark); }
+@media (min-width: 960px) { .page-with-side .toc { display: none; } }
 
-.prose ul, .prose ol { padding-left: 1.3rem; }
-.sources { font-size: .85rem; color: var(--c-muted); margin-top: 1.5rem; }
+/* ---------- Direct regelen ---------- */
+.linklist { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); }
+.linklist li { background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: .9rem 1.1rem; }
+.linklist li > a { display: inline-flex; align-items: center; gap: .5rem; font-weight: 600; text-decoration: none; font-size: 1.02rem; }
+.linklist li > a:hover { text-decoration: underline; }
+.linklist li > a svg { width: 17px; height: 17px; flex: none; }
+.linklist li p { margin: .35rem 0 0; font-size: .93rem; color: var(--c-muted); }
+.regelen { border-left: 4px solid var(--c-accent); }
+.prose .linklist { margin: 1rem 0; }
+
+/* ---------- Tips van ouders ---------- */
+.tips-sectie { background: #fffaf3; border-color: #f3dcc0; }
+.tip p { font-size: .95rem; }
+.tips-disclaimer { background: var(--c-surface); border: 1px dashed var(--c-border); border-radius: var(--radius-sm); padding: .6rem .9rem; margin: .5rem 0 1.25rem; }
+.inline-icon { width: 14px; height: 14px; vertical-align: -2px; }
+
+/* ---------- Bronverwijzing in lopende tekst ---------- */
+sup a.bron { font-size: .7rem; font-weight: 600; color: var(--c-muted); text-decoration: none; border: 1px solid var(--c-border); border-radius: 4px; padding: 0 .3rem; margin-left: .15rem; vertical-align: super; }
+sup a.bron:hover { color: var(--c-primary); border-color: var(--c-primary); }
+
+/* ---------- Tijdlijn (ervaringen) ---------- */
+.tijdlijn { list-style: none; padding: 0; margin: 1rem 0; border-left: 2px solid var(--c-border); }
+.tijdlijn li { position: relative; padding: 0 0 1.1rem 1.4rem; }
+.tijdlijn li::before { content: ""; position: absolute; left: -7px; top: .35rem; width: 12px; height: 12px; border-radius: 50%; background: var(--c-primary); border: 2px solid #fff; }
+.tijdlijn .tl-kop { display: flex; gap: .6rem; align-items: center; font-size: .85rem; color: var(--c-muted); margin-bottom: .2rem; }
+.tijdlijn p { margin: .25rem 0 0; font-size: .95rem; }
+
+/* ---------- Voorbeeldbrieven ---------- */
+.brief { background: #fff; border: 1px solid var(--c-border); border-radius: var(--radius); padding: 2rem 2.2rem; font-family: var(--font-body); line-height: 1.7; box-shadow: var(--shadow-sm); }
+.brief p { margin: 0 0 1rem; }
+.brief ol { padding-left: 1.4rem; }
+.brief-acties { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.tips-lijst { padding-left: 1.1rem; margin: 0; font-size: .9rem; }
+.tips-lijst li { margin-bottom: .5rem; }
+.tips-mobiel { display: block; margin-top: 1.5rem; }
+@media (min-width: 960px) { .tips-mobiel { display: none; } }
+
+/* ---------- Knelpunt: onderdelen per gemeente ---------- */
+.onderdelen { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); margin: .5rem 0 1rem; }
+.onderdeel { background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: .8rem 1rem; }
+.onderdeel .contact { margin-top: .4rem; }
+.onderdeel p.meta { margin: .3rem 0 0; }
+
+/* ---------- Overzicht: volgende stap en inklapbare secties ---------- */
+.volgende-stap { border-left: 4px solid var(--c-primary); background: var(--c-primary-soft); }
+.volgende-stap .vs-tekst { font-size: 1.1rem; margin: 0 0 .5rem; }
+.volgende-stap .vs-leeftijd { border-top: 1px dashed var(--c-border); padding-top: .6rem; margin-top: .6rem; }
+.side .status-card a { text-decoration: none; }
+
+/* ---------- Therapievorm in brief ---------- */
+.voorbeeldzin { background: #fff; border-left: 3px solid var(--c-primary); padding: .6rem .9rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: .95rem; }
+[data-ingevoegd] { background: var(--c-primary-soft); border-radius: var(--radius-sm); padding: .4rem .6rem; }
+
+/* ---------- Kaartvoet: status + link altijd onderaan en uitgelijnd ---------- */
+.kaart-voet { margin-top: auto; display: flex; flex-direction: column; gap: .35rem; }
+.kaart-voet .toegang { margin: 0; }
+.kaart-voet .arrow { margin-top: 0; }
+
+/* ---------- Transparantie gemeente ---------- */
+.transparantie { background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: .9rem 1.1rem; margin: .5rem 0 1rem; }
+.tp-tabel { margin: 0; font-size: .93rem; }
+.tp-tabel th { width: 13rem; font-weight: 600; color: var(--c-text); text-transform: none; letter-spacing: 0; font-size: .93rem; padding: .55rem .6rem .55rem 0; vertical-align: top; }
+.tp-tabel td { padding: .55rem .6rem; vertical-align: top; }
+.tp-tabel td:nth-child(2) { white-space: nowrap; width: 8.5rem; }
+.tp-tabel tr:last-child th, .tp-tabel tr:last-child td { border-bottom: 0; }
+.tp-status { display: inline-block; font-weight: 700; font-size: .82rem; padding: .12rem .55rem; border-radius: 999px; background: var(--c-bg); border: 1px solid var(--c-border); color: var(--c-text); }
+.tp-status.s-onbekend { color: var(--c-muted); font-weight: 500; }
+.tp-status.s-cijfer { background: var(--c-primary-soft); border-color: transparent; color: var(--c-primary-dark); }
+@media (max-width: 640px) { .tp-tabel th { width: auto; display: block; padding-bottom: 0; border-bottom: 0; } .tp-tabel td { display: block; padding-top: .2rem; } .tp-tabel td:nth-child(2) { border-bottom: 0; } }
+
+/* ---------- Diversen ---------- */
+.page-head { margin-bottom: 2rem; }
+.page-head .lead { margin-top: .25rem; }
+/* Kaartje van Nederland bij "De Jeugdwet in het kort": rechts naast de tekst, op smalle schermen erboven */
+.kaart-nl { margin: 1rem auto 1.5rem; width: 220px; }
+.kaart-nl img { display: block; width: 100%; height: auto; }
+.kaart-nl figcaption { margin-top: .5rem; font-size: .85rem; color: var(--c-muted); text-align: center; line-height: 1.4; }
+@media (min-width: 820px) { .kaart-nl { float: right; width: 260px; margin: 0 0 1.5rem 2.5rem; } }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.chip { display: inline-flex; align-items: center; gap: .35rem; font-size: .9rem; color: var(--c-muted); background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 999px; padding: .25rem .8rem; }
+.chip svg { width: 15px; height: 15px; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+th, td { text-align: left; border-bottom: 1px solid var(--c-border); padding: .6rem .7rem; vertical-align: top; }
+th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+.prose p { max-width: 46rem; }
+.prose h2 { font-size: 1.3rem; }
+.sources { font-size: .85rem; color: var(--c-muted); margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--c-border); }
 .sources ul { padding-left: 1.2rem; margin: .3rem 0; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: .4rem 0 .8rem; }
+.tags span { font-size: .76rem; background: var(--c-bg); color: var(--c-muted); border: 1px solid var(--c-border); border-radius: 4px; padding: .05rem .5rem; }
+.empty { color: var(--c-muted); font-style: italic; }
+.crisis { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; background: var(--c-text); color: #fff; border-radius: var(--radius); padding: 1.25rem 1.75rem; margin: 3rem 0 0; }
+.crisis strong { font-family: var(--font-head); font-size: 1.1rem; }
+.crisis a { color: #ffd9c4; font-weight: 600; }
+.crisis .items { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: .95rem; }
+.kicker { display: flex; align-items: center; gap: .8rem; margin-top: 3rem; }
+.kicker h2 { margin: 0; }
+.kicker .line { flex: 1; height: 1px; background: var(--c-border); }
 
-.hero { padding: 1rem 0 2rem; }
-.hero .actions { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.25rem; }
-.btn { display: inline-block; padding: .6rem 1.1rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1px solid var(--c-primary); }
-.btn.primary { background: var(--c-primary); color: #fff; }
-.btn.primary:hover { background: var(--c-primary-dark); }
-.btn.secondary { background: var(--c-surface); color: var(--c-primary); }
-
-.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: .5rem 0; }
-.tags span { font-size: .78rem; background: var(--c-accent); color: var(--c-primary-dark); border-radius: 4px; padding: .05rem .45rem; }
+/* ---------- Footer ---------- */
+.site-footer { background: var(--c-surface); border-top: 1px solid var(--c-border); color: var(--c-muted); font-size: .92rem; padding: 2.5rem 0 2rem; }
+.site-footer .cols { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.site-footer h4 { margin: 0 0 .6rem; color: var(--c-text); font-size: .95rem; }
+.site-footer ul { list-style: none; padding: 0; margin: 0; }
+.site-footer li { margin-bottom: .35rem; }
+.site-footer a { color: var(--c-muted); text-decoration: none; }
+.site-footer a:hover { color: var(--c-primary); }
+.site-footer .bottom { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--c-border); font-size: .85rem; }
 
 @media (max-width: 640px) {
   html { font-size: 16px; }
-  .site-header .container { height: auto; padding: .75rem 1.25rem; flex-direction: column; align-items: flex-start; }
-  dl.kv { grid-template-columns: 1fr; }
+  .site-header .container { height: auto; padding: .6rem 1.25rem; flex-wrap: wrap; gap: .25rem 1rem; }
+  .menu-knop { display: inline-flex; }
+  .site-header .brand { font-size: 1.15rem; gap: .5rem; }
+  .site-header .brand svg { width: 2rem; height: 2rem; }
+  .js .site-header:not(.menu-open) .nav { display: none; }
+  .nav { width: 100%; flex-direction: column; gap: 0; padding: .25rem 0 .5rem; }
+  .nav a { padding: .6rem .8rem; font-size: 1rem; }
+  .hero { padding: 1.5rem 1.25rem; margin-bottom: 2rem; }
+  .hero h1 { font-size: 1.6rem; margin-bottom: .5rem; }
+  .hero .lead { font-size: 1rem; line-height: 1.5; margin: 0 0 1rem; }
+  .hero .eyebrow { font-size: .75rem; }
+  .alleen-breed { display: none; }
+  .prose table, .section table:not(.tp-tabel) { display: block; overflow-x: auto; white-space: nowrap; }
+  .search { flex-wrap: wrap; }
+  .search .btn { width: 100%; justify-content: center; }
+  .chip-btn { font-size: .95rem; padding: .5rem .9rem; }
+  .section { padding: 1.4rem 1.2rem; }
+  .search { border-radius: var(--radius); }
+  .search .btn { padding: .55rem .9rem; }
 }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .card.link:hover { transform: none; } }
+
+/* Ingeklapte extra brieven onder "Wat kunt u nu doen". */
+.meer-brieven { margin-top: 1rem; }
+.meer-brieven > summary { cursor: pointer; font-weight: 600; color: var(--c-primary); padding: .5rem 0; list-style: none; display: flex; align-items: center; gap: .5rem; }
+.meer-brieven > summary::-webkit-details-marker { display: none; }
+.meer-brieven > summary::before { content: ''; width: .5rem; height: .5rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s; flex: none; }
+.meer-brieven[open] > summary::before { transform: rotate(45deg); }
+.meer-brieven > .grid { margin-top: .5rem; }
+
+/* ---------- Overzicht: antwoord eerst ---------- */
+.keuzes > summary { cursor: pointer; list-style: none; display: flex; flex-wrap: wrap; gap: .4rem .6rem; align-items: baseline; }
+.keuzes > summary::-webkit-details-marker { display: none; }
+.keuzes > summary .keuzes-actie { margin-left: auto; color: var(--c-primary); font-weight: 600; text-decoration: underline; }
+.keuzes[open] > summary .keuzes-actie { display: none; }
+.keuzes[open] > summary { margin-bottom: 1rem; }
+.eerste-contact { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; margin-top: 1rem; }
+.eerste-contact h3 { margin: 0 0 .6rem; }
+.eerste-contact .wijkteam-uitleg { margin: -.3rem 0 .6rem; }
+.kaart-boven { margin: 0 0 1.5rem; }
+.kaart-boven h2.h3-maat { font-size: 1.15rem; margin: 0 0 .6rem; }
+.kaart-boven p.meta { margin: .2rem 0 0; }
+.eerste-contact .bel { display: inline-block; font-size: 1.1rem; margin-bottom: .5rem; }
+.cta-balk { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; justify-content: space-between; padding: .7rem 1rem calc(.7rem + env(safe-area-inset-bottom)); background: var(--c-surface); border-top: 1px solid var(--c-border); box-shadow: 0 -4px 16px rgba(0,0,0,.08); }
+.cta-balk[hidden] { display: none; }
+.cta-balk .cta-tekst { font-size: .9rem; color: var(--c-muted); }
+body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
+.geld-hint { margin-top: 1rem; }
+/* Uitleg bij officiële woorden */
+.woord { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help; text-decoration: underline dotted var(--c-primary); text-underline-offset: .2em; text-decoration-thickness: 2px; }
+.woord[aria-expanded="true"] { color: var(--c-primary-dark); }
+.woord-uitleg { display: block; margin: .3rem 0 .5rem; padding: .5rem .7rem; font-size: .92rem; background: var(--c-primary-soft); border-left: 3px solid var(--c-primary); border-radius: 6px; }
+.woord-uitleg[hidden] { display: none; }
+/* Vast spoedblok: nood (één zin) en spoed (wat kan) */
+.spoed-nummers { margin: 1rem 0; padding: .9rem 1.1rem; background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); }
+.spoed-nummers p { margin: 0 0 .5rem; }
+.spoed-nummers .nood { padding-bottom: .5rem; border-bottom: 1px solid var(--c-border); }
+.spoed-nummers ul { margin: 0; padding-left: 1.2rem; }
+.spoed-nummers li { margin: .3rem 0; }
+/* Kop en knop van de wijkteamkaart, afhankelijk van de eerste stap */
+.eerste-contact .kop-tweede, .eerste-contact .kop-verhuizing, .eerste-contact .tel-gewoon { display: none; }
+[data-modus="tweede"] .eerste-contact .kop-standaard, [data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
+[data-modus="tweede"] .eerste-contact .kop-tweede, [data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
+[data-modus="tweede"] .eerste-contact .bel { display: none; }
+[data-modus="tweede"] .eerste-contact .tel-gewoon { display: block; margin: 0 0 .4rem; }
+.cta-balk { padding-left: max(1.5rem, calc((100vw - var(--maxw)) / 2 + 1.5rem)); padding-right: max(1.5rem, calc((100vw - var(--maxw)) / 2 + 1.5rem)); }
+
+/* Mijn overzicht: blok 1 (stap 1, contact, overige stappen, handig, brieven); volgorde wordt in de HTML gezet */
+#nu-doen .stap-een li { font-size: 1.08rem; font-weight: 500; }
+#nu-doen .o4 { margin-top: 0; }
+#nu-doen .lead-klein { margin: 0 0 .75rem; }
+.eerste-contact .kop-verhuizing { display: none; }
+[data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
+[data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
+.contact[hidden] { display: none; }
+/* Mijn overzicht: de ingeklapte keuzebalk blijft onder de kop staan bij scrollen */
+.keuzes:not([open]) { position: sticky; top: calc(var(--kop-hoogte, 0px) + .75rem); z-index: 40; box-shadow: var(--shadow-md); }
+.keuzes { scroll-margin-top: calc(var(--kop-hoogte, 0px) + .5rem); }
+.keuzes:not([open]) { padding-top: .6rem; padding-bottom: .6rem; }
+.keuzes:not([open]) > summary { flex-wrap: nowrap; align-items: center; }
+.keuzes:not([open]) [data-keuzes-samenvatting] { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.keuzes:not([open]) .keuzes-actie { flex-shrink: 0; }
+.keuzes:not([open]) > summary > strong { white-space: nowrap; }
+/* Inklapblokken (o.a. "Hoe gaat het hier?" en bronnen op gemeentepagina's) */
+.inklapper > summary { cursor: pointer; color: var(--c-primary-dark); font-weight: 600; padding: .3rem 0; }
+.inklapper[open] > summary { margin-bottom: .75rem; }
+.sources .inklapper > summary { font-weight: 500; font-size: .9rem; }
+
+/* Contactkaart bovenaan per vraag: bezwaar bij afwijzing, klacht bij vastgelopen gesprekken, wachttijd bij wachten */
+.eerste-contact .ec-bezwaar, .eerste-contact .ec-klacht, .eerste-contact .ec-wachten { display: none; }
+[data-modus="bezwaar"] .eerste-contact .ec-standaard, [data-modus="klacht"] .eerste-contact .ec-standaard { display: none; }
+[data-modus="bezwaar"] .eerste-contact .ec-bezwaar, [data-modus="klacht"] .eerste-contact .ec-klacht, [data-modus="wachten"] .eerste-contact .ec-wachten { display: block; }
+[data-modus="bezwaar"] [data-onderdeel="bezwaar"], [data-modus="bezwaar"] [data-onderdeel="postadres"], [data-modus="klacht"] [data-onderdeel="klacht"] { display: none !important; }
+
+/* Startpagina: na een vraagknop scrolt de situatierij in beeld, net onder de vaste kop */
+.situatie-keuze { scroll-margin-top: calc(var(--kop-hoogte, 4rem) + 1.25rem); }
+/* Mijn overzicht: vaste regel bij wachten en contact van genoemde organisaties */
+#nu-doen .wacht-erger { background: var(--c-warn-bg); border-left: 3px solid var(--c-warn-border); padding: .5rem .75rem; border-radius: 6px; margin: 0 0 .75rem; }
+#nu-doen .genoemd { margin-top: .25rem; }
+.eerste-contact details.ec-wachten summary { cursor: pointer; font-weight: 600; }
+
+/* Kaarten met een link onderaan: de link staat bij alle kaarten in een rij op dezelfde hoogte */
+.card .org-voet { margin-top: auto; padding-top: .5rem; margin-bottom: 0; }
+.card > .badge { align-self: flex-start; }
+
+/* Zoeken op woonplaats onder de gemeentekeuze */
+.woonplaats-zoek { margin: .35rem 0 0; }
+.woonplaats-zoek .linkknop { background: none; border: 0; padding: 0; font: inherit; font-size: .9rem; color: inherit; text-decoration: underline; cursor: pointer; }
+.woonplaats-zoek input { width: 100%; max-width: 30rem; padding: .6rem .8rem; border: 1px solid var(--c-border); border-radius: 10px; font: inherit; color: var(--c-text); background: #fff; }
+.woonplaats-zoek .meta { margin: .35rem 0 0; color: inherit; }
+#nu-doen .stap-brief { white-space: nowrap; font-weight: 600; }
+#nu-doen .wijkteam-regel { margin: .25rem 0 1rem; padding: .6rem .8rem; background: var(--c-primary-soft); border-radius: 8px; }
+
+/* Kaarten met een knop onderaan (hulpvorm in de brief): knop en link onderaan de kaart, per rij op gelijke hoogte */
+.card .kaart-acties { margin-top: auto; padding-top: .75rem; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.card .kaart-acties .meta { margin: 0; }

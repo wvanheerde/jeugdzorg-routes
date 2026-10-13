@@ -1,0 +1,393 @@
+{
+  "naam": "Wierden",
+  "cbsCode": "GM0189",
+  "provincie": "Overijssel",
+  "websiteJeugd": "https://www.wierden.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Wierden is de gemeente zelf de toegang tot jeugdhulp. U meldt uw hulpvraag bij het Zorgloket van de gemeente, online met DigiD of telefonisch. Een regisseur jeugd van de gemeente praat met u, onderzoekt wat nodig is en maakt een verslag. Is specialistische hulp nodig, dan doet u een aanvraag en krijgt u een schriftelijk besluit. U kunt ook via de huisarts, de jeugdarts of de medisch specialist gaan. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Zorgloket en regisseurs jeugd van de gemeente",
+        "omschrijving": "Wierden heeft geen apart wijkteam. Het Zorgloket neemt uw melding aan en brengt u in contact met een regisseur jeugd van de gemeente. Die onderzoekt samen met u welke hulp nodig is. U meldt zich zelf aan; een verwijzing is niet nodig. Ook als school of een andere organisatie zich zorgen maakt, doet u zelf de melding. Lichte hulp, zoals advies, kunt u meestal direct krijgen. Voor specialistische hulp zijn een aanvraag en een besluit (beschikking) van de gemeente nodig.",
+        "stappen": [
+          "Meld uw hulpvraag online met DigiD, of neem contact op met het Zorgloket.",
+          "Bespreek uw kind en uw vraag met een regisseur jeugd. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Lees het verslag dat u na het gesprek van de gemeente krijgt. Daarin staat welke hulp mogelijk is.",
+          "Is specialistische hulp nodig? Doe dan een aanvraag met een ondertekend formulier. De gemeente beslist binnen 8 weken en stuurt u een schriftelijk besluit.",
+          "Is er een crisis? Vraag de regisseur dan om direct tijdelijke hulp in te zetten."
+        ],
+        "contact": {
+          "naam": "Zorgloket gemeente Wierden",
+          "telefoon": "0546 58 09 90",
+          "email": "zorgloket@wierden.nl",
+          "url": "https://www.wierden.nl/contact-en-openingstijden",
+          "openingstijden": "Zonder afspraak"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp van een aanbieder met een contract met de gemeente. Deze route is net zo goed als die via het Zorgloket. Bij de huisartsen in Wierden werkt een praktijkondersteuner jeugd-ggz (geestelijke gezondheidszorg) voor lichte psychische vragen van jongeren.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de huisarts wat past: eerst de praktijkondersteuner jeugd-ggz, of direct een aanbieder met een contract.",
+          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Twente",
+          "telefoon": "053 487 6670",
+          "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "School kan zorgen met u bespreken, maar de melding voor jeugdhulp doet u zelf bij het Zorgloket. Komt u er met school niet uit over extra ondersteuning, dan helpt het Ouder- en Jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Meld uw hulpvraag bij het Zorgloket van de gemeente, ook als de vraag van school komt. U kunt aangeven dat school meedenkt.",
+          "Komt u er met school niet uit over extra ondersteuning? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Zorgloket gemeente Wierden",
+            "telefoon": "0546 58 09 90",
+            "email": "zorgloket@wierden.nl",
+            "url": "https://www.wierden.nl/contact-en-openingstijden",
+            "openingstijden": "Zonder afspraak"
+          },
+          {
+            "naam": "Samenwerkingsverband Twente Noord PO (Ouder- en Jeugdsteunpunt)",
+            "telefoon": "0546 74 57 90",
+            "email": "info@swv-twentenoord.nl",
+            "url": "https://swv-twentenoord.nl/ouder-en-jeugdsteunpunt/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Waar u terechtkunt bij kindermishandeling of huiselijk geweld, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Lees op de pagina van de gemeente over mishandeling en huiselijk geweld waar u hulp en advies vindt."
+        ],
+        "contact": {
+          "naam": "Gemeente Wierden: mishandeling of huiselijk geweld",
+          "url": "https://www.wierden.nl/mishandeling-of-huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Samen",
+      "toelichting": "Gratis en onafhankelijk, zonder verwijzing en voor alle leeftijden. MEE Samen kan meegaan naar gesprekken met de gemeente, helpen bij een aanvraag en de regels uitleggen. De gemeente wijst ook in de ontvangstbevestiging van uw aanvraag op deze mogelijkheid. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "088 633 0633",
+      "email": "info@meesamen.nl",
+      "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/wierden"
+    },
+    "klacht": {
+      "naam": "Klacht over een medewerker of de gemeente",
+      "toelichting": "Het Zorgloket en de regisseurs jeugd werken voor de gemeente. Een klacht over hoe zij u behandelen, dient u daarom in bij de gemeente: digitaal met DigiD of per brief aan de klachtencoördinator (Postbus 43, 7640 AA Wierden). De gemeente behandelt de klacht binnen 6 weken. Een klacht over een zorgaanbieder dient u eerst bij die organisatie in. Een vertrouwenspersoon van Jeugdstem kan ook met u meedenken.",
+      "url": "https://www.wierden.nl/klacht-over-medewerker-of-de-gemeente",
+      "extern": {
+        "naam": "Nationale ombudsman (bij vragen over kinderrechten ook de Kinderombudsman)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u digitaal met DigiD of per brief. Een onafhankelijke commissie bezwaarschriften adviseert de gemeente. Daarna beslist de gemeente binnen 12 weken. Die termijn kan met hooguit 6 weken worden verlengd.",
+      "url": "https://www.wierden.nl/bezwaar-maken-en-beroep-indienen"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk, maar zorg in natura (hulp die de gemeente regelt) is het uitgangspunt. U dient een budgetplan in. Daarin staat waarom het aanbod van de gemeente niet past, wie de hulp geeft en hoe u het budget beheert. De regisseur beoordeelt of u het pgb verantwoord kunt beheren. Hulp van familie, vrienden of buren kan alleen onder voorwaarden en tegen een lager tarief. Een pgb voor behandeling gaat niet naar iemand uit het eigen netwerk. U moet alle uitgaven verantwoorden.",
+      "url": "https://api.notubiz.nl/document/16423968/2"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u vaak direct, zonder besluit van de gemeente: advies, het consultatiebureau, algemeen maatschappelijk werk, jongerenwerk en de praktijkondersteuner jeugd-ggz bij de huisarts. Opvoedvragen kunt u ook voorleggen via loes.nl. Specialistische jeugdhulp koopt Wierden samen met de andere Twentse gemeenten in. Aanbieders en wachttijden kunt u bekijken in de Beschikbaarheidswijzer van Twente.",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, jeugdgezondheidszorg, maatschappelijk werk, jongerenwerk en cursussen, zonder besluit van de gemeente.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dyslexiezorg, verblijf en pleegzorg, regionaal ingekocht in Twente.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "verblijf-pleegzorg",
+          "crisishulp"
+        ]
+      }
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente"
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Loes: advies voor ouders",
+      "soort": "informatiepunt",
+      "omschrijving": "Betrouwbare informatie, tips en ervaringen over opvoeden en opgroeien, van baby tot puber.",
+      "themas": [
+        "opvoeden"
+      ],
+      "url": "https://loes.nl"
+    },
+    {
+      "naam": "Sociale Kaart Wierden",
+      "soort": "informatiepunt",
+      "omschrijving": "Overzicht van activiteiten, ondersteuning en organisaties in de gemeente.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.socialekaartwierden.nl/"
+    },
+    {
+      "naam": "Cliëntenraad Sociaal Domein Wierden",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Adviseert de gemeente namens inwoners over zorg, jeugd en welzijn, bijvoorbeeld over de regels voor jeugdhulp.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.wierden.nl/clientenraad-sociaal-domein"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Jeugdhulp melden of aanvragen",
+      "omschrijving": "Meld uw hulpvraag voor uw kind online bij de gemeente.",
+      "url": "https://iparticipatie.wierden.nl/iparticipatie/login",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.wierden.nl/klacht-over-medewerker-of-de-gemeente",
+      "nodig": "DigiD of eHerkenning, en een beschrijving van de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.wierden.nl/bezwaar-maken-en-beroep-indienen",
+      "nodig": "DigiD of eHerkenning en het besluit bij de hand"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Aanbieders met een contract in Twente, met wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",
+        "url": "https://organisaties.overheid.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Jeugdhulp",
+        "url": "https://www.wierden.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Jeugdgezondheidszorg",
+        "url": "https://www.wierden.nl/jeugdgezondheidszorg",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Contact en openingstijden (Zorgloket)",
+        "url": "https://www.wierden.nl/contact-en-openingstijden",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Mishandeling of huiselijk geweld",
+        "url": "https://www.wierden.nl/mishandeling-of-huiselijk-geweld",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Cliëntondersteuning",
+        "url": "https://www.wierden.nl/clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Klacht over medewerker of de gemeente",
+        "url": "https://www.wierden.nl/klacht-over-medewerker-of-de-gemeente",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Bezwaar maken en beroep indienen",
+        "url": "https://www.wierden.nl/bezwaar-maken-en-beroep-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Financiën",
+        "url": "https://www.wierden.nl/financien",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Begroting 2027 aangeboden aan de raad (nieuwsbericht)",
+        "url": "https://www.wierden.nl/gemeente-wierden-presenteert-financieel-gezonde-begroting-voor-2027",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Wierden: Factsheets Sociaal Domein",
+        "url": "https://www.wierden.nl/factsheets-sociaal-domein",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beleidsregels jeugdhulp gemeente Wierden 2026",
+        "url": "https://api.notubiz.nl/document/16423968/2",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Adviesnota vaststellen beleidsregels maatschappelijke ondersteuning en jeugdhulp 2026",
+        "url": "https://api.notubiz.nl/document/16423965/2",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Overzicht wijzigingen beleidsregels jeugdhulp 2026 ten opzichte van 2020",
+        "url": "https://api.notubiz.nl/document/16423963/3",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Cliëntervaringsonderzoek Jeugd gemeente Wierden over 2024",
+        "url": "https://api.notubiz.nl/document/16115257/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Informatienota cliëntervaringsonderzoeken jeugd en Wmo over 2024",
+        "url": "https://api.notubiz.nl/document/16115255/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief Inkoop jeugdhulp 2025",
+        "url": "https://api.notubiz.nl/document/15483024/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarverslag en jaarrekening 2024 gemeente Wierden",
+        "url": "https://cuatro.sim-cdn.nl/wierden/uploads/jaarverslag_en_jaarrekening_2024.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Factsheet sociaal domein kwartaal 4 2025",
+        "url": "https://cuatro.sim-cdn.nl/wierden/uploads/factsheet%20sociaal%20domein%20kwartaal%204%202025.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Nota Meerjarenbeleid 2027-2030",
+        "url": "https://wierden2027.kadernota.nl",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Twente: Contact met Jeugdgezondheid",
+        "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samenwerkingsverband Twente Noord PO: Ouder- en Jeugdsteunpunt",
+        "url": "https://swv-twentenoord.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samenwerkingsverband Twente Noord PO: Contact",
+        "url": "https://swv-twentenoord.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Samen: Wierden",
+        "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/wierden",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer - Twente",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samen14: Inkoop",
+        "url": "https://samen14.nl/inkoop/default.aspx",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Jaarstukken 2025 en Programmabegroting 2027 niet gevonden (alleen jaarverslag 2024 en een nieuwsbericht; raad behandelt begroting op 10 november 2026); geen gemeten doorlooptijden gevonden. Contactgegevens samenwerkingsverband VO niet gevonden (geen VO-school in Wierden op de steunpuntenkaart). Regionale journalistiek niet doorzocht."
+  },
+  "jeugdzorgregio": "Twente (jeugdhulpregio Twente, 14 gemeenten; inkoop via Samen14)",
+  "ervaringen": {
+    "samenvatting": "In Wierden is de gemeente zelf het eerste aanspreekpunt voor jeugdhulp. In het cliëntervaringsonderzoek over 2024 gaven ouders en jongeren de gemeente een 8,0, maar maar 40 van de 404 uitgenodigden deden mee. In 2026 kwamen er nieuwe regels: voor een aanvraag is nu een ondertekend formulier nodig. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden.\n\nVraag bij uw melding bij het Zorgloket hoe lang het duurt. Leg afspraken schriftelijk vast, bijvoorbeeld in het verslag van het gesprek met de regisseur jeugd. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht over de gemeente dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek Jeugd over 2024: rapportcijfer 8,0",
+        "samenvatting": "De gemeente nodigde 404 cliënten uit; 40 vulden de vragenlijst in (respons 10%). De gemeente noemt de uitkomsten daarom een indicatie. Het cijfer voor de dienstverlening van de gemeente was een 8,0, tegen een 7,6 in 2023 en 2022.",
+        "datum": "2025-11-25",
+        "bron": {
+          "titel": "Cliëntervaringsonderzoek Jeugd gemeente Wierden over 2024",
+          "url": "https://api.notubiz.nl/document/16115257/1"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe beleidsregels jeugdhulp 2026",
+        "samenvatting": "De gemeente heeft de regels vernieuwd voor welke jeugdhulp zij wel en niet vergoedt. Voor een aanvraag of verlenging is nu een ondertekend formulier nodig, en de eisen voor een pgb zijn uitgebreider. De Cliëntenraad Sociaal Domein adviseerde positief.",
+        "datum": "2026-02-10",
+        "bron": {
+          "titel": "Overzicht wijzigingen beleidsregels jeugdhulp 2026 ten opzichte van 2020",
+          "url": "https://api.notubiz.nl/document/16423963/3"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe regionale inkoop jeugdhulp vanaf 2025",
+        "samenvatting": "De 14 Twentse gemeenten kopen jeugdhulp sinds 1 januari 2025 op een nieuwe manier in. Een van de doelen is kortere wachttijden, doordat beter zichtbaar is welke aanbieder plek heeft. Volgens de gemeente moet jeugdhulp zoveel mogelijk thuis plaatsvinden.",
+        "datum": "2024-03-28",
+        "bron": {
+          "titel": "Raadsinformatiebrief Inkoop jeugdhulp 2025",
+          "url": "https://api.notubiz.nl/document/15483024/1"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://api.notubiz.nl/document/16115257/1",
+        "samenvatting": "Er is geen onderzoek dat iets zegt over hoe ouders de hulp hier in het algemeen ervaren: alleen een kleine of eigen meting. Jaarlijks onderzoek door I&O Research onder jeugdhulpcliënten en ouders. Over 2024 deden 40 van 404 uitgenodigden mee (10%); het rapportcijfer voor de gemeente was 8,0. Uitkomsten zijn indicatief."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Gemeten wachttijden voor de toegang zijn niet openbaar te vinden. Wel beslist de gemeente binnen 8 weken op een aanvraag, en bij een crisis legt de regisseur het besluit uiterlijk 4 weken na de start van de hulp vast. Vraag bij uw melding hoe lang het duurt.",
+        "url": "https://api.notubiz.nl/document/16423968/2"
+      },
+      "aandeelHuisarts": {
+        "percentage": 43,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

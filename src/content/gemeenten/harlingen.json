@@ -1,0 +1,372 @@
+{
+  "naam": "Harlingen",
+  "cbsCode": "GM0072",
+  "provincie": "Fryslân",
+  "jeugdzorgregio": "Friesland (Sociaal Domein Fryslân)",
+  "websiteJeugd": "https://www.harlingen.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Harlingen is het Gebiedsteam de eerste deur voor jeugdhulp. Het bestaat uit een Jeugdteam en een Stadsteam en is er voor iedereen in Harlingen, Wijnaldum en Midlum. U meldt uw vraag zelf; een verwijzing is niet nodig. Het Gebiedsteam kijkt met u wat nodig is, geeft zelf lichte hulp en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat het Gebiedsteam een aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Gebiedsteam Harlingen (Jeugdteam en Stadsteam)",
+        "omschrijving": "Bij het Gebiedsteam van de gemeente meldt u uw vraag over opvoeden, opgroeien of hulp voor uw kind. Het team onderzoekt samen met u wat nodig is. Het hele gezin krijgt één plan en één vaste regisseur. Het team kan zelf lichte hulp geven, zonder beschikking (besluit van de gemeente). Voor specialistische hulp maakt het team een ondersteuningsplan en neemt de gemeente een besluit.",
+        "stappen": [
+          "Bel het Gebiedsteam, loop binnen bij het inloopspreekuur of mail het team. Vertel waar u hulp bij zoekt.",
+          "Zeg of u een onafhankelijke cliëntondersteuner wilt; het team vraagt daarnaar. Dat is gratis. Regel het bij voorkeur vóór het eerste gesprek.",
+          "Bespreek met een medewerker van het Gebiedsteam wat er speelt. Daarna krijgt u een ondersteuningsplan voor uw gezin.",
+          "Is specialistische hulp nodig, vraag die dan aan met het formulier dat u krijgt. U krijgt een schriftelijk besluit.",
+          "Bent u het niet eens met het besluit? Maak dan bezwaar. In de brief staat hoe."
+        ],
+        "contact": {
+          "naam": "Gebiedsteam Harlingen",
+          "telefoon": "0517 49 22 22",
+          "email": "gebiedsteam@harlingen.nl",
+          "url": "https://www.harlingen.nl/inloopspreekuur-en-openingstijden-gebiedsteam",
+          "adres": "MFC het Vierkant, Harlingen",
+          "openingstijden": "Telefonisch (keuze 2) ma, di en do 8.30–16.30 uur, wo en vr 8.30–12.30 uur. Inloopspreekuur ma 14.00–16.00 uur en do 10.00–12.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Met zo'n verwijzing gaat u direct naar de aanbieder. Vragen over de ontwikkeling van uw kind kunt u ook stellen aan de jeugdgezondheidszorg van de GGD Fryslân.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Fryslân",
+          "telefoon": "088 229 9444",
+          "url": "https://www.ggdfryslan.nl/contact"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Het Gebiedsteam heeft contactpersonen op de scholen in Harlingen. Zij helpen bij zorgen over uw kind op school, zonder dat u eerst een aanvraag doet. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Dat steunpunt werkt voor heel Friesland, voor basis- en voortgezet onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de contactpersoon van het Gebiedsteam op school kan meedenken. U kunt zich ook zelf aanmelden bij het Gebiedsteam.",
+          "Is meer hulp nodig, dan schakelt het Gebiedsteam of de school specialistische hulp in.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
+        ],
+        "contact": [
+          {
+            "naam": "Gebiedsteam Harlingen",
+            "telefoon": "0517 49 22 22",
+            "email": "gebiedsteam@harlingen.nl",
+            "url": "https://www.harlingen.nl/inloopspreekuur-en-openingstijden-gebiedsteam",
+            "adres": "MFC het Vierkant, Harlingen",
+            "openingstijden": "Telefonisch (keuze 2) ma, di en do 8.30–16.30 uur, wo en vr 8.30–12.30 uur. Inloopspreekuur ma 14.00–16.00 uur en do 10.00–12.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Friesland (samenwerkingsverbanden passend onderwijs)",
+            "email": "info@steunpuntfriesland.nl",
+            "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/contact",
+            "openingstijden": "Telefonisch dinsdag 9.00–12.00 uur; op andere momenten belt het steunpunt terug na uw contactverzoek. Gesloten in de schoolvakanties van regio Noord"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente staat meer over huiselijk geweld en kindermishandeling en hoe u dat meldt.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Lees op de pagina over mishandeling of huiselijk geweld van de gemeente waar u in Harlingen terecht kunt."
+        ],
+        "contact": {
+          "naam": "Gemeente Harlingen: mishandeling of huiselijk geweld",
+          "url": "https://www.harlingen.nl/mishandeling-of-huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Zorgbelang Fryslân (en Thuis in Cliëntondersteuning)",
+      "toelichting": "Gratis en onafhankelijk van de gemeente. Voor Noordwest-Friesland, dus ook Harlingen, werkt Zorgbelang Fryslân. U kunt ook kiezen voor Thuis in Cliëntondersteuning, op werkdagen 8.30–17.30 uur bereikbaar via 085 303 2985. Een cliëntondersteuner luistert, gaat mee naar gesprekken met het Gebiedsteam en helpt bij een klacht of bezwaar. Het Gebiedsteam wijst u hierop vóór het onderzoek.",
+      "telefoon": "085 483 2432",
+      "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom hulp van een aanbieder met een contract niet past. U maakt een budgetplan en moet het budget zelf kunnen beheren. De hulp moet goed zijn. Wie de hulp geeft, een bekende of een aanbieder, heeft een geldige Verklaring Omtrent het Gedrag (VOG) nodig. Een pgb voor crisishulp of voor kosten van vóór de aanvraag is in principe niet mogelijk. Het tarief is lager dan bij zorg in natura: volgens de verordening 75 procent voor begeleiding door een professional en 60 procent voor hulp door iemand uit uw netwerk. Ouders mogen de hulp niet zelf geven.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR746300/1"
+    },
+    "klacht": {
+      "naam": "Klacht over het Gebiedsteam",
+      "toelichting": "Bespreek het eerst met uw contactpersoon bij het Gebiedsteam. U mag daarbij een cliëntondersteuner meenemen. Komt u er niet uit, dien dan een klacht in bij het college van B&W: per brief, per mail of telefonisch. Komen u en de klachtenbehandelaar er niet uit, dan volgt een hoorzitting en een advies aan het college. Over de jeugdhulp zelf kunt u ook praten met een vertrouwenspersoon van Jeugdstem.",
+      "url": "https://www.harlingen.nl/u-heeft-een-klacht-en-nu",
+      "email": "info@harlingen.nl",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "In de brief met het besluit staat hoe u bezwaar maakt. Een onafhankelijke commissie voor bezwaarschriften nodigt u uit voor een hoorzitting. Een cliëntondersteuner kan u helpen.",
+      "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u via het Gebiedsteam, de jeugdgezondheidszorg en het schoolmaatschappelijk werk, zonder besluit van de gemeente. Voor specialistische hulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Die hulp koopt Harlingen in met de andere Friese gemeenten, via Sociaal Domein Fryslân. In de Beschikbaarheidswijzer ziet u welke aanbieders in Friesland werken en hoe lang de wachttijden zijn; die is openbaar, zonder inloggen. Vanaf 2028 wil de regio de hulp opnieuw inkopen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het Gebiedsteam, de jeugdgezondheidszorg van de GGD Fryslân en vrijwilligers zoals Buurtgezinnen. Geen besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Contactpersonen en schoolmaatschappelijk werk",
+        "omschrijving": "Het Gebiedsteam heeft contactpersonen op de scholen. De gemeente wil school en zorg beter laten samenwerken, onder meer via schoolmaatschappelijk werk.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van het Gebiedsteam of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dyslexiezorg, pleegzorg en verblijf. Regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Spoedeisende jeugdhulp voor kinderen van 0 tot en met 17 jaar is in Friesland regionaal geregeld. Het Gebiedsteam hoort daarna dat uw kind deze hulp kreeg.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Buurtgezinnen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Steungezinnen in de buurt helpen gezinnen met opvoeding en opvang van kinderen.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.harlingen.nl/nieuwe-coordinator-aan-de-slag-voor-buurtgezinnen"
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt Friesland",
+      "soort": "informatiepunt",
+      "omschrijving": "Onafhankelijk advies van en voor ouders bij vragen over passend onderwijs, voor basis- en voortgezet onderwijs.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.harlingen.nl/u-heeft-een-klacht-en-nu",
+      "nodig": "Beschrijving van wat er gebeurde, met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit over jeugdhulp",
+      "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet",
+      "nodig": "Het besluit bij de hand; schrijf erbij waarom u het er niet mee eens bent"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Aanbieders met een contract in Friesland, met wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Harlingen: Jeugdhulp",
+        "url": "https://www.harlingen.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Inloopspreekuur en openingstijden Gebiedsteam",
+        "url": "https://www.harlingen.nl/inloopspreekuur-en-openingstijden-gebiedsteam",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Wijziging telefonische bereikbaarheid Gebiedsteam",
+        "url": "https://www.harlingen.nl/wijziging-telefonische-bereikbaarheid-gebiedsteam-harlingen-op-vrijdag",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Onafhankelijk cliëntondersteuner (Wmo, Jeugdwet, Participatiewet)",
+        "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Klacht indienen",
+        "url": "https://www.harlingen.nl/u-heeft-een-klacht-en-nu",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Bezwaar maken",
+        "url": "https://www.harlingen.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Mishandeling of huiselijk geweld",
+        "url": "https://www.harlingen.nl/mishandeling-of-huiselijk-geweld",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Harlingen: Hulp bij opvoeden",
+        "url": "https://www.harlingen.nl/hulp-bij-opvoeden",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening Jeugdhulp 2025 gemeente Harlingen",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR746300/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beleidsregels Jeugdhulp 2025 gemeente Harlingen",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR749283/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Fryslân: Contact en route",
+        "url": "https://www.ggdfryslan.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Friesland: Contact",
+        "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Jeugd",
+        "url": "https://www.sdfryslan.nl/jeugd/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Crisishulp (Spoed4Jeugd)",
+        "url": "https://www.sdfryslan.nl/jeugd/crisishulp/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer: Friesland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027 gemeente Harlingen",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=bdbc26bf-a2c1-4bbd-9b4c-e056e26f8c33",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsvoorstel Jaarstukken 2025 Harlingen",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=ec42c74e-2fd8-4563-a6bd-c92fba173c2c",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Afdoening toezegging vragen kinderombudsman",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=d030822f-ecba-46ce-9228-22e8510177dd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief Kamerbrief Jeugd",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=ef98e305-1749-4943-827d-2eebbbea2490",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Cliëntervaringsonderzoek jeugd en gemeten doorlooptijden niet gevonden. Jaarstukken 2025 (pdf) gelezen op cijfers; sociaal-domeintekst was slecht leesbaar. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+  },
+  "ervaringen": {
+    "samenvatting": "Harlingen wil dat het Gebiedsteam meer hulp zelf geeft en minder kinderen doorverwijst naar specialistische hulp. Volgens de begroting voor 2027 wordt het team verder uitgebouwd en gaat het nauwer samenwerken met scholen, onder meer via schoolmaatschappelijk werk. Vanaf 2028 komt er een nieuwe regionale inkoop van specialistische jeugdhulp. Hoe lang het duurt voordat het Gebiedsteam een aanmelding oppakt en wat ouders van de hulp vinden, is niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het Gebiedsteam. Vraag bij uw melding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld in het ondersteuningsplan. Een cliëntondersteuner van Zorgbelang Fryslân gaat gratis mee. Een klacht over het Gebiedsteam dient u in bij het college van B&W; daarna kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Gebiedsteam wordt uitgebouwd, meer samenwerking met school",
+        "samenvatting": "Volgens de begroting voor 2027 groeit het Gebiedsteam verder uit tot een \"stevig sociaal team\" dat meer hulp zelf geeft. De gemeente wil ook dat school en zorg beter samenwerken, onder meer via schoolmaatschappelijk werk. De raad besluit hierover op 11 november 2026.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Programmabegroting 2027, programma 7 Sociaal domein (blz. 53)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=bdbc26bf-a2c1-4bbd-9b4c-e056e26f8c33"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe regionale inkoop specialistische jeugdhulp per 2028",
+        "samenvatting": "Harlingen werkt met de Friese gemeenten aan een nieuwe inkoop van specialistische jeugdhulp en verblijf. De gemeente wil ook dat kinderen makkelijker bij specialistische hulp terechtkunnen en daar worden aangenomen. Wat dit voor ouders verandert, staat nog niet vast.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Programmabegroting 2027, programma 7 Sociaal domein (blz. 53)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=bdbc26bf-a2c1-4bbd-9b4c-e056e26f8c33"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Samenwerking rond jeugdhulp werkt volgens de gemeente goed",
+        "samenvatting": "Volgens de begroting 2027 blijkt uit lokaal onderzoek dat de organisaties rond jeugdhulp in Harlingen goed samenwerken. Wel werkt de gemeente nog aan een gedeelde visie en duidelijkere rollen.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Programmabegroting 2027, programma 7 Sociaal domein (blz. 53)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=bdbc26bf-a2c1-4bbd-9b4c-e056e26f8c33"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Ongeveer 13 procent van de jongeren heeft jeugdhulp",
+        "samenvatting": "In 2025 kreeg 12,7 procent van de jongeren tot 18 jaar jeugdhulp, in 2024 was dat 13,2 procent. Gemeenten van deze omvang zaten in 2025 op 13,1 procent. Jeugdbescherming kreeg 1,2 procent van de jongeren.",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Programmabegroting 2027, indicatoren programma 7 (blz. 57)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=bdbc26bf-a2c1-4bbd-9b4c-e056e26f8c33"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Antwoord op raadsvragen: aanvraag binnen 8 weken beoordeeld",
+        "samenvatting": "De gemeente antwoordde de raad dat aanvragen voor specifieke jeugdhulp (hulp waarvoor een besluit nodig is) binnen maximaal 8 weken worden beoordeeld. Dit is een toezegging, geen meting. Kinderen en jongeren kunnen met klachten bij de klachtbehandelaar van de gemeente en bij de Kinderombudsman terecht.",
+        "datum": "2025-09",
+        "bron": {
+          "titel": "Afdoening toezegging vragen over kinderombudsman",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=d030822f-ecba-46ce-9228-22e8510177dd"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Een cliëntervaringsonderzoek jeugd van Harlingen is niet openbaar te vinden. Vraag het Gebiedsteam hoe andere ouders de hulp ervaren."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Harlingen&id=d030822f-ecba-46ce-9228-22e8510177dd",
+        "samenvatting": "Gemeten wachttijden van het Gebiedsteam zijn niet openbaar te vinden. De gemeente zegt aanvragen voor specifieke hulp binnen maximaal 8 weken te beoordelen. Vraag bij uw melding hoe lang het duurt."
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

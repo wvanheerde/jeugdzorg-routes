@@ -1,0 +1,487 @@
+{
+  "naam": "Westerkwartier",
+  "cbsCode": "GM1969",
+  "provincie": "Groningen",
+  "jeugdzorgregio": "Jeugdregio Groningen (RIGG)",
+  "websiteJeugd": "https://www.westerkwartier.nl/jeugd",
+  "toegang": {
+    "samenvatting": "In Westerkwartier vraagt u jeugdhulp aan bij Team Mens en Gezin (afdeling Jeugd) van de gemeente zelf. Er is geen apart wijkteam of CJG. Bel de gemeente en vraag naar Jeugd. U kunt ook mailen of het contactformulier invullen. Is uw vraag ingewikkelder, dan komt een consulent jeugd bij u op huisbezoek. Die kijkt eerst wat u en uw netwerk zelf kunnen en welke lichte hulp er is. Is er professionele hulp nodig, dan regelt het team die voor u. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Een besluit (beschikking) volgt volgens de verordening binnen tien weken.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Team Mens en Gezin (afdeling Jeugd)",
+        "omschrijving": "Het team van de gemeente adviseert over opvoeden en opgroeien en regelt zo nodig jeugdhulp. Op sommige vragen krijgt u meteen antwoord. Een consulent jeugd kan bij u thuis komen om uw hulpvraag te bespreken. U mag een familiegroepsplan indienen: een plan dat u samen met familie en bekenden maakt. Meldt u zich telefonisch aan, dan legt de gemeente dat schriftelijk vast.",
+        "stappen": [
+          "Bel de gemeente tussen 8.30 en 12.30 uur en vraag naar Jeugd, of mail Team Mens en Gezin.",
+          "Wilt u liever schriftelijk aanmelden? Vul dan het contactformulier Jeugd in.",
+          "Bespreek met de consulent jeugd wat er speelt, wat u en uw netwerk zelf kunnen en welke hulp past. Neem gerust een onafhankelijke cliëntondersteuner mee.",
+          "Vraag na het gesprek om een schriftelijk verslag. Bij professionele hulp krijgt u een beschikking: het besluit van de gemeente, met welke hulp, hoeveel en hoe lang."
+        ],
+        "contact": {
+          "naam": "Team Mens en Gezin (Jeugd), gemeente Westerkwartier",
+          "telefoon": "14 0594",
+          "email": "jeugd@westerkwartier.nl",
+          "url": "https://www.westerkwartier.nl/jeugd",
+          "openingstijden": "Telefonisch ma-vr 8.30-12.30 uur voor Jeugd. Bij spoed en crisis 8.30-17.00 uur via 14 0594."
+        },
+        "doorlooptijd": "Volgens de verordening is het onderzoek naar uw hulpvraag binnen zes weken klaar. De gemeente besluit uiterlijk binnen tien weken na de aanvraag. Bij spoed start de hulp zo snel mogelijk en volgt het besluit binnen vier weken na de start."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De gemeente betaalt alleen hulp van aanbieders met wie zij of de regio een contract heeft. Het gaat vaak om een aanbieder uit de regio Groningen.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Groningen.",
+          "Vraag om een verwijzing naar een aanbieder met een contract in de regio Groningen. De regionale aanbiederslijst staat op rigg.nl.",
+          "Laat de aanbieder de start van de hulp aan de gemeente doorgeven. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Groningen",
+          "telefoon": "088 254 1200",
+          "url": "https://www.ggdgroningen.nl/kind-en-opvoeding/contact/",
+          "openingstijden": "Telefonisch advies over gezondheid, groei en opvoeding. Afspraak consultatiebureau maken of wijzigen: 088 254 1100"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school en leerplicht",
+        "omschrijving": "Heeft u zorgen over leren, gedrag of schoolgang? Bespreek dat met school. School kan meedenken en contact leggen met Team Mens en Gezin. De leerplichtambtenaar van de gemeente helpt bij problemen met schoolgang.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om contact met Team Mens en Gezin, of meld u zelf aan.",
+          "Gaat het om verzuim of vrijstelling van de leerplicht? Neem contact op met de leerplichtambtenaar van de gemeente.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Team Mens en Gezin (Jeugd), gemeente Westerkwartier",
+            "telefoon": "14 0594",
+            "email": "jeugd@westerkwartier.nl",
+            "url": "https://www.westerkwartier.nl/jeugd",
+            "openingstijden": "Telefonisch ma-vr 8.30-12.30 uur voor Jeugd. Bij spoed en crisis 8.30-17.00 uur via 14 0594."
+          },
+          {
+            "naam": "Leerplicht gemeente Westerkwartier",
+            "telefoon": "14 0594",
+            "email": "leerlingzaken@westerkwartier.nl",
+            "url": "https://www.westerkwartier.nl/leerplicht"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt SWV PO 20-01 (basisonderwijs)",
+            "url": "https://po2001.nl/leerling-oudersteunpunt-los/"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt SWV Groningen Ommelanden (voortgezet onderwijs)",
+            "telefoon": "050 799 5023",
+            "url": "https://swv-go.nl/leerlingen-ouders/ouder-en-jeugdsteunpunt/",
+            "openingstijden": "Telefonisch maandag, woensdag, donderdag en vrijdag 9.00-11.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Westerkwartier op de pagina Herkennen van huiselijk geweld, kindermishandeling en ander geweld binnen afhankelijkheidsrelaties van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Westerkwartier: herkennen van huiselijk geweld, kindermishandeling en ander geweld binnen afhankelijkheidsrelaties",
+          "url": "https://www.westerkwartier.nl/herkennen-huiselijk-geweld-kindermishandeling-ander-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Sociaal Werk De Schans",
+      "toelichting": "Gratis en onafhankelijk. Maatschappelijk werkers van Sociaal Werk De Schans helpen u hulp te regelen, gaan mee naar gesprekken met de gemeente, helpen bij formulieren en denken mee als u bezwaar wilt maken. Zij nemen zelf geen besluiten. Vraag er liever naar vóór het eerste gesprek met Team Mens en Gezin.",
+      "telefoon": "0594 745 620",
+      "email": "info@sociaalwerkdeschans.nl",
+      "url": "https://www.sociaalwerkdeschans.nl/onafhankelijke-clientondersteuning/"
+    },
+    "klacht": {
+      "naam": "Klacht over Team Mens en Gezin of de gemeente",
+      "toelichting": "Team Mens en Gezin is onderdeel van de gemeente. Bespreek het eerst met de medewerker of de teamleider. Komt u er niet uit, dan dient u een klacht in bij de gemeente: online, per brief aan team Kwaliteitszorg, klachtenafhandeling, of telefonisch. De klachtenfunctionaris belt u meestal binnen een week. De gemeente behandelt de klacht binnen 6 weken, zo nodig verlengd met 4 weken. Gaat de klacht over een zorgaanbieder? Dien die dan bij de aanbieder zelf in.",
+      "url": "https://www.westerkwartier.nl/klacht-indienen",
+      "telefoon": "14 0594",
+      "extern": {
+        "naam": "Sociaal ombudsfunctionaris van de gemeente (onafhankelijk, gratis) of de Nationale ombudsman",
+        "url": "https://www.westerkwartier.nl/sociaal-ombudsfunctionaris"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een beschikking (het besluit van de gemeente) kunt u bezwaar maken bij de gemeente. Dat kan online met DigiD of per brief. Een onafhankelijke commissie bezwaarschriften hoort u en adviseert de gemeente. Bij bezwaar over jeugdhulp is die hoorzitting niet openbaar. Daarna kunt u in beroep gaan bij de rechtbank.",
+      "url": "https://www.westerkwartier.nl/bezwaar-maken"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "U kunt een pgb vragen als u kunt uitleggen waarom hulp van een aanbieder met een contract bij de gemeente (zorg in natura) niet past. U schrijft een pgb-plan met onder meer welke hulp u inkoopt, bij wie, wat het kost en hoe de kwaliteit is geregeld. Ook moet u kunnen aantonen dat u het budget zelf kunt beheren. Een pgb voor hulp van een organisatie of zzp'er is 80% van het laagste passende tarief van de gemeente. Voor hulp uit uw netwerk is het minimaal het minimumloon. Bemiddeling, een pgb-administratie en hulp bij het aanvragen betaalt u niet uit het pgb.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR756163/1"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp en advies krijgt u via Team Mens en Gezin en Sociaal Werk De Schans. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Westerkwartier koopt die hulp in met de negen andere Groninger gemeenten, via de Regionale Inkooporganisatie Groninger Gemeenten (RIGG). De aanbiederslijst staat openbaar op rigg.nl, onder 'Voor verwijzers'. Deze regio doet niet mee aan de Beschikbaarheidswijzer, de site waar u in andere regio's wachttijden kunt zien. Vraag de aanbieder zelf hoe lang het duurt.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rigg.nl/verwijzers/",
+    "categorieen": [
+      {
+        "naam": "Advies en opvoedondersteuning",
+        "omschrijving": "Via Team Mens en Gezin, de jeugdgezondheidszorg van GGD Groningen en Sociaal Werk De Schans. Geen besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "omschrijving": "Begeleiding thuis of op school, lokaal en regionaal ingekocht. Voor specialistische begeleiding is een besluit of verwijzing nodig.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-ggz",
+        "omschrijving": "Via een verwijzing van huisarts, jeugdarts of medisch specialist, of via een besluit van de gemeente.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Regionaal ingekocht via de RIGG.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Overdag via de gemeente, buiten kantoortijden via Spoed voor Jeugd Groningen (0800 8081).",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Uitgevoerd door Jeugdbescherming Noord. Die organisatie voert in Groningen en Drenthe de maatregelen van de kinderrechter uit. U meldt zich hier niet zelf aan.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Sociaal Werk De Schans",
+      "soort": "informatiepunt",
+      "omschrijving": "Welzijnsorganisatie voor alle inwoners van Westerkwartier, met onder meer maatschappelijk werk, jongerenwerk en onafhankelijke cliëntondersteuning.",
+      "themas": [
+        "gezin",
+        "opvoeden"
+      ],
+      "url": "https://www.sociaalwerkdeschans.nl/"
+    },
+    {
+      "naam": "Adviesraad Sociaal Domein Westerkwartier",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Onafhankelijke raad die het college gevraagd en ongevraagd adviseert over beleid voor zorg en ondersteuning, ook over jeugd.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.westerkwartier.nl/adviesraad-sociaal-domein-westerkwartier"
+    },
+    {
+      "naam": "Stichting Leergeld Westerkwartier-Noordenveld",
+      "soort": "vrijwilligers",
+      "omschrijving": "Helpt kinderen uit gezinnen met weinig geld mee te doen met sport, muziek of cultuur en betaalt bijvoorbeeld een fiets of computer voor school.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.leergeld.nl/westerkwartier-noordenveld/"
+    },
+    {
+      "naam": "Spoed voor Jeugd Groningen",
+      "soort": "informatiepunt",
+      "omschrijving": "Hulp bij crisis voor kinderen en jongeren tot 18 jaar, buiten kantoortijden en in het weekend. Bereikbaar op 0800 8081.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://spoedvoorjeugdgroningen.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contactformulier Jeugd",
+      "omschrijving": "Stel uw vraag of meld uw kind aan voor hulp. U kunt ook de gemeente bellen (8.30-12.30 uur) en vragen naar Jeugd.",
+      "url": "https://formulieren.westerkwartier.nl/contactformulier-jeugd"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "omschrijving": "Laagdrempelig en zonder bezwaartermijn: bij geen of late reactie, onjuiste informatie of slechte bejegening. Vaak sneller dan bezwaar.",
+      "url": "https://formulieren.westerkwartier.nl/indienen-van-een-klacht"
+    },
+    {
+      "naam": "Aanbieders zoeken (RIGG)",
+      "omschrijving": "Aanbieders met een contract in de regio Groningen, per soort hulp. Openbaar, zonder inloggen. Wachttijden staan er niet bij.",
+      "url": "https://www.rigg.nl/verwijzers/"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Schrijf erbij om welk besluit het gaat en waarom u het er niet mee eens bent.",
+      "url": "https://formulieren.westerkwartier.nl/bezwaar-maken",
+      "nodig": "De beschikking en DigiD"
+    },
+    {
+      "naam": "Verordening jeugdhulp gemeente Westerkwartier 2026",
+      "omschrijving": "De volledige regels voor toegang, besluiten en pgb. Hierin staan uw rechten. De uitleg op de gemeentesite is niet bindend.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR756163/1"
+    },
+    {
+      "naam": "Onafhankelijke cliëntondersteuner vragen (De Schans)",
+      "omschrijving": "Gratis. Doe dit bij voorkeur vóór het eerste gesprek met Team Mens en Gezin.",
+      "url": "https://www.sociaalwerkdeschans.nl/onafhankelijke-clientondersteuning/"
+    },
+    {
+      "naam": "Sociaal ombudsfunctionaris",
+      "omschrijving": "Onafhankelijk en gratis aanspreekpunt voor vragen en klachten over zorg en ondersteuning van de gemeente.",
+      "url": "https://www.westerkwartier.nl/sociaal-ombudsfunctionaris"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "omschrijving": "Gratis advies en ondersteuning bij klachten over jeugdhulp.",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Volgens de jaarstukken kreeg in 2024 14,7% van de jongeren tot 18 jaar in Westerkwartier jeugdhulp. Jeugdbescherming Noord en Veilig Thuis Groningen, regionale organisaties waar ook gezinnen uit Westerkwartier mee te maken hebben, hadden lange wachtlijsten. Jeugdbescherming Noord staat sinds 2026 niet meer onder verscherpt toezicht van de inspecties, maar nog niet elke jongere met een maatregel heeft een vaste jeugdbeschermer. De sociaal ombudsfunctionaris hoorde van een gezin dat een pgb-aanvraag stroperig vond, met meerdere afspraken achter elkaar.\n\nBegin bij Team Mens en Gezin en vraag meteen om een schriftelijk verslag en een datum waarop u een besluit kunt verwachten. Neem een gratis cliëntondersteuner van Sociaal Werk De Schans mee. Het kan helpen om vooraf alle documenten bij de hand te hebben, zeker bij een pgb. Komt u er niet uit, dien dan een klacht in bij de gemeente of vraag de sociaal ombudsfunctionaris om hulp.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jeugdbescherming Noord niet meer onder verscherpt toezicht",
+        "samenvatting": "De inspecties hebben het verscherpte toezicht op Jeugdbescherming Noord beëindigd, na hercertificering in september 2025. Toch heeft nog niet elke jongere met een maatregel een vaste jeugdbeschermer, en bij ouders en jongeren die al langer bij de organisatie zijn, blijft de inspraak achter. Ook Veilig Thuis Groningen heeft nog wachtlijsten en werkt met een verbeterplan.",
+        "datum": "2026-07-07",
+        "bron": {
+          "titel": "Raadsbrief Herstelplan Jeugdbescherming Noord en Verbeterplan Veilig Thuis Groningen",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=c54cbb48-2398-47ed-bac2-5d70b4924abf"
+        }
+      },
+      {
+        "soort": "ombudsman",
+        "titel": "Sociaal ombudsfunctionaris: lange procedure bij pgb-aanvraag",
+        "samenvatting": "De sociaal ombudsfunctionaris noemt in de rapportage over september 2025 tot en met augustus 2026 één gezin met een pgb-vraag voor jeugdhulp. Het gezin meldde zich eerst bij de verkeerde ingang, kreeg pas na weken een afspraak en vond de procedure stroperig. Het is geen onderzoek, maar één signaal uit contacten met 43 inwoners over het hele sociaal domein.",
+        "datum": "2026-09-17",
+        "bron": {
+          "titel": "Verslag sociaal ombudsfunctionaris september 2025 tot eind augustus 2026",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=19f354f7-9a65-47d8-8f4f-0ef51ff72212"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Aandeel jeugdhulp via de huisarts hoger dan landelijk",
+        "samenvatting": "Van de jeugdhulptrajecten die in 2025 in Westerkwartier begonnen, startte 54% via huisarts, jeugdarts of medisch specialist. Landelijk is dat 43%. In Westerkwartier begint jeugdhulp dus vaker bij de huisarts dan bij de gemeente.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio (2025)",
+          "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan: de gemeente gaat basishulp voor jeugd zelf inkopen",
+        "samenvatting": "Volgens de jaarstukken 2025 gaat de gemeente de basisjeugdhulp zelf inkopen, in lijn met afspraken in de regio Groningen. Dat moet voor 2028 geregeld zijn, samen met nieuwe contracten voor welzijnswerk en Wmo (Wet maatschappelijke ondersteuning). Voor ouders kan dan veranderen welke hulp lokaal en welke regionaal wordt aangeboden.",
+        "datum": "2026-06-17",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Westerkwartier",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=78fe9045-33c8-462e-b7f5-838eefd766d6"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Cliëntervaringsonderzoek Wmo 2024 gaat niet over jeugdhulp",
+        "samenvatting": "De gemeente onderzoekt jaarlijks hoe inwoners met ondersteuning uit de Wmo (Wet maatschappelijke ondersteuning) de hulp ervaren (respons 54%). Dit gaat niet over jeugdhulp. Een recent onderzoek onder ouders en jongeren in de jeugdhulp is niet openbaar te vinden.",
+        "datum": "2025-09-30",
+        "bron": {
+          "titel": "Raadsbrief Resultaten Cliëntervaringsonderzoek Wmo 2024",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=f6191b9f-14a3-4895-a2b2-f45b9ee0dcbf"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-11",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Een recent cliëntervaringsonderzoek Jeugd is niet openbaar te vinden. Het laatst genoemde onderzoek is van 2020-2021. Wel onderzoekt de gemeente jaarlijks de ervaringen van inwoners met Wmo-ondersteuning, maar dat gaat niet over jeugdhulp.",
+        "url": "https://westerkwartier.bestuurlijkeinformatie.nl/"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Gemeten doorlooptijden van Team Mens en Gezin zijn niet openbaar te vinden. Wel staat in de verordening dat de gemeente binnen tien weken besluit, en bij spoed binnen vier weken na de start van de hulp. Vraag bij het eerste gesprek hoe lang het duurt.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR756163/1"
+      },
+      "aandeelHuisarts": {
+        "percentage": 54,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Westerkwartier - Jeugd (Team Mens en Gezin)",
+        "url": "https://www.westerkwartier.nl/jeugd",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Gezin en opvoeden",
+        "url": "https://www.westerkwartier.nl/gezin-en-opvoeden",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Jeugdgezondheidszorg",
+        "url": "https://www.westerkwartier.nl/jeugdgezondheidszorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Onafhankelijke cliëntondersteuning",
+        "url": "https://www.westerkwartier.nl/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Sociaal ombudsfunctionaris",
+        "url": "https://www.westerkwartier.nl/sociaal-ombudsfunctionaris",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Klacht indienen",
+        "url": "https://www.westerkwartier.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Bezwaar maken",
+        "url": "https://www.westerkwartier.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Toezicht Wmo en Jeugdwet",
+        "url": "https://www.westerkwartier.nl/toezicht-wmo-jeugdwet",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier - Adviesraden en meldpunten",
+        "url": "https://www.westerkwartier.nl/adviesraden-en-meldpunten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Westerkwartier 2026 (CVDR756163)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR756163/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Werk De Schans - Onafhankelijke cliëntondersteuning",
+        "url": "https://www.sociaalwerkdeschans.nl/onafhankelijke-clientondersteuning/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RIGG - Jeugdregio Groningen",
+        "url": "https://www.rigg.nl/jeugdregio-groningen/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RIGG - Voor verwijzers (aanbiederslijst)",
+        "url": "https://www.rigg.nl/verwijzers/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Spoed voor Jeugd Groningen",
+        "url": "https://spoedvoorjeugdgroningen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Groningen",
+        "url": "https://www.veiligthuisgroningen.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Westerkwartier",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=78fe9045-33c8-462e-b7f5-838eefd766d6",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Programmabegroting 2027 gemeente Westerkwartier",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=79b10695-c021-4561-8577-cab55ae3e82d",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsbrief Herstelplan Jeugdbescherming Noord en Verbeterplan Veilig Thuis Groningen",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=c54cbb48-2398-47ed-bac2-5d70b4924abf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verslag sociaal ombudsfunctionaris september 2025 tot eind augustus 2026",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=19f354f7-9a65-47d8-8f4f-0ef51ff72212",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsbrief Resultaten Cliëntervaringsonderzoek Wmo 2024",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=f6191b9f-14a3-4895-a2b2-f45b9ee0dcbf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsbrief aanbesteding sociaal domein",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Westerkwartier&id=bdd0878e-eabe-4365-8065-9e2563902830",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier: Herkennen van huiselijk geweld, kindermishandeling en ander geweld binnen afhankelijkheidsrelaties",
+        "url": "https://www.westerkwartier.nl/herkennen-huiselijk-geweld-kindermishandeling-ander-geweld",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Groningen: Contact Jeugdgezondheidszorg",
+        "url": "https://www.ggdgroningen.nl/kind-en-opvoeding/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Westerkwartier: Leerplicht",
+        "url": "https://www.westerkwartier.nl/leerplicht",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV PO 20-01: ouder- en jeugdsteunpunt",
+        "url": "https://po2001.nl/leerling-oudersteunpunt-los/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV Groningen Ommelanden: ouder- en jeugdsteunpunt",
+        "url": "https://swv-go.nl/leerlingen-ouders/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden niet gevonden in jaarstukken en raadsinformatie. Klachtenregeling en bezwaarcommissie zijn die van de gemeente (geen apart team). Regionale journalistiek en IGJ-rapporten niet gevonden; wachttijden van aanbieders niet openbaar."
+  }
+}

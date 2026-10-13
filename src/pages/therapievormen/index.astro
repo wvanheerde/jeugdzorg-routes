@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import TherapieKaart from '../../components/TherapieKaart.astro';
+import TherapieToelichting from '../../components/TherapieToelichting.astro';
+import { getCollection } from 'astro:content';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const alle = (await getCollection('therapievormen')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+---
+<Base title="Therapievormen" description="Uitleg over veelgebruikte therapievormen in de jeugdhulp: wat ze zijn, voor wie en wat u ervan kunt verwachten.">
+  <div class="page-head">
+    <span class="eyebrow">Weten wat bestaat</span>
+    <h1>Therapievormen per situatie</h1>
+    <p class="lead">Een gesprek met het toegangsteam of de verwijzer verloopt makkelijker als u weet welke hulp bestaat en kunt uitleggen waarom een vorm bij uw kind past. Dan beslist u samen, op basis van dezelfde informatie. Per situatie staan hier de gangbare behandel- en begeleidingsvormen, met wat u mag verwachten, hoe het wordt vergoed en hoe u het aanvraagt.</p>
+    <TherapieToelichting />
+  </div>
+  <nav class="toc" aria-label="Per situatie">{situaties.filter((s) => alle.some((t) => t.data.situaties.includes(s.id))).map((s) => <a href={`#${s.id}`}>{s.data.titel}</a>)}</nav>
+  {situaties.map((s) => { const ts = alle.filter((t) => t.data.situaties.includes(s.id)); return ts.length > 0 && (
+    <section id={s.id} style="scroll-margin-top:5.5rem">
+      <div class="kicker"><h2>{s.data.titel}</h2><span class="line"></span><a class="btn secondary" href={`${base}/situaties/${s.id}/`}>Naar de situatie</a></div>
+      <div class="grid" style="margin-top:1.25rem">{ts.map((t) => <TherapieKaart t={t} />)}</div>
+    </section>
+  ); })}
+</Base>

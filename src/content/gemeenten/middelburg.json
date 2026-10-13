@@ -1,0 +1,380 @@
+{
+  "naam": "Middelburg",
+  "cbsCode": "GM0687",
+  "provincie": "Zeeland",
+  "websiteJeugd": "https://www.middelburg.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Middelburg vraagt u jeugdhulp aan bij Toegang in Middelburg (TIM), het team van de gemeente. U meldt zich zelf aan. Een verwijzing is niet nodig. Een jeugdconsulent doet een onderzoeksgesprek met u en maakt met u een plan. Binnen twee weken na het gesprek krijgt u een brief met het besluit. Voor lichtere hulp en advies kunt u ook terecht bij het sociaal team Middelburg van Vizita, zonder besluit van de gemeente. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Hoe lang het duurt voordat TIM uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Toegang in Middelburg (TIM) en sociaal team Middelburg (Vizita)",
+        "omschrijving": "TIM is het team van de gemeente. De jeugdconsulenten onderzoeken uw vraag, maken met u een plan en nemen het besluit over de hulp. U meldt zich zelf aan. Het sociaal team van Stichting Vizita biedt gratis advies en lichtere hulp, ook voor opvoeden en opgroeien, en is aanwezig op scholen en in de wijk. Hulp van het sociaal team krijgt u zonder besluit van de gemeente.",
+        "stappen": [
+          "Bel of mail TIM met uw hulpvraag. Een jeugdconsulent bespreekt met u wat er speelt.",
+          "Maak een afspraak voor het onderzoeksgesprek, thuis of telefonisch. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner. Is uw kind 12 jaar of ouder, dan mag het erbij zijn. Vanaf 16 jaar praat de gemeente ook zonder de ouders met de jongere.",
+          "Lees het verslag dat u na het gesprek krijgt. Bent u het ermee eens, dan krijgt u binnen 2 weken een brief met het besluit over de hulp. Met die brief start u bij de aanbieder.",
+          "Wilt u liever eerst advies of lichte hulp? Neem dan contact op met het sociaal team van Vizita."
+        ],
+        "contact": [
+          {
+            "naam": "Toegang in Middelburg (TIM)",
+            "telefoon": "0118 67 50 00",
+            "email": "tim@middelburg.nl",
+            "url": "https://www.middelburg.nl/de-jeugdwet",
+            "openingstijden": "Telefonisch ma t/m vr 8.30–16.30 uur"
+          },
+          {
+            "naam": "Sociaal team Middelburg (Stichting Vizita)",
+            "telefoon": "0118 44 88 44",
+            "email": "info@vizita.nl",
+            "url": "https://www.vizita.nl/contact",
+            "openingstijden": "Telefonisch 9.00–11.00 en 13.00–15.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast TIM. U krijgt daarna wel een brief van de gemeente over de start van de hulp. De gemeente betaalt en regelt die hulp. TIM-medewerkers werken in een aantal huisartspraktijken in Middelburg.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Wacht op de brief van de gemeente over de start van de hulp. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Zeeland",
+          "telefoon": "0113 249 315",
+          "url": "https://www.ggdzeeland.nl/contact"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. De schoolmaatschappelijk werker van Vizita helpt kinderen en ouders op school. Heeft uw kind extra ondersteuning nodig, dan vraagt school die aan bij het samenwerkingsverband passend onderwijs. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Zeeland.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag om hulp van de schoolmaatschappelijk werker van het sociaal team. U kunt ook zelf contact opnemen.",
+          "Meld u bij TIM als meer hulp nodig is.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland of bij het samenwerkingsverband van de school van uw kind."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal team Middelburg (Stichting Vizita)",
+            "telefoon": "0118 44 88 44",
+            "email": "info@vizita.nl",
+            "url": "https://www.vizita.nl/contact",
+            "openingstijden": "Telefonisch 9.00–11.00 en 13.00–15.00 uur"
+          },
+          {
+            "naam": "Toegang in Middelburg (TIM)",
+            "telefoon": "0118 67 50 00",
+            "email": "tim@middelburg.nl",
+            "url": "https://www.middelburg.nl/de-jeugdwet",
+            "openingstijden": "Telefonisch ma t/m vr 8.30–16.30 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Zeeland (passend onderwijs)",
+            "url": "https://www.ouderjeugdsteunpuntzeeland.nl/contact"
+          },
+          {
+            "naam": "Samenwerkingsverband Kind op 1 (passend primair onderwijs)",
+            "telefoon": "0113 228887",
+            "email": "info@swvkindop1.nl",
+            "url": "https://swvkindop1.nl/contact"
+          },
+          {
+            "naam": "Samenwerkingsverband PVOW (passend voortgezet onderwijs Walcheren)",
+            "url": "https://www.pvow.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Zeeland zijn, ook buiten kantoortijd, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisishulp voor jeugdigen buiten kantoortijd op de pagina over de Jeugdwet van de gemeente Middelburg."
+        ],
+        "contact": {
+          "naam": "Gemeente Middelburg: de Jeugdwet, met crisishulp buiten kantoortijd",
+          "url": "https://www.middelburg.nl/de-jeugdwet"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Meedenkers Zeeland (via Vizita)",
+      "toelichting": "Een meedenker is een onafhankelijke cliëntondersteuner: gratis, zonder verwijzing. Hij of zij helpt uw vraag helder te krijgen, gaat mee naar een gesprek met TIM en denkt mee over passende hulp. Inwoners van Middelburg bellen hiervoor Vizita. Vraag een meedenker bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "0118 44 88 44",
+      "url": "https://www.meedenkerszeeland.nl"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u uitlegt waarom de hulp van een aanbieder met een contract niet bij uw kind past. U moet ook het budget kunnen beheren en de hulp moet van goede kwaliteit zijn. Hulp van iemand uit uw netwerk mag, behalve bij ggz-behandeling. Een pgb is niet mogelijk voor crisishulp en pleegzorg. Het pgb voor hulp van een professional is hooguit zo hoog als het tarief van de goedkoopste passende hulp in natura (hulp via een aanbieder met een contract). De gemeente wilde het pgb-tarief verlagen. Dat heeft de gemeenteraad in 2026 nog niet ingevoerd. Er komt een nieuw voorstel over pgb's.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR754907"
+    },
+    "klacht": {
+      "naam": "Klacht over TIM of de gemeente",
+      "toelichting": "TIM is onderdeel van de gemeente. Bespreek het eerst met de medewerker of bel TIM. Komt u er niet uit, dan dient u een klacht in bij de klachtencoördinator van de gemeente. Dat kan per brief, per e-mail of mondeling. U krijgt binnen 10 weken een beslissing. Dat kan 4 weken langer duren. Leidt een gesprek niet tot een oplossing, dan hoort een onafhankelijke klachtencommissie u. Een klacht over Vizita of een zorgaanbieder dient u eerst bij die organisatie in.",
+      "url": "https://www.middelburg.nl/klachtenregeling",
+      "email": "info@middelburg.nl",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online of schriftelijk bij de gemeente. Bel gerust eerst TIM: een gesprek kan het besluit duidelijker maken. Let op: de termijn voor bezwaar loopt tijdens zo'n gesprek gewoon door. Daarna hoort een onafhankelijke bezwaarcommissie u.",
+      "url": "https://www.middelburg.nl/bezwaar-tegen-gemeentelijke-besluiten"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp en advies krijgt u bij het sociaal team van Vizita, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Middelburg samen met de andere 12 Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland. Op de site van de inkooporganisatie staat een link naar de Beschikbaarheidswijzer met aanbieders en wachttijden. In 2026 gelden tijdelijke contracten. Nieuwe contracten moeten op 1 januari 2028 ingaan. Vraag TIM welke aanbieders nu een contract hebben.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning en schoolmaatschappelijk werk",
+        "omschrijving": "Via het sociaal team van Vizita: advies, schoolmaatschappelijk werk, trainingen op school en Integrale Vroeghulp (hulp bij zorgen over de ontwikkeling van een jong kind).",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van TIM of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, verblijf en pleegzorg, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Sociaal team Middelburg (Vizita)",
+      "soort": "informatiepunt",
+      "omschrijving": "Gratis maatschappelijk werk en welzijn voor inwoners van Middelburg en Veere, met inloopspreekuren, schoolmaatschappelijk werk en hulp bij opvoeden en opgroeien.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.vizita.nl/diensten/opvoeden-opgroeien"
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt Zeeland",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Onafhankelijk advies en een luisterend oor bij vragen over passend onderwijs, voor ouders en leerlingen in het basis- en voortgezet onderwijs.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://www.ouderjeugdsteunpuntzeeland.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "omschrijving": "Online bezwaarformulier van de gemeente.",
+      "url": "https://eloket.middelburg.nl/f/2027",
+      "nodig": "Het besluit bij de hand"
+    },
+    {
+      "naam": "Klachtenregeling gemeente Middelburg",
+      "url": "https://www.middelburg.nl/klachtenregeling",
+      "nodig": "Naam, adres, datum en een duidelijke omschrijving van wat er is gebeurd"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer Zeeland)",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
+    },
+    {
+      "naam": "Meedenkers Zeeland: cliëntondersteuner vragen",
+      "url": "https://www.meedenkerszeeland.nl"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Middelburg: Jeugdhulp",
+        "url": "https://www.middelburg.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Middelburg: De Jeugdwet (TIM, contact, crisis)",
+        "url": "https://www.middelburg.nl/de-jeugdwet",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Middelburg: Onderzoeksgesprek Jeugdwet",
+        "url": "https://www.middelburg.nl/onderzoeksgesprek-jeugdwet",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Middelburg: Uw kind op school",
+        "url": "https://www.middelburg.nl/uw-kind-op-school",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Middelburg: Klachtenregeling",
+        "url": "https://www.middelburg.nl/klachtenregeling",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Middelburg: Bezwaar tegen gemeentelijke besluiten",
+        "url": "https://www.middelburg.nl/bezwaar-tegen-gemeentelijke-besluiten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Middelburg: Onafhankelijk vertrouwenspersoon",
+        "url": "https://www.middelburg.nl/onafhankelijk-vertrouwenspersoon",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Integrale verordening Jeugdhulp en maatschappelijke ondersteuning Middelburg",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR754907",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 Middelburg: programma Sociaal domein",
+        "url": "https://jaarstukken.middelburg.nl/2025/programma-s/sociaal-domein",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsvragen aanbesteding jeugdhulp, 17 juni 2026",
+        "url": "https://api.notubiz.nl/document/17082021/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beleidskader Jeugd Middelburg 2025-2028",
+        "url": "https://api.notubiz.nl/document/15905204/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Vizita: Contact",
+        "url": "https://www.vizita.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Vizita: Opvoeden en opgroeien",
+        "url": "https://www.vizita.nl/diensten/opvoeden-opgroeien",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Meedenkers Zeeland",
+        "url": "https://www.meedenkerszeeland.nl",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Zeeland: Contact (Jeugdgezondheidszorg)",
+        "url": "https://www.ggdzeeland.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Zeeland: Contact",
+        "url": "https://www.ouderjeugdsteunpuntzeeland.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samenwerkingsverband Kind op 1: Contact",
+        "url": "https://swvkindop1.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samenwerkingsverband PVOW: Contact",
+        "url": "https://www.pvow.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED (Jeugdhulptrajecten in natura)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen; doorlooptijden en cliëntervaringsonderzoek niet gevonden. PVOW en steunpunt: alleen formulier of website (06-nummer en onduidelijk e-mailadres weggelaten). Dekking Beschikbaarheidswijzer Zeeland niet vast te stellen (gemeentelijst leeg), de inkooporganisatie linkt er zelf naar."
+  },
+  "jeugdzorgregio": "Zeeland (13 gemeenten, Inkooporganisatie Jeugdhulp Zeeland)",
+  "ervaringen": {
+    "samenvatting": "Middelburg wil meer lichte hulp dichtbij huis. De gemeente kijkt vaker eerst naar wat het gezin en het eigen netwerk kunnen, voordat specialistische hulp start. Ze bouwt aan een team in de buurt dat lichte hulp biedt en doorverwijst, en nieuwe contracten met aanbieders komen pas in 2028. Hoe lang het duurt voordat TIM een aanmelding oppakt en hoe ouders de hulp beoordelen, is niet openbaar te vinden.\n\nVraag bij uw aanmelding bij TIM hoe lang het duurt en vraag om een schriftelijk verslag van het gesprek. Neem een gratis meedenker (cliëntondersteuner) via Vizita mee. Komt u er met TIM niet uit, dien dan een klacht in bij de klachtencoördinator van de gemeente of maak bezwaar tegen het besluit. Een vertrouwenspersoon van Jeugdstem helpt u daarbij gratis.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuw beleidskader jeugd vastgesteld",
+        "samenvatting": "De gemeenteraad nam in september 2025 het Beleidskader Jeugd 2025-2028 aan. De gemeente wil meer lichte hulp in de buurt en kijkt eerst naar wat gezinnen zelf en hun netwerk kunnen. Specialistische hulp is bedoeld voor kinderen die dat echt nodig hebben.",
+        "datum": "2025-09-25",
+        "bron": {
+          "titel": "Jaarstukken 2025 Middelburg: programma Sociaal domein",
+          "url": "https://jaarstukken.middelburg.nl/2025/programma-s/sociaal-domein"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe contracten jeugdhulp uitgesteld naar 2028",
+        "samenvatting": "De Zeeuwse gemeenten sloten voor 2026 tijdelijke contracten met jeugdhulpaanbieders. Nieuwe contracten moeten op 1 januari 2028 ingaan. Vraag TIM bij een aanvraag welke aanbieders nu een contract hebben.",
+        "datum": "2026-06-17",
+        "bron": {
+          "titel": "Beantwoording raadsvragen over de aanbesteding jeugdhulp, commissie Maatschappelijke Zaken",
+          "url": "https://api.notubiz.nl/document/17082021/2"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe verordening jeugdhulp: pgb-tarief voorlopig niet lager",
+        "samenvatting": "De raad stelde de nieuwe verordening jeugdhulp voor 2026 vast, zonder het artikel over de hoogte van het pgb. Daardoor geldt het oude pgb-tarief nog en komt er voorlopig geen verlaging naar 75 procent. De gemeente komt in het derde kwartaal van 2026 met een voorstel over pgb's.",
+        "datum": "2026-01",
+        "bron": {
+          "titel": "Jaarstukken 2025 Middelburg: programma Sociaal domein",
+          "url": "https://jaarstukken.middelburg.nl/2025/programma-s/sociaal-domein"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan: nieuw team voor jeugd in de buurt",
+        "samenvatting": "Middelburg ontwerpt een team voor jeugd in de buurt (een 'stevig lokaal team'), dat alle gemeenten in 2028 moeten hebben. Het ontwerp wordt in 2026 vastgesteld en in 2027 uitgeprobeerd. Daardoor kan de werkwijze van TIM en het sociaal team veranderen.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarstukken 2025 Middelburg: programma Sociaal domein",
+          "url": "https://jaarstukken.middelburg.nl/2025/programma-s/sociaal-domein"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "De gemeente zegt dat u binnen 2 weken na het onderzoeksgesprek een brief met het besluit krijgt. Dat is een toezegging, geen meting."
+      },
+      "aandeelHuisarts": {
+        "percentage": 45,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  }
+}

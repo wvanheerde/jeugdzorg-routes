@@ -1,0 +1,21 @@
+{"stap":1,"tijd":"2026-10-13T19:18:59.805Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-13T19:19:00.376Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-13T19:19:00.434Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1544}
+{"stap":4,"tijd":"2026-10-13T19:19:03.119Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-13T19:19:03.157Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Eerste scherm. Ik zoek gemeente Den Haag en 'Hulp is afgewezen'. Stap 0/25"],"tekst":"Eerste scherm. Ik zoek gemeente Den Haag en 'Hulp is afgewezen'. Stap 0/25"}
+{"stap":6,"tijd":"2026-10-13T19:19:05.016Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["13"]}
+{"stap":7,"tijd":"2026-10-13T19:19:07.159Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1264}
+{"stap":8,"tijd":"2026-10-13T19:20:12.198Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","'s-Gravenhage"],"fout":"Fout: locator.selectOption: Timeout 30000ms exceeded."}
+{"stap":9,"tijd":"2026-10-13T19:20:12.541Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Den Haag"]}
+{"stap":10,"tijd":"2026-10-13T19:20:14.604Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1169}
+{"stap":11,"tijd":"2026-10-13T19:20:17.761Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 3/25. Den Haag gekozen (eerste poging mislukte). Milan is 11, ADHD en gedrag; klik die aan."],"tekst":"Stap 3/25. Den Haag gekozen (eerste poging mislukte). Milan is 11, ADHD en gedrag; klik die aan."}
+{"stap":12,"tijd":"2026-10-13T19:20:19.605Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["23"]}
+{"stap":13,"tijd":"2026-10-13T19:20:21.448Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["30"]}
+{"stap":14,"tijd":"2026-10-13T19:20:23.287Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["31"]}
+{"stap":15,"tijd":"2026-10-13T19:20:25.139Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"klik","args":["45"]}
+{"stap":16,"tijd":"2026-10-13T19:20:25.197Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"kijk","args":[],"lengte":1608}
+{"stap":17,"tijd":"2026-10-13T19:20:28.835Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"foto","args":[]}
+{"stap":18,"tijd":"2026-10-13T19:20:28.866Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"notitie","args":["Stap 7/25. Direct: bezwaar binnen 6 weken, Den Haag, telefoon 070 752 5992. Brief is 2 weken oud dus ongeveer 4 weken over. Maar klagen vs bezwaar? Verder lezen."],"tekst":"Stap 7/25. Direct: bezwaar binnen 6 weken, Den Haag, telefoon 070 752 5992. Brief is 2 weken oud dus ongeveer 4 weken over. Maar klagen vs bezwaar? Verder lezen."}
+{"stap":19,"tijd":"2026-10-13T19:20:29.383Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"scroll","args":[]}
+{"stap":20,"tijd":"2026-10-13T19:20:42.741Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"notitie","args":["Stap 8/25. Klacht vs bezwaar uitgelegd, duidelijk. Deze week: brief zoeken, bezwaarbrief sturen, Juridisch Loket/MEE bellen. Klaar."],"tekst":"Stap 8/25. Klacht vs bezwaar uitgelegd, duidelijk. Deze week: brief zoeken, bezwaarbrief sturen, Juridisch Loket/MEE bellen. Klaar."}
+{"stap":21,"tijd":"2026-10-13T19:20:42.776Z","url":"http://127.0.0.1:4329/overzicht/?s=adhd%2Cgedragsproblemen&k=afgewezen&gemeente=den-haag&l=4-12","cmd":"stop"}

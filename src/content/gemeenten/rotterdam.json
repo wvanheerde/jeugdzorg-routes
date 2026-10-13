@@ -1,0 +1,500 @@
+{
+  "naam": "Rotterdam",
+  "cbsCode": "GM0599",
+  "provincie": "Zuid-Holland",
+  "jeugdzorgregio": "Rijnmond",
+  "websiteJeugd": "https://www.rotterdam.nl/ik-zoek-jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Rotterdam zijn er meerdere ingangen voor jeugdhulp. Voor cursussen, opvoedadvies en lichte vragen kunt u zonder verwijzing terecht bij CJG Rijnmond of de schoolmaatschappelijk werker op school. Is er meer aan de hand, dan verwijzen huisarts, jeugdarts of school u door, of maakt u via de Vraagwijzer een afspraak met het wijkteam. Het wijkteam maakt samen met u een ondersteuningsverslag en regelt zo nodig een beschikking voor specialistische jeugdhulp.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Wijkteam, via de Vraagwijzer",
+        "omschrijving": "Het wijkteam pakt problemen op meerdere terreinen op, waaronder jeugdhulp, en regelt zo nodig de beschikking voor specialistische jeugdhulp. U bereikt het wijkteam via de Vraagwijzer; de huisarts, jeugdarts, school of CJG Rijnmond kan ook doorverwijzen.",
+        "stappen": [
+          "Neem contact op met de Vraagwijzer: bel, loop binnen tijdens het inloopspreekuur (op de meeste locaties werkdagen 9.00–12.00 uur) of maak online een afspraak.",
+          "Een medewerker van de Vraagwijzer bespreekt uw vraag en verwijst zo nodig door naar het wijkteam in uw wijk.",
+          "Een jeugd- en gezinscoach van het wijkteam maakt samen met u een ondersteuningsverslag; het wijkteam biedt zelf hulp of zet specialistische jeugdhulp in.",
+          "Bij specialistische hulp ontvangt u een beschikking van de gemeente."
+        ],
+        "contact": {
+          "naam": "Vraagwijzer",
+          "telefoon": "14 010",
+          "url": "https://www.rotterdam.nl/vraagwijzer",
+          "openingstijden": "Inloopspreekuur op de meeste locaties werkdagen 9.00–12.00 uur; telefonisch bereikbaar via 14 010, ook 's middags op afspraak."
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks doorverwijzen naar gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het wijkteam. De jeugdarts of jeugdverpleegkundige is te bereiken via school of CJG Rijnmond.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of neem via school of CJG Rijnmond contact op met de jeugdarts of jeugdverpleegkundige.",
+          "De arts of jeugdarts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "CJG Rijnmond",
+          "telefoon": "088 20 10 000",
+          "email": "info@cjgrijnmond.nl",
+          "url": "https://www.cjgrijnmond.nl/contact",
+          "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school (schoolmaatschappelijk werk)",
+        "omschrijving": "Bijna elke Rotterdamse school heeft een schoolmaatschappelijk werker voor sociale, emotionele of persoonlijke problemen. Die denkt mee over passende hulp en legt zo nodig de verbinding met de jeugdarts, CJG Rijnmond of het wijkteam.",
+        "stappen": [
+          "Vraag op school naar de schoolmaatschappelijk werker voor een afspraak.",
+          "De schoolmaatschappelijk werker bespreekt de zorgen en denkt mee over passende hulp.",
+          "Is meer nodig, dan verwijst de schoolmaatschappelijk werker door naar de jeugdarts, CJG Rijnmond of, via de Vraagwijzer, naar het wijkteam.",
+          "Extra ondersteuning binnen het onderwijs zelf loopt via het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Vraagwijzer",
+            "telefoon": "14 010",
+            "url": "https://www.rotterdam.nl/vraagwijzer",
+            "openingstijden": "Inloopspreekuur op de meeste locaties werkdagen 9.00–12.00 uur; telefonisch bereikbaar via 14 010, ook 's middags op afspraak."
+          },
+          {
+            "naam": "CJG Rijnmond",
+            "telefoon": "088 20 10 000",
+            "email": "info@cjgrijnmond.nl",
+            "url": "https://www.cjgrijnmond.nl/contact",
+            "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
+          },
+          {
+            "naam": "Koers VO (samenwerkingsverband voortgezet onderwijs)",
+            "telefoon": "010 484 25 76",
+            "email": "info@koersvo.nl",
+            "url": "https://www.koersvo.nl/contact",
+            "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "overig",
+        "naam": "Zelf aanmelden bij CJG Rijnmond",
+        "omschrijving": "Centrum voor Jeugd en Gezin Rijnmond geeft gratis opvoedadvies en informatie over gezondheid en ontwikkeling, en biedt cursussen en trainingen voor jongeren en ouders waarvoor u zich zelf kunt aanmelden, zonder verwijzing.",
+        "stappen": [
+          "Bel CJG Rijnmond (werkdagen 8.00–17.00 uur), app via WhatsApp of maak online een afspraak.",
+          "Een CJG-professional beantwoordt uw vraag of meldt u aan voor een cursus of training.",
+          "Is meer hulp nodig, dan denkt CJG Rijnmond mee over de volgende stap, bijvoorbeeld de huisarts of de Vraagwijzer."
+        ],
+        "contact": {
+          "naam": "CJG Rijnmond",
+          "telefoon": "088 20 10 000",
+          "email": "info@cjgrijnmond.nl",
+          "url": "https://www.cjgrijnmond.nl/contact",
+          "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
+        }
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Rotterdam op de pagina Ik zoek jeugdhulp van de gemeente, onder het kopje Onveilig thuis."
+        ],
+        "contact": {
+          "naam": "Gemeente Rotterdam: ik zoek jeugdhulp",
+          "url": "https://www.rotterdam.nl/ik-zoek-jeugdhulp"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Rotterdam Ondersteunt (Adviespunt Zorgbelang)",
+      "toelichting": "Gratis en onafhankelijk van de gemeente, het wijkteam en zorgverleners. Rotterdam Ondersteunt wordt uitgevoerd door Adviespunt Zorgbelang (onderdeel van Zorgbelang Inclusief) en helpt bij vragen over zorg, welzijn, jeugdhulp en werk: met informatie en advies, het voorbereiden van of meegaan naar een gesprek, en ondersteuning bij een klacht.",
+      "telefoon": "010 307 6450",
+      "email": "advies@rotterdamondersteunt.nl",
+      "url": "https://www.rotterdamondersteunt.nl/"
+    },
+    "klacht": {
+      "naam": "Klachten bij CJG Rijnmond en het wijkteam",
+      "toelichting": "CJG Rijnmond heeft een klachtenfunctionaris die gratis helpt uw klacht te formuleren en te bemiddelen; dien de klacht in via het klachtformulier. CJG Rijnmond handelt de klacht binnen 6 weken af, met een mogelijke verlenging van 4 weken; komt u er met het bestuur niet uit, dan adviseert de onafhankelijke Klachtencommissie Rijnmond. Klachten over het wijkteam dient u telefonisch in bij de gemeente. Komt u er niet uit of duurt het te lang, dan kunt u naar de Ombudsman Rotterdam-Rijnmond (kinderombudsman), 0800-0802.",
+      "url": "https://cjgrijnmond.nl/contact/feedback-tevreden-of-een-klacht",
+      "telefoon": "088 20 10 000",
+      "extern": {
+        "naam": "Ombudsman Rotterdam-Rijnmond, kinderombudsman",
+        "url": "https://orr.nl/klacht/jeugdhulp/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een beschikking kunt u binnen 6 weken na de verzenddatum bezwaar maken bij de gemeente Rotterdam: online met DigiD via het bezwaarformulier, of per post aan de Algemene Bezwaarschriftencommissie, Postbus 1011, 3000 BA Rotterdam. Stuur een kopie van de beschikking mee. De gemeente beslist binnen 6 weken, met een mogelijke verlenging van 6 weken; bij complexere zaken adviseert de onafhankelijke Algemene Bezwaarschriftencommissie.",
+      "url": "https://www.rotterdam.nl/bezwaar-maken-tegen-overige-besluiten"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Aanvraag via de jeugd- en gezinscoach van het wijkteam. U schrijft een pgb-plan waarin u aangeeft waarom u een pgb wilt, hoe u de ondersteuning organiseert en hoe u de kwaliteit waarborgt. De gemeente beoordeelt of u 'pgb-vaardig' bent; soms is de pgb-toets van Per Saldo nodig. Na de beschikking sluit u via de Sociale Verzekeringsbank (SVB) een zorgovereenkomst met de zorgverlener.",
+      "url": "https://www.rotterdam.nl/persoonsgebonden-budget"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Specialistische jeugdhulp wordt regionaal ingekocht via de Gemeenschappelijke Regeling Jeugdhulp Rijnmond (dertien gemeenten). Het Verwijzingsfilter van Jeugdhulp Rijnmond toont welke gecontracteerde aanbieders welke hulp waar leveren; dit is een hulpmiddel voor verwijzers, bekijk het samen met uw huisarts, jeugdarts of wijkteam. De regio Rijnmond is niet aangesloten op de Beschikbaarheidswijzer.",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Laagdrempelig via CJG Rijnmond of het wijkteam, zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via verwijzing van het wijkteam, een arts of school.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en gezinshuizen",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/"
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Jongerenhub",
+      "soort": "informatiepunt",
+      "omschrijving": "Op verschillende plekken in de stad is een Jongerenhub: een laagdrempelige inlooplocatie waar jongeren kunnen sporten, gamen, iets organiseren of met een vraag terecht kunnen, bijvoorbeeld over school, geld of thuis. Welzijnsorganisaties zoals WMO Radar bemensen de hubs samen met jongerenwerkers.",
+      "themas": [
+        "jongeren"
+      ],
+      "url": "https://www.rotterdam.nl/jongerenhub"
+    },
+    {
+      "naam": "MEE Rotterdam Rijnmond",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Expertisepartner voor mensen met een beperking die tijdelijk vastlopen of extra hulp nodig hebben, ook kinderen en jongeren. MEE denkt mee over oplossingen op school, thuis of in de vrije tijd en begeleidt via het project MEE op Weg jongeren met een reismaatje naar meer zelfstandigheid.",
+      "themas": [
+        "beperking",
+        "verstandelijke beperking",
+        "ontwikkelingsproblemen"
+      ],
+      "url": "https://www.meerotterdamrijnmond.nl/",
+      "contact": {
+        "naam": "MEE Rotterdam Rijnmond",
+        "telefoon": "010 282 1111"
+      }
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Ik zoek jeugdhulp (gemeente Rotterdam)",
+      "omschrijving": "Uitleg van de route en de contactmogelijkheden, voor jongeren en voor ouders.",
+      "url": "https://www.rotterdam.nl/ik-zoek-jeugdhulp"
+    },
+    {
+      "naam": "Klacht indienen bij CJG Rijnmond",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Vaak sneller dan bezwaar.",
+      "url": "https://cjgrijnmond.nl/contact/feedback-tevreden-of-een-klacht"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://formulier.rotterdam.nl/bezwaar-indienen/",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Afspraak maken met de Vraagwijzer (wijkteam)",
+      "omschrijving": "Voor een gesprek over jeugdhulp of over meerdere problemen tegelijk.",
+      "url": "https://www.rotterdam.nl/vraagwijzer"
+    },
+    {
+      "naam": "Contact met CJG Rijnmond",
+      "url": "https://cjgrijnmond.nl/"
+    },
+    {
+      "naam": "Pgb aanvragen",
+      "omschrijving": "Uitleg en het pgb-plan voor een persoonsgebonden budget.",
+      "url": "https://www.rotterdam.nl/persoonsgebonden-budget"
+    },
+    {
+      "naam": "Cliëntondersteuner aanvragen (Rotterdam Ondersteunt)",
+      "omschrijving": "Gratis; doe dit bij voorkeur vóór het gesprek met het wijkteam.",
+      "url": "https://www.rotterdamondersteunt.nl/"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In Rotterdam zijn wachttijden al jaren het hoofdthema. De gemeentelijke kinderombudsman meldde over 2024 dat klachten over wachttijden in de jeugdhulp niet afnemen en dat daar oplopende wachttijden bij de wijkteams bijkomen. De regionale inkooporganisatie rapporteerde eind 2025 bijna duizend wachtenden op ambulante specialistische hulp met een gemiddelde wachttijd van zestien weken, boven de regionale norm van veertien weken. De Rekenkamer Rotterdam concludeerde in 2025 dat de resultaten van de regionale jeugdhulp onvoldoende zichtbaar zijn en dat de administratieve druk bij de wijkteams nog niet is teruggedrongen.\n\nDe gemeente publiceert per vier maanden cijfers over de wachtlijst van de wijkteams, zodat u kunt zien hoe druk het is. Iets minder dan de helft van de trajecten start hier via huisarts, jeugdarts of specialist, ongeveer gelijk aan het landelijke beeld; de huisarts is dus een reële tweede ingang naast CJG en wijkteam. Vraag bij het wijkteam om een schriftelijk ondersteuningsverslag en een verwachte termijn, en neem bij lang wachten contact op met de kinderombudsman. Bij pleegzorg via Enver geldt dat de inspectie het verscherpt toezicht in maart 2026 heeft beëindigd.",
+    "signalen": [
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamer: resultaten regionale jeugdhulp onvoldoende zichtbaar",
+        "samenvatting": "De Rekenkamer Rotterdam onderzocht de Gemeenschappelijke Regeling Jeugdhulp Rijnmond, waarin dertien gemeenten de specialistische jeugdhulp inkopen. De samenwerking is professioneler geworden, maar de resultaten van de hulp zijn niet goed zichtbaar, de kosten zijn beperkt beheersbaar en gemeenteraden krijgen te weinig informatie om toezicht te houden. De Rekenkamer adviseert geleidelijke verbetering boven een grote reorganisatie. De raad van Rotterdam nam de aanbevelingen op 2 oktober 2025 over.",
+        "datum": "2025-06-30",
+        "bron": {
+          "titel": "Vereniging van Rekenkamers – Samen op zoek naar zicht (Rekenkamer Rotterdam)",
+          "url": "https://www.rekenkamers.nl/rapport/samen-op-zoek-naar-zicht-onderzoek-gr-jeugdhulp-rijnmond/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Raad neemt aanbevelingen over wijkteams van de Rekenkamer over",
+        "samenvatting": "Op 4 december 2025 onderschreef de gemeenteraad de hoofdconclusies van het opvolgingsonderzoek 'Doorwerken aan wijkteams' van de Rekenkamer Rotterdam en nam de vier aanbevelingen over. Volgens de Rekenkamer zijn de meeste aanbevelingen uit 2018 uitgevoerd, maar is het verminderen van administratieve lasten voor wijkteammedewerkers nog onvoldoende gelukt. De raad nam ook moties aan voor een pilot met spraakgestuurd rapporteren en een gezinskamer voor wijkteams.",
+        "datum": "2025-12-04",
+        "bron": {
+          "titel": "Gemeente Rotterdam – Besluiten gemeenteraadsvergadering 4 december 2025",
+          "url": "https://persberichtenrotterdam.nl/persberichten/besluiten-gemeenteraadsvergadering-4-december-2025/"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Verscherpt toezicht op de pleegzorg van Enver",
+        "samenvatting": "Na een ernstige calamiteit in een pleeggezin stelde de Inspectie Gezondheidszorg en Jeugd in mei 2025 verscherpt toezicht in op de pleegzorg van Stichting Enver, een grote jeugdhulpaanbieder in Rotterdam. De inspectie zag dat veiligheidsrisico's niet systematisch werden beoordeeld, dossiers onvolledig waren en de werkdruk hoog was. Enver kreeg negen maanden om dit te verbeteren.",
+        "datum": "2025-05-14",
+        "bron": {
+          "titel": "Inspectie Gezondheidszorg en Jeugd",
+          "url": "https://www.igj.nl/actueel/nieuws/2025/05/14/verscherpt-toezicht-voor-enver-rotterdam"
+        }
+      },
+      {
+        "soort": "inspectie",
+        "titel": "Einde verscherpt toezicht op Enver",
+        "samenvatting": "Op 23 maart 2026 beëindigde de inspectie het verscherpt toezicht op de pleegzorg van Enver. Pleegzorgbegeleiders spreken pleegkinderen nu apart over hun veiligheid, er is een nieuw begeleidingsplan en de werkwijze is aangepast aan de richtlijnen. De inspectie vraagt Enver het verbeterplan nog aan te scherpen op enkele aandachtspunten.",
+        "datum": "2026-03-23",
+        "bron": {
+          "titel": "Inspectie Gezondheidszorg en Jeugd",
+          "url": "https://www.igj.nl/actueel/nieuws/2026/03/23/einde-verscherpt-toezicht-op-stichting-enver-in-rotterdam"
+        }
+      },
+      {
+        "soort": "ombudsman",
+        "titel": "Kinderombudsman: klachten over wachttijden nemen niet af",
+        "samenvatting": "In het jaarverslag over 2024 schrijft de gemeentelijke kinderombudsman dat het jaar werd gekenmerkt door aanhoudende zorgen over wachttijden in de jeugdhulp en dat de klachten daarover niet afnemen. Gesprekken met gemeenten leidden volgens haar tot weinig verbetering, en als nieuwe zorg noemt zij oplopende wachttijden bij de wijkteams.",
+        "datum": "2025-03",
+        "bron": {
+          "titel": "Ombudsman Rotterdam-Rijnmond – Jaarverslagen",
+          "url": "https://orr.nl/category/jaarverslagen/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jaarstukken regio: wachttijd ambulante specialistische hulp 16 weken",
+        "samenvatting": "In de voorlopige jaarstukken 2025 van de Gemeenschappelijke Regeling Jeugdhulp Rijnmond staat dat eind 2025 994 jeugdigen wachtten op ambulante specialistische hulp, iets meer dan een jaar eerder, met een stabiele wachttijd van 16 weken. Voor dagbehandeling daalde het aantal wachtenden van 83 naar 52, bij een wachttijd van 17 tot 18 weken. De wachttijd is het langst voor ggz-hulp aan jonge kinderen (0-6 jaar) en voor hechtingsproblematiek. Veilig Thuis kreeg extra geld om een achterstand van circa 3.600 meldingen weg te werken.",
+        "datum": "2026-03",
+        "bron": {
+          "titel": "Gemeenteraad Rotterdam – Voorlopige jaarstukken 2025 GR Jeugdhulp Rijnmond",
+          "url": "https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/88487fbf-8c74-44c3-9700-d1e275e86582"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Monitor: wachtlijst wijkteams daalt, maar ruim duizend wachten langer dan zes weken",
+        "samenvatting": "De gemeentelijke Monitor Zorg, Welzijn en Wijkteams over het eerste tertaal van 2025 meldt dat de wachtlijst van de wijkteams met ruim een kwart is gedaald ten opzichte van eind 2024. Toch stonden eind april 2025 nog 1.269 mensen langer dan zes weken op de wachtlijst. De instroom van jeugdigen bij de wijkteams steeg met 11 procent tot 1.555.",
+        "datum": "2025-06",
+        "bron": {
+          "titel": "Gemeenteraad Rotterdam – Tabellen Monitor Zorg, Welzijn en Wijkteams t/m T1 2025",
+          "url": "https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/f4f7e44f-a772-4971-915b-b991482c245c"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Opnieuw gezocht op onderzoek010.nl en in het raadsinformatiesysteem: het laatst gepubliceerde cliëntervaringsonderzoek jeugd dateert van 2021 (over hulp in 2020). Onderzoek010.nl heeft wel een monitor 'Staat van de jeugd', maar die bevatte bij raadpleging geen cliëntervaringscijfers over de toegang."
+      },
+      "doorlooptijden": {
+        "status": "ja",
+        "url": "https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/f4f7e44f-a772-4971-915b-b991482c245c",
+        "samenvatting": "De gemeente rapporteert per tertaal aan de raad hoeveel mensen 2-4, 4-6 en langer dan 6 weken op de wachtlijst van de wijkteams staan; een aparte doorlooptijd tot het eerste gesprek voor jeugd wordt niet gepubliceerd."
+      },
+      "aandeelHuisarts": {
+        "percentage": 45,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Rotterdam – Ik zoek jeugdhulp",
+        "url": "https://www.rotterdam.nl/ik-zoek-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Wijkteams",
+        "url": "https://www.rotterdam.nl/wijkteams",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Vraagwijzer",
+        "url": "https://www.rotterdam.nl/vraagwijzer",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Persoonsgebonden budget",
+        "url": "https://www.rotterdam.nl/persoonsgebonden-budget",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Jongerenhub",
+        "url": "https://www.rotterdam.nl/jongerenhub",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Bezwaar maken tegen overige besluiten",
+        "url": "https://www.rotterdam.nl/bezwaar-maken-tegen-overige-besluiten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Bezwaar indienen (formulier)",
+        "url": "https://formulier.rotterdam.nl/bezwaar-indienen/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond – Home",
+        "url": "https://cjgrijnmond.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond – Contact",
+        "url": "https://cjgrijnmond.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond – Feedback, tevreden of een klacht",
+        "url": "https://cjgrijnmond.nl/contact/feedback-tevreden-of-een-klacht",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rotterdam Ondersteunt",
+        "url": "https://www.rotterdamondersteunt.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Adviespunt Zorgbelang – Rotterdam ondersteunt",
+        "url": "https://adviespuntzorgbelang.nl/rotterdam-ondersteunt",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Rotterdam Rijnmond",
+        "url": "https://www.meerotterdamrijnmond.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond – Verwijzingsfilter",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – regio-overzicht",
+        "url": "https://beschikbaarheidswijzer.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ombudsman Rotterdam-Rijnmond – Klacht jeugdhulp",
+        "url": "https://orr.nl/klacht/jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ombudsman Rotterdam-Rijnmond – Jaarverslagen",
+        "url": "https://orr.nl/category/jaarverslagen/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Vereniging van Rekenkamers – Samen op zoek naar zicht (Rekenkamer Rotterdam)",
+        "url": "https://www.rekenkamers.nl/rapport/samen-op-zoek-naar-zicht-onderzoek-gr-jeugdhulp-rijnmond/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Rotterdam – Besluiten gemeenteraadsvergadering 4 december 2025",
+        "url": "https://persberichtenrotterdam.nl/persberichten/besluiten-gemeenteraadsvergadering-4-december-2025/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "IGJ – Verscherpt toezicht Enver",
+        "url": "https://www.igj.nl/actueel/nieuws/2025/05/14/verscherpt-toezicht-voor-enver-rotterdam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "IGJ – Einde verscherpt toezicht Enver",
+        "url": "https://www.igj.nl/actueel/nieuws/2026/03/23/einde-verscherpt-toezicht-op-stichting-enver-in-rotterdam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeenteraad Rotterdam – Voorlopige jaarstukken 2025 GR Jeugdhulp Rijnmond",
+        "url": "https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/88487fbf-8c74-44c3-9700-d1e275e86582",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeenteraad Rotterdam – Tabellen Monitor Zorg, Welzijn en Wijkteams t/m T1 2025",
+        "url": "https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/f4f7e44f-a772-4971-915b-b991482c245c",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine – 85097NED, Jeugdhulptrajecten in natura, verwijzer (OData)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Onderzoek010",
+        "url": "https://onderzoek010.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond - Contact",
+        "url": "https://www.cjgrijnmond.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond - Locaties (werkgebied)",
+        "url": "https://www.cjgrijnmond.nl/locaties",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Koers VO - Contact",
+        "url": "https://www.koersvo.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd na 2021; samenstelling van Rotterdam Ondersteunt (Zorgbelang, MEE, Basisberaad) niet herbevestigd, website noemt alleen Adviespunt Zorgbelang. Klachtencommissie Rijnmond (CJG) heeft geen vindbare website. Pdf-jaarstukken niet doorzocht op editie na maart 2026. Contactgegevens samenwerkingsverband primair onderwijs niet gevonden."
+  }
+}

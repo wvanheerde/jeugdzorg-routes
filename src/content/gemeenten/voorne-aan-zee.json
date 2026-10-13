@@ -1,0 +1,414 @@
+{
+  "naam": "Voorne aan Zee",
+  "cbsCode": "GM1992",
+  "provincie": "Zuid-Holland",
+  "jeugdzorgregio": "Jeugdhulp Rijnmond (GRJR)",
+  "websiteJeugd": "https://www.voorneaanzee.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Voorne aan Zee (Brielle, Hellevoetsluis en Westvoorne) vraagt u hulp bij opvoeden en opgroeien aan bij het Sociaal Gebiedsteam. Daarin werken onder anderen jeugdconsulenten, jeugd- en gezinscoaches en medewerkers van het Centrum voor Jeugd en Gezin (CJG Rijnmond). U belt daarvoor de gemeente. U kunt ook eerst langsgaan bij de schoolmaatschappelijk werker, het CJG of het inloopmoment van Fijn je te Zien. Of bij de praktijkondersteuner jeugd: een medewerker bij de huisarts die helpt bij vragen over opvoeden en psychische klachten. In Oostvoorne en Rockanje is er geen praktijkondersteuner jeugd. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. De gemeente wil later één loket voor alle hulpvragen: digitaal, telefonisch en op plekken in Brielle, Hellevoetsluis en Rockanje. Dat is nog een plan.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal Gebiedsteam Voorne aan Zee",
+        "omschrijving": "Het Sociaal Gebiedsteam beoordeelt aanvragen voor specialistische jeugdhulp. Het team geeft daarvoor een beschikking (een besluit van de gemeente). Lichte hulp krijgt u meestal meteen, zonder besluit. In het team werken onder meer een onafhankelijke cliëntondersteuner, jeugd- en gezinscoaches en jeugdconsulenten. U mag zelf een familiegroepsplan indienen: een plan dat u met familie en bekenden maakt. De gemeente moet u daarover informeren.",
+        "stappen": [
+          "Bel de gemeente. Het Sociaal Gebiedsteam is op werkdagen bereikbaar van 9.00 tot 17.00 uur.",
+          "Vertel wat er speelt en vraag om een gesprek met een jeugdconsulent. Neem zo nodig een onafhankelijke cliëntondersteuner mee.",
+          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig? Vraag dan om een beschikking.",
+          "Neem rechtstreeks contact op met uw jeugdconsulent als u die al hebt."
+        ],
+        "contact": {
+          "naam": "Gemeente Voorne aan Zee, Sociaal Gebiedsteam",
+          "telefoon": "14 0181",
+          "email": "info@sociaalgebiedsteam.nl",
+          "url": "https://www.voorneaanzee.nl/sociaal-gebiedsteam",
+          "openingstijden": "Telefonisch maandag tot en met vrijdag 9.00 tot 17.00 uur"
+        },
+        "doorlooptijd": "Bij een aanvraag voor jeugd-ggz laat de gemeente binnen 8 weken weten of u de hulp krijgt. Dat staat op de website van de gemeente."
+      },
+      {
+        "type": "school",
+        "naam": "Via de schoolmaatschappelijk werker",
+        "omschrijving": "Elke basisschool en middelbare school heeft een schoolmaatschappelijk werker. Die helpt bij zorgen over uw kind en kan u doorverwijzen naar het Sociaal Gebiedsteam. Volgens de gemeente is er ook schoolmaatschappelijk werk bij kinderdagverblijven.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht of mentor.",
+          "Vraag om een gesprek met de schoolmaatschappelijk werker.",
+          "Vraag wat er na het gesprek gebeurt en wie contact met u opneemt.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Gemeente Voorne aan Zee, Sociaal Gebiedsteam",
+            "telefoon": "14 0181",
+            "email": "info@sociaalgebiedsteam.nl",
+            "url": "https://www.voorneaanzee.nl/sociaal-gebiedsteam",
+            "openingstijden": "Telefonisch maandag tot en met vrijdag 9.00 tot 17.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Onderwijscollectief VPR (basis- en voortgezet onderwijs)",
+            "telefoon": "0181 760907",
+            "email": "steunpunt@onderwijscollectiefvpr.nl",
+            "url": "https://www.onderwijscollectiefvpr.nl/steunpunt/",
+            "openingstijden": "Telefonisch maandag t/m donderdag 8.30-17.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "wijkteam",
+        "naam": "CJG Rijnmond (Centrum voor Jeugd en Gezin)",
+        "omschrijving": "Het CJG doet de jeugdgezondheidszorg, met jeugdverpleegkundigen, jeugdartsen en pedagogen. U kunt er terecht met vragen over opvoeden, opgroeien en gezondheid, van de zwangerschap tot 18 jaar. Het CJG hoort bij het Sociaal Gebiedsteam.",
+        "stappen": [
+          "Bel, mail of chat met CJG Rijnmond.",
+          "Stuur een WhatsApp-bericht als u liever appt.",
+          "Vraag om een gesprek als u zorgen hebt over de ontwikkeling of opvoeding van uw kind."
+        ],
+        "contact": {
+          "naam": "CJG Rijnmond",
+          "telefoon": "088 20 10 000",
+          "email": "info@cjgrijnmond.nl",
+          "url": "https://www.cjgrijnmond.nl/contact",
+          "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, praktijkondersteuner jeugd of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd voor lichte hulp. Bij de praktijken in Oostvoorne en Rockanje is die er niet.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de praktijkondersteuner jeugd.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. U ziet die aanbieders in de Beschikbaarheidswijzer.",
+          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "CJG Rijnmond",
+          "telefoon": "088 20 10 000",
+          "email": "info@cjgrijnmond.nl",
+          "url": "https://www.cjgrijnmond.nl/contact",
+          "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
+        }
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Voorne aan Zee op de pagina Mishandeling of huiselijk geweld van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Voorne aan Zee: mishandeling of huiselijk geweld",
+          "url": "https://www.voorneaanzee.nl/mishandeling-of-huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Plus en SBO",
+      "toelichting": "MEE Plus en SBO helpen gratis en zijn onafhankelijk van de gemeente en van zorgaanbieders. Zij helpen onder meer bij vragen over opvoeding en ontwikkeling, school en werk. Een cliëntondersteuner kan samen met u uw hulpvraag op papier zetten en meegaan naar gesprekken met de gemeente. De cliëntondersteuner helpt ook bij een meningsverschil met de gemeente of een aanbieder. U neemt zelf rechtstreeks contact op met MEE Plus of SBO.",
+      "url": "https://www.voorneaanzee.nl/onafhankelijke-clientondersteuning"
+    },
+    "klacht": {
+      "naam": "Klacht over de gemeente en het Sociaal Gebiedsteam",
+      "toelichting": "Het Sociaal Gebiedsteam hoort bij de gemeente. Een klacht over een medewerker of over hoe u bent behandeld, dient u daarom in bij de gemeente. U krijgt een schriftelijke ontvangstbevestiging. De gemeente zoekt eerst samen met u een oplossing. Lukt dat niet, dan geeft een onafhankelijke klachtencommissie advies. De gemeente beslist binnen 6 weken, of binnen 10 weken als de klacht formeel wordt behandeld. Een klacht over een zorgaanbieder dient u in bij de aanbieder zelf.",
+      "url": "https://www.voorneaanzee.nl/klacht-indienen",
+      "email": "gemeente@voorneaanzee.nl",
+      "telefoon": "14 0181",
+      "extern": {
+        "naam": "Ombudsman Rotterdam-Rijnmond (gratis, 0800 0802)",
+        "url": "https://orr.nl"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een beschikking (het besluit van de gemeente) maakt u bij de gemeente. Dat kan per post of digitaal met DigiD. U krijgt een ontvangstbevestiging. Meestal volgt een uitnodiging voor een hoorzitting bij een onafhankelijke adviescommissie. De gemeente beslist binnen 12 weken na het einde van de bezwaartermijn. Die termijn kan met 6 weken worden verlengd. Daarna kunt u in beroep bij de rechtbank.",
+      "url": "https://www.voorneaanzee.nl/bezwaar-maken"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Het uitgangspunt is hulp in natura: hulp van een aanbieder met een contract met de gemeente. Een pgb (persoonsgebonden budget) is mogelijk als u een budgetplan maakt. Daarin legt u uit waarom hulp in natura niet past. Ook moet u laten zien dat het pgb tot betere en doelmatiger (efficiëntere) hulp leidt. Helpt iemand uit uw netwerk, dan mag die persoon niet overbelast raken. Voor pleegzorg, gezinshuizen en vergelijkbaar verblijf is geen pgb mogelijk. Het pgb-tarief is een deel van het tarief voor hulp van een aanbieder met contract: 90% voor een instelling zonder contract en 75% voor een zelfstandige zonder personeel (zzp'er). Beide moeten onder meer ingeschreven staan bij de Kamer van Koophandel en de juiste diploma's hebben. Voor hulp van iemand uit uw netwerk geldt het minimumloon. In de tarieventabel (prijspeil 2024) is dat 20 euro per uur. Voor hulp uit het netwerk die u niet verplicht bent te geven, is er alleen een tegemoetkoming van 141 euro per maand. Het pgb is nooit hoger dan de goedkoopste passende hulp in natura. Hebt u al een beschikking? Die blijft gelden tot de einddatum.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR727742/1"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis; gaat zo nodig mee naar gesprekken met de gemeente en helpt bij een klacht of bezwaar.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u meestal meteen, zonder besluit van de gemeente. U vindt die bij de schoolmaatschappelijk werker, het CJG, de praktijkondersteuner jeugd en het inloopmoment van Fijn je te Zien. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van de huisarts, jeugdarts of medisch specialist. Voorne aan Zee koopt die hulp in met twaalf andere gemeenten, via de Gemeenschappelijke Regeling Jeugdhulp Rijnmond (GRJR). Dat is een samenwerkingsverband van gemeenten. Daaronder vallen onder meer pleegzorg, crisishulp en jeugdbescherming. In de Beschikbaarheidswijzer van Voorne aan Zee ziet u welke aanbieders een contract hebben, welke hulp zij bieden en of er wachttijden zijn. Die site is openbaar, zonder inloggen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/voorne-aan-zee",
+    "categorieen": [
+      {
+        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
+        "omschrijving": "Via het CJG, de schoolmaatschappelijk werker, Fijn je te Zien en de praktijkondersteuner jeugd. Geen besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Jeugd-ggz en begeleiding",
+        "omschrijving": "Jeugd-ggz via het Sociaal Gebiedsteam of een verwijzing. Bij een aanvraag voor jeugd-ggz laat de gemeente binnen 8 weken weten of u de hulp krijgt.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz",
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Hulp op school en daginvulling",
+        "omschrijving": "Gemeente en scholen maken samen afspraken over hulp op school en over daginvulling. Die afspraken heten het Afwegingskader Onderwijs-Jeugdhulp en Daginvulling Jeugd Voorne-Putten.",
+        "hulpsoorten": [
+          "dagbesteding"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming en pleegzorg",
+        "omschrijving": "Regionaal ingekocht via de GRJR. Zijn er zorgen over de veiligheid van een kind? Dan kunnen die worden besproken in het Jeugdbeschermingsplein Voorne aan Zee. U bent daar zelf bij.",
+        "hulpsoorten": [
+          "jeugdbescherming",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Fijn je te Zien",
+      "soort": "informatiepunt",
+      "omschrijving": "Inwonersplatform van de gemeente met buurtberichten, activiteiten, hulpvragen en welzijnsaanbod in de buurt. Op donderdagochtend van 10.00 tot 12.00 uur is er een inloopmoment aan De Vliet 2 in Hellevoetsluis. Telefoon: 0181 82 00 90.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://fijnjetezien.nl"
+    },
+    {
+      "naam": "Stichting PUSH",
+      "soort": "vrijwilligers",
+      "omschrijving": "Welzijnsorganisatie die onder meer jongeren en ouders helpt bij opvoeding. PUSH organiseert ook bijeenkomsten en trainingen.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.voorneaanzee.nl/fijn-je-te-zien"
+    },
+    {
+      "naam": "CJG Rijnmond",
+      "soort": "informatiepunt",
+      "omschrijving": "Gratis opvoedinformatie en cursussen, consultatiebureau en jeugdgezondheidszorg, ook via chat en WhatsApp.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.cjgrijnmond.nl"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "omschrijving": "Online formulier voor een klacht over een medewerker of over de gemeente.",
+      "url": "https://formulier.voorneaanzee.nl/klacht-afhandeling/startpagina"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "omschrijving": "Per post of digitaal, binnen 6 weken na het besluit.",
+      "url": "https://www.voorneaanzee.nl/bezwaar-maken",
+      "nodig": "DigiD of eHerkenning, en een kopie van het besluit"
+    },
+    {
+      "naam": "Beschikbaarheidswijzer jeugdhulp Voorne aan Zee",
+      "omschrijving": "Welke aanbieders een contract hebben en of er wachttijden zijn. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/voorne-aan-zee"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In 2024 kreeg 12,1% van de jongeren tot 18 jaar in Voorne aan Zee jeugdhulp, tegen 14,0% landelijk. Sinds 2025 gelden nieuwe regels, met duidelijker grenzen aan welke hulp de gemeente toekent. De gemeente kijkt daarbij eerst naar wat u en uw netwerk zelf kunnen. De Rekenkamer Rotterdam schreef in 2025 dat niet goed in beeld is wat de gezamenlijk ingekochte jeugdhulp in de regio oplevert.\n\nVraag het Sociaal Gebiedsteam om een schriftelijk verslag, en om een beschikking bij specialistische hulp. Neem een gratis cliëntondersteuner van MEE Plus of SBO mee. Komt u er niet uit, dien dan een klacht in bij de gemeente en zo nodig bij de Ombudsman Rotterdam-Rijnmond, of maak bezwaar. Een vertrouwenspersoon van Jeugdstem helpt u daarbij gratis.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "12,1% van de jongeren kreeg jeugdhulp, minder dan landelijk",
+        "samenvatting": "Volgens de jaarstukken over 2025 had in 2024 12,1% van de jongeren tot 18 jaar in Voorne aan Zee jeugdhulp, tegen 14,0% landelijk. Sinds 1 januari 2025 gelden nieuwe regels voor jeugdhulp. Ook werken gemeente en scholen nu volledig met vaste afspraken over hulp op school (het Afwegingskader Onderwijs-Jeugdhulp).",
+        "datum": "2026-07-07",
+        "bron": {
+          "titel": "Jaarstukken 2025 Voorne aan Zee (gewaarmerkt)",
+          "url": "https://api.notubiz.nl/document/17192457/2"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Raad stelt regiovisie jeugdhulp 2026-2030 vast",
+        "samenvatting": "Het doel is dat jongeren zoveel mogelijk zonder specialistische hulp opgroeien, en dat hulp dicht bij huis is als die nodig is. De nieuwe inkoop van specialistische jeugdhulp start op 1 januari 2029. De Adviesraad Sociaal Domein merkte op dat de samenwerking tussen verschillende terreinen in de praktijk nog nauwelijks lukt, en vroeg om vaste contactpersonen.",
+        "datum": "2026-03-05",
+        "bron": {
+          "titel": "Raadsvoorstel Actualisatie Regiovisie 2026-2030, Voorne aan Zee",
+          "url": "https://api.notubiz.nl/document/16614272/2"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamer: resultaten van gezamenlijke jeugdhulp Rijnmond niet goed in beeld",
+        "samenvatting": "De Rekenkamer Rotterdam onderzocht de periode 2018-2024. De samenwerking (GRJR) boekte vooruitgang, maar het is niet goed bekend wat de hulp oplevert. Voorne aan Zee is een van de 13 gemeenten in de GRJR, maar het rapport is voor zes andere gemeenten gemaakt.",
+        "datum": "2025-06-23",
+        "bron": {
+          "titel": "Rekenkamer Rotterdam - Samen op zoek naar zicht: onderzoek GR Jeugdhulp Rijnmond",
+          "url": "https://rekenkamer.rotterdam.nl/onderzoek/samen-op-zoek-naar-zicht"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Nieuwe pgb-regels sinds 2025",
+        "samenvatting": "Sinds 1 januari 2025 is een pgb voor professionele hulp 90% (instelling) of 75% (zzp'er) van het tarief voor hulp van een aanbieder met contract. Voor hulp door uzelf of uw netwerk krijgt u alleen een pgb voor jeugdhulptaken, niet voor gewone opvoedtaken, tegen het minimumloon. Hebt u al een beschikking, dan verandert die pas als die afloopt.",
+        "datum": "2025-01-01",
+        "bron": {
+          "titel": "Verordening Jeugdhulp gemeente Voorne aan Zee 2025, artikel 7.3 en bijlage 2",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR727742/1"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-11",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Een cliëntervaringsonderzoek over jeugdhulp is niet openbaar te vinden. De begroting 2027 noemt wel een algemeen onderzoek uit 2025: 79% van de inwoners vindt de ondersteuning voldoende toegankelijk. Dat gaat niet alleen over jeugdhulp. Vraag de gemeente naar de uitkomsten voor jeugd als u wilt weten hoe andere ouders de hulp ervaren.",
+        "url": "https://api.notubiz.nl/document/17455339/2"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Gemeten doorlooptijden van het Sociaal Gebiedsteam zijn niet openbaar te vinden. Wel meldt de gemeente dat u bij een aanvraag voor jeugd-ggz binnen 8 weken bericht krijgt. Vraag bij het eerste gesprek hoe lang het duurt.",
+        "url": "https://www.voorneaanzee.nl/jeugdhulp"
+      },
+      "aandeelHuisarts": {
+        "percentage": 43,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Voorne aan Zee - Jeugdhulp",
+        "url": "https://www.voorneaanzee.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Sociaal Gebiedsteam",
+        "url": "https://www.voorneaanzee.nl/sociaal-gebiedsteam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Jeugdgezondheidszorg (CJG Rijnmond)",
+        "url": "https://www.voorneaanzee.nl/jeugdgezondheidszorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Fijn je te Zien",
+        "url": "https://www.voorneaanzee.nl/fijn-je-te-zien",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Onafhankelijke cliëntondersteuning",
+        "url": "https://www.voorneaanzee.nl/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Klacht indienen",
+        "url": "https://www.voorneaanzee.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Bezwaar maken",
+        "url": "https://www.voorneaanzee.nl/bezwaar-maken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Vertrouwenspersoon jeugdzorg",
+        "url": "https://www.voorneaanzee.nl/vertrouwenspersoon-jeugdzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Zorgaanbieders jeugdhulp",
+        "url": "https://www.voorneaanzee.nl/zorgaanbieders-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee - Jeugdbeschermingsplein",
+        "url": "https://www.voorneaanzee.nl/jeugdbeschermingsplein-voorne-aan-zee",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening Jeugdhulp gemeente Voorne aan Zee 2025",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR727742/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer jeugdhulp Voorne aan Zee",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/voorne-aan-zee",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 Voorne aan Zee (gewaarmerkt)",
+        "url": "https://api.notubiz.nl/document/17192457/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Begroting 2027 en meerjarenraming 2028-2030 Voorne aan Zee",
+        "url": "https://api.notubiz.nl/document/17455339/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsvoorstel Actualisatie Regiovisie 2026-2030",
+        "url": "https://api.notubiz.nl/document/16614272/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rompbrief Regiovisie Jeugdhulp Rijnmond",
+        "url": "https://api.notubiz.nl/document/16517226/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Rekenkamer Rotterdam - Samen op zoek naar zicht: onderzoek GR Jeugdhulp Rijnmond",
+        "url": "https://rekenkamer.rotterdam.nl/onderzoek/samen-op-zoek-naar-zicht",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Binnenlands Bestuur - Resultaten jeugdhulp Rijnmond onvoldoende in beeld",
+        "url": "https://www.binnenlandsbestuur.nl/sociaal/resultaten-jeugdhulp-rijnmond-onvoldoende-in-beeld",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED - Jeugdhulp in natura naar verwijzer",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Voorne aan Zee: Mishandeling of huiselijk geweld",
+        "url": "https://www.voorneaanzee.nl/mishandeling-of-huiselijk-geweld",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond - Contact",
+        "url": "https://www.cjgrijnmond.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond - Locaties (werkgebied)",
+        "url": "https://www.cjgrijnmond.nl/locaties",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Onderwijscollectief VPR: steunpunt",
+        "url": "https://www.onderwijscollectiefvpr.nl/steunpunt/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Klachtenregeling van het Sociaal Gebiedsteam zelf (los van de gemeentelijke klachtregeling) niet online gevonden. Cliëntervaringsonderzoek jeugd en gemeten doorlooptijden niet gevonden. Regionale journalistiek beperkt doorzocht."
+  }
+}

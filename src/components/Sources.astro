@@ -1,10 +1,11 @@
 ---
-interface Props { bronnen: { titel: string; url: string; geraadpleegd: string }[]; laatstGecontroleerd: string }
-const { bronnen, laatstGecontroleerd } = Astro.props;
+interface Props { bronnen: { titel: string; url: string; geraadpleegd: string }[]; laatstGecontroleerd: string; inklappen?: boolean }
+import { datum } from '../lib/routes';
+const { bronnen, laatstGecontroleerd, inklappen = false } = Astro.props;
 ---
 <div class="sources">
-  Laatst gecontroleerd: {laatstGecontroleerd}
-  {bronnen.length > 0 && (
-    <ul>{bronnen.map((b) => <li><a href={b.url} target="_blank" rel="noopener">{b.titel}</a> (geraadpleegd {b.geraadpleegd})</li>)}</ul>
-  )}
+  Bijgewerkt {datum(laatstGecontroleerd)}
+  {bronnen.length > 0 && (inklappen
+    ? <details class="inklapper"><summary>Bronnen ({bronnen.length})</summary><ul>{bronnen.map((b) => <li><a href={b.url} target="_blank" rel="noopener">{b.titel}</a> (geraadpleegd {b.geraadpleegd})</li>)}</ul></details>
+    : <ul>{bronnen.map((b) => <li><a href={b.url} target="_blank" rel="noopener">{b.titel}</a> (geraadpleegd {b.geraadpleegd})</li>)}</ul>)}
 </div>

@@ -1,13 +1,38 @@
 ---
+import { woorden } from '../lib/woorden';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/source-serif-4';
 import '../styles/global.css';
-interface Props { title: string; description?: string; }
-const { title, description = 'Overzicht van jeugdzorgroutes, rechten en steun voor ouders in Nederland, per gemeente.' } = Astro.props;
+import { site } from '../site';
+interface Props { title: string; description?: string; /** Niet in zoekmachines (bv. persoonlijke pagina's). */ noindex?: boolean; }
+const { title, description = 'Overzicht van jeugdzorgroutes, rechten en steun voor ouders in Nederland, per gemeente.', noindex = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const path = Astro.url.pathname;
+/** Zoekmachines tonen ongeveer 155 tekens: eerste alinea, afgekapt op een woordgrens. */
+function kort(tekst: string, max = 155) {
+  const t = tekst.split('\n')[0].replace(/\s+/g, ' ').trim();
+  if (t.length <= max) return t;
+  const knip = t.slice(0, max - 1);
+  return `${knip.slice(0, knip.lastIndexOf(' '))}…`;
+}
+const beschrijving = kort(description);
+const canonical = Astro.site ? new URL(path, Astro.site).href : undefined;
+const volledigeTitel = `${title} · Jeugdzorg Routes`;
+const isHome = path === `${base}/`;
+const jsonLd = isHome && Astro.site ? JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Jeugdzorg Routes',
+  url: new URL(`${base}/`, Astro.site).href,
+  inLanguage: 'nl-NL',
+  description: beschrijving,
+}) : undefined;
 const nav = [
+  { href: `${base}/situaties/`, label: 'Situaties' },
   { href: `${base}/gemeenten/`, label: 'Gemeenten' },
-  { href: `${base}/landelijk/`, label: 'Landelijke rechten' },
+  { href: `${base}/landelijk/`, label: 'Landelijk' },
   { href: `${base}/organisaties/`, label: 'Organisaties' },
+  { href: `${base}/therapievormen/`, label: 'Therapievormen' },
   { href: `${base}/over/`, label: 'Over deze site' },
 ];
 ---
@@ -16,23 +41,133 @@ const nav = [
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} · Jeugdzorg Routes</title>
-    <meta name="description" content={description} />
+    <title>{volledigeTitel}</title>
+    <meta name="description" content={beschrijving} />
+    {noindex && <meta name="robots" content="noindex" />}
+    {canonical && !noindex && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Jeugdzorg Routes" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:title" content={volledigeTitel} />
+    <meta property="og:description" content={beschrijving} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta name="twitter:card" content="summary" />
+    <meta name="tdm-reservation" content="1" />
+    <link rel="sitemap" type="application/xml" href={`${base}/sitemap.xml`} />
+    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
+    <meta name="theme-color" content="#0f6b6e" />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    <link rel="icon" href={`${base}/favicon-32.png`} sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href={`${base}/apple-touch-icon.png`} />
+    <link rel="manifest" href={`${base}/site.webmanifest`} />
+    {/* Alleen het pad tellen, zonder ?gemeente=…&s=…: de keuzes van een ouder gaan niet naar de teller. */}
+    {site.goatcounter && <script is:inline set:html={`window.goatcounter = { path: function () { return location.pathname; } };`} />}
+    {site.goatcounter && <script is:inline data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} async src="https://gc.zgo.at/count.js"></script>}
   </head>
   <body>
+    <a class="skip" href="#inhoud">Direct naar inhoud</a>
     <header class="site-header">
       <div class="container">
-        <a class="brand" href={`${base}/`}>Jeugdzorg<span>Routes</span></a>
-        <nav class="nav" aria-label="Hoofdnavigatie">
+        <a class="brand" href={`${base}/`}>
+          <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0f6b6e"/><path d="M17 47 C 17 32, 42 42, 43 28" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".95"/><path d="M43 10.5 a 9.5 9.5 0 0 1 9.5 9.5 c 0 7 -9.5 15 -9.5 15 s -9.5 -8 -9.5 -15 a 9.5 9.5 0 0 1 9.5 -9.5 z" fill="#ffb088"/><circle cx="43" cy="20" r="3.6" fill="#0f6b6e"/><circle cx="17" cy="47" r="5.5" fill="#fff"/></svg>
+          Jeugdzorg<span>Routes</span>
+        </a>
+        <button type="button" class="menu-knop" aria-expanded="false" aria-controls="hoofdnavigatie" data-menu-knop>Menu</button>
+        <nav class="nav" id="hoofdnavigatie" aria-label="Hoofdnavigatie">
           {nav.map((n) => <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>)}
         </nav>
       </div>
     </header>
-    <main><div class="container"><slot /></div></main>
+    <main id="inhoud"><div class="container"><slot /></div></main>
     <footer class="site-footer">
       <div class="container">
-        Onafhankelijke informatiebron voor ouders. Geen hulpverlening. Bij direct gevaar: bel 112. Zorgen over veiligheid: Veilig Thuis 0800-2000.
+        <div class="cols">
+          <div>
+            <p class="footer-kop">Jeugdzorg Routes</p>
+            <p>Onafhankelijke wegwijzer voor ouders. Geen hulpverlening, geen onderdeel van een gemeente of zorgaanbieder.</p>
+            <p>Gebouwd en samengesteld met hulp van AI, onder redactie van de beheerder. Elk kwartaal bijgewerkt; bronnen staan bij de inhoud. <a href={`${base}/over/`}>Over deze site</a>.</p>
+          </div>
+          <div>
+            <p class="footer-kop">Hulplijnen</p>
+            <ul>
+              <li>Veilig Thuis (24/7, gratis): <a href="tel:08002000">0800-2000</a></li>
+              <li>113 Zelfmoordpreventie (24/7, gratis): <a href="tel:08000113">0800-0113</a></li>
+              <li>Vertrouwenspersoon Jeugdstem: <a href="tel:0885551000">088 555 1000</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-kop">Navigatie</p>
+            <ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+          </div>
+        </div>
+        <div class="bottom">Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of jeugdarts. Geen cookies, geen persoonsgegevens. Fout gezien of iets gemist? <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">Stel een wijziging voor via GitHub</a>.</div>
       </div>
     </footer>
+    <script is:inline>
+      // Menu op de telefoon: links pas tonen na een tik op "Menu" (zonder JavaScript blijven ze gewoon zichtbaar).
+      (() => {
+        document.documentElement.classList.add('js');
+        const kop = document.querySelector('.site-header'); const knop = document.querySelector('[data-menu-knop]');
+        knop?.addEventListener('click', () => {
+          const open = kop.classList.toggle('menu-open');
+          knop.setAttribute('aria-expanded', String(open));
+        });
+        // Hoogte van de vaste kop, zodat andere vaste balken (zoals de keuzes op Mijn overzicht) er netjes onder komen.
+        // Pas meten nadat het menu is ingeklapt (class 'js'), en opnieuw bij elke verandering van de kop (menu open/dicht, draaien).
+        const zet = () => { if (kop) document.documentElement.style.setProperty('--kop-hoogte', kop.offsetHeight + 'px'); };
+        zet();
+        if (kop && 'ResizeObserver' in window) new ResizeObserver(zet).observe(kop); else addEventListener('resize', zet);
+      })();
+    </script>
+    <script is:inline set:html={`window.__jrWoorden = ${JSON.stringify(woorden)};`} />
+    <script>
+      // Leg officiële woorden één keer per pagina uit: eerste keer onderstreept, uitleg na een tik.
+      const lijst = (window as any).__jrWoorden as { vormen: string[]; uitleg: string }[];
+      const vormNaar = new Map<string, number>();
+      lijst.forEach((w, i) => w.vormen.forEach((v) => vormNaar.set(v.toLowerCase(), i)));
+      const vormen = [...vormNaar.keys()].sort((a, b) => b.length - a.length).map((v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      const re = new RegExp(`(?<![\\p{L}\\d-])(${vormen.join('|')})(?![\\p{L}\\d-])`, 'giu');
+      // Eén keer per hoofdstuk (section/article), anders per pagina: op lange pagina's staat de uitleg dan bij wat de ouder leest.
+      const gebruikt = new Map<Element, Set<number>>();
+      const overslaan = 'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable]';
+      let n = 0;
+      const zichtbaar = (el: Element) => (el as HTMLElement).checkVisibility ? (el as HTMLElement).checkVisibility() : !!(el as HTMLElement).offsetParent;
+      const markeer = () => {
+        const main = document.getElementById('inhoud');
+        if (!main) return;
+        const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, { acceptNode: (t) => (!t.parentElement || t.parentElement.closest(overslaan) || !zichtbaar(t.parentElement) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT) });
+        const nodes: Text[] = [];
+        while (walker.nextNode()) nodes.push(walker.currentNode as Text);
+        for (const node of nodes) {
+          const tekst = node.data;
+          re.lastIndex = 0;
+          let m: RegExpExecArray | null;
+          while ((m = re.exec(tekst))) {
+            const i = vormNaar.get(m[1].toLowerCase());
+            const deel = node.parentElement?.closest('section, article') ?? main;
+            if (!gebruikt.has(deel)) gebruikt.set(deel, new Set());
+            const set = gebruikt.get(deel)!;
+            if (i === undefined || set.has(i)) continue;
+            set.add(i);
+            const voor = node.splitText(m.index);
+            voor.splitText(m[1].length);
+            const id = `woord-${++n}`;
+            const knop = document.createElement('button');
+            knop.type = 'button'; knop.className = 'woord'; knop.textContent = m[1];
+            knop.setAttribute('aria-expanded', 'false'); knop.setAttribute('aria-controls', id);
+            const uitleg = document.createElement('span');
+            uitleg.className = 'woord-uitleg'; uitleg.id = id; uitleg.hidden = true; uitleg.textContent = lijst[i].uitleg;
+            knop.addEventListener('click', () => { const open = uitleg.hidden; uitleg.hidden = !open; knop.setAttribute('aria-expanded', String(open)); });
+            voor.replaceWith(knop, uitleg);
+            break; // één woord per tekstknoop; de rest van die knoop staat nu in een nieuwe knoop en komt bij de volgende ronde aan bod
+          }
+        }
+      };
+      // Na de eerste weergave (het overzicht toont pas na het lezen van de keuzes wat zichtbaar is), en opnieuw na elke keuze.
+      setTimeout(() => { markeer(); markeer(); markeer(); });
+      for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd']) document.addEventListener(ev, () => setTimeout(() => { markeer(); markeer(); }));
+      // Ook na het uitklappen van een inklapblok (details): die tekst was eerst niet zichtbaar.
+      document.addEventListener('toggle', (e) => { if ((e.target as HTMLDetailsElement).open) setTimeout(() => { markeer(); markeer(); }); }, true);
+    </script>
   </body>
 </html>

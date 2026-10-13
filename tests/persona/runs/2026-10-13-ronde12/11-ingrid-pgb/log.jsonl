@@ -1,0 +1,21 @@
+{"stap":1,"tijd":"2026-10-13T17:56:57.844Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-13T17:56:58.400Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-13T17:57:01.036Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1614}
+{"stap":4,"tijd":"2026-10-13T17:57:01.172Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["eerste"]}
+{"stap":5,"tijd":"2026-10-13T17:57:04.714Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 1/25: Knop 'Ik wil een pgb' staat er direct, mooi."],"tekst":"stap 1/25: Knop 'Ik wil een pgb' staat er direct, mooi."}
+{"stap":6,"tijd":"2026-10-13T17:57:06.572Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["20"]}
+{"stap":7,"tijd":"2026-10-13T17:57:09.023Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1682}
+{"stap":8,"tijd":"2026-10-13T17:58:11.593Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":[],"fout":"Fout: locator.selectOption: Timeout 30000ms exceeded."}
+{"stap":9,"tijd":"2026-10-13T17:58:11.943Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Groningen"]}
+{"stap":10,"tijd":"2026-10-13T17:58:12.010Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1675}
+{"stap":11,"tijd":"2026-10-13T17:58:14.924Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 4/25: Groningen en pgb gekozen. Eerste kies-poging mislukte (technisch, mijn fout)."],"tekst":"stap 4/25: Groningen en pgb gekozen. Eerste kies-poging mislukte (technisch, mijn fout)."}
+{"stap":12,"tijd":"2026-10-13T17:58:16.765Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"klik","args":["46"]}
+{"stap":13,"tijd":"2026-10-13T17:58:16.804Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"kijk","args":[],"lengte":1240}
+{"stap":14,"tijd":"2026-10-13T17:58:19.865Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"scroll","args":[]}
+{"stap":15,"tijd":"2026-10-13T17:58:20.398Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"scroll","args":[]}
+{"stap":16,"tijd":"2026-10-13T17:58:20.549Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"foto","args":["pgb"]}
+{"stap":17,"tijd":"2026-10-13T17:58:23.825Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"notitie","args":["stap 7/25: Duidelijke stappen. Vragen: pgb-tarief? Wie is Per Saldo? Is een begeleider zonder contract zo toegestaan? Mijn situatie: er is al begeleiding toegewezen; kan ik wisselen?"],"tekst":"stap 7/25: Duidelijke stappen. Vragen: pgb-tarief? Wie is Per Saldo? Is een begeleider zonder contract zo toegestaan? Mijn situatie: er is al begeleiding toegewezen; kan ik wisselen?"}
+{"stap":18,"tijd":"2026-10-13T17:58:24.332Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"scroll","args":[]}
+{"stap":19,"tijd":"2026-10-13T17:58:24.862Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"scroll","args":[]}
+{"stap":20,"tijd":"2026-10-13T17:58:39.779Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"notitie","args":["stap 9/25: Genoeg, ik weet de stappen. Mis: staat nergens of ik van aanbieder kan wisselen nu er al begeleiding is toegewezen, en of een bestaande begeleider zonder contract/kwalificaties mag."],"tekst":"stap 9/25: Genoeg, ik weet de stappen. Mis: staat nergens of ik van aanbieder kan wisselen nu er al begeleiding is toegewezen, en of een bestaande begeleider zonder contract/kwalificaties mag."}
+{"stap":21,"tijd":"2026-10-13T17:58:39.814Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=pgb&gemeente=groningen","cmd":"stop"}

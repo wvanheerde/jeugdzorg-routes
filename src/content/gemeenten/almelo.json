@@ -1,0 +1,490 @@
+{
+  "naam": "Almelo",
+  "cbsCode": "GM0141",
+  "provincie": "Overijssel",
+  "jeugdzorgregio": "Twente",
+  "websiteJeugd": "https://www.almelo.nl/jeugd-en-onderwijs/instanties-en-jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Almelo vraagt u hulp aan bij een van de vier wijkteams: Noord, Oost, Zuid en West. Welk team bij u hoort, hangt af van uw postcode. De wijkteams zijn van de gemeente. U kunt zonder afspraak naar het inloopspreekuur, of u belt de gemeente. Voor lichte opvoedvragen is er ook Loes, de vraagbaak voor ouders. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar een aanbieder met een contract. Gaat het om specialistische hulp zonder verwijzing van een arts? Dan neemt de gemeente een besluit.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Wijkteam (Noord, Oost, Zuid en West)",
+        "omschrijving": "Het wijkteam helpt bij vragen over opvoeden, opgroeien, zorg, geld en wonen. De hulp is gratis. Het team kijkt eerst samen met u wat u en uw netwerk zelf kunnen, en welke hulp er in de buurt is. Is specialistische jeugdhulp nodig, dan neemt de gemeente een besluit (beschikking). U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "stappen": [
+          "Zoek op de wijkteampagina welk team bij uw postcode hoort. Loop binnen bij het inloopspreekuur (9.00-12.00 uur, zonder afspraak). Of bel de gemeente.",
+          "Vertel wat er speelt en wat u al heeft geprobeerd. Vraag wat het team zelf kan doen en welke hulp in de buurt past.",
+          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig? Vraag dan om een beschikking: het besluit van de gemeente over welke hulp u krijgt, hoeveel en hoe lang.",
+          "Bent u het niet eens met het besluit? Maak bezwaar. Bent u niet tevreden over hoe u bent behandeld? Dien een klacht in."
+        ],
+        "contact": {
+          "naam": "Gemeente Almelo (wijkteams)",
+          "telefoon": "0546 54 11 11",
+          "url": "https://www.almelo.nl/zorg-en-ondersteuning-zorgloket/wijkteams",
+          "adres": "Noord (De Schelf): Binnenhof 51. Oost (De Schöppe): Clematisstraat 2. Zuid (De Driehoek): Jan Tooropstraat 27. West (Eninver): Apollolaan 1",
+          "openingstijden": "Inloopspreekuur zonder afspraak op de wijklocaties, 9.00-12.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De gemeente betaalt alleen hulp van aanbieders met een contract. Wilt u naar een aanbieder zonder contract? Vraag dan eerst de gemeente om een besluit.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD Twente.",
+          "Vraag om een verwijzing naar een aanbieder met een contract. U vindt die aanbieders in de Beschikbaarheidswijzer.",
+          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Twente",
+          "telefoon": "053 487 6670",
+          "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Hebt u zorgen over leren, gedrag of schoolgang? Bespreek dat met de leerkracht, mentor of intern begeleider. Voor kinderen vanaf 5 jaar kunt u ook terecht bij de jeugdarts van de GGD Twente (de schoolarts). School kan u helpen om contact te leggen met het wijkteam.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om contact met het wijkteam, of meld u zelf aan bij het inloopspreekuur.",
+          "Vraag naar een jeugdcoach als uw kind die nodig heeft. Avedan heeft jeugdcoaches voor kinderen en jongeren van 6 tot 21 jaar in Almelo.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Gemeente Almelo (wijkteams)",
+            "telefoon": "0546 54 11 11",
+            "url": "https://www.almelo.nl/zorg-en-ondersteuning-zorgloket/wijkteams",
+            "adres": "Noord (De Schelf): Binnenhof 51. Oost (De Schöppe): Clematisstraat 2. Zuid (De Driehoek): Jan Tooropstraat 27. West (Eninver): Apollolaan 1",
+            "openingstijden": "Inloopspreekuur zonder afspraak op de wijklocaties, 9.00-12.00 uur"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg GGD Twente",
+            "telefoon": "053 487 6670",
+            "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid"
+          },
+          {
+            "naam": "Avedan",
+            "telefoon": "0546 544 100",
+            "email": "info@avedan.nl",
+            "url": "https://www.avedan.nl/contact"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt SWV Twente Noord (basisonderwijs)",
+            "telefoon": "0546 745790",
+            "email": "info@swv-twentenoord.nl",
+            "url": "https://swv-twentenoord.nl/ouder-en-jeugdsteunpunt/"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt SWV VO Twente West (voortgezet onderwijs)",
+            "telefoon": "0546 834200",
+            "email": "info@swvvotwentewest.nl",
+            "url": "https://swvvotwentewest.nl/ouder-en-jeugd-steunpunt/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Almelo op de pagina Huiselijk geweld van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Almelo: Huiselijk geweld",
+          "url": "https://www.almelo.nl/huiselijk-geweld"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Almelo Sociaal",
+      "toelichting": "Een onafhankelijke cliëntondersteuner van Almelo Sociaal helpt u gratis. De cliëntondersteuner bereidt het gesprek met u voor en kan meegaan. Almelo Sociaal heeft ook een pagina voor ouders met vragen over jeugd. Vraag bij uw eerste contact of zij u ook bij jeugdhulp kunnen helpen. De gemeente moet u bij uw aanvraag wijzen op gratis cliëntondersteuning.",
+      "telefoon": "0546 45 69 09",
+      "email": "info@almelosociaal.nl",
+      "url": "https://almelosociaal.nl/"
+    },
+    "klacht": {
+      "naam": "Klacht over een medewerker in het sociaal domein",
+      "toelichting": "De wijkteams zijn van de gemeente. Een klacht over het wijkteam dient u daarom in bij de gemeente, met het formulier voor het sociaal domein. Dat kan ook per brief of telefonisch. U moet uw naam noemen: een anonieme klacht kan niet. Binnen 6 weken krijgt u een brief met de beslissing. Gaat de klacht over een zorgaanbieder? Dien die dan eerst bij de aanbieder zelf in.",
+      "url": "https://www.burgerberichten.nl/almelo/formulieren/906b59ff-3699-476f-ab20-a161ba3e245d/Klacht-indienen-Sociaal-Domein",
+      "telefoon": "0546 54 11 11",
+      "extern": {
+        "naam": "Nationale ombudsman (als u het niet eens bent met de afhandeling van uw klacht)",
+        "url": "https://www.nationaleombudsman.nl/gemeente"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Op de beschikking (het besluit) staat bij wie u bezwaar maakt. Dat kan online met DigiD of per post. Een bezwaar per e-mail neemt de gemeente niet aan. Meestal geeft een onafhankelijke bezwaarschriftencommissie advies, soms na een hoorzitting. De beslissing volgt meestal binnen 12 weken na het einde van de bezwaartermijn. Daarna kunt u in beroep bij de rechtbank Overijssel.",
+      "url": "https://www.almelo.nl/klachten-bezwaar-en-beroep/bezwaar-en-beroep"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een persoonsgebonden budget (pgb) is mogelijk als hulp van een aanbieder met contract (zorg in natura) niet past. U moet uitleggen waarom, en het budget zelf kunnen beheren. De gemeente moet de gekozen hulp van goede kwaliteit vinden. Een pgb voor professionele hulp is 80% van het tarief dat de gemeente zelf betaalt. Hulp van iemand uit uw netwerk wordt betaald op het niveau van het minimumloon. Voor behandeling, vaktherapie, specialistische jeugd-ggz (tweede lijn) en spoed- en crisiszorg krijgt u geen pgb. Bij uw aanvraag horen een zorgplan en een recente Verklaring Omtrent Gedrag (VOG) van de hulpverlener.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR738378/"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente. U vindt die via het wijkteam, Loes (opvoedvragen), de jeugdcoaches van Avedan en de organisaties op de Sociale Kaart. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Almelo koopt die hulp in met de andere Twentse gemeenten, via SamenTwente. Sinds 1 januari 2025 gelden nieuwe contracten. Nieuwe aanbieders komen er alleen bij als er te weinig aanbod is. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die site is openbaar, zonder inloggen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
+    "categorieen": [
+      {
+        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
+        "omschrijving": "Via het wijkteam, Loes, de jeugdcoaches van Avedan en de Sociale Kaart. Geen besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "omschrijving": "Begeleiding thuis of op school, via het wijkteam of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-ggz",
+        "omschrijving": "Via een verwijzing van huisarts, jeugdarts of medisch specialist, of via het wijkteam.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Steunouders, pleegzorg en verblijf",
+        "omschrijving": "Steunouders zijn een vaste voorziening zonder besluit. Voor pleegzorg en verblijf is een besluit van de gemeente nodig.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Via de regionale crisisroute van de Twentse gemeenten. Bel bij een crisis de huisarts of huisartsenpost.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Loes (opvoedadvies Almelo)",
+      "soort": "informatiepunt",
+      "omschrijving": "Vraagbaak voor ouders en verzorgers. Loes hoort bij het Centrum voor Jeugd en Gezin (CJG) van 13 samenwerkende Twentse gemeenten. U kunt mailen (loes@avedan.nl) of bellen op maandag en woensdag van 12.00 tot 14.00 uur (0546 45 41 15). Belt u buiten die tijden, dan wordt u teruggebeld.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://loes.nl/"
+    },
+    {
+      "naam": "Sociale Kaart Almelo",
+      "soort": "informatiepunt",
+      "omschrijving": "Overzicht van organisaties voor zorg, welzijn, sport en ondersteuning bij opvoeden, ook per wijk. De gemeente noemt dit de eerste stap als u hulp zoekt dichtbij.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://socialekaart.almelo.nl/"
+    },
+    {
+      "naam": "Steunouders",
+      "soort": "vrijwilligers",
+      "omschrijving": "Een steunouder is een vrijwilliger die een gezin vast ondersteunt, bijvoorbeeld door een kind regelmatig op te vangen. In 2025 zijn in Almelo 25 koppelingen (matches) gemaakt tussen gezinnen en steunouders. Steunouders is een vaste voorziening van de gemeente: u hebt er geen besluit voor nodig.",
+      "themas": [
+        "gezin",
+        "opvoeden"
+      ],
+      "url": "https://almelo.jaarverslag-2025.nl/p26331/kansengelijkheid-jeugd"
+    },
+    {
+      "naam": "TEJO Huis Almelo",
+      "soort": "informatiepunt",
+      "omschrijving": "Ontmoetingsplek voor jongeren van 10 tot 20 jaar, met vrijwilligers die luisteren en meedenken. Gratis, vertrouwelijk en zonder afspraak. Elke schooldag open van 14.30 tot 17.30 uur, ook in de schoolvakanties.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://tejo-nederland.nl/tejo-huizen/tejo-huis-almelo/"
+    },
+    {
+      "naam": "Jeugdcoaches Avedan",
+      "soort": "informatiepunt",
+      "omschrijving": "Jeugdcoaches van welzijnsorganisatie Avedan kijken met kinderen en jongeren van 6 tot 21 jaar waar ze tegenaan lopen en hoe ze dat kunnen aanpakken.",
+      "themas": [
+        "gezin",
+        "opvoeden"
+      ],
+      "url": "https://www.avedan.nl/gemeentepagina/jeugdcoach/"
+    },
+    {
+      "naam": "Goed uit elkaar Twente",
+      "soort": "informatiepunt",
+      "omschrijving": "Website met informatie en hulp voor ouders, jongeren en familie bij een scheiding, met een eigen deel voor Almelo. In Almelo werken organisaties samen om kinderen bij een scheiding te beschermen (pact Scheiden zonder Schade). Villa Pinedo doet daaraan mee.",
+      "themas": [
+        "scheiding",
+        "gezin"
+      ],
+      "url": "https://goeduitelkaartwente.nl/almelo/ouders"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Inloopspreekuur wijkteams",
+      "omschrijving": "Van 9.00 tot 12.00 uur zonder afspraak op de wijklocaties. Zoek uw wijkteam op postcode.",
+      "url": "https://www.almelo.nl/zorg-en-ondersteuning-zorgloket/wijkteams"
+    },
+    {
+      "naam": "Klacht indienen over een medewerker in het sociaal domein",
+      "omschrijving": "Laagdrempelig, binnen 6 weken antwoord. Vaak sneller dan bezwaar. Voor een klacht over een zorgaanbieder gaat u naar de aanbieder zelf.",
+      "url": "https://www.burgerberichten.nl/almelo/formulieren/906b59ff-3699-476f-ab20-a161ba3e245d/Klacht-indienen-Sociaal-Domein"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Aanbieders met een contract in Twente, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Online met DigiD, of per post met een brief. Per e-mail kan niet.",
+      "url": "https://www.e-inwoner.nl/prod/fr/Almelo/Bezwaar_indienen/new.digid",
+      "nodig": "De beschikking; bij online indienen DigiD"
+    },
+    {
+      "naam": "Verordening jeugdhulp gemeente Almelo 2025",
+      "omschrijving": "De volledige regels voor toegang, besluiten en pgb. Hierin staan uw rechten. De uitleg op de gemeentesite is niet bindend.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR738378/"
+    },
+    {
+      "naam": "Cliëntondersteuning via Almelo Sociaal",
+      "omschrijving": "Gratis en onafhankelijk. Bel (0546) 45 69 09 of kom langs op het inloopspreekuur (ma, di en vr 9.30-11.30 uur, Wierdensestraat 22).",
+      "url": "https://almelosociaal.nl/"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "omschrijving": "Gratis advies en ondersteuning bij klachten over jeugdhulp.",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "In Almelo krijgen relatief veel jongeren jeugdhulp met verblijf: 2,7% in 2025, tegen 1,2% landelijk. De gemeente wil dit verminderen met meer hulp thuis, op school en in de buurt, via een sterker wijkteam. Vanaf 1 januari 2027 komt er voor heel Twente een regionaal expertteam voor ingewikkelde situaties. Dat team helpt gemeenten en verwijzers om passende hulp te vinden.\n\nBespreek bij het wijkteam wat de hulp moet opleveren en vraag om een schriftelijk verslag van het gesprek. Neem een gratis cliëntondersteuner van Almelo Sociaal mee. Is hulp afgewezen of past die niet, vraag dan om een beschikking en maak bezwaar. Gaat het om hoe een medewerker u behandelde, gebruik dan het klachtformulier voor het sociaal domein.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Twente bouwt regionaal expertteam voor ingewikkelde jeugdhulp",
+        "samenvatting": "De 14 Twentse gemeenten werken vanaf 1 januari 2027 samen als aangewezen jeugdregio Twente. SamenTwente krijgt dan een regionaal expertteam voor ingewikkelde situaties en een coördinatiepunt voor wonen en verblijf. Zo moeten jongeren sneller een passende plek krijgen.",
+        "datum": "2026-10-06",
+        "bron": {
+          "titel": "Gemeente Almelo - Raadsbrief Prioritaire agenda Jeugdzorg",
+          "url": "https://almelo.bestuurlijkeinformatie.nl/Reports/Item/2c86a086-05bc-4474-933a-1ddd9152c0dc"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Meer jongeren in jeugdhulp met verblijf dan landelijk",
+        "samenvatting": "In 2025 kreeg 2,7% van de jongeren tot 18 jaar in Almelo jeugdhulp met verblijf, tegen 1,2% landelijk (voorlopige cijfers). De gemeente wil dat minder jongeren in verblijf terechtkomen en kiest vaker voor hulp thuis. Ook wil zij het wijkteam sterker maken.",
+        "datum": "2026-09",
+        "bron": {
+          "titel": "Gemeente Almelo - Ontwerp programmabegroting 2027",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Almelo&id=60a84de0-751b-473e-95f5-69b42c080359"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Aandeel jeugdhulp via de huisarts iets lager dan landelijk",
+        "samenvatting": "Van de jeugdhulptrajecten die in 2025 in Almelo begonnen, startte 40% via huisarts, jeugdarts of medisch specialist. Landelijk is dat 43%.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio (2025)",
+          "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe verordening: pgb voor professionele hulp is 80% van het tarief",
+        "samenvatting": "De verordening jeugdhulp van 2025 bepaalt dat de gemeente de goedkoopste passende hulp toekent. Een pgb voor professionele hulp is 80% van het tarief dat de gemeente zelf betaalt. Behandeling, vaktherapie en spoedhulp kunt u niet met een pgb inkopen.",
+        "datum": "2025-04",
+        "bron": {
+          "titel": "Verordening jeugdhulp gemeente Almelo 2025",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR738378/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe Twentse contracten sinds 2025: minder vaak nieuwe aanbieders",
+        "samenvatting": "Sinds 1 januari 2025 gelden nieuwe regionale contracten voor jeugdhulp. Nieuwe aanbieders komen er alleen bij als er te weinig aanbod is. Kijk in de Beschikbaarheidswijzer welke aanbieders een contract hebben.",
+        "datum": "2024-04-02",
+        "bron": {
+          "titel": "Gemeente Almelo - Raadsbrief Inkoop jeugdhulp",
+          "url": "https://almelo.bestuurlijkeinformatie.nl/Document/View/bc800997-fa4c-4993-b30a-2903610f00ad"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-11",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Uitkomsten van een cliëntervaringsonderzoek Jeugd van Almelo zijn niet openbaar te vinden. Vraag het wijkteam of de gemeente ernaar als u wilt weten hoe andere ouders de hulp ervaren."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Gemeten wachttijden of doorlooptijden van de wijkteams zijn niet openbaar te vinden. Vraag bij het eerste gesprek hoe lang het duurt, en kijk in de Beschikbaarheidswijzer voor de wachttijd bij aanbieders."
+      },
+      "aandeelHuisarts": {
+        "percentage": 40,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Almelo - Instanties voor jeugd en jeugdhulp",
+        "url": "https://www.almelo.nl/jeugd-en-onderwijs/instanties-en-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Wijkteams",
+        "url": "https://www.almelo.nl/zorg-en-ondersteuning-zorgloket/wijkteams",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Ontwikkeling kind en puber (Loes, jeugdhulp)",
+        "url": "https://almelo.nl/jeugd-en-onderwijs/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Klacht over behandeling gemeente",
+        "url": "https://www.almelo.nl/klachten-bezwaar-en-beroep/klacht-over-behandeling-gemeente",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Bezwaar en beroep",
+        "url": "https://www.almelo.nl/klachten-bezwaar-en-beroep/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Wmo (cliëntondersteuning Almelo Sociaal)",
+        "url": "https://www.almelo.nl/zorg-en-ondersteuning-zorgloket/wmo-wet-maatschappelijke-ondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Almelo Sociaal",
+        "url": "https://almelosociaal.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Almelo 2025 (CVDR738378)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR738378/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer - Jeugdhulp Twente",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Raadsbrief Prioritaire agenda Jeugdzorg",
+        "url": "https://almelo.bestuurlijkeinformatie.nl/Reports/Item/2c86a086-05bc-4474-933a-1ddd9152c0dc",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Ontwerp programmabegroting 2027",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Almelo&id=60a84de0-751b-473e-95f5-69b42c080359",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Jaarverantwoording 2025 (Kansengelijkheid jeugd)",
+        "url": "https://almelo.jaarverslag-2025.nl/p26331/kansengelijkheid-jeugd",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo - Raadsbrief Inkoop jeugdhulp",
+        "url": "https://almelo.bestuurlijkeinformatie.nl/Document/View/bc800997-fa4c-4993-b30a-2903610f00ad",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Loes - vraagbaak voor ouders",
+        "url": "https://loes.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociale Kaart Almelo",
+        "url": "https://socialekaart.almelo.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "TEJO Huis Almelo",
+        "url": "https://tejo-nederland.nl/tejo-huizen/tejo-huis-almelo/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Avedan - Jeugdcoach",
+        "url": "https://www.avedan.nl/gemeentepagina/jeugdcoach/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Goed uit elkaar Twente - Almelo",
+        "url": "https://goeduitelkaartwente.nl/almelo/ouders",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Twente",
+        "url": "https://veiligthuistwente.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman - gemeente",
+        "url": "https://www.nationaleombudsman.nl/gemeente",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Almelo: Huiselijk geweld",
+        "url": "https://www.almelo.nl/huiselijk-geweld",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Twente: Contact met Jeugdgezondheid",
+        "url": "https://www.ggdtwente.nl/contact/jeugdgezondheid/contact-met-jeugdgezondheid",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Avedan: Contact",
+        "url": "https://www.avedan.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV Twente Noord: Ouder- en Jeugdsteunpunt",
+        "url": "https://swv-twentenoord.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV VO Twente West: Ouder en Jeugd Steunpunt",
+        "url": "https://swvvotwentewest.nl/ouder-en-jeugd-steunpunt/",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden niet gevonden in raadsinformatie en jaarstukken. Cliëntondersteuning door Almelo Sociaal alleen op de Wmo-pagina van de gemeente bevestigd; aanvraagformulier jeugdhulp niet online gevonden en de verordening noemt geen eigen beslistermijn. Regionale journalistiek beperkt doorzocht."
+  }
+}

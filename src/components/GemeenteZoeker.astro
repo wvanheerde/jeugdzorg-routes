@@ -1,0 +1,38 @@
+---
+/**
+ * Filtert kaarten op de pagina: gemeenten (op naam en provincie) of andere kaarten met `data-zoek`.
+ * Secties zonder zichtbare kaart verdwijnen mee.
+ * Werkt zonder JavaScript (alle kaarten zichtbaar) en met een paar regels vanilla JS.
+ */
+import Icon from './Icon.astro';
+interface Props { placeholder?: string; label?: string; target: string }
+const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } = Astro.props;
+---
+<form class="search" role="search" data-target={target} onsubmit="return false">
+  <Icon name="search" />
+  <input type="search" name="q" placeholder={placeholder} aria-label={label} autocomplete="off" />
+  <button type="submit" class="btn primary">Zoeken</button>
+</form>
+<script>
+  document.querySelectorAll<HTMLFormElement>('form.search[data-target]').forEach((form) => {
+    const input = form.querySelector('input')!;
+    const grid = document.querySelector(form.dataset.target!);
+    if (!grid) return;
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>('[data-naam], [data-zoek]'));
+    const sections = Array.from(grid.querySelectorAll<HTMLElement>('section'));
+    const empty = grid.parentElement?.querySelector<HTMLElement>('.empty-result');
+    const apply = () => {
+      const q = input.value.trim().toLowerCase();
+      let n = 0;
+      for (const c of cards) {
+        const tekst = c.dataset.zoek ?? `${c.dataset.naam} ${c.dataset.provincie}`;
+        const hit = !q || tekst.includes(q);
+        c.hidden = !hit; if (hit) n++;
+      }
+      for (const s of sections) s.hidden = !s.querySelector('[data-zoek]:not([hidden]), [data-naam]:not([hidden])');
+      if (empty) empty.hidden = n > 0;
+    };
+    input.addEventListener('input', apply);
+    form.addEventListener('submit', () => { apply(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  });
+</script>

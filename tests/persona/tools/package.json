@@ -1,0 +1,7 @@
+{
+  "name": "jeugdzorg-routes-persona-tools",
+  "private": true,
+  "type": "module",
+  "description": "Browser-driver voor persona-tests (los van de site-dependencies).",
+  "dependencies": { "playwright": "1.64.0" }
+}

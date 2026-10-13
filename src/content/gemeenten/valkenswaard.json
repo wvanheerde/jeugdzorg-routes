@@ -1,0 +1,403 @@
+{
+  "naam": "Valkenswaard",
+  "cbsCode": "GM0858",
+  "provincie": "Noord-Brabant",
+  "websiteJeugd": "https://www.valkenswaard.nl/hulp-voor-jeugd-en-gezin",
+  "toegang": {
+    "samenvatting": "In Valkenswaard is team Jeugd van de gemeente, het Centrum voor Jeugd en Gezin (CJG), de ingang voor jeugdhulp. U belt het telefonische spreekuur of stelt uw vraag online. Een verwijzing is niet nodig. Het team bekijkt met u wat nodig is. Vaak is advies, lichte hulp van het CJG of hulp uit uw eigen omgeving genoeg. Is meer nodig, dan volgt een gesprek met u en uw kind en maakt het team een plan. De medewerkers van het CJG komen in 2026 en 2027 in dienst van de gemeente. Volgens de gemeente verandert er voor u weinig. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang u wacht op een besluit, verschilt: in 2024 kreeg 70% binnen acht weken een besluit.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Team Jeugd van de gemeente (Centrum voor Jeugd en Gezin)",
+        "omschrijving": "Team Jeugd beoordeelt of uw kind jeugdhulp nodig heeft, maakt met u een plan en regelt de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Het CJG geeft zelf korte, lichte hulp aan gezinnen, vanaf de zwangerschap tot 18 jaar en soms tot 23 jaar. Voor specialistische hulp neemt de gemeente een besluit (beschikking).",
+        "stappen": [
+          "Bel het telefonische spreekuur van team Jeugd, of stel uw vraag online. Het team belt u dan terug.",
+          "Leg uw situatie uit en zeg welke hulp u zoekt. Samen kijkt u wat nodig is.",
+          "Is een uitgebreider gesprek nodig? Dan plant het team dat met u en uw kind. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Vraag om het plan met de doelen op papier. Volgens het team deelt het dit plan met u.",
+          "Vraag hoe lang het duurt als specialistische hulp nodig is. U krijgt dan een verwijzing of een besluit."
+        ],
+        "contact": {
+          "naam": "Team Jeugd van de gemeente Valkenswaard (Centrum voor Jeugd en Gezin)",
+          "telefoon": "040 208 3444",
+          "url": "https://www.valkenswaard.nl/hulp-voor-jeugd-en-gezin",
+          "openingstijden": "Telefonisch spreekuur ma t/m vr 9.00–12.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast team Jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van GGD Brabant-Zuidoost, op het consultatiebureau en op school.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de JGZ.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost (JGZ-team A2-gemeenten Valkenswaard)",
+          "telefoon": "088 003 1414",
+          "url": "https://www.ggdbzo.nl/locatie/ggd-valkenswaard/",
+          "adres": "De Hofnar 10, Valkenswaard",
+          "openingstijden": "Ma t/m vr 8.30–17.00 uur. Inloopspreekuur woensdag en vrijdag 14.00–15.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Op school kan de leerkracht, mentor of intern begeleider (de zorgcoördinator van de school) meedenken. Schoolmaatschappelijk werk hoort bij het CJG. Komt u er met school niet uit? Dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs gratis advies over wat de school moet bieden.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de school schoolmaatschappelijk werk of het CJG kan inschakelen. U kunt zich ook zelf melden bij team Jeugd.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt voor basisonderwijs of voor voortgezet onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Team Jeugd van de gemeente Valkenswaard (Centrum voor Jeugd en Gezin)",
+            "telefoon": "040 208 3444",
+            "url": "https://www.valkenswaard.nl/hulp-voor-jeugd-en-gezin",
+            "openingstijden": "Telefonisch spreekuur ma t/m vr 9.00–12.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt van samenwerkingsverband Passend Onderwijs De Kempen (basisonderwijs)",
+            "email": "info@podekempen.nl",
+            "url": "https://www.podekempen.nl/Ouder-enjeugdsteunpunt"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt regio Zuidoost-Brabant (voortgezet onderwijs)",
+            "url": "https://www.ouderjeugdsteunpuntzob.nl/contact",
+            "openingstijden": "Contactformulier; reactie binnen 5 werkdagen (niet in schoolvakanties)"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welk crisisteam er is voor kinderen en jongeren in Zuidoost-Brabant, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor het crisisteam voor kinderen en jongeren op de pagina Spoedeisende zorg jeugd van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Valkenswaard: Spoedeisende zorg jeugd",
+          "url": "https://www.valkenswaard.nl/spoedeisende-zorg-jeugd"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Onafhankelijke cliëntondersteuning (Cordaad Welzijn en MEE De Meent Groep)",
+      "toelichting": "Gratis en onafhankelijk van de gemeente, zonder verwijzing. Een cliëntondersteuner denkt mee en gaat mee naar gesprekken met de gemeente of een zorgaanbieder. Hij of zij helpt ook bij een aanvraag, of als u het niet eens bent met een besluit. Cordaad Welzijn heeft één aanmeldpunt. Ook MEE De Meent Groep biedt cliëntondersteuning, voor alle leeftijden. Cliëntondersteuners werken ook in de wijken en komen op huisbezoek. Vraag er bij voorkeur één vóór het eerste gesprek.",
+      "telefoon": "040 204 66 14",
+      "email": "ocovw@cordaadwelzijn.nl",
+      "url": "https://www.valkenswaard.nl/oco"
+    },
+    "klacht": {
+      "naam": "Klacht over de gemeente en team Jeugd",
+      "toelichting": "Team Jeugd hoort bij de gemeente. Een klacht over hoe u bent behandeld, loopt daarom via de klachtenregeling van de gemeente. Dien de klacht online, per e-mail of per brief in. U krijgt binnen 3 werkdagen een ontvangstbevestiging en binnen 6 weken een antwoord. Die termijn kan één keer met 4 weken worden verlengd. Bent u het niet eens met de afhandeling? Dan kunt u naar de onafhankelijke Ombudscommissie. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "url": "https://www.valkenswaard.nl/klacht-over-ambtenaar-of-bestuurder",
+      "email": "bezwaarenklacht@a2samenwerking.nl",
+      "extern": {
+        "naam": "Ombudscommissie van de gemeente Valkenswaard",
+        "url": "https://www.valkenswaard.nl/klacht-over-ambtenaar-of-bestuurder"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Maakt u bezwaar tegen een besluit over jeugdhulp, dan vraagt de gemeente advies aan een onafhankelijke bezwaarschriftencommissie. Die houdt meestal een hoorzitting. Het Juridisch Loket kan helpen met het bezwaarschrift. Daarna kunt u in beroep bij de rechtbank.",
+      "url": "https://www.valkenswaard.nl/indienen-van-een-bezwaarschrift"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. Eerst moet u recht hebben op jeugdhulp. Daarna dient u een budgetplan in. Daarin legt u uit waarom u een pgb wilt of waarom de hulp via de gemeente niet past. Ook staat erin welke hulp u inkoopt, bij wie, en hoe de kwaliteit is geregeld. De gemeente beoordeelt of u het budget kunt beheren. Hulp van familie in de eerste of tweede graad geldt als informele hulp. De regels staan in de Verordening jeugdhulp 2026.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR758223"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u bij het CJG, zonder besluit van de gemeente: advies, korte begeleiding en trainingen. Specialistische jeugdhulp koopt Valkenswaard in met negen andere gemeenten in Zuidoost-Brabant (Samen voor Jeugd). Vanaf 1 januari 2028 wil de gemeente nieuwe contracten met aanbieders. Een lijst met aanbieders en wachttijden voor Valkenswaard is niet openbaar te vinden. Vraag team Jeugd om een overzicht en om hulp bij het kiezen.",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het CJG: advies, persoonlijke ondersteuning, training voor sociale vaardigheid, training voor kinderen en jongeren bij een scheiding en Kansrijke Start. Ook jongerenwerk en een scheidingsspreekuur op het gemeentehuis.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Schoolmaatschappelijk werk",
+        "omschrijving": "Gratis en kortdurend, via het CJG.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, vaktherapie, dagbehandeling, hulp bij ernstige dyslexie, crisishulp en verblijf. Regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "dagbesteding",
+          "crisishulp",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Valkenswaard Oog voor iedereen",
+      "soort": "informatiepunt",
+      "omschrijving": "Website van de gemeente en lokale organisaties over opvoeden, hulp, activiteiten en meedoen in Valkenswaard.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://valkenswaardoogvooriedereen.nl"
+    },
+    {
+      "naam": "Jongerenwerk (Cordaad Welzijn)",
+      "soort": "overig",
+      "omschrijving": "Jongerenwerkers in Valkenswaard voor jongeren en hun vragen over vrije tijd en ontmoeten.",
+      "themas": [
+        "jongeren"
+      ],
+      "url": "https://www.cordaadwelzijn.nl/gemeente/valkenswaard/jeugd-en-jongeren/"
+    },
+    {
+      "naam": "Scheidingsspreekuur",
+      "soort": "informatiepunt",
+      "omschrijving": "Gratis spreekuur op het gemeentehuis voor praktische vragen bij een scheiding, bijvoorbeeld over het ouderschapsplan en de zorg voor de kinderen. Voor volwassenen en kinderen vanaf 12 jaar.",
+      "themas": [
+        "scheiding"
+      ],
+      "url": "https://www.valkenswaard.nl/scheidingsspreekuur"
+    },
+    {
+      "naam": "Stichting Leergeld Valkenswaard",
+      "soort": "overig",
+      "omschrijving": "Helpt gezinnen met weinig geld met kosten voor school, sport en cultuur van kinderen.",
+      "themas": [
+        "geldzorgen"
+      ],
+      "url": "https://www.leergeld.nl/valkenswaard/doe-een-aanvraag/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.valkenswaard.nl/klacht-over-ambtenaar-of-bestuurder",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.valkenswaard.nl/indienen-van-een-bezwaarschrift",
+      "nodig": "Het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Valkenswaard: Hulp voor jeugd en gezin",
+        "url": "https://www.valkenswaard.nl/hulp-voor-jeugd-en-gezin",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Spoedeisende zorg jeugd",
+        "url": "https://www.valkenswaard.nl/spoedeisende-zorg-jeugd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Hulp bij crisis- en noodsituaties",
+        "url": "https://www.valkenswaard.nl/crisis-en-noodsituaties",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Zorg en ondersteuning voor iedereen",
+        "url": "https://www.valkenswaard.nl/zorg-en-ondersteuning-voor-iedereen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Onafhankelijke cliëntondersteuner",
+        "url": "https://www.valkenswaard.nl/oco",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Klacht over ambtenaar of bestuurder",
+        "url": "https://www.valkenswaard.nl/klacht-over-ambtenaar-of-bestuurder",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Hoe maak ik bezwaar?",
+        "url": "https://www.valkenswaard.nl/indienen-van-een-bezwaarschrift",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Scheidingsspreekuur",
+        "url": "https://www.valkenswaard.nl/scheidingsspreekuur",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Beleid sociaal domein",
+        "url": "https://www.valkenswaard.nl/beleid-sociaal-domein",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Valkenswaard 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR758223",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Jaarstukken 2025",
+        "url": "https://cuatro.sim-cdn.nl/valkenswaard/uploads/Jaarstukken%202025%20incl.%20controleverklaring.pdf?cb=-HlZvy_I",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Valkenswaard: Programmabegroting 2027-2030",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=c0148f2e-3b25-4cf8-b864-6e02282809a8",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Rekenkamer A2 Gemeenten: Jeugdzorg in de gemeente Valkenswaard (juli 2025)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=d91876d9-e129-4dee-9716-d10db5713cf6",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief Cliëntervaringsonderzoek Jeugd en Wmo over 2023",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=6d2ee4bc-aaca-4366-97bd-96534aa60f42",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsvoorstel Jeugdhulpverlening Valkenswaard (29 januari 2026)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=db19d46f-fae7-40fe-ae74-ebf278b614f2",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief Voortzetting Beschermtafel (6 oktober 2026)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=e4698595-57e8-40a2-93ad-30b6031e4c4c",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Brabant-Zuidoost: GGD Valkenswaard",
+        "url": "https://www.ggdbzo.nl/locatie/ggd-valkenswaard/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Brabant-Zuidoost: Hulp bij opvoeden en opgroeien",
+        "url": "https://www.ggdbzo.nl/mijn-kind/hulp-bij-opvoeden-en-opgroeien/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt regio Zuidoost-Brabant: Contact",
+        "url": "https://www.ouderjeugdsteunpuntzob.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "PO de Kempen: Ouder- en jeugdsteunpunt",
+        "url": "https://www.podekempen.nl/Ouder-enjeugdsteunpunt",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Cliëntervaringsonderzoek over 2024 of 2025 en doorlooptijden na 2024 niet gevonden. Klachtenregeling is die van de gemeente (team Jeugd werkt bij de gemeente); inkooporganisatie Samen voor Jeugd heeft geen eigen site gevonden en Beschikbaarheidswijzer dekt Valkenswaard niet. Regionale journalistiek niet doorzocht."
+  },
+  "jeugdzorgregio": "Zuidoost-Brabant (inkoop via Samen voor Jeugd)",
+  "ervaringen": {
+    "samenvatting": "In 2024 kreeg de helft van de ouders binnen acht weken een eerste reactie op hun hulpvraag, en 70% binnen acht weken een besluit. De rekenkamer vroeg om snellere reacties en een betere bereikbaarheid van team Jeugd. Ook bij aanbieders van specialistische hulp zijn er wachttijden. Ouders en jongeren voelen zich serieus genomen, maar vinden het wachten lang.\n\nVraag bij uw aanmelding bij team Jeugd hoe lang het duurt, en vraag het plan en de afspraken op papier. Moet uw kind wachten op een aanbieder, vraag dan wat de gemeente in de tussentijd kan doen. Neem een onafhankelijke cliëntondersteuner van Cordaad Welzijn of MEE De Meent Groep mee. Een klacht dient u in bij de gemeente, daarna kunt u naar de Ombudscommissie.",
+    "signalen": [
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamer: reactie op hulpvragen vaak na acht weken",
+        "samenvatting": "In 2024 kreeg de helft van de ouders binnen acht weken een eerste reactie op hun hulpvraag, en 70% binnen acht weken een besluit. De rekenkamer vroeg om kortere wachttijden en een beter bereikbaar team. Ook adviseerde zij de jeugdprofessionals in dienst van de gemeente te nemen.",
+        "datum": "2025-07",
+        "bron": {
+          "titel": "Rekenkamer A2 Gemeenten: Jeugdzorg in de gemeente Valkenswaard",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=d91876d9-e129-4dee-9716-d10db5713cf6"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jeugdhulpverleners komen in dienst bij de gemeente",
+        "samenvatting": "De raad besloot in januari 2026 dat de jeugdhulpverleners van het CJG in dienst komen bij de gemeente: een deel vanaf 1 juli 2026, de rest vanaf 1 januari 2027. De jeugdconsulenten werken al sinds 1 januari 2026 bij de gemeente. Volgens de gemeente verandert de werkwijze voor inwoners niet.",
+        "datum": "2026-01-29",
+        "bron": {
+          "titel": "Raadsvoorstel Jeugdhulpverlening Valkenswaard",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=db19d46f-fae7-40fe-ae74-ebf278b614f2"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaring jeugd over 2023: deskundig, maar lang wachten",
+        "samenvatting": "Driekwart van de ondervraagde ouders en jongeren weet waar ze terecht kunnen. Ze voelen zich serieus genomen, maar moeten lang wachten voordat ze geholpen worden. Jongeren zijn vaak niet bij het gesprek, terwijl dat vanaf 12 jaar de bedoeling is.",
+        "datum": "2024-11-26",
+        "bron": {
+          "titel": "Raadsinformatiebrief Cliëntervaringsonderzoek Jeugd en Wmo over 2023",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=6d2ee4bc-aaca-4366-97bd-96534aa60f42"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachtlijsten bij aanbieders: vaker hulp zonder contract",
+        "samenvatting": "De gemeente zet vaker hulp in van aanbieders zonder contract. Dat komt onder meer door langere wachttijden bij aanbieders met een contract, of omdat hun aanbod niet past. Moet uw kind wachten? Vraag dan wat de gemeente in de tussentijd kan doen.",
+        "datum": "2026-06-04",
+        "bron": {
+          "titel": "Gemeente Valkenswaard: Jaarstukken 2025",
+          "url": "https://cuatro.sim-cdn.nl/valkenswaard/uploads/Jaarstukken%202025%20incl.%20controleverklaring.pdf?cb=-HlZvy_I"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plannen: regionale inkoop en nieuwe contracten vanaf 2028",
+        "samenvatting": "Valkenswaard wil in 2027 met negen andere gemeenten een vaste samenwerking (gemeenschappelijke regeling) opzetten om jeugdhulp in te kopen. Vanaf 1 januari 2028 wil de gemeente nieuwe contracten met aanbieders. Ook wil zij een sterker lokaal team met één ingang voor jeugd en volwassenen.",
+        "datum": "2026-10-01",
+        "bron": {
+          "titel": "Programmabegroting 2027-2030",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=c0148f2e-3b25-4cf8-b864-6e02282809a8"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Beschermtafel blijft bestaan, ouders worden vooraf geïnformeerd",
+        "samenvatting": "De Beschermtafel is een regionaal overleg dat gedwongen jeugdbescherming wil voorkomen. Het college besloot in oktober 2026 hiermee door te gaan, ook al staat het delen van gegevens aan die tafel niet specifiek in de wet. Ouders en jongeren vanaf 16 jaar krijgen vooraf uitleg over het gebruik van hun gegevens en over juridische hulp.",
+        "datum": "2026-10-06",
+        "bron": {
+          "titel": "Raadsinformatiebrief Voortzetting Beschermtafel",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=e4698595-57e8-40a2-93ad-30b6031e4c4c"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2023",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=6d2ee4bc-aaca-4366-97bd-96534aa60f42",
+        "samenvatting": "Eigen continue meting van de gemeente onder cliënten van jeugdhulp en Wmo, zonder landelijk rapportcijfer. Over 2023: driekwart weet waar het terecht kan; respondenten voelen zich serieus genomen maar vinden de wachttijd lang. De rekenkamer vraagt om een betrouwbaardere meting."
+      },
+      "doorlooptijden": {
+        "status": "ja",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vergaderknooppunt&id=d91876d9-e129-4dee-9716-d10db5713cf6",
+        "samenvatting": "Rekenkamerrapport met gemeten cijfers over 2022 tot en met 2024. In 2024 kreeg bij 50% van de hulpvragen binnen 8 weken een eerste reactie en bij 70% binnen 8 weken een besluit."
+      },
+      "aandeelHuisarts": {
+        "percentage": 29,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

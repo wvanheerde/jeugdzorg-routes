@@ -1,0 +1,388 @@
+{
+  "naam": "Schagen",
+  "cbsCode": "GM0441",
+  "provincie": "Noord-Holland",
+  "jeugdzorgregio": "Kop van Noord-Holland (JZ03: Den Helder, Hollands Kroon, Schagen en Texel)",
+  "websiteJeugd": "https://www.schagen.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Schagen meldt u zich bij het wijkteam van de gemeente. Het team Toegang van het wijkteam luistert naar uw vraag, zoekt eerst naar hulp in uw eigen omgeving en regelt zo nodig specialistische jeugdhulp. U kunt zelf bellen of het contactformulier invullen. Een verwijzing is niet nodig. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen. De jeugdgezondheidszorg (consultatiebureau en schoolarts) valt onder de GGD Hollands Noorden. Een telefonische vraag pakt het wijkteam volgens de regels direct op, een schriftelijke vraag binnen 2 werkdagen. Hoe lang het in de praktijk duurt tot een gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Wijkteam Schagen (team Toegang)",
+        "omschrijving": "Het wijkteam werkt voor de gemeente. De consulenten bespreken met u wat er speelt. Ze kijken eerst naar hulp uit uw eigen netwerk en naar lichte hulp. Is meer nodig, dan regelen ze specialistische jeugdhulp met een beschikking (besluit van de gemeente). U meldt zich zelf aan, zonder verwijzing. Ook jongeren mogen zelf contact opnemen.",
+        "stappen": [
+          "Bel het wijkteam of vul het contactformulier in. U kunt ook op woensdagmiddag langskomen bij het inloopspreekuur.",
+          "Bespreek uw vraag telefonisch met het wijkteam. Zo nodig maakt het team een afspraak, meestal bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Lees het verslag dat u binnen 25 dagen na het gesprek krijgt. Wilt u specialistische hulp aanvragen? Teken dan het verslag. Dat geldt als uw aanvraag.",
+          "Wacht op het schriftelijke besluit. Bent u het er niet mee eens, dan kunt u bezwaar maken."
+        ],
+        "contact": {
+          "naam": "Wijkteam Schagen (team Toegang van de gemeente)",
+          "telefoon": "0224 210 400",
+          "url": "https://www.schagen.nl/contact-wijkteam",
+          "openingstijden": "Telefonisch werkdagen 9.00–12.30 uur (kies menukeuze 1). Inloopspreekuur elke woensdag 13.30–15.30 uur, zonder afspraak"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "De huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het wijkteam. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Hollands Noorden.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
+          "telefoon": "088 010 0550",
+          "url": "https://www.ggdhn.nl/contact/",
+          "openingstijden": "Telefonisch ma, di en do 8.00–16.30 uur, wo en vr 8.00–12.00 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Scholen in Schagen werken samen met het schoolmaatschappelijk werk. Zo kan school u helpen om op tijd hulp te vinden. Komt u er met school niet uit? Dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs onafhankelijk advies.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of het schoolmaatschappelijk werk kan meedenken.",
+          "Is meer hulp nodig? Meld uw kind aan bij het wijkteam, bij voorkeur samen met school.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Wijkteam Schagen (team Toegang van de gemeente)",
+            "telefoon": "0224 210 400",
+            "url": "https://www.schagen.nl/contact-wijkteam",
+            "openingstijden": "Telefonisch werkdagen 9.00–12.30 uur (kies menukeuze 1). Inloopspreekuur elke woensdag 13.30–15.30 uur, zonder afspraak"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt passend onderwijs, samenwerkingsverband Kop van Noord-Holland",
+            "url": "https://www.swvkopvannoordholland.nl/primair-onderwijs/ouders/ouder-en-jeugdsteunpunt/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er voor kinderen en jongeren zijn, staat op de crisispagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdienst voor kinderen en jongeren op de pagina Crisis van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Schagen: crisis",
+          "url": "https://www.schagen.nl/crisis"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Sylta (voorheen MEE en de Wering)",
+      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. Een cliëntondersteuner helpt u uw vraag op een rij te zetten. Hij of zij gaat mee naar gesprekken met de gemeente en helpt bij een aanvraag of als u het niet eens bent met een besluit. Sylta werkt voor kinderen, jongeren en volwassenen. De gemeente noemt ook het Mantelzorgcentrum en Wonen Plus Welzijn. Vraag een ondersteuner het liefst vóór het eerste gesprek.",
+      "telefoon": "088 007 5000",
+      "email": "info@sylta.nl",
+      "url": "https://www.sylta.nl/contact"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. Meestal krijgt u hulp in natura: via een aanbieder met een contract bij de gemeente. Een pgb krijgt u alleen als u uw eigen belangen goed kunt behartigen. U maakt een pgb-plan, dat de gemeente moet goedkeuren. U krijgt geen pgb als degene die het budget beheert ook de hulp geeft. Ook niet als uit het plan niet blijkt dat de kwaliteit goed is. Iemand uit uw netwerk mag de hulp geven als die persoon niet overbelast raakt en de hulp aantoonbaar werkt. Familie in de eerste of tweede graad telt altijd als netwerk. Het budget is niet hoger dan de goedkoopste passende hulp in natura in Schagen.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR714657/2"
+    },
+    "klacht": {
+      "naam": "Klacht over de gemeente en het wijkteam",
+      "toelichting": "Het wijkteam werkt voor de gemeente. Een klacht over een medewerker of over hoe uw vraag is behandeld, gaat daarom via de klachtregeling van de gemeente. U kunt online klagen (met DigiD), per brief (Gemeente Schagen, Postbus 8, 1740 AA Schagen) of telefonisch. De klantenservice neemt binnen 2 werkdagen contact op. Eerst probeert de gemeente het samen met u op te lossen. Lukt dat niet, dan volgt een hoorzitting. De gemeente reageert binnen 6 weken, met hooguit 4 weken uitstel. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "url": "https://www.schagen.nl/klachten",
+      "telefoon": "0224 210 400",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief. Mailen kan niet. Meestal nodigt de gemeente u uit voor een hoorzitting. Daar spreekt u met de onafhankelijke bezwarencommissie, of met ambtenaren die niet bij het besluit betrokken waren. Daarna beslist de gemeente over uw bezwaar.",
+      "url": "https://www.schagen.nl/bezwaar-en-beroep"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente: het opvoedspreekuur en cursussen van de GGD, hulp van vrijwilligers en schoolmaatschappelijk werk. Specialistische jeugdhulp koopt Schagen samen met Den Helder, Hollands Kroon en Texel in. In 2025 zijn de contracten met aanbieders met 3 jaar verlengd. De vier gemeenten bereiden een nieuwe inkoop voor. In de openbare Beschikbaarheidswijzer van de regio ziet u aanbieders en wachttijden.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
+    "categorieen": [
+      {
+        "naam": "Opvoedondersteuning",
+        "omschrijving": "Opvoedspreekuur en opvoedcursussen van de GGD Hollands Noorden. Daarnaast vrijwilligers van Home-Start en Buurtgezinnen.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Schoolmaatschappelijk werk",
+        "omschrijving": "Op school, zodat onderwijs en hulp beter op elkaar aansluiten.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Jeugd- en jongerenwerk",
+        "omschrijving": "Link Jongerenwerk is er voor jongeren, onder meer in het jongerenhuis. Het helpt problemen voorkomen.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van het wijkteam of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dyslexiezorg, dagbesteding en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "De crisisdienst voor kinderen en jongeren (Integrale Crisisdienst Jeugd) is onderdeel van Veilig Thuis Noord-Holland Noord.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Buurtgezinnen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Een gezin dat het zwaar heeft, krijgt hulp van een steungezin uit de buurt.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.buurtgezinnen.nl"
+    },
+    {
+      "naam": "Link Jongerenwerk",
+      "soort": "informatiepunt",
+      "omschrijving": "Jongerenwerkers en een jongerenhuis voor jongeren in Schagen.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.linkjongerenwerk.nl"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contactformulier wijkteam",
+      "url": "https://www.schagen.nl/contact-wijkteam",
+      "nodig": "Naam, adres, geboortedatum, huisarts en een omschrijving van de hulpvraag"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://www.schagen.nl/klacht",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.schagen.nl/bezwaarschrift",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Beschikbaarheidswijzer jeugdhulp Kop van Noord-Holland",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
+      "omschrijving": "Openbaar, zonder inloggen."
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Schagen: Jeugdhulp",
+        "url": "https://www.schagen.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Het wijkteam",
+        "url": "https://www.schagen.nl/het-wijkteam-0",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Contact (telefonische bereikbaarheid wijkteam)",
+        "url": "https://www.schagen.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Contact wijkteam",
+        "url": "https://www.schagen.nl/contact-wijkteam",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Hulp en ondersteuning (inloopspreekuur)",
+        "url": "https://www.schagen.nl/hulp-en-ondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Hulp in Schagen (cliëntondersteuning)",
+        "url": "https://www.schagen.nl/hulp-schagen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Crisis",
+        "url": "https://www.schagen.nl/crisis",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Jeugdgezondheidszorg",
+        "url": "https://www.schagen.nl/jeugdgezondheidszorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Opvoedinformatie",
+        "url": "https://www.schagen.nl/opvoedinformatie",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Klachten",
+        "url": "https://www.schagen.nl/klachten",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Schagen: Bezwaar en beroep",
+        "url": "https://www.schagen.nl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Integrale verordening sociaal domein gemeente Schagen 2024/1 (versie 2026)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR714657/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sylta: Onafhankelijke cliëntondersteuning",
+        "url": "https://www.sylta.nl/thema/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sylta: Contact",
+        "url": "https://www.sylta.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD Hollands Noorden: Contact",
+        "url": "https://www.ggdhn.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV Kop van Noord-Holland: Ouder- en jeugdsteunpunt",
+        "url": "https://www.swvkopvannoordholland.nl/primair-onderwijs/ouders/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer jeugdhulp Kop van Noord-Holland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 Schagen: Grip en sturing op Wmo en jeugdzorg",
+        "url": "https://schagen.jaarverslag-2025.nl/p10784/grip-en-sturing-op-wmo-en-jeugdzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken 2025 Schagen: Jeugd en gezin",
+        "url": "https://schagen.jaarverslag-2025.nl/p10717/jeugd-en-gezin",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Programmabegroting 2027 Schagen: Grip en sturing op Wmo en jeugdzorg",
+        "url": "https://schagen.begroting-2027.nl/p11164/1-4-grip-en-sturing-op-wmo-en-jeugdzorg",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Advies Adviesraad Sociaal Domein over wijziging verordening (21-10-2025)",
+        "url": "https://api.notubiz.nl/document/16148183/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Informatierapportage raad 6 oktober 2026",
+        "url": "https://api.notubiz.nl/document/17466598/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Doorlooptijden toegang en het rapport van het cliëntervaringsonderzoek zelf niet gevonden (ook niet in Notubiz). Klachtregeling van de GGD, naam en gegevens van het schoolmaatschappelijk werk en het VO-steunpunt niet vastgesteld. Regionale journalistiek niet doorzocht."
+  },
+  "ervaringen": {
+    "samenvatting": "Schagen heeft één wijkteam voor alle vragen over zorg, werk en inkomen, ook voor jeugd. Aan het cliëntervaringsonderzoek over 2024 deed 26 procent van de uitgenodigde cliënten mee. De gemeente zag de meeste verbeterpunten bij jeugd. Zij noemt als oorzaak personeelswisselingen en de opbouw van een eigen team voor jeugd.\n\nVraag bij uw melding hoe lang het duurt tot een gesprek en leg afspraken schriftelijk vast. Na het gesprek krijgt u binnen 25 dagen een verslag. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over het wijkteam dient u in bij de gemeente; bent u niet tevreden over de afhandeling, dan kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regels voor jeugdhulp opnieuw vastgesteld",
+        "samenvatting": "De gemeenteraad paste in december 2025 de regels voor jeugdhulp aan, na uitspraken van de Centrale Raad van Beroep (de hoogste rechter op dit gebied). Sinds 1 januari 2026 kijkt de gemeente bij een aanvraag naar wat ouders zelf kunnen en wat ouders gewoonlijk voor een kind doen. De adviesraad vroeg om echt onafhankelijke deskundigen bij het beoordelen van aanvragen; volgens het college verandert de werkwijze niet.",
+        "datum": "2025-12-16",
+        "bron": {
+          "titel": "Advies Adviesraad Sociaal Domein over wijziging verordening",
+          "url": "https://api.notubiz.nl/document/16148183/1"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek over 2024: 26 procent deed mee",
+        "samenvatting": "De gemeente onderzoekt elk jaar hoe cliënten van Wmo, Jeugdwet en Participatiewet de hulp ervaren. Over 2024 deed 26 procent van de uitgenodigde cliënten mee, dus de uitkomsten zijn volgens de gemeente een indicatie. De meeste verbeterpunten waren er bij jeugd.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarstukken 2025: Grip en sturing op Wmo en jeugdzorg",
+          "url": "https://schagen.jaarverslag-2025.nl/p10784/grip-en-sturing-op-wmo-en-jeugdzorg"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Contracten met jeugdhulpaanbieders verlengd",
+        "samenvatting": "In 2025 verlengde de gemeente de contracten met jeugdhulpaanbieders met 3 jaar en controleerde zij de kwaliteit van alle aanbieders. Samen met drie andere gemeenten in de Kop van Noord-Holland bereidt zij een nieuwe inkoop voor. Gesloten jeugdzorg wordt verder afgebouwd, met meer hulp thuis.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarstukken 2025: Grip en sturing op Wmo en jeugdzorg",
+          "url": "https://schagen.jaarverslag-2025.nl/p10784/grip-en-sturing-op-wmo-en-jeugdzorg"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jeugdondersteuning op speciale scholen opnieuw ingekocht",
+        "samenvatting": "De regio kocht de jeugdhulp op scholen voor speciaal onderwijs opnieuw in. Twee organisaties voeren die sinds 1 september 2026 uit. Doel is dat kinderen vroeg en dichtbij hulp krijgen.",
+        "datum": "2026-10-06",
+        "bron": {
+          "titel": "Informatierapportage raad 6 oktober 2026",
+          "url": "https://api.notubiz.nl/document/17466598/1"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2024",
+        "url": "https://schagen.jaarverslag-2025.nl/p10784/grip-en-sturing-op-wmo-en-jeugdzorg",
+        "samenvatting": "Jaarlijks eigen onderzoek onder cliënten van Wmo, Jeugdwet en Participatiewet, met 26 procent respons over 2024. Alleen een samenvatting in de jaarstukken is openbaar; het rapport zelf is niet openbaar te vinden."
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      },
+      "aandeelHuisarts": {
+        "percentage": 52,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  }
+}

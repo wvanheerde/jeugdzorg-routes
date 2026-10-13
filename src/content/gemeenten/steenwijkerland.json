@@ -1,0 +1,399 @@
+{
+  "naam": "Steenwijkerland",
+  "cbsCode": "GM1708",
+  "provincie": "Overijssel",
+  "websiteJeugd": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd",
+  "toegang": {
+    "samenvatting": "In Steenwijkerland zijn er twee deuren. Met vragen over opvoeden en opgroeien kunt u terecht bij Sociaal Werk De Kop en bij de jeugdgezondheidszorg van de GGD. Heeft uw kind gespecialiseerde hulp nodig, neem dan contact op met een consulent jeugd van de gemeente. De consulent bespreekt uw vraag en maakt met u een ondersteuningsplan. U meldt zich zelf aan; een verwijzing is niet nodig. U kunt ook via de huisarts gaan. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Consulenten jeugd van de gemeente, met Sociaal Werk De Kop",
+        "omschrijving": "Een consulent jeugd van de gemeente beslist of uw kind gespecialiseerde hulp krijgt, bijvoorbeeld bij autisme, psychische problemen of opvoedproblemen. U belt zelf; een verwijzing is niet nodig. Voor lichtere vragen over gezondheid, opvoeden en opgroeien gaat u naar Sociaal Werk De Kop. Die hulp is gratis en u heeft er geen besluit van de gemeente voor nodig.",
+        "stappen": [
+          "Bel of mail de consulenten jeugd van de gemeente. Wilt u eerst advies of lichte hulp? Neem dan contact op met Sociaal Werk De Kop.",
+          "Spreek een gesprek af; meestal komt de consulent bij u thuis. U mag iemand meenemen die u vertrouwt, of een onafhankelijke cliëntondersteuner.",
+          "Schrijf eventueel vooraf zelf een persoonlijk plan. In het gesprek maakt u samen een ondersteuningsplan: wat u zelf kunt doen en welke hulp past.",
+          "Dien een aanvraag in als hulp nodig is. Het onderzoek duurt hooguit 6 weken. Daarna krijgt u binnen 2 weken een schriftelijk besluit."
+        ],
+        "contact": [
+          {
+            "naam": "Consulenten jeugd van de gemeente Steenwijkerland",
+            "telefoon": "14 0521",
+            "email": "consulenten@steenwijkerland.nl",
+            "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd/Ondersteuning_voor_uw_kind",
+            "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
+          },
+          {
+            "naam": "Sociaal Werk De Kop",
+            "telefoon": "0521 745 080",
+            "email": "info@sociaalwerkdekop.nl",
+            "url": "https://www.sociaalwerkdekop.nl/contact",
+            "openingstijden": "Telefonisch maandag tot en met vrijdag 8.30–17.00 uur"
+          }
+        ]
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks doorsturen naar jeugdhulp van de gemeente. Dat is een gelijkwaardige route naast de consulenten van de gemeente. Bij een aantal huisartsenpraktijken werkt ook een jeugdconsulent van de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD IJsselland, op het consultatiebureau bij u in de buurt.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
+          "Laat de arts verwijzen naar een aanbieder met een contract bij de gemeente, of naar de consulent van de gemeente.",
+          "Laat de aanbieder de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD IJsselland",
+          "telefoon": "088 443 0702",
+          "url": "https://www.ggdijsselland.nl/home/mijn-kind/contact/",
+          "openingstijden": "Werkdagen 8.00–17.00 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Op basisscholen en middelbare scholen in Steenwijkerland is elke week een schoolmaatschappelijk werker van Sociaal Werk De Kop. Die helpt leerlingen en ouders kort en gratis, bijvoorbeeld bij pesten, faalangst of een scheiding. Komt u met school niet tot een oplossing over passend onderwijs, dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag via de mentor, intern begeleider of zorgcoördinator om een gesprek met de schoolmaatschappelijk werker. Voor hulp is uw toestemming nodig.",
+          "Neem contact op met de consulenten jeugd van de gemeente als er meer hulp nodig is.",
+          "Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband als u er met school niet uitkomt."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal Werk De Kop",
+            "telefoon": "0521 745 080",
+            "email": "info@sociaalwerkdekop.nl",
+            "url": "https://www.sociaalwerkdekop.nl/schoolmaatschappelijk-werk/",
+            "openingstijden": "Telefonisch maandag tot en met vrijdag 8.30–17.00 uur"
+          },
+          {
+            "naam": "Consulenten jeugd van de gemeente Steenwijkerland",
+            "telefoon": "14 0521",
+            "email": "consulenten@steenwijkerland.nl",
+            "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd/Ondersteuning_voor_uw_kind",
+            "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt passend onderwijs Hoogeveen, Meppel en Steenwijk",
+            "email": "info@ouder-jeugdsteunpunt.nl",
+            "url": "https://ouder-jeugdsteunpunt.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten er verder zijn voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor meldpunten en hulp bij onveiligheid thuis op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Steenwijkerland: huiselijk geweld en kindermishandeling",
+          "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Zorg/Huiselijk_geweld_en_kindermishandeling"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "Sociaal Werk De Kop",
+      "toelichting": "Gratis en onafhankelijk. De cliëntondersteuner helpt u uw vraag onder woorden te brengen en een persoonlijk plan te maken. Als u wilt, gaat die mee naar het gesprek met de consulent. Ook als uw aanvraag is afgewezen, kunt u er terecht. Regel het liefst vóór het eerste gesprek.",
+      "telefoon": "0521 745 080",
+      "email": "info@sociaalwerkdekop.nl",
+      "url": "https://www.sociaalwerkdekop.nl/onafhankelijke-clientondersteuning/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als hulp van een aanbieder met een contract niet de beste oplossing is. Het pgb is hooguit zo hoog als wat de goedkoopste passende hulp via de gemeente kost. Voor een zelfstandige hulpverlener (zzp'er) krijgt u hooguit 75 procent daarvan. Voor hulp van iemand uit uw omgeving hooguit 50 procent, met een maximum per uur. Die hulp kan alleen als ze aantoonbaar beter is dan professionele hulp, en de helper een verklaring omtrent gedrag (VOG) heeft. U mag het pgb niet gebruiken voor bemiddeling, hulp bij het pgb of cadeaus. Vraag de consulent naar de regels die nu gelden.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR456317/6"
+    },
+    "klacht": {
+      "naam": "Klacht over de consulenten van de gemeente",
+      "toelichting": "De consulenten werken voor de gemeente. Een klacht over hoe u bent behandeld, gaat daarom via de klachtenprocedure van de gemeente. Bel eerst de gemeente en zoek samen een oplossing. Lukt dat niet, dien de klacht dan online in met DigiD of per brief aan Cluster juridisch - klachten (Postbus 162, 8330 AD Steenwijk). De gemeente handelt een klacht meestal binnen 6 weken af, en uiterlijk binnen 10 weken. Een klacht over Sociaal Werk De Kop dient u eerst daar in; De Kop heeft een eigen klachtenfunctionaris en klachtencommissie.",
+      "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Contact/Meldingen_en_klachten/Klachten_over_de_gemeente",
+      "telefoon": "14 0521",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Maak bezwaar online met DigiD of per brief aan Postbus 162, 8330 AD Steenwijk. Binnen een week krijgt u een ontvangstbevestiging. De gemeente belt u dan om te overleggen of u eerst een gesprek wilt. Komt er geen oplossing, dan beoordeelt de commissie bezwaarschriften uw bezwaar. Daarna kunt u in beroep bij de rechtbank.",
+      "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Contact/Meldingen_en_klachten/Bezwaar_tegen_besluit_gemeente"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u bij Sociaal Werk De Kop en de jeugdgezondheidszorg, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Steenwijkerland in met tien andere gemeenten in de regio IJsselland. In de Beschikbaarheidswijzer ziet u aanbieders en wachttijden in IJsselland; die is openbaar, zonder inloggen. Vraag de consulent om hulp bij het kiezen van een aanbieder.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via Sociaal Werk De Kop en de jeugdgezondheidszorg van de GGD: advies, groepsaanbod en cursussen, zonder besluit van de gemeente.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Schoolmaatschappelijk werk",
+        "omschrijving": "Gratis en kort, op basisscholen en middelbare scholen, via Sociaal Werk De Kop.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: hulp thuis, behandeling, jeugd-ggz en verblijf. Regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Samen voor Ryan",
+      "soort": "informatiepunt",
+      "omschrijving": "Een samenwerking van kinderopvang, scholen, GGD, Sociaal Werk De Kop en de gemeente. Zij werken samen met ouders als er zorgen zijn over een kind. Zo wordt hulp zo veel mogelijk thuis, op de opvang of op school geregeld.",
+      "themas": [
+        "opvoeden",
+        "school"
+      ],
+      "url": "https://www.samenvoorryan.nl/"
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt passend onderwijs Hoogeveen, Meppel en Steenwijk",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Advies bij vragen over passend onderwijs, als u er met school niet uitkomt.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://ouder-jeugdsteunpunt.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht over de gemeente doorgeven",
+      "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Contact/Meldingen_en_klachten/Klachten_over_de_gemeente",
+      "nodig": "DigiD, of schrijf een brief"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Contact/Meldingen_en_klachten/Bezwaar_tegen_besluit_gemeente",
+      "nodig": "DigiD of eHerkenning, en het besluit bij de hand"
+    },
+    {
+      "naam": "Aanvragen hulp en ondersteuning: zo werkt het",
+      "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd/Ondersteuning_voor_uw_kind/Aanvragen_hulp_en_of_ondersteuning"
+    },
+    {
+      "naam": "Aanbieders en wachttijden in regio IJsselland bekijken",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-12",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Steenwijkerland: Jeugd",
+        "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Ondersteuning voor uw kind",
+        "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd/Ondersteuning_voor_uw_kind",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Aanvragen hulp en/of ondersteuning",
+        "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd/Ondersteuning_voor_uw_kind/Aanvragen_hulp_en_of_ondersteuning",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Huiselijk geweld en kindermishandeling",
+        "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Zorg/Huiselijk_geweld_en_kindermishandeling",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Klacht over de gemeente",
+        "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Contact/Meldingen_en_klachten/Klachten_over_de_gemeente",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Bezwaar maken, hoe werkt het?",
+        "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Contact/Meldingen_en_klachten/Bezwaar_tegen_besluit_gemeente",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Steenwijkerland 2017 (versie 2025)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR456317/6",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Werk De Kop: Contact",
+        "url": "https://www.sociaalwerkdekop.nl/contact",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Werk De Kop: Onafhankelijke cliëntondersteuning",
+        "url": "https://www.sociaalwerkdekop.nl/onafhankelijke-clientondersteuning/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Werk De Kop: Schoolmaatschappelijk werk",
+        "url": "https://www.sociaalwerkdekop.nl/schoolmaatschappelijk-werk/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Werk De Kop: Jouw mening telt (klachten)",
+        "url": "https://www.sociaalwerkdekop.nl/jouw-mening-telt/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "GGD IJsselland: Contact jeugdgezondheidszorg",
+        "url": "https://www.ggdijsselland.nl/home/mijn-kind/contact/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Hoogeveen, Meppel, Steenwijk: Contact",
+        "url": "https://ouder-jeugdsteunpunt.nl/contact",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "RSJ IJsselland",
+        "url": "https://www.rsj-ijsselland.nl/",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer: regio IJsselland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Jaarverslag 2025",
+        "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Verslagen_en_rapportages/Jaarverslagen/Jaarverslag_gemeente_Steenwijkerland_2025.pdf",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Steenwijkerland: Programmabegroting 2027-2030",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=946e9fd5-8d68-43af-a003-6a379980e269",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Informatienota Uitvoeringsagenda Jeugd IJsselland 2026-2031",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=b5cd9c64-77bc-4015-b4b6-d758699efb6c",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Samen voor Ryan: gemeentelijke inhoudelijke kaders 2.0",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=419a95ff-210e-46e2-8e72-c3dd274b249b",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Informatienota Cliëntervaringsonderzoek sociaal domein (Wmo en Jeugdwet 2022)",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=dfb580d3-20b3-4642-bfce-5e7c1cdb2b97",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Informatienota Cliëntervaringsonderzoek Wmo 2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=3a1a5c37-17cf-4213-b773-206f58241c3e",
+        "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-12"
+      }
+    ],
+    "opmerkingen": "Doorlooptijden toegang en klachtenregeling van de consulenten niet openbaar gevonden; nieuwste cliëntervaringsonderzoek Jeugd is over 2022. Beschikbaarheidswijzer: gemeentelijst in de regio IJsselland is leeg, dekking niet vast te stellen. Regionale journalistiek nauwelijks doorzocht."
+  },
+  "jeugdzorgregio": "IJsselland (RSJ IJsselland, 11 gemeenten)",
+  "ervaringen": {
+    "samenvatting": "Steenwijkerland wil hulp vroeg en dicht bij huis geven: met Sociaal Werk De Kop op scholen en jeugdconsulenten bij huisartsen. Volgens het jaarverslag over 2025 wonen minder kinderen buiten het gezin dan in 2022. Het laatste onderzoek onder ouders over jeugdhulp gaat over 2022 en was vooral positief. Hoe lang u wacht op een eerste gesprek, is niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt, en vraag het ondersteuningsplan op papier. Neem een onafhankelijke cliëntondersteuner van Sociaal Werk De Kop mee. Een klacht over de consulenten dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Minder kinderen buiten het gezin, jeugdconsulenten bij huisartsen",
+        "samenvatting": "Volgens het jaarverslag over 2025 is woonde 1,3 procent van de jeugdigen buiten het gezin, tegen 2,3 procent in 2022. De gemeente zet meer jeugdconsulenten bij huisartsen in en werkt meer samen met scholen. Vanaf 2028 wil zij bij zorgen over veiligheid in een gezin samen met het gezin een gezamenlijke inschatting maken (verklarende analyse).",
+        "datum": "2026-06-16",
+        "bron": {
+          "titel": "Gemeente Steenwijkerland: Jaarverslag 2025",
+          "url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Verslagen_en_rapportages/Jaarverslagen/Jaarverslag_gemeente_Steenwijkerland_2025.pdf"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan: toegang tot jeugdhulp anders inrichten vóór eind 2028",
+        "samenvatting": "Volgens de begroting 2027-2030 moet de gemeente haar toegang tot jeugdhulp uiterlijk eind 2028 inrichten volgens landelijke afspraken over sterke lokale teams. In 2027 schrijft zij daarvoor een visie. Wat dit verandert voor de consulenten, is nog niet bekend.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "Gemeente Steenwijkerland: Programmabegroting 2027-2030",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=946e9fd5-8d68-43af-a003-6a379980e269"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regio IJsselland: meer vroege hulp, kleine woonplek voor jongeren",
+        "samenvatting": "De elf gemeenten in IJsselland willen vaker vroeg hulp geven en de lokale toegang sterker maken. Steenwijkerland werkt, net als de andere gemeenten, aan een kleine woonvoorziening voor jongeren die tijdelijk niet thuis kunnen wonen.",
+        "datum": "2026-08-11",
+        "bron": {
+          "titel": "Informatienota Uitvoeringsagenda Jeugd IJsselland 2026-2031",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=b5cd9c64-77bc-4015-b4b6-d758699efb6c"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Samen voor Ryan: nieuwe afspraken, ouders gelijkwaardig betrokken",
+        "samenvatting": "Samen voor Ryan is een samenwerking van kinderopvang, scholen, GGD, Sociaal Werk De Kop en gemeente. Op 1 september 2026 lagen nieuwe afspraken bij de gemeenteraad; schooljaar 2026-2027 is een overgangsjaar. Ouders worden als gelijkwaardige partner betrokken bij de hulp rond hun kind.",
+        "datum": "2026-09-01",
+        "bron": {
+          "titel": "Samen voor Ryan: gemeentelijke inhoudelijke kaders 2.0",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=419a95ff-210e-46e2-8e72-c3dd274b249b"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Ouders over jeugdhulp: onderzoek over 2022",
+        "samenvatting": "Ouders gaven het regelen van de hulp een 7,7 en de hulp zelf een 8,2. Driekwart vond dat ze snel geholpen werden. De gemeente zag geen reden voor grote aanpassingen. Nieuwere uitkomsten over jeugdhulp zijn niet openbaar te vinden.",
+        "datum": "2023-09-05",
+        "bron": {
+          "titel": "Informatienota Cliëntervaringsonderzoek sociaal domein (Wmo en Jeugdwet 2022)",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=dfb580d3-20b3-4642-bfce-5e7c1cdb2b97"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Steenwijkerland&id=dfb580d3-20b3-4642-bfce-5e7c1cdb2b97",
+        "samenvatting": "Het laatste cliëntervaringsonderzoek dat openbaar is, gaat over 2022. Dat is te oud om iets te zeggen over hoe het nu gaat. Doorlopend onderzoek onder ouders en jongeren door een onderzoeksbureau: een 7,7 voor het regelen van de hulp en een 8,2 voor de hulp. Ongeveer 15 procent van de ouders deed mee. Een nieuwer onderzoek over jeugdhulp is niet openbaar te vinden."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "url": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd/Ondersteuning_voor_uw_kind/Aanvragen_hulp_en_of_ondersteuning",
+        "samenvatting": "Hoe lang de toegang in de praktijk duurt, is niet openbaar te vinden. Volgens de gemeente duurt het onderzoek hooguit 6 weken en krijgt u binnen 2 weken na uw aanvraag een besluit. Vraag bij het eerste gesprek hoe lang het duurt."
+      },
+      "aandeelHuisarts": {
+        "percentage": 31,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

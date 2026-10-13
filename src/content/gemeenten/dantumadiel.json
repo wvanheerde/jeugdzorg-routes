@@ -1,0 +1,353 @@
+{
+  "naam": "Dantumadiel",
+  "cbsCode": "GM1891",
+  "provincie": "Fryslân",
+  "websiteJeugd": "https://www.dantumadiel.frl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Dantumadiel meldt u zich bij het Gebiedsteam van de gemeente. U belt de gemeente en kiest toets 1 voor jeugdhulp, of u mailt het team. Een verwijzing is niet nodig. Vaak krijgt u meteen advies. Is meer nodig, dan plant het team een gesprek met u. Ook de huisarts mag rechtstreeks verwijzen. Bij een deel van de huisartsen werkt een praktijkondersteuner voor jeugd. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw eerste telefoontje.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Gebiedsteam van de gemeente",
+        "omschrijving": "Het Gebiedsteam werkt voor de gemeente Dantumadiel en is het loket voor jeugdhulp, Wmo (hulp voor volwassenen) en andere zorg en ondersteuning. U meldt u zelf aan. Het team beoordeelt uw vraag en regelt zo nodig de hulp. Jeugdhulp is bedoeld voor kinderen tot 18 jaar en hun ouders. In sommige situaties loopt de hulp door tot het 23e jaar.",
+        "stappen": [
+          "Bel de gemeente en kies toets 1 voor jeugdhulp, of mail het Gebiedsteam. U spreekt eerst met een medewerker van het klantcontactcentrum sociaal domein.",
+          "Stel uw vraag. Vaak krijgt u meteen tips en advies. Is meer nodig, dan plant het team zo snel mogelijk een gesprek.",
+          "Neem desgewenst iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp om een schriftelijk besluit (beschikking)."
+        ],
+        "contact": {
+          "naam": "Gebiedsteam Dantumadiel (gemeente)",
+          "telefoon": "0511 71 70 00",
+          "email": "gebiedsteam@dantumadiel.frl",
+          "url": "https://www.dantumadiel.frl/jeugdhulp",
+          "openingstijden": "Telefonisch ma t/m do 8.30–16.30 uur, vr 8.30–12.00 uur. Kies toets 1 voor jeugdhulp"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Bij een deel van de huisartsen werkt een praktijkondersteuner voor jeugd. Die helpt dicht bij huis bij psychische vragen en opvoedvragen. In Dantumadiel begint iets meer dan de helft van de nieuwe jeugdhulptrajecten met een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek met de huisarts of u eerst naar de praktijkondersteuner voor jeugd gaat, of direct een verwijzing krijgt naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Fryslân",
+          "telefoon": "088 229 9444",
+          "url": "https://www.ggdfryslan.nl/contact"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Op een deel van de basisscholen werkt schoolmaatschappelijk werk: een hulpverlener op school voor kinderen en ouders. Op de andere scholen houdt de intern begeleider contact met het Gebiedsteam. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt passend onderwijs Friesland. Daar werken ook ouders met eigen ervaring.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de school schoolmaatschappelijk werk heeft. Zo niet, vraag de school om contact op te nemen met het Gebiedsteam, of meld uw kind zelf aan.",
+          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt."
+        ],
+        "contact": [
+          {
+            "naam": "Gebiedsteam Dantumadiel (gemeente)",
+            "telefoon": "0511 71 70 00",
+            "email": "gebiedsteam@dantumadiel.frl",
+            "url": "https://www.dantumadiel.frl/jeugdhulp",
+            "openingstijden": "Telefonisch ma t/m do 8.30–16.30 uur, vr 8.30–12.00 uur. Kies toets 1 voor jeugdhulp"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt passend onderwijs Friesland",
+            "email": "info@steunpuntfriesland.nl",
+            "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/contact",
+            "openingstijden": "Telefonisch dinsdag 9.00–12.00 uur. Op andere momenten belt het steunpunt u terug na een contactformulier. Gesloten in de schoolvakanties van regio Noord"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisishulp voor jeugd er in Fryslân verder is, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor crisishulp voor jeugd en meldpunten op de pagina Zorgwekkend gedrag melden van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Dantumadiel: zorgwekkend gedrag, Veilig Thuis en spoedhulp voor jeugd",
+          "url": "https://www.dantumadiel.frl/zorgwekkend-gedrag-melden"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "ZorgBelang Fryslân en MEE Noord",
+      "toelichting": "Gratis en onafhankelijk. De gemeente noemt twee organisaties: ZorgBelang Fryslân en MEE Noord. Een cliëntondersteuner gaat mee naar het gesprek met het Gebiedsteam, helpt bij een aanvraag en bij onvrede over een besluit. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "085 483 2432",
+      "email": "info@zorgbelang-fryslan.nl",
+      "url": "https://www.dantumadiel.frl/onafhankelijke-clientondersteuning"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom de hulp van de gemeente niet past, en u het budget zelf kunt beheren. U maakt vooraf een pgb-plan en levert de zorgovereenkomsten in, op de formulieren van de gemeente. Hulp van iemand uit uw eigen netwerk kan, als die persoon echt bijdraagt en niet overbelast raakt. Voor ggz-behandeling kan dat niet. Voor hulp van een professional krijgt u hoogstens het tarief dat de gemeente voor die hulp betaalt als zij die zelf inkoopt (zorg in natura). Voor hulp uit het eigen netwerk is het bedrag lager. Kosten voor bemiddeling en administratie worden niet vergoed.",
+      "url": "https://www.dantumadiel.frl/pgb-vanuit-de-jeugdwet-wmo"
+    },
+    "klacht": {
+      "naam": "Klacht over de gemeente en het Gebiedsteam",
+      "toelichting": "Het Gebiedsteam werkt voor de gemeente. Bespreek uw klacht eerst met de medewerker. Komt u er niet uit, dan dient u een klacht in bij de gemeente via het online formulier. Over een besluit dient u geen klacht in, maar bezwaar. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "url": "https://www.dantumadiel.frl/klachten",
+      "telefoon": "0511 71 70 00",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een besluit over jeugdhulp maakt u bezwaar, online of met een brief. Het adres staat in het besluit. De gemeente kijkt eerst of een gesprek met een bemiddelaar kan helpen. Lukt dat niet, dan adviseert de onafhankelijke bezwaarschriftencommissie, vaak na een hoorzitting waar u uw bezwaar toelicht. Wilt u vooraf advies, dan kunnen het Juridisch Loket, uw rechtsbijstandsverzekeraar of een advocaat helpen.",
+      "url": "https://www.dantumadiel.frl/bezwaar-en-beroep"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp en advies krijgt u via het Gebiedsteam, de jeugdgezondheidszorg en op een deel van de scholen via het schoolmaatschappelijk werk. Specialistische jeugdhulp koopt Dantumadiel samen met de andere 17 Friese gemeenten in via Sociaal Domein Fryslân. De huidige contracten lopen tot eind 2027, vanaf 1 januari 2028 gelden nieuwe. In de Beschikbaarheidswijzer Friesland ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die is openbaar, zonder inloggen. Vraag het Gebiedsteam om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het Gebiedsteam, de jeugdgezondheidszorg en de praktijkondersteuner jeugd bij de huisarts.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Schoolmaatschappelijk werk",
+        "omschrijving": "Hulp op een deel van de basisscholen. Op de overige scholen houdt de intern begeleider contact met het Gebiedsteam.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en wonen, regionaal ingekocht voor heel Fryslân.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Spoedhulp voor jeugd in Fryslân is regionaal geregeld, onder de naam Spoed4Jeugd.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Ouder- en jeugdsteunpunt passend onderwijs Friesland",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Advies en een luisterend oor bij vragen over passend onderwijs. Ervaringsdeskundigen (ouders en jongeren) denken met u mee.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "omschrijving": "Laagdrempelig: voor slechte bejegening of geen reactie. Over een besluit maakt u bezwaar.",
+      "url": "https://www.dantumadiel.frl/klachten",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.dantumadiel.frl/bezwaar-en-beroep",
+      "nodig": "Het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden bekijken (Beschikbaarheidswijzer Friesland)",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Dantumadiel: Jeugdhulp",
+        "url": "https://www.dantumadiel.frl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Gebiedsteam",
+        "url": "https://www.dantumadiel.frl/gebiedsteam",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Wmo en jeugd",
+        "url": "https://www.dantumadiel.frl/wmo-en-jeugd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Pgb vanuit de Jeugdwet of Wmo",
+        "url": "https://www.dantumadiel.frl/pgb-vanuit-de-jeugdwet-wmo",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Onafhankelijke cliëntondersteuning",
+        "url": "https://www.dantumadiel.frl/onafhankelijke-clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Klachten",
+        "url": "https://www.dantumadiel.frl/klachten",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Bezwaar en beroep",
+        "url": "https://www.dantumadiel.frl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Dantumadiel: Zorgwekkend gedrag melden (met Veilig Thuis en Spoed4Jeugd)",
+        "url": "https://www.dantumadiel.frl/zorgwekkend-gedrag-melden",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Dantumadiel 2020",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR635893/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Fryslân: Contact en route",
+        "url": "https://www.ggdfryslan.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt passend onderwijs Friesland: Contact",
+        "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "ZorgBelang Fryslân: Onafhankelijke cliëntondersteuning",
+        "url": "https://zorgbelang-fryslan.nl/onafhankelijke-clientondersteuning/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Jeugd",
+        "url": "https://www.sdfryslan.nl/jeugd/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ingekochte jeugdhulp",
+        "url": "https://www.sdfryslan.nl/percelen-jeugd/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Friesland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken Dantumadiel 2025",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=gemeentedantumadiel&id=c00b1002-4a20-46ba-9737-13ca66dd12bb",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Begroting Dantumadiel 2027",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=gemeentedantumadiel&id=e0778cb4-4094-4613-8345-54262d25aa32",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Brief aan de raad: uitkomsten cliëntervaringsonderzoek Wmo 2025",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=gemeentedantumadiel&id=b8da4705-3a95-4b20-bcc1-e55900f3048d",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: informerende brief nieuwe regionale inkoop (15 januari 2026)",
+        "url": "https://weststellingwerf.debatrijk.nl/documents/40/6730/documents/90916/I-15b%20Bijlage%201%20-%20Informerende%20brief%20Sociaal%20Domein%20Frysl%C3%A2n%20%280098797497%29.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek jeugd niet gevonden (alleen Wmo-onderzoek). Klachtenregeling van het Gebiedsteam zelf, en de aanbieder van het schoolmaatschappelijk werk niet vastgesteld. Spoedlink verwijst naar pagina zorgwekkend gedrag met kopjes Veilig Thuis en Spoed4Jeugd; geen eigen crisispagina."
+  },
+  "jeugdzorgregio": "Fryslân (Sociaal Domein Fryslân, 18 gemeenten)",
+  "ervaringen": {
+    "samenvatting": "In 2025 breidde de gemeente het schoolmaatschappelijk werk uit van vier naar zes scholen. Voor 2026 plant de gemeente een proef met één plan voor het hele gezin, dat naar alle kanten van het gezinsleven kijkt. De Friese gemeenten kopen specialistische jeugdhulp opnieuw in, omdat de huidige contracten eind 2027 aflopen. Hoe lang u wacht op een gesprek met het Gebiedsteam en een tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het Gebiedsteam. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner mee, bijvoorbeeld van ZorgBelang Fryslân. Een klacht over het team dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe regionale inkoop specialistische jeugdhulp per 2028",
+        "samenvatting": "De contracten voor specialistische jeugdhulp en wonen in Fryslân lopen af op 31 december 2027 en worden niet verlengd. Bij de nieuwe inkoop kijkt de regio ook naar aanbieders die kinderen met ingewikkelde problemen afwijzen. Krijgt uw kind nu hulp, vraag het Gebiedsteam dan wat de overgang betekent.",
+        "datum": "2026-01-15",
+        "bron": {
+          "titel": "Sociaal Domein Fryslân: Nieuwe regionale inkoop Specialistische Jeugdhulp en Wonen",
+          "url": "https://weststellingwerf.debatrijk.nl/documents/40/6730/documents/90916/I-15b%20Bijlage%201%20-%20Informerende%20brief%20Sociaal%20Domein%20Frysl%C3%A2n%20%280098797497%29.pdf"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Schoolmaatschappelijk werk uitgebreid van vier naar zes scholen",
+        "samenvatting": "In 2025 breidde de gemeente het schoolmaatschappelijk werk uit van vier naar zes scholen. Op de overige drie scholen houdt de gemeente contact via de intern begeleiders. In plaats van een familiegroepsplan kiest de gemeente voor één ondersteuningsplan voor het hele gezin, met een proef in 2026.",
+        "datum": "2026-05-26",
+        "bron": {
+          "titel": "Jaarstukken Dantumadiel 2025",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=gemeentedantumadiel&id=c00b1002-4a20-46ba-9737-13ca66dd12bb"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plannen voor jeugd in de begroting 2027",
+        "samenvatting": "De gemeente wil kortere, lokale routes met de huisarts, meer steun voor ouders en een digitale jongerenwerker. Ook komt er een uitvoeringsprogramma Jeugd met maatregelen uit de landelijke Hervormingsagenda Jeugd (afspraken tussen Rijk en gemeenten). Volgens de begroting heeft 12,6 procent van de jongeren tot 18 jaar jeugdhulp, tegen 13,7 procent landelijk (2025).",
+        "datum": "2026-09-28",
+        "bron": {
+          "titel": "Begroting Dantumadiel 2027",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=gemeentedantumadiel&id=e0778cb4-4094-4613-8345-54262d25aa32"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaring Wmo 2025: uitkomsten overwegend positief, niet over jeugd",
+        "samenvatting": "Dit onderzoek gaat over de Wmo (hulp voor volwassenen), niet over jeugdhulp. In 2025 vulden 401 cliënten de vragenlijst in, een respons van 41 procent, en de gemeente noemt de uitkomsten over het algemeen positief. Een vergelijkbaar onderzoek voor jeugdhulp is niet openbaar te vinden.",
+        "datum": "2026-09-01",
+        "bron": {
+          "titel": "Brief aan de raad: uitkomsten CEO 2025",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=gemeentedantumadiel&id=b8da4705-3a95-4b20-bcc1-e55900f3048d"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee"
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      },
+      "aandeelHuisarts": {
+        "percentage": 51,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

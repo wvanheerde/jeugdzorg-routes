@@ -1,0 +1,393 @@
+{
+  "naam": "Vaals",
+  "cbsCode": "GM0981",
+  "provincie": "Limburg",
+  "jeugdzorgregio": "Zuid-Limburg (centrumgemeente Maastricht)",
+  "websiteJeugd": "https://www.vaals.nl/inwoners/wijvaals/zorg-en-ondersteuning/wmo-loket",
+  "toegang": {
+    "samenvatting": "In Vaals regelt de gemeente de toegang tot jeugdhulp zelf, via WijVaals. In dat team werken onder meer jeugdconsulenten, Wmo-consulenten en een maatschappelijk werker. U meldt zich zelf aan. Een verwijzing is niet nodig. Het team kijkt eerst wat u zelf kunt en wat mensen om u heen kunnen doen. Daarna kijkt het naar hulp via de gemeente. De huisarts mag ook rechtstreeks verwijzen. Met opvoedvragen kunt u zonder besluit terecht bij Kids en Koffie en online bij het CJG043. Sinds 2025 kan uw kind eerst bij een kinderpsycholoog terecht voor lichte hulp. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "WijVaals (Team Jeugd)",
+        "omschrijving": "WijVaals is het team van de gemeente Vaals voor ondersteuning en jeugdhulp. De jeugdconsulenten beslissen of uw kind jeugdhulp krijgt. Ze denken met u mee over wat u zelf kunt, wat mensen om u heen kunnen doen en wat de gemeente kan bieden. Voor opvoedvragen is er ook het CJG043, het online Centrum voor Jeugd en Gezin van de regio.",
+        "stappen": [
+          "Neem contact op met WijVaals, telefonisch of per e-mail.",
+          "Vertel uw vraag over opvoeden of opgroeien. De jeugdconsulent zoekt samen met u een oplossing.",
+          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE Zuid-Limburg.",
+          "Wacht op de brief met het besluit (beschikking) als professionele hulp nodig is. Met dat besluit kiest u een zorgaanbieder.",
+          "Heeft u alleen een vraag over opvoeden? Stel die online bij het CJG043."
+        ],
+        "contact": [
+          {
+            "naam": "WijVaals (Team Jeugd van de gemeente Vaals)",
+            "telefoon": "043 306 8583",
+            "email": "wijvaals@vaals.nl",
+            "url": "https://www.vaals.nl/inwoners/wijvaals/zorg-en-ondersteuning/wmo-loket"
+          },
+          {
+            "naam": "CJG043 (Centrum voor Jeugd en Gezin, online)",
+            "email": "info@cjg043.nl",
+            "url": "https://www.cjg043.nl/over-cjg043/contact/",
+            "openingstijden": "Alleen online: chat of formulier voor opvoedvragen"
+          }
+        ]
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast WijVaals. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Zuid-Limburg.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder waar de regio een contract mee heeft.",
+          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
+          "telefoon": "088 880 5044",
+          "url": "https://www.ggdzl.nl/onderwerpen/kind-en-gezin",
+          "openingstijden": "Maandag t/m donderdag 8.30–12.30 en 13.00–16.30 uur, vrijdag 8.30–12.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Maakt u zich zorgen over uw kind op school? Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit? Dan geeft het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Heeft uw kind meer hulp nodig, dan kunt u zich aanmelden bij WijVaals.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Heeft uw kind meer hulp nodig? Meld u aan bij WijVaals.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband voor basis- of voortgezet onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "WijVaals (Team Jeugd van de gemeente Vaals)",
+            "telefoon": "043 306 8583",
+            "email": "wijvaals@vaals.nl",
+            "url": "https://www.vaals.nl/inwoners/wijvaals/zorg-en-ondersteuning/wmo-loket"
+          },
+          {
+            "naam": "Samenwerkingsverband Passend Onderwijs Maastricht-Heuvelland (basisonderwijs)",
+            "telefoon": "085 488 1280",
+            "email": "info@swvzlpo.nl",
+            "url": "https://www.swvpo-mh.nl/page/179/Contact",
+            "openingstijden": "Telefonisch maandag t/m vrijdag 15.00–17.00 uur"
+          },
+          {
+            "naam": "Samenwerkingsverband Passend Voortgezet Onderwijs Maastricht-Heuvelland",
+            "email": "info-vo@swvzlvo.nl",
+            "url": "https://swv-maastricht.nl/contact/"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt passend onderwijs Zuid-Limburg",
+            "url": "https://www.passendonderwijszuid.nl/steunpunt-ouders-en-jeugd"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat welke crisishulp er voor jeugd is in Zuid-Limburg.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor crisishulp voor jeugd, ook buiten kantooruren, op de crisispagina van de gemeente Vaals."
+        ],
+        "contact": {
+          "naam": "Gemeente Vaals: Crisis, telefoonnummers voor noodsituaties",
+          "url": "https://www.vaals.nl/inwoners/wijvaals/crisis-telefoonnummers-voor-noodsituaties"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Zuid-Limburg",
+      "toelichting": "Gratis en onafhankelijk. U kunt iemand van MEE meenemen naar het gesprek met WijVaals of de zorgaanbieder. Vraag het bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "088 010 2222",
+      "email": "info@meezuidlimburg.nl",
+      "url": "https://www.meezuidlimburg.nl/contact",
+      "openingstijden": "Servicepunt werkdagen 8.30–12.30 en 13.00–17.00 uur"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U moet de gemeente laten zien dat u het budget zelf of met hulp kunt beheren. U legt uit waarom hulp van een aanbieder met een contract niet past. U maakt een pgb-plan, dat de gemeente goedkeurt. De gemeente mag een pgb weigeren bij spoed. Ook mag zij weigeren als de aanbieder zelf het budget beheert. Of als de budgetbeheerder en de hulpverlener geen Verklaring omtrent het gedrag (VOG) hebben. De tarieven staan in de verordening.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR753667/1"
+    },
+    "klacht": {
+      "naam": "Klacht over WijVaals of de gemeente",
+      "toelichting": "WijVaals is onderdeel van de gemeente. Bespreek het liefst eerst met de medewerker. Een klacht over hoe een medewerker u behandelde, dient u daarna in bij de gemeente, per brief of per e-mail. U krijgt binnen 6 weken een reactie. Die termijn kan met 4 weken worden verlengd. Een klacht over een zorgaanbieder bespreekt u eerst met die aanbieder. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook helpen.",
+      "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/klacht-indienen-tegen-medewerker-of-bestuurder",
+      "email": "info@vaals.nl",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u per brief. U kunt de brief opsturen of afgeven bij het Klantcontactcentrum. Meestal geeft een onafhankelijke commissie advies, na een hoorzitting. U krijgt meestal binnen 12 weken na het einde van de bezwaartermijn een beslissing. Bent u het niet eens met het plan van de jeugdconsulent? Dan kunt u één keer om een second opinion vragen. Een andere medewerker of een onafhankelijke deskundige kijkt dan opnieuw.",
+      "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/bezwaar-en-beroep"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Advies over opvoeden krijgt u zonder besluit bij WijVaals, bij Kids en Koffie en online bij het CJG043. Sinds 2025 probeert Vaals een kinderpsycholoog uit voor lichte hulp. Specialistische jeugdhulp koopt Vaals samen met andere gemeenten in, via Jeugdhulp Zuid-Limburg. Op de Beschikbaarheidswijzer van Zuid-Limburg ziet u aanbieders en wachttijden, zonder inloggen. Vraag WijVaals om hulp bij het kiezen van een aanbieder.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Gesprekken met een jeugdconsulent van WijVaals, ontmoeting bij Kids en Koffie, en online informatie en cursussen via het CJG043. Het jongerenwerk organiseert activiteiten voor kinderen en jongeren.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Kinderpsycholoog (pilot)",
+        "omschrijving": "Lichte hulp voor kinderen, voordat specialistische jeugd-ggz nodig is. Volgens de gemeente had ongeveer de helft van de aangemelde kinderen daarna geen verdere hulp nodig.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van WijVaals of een verwijzing van de huisarts: behandeling, begeleiding, jeugd-ggz, verblijf en pleegzorg. Jeugdhulp Zuid-Limburg koopt deze hulp in voor de regio.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Kids en Koffie",
+      "soort": "oudergroep",
+      "omschrijving": "Elke woensdagochtend van 8.30 tot 10.30 uur in de bibliotheek van Vaals. Ouders ontmoeten elkaar en praten over opvoeden, terwijl de kinderen spelen. Aanmelden is niet nodig en deelname is gratis.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.vaals.nl/inwoners/wijvaals/opvoeden-en-opgroeien/kids-en-koffie"
+    },
+    {
+      "naam": "CJG043 (online)",
+      "soort": "informatiepunt",
+      "omschrijving": "Online platform met informatie, ervaringen van andere ouders, chat en cursussen over opvoeden en opgroeien.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.cjg043.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht indienen",
+      "omschrijving": "Per e-mail of per post.",
+      "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/klacht-indienen-tegen-medewerker-of-bestuurder",
+      "nodig": "Naam, adres, omschrijving van de klacht, datum van het voorval en uw handtekening"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "omschrijving": "Schriftelijk, per post of afgeven bij het Klantcontactcentrum.",
+      "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/bezwaar-en-beroep",
+      "nodig": "Het besluit en uw redenen. Vermeld naam, adres, datum en handtekening"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Vaals vraagt ouders en jongeren elk jaar naar hun ervaring met jeugdhulp. In 2025 gaven zij het contact met de gemeente gemiddeld een 6,7, tegen een 7,8 in 2024. Veel van hen zeggen snel en vriendelijk geholpen te zijn, maar maar 21 van de 82 uitgenodigden vulden de lijst in. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt en leg het antwoord vast. Een cliëntondersteuner van MEE Zuid-Limburg kan meegaan naar gesprekken. Bent u het niet eens met het plan van de jeugdconsulent, vraag dan om een second opinion. Heeft u een klacht over WijVaals? Dien die in bij de gemeente en vraag om een schriftelijke reactie.",
+    "signalen": [
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek 2025: contact met de gemeente een 6,7",
+        "samenvatting": "21 van de 82 uitgenodigde ouders en jongeren vulden de vragenlijst in. Zij gaven het contact met de gemeente gemiddeld een 6,7 (2024: 7,8). Omdat te weinig mensen reageren, praat de gemeente vanaf 2026 met gezinnen in interviews.",
+        "datum": "2026-08-25",
+        "bron": {
+          "titel": "Raadsinformatiebrief Cliëntervaringsonderzoeken 2025 en factsheet Jeugdwet",
+          "url": "https://vaals.bestuurlijkeinformatie.nl/Reports/Item/2106050c-6161-4d15-a323-5855b0c9dd2f"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Kinderpsycholoog als lichte hulp: helft daarna klaar",
+        "samenvatting": "Sinds 2025 probeert Vaals een kinderpsycholoog uit, voordat specialistische hulp nodig is. Volgens de jaarstukken had ongeveer de helft van de aangemelde kinderen daarna geen verdere hulp nodig. Het aantal jeugdigen met jeugdhulp nam in 2025 met 6 procent toe, voor het eerst sinds 2020.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarstukken 2025 gemeente Vaals",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=9c5c2744-a151-4a1a-bdc4-415650654dae"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan voor 2027: meer lichte hulp vooraf",
+        "samenvatting": "Ongeveer een op de tien jeugdigen in Vaals krijgt jeugdhulp, minder dan landelijk. In 2027 wil de gemeente vaker eerst lichte hulp inzetten, voordat specialistische zorg nodig is. De raad beslist op 9 november 2026 over dit plan in de begroting.",
+        "datum": "2026-10",
+        "bron": {
+          "titel": "Programmabegroting 2027 gemeente Vaals",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=f439f925-7e16-47b9-90ac-cbf13cef91ec"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Meer opvoedondersteuning in het jongerenwerk",
+        "samenvatting": "Het jongerenwerk in groepen liep in 2025 niet goed. De gemeente geeft Trajekt daarom een ruimere opdracht. Het gaat vooral om opvoedondersteuning, hulp aan jongeren die in de problemen dreigen te komen en de overstap naar de middelbare school.",
+        "datum": "2026-06-17",
+        "bron": {
+          "titel": "Voorjaarsnota 2026 gemeente Vaals",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=4a9778f3-3ae6-4810-b1cb-c918e58f0e0b"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "url": "https://vaals.bestuurlijkeinformatie.nl/Reports/Item/2106050c-6161-4d15-a323-5855b0c9dd2f",
+        "samenvatting": "Er is geen onderzoek dat iets zegt over hoe ouders de hulp hier in het algemeen ervaren: alleen een kleine of eigen meting. Een extern bureau stuurde een vragenlijst; 21 van de 82 mensen vulden die in (26%). Het contact met de gemeente kreeg gemiddeld een 6,7 (2024: 7,8). Vanaf 2026 komen er interviews."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Doorlooptijden van de toegang zijn niet openbaar te vinden. Vraag bij uw aanmelding hoe lang het duurt."
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Vaals: Wmo-loket (Team Wmo en Team Jeugd, WijVaals)",
+        "url": "https://www.vaals.nl/inwoners/wijvaals/zorg-en-ondersteuning/wmo-loket",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: WijVaals",
+        "url": "https://www.vaals.nl/inwoners/wijvaals/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: Opvoeden en opgroeien",
+        "url": "https://www.vaals.nl/inwoners/wijvaals/opvoeden-en-opgroeien/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: Kids en Koffie",
+        "url": "https://www.vaals.nl/inwoners/wijvaals/opvoeden-en-opgroeien/kids-en-koffie",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: Basisscholen",
+        "url": "https://www.vaals.nl/inwoners/wijvaals/opvoeden-en-opgroeien/onderwijs-basisscholen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: Crisis, telefoonnummers voor noodsituaties",
+        "url": "https://www.vaals.nl/inwoners/wijvaals/crisis-telefoonnummers-voor-noodsituaties",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: Klacht indienen",
+        "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/klacht-indienen-tegen-medewerker-of-bestuurder",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Vaals: Bezwaar en beroep",
+        "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening Wmo en Jeugdwet gemeente Vaals 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR753667/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Klachtenregeling gemeente Vaals 2023",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR693183/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatiebrief Cliëntervaringsonderzoeken 2025 (met factsheet en rapport Jeugdwet)",
+        "url": "https://vaals.bestuurlijkeinformatie.nl/Reports/Item/2106050c-6161-4d15-a323-5855b0c9dd2f",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Vaals",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=9c5c2744-a151-4a1a-bdc4-415650654dae",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027 gemeente Vaals",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=f439f925-7e16-47b9-90ac-cbf13cef91ec",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Voorjaarsnota 2026 gemeente Vaals",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=4a9778f3-3ae6-4810-b1cb-c918e58f0e0b",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Uitvoeringsplan Sociaal Domein 2026-2027 gemeente Vaals",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Vaals&id=2535a0d4-6e7b-49b3-92e1-5ec8eb5144c5",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CJG043: Contact",
+        "url": "https://www.cjg043.nl/over-cjg043/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Zuid-Limburg: Kind en gezin (jeugdgezondheidszorg)",
+        "url": "https://www.ggdzl.nl/onderwerpen/kind-en-gezin",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Zuid-Limburg: Contact",
+        "url": "https://www.meezuidlimburg.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samenwerkingsverband PO Maastricht-Heuvelland: Contact",
+        "url": "https://www.swvpo-mh.nl/page/179/Contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samenwerkingsverband VO Maastricht-Heuvelland: Contact",
+        "url": "https://swv-maastricht.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt passend onderwijs Zuid-Limburg",
+        "url": "https://www.passendonderwijszuid.nl/steunpunt-ouders-en-jeugd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Zuid-Limburg",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg: Inkoop",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/inkoop-jeugdhulp-zuid-limburg",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Doorlooptijden toegang en openingstijden WijVaals niet gevonden; samenwerkingsverband VO voor Vaalser leerlingen niet vastgesteld (Maastricht-Heuvelland overgenomen). Begroting 2027 nog niet vastgesteld (raad 9 november 2026); regionale journalistiek maar beperkt doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "naam": "Halderberge",
+  "cbsCode": "GM1655",
+  "provincie": "Noord-Brabant",
+  "websiteJeugd": "https://www.halderberge.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Halderberge is het wijkteam de eerste plek voor vragen over opvoeden, opgroeien en jeugdhulp. De jeugdprofessionals van het wijkteam werken voor de gemeente. Er zijn wijkteams in Oudenbosch, Hoeven, Oud Gastel en Stampersgat en Bosschenhoofd. U meldt zich zelf aan, een verwijzing is niet nodig. Dat kan telefonisch of met het contactformulier wijkteam jeugd (inloggen met DigiD). Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat het wijkteam uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Wijkteam Halderberge (jeugdprofessionals van de gemeente)",
+        "omschrijving": "De jeugdprofessionals van het wijkteam geven tips en informatie over opvoeden en opgroeien. Ze komen bij gezinnen thuis en zoeken samen met u en uw kind naar een oplossing. Is specialistische hulp nodig? Dan legt het wijkteam dat met u vast in een gezinsplan. De gemeente neemt daarna een besluit (beschikking). Ook jongeren zelf kunnen bij het wijkteam terecht.",
+        "stappen": [
+          "Bel het wijkteam of vul het contactformulier wijkteam jeugd in. Voor het formulier logt u in met DigiD.",
+          "Een jeugdprofessional bespreekt uw vraag met u. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Is meer hulp nodig? Maak dan samen een gezinsplan. Daarin staan uw hulpvraag en de doelen die u wilt bereiken.",
+          "Vraag om het gezinsplan en het besluit over de hulp op papier."
+        ],
+        "contact": {
+          "naam": "Wijkteam Halderberge (jeugd)",
+          "telefoon": "0165 39 05 00",
+          "email": "gemeente@halderberge.nl",
+          "url": "https://www.halderberge.nl/wijkteam",
+          "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het wijkteam. Jeugdartsen werken bij de jeugdgezondheidszorg van de GGD West-Brabant.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD West-Brabant",
+          "telefoon": "088 639 2051",
+          "url": "https://www.ggdwestbrabant.nl/mijn-kind",
+          "openingstijden": "Werkdagen 8.30–17.00 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Jongerenwerkers van de gemeente komen op alle basisscholen en middelbare scholen in Halderberge. Samen met school kunnen zij extra hulp opzetten voor leerlingen die dat nodig hebben. Komt u er met school niet uit? Dan kunt u advies vragen bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de jongerenwerker of het wijkteam kan meedenken. U kunt zich ook zelf aanmelden bij het wijkteam.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Wijkteam Halderberge (jeugd)",
+            "telefoon": "0165 39 05 00",
+            "email": "gemeente@halderberge.nl",
+            "url": "https://www.halderberge.nl/wijkteam",
+            "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
+          },
+          {
+            "naam": "Jongerenwerk Halderberge",
+            "url": "https://www.halderberge.nl/jongerenwerk"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt West-Brabant West (samenwerkingsverband passend onderwijs)",
+            "email": "info@oudersteunpunt-wbw.nl",
+            "url": "https://oudersteunpunt-wbw.nl/contact/",
+            "openingstijden": "Bereikbaar maandag, dinsdag en donderdag tijdens kantooruren. E-mail wordt binnen 3 werkdagen beantwoord"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina Jeugdhulp van de gemeente staat welke meldpunten en crisisdiensten er in uw regio zijn, ook voor een kind in een onveilige situatie.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in uw regio op de pagina Jeugdhulp van de gemeente, onder het kopje Met spoed hulp nodig."
+        ],
+        "contact": {
+          "naam": "Gemeente Halderberge: jeugdhulp, met spoed hulp nodig",
+          "url": "https://www.halderberge.nl/jeugdhulp"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE West-Brabant (met WijZijn)",
+      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. De cliëntondersteuner denkt met u mee, helpt bij het voorbereiden van het gesprek met het wijkteam en gaat mee als u dat wilt. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek. MEE werkt in Halderberge samen met WijZijn; ook daar kunt u terecht.",
+      "telefoon": "076 522 30 90",
+      "email": "info@meewestbrabant.nl",
+      "url": "https://meewestbrabant.nl/mee-in-jouw-gemeente/werkgebied/mee-west-brabant-in-gemeente-halderberge/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk, maar pas na het gezinsplan. Eerst kijkt het wijkteam of u genoeg hebt aan wat u zelf en uw omgeving kunnen, lichte hulp of een aanbieder met een contract. U maakt zelf een plan met begroting. Het budget is niet hoger dan de goedkoopste passende hulp die de gemeente zelf via een aanbieder regelt (zorg in natura). Hulp van iemand uit uw netwerk kan, als die persoon niet overbelast raakt. Een tussenpersoon of belangenbehartiger betaalt u niet uit het pgb. De gemeente werkt aan een nieuwe verordening. Vraag het wijkteam welke regels nu gelden.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR627791/1"
+    },
+    "klacht": {
+      "naam": "Klacht over het wijkteam of de gemeente (Klachtcommissie Jeugd)",
+      "toelichting": "Bespreek het eerst met de jeugdprofessional. Komt u er niet uit? Dien dan een klacht in bij de gemeente, bijvoorbeeld met een brief. De gemeente belt u daarna snel om de klacht te bespreken. Is dat niet genoeg, dan gaat uw klacht naar de onafhankelijke Klachtcommissie Jeugd. Die commissie werkt ook voor andere gemeenten in West-Brabant en geeft binnen acht weken een oordeel of advies. Een klacht over een zorgaanbieder dient u bij die aanbieder in. Een vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "url": "https://www.halderberge.nl/klachtenregeling-jeugd",
+      "telefoon": "0165 39 05 00",
+      "email": "gemeente@halderberge.nl",
+      "extern": {
+        "naam": "Klachtcommissie Jeugd, daarna de Nationale ombudsman",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief aan Postbus 5, 4730 AA Oudenbosch. De gemeente probeert eerst samen met u een oplossing te vinden. Lukt dat niet? Dan houdt een onafhankelijke bezwaarschriftencommissie een hoorzitting en geeft advies. De beslissing volgt meestal binnen achttien weken na het einde van de bezwaartermijn. Daarna kunt u in beroep bij de rechtbank.",
+      "url": "https://www.halderberge.nl/bezwaar-en-beroep"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Specialistische jeugdhulp koopt Halderberge samen met acht andere gemeenten in de jeugdhulpregio West-Brabant West in. Het regionale inkoopteam Zi2T regelt de contracten. Op de regiosite zoekt u aanbieders die passen bij een hulpvraag. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag het wijkteam om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpwbw.nl/jeugdhulpaanbieders/",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het wijkteam: tips, advies en lichte ondersteuning thuis, zonder besluit van de gemeente. Het jongerenwerk biedt ook trainingen voor jongeren.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbesteding, verblijf en pleegzorg, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Onderwijs-zorgarrangementen",
+        "omschrijving": "Jeugdhulp voor jongeren die tijdelijk niet naar regulier onderwijs kunnen, om weer toe te groeien naar school.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Jongerenwerk Halderberge",
+      "soort": "informatiepunt",
+      "omschrijving": "Jongerenwerkers voor jongeren van 8 tot 23 jaar, op school, op straat, bij verenigingen en in jongerencentrum Tune Inn in Oudenbosch. Ook trainingen, zoals sociale vaardigheden en Join Us voor jongeren die zich eenzaam voelen.",
+      "themas": [
+        "school",
+        "gezin"
+      ],
+      "url": "https://www.halderberge.nl/jongerenwerk"
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt West-Brabant West",
+      "soort": "informatiepunt",
+      "omschrijving": "Antwoord op vragen van ouders en jongeren over passend onderwijs op de basisschool en het voortgezet onderwijs.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://oudersteunpunt-wbw.nl/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contactformulier wijkteam jeugd",
+      "url": "https://mijnzaken.halderberge.nl/aanvragen/2700/persoon/contactformulier-wijkteam-jeugd",
+      "nodig": "DigiD"
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://mijnzaken.halderberge.nl/aanvragen/984/persoon/melden-klacht",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://mijnzaken.halderberge.nl/aanvragen/146/persoon/bezwaar-gemeente-halderberge",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Halderberge: Jeugdhulp",
+        "url": "https://www.halderberge.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Halderberge: Wijkteam",
+        "url": "https://www.halderberge.nl/wijkteam",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Halderberge: Wijkteam Oudenbosch (telefonisch spreekuur)",
+        "url": "https://www.halderberge.nl/wijkteam-oudenbosch",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Halderberge: Jongerenwerk",
+        "url": "https://www.halderberge.nl/jongerenwerk",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Halderberge: Klachtenregeling jeugd",
+        "url": "https://www.halderberge.nl/klachtenregeling-jeugd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Klachtenregeling Jeugd Halderberge (CVDR725337)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR725337/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Halderberge: Bezwaar en beroep",
+        "url": "https://www.halderberge.nl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Halderberge: Aanvragen cliëntondersteuning",
+        "url": "https://www.halderberge.nl/aanvragen-clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE West-Brabant in gemeente Halderberge",
+        "url": "https://meewestbrabant.nl/mee-in-jouw-gemeente/werkgebied/mee-west-brabant-in-gemeente-halderberge/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "WijZijn: Onafhankelijk Cliëntondersteuning Halderberge",
+        "url": "https://www.wijzijn.nl/gemeentes/halderberge",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening Jeugdhulp gemeente Halderberge 2019",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR627791/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beleidsregels persoonsgebonden budget Jeugdhulp Halderberge",
+        "url": "https://zoek.officielebekendmakingen.nl/gmb-2020-327613.html",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: jeugdhulpaanbieders",
+        "url": "https://www.jeugdhulpwbw.nl/jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Gemeenten (contactgegevens toegang)",
+        "url": "https://www.jeugdhulpwbw.nl/algemeen/gemeenten/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Over het Zi2T",
+        "url": "https://www.jeugdhulpwbw.nl/algemeen/zi2t/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD West-Brabant: Mijn kind (jeugdgezondheidszorg)",
+        "url": "https://www.ggdwestbrabant.nl/mijn-kind",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD West-Brabant: Contact (nummer jeugdgezondheidszorg)",
+        "url": "https://www.ggdwestbrabant.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt West-Brabant West: Contact",
+        "url": "https://oudersteunpunt-wbw.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunten op de kaart (samenwerkingsverband)",
+        "url": "https://ouderenjeugdsteunpuntenopdekaart.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Halderberge Jaarverslag en Jaarrekening 2025: beleidsindicatoren Zorg, jeugd en participatie",
+        "url": "https://financieelportaal.halderberge.nl/jaarrekening/2025/programmaverantwoording-jaarverslag/programma-zorg-jeugd-en-participatie/beleidsindicatoren",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Halderberge Jaarverslag en Jaarrekening 2025: wat doen we al",
+        "url": "https://financieelportaal.halderberge.nl/jaarrekening/2025/programmaverantwoording-jaarverslag/programma-zorg-jeugd-en-participatie/wat-doen-we-al",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Halderberge Zomernota 2026: toelichting Zorg, jeugd en participatie",
+        "url": "https://financieelportaal.halderberge.nl/zomernota/2026/financiële-mutaties/programma-zorg-jeugd-en-participatie/toelichting",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Raadsinformatie (monitor sociaal domein, rekenkamer) staat achter bot-controle; cliëntervaringsonderzoek en doorlooptijden niet gevonden. Pgb-regels uit Verordening 2019; Zomernota 2026 noemt een nieuwe verordening die niet is gevonden."
+  },
+  "jeugdzorgregio": "West-Brabant West (negen gemeenten, inkoop via Zi2T)",
+  "ervaringen": {
+    "samenvatting": "In Halderberge krijgt iets meer dan 15 procent van de jongeren tot 18 jaar jeugdhulp, iets meer dan in vergelijkbare gemeenten. Samen met de andere gemeenten in de regio wil Halderberge hulp dichtbij geven, eerst kijken wat het gezin zelf kan, en werken met één gedeeld plan per kind. Hoe tevreden ouders zijn en hoe lang u op het wijkteam wacht, is niet openbaar te vinden.\n\nVraag bij uw aanmelding bij het wijkteam hoe lang het duurt. Leg afspraken schriftelijk vast, bijvoorbeeld in het gezinsplan. Neem een onafhankelijke cliëntondersteuner van MEE West-Brabant mee. Een klacht over het wijkteam gaat naar de gemeente en daarna naar de onafhankelijke Klachtcommissie Jeugd.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Iets meer kinderen met jeugdhulp dan in vergelijkbare gemeenten",
+        "samenvatting": "De jaarstukken over 2025 noemen 15,2 procent van de jongeren tot 18 jaar met jeugdhulp. In vergelijkbare gemeenten is dat 14,2 procent. Ongeveer 1 procent heeft een jeugdbeschermingsmaatregel, net als in vergelijkbare gemeenten.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Jaarverslag en Jaarrekening 2025: beleidsindicatoren Zorg, jeugd en participatie",
+          "url": "https://financieelportaal.halderberge.nl/jaarrekening/2025/programmaverantwoording-jaarverslag/programma-zorg-jeugd-en-participatie/beleidsindicatoren"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regiovisie Jeugd West-Brabant West 2026-2030",
+        "samenvatting": "De negen gemeenten kiezen voor hulp zo dichtbij mogelijk: thuis, op school of in de eigen omgeving. Eerst kijken ze wat een gezin zelf kan. Scholen, wijkteams en hulpverleners werken met één gedeeld plan per kind.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Gemeente Halderberge: Jeugdhulp (regiovisie)",
+          "url": "https://www.halderberge.nl/jeugdhulp"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Onderwijs-zorgarrangementen verlengd tot eind 2027",
+        "samenvatting": "De regio besloot in november 2025 de onderwijs-zorgarrangementen met twee jaar te verlengen. Dit is jeugdhulp voor jongeren die tijdelijk niet naar een gewone school kunnen. Volgens de gemeente kan het gewone onderwijs die steun nog niet zelf bieden.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Zomernota 2026: toelichting Zorg, jeugd en participatie",
+          "url": "https://financieelportaal.halderberge.nl/zomernota/2026/financiële-mutaties/programma-zorg-jeugd-en-participatie/toelichting"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee"
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      },
+      "aandeelHuisarts": {
+        "percentage": 43,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

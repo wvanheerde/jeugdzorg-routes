@@ -1,0 +1,520 @@
+{
+  "naam": "Breda",
+  "cbsCode": "GM0758",
+  "provincie": "Noord-Brabant",
+  "jeugdzorgregio": "West-Brabant Oost",
+  "websiteJeugd": "https://www.breda.nl/ondersteuning-bij-opvoeden-en-opgroeien",
+  "toegang": {
+    "samenvatting": "In Breda hangt de toegang tot jeugdhulp af van uw postcode. Woont u in Breda Noordwest of Zuidwest (postcodes 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841), dan is WIJS! Breda uw toegang: een Stevig Lokaal Team van zeven samenwerkende organisaties dat sinds januari 2025 (Noordwest) en januari 2026 (Zuidwest) de rol van het CJG heeft overgenomen en veel hulp zelf biedt. In de rest van Breda is het Centrum voor Jeugd en Gezin (CJG Breda) de toegang. Vanaf 2027 wil de gemeente WIJS! Breda in de hele stad inzetten. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in Breda start ruim de helft van de trajecten via een arts.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "CJG Breda of WIJS! Breda (afhankelijk van uw postcode)",
+        "omschrijving": "Gemeentelijk toegangsteam voor kinderen en jongeren tot 23 jaar en hun ouders. Gratis, zonder verwijzing. Het team luistert, geeft tips en biedt zelf begeleiding; is specialistische jeugdhulp nodig, dan wordt die samen met u bij de gemeente aangevraagd en ontvangt u een beschikking. Bij WIJS! Breda krijgt u één vaste jeugdprofessional die betrokken blijft, ook als een specialistische aanbieder wordt ingeschakeld.",
+        "stappen": [
+          "Controleer uw postcode: 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841 vallen onder WIJS! Breda; alle andere Bredase postcodes onder CJG Breda.",
+          "Bel op werkdagen tussen 9.00 en 13.00 uur of vul het contactformulier op de website in. WIJS! Breda reageert binnen 5 werkdagen, CJG Breda binnen 10 werkdagen.",
+          "U krijgt een gesprek thuis of op een locatie in de wijk; u mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE West-Brabant.",
+          "Het team biedt zelf hulp of vraagt samen met u specialistische jeugdhulp aan bij de gemeente. De gemeente beslist uiterlijk binnen 8 weken na de ondertekende aanvraag en stuurt een beschikking."
+        ],
+        "contact": {
+          "naam": "CJG Breda",
+          "omschrijving": "Voor WIJS! Breda (Noordwest en Zuidwest): 076 206 5099, info@wijsbreda.nl, wijsbreda.nl, Paardeweide 5 (op afspraak).",
+          "telefoon": "0800 444 0003",
+          "email": "info@cjgbreda.nl",
+          "url": "https://www.cjgbreda.nl/contact/",
+          "adres": "Willemstraat 20, 4811 AL Breda (postadres)",
+          "openingstijden": "Werkdagen 9.00–13.00 uur (telefonisch); bezoek alleen op afspraak"
+        },
+        "doorlooptijd": "Reactie binnen 5 (WIJS!) tot 10 (CJG) werkdagen; WIJS! Breda meldt dat de wachttijd tot een gesprek kan oplopen tot enkele maanden. Beslissing op een aanvraag uiterlijk 8 weken na ontvangst."
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar jeugdhulpaanbieders die door de regio West-Brabant Oost zijn gecontracteerd. Jeugdprofessionals van CJG en WIJS! Breda zijn ook aanwezig in huisartsenpraktijken. Sinds 16 februari 2026 beoordeelt de gemeente verwijzingen van artsen aan de hand van een afwegingskader met beoordelingsmatrix voordat de aanbieder mag starten.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD West-Brabant.",
+          "De arts verwijst naar een gecontracteerde aanbieder (overzicht op regiowbo.nl) of schakelt de jeugdprofessional in de praktijk in.",
+          "De aanbieder vraagt bij de gemeente toestemming om te starten; de gemeente toetst de verwijzing. Vraag de aanbieder naar de verwachte wachttijd."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdgezondheidszorg GGD West-Brabant",
+            "telefoon": "088 639 2051",
+            "url": "https://www.ggdwestbrabant.nl/mijn-kind",
+            "openingstijden": "Werkdagen 8.30–17.00 uur"
+          },
+          {
+            "naam": "CJG Breda",
+            "omschrijving": "Voor WIJS! Breda (Noordwest en Zuidwest): 076 206 5099, info@wijsbreda.nl, wijsbreda.nl, Paardeweide 5 (op afspraak).",
+            "telefoon": "0800 444 0003",
+            "email": "info@cjgbreda.nl",
+            "url": "https://www.cjgbreda.nl/contact/",
+            "adres": "Willemstraat 20, 4811 AL Breda (postadres)",
+            "openingstijden": "Werkdagen 9.00–13.00 uur (telefonisch); bezoek alleen op afspraak"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Jeugdprofessionals van CJG Breda en WIJS! Breda zijn aanwezig op scholen en kinderopvang. Bij zorgen over leren of gedrag kan school de verbinding leggen. Onderwijsondersteuning loopt via het Regionaal Samenwerkingsverband Breda e.o. (RSV Breda, regio 30-03) voor basis- en voortgezet onderwijs.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
+          "School schakelt de jeugdprofessional van CJG of WIJS! Breda in, of de jeugdverpleegkundige van de GGD.",
+          "Extra ondersteuning op school vraagt de school aan bij RSV Breda e.o.; de gemeente gaat over jeugdhulp, het samenwerkingsverband over onderwijsondersteuning.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "CJG Breda",
+            "omschrijving": "Voor WIJS! Breda (Noordwest en Zuidwest): 076 206 5099, info@wijsbreda.nl, wijsbreda.nl, Paardeweide 5 (op afspraak).",
+            "telefoon": "0800 444 0003",
+            "email": "info@cjgbreda.nl",
+            "url": "https://www.cjgbreda.nl/contact/",
+            "adres": "Willemstraat 20, 4811 AL Breda (postadres)",
+            "openingstijden": "Werkdagen 9.00–13.00 uur (telefonisch); bezoek alleen op afspraak"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt RSV Breda e.o. (basisonderwijs)",
+            "email": "ojsppo@rsvbreda.nl",
+            "url": "https://www.ouderjeugdsteunpuntrsvbreda.nl/contact"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt RSV Breda e.o. (voortgezet onderwijs)",
+            "telefoon": "076 2100103",
+            "email": "ouderjeugdsteunpuntvo@rsvbreda.nl",
+            "url": "https://www.ouderjeugdsteunpuntrsvbreda.nl/contact",
+            "openingstijden": "Telefonisch ma t/m do 8.30-16.30 uur, vr 8.30-12.30 uur, niet in de schoolvakanties. WhatsApp 06 2673 7713"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Breda op de pagina Ondersteuning bij opvoeden en opgroeien van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Breda: Ondersteuning bij opvoeden en opgroeien",
+          "url": "https://www.breda.nl/ondersteuning-bij-opvoeden-en-opgroeien"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE West-Brabant",
+      "toelichting": "Gratis onafhankelijke cliëntondersteuning voor vragen over Jeugdwet, Wmo en Wlz; de cliëntondersteuner komt bij u thuis of spreekt af in de wijk en kan meegaan naar gesprekken met CJG of WIJS! Breda. Let op: MEE West-Brabant is ook een van de samenwerkingspartners in CJG Breda en WIJS! Breda. Wilt u iemand die volledig buiten het toegangsteam staat, vraag MEE dan uitdrukkelijk om een onafhankelijke cliëntondersteuner, of neem een vertrouwenspersoon van Jeugdstem mee.",
+      "telefoon": "076 522 3090",
+      "email": "info@meewestbrabant.nl",
+      "url": "https://meewestbrabant.nl/voor-inwoners-clienten/onafhankelijke-clientondersteuning/",
+      "openingstijden": "Werkdagen 9.00–13.00 uur"
+    },
+    "klacht": {
+      "naam": "Klacht over CJG Breda of WIJS! Breda",
+      "toelichting": "Bespreek uw onvrede eerst met de betrokken jeugdprofessional. Lukt dat niet, dien dan een klacht in: bij CJG Breda via het digitale klachtenformulier of per e-mail, bij WIJS! Breda via klacht@wijsbreda.nl. Binnen 5 werkdagen neemt het team contact op en volgt een bemiddelingsgesprek. Komt u er niet uit, dan kunt u een schriftelijke klacht indienen bij de onafhankelijke klachtencommissie van de organisatie waar de medewerker in dienst is (onder meer IMW Breda, MEE West-Brabant, Surplus). Een klacht over de gemeente zelf (bijvoorbeeld de afhandeling van uw aanvraag) dient u in via breda.nl/klacht-indienen; bent u ontevreden over die afhandeling, dan kunt u naar de Commissie Ombudsman Breda. De Nationale ombudsman behandelt geen klachten over Breda.",
+      "url": "https://www.cjgbreda.nl/over/klachtenregeling/",
+      "email": "info@cjgbreda.nl",
+      "telefoon": "0800 444 0003",
+      "extern": {
+        "naam": "Commissie Ombudsman Breda (voor klachten over de gemeente)",
+        "url": "https://www.breda.nl/ombudsman"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bent u het niet eens met de beschikking, dan kunt u binnen 6 weken na verzending bezwaar maken: online met DigiD via het formulier voor werk, inkomen en zorg, of per post aan de Commissie Sociaal Domein, p/a directie Dienstverlening, Postbus 1149, 4801 BC Breda. Vermeld de datum van het besluit, waarom u het er niet mee eens bent, uw gegevens en uw handtekening. De commissie kan u uitnodigen voor een hoorzitting; u mag iemand meenemen. De beslissing volgt in principe binnen 10 weken. Daarna staat beroep open bij de rechtbank Zeeland-West-Brabant.",
+      "url": "https://www.breda.nl/bezwaarschrift-indienen-sociaal-domein"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb is mogelijk als zorg in natura niet passend is en u kunt onderbouwen waarom. Sinds de Verordening Jeugdhulp 2025 zijn de voorwaarden aangescherpt: alleen hulpverleners die aan de kwaliteitseisen voldoen mogen via een pgb werken en er is meer controle op rechtmatigheid. Het tarief voor informele hulp is gelijk aan het minimumloon; voor formele hulp krijgt u maximaal 90 procent van het tarief voor zorg in natura, zodat u mogelijk een deel zelf bijbetaalt.",
+      "url": "https://www.breda.nl/tarieven-jeugdhulp-persoonsgebonden-budget-pgb"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. CJG Breda verwijst daarnaast naar Zorgbelang Brabant, dat het vertrouwenswerk in Brabant samen met Jeugdstem uitvoert.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Opvoedondersteuning, gezinsbegeleiding en lichte hulp via CJG Breda en WIJS! Breda zonder beschikking; WIJS! Breda biedt als Stevig Lokaal Team ook een deel van de specialistische hulp zelf. Specialistische jeugdhulp wordt ingekocht door de regio West-Brabant Oost (Altena, Breda, Drimmelen, Geertruidenberg en Oosterhout), met Breda als inkopende gemeente. Het overzicht van gecontracteerde aanbieders staat op regiowbo.nl. De regio is niet aangesloten op de Beschikbaarheidswijzer; wachttijden vraagt u bij de aanbieder of het toegangsteam.",
+    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/jeugdhulpaanbieders/",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via CJG Breda, WIJS! Breda en de jeugdgezondheidszorg van de GGD West-Brabant, zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "omschrijving": "Deels door het toegangsteam zelf, deels via gecontracteerde aanbieders met een beschikking.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via verwijzing van het toegangsteam of een arts; verwijzingen van artsen worden sinds februari 2026 door de gemeente getoetst.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Via het Meldpunt Crisiszorg West-Brabant, 0800 5099.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Zorg voor elkaar Breda",
+      "soort": "informatiepunt",
+      "omschrijving": "Samenwerkingsverband van zorg- en welzijnsorganisaties met inlooppunten in de wijken voor vragen over zorg, welzijn, wonen en werk. Verwijst voor jeugdvragen door naar CJG of WIJS! Breda, maar helpt ook bij vragen over mantelzorg, geld en het gezin als geheel.",
+      "themas": [
+        "gezin",
+        "mantelzorg"
+      ],
+      "url": "https://zorgvoorelkaarbreda.nl/",
+      "contact": {
+        "naam": "Zorg voor elkaar Breda",
+        "telefoon": "076 525 1515",
+        "email": "samen@zorgvoorelkaarbreda.nl",
+        "openingstijden": "Werkdagen 9.00–17.00 uur"
+      }
+    },
+    {
+      "naam": "Autisme Informatie Centrum (AIC) Breda",
+      "soort": "vrijwilligers",
+      "omschrijving": "Inloopmomenten en lotgenotencontact van vrijwilligers van de Nederlandse Vereniging voor Autisme, voor ouders en naasten van mensen met autisme. Data staan in de agenda van autisme.nl.",
+      "themas": [
+        "autisme"
+      ],
+      "url": "https://www.autisme.nl/agenda/lotgenotencontact-aic-breda/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contact opnemen met CJG Breda",
+      "omschrijving": "Contactformulier van CJG Breda (voor alle postcodes buiten Noordwest en Zuidwest). Reactie binnen 10 werkdagen.",
+      "url": "https://www.cjgbreda.nl/contact/",
+      "nodig": "Uw gegevens en een korte omschrijving van uw vraag"
+    },
+    {
+      "naam": "Contact opnemen met WIJS! Breda",
+      "omschrijving": "Voor postcodes 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841. Bel 076 206 5099 of gebruik het contactformulier; reactie binnen 5 werkdagen.",
+      "url": "https://wijsbreda.nl/",
+      "nodig": "Uw postcode en een korte omschrijving van uw vraag"
+    },
+    {
+      "naam": "Klacht indienen over CJG Breda",
+      "omschrijving": "Digitaal klachtenformulier van CJG Breda. Laagdrempelig en zonder termijn; binnen 5 werkdagen contact en een bemiddelingsgesprek. Voor WIJS! Breda: klacht@wijsbreda.nl.",
+      "url": "https://www.cjgbreda.nl/over/klachtenregeling/digitaal-klachtenformulier/"
+    },
+    {
+      "naam": "Klacht indienen over de gemeente Breda",
+      "omschrijving": "Als de gemeente uw aanvraag niet of te traag afhandelt of u zich slecht behandeld voelt. Reactie binnen 6 weken; daarna kunt u naar de Commissie Ombudsman Breda.",
+      "url": "https://www.breda.nl/klacht-indienen",
+      "nodig": "DigiD (online) of per post zonder postzegel"
+    },
+    {
+      "naam": "Bezwaar maken tegen een beschikking jeugdhulp",
+      "omschrijving": "Binnen 6 weken na verzending van het besluit, online met DigiD of per post aan de Commissie Sociaal Domein.",
+      "url": "https://www.breda.nl/bezwaarschrift-indienen-sociaal-domein",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Gecontracteerde jeugdhulpaanbieders regio West-Brabant Oost",
+      "omschrijving": "Overzicht van aanbieders met een contract met de regio, om samen met het toegangsteam of de huisarts een keuze te maken.",
+      "url": "https://regiowbo.nl/jeugdhulpaanbieders/"
+    },
+    {
+      "naam": "Pgb-tarieven jeugdhulp bekijken",
+      "omschrijving": "Overzicht van de pgb-tarieven van de gemeente Breda voor informele en formele hulp.",
+      "url": "https://www.breda.nl/tarieven-jeugdhulp-persoonsgebonden-budget-pgb"
+    },
+    {
+      "naam": "Onafhankelijke cliëntondersteuning aanvragen (MEE West-Brabant)",
+      "omschrijving": "Gratis en zonder verwijzing; ook telefonisch.",
+      "url": "https://meewestbrabant.nl/voor-inwoners-clienten/onafhankelijke-clientondersteuning/"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Breda bouwt de toegang tot jeugdhulp ingrijpend om. Sinds januari 2025 werkt WIJS! Breda als Stevig Lokaal Team in Noordwest, sinds januari 2026 ook in Zuidwest, en vanaf 2027 moet het de hele stad bedienen; het team moet wachttijden verkorten en meer hulp zelf bieden zonder doorverwijzing, maar meldt zelf dat de wachttijd tot een gesprek kan oplopen tot enkele maanden. Tegelijk staat de gemeente financieel onder druk: in 2024 kondigde Breda aan vanaf 2026 fors te bezuinigen op jeugdhulp en Wmo, de begroting 2026 trekt extra geld uit voor gestegen jeugdzorgkosten en voorziet tekorten vanaf 2028, en sinds de Verordening Jeugdhulp 2025 kijkt de gemeente strenger naar wat ouders zelf en hun omgeving kunnen, en naar het pgb. Sinds februari 2026 toetst de gemeente ook verwijzingen van huisartsen en medisch specialisten aan een afwegingskader voordat de hulp mag starten; in Breda start ruim de helft van de trajecten via een arts, meer dan landelijk.\n\nVoor ouders betekent dit dat een aanvraag vaker wordt getoetst op wat u zelf of uw netwerk kan. Leg bij het gesprek schriftelijk vast waarom dat in uw situatie niet volstaat en vraag om een beschikking met motivering; alleen daartegen kunt u bezwaar maken. Neem een onafhankelijke cliëntondersteuner van MEE of een vertrouwenspersoon van Jeugdstem mee. Vraag bij een verwijzing van de huisarts meteen of de gemeente de verwijzing al heeft goedgekeurd en wat de wachttijd bij de aanbieder is. Duurt het te lang, dan is een klacht bij het team of de gemeente vaak sneller dan bezwaar.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Gemeente toetst verwijzingen van artsen sinds februari 2026 aan afwegingskader",
+        "samenvatting": "Op de pagina met veelgestelde vragen over de Verordening Jeugdhulp 2025 meldt de gemeente dat zij sinds 16 februari 2026 werkt met een afwegingskader en beoordelingsmatrix voor verzoeken om toewijzing met een medische verwijzing. Van ouders wordt verwacht dat zij zelf bijdragen aan de oplossing en dat het netwerk wordt ingezet; waar dat niet kan, is een goede onderbouwing nodig. De pgb-voorwaarden zijn aangescherpt: alleen hulpverleners die aan kwaliteitseisen voldoen mogen via een pgb werken. De gemeente streeft ernaar binnen 8 weken na ontvangst van een zorginhoudelijke onderbouwing gemotiveerd te reageren op verzoeken die van de norm afwijken. De gemeenteraad stemde op 27 november 2025 in met de wijziging van de verordening, ingegaan op 1 januari 2026.",
+        "datum": "2026-02-16",
+        "bron": {
+          "titel": "Gemeente Breda – Verordening Jeugdhulp 2025: veelgestelde vragen",
+          "url": "https://www.breda.nl/verordening-jeugdhulp-2025-veelgestelde-vragen"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "WIJS! Breda neemt toegang in Zuidwest over van het CJG; hele stad in 2027",
+        "samenvatting": "BredaNu meldt dat WIJS! Breda, dat sinds 2025 in Noordwest werkt, per januari 2026 ook Breda Zuidwest bedient en daar het Centrum voor Jeugd en Gezin vervangt. Een multidisciplinair team van jeugdwerkers, maatschappelijk werkers en pedagogen bepaalt per gezin welke hulp past; gezinnen krijgen één vast aanspreekpunt. Nieuwe wijklocaties openen in februari en maart 2026. Volgens de gemeente wordt WIJS! Breda vanaf 2027 voor de hele stad ingezet. Op de eigen website meldt WIJS! Breda dat de wachttijd tot een gesprek kan oplopen tot enkele maanden.",
+        "datum": "2026-01-11",
+        "bron": {
+          "titel": "BredaNu – WIJS! Breda breidt ondersteuning voor gezinnen uit naar nieuwe wijken",
+          "url": "https://bredanu.nl/nieuws/wijs-breda-breidt-ondersteuning-voor-gezinnen-uit-naar-zuidwest/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Begroting 2026: extra geld voor gestegen jeugdzorgkosten, tekorten verwacht vanaf 2028",
+        "samenvatting": "In de begroting 2026 (programma Vitaal en Sociaal Breda, thema Opgroeien) trekt de gemeente extra geld uit voor gestegen jeugdzorgkosten, omdat de rijksbijdrage onvoldoende meegroeit. De gemeente verwacht in 2026 een tekort op jeugdhulp dat zonder ingrijpen van het Rijk vanaf 2028 structureel kan worden. In 2024 kregen volgens de gecorrigeerde realisatie 5.030 jeugdigen van 0 tot 17 jaar jeugdhulp. De gemeente zet in op Stevige Lokale Teams en bereidt in 2026 de inkoop daarvan voor de hele stad per 1 januari 2027 voor.",
+        "datum": "2025-10",
+        "bron": {
+          "titel": "Gemeente Breda – Begroting 2026, programma Vitaal en Sociaal Breda",
+          "url": "https://breda.begrotingsapp.nl/begroting-2026/programma/vitaal-en-sociaal-breda"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Historie: Breda kondigt forse bezuinigingen op jeugdzorg en Wmo aan",
+        "samenvatting": "Nationale Zorggids meldde in juli 2024 dat Breda in 2025 bezuinigt op jeugdzorg en vanaf 2026 minder geld van het Rijk ontvangt, waardoor op jeugdzorg en Wmo samen fors moet worden bespaard. De uitgaven aan jeugdzorg stegen tussen 2019 en 2023 flink; een op de acht Bredase jongeren kreeg jeugdhulp. De gemeente wilde de toegang strenger maken door meer nadruk op eigen verantwoordelijkheid en het eigen netwerk.",
+        "datum": "2024-07-17",
+        "bron": {
+          "titel": "Nationale Zorggids – Breda gaat flink bezuinigen op de jeugdzorg",
+          "url": "https://www.nationalezorggids.nl/jeugdzorg/breda-gaat-flink-bezuinigen-op-de-jeugdzorg/"
+        }
+      }
+    ],
+    "laatstBijgewerkt": "2026-10-13",
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "De gemeente laat door ZorgfocuZ doorlopend een cliëntonderzoek Jeugdwet uitvoeren (ansichtkaart bij de beschikking en bij afsluiting van de hulp), met jaarlijks een factsheet. Op open.breda.nl staan alleen de Wmo-cliëntervaringsonderzoeken; een factsheet of rapport Jeugd is op de gemeentesite en in het raadsinformatiesysteem niet gevonden.",
+        "url": "https://open.breda.nl/resultaten-van-onderzoeken"
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Geen doorlooptijden of wachttijden van de toegang gepubliceerd. Wel bekend: WIJS! Breda reageert binnen 5 werkdagen en CJG Breda binnen 10 werkdagen, WIJS! Breda meldt dat de wachttijd tot een gesprek enkele maanden kan zijn, en de gemeente beslist uiterlijk 8 weken na een ondertekende aanvraag.",
+        "url": "https://wijsbreda.nl/"
+      },
+      "aandeelHuisarts": {
+        "percentage": 52,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    }
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-11",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Breda – Ondersteuning bij opvoeden en opgroeien",
+        "url": "https://www.breda.nl/ondersteuning-bij-opvoeden-en-opgroeien",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Specialistische jeugdhulp",
+        "url": "https://www.breda.nl/specialistische-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Verordening Jeugdhulp 2025: veelgestelde vragen",
+        "url": "https://www.breda.nl/verordening-jeugdhulp-2025-veelgestelde-vragen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Klacht over jeugdhulp",
+        "url": "https://www.breda.nl/klacht-over-jeugdhulp",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Klacht indienen",
+        "url": "https://www.breda.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Commissie Ombudsman",
+        "url": "https://www.breda.nl/ombudsman",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Bezwaar maken werk, inkomen en zorg",
+        "url": "https://www.breda.nl/bezwaarschrift-indienen-sociaal-domein",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Tarieven jeugdhulp persoonsgebonden budget (pgb)",
+        "url": "https://www.breda.nl/tarieven-jeugdhulp-persoonsgebonden-budget-pgb",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Begroting 2026, Vitaal en Sociaal Breda",
+        "url": "https://breda.begrotingsapp.nl/begroting-2026/programma/vitaal-en-sociaal-breda",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Breda – Resultaten van onderzoeken",
+        "url": "https://open.breda.nl/resultaten-van-onderzoeken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Breda – Contact",
+        "url": "https://www.cjgbreda.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Breda – Klachtenregeling",
+        "url": "https://www.cjgbreda.nl/over/klachtenregeling/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Breda – Bezwaar en beroep",
+        "url": "https://www.cjgbreda.nl/over/bezwaar-en-beroep/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Breda – Vertrouwenspersoon",
+        "url": "https://www.cjgbreda.nl/over/vertrouwenspersoon/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Breda – WIJS! Breda",
+        "url": "https://www.cjgbreda.nl/wijs-breda/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJS! Breda – Home",
+        "url": "https://wijsbreda.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJS! Breda – Over WIJS! Breda",
+        "url": "https://wijsbreda.nl/over-wijs-breda/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "WIJS! Breda – Klachten",
+        "url": "https://wijsbreda.nl/klachten/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE West-Brabant – Onafhankelijke cliëntondersteuning",
+        "url": "https://meewestbrabant.nl/voor-inwoners-clienten/onafhankelijke-clientondersteuning/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE West-Brabant – MEE in gemeente Breda",
+        "url": "https://meewestbrabant.nl/mee-in-jouw-gemeente/werkgebied/mee-west-brabant-in-gemeente-breda/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis West-Brabant – Contact",
+        "url": "https://veiligthuiswb.nl/over-veilig-thuis/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regio West-Brabant Oost – Jeugdhulpaanbieders",
+        "url": "https://regiowbo.nl/jeugdhulpaanbieders/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RSV Breda e.o. – Over ons (PO)",
+        "url": "https://www.rsvbreda.nl/po/over-ons/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Zorg voor elkaar Breda",
+        "url": "https://zorgvoorelkaarbreda.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "NVA – Lotgenotencontact AIC Breda",
+        "url": "https://www.autisme.nl/agenda/lotgenotencontact-aic-breda/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "BredaNu – WIJS! Breda breidt ondersteuning voor gezinnen uit naar nieuwe wijken",
+        "url": "https://bredanu.nl/nieuws/wijs-breda-breidt-ondersteuning-voor-gezinnen-uit-naar-zuidwest/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Surplus – WIJS! Breda Zuidwest is gestart",
+        "url": "https://surplus.nl/over-surplus/nieuws/wijs-breda-zuidwest-is-gestart/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale Zorggids – Breda gaat flink bezuinigen op de jeugdzorg",
+        "url": "https://www.nationalezorggids.nl/jeugdzorg/breda-gaat-flink-bezuinigen-op-de-jeugdzorg/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Nationale ombudsman – Gemeente Breda (eigen ombudsvoorziening)",
+        "url": "https://www.nationaleombudsman.nl/overheidsinstanties/gemeente-breda",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "ZorgfocuZ – Cliëntonderzoek Jeugdwet gemeente Breda",
+        "url": "https://www.zorgfocuz.nl/cases/clientonderzoek-jeugdwet/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED – Jeugdhulptrajecten in natura; verwijzer, regio",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GGD West-Brabant: Contact (nummer jeugdgezondheidszorg)",
+        "url": "https://www.ggdwestbrabant.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RSV Breda e.o. PO: Contact",
+        "url": "https://www.rsvbreda.nl/po/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RSV Breda e.o. VO: Contact",
+        "url": "https://www.rsvbreda.nl/vo/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt RSV Breda: Contact",
+        "url": "https://www.ouderjeugdsteunpuntrsvbreda.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      }
+    ],
+    "opmerkingen": "Let op: toegang in overgang (WIJS! Breda per wijk, CJG Breda voor de rest); postcodelijst opnieuw controleren rond 1 januari 2027. Nog open: cliëntervaringsonderzoek Jeugd (ZorgfocuZ-factsheets niet online), doorlooptijden. CBS 2025 toont veel minder begonnen trajecten dan 2024, mogelijk onvolledige aanlevering."
+  }
+}

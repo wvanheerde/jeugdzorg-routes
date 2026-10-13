@@ -1,0 +1,440 @@
+{
+  "naam": "Zoeterwoude",
+  "cbsCode": "GM0638",
+  "provincie": "Zuid-Holland",
+  "jeugdzorgregio": "Holland Rijnland",
+  "websiteJeugd": "https://www.zoeterwoude.nl/zorg-en-hulpvragen/jeugd-en-onderwijs/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Zoeterwoude vraagt u hulp bij het Jeugdteam. Dat hoort bij Jeugdteams Leidse Regio, een stichting die ook voor Leiden, Leiderdorp en Oegstgeest werkt. Het team voor Zoeterwoude zit in Leiderdorp. U meldt zich zelf aan. Een verwijzing is niet nodig. Het Jeugdteam kan zelf hulp geven of specialistische hulp inzetten, ook via een pgb (persoonsgebonden budget). De huisarts mag ook rechtstreeks verwijzen. Bij het Centrum voor Jeugd en Gezin (CJG) krijgt u gratis opvoedadvies. Daar zit ook de jeugdgezondheidszorg. Sinds 1 september 2026 kijkt de gemeente eerst naar wat u en uw netwerk zelf kunnen. Hoe lang het duurt voordat het Jeugdteam met u in gesprek gaat, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Jeugdteam Leiderdorp en Zoeterwoude (Jeugdteams Leidse Regio)",
+        "omschrijving": "Het Jeugdteam helpt bij zorgen over de ontwikkeling van uw kind, over opvoeden of over problemen thuis of op school. U krijgt één vaste contactpersoon. Het team kan zelf hulp geven, u naar lichtere hulp verwijzen of specialistische hulp inzetten. U kunt zich zelf aanmelden. Jongeren tot 18 jaar kunnen dat ook.",
+        "stappen": [
+          "Meld u aan bij het Jeugdteam, online of per telefoon.",
+          "Bespreek in een gesprek wat er speelt en wat u nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE.",
+          "Vraag na het gesprek om een schriftelijk verslag en een ondersteuningsplan (een plan met de afspraken over de hulp).",
+          "Is specialistische hulp nodig? Dan legt de gemeente dat vast in een besluit (beschikking). De gemeente moet binnen acht weken beslissen. Bent u het er niet mee eens? Dan kunt u bezwaar maken."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdteam Leiderdorp en Zoeterwoude (Jeugdteams Leidse Regio)",
+            "telefoon": "071 204 1088",
+            "email": "contact@jeugdteamslr.nl",
+            "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiderdorp-en-zoeterwoude/",
+            "adres": "Sterrentuin, Van Diepeningenlaan 110, Leiderdorp"
+          }
+        ]
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. De jeugdarts werkt bij de jeugdgezondheidszorg van het CJG. Voor vragen over opvoeden kunt u zonder verwijzing bij het CJG terecht.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract, of vraag of het Jeugdteam kan meekijken.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Centrum voor Jeugd en Gezin (CJG) Zoeterwoude: jeugdgezondheidszorg",
+          "telefoon": "088 254 23 84",
+          "url": "https://www.cjgzoeterwoude.nl/pagina/contact/613554",
+          "openingstijden": "Telefonisch ma t/m vr 8.00–16.00 uur. Advies van een jeugdverpleegkundige: ma t/m vr 8.30–12.30 uur (kies 1 in het keuzemenu)"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Elke school in de regio heeft een vaste contactpersoon van een Jeugdteam. Die denkt mee met school, uw kind en u. Komt u er met school niet uit? Dan geeft het steunpunt van het samenwerkingsverband passend onderwijs gratis advies. Basisonderwijs en voortgezet onderwijs hebben elk een eigen samenwerkingsverband.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de contactpersoon van het Jeugdteam kan meekijken, of meld u zelf aan bij het Jeugdteam.",
+          "Komt u er met school niet uit? Vraag advies bij het steunpunt van het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdteam Leiderdorp en Zoeterwoude (Jeugdteams Leidse Regio)",
+            "telefoon": "071 204 1088",
+            "email": "contact@jeugdteamslr.nl",
+            "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiderdorp-en-zoeterwoude/",
+            "adres": "Sterrentuin, Van Diepeningenlaan 110, Leiderdorp"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt samenwerkingsverband passend onderwijs PO regio Leiden (basisonderwijs)",
+            "email": "oudersteunpunt@pporegioleiden.nl",
+            "url": "https://www.pporegioleiden.nl/ouders/",
+            "openingstijden": "U wordt binnen twee werkdagen teruggebeld. In de schoolvakantie gebeurt dat na de vakantie"
+          },
+          {
+            "naam": "Steunpunt samenwerkingsverband voortgezet passend onderwijs regio Leiden (voortgezet onderwijs)",
+            "email": "steunpunt@swvleiden.nl",
+            "url": "https://swvleiden.nl/?page_id=253"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina Meldpunt Veilig Thuis van de gemeente staat wat u kunt doen bij zorgen over een kind of bij huiselijk geweld.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Lees op de pagina Meldpunt Veilig Thuis van de gemeente Zoeterwoude wat u kunt doen."
+        ],
+        "contact": {
+          "naam": "Gemeente Zoeterwoude: meldpunt Veilig Thuis",
+          "url": "https://www.zoeterwoude.nl/inwoners/jeugd-en-onderwijs/veilig-thuis"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Zuid-Holland Noord",
+      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. De cliëntondersteuners van MEE gaan mee naar gesprekken met het Jeugdteam of de gemeente. Ze helpen bij een aanvraag, en als u het niet eens bent met een besluit. De gemeente moet u op dit recht wijzen als zij uw aanvraag bevestigt. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "088 775 2000",
+      "email": "info@meezhn.nl",
+      "url": "https://www.meezhn.nl/mee-in-jouw-gemeente/zoeterwoude",
+      "openingstijden": "Servicepunt telefonisch werkdagen 9.00–13.00 uur"
+    },
+    "klacht": {
+      "naam": "Klacht over het Jeugdteam",
+      "toelichting": "Bespreek het eerst met uw hulpverlener of de teammanager. Lukt dat niet, of durft u het gesprek niet aan? Dan helpt de klachtencoördinator van Jeugdteams Leidse Regio. U mag altijd iemand meenemen. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken. Gaat het om de gemeente zelf, dan dient u een klacht in bij de gemeente.",
+      "url": "https://www.jeugdteamsleidseregio.nl/tevreden",
+      "email": "bezwaar-klacht@jeugdteamslr.nl",
+      "extern": {
+        "naam": "Klachtencommissie Jeugdhulp Zuid-Holland (onafhankelijk; als u de afhandeling door het Jeugdteam niet vertrouwt)",
+        "url": "https://www.jeugdteamsleidseregio.nl/wp-content/uploads/2025/07/Informatie-Klachtencommissie-Jeugdhulp-Zuid-Holland.pdf"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp kan alleen per brief, niet per e-mail. Stuur de brief aan de gemeente Zoeterwoude, Postbus 34, 2380 AA Zoeterwoude, of geef hem af op het gemeentehuis. Zet erin: uw naam en adres, de datum, tegen welk besluit u bezwaar maakt en waarom. Zet uw handtekening eronder en stuur een kopie van het besluit mee.",
+      "url": "https://www.zoeterwoude.nl/gemeenteraad-en-bestuur/beleid-en-regelgeving/bezwaar-of-beroep-indienen"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is alleen mogelijk als hulp van een aanbieder met een contract niet past. U maakt een pgb-plan en moet het budget zelf kunnen beheren. Hulp van iemand uit uw netwerk kan alleen voor dagbesteding en begeleiding. De gemeente kan daarvan afwijken in het belang van het kind. De gemeente betaalt het pgb aan de Sociale Verzekeringsbank (SVB), die de hulpverlener betaalt. Het bedrag volgt uit de tarieven van de gemeente. Vraag het Jeugdteam om uitleg. De voorwaarden staan in de Verordening Jeugdhulp Zoeterwoude 2026.",
+      "url": "https://www.zoeterwoude.nl/inwoners/jeugd-en-onderwijs/persoonsgebonden-budget-pgb-jeugd"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Niet in dienst van het Jeugdteam of de gemeente.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u bij het CJG Zoeterwoude en het Jeugdteam, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Zoeterwoude samen met de andere gemeenten van jeugdregio Holland Rijnland in. Welke aanbieders er zijn en hoe lang de wachttijden zijn, ziet u op de Beschikbaarheidswijzer van de regio. Die is openbaar, zonder inloggen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
+    "categorieen": [
+      {
+        "naam": "Opvoedondersteuning en jeugdgezondheidszorg",
+        "omschrijving": "Via het CJG Zoeterwoude: opvoedadvies, pedagogisch advies, cursussen en de jeugdgezondheidszorg, zonder verwijzing.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Hulp van het Jeugdteam",
+        "omschrijving": "Ambulante hulp (hulp aan huis of op school) door het Jeugdteam, en trainingen voor kinderen.",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, jeugd-ggz, dagbesteding, dyslexiezorg en verblijf. De regio koopt deze hulp in.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz",
+          "dagbesteding",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Sociaal Team Zoeterwoude",
+      "soort": "informatiepunt",
+      "omschrijving": "Eén aanspreekpunt voor vragen over opvoeding, gezondheid, werk en inkomen. In het team werken de gemeente, maatschappelijk werk, MEE, het Jeugdteam en vrijwilligers samen.",
+      "themas": [
+        "opvoeden",
+        "opgroeien"
+      ],
+      "url": "https://www.zoeterwoude.nl/zorg-en-hulpvragen/webpagina-sociaal-team"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Aanmelden bij het Jeugdteam",
+      "omschrijving": "Digitaal aanmeldformulier van Jeugdteams Leidse Regio.",
+      "url": "https://www.mijnjtlr.nl/public#!form/aanmelding_leidse_regio",
+      "nodig": "Gegevens van uw kind en kort uw hulpvraag"
+    },
+    {
+      "naam": "Klacht over het Jeugdteam",
+      "omschrijving": "Uitleg en mailadres van de klachtencoördinator, en de weg naar de klachtencommissie.",
+      "url": "https://www.jeugdteamsleidseregio.nl/tevreden"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "omschrijving": "Alleen per brief.",
+      "url": "https://www.zoeterwoude.nl/gemeenteraad-en-bestuur/beleid-en-regelgeving/bezwaar-of-beroep-indienen",
+      "nodig": "Het besluit bij de hand"
+    },
+    {
+      "naam": "Beschikbaarheidswijzer Holland Rijnland",
+      "omschrijving": "Aanbieders en wachttijden in de regio. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Sinds 1 september 2026 kijkt de gemeente eerst naar wat u en uw netwerk zelf kunnen, en naar lichte hulp. Begeleiding bij sport wordt niet meer vergoed en voor een pgb gelden strengere regels. Het Jeugdteam haalde in 2022 en 2023 bij ongeveer de helft van de aanmeldingen de eigen norm van tien werkdagen tot het eerste gesprek. Lange wachtlijsten bij specialistische hulp geven de teams veel extra werk.\n\nVraag bij uw aanmelding hoe lang het duurt en wie uw vaste contactpersoon is. Vraag om een schriftelijk verslag en ondersteuningsplan, en neem gratis een cliëntondersteuner van MEE mee. Bent u het niet eens met een besluit? Maak dan schriftelijk bezwaar. Bent u ontevreden over het Jeugdteam, mail dan de klachtencoördinator.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe regels: eerst kijken wat het gezin zelf kan",
+        "samenvatting": "Sinds 1 september 2026 geldt een nieuwe verordening jeugdhulp. U krijgt alleen hulp van de gemeente als u zelf, ook met hulp van uw netwerk, geen oplossing vindt. Individuele begeleiding bij sport wordt niet vergoed; de gemeente beslist binnen acht weken op een aanvraag.",
+        "datum": "2026-06-25",
+        "bron": {
+          "titel": "Verordening Jeugdhulp Zoeterwoude 2026 (artikel 2.3, 4.5 en 5.2)",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR763733/1"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Voorwaarden voor een pgb in de verordening",
+        "samenvatting": "Een pgb krijgt u alleen als hulp van een aanbieder met een contract niet past en u het budget goed kunt beheren. Hulp van mensen uit uw netwerk kan alleen voor dagbesteding en begeleiding, tenzij de gemeente anders besluit in het belang van het kind.",
+        "datum": "2026-06-25",
+        "bron": {
+          "titel": "Verordening Jeugdhulp Zoeterwoude 2026 (artikel 7.1 tot 7.4)",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR763733/1"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe maximumtarieven pgb vanaf 2026",
+        "samenvatting": "Vanaf 1 januari 2026 gelden nieuwe, hogere maximumtarieven voor het pgb. Vraagt uw zorgaanbieder meer dan het maximum? Dan betaalt u het verschil zelf bij, via een vrijwillige storting bij de SVB. Vraag uw zorgaanbieder of uw pgb nog genoeg is.",
+        "datum": "2026-01",
+        "bron": {
+          "titel": "Gemeente Zoeterwoude: Persoonsgebonden budget (pgb) jeugd",
+          "url": "https://www.zoeterwoude.nl/inwoners/jeugd-en-onderwijs/persoonsgebonden-budget-pgb-jeugd"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Evaluatie van de Jeugdteams: gemengd beeld",
+        "samenvatting": "In 2022 kreeg 58% van de aanmeldingen binnen tien werkdagen een eerste gesprek, in 2023 53%; de norm is tien werkdagen. Wachtlijsten bij specialistische aanbieders geven de teams veel werk, ook met hulp om de wachttijd te overbruggen. In 2022 en 2023 is geen cliëntervaringsonderzoek gedaan.",
+        "datum": "2025-05-27",
+        "bron": {
+          "titel": "Evaluatierapport toegang tot jeugdhulp Leidse regio (KokxDeVoogd), bijlage bij raadsinformatiebrief",
+          "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showannex/gdb=00aa02800802802220808802916106d4/Bijlage_bij_RIB__Evaluatierapport_toegang_tot_jeugdhulp_KokxDeVoogd.pdf"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Toegang tot jeugdhulp verandert na juni 2028",
+        "samenvatting": "De gemeenten hebben de opdracht aan Jeugdteams Leidse Regio verlengd tot en met 30 juni 2028; daarna wordt die niet opnieuw verlengd. De gemeenten onderzoeken hoe de toegang er daarna uitziet. Tot die tijd blijft het Jeugdteam de plek om hulp te vragen.",
+        "datum": "2026-02-24",
+        "bron": {
+          "titel": "Raadsinformatiebrief: Stand van zaken en vervolgproces toekomstbestendige toegang jeugdzorg",
+          "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showdoc/gd=8a20aa022280020802a22080439891ea/RIB_Stand_van_zaken_en_vervolgproces_toekomstbestendige_toegang_Jeugdzorg.pdf"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Lange wachtlijsten bij specialistische jeugdhulp in de regio",
+        "samenvatting": "De gemeenten in Holland Rijnland schrijven dat de wachtlijsten voor specialistische jeugdhulp lang zijn en de werkdruk groot. Zij nemen samen maatregelen om de hulp op tijd beschikbaar te houden. Vraag het Jeugdteam naar de wachttijd en naar hulp in de tussentijd.",
+        "datum": "2026-01-13",
+        "bron": {
+          "titel": "Raadsinformatiebrief: update implementatie maatregelen Taskforce gespecialiseerde jeugdhulp Holland Rijnland",
+          "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showdoc/gd=02208a08a222200002a20008c98f20a6/Raadsinformatiebrief_Update_implementatie_maatregelen_Taskforce_gespecialiseerde_Jeugdhulp_Holland_Rijnland.pdf"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Meer vraag naar een pgb door aanbieders met een cliëntenstop",
+        "samenvatting": "Sommige aanbieders in de regio nemen geen nieuwe cliënten meer aan (een cliëntenstop). Daardoor kijken meer gezinnen naar een pgb, en de gemeente verwacht in 2026 meer aanvragen. Heeft de aanbieder een wachtlijst of cliëntenstop? Vraag het Jeugdteam dan naar de mogelijkheden.",
+        "datum": "2026-07-02",
+        "bron": {
+          "titel": "Staat van Zoeterwoude (Voorjaarsnota 2026), 2A.03",
+          "url": "https://zoeterwoude.qualigraf.nl/vji/public/agenda/agendaview/action=showdoc/pdc=2aaa882a8220208a08aaa20d0883ad22/Bijlage_1._Staat_van_Zoeterwoude_-_Voorjaarsnota_2026.pdf"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jeugdhulp bij ruim 11 op de 100 jongeren",
+        "samenvatting": "In 2024 kreeg 11,4 procent van de jongeren in Zoeterwoude jeugdhulp, volgens de programmabegroting 2026. Landelijk is dat 11 procent.",
+        "datum": "2025-10",
+        "bron": {
+          "titel": "Gemeente Zoeterwoude: Programmabegroting 2026-2029, programma Samenleving (2A.2 Jeugdhulp)",
+          "url": "https://www.zoeterwoude.nl/fileadmin/Zoeterwoude_bestanden/Gemeenteraad_en_bestuur/Begroting_en_jaarrekening/2025-10-16__Programmabegroting_2026-2029.pdf"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Het laatste regionale cliëntervaringsonderzoek jeugdhulp van Holland Rijnland is uit 2022. Een nieuwer onderzoek is niet openbaar te vinden. Het Jeugdteam vraagt cliënten ook zelf naar hun ervaring, maar die uitkomsten zijn niet openbaar te vinden."
+      },
+      "doorlooptijden": {
+        "status": "ja",
+        "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showannex/gdb=00aa02800802802220808802916106d4/Bijlage_bij_RIB__Evaluatierapport_toegang_tot_jeugdhulp_KokxDeVoogd.pdf",
+        "samenvatting": "De Jeugdteams Leidse Regio (Leiden, Leiderdorp, Oegstgeest en Zoeterwoude samen) meten hoeveel aanmeldingen binnen tien werkdagen een eerste gesprek krijgen: 58% in 2022 en 53% in 2023. Cijfers voor Zoeterwoude apart zijn niet openbaar te vinden. De gemeente moet binnen 8 weken beslissen over een aanvraag."
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Zoeterwoude: Jeugdhulp",
+        "url": "https://www.zoeterwoude.nl/zorg-en-hulpvragen/jeugd-en-onderwijs/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Centrum Jeugd en Gezin",
+        "url": "https://www.zoeterwoude.nl/inwoners/jeugd-en-onderwijs/centrum-jeugd-en-gezin",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Meldpunt Veilig Thuis",
+        "url": "https://www.zoeterwoude.nl/inwoners/jeugd-en-onderwijs/veilig-thuis",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Persoonsgebonden budget (pgb) jeugd",
+        "url": "https://www.zoeterwoude.nl/inwoners/jeugd-en-onderwijs/persoonsgebonden-budget-pgb-jeugd",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Sociaal Team",
+        "url": "https://www.zoeterwoude.nl/zorg-en-hulpvragen/webpagina-sociaal-team",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Bezwaar of beroep indienen",
+        "url": "https://www.zoeterwoude.nl/gemeenteraad-en-bestuur/beleid-en-regelgeving/bezwaar-of-beroep-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Klacht indienen",
+        "url": "https://www.zoeterwoude.nl/klacht-indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Begroting en jaarrekening",
+        "url": "https://www.zoeterwoude.nl/gemeenteraad-en-bestuur/het-college/begroting-en-jaarrekening",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Programmabegroting 2026-2029",
+        "url": "https://www.zoeterwoude.nl/fileadmin/Zoeterwoude_bestanden/Gemeenteraad_en_bestuur/Begroting_en_jaarrekening/2025-10-16__Programmabegroting_2026-2029.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Besluitenlijst collegevergadering 19 mei 2026",
+        "url": "https://www.zoeterwoude.nl/fileadmin/Zoeterwoude_bestanden/Gemeenteraad_en_bestuur/Besluitenlijst/2026/05_Mei/Besluitenlijst_Collegevergadering_20260519.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Lokale regelgeving: Verordening Jeugdhulp Zoeterwoude 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR763733/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Lokale regelgeving: Nadere Regels Jeugdhulp Zoeterwoude 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR767756/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio: contact Leiderdorp en Zoeterwoude",
+        "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiderdorp-en-zoeterwoude/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio: Hulp nodig?",
+        "url": "https://www.jeugdteamsleidseregio.nl/hoe-werkt-het/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio: Hoe tevreden ben je? (klacht)",
+        "url": "https://www.jeugdteamsleidseregio.nl/tevreden",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio: Verantwoording",
+        "url": "https://www.jeugdteamsleidseregio.nl/verantwoording/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CJG Zoeterwoude: contact",
+        "url": "https://www.cjgzoeterwoude.nl/pagina/contact/613554",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Zuid-Holland Noord: Zoeterwoude",
+        "url": "https://www.meezhn.nl/mee-in-jouw-gemeente/zoeterwoude",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Zuid-Holland Noord: contact",
+        "url": "https://www.meezhn.nl/contact/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt PPO regio Leiden",
+        "url": "https://www.pporegioleiden.nl/ouders/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "SWV VO regio Leiden: informatie en advies",
+        "url": "https://swvleiden.nl/?page_id=253",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland: Beschikbaarheidswijzer",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/beschikbaarheidswijzer/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine - Jeugdhulptrajecten in natura; verwijzer, regio",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Evaluatierapport toegang tot jeugdhulp Leidse regio (KokxDeVoogd)",
+        "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showannex/gdb=00aa02800802802220808802916106d4/Bijlage_bij_RIB__Evaluatierapport_toegang_tot_jeugdhulp_KokxDeVoogd.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Raadsinformatiebrief toekomstbestendige toegang jeugdzorg",
+        "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showdoc/gd=8a20aa022280020802a22080439891ea/RIB_Stand_van_zaken_en_vervolgproces_toekomstbestendige_toegang_Jeugdzorg.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Raadsinformatiebrief update Taskforce gespecialiseerde jeugdhulp",
+        "url": "https://zoeterwoude.qualigraf.nl/vji/public/bestuursdocument/action=showdoc/gd=02208a08a222200002a20008c98f20a6/Raadsinformatiebrief_Update_implementatie_maatregelen_Taskforce_gespecialiseerde_Jeugdhulp_Holland_Rijnland.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Staat van Zoeterwoude (Voorjaarsnota 2026)",
+        "url": "https://zoeterwoude.qualigraf.nl/vji/public/agenda/agendaview/action=showdoc/pdc=2aaa882a8220208a08aaa20d0883ad22/Bijlage_1._Staat_van_Zoeterwoude_-_Voorjaarsnota_2026.pdf",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Zoeterwoude: Staat van Zoeterwoude (Kaderbrief 2027-2030)",
+        "url": "https://zoeterwoude.qualigraf.nl/vji/public/agenda/agendaview/action=showdoc/pdc=2aa0008820a2020208aa80858a092705/Bijlage_1._Staat_van_Zoeterwoude_-_Kaderbrief_2027-2030.pdf",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Jaarstukken 2025 en begroting 2027 nog niet in de raadsinformatie; gelezen zijn begroting 2026, Voorjaarsnota en Kaderbrief 2027-2030. Wachttijdcijfers zijn van de Jeugdteams Leidse Regio samen (2022-2023); regionale journalistiek niet doorzocht; Beschikbaarheidswijzer holland-rijnland heeft lege gemeentelijst, maar SOZ noemt Zoeterwoude. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+  }
+}

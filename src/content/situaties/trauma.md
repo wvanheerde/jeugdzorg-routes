@@ -1,0 +1,44 @@
+---
+titel: "Trauma"
+herkenning: "Mijn kind heeft iets ergs meegemaakt (geweld, misbruik, een ongeluk, een vechtscheiding) en is sindsdien anders: bang, boos, teruggetrokken of slaapt slecht."
+samenvatting: "Veel kinderen herstellen na een ingrijpende gebeurtenis met steun van de mensen om hen heen. Houden de klachten langer dan een maand aan, of worden ze erger? Dan is behandeling nodig. En die behandeling is effectief. Aanbevolen zijn traumagerichte cognitieve gedragstherapie en EMDR. Wacht daar niet mee."
+themas: [trauma, seksueel geweld, kindermishandeling, huiselijk geweld, veiligheid, verlies, rouw]
+hulpsoorten: [behandeling-jeugd-ggz, ambulante-begeleiding, opvoedondersteuning, crisishulp]
+routes:
+  - type: huisarts
+    waarom: "De huisarts of jeugdarts verwijst direct naar de jeugd-GGZ voor traumabehandeling. Vraag duidelijk naar een behandelaar met ervaring in traumagerichte cognitieve gedragstherapie of EMDR bij kinderen."
+  - type: wijkteam
+    waarom: "Als wat er gebeurde in het gezin speelt, zoals geweld of een scheiding. Of als het gezin steun nodig heeft naast de behandeling van het kind. Het wijkteam kan ook letten op de veiligheid thuis."
+  - type: spoed
+    waarom: "Bij recent seksueel geweld: het Centrum Seksueel Geweld (0800-0188) biedt binnen zeven dagen medische, psychische en forensische hulp op één plek. Bij acute onveiligheid: Veilig Thuis 0800-2000."
+landelijk: [02-toegang, 03-rechten]
+regelingen:
+  - naam: "Slachtofferhulp en aangifte"
+    toelichting: "Is uw kind slachtoffer van een misdrijf? Dan begeleidt Slachtofferhulp Nederland u gratis bij de aangifte, de strafzaak en een schadevergoeding (Schadefonds Geweldsmisdrijven). U hoeft geen aangifte te doen om hulp te krijgen."
+    url: https://www.slachtofferhulp.nl/
+  - naam: "Toestemming van beide ouders"
+    toelichting: "Hebben beide ouders samen het gezag? Dan is voor behandeling toestemming van allebei nodig. Ook als een van hen de oorzaak van het trauma is. Weigert die ouder? Dan kan de rechter vervangende toestemming geven. Bij spoed mag de behandelaar ook zonder toestemming beginnen."
+volgorde: 19
+status: concept
+laatstGecontroleerd: "2026-10-12"
+bronnen:
+  - titel: "Zorgstandaard Psychotrauma- en stressorgerelateerde stoornissen"
+    url: https://www.ggzstandaarden.nl/zorgstandaarden/psychotrauma-en-stressorgerelateerde-stoornissen/
+    geraadpleegd: "2026-10-10"
+  - titel: "NJi – Toewerken naar herstel na kindermishandeling"
+    url: https://www.nji.nl/kennis/kindermishandeling/toewerken-naar-herstel-na-kindermishandeling
+    geraadpleegd: "2026-10-10"
+---
+
+## Wat helpt vaak
+
+- **Veiligheid en voorspelbaarheid eerst.** Behandeling werkt pas als de situatie veilig is. Is de oorzaak van het trauma er nog? Dan moet daar eerst iets aan gebeuren, via Veilig Thuis of het wijkteam.
+- **Traumagerichte behandeling.** De zorgstandaard beveelt traumagerichte cognitieve gedragstherapie of EMDR aan. Die zijn ook geschikt voor jonge kinderen. Vraag ernaar bij de verwijzing. <sup><a class="bron" href="https://www.ggzstandaarden.nl/zorgstandaarden/psychotrauma-en-stressorgerelateerde-stoornissen/" target="_blank" rel="noopener">bron</a></sup>
+- **Ouders doen mee.** Herstel gebeurt voor een groot deel thuis. Goede behandelaars betrekken ouders bij de behandeling. Ze leggen uit hoe u thuis reageert op angst, boosheid of nachtmerries. <sup><a class="bron" href="https://www.nji.nl/kennis/kindermishandeling/toewerken-naar-herstel-na-kindermishandeling" target="_blank" rel="noopener">bron</a></sup>
+- **Steun voor uzelf.** Een kind met trauma is zwaar voor ouders. Zeker als u zelf ook iets heeft meegemaakt. Slachtofferhulp en de huisarts zijn er ook voor u.
+
+## Waar het vaak misgaat
+
+- **"Praat er maar niet over."** Vermijden lijkt te beschermen, maar houdt de klachten in stand. Rustig praten over wat er is gebeurd, helpt. Gebruik woorden die passen bij de leeftijd van uw kind.
+- **Trauma wordt aangezien voor ADHD of gedragsproblemen.** Snel geïrriteerd zijn, moeite met concentreren en boosheid kunnen ook reacties op trauma zijn. Noem bij elk onderzoek wat uw kind heeft meegemaakt.
+- **Wachten op de strafzaak.** Behandeling hoeft niet te wachten op een aangifte of rechtszaak. Bespreek met de behandelaar hoe die twee samengaan.

@@ -1,0 +1,420 @@
+{
+  "naam": "Hattem",
+  "cbsCode": "GM0244",
+  "provincie": "Gelderland",
+  "websiteJeugd": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin",
+  "toegang": {
+    "samenvatting": "In Hattem is het Centrum voor Jeugd en Gezin (CJG) de plek voor vragen over opvoeden en opgroeien én de toegang tot jeugdhulp. De jeugdconsulenten van het CJG onderzoeken uw vraag, maken met u een gezinsplan en regelen zo nodig hulp bij een aanbieder met een contract. U meldt zich zelf aan, een verwijzing is niet nodig. De huisarts mag ook rechtstreeks verwijzen. Sinds april 2026 werkt de toegang met een wachtlijst, omdat er meer aanmeldingen zijn. De gemeente noemde toen een wachttijd van ongeveer vier weken. Urgente en crisissituaties gaan voor.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Centrum voor Jeugd en Gezin (CJG) Hattem, loket 0-100",
+        "omschrijving": "Het CJG is het toegangsteam voor jeugdhulp. Jeugdconsulenten onderzoeken uw vraag en regelen zo nodig jeugdhulp. Het CJG biedt ook zelf lichte hulp, zoals het opvoedadviesbureau (ongeveer vijf gesprekken met een orthopedagoog) en schoolmaatschappelijk werk. U meldt zich zelf aan, een verwijzing is niet nodig. Sinds april 2026 geldt er een wachtlijst voor nieuwe aanmeldingen.",
+        "stappen": [
+          "Loop binnen bij het CJG tijdens de inloop, bel of mail. U kunt ook het online afsprakenformulier invullen.",
+          "Vraag bij uw aanmelding hoe lang het duurt tot een jeugdconsulent contact opneemt. Meld erbij als het urgent is: dan gaat uw aanvraag voor.",
+          "Bespreek uw vraag met een jeugdconsulent. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Maak samen een gezinsplan als meer hulp nodig is. De jeugdconsulent regelt de hulp bij een aanbieder met een contract.",
+          "Vraag na het gesprek om een schriftelijk verslag en, bij hulp met een besluit, om een beschikking."
+        ],
+        "contact": {
+          "naam": "Centrum voor Jeugd en Gezin (CJG) Hattem",
+          "telefoon": "038 844 6100",
+          "email": "infocjg@hattem.nl",
+          "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Contact/Contact_en_openingstijden",
+          "adres": "MFC De Marke, Daendelsweg 2, Hattem",
+          "openingstijden": "Inloop zonder afspraak dinsdag, donderdag en vrijdag 9.00–12.00 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij de huisartsen in Hattem houdt een medewerker van het CJG spreekuur voor vragen over opvoeding, school, puberteit en scheiding. De jeugdgezondheidszorg is er voor kinderen van 0 tot 4 jaar (consultatiebureau) en van 4 tot 18 jaar.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag of de huisarts u naar het CJG stuurt of direct verwijst naar een aanbieder met een contract.",
+          "Doe zelf geen aanvraag: de aanbieder meldt de start van de hulp bij de gemeente."
+        ],
+        "contact": [
+          {
+            "naam": "Consultatiebureau Vérian Hattem (0 tot 4 jaar)",
+            "telefoon": "088 126 3126",
+            "email": "jgzhattem@verian.nl",
+            "url": "https://verian.nl/contact-jeugdgezondheidszorg/",
+            "adres": "Daendelsweg 2a, Hattem"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg GGD Noord- en Oost-Gelderland (4 tot 18 jaar)",
+            "telefoon": "088 443 3000",
+            "email": "ggd@ggdnog.nl",
+            "url": "https://www.ggdnog.nl/jeugdgezondheidszorg-in-de-regio"
+          }
+        ]
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Het schoolmaatschappelijk werk is onderdeel van het CJG en helpt bij pesten, problemen op school of thuis en bij scheiding. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband Hanzeland gratis advies over passend onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Meld uw kind aan bij het schoolmaatschappelijk werk van het CJG, of vraag school dat samen met u te doen.",
+          "Is meer hulp nodig, dan schakelt het CJG een jeugdconsulent in.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Centrum voor Jeugd en Gezin (CJG) Hattem",
+            "telefoon": "038 844 6100",
+            "email": "infocjg@hattem.nl",
+            "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Contact/Contact_en_openingstijden",
+            "adres": "MFC De Marke, Daendelsweg 2, Hattem",
+            "openingstijden": "Inloop zonder afspraak dinsdag, donderdag en vrijdag 9.00–12.00 uur"
+          },
+          {
+            "naam": "Samenwerkingsverband passend onderwijs Hanzeland (Ouder- en jeugdsteunpunt)",
+            "email": "steunpunt@swv-hanzeland.nl",
+            "url": "https://swv-hanzeland.nl/ouder-en-jeugdsteunpunt/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke spoedhulp er verder is, ook buiten kantoortijden, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor spoedhulp voor de jeugd op de contactpagina jeugd en gezin van de gemeente, onder Spoedhulp buiten kantoortijden."
+        ],
+        "contact": {
+          "naam": "Gemeente Hattem: spoedhulp buiten kantoortijden (jeugd en gezin)",
+          "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Contact/Contact_en_openingstijden"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Samen",
+      "toelichting": "Gratis, onafhankelijk en zonder verwijzing. MEE Samen gaat mee naar het gesprek met het CJG of de gemeente, helpt bij een aanvraag en bij bezwaar tegen een besluit. U kunt zich ook via de gemeente laten aanmelden. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "088 633 0633",
+      "email": "info@meesamen.nl",
+      "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/hattem"
+    },
+    "klacht": {
+      "naam": "Klacht over de gemeente en de jeugdconsulenten van het CJG",
+      "toelichting": "De jeugdconsulenten werken voor de gemeente. Een klacht over hun gedrag dient u in bij het college van burgemeester en wethouders. Dat kan online met DigiD of per brief aan Postbus 93, 8050 AB Hattem. Houdt u uw klacht vol, dan beoordeelt een onafhankelijke klachtenfunctionaris de klacht en geeft het college advies. Het college besluit uiterlijk 10 weken na ontvangst. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Ook een vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "url": "https://www.hattem.nl/Bestuur_en_organisatie/Bezwaar_en_beroep_zienswijzen_en_klachten/Klacht_indienen",
+      "extern": {
+        "naam": "Nationale ombudsman (als u niet tevreden bent over het besluit op uw klacht)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar maken tegen een besluit over jeugdhulp is gratis. Online kan met DigiD. Een onafhankelijke commissie voor de bezwaarschriften geeft advies over uw bezwaar. Bel eerst gerust het CJG: een medewerker kan het besluit toelichten.",
+      "url": "https://www.hattem.nl/Bestuur_en_organisatie/Bezwaar_en_beroep_zienswijzen_en_klachten/Bezwaarschrift_indienen"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als zorg in natura (hulp van een aanbieder met een contract) niet past. U legt uit waarom die hulp niet past. U moet het budget zelf kunnen beheren en de hulp moet van goede kwaliteit zijn. De gemeente toetst dit met een lijst van tien pgb-vaardigheden. Hulp van iemand uit uw netwerk of van familie is mogelijk, onder voorwaarden en tegen een apart tarief. De tarieven staan in het Financieel besluit Jeugdhulp 2026. Vraag het CJG naar de mogelijkheden.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR716035/1"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u bij het CJG, zonder besluit van de gemeente: opvoedadvies, schoolmaatschappelijk werk en groepsbijeenkomsten. Specialistische jeugdhulp koopt Hattem samen met zeven andere gemeenten in de jeugdregio Midden-IJssel / Oost-Veluwe in. Sinds 1 januari 2026 geldt daarvoor een nieuwe overeenkomst met aanbieders. In de Beschikbaarheidswijzer van deze regio ziet u aanbieders en wachttijden, openbaar en zonder inloggen. Welke aanbieder past, bespreekt u met de jeugdconsulent.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Via het CJG: opvoedadviesbureau, steunouders, schoolmaatschappelijk werk, jongerenwerk en het consultatiebureau.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na verwijzing door het CJG of de huisarts: begeleiding, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Krachtig Hattem in De Marke",
+      "soort": "oudergroep",
+      "omschrijving": "Ontmoetingsplek voor ouders, kinderen en jongeren: activiteiten, ouderbijeenkomsten en een plek om vragen over opvoeden te stellen. Samen met scholen, bibliotheek en CJG.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://www.hattem.nl/Inwoners/Jeugd_en_gezin/Krachtig_Hattem"
+    },
+    {
+      "naam": "Steunouders",
+      "soort": "vrijwilligers",
+      "omschrijving": "Een vrijwilliger vangt een of twee dagdelen per week uw kind op, zodat u even rust heeft. U meldt zich aan via de website of het CJG.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "http://www.steunouder.nl/hattem"
+    },
+    {
+      "naam": "Team ED: maatje voor jongeren",
+      "soort": "vrijwilligers",
+      "omschrijving": "Vrijwilligers met eigen ervaring met jeugdhulp, bijvoorbeeld een onveilige thuissituatie of verslaving, luisteren naar jongeren en ondersteunen hen. Een project van de jeugdregio.",
+      "themas": [
+        "veiligheid",
+        "gezin"
+      ],
+      "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Ondersteuning_jongeren"
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt (samenwerkingsverband Hanzeland)",
+      "soort": "informatiepunt",
+      "omschrijving": "Onafhankelijk en gratis advies aan ouders en jongeren over passend onderwijs en wat u kunt doen als u het niet eens bent met een beslissing van school.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://swv-hanzeland.nl/ouder-en-jeugdsteunpunt/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Afspraak maken bij het CJG (jeugd en gezin)",
+      "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Contact/Afspraak_jeugd_en_gezin",
+      "nodig": "Naam en geboortedatum van uw kind en een telefoonnummer of e-mailadres"
+    },
+    {
+      "naam": "Aanbieders en wachttijden bekijken (Beschikbaarheidswijzer)",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
+      "omschrijving": "Openbaar, zonder inloggen."
+    },
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://loket.hattem.nl/f/2387/login",
+      "nodig": "DigiD en een beschrijving van de klacht"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.hattem.nl/Bestuur_en_organisatie/Bezwaar_en_beroep_zienswijzen_en_klachten/Bezwaarschrift_indienen",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",
+        "url": "https://organisaties.overheid.nl/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: Centrum voor Jeugd en Gezin",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Centrum_voor_Jeugd_en_Gezin",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: Contact en openingstijden jeugd en gezin (met spoedhulp buiten kantoortijden)",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Contact/Contact_en_openingstijden",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: Opvoedhulp",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Opvoedhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: Huisartsen",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Huisartsen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: (School)maatschappelijk werk",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/School_maatschappelijk_werk",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: Onafhankelijke cliëntondersteuning",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Informatie/Onafhankelijke_clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulpwijzer Hattem: Steunouders",
+        "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Steunouders",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Hattem: Krachtig Hattem",
+        "url": "https://www.hattem.nl/Inwoners/Jeugd_en_gezin/Krachtig_Hattem",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Hattem: Klacht indienen",
+        "url": "https://www.hattem.nl/Bestuur_en_organisatie/Bezwaar_en_beroep_zienswijzen_en_klachten/Klacht_indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Hattem: Bezwaarschrift indienen",
+        "url": "https://www.hattem.nl/Bestuur_en_organisatie/Bezwaar_en_beroep_zienswijzen_en_klachten/Bezwaarschrift_indienen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening Jeugdhulp 2024 gemeente Hattem",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR716035/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Financieel besluit Jeugdhulp Hattem 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR754011/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Samen: cliëntondersteuning Hattem",
+        "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/hattem",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Vérian: contact jeugdgezondheidszorg (consultatiebureau Hattem)",
+        "url": "https://verian.nl/contact-jeugdgezondheidszorg/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Noord- en Oost-Gelderland: Jeugdgezondheidszorg in de regio",
+        "url": "https://www.ggdnog.nl/jeugdgezondheidszorg-in-de-regio",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samenwerkingsverband Hanzeland: Ouder- en jeugdsteunpunt",
+        "url": "https://swv-hanzeland.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Midden IJssel / Oost Veluwe",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarrekening 2025 gemeente Hattem",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=691ba594-20f5-4690-ac34-9f5f8032962f",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027-2030 gemeente Hattem",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=4bf962b5-dea1-4c42-a811-48dc045073f1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatie: maatregelen toegenomen werkdruk toegang jeugd",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=66ad103c-c06e-4064-b870-8d2bd335a891",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsvragen: maatregelen toegenomen werkdruk toegang jeugd",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=4857fb3a-a067-40dd-aeac-59400f1b80a6",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatie: cliëntervaringsonderzoeken jeugd en Wmo over 2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=53d33b6d-001d-4456-bb2f-7f326f5e7362",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatie: actualisatie producten jeugdhulp en inkoopdocumenten",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=81de49d2-c0e4-463a-99b4-6e0c2bf44a58",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Raadsinformatie: jaarverslag toezicht 2025 zorgregio MIJ/OV",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=54837b44-6075-43bc-b846-d3d2a58f7a4f",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED: jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Geen gemeten doorlooptijden van de toegang gevonden, alleen de schatting van ongeveer vier weken. Contact SWV Hanzeland alleen via e-mail (telefoon is een 06-nummer); regionale journalistiek beperkt doorzocht, geen IGJ- of rekenkamerrapport over Hattem jeugd gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+  },
+  "ervaringen": {
+    "samenvatting": "Sinds april 2026 werkt de toegang tot jeugdhulp in Hattem met een wachtlijst, omdat er meer aanmeldingen zijn: het aantal kinderen met hulp na verwijzing steeg van 210 in 2021 naar 319 in 2025. De gemeente noemde een wachttijd van ongeveer vier weken, met voorrang voor urgente en crisissituaties. Eenvoudige vragen, zoals opvoedadvies en diagnostiek, kunnen langer duren. In het cliëntervaringsonderzoek over 2025 was ongeveer 90% van de ouders en jongeren tevreden over de hulp, al deed maar 16% mee.\n\nUw aanspreekpunt is het CJG, en u kunt gratis een onafhankelijke cliëntondersteuner van MEE Samen meenemen. Vraag bij uw aanmelding hoe lang het duurt, meld het als het urgent is en leg afspraken schriftelijk vast, bijvoorbeeld in het gezinsplan. Een klacht over de jeugdconsulenten dient u in bij de gemeente. Daarna kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachtlijst voor de toegang tot jeugdhulp ingevoerd",
+        "samenvatting": "De jeugdconsulenten van het CJG krijgen meer en zwaardere aanmeldingen. Daarom voerde de gemeente een wachtlijst in, eerst van ongeveer vier weken. Urgente en crisissituaties gaan voor, eenvoudige vragen over opvoedadvies, diagnostiek en dyslexie kunnen langer wachten.",
+        "datum": "2026-04-15",
+        "bron": {
+          "titel": "Informatie aan de raad: maatregelen toegenomen werkdruk toegang jeugd",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=66ad103c-c06e-4064-b870-8d2bd335a891"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Gemeente onderzoekt een sterker lokaal team",
+        "samenvatting": "Na vragen van de raad schrijft de gemeente dat ze onderzoekt hoe een sterker lokaal team met genoeg medewerkers er in Hattem uit kan zien. De raad hoort de uitkomst zodra die er is. Wat dit voor de wachtlijst betekent, is nog niet bekend.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Beantwoording raadsvragen: maatregelen toegenomen werkdruk toegang jeugd",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=4857fb3a-a067-40dd-aeac-59400f1b80a6"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek Jeugd over 2025: overwegend tevreden",
+        "samenvatting": "59 ouders en 14 jongeren deden mee (respons 16%), dus de uitkomst is een indicatie. Ongeveer 90% was tevreden over de hulp en 86% vond de hulpverlener goed bereikbaar. 60% vond dat de jeugdconsulent goed had geluisterd.",
+        "datum": "2026-06-24",
+        "bron": {
+          "titel": "Informatie aan de raad: cliëntervaringsonderzoeken jeugd en Wmo over 2025",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=53d33b6d-001d-4456-bb2f-7f326f5e7362"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe regionale overeenkomst jeugdhulp sinds januari 2026",
+        "samenvatting": "Hattem koopt jeugdhulp in met zeven andere gemeenten. Behandeling, dagbehandeling en wonen en verblijf veranderen: de hulp is zoveel mogelijk in de eigen omgeving, tijdelijk en gericht op terugkeer naar huis. Aanbieders en het CJG kijken samen naar wat een kind en gezin nodig hebben.",
+        "datum": "2026-06-30",
+        "bron": {
+          "titel": "Informatie aan de raad: actualisatie producten jeugdhulp en wijzigingen inkoopdocumenten",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=81de49d2-c0e4-463a-99b4-6e0c2bf44a58"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Toezicht op jeugdhulpaanbieders: niets gevonden bij aanbieders voor Hattem",
+        "samenvatting": "Het regionale toezicht deed in 2025 meer onderzoek na signalen over aanbieders. Bij aanbieders met cliënten uit Hattem waren er geen aanbevelingen en hoefde het toezicht niet in te grijpen.",
+        "datum": "2026-05-26",
+        "bron": {
+          "titel": "Informatie aan de raad: jaarverslag toezicht 2025 zorgregio Midden-IJssel/Oost-Veluwe",
+          "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=54837b44-6075-43bc-b846-d3d2a58f7a4f"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2025",
+        "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Hattem&id=53d33b6d-001d-4456-bb2f-7f326f5e7362",
+        "samenvatting": "Vragenlijst onder ouders en jongeren die jeugdhulp kregen, afgenomen in april en mei 2026. 59 ouders en 14 jongeren deden mee (respons 16%). Het gaat over contact met de jeugdconsulent, de hulp en het effect."
+      },
+      "doorlooptijden": {
+        "status": "nee"
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "naam": "Beuningen",
+  "cbsCode": "GM0209",
+  "provincie": "Gelderland",
+  "websiteJeugd": "https://www.beuningen.nl/jeugdhulp",
+  "toegang": {
+    "samenvatting": "In Beuningen is het Sociaal Team de voordeur voor jeugdhulp, hulp bij het huishouden en geldzorgen. U meldt zich zelf aan, een verwijzing is niet nodig. Het team heeft een ondersteuner jeugd en gezin die bij de huisartsen werkt, en schoolmaatschappelijk werkers op de basisscholen. Zij bieden lichte hulp zonder besluit van de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Dat gebeurt in Beuningen vaak. De gemeente zegt dat een melding binnen twee weken aan een consulent (medewerker die uw vraag onderzoekt) wordt gegeven. Hoe lang het daarna duurt tot het eerste gesprek, wordt niet gemeten. Vraag dat bij uw melding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Sociaal Team Beuningen",
+        "omschrijving": "Het Sociaal Team is onderdeel van de gemeente. Het helpt bij vragen over opvoeden en jeugdhulp, over de Wmo (hulp voor volwassenen) en over geldzorgen. U meldt zich zelf aan. Een medewerker van het team komt bij u thuis voor een gesprek. Is er professionele hulp nodig, dan krijgt u een beschikking (besluit van de gemeente) en meldt het team u aan bij een zorgaanbieder.",
+        "stappen": [
+          "Bel het Sociaal Team of vul het contactformulier op de website in.",
+          "Bespreek uw vraag met een medewerker. Is lichte hulp genoeg, dan kan het team die zonder besluit regelen.",
+          "Spreek een gesprek bij u thuis af met een medewerker. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Vraag om het onderzoeksverslag op papier. Daarin staat wat u zelf kunt, wie in uw netwerk kan helpen en welke professionele hulp nodig is.",
+          "Is hulp nodig? Dan krijgt u een beschikking en meldt het team u aan bij een zorgaanbieder. Vraag naar de wachttijd, want die kan er bij de aanbieder zijn."
+        ],
+        "contact": {
+          "naam": "Sociaal Team Beuningen",
+          "telefoon": "14 024",
+          "url": "https://www.beuningen.nl/sociaalteam",
+          "openingstijden": "Telefonisch ma t/m vr 8.30–12.30 uur"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisartsen in Beuningen werkt een ondersteuner jeugd en gezin van het Sociaal Team. Die kan zelf met u een paar gesprekken voeren, of u sneller bij de juiste hulp brengen.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag de huisarts om een verwijzing naar de ondersteuner jeugd en gezin, of direct naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
+          "telefoon": "088 144 7111",
+          "email": "jeugdgezondheidszorg@ggdgelderlandzuid.nl",
+          "url": "https://www.ggdgelderlandzuid.nl/contact",
+          "openingstijden": "Werkdagen 8.00–16.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Op de basisscholen in Beuningen werkt schoolmaatschappelijk werk van het Sociaal Team. Dat werkt zonder beschikking en is laagdrempelig. Komt u er met school niet uit, dan kunt u advies vragen bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de schoolmaatschappelijk werker kan meedenken, of meld u aan bij het Sociaal Team.",
+          "Is meer hulp nodig? Bespreek dan met het Sociaal Team de vervolgstappen.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Sociaal Team Beuningen",
+            "telefoon": "14 024",
+            "url": "https://www.beuningen.nl/sociaalteam",
+            "openingstijden": "Telefonisch ma t/m vr 8.30–12.30 uur"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Nijmegen Stromenland (samenwerkingsverband passend onderwijs, basis- en voortgezet onderwijs)",
+            "telefoon": "024 204 9074",
+            "url": "https://www.steunpuntnijmegenstromenland.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er buiten kantooruren is voor jeugd in uw regio, staat op de pagina Jeugdhulp van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdienst voor jeugd onder het kopje Spoed op de pagina Jeugdhulp van de gemeente."
+        ],
+        "contact": {
+          "naam": "Gemeente Beuningen: kopje Spoed op de pagina Jeugdhulp",
+          "url": "https://www.beuningen.nl/jeugdhulp"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Gelderse Poort",
+      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner kan met u meegaan naar het gesprek met het Sociaal Team en helpt ook als u na afloop niet tevreden bent. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek. Het Sociaal Team kan u hier ook meer over vertellen.",
+      "telefoon": "088 633 0000",
+      "url": "https://www.meegeldersepoort.nl/clientondersteuning"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u hulp wilt die de aanbieders met een contract niet bieden. Eerst moet de gemeente vaststellen dat u recht heeft op hulp. Daarna dient u een budgetplan in. Daarin legt u uit waarom zorg in natura niet past, bij wie u de hulp inkoopt en hoe u de kwaliteit bewaakt. Een verklaring omtrent gedrag (VOG) van de zorgverlener kan nodig zijn. De gemeente toetst of u het budget kunt beheren. Het pgb is nooit hoger dan de goedkoopste passende zorg in natura en is niet vrij te besteden. Hulp van iemand uit uw netwerk mag, behalve ggz-behandeling.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR763033/1"
+    },
+    "klacht": {
+      "naam": "Klacht over het Sociaal Team (klachtenregeling van de gemeente)",
+      "toelichting": "Het Sociaal Team werkt voor de gemeente. Een klacht gaat dus via de klachtenregeling van de gemeente. Bespreek het eerst met de medewerker. Komt u er niet uit, dan kunt u met de coördinator van het Sociaal Team praten. Zo nodig gaat de klacht naar de klachtencoördinator. U kunt het klachtenformulier invullen of een brief sturen aan het college van burgemeester en wethouders (Postbus 14, 6640 AA Beuningen). Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "url": "https://www.beuningen.nl/ambtenaren-en-bestuurders",
+      "telefoon": "14 024",
+      "extern": {
+        "naam": "Gemeentelijke ombudsman Beuningen (als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.beuningen.nl/de-gemeentelijke-ombudsman"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief aan het college (Postbus 14, 6640 AA Beuningen). Een onafhankelijke commissie adviseert de gemeente over uw bezwaar. Het besluit blijft gelden zolang uw bezwaar loopt. Wilt u dat het niet meteen ingaat, vraag dan een voorlopige voorziening (een snelle uitspraak) bij de rechtbank.",
+      "url": "https://www.beuningen.nl/bezwaar-en-beroep"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ) en Adviespunt Zorgbelang",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Voor advies, een vraag of een klacht.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/contact",
+      "openingstijden": "Werkdagen 9.00–17.00 uur"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp krijgt u bij het Sociaal Team, zonder besluit van de gemeente: de ondersteuner jeugd en gezin, het schoolmaatschappelijk werk en kortdurende ondersteuning. Specialistische jeugdhulp koopt Beuningen samen met Berg en Dal, Druten, Heumen, Mook en Middelaar, Nijmegen en Wijchen in via het Regionaal Ondersteuningsbureau (ROB). De regio staat niet in de Beschikbaarheidswijzer. Het ROB publiceert wel een lijst met aanbieders die een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag het Sociaal Team om hulp bij het kiezen.",
+    "gecontracteerdeAanbiedersUrl": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
+    "categorieen": [
+      {
+        "naam": "Lichte hulp via het Sociaal Team",
+        "omschrijving": "Ondersteuner jeugd en gezin bij de huisarts, schoolmaatschappelijk werk op de basisscholen en kortdurende ondersteuning. Zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp",
+        "omschrijving": "Na een beschikking of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, dyslexiezorg en verblijf, regionaal ingekocht.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Beuningen Samen",
+      "soort": "informatiepunt",
+      "omschrijving": "Online buurtplatform van de gemeente en Stichting Perspectief, met een welzijnsgids, een agenda en een plek om hulp te vragen of aan te bieden in Beuningen, Weurt, Winssen en Ewijk.",
+      "themas": [],
+      "url": "https://beuningensamen.nl"
+    },
+    {
+      "naam": "Jongerenwerk Stichting Perspectief",
+      "soort": "overig",
+      "omschrijving": "Jongerenwerk in Beuningen, uitgevoerd door Stichting Perspectief in opdracht van de gemeente.",
+      "themas": [],
+      "url": "https://www.stg-perspectief.nl"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Klacht indienen bij de gemeente",
+      "url": "https://mijn.beuningen.nl/aanvragen/2071/onbekend/klacht",
+      "nodig": "Beschrijf de klacht met datum en betrokkenen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://mijn.beuningen.nl/aanvragen/2119/persoon/bezwaarschrift",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Beuningen: Jeugdhulp",
+        "url": "https://www.beuningen.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beuningen: Sociaal Team",
+        "url": "https://www.beuningen.nl/sociaalteam",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beuningen: Ondersteuning voor cliënten",
+        "url": "https://www.beuningen.nl/ondersteuning-voor-clienten",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beuningen: Klachten over ambtenaren en bestuurders",
+        "url": "https://www.beuningen.nl/ambtenaren-en-bestuurders",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beuningen: De gemeentelijke ombudsman",
+        "url": "https://www.beuningen.nl/de-gemeentelijke-ombudsman",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beuningen: Bezwaar en beroep",
+        "url": "https://www.beuningen.nl/bezwaar-en-beroep",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Gemeente Beuningen: Sociaal platform Beuningen Samen",
+        "url": "https://www.beuningen.nl/sociaal-platform-beuningen-samen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Beuningen 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR763033/1",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Monitor Sociaal Domein, jaarrapportage 2025 (bijlage bij raadsinformatiebrief)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=1c57d7ff-edc0-4041-a7ce-fc4e1d45131d",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jaarstukken 2025 gemeente Beuningen",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=e93ac834-d4cb-4298-8982-e95fba57171b",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Programmabegroting 2027-2030 gemeente Beuningen",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=9329c142-f744-42a6-8e43-ecf3651d69cb",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Rekenkamer Beuningen: Jeugdzorg op de agenda",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=00282142-16b1-4614-a9ab-c99a81aab647",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Gecontracteerde aanbieders",
+        "url": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GGD Gelderland-Zuid: Contact",
+        "url": "https://www.ggdgelderlandzuid.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland: Contact",
+        "url": "https://www.steunpuntnijmegenstromenland.nl/contact",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland: SWV VO-VSO Nijmegen",
+        "url": "https://www.steunpuntnijmegenstromenland.nl/over-passend-onderwijs/swv-vo-vso-nijmegen",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MEE Gelderse Poort: Cliëntondersteuning",
+        "url": "https://www.meegeldersepoort.nl/clientondersteuning",
+        "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Programmabegroting 2027 als ontwerp gelezen (raadsbehandeling 3 november 2026); cliëntervaringsonderzoek 2025 nog niet verschenen, 2024 is de nieuwste. Klachtregeling specifiek voor het Sociaal Team niet apart online. Regionale journalistiek niet doorzocht (WebSearch-limiet), inspectierapporten niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+  },
+  "jeugdzorgregio": "Rijk van Nijmegen (ROB regio Nijmegen)",
+  "ervaringen": {
+    "samenvatting": "Het aantal kinderen met jeugdhulp in Beuningen daalt: in 2025 kreeg 10,7 procent van de jeugdigen hulp, tegen 11,4 procent gemiddeld in Nederland. De gemeente schrijft dit mede toe aan de ondersteuner jeugd en gezin bij de huisartsen en aan het schoolmaatschappelijk werk. In het laatste cliëntervaringsonderzoek (over 2024) gaven ouders de hulp gemiddeld een 7,8. Hulp op school wordt vaker voor een hele groep geregeld, zodat alleen kinderen met een grote zorgvraag nog een eigen beschikking krijgen.\n\nUw eerste aanspreekpunt is het Sociaal Team. Vraag bij uw melding hoe lang het duurt tot het eerste gesprek en leg afspraken schriftelijk vast, bijvoorbeeld het onderzoeksverslag. Neem een onafhankelijke cliëntondersteuner van MEE Gelderse Poort mee. Een klacht over het Sociaal Team dient u in bij de gemeente, daarna kunt u naar de gemeentelijke ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Minder kinderen met jeugdhulp, hulp verschuift naar lichtere vormen",
+        "samenvatting": "De gemeente meldt dat in 2025 minder jeugdigen jeugd-ggz, ambulante hulp en verblijf kregen, en dat er minder jeugdbeschermingsmaatregelen waren. Zij noemt de ondersteuner jeugd en gezin en het schoolmaatschappelijk werk als mogelijke oorzaak. Of dit zo blijft, is volgens de gemeente niet zeker.",
+        "datum": "2026-05-29",
+        "bron": {
+          "titel": "Monitor Sociaal Domein, jaarrapportage 2025",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=1c57d7ff-edc0-4041-a7ce-fc4e1d45131d"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek jeugd over 2024",
+        "samenvatting": "28 procent van de jongeren en 20 procent van de ouders vulde de vragenlijst in. Ouders gaven gemiddeld een 7,9 voor hoe de hulp is geregeld en een 7,8 voor de hulp, en 71 procent zei snel geholpen te zijn. Wel wachtte 12 procent van de jeugd-cliënten langer dan zes weken op het eerste gesprek.",
+        "datum": "2026-05-29",
+        "bron": {
+          "titel": "Monitor Sociaal Domein, jaarrapportage 2025 (paragraaf 2.6)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=1c57d7ff-edc0-4041-a7ce-fc4e1d45131d"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Ondersteuner jeugd en gezin bij de huisarts voorkomt vaak een verwijzing",
+        "samenvatting": "In 2025 raadpleegden huisartsen de ondersteuner 140 keer. Bij ongeveer de helft van de afgesloten dossiers was een doorverwijzing naar jeugd-ggz niet nodig. De ondersteuner is er sinds 2024 voor alle huisartspraktijken.",
+        "datum": "2026-05-29",
+        "bron": {
+          "titel": "Monitor Sociaal Domein, jaarrapportage 2025 (paragraaf 2.4)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=1c57d7ff-edc0-4041-a7ce-fc4e1d45131d"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Hulp op school vaker voor de hele groep geregeld",
+        "samenvatting": "De gemeente en de regio stappen af van een beschikking per kind voor hulp op school. Die hulp wordt vaker voor een hele groep geregeld, en alleen kinderen met een heel grote zorgvraag krijgen nog een eigen beschikking. Voor jongeren die 18 worden, begint de gemeente al vanaf 16 jaar met een plan voor wat daarna komt.",
+        "datum": "2026-05-29",
+        "bron": {
+          "titel": "Monitor Sociaal Domein, jaarrapportage 2025 (paragraaf 3.3.1 en 3.4)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=1c57d7ff-edc0-4041-a7ce-fc4e1d45131d"
+        }
+      },
+      {
+        "soort": "rekenkamer",
+        "titel": "Rekenkamer: jeugdbeleid ligt op koers, jeugd-ggz is een uitzondering",
+        "samenvatting": "De rekenkamer vond dat Beuningen helder beleid heeft en dat zwaardere hulp verschuift naar lichtere hulp. Het gebruik van specialistische jeugd-ggz past daar niet bij, en de reden is onduidelijk. Het college liet dit verder onderzoeken, met een uitkomst die na de zomer van 2026 werd verwacht.",
+        "datum": "2025-04",
+        "bron": {
+          "titel": "Rekenkamer Beuningen: rapport Jeugdzorg op de agenda",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=00282142-16b1-4614-a9ab-c99a81aab647"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Plan voor 2027: sterker Sociaal Team en nieuw preventief jeugdbeleid",
+        "samenvatting": "De gemeente wil het Sociaal Team in 2027 versterken, zodat het dichtbij helpt en zelf over hulp mag beslissen. Ook komen er een nieuw jeugdbeleid voor 2027 tot 2030, gericht op voorkomen, en een actieplan voor ouders die uit elkaar gaan. Vanaf januari 2027 voert de gemeente samen met de regio de wet verbetering beschikbaarheid jeugdzorg uit.",
+        "datum": "2026-09-22",
+        "bron": {
+          "titel": "Programmabegroting 2027-2030 (concept voor de raad van 3 november 2026)",
+          "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=9329c142-f744-42a6-8e43-ecf3651d69cb"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2024",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Beuningen&id=1c57d7ff-edc0-4041-a7ce-fc4e1d45131d",
+        "samenvatting": "Jaarlijks onderzoek onder jongeren en ouders. De gemeente noemt de respons representatief (28 procent van de jongeren, 20 procent van de ouders). Ouders geven de hulp gemiddeld een 7,8. De cijfers over 2025 zijn nog niet verschenen."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "De gemeente meet de tijd tot het eerste gesprek niet. Een melding wordt volgens de gemeente binnen twee weken aan een consulent gegeven. Alleen uit het cliëntervaringsonderzoek is een indicatie te halen: 12 procent van de jeugd-cliënten wachtte langer dan zes weken."
+      }
+    },
+    "laatstBijgewerkt": "2026-10-13"
+  }
+}

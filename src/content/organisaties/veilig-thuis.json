@@ -1,5 +1,24 @@
-{ "naam": "Veilig Thuis", "soort": "hulplijn", "themas": ["veiligheid", "huiselijk geweld", "kindermishandeling"],
+{
+  "naam": "Veilig Thuis",
+  "soort": "hulplijn",
+  "themas": [
+    "veiligheid",
+    "huiselijk geweld",
+    "kindermishandeling",
+    "trauma",
+    "hechting"
+  ],
   "omschrijving": "Advies- en meldpunt huiselijk geweld en kindermishandeling. Voor iedereen die zich zorgen maakt, ook over zichzelf.",
-  "watBiedenZij": ["Gratis advies, 24 uur per dag", "Onderzoek na melding", "Doorverwijzing naar hulp"],
-  "url": "https://veiligthuis.nl/", "telefoon": "0800 2000",
-  "meta": { "laatstGecontroleerd": "2026-10-10", "status": "concept" } }
+  "watBiedenZij": [
+    "Gratis advies, 24 uur per dag",
+    "Advies vragen kan anoniem en zonder verplichtingen; u hoeft geen melding te doen",
+    "Onderzoek na melding",
+    "Doorverwijzing naar hulp"
+  ],
+  "url": "https://veiligthuis.nl/",
+  "telefoon": "0800 2000",
+  "meta": {
+    "laatstGecontroleerd": "2026-10-10",
+    "status": "concept"
+  }
+}

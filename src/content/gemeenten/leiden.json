@@ -1,0 +1,446 @@
+{
+  "naam": "Leiden",
+  "cbsCode": "GM0546",
+  "provincie": "Zuid-Holland",
+  "jeugdzorgregio": "Holland Rijnland",
+  "websiteJeugd": "https://gemeente.leiden.nl/inwoners-en-ondernemers/zorg-en-onderwijs/jeugd/jeugdhulp/",
+  "toegang": {
+    "samenvatting": "In Leiden zijn de Jeugdteams Leidse regio de toegang tot jeugdhulp. Leiden heeft zeven jeugdteams, verbonden aan wijken en scholen. Het Centrum voor Jeugd en Gezin (CJG) is er voor jeugdgezondheidszorg en opvoedvragen. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Jeugdteams Leidse regio",
+        "omschrijving": "Gemeentelijk toegangsteam. Jeugd- en gezinswerkers bieden zelf hulp en zetten specialistische jeugdhulp in via Holland Rijnland.",
+        "stappen": [
+          "Bel of mail het jeugdteam in uw wijk, of neem contact op via school.",
+          "Een jeugd- en gezinswerker plant een gesprek.",
+          "Samen maakt u een plan; het jeugdteam biedt zelf hulp of zet specialistische jeugdhulp in.",
+          "Bij specialistische hulp ontvangt u een beschikking van de gemeente."
+        ],
+        "contact": {
+          "naam": "Jeugdteams Leidse regio",
+          "telefoon": "071 204 1088",
+          "email": "contact@jeugdteamslr.nl",
+          "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiden/"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "Elke school in Leiden heeft een vast contactpersoon van het jeugdteam. Bij zorgen rond leren of gedrag kan school rechtstreeks het jeugdteam inschakelen.",
+        "stappen": [
+          "Bespreek zorgen met de leerkracht of intern begeleider.",
+          "School schakelt de jeugd- en gezinswerker in.",
+          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs."
+        ],
+        "contact": [
+          {
+            "naam": "Jeugdteams Leidse regio",
+            "telefoon": "071 204 1088",
+            "email": "contact@jeugdteamslr.nl",
+            "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiden/"
+          },
+          {
+            "naam": "Samenwerkingsverband Voortgezet Onderwijs regio Leiden (voortgezet onderwijs)",
+            "telefoon": "071 514 48 01",
+            "email": "info@swvleiden.nl",
+            "url": "https://swvleiden.nl/contact"
+          }
+        ]
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks doorverwijzen naar gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het gemeentelijke team.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts of jeugdarts.",
+          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": [
+          {
+            "naam": "Centrum voor Jeugd en Gezin (CJG) Leiden: jeugdgezondheidszorg",
+            "telefoon": "088 254 23 84",
+            "url": "https://www.cjgleiden.nl/pagina/contact/606164",
+            "openingstijden": "Telefonisch ma t/m vr 8.00–16.00 uur. Advies van een jeugdverpleegkundige: ma t/m vr 8.30–12.30 uur (kies 1 in het keuzemenu)"
+          },
+          {
+            "naam": "Jeugdteams Leidse regio",
+            "telefoon": "071 204 1088",
+            "email": "contact@jeugdteamslr.nl",
+            "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiden/"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina over kindermishandeling van Veilig Thuis Hollands Midden; daar staat ook wat u doet in een noodsituatie."
+        ],
+        "contact": {
+          "naam": "Veilig Thuis Hollands Midden: kindermishandeling",
+          "url": "https://veiligthuishollandsmidden.nl/hulp-bij/kindermishandeling/"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Zuid-Holland Noord",
+      "toelichting": "Gratis en onafhankelijk, geen verwijzing nodig. MEE kan meegaan naar gesprekken met het jeugdteam.",
+      "telefoon": "088 775 2000",
+      "email": "info@meezhn.nl",
+      "url": "https://www.meezhn.nl/"
+    },
+    "klacht": {
+      "naam": "Klachten bij Jeugdteams Leidse Regio",
+      "toelichting": "Meestal helpt een gesprek met uw jeugd- en gezinswerker al. Komt u er niet uit, mail dan de klachtencoördinator; een vertrouwenspersoon van Jeugdstem kan u daarbij ondersteunen. Heeft u het gevoel dat uw klacht niet goed wordt opgepakt, dan kunt u terecht bij de onafhankelijke Klachtencommissie Jeugdhulp Zuid-Holland.",
+      "url": "https://www.jeugdteamsleidseregio.nl/tevreden/",
+      "email": "bezwaar-klacht@jeugdteamslr.nl",
+      "telefoon": "071 204 1088",
+      "extern": {
+        "naam": "Klachtencommissie Jeugdhulp Zuid-Holland (Postbus 258, 3000 AG Rotterdam)",
+        "url": "https://www.jeugdteamsleidseregio.nl/wp-content/uploads/2025/07/Informatie-Klachtencommissie-Jeugdhulp-Zuid-Holland.pdf"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken bij de gemeente Leiden, online met DigiD of per post aan het College van burgemeester en wethouders, Postbus 9100, 2300 PC Leiden. Bij behandeling door de Regionale Commissie Bezwaarschriften beslist de gemeente binnen 12 weken.",
+      "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/melding-klacht-overlast/klacht-of-compliment/bezwaar-en-beroep/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "U onderzoekt samen met het jeugdteam of een pgb past bij uw hulpvraag en vult een pgb-plan in met de benodigde zorg, frequentie en aanbieder. Na goedkeuring door het jeugdteam ontvangt u een beschikking van de gemeente; de Sociale Verzekeringsbank (SVB) regelt daarna de zorgovereenkomst en de uitbetaling.",
+      "url": "https://www.jeugdteamsleidseregio.nl/persoonsgebonden-budget-pgb/"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Specialistische jeugdhulp wordt regionaal ingekocht via de Serviceorganisatie Zorg Holland Rijnland. De Beschikbaarheidswijzer toont alle gecontracteerde aanbieders met wachttijden, gesorteerd op hulpvraag en afstand. Hij is gemaakt voor verwijzers, maar openbaar en goed bruikbaar om samen met het jeugdteam een aanbieder te kiezen.",
+    "categorieen": [
+      {
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Laagdrempelig via het gemeentelijke team, zonder beschikking.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Ambulante begeleiding",
+        "hulpsoorten": [
+          "ambulante-begeleiding"
+        ]
+      },
+      {
+        "naam": "Jeugd-GGZ",
+        "omschrijving": "Via verwijzing van het gemeentelijke team of een arts.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, logeren en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en gezinshuizen",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      }
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland"
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Humanitas Rijnland – Home-Start",
+      "soort": "vrijwilligers",
+      "omschrijving": "Getrainde vrijwilligers komen wekelijks bij gezinnen met kinderen tot 17 jaar thuis voor steun bij de opvoeding, praktische hulp en een luisterend oor. Gratis; Humanitas Rijnland is gevestigd in Leiden en biedt daarnaast thuisadministratie en begeleide omgang.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ],
+      "url": "https://www.humanitas.nl/afdeling/rijnland/",
+      "contact": {
+        "naam": "Humanitas Rijnland",
+        "telefoon": "070 358 4284",
+        "email": "rijnland@humanitas.nl",
+        "adres": "Parmentierweg 49, 2316 ZV Leiden"
+      }
+    },
+    {
+      "naam": "Leidse Vereniging van Mantelzorgers (LVvM)",
+      "soort": "belangenorganisatie",
+      "omschrijving": "Onafhankelijke vereniging van en voor mantelzorgers in Leiden en omgeving, dus ook voor ouders die intensief voor hun kind zorgen. Organiseert lotgenotencontact, uitjes en de jaarlijkse Dag van de Mantelzorg, en behartigt de belangen van mantelzorgers bij de gemeente en zorginstellingen.",
+      "themas": [
+        "mantelzorg",
+        "gezin"
+      ],
+      "url": "https://www.lvvm.nl/",
+      "contact": {
+        "naam": "Leidse Vereniging van Mantelzorgers",
+        "email": "info@lvvm.nl"
+      }
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Contact met het jeugdteam in Leiden",
+      "omschrijving": "Telefoon, e-mail en overzicht van de zeven jeugdteams.",
+      "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiden/"
+    },
+    {
+      "naam": "Klacht indienen bij Jeugdteams Leidse Regio",
+      "omschrijving": "Laagdrempelig en zonder termijn: bij geen reactie, geen plan of slechte bejegening. Vaak sneller dan bezwaar.",
+      "url": "https://www.jeugdteamsleidseregio.nl/tevreden/"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Gecontracteerde jeugdhulpaanbieders in uw regio met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit van de gemeente",
+      "omschrijving": "Binnen 6 weken na de datum op de beschikking. Vermeld het kenmerk en waarom u het er niet mee eens bent.",
+      "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/melding-klacht-overlast/klacht-of-compliment/bezwaar-en-beroep/",
+      "nodig": "DigiD en de beschikking"
+    },
+    {
+      "naam": "Pgb-folder Jeugdteams Leidse Regio downloaden",
+      "omschrijving": "Voorwaarden en spelregels voor een persoonsgebonden budget, met korte video's die de aanvraag uitleggen.",
+      "url": "https://www.jeugdteamsleidseregio.nl/wp-content/uploads/2022/10/JEU22001_Folder_JeugdTeams_LeidseRegio_A5_DEF.pdf"
+    },
+    {
+      "naam": "Jeugdhulp (gemeente Leiden)",
+      "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/zorg-en-onderwijs/jeugd/jeugdhulp/"
+    },
+    {
+      "naam": "Cliëntondersteuner aanvragen bij MEE",
+      "url": "https://www.meezhn.nl/contact"
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "ervaringen": {
+    "samenvatting": "Leiden heeft binnen de regio Holland Rijnland het hoogste aandeel kinderen in jeugdhulp, en de regio werkt sinds 2025 aan een koerswijziging: minder snel doorverwijzen naar specialistische hulp, meer groepsaanbod en een scherpere afbakening van wat onder de Jeugdwet valt. De samenwerking met de Jeugdteams Leidse Regio is tot medio 2028 verlengd. Tegelijk zijn er zorgen over wachttijden: de inspecties oordeelden in september 2025 dat de jeugdbescherming in deze regio grotendeels onvoldoende presteert, en de Leidse raad vroeg in oktober 2025 om garanties voor kinderen zonder vaste jeugdbeschermer. De toegang loopt hier ongeveer even vaak via het jeugdteam als via huisarts of jeugdarts, vergelijkbaar met het landelijke beeld.\n\nVoor ouders betekent dit dat het jeugdteam vaker eerst kijkt naar eigen mogelijkheden, school en lichtere hulp voordat specialistische hulp wordt ingezet. Vraag bij het eerste gesprek expliciet naar de verwachte wachttijd en naar het alternatief als die te lang is; de Beschikbaarheidswijzer helpt om een aanbieder met kortere wachttijd te kiezen. Bent u het niet eens met een afwijzing of een lichter aanbod, dan kunt u een beschikking vragen en daartegen bezwaar maken. Bij een jeugdbeschermingsmaatregel zonder vaste jeugdbeschermer kunt u Jeugdstem inschakelen.",
+    "signalen": [
+      {
+        "soort": "inspectie",
+        "titel": "Inspecties: kwaliteit jeugdbescherming in de regio grotendeels onvoldoende",
+        "samenvatting": "De Inspectie Gezondheidszorg en Jeugd en de Inspectie Justitie en Veiligheid onderzochten in mei en juni 2025 Jeugdbescherming west, de gecertificeerde instelling die ook Leiden en omgeving bedient. Zij concluderen dat kinderen en ouders vaak niet op tijd de juiste hulp krijgen, mede doordat veel kinderen op een wachtlijst staan zonder vaste jeugdbeschermer. De oorzaken liggen volgens de inspecties deels buiten de organisatie, zoals personeelstekort en te weinig beschikbare jeugdhulp.",
+        "datum": "2025-09",
+        "bron": {
+          "titel": "Inspectie Gezondheidszorg en Jeugd en Inspectie Justitie en Veiligheid, rapport Jeugdbescherming west (pdf)",
+          "url": "https://www.inspectie-jenv.nl/site/binaries/site-content/collections/documents/2025/09/18/jeugdbescherming-west-2025/rapport-jeugdbescherming-west.pdf"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Leidse raad wil garanties voor kinderen zonder vaste jeugdbeschermer",
+        "samenvatting": "Alle elf fracties in de Leidse gemeenteraad stelden in oktober 2025 vragen aan het college nadat bleek dat zestien Leidse kinderen met een jeugdbeschermingsmaatregel geen vaste jeugdbeschermer hadden. De raad wil weten hoe de veiligheid van deze kinderen in de tussentijd wordt gewaarborgd en welke maatregelen herhaling voorkomen.",
+        "datum": "2025-10-27",
+        "bron": {
+          "titel": "Sleutelstad",
+          "url": "https://sleutelstad.nl/2025/10/27/leidse-raad-wil-garanties-voor-veiligheid-kinderen-in-jeugdbescherming/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Regionale jaarrapportage 2024: Leiden hoogste aandeel kinderen in jeugdhulp",
+        "samenvatting": "Volgens de jaarrapportage van de Serviceorganisatie Zorg Holland Rijnland ontving in 2024 13,0% van de Leidse kinderen jeugdhulp, het hoogste percentage van de dertien regiogemeenten (regio: 11,4%). Een derde van de verwijzingen komt via de jeugdteams en een derde via de huisarts. De rapportage meldt zorgelijke signalen dat lange wachttijden bij jeugdteams en aanbieders het handelen van hulpverleners beïnvloeden.",
+        "datum": "2025-07",
+        "bron": {
+          "titel": "Serviceorganisatie Zorg Holland Rijnland, Jaarrapportage jeugdhulp 2024 (pdf)",
+          "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/07/Jaarrapportage-Jeugdhulp-Holland-Rijnland-2024.pdf"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Samenwerking met Jeugdteams Leidse Regio verlengd tot 2028",
+        "samenvatting": "Leiden, Leiderdorp, Oegstgeest en Zoeterwoude verlengden in september 2025 de opdracht aan de Stichting Jeugdteams Leidse Regio met twee jaar, tot 1 juli 2028. In 2024 kregen ruim 800 Leidse kinderen en jongeren ondersteuning van de jeugdteams. De gemeenten kiezen volgens de wethouder voor continuïteit en hulp dichtbij het gezin.",
+        "datum": "2025-09-16",
+        "bron": {
+          "titel": "Sleutelstad",
+          "url": "https://sleutelstad.nl/2025/09/16/samenwerking-met-jeugdteams-leidse-regio-verlengd-tot-2028/"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Jaarstukken 2025: trajecten duren langer dan beoogd, kwart aanmeldingen buiten de Jeugdwet",
+        "samenvatting": "In de jaarstukken 2025 meldt de gemeente dat ongeveer een kwart van de aanmeldingen bij de jeugdteams werd verwezen naar hulp buiten de Jeugdwet, als gevolg van de aandacht voor afbakening. De gemiddelde trajectduur was 225 dagen bij een streefwaarde van 200, en vier jongeren zaten in gesloten jeugdhulp (streef: maximaal twee). De regionale taskforce leverde begin 2025 maatregelenpakketten op; eind 2025 werden herziening van de regiovisie en aanpassing van de verordeningen als prioriteit vastgesteld.",
+        "datum": "2026-06",
+        "bron": {
+          "titel": "Gemeente Leiden, Jaarstukken 2025, programma Jeugd en onderwijs",
+          "url": "https://jaarstukken.leiden.nl/jaarverslag/programmaverantwoording/jeugd-en-onderwijs"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Nieuwe verordening jeugdhulp: strenger kijken, eerst wat u zelf en uw omgeving kunnen",
+        "samenvatting": "Leiden stelde in maart 2026 een vernieuwde verordening jeugdhulp vast, in lijn met de regionale afspraken. Jeugdteams toetsen scherper of een vraag onder de Jeugdwet valt en Ze kijken eerst wat u zelf en uw omgeving kunnen, en welke hulp er is zonder besluit van de gemeente. Pas daarna komt specialistische hulp. Volgens het artikel is het gebruik gestegen van 1 op 27 naar 1 op 7 kinderen en blijven wachtlijsten een probleem; de aanpak leidde ook tot Kamervragen.",
+        "datum": "2026-03-18",
+        "bron": {
+          "titel": "Centraal Plus",
+          "url": "https://centraalplus.nl/2026/03/18/leiden-stelt-nieuwe-verordening-jeugdhulp-vast/"
+        }
+      },
+      {
+        "soort": "nieuws",
+        "titel": "Regiovisie 'Samen rondom de jeugd' zet in op lichtere hulp",
+        "samenvatting": "De dertien gemeenten van Holland Rijnland, waaronder Leiden, presenteerden in juni 2026 een gezamenlijke regiovisie voor specialistische jeugdhulp. Kinderen gaan minder snel naar een therapeut; eerst worden school, sport en gesprekken met ouders ingezet, en pas bij zwaardere problemen volgt specialistische hulp. Lange wachttijden worden genoemd als een van de problemen die de visie moet aanpakken.",
+        "datum": "2026-06-10",
+        "bron": {
+          "titel": "Centraal Plus",
+          "url": "https://centraalplus.nl/2026/06/10/niet-meteen-naar-de-therapeut-nieuwe-regiovisie-zet-in-op-lichtere-jeugdhulp/"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "nee",
+        "samenvatting": "Geen gepubliceerd cliëntervaringsonderzoek Jeugd met cijfers voor Leiden gevonden in de jaarstukken 2025, de programmabegroting, de adviesraad sociaal domein en de raadsinformatie 2023-2026; de regio laat sinds 2019 wel een continu ervaringsonderzoek (SenseMaker) uitvoeren, maar daarvan is na 2020 geen openbaar rapport gevonden."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Geen gepubliceerde wachttijd of doorlooptijd van de toegang gevonden in jaarstukken, begroting, kaderbrief of de regionale jaarrapportage; de gemeente rapporteert alleen de gemiddelde trajectduur (225 dagen in 2025).",
+        "url": "https://jaarstukken.leiden.nl/jaarverslag/programmaverantwoording/jeugd-en-onderwijs"
+      },
+      "aandeelHuisarts": {
+        "percentage": 41,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  },
+  "meta": {
+    "laatstGecontroleerd": "2026-10-13",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Leiden – Jeugdhulp",
+        "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/zorg-en-onderwijs/jeugd/jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdteams Leidse regio – Gemeente Leiden",
+        "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiden/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Tevreden? Of kan het beter? (klachtenprocedure)",
+        "url": "https://www.jeugdteamsleidseregio.nl/tevreden/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Informatie Klachtencommissie Jeugdhulp Zuid-Holland (pdf)",
+        "url": "https://www.jeugdteamsleidseregio.nl/wp-content/uploads/2025/07/Informatie-Klachtencommissie-Jeugdhulp-Zuid-Holland.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Persoonsgebonden budget (pgb)",
+        "url": "https://www.jeugdteamsleidseregio.nl/persoonsgebonden-budget-pgb/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Leiden – Bezwaar en beroep",
+        "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/melding-klacht-overlast/klacht-of-compliment/bezwaar-en-beroep/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Zuid-Holland Noord",
+        "url": "https://www.meezhn.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdstem",
+        "url": "https://jeugdstem.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer – Jeugdhulp Holland Rijnland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Inspectie Gezondheidszorg en Jeugd en Inspectie Justitie en Veiligheid – Toezicht jeugdbescherming en jeugdreclassering, Jeugdbescherming west (pdf)",
+        "url": "https://www.inspectie-jenv.nl/site/binaries/site-content/collections/documents/2025/09/18/jeugdbescherming-west-2025/rapport-jeugdbescherming-west.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sleutelstad – Leidse raad wil garanties voor veiligheid kinderen in jeugdbescherming",
+        "url": "https://sleutelstad.nl/2025/10/27/leidse-raad-wil-garanties-voor-veiligheid-kinderen-in-jeugdbescherming/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sleutelstad – Samenwerking met Jeugdteams Leidse Regio verlengd tot 2028",
+        "url": "https://sleutelstad.nl/2025/09/16/samenwerking-met-jeugdteams-leidse-regio-verlengd-tot-2028/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Jaarrapportage jeugdhulp 2024 (pdf)",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/07/Jaarrapportage-Jeugdhulp-Holland-Rijnland-2024.pdf",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Leiden – Jaarstukken 2025, programma Jeugd en onderwijs",
+        "url": "https://jaarstukken.leiden.nl/jaarverslag/programmaverantwoording/jeugd-en-onderwijs",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Centraal Plus – Leiden stelt nieuwe verordening jeugdhulp vast",
+        "url": "https://centraalplus.nl/2026/03/18/leiden-stelt-nieuwe-verordening-jeugdhulp-vast/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Centraal Plus – Niet meteen naar de therapeut: nieuwe regiovisie zet in op lichtere jeugdhulp",
+        "url": "https://centraalplus.nl/2026/06/10/niet-meteen-naar-de-therapeut-nieuwe-regiovisie-zet-in-op-lichtere-jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine – Jeugdhulptrajecten in natura; verwijzer, regio (85097NED)",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Humanitas Rijnland",
+        "url": "https://www.humanitas.nl/afdeling/rijnland/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Leidse Vereniging van Mantelzorgers (LVvM)",
+        "url": "https://www.lvvm.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Leiden – Contact",
+        "url": "https://www.cjgleiden.nl/pagina/contact/606164",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "SWV Voortgezet Onderwijs regio Leiden – Contact",
+        "url": "https://swvleiden.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Veilig Thuis Hollands Midden: kindermishandeling",
+        "url": "https://veiligthuishollandsmidden.nl/over-veilig-thuis/dit-is-veilig-thuis/",
+        "geraadpleegd": "2026-10-13"
+      }
+    ],
+    "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd met cijfers na 2020. wijzijneva.nl was niet bereikbaar en is niet als bron gebruikt. Contactgegevens samenwerkingsverband primair onderwijs niet gevonden. Spoedroute verwijst naar Veilig Thuis Hollands Midden: kindermishandeling (geen eigen spoedpagina voor jeugd gevonden)."
+  }
+}

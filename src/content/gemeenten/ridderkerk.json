@@ -1,0 +1,392 @@
+{
+  "naam": "Ridderkerk",
+  "cbsCode": "GM0597",
+  "provincie": "Zuid-Holland",
+  "websiteJeugd": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/jeugdhulp/",
+  "toegang": {
+    "samenvatting": "In Ridderkerk vraagt u jeugdhulp aan bij de lokale teams van de gemeente (voorheen het wijkteam). Het team kijkt eerst wat u zelf of met uw netwerk kunt oplossen, en welke lichte hulp zonder besluit past. Is meer nodig, dan helpt het team u aan specialistische hulp. U meldt zich zelf aan met het online formulier. Een verwijzing is niet nodig. Sinds 1 januari 2026 is er één centrale aanmelding voor alle vragen. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "routes": [
+      {
+        "type": "wijkteam",
+        "naam": "Lokale teams ondersteuning jeugd en volwassenen",
+        "omschrijving": "De lokale teams van de gemeente helpen bij vragen over opvoeden en opgroeien, en ook over zorg, geld en werk. U meldt zich zelf aan, maar iemand anders mag dat ook voor u doen. Het team kijkt eerst wat u zelf of met familie, buren en vrienden kunt doen en welke lichte hulp zonder verwijzing past. Is specialistische hulp nodig, dan regelt de gemeente die met een beschikking (besluit).",
+        "stappen": [
+          "Meld u aan via het formulier Aanmelding lokale teams op de website van de gemeente. Beschrijf uw situatie zo compleet mogelijk en zeg wat uw belangrijkste hulpvraag is.",
+          "Wacht op bericht van het team. Het team bespreekt uw vraag en laat weten hoe het verder gaat.",
+          "Neem gerust iemand mee naar een gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Lees het verslag dat u enkele dagen na het gesprek krijgt. Hierin staat of u hulp kunt krijgen en welke.",
+          "Vraag bij specialistische hulp om een schriftelijke beschikking. Daar kunt u bezwaar tegen maken."
+        ],
+        "contact": {
+          "naam": "Lokale teams ondersteuning jeugd en volwassenen (gemeente Ridderkerk)",
+          "telefoon": "0180 451 234",
+          "email": "lokaleteams@ridderkerk.nl",
+          "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/lokaleteams/",
+          "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur (algemeen nummer gemeente)"
+        }
+      },
+      {
+        "type": "huisarts",
+        "naam": "Via huisarts, jeugdarts of medisch specialist",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast de lokale teams. De gemeente betaalt de hulp alleen als de aanbieder een contract of subsidie van de gemeente heeft. Voor een andere aanbieder heeft u vooraf schriftelijke toestemming van de gemeente nodig.",
+        "stappen": [
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg (CJG Rijnmond).",
+          "Vraag de huisarts om te verwijzen naar een aanbieder die een contract met de gemeente Ridderkerk heeft.",
+          "Ga naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+        ],
+        "contact": {
+          "naam": "Jeugdgezondheidszorg: CJG Rijnmond",
+          "telefoon": "088 20 10 000",
+          "email": "info@cjgrijnmond.nl",
+          "url": "https://www.cjgrijnmond.nl/contact",
+          "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
+        }
+      },
+      {
+        "type": "school",
+        "naam": "Via school",
+        "omschrijving": "De school waar u uw kind aanmeldt, moet zorgen voor een passende plek en maakt met u een plan voor extra ondersteuning (zorgplicht). Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het basisonderwijs is dat RiBA (Ridderkerk, Albrandswaard en Barendrecht), voor het voortgezet onderwijs Koers VO. Vragen over jeugdhulp bij problemen op school kunt u ook aan de lokale teams stellen.",
+        "stappen": [
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag de school welke ondersteuning zij zelf biedt, en vraag om een schriftelijk plan.",
+          "Meld uw kind aan bij de lokale teams als meer hulp nodig is.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+        ],
+        "contact": [
+          {
+            "naam": "Lokale teams ondersteuning jeugd en volwassenen (gemeente Ridderkerk)",
+            "telefoon": "0180 451 234",
+            "email": "lokaleteams@ridderkerk.nl",
+            "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/lokaleteams/",
+            "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur (algemeen nummer gemeente)"
+          },
+          {
+            "naam": "Samenwerkingsverband Passend Onderwijs RiBA (basisonderwijs, Ouder- en jeugdsteunpunt)",
+            "telefoon": "085 750 1070",
+            "email": "info@swv-riba.nl",
+            "url": "https://swv-riba.nl/contact/",
+            "openingstijden": "Telefonisch maandag tot en met donderdag 9.00–16.00 uur. Op vrijdag alleen per e-mail"
+          },
+          {
+            "naam": "Samenwerkingsverband Koers VO (voortgezet onderwijs, Ouder- en jeugdsteunpunt)",
+            "telefoon": "010 484 2576",
+            "url": "https://www.koersvo.nl/voor-ouders/",
+            "openingstijden": "Telefonisch ma t/m do 8.30–17.00 uur, vr 8.30–12.30 uur, behalve in de schoolvakanties"
+          }
+        ]
+      },
+      {
+        "type": "spoed",
+        "naam": "Spoedeisende hulp",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Ridderkerk zijn, ook als er kinderen bij betrokken zijn, staat op de pagina van de lokale teams van de gemeente.",
+        "stappen": [
+          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
+          "Kijk voor de crisisdiensten in Ridderkerk op de pagina van de lokale teams van de gemeente, onder het kopje over een crisissituatie."
+        ],
+        "contact": {
+          "naam": "Gemeente Ridderkerk: lokale teams, bij een crisissituatie",
+          "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/lokaleteams/"
+        }
+      }
+    ]
+  },
+  "rechten": {
+    "onafhankelijkeClientondersteuning": {
+      "naam": "MEE Rotterdam-Rijnmond",
+      "toelichting": "Gratis en onafhankelijk voor iedere inwoner van Ridderkerk, ook bij vragen over jeugdhulp en onderwijs. Een cliëntondersteuner denkt mee, bereidt een gesprek met u voor, gaat op uw verzoek mee, helpt bij een persoonlijk plan en bij bezwaar tegen een besluit. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "telefoon": "010 282 11 11",
+      "email": "toegang@blijfmeedoen.nl",
+      "url": "https://www.ridderkerk.nl/direct-regelen/ondersteuning-werk-en-inkomen/hulp-nodig/ondersteuning-hulp/"
+    },
+    "pgb": {
+      "mogelijk": true,
+      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u jeugdhulp zelf wilt inkopen. U dient daarvoor een zorg- en budgetplan in. Hierin legt u uit waarom het aanbod van de gemeente voor uw kind niet past. U moet ook laten zien dat u het budget kunt beheren en dat de hulp van goede kwaliteit is. Het pgb voor hulp van een professional is 90 procent van het laagste contracttarief (het tarief dat de gemeente met aanbieders afspreekt). Voor hulp uit uw eigen netwerk geldt het minimumloon. Dat kan alleen als uw kind geen hulp van een professional nodig heeft. De gemeente beslist binnen uiterlijk 10 weken.",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR749705"
+    },
+    "klacht": {
+      "naam": "Klacht sociaal domein (gemeente Ridderkerk)",
+      "toelichting": "De lokale teams werken voor de gemeente. Een klacht over hun dienstverlening, het gedrag van een medewerker of een te late reactie dient u daarom in bij de gemeente, met DigiD of zonder inloggen. U krijgt binnen een week contact en binnen 6 weken een schriftelijk antwoord. Die termijn kan met 4 weken worden verlengd. Klachten over een zorgaanbieder stuurt de gemeente door naar die aanbieder. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook helpen.",
+      "url": "https://www.ridderkerk.nl/direct-regelen/melding-klacht-en-bezwaar/gemeentelijke-organisatie/klacht-sociaal-domein/",
+      "email": "klachtensd@ridderkerk.nl",
+      "extern": {
+        "naam": "Nationale ombudsman (na 6 weken zonder antwoord, of als u niet tevreden bent over de afhandeling)",
+        "url": "https://www.nationaleombudsman.nl/"
+      }
+    },
+    "bezwaar": {
+      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief. Onderaan de brief staat hoe. Let op: bellen met de gemeente geeft geen extra tijd en stelt het besluit niet uit.",
+      "url": "https://www.ridderkerk.nl/direct-regelen/melding-klacht-en-bezwaar/gemeentelijke-organisatie/bezwaar-maken"
+    },
+    "vertrouwenspersoon": {
+      "naam": "Jeugdstem (voorheen AKJ)",
+      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
+      "telefoon": "088 555 1000",
+      "url": "https://jeugdstem.nl/"
+    }
+  },
+  "aanbod": {
+    "samenvatting": "Lichte hulp en advies zonder verwijzing staan op de pagina Zorg zonder verwijzing van de gemeente en in de Beschikbaarheidswijzer. Specialistische jeugdhulp koopt Ridderkerk lokaal en samen met de andere gemeenten in de regio Rijnmond in. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hun wachttijden. Openbaar, zonder inloggen.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ridderkerk",
+    "categorieen": [
+      {
+        "naam": "Lichte hulp zonder verwijzing",
+        "omschrijving": "Advies, cursussen en activiteiten bij welzijnsorganisaties en de Huiskamer van Ridderkerk, zonder beschikking. De lokale teams kennen deze organisaties.",
+        "hulpsoorten": [
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Lokaal ingekochte jeugdhulp",
+        "omschrijving": "Ambulante hulp thuis of bij de aanbieder, dagprogramma's, basis-ggz, ernstige dyslexie en persoonlijke verzorging, na een besluit van de gemeente of een verwijzing van de huisarts.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "dagbesteding",
+          "behandeling-jeugd-ggz",
+          "dyslexiezorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Specialistische jeugdhulp in de regio Rijnmond",
+        "omschrijving": "Behandeling, crisishulp en verblijf, samen met de andere gemeenten in de regio ingekocht.",
+        "hulpsoorten": [
+          "crisishulp",
+          "verblijf-pleegzorg"
+        ]
+      }
+    ]
+  },
+  "lokaleInitiatieven": [
+    {
+      "naam": "Facet Ridderkerk",
+      "soort": "overig",
+      "omschrijving": "Welzijnsorganisatie van Ridderkerk met activiteiten en ondersteuning voor inwoners, onder wie jongeren en mantelzorgers.",
+      "themas": [
+        "gezin"
+      ],
+      "url": "https://facetridderkerk.nl/"
+    },
+    {
+      "naam": "Pilot Buurtgezinnen",
+      "soort": "vrijwilligers",
+      "omschrijving": "Sinds januari 2026 koppelt deze proef gezinnen die steun zoeken aan steungezinnen in de buurt, bijvoorbeeld als een kind even een fijne plek buiten het eigen huis nodig heeft. Meld u via de lokale teams of de scholen.",
+      "themas": [
+        "opvoeden",
+        "gezin"
+      ]
+    },
+    {
+      "naam": "Ouder- en jeugdsteunpunt samenwerkingsverband RiBA",
+      "soort": "informatiepunt",
+      "omschrijving": "Onafhankelijk advies van een ouderfunctionaris bij vragen over passend onderwijs.",
+      "themas": [
+        "passendonderwijs",
+        "school"
+      ],
+      "url": "https://swv-riba.nl/ouder-en-jeugdsteunpunt/"
+    }
+  ],
+  "directRegelen": [
+    {
+      "naam": "Aanmelding lokale teams",
+      "url": "https://loket.ridderkerk.nl/aanvraag?schema=aanmeldenbijwijkteamrk&productsleutel=naarmailbox00207",
+      "nodig": "Een duidelijke beschrijving van uw situatie en uw belangrijkste hulpvraag"
+    },
+    {
+      "naam": "Klacht sociaal domein indienen",
+      "url": "https://loket.ridderkerk.nl/aanvraag?schema=klacht_over_gemeente_zorgaanbieder_of_partner_in_het_sociaal_domein&productsleutel=LP00000268_RK",
+      "nodig": "DigiD, of gegevens zelf invullen"
+    },
+    {
+      "naam": "Bezwaar maken tegen een besluit",
+      "url": "https://www.ridderkerk.nl/direct-regelen/melding-klacht-en-bezwaar/gemeentelijke-organisatie/bezwaar-maken",
+      "nodig": "DigiD en het besluit bij de hand"
+    },
+    {
+      "naam": "Beschikbaarheidswijzer: aanbieders en wachttijden",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/ridderkerk",
+      "omschrijving": "Openbaar, zonder inloggen."
+    },
+    {
+      "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
+      "url": "https://jeugdstem.nl/contact"
+    }
+  ],
+  "meta": {
+    "laatstGecontroleerd": "2026-10-12",
+    "status": "concept",
+    "bronnen": [
+      {
+        "titel": "Gemeente Ridderkerk: Lokale teams ondersteuning jeugd en volwassenen",
+        "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/lokaleteams/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Jeugdhulp",
+        "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Zorg zonder verwijzing",
+        "url": "https://www.ridderkerk.nl/zorg-zonder-verwijzing/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Aanbieders lokale jeugdhulp",
+        "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/aanbieders-lokale-jeugdhulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Contact",
+        "url": "https://www.ridderkerk.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Passend onderwijs",
+        "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/leren-en-school/passend-onderwijs/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Cliëntondersteuning",
+        "url": "https://www.ridderkerk.nl/direct-regelen/ondersteuning-werk-en-inkomen/hulp-nodig/ondersteuning-hulp/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Klacht sociaal domein",
+        "url": "https://www.ridderkerk.nl/direct-regelen/melding-klacht-en-bezwaar/gemeentelijke-organisatie/klacht-sociaal-domein/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Ridderkerk: Bezwaar maken",
+        "url": "https://www.ridderkerk.nl/direct-regelen/melding-klacht-en-bezwaar/gemeentelijke-organisatie/bezwaar-maken",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp Ridderkerk",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR749705",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Rijnmond: Contact",
+        "url": "https://www.cjgrijnmond.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samenwerkingsverband Passend Onderwijs RiBA: Contact",
+        "url": "https://swv-riba.nl/contact/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samenwerkingsverband Passend Onderwijs RiBA: Ouder- en jeugdsteunpunt",
+        "url": "https://swv-riba.nl/ouder-en-jeugdsteunpunt/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Rotterdam-Rijnmond: Contact",
+        "url": "https://www.meerotterdamrijnmond.nl/contact",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer: Ridderkerk",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/ridderkerk",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jaarstukken gemeente Ridderkerk 2025",
+        "url": "https://api.notubiz.nl/document/17155369/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsinformatiebrief voortgang project Jeugdhulp 2025/2026 (22 mei 2026)",
+        "url": "https://api.notubiz.nl/document/17111949/1",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Raadsinformatiebrief cliëntervaringsonderzoeken 2024",
+        "url": "https://ridderkerk.raadsinformatie.nl/document/15921416/2",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Landelijke ondersteuning ouders en jeugd: steunpunt passend onderwijs",
+        "url": "https://ouderenjeugdsteunpuntenopdekaart.nl/",
+        "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Koers VO: Ouder- en jeugdsteunpunt",
+        "url": "https://www.koersvo.nl/voor-ouders/",
+        "geraadpleegd": "2026-10-12"
+      }
+    ],
+    "opmerkingen": "Begroting 2027 van de gemeente is nog niet verschenen. Doorlooptijden toegang, klachtenregeling van het team en regionale journalistiek niet gevonden of niet doorzocht."
+  },
+  "jeugdzorgregio": "Rijnmond (Gemeenschappelijke Regeling Jeugdhulp Rijnmond)",
+  "ervaringen": {
+    "samenvatting": "De lokale teams van Ridderkerk hadden de afgelopen jaren een wachtlijst voor jeugdhulp. In 2025 daalde die van 113 naar 30 aanvragen, in mei 2026 stonden er 45 op. Sinds 1 januari 2026 is er één centrale aanmelding, en tijdens het wachten zijn er cursussen en webinars. In het jongste cliëntervaringsonderzoek (over 2024) gaven ouders het wijkteam gemiddeld een 7,8 en jongeren een 7,4, bij een lage respons.\n\nVraag bij uw aanmelding bij de lokale teams hoe lang het duurt en leg afspraken schriftelijk vast. Neem zo nodig een onafhankelijke cliëntondersteuner van MEE mee. Bent u niet tevreden over de lokale teams, dien dan een klacht in bij de gemeente. Krijgt u na 6 weken geen antwoord, of bent u niet tevreden over de afhandeling, dan kunt u naar de Nationale ombudsman.",
+    "signalen": [
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachtlijst jeugdhulp: 45 aanvragen en nieuwe aanmeldroute",
+        "samenvatting": "Het college meldde dat er 45 aanvragen op de wachtlijst voor jeugdhulp stonden. Alle vragen komen sinds 2026 via één centrale aanmelding binnen, en er is hulp om de wachttijd te overbruggen, zoals cursussen en webinars. De gemeente wil nog afspraken met huisartsen maken.",
+        "datum": "2026-05-22",
+        "bron": {
+          "titel": "Raadsinformatiebrief voortgang project Jeugdhulp 2025/2026",
+          "url": "https://api.notubiz.nl/document/17111949/1"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Wachtlijst jeugdhulp in 2025 van 113 naar 30",
+        "samenvatting": "Volgens de jaarstukken is de wachtlijst voor jeugdhulp in 2025 flink korter geworden. Er is een nieuwe verordening. Op scholen startte een proef met een jeugdprofessional in het zorgteam van de school.",
+        "datum": "2026-07-09",
+        "bron": {
+          "titel": "Jaarstukken gemeente Ridderkerk 2025",
+          "url": "https://api.notubiz.nl/document/17155369/1"
+        }
+      },
+      {
+        "soort": "clientervaringsonderzoek",
+        "titel": "Cliëntervaringsonderzoek jeugdhulp over 2024",
+        "samenvatting": "Ouders van kinderen tot 15 jaar waarderen het wijkteam gemiddeld met een 7,8 en jongeren van 12 tot 18 jaar met een 7,4. 65 procent van de ouders voelde zich snel geholpen. De respons was 16 procent bij ouders en 12 procent bij jongeren.",
+        "datum": "2025-07-04",
+        "bron": {
+          "titel": "Raadsinformatiebrief cliëntervaringsonderzoeken Wmo, Jeugdwet en Participatiewet 2024",
+          "url": "https://ridderkerk.raadsinformatie.nl/document/15921416/2"
+        }
+      },
+      {
+        "soort": "gemeenteraad",
+        "titel": "Nieuwe verordening jeugdhulp vanaf 2026",
+        "samenvatting": "De raad stelde in oktober 2025 een nieuwe verordening vast, die geldt sinds 1 januari 2026. Daarin staat dat de gemeente binnen 10 weken na uw aanvraag beslist, en dat de hulp na een verwijzing van de huisarts alleen wordt vergoed bij een aanbieder met een contract.",
+        "datum": "2025-10-16",
+        "bron": {
+          "titel": "Verordening jeugdhulp Ridderkerk",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR749705"
+        }
+      }
+    ],
+    "transparantie": {
+      "clientervaringsonderzoek": {
+        "status": "ja",
+        "jaar": "2024",
+        "url": "https://ridderkerk.raadsinformatie.nl/document/15921416/2",
+        "samenvatting": "Jaarlijks onderzoek onder cliënten van het wijkteam. Ouders gaven gemiddeld een 7,8 en jongeren een 7,4, met een respons van 16 en 12 procent."
+      },
+      "doorlooptijden": {
+        "status": "nee",
+        "samenvatting": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Wel meldt de gemeente het aantal wachtende aanvragen. De verordening noemt een besluit binnen 10 weken. Vraag bij uw aanmelding hoe lang het duurt."
+      },
+      "aandeelHuisarts": {
+        "percentage": 54,
+        "jaar": "2025",
+        "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
+        "landelijk": 43
+      }
+    },
+    "laatstBijgewerkt": "2026-10-11"
+  }
+}

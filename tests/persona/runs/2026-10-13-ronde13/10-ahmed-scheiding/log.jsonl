@@ -1,0 +1,20 @@
+{"stap":1,"tijd":"2026-10-13T19:03:48.488Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-13T19:03:49.041Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-13T19:03:49.084Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1345}
+{"stap":4,"tijd":"2026-10-13T19:03:49.270Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["/workspaces/jeugdzorg-routes/tests/persona/runs/2026-10-13-ronde13/10-ahmed-scheiding/start.png"]}
+{"stap":5,"tijd":"2026-10-13T19:03:51.793Z","url":"http://127.0.0.1:4329/","cmd":"help","args":[]}
+{"stap":6,"tijd":"2026-10-13T19:03:54.711Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 1/20: Ik zie meteen 'Wij zijn gescheiden en het loopt vast'. Dat past. Eerst gemeente Tilburg kiezen."],"tekst":"stap 1/20: Ik zie meteen 'Wij zijn gescheiden en het loopt vast'. Dat past. Eerst gemeente Tilburg kiezen."}
+{"stap":7,"tijd":"2026-10-13T19:03:55.062Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["4","Tilburg"]}
+{"stap":8,"tijd":"2026-10-13T19:03:59.629Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["16"]}
+{"stap":9,"tijd":"2026-10-13T19:04:02.281Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1465}
+{"stap":10,"tijd":"2026-10-13T19:04:04.876Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 3/20: Tilburg en gescheiden gekozen, nu 'Toon mijn overzicht'."],"tekst":"stap 3/20: Tilburg en gescheiden gekozen, nu 'Toon mijn overzicht'."}
+{"stap":11,"tijd":"2026-10-13T19:04:06.717Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"klik","args":["41"]}
+{"stap":12,"tijd":"2026-10-13T19:04:06.757Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"kijk","args":[],"lengte":812}
+{"stap":13,"tijd":"2026-10-13T19:04:10.224Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"foto","args":["tests/persona/runs/2026-10-13-ronde13/10-ahmed-scheiding/overzicht.png"]}
+{"stap":14,"tijd":"2026-10-13T19:04:10.254Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"notitie","args":["stap 4/20: Direct antwoord: advies, school wel; behandeling vraagt beide ouders. Dat is wat ik vreesde. Scroll voor wat ik dan wel kan."],"tekst":"stap 4/20: Direct antwoord: advies, school wel; behandeling vraagt beide ouders. Dat is wat ik vreesde. Scroll voor wat ik dan wel kan."}
+{"stap":15,"tijd":"2026-10-13T19:04:10.743Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"scroll","args":[]}
+{"stap":16,"tijd":"2026-10-13T19:04:13.473Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"notitie","args":["stap 5/20: Goed: drie dingen die ik alleen kan. Huisarts voor slecht slapen, ik snap. Verder."],"tekst":"stap 5/20: Goed: drie dingen die ik alleen kan. Huisarts voor slecht slapen, ik snap. Verder."}
+{"stap":17,"tijd":"2026-10-13T19:04:13.958Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"scroll","args":[]}
+{"stap":18,"tijd":"2026-10-13T19:04:14.456Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"scroll","args":[]}
+{"stap":19,"tijd":"2026-10-13T19:04:27.533Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"notitie","args":["stap 7/20: Rechter kan toestemming vervangen, Juridisch Loket 0800 8020, mediation. Dit is genoeg, ik weet het. Wel veel tekst, en 'vervangende toestemming' is zwaar; ik wil geen ruzie."],"tekst":"stap 7/20: Rechter kan toestemming vervangen, Juridisch Loket 0800 8020, mediation. Dit is genoeg, ik weet het. Wel veel tekst, en 'vervangende toestemming' is zwaar; ik wil geen ruzie."}
+{"stap":20,"tijd":"2026-10-13T19:04:27.566Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=tilburg&k=gescheiden","cmd":"stop"}

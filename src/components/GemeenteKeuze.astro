@@ -1,0 +1,72 @@
+---
+/**
+ * Keuzelijst van gemeenten. Onthoudt de keuze in localStorage ("jr.gemeente")
+ * en leest ?gemeente= uit de URL. Andere componenten luisteren naar het event "jr:gemeente".
+ */
+import { getCollection } from 'astro:content';
+interface Props { label?: string; id?: string }
+const { label = 'Waar woont u?', id = 'gemeente-keuze' } = Astro.props;
+const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+---
+<label class="field" for={id}>
+  <span>{label}</span>
+  <select id={id} class="gemeente-keuze" data-gemeente-keuze>
+    <option value="">Kies uw gemeente…</option>
+    {gemeenten.map((g) => <option value={g.id}>{g.data.naam}</option>)}
+    <option value="_overig">Mijn gemeente staat er niet bij</option>
+  </select>
+</label>
+<!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent. -->
+<div class="woonplaats-zoek" data-woonplaats-zoek>
+  <button type="button" class="linkknop" data-woonplaats-open>Weet u uw gemeente niet? Zoek op woonplaats</button>
+  <div data-woonplaats-veld hidden>
+    <input type="search" list={`${id}-woonplaatsen`} placeholder="Typ uw woonplaats" aria-label="Woonplaats" autocomplete="off" data-woonplaats-invoer />
+    <datalist id={`${id}-woonplaatsen`}></datalist>
+    <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
+  </div>
+</div>
+<script>
+  const KEY = 'jr.gemeente';
+  const fromUrl = new URLSearchParams(location.search).get('gemeente');
+  if (fromUrl) localStorage.setItem(KEY, fromUrl);
+  const current = localStorage.getItem(KEY) ?? '';
+  document.querySelectorAll<HTMLSelectElement>('[data-gemeente-keuze]').forEach((sel) => {
+    if (current && Array.from(sel.options).some((o) => o.value === current)) sel.value = current;
+    sel.addEventListener('change', () => {
+      localStorage.setItem(KEY, sel.value);
+      document.dispatchEvent(new CustomEvent('jr:gemeente', { detail: sel.value }));
+    });
+  });
+  document.dispatchEvent(new CustomEvent('jr:gemeente', { detail: current }));
+
+  // Woonplaats → gemeente. Ligt een woonplaats in twee gemeenten, dan staan beide in de lijst.
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  let lijst: Promise<[string, string][]> | null = null;
+  document.querySelectorAll<HTMLElement>('[data-woonplaats-zoek]').forEach((blok) => {
+    const sel = blok.previousElementSibling?.querySelector<HTMLSelectElement>('[data-gemeente-keuze]');
+    const veld = blok.querySelector<HTMLElement>('[data-woonplaats-veld]')!;
+    const invoer = blok.querySelector<HTMLInputElement>('[data-woonplaats-invoer]')!;
+    const dl = blok.querySelector<HTMLDataListElement>('datalist')!;
+    const uitkomst = blok.querySelector<HTMLElement>('[data-woonplaats-uitkomst]')!;
+    if (!sel) return;
+    const gemNaam = (slug: string) => Array.from(sel.options).find((o) => o.value === slug)?.text ?? slug;
+    const label = (plaats: string, slug: string) => `${plaats} (gemeente ${gemNaam(slug)})`;
+    let opties = new Map<string, string>();
+    blok.querySelector('[data-woonplaats-open]')!.addEventListener('click', async (e) => {
+      (e.currentTarget as HTMLElement).hidden = true;
+      veld.hidden = false;
+      invoer.focus();
+      lijst ??= fetch(`${base}/woonplaatsen.json`).then((r) => r.json());
+      const paren = await lijst;
+      opties = new Map(paren.map(([plaats, slug]) => [label(plaats, slug), slug]));
+      dl.replaceChildren(...Array.from(opties.keys(), (t) => Object.assign(document.createElement('option'), { value: t })));
+    });
+    invoer.addEventListener('input', () => {
+      const slug = opties.get(invoer.value);
+      if (!slug) return;
+      sel.value = slug;
+      sel.dispatchEvent(new Event('change'));
+      uitkomst.textContent = `Gekozen: gemeente ${gemNaam(slug)}.`;
+    });
+  });
+</script>

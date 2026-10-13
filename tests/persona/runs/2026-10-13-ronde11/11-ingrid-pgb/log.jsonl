@@ -1,0 +1,49 @@
+{"stap":1,"tijd":"2026-10-13T17:24:43.567Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-13T17:24:44.314Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-13T17:24:44.375Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1400}
+{"stap":4,"tijd":"2026-10-13T17:24:49.012Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 0/25: Eerste scherm. Ik zoek Groningen en iets over pgb. Ik kies eerst mijn gemeente."],"tekst":"stap 0/25: Eerste scherm. Ik zoek Groningen en iets over pgb. Ik kies eerst mijn gemeente."}
+{"stap":5,"tijd":"2026-10-13T17:24:49.128Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":6,"tijd":"2026-10-13T17:24:54.923Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Groningen"]}
+{"stap":7,"tijd":"2026-10-13T17:24:55.021Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1444}
+{"stap":8,"tijd":"2026-10-13T17:24:58.483Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 2/25: Groningen gekozen. Geen knop past echt op pgb; ik pak Toon mijn overzicht."],"tekst":"stap 2/25: Groningen gekozen. Geen knop past echt op pgb; ik pak Toon mijn overzicht."}
+{"stap":9,"tijd":"2026-10-13T17:25:00.327Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen","cmd":"klik","args":["43"]}
+{"stap":10,"tijd":"2026-10-13T17:25:02.800Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen","cmd":"kijk","args":[],"lengte":1291}
+{"stap":11,"tijd":"2026-10-13T17:25:06.458Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen","cmd":"scroll","args":["omlaag"]}
+{"stap":12,"tijd":"2026-10-13T17:25:06.958Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen","cmd":"scroll","args":["omlaag"]}
+{"stap":13,"tijd":"2026-10-13T17:25:11.242Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=groningen","cmd":"notitie","args":["stap 5/25: Overzicht gaat over aanvragen, niet over pgb. Ik probeer Landelijk."],"tekst":"stap 5/25: Overzicht gaat over aanvragen, niet over pgb. Ik probeer Landelijk."}
+{"stap":14,"tijd":"2026-10-13T17:25:13.109Z","url":"http://127.0.0.1:4329/landelijk/","cmd":"klik","args":["5"]}
+{"stap":15,"tijd":"2026-10-13T17:25:13.163Z","url":"http://127.0.0.1:4329/landelijk/","cmd":"kijk","args":[],"lengte":1370}
+{"stap":16,"tijd":"2026-10-13T17:25:17.963Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"klik","args":["12"]}
+{"stap":17,"tijd":"2026-10-13T17:25:20.167Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"kijk","args":[],"lengte":2620}
+{"stap":18,"tijd":"2026-10-13T17:25:22.922Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"notitie","args":["stap 7/25: Rechten noemt pgb in een opsomming. Scroll verder voor pgb-uitleg."],"tekst":"stap 7/25: Rechten noemt pgb in een opsomming. Scroll verder voor pgb-uitleg."}
+{"stap":19,"tijd":"2026-10-13T17:25:23.428Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"scroll","args":["omlaag"]}
+{"stap":20,"tijd":"2026-10-13T17:25:23.925Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"scroll","args":["omlaag"]}
+{"stap":21,"tijd":"2026-10-13T17:25:28.068Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"notitie","args":["stap 9/25: Goede landelijke uitleg: budgetplan, zorgovereenkomst, maandelijks declareren, SVB, Per Saldo, pgb-vaardig. Paar uur per maand, paar maanden duur. Nu: hoe zit het in Groningen?"],"tekst":"stap 9/25: Goede landelijke uitleg: budgetplan, zorgovereenkomst, maandelijks declareren, SVB, Per Saldo, pgb-vaardig. Paar uur per maand, paar maanden duur. Nu: hoe zit het in Groningen?"}
+{"stap":22,"tijd":"2026-10-13T17:25:28.130Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"foto","args":[]}
+{"stap":23,"tijd":"2026-10-13T17:25:29.973Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"klik","args":["4"]}
+{"stap":24,"tijd":"2026-10-13T17:25:30.022Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"kijk","args":[],"lengte":45766}
+{"stap":25,"tijd":"2026-10-13T17:25:32.982Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"typ","args":["9","Groningen"]}
+{"stap":26,"tijd":"2026-10-13T17:25:33.338Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"toets","args":["Enter"]}
+{"stap":27,"tijd":"2026-10-13T17:25:35.805Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"kijk","args":[],"lengte":1633}
+{"stap":28,"tijd":"2026-10-13T17:25:38.666Z","url":"http://127.0.0.1:4329/gemeenten/","cmd":"notitie","args":["stap 12/25: Gemeente Groningen openen."],"tekst":"stap 12/25: Gemeente Groningen openen."}
+{"stap":29,"tijd":"2026-10-13T17:25:40.507Z","url":"http://127.0.0.1:4329/gemeenten/groningen/","cmd":"klik","args":["12"]}
+{"stap":30,"tijd":"2026-10-13T17:25:40.553Z","url":"http://127.0.0.1:4329/gemeenten/groningen/","cmd":"kijk","args":[],"lengte":1874}
+{"stap":31,"tijd":"2026-10-13T17:25:45.058Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#rechten","cmd":"klik","args":["11"]}
+{"stap":32,"tijd":"2026-10-13T17:25:45.101Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#rechten","cmd":"kijk","args":[],"lengte":2330}
+{"stap":33,"tijd":"2026-10-13T17:25:49.806Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#rechten","cmd":"notitie","args":["stap 14/25: Eindelijk Groningen-specifiek: pgb mogelijk, budgetplan is de aanvraag (art. 9), vaste tarieven, geen vergoeding bemiddeling. Maar: kan een aanbieder zonder contract? Wie helpt? Ik open 'Wat een pgb van u vraagt'."],"tekst":"stap 14/25: Eindelijk Groningen-specifiek: pgb mogelijk, budgetplan is de aanvraag (art. 9), vaste tarieven, geen vergoeding bemiddeling. Maar: kan een aanbieder zonder contract? Wie helpt? Ik open 'Wat een pgb van u vraagt'."}
+{"stap":34,"tijd":"2026-10-13T17:25:49.870Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#rechten","cmd":"foto","args":[]}
+{"stap":35,"tijd":"2026-10-13T17:25:51.707Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"klik","args":["48"]}
+{"stap":36,"tijd":"2026-10-13T17:25:51.751Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"kijk","args":[],"lengte":2620}
+{"stap":37,"tijd":"2026-10-13T17:25:56.095Z","url":"http://127.0.0.1:4329/landelijk/#03-rechten","cmd":"notitie","args":["stap 15/25: Dit is dezelfde landelijke tekst die ik al las; link sprong naar het begin van de rechtenpagina, niet naar pgb. Terug naar Groningen."],"tekst":"stap 15/25: Dit is dezelfde landelijke tekst die ik al las; link sprong naar het begin van de rechtenpagina, niet naar pgb. Terug naar Groningen."}
+{"stap":38,"tijd":"2026-10-13T17:25:56.450Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#rechten","cmd":"terug","args":[]}
+{"stap":39,"tijd":"2026-10-13T17:25:56.957Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#rechten","cmd":"scroll","args":["omlaag"]}
+{"stap":40,"tijd":"2026-10-13T17:26:01.872Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#lokaal","cmd":"klik","args":["13"]}
+{"stap":41,"tijd":"2026-10-13T17:26:01.929Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#lokaal","cmd":"kijk","args":[],"lengte":1609}
+{"stap":42,"tijd":"2026-10-13T17:26:05.610Z","url":"http://127.0.0.1:4329/gemeenten/groningen/#lokaal","cmd":"notitie","args":["stap 18/25: Lokale steun: Autisme Info Centrum Groningen is fijn voor mij. Maar pgb-hulp wijst deze pagina niet aan. Per Saldo stond landelijk genoemd; ik zoek onder Organisaties."],"tekst":"stap 18/25: Lokale steun: Autisme Info Centrum Groningen is fijn voor mij. Maar pgb-hulp wijst deze pagina niet aan. Per Saldo stond landelijk genoemd; ik zoek onder Organisaties."}
+{"stap":43,"tijd":"2026-10-13T17:26:07.450Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"klik","args":["6"]}
+{"stap":44,"tijd":"2026-10-13T17:26:07.499Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"kijk","args":[],"lengte":1467}
+{"stap":45,"tijd":"2026-10-13T17:26:10.674Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"typ","args":["9","Per Saldo"]}
+{"stap":46,"tijd":"2026-10-13T17:26:11.019Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"toets","args":["Enter"]}
+{"stap":47,"tijd":"2026-10-13T17:26:11.057Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"kijk","args":[],"lengte":1034}
+{"stap":48,"tijd":"2026-10-13T17:26:27.235Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"notitie","args":["stap 21/25: Per Saldo gevonden met telefoon 0900 742 48 57, modelbudgetplannen. Genoeg om te weten wat ik moet doen. Onbeantwoord: mag een aanbieder zonder contract? Wie bij WIJ Groningen? Stop."],"tekst":"stap 21/25: Per Saldo gevonden met telefoon 0900 742 48 57, modelbudgetplannen. Genoeg om te weten wat ik moet doen. Onbeantwoord: mag een aanbieder zonder contract? Wie bij WIJ Groningen? Stop."}
+{"stap":49,"tijd":"2026-10-13T17:26:27.266Z","url":"http://127.0.0.1:4329/organisaties/","cmd":"stop"}

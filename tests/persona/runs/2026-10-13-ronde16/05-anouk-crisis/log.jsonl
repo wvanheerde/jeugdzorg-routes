@@ -1,0 +1,13 @@
+{"stap":1,"tijd":"2026-10-13T19:51:45.170Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-13T19:51:45.744Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-13T19:51:45.800Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1400}
+{"stap":4,"tijd":"2026-10-13T19:51:45.969Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["tests/persona/runs/2026-10-13-ronde16/05-anouk-crisis/1.png"]}
+{"stap":5,"tijd":"2026-10-13T19:51:49.110Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 0: geen nummer bovenaan te zien. 'Het kan niet wachten' lijkt mijn knop."],"tekst":"Stap 0: geen nummer bovenaan te zien. 'Het kan niet wachten' lijkt mijn knop."}
+{"stap":6,"tijd":"2026-10-13T19:51:50.970Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["11"]}
+{"stap":7,"tijd":"2026-10-13T19:51:51.020Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":854}
+{"stap":8,"tijd":"2026-10-13T19:51:55.175Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"klik","args":["42"]}
+{"stap":9,"tijd":"2026-10-13T19:51:55.213Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"kijk","args":[],"lengte":612}
+{"stap":10,"tijd":"2026-10-13T19:51:58.126Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"foto","args":["tests/persona/runs/2026-10-13-ronde16/05-anouk-crisis/2.png"]}
+{"stap":11,"tijd":"2026-10-13T19:51:58.612Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":["omlaag"]}
+{"stap":12,"tijd":"2026-10-13T19:52:12.685Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["Stap 3/10: huisartsenpost bellen, maar nummer staat er niet. Dat is wat ik nodig had; 0800-nummers zijn niet mijn situatie. Ik zoek het zelf op."],"tekst":"Stap 3/10: huisartsenpost bellen, maar nummer staat er niet. Dat is wat ik nodig had; 0800-nummers zijn niet mijn situatie. Ik zoek het zelf op."}
+{"stap":13,"tijd":"2026-10-13T19:52:12.719Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"stop"}

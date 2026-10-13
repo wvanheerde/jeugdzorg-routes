@@ -1,0 +1,18 @@
+{"stap":1,"tijd":"2026-10-12T20:14:28.484Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-12T20:14:29.074Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-12T20:14:29.128Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1028}
+{"stap":4,"tijd":"2026-10-12T20:14:31.933Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-12T20:14:31.966Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 0: geopend. Eerste scherm: geen spoednummer te zien, alleen gemeente kiezen. Ik zoek wie ik nu kan bellen."],"tekst":"Stap 0: geopend. Eerste scherm: geen spoednummer te zien, alleen gemeente kiezen. Ik zoek wie ik nu kan bellen."}
+{"stap":6,"tijd":"2026-10-12T20:14:32.423Z","url":"http://127.0.0.1:4329/","cmd":"scroll","args":[]}
+{"stap":7,"tijd":"2026-10-12T20:14:35.495Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 1/10 scroll gedaan. 'Het kan niet wachten' is wat ik zoek."],"tekst":"Stap 1/10 scroll gedaan. 'Het kan niet wachten' is wat ik zoek."}
+{"stap":8,"tijd":"2026-10-12T20:14:37.346Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["19"]}
+{"stap":9,"tijd":"2026-10-12T20:14:37.418Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1241}
+{"stap":10,"tijd":"2026-10-12T20:14:40.457Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 2/10. Gekozen. Nu 'Toon mijn overzicht'. Gemeente heb ik niet gekozen, hoop dat het toch werkt."],"tekst":"Stap 2/10. Gekozen. Nu 'Toon mijn overzicht'. Gemeente heb ik niet gekozen, hoop dat het toch werkt."}
+{"stap":11,"tijd":"2026-10-12T20:14:42.405Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"klik","args":["42"]}
+{"stap":12,"tijd":"2026-10-12T20:14:42.456Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"kijk","args":[],"lengte":724}
+{"stap":13,"tijd":"2026-10-12T20:14:45.701Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"foto","args":[]}
+{"stap":14,"tijd":"2026-10-12T20:14:45.753Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["Stap 3/10. Goed: bel huisarts-nummer, dan hoor ik huisartsenpost. Maar geen echt nummer (0900-1585?) en geen 112/113/Kindertelefoon. Scroll voor nummers."],"tekst":"Stap 3/10. Goed: bel huisarts-nummer, dan hoor ik huisartsenpost. Maar geen echt nummer (0900-1585?) en geen 112/113/Kindertelefoon. Scroll voor nummers."}
+{"stap":15,"tijd":"2026-10-12T20:14:46.256Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":[]}
+{"stap":16,"tijd":"2026-10-12T20:14:46.754Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"scroll","args":[]}
+{"stap":17,"tijd":"2026-10-12T20:15:00.354Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"notitie","args":["Stap 5/10. Ik weet het: eigen huisarts bellen -> bandje geeft huisartsenpost. Geen nummer van de HAP zelf, wel 0800-2000 en 0800-0113. Stop."],"tekst":"Stap 5/10. Ik weet het: eigen huisarts bellen -> bandje geeft huisartsenpost. Geen nummer van de HAP zelf, wel 0800-2000 en 0800-0113. Stop."}
+{"stap":18,"tijd":"2026-10-12T20:15:00.387Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=spoed","cmd":"stop"}
