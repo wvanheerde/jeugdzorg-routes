@@ -119,6 +119,21 @@ const nav = [
         if (kop && 'ResizeObserver' in window) new ResizeObserver(zet).observe(kop); else addEventListener('resize', zet);
       })();
     </script>
+    <script is:inline>
+      // Inhoudsopgaven met knoppen (.toc): op de telefoon een veegrij. Pijlknoppen aan de rand laten zien dat er meer is.
+      document.querySelectorAll('nav.toc').forEach((toc) => {
+        const wrap = document.createElement('div'); wrap.className = 'toc-wrap';
+        toc.replaceWith(wrap); wrap.append(toc);
+        // Getekende chevron (geen tekstteken): staat altijd precies in het midden van de cirkel.
+        const svg = (d) => `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+        const pijl = (kant, d, label) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'toc-pijl ' + kant; b.innerHTML = svg(d); b.setAttribute('aria-label', label); wrap.append(b); return b; };
+        const l = pijl('links', 'M14.5 6l-6 6 6 6', 'Vorige onderwerpen'), r = pijl('rechts', 'M9.5 6l6 6-6 6', 'Meer onderwerpen');
+        const stap = (dir) => toc.scrollBy({ left: dir * toc.clientWidth * 0.7, behavior: 'smooth' });
+        l.addEventListener('click', () => stap(-1)); r.addEventListener('click', () => stap(1));
+        const bij = () => { wrap.toggleAttribute('data-meer-links', toc.scrollLeft > 4); wrap.toggleAttribute('data-meer-rechts', toc.scrollLeft + toc.clientWidth < toc.scrollWidth - 4); };
+        toc.addEventListener('scroll', bij, { passive: true }); addEventListener('resize', bij); bij();
+      });
+    </script>
     <script is:inline set:html={`window.__jrWoorden = ${JSON.stringify(woorden)};`} />
     <script>
       // Leg officiële woorden één keer per pagina uit: eerste keer onderstreept, uitleg na een tik.

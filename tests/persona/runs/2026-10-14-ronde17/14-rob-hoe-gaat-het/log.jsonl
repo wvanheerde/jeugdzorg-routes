@@ -1,0 +1,30 @@
+{"stap":1,"tijd":"2026-10-14T07:45:08.910Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-14T07:45:09.470Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-14T07:45:09.521Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1603}
+{"stap":4,"tijd":"2026-10-14T07:45:09.652Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-14T07:45:13.149Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 1/20. Ik wil Arnhem en wachttijden. Kies gemeente."],"tekst":"Stap 1/20. Ik wil Arnhem en wachttijden. Kies gemeente."}
+{"stap":6,"tijd":"2026-10-14T07:45:13.187Z","url":"http://127.0.0.1:4329/","cmd":"help","args":[]}
+{"stap":7,"tijd":"2026-10-14T07:45:15.042Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["9"]}
+{"stap":8,"tijd":"2026-10-14T07:45:18.261Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Arnhem"]}
+{"stap":9,"tijd":"2026-10-14T07:45:18.319Z","url":"http://127.0.0.1:4329/","cmd":"typ","args":["9","Arnhem"],"fout":"Fout: locator.fill: Error: Element is not an <input>, <textarea> or [contenteditable] element"}
+{"stap":10,"tijd":"2026-10-14T07:45:22.928Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["10"]}
+{"stap":11,"tijd":"2026-10-14T07:45:22.973Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1591}
+{"stap":12,"tijd":"2026-10-14T07:45:26.708Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 6/20. Keuzelijst gekozen maar niets gebeurt; er is nu een woonplaatsveld. Ik klik op 'Wij wachten te lang'."],"tekst":"Stap 6/20. Keuzelijst gekozen maar niets gebeurt; er is nu een woonplaatsveld. Ik klik op 'Wij wachten te lang'."}
+{"stap":13,"tijd":"2026-10-14T07:45:28.549Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["12"]}
+{"stap":14,"tijd":"2026-10-14T07:45:28.598Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1169}
+{"stap":15,"tijd":"2026-10-14T07:45:32.689Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"klik","args":["46"]}
+{"stap":16,"tijd":"2026-10-14T07:45:32.734Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"kijk","args":[],"lengte":1376}
+{"stap":17,"tijd":"2026-10-14T07:45:35.429Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"notitie","args":["Stap 8/20. Er is een uitklapper 'Hoe lang duurt het in Arnhem?' - precies wat ik wil."],"tekst":"Stap 8/20. Er is een uitklapper 'Hoe lang duurt het in Arnhem?' - precies wat ik wil."}
+{"stap":18,"tijd":"2026-10-14T07:45:37.300Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"klik","args":["14"]}
+{"stap":19,"tijd":"2026-10-14T07:45:37.343Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"kijk","args":[],"lengte":1323}
+{"stap":20,"tijd":"2026-10-14T07:45:37.449Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"foto","args":[]}
+{"stap":21,"tijd":"2026-10-14T07:45:40.199Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=arnhem&k=wachten","cmd":"notitie","args":["Stap 9/20. 'Arnhem maakt niet openbaar hoe lang'. Jammer, geen cijfers. Link 'Hoe gaat het in Arnhem?' proberen."],"tekst":"Stap 9/20. 'Arnhem maakt niet openbaar hoe lang'. Jammer, geen cijfers. Link 'Hoe gaat het in Arnhem?' proberen."}
+{"stap":22,"tijd":"2026-10-14T07:45:42.053Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"klik","args":["16"]}
+{"stap":23,"tijd":"2026-10-14T07:45:42.093Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"kijk","args":[],"lengte":2568}
+{"stap":24,"tijd":"2026-10-14T07:45:45.330Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"notitie","args":["Stap 10/20. Dit is bruikbaar: 13,5%, rapportcijfer 8,0, wethouder noemt lange wachtlijsten. Maar geen concrete weken. Scroll voor meer."],"tekst":"Stap 10/20. Dit is bruikbaar: 13,5%, rapportcijfer 8,0, wethouder noemt lange wachtlijsten. Maar geen concrete weken. Scroll voor meer."}
+{"stap":25,"tijd":"2026-10-14T07:45:45.399Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"foto","args":[]}
+{"stap":26,"tijd":"2026-10-14T07:45:45.894Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"scroll","args":["beneden"]}
+{"stap":27,"tijd":"2026-10-14T07:45:48.939Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"notitie","args":["Stap 11/20. Eerlijk: wachttijden niet gerapporteerd, 58 klachten, cijfer 8,0 en 7,8 voor toegang. Meer scrollen."],"tekst":"Stap 11/20. Eerlijk: wachttijden niet gerapporteerd, 58 klachten, cijfer 8,0 en 7,8 voor toegang. Meer scrollen."}
+{"stap":28,"tijd":"2026-10-14T07:45:49.447Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"scroll","args":["beneden"]}
+{"stap":29,"tijd":"2026-10-14T07:46:05.421Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"notitie","args":["Klaar na 12 stappen: beeld is er, concrete wachttijd niet. Ik bel het wijkteam en vraag het schriftelijk."],"tekst":"Klaar na 12 stappen: beeld is er, concrete wachttijd niet. Ik bel het wijkteam en vraag het schriftelijk."}
+{"stap":30,"tijd":"2026-10-14T07:46:05.455Z","url":"http://127.0.0.1:4329/gemeenten/arnhem/#ervaringen","cmd":"stop"}

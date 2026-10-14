@@ -8,6 +8,7 @@ interface Props { label?: string; id?: string }
 const { label = 'Waar woont u?', id = 'gemeente-keuze' } = Astro.props;
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 ---
+<div class="gemeente-rij">
 <label class="field" for={id}>
   <span>{label}</span>
   <select id={id} class="gemeente-keuze" data-gemeente-keuze>
@@ -18,12 +19,13 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
 </label>
 <!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent. -->
 <div class="woonplaats-zoek" data-woonplaats-zoek>
-  <button type="button" class="linkknop" data-woonplaats-open>Weet u uw gemeente niet? Zoek op woonplaats</button>
+  <button type="button" class="linkknop" data-woonplaats-open>Zoek op woonplaats</button>
   <div data-woonplaats-veld hidden>
     <input type="search" list={`${id}-woonplaatsen`} placeholder="Typ uw woonplaats" aria-label="Woonplaats" autocomplete="off" data-woonplaats-invoer />
     <datalist id={`${id}-woonplaatsen`}></datalist>
     <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
   </div>
+</div>
 </div>
 <script>
   const KEY = 'jr.gemeente';

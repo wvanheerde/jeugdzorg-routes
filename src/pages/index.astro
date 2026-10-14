@@ -20,7 +20,9 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     <p class="hint">Of lees eerst <a href={`${base}/landelijk/`} style="color:#fff">wat landelijk voor iedereen geldt</a>.</p>
   </section>
 
-  <div class="kicker"><h2>Drie dingen om te weten</h2><span class="line"></span></div>
+  <!-- Het keuzeblok is hoger dan het scherm: deze knop laat zien dat er onder nog informatie staat (verdwijnt na scrollen). -->
+  <a class="meer-hint" href="#meer" data-meer-hint hidden>Meer op deze pagina <span aria-hidden="true">↓</span></a>
+  <div class="kicker" id="meer" style="scroll-margin-top:calc(var(--kop-hoogte, 4rem) + 1rem)"><h2>Drie dingen om te weten</h2><span class="line"></span></div>
   <div class="grid" style="margin-top:1.25rem">
     <div class="card">
       <div class="icon"><Icon name="compass" /></div>
@@ -70,3 +72,21 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
   <p class="empty empty-result" hidden style="margin-top:1rem">Geen gemeente gevonden. De <a href={`${base}/landelijk/`}>landelijke rechten</a> gelden overal.</p>
 
 </Base>
+<script>
+  {
+    const hint = document.querySelector<HTMLElement>('[data-meer-hint]');
+    const doel = document.getElementById('meer');
+    const balk = document.querySelector<HTMLElement>('[data-cta-balk]');
+    if (hint && doel) {
+      let weg = false;
+      const bij = () => {
+        if (scrollY > 120) weg = true; // eenmaal gescrold: niet meer tonen
+        hint.hidden = weg || doel.getBoundingClientRect().top < innerHeight - 40;
+        hint.style.bottom = balk && !balk.hidden ? `calc(${balk.offsetHeight}px + .75rem)` : '';
+      };
+      addEventListener('scroll', bij, { passive: true }); addEventListener('resize', bij);
+      if (balk) new MutationObserver(bij).observe(balk, { attributes: true, attributeFilter: ['hidden'] });
+      bij();
+    }
+  }
+</script>

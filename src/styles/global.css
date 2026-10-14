@@ -168,10 +168,11 @@ li { margin-bottom: .3rem; }
 .route-gemeente .contact { background: #fff; margin-top: .5rem; }
 
 /* ---------- Gemeentepagina: zijbalk ---------- */
-.page-with-side { display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: start; }
+.page-with-side { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: start; }
+.page-with-side > * { min-width: 0; } /* anders rekt een brede rij (bv. de veegrij) de kolom op */
 .side { display: none; }
 @media (min-width: 960px) {
-  .page-with-side { grid-template-columns: 15rem 1fr; }
+  .page-with-side { grid-template-columns: 15rem minmax(0, 1fr); }
   .side { display: block; position: sticky; top: 6rem; }
 }
 .side nav { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; box-shadow: var(--shadow-sm); }
@@ -281,7 +282,14 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .crisis a { color: #ffd9c4; font-weight: 600; }
 .crisis .items { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: .95rem; }
 .kicker { display: flex; align-items: center; gap: .8rem; margin-top: 3rem; }
-.kicker h2 { margin: 0; }
+.kicker h2 { margin: 0; min-width: 0; }
+@media (max-width: 640px) {
+  /* Kop met knop ernaast: op de telefoon de knop onder de kop, zodat lange titels niet buiten beeld vallen */
+  .kicker { flex-wrap: wrap; row-gap: .6rem; }
+  .kicker h2 { flex: 1 1 100%; }
+  .kicker .line { display: none; }
+  .kicker .btn { padding: .45rem 1rem; font-size: .92rem; white-space: nowrap; }
+}
 .kicker .line { flex: 1; height: 1px; background: var(--c-border); }
 
 /* ---------- Footer ---------- */
@@ -402,13 +410,64 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .card > .badge { align-self: flex-start; }
 
 /* Zoeken op woonplaats onder de gemeentekeuze */
-.woonplaats-zoek { margin: .35rem 0 0; }
+/* Gemeentekeuze en "Zoek op woonplaats" in één rij: op desktop naast elkaar, op de telefoon direct onder elkaar */
+.gemeente-rij { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .35rem 1.25rem; }
+.gemeente-rij > .field { flex: 1 1 18rem; max-width: 28rem; }
+.woonplaats-zoek { margin: 0; padding-bottom: .7rem; }
+.woonplaats-zoek [data-woonplaats-veld] { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .75rem; }
+.woonplaats-zoek [data-woonplaats-veld][hidden] { display: none; }
+.woonplaats-zoek input { width: 16rem; max-width: 100%; }
+@media (max-width: 640px) {
+  .gemeente-rij { flex-direction: column; align-items: stretch; }
+  .gemeente-rij > .field { flex: none; max-width: none; }
+  .woonplaats-zoek { padding-bottom: 0; }
+  .woonplaats-zoek input { width: 100%; }
+}
 .woonplaats-zoek .linkknop { background: none; border: 0; padding: 0; font: inherit; font-size: .9rem; color: inherit; text-decoration: underline; cursor: pointer; }
-.woonplaats-zoek input { width: 100%; max-width: 30rem; padding: .6rem .8rem; border: 1px solid var(--c-border); border-radius: 10px; font: inherit; color: var(--c-text); background: #fff; }
-.woonplaats-zoek .meta { margin: .35rem 0 0; color: inherit; }
+.woonplaats-zoek input { padding: .6rem .8rem; border: 1px solid var(--c-border); border-radius: 10px; font: inherit; color: var(--c-text); background: #fff; }
+.woonplaats-zoek .meta { margin: 0; color: inherit; }
 #nu-doen .stap-brief { white-space: nowrap; font-weight: 600; }
 #nu-doen .wijkteam-regel { margin: .25rem 0 1rem; padding: .6rem .8rem; background: var(--c-primary-soft); border-radius: 8px; }
 
 /* Kaarten met een knop onderaan (hulpvorm in de brief): knop en link onderaan de kaart, per rij op gelijke hoogte */
 .card .kaart-acties { margin-top: auto; padding-top: .75rem; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
 .card .kaart-acties .meta { margin: 0; }
+
+/* Toelichting bij therapievormen: ingeklapt, de kern staat in de samenvatting */
+details.tips-disclaimer summary { cursor: pointer; }
+details.tips-disclaimer p { margin: .5rem 0 0; }
+/* Inhoudsopgave met knoppen (.toc): op de telefoon één veegrij met pijlknoppen aan de rand (script in Base.astro) */
+.toc-wrap { position: relative; margin: 1rem 0 2rem; }
+.toc-wrap > .toc { margin: 0; }
+.toc-pijl { display: none; position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 2.1rem; height: 2.1rem; border-radius: 50%; border: 0; background: var(--c-primary); color: #fff; padding: 0; line-height: 0; cursor: pointer; box-shadow: var(--shadow-md); }
+.toc-pijl svg { display: block; }
+.toc-pijl.links { left: -.25rem; }
+.toc-pijl.rechts { right: -.25rem; }
+@media (max-width: 640px) {
+  .toc-wrap > .toc { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: .15rem 0; scroll-padding: 0 2.5rem; }
+  .toc-wrap > .toc::-webkit-scrollbar { display: none; }
+  .toc-wrap > .toc a { flex: 0 0 auto; white-space: nowrap; }
+  .toc-wrap[data-meer-rechts] > .toc { -webkit-mask-image: linear-gradient(to right, #000 75%, transparent 97%); mask-image: linear-gradient(to right, #000 75%, transparent 97%); }
+  .toc-wrap[data-meer-links] > .toc { -webkit-mask-image: linear-gradient(to left, #000 75%, transparent 97%); mask-image: linear-gradient(to left, #000 75%, transparent 97%); }
+  .toc-wrap[data-meer-links][data-meer-rechts] > .toc { -webkit-mask-image: linear-gradient(to right, transparent 3%, #000 25%, #000 75%, transparent 97%); mask-image: linear-gradient(to right, transparent 3%, #000 25%, #000 75%, transparent 97%); }
+  .toc-wrap[data-meer-rechts] > .toc-pijl.rechts, .toc-wrap[data-meer-links] > .toc-pijl.links { display: grid; place-items: center; }
+}
+
+/* Lange Nederlandse woorden in koppen (bv. Taalontwikkelingsstoornis) afbreken in plaats van buiten beeld te laten lopen */
+h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
+/* Voorpagina op de telefoon: minder rand rond de keuzes, en de keuzeknoppen in twee kolommen (tekst mag doorlopen) */
+@media (max-width: 640px) {
+  .hero { padding-left: 1rem; padding-right: 1rem; }
+  .hero .wegwijzer { padding: 1rem .85rem; gap: 1rem; }
+  .hero .chips-select { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; }
+  .hero .chip-btn { min-width: 0; font-size: .88rem; line-height: 1.25; padding: .5rem .65rem; border-radius: 14px; text-align: left; white-space: normal; overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
+}
+@media (max-width: 359px) {
+  /* Heel smalle schermen: één kolom, anders worden lange woorden steeds afgebroken */
+  .hero .chips-select { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Voorpagina: hint dat er onder het keuzeblok nog informatie staat */
+.meer-hint { position: fixed; left: 50%; transform: translateX(-50%); white-space: nowrap; max-width: calc(100vw - 2rem); bottom: calc(1rem + env(safe-area-inset-bottom)); z-index: 45; display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .95rem; border-radius: 999px; background: var(--c-surface); color: var(--c-primary-dark); font-weight: 600; font-size: .88rem; text-decoration: none; border: 1px solid var(--c-border); box-shadow: var(--shadow-md); }
+.meer-hint[hidden] { display: none; }
+.meer-hint:hover { border-color: var(--c-primary); }

@@ -42,6 +42,8 @@ const STAP_BRIEF: [RegExp, string][] = [
   [/overdracht/i, 'verhuizing-overdracht'],
   [/één overleg/i, 'gezamenlijk-overleg'],
 ];
+/** Korte naam in de link, zodat twee brieflinks bij elkaar niet hetzelfde heten. */
+const BRIEF_LABEL: Record<string, string> = { ingebrekestelling: 'ingebrekestelling', 'bezwaar-beschikking': 'bezwaar', 'klacht-toegangsteam': 'klacht', 'verhuizing-overdracht': 'overdracht', 'gezamenlijk-overleg': 'gezamenlijk overleg' };
 const briefBij = (k: (typeof knelpunten)[number]) => {
   const gebruikt = new Set<string>();
   return k.data.stappen.map((st) => {
@@ -109,9 +111,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               {k.id === 'beginnen' ? (<>
                 <li data-generieke-stap>{k.data.stappen[0]}</li>
                 {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden>Begin bij <strong>{beginBij[r0.type]}</strong>. {r0.waarom}</li>; })}
-              </>) : <li>{k.data.stappen[0]}{briefBij(k)[0] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[0]!.id}/`}>Voorbeeldbrief →</a></>}</li>}
+              </>) : <li>{k.data.stappen[0]}{briefBij(k)[0] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[0]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[0]!.id]} →</a></>}</li>}
             </ol>
-            {k.data.stappen.length > 1 && <ol class="steps o4" start="2">{k.data.stappen.slice(1).map((st, i) => <li>{st}{briefBij(k)[i + 1] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[i + 1]!.id}/`}>Voorbeeldbrief →</a></>}</li>)}</ol>}
+            {k.data.stappen.length > 1 && <ol class="steps o4" start="2">{k.data.stappen.slice(1).map((st, i) => <li>{st}{briefBij(k)[i + 1] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[i + 1]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[i + 1]!.id]} →</a></>}</li>)}</ol>}
           </>)}
           {k.id === 'beginnen' && <p class="meta o5"><a href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a></p>}
           {k.id !== 'spoed' && genoemd(k).length > 0 && <p class="meta o5 genoemd">{genoemd(k).map((o, i) => <>{i > 0 && ' · '}<strong>{o.data.naam.replace(/^Het /, '').replace(/ \(.*\)$/, '')}</strong>{o.data.telefoon && <> <a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></>} <a href={o.data.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>)}</p>}

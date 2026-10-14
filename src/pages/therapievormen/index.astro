@@ -11,7 +11,7 @@ const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgo
   <div class="page-head">
     <span class="eyebrow">Weten wat bestaat</span>
     <h1>Therapievormen per situatie</h1>
-    <p class="lead">Een gesprek met het toegangsteam of de verwijzer verloopt makkelijker als u weet welke hulp bestaat en kunt uitleggen waarom een vorm bij uw kind past. Dan beslist u samen, op basis van dezelfde informatie. Per situatie staan hier de gangbare behandel- en begeleidingsvormen, met wat u mag verwachten, hoe het wordt vergoed en hoe u het aanvraagt.</p>
+    <p class="lead">Welke hulp bestaat er, en wat kunt u ervan verwachten? Kies de situatie van uw kind en lees per vorm hoe het werkt en hoe u het aanvraagt.</p>
     <TherapieToelichting />
   </div>
   <nav class="toc" aria-label="Per situatie">{situaties.filter((s) => alle.some((t) => t.data.situaties.includes(s.id))).map((s) => <a href={`#${s.id}`}>{s.data.titel}</a>)}</nav>
