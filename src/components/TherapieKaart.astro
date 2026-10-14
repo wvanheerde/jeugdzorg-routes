@@ -15,7 +15,7 @@ const o = ob[t.data.onderbouwing.label];
   <span class="badge">{soort[t.data.soort]}</span>
   <h3 style="margin-top:.6rem">{t.data.naam}</h3>
   <p>{t.data.kort}</p>
-  {t.data.leeftijd && <p class="meta">Leeftijd: {t.data.leeftijd.van ?? 0}{t.data.leeftijd.tot ? ` tot ${t.data.leeftijd.tot}` : ' en ouder'} jaar</p>}
+  {t.data.leeftijd && <p class="meta">Leeftijd: {t.data.leeftijd.van ?? 0}{t.data.leeftijd.tot ? ` tot ${t.data.leeftijd.tot} jaar` : ' jaar en ouder'}</p>}
   <div class="kaart-voet">
     <p class={`toegang t-${o.cls}`} title={o.lang}><span class="dot" aria-hidden="true"></span>{o.kort}<span class="sr-only">. {o.lang}</span></p>
     <span class="arrow">Wat is het en hoe vraag ik het aan →</span>

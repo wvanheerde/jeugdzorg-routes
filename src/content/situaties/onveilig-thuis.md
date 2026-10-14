@@ -19,6 +19,24 @@ regelingen:
     url: https://jeugdstem.nl/
   - naam: "Tijdelijk huisverbod"
     toelichting: "De burgemeester kan iemand die huiselijk geweld pleegt tien dagen verbieden om in de woning te komen. Zo kan er hulp op gang komen. Veilig Thuis of de politie kan dit in gang zetten."
+therapievormen:
+  eerst:
+    - id: intensieve-gezinsbehandeling
+    - id: psycho-educatie
+  ook:
+    - id: traumagerichte-cgt
+    - id: emdr
+    - id: ouder-kindtherapie-hechting
+    - id: oudertraining
+    - id: systeemtherapie
+  toelichting: "Eerst de veiligheid, met het hele gezin. Kinderen krijgen minimaal psycho-educatie die hen ontschuldigt; aanvullend traumabehandeling als dat nodig is. Ouders krijgen opvoedondersteuning; bij jonge kinderen hulp gericht op de gehechtheidsrelatie."
+  bronnen:
+    - titel: "Richtlijn Kindermishandeling: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/kindermishandeling/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
+    - titel: "Richtlijn Problematische gehechtheid: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/problematische-gehechtheid/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
 volgorde: 15
 status: concept
 laatstGecontroleerd: "2026-10-12"

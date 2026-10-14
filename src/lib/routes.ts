@@ -36,3 +36,17 @@ export const datum = (iso: string) => {
   const [j, m, d] = iso.split('-').map(Number);
   return [d, MAANDEN[(m || 1) - 1], j].filter(Boolean).join(' ');
 };
+
+/**
+ * Bij welk onderdeel (zie knelpunten.gemeenteOnderdelen) een link uit "Direct regelen" hoort, op basis van de naam.
+ * Zo toont het overzicht alleen de links die bij de gekozen vraag passen: geen klacht of bezwaar bij een eerste hulpvraag.
+ */
+export const regelSoort = (naam: string) =>
+  /klacht|niet tevreden|ombuds|meldpunt (zorg|signalen)|melding slechte|vastgelopen/i.test(naam) ? 'klacht'
+  : /bezwaar|verordening|beleidsregels/i.test(naam) ? 'bezwaar'
+  : /vertrouwens/i.test(naam) ? 'vertrouwenspersoon'
+  : /\bpgb\b|persoonsgebonden/i.test(naam) ? 'pgb'
+  : /crisis|spoed|veilig thuis/i.test(naam) ? 'spoed'
+  : /cli[eë]ntondersteun/i.test(naam) ? 'clientondersteuning'
+  : /aanbieder|wachttijd|beschikbaarheid/i.test(naam) ? 'aanbieders'
+  : 'toegang';

@@ -21,6 +21,27 @@ regelingen:
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg
   - naam: Mentorschap en bewind vanaf 18
     toelichting: "Regel vóór de 18e verjaardag van uw kind wie beslissingen mag nemen over zorg en geld. U vraagt dit aan bij de kantonrechter."
+therapievormen:
+  eerst:
+    - id: psycho-educatie
+    - id: oudertraining
+    - id: ouder-kindtherapie-hechting
+  ook:
+    - id: logopedie-tos
+    - id: speltherapie-beeldend
+    - id: andere-vaktherapieen
+  bijkomend:
+    - id: sensorische-informatieverwerking
+    - id: zindelijkheidstraining
+    - id: groepen-jonge-mantelzorgers
+  toelichting: "Geen eigen jeugdrichtlijn. Volgorde: uitleg en ouderhulp, aandacht voor gehechtheid (richtlijn noemt screening bij een verstandelijke beperking), dan communicatie en vaktherapie; de rest bij een specifiek probleem of voor broers en zussen."
+  bronnen:
+    - titel: "Richtlijn Problematische gehechtheid: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/problematische-gehechtheid/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
+    - titel: "Richtlijn ASS kinderen/jeugd: Interventies verstandelijke beperking en autisme"
+      url: https://richtlijnendatabase.nl/richtlijn/autismespectrumstoornis_bij_kinderen_jeugd/interventies_verstandelijke_beperking_en_autisme.html
+      geraadpleegd: "2026-10-14"
 volgorde: 14
 status: concept
 laatstGecontroleerd: "2026-10-12"

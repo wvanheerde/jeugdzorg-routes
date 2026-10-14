@@ -15,6 +15,31 @@ landelijk: [02-toegang, 03-rechten]
 regelingen:
   - naam: "U mag de aanbieder kiezen"
     toelichting: "Na een verwijzing mag u kiezen uit alle aanbieders waarmee de gemeente een contract heeft. Vraag de verwijzer naar meerdere aanbieders en hun wachttijd. Sommige aanbieders bieden hulp tijdens het wachten, of een online programma."
+therapievormen:
+  eerst:
+    - id: psycho-educatie
+    - id: cognitieve-gedragstherapie
+    - id: interpersoonlijke-therapie
+  ook:
+    - id: medicatie-als-aanvulling
+    - id: act-jongeren
+    - id: mindfulness-kinderen
+    - id: psychomotorische-therapie
+    - id: andere-vaktherapieen
+  bijkomend:
+    - id: sociale-vaardigheidstraining
+    - id: exposure-responspreventie
+    - id: emdr
+    - id: dialectische-gedragstherapie
+    - id: schematherapie-jongeren
+  toelichting: "CGT is eerste keus bij angst; bij somberheid CGT (8-12 jaar) of IPT (vanaf 13 jaar). Medicatie pas als psychologische behandeling onvoldoende helpt of bij ernstige depressie. Sociale vaardigheden bij sociale angst, ERP bij dwang, EMDR na een nare gebeurtenis, DGT bij zelfbeschadiging, schematherapie bij hardnekkige patronen."
+  bronnen:
+    - titel: "Kenniscentrum KJP: Angst, behandeling"
+      url: https://kenniscentrum-kjp.nl/professionals/angst/
+      geraadpleegd: "2026-10-14"
+    - titel: "Kenniscentrum KJP: Depressie, behandeling"
+      url: https://kenniscentrum-kjp.nl/professionals/depressie/
+      geraadpleegd: "2026-10-14"
 volgorde: 12
 status: concept
 laatstGecontroleerd: "2026-10-12"

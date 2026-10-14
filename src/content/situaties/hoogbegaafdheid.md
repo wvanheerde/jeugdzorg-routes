@@ -6,7 +6,7 @@ themas: [hoogbegaafdheid, onderwijs, onderpresteren, thuiszitters, zelfbeeld, du
 hulpsoorten: [opvoedondersteuning, behandeling-jeugd-ggz, ambulante-begeleiding]
 routes:
   - type: school
-    waarom: "Begin bij school. De intern begeleider en het samenwerkingsverband moeten zorgen voor een passend aanbod. Denk aan minder herhaling en meer verdieping (compacten en verrijken), een plusklas, sneller door de lesstof (versnellen) of voltijd onderwijs voor hoogbegaafden. Vraag naar de hoogbegaafdheidsspecialist van het samenwerkingsverband. Veel samenwerkingsverbanden hebben daar geld voor gekregen van het Rijk."
+    waarom: "De intern begeleider en het samenwerkingsverband moeten zorgen voor een passend aanbod. Denk aan minder herhaling en meer verdieping (compacten en verrijken), een plusklas, sneller door de lesstof (versnellen) of voltijd onderwijs voor hoogbegaafden. Vraag naar de hoogbegaafdheidsspecialist van het samenwerkingsverband. Veel samenwerkingsverbanden hebben daar geld voor gekregen van het Rijk."
   - type: huisarts
     waarom: "Raakt uw kind somber, angstig of uitgeput? Of denkt u dat er naast hoogbegaafdheid iets anders speelt, zoals autisme, ADHD of dyslexie? Dan kan de huisarts of jeugdarts u doorsturen voor onderzoek. Dat gebeurt bij een praktijk met kennis van hoogbegaafdheid."
   - type: wijkteam
@@ -18,6 +18,18 @@ regelingen:
     url: https://www.onderwijsconsulenten.nl/
   - naam: "Onderzoek naar hoogbegaafdheid"
     toelichting: "Is er alleen een vermoeden van hoogbegaafdheid? Dan wordt een intelligentieonderzoek niet vergoed. School of het samenwerkingsverband betaalt het soms wel. Heeft uw kind klachten, zoals angst of somberheid, of loopt het vast? Dan loopt het onderzoek via de jeugd-GGZ en betaalt de gemeente het."
+lichteStart: true
+therapievormen:
+  eerst:
+    - id: psycho-educatie
+    - id: executieve-functietraining
+  ook:
+    - id: sociale-vaardigheidstraining
+    - id: psychomotorische-therapie
+  bijkomend:
+    - id: act-jongeren
+    - id: mindfulness-kinderen
+  toelichting: "Geen richtlijn. Volgorde naar de situatie: uitleg voor kind en omgeving, dan hulp bij onderpresteren (plannen, beginnen), dan sociaal en emotioneel; ACT en mindfulness bij faalangst of perfectionisme."
 volgorde: 18
 status: concept
 laatstGecontroleerd: "2026-10-12"

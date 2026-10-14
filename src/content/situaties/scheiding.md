@@ -6,7 +6,7 @@ themas: [scheiding, gezin, opvoeden, conflict]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, behandeling-jeugd-ggz]
 routes:
   - type: wijkteam
-    waarom: "Het wijkteam biedt gesprekken en groepen voor kinderen, zoals KIES of Dappere Dino's. Het kan ook ouderschapsbemiddeling regelen. Vaak is daar geen beschikking voor nodig."
+    waarom: "Daar krijgt u informatie en advies, en zijn er gesprekken en groepen voor kinderen, zoals KIES of Dappere Dino's. Het wijkteam kan ook ouderschapsbemiddeling regelen. Daar is vaak geen aanvraag voor jeugdhulp (beschikking) voor nodig."
   - type: school
     waarom: "Vertel het aan school. Veel scholen hebben groepen voor kinderen van wie de ouders scheiden. School kan ook merken als het niet goed gaat met uw kind."
 landelijk: [02-toegang, 03-rechten]
@@ -16,6 +16,21 @@ regelingen:
     url: https://www.rijksoverheid.nl/onderwerpen/scheiden
   - naam: Mediation bij een laag inkomen
     toelichting: "Heeft u een laag inkomen? Dan kunt u via de Raad voor Rechtsbijstand een toevoeging krijgen voor mediation of een advocaat."
+lichteStart: true
+therapievormen:
+  eerst:
+    - id: kindgroepen-scheiding
+    - id: systeemtherapie
+  ook:
+    - id: oudertraining
+    - id: speltherapie-beeldend
+  bijkomend:
+    - id: interpersoonlijke-therapie
+  toelichting: "De richtlijn noemt contact met andere kinderen die een scheiding meemaken en hulp aan ouders om hun conflicten te beheersen. Speltherapie voor jonge kinderen die het moeilijk kunnen verwoorden; IPT bij somberheid."
+  bronnen:
+    - titel: "Richtlijn Scheiding: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/scheiding/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
 volgorde: 13
 status: concept
 laatstGecontroleerd: "2026-10-12"

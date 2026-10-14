@@ -6,7 +6,7 @@ themas: [mantelzorg, jonge mantelzorger, brusjes, gezin, beperking, langdurig zi
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, logeren-respijt]
 routes:
   - type: wijkteam
-    waarom: "Ga naar het wijkteam of het steunpunt mantelzorg van uw gemeente. Daar kunt u terecht voor brusjesgroepen, activiteiten voor jonge mantelzorgers, respijtzorg en een mantelzorgwaardering. Vraag er zelf naar. Vraag ook of het hele gezin in het plan komt."
+    waarom: "Of bij het steunpunt mantelzorg van uw gemeente. Bij beide kunt u terecht voor brusjesgroepen, activiteiten voor jonge mantelzorgers, respijtzorg en een mantelzorgwaardering. Vraag er zelf naar. Vraag ook of het hele gezin in het plan komt."
   - type: school
     waarom: "Vertel het aan de leerkracht of mentor. Jonge mantelzorgers halen soms lagere cijfers, of juist heel goede. Ze zijn vaak moe of afwezig. School kan rekening houden met de situatie thuis en uw kind ruimte geven."
 landelijk: [03-rechten, 05-financieel]
@@ -19,6 +19,17 @@ regelingen:
   - naam: "Dubbele kinderbijslag bij intensieve zorg"
     toelichting: "Zorgt u thuis intensief voor een kind van 3 tot 18 jaar? Dan heeft u misschien recht op dubbele kinderbijslag. Bent u alleenstaande ouder of alleenverdiener? Dan heeft u misschien ook recht op een extra bedrag. Zie het hoofdstuk over regelingen voor geld."
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg
+therapievormen:
+  eerst:
+    - id: groepen-jonge-mantelzorgers
+  ook:
+    - id: systeemtherapie
+    - id: speltherapie-beeldend
+  toelichting: "KOPP/KOV: een (bij voorkeur erkende) preventieve interventie die zelfvertrouwen, coping en sociale redzaamheid van het kind vergroot, en aandacht voor het hele gezin."
+  bronnen:
+    - titel: "Richtlijn KOPP/KOV: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/koppkov/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
 volgorde: 17
 status: concept
 laatstGecontroleerd: "2026-10-12"

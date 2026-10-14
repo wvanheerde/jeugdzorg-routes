@@ -19,6 +19,14 @@ regelingen:
   - naam: "Het consultatiebureau let op de taal"
     toelichting: "Het consultatiebureau volgt de taalontwikkeling volgens een landelijke richtlijn. Maakt u zich zorgen? Vraag dan om een extra taalscreening. U hoeft niet te wachten op de volgende gewone afspraak."
     url: https://www.jgzrichtlijnen.nl/richtlijn/jgz-richtlijn-taalontwikkeling/
+therapievormen:
+  eerst:
+    - id: logopedie-tos
+  ook:
+    - id: speltherapie-beeldend
+  bijkomend:
+    - id: sensorische-informatieverwerking
+  toelichting: "Geen richtlijn die de vormen rangschikt. Logopedie is de kern van TOS-behandeling; speltherapie voor kinderen met weinig taal; sensorische informatieverwerking alleen bij veel last van prikkels."
 volgorde: 24
 status: concept
 laatstGecontroleerd: "2026-10-12"

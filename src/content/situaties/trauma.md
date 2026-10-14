@@ -18,6 +18,24 @@ regelingen:
     url: https://www.slachtofferhulp.nl/
   - naam: "Toestemming van beide ouders"
     toelichting: "Hebben beide ouders samen het gezag? Dan is voor behandeling toestemming van allebei nodig. Ook als een van hen de oorzaak van het trauma is. Weigert die ouder? Dan kan de rechter vervangende toestemming geven. Bij spoed mag de behandelaar ook zonder toestemming beginnen."
+therapievormen:
+  eerst:
+    - id: psycho-educatie
+    - id: traumagerichte-cgt
+    - id: emdr
+  ook:
+    - id: ouder-kindtherapie-hechting
+    - id: cognitieve-gedragstherapie
+  bijkomend:
+    - id: speltherapie-beeldend
+    - id: andere-vaktherapieen
+    - id: dialectische-gedragstherapie
+    - id: schematherapie-jongeren
+  toelichting: "Psycho-educatie voor kind en ouders; traumabehandeling met TF-CBT of EMDR (sterkste bewijs). Bij jonge kinderen staat de ouder-kindrelatie centraal. Vaktherapie heeft beperkter bewijs; DGT bij zelfbeschadiging, schematherapie bij hardnekkige patronen."
+  bronnen:
+    - titel: "Richtlijn Traumagerelateerde problemen: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/traumagerelateerde-problemen/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
 volgorde: 19
 status: concept
 laatstGecontroleerd: "2026-10-12"

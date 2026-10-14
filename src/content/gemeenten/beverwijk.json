@@ -38,7 +38,7 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd (POH jeugd) van het CJG. Die helpt bij opvoed- en opgroeivragen.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd (POH jeugd) van het CJG. Die helpt bij opvoed- en opgroeivragen. Voor een jeugdarts gaat u naar de jeugdgezondheidszorg: tot 4 jaar naar het consultatiebureau van Jeugdgezondheidszorg Kennemerland, daarna naar de jeugdgezondheidszorg van GGD Kennemerland.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg. Vraag of de praktijk een POH jeugd heeft.",
           "Vraag om een verwijzing naar een aanbieder met een contract met de regio. Het CJG kan helpen kiezen.",
@@ -46,7 +46,14 @@
         ],
         "contact": [
           {
-            "naam": "Jeugdgezondheidszorg GGD Kennemerland",
+            "naam": "Jeugdgezondheidszorg Kennemerland (0 tot 4 jaar, consultatiebureau)",
+            "telefoon": "088 995 95 95",
+            "email": "jgz@jgzkennemerland.nl",
+            "url": "https://jgzkennemerland.nl/contact/",
+            "openingstijden": "Telefonisch spreekuur werkdagen 8.30–12.00 uur (keuze 1)"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg GGD Kennemerland (4 tot 18 jaar)",
             "telefoon": "023 789 1777",
             "email": "jgz@vrk.nl",
             "url": "https://www.ggdkennemerland.nl/contact",
@@ -170,6 +177,9 @@
         ]
       }
     ]
+  },
+  "cjg": {
+    "soort": "wijkteam"
   },
   "lokaleInitiatieven": [
     {
@@ -310,7 +320,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-14",
     "status": "concept",
     "bronnen": [
       {
@@ -422,6 +432,21 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Jeugdgezondheidszorg Kennemerland: Contact",
+        "url": "https://jgzkennemerland.nl/contact/",
+        "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "Jeugdgezondheidszorg Kennemerland: Locaties",
+        "url": "https://www.jgzkennemerland.nl/locaties",
+        "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "GGD Kennemerland: Mijn kind (0-4 jaar alleen in Haarlemmermeer)",
+        "url": "https://www.ggdkennemerland.nl/mijn-kind",
+        "geraadpleegd": "2026-10-14"
       }
     ],
     "opmerkingen": "Geen gemeentelijke spoedpagina over jeugd; de pagina Jeugdhulp noemt crisis kort. E-mailadres samenwerkingsverband VO niet zichtbaar (JavaScript); Beschikbaarheidswijzer dekt ZKIJ niet voor jeugdhulp. Regionale journalistiek maar beperkt doorzocht."

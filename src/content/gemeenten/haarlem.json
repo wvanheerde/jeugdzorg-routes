@@ -45,7 +45,7 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Volgens de Verordening jeugdhulp draagt de gemeente zorg voor jeugdhulp na verwijzing door een huisarts, jeugdarts of medisch specialist naar een gecontracteerde aanbieder. Volgens het NJi werkt ruim 90 procent van de huisartsenpraktijken in Haarlem en Zandvoort met een praktijkondersteuner jeugd in dienst van het CJG, die opvoedondersteuning en kortdurende hulp biedt en zo nodig doorverwijst.",
+        "omschrijving": "Volgens de Verordening jeugdhulp draagt de gemeente zorg voor jeugdhulp na verwijzing door een huisarts, jeugdarts of medisch specialist naar een gecontracteerde aanbieder. Volgens het NJi werkt ruim 90 procent van de huisartsenpraktijken in Haarlem en Zandvoort met een praktijkondersteuner jeugd in dienst van het CJG, die opvoedondersteuning en kortdurende hulp biedt en zo nodig doorverwijst. Voor een jeugdarts gaat u naar de jeugdgezondheidszorg: tot 4 jaar naar het consultatiebureau van Jeugdgezondheidszorg Kennemerland, daarna naar de jeugdgezondheidszorg van GGD Kennemerland.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of met de jeugdarts; vraag of de praktijkondersteuner jeugd van het CJG kan meekijken.",
           "De arts of praktijkondersteuner verwijst zo nodig naar een gecontracteerde aanbieder van jeugdhulp.",
@@ -53,7 +53,14 @@
         ],
         "contact": [
           {
-            "naam": "Jeugdgezondheidszorg GGD Kennemerland",
+            "naam": "Jeugdgezondheidszorg Kennemerland (0 tot 4 jaar, consultatiebureau)",
+            "telefoon": "088 995 95 95",
+            "email": "jgz@jgzkennemerland.nl",
+            "url": "https://jgzkennemerland.nl/contact/",
+            "openingstijden": "Telefonisch spreekuur werkdagen 8.30–12.00 uur (keuze 1)"
+          },
+          {
+            "naam": "Jeugdgezondheidszorg GGD Kennemerland (4 tot 18 jaar)",
             "telefoon": "023 789 1777",
             "email": "jgz@vrk.nl",
             "url": "https://www.ggdkennemerland.nl/contact",
@@ -210,6 +217,9 @@
         ]
       }
     ]
+  },
+  "cjg": {
+    "soort": "wijkteam"
   },
   "lokaleInitiatieven": [
     {
@@ -378,7 +388,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-14",
     "status": "concept",
     "bronnen": [
       {
@@ -575,6 +585,21 @@
         "titel": "Sylta: contact",
         "url": "https://www.sylta.nl/contact/",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Jeugdgezondheidszorg Kennemerland: Contact",
+        "url": "https://jgzkennemerland.nl/contact/",
+        "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "Jeugdgezondheidszorg Kennemerland: Locaties",
+        "url": "https://www.jgzkennemerland.nl/locaties",
+        "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "GGD Kennemerland: Mijn kind (0-4 jaar alleen in Haarlemmermeer)",
+        "url": "https://www.ggdkennemerland.nl/mijn-kind",
+        "geraadpleegd": "2026-10-14"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarverslag 2025 en programmabegroting 2027. Cliëntervaringsonderzoek Jeugd niet gevonden (alleen Wmo). E-mailadres voor klachten bij Buurts niet vastgelegd."

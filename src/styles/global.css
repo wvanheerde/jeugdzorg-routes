@@ -343,6 +343,7 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .eerste-contact { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; margin-top: 1rem; }
 .eerste-contact h3 { margin: 0 0 .6rem; }
 .eerste-contact .wijkteam-uitleg { margin: -.3rem 0 .6rem; }
+.eerste-contact .ec-cjg { padding-bottom: .75rem; margin-bottom: .9rem; border-bottom: 1px solid var(--c-border); }
 .kaart-boven { margin: 0 0 1.5rem; }
 .kaart-boven h2.h3-maat { font-size: 1.15rem; margin: 0 0 .6rem; }
 .kaart-boven p.meta { margin: .2rem 0 0; }
@@ -471,3 +472,8 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
 .meer-hint { position: fixed; left: 50%; transform: translateX(-50%); white-space: nowrap; max-width: calc(100vw - 2rem); bottom: calc(1rem + env(safe-area-inset-bottom)); z-index: 45; display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .95rem; border-radius: 999px; background: var(--c-surface); color: var(--c-primary-dark); font-weight: 600; font-size: .88rem; text-decoration: none; border: 1px solid var(--c-border); box-shadow: var(--shadow-md); }
 .meer-hint[hidden] { display: none; }
 .meer-hint:hover { border-color: var(--c-primary); }
+/* Mijn overzicht: therapiekaarten zitten in een filter-div; laat de kaart die vullen, zodat kaarten in een rij even hoog zijn. */
+.grid > [data-tip-situaties] { display: flex; }
+.grid > [data-tip-situaties] > .card { flex: 1; }
+/* Therapiekaarten: alle rijen even hoog (de hoogste kaart bepaalt), voor een rustig overzicht. */
+.grid.gelijk { grid-auto-rows: 1fr; }

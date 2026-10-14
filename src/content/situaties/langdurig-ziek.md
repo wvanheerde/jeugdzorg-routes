@@ -20,6 +20,14 @@ regelingen:
   - naam: Aftrek specifieke zorgkosten
     toelichting: "Sommige kosten mag u misschien aftrekken van de belasting. Bijvoorbeeld reiskosten naar het ziekenhuis, kosten voor een dieet en extra kleding of beddengoed."
     url: https://www.belastingdienst.nl/zorgkosten
+therapievormen:
+  eerst:
+    - id: act-jongeren
+    - id: groepen-jonge-mantelzorgers
+  ook:
+    - id: systeemtherapie
+    - id: speltherapie-beeldend
+  toelichting: "Geen richtlijn. ACT voor jongeren die leren leven met ziekte of pijn; groepen voor broers en zussen; daarna gezinsgerichte en speltherapie."
 volgorde: 2
 status: concept
 laatstGecontroleerd: "2026-10-12"

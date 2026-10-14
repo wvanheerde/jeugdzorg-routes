@@ -15,6 +15,22 @@ landelijk: [02-toegang, 03-rechten]
 regelingen:
   - naam: "U mag de aanbieder kiezen"
     toelichting: "Voor de behandeling van dwang en tics is speciale kennis nodig. U mag kiezen uit alle aanbieders waarmee de gemeente een contract heeft. Vraag de verwijzer gericht naar praktijken met ervaring. Bijvoorbeeld met cognitieve gedragstherapie bij dwang, of met de behandeling van tics."
+therapievormen:
+  eerst:
+    - id: psycho-educatie
+    - id: exposure-responspreventie
+    - id: ticbehandeling
+  ook:
+    - id: cognitieve-gedragstherapie
+    - id: medicatie-als-aanvulling
+  toelichting: "Dwang: CGT met exposure en responspreventie, soms met medicatie. Tics: eerst psycho-educatie, dan gedragstherapie; medicatie bij onvoldoende effect."
+  bronnen:
+    - titel: "Kenniscentrum KJP: Dwang, behandeling"
+      url: https://kenniscentrum-kjp.nl/professionals/dwang/
+      geraadpleegd: "2026-10-14"
+    - titel: "Kenniscentrum KJP: Tics, behandeling"
+      url: https://kenniscentrum-kjp.nl/professionals/tics/
+      geraadpleegd: "2026-10-14"
 volgorde: 21
 status: concept
 laatstGecontroleerd: "2026-10-12"

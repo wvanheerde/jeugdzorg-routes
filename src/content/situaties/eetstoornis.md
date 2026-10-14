@@ -16,6 +16,20 @@ regelingen:
   - naam: "U mag de aanbieder kiezen en hulp krijgen tijdens het wachten"
     toelichting: "Bij lange wachttijden mag u kiezen uit alle aanbieders waarmee de gemeente een contract heeft, ook buiten de regio. Vraag de verwijzer naar de kortste wachttijd en naar hulp tijdens het wachten (overbruggingszorg). De landelijke ketenaanpak K-EET heeft daar afspraken over."
     url: https://www.k-eet.nl/
+therapievormen:
+  eerst:
+    - id: gezinsbehandeling-eetstoornis
+    - id: cognitieve-gedragstherapie
+  ook:
+    - id: systeemtherapie
+  toelichting: "Anorexia: gezinsbehandeling met voedingsmanagement. Boulimia en eetbuien: CGT met gezinstherapie of ouderbegeleiding."
+  bronnen:
+    - titel: "Kenniscentrum KJP: Anorexia nervosa, behandeling"
+      url: https://kenniscentrum-kjp.nl/professionals/anorexia-nervosa/
+      geraadpleegd: "2026-10-14"
+    - titel: "Kenniscentrum KJP: Boulimia nervosa, behandeling"
+      url: https://kenniscentrum-kjp.nl/professionals/boulimia-nervosa/
+      geraadpleegd: "2026-10-14"
 volgorde: 20
 status: concept
 laatstGecontroleerd: "2026-10-12"

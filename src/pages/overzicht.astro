@@ -15,10 +15,13 @@ import BriefKaart from '../components/BriefKaart.astro';
 import SpoedNummers from '../components/SpoedNummers.astro';
 import TherapieKaart from '../components/TherapieKaart.astro';
 import { getCollection } from 'astro:content';
-import { routeLabel, beginBij, koppelThemas, contacten } from '../lib/routes';
+import { routeLabel, beginBij, koppelThemas, contacten, regelSoort } from '../lib/routes';
+import { rangVan, therapieVolgorde } from '../lib/therapie';
 import Toegang from '../components/Toegang.astro';
 import ToegangLegenda from '../components/ToegangLegenda.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+/** Apart blok boven het wijkteam bij een lichte start: het CJG of de jeugdgezondheidszorg. Is het CJG het wijkteam zelf, dan geen apart blok. */
+const cjgVoorKaart = (d: (typeof gemeenten)[number]['data']) => (d.cjg && d.cjg.soort !== 'wijkteam' ? d.cjg : undefined);
 /** Postadres per CBS-code, uit het Register van Overheidsorganisaties. */
 const postadres: Record<string, string> = Object.fromEntries(register.gemeenten.map((x: { cbsCode: string; postadres?: string }) => [x.cbsCode, x.postadres ?? '']));
 /** Eén zin voor de wachtkaart: wat de gemeente openbaar maakt over hoe lang de toegang duurt. */
@@ -58,12 +61,15 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
 const organisaties = (await getCollection('organisaties')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const therapie = (await getCollection('therapievormen')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+/** Per therapievorm de plek in de volgorde van elke situatie die er een heeft: "situatie:plek". Controleert ook de volgorde zelf. */
+situaties.forEach((s) => therapieVolgorde(s, therapie));
+const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
 const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const brieven = (await getCollection('brieven'));
 const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 /** Compacte data voor de browser: per situatie de koppelsleutels. */
-const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: s.data.hulpsoorten, routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk }]));
+const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: s.data.hulpsoorten, routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, rang: !!s.data.therapievormen }]));
 const j = (a: string[]) => a.join(' ');
 /** Namen voor de samenvatting van de keuzes. */
 const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])), k: Object.fromEntries(knelpunten.map((x) => [x.id, x.data.titel])), g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])), l: { '0-4': 'jonger dan 4', '4-12': '4 tot 12 jaar', '12-18': '12 tot 18 jaar', '18-99': '18 of ouder' } as Record<string, string> };
@@ -104,25 +110,32 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       {knelpunten.map((k) => (
         <div data-knelpunt-blok={k.id} hidden>
           <h2 class="o1"><span class="section-num">→</span>{k.id === 'beginnen' ? 'Wat kunt u doen' : `Wat kunt u doen: ${k.data.titel.toLowerCase()}`}</h2>
-          <p class="o1 lead-klein">{k.data.samenvatting}</p>
+          <p class="o1 lead-klein" data-generieke-lead>{k.data.samenvatting}</p>
+          {k.id === 'beginnen' && situaties.filter((sit) => sit.data.lichteStart).map((sit) => <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>{sit.data.samenvatting}</p>)}
           {k.id === 'wachten' && <p class="o1 meta wacht-erger"><strong>Wordt het erger terwijl u wacht?</strong> Bel de huisarts. 's Avonds en in het weekend hoort u via hetzelfde nummer hoe u de huisartsenpost bereikt. <a href={`${base}/overzicht/?k=spoed`}>Het kan niet wachten →</a></p>}
           {k.id === 'spoed' ? <div class="o2"><SpoedNummers /></div> : (<>
             <ol class="steps stap-een o2">
               {k.id === 'beginnen' ? (<>
                 <li data-generieke-stap>{k.data.stappen[0]}</li>
-                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden>Begin bij <strong>{beginBij[r0.type]}</strong>. {r0.waarom}</li>; })}
+                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden>Begin bij <strong>{sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type]}</strong>. {r0.waarom}</li>; })}
               </>) : <li>{k.data.stappen[0]}{briefBij(k)[0] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[0]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[0]!.id]} →</a></>}</li>}
             </ol>
-            {k.data.stappen.length > 1 && <ol class="steps o4" start="2">{k.data.stappen.slice(1).map((st, i) => <li>{st}{briefBij(k)[i + 1] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[i + 1]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[i + 1]!.id]} →</a></>}</li>)}</ol>}
+            {k.id === 'beginnen' && (
+              <details class="o4 meer-brieven" data-aanvraag-inklap hidden>
+                <summary>Is er toch jeugdhulp nodig? Zo vraagt u die aan</summary>
+                <ol class="steps" start="2">{k.data.stappen.slice(1).map((st) => <li>{st}</li>)}</ol>
+              </details>
+            )}
+            {k.data.stappen.length > 1 && <ol class="steps o4" data-aanvraag-stappen start="2">{k.data.stappen.slice(1).map((st, i) => <li>{st}{briefBij(k)[i + 1] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[i + 1]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[i + 1]!.id]} →</a></>}</li>)}</ol>}
           </>)}
-          {k.id === 'beginnen' && <p class="meta o5"><a href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a></p>}
+          {k.id === 'beginnen' && <p class="meta o5" data-aanvraag-stappen><a href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a></p>}
           {k.id !== 'spoed' && genoemd(k).length > 0 && <p class="meta o5 genoemd">{genoemd(k).map((o, i) => <>{i > 0 && ' · '}<strong>{o.data.naam.replace(/^Het /, '').replace(/ \(.*\)$/, '')}</strong>{o.data.telefoon && <> <a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></>} <a href={o.data.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>)}</p>}
           {k.id === 'verkeerde-hulp' && (<>
             <p class="meta o5" data-tips-link hidden><a href="#tips">Welke andere vormen van hulp passen bij uw kind? Bekijk de therapievormen hieronder ↓</a></p>
             <p class="meta o5" data-tips-link-alg><a href={`${base}/therapievormen/`}>Welke andere vormen van hulp zijn er? Bekijk de therapievormen →</a></p>
           </>)}
           {k.id === 'geld' && <p class="meta o5"><a href={`${base}/landelijk/#05-financieel`}>Dubbele kinderbijslag en andere regelingen: wat u opschrijft en hoe u aanvraagt →</a></p>}
-          {k.data.brieven.length > 0 && (<div class="o7">
+          {k.data.brieven.length > 0 && (<div class="o7" data-brieven-blok>
             <h3>Voorbeeldbrieven</h3>
             <div class="grid" data-generieke-brieven>{k.data.brieven.map((id) => { const b = brieven.find((x) => x.id === id); return b && <BriefKaart b={b} />; })}</div>
             {k.id === 'beginnen' && situaties.map((sit) => {
@@ -161,14 +174,21 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 
       <!-- Contact van de eerste ingang, direct onder stap 1 (order 3). Eén keer op de pagina; in blok 2 staat deze ingang niet nog eens. -->
       <div class="o3" data-eerste-contact>
-        {gemeenten.map((g) => { const t0 = g.data.toegang.routes.find((x) => x.type === 'wijkteam'); const t = t0 && { naam: t0.naam, contact: contacten(t0.contact)[0] }; return (
-          <div class="gemeente-blok eerste-contact" data-gemeente={g.id} hidden>
+        {gemeenten.map((g) => { const t0 = g.data.toegang.routes.find((x) => x.type === 'wijkteam'); const t = t0 && { naam: t0.naam, contact: contacten(t0.contact)[0] }; const cjg = cjgVoorKaart(g.data); return (
+          <div class="gemeente-blok eerste-contact" data-gemeente={g.id} data-heeft-cjg={cjg ? '1' : undefined} hidden>
             <div class="ec-standaard">
+            {cjg && (
+              <div class="ec-cjg" data-ec-cjg hidden>
+                <h3>{cjg.soort === 'jgz' ? 'Voor informatie en advies' : 'Voor informatie, advies en groepen'}: {cjg.naam}</h3>
+                <p class="meta">{cjg.omschrijving}</p>
+                <Contact contact={cjg.contact} />
+              </div>
+            )}
             {g.data.meta.status === 'voorbeeld' ? (<>
               <h3>Gemeente {g.data.naam} (algemeen nummer)</h3>
               <p class="meta">Vraag naar jeugdhulp. De details voor {g.data.naam} hebben we nog niet uitgezocht.</p>
             </>) : (
-              <h3><span class="kop-standaard">Hier meldt u zich in {g.data.naam}</span><span class="kop-verhuizing">Nieuwe gemeente {g.data.naam}</span>: {t?.naam}</h3>
+              <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {g.data.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${g.data.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {g.data.naam}</span>: {t?.naam}</h3>
             )}
             {g.data.meta.status !== 'voorbeeld' && t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {g.data.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
             {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}>Bel {t.contact.telefoon}</a>}
@@ -240,8 +260,8 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
             <h3>Lokale steun in {g.data.naam}</h3>
             <ul>{(g.data.lokaleInitiatieven ?? []).map((i) => <li data-themas={j(i.themas ?? [])} hidden><strong>{i.naam}</strong> – {i.omschrijving} {i.url && <a href={i.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>}</li>)}</ul>
           </div>
-          {(g.data.directRegelen ?? []).length > 0 && (<div class="direct-regelen"><h3>Direct regelen</h3><ul class="linklist">{(g.data.directRegelen ?? []).map((r) => <li><a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a>{r.omschrijving && <p>{r.omschrijving}</p>}</li>)}</ul></div>)}
-          <p class="meta" style="margin-top:1rem"><a href={`${base}/gemeenten/${g.id}/`}>Volledige pagina van {g.data.naam} →</a></p>
+          {(g.data.directRegelen ?? []).length > 0 && (<div class="direct-regelen" data-direct-regelen><h3>Direct regelen</h3><ul class="linklist">{(g.data.directRegelen ?? []).map((r) => <li data-regel-soort={regelSoort(r.naam)}><a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a>{r.omschrijving && <p>{r.omschrijving}</p>}</li>)}</ul></div>)}
+          <p class="meta" style="margin-top:1rem"><a href={`${base}/gemeenten/${g.id}/`}>Volledige pagina van {g.data.naam} →</a> <span data-meer-op-pagina hidden>Daar staat ook hoe u een klacht indient of bezwaar maakt.</span></p>
         </div>
       ))}
       <div data-routes-algemeen>
@@ -294,7 +314,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 
     <section class="section" id="tips" data-tips-wrap>
       <h2><span class="section-num">5</span>Welke therapievormen kunnen passen?</h2>
-      <div class="grid">{therapie.map((t) => <div data-tip-situaties={t.data.situaties.join(' ')} data-van={t.data.leeftijd?.van ?? 0} data-tot={t.data.leeftijd?.tot ?? 99} hidden><TherapieKaart t={t} /></div>)}</div>
+      <div class="grid gelijk" data-tip-grid>{therapie.map((t, i) => <div data-tip-situaties={t.data.situaties.join(' ')} data-tip-rang={tipRang(t.id)} data-tip-i={i} data-van={t.data.leeftijd?.van ?? 0} data-tot={t.data.leeftijd?.tot ?? 99} hidden><TherapieKaart t={t} /></div>)}</div>
     </section>
 
     <section class="section" id="organisaties">
@@ -315,7 +335,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 </Base>
 <script is:inline set:html={`window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
 <script>
-  type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[] };
+  type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; rang: boolean };
   const data = (window as any).__jrSituaties as Record<string, Sit>;
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean }>;
   // Beginstand uit URL of localStorage; de keuzecomponenten sturen daarna events bij wijziging.
@@ -355,7 +375,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     // en van de verdieping alleen de rechten en regelingen (geen hulpsoorten, therapievormen of organisaties).
     const zonderGemeente = !!kpActive && knel[kpActive].zonderGemeente;
     q('#hulp, #situaties, #regelingen, #organisaties, #tips').forEach((e) => (e.hidden = active.length === 0 || (zonderGemeente && e.id !== 'regelingen')));
-    const onderdelen = kpActive ? knel[kpActive].onderdelen : [];
+    // Lichte start (zoals scheiding): op zich geen reden voor jeugdhulp. Uitleg en CJG voorop, de aanvraag ingeklapt.
+    const licht = kpActive === 'beginnen' && !!active[0] && data[active[0]].licht;
+    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen;
     q('[data-eerste-contact], [data-knelpunt-gemeente]').forEach((e) => (e.hidden = zonderGemeente));
     q('[data-knelpunt-gemeente] .onderdeel').forEach((e) => (e.hidden = !onderdelen.includes(e.dataset.onderdeel!)));
     q('[data-knelpunt-gemeente] .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== (q('[data-knelpunt-gemeente] .gemeente-blok').some((x) => x.dataset.gemeente === gem && gem) ? gem : '')));
@@ -364,11 +386,24 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     // Lege "Hierbij handig"-blokken verbergen.
     q('[data-knelpunt-gemeente] .gemeente-blok[data-gemeente]:not([data-gemeente=""])').forEach((b) => { if (!b.hidden) b.hidden = !Array.from(b.querySelectorAll<HTMLElement>('.onderdeel')).some((o) => !o.hidden); });
     const situatieWint = kpActive === 'beginnen' && !!active[0];
+    q('[data-generieke-lead]').forEach((e) => (e.hidden = licht));
+    q('[data-situatie-lead]').forEach((e) => (e.hidden = !licht || e.dataset.situatieLead !== active[0]));
+    q('[data-aanvraag-stappen]').forEach((e) => (e.hidden = licht));
+    q('[data-aanvraag-inklap]').forEach((e) => (e.hidden = !licht));
+    q('[data-ec-cjg]').forEach((e) => (e.hidden = !licht));
+    q('[data-kop-standaard]').forEach((e) => (e.hidden = licht));
+    q('[data-kop-licht]').forEach((e) => (e.hidden = !licht));
+    // Direct regelen: alleen de links bij de onderdelen van deze vraag. De rest staat op de pagina van de gemeente.
+    q('[data-regel-soort]').forEach((e) => (e.hidden = !onderdelen.includes(e.dataset.regelSoort!)));
+    q('[data-direct-regelen]').forEach((e) => (e.hidden = !e.querySelector('[data-regel-soort]:not([hidden])')));
+    q('[data-meer-op-pagina]').forEach((e) => (e.hidden = onderdelen.includes('klacht') || onderdelen.includes('bezwaar')));
     q('[data-generieke-stap]').forEach((e) => (e.hidden = situatieWint));
     q('[data-situatie-stap]').forEach((e) => (e.hidden = !situatieWint || e.dataset.situatieStap !== active[0]));
     const eigenBrieven = situatieWint && q('[data-situatie-brieven]').some((e) => e.dataset.situatieBrieven === active[0]);
     q('[data-situatie-brieven]').forEach((e) => (e.hidden = !eigenBrieven || e.dataset.situatieBrieven !== active[0]));
     q('[data-generieke-brieven]').forEach((e) => (e.hidden = eigenBrieven));
+    // Bij een lichte start geen aanvraagbrieven; wel brieven die bij de situatie zelf horen (zoals aan school).
+    q('[data-brieven-blok]').forEach((e) => (e.hidden = licht && !eigenBrieven));
     // Eerste ingang: het wijkteam, tenzij de situatie bij de huisarts of school begint. Die staat dan alleen in blok 2.
     const eersteRoute = situatieWint ? data[active[0]].routes[0] : 'wijkteam';
     // Bij spoed en bij zorgen om een kind van een ander is het wijkteam niet de eerste plek om te bellen.
@@ -403,6 +438,17 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     const inBand = (e: HTMLElement) => !band || (Number(e.dataset.van) < band[1] - 1 && Number(e.dataset.tot) > band[0] + 1);
     q('[data-tip-situaties]').forEach((e) => (e.hidden = !(e.dataset.tipSituaties ?? '').split(' ').some((id) => active.includes(id)) || !inBand(e)));
     q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf));
+    // Therapievormen op volgorde van toepasbaarheid: per kaart de beste plek over de gekozen situaties met een volgorde
+    // (zie lib/therapie.ts). Hoort de kaart bij een gekozen situatie zonder volgorde, dan na de eerste stappen; verder op alfabet.
+    const NA_EERST = 100; // = begin van de groep "kan ook helpen" in rangVan
+    const plek = (e: HTMLElement) => {
+      const r = (e.dataset.tipRang ?? '').split(' ').filter(Boolean).map((x) => x.split(':')).filter(([sit]) => active.includes(sit)).map(([, n]) => Number(n));
+      const tipSits = (e.dataset.tipSituaties ?? '').split(' ');
+      if (active.some((id) => !data[id].rang && tipSits.includes(id))) r.push(NA_EERST);
+      return r.length ? Math.min(...r) : 999;
+    };
+    const tipGrid = document.querySelector('[data-tip-grid]');
+    q('[data-tip-situaties]').map((e) => [e, plek(e), Number(e.dataset.tipI)] as const).sort((a, b) => a[1] - b[1] || a[2] - b[2]).forEach(([e]) => tipGrid?.appendChild(e));
     q('[data-tips-wrap]').forEach((w) => (w.hidden = zonderGemeente || !q('[data-tip-situaties]').some((e) => !e.hidden)));
     const tipsZichtbaar = q('[data-tips-wrap]').some((w) => !w.hidden);
     q('[data-tips-link]').forEach((e) => (e.hidden = !tipsZichtbaar));

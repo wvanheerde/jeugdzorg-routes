@@ -20,6 +20,9 @@ const bron = z.object({
   geraadpleegd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Gebruik JJJJ-MM-DD'),
 });
 
+/** Een therapievorm in de rangorde van een situatie. */
+const therapieItem = z.object({ id: z.string(), wanneer: z.string().optional() });
+
 const contact = z.object({
   naam: z.string(),
   omschrijving: z.string().optional(),
@@ -109,6 +112,17 @@ const gemeenten = defineCollection({
         }),
       ).default([]),
     }),
+
+    /**
+     * Waar ouders zonder aanvraag terechtkunnen voor informatie en advies over opvoeden (zoals bij een scheiding).
+     * cjg = een Centrum voor Jeugd en Gezin of vergelijkbaar inlooppunt naast het wijkteam;
+     * wijkteam = het CJG is het wijkteam zelf (geen apart contact);
+     * jgz = geen CJG, wel de jeugdgezondheidszorg (consultatiebureau, jeugdarts en jeugdverpleegkundige).
+     */
+    cjg: z.discriminatedUnion('soort', [
+      z.object({ soort: z.literal('wijkteam') }),
+      z.object({ soort: z.enum(['cjg', 'jgz']), naam: z.string(), omschrijving: z.string(), contact: contact, bron: bron }),
+    ]).optional(),
 
     /** 4. Lokale steun buiten de formele zorg. */
     lokaleInitiatieven: z.array(
@@ -250,6 +264,22 @@ const situaties = defineCollection({
     landelijk: z.array(z.string()).default([]),
     /** Landelijke regelingen die specifiek voor deze situatie gelden. */
     regelingen: z.array(z.object({ naam: z.string(), toelichting: z.string(), url: z.url().optional() })).default([]),
+    /**
+     * Volgorde van de gekoppelde therapievormen (therapievormen.situaties) voor deze situatie, op basis van de richtlijn:
+     * eerst de vormen die vaak de eerste stap zijn, dan die ook kunnen helpen, dan die alleen passen bij een bijkomend
+     * probleem of die de richtlijn niet als standaard noemt. De site toont één lijst in die volgorde, zonder groepen of
+     * labels; groepen, `wanneer` en `toelichting` leggen de keuze vast. Zonder richtlijn: bronnen leeg en uitleg in `toelichting`.
+     * De build faalt als een gekoppelde vorm ontbreekt of dubbel staat.
+     */
+    therapievormen: z.object({
+      eerst: z.array(therapieItem).min(1),
+      ook: z.array(therapieItem).default([]),
+      bijkomend: z.array(therapieItem).default([]),
+      toelichting: z.string().optional(),
+      bronnen: z.array(bron).default([]),
+    }).optional(),
+    /** Op zich geen reden voor jeugdhulp (zoals scheiding): het overzicht begint dan met de uitleg en het CJG, en vouwt de aanvraagstappen in. */
+    lichteStart: z.boolean().default(false),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

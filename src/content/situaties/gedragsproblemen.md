@@ -15,6 +15,21 @@ landelijk: [02-toegang, 03-rechten, 05-financieel]
 regelingen:
   - naam: Familiegroepsplan
     toelichting: "U mag zelf met familie en vrienden een plan maken over wat uw gezin nodig heeft. De gemeente moet uitgaan van dat plan."
+therapievormen:
+  eerst:
+    - id: oudertraining
+    - id: systeemtherapie
+    - id: mst-mdft
+    - id: cognitieve-gedragstherapie
+  ook:
+    - id: intensieve-gezinsbehandeling
+  bijkomend:
+    - id: psychomotorische-therapie
+  toelichting: "Tot 12 jaar een ouderinterventie gericht op opvoedvaardigheden; bij 8-12 jaar zo nodig CGT erbij. Vanaf 12 jaar gezinstherapie of een multisysteeminterventie, met CGT."
+  bronnen:
+    - titel: "Richtlijn Ernstige gedragsproblemen: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
 volgorde: 11
 status: concept
 laatstGecontroleerd: "2026-10-12"

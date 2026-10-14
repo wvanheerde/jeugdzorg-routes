@@ -16,6 +16,24 @@ regelingen:
   - naam: Zorgstandaard ADHD
     toelichting: "Hierin staat wat goede zorg is. Ook staat erin dat u samen met de arts beslist over medicatie. Handig om te kennen als u iets anders wordt voorgesteld."
     url: https://www.ggzstandaarden.nl/zorgstandaarden/adhd
+therapievormen:
+  eerst:
+    - id: psycho-educatie
+    - id: oudertraining
+    - id: medicatie-als-aanvulling
+  ook:
+    - id: sociale-vaardigheidstraining
+    - id: executieve-functietraining
+  bijkomend:
+    - id: psychomotorische-therapie
+    - id: mindfulness-kinderen
+    - id: neurofeedback
+    - id: sensorische-informatieverwerking
+  toelichting: "Oudertraining is eerste keus onder 6 jaar en bij lichte tot matige ADHD; bij ernstige ADHD vanaf 6 jaar medicatie. Sociale vaardigheids- en planningstraining kunnen erbij als problemen blijven. Neurofeedback, mindfulness en psychomotorische therapie horen volgens de richtlijn niet in het standaardaanbod."
+  bronnen:
+    - titel: "Richtlijn ADHD (Richtlijnen Jeugdhulp en Jeugdbescherming)"
+      url: https://richtlijnenjeugdhulp.nl/uploads/2025-04/Richtlijn-ADHD.pdf
+      geraadpleegd: "2026-10-14"
 volgorde: 10
 status: concept
 laatstGecontroleerd: "2026-10-12"

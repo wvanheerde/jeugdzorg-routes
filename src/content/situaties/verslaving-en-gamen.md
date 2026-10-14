@@ -18,6 +18,17 @@ regelingen:
     url: https://www.regelhulp.nl/onderwerpen/mijn-situatie/psychische-klachten/hulp-bij-verslaving
   - naam: "Vanaf 16 beslist uw kind grotendeels zelf"
     toelichting: "Jongeren van 16 en ouder beslissen zelf over hun behandeling. Zonder toestemming van de jongere mogen hulpverleners maar beperkt informatie delen. Blijf in gesprek en zoek zelf steun. De verslavingszorg kan u adviseren hoe u uw kind richting hulp krijgt."
+therapievormen:
+  eerst:
+    - id: verslavingsbehandeling-jeugd
+    - id: mst-mdft
+  ook:
+    - id: intensieve-gezinsbehandeling
+  toelichting: "Motiverende gespreksvoering met CGT, contingency management en/of systeembehandeling. MDFT/MST bij ernstige problemen."
+  bronnen:
+    - titel: "Richtlijn Middelengebruik: kernaanbevelingen"
+      url: https://richtlijnenjeugdhulp.nl/middelengebruik/kernaanbevelingen
+      geraadpleegd: "2026-10-14"
 volgorde: 22
 status: concept
 laatstGecontroleerd: "2026-10-12"

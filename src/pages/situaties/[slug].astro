@@ -5,6 +5,7 @@ import Sources from '../../components/Sources.astro';
 import GemeenteKeuze from '../../components/GemeenteKeuze.astro';
 import Contact from '../../components/Contact.astro';
 import TherapieKaart from '../../components/TherapieKaart.astro';
+import { therapieVolgorde } from '../../lib/therapie';
 import SpoedNummers from '../../components/SpoedNummers.astro';
 import BriefKaart from '../../components/BriefKaart.astro';
 import { getCollection, getEntry, render } from 'astro:content';
@@ -28,7 +29,7 @@ const matchT = (themas: string[]) => themas.some((t) => kt.includes(t));
 const organisaties = (await getCollection('organisaties')).filter((o) => matchT(o.data.themas)).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const routeTypes = d.routes.map((r) => r.type);
-const therapie = (await getCollection('therapievormen')).filter((t) => t.data.situaties.includes(s.id)).sort((a, c) => a.data.naam.localeCompare(c.data.naam));
+const therapie = therapieVolgorde(s, await getCollection('therapievormen'));
 const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.includes(s.id)).sort((a, c) => a.data.volgorde - c.data.volgorde);
 ---
 <Base title={d.titel} description={d.samenvatting}>
@@ -136,7 +137,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
       <section class="section" id="therapie">
         <h2><span class="section-num">6</span>Welke therapievormen kunnen passen?</h2>
         <p class="meta">Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar. <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.</p>
-        {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
+        {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid gelijk">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
       </section>
 
       {brieven.length > 0 && (

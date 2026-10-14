@@ -6,7 +6,7 @@ themas: [zindelijkheid, bedplassen, ontwikkelingsproblemen, beperking, gezin, op
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, persoonlijke-verzorging]
 routes:
   - type: huisarts
-    waarom: "Begin bij de huisarts of de jeugdarts van het consultatiebureau of de GGD. Zij kijken of er een lichamelijke oorzaak is, zoals verstopping of blaasproblemen. Ze kunnen verwijzen naar een continentiepoli, kinderfysiotherapeut of urotherapeut in het ziekenhuis. Dit loopt via de zorgverzekeraar."
+    waarom: "Dat kan ook de jeugdarts van het consultatiebureau of de GGD. Zij kijken of er een lichamelijke oorzaak is, zoals verstopping of blaasproblemen. Ze kunnen verwijzen naar een continentiepoli, kinderfysiotherapeut of urotherapeut in het ziekenhuis. Dit loopt via de zorgverzekeraar."
   - type: wijkteam
     waarom: "Hangt zindelijkheid samen met een ontwikkelingsachterstand, autisme of een beperking? Dan kan de gemeente begeleiding thuis of een pgb inzetten voor gespecialiseerde zindelijkheidsbegeleiding. Noem dat zelf duidelijk. Het wordt niet vanzelf aangeboden."
 landelijk: [02-toegang, 03-rechten]

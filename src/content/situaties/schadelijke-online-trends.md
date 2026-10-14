@@ -19,6 +19,17 @@ regelingen:
     toelichting: "Sextortion, bedreiging en het verspreiden van seksuele beelden van minderjarigen zijn strafbaar. U kunt aangifte doen bij de politie. Slachtofferhulp begeleidt u gratis. Platforms moeten zulke beelden verwijderen. De Offlimits Hulplijn helpt daarbij."
   - naam: "School moet ook online pesten aanpakken"
     toelichting: "Scholen moeten volgens de wet pesten aanpakken. Dat geldt ook als leerlingen elkaar online pesten. Vraag school om een plan en wijs op de pestcoördinator."
+therapievormen:
+  eerst:
+    - id: cognitieve-gedragstherapie
+    - id: emdr
+  ook:
+    - id: dialectische-gedragstherapie
+    - id: verslavingsbehandeling-jeugd
+    - id: sociale-vaardigheidstraining
+  bijkomend:
+    - id: mindfulness-kinderen
+  toelichting: "Geen richtlijn. De vorm hangt af van het gevolg: CGT bij angst of somberheid, EMDR na een schokkende gebeurtenis (zoals sextortion), DGT bij zelfbeschadiging, verslavingsbehandeling bij gamen, sociale vaardigheden bij pesten."
 volgorde: 16
 status: concept
 laatstGecontroleerd: "2026-10-12"
