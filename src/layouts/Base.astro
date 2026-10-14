@@ -152,9 +152,15 @@ const nav = [
       const markeer = () => {
         const main = document.getElementById('inhoud');
         if (!main) return;
-        const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, { acceptNode: (t) => (!t.parentElement || t.parentElement.closest(overslaan) || !zichtbaar(t.parentElement) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT) });
+        // Verborgen of overgeslagen elementen in één keer met alles erin overslaan (FILTER_REJECT op het element). Mijn overzicht bevat
+        // de blokken van alle gemeenten verborgen; per tekstknoop controleren maakte de pagina op telefoons seconden lang onbruikbaar.
+        const walker = document.createTreeWalker(main, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, { acceptNode: (n) => {
+          if (n.nodeType === Node.TEXT_NODE) return NodeFilter.FILTER_ACCEPT;
+          const el = n as HTMLElement;
+          return el.hidden || el.matches(overslaan) || !zichtbaar(el) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
+        } });
         const nodes: Text[] = [];
-        while (walker.nextNode()) nodes.push(walker.currentNode as Text);
+        while (walker.nextNode()) if (walker.currentNode.nodeType === Node.TEXT_NODE) nodes.push(walker.currentNode as Text);
         for (const node of nodes) {
           const tekst = node.data;
           re.lastIndex = 0;

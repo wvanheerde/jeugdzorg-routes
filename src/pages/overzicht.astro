@@ -218,7 +218,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {g.data.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${g.data.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {g.data.naam}</span>: {t?.naam}</h3>
             )}
             {g.data.meta.status !== 'voorbeeld' && t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {g.data.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
-            {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><Icon name="phone" /><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
+            {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
             {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}
             <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {g.data.naam}?</summary><p>{doorloop(g)}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {g.data.naam}?</a></div>
             </div>

@@ -54,7 +54,7 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
     <div class="eerste-contact kaart-boven">
       <h2 class="h3-maat">Hier meldt u zich in {d.naam}: {wijkteam.naam}</h2>
       {!/wijkteam/i.test(wijkteam.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
-      {toegangContact.telefoon && <a class="btn primary bel" href={`tel:${toegangContact.telefoon.replace(/\s/g, '')}`}><Icon name="phone" /><span class="sr-only">Bel </span>{toegangContact.telefoon}</a>}
+      {toegangContact.telefoon && <a class="btn primary bel" href={`tel:${toegangContact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{toegangContact.telefoon}</a>}
       <Contact contact={toegangContact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />
       <p class="meta">Liever via de huisarts of school, of kan het niet wachten? <a href="#toegang">Bekijk alle ingangen</a>.</p>
     </div>
