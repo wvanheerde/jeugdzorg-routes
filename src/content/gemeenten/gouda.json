@@ -244,7 +244,8 @@
       "contact": {
         "naam": "CJG Gouda",
         "telefoon": "088 254 2384"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Goudawijzer",
@@ -263,7 +264,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden/hulp-van-ervaringsdeskundigen"
+      "url": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden/hulp-van-ervaringsdeskundigen",
+      "voorIedereen": true
     },
     {
       "naam": "Relatie- en Scheidingsteam (Sociaal Team Gouda)",
@@ -273,7 +275,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://sociaalteamgouda.nl/thema/relatie-of-scheiding/"
+      "url": "https://sociaalteamgouda.nl/thema/relatie-of-scheiding/",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

@@ -190,7 +190,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.dijkenwaard.nl/contact-en-openingstijden/inloopspreekuren"
+      "url": "https://www.dijkenwaard.nl/contact-en-openingstijden/inloopspreekuren",
+      "verbergen": true
     },
     {
       "naam": "MET Dijk en Waard en Wonen Plus Welzijn",
@@ -200,7 +201,10 @@
         "gezin",
         "mantelzorg"
       ],
-      "url": "https://www.metdijkenwaard.nl/"
+      "url": "https://www.metdijkenwaard.nl/",
+      "situaties": [
+        "mantelzorg"
+      ]
     }
   ],
   "directRegelen": [

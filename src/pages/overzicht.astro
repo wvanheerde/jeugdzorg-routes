@@ -81,15 +81,39 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     <p class="lead" data-intro>Kies uw gemeente en wat er speelt. U ziet dan alleen wat voor u van toepassing is.</p>
   </div>
 
-  <details class="section regelen keuzes" id="top" data-keuzes open>
+  <details class="section regelen keuzes" id="top" data-keuzes>
     <summary><strong>Uw keuzes</strong> <span class="meta" data-keuzes-samenvatting>nog niets gekozen</span> <span class="keuzes-actie">aanpassen</span></summary>
     <div class="wegwijzer light"><GemeenteKeuze /><KnelpuntKeuze /><LeeftijdKeuze /><SituatieKeuze mode="inline" /></div>
     <p class="empty" data-leeg style="margin:1rem 0 0">Kies hierboven een situatie, of waar u staat met de gemeente.</p>
   </details>
+  <!-- Meteen (niet pas na het laden van de scripts): open of dicht, en de samenvatting. Anders klapte het blok zichtbaar dicht en versprong de pagina. -->
+  <script is:inline define:vars={{ namen }}>
+    (() => {
+      const p = new URLSearchParams(location.search);
+      const v = (k, key) => p.get(k) ?? localStorage.getItem(key) ?? '';
+      const s = v('s', 'jr.situaties').split(',').filter(Boolean), k = v('k', 'jr.knelpunt'), g = v('gemeente', 'jr.gemeente'), l = v('l', 'jr.leeftijd');
+      const d = document.querySelector('[data-keuzes]');
+      if (!(s.length || k || g)) { d.open = true; return; }
+      document.querySelectorAll('[data-intro]').forEach((e) => (e.hidden = true));
+      // Tot de inhoud getekend is de voettekst verbergen: anders staat die even in beeld en schuift dan weg.
+      document.documentElement.classList.add('jr-laden');
+      setTimeout(() => document.documentElement.classList.remove('jr-laden'), 3000);
+      const delen = [namen.g[g], namen.k[k], ...s.map((id) => namen.s[id]), namen.l[l]].filter(Boolean);
+      if (delen.length) d.querySelector('[data-keuzes-samenvatting]').textContent = delen.join(' · ');
+    })();
+  </script>
 
+  <button type="button" class="keuzes-knop" data-keuzes-aanpassen data-keuzes-knop hidden>Keuzes aanpassen</button>
   <div data-inhoud hidden class="page-with-side">
    <aside class="side">
     <nav aria-label="Inhoud" data-zijnav>
+      <div class="side-keuzes">
+        <strong>Uw keuzes</strong>
+        <p data-keuzes-samenvatting></p>
+        <a href="#top" class="side-aanpassen" data-keuzes-aanpassen>Keuzes aanpassen</a>
+      </div>
+      <!-- Samenvatting meteen overnemen uit het keuzeblok (gevuld door het vroege script hierboven), zodat de zijnavigatie niet verspringt. -->
+      <script is:inline>document.currentScript.previousElementSibling.querySelector('[data-keuzes-samenvatting]').textContent = document.querySelector('[data-keuzes] [data-keuzes-samenvatting]').textContent;</script>
       <strong>Op deze pagina</strong>
       <a href="#nu-doen" data-nav="nu-doen"><span class="n">→</span>Wat kunt u doen</a>
       <a href="#gemeente" data-nav="gemeente"><span class="n">1</span>Andere ingangen</a>
@@ -168,7 +192,10 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       <!-- Begint de situatie bij de huisarts of school? Dan onder stap 1 toch één regel met het wijkteam, als gelijkwaardige ingang (order 3). -->
       <div class="o3" data-wijkteam-regel>
         {gemeenten.filter((g) => g.data.meta.status !== 'voorbeeld').map((g) => { const t0 = g.data.toegang.routes.find((x) => x.type === 'wijkteam'); const c = t0 && contacten(t0.contact)[0]; return t0 && (
-          <p class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>Liever eerst het wijkteam? Dat mag ook: <strong>{t0.naam}</strong>{c?.telefoon && <>, <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>bel {c.telefoon}</a></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}.</p>
+          <div class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>
+            <p>Liever eerst het wijkteam? Dat mag ook: <strong>{t0.naam}</strong>{c?.telefoon && <>, <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>bel {c.telefoon}</a></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}.</p>
+            <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {g.data.naam}?</summary><p>{doorloop(g)}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {g.data.naam}?</a></div>
+          </div>
         ); })}
       </div>
 
@@ -191,9 +218,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {g.data.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${g.data.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {g.data.naam}</span>: {t?.naam}</h3>
             )}
             {g.data.meta.status !== 'voorbeeld' && t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {g.data.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
-            {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}>Bel {t.contact.telefoon}</a>}
-            <p class="meta">{t?.contact?.openingstijden && <>{t.contact.openingstijden}<br /></>}{t?.contact?.email && <>Mail: <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a> · </>}{t?.contact?.url && <a href={t.contact.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>}</p>
-            <details class="meta ec-wachten"><summary>Hoe lang duurt het in {g.data.naam}?</summary><p>{doorloop(g)} <a href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {g.data.naam}?</a></p></details>
+            {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><Icon name="phone" /><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
+            {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}
+            <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {g.data.naam}?</summary><p>{doorloop(g)}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {g.data.naam}?</a></div>
             </div>
             <div class="ec-bezwaar">
               <h3>Bezwaar maken in {g.data.naam}</h3>
@@ -258,7 +285,11 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           ))}
           <div data-lokaal-wrap hidden>
             <h3>Lokale steun in {g.data.naam}</h3>
-            <ul>{(g.data.lokaleInitiatieven ?? []).map((i) => <li data-themas={j(i.themas ?? [])} hidden><strong>{i.naam}</strong> – {i.omschrijving} {i.url && <a href={i.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>}</li>)}</ul>
+            {/* Gelabeld (situaties/voorIedereen/verbergen, zie content.config.ts): koppeling per situatie; anders via themas. Het CJG-initiatief
+                 vervalt als het CJG-blok al bovenaan staat (lichte start). */}
+            <ul>{(g.data.lokaleInitiatieven ?? []).filter((i) => !i.verbergen).map((i) => (
+              <li data-li data-themas={j(i.themas ?? [])} data-li-sits={j(i.situaties ?? [])} data-li-gelabeld={i.situaties || i.voorIedereen ? '1' : undefined} data-li-iedereen={i.voorIedereen ? '1' : undefined} data-li-cjg={g.data.cjg && g.data.cjg.soort !== 'wijkteam' && /\bCJG\b|Centrum voor Jeugd|JGZ|jeugdgezondheid|consultatiebureau|Centrum Jong|Opvoedpunt|Loes\b/i.test(i.naam) ? '1' : undefined} hidden><strong>{i.naam}</strong> – {i.omschrijving}{(i.url || i.contact) && <Contact contact={{ ...i.contact, naam: i.contact?.naam ?? i.naam, url: i.contact?.url ?? i.url }} zonder={!i.contact?.naam || i.contact.naam === i.naam ? ['naam'] : []} class="kaal" />}</li>
+            ))}</ul>
           </div>
           {(g.data.directRegelen ?? []).length > 0 && (<div class="direct-regelen" data-direct-regelen><h3>Direct regelen</h3><ul class="linklist">{(g.data.directRegelen ?? []).map((r) => <li data-regel-soort={regelSoort(r.naam)}><a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a>{r.omschrijving && <p>{r.omschrijving}</p>}</li>)}</ul></div>)}
           <p class="meta" style="margin-top:1rem"><a href={`${base}/gemeenten/${g.id}/`}>Volledige pagina van {g.data.naam} →</a> <span data-meer-op-pagina hidden>Daar staat ook hoe u een klacht indient of bezwaar maakt.</span></p>
@@ -325,7 +356,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
             <span class="badge">{o.data.soort}</span>
             <h3 style="margin-top:.6rem">{o.data.naam}</h3>
             <p>{o.data.omschrijving}</p>
-            <p class="meta org-voet"><a href={o.data.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>{o.data.telefoon && <> · <a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></>}</p>
+            <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
           </div>
         ))}
       </div>
@@ -351,6 +382,15 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   // Antwoord eerst: is er al iets gekozen, dan staan de keuzes ingeklapt en begint de pagina met het resultaat.
   // Uitklappen terwijl de balk vast staat: spring naar de keuzes, anders openen ze ver boven het scherm.
   keuzes?.addEventListener('toggle', () => { if (keuzes.open) requestAnimationFrame(() => keuzes.scrollIntoView({ block: 'start' })); });
+  // "Keuzes aanpassen" (zijnavigatie en knop rechtsonder): keuzeblok openen; de toggle hierboven scrolt er dan naartoe.
+  document.querySelectorAll<HTMLElement>('[data-keuzes-aanpassen]').forEach((el) => el.addEventListener('click', (e) => {
+    if (!keuzes) return;
+    e.preventDefault();
+    if (keuzes.open) keuzes.scrollIntoView({ block: 'start' }); else keuzes.open = true;
+  }));
+  // Knop rechtsonder (alleen telefoon, zie CSS): pas tonen als het keuzeblok uit beeld is en er iets gekozen is.
+  const knop = document.querySelector<HTMLElement>('[data-keuzes-knop]');
+  if (keuzes && knop && 'IntersectionObserver' in window) new IntersectionObserver(([e]) => { knop.hidden = e.isIntersecting || !!document.querySelector('[data-inhoud][hidden]'); }).observe(keuzes);
   if (keuzes && (sel.length || kp || gem)) { keuzes.open = false; document.querySelectorAll<HTMLElement>('[data-intro]').forEach((e) => (e.hidden = true)); }
   const render = () => {
     const active = sel.filter((id) => data[id]);
@@ -374,7 +414,10 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     // Landelijke vraag (zoals kinderbijslag): geen wijkteam, "hierbij handig" of andere ingangen van de gemeente,
     // en van de verdieping alleen de rechten en regelingen (geen hulpsoorten, therapievormen of organisaties).
     const zonderGemeente = !!kpActive && knel[kpActive].zonderGemeente;
-    q('#hulp, #situaties, #regelingen, #organisaties, #tips').forEach((e) => (e.hidden = active.length === 0 || (zonderGemeente && e.id !== 'regelingen')));
+    // Zorgen om een kind van een ander: de situatie gaat over dat kind, niet over hulp voor uw eigen kind. Dan geen rechten en
+    // regelingen van de situatie (zoals "u mag de aanbieder kiezen") en geen leeftijdstips over school.
+    const andermansKind = kpActive === 'zorgen-om-kind';
+    q('#hulp, #situaties, #regelingen, #organisaties, #tips').forEach((e) => (e.hidden = active.length === 0 || andermansKind || (zonderGemeente && e.id !== 'regelingen')));
     // Lichte start (zoals scheiding): op zich geen reden voor jeugdhulp. Uitleg en CJG voorop, de aanvraag ingeklapt.
     const licht = kpActive === 'beginnen' && !!active[0] && data[active[0]].licht;
     const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen;
@@ -415,7 +458,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     // Modus van de contactkaart bovenaan: per vraag de juiste ingang (wijkteam, bezwaar of klacht).
     const MODUS: Record<string, string> = { verhuizing: 'verhuizing', afgewezen: 'bezwaar', vastgelopen: 'klacht', wachten: 'wachten' };
     q('#nu-doen').forEach((e) => (e.dataset.modus = MODUS[kpActive] ?? ''));
-    q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf));
+    q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || andermansKind));
 
     // Blok 2: alle ingangen behalve de eerste; bij een situatie in de volgorde van die situatie. Niet bij spoed.
     const volgorde = active[0] ? data[active[0]].routes : ['wijkteam', 'huisarts', 'school'];
@@ -437,7 +480,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     // Zichtbaar als de leeftijdsrange van de vorm meer dan één jaar overlapt met de gekozen band.
     const inBand = (e: HTMLElement) => !band || (Number(e.dataset.van) < band[1] - 1 && Number(e.dataset.tot) > band[0] + 1);
     q('[data-tip-situaties]').forEach((e) => (e.hidden = !(e.dataset.tipSituaties ?? '').split(' ').some((id) => active.includes(id)) || !inBand(e)));
-    q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf));
+    q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || andermansKind));
     // Therapievormen op volgorde van toepasbaarheid: per kaart de beste plek over de gekozen situaties met een volgorde
     // (zie lib/therapie.ts). Hoort de kaart bij een gekozen situatie zonder volgorde, dan na de eerste stappen; verder op alfabet.
     const NA_EERST = 100; // = begin van de groep "kan ook helpen" in rangVan
@@ -454,13 +497,34 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     q('[data-tips-link]').forEach((e) => (e.hidden = !tipsZichtbaar));
     q('[data-tips-link-alg]').forEach((e) => (e.hidden = tipsZichtbaar));
 
+    // Nummers doortellen over de zichtbare secties (zijnavigatie én koppen), anders sprong de nummering bv. van → naar 4.
+    q('[data-nav]').filter((a) => a.dataset.nav !== 'nu-doen').forEach((a) => {
+      const t = document.getElementById(a.dataset.nav!);
+      a.hidden = !t || t.hidden;
+    });
+    let nr = 0;
+    q('[data-nav]').filter((a) => a.dataset.nav !== 'nu-doen' && !a.hidden).forEach((a) => {
+      nr++;
+      const n = a.querySelector('.n'); if (n) n.textContent = String(nr);
+      const kop = document.getElementById(a.dataset.nav!)?.querySelector(':scope > h2 .section-num'); if (kop) kop.textContent = String(nr);
+    });
     const known = q('#gemeente .gemeente-blok').some((b) => b.dataset.gemeente === gem && gem !== '');
     q('#gemeente .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== (known || gem === '_overig' ? gem : '')));
     q('[data-routes-algemeen]').forEach((e) => (e.hidden = known));
+    // Lokale steun: eerst wat bij de gekozen situaties past (hooguit 4); is dat minder dan 2, dan aanvullen met hooguit 2 "voor alle gezinnen".
+    // Zonder situatie alleen bij "Ik wil hulp aanvragen" (dan alleen de algemene). Het CJG vervalt als het CJG-blok al bovenaan staat.
     q('.gemeente-blok [data-lokaal-wrap]').forEach((w) => {
-      const items = Array.from(w.querySelectorAll<HTMLElement>('[data-themas]'));
-      items.forEach((i) => (i.hidden = !hasThema(i)));
-      w.hidden = !items.some((i) => !i.hidden);
+      const items = Array.from(w.querySelectorAll<HTMLElement>('[data-li]'));
+      const lijst = w.querySelector('ul');
+      const bruikbaar = items.filter((i) => !(licht && i.dataset.liCjg));
+      const past = (i: HTMLElement) => i.dataset.liGelabeld ? (i.dataset.liSits ?? '').split(' ').some((id) => active.includes(id)) : hasThema(i);
+      const specifiek = bruikbaar.filter(past).slice(0, 4);
+      const magAlgemeen = active.length > 0 || kpActive === 'beginnen';
+      const aanvulling = specifiek.length < 2 && magAlgemeen ? bruikbaar.filter((i) => i.dataset.liIedereen && !specifiek.includes(i)).slice(0, 2) : [];
+      const tonen = [...specifiek, ...aanvulling];
+      items.forEach((i) => (i.hidden = !tonen.includes(i)));
+      tonen.forEach((i) => lijst?.appendChild(i));
+      w.hidden = tonen.length === 0;
     });
     // Pas aan het eind: hieronder hangt af van wat hierboven zichtbaar is gemaakt.
     // Echte volgorde in de HTML (ook voor schermlezers): contact direct onder de kop, vóór de uitleg en de stappen
@@ -471,6 +535,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       const kop = blok.querySelector('h2');
       const ec = document.querySelector('[data-eerste-contact]');
       if (kop && ec) kop.after(ec);
+      // Begint de situatie bij huisarts of school, dan staat het wijkteam direct onder stap 1 (persona-tests: stond onder de brieven).
+      const wr = document.querySelector('[data-wijkteam-regel]');
+      if (na1 && wr) na1.after(wr);
       const na2 = blok.querySelector('.o5') ?? blok.querySelector('.o4') ?? na1;
       const hd = document.querySelector('[data-knelpunt-gemeente]');
       const lft = document.querySelector('.o5b');
@@ -497,4 +564,5 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   document.addEventListener('jr:knelpunt', (e) => { kp = (e as CustomEvent).detail; render(); });
   document.addEventListener('jr:leeftijd', (e) => { lf = (e as CustomEvent).detail; render(); });
   render();
+  document.documentElement.classList.remove('jr-laden');
 </script>

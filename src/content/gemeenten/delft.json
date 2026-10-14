@@ -225,7 +225,8 @@
         "naam": "Delft voor Elkaar",
         "telefoon": "015 760 0200",
         "email": "info@delftvoorelkaar.nl"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "JGZ Zuid-Holland West (consultatiebureau en jeugdgezondheidszorg)",
@@ -242,7 +243,8 @@
         "telefoon": "088 054 9999",
         "email": "info@jgzzhw.nl",
         "openingstijden": "Werkdagen 8.00–17.00 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Home-Start Delft en Midden-Delfland",
@@ -257,7 +259,8 @@
         "naam": "Home-Start Delft en Midden-Delfland (Humanitas)",
         "email": "home-start.delft@humanitas.nl",
         "adres": "Nassaulaan 23, 2628 GA Delft"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Buurtgezinnen Delft",
@@ -267,7 +270,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.buurtgezinnen.nl/waar/zuid-holland/delft/"
+      "url": "https://www.buurtgezinnen.nl/waar/zuid-holland/delft/",
+      "voorIedereen": true
     },
     {
       "naam": "The Mall Delft",
@@ -295,7 +299,10 @@
       "contact": {
         "naam": "Delft voor Elkaar",
         "telefoon": "015 760 0200"
-      }
+      },
+      "situaties": [
+        "mantelzorg"
+      ]
     }
   ],
   "directRegelen": [

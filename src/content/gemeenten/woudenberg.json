@@ -170,7 +170,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.home-start.nl/woudenberg/woudenberg"
+      "url": "https://www.home-start.nl/woudenberg/woudenberg",
+      "voorIedereen": true
     },
     {
       "naam": "Buurtgezinnen",
@@ -180,7 +181,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.buurtgezinnen.nl/"
+      "url": "https://www.buurtgezinnen.nl/",
+      "voorIedereen": true
     },
     {
       "naam": "Ontmoetingsgroep KIES",
@@ -190,17 +192,21 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.dekleineschans.nl/nieuws/kies-groep/"
+      "url": "https://www.dekleineschans.nl/nieuws/kies-groep/",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "JOSEE, jeugd- en oudersteunpunt passend onderwijs Eemland",
       "soort": "informatiepunt",
       "omschrijving": "Gratis advies en een gesprek voor ouders en jongeren over passend onderwijs, in basis- en voortgezet onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "onderwijs"
       ],
-      "url": "https://josee.nu/"
+      "url": "https://josee.nu/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

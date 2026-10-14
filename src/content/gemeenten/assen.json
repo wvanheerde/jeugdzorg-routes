@@ -209,7 +209,8 @@
         "naam": "Vaart Welzijn",
         "telefoon": "088 123 0999",
         "email": "info@vaartwelzijn.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Relatie- en Scheidingsteam Assen",
@@ -226,7 +227,10 @@
         "naam": "Relatie- en Scheidingsteam",
         "telefoon": "088 123 0999",
         "email": "relatieenscheidingsteam@vaartwelzijn.nl"
-      }
+      },
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Raad voor Cliëntenparticipatie Assen (RCPA)",
@@ -239,7 +243,8 @@
       "contact": {
         "naam": "RCPA",
         "email": "rcpa@assen.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Kindpakket Assen",

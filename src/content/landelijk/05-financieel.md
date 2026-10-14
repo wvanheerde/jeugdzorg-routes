@@ -46,7 +46,7 @@ Of de zorg genoeg is, bepaalt het **CIZ**. Dat is een organisatie die voor de SV
 
 1. Ga naar de website van de SVB: [dubbele kinderbijslag aanvragen](https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg). U logt in met DigiD.
 2. U krijgt vragen van het CIZ. Vul ze in en stuur ze op tijd terug.
-3. Stuur verslagen en brieven mee van de arts of behandelaar van uw kind, zoals een kinderarts of psychiater. Daarin staat wat uw kind heeft. Zonder zo'n verslag zegt het CIZ nee.
+3. Stuur verslagen en brieven mee van de arts of behandelaar van uw kind, zoals een kinderarts of psychiater. Daarin staat wat uw kind heeft. Zonder zo'n verslag zegt het CIZ nee. Heeft u nog geen verslag? Vraag de arts die uw kind kent om een brief: de huisarts, kinderarts of jeugdarts. Ook een verslag van de behandelaar of begeleider van uw kind helpt.
 
 U kunt het geld tot een half jaar terug krijgen.
 

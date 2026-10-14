@@ -212,7 +212,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjgkatwijk.nl/"
+      "url": "https://www.cjgkatwijk.nl/",
+      "verbergen": true
     },
     {
       "naam": "Ouders van Katwijk",
@@ -222,7 +223,12 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.oudersvankatwijk.nl/"
+      "url": "https://www.oudersvankatwijk.nl/",
+      "situaties": [
+        "verslaving-en-gamen",
+        "schadelijke-online-trends"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Steunouder Katwijk",
@@ -232,7 +238,8 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://www.katwijk.nl/zorg-en-inkomen/wijkteam/jeugd-en-gezin/steunouder"
+      "url": "https://www.katwijk.nl/zorg-en-inkomen/wijkteam/jeugd-en-gezin/steunouder",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

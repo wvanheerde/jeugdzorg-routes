@@ -213,7 +213,8 @@
         "telefoon": "088 900 4000",
         "email": "bureaudienst.woerden@kwadraad.nl",
         "url": "https://www.woerdenwijzer.nl/Organisaties/Pedagogisch_Bureau"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Buurtgezinnen",
@@ -223,7 +224,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.woerdenwijzer.nl/Organisaties/Buurtgezinnen"
+      "url": "https://www.woerdenwijzer.nl/Organisaties/Buurtgezinnen",
+      "voorIedereen": true
     },
     {
       "naam": "Informatiepunten van WoerdenWijzer",
@@ -233,17 +235,19 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.woerdenwijzer.nl/Over_WoerdenWijzer/Inloopspreekuur"
+      "url": "https://www.woerdenwijzer.nl/Over_WoerdenWijzer/Inloopspreekuur",
+      "verbergen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunten passend onderwijs (Samenwijs en Steunpunt RUW)",
       "soort": "belangenorganisatie",
       "omschrijving": "Onafhankelijk advies voor ouders en jongeren bij vragen over passend onderwijs, voor basisonderwijs en voortgezet onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.passenderwijs.nl/ouder-en-jeugdsteunpunt/"
+      "url": "https://www.passenderwijs.nl/ouder-en-jeugdsteunpunt/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

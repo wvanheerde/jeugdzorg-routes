@@ -175,7 +175,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://stadsteamoudewater.nl/over-ons/steungezinnen/"
+      "url": "https://stadsteamoudewater.nl/over-ons/steungezinnen/",
+      "voorIedereen": true
     },
     {
       "naam": "VLAS Oudewater",
@@ -185,7 +186,11 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://stadsteamoudewater.nl/ouders-en-stadsteam-zetten-zich-in-voor-kinderen-met-een-extra-zorgvraag/"
+      "url": "https://stadsteamoudewater.nl/ouders-en-stadsteam-zetten-zich-in-voor-kinderen-met-een-extra-zorgvraag/",
+      "situaties": [
+        "langdurig-ziek",
+        "verstandelijke-beperking"
+      ]
     },
     {
       "naam": "Jongerenwerk Oudewater",
@@ -194,7 +199,8 @@
       "themas": [
         "jongeren"
       ],
-      "url": "https://stadsteamoudewater.nl/jeugd-en-gezin/"
+      "url": "https://stadsteamoudewater.nl/jeugd-en-gezin/",
+      "verbergen": true
     },
     {
       "naam": "Oudewater Wegwijs (inloopspreekuur)",
@@ -203,7 +209,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://stadsteamoudewater.nl/oudewater-wegwijs-vernieuwd-inloopspreekuur-voor-inwoners-van-oudewater/"
+      "url": "https://stadsteamoudewater.nl/oudewater-wegwijs-vernieuwd-inloopspreekuur-voor-inwoners-van-oudewater/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

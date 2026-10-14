@@ -195,7 +195,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.maatschappelijkezaken.nl/buurtgezinnen"
+      "url": "https://www.maatschappelijkezaken.nl/buurtgezinnen",
+      "voorIedereen": true
     },
     {
       "naam": "MamaCafé Huizen (Versa Welzijn)",
@@ -204,17 +205,19 @@
       "themas": [
         "opvoeden"
       ],
-      "url": "https://www.versawelzijn.nl/ons-aanbod/mama-cafe-huizen/"
+      "url": "https://www.versawelzijn.nl/ons-aanbod/mama-cafe-huizen/",
+      "voorIedereen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunt Gooi en Vechtstreek",
       "soort": "belangenorganisatie",
       "omschrijving": "Onafhankelijk advies en een luisterend oor bij vragen over passend onderwijs, extra hulp op school, zorg en jeugdhulp. Bellen kan anoniem.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.steunpuntgv.nl/"
+      "url": "https://www.steunpuntgv.nl/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

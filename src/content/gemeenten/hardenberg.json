@@ -209,7 +209,8 @@
         "naam": "Zorgbelang Overijssel",
         "telefoon": "074 291 3597",
         "email": "ombudsvrouwhardenberg@zorgbelang-overijssel.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Stichting de Kern (maatschappelijk werk)",
@@ -220,7 +221,10 @@
         "gezin",
         "scheiding"
       ],
-      "url": "https://www.stdekern.nl/gemeentes/hardenberg"
+      "url": "https://www.stdekern.nl/gemeentes/hardenberg",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Samen voor alle kinderen",
@@ -248,7 +252,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.villapinedo.nl/"
+      "url": "https://www.villapinedo.nl/",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

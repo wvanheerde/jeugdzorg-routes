@@ -174,7 +174,11 @@
         "gezin",
         "scheiding"
       ],
-      "url": "https://www.lariks-leusden.nl/themas/opvoeding-en-gezin"
+      "url": "https://www.lariks-leusden.nl/themas/opvoeding-en-gezin",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "VOOM (Vrijwillige Ondersteuning Op Maat)",
@@ -184,17 +188,19 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.lariks-leusden.nl/voom"
+      "url": "https://www.lariks-leusden.nl/voom",
+      "voorIedereen": true
     },
     {
       "naam": "JOSEE, jeugd- en oudersteunpunt passend onderwijs Eemland",
       "soort": "informatiepunt",
       "omschrijving": "Gratis advies en een gesprek voor ouders en jongeren over passend onderwijs, in basis- en voortgezet onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "onderwijs"
       ],
-      "url": "https://josee.nu/"
+      "url": "https://josee.nu/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

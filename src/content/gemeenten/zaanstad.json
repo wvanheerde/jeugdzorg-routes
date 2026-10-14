@@ -227,7 +227,8 @@
       "contact": {
         "naam": "Centrum Jong",
         "telefoon": "075 651 83 40"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Sociaal Wijkteam Zaanstad",
@@ -236,7 +237,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://www.zaanstad.nl/direct-regelen/zorg-welzijn-cultuur/hulp-bij-persoonlijke-problemen/sociaal-wijkteam"
+      "url": "https://www.zaanstad.nl/direct-regelen/zorg-welzijn-cultuur/hulp-bij-persoonlijke-problemen/sociaal-wijkteam",
+      "verbergen": true
     },
     {
       "naam": "Zaanse Ouders Ervaringsdeskundigen (ZOED)",
@@ -251,7 +253,10 @@
       "contact": {
         "naam": "ZOED (De Hoofdzaak)",
         "email": "zoed@rcodehoofdzaak.org"
-      }
+      },
+      "situaties": [
+        "angst-of-somberheid"
+      ]
     },
     {
       "naam": "Jongeren Ervaringsdeskundigen Zaanstad (JEZ)",

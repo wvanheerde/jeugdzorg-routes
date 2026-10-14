@@ -18,13 +18,15 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
   </select>
 </label>
 <!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent. -->
+<!-- Opengeklapt is het een veld zoals de keuzelijst (eigen kop, zelfde hoogte); de link verdwijnt zodra er een gemeente gekozen is. -->
 <div class="woonplaats-zoek" data-woonplaats-zoek>
-  <button type="button" class="linkknop" data-woonplaats-open>Zoek op woonplaats</button>
-  <div data-woonplaats-veld hidden>
-    <input type="search" list={`${id}-woonplaatsen`} placeholder="Typ uw woonplaats" aria-label="Woonplaats" autocomplete="off" data-woonplaats-invoer />
+  <button type="button" class="linkknop" data-woonplaats-open>Weet u uw gemeente niet? Zoek op woonplaats</button>
+  <label class="field" data-woonplaats-veld hidden>
+    <span>Of typ uw woonplaats</span>
+    <input type="search" class="gemeente-keuze" list={`${id}-woonplaatsen`} placeholder="Bijvoorbeeld Roden" autocomplete="off" data-woonplaats-invoer />
     <datalist id={`${id}-woonplaatsen`}></datalist>
-    <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
-  </div>
+  </label>
+  <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
 </div>
 </div>
 <script>
@@ -54,8 +56,14 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     const gemNaam = (slug: string) => Array.from(sel.options).find((o) => o.value === slug)?.text ?? slug;
     const label = (plaats: string, slug: string) => `${plaats} (gemeente ${gemNaam(slug)})`;
     let opties = new Map<string, string>();
-    blok.querySelector('[data-woonplaats-open]')!.addEventListener('click', async (e) => {
-      (e.currentTarget as HTMLElement).hidden = true;
+    const open = blok.querySelector<HTMLElement>('[data-woonplaats-open]')!;
+    // Is er al een gemeente gekozen, dan is zoeken op woonplaats niet nodig (persona-tests: de link werd aangezien voor de bevestigknop).
+    // Onzichtbaar maar met behoud van ruimte, anders verspringen de knoppen eronder op de telefoon (persona-tests ronde 19).
+    const toonLink = () => { open.hidden = !veld.hidden; open.style.visibility = sel.value ? 'hidden' : ''; };
+    sel.addEventListener('change', toonLink);
+    toonLink();
+    open.addEventListener('click', async () => {
+      open.hidden = true;
       veld.hidden = false;
       invoer.focus();
       lijst ??= fetch(`${base}/woonplaatsen.json`).then((r) => r.json());

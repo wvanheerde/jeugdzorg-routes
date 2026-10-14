@@ -204,7 +204,8 @@
         "naam": "Jeugdgezondheidszorg GGD IJsselland",
         "telefoon": "088 443 0702",
         "email": "jeugdgezondheidszorg@ggdijsselland.nl"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Home-Start Deventer (Humanitas)",
@@ -218,7 +219,8 @@
       "contact": {
         "naam": "Home-Start Deventer (Humanitas)",
         "email": "homestart.deventer@humanitas.nl"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Steunpunt Mantelzorg Deventer (Carinova)",
@@ -235,7 +237,12 @@
         "telefoon": "0570 518 185",
         "email": "steunpuntmantelzorg@carinova.nl",
         "adres": "St. Jozefplein 1, 7415 EH Deventer"
-      }
+      },
+      "situaties": [
+        "mantelzorg",
+        "langdurig-ziek",
+        "verstandelijke-beperking"
+      ]
     },
     {
       "naam": "Raster Jongerenwerk",
@@ -268,7 +275,12 @@
       "themas": [
         "onderwijs"
       ],
-      "url": "https://www.ouderenjeugdsteunpuntdeventer.nl/"
+      "url": "https://www.ouderenjeugdsteunpuntdeventer.nl/",
+      "situaties": [
+        "school-loopt-vast",
+        "hoogbegaafdheid",
+        "leerstoornissen"
+      ]
     },
     {
       "naam": "Relatiedesk Deventer",
@@ -283,7 +295,10 @@
         "naam": "Relatiedesk Deventer",
         "telefoon": "14 0570",
         "email": "relatiedesk@deventer.nl"
-      }
+      },
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "De Kern maatschappelijke dienstverlening",
@@ -302,7 +317,8 @@
       "themas": [
         "belangen"
       ],
-      "url": "https://www.deventer.nl/adviesraden/adviesraad-sociaal-domein-deventer-asdd"
+      "url": "https://www.deventer.nl/adviesraden/adviesraad-sociaal-domein-deventer-asdd",
+      "verbergen": true
     }
   ],
   "directRegelen": [

@@ -1,0 +1,23 @@
+{"stap":1,"tijd":"2026-10-14T19:52:38.028Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-14T19:52:38.629Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-14T19:52:38.673Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1628}
+{"stap":4,"tijd":"2026-10-14T19:52:42.038Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-14T19:52:42.075Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 0. Ik zie een keuzelijst voor gemeente en knoppen. Ik kies Eindhoven en dan 'Wij wachten te lang'."],"tekst":"Stap 0. Ik zie een keuzelijst voor gemeente en knoppen. Ik kies Eindhoven en dan 'Wij wachten te lang'."}
+{"stap":6,"tijd":"2026-10-14T19:52:42.111Z","url":"http://127.0.0.1:4329/","cmd":"help","args":[]}
+{"stap":7,"tijd":"2026-10-14T19:52:44.809Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Eindhoven"]}
+{"stap":8,"tijd":"2026-10-14T19:52:47.199Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1565}
+{"stap":9,"tijd":"2026-10-14T19:52:51.670Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["11"]}
+{"stap":10,"tijd":"2026-10-14T19:52:54.104Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1672}
+{"stap":11,"tijd":"2026-10-14T19:52:58.455Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=eindhoven&k=wachten","cmd":"klik","args":["45"]}
+{"stap":12,"tijd":"2026-10-14T19:52:58.498Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=eindhoven&k=wachten","cmd":"kijk","args":[],"lengte":1521}
+{"stap":13,"tijd":"2026-10-14T19:53:01.488Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=eindhoven&k=wachten","cmd":"notitie","args":["Stap 3/20. Overzicht Eindhoven. Staat al: gemeente moet in de regel binnen acht weken beslissen. Ik zit op tien. Wil weten wat ik formeel stuur."],"tekst":"Stap 3/20. Overzicht Eindhoven. Staat al: gemeente moet in de regel binnen acht weken beslissen. Ik zit op tien. Wil weten wat ik formeel stuur."}
+{"stap":14,"tijd":"2026-10-14T19:53:01.986Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=eindhoven&k=wachten","cmd":"scroll","args":[]}
+{"stap":15,"tijd":"2026-10-14T19:53:05.185Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=eindhoven&k=wachten","cmd":"notitie","args":["Stap 4/20. Precies wat ik zocht: ingebrekestelling, na twee weken moet de gemeente beslissen. Open de voorbeeldbrief."],"tekst":"Stap 4/20. Precies wat ik zocht: ingebrekestelling, na twee weken moet de gemeente beslissen. Open de voorbeeldbrief."}
+{"stap":16,"tijd":"2026-10-14T19:53:07.075Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"klik","args":["17"]}
+{"stap":17,"tijd":"2026-10-14T19:53:07.116Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"kijk","args":[],"lengte":1869}
+{"stap":18,"tijd":"2026-10-14T19:53:10.184Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"notitie","args":["Stap 5/20. Brief met Eindhoven-adres al ingevuld. Mijn aanvraag was per mail naar wijkteam, niet de gemeente; tekst zegt dat e-mail mag. Verder lezen."],"tekst":"Stap 5/20. Brief met Eindhoven-adres al ingevuld. Mijn aanvraag was per mail naar wijkteam, niet de gemeente; tekst zegt dat e-mail mag. Verder lezen."}
+{"stap":19,"tijd":"2026-10-14T19:53:10.249Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"foto","args":[]}
+{"stap":20,"tijd":"2026-10-14T19:53:10.751Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"scroll","args":[]}
+{"stap":21,"tijd":"2026-10-14T19:53:11.250Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"scroll","args":[]}
+{"stap":22,"tijd":"2026-10-14T19:53:25.334Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"notitie","args":["Stap 8/20. Ik weet genoeg: brief aan college, aangetekend of per mail, 2 weken, dwangsom, rechtbank. Niet duidelijk: wat als het wijkteam (niet gemeente) het mailadres is; en 8 weken vs verlenging."],"tekst":"Stap 8/20. Ik weet genoeg: brief aan college, aangetekend of per mail, 2 weken, dwangsom, rechtbank. Niet duidelijk: wat als het wijkteam (niet gemeente) het mailadres is; en 8 weken vs verlenging."}
+{"stap":23,"tijd":"2026-10-14T19:53:25.370Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"stop"}

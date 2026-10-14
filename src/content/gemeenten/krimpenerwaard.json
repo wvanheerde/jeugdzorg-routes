@@ -204,7 +204,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjgkrimpenerwaard.nl/"
+      "url": "https://www.cjgkrimpenerwaard.nl/",
+      "verbergen": true
     },
     {
       "naam": "WelZijn Krimpenerwaard (Welzijnspunten)",
@@ -224,7 +225,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.scheidingsplein.nl/krimpenerwaard"
+      "url": "https://www.scheidingsplein.nl/krimpenerwaard",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

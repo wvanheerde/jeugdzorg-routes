@@ -185,7 +185,11 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.gezinswijzerdrechterland.nl/"
+      "url": "https://www.gezinswijzerdrechterland.nl/",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Jongerenwerk Sylta",
@@ -201,10 +205,11 @@
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk advies voor ouders en leerlingen bij vragen over passend onderwijs en bij een moeilijke samenwerking met school.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.passendonderwijswf.nl/ouder-en-jeugdsteunpunt/"
+      "url": "https://www.passendonderwijswf.nl/ouder-en-jeugdsteunpunt/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

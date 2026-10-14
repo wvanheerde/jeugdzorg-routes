@@ -191,7 +191,11 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://preventieplatformjeugd.nl/"
+      "url": "https://preventieplatformjeugd.nl/",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Home-Start Achterhoek",
@@ -201,7 +205,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "http://www.home-start.nl/achterhoek/home"
+      "url": "http://www.home-start.nl/achterhoek/home",
+      "voorIedereen": true
     },
     {
       "naam": "InHuis Steungezinnen",
@@ -211,7 +216,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.yunio.nl/coaching/inhuis-steungezinnen.aspx"
+      "url": "https://www.yunio.nl/coaching/inhuis-steungezinnen.aspx",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

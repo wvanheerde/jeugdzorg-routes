@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
+import Contact from '../components/Contact.astro';
 import GemeenteZoeker from '../components/GemeenteZoeker.astro';
 import { getCollection } from 'astro:content';
 const orgs = (await getCollection('organisaties')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
@@ -38,10 +39,7 @@ const groepen = Object.keys(soortLabel).map((k) => ({ k, ...soortLabel[k], items
             <div class="tags">{o.data.themas.map((t) => <span>{t}</span>)}</div>
             <p>{o.data.omschrijving}</p>
             {o.data.watBiedenZij.length > 0 && <ul>{o.data.watBiedenZij.map((w) => <li>{w}</li>)}</ul>}
-            <p class="meta" style="margin-top:auto;padding-top:.5rem">
-              <a href={o.data.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>
-              {o.data.telefoon && <> · <a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></>}
-            </p>
+            <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
           </div>
         ))}
       </div>

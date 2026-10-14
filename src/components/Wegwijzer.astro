@@ -65,6 +65,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     if (r.top > window.innerHeight * 0.6) sitRij.scrollIntoView({ block: 'start', behavior: 'smooth' });
   })));
   for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd']) document.addEventListener(ev, () => setTimeout(update));
+  // Een vraag of situatie gekozen zonder gemeente: meteen naar de gemeentekeuze (persona-tests: de knop leek niets te doen).
+  // Na update() (die loopt via setTimeout na het event), en zonder de keuzelijst zelf open te klappen. Eén keer per bezoek,
+  // zodat wie eerst meerdere keuzes maakt niet steeds terugspringt.
+  let gemeenteGewezen = false;
+  document.querySelectorAll<HTMLButtonElement>('.wegwijzer [data-knelpunt], .wegwijzer [data-situatie]').forEach((b) => b.addEventListener('click', () => setTimeout(() => {
+    if (gemeenteGewezen || !mistGemeente || b.getAttribute('aria-pressed') !== 'true' || !sel) return;
+    gemeenteGewezen = true;
+    sel.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    sel.focus({ preventScroll: true });
+    sel.classList.add('aandacht');
+    setTimeout(() => sel.classList.remove('aandacht'), 2500);
+  }, 30)));
   if (knop) new IntersectionObserver(([e]) => { knopInBeeld = e.isIntersecting; toon(); }).observe(knop);
   update();
 </script>

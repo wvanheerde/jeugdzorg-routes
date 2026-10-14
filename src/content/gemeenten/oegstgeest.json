@@ -191,7 +191,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjgoegstgeest.nl/"
+      "url": "https://www.cjgoegstgeest.nl/",
+      "verbergen": true
     },
     {
       "naam": "Humanitas Rijnland – Home-Start",
@@ -207,7 +208,8 @@
         "telefoon": "070 358 4284",
         "email": "rijnland@humanitas.nl",
         "adres": "Parmentierweg 49, 2316 ZV Leiden"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Radius Welzijn Oegstgeest – Mantelzorgondersteuning",
@@ -223,7 +225,10 @@
         "telefoon": "071 707 4200",
         "email": "info@radiuswelzijn.nl",
         "adres": "President Kennedylaan 141, 2343 GM Oegstgeest"
-      }
+      },
+      "situaties": [
+        "mantelzorg"
+      ]
     }
   ],
   "directRegelen": [

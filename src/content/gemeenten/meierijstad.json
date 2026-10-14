@@ -182,7 +182,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjgmeierijstad.nl/"
+      "url": "https://www.cjgmeierijstad.nl/",
+      "verbergen": true
     },
     {
       "naam": "Adviespunt Kind en Scheiding en KIES",
@@ -192,7 +193,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.cjgmeierijstad.nl/hulp-advies/kind-en-scheiding"
+      "url": "https://www.cjgmeierijstad.nl/hulp-advies/kind-en-scheiding",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Steunouder Meierijstad",
@@ -203,7 +207,8 @@
         "opvoeden",
         "mantelzorg"
       ],
-      "url": "https://www.cjgmeierijstad.nl/hulp-advies/steunouder"
+      "url": "https://www.cjgmeierijstad.nl/hulp-advies/steunouder",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

@@ -60,6 +60,8 @@ const nav = [
     <link rel="icon" href={`${base}/favicon-32.png`} sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href={`${base}/apple-touch-icon.png`} />
     <link rel="manifest" href={`${base}/site.webmanifest`} />
+    {/* Klasse 'js' al vóór het tekenen: anders staat het menu op de telefoon even open en springt de pagina als het inklapt. */}
+    <script is:inline>document.documentElement.classList.add('js');</script>
     {/* Alleen het pad tellen, zonder ?gemeente=…&s=…: de keuzes van een ouder gaan niet naar de teller. */}
     {site.goatcounter && <script is:inline set:html={`window.goatcounter = { path: function () { return location.pathname; } };`} />}
     {site.goatcounter && <script is:inline data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} async src="https://gc.zgo.at/count.js"></script>}

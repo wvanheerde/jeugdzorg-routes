@@ -177,7 +177,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjgcapelleaandenijssel.nl/ouders/cjg-in-jouw-wijk"
+      "url": "https://www.cjgcapelleaandenijssel.nl/ouders/cjg-in-jouw-wijk",
+      "voorIedereen": true
     },
     {
       "naam": "Spreekuur Relatie en Scheiding (CJG en Welzijn Capelle)",
@@ -187,7 +188,10 @@
         "gezin",
         "scheiding"
       ],
-      "url": "https://www.cjgcapelleaandenijssel.nl/ouders/ouders-uit-elkaar/spreekuur-relatie-en-scheiding"
+      "url": "https://www.cjgcapelleaandenijssel.nl/ouders/ouders-uit-elkaar/spreekuur-relatie-en-scheiding",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Adviesraad Sociaal Domein Capelle",
@@ -200,7 +204,8 @@
       "contact": {
         "naam": "Secretariaat Adviesraad Sociaal Domein",
         "email": "secretariaat@adviesraadcapelle.nl"
-      }
+      },
+      "verbergen": true
     }
   ],
   "directRegelen": [

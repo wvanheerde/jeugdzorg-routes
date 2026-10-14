@@ -184,7 +184,8 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://www.pluspuntzandvoort.nl/"
+      "url": "https://www.pluspuntzandvoort.nl/",
+      "voorIedereen": true
     },
     {
       "naam": "Scheidingsplein Zandvoort",
@@ -194,7 +195,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://scheidingsplein.nl/zandvoort/"
+      "url": "https://scheidingsplein.nl/zandvoort/",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

@@ -239,7 +239,8 @@
         "naam": "GGD Brabant-Zuidoost - Jeugdgezondheidszorg",
         "telefoon": "088 0031 414",
         "openingstijden": "Maandag tot en met vrijdag 8.30-17.00 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Home-Start Helmond (Humanitas)",
@@ -249,7 +250,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.home-start.nl/helmond/home"
+      "url": "https://www.home-start.nl/helmond/home",
+      "voorIedereen": true
     },
     {
       "naam": "Buurtgezinnen Helmond",
@@ -260,7 +262,8 @@
         "opvoeden",
         "mantelzorg"
       ],
-      "url": "https://www.buurtgezinnen.nl/helmond"
+      "url": "https://www.buurtgezinnen.nl/helmond",
+      "voorIedereen": true
     },
     {
       "naam": "Jongerenwerk Helmond (LEVgroep)",
@@ -279,7 +282,12 @@
         "brusjes",
         "beperking"
       ],
-      "url": "https://www.meedemeentgroep.nl/clienten/cursussen-en-groepen/cursus-brussengroep/in-gemeente-helmond"
+      "url": "https://www.meedemeentgroep.nl/clienten/cursussen-en-groepen/cursus-brussengroep/in-gemeente-helmond",
+      "situaties": [
+        "mantelzorg",
+        "langdurig-ziek",
+        "verstandelijke-beperking"
+      ]
     },
     {
       "naam": "Expertisecentrum Mantelzorg en Infopunt Mantelzorg (LEVgroep)",
@@ -289,7 +297,10 @@
         "mantelzorg",
         "jonge mantelzorger"
       ],
-      "url": "https://www.levgroep.nl/lokaal-aanbod/mantelzorg"
+      "url": "https://www.levgroep.nl/lokaal-aanbod/mantelzorg",
+      "situaties": [
+        "mantelzorg"
+      ]
     },
     {
       "naam": "Gehandicapten Overleg Helmond",

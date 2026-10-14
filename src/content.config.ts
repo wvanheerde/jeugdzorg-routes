@@ -134,6 +134,14 @@ const gemeenten = defineCollection({
         themas: z.array(z.string()).default([]),
         url: z.url().optional(),
         contact: contact.optional(),
+        /**
+         * Toon in Mijn overzicht (eenmalig gelabeld, 2026-10): bij welke situaties dit initiatief past (id's uit situaties);
+         * voorIedereen = bruikbaar voor elk gezin (bv. Home-Start, opvoedcafé), als aanvulling als er weinig specifieks is;
+         * verbergen = niet in Mijn overzicht (geen hulp voor ouders, of al elders getoond). Zonder deze velden: koppeling via themas.
+         */
+        situaties: z.array(z.string()).optional(),
+        voorIedereen: z.boolean().optional(),
+        verbergen: z.boolean().optional(),
       }),
     ).default([]),
 

@@ -181,7 +181,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.gemeentemaashorst.nl/inwoners/hulp-en-ondersteuning/jeugdhulp/preventie-team-jeugd/"
+      "url": "https://www.gemeentemaashorst.nl/inwoners/hulp-en-ondersteuning/jeugdhulp/preventie-team-jeugd/",
+      "verbergen": true
     },
     {
       "naam": "Samen Opgroeien: activiteiten en informatie",
@@ -191,17 +192,23 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.gemeentemaashorst.nl/inwoners/hulp-en-ondersteuning/jeugdhulp/"
+      "url": "https://www.gemeentemaashorst.nl/inwoners/hulp-en-ondersteuning/jeugdhulp/",
+      "voorIedereen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunt passend onderwijs (SWV PO 30 06)",
       "soort": "belangenorganisatie",
       "omschrijving": "Onafhankelijke informatie en advies voor ouders en jongeren over passend onderwijs, voor basis- en voortgezet onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://ouderjeugdsteunpunt3006.nl"
+      "url": "https://ouderjeugdsteunpunt3006.nl",
+      "situaties": [
+        "school-loopt-vast",
+        "hoogbegaafdheid",
+        "leerstoornissen"
+      ]
     }
   ],
   "directRegelen": [

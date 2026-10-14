@@ -186,7 +186,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.landsmeer.nl/inwoners/zorg,_inkomen,_onderwijs_en_opvoeding/opvoeding/buurtgezinnen"
+      "url": "https://www.landsmeer.nl/inwoners/zorg,_inkomen,_onderwijs_en_opvoeding/opvoeding/buurtgezinnen",
+      "voorIedereen": true
     },
     {
       "naam": "Opvoedspreekuur bij het Middelpunt",
@@ -196,17 +197,19 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.landsmeer.nl/inwoners/zorg,_inkomen,_onderwijs_en_opvoeding/opvoeding/laagdrempelige_opvoedondersteuning"
+      "url": "https://www.landsmeer.nl/inwoners/zorg,_inkomen,_onderwijs_en_opvoeding/opvoeding/laagdrempelige_opvoedondersteuning",
+      "verbergen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunten passend onderwijs",
       "soort": "belangenorganisatie",
       "omschrijving": "Onafhankelijk advies voor ouders en jongeren bij vragen over passend onderwijs. Er is een steunpunt voor basisonderwijs en een voor voortgezet onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.swvwaterland.nl/ouders/"
+      "url": "https://www.swvwaterland.nl/ouders/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

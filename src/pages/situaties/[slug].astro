@@ -127,7 +127,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
                 <span class="badge">{o.data.soort}</span>
                 <h3 style="margin-top:.6rem">{o.data.naam}</h3>
                 <p>{o.data.omschrijving}</p>
-                <p class="meta"><a href={o.data.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a>{o.data.telefoon && <> · {o.data.telefoon}</>}</p>
+                <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
               </div>
             ))}
           </div>

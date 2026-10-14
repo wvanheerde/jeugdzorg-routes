@@ -185,7 +185,8 @@
         "naam": "Jeugdplatform Amsterdam",
         "email": "info@jeugdplatformamsterdam.nl",
         "adres": "Jacob Bontiusplaats 9, 1018 LL Amsterdam"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Cliëntenbelang Amsterdam",
@@ -202,7 +203,11 @@
         "telefoon": "020 577 7999",
         "email": "steunpunt@clientenbelangamsterdam.nl",
         "openingstijden": "Werkdagen 10.00–14.00 uur"
-      }
+      },
+      "situaties": [
+        "langdurig-ziek",
+        "verstandelijke-beperking"
+      ]
     },
     {
       "naam": "OASA, Ontmoetingsplek Autisme Steunpunt Amsterdam",
@@ -217,7 +222,10 @@
         "naam": "OASA",
         "email": "oasa@autisme-amsterdam.nl",
         "adres": "Keizersgracht 252, Amsterdam"
-      }
+      },
+      "situaties": [
+        "autisme"
+      ]
     },
     {
       "naam": "Markant, centrum voor mantelzorg",
@@ -228,7 +236,12 @@
         "beperking",
         "langdurig ziek"
       ],
-      "url": "https://www.markant.org/"
+      "url": "https://www.markant.org/",
+      "situaties": [
+        "mantelzorg",
+        "langdurig-ziek",
+        "verstandelijke-beperking"
+      ]
     }
   ],
   "directRegelen": [

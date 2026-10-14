@@ -191,7 +191,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.sociaalwerknoordoostpolder.nl/steunouder/"
+      "url": "https://www.sociaalwerknoordoostpolder.nl/steunouder/",
+      "voorIedereen": true
     },
     {
       "naam": "Jongerenwerk Sociaal Werk Noordoostpolder",
@@ -201,17 +202,19 @@
         "opvoeden",
         "school"
       ],
-      "url": "https://www.sociaalwerknoordoostpolder.nl/jongeren-tot-23-jaar/"
+      "url": "https://www.sociaalwerknoordoostpolder.nl/jongeren-tot-23-jaar/",
+      "verbergen": true
     },
     {
       "naam": "Oudersteunpunt passend onderwijs Noordoostpolder-Urk",
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk advies voor ouders over passend onderwijs op de basisschool.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://passendonderwijsnu.nl/oudersteunpunt/"
+      "url": "https://passendonderwijsnu.nl/oudersteunpunt/",
+      "verbergen": true
     },
     {
       "naam": "Integrale Vroeghulp en Stevig Ouderschap (GGD Flevoland)",
@@ -221,7 +224,10 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.ggdflevoland.nl/mijn-kind-0-4-jaar/"
+      "url": "https://www.ggdflevoland.nl/mijn-kind-0-4-jaar/",
+      "situaties": [
+        "verstandelijke-beperking"
+      ]
     }
   ],
   "directRegelen": [

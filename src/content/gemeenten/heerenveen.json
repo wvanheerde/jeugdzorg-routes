@@ -178,7 +178,8 @@
         "onderwijs",
         "school"
       ],
-      "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/"
+      "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/",
+      "verbergen": true
     },
     {
       "naam": "Scheiden in Friesland",
@@ -188,7 +189,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.scheideninfriesland.nl"
+      "url": "https://www.scheideninfriesland.nl",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

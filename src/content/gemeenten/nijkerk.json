@@ -182,7 +182,11 @@
         "gezin",
         "scheiding"
       ],
-      "url": "https://pitnijkerk.nl"
+      "url": "https://pitnijkerk.nl",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Wegwijzer Nijkerk",
@@ -199,10 +203,11 @@
       "soort": "belangenorganisatie",
       "omschrijving": "Onafhankelijk advies bij vragen over passend onderwijs, voor ouders met kinderen op de basisschool en de middelbare school.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.zeeluwe.nl/steunpunt-ouders-en-jeugd/"
+      "url": "https://www.zeeluwe.nl/steunpunt-ouders-en-jeugd/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

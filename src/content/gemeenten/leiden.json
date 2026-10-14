@@ -192,7 +192,8 @@
         "telefoon": "070 358 4284",
         "email": "rijnland@humanitas.nl",
         "adres": "Parmentierweg 49, 2316 ZV Leiden"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Leidse Vereniging van Mantelzorgers (LVvM)",
@@ -206,7 +207,11 @@
       "contact": {
         "naam": "Leidse Vereniging van Mantelzorgers",
         "email": "info@lvvm.nl"
-      }
+      },
+      "situaties": [
+        "mantelzorg",
+        "langdurig-ziek"
+      ]
     }
   ],
   "directRegelen": [

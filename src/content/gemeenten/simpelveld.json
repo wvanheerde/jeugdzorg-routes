@@ -187,7 +187,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://impulssimpelveld.nl/diensten/kids-en-koffie/"
+      "url": "https://impulssimpelveld.nl/diensten/kids-en-koffie/",
+      "voorIedereen": true
     },
     {
       "naam": "Jonge mantelzorger (Impuls)",
@@ -196,7 +197,12 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://impulssimpelveld.nl/diensten/jonge-mantelzorger/"
+      "url": "https://impulssimpelveld.nl/diensten/jonge-mantelzorger/",
+      "situaties": [
+        "mantelzorg",
+        "langdurig-ziek",
+        "verstandelijke-beperking"
+      ]
     },
     {
       "naam": "Opgroeien in Parkstad",
@@ -205,7 +211,8 @@
       "themas": [
         "opvoeden"
       ],
-      "url": "https://opgroeieninparkstad.nl"
+      "url": "https://opgroeieninparkstad.nl",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

@@ -163,7 +163,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.deurne.nl/nieuws/samenopvoeden"
+      "url": "https://www.deurne.nl/nieuws/samenopvoeden",
+      "voorIedereen": true
     },
     {
       "naam": "Echtscheidingsspreekuur",
@@ -173,7 +174,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.zorgindeurne.nl/echtscheidingsspreekuur"
+      "url": "https://www.zorgindeurne.nl/echtscheidingsspreekuur",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

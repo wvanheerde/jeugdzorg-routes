@@ -192,7 +192,8 @@
         "telefoon": "0485 853 333",
         "email": "info-cjg@landvancuijk.nl",
         "openingstijden": "Werkdagen 9.00-17.00 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Mamacafé",
@@ -202,7 +203,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjglandvancuijk.nl/"
+      "url": "https://www.cjglandvancuijk.nl/",
+      "voorIedereen": true
     },
     {
       "naam": "Scheidingsloket Sociom",
@@ -218,7 +220,10 @@
         "telefoon": "0485 700 500",
         "email": "scheidingsloket@sociom.nl",
         "openingstijden": "Telefonisch spreekuur werkdagen 9.00-10.00 uur"
-      }
+      },
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Ouderkamer op school (Sociom)",
@@ -232,7 +237,8 @@
       "contact": {
         "naam": "Sociom",
         "telefoon": "0485 700 500"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Steunouder (Sociom)",
@@ -247,7 +253,8 @@
       "contact": {
         "naam": "Sociom",
         "telefoon": "0485 700 500"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Jongerenwerk en toekomstcoach (Sociom)",

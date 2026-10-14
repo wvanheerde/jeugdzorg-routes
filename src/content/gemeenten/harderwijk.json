@@ -182,17 +182,22 @@
         "gezin",
         "mantelzorg"
       ],
-      "url": "https://zorgdat.nl"
+      "url": "https://zorgdat.nl",
+      "situaties": [
+        "mantelzorg"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunt Zeeluwe",
       "soort": "informatiepunt",
       "omschrijving": "Advies over passend onderwijs voor ouders van kinderen op de basisschool.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.zeeluwe.nl/voor-ouders/"
+      "url": "https://www.zeeluwe.nl/voor-ouders/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

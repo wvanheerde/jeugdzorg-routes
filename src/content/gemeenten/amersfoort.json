@@ -208,7 +208,11 @@
         "telefoon": "033 204 8677",
         "email": "info@indebuurt033.nl",
         "openingstijden": "Informatiewinkels maandag t/m donderdag 9.00–13.00 uur"
-      }
+      },
+      "situaties": [
+        "mantelzorg"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Consultatiebureau en jeugdgezondheidszorg (GGD Regio Utrecht)",
@@ -218,7 +222,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://ggdru.nl/thema/mijnkind"
+      "url": "https://ggdru.nl/thema/mijnkind",
+      "verbergen": true
     }
   ],
   "directRegelen": [

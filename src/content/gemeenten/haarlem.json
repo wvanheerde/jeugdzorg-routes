@@ -236,7 +236,8 @@
         "telefoon": "088 995 9696",
         "email": "info@cjgkennemerland.nl",
         "openingstijden": "Werkdagen 9.00-12.00 en 14.00-17.00 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Buurts Haarlem (wijkteam en buurtinitiatieven)",
@@ -246,7 +247,8 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://buurts.nl/"
+      "url": "https://buurts.nl/",
+      "verbergen": true
     },
     {
       "naam": "Scheidingsplein Haarlem",
@@ -256,7 +258,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.scheidingsplein.nl/haarlem/"
+      "url": "https://www.scheidingsplein.nl/haarlem/",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Home-Start Haarlem (Humanitas)",
@@ -266,7 +271,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.humanitas.nl/afdeling/zuid-kennemerland/activiteiten/home-start-haarlem/"
+      "url": "https://www.humanitas.nl/afdeling/zuid-kennemerland/activiteiten/home-start-haarlem/",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

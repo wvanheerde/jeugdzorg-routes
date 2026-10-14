@@ -181,7 +181,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.incluziolingewaard.nl/opgroeien-en-opvoeden/"
+      "url": "https://www.incluziolingewaard.nl/opgroeien-en-opvoeden/",
+      "voorIedereen": true
     },
     {
       "naam": "Mama's Café Lingewaard en oudergroep autisme",
@@ -191,17 +192,22 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.incluziolingewaard.nl/opgroeien-en-opvoeden/"
+      "url": "https://www.incluziolingewaard.nl/opgroeien-en-opvoeden/",
+      "situaties": [
+        "autisme"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunt Midden-Gelderland",
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk advies over passend onderwijs voor ouders en leerlingen. Werkt samen met (Sch)ouders, waar ouders elkaar steunen met hun eigen ervaring.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.steunpuntmiddengelderland.nl/"
+      "url": "https://www.steunpuntmiddengelderland.nl/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

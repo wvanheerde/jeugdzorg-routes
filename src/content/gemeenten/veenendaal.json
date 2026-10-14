@@ -201,7 +201,11 @@
         "gezin",
         "scheiding"
       ],
-      "url": "https://cjgveenendaal.nl/activiteiten/"
+      "url": "https://cjgveenendaal.nl/activiteiten/",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Consultatiebureau Veenendaal (GGDrU)",
@@ -211,7 +215,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://ggdru.nl/locaties/consultatiebureau-veenendaal/"
+      "url": "https://ggdru.nl/locaties/consultatiebureau-veenendaal/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

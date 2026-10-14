@@ -188,7 +188,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.viverasociaalwijkteam.nl/ken-je-buurtgezinnen-al"
+      "url": "https://www.viverasociaalwijkteam.nl/ken-je-buurtgezinnen-al",
+      "voorIedereen": true
     },
     {
       "naam": "Adviespunt Scheiden, Kind en Ouderschap (SKO)",
@@ -198,17 +199,21 @@
         "scheiding",
         "opvoeden"
       ],
-      "url": "https://zwijndrecht.nl/Alle_onderwerpen/Zorg_jeugd_en_welzijjn/Adviespunt_Scheiden_Kind_en_Ouderschap_SKO"
+      "url": "https://zwijndrecht.nl/Alle_onderwerpen/Zorg_jeugd_en_welzijjn/Adviespunt_Scheiden_Kind_en_Ouderschap_SKO",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Ouder- en jeugdsteunpunt samenwerkingsverband Drechtsteden",
       "soort": "belangenorganisatie",
       "omschrijving": "Informatie en steun voor ouders en leerlingen bij vragen over passend onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.swvdrechtsteden.nl/ouder-en-jeugdsteunpunt"
+      "url": "https://www.swvdrechtsteden.nl/ouder-en-jeugdsteunpunt",
+      "verbergen": true
     }
   ],
   "directRegelen": [

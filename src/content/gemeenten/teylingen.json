@@ -202,7 +202,8 @@
         "naam": "CJG Teylingen",
         "telefoon": "088 254 2384",
         "openingstijden": "Werkdagen 8.00–16.00 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Steunouder (Hillegom, Lisse, Teylingen)",
@@ -217,7 +218,8 @@
       "contact": {
         "naam": "Coördinatoren Steunouder HLT",
         "email": "hlt@steunouder.nl"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Home-Start Duin- en Bollenstreek (Humanitas)",
@@ -227,7 +229,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.home-start.nl/duin-en-bollenstreek/home"
+      "url": "https://www.home-start.nl/duin-en-bollenstreek/home",
+      "voorIedereen": true
     },
     {
       "naam": "Jongerenwerk Welzijnskwartier",
@@ -250,7 +253,10 @@
       "contact": {
         "naam": "Mantelzorgadviseur Welzijn Teylingen (Jolanda Smit)",
         "telefoon": "0252 231 805"
-      }
+      },
+      "situaties": [
+        "mantelzorg"
+      ]
     },
     {
       "naam": "Adviesraad Sociaal Domein Teylingen",
@@ -263,7 +269,8 @@
       "contact": {
         "naam": "Adviesraad Sociaal Domein Teylingen",
         "email": "adviesraadsociaaldomeinteylingen@ziggo.nl"
-      }
+      },
+      "verbergen": true
     }
   ],
   "directRegelen": [

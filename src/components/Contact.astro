@@ -1,12 +1,28 @@
 ---
-interface Props { contact: { naam: string; omschrijving?: string; telefoon?: string; email?: string; url?: string; adres?: string; openingstijden?: string } }
-const { contact: c } = Astro.props;
+/**
+ * Contactgegevens met iconen in plaats van de woorden "Telefoon", "E-mail" en "Website" (die staan wel verborgen voor schermlezers).
+ * zonder: onderdelen weglaten, bv. ['naam'] als de naam al in de kop staat, ['telefoon'] als er al een belknop is,
+ * of ['adres'] in een korte kaart.
+ */
+import Icon from './Icon.astro';
+interface Props {
+  contact: { naam: string; omschrijving?: string; telefoon?: string; email?: string; url?: string; adres?: string; openingstijden?: string };
+  zonder?: ('naam' | 'telefoon' | 'adres')[];
+  class?: string;
+}
+const { contact: c, zonder = [], class: cls } = Astro.props;
+const metNaam = !zonder.includes('naam');
+const metTel = !!c.telefoon && !zonder.includes('telefoon');
 ---
-<p class="contact">
-  <strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}<br />
-  {c.telefoon && <>Telefoon: <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a> · </>}
-  {c.email && <>E-mail: <a href={`mailto:${c.email}`}>{c.email}</a> · </>}
-  {c.url && <a href={c.url} target="_blank" rel="noopener">Website</a>}
-  {c.adres && <><br />{c.adres}</>}
-  {c.openingstijden && <><br />{c.openingstijden}</>}
+<p class:list={['contact', cls]}>
+  {metNaam && <><strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}</>}
+  {(metTel || c.email || c.url) && (
+    <span class="ci-rij">
+      {metTel && <span class="ci"><Icon name="phone" /><span class="sr-only">Telefoon: </span><a href={`tel:${c.telefoon!.replace(/\s/g, '')}`}>{c.telefoon}</a></span>}
+      {c.email && <span class="ci"><Icon name="mail" /><span class="sr-only">E-mail: </span><a href={`mailto:${c.email}`}>{c.email}</a></span>}
+      {c.url && <span class="ci"><Icon name="globe" /><a href={c.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}
+    </span>
+  )}
+  {c.adres && !zonder.includes('adres') && <span class="ci blok"><Icon name="pin" /><span class="sr-only">Adres: </span><span>{c.adres}</span></span>}
+  {c.openingstijden && <span class="ci blok"><Icon name="clock" /><span class="sr-only">Bereikbaar: </span><span>{c.openingstijden}</span></span>}
 </p>

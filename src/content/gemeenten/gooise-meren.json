@@ -196,10 +196,11 @@
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk advies en een luisterend oor voor ouders en leerlingen met vragen over passend onderwijs, voor basisonderwijs en voortgezet onderwijs. U kunt anoniem bellen.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://steunpuntgv.nl/"
+      "url": "https://steunpuntgv.nl/",
+      "verbergen": true
     },
     {
       "naam": "Sociale vaardigheidstrainingen (Versa Welzijn)",
@@ -219,7 +220,12 @@
         "beperking",
         "gezin"
       ],
-      "url": "https://zorgoppas.nl/ouder"
+      "url": "https://zorgoppas.nl/ouder",
+      "situaties": [
+        "langdurig-ziek",
+        "verstandelijke-beperking",
+        "mantelzorg"
+      ]
     }
   ],
   "directRegelen": [

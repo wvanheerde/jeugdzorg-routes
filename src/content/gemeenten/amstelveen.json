@@ -195,7 +195,8 @@
         "gezin",
         "jongeren"
       ],
-      "url": "https://www.amstelveen.nl/sites/default/files/2025-06/jeugdaanbod-amstelveen-2025.pdf"
+      "url": "https://www.amstelveen.nl/sites/default/files/2025-06/jeugdaanbod-amstelveen-2025.pdf",
+      "voorIedereen": true
     },
     {
       "naam": "Opvoedspreekuur JGZ (GGD Amsterdam/Amstelland)",
@@ -210,7 +211,8 @@
         "naam": "GGD Amsterdam/Amstelland, Jeugdgezondheidszorg",
         "telefoon": "020 555 5964",
         "email": "jgzopvoedspreekuur@ggd.amsterdam.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Home-Start Amstelveen en Aalsmeer (Humanitas)",
@@ -220,7 +222,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.home-start.nl/amstelveen-en-aalsmeer/home"
+      "url": "https://www.home-start.nl/amstelveen-en-aalsmeer/home",
+      "voorIedereen": true
     },
     {
       "naam": "Buurtgezinnen Amstelveen",
@@ -230,7 +233,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.buurtgezinnen.nl/waar/noord-holland/amstelveen"
+      "url": "https://www.buurtgezinnen.nl/waar/noord-holland/amstelveen",
+      "voorIedereen": true
     },
     {
       "naam": "Jongerenwerk Amstelveen",
@@ -257,7 +261,10 @@
       "contact": {
         "naam": "Mantelzorg & Meer",
         "telefoon": "020 512 7250"
-      }
+      },
+      "situaties": [
+        "mantelzorg"
+      ]
     }
   ],
   "directRegelen": [

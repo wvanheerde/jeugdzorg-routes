@@ -182,7 +182,8 @@
         "email": "info@ons-welzijn.nl",
         "adres": "Schadewijkstraat 6, 5348 BC Oss",
         "openingstijden": "Telefonisch maandag tot en met vrijdag 8.30 tot 17.00 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Alsjeuitelkaargaat Oss (scheidingsteam)",
@@ -198,7 +199,10 @@
         "naam": "Alsjeuitelkaargaat Oss",
         "telefoon": "088 374 2526",
         "email": "alsjeuitelkaargaat@ons-welzijn.nl"
-      }
+      },
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Ouder Café en Ouders Inc. (CJG)",
@@ -208,7 +212,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.cjgbernheze-oss.nl/"
+      "url": "https://www.cjgbernheze-oss.nl/",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

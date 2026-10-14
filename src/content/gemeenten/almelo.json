@@ -199,7 +199,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://loes.nl/"
+      "url": "https://loes.nl/",
+      "voorIedereen": true
     },
     {
       "naam": "Sociale Kaart Almelo",
@@ -219,7 +220,8 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://almelo.jaarverslag-2025.nl/p26331/kansengelijkheid-jeugd"
+      "url": "https://almelo.jaarverslag-2025.nl/p26331/kansengelijkheid-jeugd",
+      "voorIedereen": true
     },
     {
       "naam": "TEJO Huis Almelo",
@@ -248,7 +250,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://goeduitelkaartwente.nl/almelo/ouders"
+      "url": "https://goeduitelkaartwente.nl/almelo/ouders",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

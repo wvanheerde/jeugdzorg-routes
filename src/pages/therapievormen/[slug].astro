@@ -43,6 +43,7 @@ const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard
         <p><strong>Vergoeding:</strong> {d.vergoeding}</p></section>
       <section class="section regelen" id="aanvragen"><h2><span class="section-num">5</span>Zo vraagt u het aan</h2>
         <p>{d.aanvragen}</p>
+        {/\bverwijzer\b/i.test(d.aanvragen) && <p class="meta"><strong>Wie is de verwijzer?</strong> De huisarts, de jeugdarts of een medisch specialist. Ook het wijkteam van uw gemeente kan u verder helpen.</p>}
         <p class="meta">Beschrijf in uw hulpvraag wat u ziet, wat u wilt bereiken en waarom deze vorm daarbij past. Zo kunnen u en het team samen de afweging maken; het team kent het lokale aanbod en kan een andere vorm voorstellen als die beter past. {brieven.length > 0 && <a href={`${base}/brieven/aanvraag-jeugdhulp/`}>Voorbeeldbrief hulpvraag →</a>}</p>
       </section>
       <Sources bronnen={d.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />

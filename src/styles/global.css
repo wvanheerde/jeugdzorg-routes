@@ -67,7 +67,8 @@ li { margin-bottom: .3rem; }
 .nav a[aria-current="page"] { background: var(--c-primary); color: #fff; }
 
 /* ---------- Hero ---------- */
-.hero { position: relative; overflow: hidden; background: linear-gradient(135deg, #0f6b6e 0%, #157f7f 55%, #1f8f86 100%); color: #fff; border-radius: calc(var(--radius) + 6px); padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 5vw, 4rem); margin-bottom: 3rem; box-shadow: var(--shadow-md); }
+.hero { position: relative; overflow: hidden; overflow: clip; background: linear-gradient(135deg, #0f6b6e 0%, #157f7f 55%, #1f8f86 100%); color: #fff; border-radius: calc(var(--radius) + 6px); padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 5vw, 4rem); margin-bottom: 3rem; box-shadow: var(--shadow-md); }
+/* overflow: clip (niet hidden): hidden maakt de hero een scrollcontainer, en dan schoof scrollIntoView de inhoud binnen de groene box omhoog. */
 .hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
 .hero::before { width: 32rem; height: 32rem; right: -10rem; top: -14rem; background: rgba(255,255,255,.07); }
 .hero::after { width: 18rem; height: 18rem; right: 8rem; bottom: -10rem; background: rgba(217,98,43,.25); }
@@ -347,7 +348,8 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .kaart-boven { margin: 0 0 1.5rem; }
 .kaart-boven h2.h3-maat { font-size: 1.15rem; margin: 0 0 .6rem; }
 .kaart-boven p.meta { margin: .2rem 0 0; }
-.eerste-contact .bel { display: inline-block; font-size: 1.1rem; margin-bottom: .5rem; }
+.kaart-boven p.wijkteam-uitleg { margin: -.3rem 0 .6rem; } /* zelfde ruimte boven de belknop als in Mijn overzicht */
+.eerste-contact .bel { display: inline-flex; gap: .55rem; font-size: 1.1rem; margin: .6rem 0 .5rem; }
 .cta-balk { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; justify-content: space-between; padding: .7rem 1rem calc(.7rem + env(safe-area-inset-bottom)); background: var(--c-surface); border-top: 1px solid var(--c-border); box-shadow: 0 -4px 16px rgba(0,0,0,.08); }
 .cta-balk[hidden] { display: none; }
 .cta-balk .cta-tekst { font-size: .9rem; color: var(--c-muted); }
@@ -380,8 +382,7 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 [data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
 [data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
 .contact[hidden] { display: none; }
-/* Mijn overzicht: de ingeklapte keuzebalk blijft onder de kop staan bij scrollen */
-.keuzes:not([open]) { position: sticky; top: calc(var(--kop-hoogte, 0px) + .75rem); z-index: 40; box-shadow: var(--shadow-md); }
+/* Mijn overzicht: de keuzes staan gewoon bovenaan (niet zwevend). Aanpassen kan ook via de zijnavigatie (desktop) of de knop rechtsonder (telefoon). */
 .keuzes { scroll-margin-top: calc(var(--kop-hoogte, 0px) + .5rem); }
 .keuzes:not([open]) { padding-top: .6rem; padding-bottom: .6rem; }
 .keuzes:not([open]) > summary { flex-wrap: nowrap; align-items: center; }
@@ -394,7 +395,8 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .sources .inklapper > summary { font-weight: 500; font-size: .9rem; }
 
 /* Contactkaart bovenaan per vraag: bezwaar bij afwijzing, klacht bij vastgelopen gesprekken, wachttijd bij wachten */
-.eerste-contact .ec-bezwaar, .eerste-contact .ec-klacht, .eerste-contact .ec-wachten { display: none; }
+/* "Hoe lang duurt het?" staat altijd (ingeklapt) in de kaart: ook wie hulp aanvraagt wil dat weten (persona-tests, Rob). */
+.eerste-contact .ec-bezwaar, .eerste-contact .ec-klacht { display: none; }
 [data-modus="bezwaar"] .eerste-contact .ec-standaard, [data-modus="klacht"] .eerste-contact .ec-standaard { display: none; }
 [data-modus="bezwaar"] .eerste-contact .ec-bezwaar, [data-modus="klacht"] .eerste-contact .ec-klacht, [data-modus="wachten"] .eerste-contact .ec-wachten { display: block; }
 [data-modus="bezwaar"] [data-onderdeel="bezwaar"], [data-modus="bezwaar"] [data-onderdeel="postadres"], [data-modus="klacht"] [data-onderdeel="klacht"] { display: none !important; }
@@ -404,29 +406,33 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 /* Mijn overzicht: vaste regel bij wachten en contact van genoemde organisaties */
 #nu-doen .wacht-erger { background: var(--c-warn-bg); border-left: 3px solid var(--c-warn-border); padding: .5rem .75rem; border-radius: 6px; margin: 0 0 .75rem; }
 #nu-doen .genoemd { margin-top: .25rem; }
-.eerste-contact details.ec-wachten summary { cursor: pointer; font-weight: 600; }
+.eerste-contact details.ec-wachten summary, .wijkteam-regel details.ec-wachten summary { cursor: pointer; font-weight: 600; }
+.wijkteam-regel > p { margin: 0; }
 
 /* Kaarten met een link onderaan: de link staat bij alle kaarten in een rij op dezelfde hoogte */
 .card .org-voet { margin-top: auto; padding-top: .5rem; margin-bottom: 0; }
 .card > .badge { align-self: flex-start; }
 
-/* Zoeken op woonplaats onder de gemeentekeuze */
-/* Gemeentekeuze en "Zoek op woonplaats" in één rij: op desktop naast elkaar, op de telefoon direct onder elkaar */
-.gemeente-rij { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .35rem 1.25rem; }
+/* Gemeentekeuze en zoeken op woonplaats in één rij: op desktop naast elkaar (onderaan uitgelijnd), op de telefoon onder elkaar */
+.gemeente-rij { display: flex; flex-wrap: wrap; align-items: flex-start; gap: .35rem 1.25rem; }
 .gemeente-rij > .field { flex: 1 1 18rem; max-width: 28rem; }
-.woonplaats-zoek { margin: 0; padding-bottom: .7rem; }
-.woonplaats-zoek [data-woonplaats-veld] { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .75rem; }
-.woonplaats-zoek [data-woonplaats-veld][hidden] { display: none; }
-.woonplaats-zoek input { width: 16rem; max-width: 100%; }
+.woonplaats-zoek { margin: 0; flex: 1 1 14rem; max-width: 24rem; display: grid; gap: .3rem; }
+/* De link staat op de hoogte van de keuzelijst (onder diens kop), het opengeklapte veld heeft een eigen kop. */
+.woonplaats-zoek > .linkknop { justify-self: start; margin-top: 2.35rem; }
+.woonplaats-zoek .field[hidden], .woonplaats-zoek .linkknop[hidden] { display: none; }
+.woonplaats-zoek .gemeente-keuze { max-width: none; }
+/* Keuzelijst en zoekveld naast elkaar precies even hoog (anders verschilden ze door regelhoogte en het pijltje van de lijst). */
+.gemeente-rij .gemeente-keuze { height: 2.8rem; line-height: normal; }
+/* Geen pijltje van de woordenlijst: het is een zoekveld, geen keuzelijst. */
+.woonplaats-zoek input::-webkit-calendar-picker-indicator { display: none !important; }
 @media (max-width: 640px) {
   .gemeente-rij { flex-direction: column; align-items: stretch; }
-  .gemeente-rij > .field { flex: none; max-width: none; }
-  .woonplaats-zoek { padding-bottom: 0; }
-  .woonplaats-zoek input { width: 100%; }
+  .gemeente-rij > .field, .woonplaats-zoek { flex: none; max-width: none; }
+  .woonplaats-zoek > .linkknop { margin-top: 0; }
 }
-.woonplaats-zoek .linkknop { background: none; border: 0; padding: 0; font: inherit; font-size: .9rem; color: inherit; text-decoration: underline; cursor: pointer; }
-.woonplaats-zoek input { padding: .6rem .8rem; border: 1px solid var(--c-border); border-radius: 10px; font: inherit; color: var(--c-text); background: #fff; }
+.woonplaats-zoek .linkknop { background: none; border: 0; padding-left: 0; padding-right: 0; padding-top: 0; font: inherit; font-size: .9rem; color: inherit; text-decoration: underline; cursor: pointer; text-align: left; }
 .woonplaats-zoek .meta { margin: 0; color: inherit; }
+.woonplaats-zoek .meta:empty { display: none; }
 #nu-doen .stap-brief { white-space: nowrap; font-weight: 600; }
 #nu-doen .wijkteam-regel { margin: .25rem 0 1rem; padding: .6rem .8rem; background: var(--c-primary-soft); border-radius: 8px; }
 
@@ -475,5 +481,42 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
 /* Mijn overzicht: therapiekaarten zitten in een filter-div; laat de kaart die vullen, zodat kaarten in een rij even hoog zijn. */
 .grid > [data-tip-situaties] { display: flex; }
 .grid > [data-tip-situaties] > .card { flex: 1; }
-/* Therapiekaarten: alle rijen even hoog (de hoogste kaart bepaalt), voor een rustig overzicht. */
-.grid.gelijk { grid-auto-rows: 1fr; }
+/* Therapiekaarten: alle rijen even hoog (de hoogste kaart bepaalt), voor een rustig overzicht.
+   Alleen bij twee of meer kolommen; op de telefoon staan ze onder elkaar en gaf het alleen lege ruimte. */
+@media (min-width: 40rem) { .grid.gelijk { grid-auto-rows: 1fr; } }
+/* Gemeentekeuze even laten oplichten als iemand eerst een vraag kiest zonder gemeente */
+.gemeente-keuze.aandacht { outline: 3px solid var(--c-accent, #c2541d); outline-offset: 2px; }
+/* Voorpagina: "Keuzes wissen" naast "Toon mijn overzicht", als bescheiden tekstlink */
+.keuzes-wissen { background: none; border: 0; padding: 0 .25rem; font: inherit; font-size: .95rem; color: inherit; text-decoration: underline; cursor: pointer; align-self: center; }
+.keuzes-wissen[hidden] { display: none; }
+/* Mijn overzicht: voettekst verborgen tot de inhoud getekend is (zie overzicht.astro), anders knippert hij bij het laden in beeld */
+.jr-laden .site-footer { visibility: hidden; }
+/* Mijn overzicht: keuzes bovenaan in de zijnavigatie (desktop) */
+.side .side-keuzes { padding-bottom: .8rem; margin-bottom: .8rem; border-bottom: 1px solid var(--c-border); }
+.side .side-keuzes p { margin: 0 0 .35rem; font-size: .9rem; color: var(--c-text); }
+.side .side-keuzes .side-aanpassen { display: inline; padding: 0; font-size: .9rem; font-weight: 600; color: var(--c-primary); text-decoration: underline; }
+.side .side-keuzes .side-aanpassen:hover { background: none; }
+/* Mijn overzicht op de telefoon: knop "Keuzes aanpassen" rechtsonder zodra de keuzes uit beeld zijn */
+.keuzes-knop { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom)); z-index: 50; display: inline-flex; align-items: center; gap: .4rem; font: inherit; font-weight: 600; font-size: .95rem; color: #fff; background: var(--c-primary); border: 0; border-radius: 999px; padding: .7rem 1.1rem; box-shadow: var(--shadow-md); cursor: pointer; }
+.keuzes-knop[hidden] { display: none; }
+@media (min-width: 960px) { .keuzes-knop { display: none; } }
+/* Mijn overzicht op desktop: de dichte keuzebalk bovenaan weg; de keuzes staan in de zijnavigatie. "Keuzes aanpassen" opent het blok weer. */
+@media (min-width: 960px) { .keuzes:not([open]) { display: none; } }
+/* "Hoe lang duurt het?" (uitklapper) en "Hoe gaat het?" (link) naast elkaar, in dezelfde opmaak. Open: uitleg eronder, link schuift mee. */
+.ec-wacht-rij { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1.25rem; margin-top: .4rem; }
+.ec-wacht-rij details.ec-wachten { margin: 0; }
+.ec-wacht-rij details.ec-wachten[open] { flex-basis: 100%; }
+.ec-wacht-rij details.ec-wachten p { margin: .3rem 0 0; }
+.ec-wacht-rij summary, .ec-wacht-rij .ec-hoe { font-size: .9rem; font-weight: 600; color: var(--c-primary-dark); text-decoration: none; }
+.ec-wacht-rij .ec-hoe:hover, .ec-wacht-rij summary:hover { text-decoration: underline; }
+/* Contactgegevens met iconen (Contact.astro): telefoon, e-mail en website op één rij, adres en tijden eronder */
+.contact .ci-rij { display: flex; flex-wrap: wrap; gap: .1rem 1.1rem; }
+.contact .ci { display: inline-flex; align-items: baseline; gap: .4rem; min-width: 0; }
+.contact .ci.blok { display: flex; }
+.contact .ci > svg { width: 1em; height: 1em; flex: none; align-self: flex-start; margin-top: .33em; color: var(--c-primary); } /* bij de eerste regel, ook als de tekst doorloopt */
+.contact .ci a[href^="mailto:"] { white-space: normal; overflow-wrap: anywhere; }
+/* Zonder kader, bv. in de wijkteamkaart onder de belknop en onder organisatiekaarten */
+.contact.kaal { background: none; border: 0; padding: 0; margin: .4rem 0 0; }
+.contact > strong + .ci-rij, .contact > .ci-rij:first-child { margin-top: .1rem; }
+.card .contact.org-voet { margin-top: auto; padding-top: .5rem; }
+.btn.bel svg { width: 1.05em; height: 1.05em; flex: none; }

@@ -189,7 +189,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.zundert.nl/vraagwijzer-zundert/opvoeden-en-gezin"
+      "url": "https://www.zundert.nl/vraagwijzer-zundert/opvoeden-en-gezin",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Steunouder",
@@ -199,7 +202,8 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://www.zundert.nl/vraagwijzer-zundert/opvoeden-en-gezin"
+      "url": "https://www.zundert.nl/vraagwijzer-zundert/opvoeden-en-gezin",
+      "voorIedereen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunt RSV Breda",
@@ -207,9 +211,10 @@
       "omschrijving": "Advies aan ouders en leerlingen bij vragen over extra hulp op school en passend onderwijs, voor basisonderwijs en voortgezet onderwijs.",
       "themas": [
         "school",
-        "passendonderwijs"
+        "passend onderwijs"
       ],
-      "url": "https://www.ouderjeugdsteunpuntrsvbreda.nl/"
+      "url": "https://www.ouderjeugdsteunpuntrsvbreda.nl/",
+      "verbergen": true
     },
     {
       "naam": "Adviesraad Sociaal Domein Zundert",
@@ -218,7 +223,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://asd-zundert.nl/"
+      "url": "https://asd-zundert.nl/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

@@ -158,7 +158,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://www.hattem.nl/Inwoners/Jeugd_en_gezin/Krachtig_Hattem"
+      "url": "https://www.hattem.nl/Inwoners/Jeugd_en_gezin/Krachtig_Hattem",
+      "voorIedereen": true
     },
     {
       "naam": "Steunouders",
@@ -167,7 +168,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "http://www.steunouder.nl/hattem"
+      "url": "http://www.steunouder.nl/hattem",
+      "voorIedereen": true
     },
     {
       "naam": "Team ED: maatje voor jongeren",
@@ -177,17 +179,21 @@
         "veiligheid",
         "gezin"
       ],
-      "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Ondersteuning_jongeren"
+      "url": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin/Groei_en_ontwikkeling/Ondersteuning_jongeren",
+      "situaties": [
+        "onveilig-thuis"
+      ]
     },
     {
       "naam": "Ouder- en jeugdsteunpunt (samenwerkingsverband Hanzeland)",
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk en gratis advies aan ouders en jongeren over passend onderwijs en wat u kunt doen als u het niet eens bent met een beslissing van school.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://swv-hanzeland.nl/ouder-en-jeugdsteunpunt/"
+      "url": "https://swv-hanzeland.nl/ouder-en-jeugdsteunpunt/",
+      "verbergen": true
     }
   ],
   "directRegelen": [

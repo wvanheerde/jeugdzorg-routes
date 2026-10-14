@@ -188,10 +188,11 @@
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk advies en antwoorden op vragen over passend onderwijs, voor ouders en leerlingen in basis- en voortgezet onderwijs.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://www.ouderjeugdsteunpuntdemeierij.nl/"
+      "url": "https://www.ouderjeugdsteunpuntdemeierij.nl/",
+      "verbergen": true
     },
     {
       "naam": "Regionaal Trainingscentrum",
@@ -201,7 +202,10 @@
         "scheiding",
         "opvoeden"
       ],
-      "url": "https://www.regionaaltrainingscentrum.nl"
+      "url": "https://www.regionaaltrainingscentrum.nl",
+      "situaties": [
+        "scheiding"
+      ]
     },
     {
       "naam": "Farent: hulp bij conflictscheiding",
@@ -211,7 +215,10 @@
         "scheiding",
         "conflict"
       ],
-      "url": "https://www.farent.nl/diensten/hulpverlening-bij-conflictscheiding/"
+      "url": "https://www.farent.nl/diensten/hulpverlening-bij-conflictscheiding/",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

@@ -1,0 +1,24 @@
+{"stap":1,"tijd":"2026-10-14T17:43:19.924Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-14T17:43:20.454Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-14T17:43:20.506Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1603}
+{"stap":4,"tijd":"2026-10-14T17:43:23.347Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-14T17:43:23.380Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 0/25. Ik zie keuzelijst gemeente en knoppen. 'Hulp is afgewezen of te weinig' is precies mijn ding."],"tekst":"stap 0/25. Ik zie keuzelijst gemeente en knoppen. 'Hulp is afgewezen of te weinig' is precies mijn ding."}
+{"stap":6,"tijd":"2026-10-14T17:43:25.232Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["14"]}
+{"stap":7,"tijd":"2026-10-14T17:43:27.628Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1698}
+{"stap":8,"tijd":"2026-10-14T17:44:36.544Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","'s-Gravenhage"],"fout":"Fout: locator.selectOption: Timeout 30000ms exceeded."}
+{"stap":9,"tijd":"2026-10-14T17:44:36.587Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1698}
+{"stap":10,"tijd":"2026-10-14T17:44:39.594Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Den Haag"]}
+{"stap":11,"tijd":"2026-10-14T17:44:39.635Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1678}
+{"stap":12,"tijd":"2026-10-14T17:44:42.463Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 3/25. Den Haag gekozen, 'afgewezen' stond al aan. Klik Toon mijn overzicht."],"tekst":"stap 3/25. Den Haag gekozen, 'afgewezen' stond al aan. Klik Toon mijn overzicht."}
+{"stap":13,"tijd":"2026-10-14T17:44:44.306Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"klik","args":["47"]}
+{"stap":14,"tijd":"2026-10-14T17:44:44.362Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"kijk","args":[],"lengte":1391}
+{"stap":15,"tijd":"2026-10-14T17:44:48.332Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"foto","args":[]}
+{"stap":16,"tijd":"2026-10-14T17:44:48.370Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"notitie","args":["stap 4/25. Bezwaar binnen 6 weken na verzenddatum, brief 2 wk oud: dus nog ong. 4 weken. Telefoon 070 752 5992. Goed! Nog: klagen vs bezwaar, wie helpt."],"tekst":"stap 4/25. Bezwaar binnen 6 weken na verzenddatum, brief 2 wk oud: dus nog ong. 4 weken. Telefoon 070 752 5992. Goed! Nog: klagen vs bezwaar, wie helpt."}
+{"stap":17,"tijd":"2026-10-14T17:44:48.877Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"scroll","args":["omlaag"]}
+{"stap":18,"tijd":"2026-10-14T17:44:49.427Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"scroll","args":["omlaag"]}
+{"stap":19,"tijd":"2026-10-14T17:44:53.060Z","url":"http://127.0.0.1:4329/overzicht/?s=&k=afgewezen&gemeente=den-haag","cmd":"notitie","args":["stap 6/25. Klacht vs bezwaar uitgelegd, helder. Juridisch Loket 0800 8020, Jeugdstem, MEE. Ik wil nog de voorbeeldbrief."],"tekst":"stap 6/25. Klacht vs bezwaar uitgelegd, helder. Juridisch Loket 0800 8020, Jeugdstem, MEE. Ik wil nog de voorbeeldbrief."}
+{"stap":20,"tijd":"2026-10-14T17:44:54.930Z","url":"http://127.0.0.1:4329/brieven/bezwaar-beschikking/","cmd":"klik","args":["23"]}
+{"stap":21,"tijd":"2026-10-14T17:44:54.975Z","url":"http://127.0.0.1:4329/brieven/bezwaar-beschikking/","cmd":"kijk","args":[],"lengte":1654}
+{"stap":22,"tijd":"2026-10-14T17:44:57.804Z","url":"http://127.0.0.1:4329/brieven/bezwaar-beschikking/","cmd":"notitie","args":["stap 7/25. Brief staat klaar met Den Haag erin. Dit kan ik deze week sturen. Doel bereikt."],"tekst":"stap 7/25. Brief staat klaar met Den Haag erin. Dit kan ik deze week sturen. Doel bereikt."}
+{"stap":23,"tijd":"2026-10-14T17:44:58.308Z","url":"http://127.0.0.1:4329/brieven/bezwaar-beschikking/","cmd":"scroll","args":["omlaag"]}
+{"stap":24,"tijd":"2026-10-14T17:44:58.346Z","url":"http://127.0.0.1:4329/brieven/bezwaar-beschikking/","cmd":"stop"}

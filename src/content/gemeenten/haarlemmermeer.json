@@ -221,7 +221,8 @@
         "email": "info@cjghaarlemmermeer.nl",
         "adres": "Marktlaan 124, 2132 DM Hoofddorp",
         "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "GGD Kennemerland – Jeugdgezondheidszorg",
@@ -231,7 +232,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.ggdkennemerland.nl/mijn-kind"
+      "url": "https://www.ggdkennemerland.nl/mijn-kind",
+      "verbergen": true
     },
     {
       "naam": "Jongeren Informatie Punt (JIP) Haarlemmermeer",
@@ -283,7 +285,11 @@
       "contact": {
         "naam": "Eigen Plan",
         "email": "contact@eigen-plan.nl"
-      }
+      },
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Mantelzorg & Meer (ook voor jonge mantelzorgers)",
@@ -298,7 +304,10 @@
         "naam": "Mantelzorg & Meer",
         "telefoon": "020 512 7250",
         "email": "info@mantelzorgenmeer.nl"
-      }
+      },
+      "situaties": [
+        "mantelzorg"
+      ]
     },
     {
       "naam": "Autisme Informatie Centrum (AIC) Hoofddorp",
@@ -312,7 +321,10 @@
       "contact": {
         "naam": "NVA Haarlemmermeer",
         "email": "nva.haarlemmermeer@autisme.nl"
-      }
+      },
+      "situaties": [
+        "autisme"
+      ]
     }
   ],
   "directRegelen": [

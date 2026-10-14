@@ -244,7 +244,8 @@
         "naam": "Jeugd en Gezin",
         "telefoon": "035 692 6350",
         "email": "jeugd@ggdgv.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Versa Welzijn - kinder- en jongerenwerk",
@@ -254,7 +255,8 @@
         "jongeren",
         "opvoeden"
       ],
-      "url": "https://www.versawelzijn.nl/"
+      "url": "https://www.versawelzijn.nl/",
+      "verbergen": true
     },
     {
       "naam": "Praktijkondersteuner Jeugd (POH Jeugd)",
@@ -264,7 +266,11 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.hilversum.nl/sociaal-plein/zorg-hulp-steun/hulp-bij-opvoeding-opgroeien"
+      "url": "https://www.hilversum.nl/sociaal-plein/zorg-hulp-steun/hulp-bij-opvoeding-opgroeien",
+      "situaties": [
+        "angst-of-somberheid",
+        "gedragsproblemen"
+      ]
     },
     {
       "naam": "MEE Dichtbij",
@@ -279,7 +285,8 @@
         "naam": "MEE Dichtbij Hilversum",
         "telefoon": "035 623 0339",
         "email": "hilversum@meedichtbij.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Adviesraad Sociaal Domein Hilversum",
@@ -288,7 +295,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://www.hilversum.nl/sociaal-plein/adviesraad-sociaal-domein"
+      "url": "https://www.hilversum.nl/sociaal-plein/adviesraad-sociaal-domein",
+      "verbergen": true
     }
   ],
   "directRegelen": [

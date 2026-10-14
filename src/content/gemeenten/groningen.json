@@ -211,7 +211,8 @@
         "naam": "Humanitas afdeling Groningen",
         "telefoon": "050 312 6000",
         "email": "mip.groningen@humanitas.nl"
-      }
+      },
+      "voorIedereen": true
     },
     {
       "naam": "Autisme Info Centrum (AIC) Groningen",
@@ -226,7 +227,10 @@
         "naam": "AIC Groningen",
         "email": "aic_groningen@live.nl",
         "adres": "Buurtcentrum TuinPad, Bessemoerstraat 4, Groningen"
-      }
+      },
+      "situaties": [
+        "autisme"
+      ]
     },
     {
       "naam": "Huiskamers en Ouder & Kind Café van WIJ",
@@ -236,7 +240,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://wij.groningen.nl/agenda/"
+      "url": "https://wij.groningen.nl/agenda/",
+      "voorIedereen": true
     }
   ],
   "directRegelen": [

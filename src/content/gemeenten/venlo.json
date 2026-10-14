@@ -202,7 +202,11 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://buurtkrachtvenlo.nl/thema/opvoeden-gezin-relatie/"
+      "url": "https://buurtkrachtvenlo.nl/thema/opvoeden-gezin-relatie/",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Informatie- en Adviespunt",
@@ -226,7 +230,8 @@
       "contact": {
         "naam": "GGD Limburg-Noord",
         "telefoon": "088 119 1111"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Wegwijs in Venlo",
@@ -236,7 +241,8 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.wegwijsinvenlo.nl/is/een-vraag-over/opvoeding-en-gezin"
+      "url": "https://www.wegwijsinvenlo.nl/is/een-vraag-over/opvoeding-en-gezin",
+      "voorIedereen": true
     },
     {
       "naam": "Buurtgezinnen",
@@ -246,7 +252,8 @@
         "gezin",
         "opvoeden"
       ],
-      "url": "https://www.buurtgezinnen.nl/"
+      "url": "https://www.buurtgezinnen.nl/",
+      "voorIedereen": true
     },
     {
       "naam": "Villa Pinedo",
@@ -255,7 +262,10 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://www.villapinedo.nl/over-villa-pinedo"
+      "url": "https://www.villapinedo.nl/over-villa-pinedo",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

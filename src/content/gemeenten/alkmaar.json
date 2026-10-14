@@ -193,7 +193,8 @@
         "telefoon": "072 548 8081",
         "email": "cjg@alkmaar.nl",
         "openingstijden": "Afspraken 0-4 jaar (GGD): 088 010 0550"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Wijkcontactpunten Alkmaar",
@@ -202,7 +203,8 @@
       "themas": [
         "gezin"
       ],
-      "url": "https://www.alkmaar.nl/direct-regelen/zorg-en-ondersteuning/ik-zoek-hulp-sub/wijkcontactpunt-een-vraag-of-hulp-nodig/"
+      "url": "https://www.alkmaar.nl/direct-regelen/zorg-en-ondersteuning/ik-zoek-hulp-sub/wijkcontactpunt-een-vraag-of-hulp-nodig/",
+      "verbergen": true
     },
     {
       "naam": "Sylta (voorheen MEE & de Wering)",
@@ -217,7 +219,11 @@
       "contact": {
         "naam": "Sylta",
         "telefoon": "088 007 5000"
-      }
+      },
+      "situaties": [
+        "mantelzorg",
+        "verstandelijke-beperking"
+      ]
     },
     {
       "naam": "Eigen Plan",
@@ -228,7 +234,11 @@
         "opvoeden",
         "scheiding"
       ],
-      "url": "https://eigen-plan.nl/"
+      "url": "https://eigen-plan.nl/",
+      "situaties": [
+        "scheiding"
+      ],
+      "voorIedereen": true
     },
     {
       "naam": "Scheidingsplein Alkmaar",
@@ -238,7 +248,10 @@
         "scheiding",
         "gezin"
       ],
-      "url": "https://www.scheidingsplein.nl/alkmaar/"
+      "url": "https://www.scheidingsplein.nl/alkmaar/",
+      "situaties": [
+        "scheiding"
+      ]
     }
   ],
   "directRegelen": [

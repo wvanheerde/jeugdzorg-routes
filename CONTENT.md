@@ -115,6 +115,7 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
 ## Koppeling via tags
 
 - `themas` is de gedeelde woordenlijst voor situaties, organisaties en `lokaleInitiatieven` van gemeenten. Gebruik bestaande tags (zie `src/content/situaties/*.md`) voordat u een nieuwe introduceert; kleine letters, enkelvoud waar mogelijk.
+- Lokale initiatieven verschijnen in Mijn overzicht via `situaties`, `voorIedereen` of `verbergen` (zie `src/content.config.ts` en `.claude/agents/gemeente-onderzoeker.md`, onderdeel 2); `themas` is dan alleen nog een terugvaloptie voor ongelabelde items.
 - `hulpsoorten` verwijst naar bestandsnamen in `src/content/hulpsoorten/`. Tag het gemeentelijk aanbod (`aanbod.categorieen[].hulpsoorten`) zodat situatiepagina's het juiste aanbod per gemeente tonen.
 
 ## Een gemeente toevoegen of bijwerken

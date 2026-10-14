@@ -195,7 +195,8 @@
         "naam": "CJG IJmond",
         "telefoon": "088 995 8355",
         "email": "info@cjgijmond.nl"
-      }
+      },
+      "verbergen": true
     },
     {
       "naam": "Samen Opgroeien (cursusaanbod)",
@@ -205,17 +206,19 @@
         "opvoeden",
         "gezin"
       ],
-      "url": "https://www.samenopgroeien.nu"
+      "url": "https://www.samenopgroeien.nu",
+      "voorIedereen": true
     },
     {
       "naam": "Ouder- en jeugdsteunpunt SWV PO IJmond",
       "soort": "belangenorganisatie",
       "omschrijving": "Advies en ondersteuning voor ouders en leerlingen bij vragen over passend onderwijs in het basisonderwijs. Voor voortgezet onderwijs is er een steunpunt bij samenwerkingsverband VO Midden Kennemerland.",
       "themas": [
-        "passendonderwijs",
+        "passend onderwijs",
         "school"
       ],
-      "url": "https://passendonderwijsijmond.nl/contact/"
+      "url": "https://passendonderwijsijmond.nl/contact/",
+      "verbergen": true
     }
   ],
   "directRegelen": [
