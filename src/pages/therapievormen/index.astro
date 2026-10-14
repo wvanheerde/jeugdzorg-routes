@@ -4,6 +4,7 @@ import TherapieKaart from '../../components/TherapieKaart.astro';
 import { therapieVolgorde } from '../../lib/therapie';
 import TherapieToelichting from '../../components/TherapieToelichting.astro';
 import { getCollection } from 'astro:content';
+import { afbreken } from '../../lib/afbreken';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const alle = (await getCollection('therapievormen')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -18,7 +19,7 @@ const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgo
   <nav class="toc" aria-label="Per situatie">{situaties.filter((s) => alle.some((t) => t.data.situaties.includes(s.id))).map((s) => <a href={`#${s.id}`}>{s.data.titel}</a>)}</nav>
   {situaties.map((s) => { const ts = therapieVolgorde(s, alle); return ts.length > 0 && (
     <section id={s.id} style="scroll-margin-top:5.5rem">
-      <div class="kicker"><h2>{s.data.titel}</h2><span class="line"></span><a class="btn secondary" href={`${base}/situaties/${s.id}/`}>Naar de situatie</a></div>
+      <div class="kicker"><h2>{afbreken(s.data.titel)}</h2><span class="line"></span><a class="btn secondary" href={`${base}/situaties/${s.id}/`}>Naar de situatie</a></div>
       <div class="grid gelijk" style="margin-top:1.25rem">{ts.map((t) => <TherapieKaart t={t} />)}</div>
     </section>
   ); })}

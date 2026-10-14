@@ -9,9 +9,10 @@ import { therapieVolgorde } from '../../lib/therapie';
 import SpoedNummers from '../../components/SpoedNummers.astro';
 import BriefKaart from '../../components/BriefKaart.astro';
 import { getCollection, getEntry, render } from 'astro:content';
-import { routeLabel, koppelThemas, contacten, datum } from '../../lib/routes';
+import { routeLabel, koppelThemas, datum } from '../../lib/routes';
 import Toegang from '../../components/Toegang.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
+import { afbreken } from '../../lib/afbreken';
 
 export async function getStaticPaths() {
   const situaties = await getCollection('situaties');
@@ -27,15 +28,13 @@ const landelijk = (await Promise.all(d.landelijk.map((id) => getEntry('landelijk
 const kt = koppelThemas(d.themas);
 const matchT = (themas: string[]) => themas.some((t) => kt.includes(t));
 const organisaties = (await getCollection('organisaties')).filter((o) => matchT(o.data.themas)).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
-const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
-const routeTypes = d.routes.map((r) => r.type);
 const therapie = therapieVolgorde(s, await getCollection('therapievormen'));
 const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.includes(s.id)).sort((a, c) => a.data.volgorde - c.data.volgorde);
 ---
 <Base title={d.titel} description={d.samenvatting}>
   <div class="page-head">
     <span class="eyebrow">Situatie</span>
-    <h1>{d.titel}</h1>
+    <h1>{afbreken(d.titel)}</h1>
     <p class="lead">{d.samenvatting}</p>
     <div class="chips" style="margin-top:.75rem"><span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span>{d.themas.map((t) => <span class="chip">{t}</span>)}</div>
     {d.landelijk.includes('05-financieel') && (
@@ -48,11 +47,8 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
     <GemeenteKeuze />
     <p class="meta gemeente-blok" data-gemeente="" hidden>Kies uw gemeente; de contactgegevens verschijnen dan bij de routes hieronder.</p>
     <p class="meta gemeente-blok" data-gemeente="_overig" hidden>Uw gemeente staat nog niet op deze site. De routes hieronder gelden overal; de naam van het toegangsteam vindt u op de website van uw gemeente (zoek op "jeugdhulp" of "wijkteam").</p>
-    {gemeenten.map((g) => (
-      <p class="meta gemeente-blok" data-gemeente={g.id} hidden>
-        Contactgegevens van <strong>{g.data.naam}</strong> staan bij de routes hieronder. Aanbod, lokale steun en formulieren: <a href={`${base}/gemeenten/${g.id}/`}>volledige pagina van {g.data.naam} →</a>
-      </p>
-    ))}
+    <!-- De blokken van de gekozen gemeente (data-gemeente-slot) komen uit src/pages/gemeente-blokken/[slug].astro, opgehaald door src/lib/gemeente-blokken.ts. -->
+    <div data-gemeente-slot="situatie-intro"></div>
   </div>
 
   <div class="page-with-side">
@@ -77,13 +73,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
             {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>
             <p style="margin:.5rem 0 0">{r.waarom}</p>
             {r.type === 'spoed' && <SpoedNummers />}
-            {gemeenten.map((g) => { const gr = g.data.toegang.routes.find((x) => x.type === r.type); return gr && (
-              <div class="route-gemeente gemeente-blok" data-gemeente={g.id} hidden>
-                <strong>In {g.data.naam}: {gr.naam}</strong>
-                {r.type === 'spoed' ? <ol class="steps">{gr.stappen.map((st) => <li>{st}</li>)}</ol> : <p class="meta" style="margin:.2rem 0 0">{gr.omschrijving}</p>}
-                {contacten(gr.contact).map((c) => <Contact contact={c} />)}
-              </div>
-            ); })}
+            <div data-gemeente-slot={`route-${r.type}`}></div>
           </div>
         ))}
         <p class="meta">De eerste route is in deze situatie meestal de beste start, maar alle routes staan open; u mag kiezen. <a href={`${base}/landelijk/#02-toegang`}>Meer over toegang</a>.</p>
@@ -95,7 +85,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
         <div class="grid">
           {hulpsoorten.map((h) => h && (
             <div class="card">
-              <h3>{h.data.naam}</h3>
+              <h3>{afbreken(h.data.naam)}</h3>
               <p>{h.data.omschrijving}</p>
               {h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
               <Toegang waarde={h.data.beschikkingNodig} />
@@ -153,12 +143,14 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
   </div>
 </Base>
 <script>
+  import { laadGemeente } from '../../lib/gemeente-blokken';
   const show = (id: string) => {
     document.querySelectorAll<HTMLElement>('.gemeente-blok').forEach((b) => { b.hidden = b.dataset.gemeente !== id; });
     const any = Array.from(document.querySelectorAll<HTMLElement>('.gemeente-blok')).some((b) => !b.hidden);
     if (!any) document.querySelector<HTMLElement>('.gemeente-blok[data-gemeente=""]')!.hidden = false;
   };
-  document.addEventListener('jr:gemeente', (e) => show((e as CustomEvent).detail));
-  // Beginstand: URL of eerder gekozen gemeente, zodat het blok direct bij het laden klopt.
-  show(new URLSearchParams(location.search).get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '');
+  const kies = (id: string) => laadGemeente(id).then((ok) => ok && show(id));
+  document.addEventListener('jr:gemeente', (e) => kies((e as CustomEvent).detail));
+  // Beginstand: URL of eerder gekozen gemeente.
+  kies(new URLSearchParams(location.search).get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '');
 </script>

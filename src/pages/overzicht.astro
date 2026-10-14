@@ -1,11 +1,11 @@
 ---
 /**
  * Mijn overzicht: combineert gekozen situaties met de gekozen gemeente.
- * Alles wordt statisch gerenderd; JavaScript toont alleen wat bij de keuze past.
+ * Alles wordt statisch gerenderd; JavaScript toont alleen wat bij de keuze past. De blokken van de gekozen gemeente
+ * worden los opgehaald (src/lib/gemeente-blokken.ts), anders zou deze pagina alle 342 gemeenten bevatten.
  */
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
-import register from '../../scripts/data/gemeenten-register.json';
 import Contact from '../components/Contact.astro';
 import GemeenteKeuze from '../components/GemeenteKeuze.astro';
 import SituatieKeuze from '../components/SituatieKeuze.astro';
@@ -15,23 +15,12 @@ import BriefKaart from '../components/BriefKaart.astro';
 import SpoedNummers from '../components/SpoedNummers.astro';
 import TherapieKaart from '../components/TherapieKaart.astro';
 import { getCollection } from 'astro:content';
-import { routeLabel, beginBij, koppelThemas, contacten, regelSoort } from '../lib/routes';
+import { routeLabel, beginBij, koppelThemas } from '../lib/routes';
 import { rangVan, therapieVolgorde } from '../lib/therapie';
 import Toegang from '../components/Toegang.astro';
 import ToegangLegenda from '../components/ToegangLegenda.astro';
+import { afbreken } from '../lib/afbreken';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-/** Apart blok boven het wijkteam bij een lichte start: het CJG of de jeugdgezondheidszorg. Is het CJG het wijkteam zelf, dan geen apart blok. */
-const cjgVoorKaart = (d: (typeof gemeenten)[number]['data']) => (d.cjg && d.cjg.soort !== 'wijkteam' ? d.cjg : undefined);
-/** Postadres per CBS-code, uit het Register van Overheidsorganisaties. */
-const postadres: Record<string, string> = Object.fromEntries(register.gemeenten.map((x: { cbsCode: string; postadres?: string }) => [x.cbsCode, x.postadres ?? '']));
-/** Eén zin voor de wachtkaart: wat de gemeente openbaar maakt over hoe lang de toegang duurt. */
-const doorloop = (g: (typeof gemeenten)[number]) => {
-  const t = g.data.ervaringen?.transparantie?.doorlooptijden;
-  const w = g.data.toegang.routes.find((x) => x.type === 'wijkteam');
-  if (t?.status === 'ja' && t.samenvatting) return t.samenvatting;
-  if (w?.doorlooptijd) return w.doorlooptijd;
-  return `${g.data.naam} maakt niet openbaar hoe lang de toegang duurt. Vraag het wijkteam wanneer u een gesprek of besluit kunt verwachten.`;
-};
 /** Landelijke organisaties die in de stappen van een knelpunt bij naam worden genoemd: hun nummer en website direct onder de stappen. */
 const genoemd = (k: (typeof knelpunten)[number]) => {
   const tekst = k.data.stappen.join(' ');
@@ -190,74 +179,15 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       ))}
 
       <!-- Begint de situatie bij de huisarts of school? Dan onder stap 1 toch één regel met het wijkteam, als gelijkwaardige ingang (order 3). -->
-      <div class="o3" data-wijkteam-regel>
-        {gemeenten.filter((g) => g.data.meta.status !== 'voorbeeld').map((g) => { const t0 = g.data.toegang.routes.find((x) => x.type === 'wijkteam'); const c = t0 && contacten(t0.contact)[0]; return t0 && (
-          <div class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>
-            <p>Liever eerst het wijkteam? Dat mag ook: <strong>{t0.naam}</strong>{c?.telefoon && <>, <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>bel {c.telefoon}</a></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}.</p>
-            <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {g.data.naam}?</summary><p>{doorloop(g)}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {g.data.naam}?</a></div>
-          </div>
-        ); })}
-      </div>
+      <!-- De blokken van de gekozen gemeente (data-gemeente-slot) komen uit src/pages/gemeente-blokken/[slug].astro, opgehaald door src/lib/gemeente-blokken.ts. -->
+      <div class="o3" data-wijkteam-regel data-gemeente-slot="overzicht-wijkteam-regel"></div>
 
       <!-- Contact van de eerste ingang, direct onder stap 1 (order 3). Eén keer op de pagina; in blok 2 staat deze ingang niet nog eens. -->
-      <div class="o3" data-eerste-contact>
-        {gemeenten.map((g) => { const t0 = g.data.toegang.routes.find((x) => x.type === 'wijkteam'); const t = t0 && { naam: t0.naam, contact: contacten(t0.contact)[0] }; const cjg = cjgVoorKaart(g.data); return (
-          <div class="gemeente-blok eerste-contact" data-gemeente={g.id} data-heeft-cjg={cjg ? '1' : undefined} hidden>
-            <div class="ec-standaard">
-            {cjg && (
-              <div class="ec-cjg" data-ec-cjg hidden>
-                <h3>{cjg.soort === 'jgz' ? 'Voor informatie en advies' : 'Voor informatie, advies en groepen'}: {cjg.naam}</h3>
-                <p class="meta">{cjg.omschrijving}</p>
-                <Contact contact={cjg.contact} />
-              </div>
-            )}
-            {g.data.meta.status === 'voorbeeld' ? (<>
-              <h3>Gemeente {g.data.naam} (algemeen nummer)</h3>
-              <p class="meta">Vraag naar jeugdhulp. De details voor {g.data.naam} hebben we nog niet uitgezocht.</p>
-            </>) : (
-              <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {g.data.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${g.data.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {g.data.naam}</span>: {t?.naam}</h3>
-            )}
-            {g.data.meta.status !== 'voorbeeld' && t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {g.data.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
-            {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
-            {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}
-            <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {g.data.naam}?</summary><p>{doorloop(g)}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {g.data.naam}?</a></div>
-            </div>
-            <div class="ec-bezwaar">
-              <h3>Bezwaar maken in {g.data.naam}</h3>
-              <p class="meta">{g.data.rechten.bezwaar.toelichting}</p>
-              {g.data.rechten.bezwaar.url && <a class="btn primary" href={g.data.rechten.bezwaar.url} target="_blank" rel="noopener">Bezwaar maken bij de gemeente<span aria-hidden="true"> ↗</span></a>}
-              {postadres[g.data.cbsCode] && <p class="meta">Per post: Gemeente {g.data.naam}, {postadres[g.data.cbsCode]}. Tenzij het besluit een ander adres noemt.</p>}
-            </div>
-            <div class="ec-klacht">
-              <h3>Een klacht indienen in {g.data.naam}</h3>
-              <p class="meta">{g.data.rechten.klacht.toelichting}</p>
-              <Contact contact={{ naam: g.data.rechten.klacht.naam, email: g.data.rechten.klacht.email, telefoon: g.data.rechten.klacht.telefoon, url: g.data.rechten.klacht.url }} />
-              {t?.naam && <p class="meta">Het wijkteam zelf: {t.naam}{t.contact?.telefoon && <>, <a href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}>{t.contact.telefoon}</a></>}.</p>}
-            </div>
-          </div>
-        ); })}
-      </div>
+      <div class="o3" data-eerste-contact data-gemeente-slot="overzicht-eerste-contact"></div>
 
       <!-- Wat er in de gemeente bij de stappen hoort (order 6): cliëntondersteuning, klacht, bezwaar, enz. Het wijkteam zelf staat al onder stap 1. -->
-      <div class="o6" data-knelpunt-gemeente>
+      <div class="o6" data-knelpunt-gemeente data-gemeente-slot="overzicht-handig">
         <div class="gemeente-blok" data-gemeente=""><p class="meta">Kies uw gemeente om de contactgegevens te zien.</p></div>
-        {gemeenten.map((g) => { const r = g.data.rechten; const spoed = g.data.toegang.routes.find((x) => x.type === 'spoed'); return (
-          <div class="gemeente-blok" data-gemeente={g.id} hidden>
-            <h3>Hierbij handig in {g.data.naam}</h3>
-            <div class="onderdelen">
-              <div class="onderdeel" data-onderdeel="pgb" hidden><strong>Pgb in {g.data.naam}</strong><p class="meta">{r.pgb.mogelijk ? '' : 'Een pgb wordt in deze gemeente niet of beperkt verstrekt. '}{r.pgb.toelichting}{r.pgb.url && <> <a href={r.pgb.url} target="_blank" rel="noopener">Meer informatie<span aria-hidden="true"> ↗</span></a></>}</p></div>
-              <div class="onderdeel" data-onderdeel="clientondersteuning" hidden><strong>Gratis hulp bij het gesprek</strong><p class="meta">Een cliëntondersteuner denkt met u mee en gaat mee naar het gesprek.</p><Contact contact={r.onafhankelijkeClientondersteuning} /></div>
-              <div class="onderdeel" data-onderdeel="klacht" hidden><strong>Klacht indienen</strong><p class="meta">{r.klacht.toelichting}</p><Contact contact={{ naam: r.klacht.naam, email: r.klacht.email, telefoon: r.klacht.telefoon, url: r.klacht.url }} />{r.klacht.extern && <p class="meta">Extern: {r.klacht.extern.naam}{r.klacht.extern.url && <> · <a href={r.klacht.extern.url} target="_blank" rel="noopener">meer<span aria-hidden="true"> ↗</span></a></>}</p>}</div>
-              <div class="onderdeel" data-onderdeel="bezwaar" hidden><strong>Bezwaar (binnen 6 weken)</strong><p class="meta">{r.bezwaar.toelichting}{r.bezwaar.url && <> <a href={r.bezwaar.url} target="_blank" rel="noopener">Bezwaar maken<span aria-hidden="true"> ↗</span></a></>}</p></div>
-              {postadres[g.data.cbsCode] && <div class="onderdeel" data-onderdeel="postadres" hidden><strong>Postadres van de gemeente</strong><p class="meta">Hierheen stuurt u een bezwaar of ingebrekestelling, tenzij het besluit een ander adres noemt. Bewaar een kopie. Stuur de brief aangetekend, of per e-mail met een ontvangstbevestiging.</p><p>Gemeente {g.data.naam}<br />{postadres[g.data.cbsCode].split(', ').map((r, i) => <>{i > 0 && <br />}{r}</>)}</p></div>}
-              {r.vertrouwenspersoon && <div class="onderdeel" data-onderdeel="vertrouwenspersoon" hidden><strong>Vertrouwenspersoon</strong><Contact contact={r.vertrouwenspersoon} /></div>}
-              {spoed && contacten(spoed.contact).length > 0 && <div class="onderdeel" data-onderdeel="spoed" hidden><strong>Pagina van de gemeente {g.data.naam}</strong>{contacten(spoed.contact).map((c) => <Contact contact={c} />)}</div>}
-              {g.data.aanbod.gecontracteerdeAanbiedersUrl && (g.data.aanbod.gecontracteerdeAanbiedersUrl.includes('beschikbaarheidswijzer')
-                ? <div class="onderdeel" data-onderdeel="aanbieders" hidden><strong>Welke aanbieders kunt u kiezen?</strong><p class="meta">U mag kiezen uit de aanbieders waar de gemeente een contract mee heeft. Hoe lang u ongeveer moet wachten, ziet u in de Beschikbaarheidswijzer.</p><p><a href={g.data.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders en wachttijden bekijken<span aria-hidden="true"> ↗</span></a></p></div>
-                : <div class="onderdeel" data-onderdeel="aanbieders" hidden><strong>Welke aanbieders zijn er?</strong><p class="meta">Bij welke aanbieders u in {g.data.naam} terechtkunt, staat op de website van de gemeente.</p><p><a href={g.data.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders in {g.data.naam} bekijken<span aria-hidden="true"> ↗</span></a></p></div>)}
-            </div>
-          </div>
-        ); })}
       </div>
 
       <div class="o5b">
@@ -273,28 +203,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       <h2><span class="section-num">1</span><span data-kop-gemeente>Andere ingangen</span></h2>
       <div class="gemeente-blok" data-gemeente=""><p class="empty">Kies uw gemeente om te zien waar u daar terechtkunt. De routes hieronder gelden in elke gemeente.</p></div>
       <div class="gemeente-blok" data-gemeente="_overig"><p>Uw gemeente staat nog niet op deze site. Zoek op de website van uw gemeente naar "jeugdhulp" of "wijkteam". De landelijke rechten en regelingen gelden ook voor u.</p></div>
-      {gemeenten.map((g) => (
-        <div class="gemeente-blok routes-lijst" data-gemeente={g.id} hidden>
-          {g.data.toegang.routes.filter((r) => r.type !== 'spoed').map((r) => (
-            <div class={`route ${r.type}`} data-route={r.type} hidden>
-              <span class="badge">{routeLabel[r.type]}</span>
-              <h3 style="margin:.4rem 0 .2rem">{r.naam}</h3>
-              <p class="meta">{r.omschrijving}</p>
-              {contacten(r.contact).map((c) => <Contact contact={c} />)}
-            </div>
-          ))}
-          <div data-lokaal-wrap hidden>
-            <h3>Lokale steun in {g.data.naam}</h3>
-            {/* Gelabeld (situaties/voorIedereen/verbergen, zie content.config.ts): koppeling per situatie; anders via themas. Het CJG-initiatief
-                 vervalt als het CJG-blok al bovenaan staat (lichte start). */}
-            <ul>{(g.data.lokaleInitiatieven ?? []).filter((i) => !i.verbergen).map((i) => (
-              <li data-li data-themas={j(i.themas ?? [])} data-li-sits={j(i.situaties ?? [])} data-li-gelabeld={i.situaties || i.voorIedereen ? '1' : undefined} data-li-iedereen={i.voorIedereen ? '1' : undefined} data-li-cjg={g.data.cjg && g.data.cjg.soort !== 'wijkteam' && /\bCJG\b|Centrum voor Jeugd|JGZ|jeugdgezondheid|consultatiebureau|Centrum Jong|Opvoedpunt|Loes\b/i.test(i.naam) ? '1' : undefined} hidden><strong>{i.naam}</strong> – {i.omschrijving}{(i.url || i.contact) && <Contact contact={{ ...i.contact, naam: i.contact?.naam ?? i.naam, url: i.contact?.url ?? i.url }} zonder={!i.contact?.naam || i.contact.naam === i.naam ? ['naam'] : []} class="kaal" />}</li>
-            ))}</ul>
-          </div>
-          {(g.data.directRegelen ?? []).length > 0 && (<div class="direct-regelen" data-direct-regelen><h3>Direct regelen</h3><ul class="linklist">{(g.data.directRegelen ?? []).map((r) => <li data-regel-soort={regelSoort(r.naam)}><a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a>{r.omschrijving && <p>{r.omschrijving}</p>}</li>)}</ul></div>)}
-          <p class="meta" style="margin-top:1rem"><a href={`${base}/gemeenten/${g.id}/`}>Volledige pagina van {g.data.naam} →</a> <span data-meer-op-pagina hidden>Daar staat ook hoe u een klacht indient of bezwaar maakt.</span></p>
-        </div>
-      ))}
+      <div data-gemeente-slot="overzicht-routes"></div>
       <div data-routes-algemeen>
         {situaties.map((s) => s.data.routes.filter((r) => r.type !== 'spoed').map((r, i) => (
           <div class={`route ${r.type}`} data-situatie={s.id} hidden>{i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span> <span class="badge" style="background:var(--c-bg);color:var(--c-muted)">{s.data.titel}</span><p style="margin:.5rem 0 0">{r.waarom}</p></div>
@@ -308,7 +217,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       <div class="grid">
         {hulpsoorten.map((h) => (
           <div class="card" data-hulpsoort={h.id} hidden>
-            <h3>{h.data.naam}</h3>
+            <h3>{afbreken(h.data.naam)}</h3>
             <p>{h.data.omschrijving}</p>
             <Toegang waarde={h.data.beschikkingNodig} />
           </div>
@@ -321,7 +230,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       <div class="grid">
         {situaties.map((s) => (
           <a class="card link" href={`${base}/situaties/${s.id}/`} data-situatie={s.id} hidden>
-            <h3>{s.data.titel}</h3>
+            <h3>{afbreken(s.data.titel)}</h3>
             <p class="meta">{s.data.samenvatting}</p>
             <span class="arrow">Wat helpt en waar het misgaat →</span>
           </a>
@@ -331,13 +240,10 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 
     <section class="section" id="regelingen">
       <h2><span class="section-num">4</span>Rechten en regelingen</h2>
-      <ul class="linklist">
+      <ul class="linklist" data-gemeente-slot="overzicht-leerplicht">
         {situaties.map((s) => s.data.regelingen.map((r) => (
           <li data-situatie={s.id} hidden>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>
         )))}
-        {gemeenten.map((g) => { const reg = register.gemeenten.find((x: { cbsCode: string }) => x.cbsCode === g.data.cbsCode); return reg?.telefoon && (
-          <li data-leerplicht={g.id} hidden><strong>Leerplicht in {g.data.naam}</strong><p>Bel de gemeente op <a href={`tel:${reg.telefoon.replace(/\s/g, '')}`}>{reg.telefoon}</a> en vraag naar de leerplichtambtenaar.</p></li>
-        ); })}
       </ul>
       <h3>Landelijke uitleg</h3>
       <ul>{landelijk.map((l) => <li data-landelijk={l.id} hidden><a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}</li>)}</ul>
@@ -366,6 +272,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 </Base>
 <script is:inline set:html={`window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
 <script>
+  import { laadGemeente } from '../lib/gemeente-blokken';
   type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; rang: boolean };
   const data = (window as any).__jrSituaties as Record<string, Sit>;
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean }>;
@@ -560,9 +467,12 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     });
   };
   document.addEventListener('jr:situaties', (e) => { sel = (e as CustomEvent).detail; render(); });
-  document.addEventListener('jr:gemeente', (e) => { gem = (e as CustomEvent).detail; render(); });
+  // Pas tekenen als de blokken van de gemeente er zijn; is er intussen een andere gekozen, dan tekent die.
+  document.addEventListener('jr:gemeente', (e) => { gem = (e as CustomEvent).detail; laadGemeente(gem).then((ok) => ok && render()); });
   document.addEventListener('jr:knelpunt', (e) => { kp = (e as CustomEvent).detail; render(); });
   document.addEventListener('jr:leeftijd', (e) => { lf = (e as CustomEvent).detail; render(); });
-  render();
-  document.documentElement.classList.remove('jr-laden');
+  laadGemeente(gem).then(() => {
+    render();
+    document.documentElement.classList.remove('jr-laden');
+  });
 </script>

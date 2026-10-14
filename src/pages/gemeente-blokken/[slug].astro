@@ -1,0 +1,150 @@
+---
+/**
+ * Alle blokken van één gemeente voor Mijn overzicht en de situatiepagina's. Geen echte pagina: de browser haalt dit
+ * bestand op zodra iemand een gemeente kiest (src/lib/gemeente-blokken.ts) en zet elke <template data-slot="…">
+ * in het element met dezelfde data-gemeente-slot. Zo staan niet alle 342 gemeenten in elke pagina.
+ */
+import Icon from '../../components/Icon.astro';
+import Contact from '../../components/Contact.astro';
+import register from '../../../scripts/data/gemeenten-register.json';
+import { getCollection } from 'astro:content';
+import { routeLabel, contacten, regelSoort } from '../../lib/routes';
+
+export async function getStaticPaths() {
+  const gemeenten = await getCollection('gemeenten');
+  return gemeenten.map((g) => ({ params: { slug: g.id }, props: { g } }));
+}
+const { g } = Astro.props;
+const d = g.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const j = (a: string[]) => a.join(' ');
+const reg = register.gemeenten.find((x: { cbsCode: string }) => x.cbsCode === d.cbsCode) as { telefoon?: string; postadres?: string } | undefined;
+const postadres = reg?.postadres ?? '';
+/** Apart blok boven het wijkteam bij een lichte start: het CJG of de jeugdgezondheidszorg. Is het CJG het wijkteam zelf, dan geen apart blok. */
+const cjg = d.cjg && d.cjg.soort !== 'wijkteam' ? d.cjg : undefined;
+/** Eén zin voor de wachtkaart: wat de gemeente openbaar maakt over hoe lang de toegang duurt. */
+const doorloop = (() => {
+  const t = d.ervaringen?.transparantie?.doorlooptijden;
+  const w = d.toegang.routes.find((x) => x.type === 'wijkteam');
+  if (t?.status === 'ja' && t.samenvatting) return t.samenvatting;
+  if (w?.doorlooptijd) return w.doorlooptijd;
+  return `${d.naam} maakt niet openbaar hoe lang de toegang duurt. Vraag het wijkteam wanneer u een gesprek of besluit kunt verwachten.`;
+})();
+const t0 = d.toegang.routes.find((x) => x.type === 'wijkteam');
+const t = t0 && { naam: t0.naam, contact: contacten(t0.contact)[0] };
+const r = d.rechten;
+const spoed = d.toegang.routes.find((x) => x.type === 'spoed');
+const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
+---
+<meta name="robots" content="noindex" />
+
+<!-- Situatiepagina: regel bovenaan en per route het contact in deze gemeente. -->
+<template data-slot="situatie-intro">
+  <p class="meta gemeente-blok" data-gemeente={g.id} hidden>
+    Contactgegevens van <strong>{d.naam}</strong> staan bij de routes hieronder. Aanbod, lokale steun en formulieren: <a href={`${base}/gemeenten/${g.id}/`}>volledige pagina van {d.naam} →</a>
+  </p>
+</template>
+{routeTypes.map((type) => { const gr = d.toegang.routes.find((x) => x.type === type)!; return (
+  <template data-slot={`route-${type}`}>
+    <div class="route-gemeente gemeente-blok" data-gemeente={g.id} hidden>
+      <strong>In {d.naam}: {gr.naam}</strong>
+      {type === 'spoed' ? <ol class="steps">{gr.stappen.map((st) => <li>{st}</li>)}</ol> : <p class="meta" style="margin:.2rem 0 0">{gr.omschrijving}</p>}
+      {contacten(gr.contact).map((c) => <Contact contact={c} />)}
+    </div>
+  </template>
+); })}
+
+<!-- Mijn overzicht: begint de situatie bij de huisarts of school, dan onder stap 1 toch één regel met het wijkteam. -->
+<template data-slot="overzicht-wijkteam-regel">
+  {d.meta.status !== 'voorbeeld' && t0 && (() => { const c = contacten(t0.contact)[0]; return (
+    <div class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>
+      <p>Liever eerst het wijkteam? Dat mag ook: <strong>{t0.naam}</strong>{c?.telefoon && <>, <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>bel {c.telefoon}</a></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}.</p>
+      <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {d.naam}?</a></div>
+    </div>
+  ); })()}
+</template>
+
+<!-- Mijn overzicht: contact van de eerste ingang, direct onder stap 1. -->
+<template data-slot="overzicht-eerste-contact">
+  <div class="gemeente-blok eerste-contact" data-gemeente={g.id} data-heeft-cjg={cjg ? '1' : undefined} hidden>
+    <div class="ec-standaard">
+    {cjg && (
+      <div class="ec-cjg" data-ec-cjg hidden>
+        <h3>{cjg.soort === 'jgz' ? 'Voor informatie en advies' : 'Voor informatie, advies en groepen'}: {cjg.naam}</h3>
+        <p class="meta">{cjg.omschrijving}</p>
+        <Contact contact={cjg.contact} />
+      </div>
+    )}
+    {d.meta.status === 'voorbeeld' ? (<>
+      <h3>Gemeente {d.naam} (algemeen nummer)</h3>
+      <p class="meta">Vraag naar jeugdhulp. De details voor {d.naam} hebben we nog niet uitgezocht.</p>
+    </>) : (
+      <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span>: {t?.naam}</h3>
+    )}
+    {d.meta.status !== 'voorbeeld' && t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
+    {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
+    {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}
+    <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {d.naam}?</a></div>
+    </div>
+    <div class="ec-bezwaar">
+      <h3>Bezwaar maken in {d.naam}</h3>
+      <p class="meta">{r.bezwaar.toelichting}</p>
+      {r.bezwaar.url && <a class="btn primary" href={r.bezwaar.url} target="_blank" rel="noopener">Bezwaar maken bij de gemeente<span aria-hidden="true"> ↗</span></a>}
+      {postadres && <p class="meta">Per post: Gemeente {d.naam}, {postadres}. Tenzij het besluit een ander adres noemt.</p>}
+    </div>
+    <div class="ec-klacht">
+      <h3>Een klacht indienen in {d.naam}</h3>
+      <p class="meta">{r.klacht.toelichting}</p>
+      <Contact contact={{ naam: r.klacht.naam, email: r.klacht.email, telefoon: r.klacht.telefoon, url: r.klacht.url }} />
+      {t?.naam && <p class="meta">Het wijkteam zelf: {t.naam}{t.contact?.telefoon && <>, <a href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}>{t.contact.telefoon}</a></>}.</p>}
+    </div>
+  </div>
+</template>
+
+<!-- Mijn overzicht: wat er in de gemeente bij de stappen hoort (cliëntondersteuning, klacht, bezwaar, enz.). -->
+<template data-slot="overzicht-handig">
+  <div class="gemeente-blok" data-gemeente={g.id} hidden>
+    <h3>Hierbij handig in {d.naam}</h3>
+    <div class="onderdelen">
+      <div class="onderdeel" data-onderdeel="pgb" hidden><strong>Pgb in {d.naam}</strong><p class="meta">{r.pgb.mogelijk ? '' : 'Een pgb wordt in deze gemeente niet of beperkt verstrekt. '}{r.pgb.toelichting}{r.pgb.url && <> <a href={r.pgb.url} target="_blank" rel="noopener">Meer informatie<span aria-hidden="true"> ↗</span></a></>}</p></div>
+      <div class="onderdeel" data-onderdeel="clientondersteuning" hidden><strong>Gratis hulp bij het gesprek</strong><p class="meta">Een cliëntondersteuner denkt met u mee en gaat mee naar het gesprek.</p><Contact contact={r.onafhankelijkeClientondersteuning} /></div>
+      <div class="onderdeel" data-onderdeel="klacht" hidden><strong>Klacht indienen</strong><p class="meta">{r.klacht.toelichting}</p><Contact contact={{ naam: r.klacht.naam, email: r.klacht.email, telefoon: r.klacht.telefoon, url: r.klacht.url }} />{r.klacht.extern && <p class="meta">Extern: {r.klacht.extern.naam}{r.klacht.extern.url && <> · <a href={r.klacht.extern.url} target="_blank" rel="noopener">meer<span aria-hidden="true"> ↗</span></a></>}</p>}</div>
+      <div class="onderdeel" data-onderdeel="bezwaar" hidden><strong>Bezwaar (binnen 6 weken)</strong><p class="meta">{r.bezwaar.toelichting}{r.bezwaar.url && <> <a href={r.bezwaar.url} target="_blank" rel="noopener">Bezwaar maken<span aria-hidden="true"> ↗</span></a></>}</p></div>
+      {postadres && <div class="onderdeel" data-onderdeel="postadres" hidden><strong>Postadres van de gemeente</strong><p class="meta">Hierheen stuurt u een bezwaar of ingebrekestelling, tenzij het besluit een ander adres noemt. Bewaar een kopie. Stuur de brief aangetekend, of per e-mail met een ontvangstbevestiging.</p><p>Gemeente {d.naam}<br />{postadres.split(', ').map((regel, i) => <>{i > 0 && <br />}{regel}</>)}</p></div>}
+      {r.vertrouwenspersoon && <div class="onderdeel" data-onderdeel="vertrouwenspersoon" hidden><strong>Vertrouwenspersoon</strong><Contact contact={r.vertrouwenspersoon} /></div>}
+      {spoed && contacten(spoed.contact).length > 0 && <div class="onderdeel" data-onderdeel="spoed" hidden><strong>Pagina van de gemeente {d.naam}</strong>{contacten(spoed.contact).map((c) => <Contact contact={c} />)}</div>}
+      {d.aanbod.gecontracteerdeAanbiedersUrl && (d.aanbod.gecontracteerdeAanbiedersUrl.includes('beschikbaarheidswijzer')
+        ? <div class="onderdeel" data-onderdeel="aanbieders" hidden><strong>Welke aanbieders kunt u kiezen?</strong><p class="meta">U mag kiezen uit de aanbieders waar de gemeente een contract mee heeft. Hoe lang u ongeveer moet wachten, ziet u in de Beschikbaarheidswijzer.</p><p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders en wachttijden bekijken<span aria-hidden="true"> ↗</span></a></p></div>
+        : <div class="onderdeel" data-onderdeel="aanbieders" hidden><strong>Welke aanbieders zijn er?</strong><p class="meta">Bij welke aanbieders u in {d.naam} terechtkunt, staat op de website van de gemeente.</p><p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders in {d.naam} bekijken<span aria-hidden="true"> ↗</span></a></p></div>)}
+    </div>
+  </div>
+</template>
+
+<!-- Mijn overzicht, blok 2: de andere ingangen, lokale steun en direct regelen. -->
+<template data-slot="overzicht-routes">
+  <div class="gemeente-blok routes-lijst" data-gemeente={g.id} hidden>
+    {d.toegang.routes.filter((x) => x.type !== 'spoed').map((x) => (
+      <div class={`route ${x.type}`} data-route={x.type} hidden>
+        <span class="badge">{routeLabel[x.type]}</span>
+        <h3 style="margin:.4rem 0 .2rem">{x.naam}</h3>
+        <p class="meta">{x.omschrijving}</p>
+        {contacten(x.contact).map((c) => <Contact contact={c} />)}
+      </div>
+    ))}
+    <div data-lokaal-wrap hidden>
+      <h3>Lokale steun in {d.naam}</h3>
+      {/* Gelabeld (situaties/voorIedereen/verbergen, zie content.config.ts): koppeling per situatie; anders via themas. Het CJG-initiatief
+           vervalt als het CJG-blok al bovenaan staat (lichte start). */}
+      <ul>{(d.lokaleInitiatieven ?? []).filter((i) => !i.verbergen).map((i) => (
+        <li data-li data-themas={j(i.themas ?? [])} data-li-sits={j(i.situaties ?? [])} data-li-gelabeld={i.situaties || i.voorIedereen ? '1' : undefined} data-li-iedereen={i.voorIedereen ? '1' : undefined} data-li-cjg={cjg && /\bCJG\b|Centrum voor Jeugd|JGZ|jeugdgezondheid|consultatiebureau|Centrum Jong|Opvoedpunt|Loes\b/i.test(i.naam) ? '1' : undefined} hidden><strong>{i.naam}</strong> – {i.omschrijving}{(i.url || i.contact) && <Contact contact={{ ...i.contact, naam: i.contact?.naam ?? i.naam, url: i.contact?.url ?? i.url }} zonder={!i.contact?.naam || i.contact.naam === i.naam ? ['naam'] : []} class="kaal" />}</li>
+      ))}</ul>
+    </div>
+    {(d.directRegelen ?? []).length > 0 && (<div class="direct-regelen" data-direct-regelen><h3>Direct regelen</h3><ul class="linklist">{(d.directRegelen ?? []).map((x) => <li data-regel-soort={regelSoort(x.naam)}><a href={x.url} target="_blank" rel="noopener"><Icon name="external" />{x.naam}</a>{x.omschrijving && <p>{x.omschrijving}</p>}</li>)}</ul></div>)}
+    <p class="meta" style="margin-top:1rem"><a href={`${base}/gemeenten/${g.id}/`}>Volledige pagina van {d.naam} →</a> <span data-meer-op-pagina hidden>Daar staat ook hoe u een klacht indient of bezwaar maakt.</span></p>
+  </div>
+</template>
+
+<!-- Mijn overzicht, rechten en regelingen: leerplicht bij "school loopt vast". -->
+<template data-slot="overzicht-leerplicht">
+  {reg?.telefoon && <li data-leerplicht={g.id} hidden><strong>Leerplicht in {d.naam}</strong><p>Bel de gemeente op <a href={`tel:${reg.telefoon.replace(/\s/g, '')}`}>{reg.telefoon}</a> en vraag naar de leerplichtambtenaar.</p></li>}
+</template>

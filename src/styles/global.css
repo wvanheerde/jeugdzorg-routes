@@ -460,8 +460,9 @@ details.tips-disclaimer p { margin: .5rem 0 0; }
   .toc-wrap[data-meer-rechts] > .toc-pijl.rechts, .toc-wrap[data-meer-links] > .toc-pijl.links { display: grid; place-items: center; }
 }
 
-/* Lange Nederlandse woorden in koppen (bv. Taalontwikkelingsstoornis) afbreken in plaats van buiten beeld te laten lopen */
-h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
+/* Lange woorden in koppen (bv. Taalontwikkelingsstoornis) afbreken in plaats van buiten beeld te laten lopen. Niet automatisch (hyphens: auto brak ook
+   woorden af die op de volgende regel pasten): lange samenstellingen krijgen een zachte afbreekstreep (src/lib/afbreken.ts); de rest breekt alleen als het echt niet past. */
+h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual; }
 /* Voorpagina op de telefoon: minder rand rond de keuzes, en de keuzeknoppen in twee kolommen (tekst mag doorlopen) */
 @media (max-width: 640px) {
   .hero { padding-left: 1rem; padding-right: 1rem; }

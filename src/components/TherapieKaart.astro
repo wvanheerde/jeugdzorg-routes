@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { afbreken } from '../lib/afbreken';
 interface Props { t: CollectionEntry<'therapievormen'> }
 const { t } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -13,7 +14,7 @@ const o = ob[t.data.onderbouwing.label];
 ---
 <a class="card link" href={`${base}/therapievormen/${t.id}/`}>
   <span class="badge">{soort[t.data.soort]}</span>
-  <h3 style="margin-top:.6rem">{t.data.naam}</h3>
+  <h3 style="margin-top:.6rem">{afbreken(t.data.naam)}</h3>
   <p>{t.data.kort}</p>
   {t.data.leeftijd && <p class="meta">Leeftijd: {t.data.leeftijd.van ?? 0}{t.data.leeftijd.tot ? ` tot ${t.data.leeftijd.tot} jaar` : ' jaar en ouder'}</p>}
   <div class="kaart-voet">

@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import Toegang from '../../components/Toegang.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
+import { afbreken } from '../../lib/afbreken';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -17,7 +18,7 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
   <div class="grid">
     {situaties.map((s) => (
       <a class="card link" href={`${base}/situaties/${s.id}/`}>
-        <h3>{s.data.titel}</h3>
+        <h3>{afbreken(s.data.titel)}</h3>
         <p class="meta">{s.data.herkenning}</p>
         <span class="arrow">Bekijk →</span>
       </a>
@@ -42,7 +43,7 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
   <div class="grid" style="margin-top:1.25rem">
     {hulpsoorten.map((h) => (
       <div class="card" id={h.id} style="scroll-margin-top:5.5rem">
-        <h3>{h.data.naam}</h3>
+        <h3>{afbreken(h.data.naam)}</h3>
         <p>{h.data.omschrijving}</p>
         <p class="meta"><strong>Voor wie:</strong> {h.data.voorWie}</p>
         {h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
