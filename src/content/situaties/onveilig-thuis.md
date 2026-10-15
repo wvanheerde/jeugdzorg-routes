@@ -29,6 +29,8 @@ therapievormen:
     - id: ouder-kindtherapie-hechting
     - id: oudertraining
     - id: systeemtherapie
+  bijkomend:
+    - id: video-interactiebegeleiding
   toelichting: "Eerst de veiligheid, met het hele gezin. Kinderen krijgen minimaal psycho-educatie die hen ontschuldigt; aanvullend traumabehandeling als dat nodig is. Ouders krijgen opvoedondersteuning; bij jonge kinderen hulp gericht op de gehechtheidsrelatie."
   bronnen:
     - titel: "Richtlijn Kindermishandeling: kernaanbevelingen"
@@ -38,7 +40,6 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/problematische-gehechtheid/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 15
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: NJi – Kindermishandeling

@@ -14,7 +14,33 @@
   "aanvragen": "Vraag de jeugdarts of huisarts eerst om lichamelijk onderzoek en verwijzing naar urotherapie. Lukt de gewone aanpak niet bij een kind met autisme of een beperking, vraag dan het wijkteam om intensieve zindelijkheidsbegeleiding, met een concreet voorstel en zo nodig een pgb.",
   "overwegingen": [
     "Altijd eerst lichamelijk laten beoordelen.",
-    "Werkt alleen als school of opvang meedoet."
+    "Gaat het om plassen of poepen overdag, spreek dan met school of opvang af dat zij dezelfde aanpak volgen."
+  ],
+  "sessie": "Eerst krijgen u en uw kind uitleg over hoe plassen en poepen werkt. Een paar dagen houdt u een dagboek bij van wat uw kind drinkt en wanneer het plast of poept. Daarna spreekt de behandelaar vaste wc-momenten af, bijvoorbeeld bij het opstaan, rond de maaltijden en voor het slapengaan, en leert uw kind ontspannen zitten met de voeten op een krukje. Bij een kind met autisme of een verstandelijke beperking gaat het in kleine stappen: vaak even op de wc zitten, meteen belonen als het lukt, en oefenen met plaatjes of een pop. In de volgende afspraken kijkt u samen naar het dagboek en past u de afspraken aan.",
+  "programmas": [
+    {
+      "naam": "Plaswekker",
+      "omschrijving": "Voor bedplassen. Uw kind draagt 's nachts een broekje met een sensor; wordt het nat, dan gaat de wekker en gaat uw kind naar de wc. Meestal pas vanaf 6 à 7 jaar, met begeleiding van de jeugdarts. Vraag de zorgverzekeraar of hij vergoed wordt.",
+      "url": "https://www.thuisarts.nl/bedplassen-bij-kinderen/mijn-kind-gaat-plaswekker-gebruiken-tegen-bedplassen"
+    },
+    {
+      "naam": "DroogBedTraining",
+      "omschrijving": "Voor kinderen ouder dan 7 à 8 jaar bij wie de plaswekker niet genoeg hielp. Een intensieve training onder begeleiding, met de plaswekker en oefeningen. Dat kan thuis, en soms slaapt uw kind er een paar nachten voor in het ziekenhuis."
+    },
+    {
+      "naam": "Intensieve zindelijkheidstraining (Azrin en Foxx)",
+      "omschrijving": "Een methode die is bedacht voor mensen met een verstandelijke beperking en ook bij kinderen met autisme wordt gebruikt. Een paar dagen achter elkaar drinkt uw kind extra, zit het volgens een vast schema op de wc en krijgt het meteen een beloning als het lukt. Er zijn ook versies waarbij u als ouder de training thuis geeft, met uitleg van een trainer."
+    }
+  ],
+  "vraagt": "Het vraagt motivatie en geduld van u en uw kind; het kan maanden duren voordat u het gewenste effect ziet. Een plaswekker onderbreekt de nachtrust, en de eerste tijd gaat u 's nachts naar uw kind toe als de wekker gaat. Begin daarom in een rustige periode, niet rond verjaardagen of feestdagen.",
+  "voortgang": "Met een plaswekker ziet u na een paar weken vaak de eerste verandering: uw kind wordt wakker van de wekker, of de wekker gaat later en minder vaak af. Is er na 2 tot 3 weken niets veranderd, of is uw kind na ongeveer 2 maanden nog maar deels droog, bespreek dan met de jeugdarts of huisarts of doorgaan, iets anders of een verwijzing past. Bij broekplassen overdag en broekpoepen duurt het vaak maanden, en de klachten kunnen terugkomen.",
+  "effect": "In een overzicht van 74 onderzoeken met bijna 6.000 kinderen van 5 tot 16 jaar met bedplassen werden met een plaswekker meer kinderen twee weken achter elkaar droog dan zonder behandeling, en bleven ook meer kinderen daarna droog; de onderzoeken waren wel vaak van matige kwaliteit. Bij broekplassen overdag was in 19 onderzoeken met ruim 1.600 kinderen en jongeren na een jaar urotherapie ruim de helft ervan af, terwijl het zonder behandeling bij ongeveer 15 op de 100 vanzelf overgaat; onderzoek met een vergelijkingsgroep liet wel een kleiner effect zien. Bij kinderen met autisme of een verstandelijke beperking is weinig goed onderzoek: vooral kleine studies met een paar kinderen, die hoopvol zijn maar weinig zekerheid geven.",
+  "vragen": [
+    "Gaat het om bedplassen, plassen of poepen overdag, of een combinatie, en wat pakken we eerst aan?",
+    "Welk dagboek of welke kalender houden we bij, en wanneer kijken we samen terug?",
+    "Wie begeleidt ons bij de plaswekker, en bij wie kan ik terecht als het 's nachts niet lukt?",
+    "Hoe past u de aanpak aan op het ontwikkelingsniveau van mijn kind, bijvoorbeeld met plaatjes?",
+    "Hoe stemmen we de aanpak af met school of opvang?"
   ],
   "situaties": [
     "zindelijkheid",
@@ -34,10 +60,44 @@
       "titel": "Thuisarts – Mijn kind plast in bed",
       "url": "https://www.thuisarts.nl/bedplassen-bij-kinderen/mijn-kind-plast-in-bed",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "JGZ-richtlijn Zindelijkheid – Informatie ten behoeve van begeleiding zindelijkheidsproblematiek",
+      "url": "https://www.jgzrichtlijnen.nl/richtlijn/jgz-richtlijn-zindelijkheid/6-bijlagen/6-7-informatie-ten-behoeve-van-begeleiding-zindelijkheidsproblematiek/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts – Mijn kind gaat een plaswekker gebruiken tegen bedplassen",
+      "url": "https://www.thuisarts.nl/bedplassen-bij-kinderen/mijn-kind-gaat-plaswekker-gebruiken-tegen-bedplassen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Caldwell e.a. (2020), Alarm interventions for nocturnal enuresis in children – Cochrane Database of Systematic Reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32364251/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Schäfer e.a. (2018), Standard urotherapy as first-line intervention for daytime incontinence: a meta-analysis – European Child & Adolescent Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28948380/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Eke e.a. (2021), Improving continence in children and young people with neurodisability: a systematic review and survey – Health Technology Assessment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34866570/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kroeger & Sorensen (2010), A parent training model for toilet training children with autism – Journal of Intellectual Disability Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20576064/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Levato e.a. (2016), Use of urine alarms in toilet training children with intellectual and developmental disabilities: A review – Research in Developmental Disabilities",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26942703/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

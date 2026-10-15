@@ -16,7 +16,6 @@ regelingen:
   - naam: "Pgb voor gespecialiseerde begeleiding"
     toelichting: "Heeft de gemeente geen afspraken met een aanbieder die deze begeleiding geeft? Dan is dat een argument voor een pgb. Een pgb vraagt wel administratie: een budgetplan, zorgovereenkomsten en declaraties. Ook wordt getoetst of u een pgb kunt beheren. Zie de landelijke uitleg."
 volgorde: 4
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: Stapke foar Stapke – Intensieve zindelijkheidsbegeleiding

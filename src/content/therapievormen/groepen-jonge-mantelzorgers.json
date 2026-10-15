@@ -3,12 +3,12 @@
   "soort": "groep",
   "kort": "Lotgenotengroepen voor kinderen die opgroeien met een ziek, beperkt of verslaafd gezinslid.",
   "watIsHet": "Groepsprogramma's waarin kinderen leeftijdgenoten ontmoeten in dezelfde situatie: brusjesgroepen voor broers en zussen van een kind met een beperking of ziekte, en KOPP/KOV-groepen voor kinderen van ouders met psychische of verslavingsproblemen. Met uitleg, spel en ruimte voor eigen gevoelens.",
-  "hoeWerktHet": "Herkenning haalt de eenzaamheid en het schuldgevoel weg. Kinderen leren dat zij niet verantwoordelijk zijn en waar ze steun kunnen halen. Dat voorkomt problemen later.",
-  "voorWie": "Kinderen van ongeveer 8 tot 18 jaar met een broer, zus of ouder die langdurig zorg nodig heeft of psychische of verslavingsproblemen heeft.",
-  "verwachting": "Ongeveer 6 tot 8 bijeenkomsten, soms een weekend of kamp, met een ouderbijeenkomst. Via steunpunt mantelzorg, GGZ-instelling van de ouder, welzijnsorganisatie of CJG.",
+  "hoeWerktHet": "Herkenning haalt de eenzaamheid en het schuldgevoel weg. Kinderen leren dat zij niet verantwoordelijk zijn en waar ze steun kunnen halen. Zo willen de groepen latere problemen helpen voorkomen.",
+  "voorWie": "Kinderen van ongeveer 4 tot 18 jaar met een broer, zus of ouder die langdurig zorg nodig heeft of psychische of verslavingsproblemen heeft.",
+  "verwachting": "Meestal 7 of 8 wekelijkse bijeenkomsten; programma's voor jonge kinderen hebben er soms meer. Soms een weekend of kamp. Via steunpunt mantelzorg, GGZ-instelling van de ouder, welzijnsorganisatie of CJG.",
   "onderbouwing": {
-    "label": "erkend",
-    "toelichting": "KOPP/KOV-groepen zijn erkend in de NJi-databank; brusjesgroepen worden breed aangeboden en zijn onderdeel van de gemeentelijke mantelzorgondersteuning."
+    "label": "onderbouwd",
+    "toelichting": "De richtlijn KOPP/KOV raadt aan om een kind dat moeite heeft met de situatie thuis een groep voor kinderen van ouders met psychische of verslavingsproblemen aan te bieden, bij voorkeur een erkend programma. De KOPP/KOV-groepen en ME-WE staan in de NJi-databank als 'goed onderbouwd': goed beschreven, maar nog niet op effect onderzocht. Brusjesgroepen worden breed aangeboden en zijn onderdeel van de gemeentelijke mantelzorgondersteuning."
   },
   "vergoeding": "Gratis via gemeente (Wmo/Jeugdwet), welzijn of de GGZ-instelling van de ouder.",
   "aanvragen": "Vraag het steunpunt mantelzorg, het wijkteam of de behandelaar van de ouder naar een groep voor jonge mantelzorgers of KOPP/KOV; de behandelaar van een ouder mag het gezin daarbij betrekken.",
@@ -16,13 +16,41 @@
     "Past voor vrijwel elk kind in deze situatie; drempel is laag.",
     "Krijgt het kind zelf klachten, dan is daarnaast eigen hulp nodig."
   ],
+  "sessie": "Een voorbeeld is de Tienergroep KOPP/KOV: zeven of acht jongeren met twee begeleiders, vaak op een gewone plek zoals een buurthuis. Elke bijeenkomst begint met bijpraten over de afgelopen week. Daarna komt een thema aan bod, zoals je rol in het gezin, grenzen aangeven of steun vragen, met gesprekjes in tweetallen, filmfragmenten, tekenopdrachten en rollenspel, afgewisseld met korte ontspannende spelletjes. In één bijeenkomst beantwoordt een psychiater vragen over de problemen van de ouder. Aan het eind plant ieder iets leuks voor zichzelf voor de komende week.",
+  "programmas": [
+    {
+      "naam": "Tienergroep en Jongerengroep KOPP/KOV",
+      "omschrijving": "Voor jongeren van 12 tot en met 15 jaar (8 bijeenkomsten) en van 16 tot en met 25 jaar (7 bijeenkomsten) met een ouder met psychische of verslavingsproblemen. Ouders van tieners komen één keer naar een ouderbijeenkomst.",
+      "url": "https://www.nji.nl/databanken/interventies/tienergroep-jongerengroep-koppkov"
+    },
+    {
+      "naam": "Piep zei de Muis",
+      "omschrijving": "Voor kinderen van 4 tot 8 jaar in een gezin met veel spanning door ziekte, psychische problemen of verslaving. Veertien bijeenkomsten voor de kinderen, met spel en ontspanning, en vier bijeenkomsten voor de ouders.",
+      "url": "https://www.nji.nl/databanken/interventies/piep-zei-muis"
+    },
+    {
+      "naam": "ME-WE veerkrachttraining",
+      "omschrijving": "Voor jonge mantelzorgers vanaf 14 jaar die zorgen voor, of zich zorgen maken om, een familielid of vriend met een ziekte, beperking of verslaving. Acht bijeenkomsten, half in het echt en half online, met opdrachten voor thuis.",
+      "url": "https://www.nji.nl/databanken/interventies/me-we-veerkrachttraining"
+    }
+  ],
+  "vraagt": "Vooraf is er een kennismakingsgesprek. Bij een tiener bent u daarbij, en geven beide ouders toestemming, ook dat uw kind in de groep over thuis mag praten. Uw kind beslist zelf of het meedoet en wordt dan bij alle bijeenkomsten verwacht; ouders van jongere kinderen en tieners gaan meestal ook naar een ouderbijeenkomst over hoe u met uw kind over de problemen thuis praat.",
+  "voortgang": "Meestal verandert eerst hoe uw kind over de situatie thuis denkt en of het steun durft te vragen; minder klachten kan langer duren. Bij de Tienergroep is er na twee tot drie maanden een terugkombijeenkomst. Heeft uw kind daarna nog veel last, zoals somberheid of angst, vraag de begeleider dan mee te zoeken naar eigen hulp: de groep is bedoeld om problemen te voorkomen, niet om ze te behandelen.",
+  "effect": "In Nederlands onderzoek bij 254 gezinnen met kinderen van 8 tot 12 jaar hadden kinderen na een KOPP/KOV-groep minder negatieve gedachten en zochten ze vaker steun dan kinderen zonder groep, direct na afloop en drie maanden later. Emotionele en gedragsproblemen namen bij kinderen met en zonder groep af. De programma's in de NJi-databank zijn zelf nog niet op effect onderzocht, en over groepen voor brusjes is weinig onderzoek gedaan, met wisselende uitkomsten.",
+  "vragen": [
+    "Welk programma is het, en hoe staat het in de databank van het NJi?",
+    "Past de groep bij de leeftijd van mijn kind en bij onze situatie: een zieke broer of zus, of een ouder met psychische problemen of een verslaving?",
+    "Wie begeleiden de groep, en hoeveel kinderen doen er mee?",
+    "Wat hoor ik als ouder van wat er in de groep gebeurt, en hoe word ik betrokken?",
+    "Wat doet u als blijkt dat mijn kind meer hulp nodig heeft dan de groep?"
+  ],
   "situaties": [
     "mantelzorg",
     "langdurig-ziek",
     "verstandelijke-beperking"
   ],
   "leeftijd": {
-    "van": 8,
+    "van": 4,
     "tot": 19
   },
   "bronnen": [
@@ -35,10 +63,49 @@
       "titel": "MantelzorgNL – Jonge mantelzorgers",
       "url": "https://www.mantelzorg.nl/onderwerpen/speciaal-voor/jonge-mantelzorgers/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn Kinderen van ouders met psychische en/of verslavingsproblemen (KOPP/KOV) – Interventies",
+      "url": "https://www.richtlijnenjeugdhulp.nl/koppkov/aanpak-en-interventies/interventies",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Tienergroep en Jongerengroep KOPP/KOV",
+      "url": "https://www.nji.nl/databanken/interventies/tienergroep-jongerengroep-koppkov",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving Tienergroep en Jongerengroep KOPP/KOV",
+      "url": "https://www.nji.nl/document/uitgebreide-beschrijving-tienergroep-jongerengroep-kopp-kov",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Piep zei de Muis",
+      "url": "https://www.nji.nl/databanken/interventies/piep-zei-muis",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – ME-WE veerkrachttraining",
+      "url": "https://www.nji.nl/databanken/interventies/me-we-veerkrachttraining",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Trimbos-instituut – Vernieuwde draaiboeken voor de KOPP/KOV Tiener- en Jongerengroep",
+      "url": "https://www.trimbos.nl/actueel/nieuws/volledig-vernieuwde-draaiboeken-voor-de-preventiecursus-van-de-kopp-kov-tiener-en-jongerengroep/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Van Santvoort e.a. (2014), Preventieve steungroepen voor kinderen van ouders met psychische of verslavingsproblemen – European Child & Adolescent Psychiatry",
+      "url": "https://doi.org/10.1007/s00787-013-0476-9",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Hartling e.a. (2014), Overzicht van steun voor broers en zussen van kinderen met een chronische ziekte of beperking – Journal of Paediatrics and Child Health",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20598075/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

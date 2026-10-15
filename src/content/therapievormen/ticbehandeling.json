@@ -3,9 +3,9 @@
   "soort": "gedragstherapie",
   "kort": "Leren de aandrang tot een tic te herkennen en er anders op te reageren.",
   "watIsHet": "Twee verwante methoden: bij habit reversal leert het kind een tic voelen aankomen en een tegenbeweging maken; bij exposure en responspreventie leert het de aandrang te verdragen zonder de tic uit te voeren. Beide gaan samen met uitleg aan ouders en school.",
-  "hoeWerktHet": "Tics zijn onwillekeurig, maar de aandrang ervoor is te leren herkennen. Door daar bewust mee om te gaan, nemen frequentie en hinder af. Onderdrukken zonder methode werkt averechts.",
+  "hoeWerktHet": "Tics zijn onwillekeurig, maar de aandrang ervoor is te leren herkennen. Door daar bewust mee om te gaan, nemen frequentie en hinder af. Met oefening leert het kind de aandrang te verdragen zonder de tic te doen.",
   "voorWie": "Kinderen vanaf ongeveer 8 jaar met hinderlijke tics of het syndroom van Gilles de la Tourette.",
-  "verwachting": "Meestal 10 tot 15 sessies, met oefenen thuis.",
+  "verwachting": "Meestal 8 tot 12 sessies, ongeveer eens per week.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "Gedragstherapie is de eerste keus bij tics; medicatie alleen bij ernstige hinder en op advies van een kinderpsychiater of neuroloog."
@@ -15,6 +15,31 @@
   "overwegingen": [
     "Alleen zinvol als de tics het kind zelf hinderen; lichte tics hebben vaak geen behandeling nodig, wel uitleg op school.",
     "Kinderen jonger dan 8 kunnen de aandrang meestal nog niet herkennen."
+  ],
+  "sessie": "Eerst krijgen u en uw kind uitleg over tics. Bij habit reversal kiest uw kind met de therapeut één tic en bestudeert die goed, bijvoorbeeld in de spiegel: hoe gaat de tic, en welk gevoel komt ervoor (het ticalarm, zoals kriebel of druk). Daarna leert het een tegenbeweging die niet tegelijk met de tic kan, zoals bij knipperen de ogen wijd open houden, en doet die zodra het de tic voelt aankomen. Bij exposure en responspreventie oefent uw kind om alle tics tegelijk zo lang mogelijk tegen te houden, met een stopwatch en steeds een nieuw record; later zoekt het juist dingen op die tics uitlokken, zoals een spannend spelletje. Aan het eind spreken jullie af wat uw kind thuis oefent.",
+  "programmas": [
+    {
+      "naam": "Habit reversal en CBIT",
+      "omschrijving": "De tics worden één voor één aangepakt met een tegenbeweging. CBIT is een uitgebreide vorm waarin ook ontspanningsoefeningen zitten en waarin wordt gekeken welke situaties thuis of op school de tics erger maken. Meestal 8 tot 10 sessies."
+    },
+    {
+      "naam": "Exposure en responspreventie bij tics",
+      "omschrijving": "Alle tics worden tegelijk aangepakt door ze steeds langer tegen te houden en het ticalarm te leren verdragen. Meestal 12 sessies. Kan beter passen bij een kind met veel verschillende tics."
+    },
+    {
+      "naam": "Via beeldbellen of online",
+      "omschrijving": "Dezelfde behandeling via beeldbellen, of een online programma waarin uw kind met hulp van u zelf oefent en de therapeut op afstand meekijkt. Handig als er geen behandelaar met ervaring in de buurt is. Dit is nog minder onderzocht dan behandeling in de praktijk."
+    }
+  ],
+  "vraagt": "Het is belangrijk dat uw kind zelf wil oefenen. Tussen de sessies oefent uw kind thuis met opdrachten, soms samen met u of met een app. Bij jonge kinderen doet u als ouder meer mee, bijvoorbeeld door minder op de tics te letten en ze niet te ontzien.",
+  "voortgang": "Na ongeveer tien sessies kijkt u samen met de behandelaar of de tics minder hinderen; ze helemaal laten verdwijnen is niet het doel. Tics wisselen vanzelf ook sterk, daarom kan het helpen de ernst al een paar maanden vóór de behandeling bij te houden. Helpt het niet genoeg, dan kan de behandelaar overstappen op de andere vorm (van habit reversal naar exposure of andersom), en pas daarna medicatie overwegen.",
+  "effect": "In Amerikaans onderzoek bij 126 kinderen van 9 tot 17 jaar ging na 8 sessies CBIT ruim de helft veel vooruit, tegen bijna 1 op de 5 kinderen die alleen uitleg en steunende gesprekken kregen; een half jaar later had bijna 9 op de 10 van die vooruitgegane kinderen er nog baat bij. In Nederlands onderzoek bij 43 kinderen en volwassenen met Tourette namen de tics bij habit reversal en exposure ongeveer even veel af. Minder onderzocht is behandeling bij kinderen onder de 9 jaar en via internet.",
+  "vragen": [
+    "Hoeveel ervaring heeft u met gedragstherapie bij tics bij kinderen?",
+    "Kiest u voor habit reversal of exposure, en waarom past dat bij mijn kind?",
+    "Hoe meten we of het helpt, en wanneer kijken we samen terug?",
+    "Wat oefent mijn kind thuis, en wat is mijn rol daarbij?",
+    "Speelt er ook iets anders, zoals ADHD, dwang of angst, en wat pakken we eerst aan?"
   ],
   "situaties": [
     "dwang-en-tics"
@@ -32,10 +57,44 @@
       "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie",
       "url": "https://www.kenniscentrum-kjp.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Kenniscentrum KJP – Tics, behandeling (professionals)",
+      "url": "https://kenniscentrum-kjp.nl/professionals/tics/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Andrén e.a. (2022), Europese richtlijn Tourette en andere ticstoornissen, deel II: psychologische behandeling – European Child & Adolescent Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34313861/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Piacentini e.a. (2010), Gedragstherapie (CBIT) bij kinderen met Tourette – JAMA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483969/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Verdellen e.a. (2004), Exposure en responspreventie versus habit reversal bij Tourette – Behaviour Research and Therapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15033497/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Andrén e.a. (2022), Online exposure en responspreventie bij kinderen met Tourette – JAMA Network Open",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35969401/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Hollis e.a. (2021), Online gedragstherapie voor tics met hulp van ouders (ORBIT) – Lancet Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34480868/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Bennett e.a. (2020), CBIT aangepast voor kinderen van 5 tot 8 jaar (CBIT-JR) – Behavior Therapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32586437/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

@@ -31,7 +31,6 @@ therapievormen:
       url: https://kenniscentrum-kjp.nl/professionals/boulimia-nervosa/
       geraadpleegd: "2026-10-14"
 volgorde: 20
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "Zorgstandaard Eetstoornissen"

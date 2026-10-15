@@ -30,7 +30,6 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/middelengebruik/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 22
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "Trimbos-instituut – Gameninfo: wat kun je doen bij een gameverslaving"

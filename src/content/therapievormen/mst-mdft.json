@@ -4,8 +4,8 @@
   "kort": "Intensieve behandeling voor jongeren met ernstige gedragsproblemen, verslaving of politiecontact.",
   "watIsHet": "Een behandelaar werkt enkele maanden intensief met de jongere, het gezin, school en vrienden tegelijk. MST richt zich op ernstig antisociaal gedrag; MDFT (multidimensionale familietherapie) vooral op jongeren met middelengebruik.",
   "hoeWerktHet": "Gedrag van jongeren wordt bepaald door alle systemen om hen heen. Door ouders meer grip te geven en school en vrienden erbij te betrekken, verandert de omgeving die het gedrag in stand houdt.",
-  "voorWie": "Jongeren van ongeveer 12 tot 18 jaar met ernstige gedragsproblemen, schooluitval, drugsgebruik of contact met politie, als lichtere hulp niet werkt en het moeilijk wordt om thuis te blijven wonen.",
-  "verwachting": "3 tot 6 maanden, meerdere contacten per week thuis en op school, 24 uur per dag bereikbaarheid van het team.",
+  "voorWie": "Jongeren van ongeveer 10 tot 18 jaar (MDFT vanaf 12) met ernstige gedragsproblemen, schooluitval, drugsgebruik of contact met politie, als lichtere hulp niet werkt en het moeilijk wordt om thuis te blijven wonen.",
+  "verwachting": "MST duurt gemiddeld 4 tot 5 maanden, MDFT ongeveer 6 maanden. De behandelaar komt meerdere keren per week, meestal bij u thuis. Bij MST kunt u dag en nacht een therapeut van het team bereiken.",
   "onderbouwing": {
     "label": "erkend",
     "toelichting": "MST en MDFT zijn erkend in de NJi-databank effectieve interventies en worden aanbevolen in de richtlijnen ernstige gedragsproblemen en middelengebruik."
@@ -16,12 +16,39 @@
     "Alleen bij ernstige problematiek; voor lichtere gedragsproblemen is oudertraining passender.",
     "Vereist dat minstens één ouder of verzorger de regie wil nemen."
   ],
+  "sessie": "De behandelaar komt op tijden die voor uw gezin passen, en gaat ook mee naar gesprekken op school, bij de sportclub of met de politie. Eerst zoekt u samen uit wat het gedrag van uw kind in stand houdt, thuis, op school en bij vrienden, en spreekt u doelen af. Daarna oefent u wat u anders gaat doen, bijvoorbeeld duidelijke huisregels maken en bijhouden waar uw kind is en met wie; bij MDFT gebeurt dat vaak in een rollenspel. Bij MDFT praat de therapeut ook apart met uw kind en apart met u, om een gesprek met het hele gezin voor te bereiden; uw kind oefent bijvoorbeeld nee zeggen als het drugs krijgt aangeboden. Tussen de afspraken door is er contact via telefoon of berichten.",
+  "programmas": [
+    {
+      "naam": "Multisysteemtherapie (MST)",
+      "omschrijving": "Voor jongeren van 10 tot en met 18 jaar met ernstige gedragsproblemen op meerdere plekken, zoals thuis, op school en op straat, die uit huis dreigen te worden geplaatst of al uit huis zijn. Uw kind hoeft zelf niet gemotiveerd te zijn; de behandeling werkt vooral via u als ouder.",
+      "url": "https://www.nji.nl/databanken/interventies/multisysteem-therapie-mst"
+    },
+    {
+      "naam": "Multidimensionele familietherapie (MDFT)",
+      "omschrijving": "Voor jongeren van 12 tot en met 24 jaar die alcohol of drugs gebruiken of strafbare feiten plegen, vaak samen met spijbelen of psychische problemen. Er zijn gesprekken met de jongere, met de ouders en met het gezin samen. Kan ook beginnen tijdens een verblijf in een instelling en daarna thuis doorlopen.",
+      "url": "https://www.nji.nl/databanken/interventies/multidimensionele-familietherapie-mdft"
+    },
+    {
+      "naam": "Aangepaste vormen van MST",
+      "omschrijving": "Er zijn ook vormen van MST voor gezinnen waar kindermishandeling of verwaarlozing speelt (MST-CAN), en voor jongeren met seksueel grensoverschrijdend gedrag (MST-PSB). Minder teams bieden deze vormen aan."
+    }
+  ],
+  "vraagt": "U bent als ouder de belangrijkste motor van de verandering: u voert de afspraken thuis uit, vaak dagelijks, zoals toezicht houden, belonen en grenzen stellen. Dat is zwaar, zeker als u al veel hulp heeft gehad; lukt het niet, zeg het dan, zodat de therapeut met u zoekt naar wat in de weg zit, soms eerst praktische zaken als huisvesting of eten. Bij MDFT voert ook uw kind zelf gesprekken met de therapeut en oefent het nieuwe vaardigheden.",
+  "voortgang": "De therapeut werkt met kleine tussendoelen die binnen dagen of weken haalbaar zijn, en bekijkt elke week met u of de doelen dichterbij komen. Werkt een aanpak niet, dan zoekt de therapeut opnieuw uit wat het gedrag in stand houdt en past het plan aan; dat hoort bij de behandeling. Aan het eind maakt u samen een plan om terugval te voorkomen, en bij MDFT zijn soms opfrisgesprekken mogelijk.",
+  "effect": "In Nederlands onderzoek bij 256 jongeren van gemiddeld 16 jaar met ernstige gedragsproblemen namen opstandig en agressief gedrag en diefstal na MST meer af dan na de gebruikelijke hulp, en volgens ouders en jongeren hield dat een half jaar na afloop stand; op geweld had MST geen extra effect. In Europees onderzoek, ook in Den Haag, bij 450 jongeren van 13 tot 18 jaar met ernstige problemen door blowen hielden jongeren MDFT vaker vol dan therapie met alleen de jongere, en waren in het jaar daarna minder jongeren verslaafd aan cannabis. In al het onderzoek samen zijn de verschillen met andere behandelingen klein; jongeren met de zwaarste problemen lijken het meest aan MDFT te hebben, en of leeftijd uitmaakt voor MST is nog onduidelijk.",
+  "vragen": [
+    "Bent u opgeleid in MST of MDFT, en werkt u in een team met vaste begeleiding?",
+    "Hoe bereik ik u of het team buiten kantoortijd?",
+    "Welke doelen spreken we af, en hoe zien we elke week of ze dichterbij komen?",
+    "Wat verwacht u van mij thuis, en wat doen we als me dat niet lukt?",
+    "Wat kunnen we doen als het na de behandeling weer misgaat?"
+  ],
   "situaties": [
     "gedragsproblemen",
     "verslaving-en-gamen"
   ],
   "leeftijd": {
-    "van": 12,
+    "van": 10,
     "tot": 19
   },
   "bronnen": [
@@ -34,10 +61,59 @@
       "titel": "Richtlijn Middelengebruik (jeugdhulp)",
       "url": "https://www.richtlijnenjeugdhulp.nl/middelengebruik/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "NJi – Multidimensionele familietherapie (MDFT)",
+      "url": "https://www.nji.nl/databanken/interventies/multidimensionele-familietherapie-mdft",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving Multisysteem Therapie (MST)",
+      "url": "https://www.nji.nl/system/files/2022-05/MST.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving Multidimensionele familietherapie (MDFT)",
+      "url": "https://www.nji.nl/system/files/2021-04/Uitgebreide-beschrijving-MDFT.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Ernstige gedragsproblemen – Ambulante interventies bij jongeren vanaf 12 jaar",
+      "url": "https://www.richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/aanpak-en-interventies/ambulante-interventies-bij-jongeren-vanaf-12",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Middelengebruik – Effectieve interventies",
+      "url": "https://www.richtlijnenjeugdhulp.nl/middelengebruik/aanpak-en-interventies/effectieve-interventies",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Asscher e.a. (2013), MST in Nederland: gerandomiseerd onderzoek – Journal of Experimental Criminology",
+      "url": "https://research.vu.nl/en/publications/66f15db1-5877-4731-9af4-056a122e1bd9",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Asscher e.a. (2014), Blijvende effecten van MST in Nederland – Journal of Experimental Criminology",
+      "url": "https://dspace.library.uu.nl/handle/1874/305086",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Van der Stouwe e.a. (2014), De effectiviteit van MST: een meta-analyse – Clinical Psychology Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25047448/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rigter e.a. (2013), MDFT bij jongeren met cannabisproblemen in West-Europa (INCANT) – Drug and Alcohol Dependence",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23140805/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Van der Pol e.a. (2017), De effectiviteit van MDFT: een meta-analyse – Journal of Child Psychology and Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28121012/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

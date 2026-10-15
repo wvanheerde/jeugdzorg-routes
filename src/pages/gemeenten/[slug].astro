@@ -46,11 +46,7 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
     </div>
   </div>
 
-  {d.meta.status === 'voorbeeld' && (
-    <div class="notice"><Icon name="alert" /><div>Voor {d.naam} hebben we de details nog niet uitgezocht. Het algemene nummer en de website van de gemeente kloppen: vraag daar naar jeugdhulp. Wat hieronder staat, geldt in elke gemeente.</div></div>
-  )}
-
-  {d.meta.status !== 'voorbeeld' && wijkteam && toegangContact && (
+  {wijkteam && toegangContact && (
     <div class="eerste-contact kaart-boven">
       <h2 class="h3-maat">Hier meldt u zich in {d.naam}: {wijkteam.naam}</h2>
       {!/wijkteam/i.test(wijkteam.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}

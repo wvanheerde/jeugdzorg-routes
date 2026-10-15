@@ -5,16 +5,41 @@
   "watIsHet": "Een gestructureerd behandelprogramma bij een gespecialiseerde praktijk, na diagnostisch onderzoek. Het kind oefent wekelijks met een behandelaar en dagelijks kort thuis; school stemt af.",
   "hoeWerktHet": "Dyslexie gaat niet over, maar de leesvaardigheid en vooral de spelling verbeteren met systematisch oefenen van klank-tekenkoppelingen en strategieën. Daarnaast leert het kind hulpmiddelen gebruiken.",
   "voorWie": "Basisschoolkinderen van 7 tot 13 jaar met vastgestelde ernstige dyslexie, na minstens een half jaar extra hulp op school.",
-  "verwachting": "Ongeveer 40 tot 60 wekelijkse sessies van 45 tot 60 minuten over één tot anderhalf jaar, plus dagelijks 10 tot 15 minuten oefenen thuis.",
+  "verwachting": "Eén sessie per week met een gespecialiseerde behandelaar, meestal 14 tot 20 maanden; de helft van de kinderen heeft 45 tot 65 sessies. U en school worden bij de behandeling betrokken.",
   "onderbouwing": {
     "label": "richtlijn",
-    "toelichting": "Vergoede dyslexiezorg volgt het landelijke protocol en wordt alleen geleverd door praktijken die zijn aangesloten bij het Nederlands Kwaliteitsinstituut Dyslexie."
+    "toelichting": "Vergoede dyslexiezorg volgt het landelijke Protocol Dyslexie Diagnostiek en Behandeling (versie 3.0). Vrijwel alle praktijken met een contract bij de gemeente zijn gecertificeerd door het Nederlands Kwaliteitsinstituut Dyslexie (NKD)."
   },
-  "vergoeding": "Jeugdwet (gemeente), mits school een leerlingdossier aanlevert en de praktijk NKD-gecontracteerd is. Onderzoek na 13 jaar of buiten de criteria is voor eigen rekening.",
+  "vergoeding": "Jeugdwet (gemeente), mits school een leerlingdossier aanlevert en de praktijk een contract met de gemeente heeft (vrijwel altijd NKD-gecertificeerd). Onderzoek na 13 jaar of buiten de criteria is voor eigen rekening.",
   "aanvragen": "Vraag school om het leerlingdossier op te stellen en in te dienen bij een gecontracteerde praktijk; vraag de gemeente of het wijkteam welke praktijken gecontracteerd zijn.",
   "overwegingen": [
     "De leeftijdsgrens maakt tijdig starten belangrijk.",
     "Een andere diagnose zoals ADHD is sinds de regeling 'ernstige dyslexie' geen uitsluitingsgrond meer."
+  ],
+  "sessie": "De behandeling begint met uitleg aan uw kind en aan u over wat dyslexie is en wat de behandeling inhoudt. Daarna werkt uw kind elke week met de behandelaar, grotendeels op de computer, stap voor stap door vaste onderdelen: klanken in woorden horen en aan letters koppelen, regels om woorden goed te spellen, en woorden herkennen die heel kort op het scherm verschijnen. Uw kind leest hardop en schrijft, zodat de behandelaar meteen kan bijsturen. Pas als een onderdeel goed gaat, komt het volgende. Waar nodig is er ook aandacht voor hoe uw kind zich voelt, bijvoorbeeld faalangst of een laag zelfbeeld.",
+  "programmas": [
+    {
+      "naam": "Behandeling op de praktijk",
+      "omschrijving": "De gewone vorm: uw kind komt elke week naar de praktijk. Het protocol heeft hier een voorkeur voor, omdat het onderzoek naar de behandeling vooral in deze vorm is gedaan."
+    },
+    {
+      "naam": "Behandeling op school",
+      "omschrijving": "De behandelaar van de praktijk komt naar school. Uw kind mist zo minder les en overleg met de leerkracht is makkelijker. U moet er wel bij kunnen zijn, en de behandeling loopt ook in de schoolvakanties door."
+    },
+    {
+      "naam": "Online behandeling",
+      "omschrijving": "Uw kind werkt thuis achter de computer, samen met de behandelaar op afstand. Bedoeld voor als naar de praktijk komen lastig is, bijvoorbeeld door ziekte, een handicap of een grote afstand. In Nederlands onderzoek bij ruim 400 kinderen gingen kinderen online per sessie evenveel vooruit als op de praktijk."
+    }
+  ],
+  "vraagt": "U bent meestal de oefenpartner: op de andere schooldagen oefent u kort met uw kind, met materiaal van de behandelaar. Dat vraagt ruim een jaar volhouden, ook op dagen dat uw kind geen zin heeft; lukt het oefenen thuis niet, zeg het dan op tijd, dan zoekt u samen een oplossing. Wordt er vaak niet geoefend of zijn er veel afzeggingen, dan kan de behandelaar de behandeling stoppen.",
+  "voortgang": "Meestal wordt het lezen eerst vooral nauwkeuriger; sneller lezen komt vaak pas in de tweede helft van de behandeling. Elke 20 sessies, ongeveer elke vijf maanden, meet de behandelaar de voortgang, en een half jaar tot een jaar na afloop volgt nog een controle. Gaat het moeizaam, dan kijkt de behandelaar opnieuw naar de diagnose en het plan; soms helpt wat langer behandelen, en blijft vooruitgang echt uit, dan kan de behandeling stoppen en gaat het verder over leren omgaan met de dyslexie, bijvoorbeeld met hulpmiddelen.",
+  "effect": "In Nederlands onderzoek bij 44 kinderen van 8 en 9 jaar met dyslexie lazen en spelden kinderen na 34 sessies in vijf maanden duidelijk beter dan kinderen op de wachtlijst; in ouder onderzoek bleef het bereikte leesniveau vier jaar na afloop behouden, terwijl de spelling na een jaar iets terugzakte. Wel lezen kinderen daarna vaak nog trager dan klasgenoten: bij 80 kinderen die een jaar behandeling hadden gehad, was dat een jaar later nog zo, en daarom blijft hulp van school nodig. Bij kinderen die ook ADHD hebben is minder onderzocht; een klein onderzoek bij 32 kinderen vond bij het lezen dezelfde vooruitgang.",
+  "vragen": [
+    "Heeft uw praktijk een contract met onze gemeente, en bent u gecertificeerd door het NKD?",
+    "Wat staat er in het behandelplan over lezen en spellen, en over hoe mijn kind zich voelt?",
+    "Hoe en hoe vaak oefenen we thuis, en wat doen we als dat niet lukt?",
+    "Wanneer meet u de voortgang, en wat gebeurt er als mijn kind weinig vooruitgaat?",
+    "Hoe stemt u af met school, en welke hulp en hulpmiddelen heeft mijn kind na afloop nodig?"
   ],
   "situaties": [
     "leerstoornissen"
@@ -33,10 +58,54 @@
       "titel": "Nederlands Kwaliteitsinstituut Dyslexie",
       "url": "https://www.nkd.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Protocol Dyslexie Diagnostiek en Behandeling 3.0 (NKD, 2022)",
+      "url": "https://www.nkd.nl/app/uploads/2022/03/Protocol-Dyslexie-Diagnostiek-en-Behandeling-3.0-versie-1.0.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NKD – Veelgestelde vragen (o.a. duur en intensiteit van de behandeling)",
+      "url": "https://www.nkd.nl/alle-veelgestelde-vragen/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NKD – Vergoede zorg",
+      "url": "https://www.nkd.nl/clienten/vergoede-zorg/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Brede vakinhoudelijke richtlijn dyslexie – info voor ouders (NIP, NVO, NKD, LBRT, 2021)",
+      "url": "https://www.nkd.nl/app/uploads/2021/12/Richtlijn-Dyslexie_info-voor-ouders_V1-2021.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Fraga González e.a. (2015), gerandomiseerd onderzoek naar dyslexiebehandeling bij kinderen van 8 en 9 jaar – PLoS One",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26629707/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Tijms e.a. (2003), langetermijneffecten van een behandeling voor dyslexie – Journal of Research in Reading",
+      "url": "https://doi.org/10.1111/1467-9817.00191",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Van der Kleij e.a. (2017), leesniveau een jaar na dyslexiebehandeling – Dyslexia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28691254/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Verwimp e.a. (2024), online dyslexiebehandeling even effectief als op de praktijk – Annals of Dyslexia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38206491/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Verwimp e.a. (2026), dyslexiebehandeling bij kinderen met ook ADHD – Dyslexia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41920745/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

@@ -1,12 +1,12 @@
 ---
 name: gemeente-onderzoeker
-description: Onderzoekt één gemeente en schrijft src/content/gemeenten/<slug>.json uit van kaal scaffold (status voorbeeld) naar een onderzochte pagina (status concept). Gebruik één agent per gemeente; geef in de prompt de gemeentenaam, de slug en het scratchpad-pad mee.
+description: Onderzoekt één gemeente en schrijft src/content/gemeenten/<slug>.json uit van kaal scaffold naar een onderzochte pagina. Gebruik één agent per gemeente; geef in de prompt de gemeentenaam, de slug en het scratchpad-pad mee.
 model: sonnet
 ---
 
 # Opdracht: één gemeente onderzoeken en uitschrijven (Jeugdzorg Routes)
 
-Je krijgt één gemeente. Het bestand `src/content/gemeenten/<slug>.json` is een kaal scaffold (`meta.status: "voorbeeld"`) met alleen landelijke regels. Jij vervangt het door een onderzochte pagina met `meta.status: "concept"`. De lezer is een ouder die wil weten hoe hij of zij in deze gemeente aan jeugdhulp komt, wat er mag en wat er speelt.
+Je krijgt één gemeente. Het bestand `src/content/gemeenten/<slug>.json` is een kaal scaffold met alleen landelijke regels. Jij vervangt het door een onderzochte pagina. De lezer is een ouder die wil weten hoe hij of zij in deze gemeente aan jeugdhulp komt, wat er mag en wat er speelt.
 
 Bepaal eerst de datum van vandaag (`date +%F`). Gebruik die voor `geraadpleegd`, `laatstGecontroleerd` en `laatstBijgewerkt`. De `datum` van een signaal is de datum uit de bron zelf (raadsvergadering, publicatie). Ken je alleen de maand, schrijf dan `JJJJ-MM`; verzin geen dag.
 
@@ -138,7 +138,7 @@ Schrijf meteen volgens "Gemeenten: schrijven voor ouders" in CONTENT.md, ook "Be
 ## 8. Afronden
 1. `node scripts/validate-content.mjs` moet slagen. Draai geen `npm install`, `npm ci` of build: andere agents werken tegelijk en `node_modules` wordt gedeeld met de Mac van de gebruiker.
 2. Werk alleen in je eigen gemeentebestand. Tijdelijke bestanden (downloads, pdf's, html) alleen in de scratchpad die je hebt gekregen, met de slug in de bestandsnaam (de map wordt gedeeld). **Nooit in de projectmap zelf**: geef bij `curl -o` en dergelijke altijd het volledige scratchpad-pad op.
-3. Geen git-commando's die iets wijzigen. Status nooit op `gecontroleerd`.
+3. Geen git-commando's die iets wijzigen.
 4. Rapport aan de hoofdagent, hooguit 15 regels:
    - toegangsteam en jeugdzorgregio; Beschikbaarheidswijzer ja/nee;
    - de drie transparantie-uitkomsten (met CBS-percentage, jaar en de ruwe aantallen uit het script);

@@ -31,7 +31,6 @@ therapievormen:
     - id: mindfulness-kinderen
   toelichting: "Geen richtlijn. Volgorde naar de situatie: uitleg voor kind en omgeving, dan hulp bij onderpresteren (plannen, beginnen), dan sociaal en emotioneel; ACT en mindfulness bij faalangst of perfectionisme."
 volgorde: 18
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "Kenniscentrum Hoogbegaafdheid (SLO)"

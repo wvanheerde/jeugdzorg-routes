@@ -29,7 +29,6 @@ therapievormen:
     - id: speltherapie-beeldend
   toelichting: "Geen richtlijn. ACT voor jongeren die leren leven met ziekte of pijn; groepen voor broers en zussen; daarna gezinsgerichte en speltherapie."
 volgorde: 2
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: Kind en Ziekenhuis

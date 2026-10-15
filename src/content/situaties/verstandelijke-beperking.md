@@ -25,6 +25,7 @@ therapievormen:
   eerst:
     - id: psycho-educatie
     - id: oudertraining
+    - id: probleemgedrag-verstandelijke-beperking
     - id: ouder-kindtherapie-hechting
   ook:
     - id: logopedie-tos
@@ -34,7 +35,7 @@ therapievormen:
     - id: sensorische-informatieverwerking
     - id: zindelijkheidstraining
     - id: groepen-jonge-mantelzorgers
-  toelichting: "Geen eigen jeugdrichtlijn. Volgorde: uitleg en ouderhulp, aandacht voor gehechtheid (richtlijn noemt screening bij een verstandelijke beperking), dan communicatie en vaktherapie; de rest bij een specifiek probleem of voor broers en zussen."
+  toelichting: "Geen eigen jeugdrichtlijn. Volgorde: uitleg en ouderhulp; bij gedrag dat vastloopt eerst uitzoeken wat het gedrag betekent, met een aanpak die past bij wat het kind kan (de richtlijn Ernstige gedragsproblemen raadt aangepaste interventies aan); aandacht voor gehechtheid (richtlijn noemt screening bij een verstandelijke beperking), dan communicatie en vaktherapie; de rest bij een specifiek probleem of voor broers en zussen."
   bronnen:
     - titel: "Richtlijn Problematische gehechtheid: kernaanbevelingen"
       url: https://richtlijnenjeugdhulp.nl/problematische-gehechtheid/kernaanbevelingen
@@ -42,8 +43,10 @@ therapievormen:
     - titel: "Richtlijn ASS kinderen/jeugd: Interventies verstandelijke beperking en autisme"
       url: https://richtlijnendatabase.nl/richtlijn/autismespectrumstoornis_bij_kinderen_jeugd/interventies_verstandelijke_beperking_en_autisme.html
       geraadpleegd: "2026-10-14"
+    - titel: "Richtlijn Ernstige gedragsproblemen: lvb bij het kind en/of de ouders"
+      url: https://www.richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/aanpak-en-interventies/lvb-bij-het-kind-en-of-de-ouders
+      geraadpleegd: "2026-10-15"
 volgorde: 14
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: Sien – Ouders van kinderen met een verstandelijke beperking

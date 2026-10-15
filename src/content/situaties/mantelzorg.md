@@ -31,7 +31,6 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/koppkov/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 17
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "MantelzorgNL – Jonge mantelzorgers"

@@ -1,4 +1,4 @@
-// Maakt een kaal gemeentebestand (status 'voorbeeld') voor elke Nederlandse gemeente
+// Maakt een kaal gemeentebestand voor elke Nederlandse gemeente
 // die nog geen bestand heeft in src/content/gemeenten. Bestaande bestanden worden nooit overschreven.
 //
 // Bron: scripts/data/gemeenten-register.json (uittreksel uit het Register van Overheidsorganisaties,
@@ -106,7 +106,6 @@ const skelet = (g) => ({
   ],
   meta: {
     laatstGecontroleerd: vandaag,
-    status: 'voorbeeld',
     bronnen: [
       { titel: 'Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)', url: 'https://organisaties.overheid.nl/', geraadpleegd: register.geraadpleegd },
     ],

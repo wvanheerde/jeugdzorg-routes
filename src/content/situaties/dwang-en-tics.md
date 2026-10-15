@@ -32,7 +32,6 @@ therapievormen:
       url: https://kenniscentrum-kjp.nl/professionals/tics/
       geraadpleegd: "2026-10-14"
 volgorde: 21
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "ADF stichting – angst, dwang en fobie"

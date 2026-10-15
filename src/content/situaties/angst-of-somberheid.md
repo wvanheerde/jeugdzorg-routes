@@ -41,7 +41,6 @@ therapievormen:
       url: https://kenniscentrum-kjp.nl/professionals/depressie/
       geraadpleegd: "2026-10-14"
 volgorde: 12
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: NJi – Angst

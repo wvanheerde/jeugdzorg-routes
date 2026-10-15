@@ -5,16 +5,44 @@
   "watIsHet": "Vaktherapieën waarin het kind via spel of beeldend werk laat zien wat het bezighoudt. De therapeut sluit daarbij aan en helpt het kind ervaringen te ordenen en gevoelens te uiten.",
   "hoeWerktHet": "Jonge kinderen en kinderen met weinig taal verwerken via spel. Spel is hun taal; de therapeut leest die en helpt het kind verder. Beeldend werk doet hetzelfde voor oudere kinderen.",
   "voorWie": "Jonge kinderen (ongeveer 4 tot 12 jaar) na verlies, scheiding, ziekte of ingrijpende gebeurtenissen; kinderen met weinig taal of een verstandelijke beperking; kinderen met TOS.",
-  "verwachting": "Wekelijkse sessies van 45 minuten, meestal 10 tot 20, met oudergesprekken om de paar sessies.",
+  "verwachting": "Meestal elke week een sessie, met om de paar sessies een gesprek met u. Hoe lang het duurt verschilt sterk: van een paar maanden tot ongeveer een jaar.",
   "onderbouwing": {
     "label": "gangbaar",
-    "toelichting": "Vaktherapie valt onder de generieke module Vaktherapie van de GGZ-standaarden; de FVB bewaakt opleiding en registratie. Bewijs is beperkter dan bij CGT en EMDR."
+    "toelichting": "Vaktherapie valt onder de generieke module Vaktherapie van de GGZ-standaarden; Vaktherapie Nederland (voorheen FVB) bewaakt opleiding en registratie. Bewijs is beperkter dan bij CGT en EMDR."
   },
   "vergoeding": "Jeugdwet (gemeente) met beschikking of verwijzing; soms via school (samenwerkingsverband).",
-  "aanvragen": "Vraag om speltherapie of beeldende therapie door een FVB-geregistreerde vaktherapeut, en benoem dat uw kind te jong is of te weinig taal heeft voor gesprekstherapie.",
+  "aanvragen": "Vraag om speltherapie of beeldende therapie door een vaktherapeut uit het Register Vaktherapie, en benoem dat uw kind te jong is of te weinig taal heeft voor gesprekstherapie.",
   "overwegingen": [
     "Goede eerste stap bij jonge kinderen; bij trauma kan EMDR daarnaast of daarna.",
     "Vraag naar een concreet doel en evaluatiemoment, zodat het geen open einde wordt."
+  ],
+  "sessie": "De eerste 3 tot 5 sessies zijn om te wennen aan de speelkamer en aan de therapeut; de therapeut ziet dan wat uw kind bezighoudt. Daarna maakt de therapeut samen met u een behandelplan met doelen. In de sessies speelt uw kind en volgt de therapeut het spel, terwijl die hardop zegt wat er gebeurt. Wat uw kind bezighoudt, komt vaak een paar keer terug in het spel; zo verwerkt het dat. Bij beeldende therapie tekent, schildert of kleit uw kind, of werkt het met hout of textiel; het werkstuk is iets tastbaars waar het later naar kan terugkijken.",
+  "programmas": [
+    {
+      "naam": "Speltherapie waarin uw kind leidt",
+      "omschrijving": "Uw kind kiest zelf waarmee het speelt. De therapeut volgt het spel en zegt hardop wat er gebeurt.",
+      "url": "https://www.vaktherapie.nl/speltherapie"
+    },
+    {
+      "naam": "Speltherapie met ouder en kind samen",
+      "omschrijving": "Als het contact tussen u en uw kind vastloopt, bijvoorbeeld na nare ervaringen of een scheiding, kan de speltherapeut u en uw kind helpen om samen weer fijne ervaringen op te doen. Zo groeit het vertrouwen weer.",
+      "url": "https://www.speltherapie.net/ouders-en-verzorgers"
+    },
+    {
+      "naam": "Beeldende therapie",
+      "omschrijving": "Werken met tekenen, schilderen, klei, hout, textiel of digitale middelen. De therapeut volgt uw kind of geeft juist een opdracht of thema, afhankelijk van wat uw kind nodig heeft.",
+      "url": "https://www.vaktherapie.nl/beeldende-therapie"
+    }
+  ],
+  "vraagt": "Uw kind hoeft niet te praten en ook niet goed te kunnen tekenen of spelen. Van u wordt gevraagd dat u naar de oudergesprekken komt en vertelt wat u thuis ziet; speltherapie helpt het meest als u er nauw bij betrokken bent. Tussen de sessies kan uw kind nieuw gedrag uitproberen; dat kan spannend voelen, en dat kunt u met de therapeut bespreken.",
+  "voortgang": "Hoe snel u verschil merkt, verschilt per kind; in de evaluatiegesprekken kijkt u samen of de doelen uit het behandelplan dichterbij komen. Speelt uw kind minder heftig en zijn de klachten minder of weg, dan is het tijd om af te ronden. Ziet u na een paar evaluaties geen verandering, bespreek dan of een ander doel, een andere aanpak of een andere behandeling beter past.",
+  "effect": "Volgens de zorgstandaard Vaktherapie zijn er steeds meer aanwijzingen dat vaktherapie kan helpen. In overzichten van tientallen onderzoeken gingen kinderen met speltherapie meer vooruit dan kinderen zonder, het meest als ouders meededen; bij beeldende therapie vond een overzicht uit 2020 van 37 onderzoeken gunstige uitkomsten. Welke onderdelen precies helpen, is nog minder onderzocht.",
+  "vragen": [
+    "Staat u in het Register Vaktherapie, en bent u opgeleid als speltherapeut of beeldend therapeut?",
+    "Welke doelen zetten we in het behandelplan, en wanneer evalueren we samen?",
+    "Hoe vaak hebben we oudergesprekken, en wat kan ik thuis doen?",
+    "Hoe meet u of het helpt, bijvoorbeeld met een vragenlijst aan het begin en aan het eind?",
+    "Neemt u contact op met school, en wat bespreekt u daar?"
   ],
   "situaties": [
     "scheiding",
@@ -38,10 +66,54 @@
       "titel": "Federatie Vaktherapeutische Beroepen",
       "url": "https://fvb.vaktherapie.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "NVVS (Nederlandse Vereniging van Speltherapeuten) – Wat is speltherapie?",
+      "url": "https://www.speltherapie.net/wat-is-speltherapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NVVS – Ouders en verzorgers",
+      "url": "https://www.speltherapie.net/ouders-en-verzorgers",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NVVS – Verwijzers (registratie en kwaliteit)",
+      "url": "https://www.speltherapie.net/verwijzers",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Vaktherapie Nederland – Speltherapie",
+      "url": "https://www.vaktherapie.nl/speltherapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Vaktherapie Nederland – Beeldende therapie",
+      "url": "https://www.vaktherapie.nl/beeldende-therapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Vaktherapie Nederland – Wat is vaktherapie (veelgestelde vragen)",
+      "url": "https://www.vaktherapie.nl/vaktherapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Bratton e.a. (2005), De werkzaamheid van speltherapie bij kinderen: meta-analyse – Professional Psychology: Research and Practice",
+      "url": "https://doi.org/10.1037/0735-7028.36.4.376",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Lin & Bratton (2015), Meta-analyse van speltherapie waarin het kind leidt – Journal of Counseling & Development",
+      "url": "https://doi.org/10.1002/j.1556-6676.2015.00180.x",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Bosgraaf e.a. (2020), Beeldende therapie bij kinderen en jongeren met psychosociale problemen: systematisch overzicht – Frontiers in Psychology",
+      "url": "https://doi.org/10.3389/fpsyg.2020.584685",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

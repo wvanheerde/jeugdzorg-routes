@@ -57,7 +57,7 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
           <TherapieToelichting />
           <div class="grid">
             {therapie.map((t) => {
-              const zin = `Wij vragen om ${inZin(t.data.naam)}. ${t.data.kort} ${t.data.onderbouwing.label === 'richtlijn' ? 'Deze vorm wordt aanbevolen in de richtlijn.' : t.data.onderbouwing.label === 'erkend' ? 'Deze vorm is erkend door het Nederlands Jeugdinstituut.' : ''} Wij denken dat dit past omdat [leg uit wat u ziet en waarom deze vorm daarbij aansluit].`;
+              const zin = `Wij vragen om ${inZin(t.data.naam)}. ${t.data.kort} ${t.data.onderbouwing.label === 'richtlijn' ? 'Deze vorm wordt aanbevolen in de richtlijn.' : t.data.onderbouwing.label === 'erkend' ? 'Deze vorm is erkend door het Nederlands Jeugdinstituut.' : t.data.onderbouwing.label === 'onderbouwd' ? 'Deze vorm staat als goed onderbouwd in de databank van het Nederlands Jeugdinstituut.' : ''} Wij denken dat dit past omdat [leg uit wat u ziet en waarom deze vorm daarbij aansluit].`;
               return (
                 <div class="card therapie-keuze" data-situaties={t.data.situaties.join(' ')} hidden>
                   <h3 style="margin-top:0">{t.data.naam}</h3>

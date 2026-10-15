@@ -74,7 +74,6 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
 3. Bij acute situaties staat de verwijzing naar de professional vóór het gedragsadvies, nooit erna.
 4. Geen absolute woorden: niet "werkt" maar "wordt aanbevolen" of "kan helpen"; niet "voorkomt" maar "helpt voorkomen".
 5. Bronlink inline, subtiel, aan het eind van de zin: ` <sup><a class="bron" href="URL" target="_blank" rel="noopener">bron</a></sup>`. Alleen officiële bronnen: richtlijnenjeugdhulp.nl, ggzstandaarden.nl, nji.nl, de betrokken landelijke organisatie.
-6. Een mens zet de status op `gecontroleerd`; een agent nooit.
 
 ## Situaties: routes
 
@@ -93,11 +92,15 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
 ## Therapievormen
 
 - Doel: ouders laten begrijpen welke vormen bestaan, zodat zij een onderbouwde wens kunnen formuleren richting gemeente of verwijzer. Geen behandeladvies, geen ranglijst.
-- Vormen uit een zorgstandaard, jeugdhulprichtlijn of de NJi-databank krijgen `onderbouwing.label` richtlijn of erkend. Regelmatig toegepaste vormen met minder of omstreden bewijs mogen erin met het label `gangbaar`, mits de toelichting eerlijk zegt wat de richtlijn ervan vindt (zie neurofeedback). Zo weet een ouder wat wordt aangeboden én hoe het is onderbouwd.
-- **Nooit** namen van behandelaars, praktijken of commerciële aanbieders. Beroepsverenigingen en registers (VGCt, NVRG, FVB, NVPMKT, NKD) mogen wel, als vindplaats.
+- Vormen uit een zorgstandaard, jeugdhulprichtlijn of de NJi-databank krijgen `onderbouwing.label` richtlijn of erkend. `erkend` alleen als het NJi de vorm effectief vindt (eerste, goede of sterke aanwijzingen); staat er alleen "goed onderbouwd", gebruik dan `onderbouwd`. In de toelichting mag een verwijzing naar een andere vorm als `[tekst](/therapievormen/slug/)`. Regelmatig toegepaste vormen met minder of omstreden bewijs mogen erin met het label `gangbaar`, mits de toelichting eerlijk zegt wat de richtlijn ervan vindt. Zo weet een ouder wat wordt aangeboden én hoe het is onderbouwd. Een vorm die de richtlijn niet aanbeveelt omdat goed onderzoek geen effect vindt (zoals neurofeedback bij ADHD), krijgt geen eigen pagina; noem dat zo nodig in de `toelichting` van de situatie.
+- **Nooit** namen van behandelaars, praktijken of commerciële aanbieders. Beroepsverenigingen en registers (VGCt, NVRG, Vaktherapie Nederland, NVPMT, NKD) mogen wel, als vindplaats.
 - Vaste velden: wat is het, hoe werkt het, voor wie, wat kunt u verwachten (duur, frequentie, rol ouders), onderbouwing, vergoeding, hoe aanvragen, overwegingen (wanneer wel/niet). Minstens één officiële bron.
 - `leeftijd` (van/tot in jaren, tot exclusief) alleen invullen als de vorm echt leeftijdsgebonden is; het overzicht verbergt vormen buiten de gekozen leeftijdsband.
 - Medicatie wordt niet als therapievorm beschreven; alleen hoe het gesprek erover hoort te gaan.
+- Verdieping (optioneel, alleen op de eigen pagina, niet op de kaarten): `sessie` (wat er in de kamer gebeurt), `programmas` (varianten of programma's, geen aanbieders), `vraagt` (wat het van kind en gezin vraagt, ook tussen de sessies), `voortgang` (wanneer u verschil merkt, en wat als dat uitblijft), `effect` (wat onderzoek laat zien: om hoeveel kinderen het ging, hoe snel, hoe blijvend, en wat nog weinig onderzocht is) en `vragen` (voor de behandelaar). Alleen wat een richtlijn, het NJi, een beroepsvereniging of gepubliceerd onderzoek zegt, met de bron in `bronnen`. Cijfers altijd met de groep erbij ("bij 103 kinderen van 8 tot 18 jaar"). Voorbeeld: `emdr.json`.
+  - Kort: `verwachting`, `vraagt`, `voortgang` en `effect` elk twee tot drie zinnen; `sessie` hooguit vijf; `programmas` hooguit drie; `vragen` hooguit vijf. Niets herhalen dat al in een ander veld staat.
+  - Vaktermen en namen van andere behandelingen in een paar woorden uitleggen ("schrijftherapie, waarbij het kind opschrijft wat er gebeurde"). Alleen naar een andere therapievorm op de site verwijzen als het echt dezelfde behandeling is.
+  - Geen detailcijfers die een ouder niet helpen kiezen (effectgroottes, behandeltijd in minuten). Wel: hoeveel kinderen vooruitgaan, na hoeveel sessies, hoe blijvend, en voor wie het minder onderzocht is.
 
 ## Voorbeeldbrieven
 
@@ -120,12 +123,11 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
 
 ## Een gemeente toevoegen of bijwerken
 
-Alle 342 gemeenten hebben een bestand. Kale bestanden (status `voorbeeld`) zijn gemaakt met `npm run scaffold` uit `scripts/data/gemeenten-register.json` (uittreksel van het Register van Overheidsorganisaties: naam, CBS-code, provincie, website, telefoon). Het script slaat bestaande bestanden over; na een herindeling: register bijwerken en opnieuw draaien. Een kale pagina bevat alleen landelijke regels; onderzoek vult de lokale invulling in en zet de status op `concept`.
+Alle 342 gemeenten hebben een bestand. Kale bestanden zijn gemaakt met `npm run scaffold` uit `scripts/data/gemeenten-register.json` (uittreksel van het Register van Overheidsorganisaties: naam, CBS-code, provincie, website, telefoon). Het script slaat bestaande bestanden over; na een herindeling: register bijwerken en opnieuw draaien. Een kale pagina bevat alleen landelijke regels; onderzoek vult de lokale invulling in. Een kaal bestand herkent u aan `meta.opmerkingen` dat begint met "Automatisch aangemaakt".
 
 1. Kopieer `src/content/gemeenten/amsterdam.json` naar `<slug>.json` (kebab-case, bv. `den-haag.json`).
 2. Vul alle secties in; houd de volgorde en sleutels exact aan.
-3. Zet `meta.status` op `concept` als de bronnen zijn geraadpleegd, op `gecontroleerd` als een mens de pagina heeft nagekeken.
-4. Vul `meta.laatstGecontroleerd` en `meta.bronnen` (met `geraadpleegd`-datum).
+3. Vul `meta.laatstGecontroleerd` en `meta.bronnen` (met `geraadpleegd`-datum).
 5. Draai `npm run validate && npm run build`.
 
 ## Instructies voor een agent
@@ -144,6 +146,5 @@ Onderzoek en redactie van gemeenten lopen via vaste subagents: `.claude/agents/g
 - **Spoed: alleen landelijk, plus een link naar de gemeente.** Een verkeerd nummer bij spoed is de schadelijkste fout die de site kan maken, en lokale crisisnummers veranderen zonder dat wij het merken. De spoedroute bevat daarom geen telefoonnummers (geen regionale Veilig Thuis, crisisdienst, huisartsenpost of jeugdbescherming). Onder elke spoedroute toont de site een vast blok (`src/components/SpoedNummers.astro`), op één plek beheerd en gecontroleerd. Het maakt onderscheid tussen **nood** (direct gevaar: "bel meteen het alarmnummer", zonder het nummer; daar is de site niet voor) en **spoed** (kan niet wachten, geen direct gevaar: eigen huisarts of huisartsenpost, eigen hulpverlener, Veilig Thuis voor advies, 113 om te praten). Beveel 113 nooit aan als nummer voor nood. Lokaal staat er alleen één contactblok met `naam` en `url` naar de spoed- of crisispagina van de gemeente, die de gemeente zelf bijhoudt. Stappen kort en zonder nummers; "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder." mag als de gemeente dat adviseert. Voorbeeld: `src/content/gemeenten/barneveld.json`.
 - `directRegelen`: alleen rechtstreekse links naar formulieren, aanmeld- of bezwaarpagina's, nooit naar een homepage. Controleer dat de URL een 200 geeft en noteer in `nodig` wat de ouder bij de hand moet hebben (bv. DigiD).
 - Telefoonnummers: netnummer van twee cijfers als `0XX XXX XXXX` (bv. `030 740 0500`, ook `088`, `085`), netnummer van drie cijfers als `0XXX XX XX XX` (bv. `0543 49 33 33`). URL's inclusief `https://`.
-- Zet `meta.status` nooit zelf op `gecontroleerd`; dat doet een mens.
 - Landelijke feiten (bezwaartermijn, Jeugdstem, cliëntondersteuning) horen in `src/content/landelijk/`, niet per gemeente herhaald, tenzij de gemeente er een eigen invulling aan geeft.
 - In markdown-frontmatter moeten datums én zinnen met een dubbele punt tussen aanhalingstekens staan, bv. `laatstGecontroleerd: "2026-10-10"` en `waarom: "Begin bij de huisarts: die sluit ... uit."`.

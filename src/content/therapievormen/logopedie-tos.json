@@ -3,9 +3,9 @@
   "soort": "paramedisch",
   "kort": "Gerichte taaltherapie, individueel of in een behandelgroep, met ouders als medebehandelaar.",
   "watIsHet": "Behandeling van spraak- en taalproblemen door een logopedist, en bij een vastgestelde taalontwikkelingsstoornis via gespecialiseerde organisaties (cluster 2): individuele behandeling, behandelgroepen voor peuters en kleuters, en begeleiding op school.",
-  "hoeWerktHet": "Taal wordt geleerd door veel en goed afgestemd taalaanbod. De therapeut traint specifieke vaardigheden en leert ouders hoe zij thuis het taalaanbod aanpassen; dat laatste geeft het meeste effect.",
+  "hoeWerktHet": "Taal wordt geleerd door veel en goed afgestemd taalaanbod. De therapeut traint specifieke vaardigheden en leert ouders hoe zij thuis het taalaanbod aanpassen; zo krijgt het kind ook buiten de behandeling veel goed taalaanbod.",
   "voorWie": "Kinderen vanaf 2 jaar met achterblijvende taal, en kinderen met een vastgestelde TOS, ook in combinatie met andere ontwikkelingsproblemen.",
-  "verwachting": "Logopedie: wekelijks 30 minuten, vaak langdurig. Behandelgroep TOS: meerdere dagdelen per week, een jaar of langer. Ouders doen actief mee.",
+  "verwachting": "Logopedie: meestal één keer per week, vaak langdurig. Behandelgroep TOS: twee of drie dagdelen per week, enkele maanden of langer, afhankelijk van de voortgang. Ouders doen actief mee.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "De JGZ-richtlijn Taalontwikkeling en de NVLF-richtlijnen beschrijven signalering, verwijzing en behandeling; vroeg starten is de kern."
@@ -15,6 +15,33 @@
   "overwegingen": [
     "Begin niet met wachten; taalachterstand op 2 tot 3 jaar is reden voor screening.",
     "Meertaligheid is geen reden om af te zien van onderzoek."
+  ],
+  "sessie": "De logopedist kiest samen met u de doelen, bijvoorbeeld meer woorden, langere zinnen of beter verstaanbaar praten. In een sessie oefent uw kind spelenderwijs aan die doelen, of speelt u zelf met uw kind terwijl de logopedist meekijkt, tips geeft of een video maakt die u samen terugkijkt. U leert daarbij bijvoorbeeld langzaam praten, stiltes laten vallen in plaats van veel vragen te stellen, en wat uw kind zegt nog eens op de goede manier herhalen.",
+  "programmas": [
+    {
+      "naam": "Logopedie bij een logopedist",
+      "omschrijving": "De logopedist oefent met uw kind, coacht u als ouder in het samen praten en spelen, of doet allebei; dat kiest u samen. Voor kinderen vanaf ongeveer 7 jaar raadt de richtlijn aan om ook uit te leggen hoe zinnen en woordvormen in elkaar zitten.",
+      "url": "https://nvlf.nl/app/uploads/2025/11/infographic-richtlijn-TOS-1.pdf"
+    },
+    {
+      "naam": "Hanen-oudercursus",
+      "omschrijving": "Cursus voor ouders van jonge kinderen, in Nederland bekend als 'Praten doe je met z'n tweeën'. In bijeenkomsten met andere ouders en een logopedist leert u het praten van uw kind uit te lokken. De korte variant Target Word, voor peuters van 1,5 tot 2,5 jaar die weinig woorden zeggen, heeft vijf groepsbijeenkomsten en twee afspraken waarin een video van u en uw kind wordt gemaakt en besproken."
+    },
+    {
+      "naam": "TOS-behandelgroep",
+      "omschrijving": "Voor peuters van ongeveer 2 tot 5 jaar met (een vermoeden van) TOS. Uw kind gaat een paar dagdelen per week naar een groep met een team van onder meer logopedisten, en krijgt daarnaast eigen logopedie. Er wordt gewerkt met woordenschatoefeningen, interactief voorlezen, plaatjes en ondersteunende gebaren, en u wordt als ouder gecoacht. Het NJi noemt de bekende methodes goed onderbouwd, maar ze zijn nog niet op effect onderzocht.",
+      "url": "https://www.nji.nl/databanken/interventies/methodiek-tos"
+    }
+  ],
+  "vraagt": "U gebruikt wat u leert in gewone momenten thuis; zo krijgt uw kind veel meer taal dan in de sessies alleen. Dat vraagt tijd en oefening. Is de rol van medebehandelaar u te zwaar, bespreek dat: hoe intensief de behandeling is, hoort u samen met de logopedist af te spreken.",
+  "voortgang": "TOS gaat meestal niet helemaal over: van de vijfjarigen met TOS heeft driekwart op hun twaalfde nog taalproblemen. Het doel is daarom ook dat uw kind beter begrijpt en begrepen wordt, thuis en op school; de logopedist hoort de doelen regelmatig met u te evalueren. Gaat het niet vooruit, of zijn er ook zorgen over de rest van de ontwikkeling, vraag dan of breder onderzoek nodig is, bijvoorbeeld bij een audiologisch centrum.",
+  "effect": "In een overzicht van 9 onderzoeken met samen 947 kinderen onder de 5 jaar met (risico op) TOS ging de taal meer vooruit als ouders werden getraind dan bij gewone zorg of wachten. In Nederlands onderzoek bij 46 peuters in TOS-behandelgroepen gingen kinderen van wie de ouders werden getraind even veel vooruit als kinderen die zelf met de logopedist oefenden, ook een jaar na de start, en die ouders voelden zich zekerder. Het meeste onderzoek gaat over jonge kinderen; over schoolkinderen en tieners is minder bekend.",
+  "vragen": [
+    "Oefent u vooral met mijn kind, coacht u mij, of allebei, en waarom?",
+    "Aan welke doelen werken we, en wanneer kijken we samen of ze gehaald zijn?",
+    "Wat kan ik thuis doen, en hoe laat u mij zien of ik het goed doe?",
+    "Is onderzoek bij een audiologisch centrum of een behandelgroep nodig?",
+    "Hoe werkt u samen met de kinderopvang of school?"
   ],
   "situaties": [
     "tos",
@@ -39,10 +66,39 @@
       "titel": "Kentalis – TOS",
       "url": "https://www.kentalis.nl/tos",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "NVLF – Infographic herziene richtlijn Taalontwikkelingsstoornissen (2025)",
+      "url": "https://nvlf.nl/app/uploads/2025/11/infographic-richtlijn-TOS-1.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NVLF – Indirecte taaltherapie met ouders van kinderen met een taalontwikkelingsstoornis (2020)",
+      "url": "https://nvlf.nl/wetenschap/indirecte-taaltherapie-met-ouders-van-kinderen-met-een-taalontwikkelingsstoornis-tos/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Methodiek TOS",
+      "url": "https://www.nji.nl/databanken/interventies/methodiek-tos",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Jules voor TOS",
+      "url": "https://www.nji.nl/databanken/interventies/jules-tos",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Law e.a. (2003), Logopedie bij kinderen met spraak- en taalproblemen – Cochrane review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12918003/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Johnstone-Cooke e.a. (2026), Taalprogramma's via ouders bij kinderen onder 5 jaar met risico op TOS – International Journal of Language & Communication Disorders",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627285/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

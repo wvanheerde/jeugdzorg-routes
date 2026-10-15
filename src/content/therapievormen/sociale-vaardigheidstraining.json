@@ -5,16 +5,43 @@
   "watIsHet": "Een groepstraining van meestal 8 tot 12 bijeenkomsten waarin kinderen sociale situaties oefenen met rollenspel, met huiswerk en ouderbijeenkomsten. Er zijn varianten voor kinderen met autisme en voor faalangst.",
   "hoeWerktHet": "Sociale vaardigheden zijn te leren door te oefenen in een veilige groep en daarna in het echt. Ouders en school helpen het geleerde toe te passen.",
   "voorWie": "Kinderen van ongeveer 8 tot 16 jaar die moeite hebben met vriendschappen, gepest worden of zelf pesten, of door autisme of ADHD sociale situaties lastig vinden.",
-  "verwachting": "Wekelijkse groepsbijeenkomsten van 60 tot 90 minuten, 8 tot 12 keer, vaak via het wijkteam, CJG of school.",
+  "verwachting": "Wekelijkse groepsbijeenkomsten, 8 tot 12 keer, vaak via het wijkteam, CJG of school.",
   "onderbouwing": {
-    "label": "erkend",
-    "toelichting": "Verschillende sociale vaardigheidstrainingen zijn erkend in de NJi-databank effectieve interventies; het effect is het grootst als ouders en school betrokken zijn."
+    "label": "gangbaar",
+    "toelichting": "De Kanjertraining staat in de NJi-databank als effectief volgens sterke aanwijzingen. De richtlijn autisme raadt aan trainingen niet standaard aan te bieden, maar wel bij kinderen die zelf gemotiveerd zijn, en eerst ouders en school te helpen."
   },
   "vergoeding": "Jeugdwet; vaak gratis via wijkteam, CJG of school, zonder beschikking.",
   "aanvragen": "Vraag het wijkteam, CJG of de school welke trainingen worden aangeboden en of er een variant is voor de situatie van uw kind (autisme, faalangst).",
   "overwegingen": [
     "Werkt minder goed als de sociale problemen een gevolg zijn van angst of trauma; dan eerst daaraan werken.",
     "Een groep met leeftijdgenoten met vergelijkbare problemen is prettiger dan een gemengde groep."
+  ],
+  "sessie": "Een bijeenkomst begint meestal met het bespreken van de oefenopdracht van de vorige week. Dan legt de trainer één vaardigheid uit, bijvoorbeeld een gesprek beginnen, aansluiten bij een groepje, of omgaan met plagen of afwijzing. De trainer doet het voor en de kinderen oefenen het in rollenspel met elkaar. Aan het eind krijgt uw kind een opdracht mee om het buiten de groep te oefenen, bijvoorbeeld met een klasgenoot.",
+  "programmas": [
+    {
+      "naam": "PEERS",
+      "omschrijving": "Voor jongeren van 12 tot 18 jaar met autisme, over vrienden maken en houden: gesprekken voeren, afspreken, humor, en omgaan met afwijzing, pesten en roddels. 14 wekelijkse bijeenkomsten. U gaat tegelijk naar een eigen oudergroep en leert uw kind te coachen bij het oefenen."
+    },
+    {
+      "naam": "Kanjertraining",
+      "omschrijving": "Op school voor de hele klas, en als groepstraining van tien wekelijkse lessen voor kinderen samen met hun ouders. Volgens de NJi-databank hielp het kinderen van 8 tot 13 jaar, als een getrainde psycholoog of orthopedagoog het gaf.",
+      "url": "https://www.nji.nl/databanken/interventies/kanjertraining"
+    },
+    {
+      "naam": "TOM-training",
+      "omschrijving": "Groepstraining voor kinderen met autisme, gericht op begrijpen wat anderen denken en voelen. Kinderen werden er beter in op een test, maar hun omgang met anderen veranderde niet duidelijk. De erkenning in de NJi-databank is verlopen.",
+      "url": "https://www.nji.nl/databanken/interventies/tom-training"
+    }
+  ],
+  "vraagt": "Uw kind gaat elke week naar de groep en oefent tussendoor met opdrachten, bijvoorbeeld afspreken met een leeftijdgenoot. Bij sommige programma's gaat u zelf ook naar bijeenkomsten en helpt u uw kind thuis met oefenen. Bespreek vooraf met uw kind of het de training zelf wil: zonder zin erin levert het minder op, en een training die niet lukt kan voelen als falen.",
+  "voortgang": "Kinderen weten na de training vaak meer over hoe je met anderen omgaat; of ze het ook doen op school en daarbuiten, is minder zeker. Spreek vooraf af waar u op let, en vraag of de trainer de school erbij betrekt. Ziet u weinig verschil, of voelt uw kind zich er slechter door, bespreek dan met de behandelaar of begeleiding van u en advies aan school beter past.",
+  "effect": "In Nederlands onderzoek bij 122 kinderen met autisme van 9 tot 13 jaar gingen kinderen na een groepstraining van 15 bijeenkomsten iets meer vooruit dan met de gewone zorg; een half jaar later was dat nog zo. Bij 106 jongeren met autisme van 12 tot 18 jaar zagen ouders na PEERS meer vooruitgang dan na een andere groepstraining, maar in een gesprek met een onbekende leeftijdgenoot gingen beide groepen even veel vooruit. Het onderzoek ging vooral over kinderen met autisme zonder verstandelijke beperking.",
+  "vragen": [
+    "Waarom past een groepstraining bij mijn kind, en wil mijn kind het zelf?",
+    "Welk programma is het, en is het onderzocht bij kinderen zoals het mijne?",
+    "Wat doe ik als ouder, en wordt de school betrokken?",
+    "Hoe merken we of het helpt buiten de groep, en wanneer kijken we samen terug?",
+    "Wat doen we als het niet lukt, of als mijn kind zich er slechter door voelt?"
   ],
   "situaties": [
     "autisme",
@@ -32,10 +59,59 @@
       "titel": "NJi – Databank effectieve jeugdinterventies",
       "url": "https://www.nji.nl/interventies",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn Autismespectrumstoornis bij kinderen/jeugd – Sociale vaardigheidstraining (NVvP, 2025)",
+      "url": "https://richtlijnendatabase.nl/richtlijn/autismespectrumstoornis_bij_kinderen_jeugd/sociale_vaardigheidstraining.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Overige interventies",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/niet-medicamenteuze_behandeling_adhd_bij_kind/overige_interventies_bij_adhd_bij_kinderen.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Kanjertraining",
+      "url": "https://www.nji.nl/databanken/interventies/kanjertraining",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – TOM-training",
+      "url": "https://www.nji.nl/databanken/interventies/tom-training",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Autisme (professionals)",
+      "url": "https://www.kenniscentrum-kjp.nl/professionals/autisme/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Dekker e.a. (2019), Sociale vaardigheidstraining in een groep bij kinderen met autisme – European Child & Adolescent Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30032394/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Idris e.a. (2022), Nederlandse versie van PEERS bij jongeren met autisme – BMC Psychiatry",
+      "url": "https://doi.org/10.1186/s12888-022-03913-3",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Gates e.a. (2017), Sociale vaardigheidstraining in een groep bij autisme: meta-analyse – Clinical Psychology Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28130983/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Reichow e.a. (2012), Sociale vaardigheidsgroepen bij autisme – Cochrane",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22786515/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Storebø e.a. (2019), Sociale vaardigheidstraining bij ADHD – Cochrane",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31222721/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

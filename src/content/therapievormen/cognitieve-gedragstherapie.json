@@ -5,16 +5,44 @@
   "watIsHet": "Een gestructureerde gesprekstherapie waarin kind en therapeut uitzoeken welke gedachten en gewoonten een probleem versterken, en die stap voor stap oefenen te veranderen. Voor kinderen vaak met spel, tekeningen en oefeningen thuis.",
   "hoeWerktHet": "Angst, somberheid en dwang houden zichzelf in stand door vermijden en piekeren. CGT doorbreekt dat met oefenen in kleine stappen (exposure) en met het toetsen van gedachten aan de werkelijkheid.",
   "voorWie": "Angst, somberheid, dwang, trauma (in de traumagerichte variant), eetproblemen en slaapproblemen. Vanaf ongeveer 7 jaar; jonger met veel ouderbetrokkenheid.",
-  "verwachting": "Meestal 8 tot 20 sessies van 45 tot 60 minuten, wekelijks of tweewekelijks. Huiswerk hoort erbij. Ouders worden betrokken, bij jonge kinderen altijd.",
+  "verwachting": "Meestal 8 tot 20 sessies, wekelijks of om de week, alleen of in een groep. Ouders worden betrokken, bij jonge kinderen altijd.",
   "onderbouwing": {
     "label": "richtlijn",
-    "toelichting": "Eerste keus in de zorgstandaarden voor angst en depressie bij jeugd, en in de richtlijn stemmingsproblemen van de jeugdhulp."
+    "toelichting": "Eerste keus bij angst in de zorgstandaard angst. Bij somberheid noemen de zorgstandaard depressie en de jeugdhulprichtlijn stemmingsproblemen CGT samen met [interpersoonlijke therapie (IPT)](/therapievormen/interpersoonlijke-therapie/) als eerste keus."
   },
   "vergoeding": "Jeugdwet (gemeente), via verwijzing van huisarts, jeugdarts of wijkteam naar de jeugd-GGZ.",
   "aanvragen": "Vraag de verwijzer om een verwijzing naar de jeugd-GGZ met als voorkeur cognitieve gedragstherapie door een bij de VGCt geregistreerde therapeut, en vraag naar wachttijden bij meerdere aanbieders.",
   "overwegingen": [
     "Vraagt motivatie en oefenen; bij een kind dat nog niet kan of wil praten is een speelse of lichaamsgerichte vorm soms een betere start.",
     "Bij trauma: vraag specifiek naar de traumagerichte variant."
+  ],
+  "sessie": "In het begin bespreekt de therapeut met uw kind wat door de angst of somberheid niet meer lukt, en wat het wil bereiken. Daarna leert uw kind herkennen wanneer het bang of somber wordt, en wat het dan denkt en doet. Samen onderzoeken ze of die nare gedachten wel kloppen, en uw kind leert wat het kan doen, zoals een ontspanningsoefening. Bij angst oefent uw kind stap voor stap met wat het spannend vindt, eerst in de kamer en later thuis of op school; de therapeut doet dapper gedrag soms eerst voor en beloont het. Bij somberheid gaat het vaak ook om weer dingen doen die goed voelen, en om problemen leren oplossen.",
+  "programmas": [
+    {
+      "naam": "Denken + Doen = Durven",
+      "omschrijving": "Voor kinderen en jongeren van 8 tot 18 jaar met angstklachten of een angststoornis. Alleen (12 sessies) of in een groep (8 bijeenkomsten), met daarnaast 3 gesprekken voor ouders. Het NJi erkent het als effectief.",
+      "url": "https://www.nji.nl/databanken/interventies/denken-doen-durven"
+    },
+    {
+      "naam": "VRIENDEN",
+      "omschrijving": "Voor kinderen en jongeren van 4 tot 16 jaar met angst- of somberheidsklachten, met een versie per leeftijd. Tien bijeenkomsten in een groep of alleen, plus een paar bijeenkomsten voor ouders. Wordt ook op school gegeven, om te voorkomen dat klachten erger worden.",
+      "url": "https://www.nji.nl/databanken/interventies/vrienden"
+    },
+    {
+      "naam": "Je bibbers de baas",
+      "omschrijving": "Groepstraining voor kinderen met faalangst in de bovenbouw van de basisschool. Tien bijeenkomsten; ouders en leerkrachten krijgen twee eigen bijeenkomsten.",
+      "url": "https://www.nji.nl/databanken/interventies/je-bibbers-baas"
+    }
+  ],
+  "vraagt": "Uw kind gaat oefenen met wat het spannend of moeilijk vindt, en dat voelt eerst onprettig. Tussen de sessies krijgt het oefeningen en huiswerk mee voor thuis of school. U krijgt zelf uitleg, denkt mee over de oefeningen, en kunt uw kind aanmoedigen en dapper gedrag belonen.",
+  "voortgang": "Kijk naar de doelen van het begin: durft of doet uw kind weer dingen die eerst niet lukten? Helpt het na een tijd niet of te weinig, bespreek dan met de therapeut of meer sessies, een andere aanpak of daarnaast medicatie past. Na afloop helpen een paar terugkomafspraken en een plan voor als de klachten terugkomen.",
+  "effect": "In een overzicht van 87 studies met bijna 6.000 kinderen en jongeren tot 19 jaar met een angststoornis was na CGT ongeveer de helft van hun belangrijkste angststoornis af, tegen minder dan 1 op de 5 kinderen op een wachtlijst. In de paar studies die een half jaar later keken, bleef de angst minder. Over kinderen met autisme of een verstandelijke beperking is nog weinig bekend.",
+  "vragen": [
+    "Bent u bij de VGCt geregistreerd, en heeft u ervaring met CGT bij kinderen van de leeftijd van mijn kind?",
+    "Welke doelen spreken we af, en hoe meten we of het helpt?",
+    "Werkt u met een vast programma, en gebeurt het alleen of in een groep?",
+    "Ben ik bij de sessies, en hoe help ik thuis met de oefeningen?",
+    "Wat doen we als het na een aantal sessies niet beter gaat, en zijn er na afloop terugkomafspraken?"
   ],
   "situaties": [
     "angst-of-somberheid",
@@ -43,10 +71,49 @@
       "titel": "Vereniging voor Gedrags- en Cognitieve therapieën (VGCt)",
       "url": "https://www.vgct.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "NJi – Denken + Doen = Durven (Databank effectieve jeugdinterventies)",
+      "url": "https://www.nji.nl/databanken/interventies/denken-doen-durven",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – VRIENDEN (Databank effectieve jeugdinterventies)",
+      "url": "https://www.nji.nl/databanken/interventies/vrienden",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Je bibbers de baas (Databank effectieve jeugdinterventies)",
+      "url": "https://www.nji.nl/databanken/interventies/je-bibbers-baas",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Angstproblemen voorkomen en verminderen",
+      "url": "https://www.nji.nl/kennis/angst/angstproblemen-voorkomen-verminderen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts – Mijn kind maakt zich altijd heel veel zorgen",
+      "url": "https://www.thuisarts.nl/angst-bij-kinderen/mijn-kind-maakt-zich-altijd-heel-veel-zorgen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Stemmingsproblemen (jeugdhulp) – Aanpak en interventies",
+      "url": "https://www.richtlijnenjeugdhulp.nl/stemmingsproblemen/aanpak-en-interventies",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "VGCt – Wat is cognitieve gedragstherapie",
+      "url": "https://www.vgct.nl/wat-is-cognitieve-gedragstherapie/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "James e.a. (2020), Cognitieve gedragstherapie bij angststoornissen bij kinderen en jongeren – Cochrane Review",
+      "url": "https://www.cochrane.org/evidence/CD013162_cognitive-behavioural-therapy-anxiety-children-and-young-people",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

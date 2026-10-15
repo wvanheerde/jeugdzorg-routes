@@ -28,7 +28,6 @@ therapievormen:
     - id: sensorische-informatieverwerking
   toelichting: "Geen richtlijn die de vormen rangschikt. Logopedie is de kern van TOS-behandeling; speltherapie voor kinderen met weinig taal; sensorische informatieverwerking alleen bij veel last van prikkels."
 volgorde: 24
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "Kentalis – Taalontwikkelingsstoornis"
@@ -45,7 +44,7 @@ bronnen:
 ## Wat helpt vaak
 
 - **Vroeg laten onderzoeken.** Blijft de taal achter op 2 tot 3 jaar? Dan is dat een reden voor een screening, niet om af te wachten. Hoe eerder de behandeling start, hoe groter het effect op school en op het contact met anderen. <sup><a class="bron" href="https://www.jgzrichtlijnen.nl/richtlijn/jgz-richtlijn-taalontwikkeling/" target="_blank" rel="noopener">bron</a></sup>
-- **Logopedie plus thuis.** Volgens de richtlijn heeft behandeling het meeste effect als ouders thuis met de aanpak doorgaan. Kentalis en Auris geven ouders daar praktische tips voor. <sup><a class="bron" href="https://www.kentalis.nl/tos/tips-voor-ouders" target="_blank" rel="noopener">bron</a></sup>
+- **Logopedie plus thuis.** De richtlijn noemt oefenen met het kind, ouders leren hoe zij thuis de taal stimuleren, of een combinatie. In Nederlands onderzoek gingen kinderen van wie de ouders werden getraind even veel vooruit als kinderen die zelf met de logopedist oefenden. <sup><a class="bron" href="https://nvlf.nl/wetenschap/indirecte-taaltherapie-met-ouders-van-kinderen-met-een-taalontwikkelingsstoornis-tos/" target="_blank" rel="noopener">bron</a></sup> Kentalis en Auris geven ouders praktische tips. <sup><a class="bron" href="https://www.kentalis.nl/tos/tips-voor-ouders" target="_blank" rel="noopener">bron</a></sup>
 - **Uitleg op school.** Een kind met TOS begrijpt instructies langzamer. Daardoor wordt het snel gezien als ongehoorzaam of ongeïnteresseerd. Een begeleider van cluster 2 kan op school komen en de leerkracht hierin trainen.
 
 ## Waar het vaak misgaat

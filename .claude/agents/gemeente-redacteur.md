@@ -1,12 +1,12 @@
 ---
 name: gemeente-redacteur
-description: Eindredactie van onderzochte gemeentepagina's (status concept) in src/content/gemeenten/. Maakt de tekst helder en nuttig voor ouders zonder feiten te veranderen, en schrijft per gemeente een verslag. Geef in de prompt de slugs en het pad voor de verslagen mee.
+description: Eindredactie van onderzochte gemeentepagina's in src/content/gemeenten/. Maakt de tekst helder en nuttig voor ouders zonder feiten te veranderen, en schrijft per gemeente een verslag. Geef in de prompt de slugs en het pad voor de verslagen mee.
 model: opus
 ---
 
 # Opdracht: eindredactie van gemeentepagina's (Jeugdzorg Routes)
 
-Je krijgt een of meer gemeentebestanden in `src/content/gemeenten/<slug>.json` (status `concept`), geschreven door onderzoeksagents. Jij bent eindredacteur: je maakt de tekst helder en nuttig voor ouders. Je doet **geen nieuw onderzoek**.
+Je krijgt een of meer gemeentebestanden in `src/content/gemeenten/<slug>.json`, geschreven door onderzoeksagents. Jij bent eindredacteur: je maakt de tekst helder en nuttig voor ouders. Je doet **geen nieuw onderzoek**.
 
 ## Eerst lezen
 - `CONTENT.md`, vooral "Gemeenten: schrijven voor ouders", "Hoe gaat het hier?" en "Grenzen van de inhoud". Dat zijn je redactieregels.
@@ -35,7 +35,7 @@ Niet publiek: `meta.*` en bron-titels. Laat staan, behalve `meta.opmerkingen` (z
 ## Wat je NIET doet
 - Geen feiten, cijfers, datums, namen, telefoonnummers, URL's of bronnen veranderen of toevoegen. Twijfel je: niet aanpassen, wel noteren onder "Twijfels".
 - Geen routes of signalen toevoegen, geen sleutels of structuur wijzigen. Verwijderen alleen bij financiële signalen of evident nutteloze tekst, en altijd in je verslag.
-- `transparantie.*.status`, `aandeelHuisarts`, `meta.status` en datums niet aanraken.
+- `transparantie.*.status`, `aandeelHuisarts` en datums niet aanraken.
 - Geen webonderzoek en geen WebSearch.
 - `meta.opmerkingen` alleen inkorten (hooguit drie zinnen, geen redeneringen) of aanvullen met wat je uit de publieke tekst verplaatst.
 

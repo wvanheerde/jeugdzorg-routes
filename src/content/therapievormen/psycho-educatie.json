@@ -5,7 +5,7 @@
   "watIsHet": "Gestructureerde voorlichting, individueel of in een groep, over een diagnose of probleem: wat is het, hoe uit het zich bij dit kind, wat helpt en wat niet.",
   "hoeWerktHet": "Begrip vermindert schuld, schaamte en strijd. Ouders en kind leren dezelfde taal spreken en herkennen situaties eerder. Vaak de eerste stap in een behandeltraject en soms al voldoende.",
   "voorWie": "Vrijwel elke situatie waarin een diagnose of een duidelijk patroon is vastgesteld: autisme, ADHD, angst, dwang, tics, een verstandelijke beperking.",
-  "verwachting": "Enkele bijeenkomsten van een uur, voor ouders en kind apart of samen. Vaak via de behandelaar, het wijkteam of een oudervereniging.",
+  "verwachting": "Een of meer gesprekken of bijeenkomsten, voor ouders en kind apart of samen. Hoe vaak en hoe lang verschilt sterk per behandelaar. Vaak via de behandelaar, het wijkteam of een oudervereniging.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "Zorgstandaarden voor onder meer autisme en ADHD noemen psycho-educatie als vaste eerste stap van elke behandeling."
@@ -13,8 +13,31 @@
   "vergoeding": "Jeugdwet (gemeente) als onderdeel van een behandeling; via ouderverenigingen vaak gratis of tegen lidmaatschap.",
   "aanvragen": "Vraag bij de verwijzing of het wijkteam expliciet om psycho-educatie voor het hele gezin, niet alleen voor het kind.",
   "overwegingen": [
-    "Past altijd als eerste stap; vervangt geen behandeling als klachten ernstig zijn.",
+    "Voor ouders hoort het altijd bij de start. Of uw kind zelf uitleg krijgt, hangt af van leeftijd, wat het begrijpt en of het dat wil; bij jongeren meestal wel. Vervangt geen behandeling als klachten ernstig zijn.",
     "Zoek een variant die bij de leeftijd van het kind past (beeldverhalen, spel, groep)."
+  ],
+  "sessie": "De behandelaar legt uit wat er bij uw kind speelt: hoe het ontstaat, hoe het meestal verloopt, wat het betekent thuis, op school en met andere kinderen, en welke hulp er is. Er is ook aandacht voor wat uw kind goed kan, niet alleen voor de problemen. U kunt al uw vragen stellen, bijvoorbeeld of het erfelijk is of door de opvoeding komt. Een goede behandelaar vraagt steeds of alles duidelijk is en legt dingen zo nodig opnieuw uit. Soms gebeurt het in een groep met andere ouders, of met folders, websites of filmpjes.",
+  "programmas": [
+    {
+      "naam": "Ik ben speciaal",
+      "omschrijving": "Voor kinderen en jongeren met autisme, ook met een lichte verstandelijke beperking, en voor hun broers en zussen. 9 tot 15 bijeenkomsten, alleen of in een groep van 5 tot 8. Uw kind leert met werkbladen wat autisme is en hoe het daarmee kan omgaan. Nog niet op effect onderzocht.",
+      "url": "https://kenniscentrum-kjp.nl/professionals/behandelmethoden/ik-ben-speciaal/"
+    },
+    {
+      "naam": "Beeldverhalen en animaties",
+      "omschrijving": "Korte beeldverhalen en filmpjes van het Kenniscentrum Kinder- en Jeugdpsychiatrie over onder meer ADHD, autisme, depressie en trauma, in eenvoudige taal en in zeven talen. Bedoeld voor wie moeite heeft met lezen of nieuw is in Nederland; de huisarts, het wijkteam of de school kan ze samen met u bekijken.",
+      "url": "https://kenniscentrum-kjp.nl/beeldverhalen/"
+    }
+  ],
+  "vraagt": "Vooral tijd en openheid: u vertelt hoe het thuis gaat en stelt uw vragen, ook de moeilijke. Na een diagnose blijft niet alles in één keer hangen; vraag gerust om herhaling of iets op papier. Ook anderen rond uw kind, zoals broers en zussen, opa en oma of de leerkracht, kunnen uitleg krijgen.",
+  "voortgang": "Vaak merkt u vooral dat u het gedrag van uw kind beter begrijpt en makkelijker accepteert wat het wel en niet kan. Voor sommige gezinnen is dat genoeg. Blijven de problemen thuis of op school groot, dan volgt een volgende stap, zoals oudertraining, hulp voor de leerkracht of medicatie; bij ernstige klachten hoort die stap snel te komen.",
+  "effect": "Er is weinig goed onderzoek naar psycho-educatie als losse behandeling; de Nederlandse richtlijn ADHD vindt het bewijs te zwak voor conclusies, maar raadt het toch aan. In Engels onderzoek bij 69 kinderen en jongeren van 5 tot 18 jaar met ADHD zagen ouders na een groepscursus met uitleg en opvoedtips minder ADHD-klachten dan bij de gewone zorg, ook na een half jaar. In Zweeds onderzoek bij 141 jongeren van 16 tot 25 jaar met autisme wisten deelnemers na een online cursus van 8 weken meer over autisme en waren ze tevredener over hun leven; wat uitleg aan jonge kinderen zelf doet, is nauwelijks onderzocht.",
+  "vragen": [
+    "Krijgen wij als ouders uitleg, en krijgt ons kind die ook, passend bij zijn leeftijd?",
+    "Kunnen de school, of broers en zussen, ook uitleg krijgen?",
+    "Is er iets op papier, een website of een filmpje dat we thuis nog eens kunnen bekijken?",
+    "Wat is de volgende stap als uitleg alleen niet genoeg is?",
+    "Bij wie kunnen we terecht als er later nieuwe vragen komen?"
   ],
   "situaties": [
     "autisme",
@@ -36,10 +59,49 @@
       "titel": "Zorgstandaard ADHD",
       "url": "https://www.ggzstandaarden.nl/zorgstandaarden/adhd",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Psycho-educatie (NVvP)",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/niet-medicamenteuze_behandeling_adhd_bij_kind/psycho-educatie_bij_adhd_bij_kinderen.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – ADHD, behandeling",
+      "url": "https://www.kenniscentrum-kjp.nl/professionals/adhd/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Autisme, behandeling",
+      "url": "https://www.kenniscentrum-kjp.nl/professionals/autisme/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Angst, behandeling",
+      "url": "https://www.kenniscentrum-kjp.nl/professionals/angst/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Ik ben speciaal",
+      "url": "https://kenniscentrum-kjp.nl/professionals/behandelmethoden/ik-ben-speciaal/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Beeldverhalen",
+      "url": "https://kenniscentrum-kjp.nl/beeldverhalen/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Ferrin e.a. (2020), Psycho-educatie voor gezinnen van kinderen en jongeren met ADHD in het Verenigd Koninkrijk – Journal of Attention Disorders",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26838557/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Backman e.a. (2024), Online psycho-educatie (SCOPE) voor jongeren met autisme – Journal of Medical Internet Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39608000/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

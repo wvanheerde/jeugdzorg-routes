@@ -5,7 +5,7 @@
   "watIsHet": "Een variant van CGT speciaal voor kinderen na ingrijpende gebeurtenissen: eerst stabiliseren en vaardigheden leren, dan de gebeurtenis in woorden of beelden verwerken, dan ouder en kind samenbrengen.",
   "hoeWerktHet": "Combineert uitleg, ontspanning, het ordenen van het verhaal en het bijstellen van gedachten als 'het was mijn schuld'. De ouder leert hoe hij het kind thuis steunt.",
   "voorWie": "Kinderen en jongeren van ongeveer 3 tot 18 jaar na misbruik, geweld, verlies of een ongeluk, ook bij herhaald trauma.",
-  "verwachting": "Meestal 12 tot 20 sessies, met aparte oudersessies. Ouderbetrokkenheid is onderdeel van de methode.",
+  "verwachting": "Meestal één sessie per week. Hoeveel sessies nodig zijn, hangt af van de vorm en van wat uw kind heeft meegemaakt. Ouderbetrokkenheid is onderdeel van de methode.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "Aanbevolen in de zorgstandaard psychotrauma en de jeugdhulprichtlijn kindermishandeling; effectief gebleken bij fysiek en seksueel misbruik."
@@ -15,6 +15,33 @@
   "overwegingen": [
     "Past goed als er meerdere gebeurtenissen waren of als schuld en schaamte een grote rol spelen.",
     "Vraagt meer tijd dan EMDR; de twee worden ook gecombineerd."
+  ],
+  "sessie": "De therapeut spreekt uw kind en u apart, en een deel van de tijd samen. In het begin leert uw kind wat een ingrijpende gebeurtenis met je doet, hoe het kan ontspannen en hoe het gevoelens herkent. Daarna vertelt uw kind de therapeut wat er is gebeurd en schrijft het dat stukje voor stukje op, als verhaal op papier of de computer, of bijvoorbeeld als rap; bij jonge kinderen schrijft de therapeut vaak mee terwijl het kind tekent. Samen zoeken ze in het verhaal naar gedachten die niet kloppen of niet helpen, en schrijven ze op hoe uw kind er nu over denkt. Aan het eind leest uw kind het verhaal aan u voor, en bespreekt u samen wat uw kind nodig heeft om zich voortaan veilig te voelen.",
+  "programmas": [
+    {
+      "naam": "TF-CGT (Verwerken en versterken)",
+      "omschrijving": "Voor kinderen en jongeren van 8 tot 18 jaar, ook na langdurig trauma zoals mishandeling of huiselijk geweld. Gemiddeld 15 sessies; bij langdurig trauma kan het twee keer zo lang duren. U heeft eigen sessies en sessies samen met uw kind. Het NJi beoordeelt het als effectief volgens goede aanwijzingen.",
+      "url": "https://www.nji.nl/databanken/interventies/traumagerichte-cognitieve-gedragstherapie"
+    },
+    {
+      "naam": "Schrijftherapie (WRITEjunior)",
+      "omschrijving": "Voor kinderen en jongeren van 4 tot 18 jaar. Uw kind maakt eerst een tijdlijn en schrijft daarna met de therapeut het verhaal van wat er gebeurde. Na één gebeurtenis meestal 3 tot 5 sessies, na meerdere gebeurtenissen 5 tot 10. U krijgt daarnaast ouderbegeleiding. Het NJi beoordeelt het als effectief volgens goede aanwijzingen.",
+      "url": "https://www.nji.nl/databanken/interventies/writejunior"
+    },
+    {
+      "naam": "KIDNET",
+      "omschrijving": "Kindvriendelijke vorm van een behandeling waarin het kind zijn levensverhaal vertelt, ook de nare delen. Voor kinderen en jongeren van ongeveer 6 tot 18 jaar die meerdere nare dingen hebben meegemaakt, bijvoorbeeld door oorlog, vlucht of geweld in het gezin. Het kind maakt met de therapeut een levenslijn, ook met creatieve middelen. Bij kinderen is het nog weinig onderzocht."
+    }
+  ],
+  "vraagt": "Uw kind gaat vertellen en opschrijven wat er is gebeurd; jongeren in onderzoek vonden dat moeilijk, maar ook wat het meest hielp. Thuis oefent uw kind met ontspanningsoefeningen, en soms stap voor stap met situaties die het uit angst vermijdt. U doet zelf mee: u krijgt uitleg en opvoedtips, moedigt uw kind aan bij het oefenen, en wordt voorbereid op het moment dat uw kind zijn verhaal aan u voorleest.",
+  "voortgang": "De therapeut houdt met vragenlijsten bij of de klachten afnemen, en de richtlijn raadt aan de behandeling elke drie tot zes maanden samen te bekijken. Helpt het te weinig, dan is het advies over te stappen op een andere bewezen traumabehandeling, zoals EMDR. Voor het einde maakt u samen een plan voor als de klachten terugkomen.",
+  "effect": "In een overzicht van 25 studies met bijna 1.700 kinderen en jongeren van 6 tot 18 jaar hadden kinderen na traumagerichte CGT minder traumaklachten dan kinderen die wachtten of andere hulp kregen, en bij 156 jongeren in Noorwegen was de vooruitgang anderhalf jaar later er nog. Na schrijftherapie had in Nederlands onderzoek 9 op de 10 kinderen van 8 tot 18 jaar met PTSS na één gebeurtenis geen PTSS meer, na gemiddeld ruim 5 sessies. Schrijftherapie is vooral onderzocht na één gebeurtenis, en bij kinderen jonger dan 6 jaar is weinig onderzoek gedaan.",
+  "vragen": [
+    "Welke vorm gebruikt u (TF-CGT, schrijftherapie of KIDNET), en waarom past die bij mijn kind?",
+    "Bent u opgeleid in deze methode, en heeft u ervaring met kinderen van de leeftijd van mijn kind?",
+    "Hoe doe ik mee, en hoe bereidt u mij voor op het moment dat mijn kind zijn verhaal voorleest?",
+    "Hoe meten we of het helpt, en wanneer kijken we samen terug?",
+    "Wat doen we als het te weinig helpt, en welk plan maken we voor als de klachten terugkomen?"
   ],
   "situaties": [
     "trauma",
@@ -30,10 +57,74 @@
       "titel": "NJi – Toewerken naar herstel na kindermishandeling",
       "url": "https://www.nji.nl/kennis/kindermishandeling/toewerken-naar-herstel-na-kindermishandeling",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn Traumagerelateerde problemen (jeugdhulp) – Aanpak en interventies",
+      "url": "https://www.richtlijnenjeugdhulp.nl/traumagerelateerde-problemen/aanpak-en-interventies",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Traumagerelateerde problemen (jeugdhulp) – volledige tekst",
+      "url": "https://www.richtlijnenjeugdhulp.nl/traumagerelateerde-problemen/volledig",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Traumagerichte Cognitieve Gedragstherapie",
+      "url": "https://www.nji.nl/databanken/interventies/traumagerichte-cognitieve-gedragstherapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving Traumagerichte Cognitieve Gedragstherapie (TF-CBT)",
+      "url": "https://www.nji.nl/document/traumagerichte-cognitieve-gedragstherapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – WRITEjunior",
+      "url": "https://www.nji.nl/databanken/interventies/writejunior",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving WRITEjunior",
+      "url": "https://www.nji.nl/document/uitgebreide-beschrijving-writejunior",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Traumagerichte cognitieve gedragstherapie (TG-CGT)",
+      "url": "https://kenniscentrum-kjp.nl/professionals/behandelmethoden/traumagerichte-cognitieve-gedragstherapie-tg-cgt/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "De Haan e.a. (2024), Traumagerichte CGT bij kinderen en jongeren: analyse van gegevens uit 25 studies – Lancet Child & Adolescent Health",
+      "url": "https://doi.org/10.1016/S2352-4642(23)00253-5",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jensen e.a. (2017), TF-CBT in Noorwegen: resultaten na 18 maanden – Journal of Abnormal Child Psychology",
+      "url": "https://doi.org/10.1007/s10802-017-0270-0",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "De Roos e.a. (2017), EMDR en schrijftherapie bij kinderen met PTSS na één gebeurtenis – Journal of Child Psychology and Psychiatry",
+      "url": "https://doi.org/10.1111/jcpp.12768",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Dittmann & Jensen (2014), Ervaringen van jongeren met TF-CBT – Child Abuse & Neglect",
+      "url": "https://doi.org/10.1016/j.chiabu.2013.11.008",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Peltonen & Kangaslampi (2019), Narrative Exposure Therapy bij kinderen en jongeren met meerdere trauma's – European Journal of Psychotraumatology",
+      "url": "https://doi.org/10.1080/20008198.2018.1558708",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Scheeringa e.a. (2011), TF-CBT bij kinderen van 3 tot 6 jaar – Journal of Child Psychology and Psychiatry",
+      "url": "https://doi.org/10.1111/j.1469-7610.2010.02354.x",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

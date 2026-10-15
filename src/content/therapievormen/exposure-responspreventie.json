@@ -5,7 +5,7 @@
   "watIsHet": "De specifieke vorm van cognitieve gedragstherapie voor dwang: het kind oefent, in kleine stappen en met steun, om een angstige situatie aan te gaan zonder te controleren, te wassen of te herhalen. Ouders leren om niet meer mee te doen aan rituelen.",
   "hoeWerktHet": "Dwang blijft bestaan omdat het ritueel de angst tijdelijk wegneemt. Door het ritueel achterwege te laten, leert het kind dat de angst vanzelf zakt. Dat is zwaar in het begin en daarom goed begeleid.",
   "voorWie": "Kinderen en jongeren met dwanggedachten en -handelingen (OCD), ook in combinatie met tics of autisme.",
-  "verwachting": "Meestal 12 tot 20 sessies, met oefenen thuis en vaste oudersessies.",
+  "verwachting": "Meestal 12 tot 20 sessies, eens per week of eens per twee weken.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "De aanbevolen behandeling bij dwang in de jeugd; medicatie wordt pas overwogen als deze therapie onvoldoende werkt."
@@ -16,12 +16,38 @@
     "Vraagt veel van kind en ouders; goede uitleg vooraf is onderdeel van de behandeling.",
     "Bij ernstige dwang soms gecombineerd met medicatie, op advies van een kinderpsychiater."
   ],
+  "sessie": "Eerst legt de therapeut aan u en uw kind uit hoe dwang werkt. Samen maken jullie een lijst van situaties die spanning geven, van makkelijk naar moeilijk. In de sessie oefent uw kind met een stap van die lijst: het zoekt de situatie op, bijvoorbeeld iets aanraken dat het vies vindt, en laat het wassen of controleren achterwege. De therapeut oefent mee en helpt de spanning uit te houden tot die zakt. Daarna spreken jullie af wat uw kind thuis oefent, en wat u daarbij doet.",
+  "programmas": [
+    {
+      "naam": "Gezinsbehandeling voor jonge kinderen",
+      "omschrijving": "Voor kinderen van ongeveer 5 tot 8 jaar. De eerste sessies zijn alleen voor ouders; daarna bent u bij elke sessie. U leert de oefeningen thuis te begeleiden en uw kind te belonen als het lukt."
+    },
+    {
+      "naam": "Behandeling via de ouders",
+      "omschrijving": "Wil of kan uw kind (nog) niet zelf oefenen, dan kan de behandeling een tijd alleen via u lopen. U leert minder mee te gaan in de dwang en uw kind te helpen ertegenin te gaan."
+    },
+    {
+      "naam": "Intensieve, begeleide behandeling",
+      "omschrijving": "Als gewone behandeling te weinig helpt. Uw kind oefent dan vaker en langer met de therapeut, soms thuis of op school, bijvoorbeeld enkele dagen achter elkaar. Ouders krijgen er eigen gesprekken bij.",
+      "url": "https://richtlijnendatabase.nl/richtlijn/angst-_en_dwangstoornissen/samenvatting_behandelalgortimes_bij_rl_angst_en_dwangstoornissen/behandelalgoritme_obsessieve-compulsieve_stoornis_bij_kinderen_en_adolescenten.html"
+    }
+  ],
+  "vraagt": "Uw kind zoekt bewust de spanning op en oefent ook thuis, tussen de sessies. U leert stap voor stap niet meer mee te gaan in de dwang, bijvoorbeeld door uw kind niet steeds gerust te stellen of een ritueel niet meer voor uw kind te doen. Juist dan kunnen de angst en onrust in het begin eerst toenemen.",
+  "voortgang": "De dwang wordt meestal stap voor stap minder; in onderzoek was dat bij de meeste kinderen na zo'n 14 wekelijkse sessies duidelijk te merken. Helpt het onvoldoende, dan kan de behandeling volgens de richtlijn langer of intensiever, en pas daarna komt medicatie in beeld. Bespreek ook of thuis nog ongemerkt wordt meegegaan in de dwang, want dat houdt hem soms in stand.",
+  "effect": "In Scandinavisch onderzoek bij 269 kinderen van 7 tot 17 jaar ging bijna drie op de vier kinderen die de 14 sessies afmaakten duidelijk vooruit; drie jaar later, met verdere behandeling voor wie dat nodig had, 9 op de 10. Bij 127 kinderen van 5 tot 8 jaar ging 72 procent vooruit met een gezinsbehandeling, tegen 41 procent met alleen ontspanningsoefeningen.",
+  "vragen": [
+    "Hoeveel ervaring heeft u met exposure en responspreventie bij kinderen?",
+    "Oefent u in de sessie samen met mijn kind, of vooral via oefeningen thuis?",
+    "Wat doe ik thuis als mijn kind wil dat ik meedoe met de dwang?",
+    "Hoe meten we of de dwang minder wordt, en wanneer kijken we samen terug?",
+    "Wat is de volgende stap als het onvoldoende helpt?"
+  ],
   "situaties": [
     "dwang-en-tics",
     "angst-of-somberheid"
   ],
   "leeftijd": {
-    "van": 7
+    "van": 5
   },
   "bronnen": [
     {
@@ -33,10 +59,39 @@
       "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie",
       "url": "https://www.kenniscentrum-kjp.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn Angst- en dwangstoornissen – Behandelalgoritme obsessieve-compulsieve stoornis bij kinderen en adolescenten",
+      "url": "https://richtlijnendatabase.nl/richtlijn/angst-_en_dwangstoornissen/samenvatting_behandelalgortimes_bij_rl_angst_en_dwangstoornissen/behandelalgoritme_obsessieve-compulsieve_stoornis_bij_kinderen_en_adolescenten.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Angst- en dwangstoornissen – Psychotherapie bij obsessieve-compulsieve stoornissen (2023)",
+      "url": "https://richtlijnendatabase.nl/richtlijn/angst-_en_dwangstoornissen/psychotherapie_bij_angst_en_dwangstoornissen_2023/psychotherapie_per_afzonderlijke_angststoornis_bij_rl_angst_en_dwangstoornissen_2023/psychotherapie_bij_obsessieve-compulsieve_stoornissen_2023.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Torp e.a. (2015), CGT bij dwang bij kinderen: eerste resultaten van de Nordic Long-term OCD Treatment Study – Behaviour Research and Therapy",
+      "url": "https://doi.org/10.1016/j.brat.2014.11.005",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Melin e.a. (2020), Behandelresultaten bij dwang bij kinderen blijven drie jaar na de behandeling behouden (NordLOTS) – Journal of the American Academy of Child and Adolescent Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30768383/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Freeman e.a. (2014), Gezinsbehandeling bij dwang bij jonge kinderen (POTS Jr) – JAMA Psychiatry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4511269",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Eenink e.a. (2019), Intensieve kortdurende behandeling voor jongeren met hardnekkige dwang – Tijdschrift voor Psychiatrie",
+      "url": "https://www.tijdschriftvoorpsychiatrie.nl/media/1/61-2019-12-artikel-eenink.pdf",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

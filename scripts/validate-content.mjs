@@ -55,7 +55,7 @@ for (const f of files) {
   const { meta, ...publiek } = data;
   const { meldingen, zonder } = contactCheck(data);
   if (meldingen.length) console.warn(`! ${path}: telefoon/e-mail in tekst (hoort in een contactblok): ${meldingen.join('; ')}`);
-  if (zonder.length && data.meta?.status !== 'voorbeeld') console.warn(`! ${path}: route zonder contactblok: ${zonder.join(', ')}`);
+  if (zonder.length) console.warn(`! ${path}: route zonder contactblok: ${zonder.join(', ')}`);
   if (/(?<![\d\w])112(?![\d\w])/.test(JSON.stringify(publiek).replace(/https?:[^"]*|Postbus 112/g, ''))) { console.error(`✗ ${path}: noemt 112`); errors++; }
   // Beladen woorden (CONTENT.md, "Beladen woorden vermijden en omvormen"): waarschuwing, de redacteur vormt ze om.
   // Titels van brondocumenten en URL's tellen niet mee; "Eigen Kracht" met hoofdletters is een organisatie.

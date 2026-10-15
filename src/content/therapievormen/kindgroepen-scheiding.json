@@ -2,10 +2,10 @@
   "naam": "Kindgroepen bij scheiding (KIES, Dappere Dino's)",
   "soort": "groep",
   "kort": "Groepen waarin kinderen van gescheiden ouders leren omgaan met de nieuwe situatie.",
-  "watIsHet": "Kortdurende groepsprogramma's op school of bij het CJG, met een vaste opbouw: praten, spelen en oefenen rond gevoelens, loyaliteit en het leven in twee huizen. KIES is voor basisschool en voortgezet onderwijs; Dappere Dino's voor kleuters.",
+  "watIsHet": "Kortdurende groepsprogramma's op school of bij het CJG, met een vaste opbouw: praten, spelen en oefenen rond gevoelens, loyaliteit en het leven in twee huizen. KIES is voor basisschool en voortgezet onderwijs; Dappere Dino's voor kinderen van 6 tot en met 8 jaar en Stoere Schildpadden voor kleuters.",
   "hoeWerktHet": "Kinderen ontdekken dat ze niet de enige zijn, krijgen woorden voor wat ze voelen en leren wat zij wel en niet kunnen beïnvloeden. Ouders krijgen informatie over wat hun kind nodig heeft.",
   "voorWie": "Kinderen van ongeveer 4 tot 16 jaar van ouders die uit elkaar gaan of zijn, ook jaren later nog.",
-  "verwachting": "Ongeveer 8 bijeenkomsten van een uur, in een kleine groep, met een ouderbijeenkomst vooraf en achteraf.",
+  "verwachting": "Elke week een bijeenkomst in een kleine groep, vaak op school; hoe vaak precies verschilt per programma. Voor ouders is er vooraf een gesprek of informatiebijeenkomst en aan het eind een afsluiting.",
   "onderbouwing": {
     "label": "erkend",
     "toelichting": "KIES is erkend in de NJi-databank effectieve interventies."
@@ -15,6 +15,34 @@
   "overwegingen": [
     "Past bij de meeste kinderen van gescheiden ouders, ook zonder zichtbare klachten.",
     "Bij ernstig conflict tussen ouders is daarnaast hulp voor de ouders nodig; de groep lost dat niet op."
+  ],
+  "sessie": "Uw kind zit in een kleine groep met leeftijdgenoten van wie de ouders ook uit elkaar zijn, met twee begeleiders. Elke bijeenkomst begint met een rondje: hoe gaat het, is er iets gebeurd? Dan volgt een thema, zoals herinneringen, gevoelens, hulp vragen of lastige situaties, vaak ingeleid met een verhaal of, bij jonge kinderen, een handpop van wie de ouders ook gescheiden zijn. De kinderen praten, spelen, tekenen of oefenen in een rollenspel, bijvoorbeeld hoe je een ouder iets lastigs vertelt of welke problemen je wel en niet zelf kunt oplossen. Wat kinderen in de groep vertellen, blijft in de groep; u hoort op hoofdlijnen waar het over ging.",
+  "programmas": [
+    {
+      "naam": "KIES",
+      "omschrijving": "Voor kinderen van 7 tot en met 12 jaar, vaak op school. Acht wekelijkse bijeenkomsten met twee begeleiders, en een eigen werkboek. Voor ouders is er een informatiebijeenkomst vooraf en een evaluatie achteraf. Er zijn ook KIES-groepen voor jongere kinderen en tieners; die zijn niet door het NJi beoordeeld.",
+      "url": "https://www.nji.nl/databanken/interventies/kies"
+    },
+    {
+      "naam": "Dappere Dino's",
+      "omschrijving": "Voor kinderen van 6 tot en met 8 jaar. Twaalf wekelijkse bijeenkomsten met de handpop Rex, spelletjes en voorleesboekjes; kinderen leren in vier stappen een probleem op te lossen. Ouders hebben een gesprek aan het begin en aan het eind, krijgen nieuwsbrieven en kunnen naar een ouderbijeenkomst.",
+      "url": "https://www.nji.nl/databanken/interventies/dappere-dinos"
+    },
+    {
+      "naam": "Stoere Schildpadden",
+      "omschrijving": "Voor kinderen van 4 tot en met 6 jaar. Twaalf wekelijkse bijeenkomsten met de handpop Sam de schildpad, voorleesboeken, spelletjes en tekeningen. Het NJi noemt het goed onderbouwd: de opzet is goed beschreven, maar het effect is nog niet onderzocht.",
+      "url": "https://www.nji.nl/databanken/interventies/stoere-schildpadden"
+    }
+  ],
+  "vraagt": "Uw kind gaat elke week naar de groep; bij Dappere Dino's en Stoere Schildpadden neemt het werkbladen mee naar huis, waarbij u kunt helpen. Van u wordt gevraagd dat u toestemming geeft (bij gezamenlijk gezag allebei) en naar de ouderbijeenkomsten komt; lukt dat niet, dan krijgt u de informatie op een andere manier. Vertelt uw kind thuis iets over de groep, ga dan het gesprek aan.",
+  "voortgang": "Na afloop zeggen veel kinderen dat ze zich minder alleen voelen, en ouders merken soms dat hun kind meer praat over gevoelens of over de veranderingen thuis. In de afsluiting met ouders hoort u hoe het ging en waar u terecht kunt als er meer nodig is. Blijft uw kind somber, angstig of boos, of wordt het erger, vraag dan het wijkteam of de huisarts om eigen hulp voor uw kind.",
+  "effect": "In Nederlands onderzoek bij 156 kinderen van 7 tot 13 jaar, waarbij door loting werd bepaald welke scholen KIES kregen, hadden kinderen na KIES minder emotionele problemen en ging het praten met hun ouders beter, ook een jaar later nog. Bij 104 kinderen van 6 tot 8 jaar zagen moeders na Dappere Dino's meer welbevinden en minder emotionele en gedragsproblemen dan bij 37 kinderen van gescheiden ouders zonder groep; hoe lang dat aanhoudt, is niet gemeten. Bij kleuters en tieners is het effect van deze groepen nog nauwelijks onderzocht.",
+  "vragen": [
+    "Welk programma is het, en staat het in de databank van het NJi?",
+    "Hoe groot is de groep, wie begeleiden die, en zijn de kinderen ongeveer even oud?",
+    "Zijn de bijeenkomsten onder of na schooltijd, en waar?",
+    "Wat hoor ik over wat mijn kind in de groep vertelt, en hoe kan ik thuis helpen?",
+    "Wat als de andere ouder geen toestemming geeft, of als mijn kind na de groep meer hulp nodig heeft?"
   ],
   "situaties": [
     "scheiding"
@@ -27,11 +55,45 @@
     {
       "titel": "NJi – KIES",
       "url": "https://www.nji.nl/databanken/interventies/kies",
-      "geraadpleegd": "2026-10-10"
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Dappere Dino's",
+      "url": "https://www.nji.nl/databanken/interventies/dappere-dinos",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Stoere Schildpadden",
+      "url": "https://www.nji.nl/databanken/interventies/stoere-schildpadden",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Interventiebeschrijving KIES (Kinderen In Een Scheiding)",
+      "url": "https://www.nji.nl/document/uitgebreide-beschrijving-kies-kinderen-echtscheidingssituaties",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving Dappere Dino's (CODIP-NL 6-8 jaar)",
+      "url": "https://www.nji.nl/document/uitgebreide-omschrijving-dappere-dinos-codip-nl-6-8-jaar",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Scheiding (jeugdhulp) – Preventieve ondersteuning en effectieve interventies",
+      "url": "https://www.richtlijnenjeugdhulp.nl/scheiding/volledig",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Pelleboer-Gunnink e.a. (2015), KIES: gerandomiseerd onderzoek naar effect en voor wie het werkt – Journal of Family Psychology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26121535/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Klein Velderman e.a. (2022), Dappere Dino's (CODIP-NL): quasi-experimenteel onderzoek bij kinderen van 6 tot 8 jaar – Journal of Child and Family Studies",
+      "url": "https://doi.org/10.1007/s10826-021-02220-x",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

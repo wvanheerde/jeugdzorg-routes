@@ -181,8 +181,6 @@ const gemeenten = defineCollection({
     /** 7. Metadata voor onderhoud. */
     meta: z.object({
       laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-      /** 'voorbeeld' = nog niet geverifieerd met officiële bronnen. */
-      status: z.enum(['voorbeeld', 'concept', 'gecontroleerd']),
       bronnen: z.array(bron).default([]),
       opmerkingen: z.string().optional(),
     }),
@@ -214,7 +212,6 @@ const organisaties = defineCollection({
     landelijk: z.boolean().default(true),
     meta: z.object({
       laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-      status: z.enum(['voorbeeld', 'concept', 'gecontroleerd']),
     }),
   }),
 });
@@ -291,7 +288,6 @@ const situaties = defineCollection({
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-    status: z.enum(['voorbeeld', 'concept', 'gecontroleerd']),
   }),
 });
 
@@ -314,8 +310,8 @@ const therapievormen = defineCollection({
     /** Wat kan een ouder verwachten: duur, frequentie, wie doet mee. */
     verwachting: z.string(),
     onderbouwing: z.object({
-      /** richtlijn = aanbevolen in richtlijn/zorgstandaard; erkend = NJi-databank effectieve interventies; gangbaar = breed toegepast, beperkter onderzocht. */
-      label: z.enum(['richtlijn', 'erkend', 'gangbaar']),
+      /** richtlijn = aanbevolen in richtlijn/zorgstandaard; erkend = NJi-databank effectieve interventies; onderbouwd = in de NJi-databank als 'goed onderbouwd', effect nog niet onderzocht; gangbaar = breed toegepast, beperkter onderzocht. */
+      label: z.enum(['richtlijn', 'erkend', 'onderbouwd', 'gangbaar']),
       toelichting: z.string(),
     }),
     /** Jeugdwet (gemeente), zorgverzekering, onderwijs, zelf. */
@@ -324,13 +320,28 @@ const therapievormen = defineCollection({
     aanvragen: z.string(),
     /** Wanneer past het wel / minder; helpt de afweging. */
     overwegingen: z.array(z.string()).default([]),
+    /*
+     * Verdieping (optioneel, alleen op de eigen pagina; de kaarten in het overzicht blijven kort).
+     * Alleen wat een richtlijn, het NJi, een beroepsvereniging of gepubliceerd onderzoek zegt, met de bron in `bronnen`.
+     */
+    /** Hoe een sessie eruitziet: wat er in de kamer gebeurt. */
+    sessie: z.string().optional(),
+    /** Varianten of bekende programma's, bv. per leeftijd. Geen aanbieders. */
+    programmas: z.array(z.object({ naam: z.string(), omschrijving: z.string(), url: z.string().url().optional() })).default([]),
+    /** Wat het van het kind en het gezin vraagt, inclusief wat er tussen de sessies kan gebeuren. */
+    vraagt: z.string().optional(),
+    /** Wanneer u verschil kunt merken, en wat u doet als dat uitblijft. */
+    voortgang: z.string().optional(),
+    /** Wat onderzoek laat zien, in gewone woorden: hoeveel kinderen vooruitgaan, hoe snel, hoe blijvend, en wat minder onderzocht is. */
+    effect: z.string().optional(),
+    /** Vragen die de ouder aan de behandelaar kan stellen. */
+    vragen: z.array(z.string()).default([]),
     situaties: z.array(z.string()).min(1),
     /** Leeftijdsgrenzen in jaren (tot = exclusief). Weglaten als het voor alle leeftijden geldt. */
     leeftijd: z.object({ van: z.number().optional(), tot: z.number().optional() }).optional(),
     bronnen: z.array(bron).min(1),
     meta: z.object({
       laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-      status: z.enum(['voorbeeld', 'concept', 'gecontroleerd']),
     }),
   }),
 });

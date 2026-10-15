@@ -23,6 +23,8 @@ therapievormen:
     - id: cognitieve-gedragstherapie
   ook:
     - id: intensieve-gezinsbehandeling
+    - id: probleemgedrag-verstandelijke-beperking
+    - id: video-interactiebegeleiding
   bijkomend:
     - id: psychomotorische-therapie
   toelichting: "Tot 12 jaar een ouderinterventie gericht op opvoedvaardigheden; bij 8-12 jaar zo nodig CGT erbij. Vanaf 12 jaar gezinstherapie of een multisysteeminterventie, met CGT."
@@ -31,7 +33,6 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 11
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: NJi – Gedragsproblemen

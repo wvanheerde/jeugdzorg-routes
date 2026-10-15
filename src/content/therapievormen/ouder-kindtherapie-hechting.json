@@ -3,9 +3,9 @@
   "soort": "gezinsbehandeling",
   "kort": "Behandeling waarin de verzorger centraal staat, om vertrouwen en veiligheid in de relatie te herstellen.",
   "watIsHet": "Therapievormen waarin ouder of pleegouder en kind samen behandeld worden, vaak met video-opnames van alledaagse interacties die samen worden teruggekeken, en met coaching van de verzorger in sensitief reageren.",
-  "hoeWerktHet": "Hechting ontstaat in de dagelijkse interactie. Door de verzorger te helpen signalen van het kind te zien en er voorspelbaar op te reageren, groeit het vertrouwen van het kind. Behandeling van het kind alleen werkt hier niet.",
+  "hoeWerktHet": "Hechting ontstaat in de dagelijkse interactie. Door de verzorger te helpen signalen van het kind te zien en er voorspelbaar op te reageren, groeit het vertrouwen van het kind. Behandeling van het kind alleen helpt hier meestal niet genoeg.",
   "voorWie": "Kinderen met een onveilige start (verwaarlozing, veel wisselingen, pleegzorg, adoptie) en hun (pleeg)ouders. Vooral jonge kinderen, maar ook oudere.",
-  "verwachting": "Meestal 6 tot 12 sessies, deels thuis, met huiswerk voor de verzorger.",
+  "verwachting": "Afhankelijk van het programma van zo'n zeven huisbezoeken (VIPP-SD) tot gemiddeld twintig sessies (PCIT). U doet als verzorger bij elke afspraak mee.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "De jeugdhulprichtlijn Problematische gehechtheid beveelt interventies aan die zich richten op de sensitiviteit van de verzorger; enkele daarvan zijn erkend in de NJi-databank."
@@ -16,6 +16,34 @@
     "Past als de problemen in de relatie zitten, niet alleen bij het kind.",
     "Bij trauma vaak gecombineerd met traumabehandeling van het kind."
   ],
+  "sessie": "Vaak komt de hulpverlener bij u thuis en filmt korte stukjes van gewone momenten met uw kind, zoals samen spelen of een boekje lezen. De volgende keer kijkt u samen naar de beelden. De hulpverlener zet ze steeds even stil en laat vooral de momenten zien waarop het goed ging, en wat uw kind u daarin laat zien. Zo leert u de signalen van uw kind beter lezen en er voorspelbaar op reageren, en later ook hoe u rustig grenzen stelt. Bij PCIT speelt u met uw kind in een spelkamer, terwijl de therapeut achter een spiegelruit meekijkt en u via een oortje direct tips en complimenten geeft.",
+  "programmas": [
+    {
+      "naam": "VIPP-SD (video-feedback)",
+      "omschrijving": "Voor ouders, pleeg- en adoptieouders van kinderen van 0 tot en met 6 jaar. Zeven huisbezoeken, ongeveer eens per twee weken: elke keer wordt u met uw kind gefilmd en bespreekt u de beelden van de vorige keer. Het NJi erkent VIPP-SD als effectief volgens sterke aanwijzingen; die erkenning wordt opnieuw beoordeeld.",
+      "url": "https://www.nji.nl/databanken/interventies/vipp-sd"
+    },
+    {
+      "naam": "Parent-Child Interaction Therapy (PCIT)",
+      "omschrijving": "Voor ouders van kinderen van ongeveer 2 tot 7 jaar met ernstige gedragsproblemen of een verstoorde band. Eerst oefent u met positieve aandacht in het spel, daarna met duidelijke opdrachten en een time-out, steeds met de therapeut in uw oor. Gemiddeld 20 sessies. Er is ook een kortere variant aan huis, die volgens het NJi vooral past bij lichtere problemen.",
+      "url": "https://www.nji.nl/databanken/interventies/parent-child-interaction-therapy-pcit"
+    },
+    {
+      "naam": "Basic Trust-methode",
+      "omschrijving": "Voor ouders, pleeg- en adoptieouders van kinderen van 2 tot en met 17 jaar met gedrags- of emotionele problemen die met de hechting te maken hebben. Na vier kennismakingsgesprekken werkt u in rondes van vijf video-opnames met terugkijkgesprekken, met na elke ronde een evaluatie. Het NJi erkent de methode als effectief volgens eerste aanwijzingen.",
+      "url": "https://www.nji.nl/databanken/interventies/basic-trust-methode"
+    }
+  ],
+  "vraagt": "U laat zich filmen en kijkt samen naar hoe u met uw kind omgaat; dat gaat niet over schuld, maar over wat al goed gaat en hoe u dat vaker kunt doen. Tussen de afspraken oefent u thuis, bij PCIT bijvoorbeeld met een kort speelmoment elke dag. Heeft u zelf veel stress of psychische klachten, dan is het belangrijk dat u daar ook hulp voor krijgt.",
+  "voortgang": "Vaak merkt u eerst bij uzelf verschil, bijvoorbeeld dat u signalen van uw kind sneller ziet; uw kind gaat zich pas na verloop van tijd veiliger voelen. Bij PCIT houdt de therapeut elke week bij hoe het gedrag van uw kind gaat, en stopt de behandeling pas als u de vaardigheden beheerst en het gedrag weer gewoon is. Blijft verandering uit, of is het thuis nog niet rustig en veilig, bespreek dan wat er eerst nodig is; de richtlijn raadt aan een kind met hechtingsproblemen ook na de behandeling langer te blijven volgen.",
+  "effect": "Een groot overzicht van 70 onderzoeken bij jonge kinderen liet zien dat korte programma's die zich duidelijk richten op hoe de ouder reageert, ouders sensitiever maakten en kinderen vaker veilig gehecht. In Nederlands onderzoek bij 130 adoptiegezinnen met een baby van 6 maanden waren na drie huisbezoeken met video-feedback op de leeftijd van een jaar minder kinderen ernstig onveilig gehecht dan in gezinnen zonder deze hulp. Over kinderen ouder dan 7 jaar is veel minder onderzocht, en bij ouders met een verstandelijke beperking zijn de resultaten van een aangepaste VIPP-SD niet eenduidig.",
+  "vragen": [
+    "Welk programma gebruikt u, en hoe staat het in de databank van het NJi?",
+    "Bent u voor dit programma opgeleid?",
+    "Komt u bij ons thuis, en kunnen wij als ouders allebei meedoen?",
+    "Hoe meten we of het helpt, en wanneer kijken we samen terug?",
+    "Wat gebeurt er met de video-opnames, en wie krijgt ze te zien?"
+  ],
   "situaties": [
     "onveilig-thuis",
     "trauma",
@@ -25,11 +53,50 @@
     {
       "titel": "Richtlijn Problematische gehechtheid (jeugdhulp)",
       "url": "https://www.richtlijnenjeugdhulp.nl/problematische-gehechtheid/",
-      "geraadpleegd": "2026-10-10"
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Problematische gehechtheid – Aanpak en interventies",
+      "url": "https://www.richtlijnenjeugdhulp.nl/problematische-gehechtheid/aanpak-en-interventies",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Video-feedback Intervention to Promote Positive Parenting and Sensitive Discipline (VIPP-SD)",
+      "url": "https://www.nji.nl/databanken/interventies/vipp-sd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving VIPP-SD",
+      "url": "https://www.nji.nl/document/uitgebreide-beschrijving-vipp-sd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Parent-Child Interaction Therapy (PCIT)",
+      "url": "https://www.nji.nl/databanken/interventies/parent-child-interaction-therapy-pcit",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving Parent-Child Interaction Therapy (PCIT)",
+      "url": "https://www.nji.nl/document/uitgebreide-beschrijving-parent-child-interaction-therapy-pcit",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Basic Trust-methode",
+      "url": "https://www.nji.nl/databanken/interventies/basic-trust-methode",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Bakermans-Kranenburg e.a. (2003), Less is more: meta-analyses van interventies voor sensitiviteit en gehechtheid – Psychological Bulletin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12696839/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Juffer e.a. (2005), Video-feedback bij adoptiegezinnen en gedesorganiseerde gehechtheid – Journal of Child Psychology and Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15755303/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

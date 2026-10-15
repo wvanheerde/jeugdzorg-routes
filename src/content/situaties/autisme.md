@@ -23,8 +23,10 @@ therapievormen:
     - id: psycho-educatie
       wanneer: "Altijd als eerste: uitleg over autisme voor uw kind, voor u en voor de mensen om uw kind heen."
     - id: oudertraining
-      wanneer: "Bij autisme gaat het om ouderbegeleiding: hoe u thuis de sociale ontwikkeling van uw kind stimuleert, samen met school."
+      wanneer: "Bij autisme gaat het om ouderbegeleiding: hoe u thuis de sociale ontwikkeling van uw kind stimuleert, samen met school. Voor jonge kinderen zijn er ook speciale ouder-kindbehandelingen (zie hieronder)."
   ook:
+    - id: vroege-interventie-autisme
+      wanneer: "Bij jonge kinderen tot ongeveer 6 jaar: u leert in spel en gewone momenten contact en communicatie te stimuleren. De richtlijn vindt het onderzoek nog zwak, maar ziet positieve signalen. Intensieve ABA raadt zij af."
     - id: psychomotorische-therapie
       wanneer: "Voor sociale vaardigheden, zelfvertrouwen en omgaan met emoties. Het liefst samen met andere hulp."
     - id: andere-vaktherapieen
@@ -62,7 +64,6 @@ therapievormen:
       url: https://richtlijnendatabase.nl/richtlijn/autismespectrumstoornis_bij_kinderen_jeugd/comorbide_psychische_stoornissen.html
       geraadpleegd: "2026-10-14"
 volgorde: 1
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: NJi – Autisme

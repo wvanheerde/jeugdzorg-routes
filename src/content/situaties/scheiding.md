@@ -32,7 +32,6 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/scheiding/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 13
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: NJi – Scheiding

@@ -8,6 +8,7 @@ const soort: Record<string, string> = { gesprekstherapie: 'Gesprekstherapie', ge
 const ob: Record<string, { kort: string; cls: string; lang: string }> = {
   richtlijn: { kort: 'Aanbevolen in richtlijn', cls: 'nee', lang: 'Aanbevolen in een zorgstandaard of jeugdhulprichtlijn.' },
   erkend: { kort: 'Erkend door NJi', cls: 'nee', lang: 'Opgenomen in de databank effectieve jeugdinterventies van het NJi.' },
+  onderbouwd: { kort: 'Goed onderbouwd (NJi)', cls: 'soms', lang: 'In de NJi-databank als goed onderbouwd beoordeeld: de aanpak is goed beschreven, maar het effect is nog niet onderzocht.' },
   gangbaar: { kort: 'Gangbaar, beperkter onderzocht', cls: 'soms', lang: 'Breed toegepast, maar minder wetenschappelijk onderzocht dan de andere vormen.' },
 };
 const o = ob[t.data.onderbouwing.label];

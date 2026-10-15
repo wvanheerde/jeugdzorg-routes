@@ -31,7 +31,7 @@ De site noemt geen bedragen uit begrotingen en rangschikt geen zorgaanbieders.
 
 - **Bronnen.** Alle informatie komt uit openbare bronnen: websites en raadsinformatie van gemeenten, jaarstukken en begrotingen, verordeningen op [lokaleregelgeving.overheid.nl](https://lokaleregelgeving.overheid.nl), rapporten van rekenkamers en inspectie, [CBS StatLine](https://opendata.cbs.nl) en de sites van organisaties zelf. Bij elke bewering staat de bron; wat niet te onderbouwen is, staat er niet.
 - **Met hulp van AI, gecontroleerd door een mens.** Het onderzoek per gemeente en het schrijven gebeuren met AI-agents. Per gemeente worden de cijfers en een steekproef van beweringen in de bron nagekeken; klopt iets niet, dan wordt opnieuw gezocht. Over twijfelgevallen beslist de beheerder. Daarna volgt een redactieronde die de tekst begrijpelijk maakt (taalniveau B1) zonder feiten te veranderen. AI kan fouten maken; meld ze vooral (zie hieronder).
-- **Status.** Alle gemeentepagina's hebben nu de status *concept*: onderzocht en geredigeerd, maar nog niet door de gemeente zelf of een tweede lezer bevestigd. Elke pagina vermeldt wanneer die voor het laatst is bijgewerkt. De inhoud wordt periodiek opnieuw nagelopen.
+- **Stand van zaken.** Alle gemeentepagina's zijn onderzocht en geredigeerd, maar nog niet door de gemeente zelf of een tweede lezer bevestigd. Elke pagina vermeldt wanneer die voor het laatst is bijgewerkt. De inhoud wordt periodiek opnieuw nagelopen.
 
 De schrijfregels en de werkwijze staan in [CONTENT.md](CONTENT.md).
 

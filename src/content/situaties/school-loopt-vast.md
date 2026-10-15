@@ -23,7 +23,6 @@ regelingen:
   - naam: "Leerplichtambtenaar"
     toelichting: "Elke gemeente heeft een leerplichtambtenaar. Gaat uw kind niet naar school, of wijzen school, samenwerkingsverband en gemeente naar elkaar? Bel dan de gemeente en vraag naar leerplicht. De leerplichtambtenaar kan iedereen om tafel brengen."
 volgorde: 3
-status: concept
 laatstGecontroleerd: "2026-10-13"
 bronnen:
   - titel: Onderwijsconsulenten – Contact

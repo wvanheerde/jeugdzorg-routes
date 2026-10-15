@@ -5,16 +5,38 @@
   "watIsHet": "Begeleiding, vaak door een orthopedagoog, psycholoog of gespecialiseerde begeleider, waarin het kind concrete vaardigheden oefent: taken opdelen, tijd inschatten, spullen ordenen, beginnen zonder uitstel. Vaak gekoppeld aan school.",
   "hoeWerktHet": "Veel kinderen met ADHD, autisme of hoogbegaafdheid lopen vast op organisatie, niet op begrip. Door strategieën aan te leren en samen met school en ouders toe te passen, nemen frustratie en onderpresteren af.",
   "voorWie": "Kinderen en jongeren vanaf ongeveer 9 jaar met ADHD, autisme, hoogbegaafdheid of onderpresteren, vooral rond de overgang naar het voortgezet onderwijs.",
-  "verwachting": "Wekelijkse of tweewekelijkse sessies van 45 tot 60 minuten, 8 tot 15 keer, met afstemming met school.",
+  "verwachting": "Wekelijkse of tweewekelijkse sessies, 8 tot 15 keer, met afstemming met school.",
   "onderbouwing": {
     "label": "gangbaar",
-    "toelichting": "Veel toegepast in de jeugd-GGZ en het onderwijs; het effect op schoolresultaten is in onderzoek wisselend. Werkt het best als school en ouders de strategieën overnemen."
+    "toelichting": "De richtlijn ADHD beveelt training in plannen en organiseren aan voor jongeren met ADHD; computertrainingen voor het werkgeheugen raadt zij af. Bij autisme en hoogbegaafdheid wordt de training veel gebruikt, maar is ze minder onderzocht."
   },
   "vergoeding": "Jeugdwet (gemeente) als onderdeel van behandeling of begeleiding; soms via school of het samenwerkingsverband; soms zelf betalen.",
   "aanvragen": "Vraag het wijkteam of de behandelaar om begeleiding gericht op executieve functies, en vraag school om mee te doen; noem concrete situaties waarin uw kind vastloopt.",
   "overwegingen": [
     "Zinvol als de problemen vooral in organisatie en planning zitten.",
     "Minder zinvol zolang angst of somberheid de kern is."
+  ],
+  "sessie": "Uw kind werkt met de behandelaar aan wat in het dagelijks leven niet lukt, meestal school en huiswerk. Het leert bijvoorbeeld schoolspullen en huiswerk bijhouden, grote taken in stappen opdelen en de tijd indelen. De behandelaar vraagt ook wat uw kind zelf wil bereiken, zodat het gemotiveerd blijft. Wat het leert, past het tussen de sessies toe op school en thuis. U en vaak ook de mentor of leerkracht worden erbij betrokken, zodat u uw kind daarbij kunt helpen.",
+  "programmas": [
+    {
+      "naam": "Zelf Plannen",
+      "omschrijving": "Voor jongeren van 12 tot 18 jaar met ADHD op de middelbare school. In 8 wekelijkse sessies leren zij school- en huiswerk beter plannen, met gesprekken die hun eigen motivatie versterken. U krijgt 2 eigen sessies met uitleg, en bespreekt wat u verwacht en welke afspraken u thuis maakt. De erkenning in de NJi-databank is verlopen.",
+      "url": "https://www.nji.nl/databanken/interventies/zelf-plannen"
+    },
+    {
+      "naam": "Op de basisschool: via leerkracht en ouders",
+      "omschrijving": "Voor kinderen tot ongeveer 12 jaar met ADHD legt de richtlijn ADHD de nadruk op de leerkracht, die leert de klas en de aanpak aan te passen aan uw kind. Bij jongeren komt het trainen van het kind zelf meer centraal te staan."
+    }
+  ],
+  "vraagt": "Uw kind moet zelf willen werken aan plannen en organiseren; de behandelaar sluit daarom aan bij zijn of haar eigen doelen. Tussen de sessies oefent uw kind op school en thuis. U bent bij een paar gesprekken en maakt thuis afspraken over wie waarvoor zorgt, bijvoorbeeld bij huiswerk; ook de mentor of leerkracht moet weten wat uw kind leert.",
+  "voortgang": "Verschil zie je het eerst bij plannen, organiseren en schoolwerk; de concentratieproblemen zelf veranderen minder. Na afloop kan het effect weer kleiner worden. De richtlijn vraagt de behandelaar de effecten goed te volgen; ziet u geen verschil, bespreek dan of er iets anders nodig is, zoals meer hulp via school of thuis.",
+  "effect": "Bij 158 Amerikaanse basisschoolkinderen met ADHD, van ongeveer 8 tot 11 jaar, had na 20 sessies organisatietraining 6 op de 10 geen duidelijke problemen meer met organiseren en plannen, tegen 3 op de 100 op de wachtlijst, en in het volgende schooljaar was er nog effect. Bij 159 Nederlandse jongeren met ADHD van 12 tot 17 jaar was de vooruitgang na Zelf Plannen een jaar later nog te zien; volgens de richtlijn ADHD helpen zulke trainingen vooral bij plannen en schoolwerk en wordt het effect op de lange duur kleiner. Computertrainingen voor het werkgeheugen raadt de richtlijn af, omdat kinderen wel beter worden in de oefeningen maar hun gedrag thuis en op school niet verandert; over kinderen met autisme of hoogbegaafdheid is veel minder bekend.",
+  "vragen": [
+    "Gaat het om oefenen met plannen en organiseren in het dagelijks leven, of om oefeningen op de computer?",
+    "Welk programma gebruikt u, en hoe worden wij en de school erbij betrokken?",
+    "Wat oefent mijn kind tussen de sessies, en hoe help ik zonder het over te nemen?",
+    "Hoe meten we of het helpt, en wanneer kijken we samen terug?",
+    "Wat doen we als het na afloop weer minder gaat?"
   ],
   "situaties": [
     "adhd",
@@ -32,10 +54,54 @@
       "titel": "Kenniscentrum Hoogbegaafdheid (SLO)",
       "url": "https://kenniscentrumhb.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Planning- en organisatietraining",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/niet-medicamenteuze_behandeling_adhd_bij_kind/planning-_organisatietraining_bij_adhd_kind.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Cognitieve training",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/niet-medicamenteuze_behandeling_adhd_bij_kind/cognitieve_training_bij_adhd_bij_kinderen.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn ADHD (jeugdhulp en jeugdbescherming)",
+      "url": "https://www.richtlijnenjeugdhulp.nl/adhd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Zelf Plannen",
+      "url": "https://www.nji.nl/databanken/interventies/zelf-plannen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – ADHD (professionals)",
+      "url": "https://kenniscentrum-kjp.nl/professionals/adhd/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Abikoff e.a. (2013), Organisatietraining bij kinderen met ADHD – Journal of Consulting and Clinical Psychology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22889336/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Boyer e.a. (2015), Twee korte gedragstherapieën voor jongeren met ADHD – European Child & Adolescent Psychiatry",
+      "url": "https://doi.org/10.1007/s00787-014-0661-5",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Boyer e.a. (2016), Eén jaar na twee korte gedragstherapieën voor jongeren met ADHD – European Child & Adolescent Psychiatry",
+      "url": "https://doi.org/10.1007/s00787-015-0776-3",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Cortese e.a. (2015), Cognitieve training bij ADHD: meta-analyse – Journal of the American Academy of Child & Adolescent Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25721181/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

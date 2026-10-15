@@ -13,7 +13,9 @@ const d = t.data;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const situaties = (await getCollection('situaties')).filter((s) => d.situaties.includes(s.id)).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const brieven = (await getCollection('brieven')).filter((b) => b.id === 'aanvraag-jeugdhulp');
-const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard of jeugdhulprichtlijn', erkend: 'Erkend in de NJi-databank effectieve jeugdinterventies', gangbaar: 'Gangbaar, maar beperkter wetenschappelijk onderzocht' };
+// Toelichting mag een verwijzing naar een andere pagina bevatten als [tekst](/pad/).
+const metLinks = (tekst: string) => tekst.split(/(\[[^\]]+\]\([^)]+\))/).map((deel) => { const m = deel.match(/^\[([^\]]+)\]\(([^)]+)\)$/); return m ? { tekst: m[1], href: m[2].startsWith('/') ? `${base}${m[2]}` : m[2] } : { tekst: deel }; });
+const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard of jeugdhulprichtlijn', erkend: 'Erkend in de NJi-databank effectieve jeugdinterventies', onderbouwd: 'Goed onderbouwd volgens de NJi-databank, effect nog niet onderzocht', gangbaar: 'Gangbaar, maar beperkter wetenschappelijk onderzocht' };
 ---
 <Base title={d.naam} description={d.kort}>
   <div class="page-head">
@@ -35,15 +37,21 @@ const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard
     </aside>
     <div>
       <TherapieToelichting />
-      <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het en hoe werkt het?</h2><p>{d.watIsHet}</p><p>{d.hoeWerktHet}</p></section>
+      <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het en hoe werkt het?</h2><p>{d.watIsHet}</p><p>{d.hoeWerktHet}</p>
+        {d.sessie && <><h3>Zo gaat een sessie</h3><p>{d.sessie}</p></>}
+        {d.programmas.length > 0 && <><h3>Vormen</h3><ul>{d.programmas.map((p) => <li><strong>{p.url ? <a href={p.url} target="_blank" rel="noopener">{p.naam}<span aria-hidden="true"> ↗</span></a> : p.naam}</strong> – {p.omschrijving}</li>)}</ul></>}</section>
       <section class="section" id="voorwie"><h2><span class="section-num">2</span>Voor wie past het?</h2><p>{d.voorWie}</p>{d.leeftijd && <p class="meta">Leeftijd: ongeveer {d.leeftijd.van ?? 0}{d.leeftijd.tot ? ` tot ${d.leeftijd.tot}` : ' jaar en ouder'}{d.leeftijd.tot ? ' jaar' : ''}.</p>}
         {d.overwegingen.length > 0 && <ul>{d.overwegingen.map((o) => <li>{o}</li>)}</ul>}</section>
-      <section class="section" id="verwachting"><h2><span class="section-num">3</span>Wat kunt u verwachten?</h2><p>{d.verwachting}</p></section>
+      <section class="section" id="verwachting"><h2><span class="section-num">3</span>Wat kunt u verwachten?</h2><p>{d.verwachting}</p>
+        {d.vraagt && <><h3>Wat het van uw kind en van u vraagt</h3><p>{d.vraagt}</p></>}
+        {d.voortgang && <><h3>Wanneer merkt u verschil?</h3><p>{d.voortgang}</p></>}</section>
       <section class="section" id="onderbouwing"><h2><span class="section-num">4</span>Onderbouwing en vergoeding</h2>
-        <p><strong>{ob[d.onderbouwing.label]}.</strong> {d.onderbouwing.toelichting}</p>
+        <p><strong>{ob[d.onderbouwing.label]}.</strong> {metLinks(d.onderbouwing.toelichting).map((x) => (x.href ? <a href={x.href}>{x.tekst}</a> : x.tekst))}</p>
+        {d.effect && <><h3>Wat onderzoek laat zien</h3><p>{d.effect}</p></>}
         <p><strong>Vergoeding:</strong> {d.vergoeding}</p></section>
       <section class="section regelen" id="aanvragen"><h2><span class="section-num">5</span>Zo vraagt u het aan</h2>
         <p>{d.aanvragen}</p>
+        {d.vragen.length > 0 && <><h3>Vragen voor de behandelaar</h3><ul>{d.vragen.map((v) => <li>{v}</li>)}</ul></>}
         {/\bverwijzer\b/i.test(d.aanvragen) && <p class="meta"><strong>Wie is de verwijzer?</strong> De huisarts, de jeugdarts of een medisch specialist. Ook het wijkteam van uw gemeente kan u verder helpen.</p>}
         <p class="meta">Beschrijf in uw hulpvraag wat u ziet, wat u wilt bereiken en waarom deze vorm daarbij past. Zo kunnen u en het team samen de afweging maken; het team kent het lokale aanbod en kan een andere vorm voorstellen als die beter past. {brieven.length > 0 && <a href={`${base}/brieven/aanvraag-jeugdhulp/`}>Voorbeeldbrief hulpvraag →</a>}</p>
       </section>

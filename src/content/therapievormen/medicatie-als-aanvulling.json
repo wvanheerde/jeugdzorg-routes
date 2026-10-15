@@ -3,8 +3,8 @@
   "soort": "medicatie",
   "kort": "Geen therapievorm, maar een keuze die bij sommige situaties naast therapie aan de orde kan komen.",
   "watIsHet": "Bij ADHD, ernstige angst of dwang, tics en depressie bij jongeren kan een kinderarts of kinderpsychiater medicatie voorstellen. Dit overzicht beschrijft geen middelen; het beschrijft wat u mag verwachten van het gesprek daarover.",
-  "hoeWerktHet": "Medicatie vermindert symptomen maar leert geen vaardigheden; daarom staat het in richtlijnen naast, en meestal na, gedragsmatige behandeling en oudertraining. De zorgstandaarden schrijven gezamenlijke besluitvorming voor: uitleg over effect, bijwerkingen, duur en alternatieven, en een proefperiode met evaluatie.",
-  "voorWie": "Alleen op indicatie van een arts, meestal als therapie en oudertraining onvoldoende helpen of als klachten zeer ernstig zijn.",
+  "hoeWerktHet": "Medicatie vermindert klachten maar leert geen vaardigheden; daarom staat het in richtlijnen naast gedragsmatige behandeling en oudertraining. Bij angst en dwang komt het pas in beeld als therapie onvoldoende helpt; bij matige of ernstige ADHD kan het volgens de richtlijn ook direct na uitleg en adviezen, als ouders dat willen. De zorgstandaarden schrijven gezamenlijke besluitvorming voor: uitleg over effect, bijwerkingen, duur en alternatieven, en een proefperiode met evaluatie.",
+  "voorWie": "Alleen op indicatie van een arts. Bij angst en dwang meestal als therapie onvoldoende helpt; bij matige of ernstige ADHD eventueel al direct na uitleg en adviezen.",
   "verwachting": "Instelperiode van enkele weken met controles; daarna periodieke evaluatie en afspraken over stoppen of afbouwen.",
   "onderbouwing": {
     "label": "richtlijn",
@@ -15,6 +15,17 @@
   "overwegingen": [
     "Vraag altijd welke niet-medicamenteuze stappen eerst zijn geprobeerd.",
     "U mag een second opinion vragen."
+  ],
+  "sessie": "In het eerste gesprek legt de arts uit wat medicatie wel en niet kan doen: wat u mag verwachten, hoe lang het duurt voordat u iets merkt, welke bijwerkingen er kunnen komen, hoe lang uw kind het gebruikt en wat er gebeurt bij stoppen. Bij ADHD-medicatie meet de arts vooraf de bloeddruk, hartslag, lengte en het gewicht, zodat veranderingen later te zien zijn. In het begin, en na elke aanpassing van de dosis, is er vaker contact met de arts. Bij elke controle bespreekt u hoe het gaat met de klachten, thuis en op school, met slapen en eten, en of er bijwerkingen zijn; vaak vullen u en de leerkracht daarvoor een vragenlijst in. Gaat het goed met ADHD-medicatie, dan komt uw kind ongeveer elke 6 maanden op controle.",
+  "vraagt": "U let thuis op wat er verandert en schrijft bijwerkingen op, bijvoorbeeld in een dagboekje; bij ADHD telt ook wat de leerkracht ziet. Bij medicijnen tegen angst, dwang of somberheid let u in de eerste maanden en na elke dosiswijziging extra op onrust, boosheid en gedachten aan zelfdoding, en heeft u in die tijd vaak contact met de arts. De andere hulp, zoals adviezen, oudertraining of therapie, loopt door; medicatie komt daar niet voor in de plaats.",
+  "voortgang": "ADHD-medicatie begint meestal binnen een uur na het innemen te werken; bijwerkingen worden vaak na 1 of 2 weken minder. Medicijnen tegen angst of dwang helpen niet meteen: pas na ongeveer 6 tot 12 weken is duidelijk of het genoeg helpt. Helpt het te weinig, heeft uw kind veel last van bijwerkingen, of worden de klachten juist erger, neem dan contact op met de arts; samen kijkt u naar een andere dosis, een ander middel of stoppen.",
+  "effect": "In het Amerikaanse MTA-onderzoek bij 579 kinderen van 7 tot 10 jaar met ADHD namen onrust en concentratieproblemen na 14 maanden zorgvuldig ingestelde en maandelijks gecontroleerde medicatie meer af dan met alleen intensieve gedragstherapie; drie jaar na de start was dat verschil verdwenen. Bij angst hielpen bepaalde antidepressiva beter dan een nep-pil (placebo), in een overzicht van 115 onderzoeken bij ruim 7700 kinderen van gemiddeld 9 jaar; bij angst en bij dwang hielp medicatie samen met gedragstherapie beter dan medicatie alleen. Of medicatie na meer dan een jaar gebruik blijft helpen, en hoe veilig jarenlang gebruik is, is weinig onderzocht.",
+  "vragen": [
+    "Wat mogen we van dit medicijn verwachten, en wanneer weten we of het genoeg helpt?",
+    "Welke bijwerkingen kunnen er komen, waar let ik thuis op, en wanneer neem ik contact met u op?",
+    "Hoe vaak komen we op controle, wat meet u dan, en vult de school ook een vragenlijst in?",
+    "Starten we de medicatie tegelijk met andere hulp, of na elkaar, zodat we zien wat helpt?",
+    "Hoe lang gebruikt mijn kind het, en hoe en wanneer proberen we te stoppen?"
   ],
   "situaties": [
     "adhd",
@@ -34,10 +45,74 @@
       "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Begrijp je medicijn",
       "url": "https://www.kenniscentrum-kjp.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Medicamenteuze behandeling",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/medicamenteuze_behandeling_adhd_bij_kinderen.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Monitoren",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/monitoren_van_adhd_bij_kinderen.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn ADHD bij kinderen – Combinatiebehandeling",
+      "url": "https://richtlijnendatabase.nl/richtlijn/adhd_bij_kinderen/combinatiebehandeling_adhd_bij_kinderen.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Angst- en dwangstoornissen (NVvP, 2023) – Farmacotherapie bij kinderen en adolescenten",
+      "url": "https://richtlijnendatabase.nl/richtlijn/angst-_en_dwangstoornissen/farmacotherapie_bij_angst_en_dwangstoornissen_2023/farmacotherapie_-_kinderen_en_adolescenten_bij_angst_en_dwangstoornissen_2023.html",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts – ADHD-pillen slikken bij kinderen",
+      "url": "https://www.thuisarts.nl/adhd-bij-kinderen/medicijnen-gebruiken-kind",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts – Proefstop met ADHD-pillen",
+      "url": "https://www.thuisarts.nl/adhd-bij-kinderen/proefstop-adhd-medicijnen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Praten over medicatie",
+      "url": "https://kenniscentrum-kjp.nl/ouders/medicijnen-uitleg/praten-medicatie-behandelaar/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Begrijp je medicijn: methylfenidaat",
+      "url": "https://kenniscentrum-kjp.nl/ouders/medicijnen-uitleg/methylfenidaat/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Begrijp je medicijn: sertraline",
+      "url": "https://kenniscentrum-kjp.nl/ouders/medicijnen-uitleg/sertraline/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "MTA Cooperative Group (1999), 14 maanden behandeling van ADHD vergeleken – Archives of General Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10591283/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jensen e.a. (2007), MTA-onderzoek na 3 jaar – Journal of the American Academy of Child & Adolescent Psychiatry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17667478/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Wang e.a. (2017), CGT en medicatie bij angststoornissen bij kinderen – JAMA Pediatrics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28859190/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Tao e.a. (2022), medicatie en CGT bij dwangstoornis bij kinderen en jongeren – Journal of Psychiatric Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35121274/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

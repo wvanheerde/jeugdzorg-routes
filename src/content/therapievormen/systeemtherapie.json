@@ -5,7 +5,7 @@
   "watIsHet": "Gesprekken met het hele gezin of delen ervan, onder leiding van een systeemtherapeut. Niet het kind is 'het probleem', maar de patronen tussen gezinsleden worden onderzocht en veranderd.",
   "hoeWerktHet": "Klachten van een kind hangen vaak samen met spanning, verlies, scheiding of ziekte in het gezin. Door samen te praten over hoe iedereen op elkaar reageert, ontstaat ruimte voor verandering die thuis beklijft.",
   "voorWie": "Gezinnen waar meer speelt dan één kind: scheiding, een ziek of overbelast gezinslid, broers en zussen die klem zitten, eetproblemen, terugkerende conflicten.",
-  "verwachting": "Meestal 5 tot 15 gesprekken van 60 tot 90 minuten, om de twee tot drie weken, met wisselende samenstelling van wie meekomt.",
+  "verwachting": "Meestal 5 tot 15 gesprekken, om de twee tot drie weken, met wisselende samenstelling van wie meekomt.",
   "onderbouwing": {
     "label": "richtlijn",
     "toelichting": "Systeemtherapie is onderdeel van de behandelrichtlijnen bij onder meer eetstoornissen, gedragsproblemen en problematische gehechtheid; beroepsvereniging NVRG bewaakt de opleiding."
@@ -15,6 +15,34 @@
   "overwegingen": [
     "Past als meerdere gezinsleden last hebben van de situatie of als individuele behandeling thuis geen effect heeft.",
     "Vraagt dat gezinsleden bereid zijn mee te komen; bij een vechtscheiding is dat soms eerst mediation."
+  ],
+  "sessie": "In het eerste gesprek bespreekt u samen wat de problemen zijn, hoe ze zijn ontstaan, wat ze voor ieder in het gezin betekenen en wat u wilt bereiken. In de gesprekken daarna kijkt de therapeut vooral naar hoe u op elkaar reageert en welke invloed u op elkaar hebt. Soms ligt de nadruk op anders met elkaar omgaan, soms op anders kijken naar het probleem. Ook belangrijke mensen die er niet bij zijn, krijgen een plek in het gesprek. Bij gedragsproblemen oefent het gezin daarnaast concrete vaardigheden, zoals samen een probleem oplossen en ruzies hanteren.",
+  "programmas": [
+    {
+      "naam": "Relationele Gezinstherapie (RGT)",
+      "omschrijving": "Voor gezinnen met een jongere van 12 tot 18 jaar met ernstige gedragsproblemen, zoals agressie, spijbelen of het plegen van delicten. De gesprekken zijn thuis of bij de instelling en duren 3 tot 9 maanden: eerst weer verbinding en zin in verandering, dan vaardigheden oefenen, en tot slot toepassen buiten het gezin met een plan tegen terugval. Het NJi noemt het goed onderbouwd, maar het is nog niet onderzocht op effect.",
+      "url": "https://www.nji.nl/databanken/interventies/relationele-gezinstherapie-rgt"
+    },
+    {
+      "naam": "Kinderen uit de Knel",
+      "omschrijving": "Voor gescheiden ouders die blijven strijden, en hun kinderen van 4 tot 18 jaar die daar last van hebben. Ouders en kinderen zitten tegelijk elk in een eigen groep: acht bijeenkomsten, om de twee weken, en ook familie en vrienden van beide ouders worden erbij betrokken. Volgens de richtlijn Scheiding nam de strijd tussen ouders in onderzoek af, maar was het beeld bij de kinderen wisselend; het NJi noemt het goed onderbouwd, nog niet onderzocht op effect.",
+      "url": "https://www.nji.nl/databanken/interventies/kinderen-uit-de-knel"
+    },
+    {
+      "naam": "Hechtingsgerichte gezinstherapie",
+      "omschrijving": "Gezinsgesprekken gericht op de band tussen ouder en kind. De richtlijn Problematische gehechtheid noemt het omdat het veel wordt gebruikt, maar schrijft ook dat er voor zover bekend geen onderzoek is naar of het helpt.",
+      "url": "https://www.richtlijnenjeugdhulp.nl/problematische-gehechtheid/volledig"
+    }
+  ],
+  "vraagt": "Meestal komen meerdere gezinsleden mee; dat vraagt tijd, en de bereidheid om ook naar uw eigen manier van reageren te kijken. Tussen de gesprekken probeert u thuis uit wat u hebt besproken of geoefend. Heeft u na een scheiding samen het gezag, dan is voor hulp aan uw kind toestemming van beide ouders nodig, en afhankelijk van de leeftijd ook van uw kind zelf.",
+  "voortgang": "Bij gezinstherapie voor gedragsproblemen gaat het eerst om weer met elkaar in gesprek komen en samen willen veranderen; verandering in gedrag komt daarna. Blijft verschil uit, vraag dan of er iets anders of iets erbij nodig is, zoals behandeling voor uw kind zelf. De richtlijn Ernstige gedragsproblemen raadt bij jongeren vanaf 12 jaar gezinstherapie aan samen met cognitieve gedragstherapie voor de jongere.",
+  "effect": "'Systeemtherapie' is een verzamelnaam; onderzoek gaat over een beperkt aantal vormen, en vooral over tieners. In een overzicht van 15 onderzoeken bij ruim 2000 kinderen en jongeren van gemiddeld 10 tot 19 jaar hielp systeemtherapie bij cannabis- en ander middelengebruik iets beter dan cognitieve gedragstherapie (CGT, waarbij het kind leert anders te denken en te doen), en bij eetstoornissen en ADHD even goed. Hoeveel kinderen vooruitgaan en na hoeveel gesprekken, laten deze overzichten niet zien.",
+  "vragen": [
+    "Bent u als systeemtherapeut geregistreerd bij de NVRG, en heeft u ervaring met kinderen van deze leeftijd?",
+    "Wie komen er bij de gesprekken, en wat als iemand niet wil of kan komen?",
+    "Werkt u met een vast programma, en is onderzocht of dat helpt?",
+    "Hoe meten we of het helpt, en wanneer kijken we samen terug?",
+    "Krijgt mijn kind zelf ook hulp als dat nodig is?"
   ],
   "situaties": [
     "scheiding",
@@ -34,10 +62,49 @@
       "titel": "Richtlijn Problematische gehechtheid (jeugdhulp)",
       "url": "https://www.richtlijnenjeugdhulp.nl/problematische-gehechtheid/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "NVRG – Wat is systeemtherapie",
+      "url": "https://www.nvrg.nl/systeemtherapie",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Ernstige gedragsproblemen (jeugdhulp)",
+      "url": "https://www.richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/volledig",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijn Scheiding (jeugdhulp)",
+      "url": "https://www.richtlijnenjeugdhulp.nl/scheiding/volledig",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Relationele Gezinstherapie (RGT)",
+      "url": "https://www.nji.nl/databanken/interventies/relationele-gezinstherapie-rgt",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Relationele gezinstherapie (RGT)",
+      "url": "https://kenniscentrum-kjp.nl/professionals/behandelmethoden/relationele-gezinstherapie-rgt/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Kinderen uit de Knel",
+      "url": "https://www.nji.nl/databanken/interventies/kinderen-uit-de-knel",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Seidel e.a. (2024), Systeemtherapie bij kinderen en jongeren met psychische stoornissen: overzichtsstudie – BMC Psychiatry",
+      "url": "https://doi.org/10.1186/s12888-024-05556-y",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Riedinger e.a. (2017), Effecten van systeemtherapie bij kinderen en jongeren: meta-analyse – Journal of Clinical Child & Adolescent Psychology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26467300/",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

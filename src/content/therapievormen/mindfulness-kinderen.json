@@ -3,18 +3,36 @@
   "soort": "training",
   "kort": "Aandachttraining in een groep, om beter om te gaan met stress, piekeren en prikkels.",
   "watIsHet": "Een groepstraining van meestal acht wekelijkse bijeenkomsten waarin kinderen of jongeren leren hun aandacht te richten, lichaamssignalen op te merken en minder automatisch te reageren. Vaak met een ouderbijeenkomst of een parallelle oudertraining.",
-  "hoeWerktHet": "Door regelmatig te oefenen met aandacht groeit het vermogen om spanning op te merken voordat die overloopt, en om te kiezen hoe te reageren. Dat helpt bij piekeren, impulsiviteit en overprikkeling.",
+  "hoeWerktHet": "Door regelmatig te oefenen met aandacht groeit het vermogen om spanning op te merken voordat die overloopt, en om te kiezen hoe te reageren. Dat kan helpen bij piekeren en stress.",
   "voorWie": "Kinderen vanaf ongeveer 8 jaar en jongeren met stress, faalangst, lichte angst- of stemmingsklachten, ADHD of overprikkeling; ook als aanvulling op een behandeling.",
-  "verwachting": "Acht bijeenkomsten van 60 tot 90 minuten, met dagelijks kort oefenen thuis.",
+  "verwachting": "Acht bijeenkomsten, één keer per week; soms volgt later nog een terugkombijeenkomst.",
   "onderbouwing": {
     "label": "gangbaar",
-    "toelichting": "Breed aangeboden via GGZ, scholen en praktijken; onderzoek laat bescheiden effecten zien op stress en aandacht. Niet de eerste keus bij ernstige klachten. Trainers kunnen geregistreerd zijn bij de VMBN."
+    "toelichting": "Breed aangeboden via GGZ, scholen en praktijken. Bij ADHD hoort mindfulness volgens de richtlijn niet in het standaardaanbod, omdat het nog te weinig onderzocht is; het NJi erkent de gezinstraining MYmind wel als 'effectief volgens eerste aanwijzingen'. Niet de eerste keus bij ernstige klachten."
   },
   "vergoeding": "Soms via de Jeugdwet als onderdeel van een behandeling, soms via school; vaak zelf betalen of via de aanvullende verzekering.",
   "aanvragen": "Vraag de behandelaar, het wijkteam of school of er een mindfulnesstraining voor kinderen wordt aangeboden en wat die kost.",
   "overwegingen": [
     "Geschikt als lichte, laagdrempelige stap of naast behandeling; vervangt geen behandeling bij ernstige klachten.",
     "Vraagt motivatie om thuis te oefenen."
+  ],
+  "sessie": "In MYmind, een Nederlandse training voor kinderen met ADHD en hun ouders, begint en eindigt elke bijeenkomst met een korte meditatie: uw kind richt de aandacht op de adem en brengt die steeds terug als het merkt dat het afdwaalt. Daarna vertellen de kinderen hoe het oefenen thuis ging, en leert de trainer een nieuwe oefening, zoals de bodyscan, waarbij uw kind liggend de aandacht langs het lichaam laat gaan. Na de pauze doen de kinderen eenvoudige yoga-oefeningen; vaak doet een van hen de oefening van vorige week voor. Ouders zitten tegelijk in een eigen groep. In de laatste bijeenkomst leiden de kinderen zelf oefeningen voor hun ouders.",
+  "programmas": [
+    {
+      "naam": "MYmind",
+      "omschrijving": "Voor kinderen en jongeren van 9 tot 18 jaar met ADHD of aandachts- en gedragsproblemen, en hun ouders. Acht wekelijkse groepsbijeenkomsten en later een terugkombijeenkomst. Ouders volgen tegelijk een eigen training in aandachtig opvoeden (Mindful Parenting). Het NJi beoordeelt MYmind als 'effectief volgens eerste aanwijzingen'.",
+      "url": "https://www.nji.nl/databanken/interventies/mymind"
+    }
+  ],
+  "vraagt": "Uw kind krijgt elke week oefeningen voor thuis, het liefst elke dag, met opnames van begeleide meditaties. Jongere kinderen hebben u daarbij vaak nodig, zeker in het begin; jongeren oefenen meestal alleen. Bij een training voor het gezin wordt beide ouders gevraagd mee te doen en zelf ook thuis te oefenen.",
+  "voortgang": "Halverwege de training en bij de terugkombijeenkomst kijkt de trainer met u terug, bij MYmind ook met vragenlijsten van voor en na de training. Het effect kan na een paar maanden weer afnemen; in MYmind maakt u aan het eind samen een plan om thuis te blijven oefenen. Blijven de klachten of komen ze terug, vraag dan naar de behandeling die de richtlijn aanbeveelt: cognitieve gedragstherapie bij angst of somberheid, en oudertraining of medicatie bij ADHD.",
+  "effect": "In een groot overzicht van 66 onderzoeken bij ruim 20.000 kinderen en jongeren hielp mindfulness een beetje tegen angst en stress en bij de aandacht; hoe lang dat blijft, is nog onduidelijk. Bij ADHD vinden de Nederlandse richtlijnen het bewijs te mager en hoort mindfulness niet in het standaardaanbod. Het NJi ziet de gezinstraining MYmind wel als optie als de aanbevolen behandelingen niet genoeg helpen of niet passen.",
+  "vragen": [
+    "Welke training is het, en staat die in de databank van het NJi?",
+    "Bent u opgeleid in mindfulness voor kinderen of gezinnen?",
+    "Doen wij als ouders mee, en hoeveel tijd kost het thuis oefenen?",
+    "Hoe meten we of het helpt, en wanneer kijken we samen terug?",
+    "Is dit een aanvulling op de behandeling die de richtlijn aanbeveelt, of komt het in plaats daarvan, en waarom?"
   ],
   "situaties": [
     "angst-of-somberheid",
@@ -27,10 +45,39 @@
       "titel": "Vereniging Mindfulness Based Trainers Nederland en Vlaanderen (VMBN)",
       "url": "https://www.vmbn.nl/",
       "geraadpleegd": "2026-10-10"
+    },
+    {
+      "titel": "Richtlijn ADHD (jeugdhulp), paragraaf 4.7 Overige interventies",
+      "url": "https://richtlijnenjeugdhulp.nl/uploads/2025-04/Richtlijn-ADHD.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Zorgstandaard ADHD – Innovatieve en experimentele behandelingen",
+      "url": "https://www.ggzstandaarden.nl/zorgstandaarden/adhd/behandeling-en-begeleiding/innovatieve-en-experimentele-behandelingen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum KJP – ADHD, behandeling",
+      "url": "https://kenniscentrum-kjp.nl/professionals/adhd/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – MYmind",
+      "url": "https://www.nji.nl/databanken/interventies/mymind",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Uitgebreide beschrijving MYmind (2025)",
+      "url": "https://www.nji.nl/system/files/2025-11/uitgebreide-beschrijving-mymind.pdf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Dunning e.a. (2022), Mindfulness bij kinderen en jongeren: overzicht van 66 gerandomiseerde onderzoeken – Evidence-Based Mental Health",
+      "url": "https://doi.org/10.1136/ebmental-2022-300464",
+      "geraadpleegd": "2026-10-15"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-10",
-    "status": "concept"
+    "laatstGecontroleerd": "2026-10-15"
   }
 }

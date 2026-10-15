@@ -56,7 +56,7 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
 
 <!-- Mijn overzicht: begint de situatie bij de huisarts of school, dan onder stap 1 toch één regel met het wijkteam. -->
 <template data-slot="overzicht-wijkteam-regel">
-  {d.meta.status !== 'voorbeeld' && t0 && (() => { const c = contacten(t0.contact)[0]; return (
+  {t0 && (() => { const c = contacten(t0.contact)[0]; return (
     <div class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>
       <p>Liever eerst het wijkteam? Dat mag ook: <strong>{t0.naam}</strong>{c?.telefoon && <>, <a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>bel {c.telefoon}</a></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}.</p>
       <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {d.naam}?</a></div>
@@ -75,13 +75,8 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
         <Contact contact={cjg.contact} />
       </div>
     )}
-    {d.meta.status === 'voorbeeld' ? (<>
-      <h3>Gemeente {d.naam} (algemeen nummer)</h3>
-      <p class="meta">Vraag naar jeugdhulp. De details voor {d.naam} hebben we nog niet uitgezocht.</p>
-    </>) : (
-      <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span>: {t?.naam}</h3>
-    )}
-    {d.meta.status !== 'voorbeeld' && t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
+    <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span>: {t?.naam}</h3>
+    {t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
     {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
     {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}
     <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {d.naam}?</a></div>

@@ -37,7 +37,6 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/traumagerelateerde-problemen/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 19
-status: concept
 laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: "Zorgstandaard Psychotrauma- en stressorgerelateerde stoornissen"
