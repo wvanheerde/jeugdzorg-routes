@@ -22,8 +22,10 @@ export const beginBij: Record<string, string> = {
 /** In oudertaal: moet de gemeente eerst toestemming geven? kort = past op één regel, lang = tooltip. */
 export const beschikking: Record<string, { kort: string; lang: string }> = {
   ja: { kort: 'Toestemming gemeente nodig', lang: 'De gemeente moet eerst een besluit nemen (een beschikking) voordat deze hulp start.' },
-  nee: { kort: 'Direct beschikbaar', lang: 'Geen besluit van de gemeente nodig; u kunt direct terecht.' },
-  soms: { kort: 'Via arts direct, anders via gemeente', lang: 'Verwijst de huisarts, jeugdarts of specialist, dan is geen besluit van de gemeente nodig. Via het wijkteam wel.' },
+  nee: { kort: 'Vrij toegankelijk', lang: 'Geen verwijzing en geen besluit van de gemeente nodig; u kunt zelf contact opnemen.' },
+  soms: { kort: 'Soms toestemming gemeente nodig', lang: 'Of de gemeente eerst een besluit (beschikking) neemt, hangt af van de route. Via de huisarts, jeugdarts of specialist, of bij lichte hulp, is dat vaak niet nodig; via het wijkteam vaak wel.' },
+  spoed: { kort: 'Bij spoed direct, zonder besluit', lang: 'Bij acute nood start de hulp meteen, zonder besluit van de gemeente vooraf.' },
+  rechter: { kort: 'Besluit van de kinderrechter', lang: 'Deze hulp vraagt u niet zelf aan: de kinderrechter beslist erover.' },
 };
 
 /** Thema's die te algemeen zijn om organisaties aan een situatie te koppelen. */

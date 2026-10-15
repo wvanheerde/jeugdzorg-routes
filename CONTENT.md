@@ -2,6 +2,11 @@
 
 De informatiestructuur is vastgelegd in `src/content.config.ts` (Zod-schema). `npm run build` faalt als content niet voldoet.
 
+## Bronnen
+
+- Elke pagina toont haar bronnen op dezelfde manier: één blok helemaal onderaan (`<Sources>`, id `bronnen`), met "Bijgewerkt …" en de bronnen ingeklapt onder "Bronnen (n)". Geen losse bronregels of -lijsten elders op de pagina; een korte `<sup>bron</sup>`-link in lopende tekst mag wel.
+- Brieven en vragen (knelpunten) krijgen ook bronnen, net als de andere pagina's.
+
 ## Collecties
 
 | Map | Formaat | Wat |
@@ -93,6 +98,7 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
 
 - Doel: ouders laten begrijpen welke vormen bestaan, zodat zij een onderbouwde wens kunnen formuleren richting gemeente of verwijzer. Geen behandeladvies, geen ranglijst.
 - Vormen uit een zorgstandaard, jeugdhulprichtlijn of de NJi-databank krijgen `onderbouwing.label` richtlijn of erkend. `erkend` alleen als het NJi de vorm effectief vindt (eerste, goede of sterke aanwijzingen); staat er alleen "goed onderbouwd", gebruik dan `onderbouwd`. In de toelichting mag een verwijzing naar een andere vorm als `[tekst](/therapievormen/slug/)`. Regelmatig toegepaste vormen met minder of omstreden bewijs mogen erin met het label `gangbaar`, mits de toelichting eerlijk zegt wat de richtlijn ervan vindt. Zo weet een ouder wat wordt aangeboden én hoe het is onderbouwd. Een vorm die de richtlijn niet aanbeveelt omdat goed onderzoek geen effect vindt (zoals neurofeedback bij ADHD), krijgt geen eigen pagina; noem dat zo nodig in de `toelichting` van de situatie.
+- Noem Thuisarts niet in lopende tekst ("Thuisarts adviseert …"); het mag wel als bron in `bronnen`.
 - **Nooit** namen van behandelaars, praktijken of commerciële aanbieders. Beroepsverenigingen en registers (VGCt, NVRG, Vaktherapie Nederland, NVPMT, NKD) mogen wel, als vindplaats.
 - Vaste velden: wat is het, hoe werkt het, voor wie, wat kunt u verwachten (duur, frequentie, rol ouders), onderbouwing, vergoeding, hoe aanvragen, overwegingen (wanneer wel/niet). Minstens één officiële bron.
 - `leeftijd` (van/tot in jaren, tot exclusief) alleen invullen als de vorm echt leeftijdsgebonden is; het overzicht verbergt vormen buiten de gekozen leeftijdsband.
@@ -108,6 +114,16 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
 - Invulvelden altijd tussen vierkante haken met een hint: `[naam kind]`, `[datum besluit]`. Optionele alinea's tussen haken met "Als ...:".
 - Elke brief vraagt om iets schriftelijks terug (verslag, beschikking, datum), zodat de ouder iets in handen heeft.
 - Brieven hebben geen eigen overzichtspagina en staan niet in het menu; ze bestaan alleen als onderdeel van situaties. Koppel elke brief aan minstens één situatie en verwijs vanuit stappen in de situatietekst met een relatieve link `../../brieven/<slug>/`.
+
+## Hulpsoorten
+
+- Doel: ouders laten zien wat ze bij de gemeente (of via een andere wet) kunnen aanvragen, en hoe. Geen aanbieders noemen; beroepsverenigingen, kenniscentra en landelijke organisaties (Per Saldo, CIZ, VNG, NJi) mogen wel.
+- De kaart (`omschrijving`, `voorWie`, `voorbeelden`, `beschikkingNodig`, `toegangVia`) blijft kort. Een uitgewerkte hulpsoort heeft `inDePraktijk` en krijgt dan een eigen pagina (`/hulpsoorten/<id>/`); de kaarten linken ernaartoe.
+- Uitwerking: `inDePraktijk` (wie, waar, hoe vaak), `nietVoor` (wanneer iets anders past of eerst komt), `verwachting` (duur, evaluatie, wat er gebeurt als de beschikking afloopt), `vragen` (hooguit vijf, voor het wijkteam), `bronnen`, `laatstGecontroleerd`. Aanvragen, pgb en rechten staan op de landelijke pagina's en worden per hulpsoort niet herhaald; de pagina verwijst ernaar.
+- Therapievormen vallen onder een of meer hulpsoorten (`hulpsoorten` in de therapievorm; `zorgverzekering: true` als het (ook) via de zorgverzekering loopt). De hulpsoortpagina toont de vormen die eronder vallen. Een situatie toont automatisch ook de hulpsoorten waar haar therapievormen onder vallen; zet in `hulpsoorten` van de situatie alleen wat daarnaast past (bv. Behandeling bij "School loopt vast", voor onderzoek).
+  - Elk tekstveld twee tot vier zinnen; niets herhalen.
+  - Bronnen: wet en regelgeving (Jeugdwet, Wlz, Wmo), Rijksoverheid, VNG, NJi, Zorginstituut, CIZ, Per Saldo, Kenniscentrum KJP, Thuisarts. Lokale verschillen benoemen ("verschilt per gemeente") in plaats van één gemeente als norm te nemen.
+  - Geen bedragen of aantallen uren als norm, tenzij een landelijke bron ze noemt.
 
 ## Tips van ouders
 

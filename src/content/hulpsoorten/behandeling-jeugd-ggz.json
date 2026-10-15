@@ -1,4 +1,60 @@
-{ "naam": "Behandeling (jeugd-GGZ)", "volgorde": 3, "beschikkingNodig": "soms", "toegangVia": ["huisarts", "wijkteam"],
-  "omschrijving": "Diagnostiek en behandeling van psychische problemen door een psycholoog, orthopedagoog of psychiater. Bij verwijzing door een arts is geen aparte beschikking nodig.",
-  "voorWie": "Kinderen met bijvoorbeeld angst, somberheid, trauma, ADHD, autisme of eetproblemen.",
-  "voorbeelden": ["Diagnostisch onderzoek", "Cognitieve gedragstherapie", "EMDR bij trauma", "Medicatiebegeleiding"] }
+{
+  "naam": "Behandeling",
+  "volgorde": 3,
+  "beschikkingNodig": "soms",
+  "toegangVia": [
+    "huisarts",
+    "wijkteam"
+  ],
+  "omschrijving": "Onderzoek en behandeling van psychische problemen, gedrags- of ontwikkelingsproblemen of problemen in het gezin, door bijvoorbeeld een psycholoog, orthopedagoog, psychiater of gezinstherapeut. Bij verwijzing door een arts is geen aparte beschikking nodig.",
+  "voorWie": "Kinderen met bijvoorbeeld angst, somberheid, trauma, ADHD, autisme, eetproblemen, ernstige gedragsproblemen of een verstandelijke beperking, en hun gezin.",
+  "voorbeelden": [
+    "Diagnostisch onderzoek",
+    "Cognitieve gedragstherapie",
+    "EMDR bij trauma",
+    "Medicatiebegeleiding"
+  ],
+  "inDePraktijk": "Meestal begint het met een intake: een of meer behandelaars praten uitgebreid met u en uw kind over wat er speelt en wat u graag wilt. Soms volgt eerst diagnostisch onderzoek, met gesprekken, vragenlijsten, observatie (bijvoorbeeld thuis of op school) en testen; een diagnose is niet altijd nodig om te kunnen behandelen. Bij lichtere problemen (de basis jeugd-ggz) is de behandeling vaak kort, bij de behandelaar of thuis en soms deels via internet; bij ernstige of ingewikkelde problemen (de specialistische jeugd-ggz) werkt een team samen, vaak langer, en soms in deeltijd: een of meer dagdelen per week. U als ouder wordt bij de behandeling betrokken, en bij een kind jonger dan 5 krijgt u vaak zelf een deel van de behandeling.",
+  "nietVoor": "Lichte psychische klachten kan de huisarts of de praktijkondersteuner ggz (POH-ggz) vaak zelf behandelen, en bij vragen over opvoeden of moeilijk gedrag kunt u eerst terecht bij opvoed- en opgroeiondersteuning van het CJG of wijkteam. Heeft uw kind vooral hulp nodig bij het dagelijks leven, zoals structuur of zelfredzaamheid, dan past ambulante begeleiding vaak beter. Is uw kind een gevaar voor zichzelf of anderen, of hoort of ziet het dingen die er niet zijn, bel dan direct de huisarts of de huisartsenpost (zie Crisishulp). Kan uw kind (tijdelijk) niet thuis wonen, dan gaat het om verblijf in een instelling, pleeggezin of gezinshuis.",
+  "verwachting": "De behandelaar maakt samen met u en uw kind een behandelplan: wat u wilt bereiken, welke behandeling er is, wie die geeft en wat de voor- en nadelen zijn. Vaak wordt bij de start afgesproken hoe lang de behandeling duurt, bijvoorbeeld een aantal gesprekken of een half jaar; daarna kijkt u samen of de doelen gehaald zijn, en bij afsluiten krijgt de verwijzer een brief met wat u kunt doen als de klachten terugkomen. Er kan een wachtlijst zijn, soms eerst voor het onderzoek en daarna opnieuw voor de behandeling. Vanaf 18 jaar valt behandeling onder de volwassenen-ggz en de zorgverzekering, met eigen risico en soms een andere behandelaar; alleen in sommige gevallen verlengt de gemeente de jeugdhulp, tot uiterlijk 23 jaar.",
+  "vragen": [
+    "Gaat het om lichtere of specialistische behandeling, en naar welke aanbieders kan mijn kind met deze verwijzing?",
+    "Is eerst onderzoek nodig, en is er daarna nog een aparte wachttijd voor de behandeling?",
+    "Hoe lang is de wachttijd, en welke hulp of steun krijgen we in de tussentijd?",
+    "Hoe worden wij als ouders, en de school, bij het onderzoek en de behandeling betrokken?",
+    "Mijn kind wordt binnenkort 18: kan de behandeling doorlopen, en wat moeten we op tijd regelen?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Jeugd-ggz",
+      "url": "https://www.regelhulp.nl/onderwerpen/welke-soort/jeugd-ggz",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Overgang van Jeugdwet naar Wmo, Zvw of Wlz",
+      "url": "https://www.regelhulp.nl/onderwerpen/zorg-organiseren/van-jeugd-naar-18/vanuit-de-jeugdwet",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Waar vind ik hulp voor mijn kind van 4-18 jaar?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdhulp/vraag-en-antwoord/jeugdhulp/hulp-vinden-voor-kind-4-18-jaar",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts (NHG) – Mijn kind heeft psychische klachten",
+      "url": "https://www.thuisarts.nl/psychische-klachten-als-je-jong-bent/mijn-kind-heeft-psychische-klachten",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Wegwijs in de zorg",
+      "url": "https://kenniscentrum-kjp.nl/ouders/wegwijs-zorg/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Als je kind volwassen wordt",
+      "url": "https://kenniscentrum-kjp.nl/ouders/kind-volwassen/",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

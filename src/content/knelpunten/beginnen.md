@@ -13,5 +13,15 @@ gemeenteOnderdelen: [toegang, clientondersteuning, aanbieders]
 brieven: [aanvraag-jeugdhulp, verzoek-verwijzing-huisarts]
 landelijk: [02-toegang, 02b-hulp-vragen, 03-rechten]
 volgorde: 1
-laatstGecontroleerd: "2026-10-12"
+bronnen:
+  - titel: "Regelhulp (Ministerie van VWS) – Jeugdhulp aanvragen"
+    url: https://www.regelhulp.nl/onderwerpen/wetten-regels/jeugdwet/jeugdhulp-regelen
+    geraadpleegd: "2026-10-15"
+  - titel: "Jeugdwet (wetten.overheid.nl)"
+    url: https://wetten.overheid.nl/BWBR0034925/
+    geraadpleegd: "2026-10-15"
+  - titel: "Algemene wet bestuursrecht: beslistermijn en bezwaar (wetten.overheid.nl)"
+    url: https://wetten.overheid.nl/BWBR0005537/
+    geraadpleegd: "2026-10-15"
+laatstGecontroleerd: "2026-10-15"
 ---

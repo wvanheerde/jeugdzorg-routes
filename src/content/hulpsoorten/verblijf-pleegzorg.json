@@ -1,4 +1,109 @@
-{ "naam": "Verblijf, pleegzorg en gezinshuizen", "volgorde": 8, "beschikkingNodig": "ja", "toegangVia": ["wijkteam", "gecertificeerde-instelling"],
+{
+  "naam": "Verblijf, pleegzorg en gezinshuizen",
+  "volgorde": 8,
+  "beschikkingNodig": "ja",
+  "toegangVia": [
+    "wijkteam",
+    "gecertificeerde-instelling"
+  ],
   "omschrijving": "Het kind woont tijdelijk of langer ergens anders: bij een pleeggezin, in een gezinshuis of een behandelgroep. Kan vrijwillig of via de kinderrechter.",
   "voorWie": "Als thuis wonen tijdelijk niet gaat, ook met hulp. Ook deeltijdpleegzorg (weekenden) is mogelijk.",
-  "voorbeelden": ["Netwerkpleegzorg bij familie", "Weekendpleegzorg", "Gezinshuis"] }
+  "voorbeelden": [
+    "Netwerkpleegzorg bij familie",
+    "Deeltijdpleegzorg, bijvoorbeeld in het weekend",
+    "Gezinshuis"
+  ],
+  "inDePraktijk": "Uw kind kan wonen bij familie, vrienden of bekenden (netwerkpleegzorg), of bij een pleeggezin dat het nog niet kent (bestandspleegzorg). In een gezinshuis woont uw kind met andere kinderen bij gezinshuisouders: beroepsopvoeders die dag en nacht voor de kinderen zorgen. Voor behandeling kan uw kind een tijd in een groep van een jeugdhulpinstelling wonen, en oudere jongeren kunnen in een kamertraining leren zelfstandig te wonen. In een omgangsregeling staan de afspraken over contact: waar en hoe vaak u uw kind ziet, en wat u samen blijft doen, zoals naar de dokter gaan.",
+  "nietVoor": "Een hulpverlener zoekt eerst samen met u naar hulp waardoor uw kind thuis kan blijven wonen, zoals ambulante begeleiding of intensieve hulp voor het hele gezin. Wilt u vooral af en toe op adem komen terwijl uw kind thuis blijft wonen, dan past logeren en respijtzorg beter. Bij acute nood, als uw kind vandaag niet thuis kan blijven, is er crisishulp. Heeft uw kind door een beperking zijn hele leven dag en nacht zorg nodig, dan kan die zorg, ook wonen buiten het gezin, via de Wlz (Wet langdurige zorg) lopen, aan te vragen bij het CIZ.",
+  "verwachting": "Volgens de richtlijn Pleegzorg maakt het team rond uw kind binnen een maand samen met u een plan, met doelen en wat er nodig is om weer thuis te wonen. Ook staat erin binnen welke termijn besloten wordt of uw kind teruggaat of ergens anders opgroeit (het perspectiefbesluit). Woont uw kind vrijwillig ergens anders, dan bespreekt u met de hulpverlener wanneer het terugkomt, en heeft de kinderrechter beslist, dan kijkt ook de Raad voor de Kinderbescherming mee. Pleegzorg en wonen in een gezinshuis kunnen na 18 jaar doorlopen tot 21 jaar, en met toestemming van de gemeente soms tot 23 jaar.",
+  "vragen": [
+    "Kan mijn kind bij iemand uit onze familie of omgeving wonen, en wat is daarvoor nodig?",
+    "Kunnen broers en zussen samen op dezelfde plek wonen?",
+    "Welke afspraken maken we over contact, en wanneer kijken we of die nog goed zijn?",
+    "Wat moet er veranderen voordat mijn kind weer thuis kan wonen, en wanneer wordt daarover besloten?",
+    "Welke hulp krijgen ik en mijn kind zolang het ergens anders woont, en ook als het weer thuiskomt?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Welke jeugdhulp is mogelijk vanuit de Jeugdwet",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/jeugdwet/wat-is",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Orthopedagogisch behandelcentrum",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/orthopedagogisch-centrum",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Wlz-zorg voor jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/wlz/wlz-zorg-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdwet (geldend vanaf 1 januari 2026), artikel 1.1 (jeugdige, pleegzorg, jeugdhulp met verblijf)",
+      "url": "https://wetten.overheid.nl/BWBR0034925/2026-01-01",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Soorten pleegzorg",
+      "url": "https://www.nji.nl/kennis/pleegzorg/soorten-pleegzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Welke rol hebben de ouders van het pleegkind?",
+      "url": "https://www.nji.nl/kennis/pleegzorg/welke-rol-hebben-ouders-pleegkind",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Gezinshuizen",
+      "url": "https://www.nji.nl/kennis/gezinshuizen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Tot wanneer blijf ik in een gezinshuis wonen?",
+      "url": "https://www.nji.nl/kennis/gezinshuizen/tot-wanneer-blijf-ik-gezinshuis-wonen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Vrijwillige of gedwongen uithuisplaatsing?",
+      "url": "https://www.nji.nl/kennis/uithuisplaatsing/vrijwillige-of-gedwongen-uithuisplaatsing",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Tijdelijke uithuisplaatsing: hoe werkt dat?",
+      "url": "https://www.nji.nl/kennis/uithuisplaatsing/tijdelijke-uithuisplaatsing-hoe-werkt-dat",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Welke hulp kan ik vragen zodat mijn kind thuis kan blijven wonen?",
+      "url": "https://www.nji.nl/kennis/uithuisplaatsing/welke-hulp-kan-ik-vragen-zodat-mijn-kind-thuis-kan-blijven-wonen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Wanneer kan mijn kind weer thuis komen wonen?",
+      "url": "https://www.nji.nl/kennis/uithuisplaatsing/wanneer-kan-mijn-kind-weer-thuis-komen-wonen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijnen Jeugdhulp en Jeugdbescherming – Richtlijn Pleegzorg, kernaanbevelingen",
+      "url": "https://www.richtlijnenjeugdhulp.nl/pleegzorg/kernaanbevelingen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Richtlijnen Jeugdhulp en Jeugdbescherming – Richtlijn Uithuisplaatsing en terugplaatsing, kernaanbevelingen",
+      "url": "https://www.richtlijnenjeugdhulp.nl/uithuisplaatsing-en-terugplaatsing/kernaanbevelingen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Pleegzorg.nl (Jeugdzorg Nederland) – Ouders",
+      "url": "https://www.pleegzorg.nl/ouders",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Pleegzorg.nl (Jeugdzorg Nederland) – Pleegzorg vanaf 18 jaar",
+      "url": "https://www.pleegzorg.nl/informatie/leven-als-pleeggezin/pleegzorg-vanaf-18-jaar",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

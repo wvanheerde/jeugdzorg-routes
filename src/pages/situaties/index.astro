@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import Toegang from '../../components/Toegang.astro';
+import HulpsoortKaart from '../../components/HulpsoortKaart.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -42,13 +42,7 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
   <ToegangLegenda />
   <div class="grid" style="margin-top:1.25rem">
     {hulpsoorten.map((h) => (
-      <div class="card" id={h.id} style="scroll-margin-top:5.5rem">
-        <h3>{afbreken(h.data.naam)}</h3>
-        <p>{h.data.omschrijving}</p>
-        <p class="meta"><strong>Voor wie:</strong> {h.data.voorWie}</p>
-        {h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
-        <Toegang waarde={h.data.beschikkingNodig} />
-      </div>
+      <HulpsoortKaart h={h} voorWie id={h.id} style="scroll-margin-top:5.5rem" />
     ))}
   </div>
 </Base>

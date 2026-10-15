@@ -10,7 +10,7 @@
     "label": "richtlijn",
     "toelichting": "De zorgstandaard ADHD en de richtlijnen voor angst en depressie beschrijven wanneer medicatie wordt overwogen en dat de beslissing samen met ouders en kind wordt genomen."
   },
-  "vergoeding": "Zorgverzekering (geneesmiddelen) in combinatie met behandeling via de Jeugdwet.",
+  "vergoeding": "Zorgverzekering (geneesmiddelen) in combinatie met behandeling via de Jeugdwet. Ook als een kinderarts bijvoorbeeld ADHD behandelt, valt de behandeling onder de Jeugdwet; alleen de geneesmiddelen lopen via de zorgverzekering.",
   "aanvragen": "U vraagt geen medicatie aan; u kunt wel vragen om een gesprek met een arts over de afweging, en om uitleg waarom medicatie wel of niet wordt voorgesteld. Het Kenniscentrum Kinder- en Jeugdpsychiatrie heeft daar ouderinformatie over ('Begrijp je medicijn').",
   "overwegingen": [
     "Vraag altijd welke niet-medicamenteuze stappen eerst zijn geprobeerd.",
@@ -32,6 +32,10 @@
     "angst-of-somberheid",
     "dwang-en-tics"
   ],
+  "hulpsoorten": [
+    "behandeling-jeugd-ggz"
+  ],
+  "zorgverzekering": true,
   "leeftijd": {
     "van": 6
   },
@@ -109,6 +113,11 @@
     {
       "titel": "Tao e.a. (2022), medicatie en CGT bij dwangstoornis bij kinderen en jongeren – Journal of Psychiatric Research",
       "url": "https://pubmed.ncbi.nlm.nih.gov/35121274/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Zorginstituut Nederland – Kindergeneeskunde: afbakening Jeugdwet en Zorgverzekeringswet (2015)",
+      "url": "https://www.zorginstituutnederland.nl/documenten/2015/04/13/kindergeneeskunde-afbakening-jeugdwet-en-zorgverzekeringwet",
       "geraadpleegd": "2026-10-15"
     }
   ],

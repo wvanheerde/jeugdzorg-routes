@@ -1,4 +1,119 @@
-{ "naam": "Dagbesteding en dagbehandeling", "volgorde": 4, "beschikkingNodig": "ja", "toegangVia": ["wijkteam", "huisarts"],
+{
+  "naam": "Dagbesteding en dagbehandeling",
+  "volgorde": 4,
+  "beschikkingNodig": "ja",
+  "toegangVia": [
+    "wijkteam",
+    "huisarts"
+  ],
   "omschrijving": "Een plek overdag met begeleiding of behandeling, naast of in plaats van school of kinderopvang.",
   "voorWie": "Kinderen die (tijdelijk) niet mee kunnen in regulier onderwijs of opvang, of die extra ontwikkelingsgerichte begeleiding nodig hebben.",
-  "voorbeelden": ["Medisch kinderdagverblijf", "Dagbehandeling voor jonge kinderen", "Naschoolse groep voor kinderen met een beperking"] }
+  "voorbeelden": [
+    "Medisch kinderdagverblijf",
+    "Kinderdagcentrum (KDC)",
+    "Naschoolse groep voor kinderen met een beperking"
+  ],
+  "inDePraktijk": "Bij dagbesteding doet uw kind overdag activiteiten in een groep, zoals knutselen, wandelen of tuinieren, met begeleiding erbij. Bij dagbehandeling leert uw kind vaardigheden, zoals zichzelf aankleden of eten, en behandelt een team het, bijvoorbeeld een orthopedagoog, logopedist en fysiotherapeut. Een medisch kinderdagverblijf (MKD) is dagbehandeling voor kinderen tot 7 jaar met een ontwikkelingsachterstand; welke plekken er zijn, verschilt per gemeente. Naschoolse dagbehandeling is voor kinderen met gedragsproblemen: na school tot ongeveer half zeven in een groep, in overleg met de school.",
+  "nietVoor": "Via de Jeugdwet is dagbesteding bedoeld voor een kind dat door een ziekte of beperking niet naar school of kinderopvang kan. Kan uw kind met extra ondersteuning op school blijven (passend onderwijs), dan mag de gemeente u eerst naar school verwijzen. Soms kunnen school en gemeente onderwijs en zorg samen regelen, in een onderwijs-zorgarrangement: deels les, deels hulp. Heeft een kind tot 4 jaar vooral verpleging nodig door ingewikkelde medische problemen, dan past eerder een verpleegkundig kinderdagverblijf, dat vooral via de zorgverzekering loopt.",
+  "verwachting": "De aanbieder werkt met een plan dat zo veel mogelijk samen met u en uw kind is gemaakt. Gemeenten geven vaak een beschikking (besluit) voor drie maanden of een half jaar; heeft uw kind langdurig hulp nodig, dan kunt u om een langere beschikking vragen, met tussentijdse evaluatie. Vanuit een kinderdagcentrum (KDC), voor kinderen met een ernstige verstandelijke of meervoudige beperking, gaat een deel van de kinderen later naar (speciaal) onderwijs en een deel naar dagbesteding. Dagbesteding via de Jeugdwet stopt bij 18 jaar; daarna loopt het via de Wmo, of via de Wlz als uw kind al een Wlz-indicatie had.",
+  "vragen": [
+    "Valt dit onder de Jeugdwet, de Wlz of de zorgverzekering, en wie regelt het dan?",
+    "Hoe lang geldt de beschikking, en wanneer en met wie bespreken we of de doelen gehaald worden?",
+    "Is vervoer naar de groep onderdeel van de beschikking, en hoe regel ik vervoer naar school?",
+    "Kan mijn kind deels naar school blijven gaan, en wie overlegt daarover met school en het samenwerkingsverband?",
+    "Is er een wachttijd, en welke hulp krijgen we in de tussentijd?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (VWS) – Dagbehandeling en dagbesteding voor jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/dagbesteding-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Medisch kinderdagverblijf",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/medisch-kinderdagverblijf",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Kinderdagcentrum",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/kinderdagcentrum",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Naschoolse dagbehandeling bij gedragsproblemen",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/naschoolse-dagbehandeling",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Jeugdhulp aanvragen",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/jeugdwet/jeugdhulp-regelen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Wlz-zorg voor jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/wlz/wlz-zorg-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Dagbesteding voor volwassenen",
+      "url": "https://www.regelhulp.nl/onderwerpen/welke-soort/opvang-en-tijdelijk-verblijf/dagbesteding",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (VWS) – Cliëntondersteuning",
+      "url": "https://www.regelhulp.nl/onderwerpen/clientondersteuning",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdwet, artikelen 1.1, 1.2, 2.3, 4.1.3 en 8.1.1",
+      "url": "https://wetten.overheid.nl/BWBR0034925/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Leerplichtwet 1969, artikelen 5 en 7",
+      "url": "https://wetten.overheid.nl/BWBR0002628/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Krijgt mijn kind leerlingenvervoer?",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/passend-onderwijs/vraag-en-antwoord/passend-onderwijs/krijgt-mijn-kind-leerlingenvervoer",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Onderwijs en zorg",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/passend-onderwijs/onderwijs-en-zorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Hoe krijgt mijn kind passend onderwijs?",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/passend-onderwijs/vraag-en-antwoord/passend-onderwijs/hoe-krijgt-mijn-kind-passend-onderwijs",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Wanneer kan ik bezwaar maken tegen een beslissing over mijn aanvraag voor jeugdhulp?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdhulp/vraag-en-antwoord/jeugdhulp/bezwaar-maken-tegen-beslissing-over-aanvraag-jeugdhulp",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Zorginstituut Nederland – Kindzorg (0-18 jaar)",
+      "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/k/kindzorg-0-18-jaar",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Per Saldo – Pgb of zorg in natura?",
+      "url": "https://www.pgb.nl/nieuw-in-het-pgb-doe-mee/pgb-of-zorg-in-natura/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum Kinder- en Jeugdpsychiatrie – Wegwijs in de zorg",
+      "url": "https://kenniscentrum-kjp.nl/ouders-jongeren/wegwijs-zorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Bezuiniging jeugdzorg een jaar uitgesteld",
+      "url": "https://www.nji.nl/actueel/bezuiniging-jeugdzorg-een-jaar-uitgesteld",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

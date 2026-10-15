@@ -1,4 +1,98 @@
-{ "naam": "Logeren en respijtzorg", "volgorde": 5, "beschikkingNodig": "ja", "toegangVia": ["wijkteam"],
+{
+  "naam": "Logeren en respijtzorg",
+  "volgorde": 5,
+  "beschikkingNodig": "soms",
+  "toegangVia": [
+    "wijkteam"
+  ],
   "omschrijving": "Het kind logeert af en toe in een logeerhuis of bij een zorgboerderij, zodat het gezin op adem kan komen. Ook thuisoppas door een getrainde vrijwilliger of professional valt hieronder.",
   "voorWie": "Gezinnen met een kind dat intensieve zorg of toezicht nodig heeft.",
-  "voorbeelden": ["Logeerweekend eens per maand", "Zorgboerderij in de vakantie", "Thuisoppas (bv. via Handjehelpen of MEE)"] }
+  "voorbeelden": [
+    "Logeerweekend eens per maand",
+    "Zorgboerderij in de vakantie",
+    "Thuisoppas door een getrainde vrijwilliger of beroepskracht"
+  ],
+  "inDePraktijk": "Uw kind logeert af en toe ergens anders, bijvoorbeeld een weekend of een deel van de vakantie, zodat u en de rest van het gezin rust krijgen. In een logeerhuis verblijft uw kind in een kleine groep met andere kinderen, en hulpverleners nemen de zorg over. Logeert uw kind op vaste momenten bij een pleeggezin, bijvoorbeeld één weekend per maand, dan heet dat deeltijdpleegzorg. Respijtzorg (zorg die u even vrij geeft) kan ook thuis: een vrijwilliger of beroepskracht past dan op uw kind, bijvoorbeeld een dagdeel per week.",
+  "nietVoor": "Logeren en respijtzorg zijn er om u af en toe te ontlasten, terwijl uw kind thuis blijft wonen. Is er acute nood en kan uw kind vandaag niet thuis blijven? Dan past crisishulp. Lukt thuis wonen ook met regelmatig logeren niet meer, bespreek dan met het wijkteam of wonen in een pleeggezin of gezinshuis past.",
+  "verwachting": "Er is op dit moment meer vraag naar logeerplekken voor kinderen dan aanbod, en wat er is verschilt per gemeente en regio. Ook is er een tekort aan pleegouders, dus het vinden van een passende plek kan tijd kosten. Voor uw kind is het een nieuwe plek met nieuwe mensen, en het afscheid kan in het begin moeilijk zijn. Bespreek vooraf wat uw kind nodig heeft en wat de logeerplek kan bieden, en vraag om een vast moment om samen terug te kijken.",
+  "vragen": [
+    "Valt logeren voor mijn kind onder de Jeugdwet of de Wlz, en betaal ik een eigen bijdrage?",
+    "Welke logeerplekken zijn er in onze regio, en hoe lang is de wachttijd?",
+    "Wordt het vervoer naar de logeerplek vergoed?",
+    "Kan iemand uit ons eigen netwerk met een pgb thuis op mijn kind passen?",
+    "Hoe lang geldt het besluit, en wanneer kijken we samen terug?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Logeeropvang voor jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/logeren",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Zorginstituut Nederland – Logeeropvang (Wlz)",
+      "url": "https://www.zorginstituutnederland.nl/Verzekerde+zorg/logeeropvang-wlz",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Hoe kan ik als mantelzorger hulp bij de zorg krijgen?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/mantelzorg/vraag-en-antwoord/mantelzorg/hoe-kan-ik-als-mantelzorger-hulp-bij-de-zorg-krijgen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Waar vraag ik een persoonsgebonden budget (pgb) aan?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdhulp/vraag-en-antwoord/persoonsgebonden-budget-pgb/pgb-aanvragen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Wanneer kan ik bezwaar maken tegen een beslissing over mijn aanvraag voor jeugdhulp?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdhulp/vraag-en-antwoord/jeugdhulp/bezwaar-maken-tegen-beslissing-over-aanvraag-jeugdhulp",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Soorten pleegzorg",
+      "url": "https://www.nji.nl/kennis/pleegzorg/soorten-pleegzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Meer kinderen krijgen deeltijdpleegzorg",
+      "url": "https://www.nji.nl/actueel/meer-kinderen-krijgen-deeltijdpleegzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "MantelzorgNL – Vervangende zorg of respijtzorg: even vrij van mantelzorg",
+      "url": "https://www.mantelzorg.nl/onderwerpen/professionals/vervangende-zorg-of-respijtzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "MantelzorgNL – Welke hulp is er vanuit de gemeente voor mantelzorgers?",
+      "url": "https://www.mantelzorg.nl/onderwerpen/ondersteuning/waar-kun-je-terecht/hulp-van-gemeente-voor-mantelzorgers",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "MantelzorgNL – Motie aangenomen: kabinet maakt werk van gelijkwaardige en landelijke dekking van respijtzorg (maart 2026)",
+      "url": "https://www.mantelzorg.nl/artikelen/motie-aangenomen-kabinet-maakt-werk-van-gelijkwaardige-en-landelijke-dekking-van-respijtzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "MantelzorgNL – Ervaringsverhaal: logeerhuis",
+      "url": "https://www.mantelzorg.nl/ervaringen/logeerhuis",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdwet, artikel 8.1.1 (persoonsgebonden budget)",
+      "url": "https://wetten.overheid.nl/jci1.3:c:BWBR0034925&hoofdstuk=8&paragraaf=8.1&artikel=8.1.1",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Wet maatschappelijke ondersteuning 2015, artikel 2.1.4a (eigen bijdrage)",
+      "url": "https://wetten.overheid.nl/jci1.3:c:BWBR0035362&hoofdstuk=2&paragraaf=2.1&artikel=2.1.4a",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Wet maatschappelijke ondersteuning 2015, artikel 2.2.4 (cliëntondersteuning)",
+      "url": "https://wetten.overheid.nl/jci1.3:c:BWBR0035362&hoofdstuk=2&paragraaf=2.2&artikel=2.2.4",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

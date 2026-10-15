@@ -2,7 +2,7 @@
   "naam": "Zindelijkheidstraining en urotherapie",
   "soort": "training",
   "kort": "Gerichte training voor kinderen die niet vanzelf zindelijk worden, na medische controle.",
-  "watIsHet": "Een stapsgewijs programma rond plassen en poepen: vaste toiletmomenten, drink- en eetafspraken, beloning en soms een plaswekker. Urotherapie is de medische variant via een continentiepoli of kinderfysiotherapeut; bij kinderen met autisme of een beperking is er intensieve, individuele begeleiding thuis en op school.",
+  "watIsHet": "Een stapsgewijs programma rond plassen en poepen: vaste toiletmomenten, drink- en eetafspraken, beloning en soms een plaswekker. Urotherapie is de medische variant via de kinderarts of een continentiepoli, of een kinder(bekken)fysiotherapeut; bij kinderen met autisme of een beperking is er intensieve, individuele begeleiding thuis en op school.",
   "hoeWerktHet": "Zindelijkheid is deels een aangeleerd patroon. Bij kinderen bij wie het niet vanzelf komt, helpt een consequent programma waarin thuis en school hetzelfde doen, nadat lichamelijke oorzaken zoals verstopping zijn behandeld.",
   "voorWie": "Kinderen vanaf ongeveer 5 jaar met bedplassen of broekplassen, kinderen met verstopping en broekpoepen, en kinderen met autisme of een ontwikkelingsachterstand bij wie de gewone aanpak niet werkt.",
   "verwachting": "Urotherapie: enkele consulten over een aantal maanden. Intensieve training: dagelijks gedurende één tot enkele weken, met de trainer op school en thuis.",
@@ -10,7 +10,7 @@
     "label": "richtlijn",
     "toelichting": "De JGZ-richtlijn Zindelijkheid beschrijft stapsgewijze begeleiding en verwijzing; urotherapie is onderdeel van de kindergeneeskundige richtlijnen."
   },
-  "vergoeding": "Medische route (continentiepoli, kinderfysiotherapie) via de zorgverzekering; intensieve begeleiding bij een beperking via de Jeugdwet, vaak als pgb omdat gecontracteerd aanbod ontbreekt.",
+  "vergoeding": "De medische route (kinderarts, continentiepoli, kinderfysiotherapie) loopt via de zorgverzekering; kinderfysiotherapie tot 9 behandelingen per aandoening per jaar, zo nodig 9 extra. Een plaswekker wordt niet uit de basisverzekering vergoed, incontinentiemateriaal vanaf 5 jaar wel. Intensieve training bij een beperking loopt via de Jeugdwet (gemeente), vaak als pgb; met een Wlz-indicatie via de Wlz.",
   "aanvragen": "Vraag de jeugdarts of huisarts eerst om lichamelijk onderzoek en verwijzing naar urotherapie. Lukt de gewone aanpak niet bij een kind met autisme of een beperking, vraag dan het wijkteam om intensieve zindelijkheidsbegeleiding, met een concreet voorstel en zo nodig een pgb.",
   "overwegingen": [
     "Altijd eerst lichamelijk laten beoordelen.",
@@ -47,6 +47,11 @@
     "autisme",
     "verstandelijke-beperking"
   ],
+  "hulpsoorten": [
+    "behandeling-jeugd-ggz",
+    "ambulante-begeleiding"
+  ],
+  "zorgverzekering": true,
   "leeftijd": {
     "van": 4
   },
@@ -94,6 +99,16 @@
     {
       "titel": "Levato e.a. (2016), Use of urine alarms in toilet training children with intellectual and developmental disabilities: A review – Research in Developmental Disabilities",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26942703/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Besluit zorgverzekering",
+      "url": "https://wetten.overheid.nl/BWBR0018492",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regeling zorgverzekering",
+      "url": "https://wetten.overheid.nl/BWBR0018715",
       "geraadpleegd": "2026-10-15"
     }
   ],

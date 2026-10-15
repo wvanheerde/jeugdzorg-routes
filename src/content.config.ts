@@ -239,9 +239,23 @@ const hulpsoorten = defineCollection({
     voorWie: z.string(),
     voorbeelden: z.array(z.string()).default([]),
     /** Is een beschikking (besluit) van de gemeente nodig? */
-    beschikkingNodig: z.enum(['ja', 'nee', 'soms']),
+    beschikkingNodig: z.enum(['ja', 'nee', 'soms', 'spoed', 'rechter']),
     toegangVia: z.array(z.enum(['wijkteam', 'huisarts', 'school', 'gecertificeerde-instelling', 'spoed'])).default([]),
     volgorde: z.number(),
+    /**
+     * Uitwerking op een eigen pagina (/hulpsoorten/<id>/); alleen hulpsoorten met `inDePraktijk` krijgen er een.
+     * Elk veld twee tot vier zinnen, met bronnen. Zie CONTENT.md, "Hulpsoorten".
+     */
+    /** Hoe de hulp er in de praktijk uitziet: wie, waar, hoe vaak. */
+    inDePraktijk: z.string().optional(),
+    /** Wanneer het juist niet past, of wanneer iets anders eerst komt. */
+    nietVoor: z.string().optional(),
+    /** Duur, evaluatie, wat er gebeurt als de beschikking afloopt. */
+    verwachting: z.string().optional(),
+    /** Vragen voor het wijkteam of de verwijzer, hooguit vijf. */
+    vragen: z.array(z.string()).default([]),
+    bronnen: z.array(bron).default([]),
+    laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   }),
 });
 
@@ -264,6 +278,8 @@ const situaties = defineCollection({
     routes: z.array(z.object({
       type: z.enum(['wijkteam', 'huisarts', 'school', 'gecertificeerde-instelling', 'spoed']),
       waarom: z.string(),
+      /** Eigen tekst na "Begin bij …" voor de eerste route, als die breder is dan het type (bv. meerdere gelijkwaardige ingangen). */
+      beginBij: z.string().optional(),
     })).min(1),
     /** Id's van landelijke hoofdstukken (bestandsnaam zonder .md) die hier relevant zijn. */
     landelijk: z.array(z.string()).default([]),
@@ -337,6 +353,10 @@ const therapievormen = defineCollection({
     /** Vragen die de ouder aan de behandelaar kan stellen. */
     vragen: z.array(z.string()).default([]),
     situaties: z.array(z.string()).min(1),
+    /** Onder welke hulpsoort(en) dit valt (id's uit hulpsoorten): wat de ouder bij gemeente of verwijzer aanvraagt. */
+    hulpsoorten: z.array(z.string()).default([]),
+    /** Loopt (ook) via de zorgverzekering in plaats van de gemeente. */
+    zorgverzekering: z.boolean().default(false),
     /** Leeftijdsgrenzen in jaren (tot = exclusief). Weglaten als het voor alle leeftijden geldt. */
     leeftijd: z.object({ van: z.number().optional(), tot: z.number().optional() }).optional(),
     bronnen: z.array(bron).min(1),

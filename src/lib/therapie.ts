@@ -35,3 +35,15 @@ export function therapieVolgorde(s: Situatie, alle: Therapie[]): Therapie[] {
     throw new Error(`Volgorde therapievormen bij situatie "${s.id}" klopt niet met therapievormen.situaties. Dubbel: ${dubbel.join(', ') || '-'}; niet ingedeeld: ${mist.join(', ') || '-'}; niet gekoppeld: ${teveel.join(', ') || '-'}.`);
   return ids.map((id) => gekoppeld.find((t) => t.id === id)!);
 }
+
+/** Vanaf zoveel therapievormen toont een hulpsoortpagina geen lijst maar een verwijzing naar het overzicht (bv. Behandeling). */
+export const VORMEN_LIJST_MAX = 6;
+
+/**
+ * Hulpsoorten van een situatie: de lijst in de situatie, aangevuld met de hulpsoorten waar haar therapievormen onder vallen.
+ * Zo staat bijvoorbeeld Behandeling erbij zodra de situatie een behandelvorm toont.
+ */
+export const hulpsoortenVoor = (s: Situatie, vormen: Therapie[]) => {
+  const extra = vormen.filter((t) => t.data.situaties.includes(s.id)).flatMap((t) => t.data.hulpsoorten);
+  return [...new Set([...s.data.hulpsoorten, ...extra])];
+};

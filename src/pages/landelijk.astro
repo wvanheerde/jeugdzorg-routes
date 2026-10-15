@@ -5,6 +5,9 @@ import { getCollection, render } from 'astro:content';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const items = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const rendered = await Promise.all(items.map(async (i) => ({ i, Content: (await render(i)).Content })));
+// Alle bronnen van de onderdelen samen, één keer per adres, onderaan de pagina.
+const alleBronnen = items.flatMap((i) => i.data.bronnen).filter((b, n, a) => a.findIndex((x) => x.url === b.url) === n);
+const laatste = items.map((i) => i.data.laatstGecontroleerd).sort().at(-1) ?? '';
 ---
 <Base title="Landelijke rechten" description="Wat overal in Nederland geldt: de Jeugdwet, hoe u hulp aanvraagt, bezwaar maken, een pgb en hulp bij passend onderwijs.">
   <div class="page-head">
@@ -24,7 +27,7 @@ const rendered = await Promise.all(items.map(async (i) => ({ i, Content: (await 
         </figure>
       )}
       <Content />
-      <Sources bronnen={i.data.bronnen} laatstGecontroleerd={i.data.laatstGecontroleerd} />
     </section>
   ))}
+  <Sources bronnen={alleBronnen} laatstGecontroleerd={laatste} />
 </Base>

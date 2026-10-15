@@ -1,4 +1,74 @@
-{ "naam": "Persoonlijke verzorging en verpleging", "volgorde": 6, "beschikkingNodig": "ja", "toegangVia": ["wijkteam", "huisarts"],
-  "omschrijving": "Hulp bij wassen, aankleden, eten en medische handelingen thuis. Verpleging loopt meestal via de zorgverzekeraar (kinderthuiszorg), verzorging via de gemeente.",
-  "voorWie": "Kinderen met een lichamelijke beperking of chronische ziekte.",
-  "voorbeelden": ["Kinderthuiszorg", "Hulp bij sondevoeding", "Verzorging op school"] }
+{
+  "naam": "Persoonlijke verzorging en verpleging",
+  "volgorde": 6,
+  "beschikkingNodig": "soms",
+  "toegangVia": [
+    "wijkteam",
+    "huisarts"
+  ],
+  "omschrijving": "Hulp bij wassen, aankleden, eten en medische handelingen thuis. Verpleging en verzorging bij ziekte lopen meestal via de zorgverzekering (medische kindzorg thuis); begeleiding bij verzorging, bijvoorbeeld bij een beperking, via de gemeente.",
+  "voorWie": "Kinderen met een chronische ziekte of lichamelijke beperking, en kinderen die door bijvoorbeeld autisme of een verstandelijke beperking hulp nodig hebben bij de verzorging.",
+  "voorbeelden": [
+    "Medische kindzorg thuis",
+    "Hulp bij sondevoeding",
+    "Verzorging op school"
+  ],
+  "inDePraktijk": "Verpleging gaat om medische handelingen, zoals katheteriseren, zuurstof geven, wondzorg of thuisbeademing. Bij verzorging gaat het bijvoorbeeld om douchen, naar de wc gaan of de huid verzorgen, thuis maar ook op school of op de kinderopvang. Een kinderverpleegkundige bepaalt samen met u welke zorg en hoeveel zorg uw kind nodig heeft, en welk deel u als ouder zelf wilt en kunt geven. Kan uw kind zich lichamelijk wel verzorgen, maar lukt het door bijvoorbeeld autisme of een verstandelijke beperking niet om het echt te doen, dan leert een begeleider uw kind het zelf te doen: dat heet begeleiding bij verzorging.",
+  "nietVoor": "Onder welke wet de zorg valt, hangt af van wat uw kind nodig heeft, niet van uw eigen keuze. Hangt de zorg samen met een ziekte of lichamelijke beperking, dan is het medische kindzorg thuis via de zorgverzekering, en kunt u zonder verwijzing zelf een aanbieder van kinderverpleging benaderen. Moet er door een blijvende beperking dag en nacht iemand bij uw kind in de buurt zijn, ook later als volwassene, dan beoordeelt het CIZ (Centrum Indicatiestelling Zorg) of uw kind zorg krijgt via de Wlz (Wet langdurige zorg). Gaat het vooral om plannen, communiceren of omgaan met anderen, en niet om de verzorging zelf, dan past ambulante begeleiding beter.",
+  "verwachting": "De kinderverpleegkundige beschrijft in een zorgplan welke zorg uw kind en uw gezin nodig hebben, en kijkt op vaste momenten met u of die zorg nog past. Heeft uw kind meer of minder zorg nodig, meld dat dan bij haar of hem, ook als de indicatie (het besluit over hoeveel zorg nodig is) nog niet is afgelopen. Wordt uw kind 18, dan stopt begeleiding bij verzorging via de Jeugdwet, en vraagt u wijkverpleging en begeleiding bij de gemeente aan, of Wlz-zorg als uw kind blijvend dag en nacht zorg nodig heeft. Zorg via de zorgverzekering of de Wlz loopt na 18 jaar door, maar de wijkverpleegkundige kijkt dan opnieuw welke zorg nodig is, of uw kind krijgt een andere aanbieder.",
+  "vragen": [
+    "Valt de zorg voor mijn kind onder de zorgverzekering, de Jeugdwet of de Wlz, en wie regelt het dan?",
+    "Wie kan mij helpen een kinderverpleegkundige te vinden die mag vaststellen welke zorg mijn kind nodig heeft?",
+    "Welke zorg kan ik als ouder zelf geven, en welke zorg neemt een zorgverlener over zodat ik ook kan werken of rusten?",
+    "Mijn kind heeft zowel medische verzorging als begeleiding bij verzorging nodig: hoe stemmen de gemeente en de kinderverpleegkundige dat af?",
+    "Mijn kind heeft ook een verstandelijke beperking: wanneer is het zinvol om bij het CIZ een Wlz-indicatie aan te vragen?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Hoe regelt u verpleging en verzorging voor uw kind?",
+      "url": "https://www.regelhulp.nl/onderwerpen/verpleging-en-verzorging-voor-jeugd/welke-wet",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Begeleiding bij de persoonlijke verzorging (jeugd)",
+      "url": "https://www.regelhulp.nl/onderwerpen/verpleging-en-verzorging-voor-jeugd/begeleiding-bij-verzorging",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Wat is medische kindzorg?",
+      "url": "https://www.regelhulp.nl/onderwerpen/medische-kindzorg-thuis/wat-is-medische-kindzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Medische kindzorg thuis organiseren",
+      "url": "https://www.regelhulp.nl/onderwerpen/medische-kindzorg-thuis/organiseren",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Zelf medische zorg thuis geven aan uw kind",
+      "url": "https://www.regelhulp.nl/onderwerpen/medische-kindzorg-thuis/zelf-zorg-geven",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Verpleging en verzorging jeugd: van 18- naar 18+",
+      "url": "https://www.regelhulp.nl/onderwerpen/verpleging-en-verzorging-voor-jeugd/overgang-18--naar-18",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Wlz-zorg voor jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/wlz/wlz-zorg-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Individuele begeleiding jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/begeleiding-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Zorginstituut Nederland – Kindzorg (0-18 jaar)",
+      "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/k/kindzorg-0-18-jaar",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

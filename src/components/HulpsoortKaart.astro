@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Toegang from './Toegang.astro';
+import { afbreken } from '../lib/afbreken';
+// Kaart van een hulpsoort. Heeft de hulpsoort een eigen pagina (inDePraktijk), dan is de hele kaart een link,
+// net als bij TherapieKaart.
+// naarTherapie: op een situatiepagina linkt de kaart naar de therapievormen op dezelfde pagina (#therapie) in plaats van naar
+// de algemene hulpsoortpagina, zodat de ouder de vormen voor deze situatie ziet (bv. Behandeling).
+interface Props { h: CollectionEntry<'hulpsoorten'>; voorWie?: boolean; voorbeelden?: boolean; naarTherapie?: string; anker?: string; [attr: string]: unknown }
+const { h, voorWie = false, voorbeelden = true, naarTherapie, anker = '#therapie', ...attrs } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pagina = Boolean(h.data.inDePraktijk) || Boolean(naarTherapie);
+const href = naarTherapie ? anker : `${base}/hulpsoorten/${h.id}/`;
+const Tag = pagina ? 'a' : 'div';
+---
+<Tag class:list={['card', { link: pagina }]} href={pagina ? href : undefined} {...attrs}>
+  <h3>{afbreken(h.data.naam)}</h3>
+  <p>{h.data.omschrijving}</p>
+  {voorWie && <p class="meta"><strong>Voor wie:</strong> {h.data.voorWie}</p>}
+  {voorbeelden && h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
+  <div class="kaart-voet">
+    <Toegang waarde={h.data.beschikkingNodig} />
+    {pagina && <span class="arrow">{naarTherapie ? `Welke behandelingen passen bij ${naarTherapie} ↓` : 'Wat is het en hoe vraag ik het aan →'}</span>}
+  </div>
+</Tag>

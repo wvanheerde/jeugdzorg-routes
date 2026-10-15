@@ -2,7 +2,7 @@
   "naam": "Logopedie en TOS-behandeling",
   "soort": "paramedisch",
   "kort": "Gerichte taaltherapie, individueel of in een behandelgroep, met ouders als medebehandelaar.",
-  "watIsHet": "Behandeling van spraak- en taalproblemen door een logopedist, en bij een vastgestelde taalontwikkelingsstoornis via gespecialiseerde organisaties (cluster 2): individuele behandeling, behandelgroepen voor peuters en kleuters, en begeleiding op school.",
+  "watIsHet": "Behandeling van spraak- en taalproblemen door een logopedist, en bij een vastgestelde taalontwikkelingsstoornis door gespecialiseerde organisaties: individuele behandeling en behandelgroepen voor peuters en kleuters. Op school kan een cluster 2-instelling begeleiding geven.",
   "hoeWerktHet": "Taal wordt geleerd door veel en goed afgestemd taalaanbod. De therapeut traint specifieke vaardigheden en leert ouders hoe zij thuis het taalaanbod aanpassen; zo krijgt het kind ook buiten de behandeling veel goed taalaanbod.",
   "voorWie": "Kinderen vanaf 2 jaar met achterblijvende taal, en kinderen met een vastgestelde TOS, ook in combinatie met andere ontwikkelingsproblemen.",
   "verwachting": "Logopedie: meestal één keer per week, vaak langdurig. Behandelgroep TOS: twee of drie dagdelen per week, enkele maanden of langer, afhankelijk van de voortgang. Ouders doen actief mee.",
@@ -10,7 +10,7 @@
     "label": "richtlijn",
     "toelichting": "De JGZ-richtlijn Taalontwikkeling en de NVLF-richtlijnen beschrijven signalering, verwijzing en behandeling; vroeg starten is de kern."
   },
-  "vergoeding": "Zorgverzekering (logopedie en audiologisch centrum; kinderen gratis meeverzekerd) en onderwijs (cluster 2). Niet via de gemeente.",
+  "vergoeding": "Zorgverzekering: logopedie, het audiologisch centrum en de behandeling bij een taalontwikkelingsstoornis, ook de behandelgroepen voor jonge kinderen; kinderen zijn gratis meeverzekerd. Begeleiding op school via het onderwijs (cluster 2). Niet via de gemeente.",
   "aanvragen": "Vraag de jeugdarts of huisarts om verwijzing naar logopedie en, bij vermoeden van TOS, naar een audiologisch centrum. Vraag na de diagnose samen met school ondersteuning aan bij een cluster 2-instelling.",
   "overwegingen": [
     "Begin niet met wachten; taalachterstand op 2 tot 3 jaar is reden voor screening.",
@@ -48,6 +48,8 @@
     "verstandelijke-beperking",
     "autisme"
   ],
+  "hulpsoorten": [],
+  "zorgverzekering": true,
   "leeftijd": {
     "van": 2
   },
@@ -95,6 +97,11 @@
     {
       "titel": "Johnstone-Cooke e.a. (2026), Taalprogramma's via ouders bij kinderen onder 5 jaar met risico op TOS – International Journal of Language & Communication Disorders",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42627285/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Besluit zorgverzekering",
+      "url": "https://wetten.overheid.nl/BWBR0018492",
       "geraadpleegd": "2026-10-15"
     }
   ],

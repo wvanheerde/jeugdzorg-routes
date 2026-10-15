@@ -1,7 +1,7 @@
 ---
 import { beschikking } from '../lib/routes';
 ---
-<p class="meta" style="margin-bottom:.5rem">Bij sommige hulp moet de gemeente eerst een besluit nemen; dat heet een beschikking. Via de huisarts of jeugdarts is dat vaak niet nodig.</p>
+<p class="meta" style="margin-bottom:.5rem">Bij sommige hulp moet de gemeente eerst een besluit nemen; dat heet een beschikking. Via de huisarts of jeugdarts is dat vaak niet nodig. Vrij toegankelijke hulp kunt u zelf regelen.</p>
 <div class="toegang-legenda" aria-label="Legenda">
   {(['nee', 'soms', 'ja'] as const).map((k) => <span class={`toegang t-${k}`} style="border:0;padding:0;margin:0;font-weight:500" title={beschikking[k].lang}><span class="dot" aria-hidden="true"></span>{beschikking[k].kort}<span class="sr-only">: {beschikking[k].lang}</span></span>)}
 </div>

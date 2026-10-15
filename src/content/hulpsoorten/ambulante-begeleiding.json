@@ -1,4 +1,84 @@
-{ "naam": "Ambulante begeleiding", "volgorde": 2, "beschikkingNodig": "ja", "toegangVia": ["wijkteam", "huisarts"],
+{
+  "naam": "Ambulante begeleiding",
+  "volgorde": 2,
+  "beschikkingNodig": "soms",
+  "toegangVia": [
+    "wijkteam",
+    "huisarts"
+  ],
   "omschrijving": "Een begeleider komt thuis, op school of op een locatie om het kind en het gezin te ondersteunen bij het dagelijks leven: structuur, sociale vaardigheden, zelfredzaamheid.",
   "voorWie": "Kinderen met bijvoorbeeld autisme, ADHD, een verstandelijke beperking of gedragsproblemen, en hun ouders.",
-  "voorbeelden": ["Gezinsbegeleiding thuis", "Individuele begeleiding van het kind", "Ouderbegeleiding bij autisme"] }
+  "voorbeelden": [
+    "Gezinsbegeleiding thuis",
+    "Individuele begeleiding van het kind",
+    "Ouderbegeleiding bij autisme"
+  ],
+  "inDePraktijk": "Een begeleider oefent met uw kind dingen van elke dag, zoals een dag- of weekplanning maken, communiceren of omgaan met anderen. De begeleider neemt die dingen niet over: uw kind leert ze zoveel mogelijk zelf. Bij individuele begeleiding werkt de begeleider alleen met uw kind, bij gezinsbegeleiding leert u als ouder ook hoe u met de beperking of het gedrag omgaat. Dat gebeurt thuis, op school of bij de aanbieder, van een uur per week tot soms een paar uur per dag.",
+  "nietVoor": "Begeleiding is geen behandeling: de begeleider helpt bij het dagelijks leven, maar behandelt geen klachten. Voor psychische problemen, zoals een depressie of een eetstoornis, is er behandeling in de jeugd-ggz, met een verwijzing van bijvoorbeeld de huisarts. Gaat het om vragen over opvoeden, zoals slapen, eten of moeilijk gedrag? Dan kunnen het Centrum voor Jeugd en Gezin (CJG) of het wijkteam vaak eerst zelf helpen.",
+  "verwachting": "De begeleider werkt met een plan met doelen, dat zoveel mogelijk samen met u en uw kind wordt gemaakt. Als u dat vraagt, krijgt u het plan binnen twee weken op papier. Gemeenten geven vaak een beschikking voor korte tijd, bijvoorbeeld drie maanden of een half jaar, maar bij langdurige hulp kunt u om een langere beschikking vragen. Is er nog hulp nodig als de beschikking afloopt, meld dan ruim op tijd opnieuw uw hulpvraag, bijvoorbeeld drie maanden van tevoren.",
+  "vragen": [
+    "Welke doelen komen in de beschikking, en hoeveel uur begeleiding is daarvoor nodig?",
+    "Hoe lang geldt de beschikking, en kan die langer duren omdat mijn kind langdurig hulp nodig heeft?",
+    "Wanneer kijken we samen of de begeleiding helpt, en wat gebeurt er als dat niet zo is?",
+    "Kan ik kiezen uit meer aanbieders, of een pgb krijgen voor een begeleider die ik zelf kies?",
+    "Mijn kind wordt binnenkort 18: wat moet ik regelen zodat de begeleiding doorloopt?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Individuele begeleiding jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/opvang-dagbesteding-jeugd/begeleiding-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Welke jeugdhulp is mogelijk vanuit de Jeugdwet",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/jeugdwet/wat-is",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Jeugdhulp aanvragen",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/jeugdwet/jeugdhulp-regelen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Wlz-zorg voor jeugd",
+      "url": "https://www.regelhulp.nl/onderwerpen/wetten-regels/wlz/wlz-zorg-jeugd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Overgang van Jeugdwet naar Wmo, Zvw of Wlz",
+      "url": "https://www.regelhulp.nl/onderwerpen/zorg-organiseren/van-jeugd-naar-18/vanuit-de-jeugdwet",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Waar vind ik hulp voor mijn kind van 4-18 jaar?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdhulp/vraag-en-antwoord/jeugdhulp/hulp-vinden-voor-kind-4-18-jaar",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Wanneer kan ik bezwaar maken tegen een beslissing over mijn aanvraag voor jeugdhulp?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdhulp/vraag-en-antwoord/jeugdhulp/bezwaar-maken-tegen-beslissing-over-aanvraag-jeugdhulp",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdwet (geldend vanaf 1 januari 2026), artikelen 2.3, 2.6, 4.1.3 en 8.1.1",
+      "url": "https://wetten.overheid.nl/BWBR0034925/2026-01-01",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Per Saldo – Pgb aanvragen bij de gemeente",
+      "url": "https://www.pgb.nl/alles-over-het-pgb/aanvragen-van-een-pgb/pgb-aanvragen-bij-de-gemeente/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Per Saldo – Zorgverleners en het pgb",
+      "url": "https://www.pgb.nl/alles-over-het-pgb/aanvragen-van-een-pgb/zorverleners-en-het-pgb/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "SVB – Wat is een PGB",
+      "url": "https://www.svb.nl/nl/pgb/starten-met-een-pgb/wat-is-een-pgb",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

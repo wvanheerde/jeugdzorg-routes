@@ -16,8 +16,9 @@ import SpoedNummers from '../components/SpoedNummers.astro';
 import TherapieKaart from '../components/TherapieKaart.astro';
 import { getCollection } from 'astro:content';
 import { routeLabel, beginBij, koppelThemas } from '../lib/routes';
-import { rangVan, therapieVolgorde } from '../lib/therapie';
-import Toegang from '../components/Toegang.astro';
+import { rangVan, therapieVolgorde, VORMEN_LIJST_MAX, hulpsoortenVoor } from '../lib/therapie';
+import HulpsoortKaart from '../components/HulpsoortKaart.astro';
+import Sources from '../components/Sources.astro';
 import ToegangLegenda from '../components/ToegangLegenda.astro';
 import { afbreken } from '../lib/afbreken';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -33,9 +34,10 @@ const STAP_BRIEF: [RegExp, string][] = [
   [/(dien|dient).{0,40}klacht/i, 'klacht-toegangsteam'],
   [/overdracht/i, 'verhuizing-overdracht'],
   [/één overleg/i, 'gezamenlijk-overleg'],
+  [/nieuw gesprek en een nieuw besluit/i, 'verzoek-meer-hulp'],
 ];
 /** Korte naam in de link, zodat twee brieflinks bij elkaar niet hetzelfde heten. */
-const BRIEF_LABEL: Record<string, string> = { ingebrekestelling: 'ingebrekestelling', 'bezwaar-beschikking': 'bezwaar', 'klacht-toegangsteam': 'klacht', 'verhuizing-overdracht': 'overdracht', 'gezamenlijk-overleg': 'gezamenlijk overleg' };
+const BRIEF_LABEL: Record<string, string> = { ingebrekestelling: 'ingebrekestelling', 'bezwaar-beschikking': 'bezwaar', 'klacht-toegangsteam': 'klacht', 'verhuizing-overdracht': 'overdracht', 'gezamenlijk-overleg': 'gezamenlijk overleg', 'verzoek-meer-hulp': 'meer of andere hulp' };
 const briefBij = (k: (typeof knelpunten)[number]) => {
   const gebruikt = new Set<string>();
   return k.data.stappen.map((st) => {
@@ -50,6 +52,8 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
 const organisaties = (await getCollection('organisaties')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 const therapie = (await getCollection('therapievormen')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+// Hulpsoorten met veel vormen (Behandeling) linken naar de therapievormen hieronder, net als op de situatiepagina.
+const veelVormen = (id: string) => therapie.filter((t) => t.data.hulpsoorten.includes(id)).length > VORMEN_LIJST_MAX;
 /** Per therapievorm de plek in de volgorde van elke situatie die er een heeft: "situatie:plek". Controleert ook de volgorde zelf. */
 situaties.forEach((s) => therapieVolgorde(s, therapie));
 const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
@@ -58,7 +62,7 @@ const brieven = (await getCollection('brieven'));
 const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 /** Compacte data voor de browser: per situatie de koppelsleutels. */
-const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: s.data.hulpsoorten, routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, rang: !!s.data.therapievormen }]));
+const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: hulpsoortenVoor(s, therapie), routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, rang: !!s.data.therapievormen, gelijk: !!s.data.routes[0].beginBij }]));
 const j = (a: string[]) => a.join(' ');
 /** Namen voor de samenvatting van de keuzes. */
 const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])), k: Object.fromEntries(knelpunten.map((x) => [x.id, x.data.titel])), g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])), l: { '0-4': 'jonger dan 4', '4-12': '4 tot 12 jaar', '12-18': '12 tot 18 jaar', '18-99': '18 of ouder' } as Record<string, string> };
@@ -107,9 +111,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       <a href="#nu-doen" data-nav="nu-doen"><span class="n">→</span>Wat kunt u doen</a>
       <a href="#gemeente" data-nav="gemeente"><span class="n">1</span>Andere ingangen</a>
       <a href="#hulp" data-nav="hulp"><span class="n">2</span>Welke hulp</a>
-      <a href="#situaties" data-nav="situaties"><span class="n">3</span>Verdieping</a>
-      <a href="#regelingen" data-nav="regelingen"><span class="n">4</span>Rechten en regelingen</a>
-      <a href="#tips" data-nav="tips"><span class="n">5</span>Therapievormen</a>
+      <a href="#tips" data-nav="tips"><span class="n">3</span>Therapievormen</a>
+      <a href="#situaties" data-nav="situaties"><span class="n">4</span>Verdieping</a>
+      <a href="#regelingen" data-nav="regelingen"><span class="n">5</span>Rechten en regelingen</a>
       <a href="#organisaties" data-nav="organisaties"><span class="n">6</span>Organisaties</a>
     </nav>
    </aside>
@@ -130,7 +134,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
             <ol class="steps stap-een o2">
               {k.id === 'beginnen' ? (<>
                 <li data-generieke-stap>{k.data.stappen[0]}</li>
-                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden>Begin bij <strong>{sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type]}</strong>. {r0.waarom}</li>; })}
+                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden>Begin bij <strong>{r0.beginBij ?? (sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type])}</strong>. {r0.waarom}</li>; })}
               </>) : <li>{k.data.stappen[0]}{briefBij(k)[0] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[0]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[0]!.id]} →</a></>}</li>}
             </ol>
             {k.id === 'beginnen' && (
@@ -157,9 +161,12 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               // Brieven die bij een ander knelpunt horen (klacht, bezwaar, verhuizing) zijn geen startbrieven.
               const andere = new Set(knelpunten.filter((x) => x.id !== 'beginnen').flatMap((x) => x.data.brieven));
               const eigen = brieven.filter((b) => b.data.situaties.includes(sit.id) && types.includes(b.data.aan) && (!andere.has(b.id) || k.data.brieven.includes(b.id))).sort((a, b) => types.indexOf(a.data.aan) - types.indexOf(b.data.aan) || a.data.volgorde - b.data.volgorde);
-              // Brieven voor de eerste route staan open; de rest staat ingeklapt onder "Andere brieven".
-              const direct = eigen.filter((b) => b.data.aan === types[0]);
-              const rest = eigen.filter((b) => b.data.aan !== types[0]);
+              // Brieven voor de eerste route staan open; de rest staat ingeklapt onder "Andere brieven". Noemt stap 1 het wijkteam
+              // als gelijkwaardige ingang (beginBij, bv. ADHD), dan staat de brief aan het wijkteam ook open.
+              const r0 = sit.data.routes[0];
+              const directTypes = [types[0], ...(r0.beginBij && /wijkteam/.test(r0.beginBij) ? ['wijkteam'] : [])];
+              const direct = eigen.filter((b) => directTypes.includes(b.data.aan));
+              const rest = eigen.filter((b) => !directTypes.includes(b.data.aan));
               return eigen.length > 0 && (
                 <div data-situatie-brieven={sit.id} hidden>
                   <div class="grid">{(direct.length > 0 ? direct : eigen).map((b) => <BriefKaart b={b} />)}</div>
@@ -174,7 +181,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               );
             })}
           </div>)}
-          {k.data.bronnen.length > 0 && <p class="meta o8">Bronnen: {k.data.bronnen.map((b, i) => <><a href={b.url} target="_blank" rel="noopener">{b.titel}</a>{i < k.data.bronnen.length - 1 ? ' · ' : ''}</>)}</p>}
+          
         </div>
       ))}
 
@@ -216,17 +223,18 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       <ToegangLegenda />
       <div class="grid">
         {hulpsoorten.map((h) => (
-          <div class="card" data-hulpsoort={h.id} hidden>
-            <h3>{afbreken(h.data.naam)}</h3>
-            <p>{h.data.omschrijving}</p>
-            <Toegang waarde={h.data.beschikkingNodig} />
-          </div>
+          <HulpsoortKaart h={h} voorbeelden={false} data-hulpsoort={h.id} hidden {...(veelVormen(h.id) ? { naarTherapie: 'uw situatie', anker: '#tips', 'data-naar-tips': `${base}/hulpsoorten/${h.id}/` } : {})} />
         ))}
       </div>
     </section>
 
+    <section class="section" id="tips" data-tips-wrap>
+      <h2><span class="section-num">3</span>Welke therapievormen kunnen passen?</h2>
+      <div class="grid gelijk" data-tip-grid>{therapie.map((t, i) => <div data-tip-situaties={t.data.situaties.join(' ')} data-tip-hulpsoorten={t.data.hulpsoorten.join(' ')} data-tip-rang={tipRang(t.id)} data-tip-i={i} data-van={t.data.leeftijd?.van ?? 0} data-tot={t.data.leeftijd?.tot ?? 99} hidden><TherapieKaart t={t} /></div>)}</div>
+    </section>
+
     <section class="section" id="situaties">
-      <h2><span class="section-num">3</span>Verdieping per situatie</h2>
+      <h2><span class="section-num">4</span>Verdieping per situatie</h2>
       <div class="grid">
         {situaties.map((s) => (
           <a class="card link" href={`${base}/situaties/${s.id}/`} data-situatie={s.id} hidden>
@@ -239,7 +247,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     </section>
 
     <section class="section" id="regelingen">
-      <h2><span class="section-num">4</span>Rechten en regelingen</h2>
+      <h2><span class="section-num">5</span>Rechten en regelingen</h2>
       <ul class="linklist" data-gemeente-slot="overzicht-leerplicht">
         {situaties.map((s) => s.data.regelingen.map((r) => (
           <li data-situatie={s.id} hidden>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>
@@ -247,11 +255,6 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       </ul>
       <h3>Landelijke uitleg</h3>
       <ul>{landelijk.map((l) => <li data-landelijk={l.id} hidden><a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}</li>)}</ul>
-    </section>
-
-    <section class="section" id="tips" data-tips-wrap>
-      <h2><span class="section-num">5</span>Welke therapievormen kunnen passen?</h2>
-      <div class="grid gelijk" data-tip-grid>{therapie.map((t, i) => <div data-tip-situaties={t.data.situaties.join(' ')} data-tip-rang={tipRang(t.id)} data-tip-i={i} data-van={t.data.leeftijd?.van ?? 0} data-tot={t.data.leeftijd?.tot ?? 99} hidden><TherapieKaart t={t} /></div>)}</div>
     </section>
 
     <section class="section" id="organisaties">
@@ -267,13 +270,15 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
         ))}
       </div>
     </section>
+    <!-- Bronnen van de gekozen vraag, onderaan zoals op alle pagina's; het script toont die van de gekozen vraag. -->
+    {knelpunten.filter((k) => k.data.bronnen.length > 0).map((k) => <Sources bronnen={k.data.bronnen} laatstGecontroleerd={k.data.laatstGecontroleerd} data-knelpunt-bronnen={k.id} id={`bronnen-${k.id}`} hidden />)}
    </div>
   </div>
 </Base>
 <script is:inline set:html={`window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
 <script>
   import { laadGemeente } from '../lib/gemeente-blokken';
-  type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; rang: boolean };
+  type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; rang: boolean; gelijk: boolean };
   const data = (window as any).__jrSituaties as Record<string, Sit>;
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean }>;
   // Beginstand uit URL of localStorage; de keuzecomponenten sturen daarna events bij wijziging.
@@ -318,6 +323,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     q('[data-inhoud]').forEach((e) => (e.hidden = !kpActive));
     q('[data-knelpunt-wrap]').forEach((e) => (e.hidden = !kpActive));
     q('[data-knelpunt-blok]').forEach((e) => (e.hidden = e.dataset.knelpuntBlok !== kpActive));
+    q('[data-knelpunt-bronnen]').forEach((e) => (e.hidden = e.dataset.knelpuntBronnen !== kpActive));
     // Landelijke vraag (zoals kinderbijslag): geen wijkteam, "hierbij handig" of andere ingangen van de gemeente,
     // en van de verdieping alleen de rechten en regelingen (geen hulpsoorten, therapievormen of organisaties).
     const zonderGemeente = !!kpActive && knel[kpActive].zonderGemeente;
@@ -362,6 +368,8 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     q('[data-eerste-contact] .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== gem || !wijkteamBovenaan));
     q('[data-leerplicht]').forEach((e) => (e.hidden = e.dataset.leerplicht !== gem || !active.includes('school-loopt-vast')));
     q('[data-wijkteam-regel] .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== gem || wijkteamBovenaan || nietVoorEigenKind || !situatieWint));
+    // Noemt stap 1 het wijkteam al als gelijkwaardige ingang (bv. ADHD), dan niet "Liever eerst het wijkteam?" maar gewoon de contactgegevens.
+    q('[data-wijkteam-regel]').forEach((e) => e.toggleAttribute('data-gelijk', situatieWint && !!data[active[0]]?.gelijk));
     // Modus van de contactkaart bovenaan: per vraag de juiste ingang (wijkteam, bezwaar of klacht).
     const MODUS: Record<string, string> = { verhuizing: 'verhuizing', afgewezen: 'bezwaar', vastgelopen: 'klacht', wachten: 'wachten' };
     q('#nu-doen').forEach((e) => (e.dataset.modus = MODUS[kpActive] ?? ''));
@@ -401,6 +409,14 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     q('[data-tip-situaties]').map((e) => [e, plek(e), Number(e.dataset.tipI)] as const).sort((a, b) => a[1] - b[1] || a[2] - b[2]).forEach(([e]) => tipGrid?.appendChild(e));
     q('[data-tips-wrap]').forEach((w) => (w.hidden = zonderGemeente || !q('[data-tip-situaties]').some((e) => !e.hidden)));
     const tipsZichtbaar = q('[data-tips-wrap]').some((w) => !w.hidden);
+    // Kaart Behandeling: naar de therapievormen hieronder als daar een vorm uit die hulpsoort staat, anders naar de algemene pagina.
+    q('a[data-naar-tips]').forEach((el) => {
+      const kaart = el as HTMLAnchorElement;
+      const id = kaart.dataset.hulpsoort!;
+      const hier = tipsZichtbaar && q('[data-tip-hulpsoorten]').some((e) => !e.hidden && (e.dataset.tipHulpsoorten ?? '').split(' ').includes(id));
+      kaart.href = hier ? '#tips' : kaart.dataset.naarTips!;
+      const pijl = kaart.querySelector('.arrow'); if (pijl) pijl.textContent = hier ? 'Welke behandelingen passen bij uw situatie ↓' : 'Wat is het en hoe vraag ik het aan →';
+    });
     q('[data-tips-link]').forEach((e) => (e.hidden = !tipsZichtbaar));
     q('[data-tips-link-alg]').forEach((e) => (e.hidden = tipsZichtbaar));
 

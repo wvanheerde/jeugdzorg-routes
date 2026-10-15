@@ -88,8 +88,8 @@ li { margin-bottom: .3rem; }
 .field { display: grid; gap: .45rem; min-width: 0; }
 .field > span { font-weight: 600; font-size: .95rem; }
 .gemeente-keuze { font: inherit; font-size: 1.02rem; padding: .65rem .9rem; border-radius: var(--radius-sm); border: 1px solid var(--c-border); background: #fff; color: var(--c-text); width: 100%; max-width: 28rem; min-width: 0; }
-.chips-select { display: flex; flex-wrap: wrap; gap: .4rem; }
-.chip-btn { font: inherit; font-size: .9rem; font-weight: 500; padding: .38rem .85rem; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.55); background: rgba(255,255,255,.12); color: #fff; cursor: pointer; transition: background .15s, border-color .15s; }
+.chips-select { display: flex; flex-wrap: wrap; gap: .35rem; }
+.chip-btn { font: inherit; font-size: .84rem; font-weight: 500; padding: .3rem .75rem; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.55); background: rgba(255,255,255,.12); color: #fff; cursor: pointer; transition: background .15s, border-color .15s; }
 .chip-btn:hover { background: rgba(255,255,255,.22); }
 .chip-btn[aria-pressed="true"] { background: #fff; color: var(--c-primary-dark); border-color: #fff; font-weight: 600; }
 .chip-btn[aria-pressed="true"]::before { content: "✓ "; }
@@ -108,6 +108,7 @@ li { margin-bottom: .3rem; }
 .toegang.t-nee .dot { background: var(--c-ok); }
 .toegang.t-ja .dot { background: var(--c-accent); }
 .toegang.t-soms .dot { background: #e0a100; }
+.toegang.t-spoed .dot, .toegang.t-rechter .dot { background: var(--c-muted); }
 .toegang-legenda { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; font-size: .85rem; color: var(--c-muted); margin: .25rem 0 1rem; }
 .toegang-legenda span { display: inline-flex; align-items: center; gap: .4rem; }
 
@@ -320,7 +321,7 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
   .prose table, .section table:not(.tp-tabel) { display: block; overflow-x: auto; white-space: nowrap; }
   .search { flex-wrap: wrap; }
   .search .btn { width: 100%; justify-content: center; }
-  .chip-btn { font-size: .95rem; padding: .5rem .9rem; }
+  .chip-btn { font-size: .84rem; padding: .38rem .75rem; }
   .section { padding: 1.4rem 1.2rem; }
   .search { border-radius: var(--radius); }
   .search .btn { padding: .55rem .9rem; }
@@ -378,6 +379,8 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 #nu-doen .stap-een li { font-size: 1.08rem; font-weight: 500; }
 #nu-doen .o4 { margin-top: 0; }
 #nu-doen .lead-klein { margin: 0 0 .75rem; }
+/* Ruimte tussen het blok "Hier meldt u zich" en de tekst eronder. */
+#nu-doen .eerste-contact { margin-bottom: 1rem; }
 .eerste-contact .kop-verhuizing { display: none; }
 [data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
 [data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
@@ -463,12 +466,12 @@ details.tips-disclaimer p { margin: .5rem 0 0; }
 /* Lange woorden in koppen (bv. Taalontwikkelingsstoornis) afbreken in plaats van buiten beeld te laten lopen. Niet automatisch (hyphens: auto brak ook
    woorden af die op de volgende regel pasten): lange samenstellingen krijgen een zachte afbreekstreep (src/lib/afbreken.ts); de rest breekt alleen als het echt niet past. */
 h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual; }
-/* Voorpagina op de telefoon: minder rand rond de keuzes, en de keuzeknoppen in twee kolommen (tekst mag doorlopen) */
+/* Voorpagina op de telefoon: minder rand rond de keuzes, en compacte keuzeknoppen in twee kolommen (tekst mag doorlopen) */
 @media (max-width: 640px) {
   .hero { padding-left: 1rem; padding-right: 1rem; }
   .hero .wegwijzer { padding: 1rem .85rem; gap: 1rem; }
-  .hero .chips-select { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; }
-  .hero .chip-btn { min-width: 0; font-size: .88rem; line-height: 1.25; padding: .5rem .65rem; border-radius: 14px; text-align: left; white-space: normal; overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
+  .hero .chips-select { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .3rem; }
+  .hero .chip-btn { min-width: 0; font-size: .8rem; line-height: 1.2; padding: .34rem .55rem; border-radius: 12px; text-align: left; white-space: normal; overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; }
 }
 @media (max-width: 359px) {
   /* Heel smalle schermen: één kolom, anders worden lange woorden steeds afgebroken */
@@ -529,3 +532,13 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .ico-globe { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22/%3E%3Cpath d=%22M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20%22/%3E%3Cpath d=%22M2 12h20%22/%3E%3C/svg%3E"); }
 .ico-pin { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0%22/%3E%3Ccircle cx=%2212%22 cy=%2210%22 r=%223%22/%3E%3C/svg%3E"); }
 .ico-clock { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22/%3E%3Cpolyline points=%2212 6 12 12 16 14%22/%3E%3C/svg%3E"); }
+
+/* Regel "Liever eerst het wijkteam?": telefoonnummer met icoon, niet afbreken. */
+.wijkteam-regel .wt-tel { white-space: nowrap; margin-left: .3rem; }
+.wijkteam-regel .wt-tel .ico { margin-right: .3rem; color: var(--c-primary); vertical-align: -.12em; }
+.wijkteam-regel .wt-gelijk, [data-gelijk] .wijkteam-regel .wt-alt { display: none; }
+[data-gelijk] .wijkteam-regel .wt-gelijk { display: inline; }
+/* Gekozen hulp of therapievorm in een brief. */
+.card.brief-keuze.gekozen { border-color: var(--c-primary); box-shadow: 0 0 0 1px var(--c-primary) inset; }
+/* Knop en link onder elkaar, zodat de link niet verspringt als de knoptekst verandert. */
+.brief-keuze .kaart-acties { flex-direction: column; align-items: flex-start; }

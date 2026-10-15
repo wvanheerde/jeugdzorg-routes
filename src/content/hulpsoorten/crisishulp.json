@@ -1,4 +1,79 @@
-{ "naam": "Crisishulp", "volgorde": 9, "beschikkingNodig": "nee", "toegangVia": ["spoed", "huisarts"],
+{
+  "naam": "Crisishulp",
+  "volgorde": 9,
+  "beschikkingNodig": "spoed",
+  "toegangVia": [
+    "spoed",
+    "huisarts"
+  ],
   "omschrijving": "Directe hulp bij een acute crisis: intensieve ambulante hulp thuis of een tijdelijke crisisplek. 24 uur per dag bereikbaar.",
   "voorWie": "Gezinnen waar de veiligheid of het psychisch welzijn van een kind acuut in gevaar is.",
-  "voorbeelden": ["Crisisdienst jeugd-GGZ", "Ambulante spoedhulp thuis", "Crisispleegzorg"] }
+  "voorbeelden": [
+    "Crisisdienst jeugd-GGZ",
+    "Ambulante spoedhulp thuis",
+    "Crisispleegzorg"
+  ],
+  "inDePraktijk": "Bij een psychische crisis schakelt de eigen behandelaar, de huisarts of de huisartsenpost zo nodig de crisisdienst van de ggz (geestelijke gezondheidszorg) in. Daar werken onder meer psychiaters, psychologen en psychiatrisch verpleegkundigen, die soms bij u thuis komen kijken of uw kind direct hulp nodig heeft. Bij een crisis in het gezin kan een hulpverlener ook een korte, intensieve periode bij u thuis komen om samen met u de veiligheid te vergroten, zodat uw kind thuis kan blijven wonen. Kan uw kind even niet thuis blijven, dan kan het tijdelijk naar een crisispleeggezin of, bij ernstige psychische problemen, naar een crisisplek in een ggz-instelling.",
+  "nietVoor": "Is het leven van uw kind of van iemand anders nu in gevaar, bel dan 112. Denkt uw kind aan zelfdoding, dan kunt u dag en nacht 113 bellen (gratis via 0800-0113) of chatten voor advies. Bij zorgen over geweld of onveiligheid thuis kunt u Veilig Thuis bellen via 0800-2000, ook anoniem. Loopt het thuis al langer vast zonder acuut gevaar, vraag dan het wijkteam of de huisarts naar behandeling, ambulante begeleiding of, als u vooral even rust nodig heeft, logeren en respijtzorg.",
+  "verwachting": "Crisishulp duurt kort: daarna krijgt uw kind zo nodig hulp op afspraak, en soms is een opname de beste keuze. Bij intensieve crisishulp thuis, zoals Families First (erkend door het NJi), bekijkt u halverwege samen het plan en wordt het zo nodig bijgesteld. Een plek in een crisispleeggezin duurt hooguit vier weken, met hooguit vier weken verlenging. Tot 18 jaar valt een spoedopname in de ggz onder de Jeugdwet en betaalt de gemeente, daarna loopt die via de zorgverzekering.",
+  "vragen": [
+    "Wie is na de crisis ons vaste aanspreekpunt, en wie regelt de hulp daarna?",
+    "Kunnen we samen een crisisplan maken, zodat we weten wat we doen en wie we bellen als het opnieuw misgaat?",
+    "Moet er achteraf nog een besluit (beschikking) van de gemeente komen voor de hulp die al is begonnen?",
+    "Hoe lang duurt de crisisplek of de hulp thuis, en waar kan mijn kind daarna terecht?",
+    "Is er ook steun voor mij en de rest van het gezin, nu en na de crisis?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Hulp bij een psychische crisis",
+      "url": "https://www.regelhulp.nl/onderwerpen/mijn-situatie/psychische-klachten/psychische-crisis",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Regelhulp (Ministerie van VWS) – Spoedzorg en spoedopvang bij een crisis",
+      "url": "https://www.regelhulp.nl/onderwerpen/welke-soort/opvang-en-tijdelijk-verblijf/spoedzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts – Iemand die ik goed ken heeft een psychische crisis. Wat moet ik doen?",
+      "url": "https://www.thuisarts.nl/psychische-klachten/ik-heb-acute-psychische-crisis",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Thuisarts – Mijn naaste denkt aan zelfmoord",
+      "url": "https://www.thuisarts.nl/denken-aan-zelfmoord/mijn-naaste-denkt-aan-zelfmoord",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Families First (databank effectieve jeugdinterventies)",
+      "url": "https://www.nji.nl/interventies/families-first",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Soorten pleegzorg",
+      "url": "https://www.nji.nl/kennis/pleegzorg/soorten-pleegzorg",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Veilig Thuis – De adviesfunctie van Veilig Thuis",
+      "url": "https://veiligthuis.nl/over-ons/de-adviesfunctie-van-veilig-thuis",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Wat kan ik doen bij (vermoedens van) kindermishandeling?",
+      "url": "https://www.rijksoverheid.nl/themas/recht-veiligheid-en-defensie/kindermishandeling/vraag-en-antwoord/kindermishandeling/doen-bij-vermoedens-van-kindermishandeling",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "113 Zelfmoordpreventie",
+      "url": "https://www.113.nl/",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdwet, artikel 2.6, eerste lid, onderdeel b (jeugdhulp te allen tijde bereikbaar en beschikbaar)",
+      "url": "https://wetten.overheid.nl/BWBR0034925/2026-01-01",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

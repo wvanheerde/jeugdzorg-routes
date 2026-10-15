@@ -39,10 +39,10 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
     <span class="eyebrow">Gemeente</span>
     <h1>Jeugdhulp in {d.naam}</h1>
     <div class="chips">
+      <span class="chip">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</span>
       <span class="chip"><Icon name="map" />{d.provincie}</span>
       {d.jeugdzorgregio && <span class="chip">Regio {d.jeugdzorgregio}</span>}
       <a class="chip" href={d.websiteJeugd} target="_blank" rel="noopener">Website gemeente<span aria-hidden="true"> ↗</span></a>
-      <span class="chip">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</span>
     </div>
   </div>
 
@@ -190,9 +190,7 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
         </details>)}
       </section>
 
-      <section id="bronnen">
-        <Sources bronnen={d.meta.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} inklappen />
-      </section>
+      <Sources bronnen={d.meta.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />
     </div>
   </div>
 </Base>

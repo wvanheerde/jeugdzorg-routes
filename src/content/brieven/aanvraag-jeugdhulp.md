@@ -9,11 +9,20 @@ tips:
   - "Schrijf op wat u wilt bereiken, in gewone woorden. Bijvoorbeeld: dat mijn kind weer naar school kan, dat wij als gezin op adem komen."
   - "Vraag duidelijk om een verslag van het gesprek op papier en om een beschikking. Alleen tegen een beschikking kunt u bezwaar maken."
   - "U heeft recht op een cliëntondersteuner. Die is gratis en onafhankelijk. Vraag die aan vóór het gesprek."
-  - "Noem welke hulp u graag wilt en waarom. Onder de brief staan de therapievormen bij uw situatie, met een voorbeeldzin. Zo'n zin is geen eis, maar een wens met een reden erbij. Dat maakt het gesprek sneller."
-bronnen: []
+  - "Noem welke hulp u graag wilt en waarom. Onder de brief staan de soorten hulp en de therapievormen bij uw situatie, met voorbeeldzinnen; u kunt er meer kiezen. Zo'n zin is geen eis, maar een wens met een reden erbij. Dat maakt het gesprek sneller."
+bronnen:
+  - titel: "Regelhulp (Ministerie van VWS) – Jeugdhulp aanvragen"
+    url: https://www.regelhulp.nl/onderwerpen/wetten-regels/jeugdwet/jeugdhulp-regelen
+    geraadpleegd: "2026-10-15"
+  - titel: "Jeugdwet (wetten.overheid.nl)"
+    url: https://wetten.overheid.nl/BWBR0034925/
+    geraadpleegd: "2026-10-15"
+  - titel: "Algemene wet bestuursrecht: beslistermijn en bezwaar (wetten.overheid.nl)"
+    url: https://wetten.overheid.nl/BWBR0005537/
+    geraadpleegd: "2026-10-15"
 situaties: [school-loopt-vast, autisme, trauma, eetstoornis, dwang-en-tics, verslaving-en-gamen, leerstoornissen, tos, adhd, gedragsproblemen, langdurig-ziek, verstandelijke-beperking, zindelijkheid, mantelzorg, angst-of-somberheid]
 volgorde: 2
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-15"
 ---
 
 Geachte heer/mevrouw,
@@ -30,7 +39,7 @@ Ik wil graag jeugdhulp aanvragen voor mijn kind [naam kind], geboren op [geboort
 
 **Wat wij willen bereiken.** [Bijvoorbeeld: dat mijn kind weer naar school kan. Dat wij thuis rust krijgen. Begeleiding die ons leert omgaan met de situatie.]
 
-**Welke hulp wij voor ogen hebben.** [Kies hieronder een therapievorm en zet de voorbeeldzin hier neer. Of schrijf zelf welke vorm u wilt, en waarom die past bij uw situatie.]
+**Welke hulp wij voor ogen hebben.** [Kies hieronder de soort hulp en eventueel een of meer therapievormen; de voorbeeldzinnen komen dan hier. Of schrijf zelf welke hulp u wilt, en waarom die past bij uw situatie.]
 
 Ik vraag u om:
 

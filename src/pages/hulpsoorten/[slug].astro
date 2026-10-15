@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sources from '../../components/Sources.astro';
+import Toegang from '../../components/Toegang.astro';
+import { getCollection } from 'astro:content';
+import { afbreken } from '../../lib/afbreken';
+import { VORMEN_LIJST_MAX, hulpsoortenVoor } from '../../lib/therapie';
+// Alleen uitgewerkte hulpsoorten (met inDePraktijk) krijgen een eigen pagina; de rest blijft een kaart.
+export async function getStaticPaths() {
+  const alle = await getCollection('hulpsoorten');
+  return alle.filter((h) => h.data.inDePraktijk).map((h) => ({ params: { slug: h.id }, props: { h } }));
+}
+const { h } = Astro.props;
+const d = h.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const alleVormenH = await getCollection('therapievormen');
+const situaties = (await getCollection('situaties')).filter((s) => hulpsoortenVoor(s, alleVormenH).includes(h.id)).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const via: Record<string, string> = { wijkteam: 'het wijkteam van de gemeente', huisarts: 'de huisarts, jeugdarts of medisch specialist', school: 'school', 'gecertificeerde-instelling': 'een gecertificeerde instelling (jeugdbescherming)', spoed: 'de spoedroute' };
+const rechter = d.beschikkingNodig === 'rechter';
+const vormen = (await getCollection('therapievormen')).filter((t) => t.data.hulpsoorten.includes(h.id)).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+---
+<Base title={d.naam} description={d.omschrijving}>
+  <div class="page-head">
+    <p class="meta terug" style="margin-bottom:.5rem"><a href={`${base}/situaties/#hulpsoorten`} data-terug data-anchor="#hulp" data-anchor-overzicht="#hulp" data-alleen-herkomst data-situaties={situaties.map((x) => `${x.id}|${x.data.titel}`).join(';')}>← Alle hulpsoorten</a></p>
+    <span class="eyebrow">Hulpsoort</span>
+    <h1>{afbreken(d.naam)}</h1>
+    <p class="lead">{d.omschrijving}</p>
+  </div>
+  <div class="page-with-side">
+    <aside class="side">
+      <nav aria-label="Inhoud">
+        <strong>Op deze pagina</strong>
+        <a href="#wat"><span class="n">1</span>Wat is het</a>
+        <a href="#voorwie"><span class="n">2</span>Voor wie</a>
+        <a href="#verwachting"><span class="n">3</span>Wat kunt u verwachten</a>
+        <a href="#aanvragen"><span class="n">4</span>{rechter ? 'Wie beslist' : 'Zo vraagt u het aan'}</a>
+      </nav>
+    </aside>
+    <div>
+      <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het?</h2>
+        <p>{d.inDePraktijk}</p>
+        {d.voorbeelden.length > 0 && <><h3>Voorbeelden</h3><ul>{d.voorbeelden.map((v) => <li>{v}</li>)}</ul></>}
+        {vormen.length > VORMEN_LIJST_MAX
+          ? <p class="meta">Binnen deze hulp werken behandelaars met verschillende therapievormen. Welke passen, verschilt per situatie: kijk op de pagina van uw situatie, of in het <a href={`${base}/therapievormen/`}>overzicht van alle therapievormen</a>.</p>
+          : vormen.length > 0 && <><h3>Therapievormen binnen deze hulp</h3><ul>{vormen.map((t) => <li><a href={`${base}/therapievormen/${t.id}/`}>{t.data.naam}</a> – {t.data.kort}</li>)}</ul></>}</section>
+      <section class="section" id="voorwie"><h2><span class="section-num">2</span>Voor wie is het?</h2>
+        <p>{d.voorWie}</p>
+        {d.nietVoor && <p>{d.nietVoor}</p>}
+        {situaties.length > 0 && <p class="meta">Komt vaak voor bij: {situaties.map((s, i) => <>{i > 0 && ', '}<a href={`${base}/situaties/${s.id}/`}>{s.data.titel.toLowerCase()}</a></>)}.</p>}</section>
+      <section class="section" id="verwachting"><h2><span class="section-num">3</span>Wat kunt u verwachten?</h2>
+        <p>{d.verwachting}</p></section>
+      <section class="section regelen" id="aanvragen"><h2><span class="section-num">4</span>{rechter ? 'Wie beslist' : 'Zo vraagt u het aan'}</h2>
+        <Toegang waarde={d.beschikkingNodig} />
+        {d.toegangVia.length > 0 && <p class="meta">U komt erbij via {d.toegangVia.map((t) => via[t]).join(' of ')}.</p>}
+        {d.vragen.length > 0 && <><h3>{rechter ? 'Vragen voor de jeugdbeschermer' : 'Vragen voor het wijkteam of de verwijzer'}</h3><ul>{d.vragen.map((v) => <li>{v}</li>)}</ul></>}
+        {rechter ? <p class="meta">Meer over uw rechten, klachten en de vertrouwenspersoon: <a href={`${base}/landelijk/#03-rechten`}>Uw rechten</a>.</p> : <p class="meta">Hoe het gesprek met de gemeente gaat, en wat u kunt doen als u het niet eens bent met het besluit: <a href={`${base}/landelijk/#02-toegang`}>Hulp aanvragen</a> en <a href={`${base}/landelijk/#03-rechten`}>Uw rechten</a>.</p>}</section>
+      <Sources bronnen={d.bronnen} laatstGecontroleerd={d.laatstGecontroleerd ?? ''} />
+    </div>
+  </div>
+</Base>
+<script>
+  import { zetTerugLink } from '../../lib/terug';
+  zetTerugLink();
+</script>

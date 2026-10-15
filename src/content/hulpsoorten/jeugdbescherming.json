@@ -1,4 +1,97 @@
-{ "naam": "Jeugdbescherming", "volgorde": 10, "beschikkingNodig": "nee", "toegangVia": ["gecertificeerde-instelling"],
+{
+  "naam": "Jeugdbescherming",
+  "volgorde": 10,
+  "beschikkingNodig": "rechter",
+  "toegangVia": [
+    "gecertificeerde-instelling"
+  ],
   "omschrijving": "Hulp onder toezicht van een gecertificeerde instelling na een maatregel van de kinderrechter, zoals een ondertoezichtstelling (OTS).",
-  "voorWie": "Gezinnen waar vrijwillige hulp niet toereikend is en de ontwikkeling van het kind ernstig wordt bedreigd.",
-  "voorbeelden": ["Ondertoezichtstelling met gezinsvoogd", "Jeugdreclassering"] }
+  "voorWie": "Gezinnen waar vrijwillige hulp niet genoeg helpt en de ontwikkeling van het kind ernstig wordt bedreigd.",
+  "voorbeelden": [
+    "Ondertoezichtstelling met gezinsvoogd",
+    "Jeugdreclassering"
+  ],
+  "inDePraktijk": "Na de uitspraak van de kinderrechter krijgt uw gezin een jeugdbeschermer, ook wel gezinsvoogd genoemd. Die werkt bij een gecertificeerde instelling: een organisatie die deze maatregelen uitvoert, maar zelf geen hulp geeft. De jeugdbeschermer maakt met u en uw kind een plan op papier en regelt de hulp die nodig is, zoals opvoedondersteuning of behandeling; u houdt het gezag, maar moet wel meewerken aan zijn of haar aanwijzingen. Bij jeugdreclassering, na een strafbaar feit, begeleidt een jeugdreclasseerder uw kind bij doelen die de officier van justitie of de kinderrechter bepaalt, zoals naar school gaan.",
+  "nietVoor": "Jeugdbescherming komt pas als vrijwillige hulp niet genoeg helpt of niet wordt aangenomen. Bij zorgen over de opvoeding komt dus eerst hulp via het wijkteam, zoals opvoed- en opgroeiondersteuning of ambulante begeleiding. Twijfelt u of uw kind thuis veilig is, dan kunt u Veilig Thuis om advies vragen; bij acute nood is er crisishulp. Een ondertoezichtstelling past alleen als de verwachting is dat u na een tijd zelf weer de opvoeding kunt dragen; is dat niet zo, dan kan de rechter het gezag aan een voogd geven.",
+  "verwachting": "Een ondertoezichtstelling duurt hooguit een jaar en stopt vanzelf als uw kind 18 wordt. De kinderrechter kan haar steeds met hooguit een jaar verlengen; u krijgt dan bericht van de rechtbank en kunt laten weten wat u ervan vindt, en u mag de rechter ook zelf vragen het toezicht eerder te stoppen. Bent u het oneens met de jeugdbeschermer, dan kunt u een gesprek met de leidinggevende vragen of een klacht indienen bij de klachtencommissie van de instelling; tegen een schriftelijke aanwijzing kunt u bezwaar maken bij de kinderrechter. Een vertrouwenspersoon van Jeugdstem kan u daarbij helpen, en bij de rechter mag u een advocaat inschakelen, waarvoor u afhankelijk van uw inkomen een vergoeding kunt krijgen.",
+  "vragen": [
+    "Wat staat er in het plan, en welke doelen moeten gehaald zijn voordat het toezicht kan stoppen?",
+    "Hoe vaak zien of spreken we elkaar, en hoe bereik ik u als er iets is?",
+    "Welke hulp gaat u inzetten, wanneer begint die, en wat gebeurt er als er een wachttijd is?",
+    "Wat vertelt u over ons aan de rechter of aan andere hulpverleners, en mag ik dat vooraf lezen?",
+    "Hoe ziet het eruit als mijn kind 18 wordt: welke hulp loopt dan door, en wie regelt dat?"
+  ],
+  "bronnen": [
+    {
+      "titel": "Rijksoverheid – Maatregelen jeugdbescherming",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdbescherming/maatregelen-jeugdbescherming",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rijksoverheid – Wanneer wordt mijn kind onder toezicht gesteld?",
+      "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/jeugdbescherming/vraag-en-antwoord/jeugdbescherming/wanneer-ondertoezichtstelling",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rechtspraak – Wat is een ondertoezichtstelling (OTS) en wat gaat eraan vooraf?",
+      "url": "https://www.rechtspraak.nl/onderwerpen/ondertoezichtstelling/wat-is-ondertoezichtstelling",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rechtspraak – Rechten en plichten bij een ondertoezichtstelling (OTS)",
+      "url": "https://www.rechtspraak.nl/onderwerpen/ondertoezichtstelling/rechten-en-plichten-bij-een-ondertoezichtstelling",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rechtspraak – Er is een verlenging van de ondertoezichtstelling (OTS) aangevraagd",
+      "url": "https://www.rechtspraak.nl/onderwerpen/ondertoezichtstelling/er-is-een-verlenging-van-de-ondertoezichtstelling-aangevraagd",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Rechtspraak – Juridische hulp bij een ondertoezichtstelling (OTS)",
+      "url": "https://www.rechtspraak.nl/onderwerpen/ondertoezichtstelling/juridische-hulp",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Maatregelen jeugdbescherming",
+      "url": "https://www.nji.nl/kennis/jeugdbescherming/maatregelen-jeugdbescherming",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Met wie krijgt een gezin te maken bij zorgen over de veiligheid?",
+      "url": "https://www.nji.nl/kennis/jeugdbescherming/met-wie-krijgt-gezin-te-maken-bij-zorgen-over-veiligheid",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Ik ben het niet eens met de jeugdbeschermer. Wat nu?",
+      "url": "https://www.nji.nl/kennis/jeugdbescherming/ik-ben-niet-eens-met-jeugdbeschermer-wat-nu",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "NJi – Wat kan ik doen als ik vragen heb over jeugdbescherming?",
+      "url": "https://www.nji.nl/kennis/jeugdbescherming/wat-kan-ik-doen-als-ik-vragen-heb-over-jeugdbescherming",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Raad voor de Kinderbescherming – Straffen en maatregelen",
+      "url": "https://www.kinderbescherming.nl/voor-kind-en-ouder/strafadvies/straffen",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdstem – Vertrouwenspersonen voor ouders",
+      "url": "https://jeugdstem.nl/wat-we-doen/ouders",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Jeugdwet, artikelen 2.4, 3.1, 3.2 en 4.1.3",
+      "url": "https://wetten.overheid.nl/BWBR0034925/2026-01-01",
+      "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Burgerlijk Wetboek Boek 1, artikelen 255, 258, 260, 262b en 263 (ondertoezichtstelling)",
+      "url": "https://wetten.overheid.nl/jci1.3:c:BWBR0002656&boek=1&titeldeel=14&afdeling=4&artikel=255",
+      "geraadpleegd": "2026-10-15"
+    }
+  ],
+  "laatstGecontroleerd": "2026-10-15"
+}

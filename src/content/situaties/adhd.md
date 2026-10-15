@@ -5,10 +5,10 @@ samenvatting: "ADD is geen aparte diagnose meer sinds het handboek dat artsen ge
 themas: [adhd, add, ontwikkelingsproblemen, onderwijs, gedragsproblemen, gezin]
 hulpsoorten: [behandeling-jeugd-ggz, opvoedondersteuning, ambulante-begeleiding]
 routes:
-  - type: huisarts
-    waarom: "Voor onderzoek en behandeling kan de huisarts of jeugdarts u rechtstreeks doorsturen naar de jeugd-GGZ. Veel huisartsen hebben een praktijkondersteuner jeugd. Die biedt zelf korte hulp."
   - type: wijkteam
-    waarom: "Voor oudertraining, begeleiding thuis en als u een pgb wilt. Het wijkteam kan ook contact leggen met school."
+    waarom: "Het wijkteam kan zelf helpen met uitleg en oudertraining, begeleiding thuis regelen en contact leggen met school. Ook als u een pgb wilt, gaat het via het wijkteam."
+  - type: huisarts
+    waarom: "Voor onderzoek naar ADHD of als u medicatie wilt bespreken. De huisarts of jeugdarts kan u rechtstreeks doorsturen naar de jeugd-GGZ. Veel huisartsen hebben een praktijkondersteuner jeugd."
   - type: school
     waarom: "School moet uw kind helpen bij concentratie en gedrag, ook zonder diagnose. Vraag naar een ontwikkelingsperspectief."
 landelijk: [02-toegang, 03-rechten, 04-onderwijs, 05-financieel]
@@ -36,6 +36,9 @@ therapievormen:
 volgorde: 10
 laatstGecontroleerd: "2026-10-12"
 bronnen:
+  - titel: Thuisarts – Heeft mijn kind ADHD?
+    url: https://www.thuisarts.nl/adhd-bij-kinderen/heeft-mijn-kind-adhd
+    geraadpleegd: "2026-10-15"
   - titel: NJi – ADHD
     url: https://www.nji.nl/adhd
     geraadpleegd: "2026-10-10"

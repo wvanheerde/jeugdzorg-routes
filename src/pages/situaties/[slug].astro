@@ -5,12 +5,12 @@ import Sources from '../../components/Sources.astro';
 import GemeenteKeuze from '../../components/GemeenteKeuze.astro';
 import Contact from '../../components/Contact.astro';
 import TherapieKaart from '../../components/TherapieKaart.astro';
-import { therapieVolgorde } from '../../lib/therapie';
+import { therapieVolgorde, VORMEN_LIJST_MAX, hulpsoortenVoor } from '../../lib/therapie';
 import SpoedNummers from '../../components/SpoedNummers.astro';
 import BriefKaart from '../../components/BriefKaart.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 import { routeLabel, koppelThemas, datum } from '../../lib/routes';
-import Toegang from '../../components/Toegang.astro';
+import HulpsoortKaart from '../../components/HulpsoortKaart.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
 
@@ -23,12 +23,18 @@ const d = s.data;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const { Content } = await render(s);
 
-const hulpsoorten = (await Promise.all(d.hulpsoorten.map((id) => getEntry('hulpsoorten', id)))).filter(Boolean);
+
 const landelijk = (await Promise.all(d.landelijk.map((id) => getEntry('landelijk', id)))).filter(Boolean);
 const kt = koppelThemas(d.themas);
 const matchT = (themas: string[]) => themas.some((t) => kt.includes(t));
 const organisaties = (await getCollection('organisaties')).filter((o) => matchT(o.data.themas)).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
-const therapie = therapieVolgorde(s, await getCollection('therapievormen'));
+const alleVormen = await getCollection('therapievormen');
+const hulpsoorten = (await Promise.all(hulpsoortenVoor(s, alleVormen).map((id) => getEntry('hulpsoorten', id)))).filter(Boolean);
+const therapie = therapieVolgorde(s, alleVormen);
+// Hulpsoorten met veel vormen (Behandeling) linken op deze pagina naar de vormen voor deze situatie, niet naar de algemene lijst.
+// "Trauma" → "trauma", maar "ADHD en ADD" blijft staan.
+const inZin = (t: string) => (/^\p{Lu}\p{Ll}/u.test(t) ? t[0].toLowerCase() + t.slice(1) : t);
+const naarTherapie = (id: string) => alleVormen.filter((t) => t.data.hulpsoorten.includes(id)).length > VORMEN_LIJST_MAX && therapie.some((t) => t.data.hulpsoorten.includes(id));
 const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.includes(s.id)).sort((a, c) => a.data.volgorde - c.data.volgorde);
 ---
 <Base title={d.titel} description={d.samenvatting}>
@@ -36,7 +42,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
     <span class="eyebrow">Situatie</span>
     <h1>{afbreken(d.titel)}</h1>
     <p class="lead">{d.samenvatting}</p>
-    <div class="chips" style="margin-top:.75rem"><span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span>{d.themas.map((t) => <span class="chip">{t}</span>)}</div>
+    <div class="chips" style="margin-top:.75rem"><span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span></div>
     {d.landelijk.includes('05-financieel') && (
       <div class="notice geld-hint"><Icon name="euro" /><div>Veel extra zorg thuis? Misschien heeft u recht op <strong>dubbele kinderbijslag</strong> of andere regelingen. <a href={`${base}/landelijk/#05-financieel`}>Lees wat er is en hoe u het aanvraagt</a>.</div></div>
     )}
@@ -57,11 +63,11 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
         <strong>Op deze pagina</strong>
         <a href="#gemeente"><span class="n">·</span>In uw gemeente</a>
         <a href="#routes"><span class="n">1</span>Welke route?</a>
-        <a href="#hulp"><span class="n">2</span>Welke hulp?</a>
-        <a href="#uitleg"><span class="n">3</span>Wat helpt</a>
-        <a href="#regelingen"><span class="n">4</span>Rechten en regelingen</a>
-        <a href="#organisaties"><span class="n">5</span>Organisaties</a>
-        <a href="#therapie"><span class="n">6</span>Therapievormen</a>
+        <a href="#uitleg"><span class="n">2</span>Wat helpt</a>
+        <a href="#hulp"><span class="n">3</span>Welke hulp?</a>
+        <a href="#therapie"><span class="n">4</span>Therapievormen</a>
+        <a href="#regelingen"><span class="n">5</span>Rechten en regelingen</a>
+        <a href="#organisaties"><span class="n">6</span>Organisaties</a>
         <a href="#brieven"><span class="n">7</span>Voorbeeldbrieven</a>
       </nav>
     </aside>
@@ -79,29 +85,30 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
         <p class="meta">De eerste route is in deze situatie meestal de beste start, maar alle routes staan open; u mag kiezen. <a href={`${base}/landelijk/#02-toegang`}>Meer over toegang</a>.</p>
       </section>
 
+      <section class="section prose" id="uitleg">
+        <h2><span class="section-num">2</span>Wat helpt, en waar het vaak misgaat</h2>
+        <Content />
+      </section>
+
       <section class="section" id="hulp">
-        <h2><span class="section-num">2</span>Welke hulp bestaat er?</h2>
+        <h2><span class="section-num">3</span>Welke hulp bestaat er?</h2>
         <ToegangLegenda />
         <div class="grid">
           {hulpsoorten.map((h) => h && (
-            <div class="card">
-              <h3>{afbreken(h.data.naam)}</h3>
-              <p>{h.data.omschrijving}</p>
-              {h.data.voorbeelden.length > 0 && <ul>{h.data.voorbeelden.map((v) => <li>{v}</li>)}</ul>}
-              <Toegang waarde={h.data.beschikkingNodig} />
-            </div>
+            <HulpsoortKaart h={h} naarTherapie={naarTherapie(h.id) ? inZin(d.titel) : undefined} />
           ))}
         </div>
         <p class="meta" style="margin-top:1rem"><a href={`${base}/situaties/#hulpsoorten`}>Alle hulpsoorten</a></p>
       </section>
 
-      <section class="section prose" id="uitleg">
-        <h2><span class="section-num">3</span>Wat helpt, en waar het vaak misgaat</h2>
-        <Content />
+      <section class="section" id="therapie">
+        <h2><span class="section-num">4</span>Welke therapievormen kunnen passen?</h2>
+        <p class="meta">Een therapievorm is de manier van werken binnen de hulp hierboven, meestal binnen behandeling; op de pagina van elke vorm staat waar die onder valt. Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar. <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.</p>
+        {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid gelijk">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
       </section>
 
       <section class="section" id="regelingen">
-        <h2><span class="section-num">4</span>Rechten en regelingen</h2>
+        <h2><span class="section-num">5</span>Rechten en regelingen</h2>
         {d.regelingen.length > 0 && (
           <ul class="linklist">{d.regelingen.map((r) => <li>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>)}</ul>
         )}
@@ -109,7 +116,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
       </section>
 
       <section class="section" id="organisaties">
-        <h2><span class="section-num">5</span>Organisaties die hierbij passen</h2>
+        <h2><span class="section-num">6</span>Organisaties die hierbij passen</h2>
         {organisaties.length === 0 ? <p class="empty">Nog geen organisaties gekoppeld.</p> : (
           <div class="grid">
             {organisaties.map((o) => (
@@ -122,12 +129,6 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
             ))}
           </div>
         )}
-      </section>
-
-      <section class="section" id="therapie">
-        <h2><span class="section-num">6</span>Welke therapievormen kunnen passen?</h2>
-        <p class="meta">Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar. <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.</p>
-        {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid gelijk">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
       </section>
 
       {brieven.length > 0 && (

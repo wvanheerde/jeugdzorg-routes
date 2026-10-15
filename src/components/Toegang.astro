@@ -1,6 +1,6 @@
 ---
 import { beschikking } from '../lib/routes';
-interface Props { waarde: 'ja' | 'nee' | 'soms' }
+interface Props { waarde: 'ja' | 'nee' | 'soms' | 'spoed' | 'rechter' }
 const { waarde } = Astro.props;
 const b = beschikking[waarde];
 ---

@@ -36,7 +36,7 @@ Ik ben het niet eens met het besluit om de volgende redenen:
 
 Ik verzoek u het besluit te herzien en [beschrijf wat u wilt: de aangevraagde hulp alsnog toe te kennen / meer uren toe te kennen / een pgb toe te kennen].
 
-[Als u een specifieke hulpvorm wilt: Concreet vraag ik om de volgende hulp. Kies hieronder een therapievorm en zet de voorbeeldzin hier neer.]
+[Als u een specifieke hulpvorm wilt: Concreet vraag ik om de volgende hulp. Kies hieronder de hulp of therapievormen; de voorbeeldzinnen komen dan hier.]
 
 Ik wil mijn bezwaar graag mondeling toelichten tijdens een hoorzitting.
 
