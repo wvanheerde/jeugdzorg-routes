@@ -20,7 +20,7 @@ De **Jeugdwet** bestaat sinds 1 januari 2015. Deze wet regelt de hulp aan kinder
 - jeugdbescherming en jeugdreclassering;
 - pleegzorg, gezinshuizen en wonen buiten het gezin.
 
-De wet is voor heel Nederland hetzelfde. Maar **elke gemeente voert de wet op haar eigen manier uit**. Er zijn 342 gemeenten. Elke gemeente bepaalt zelf hoe u hulp aanvraagt. Ook de naam van het team dat over hulp beslist, verschilt. En elke gemeente kiest zelf met welke zorgaanbieders zij afspraken maakt. Twee gezinnen met dezelfde vraag volgen in twee buurgemeenten dus soms een andere weg. Hoe het bij u werkt, leest u op de [pagina van uw gemeente](../gemeenten/).
+De wet is voor heel Nederland hetzelfde. Maar **elke gemeente voert de wet op haar eigen manier uit**. Er zijn 342 gemeenten. Elke gemeente bepaalt zelf hoe u hulp aanvraagt. Ook de naam van het team dat over hulp beslist verschilt. En elke gemeente kiest zelf met welke zorgaanbieders zij afspraken maakt. Twee gezinnen met dezelfde vraag volgen in twee buurgemeenten dus soms een andere weg. Hoe het bij u werkt, leest u op de [pagina van uw gemeente](../gemeenten/).
 
 ## Jeugdhulpplicht
 

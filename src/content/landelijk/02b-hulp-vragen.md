@@ -27,8 +27,8 @@ Hulp vragen voor uw kind voelt voor veel ouders als een grote stap. Dat is geen 
 
 - de angst dat er over u geoordeeld wordt, of dat u de schuld krijgt;
 - schaamte, zeker als er ook geldzorgen zijn of als u er alleen voor staat;
-- slechte ervaringen met instanties, eerder of van mensen om u heen;
-- de angst dat hulp vragen kan leiden tot een melding, of zelfs dat uw kind niet meer thuis mag wonen.
+- eerdere slechte ervaringen met instanties, van uzelf of van mensen om u heen;
+- de angst dat hulp vragen kan leiden tot een melding bij Veilig Thuis, of zelfs dat uw kind niet meer thuis mag wonen.
 
 Die gevoelens zijn begrijpelijk. Na de toeslagenaffaire is het wantrouwen bij veel gezinnen groot, en dat is niet uit de lucht gegrepen. Hieronder leest u wat u kunt doen om het gesprek zo goed mogelijk te laten verlopen.
 
@@ -41,7 +41,7 @@ Ouders raken gewend aan wat thuis gebeurt. Wat voor u gewoon is geworden, is voo
 - **Vertel ook over de betere dagen.** Schrijf "betere dag", niet "normale dag". Ook op een betere dag doet u vaak meer dan andere ouders.
 - **Houd een paar weken een dagboek bij.** Schrijf elke dag kort op wat er gebeurde en hoeveel tijd het u kostte. Dan hoeft u in het gesprek niet uit uw geheugen te putten.
 
-Een beoordelaar kijkt naar wat uw kind structureel nodig heeft. Daarom werkt het zo goed om naast de slechte dagen ook te zeggen hoe vaak ze voorkomen. Dan ziet de beoordelaar het hele beeld, en dat maakt uw verhaal sterk. Verslagen van behandelaars of school die hetzelfde laten zien, helpen daarbij.
+Een beoordelaar kijkt naar wat uw kind structureel nodig heeft. Daarom werkt het zo goed om naast de slechte dagen ook te zeggen hoe vaak ze voorkomen. Dan ziet de beoordelaar het hele beeld en dat maakt uw verhaal sterk. Verslagen van behandelaars of school die hetzelfde laten zien helpen daarbij.
 
 ## Vertel wat uw kind nodig heeft
 
@@ -52,7 +52,7 @@ Veel ouders merken een dilemma: hoe zwaarder ze de situatie beschrijven, hoe mee
 - "Hier loop ik vast: ..."
 - "Ik vraag hulp omdat ik goed voor mijn kind wil blijven zorgen."
 
-Zo beschrijft u de zorg die uw kind vraagt, en niet uzelf als het probleem.
+Zo gaat het gesprek over de zorg die uw kind nodig heeft, en niet over u als ouder.
 
 ## Hulp vragen is iets anders dan een melding
 
@@ -62,7 +62,7 @@ Sommige ouders zijn bang dat een hulpvraag leidt tot een melding bij Veilig Thui
 - Een melding bij Veilig Thuis gaat over iets anders: vermoedens van geweld, mishandeling of verwaarlozing. Professionals volgen daarvoor de meldcode.
 - Volgens de meldcode bespreekt een professional eventuele zorgen eerst met u. Samen kijken jullie welke hulp nodig is.
 
-Hulp vragen op tijd is juist goed voor uw kind en uw gezin.
+Op tijd hulp vragen is juist goed voor uw kind en uw gezin.
 
 ## U hoeft het niet alleen te doen
 

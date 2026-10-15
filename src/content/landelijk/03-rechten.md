@@ -69,4 +69,4 @@ U heeft het recht om het dossier van uw kind te **lezen**. Dat heet inzage. Hoe 
 - van 12 tot 16 jaar: u doet het samen met uw kind;
 - vanaf 16 jaar: uw kind beslist.
 
-Gegevens mogen niet zonder toestemming worden gedeeld. Dat mag alleen wel als het niet veilig is.
+Hulpverleners mogen gegevens over uw kind alleen met uw toestemming delen. Is de veiligheid van uw kind in gevaar, dan mogen zij dat ook zonder toestemming doen.
