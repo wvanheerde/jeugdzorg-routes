@@ -62,7 +62,7 @@ const brieven = (await getCollection('brieven'));
 const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 /** Compacte data voor de browser: per situatie de koppelsleutels. */
-const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: hulpsoortenVoor(s, therapie), routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, inklap: s.data.lichteStart || s.data.aanvraagIngeklapt, rang: !!s.data.therapievormen, gelijk: !!s.data.routes[0].beginBij }]));
+const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: hulpsoortenVoor(s, therapie), routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, jgz: s.data.jgzVoorop, inklap: s.data.lichteStart || s.data.aanvraagIngeklapt, rang: !!s.data.therapievormen, gelijk: !!s.data.routes[0].beginBij }]));
 const j = (a: string[]) => a.join(' ');
 /** Namen voor de samenvatting van de keuzes. */
 const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])), k: Object.fromEntries(knelpunten.map((x) => [x.id, x.data.titel])), g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])), l: { '0-4': 'jonger dan 4', '4-12': '4 tot 12 jaar', '12-18': '12 tot 18 jaar', '18-99': '18 of ouder' } as Record<string, string> };
@@ -278,7 +278,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 <script is:inline set:html={`window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
 <script>
   import { laadGemeente } from '../lib/gemeente-blokken';
-  type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
+  type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
   const data = (window as any).__jrSituaties as Record<string, Sit>;
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean }>;
   // Beginstand uit URL of localStorage; de keuzecomponenten sturen daarna events bij wijziging.
@@ -349,8 +349,11 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     q('[data-aanvraag-stappen]').forEach((e) => (e.hidden = inklap));
     q('[data-aanvraag-inklap]').forEach((e) => (e.hidden = !inklap));
     q('[data-ec-cjg]').forEach((e) => (e.hidden = !licht));
+    // Begint de situatie bij het consultatiebureau of de jeugdarts (zoals slaap) en heeft de gemeente geen CJG-blok: dan de JGZ boven het wijkteam.
+    const jgzVoorop = licht && data[active[0]].jgz;
+    q('[data-ec-jgz], [data-kop-jgz]').forEach((e) => (e.hidden = !jgzVoorop));
     q('[data-kop-standaard]').forEach((e) => (e.hidden = licht));
-    q('[data-kop-licht]').forEach((e) => (e.hidden = !licht));
+    q('[data-kop-licht]').forEach((e) => (e.hidden = !licht || (jgzVoorop && !!e.parentElement?.querySelector('[data-kop-jgz]'))));
     // Direct regelen: alleen de links bij de onderdelen van deze vraag. De rest staat op de pagina van de gemeente.
     q('[data-regel-soort]').forEach((e) => (e.hidden = !onderdelen.includes(e.dataset.regelSoort!)));
     q('[data-direct-regelen]').forEach((e) => (e.hidden = !e.querySelector('[data-regel-soort]:not([hidden])')));

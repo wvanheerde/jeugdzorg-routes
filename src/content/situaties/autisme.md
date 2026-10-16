@@ -17,7 +17,7 @@ regelingen:
     toelichting: "Dit kan ook zonder Wlz-indicatie. Dan moet u laten zien dat de zorg intensief is, bijvoorbeeld omdat uw kind steeds toezicht of begeleiding nodig heeft. Beschrijf precies wat u elke dag extra doet."
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg
   - naam: Persoonsgebonden budget
-    toelichting: "Handig als u begeleiding wilt inkopen bij een vaste persoon die uw kind kent. Of bij een kleine aanbieder die er veel van weet. Let op: bij een pgb hoort een budgetplan, horen zorgovereenkomsten en is er elke maand administratie. De gemeente kijkt of u dat aankunt. Lees ook de landelijke uitleg."
+    toelichting: "Handig als u begeleiding wilt inkopen bij een vaste persoon die uw kind kent. Of bij een kleine aanbieder die er veel van weet. Let op: u sluit zorgovereenkomsten en declareert elke maand. Hoeveel papierwerk de aanvraag is, verschilt per gemeente. De gemeente kijkt of u een pgb aankunt. Lees ook de landelijke uitleg."
 therapievormen:
   eerst:
     - id: psycho-educatie

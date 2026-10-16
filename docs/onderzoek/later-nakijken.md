@@ -8,6 +8,13 @@ Werkwijze: is de datum voorbij, kijk het punt na, werk de pagina bij en haal de 
 
 - brunssum: proef met een wijkteam in Brunssum Noord start op 26 oktober 2026. Nakijken of het wijkteam een eigen route of contactblok nodig heeft.
 
+## Na 20 november 2026
+
+Lokale steun bij slaapproblemen (`lokaleInitiatieven` met situatie `slaapproblemen`) met alleen data tot dan. Is er geen nieuwe datum, het item weghalen.
+- midden-drenthe: themabijeenkomst "Slapen, de brandstof voor peuters" op 11-11-2026. (https://www.ggddrenthe.nl/kind/themabijeenkomsten-ouders/)
+- overbetuwe: label slaapproblemen op "Ouder- en kinderbijeenkomsten" rust op de ouderavond van 18-11-2026. (https://www.sociaalteamoverbetuwe.nl/slaap-en-ritme-voor-mijn-peuter)
+- krimpenerwaard, zuidplas: babybijeenkomst "Slapen, huilen, troosten" tot 19-11-2026. Komen er data in andere Hollands-Middengemeenten, dan daar weer opnemen.
+
 ## Na 1 december 2026
 
 - veenendaal: nieuwe poortwachter ernstige dyslexie per 1-12-2026 (bron: vacature). Dyslexiecategorie nakijken.
@@ -16,6 +23,14 @@ Werkwijze: is de datum voorbij, kijk het punt na, werk de pagina bij en haal de 
 
 De programmabegroting 2027 was op 16 oktober 2026 nog niet verschenen. Daarna het jeugdhoofdstuk lezen op wachttijden, cliëntervaring en veranderingen in de toegang (zie `meta.opmerkingen`):
 albrandswaard, alkmaar, asten, barneveld, bergen-l, bergen-op-zoom, berkelland, blaricum, borsele, coevorden, de-bilt, doesburg, drechterland, drimmelen, dronten, eemnes, enkhuizen, geldrop-mierlo, goeree-overflakkee, gorinchem, gulpen-wittem, haaksbergen, halderberge, harderwijk, hardinxveld-giessendam, heerde, heeze-leende, hendrik-ido-ambacht, heumen, hillegom, hilversum, kampen, kapelle, kerkrade, koggenland, krimpen-aan-den-ijssel, landsmeer, leeuwarden, lisse, maasdriel, meerssen, middelburg, montfoort, nijkerk, nissewaard, noord-beveland, oldenzaal, putten, renkum, renswoude, rhenen, rozendaal, rucphen, schiedam, smallingerland, son-en-breugel, stede-broec, steenbergen, stein, sudwest-fryslan, terneuzen, terschelling, uithoorn, vaals, valkenburg-aan-de-geul, veendam, veenendaal, velsen, venray, vlieland, waadhoeke, west-betuwe, west-maas-en-waal, westerwolde, woudenberg, zeist, zoeterwoude, zwartewaterland.
+
+## Na 17 december 2026
+
+Lokale steun bij slaapproblemen, zelfde werkwijze:
+- haarlemmermeer: workshop "Lekker slapen" op 24-11-2026. (https://www.ggdkennemerland.nl/mijn-kind/opvoeden-en-gezondheid/aanbod-cursussen-gemeente-haarlemmermeer/workshops-positief-opvoeden)
+- ridderkerk: "Positief omgaan met huilen" op 14-12-2026. (https://cjgrijnmond.nl/cursus/positief-omgaan-met-huilen)
+- CJG Rijnmond-gemeenten (12): webinars "Slaap lekker" op 27-10 en 17-12-2026. (https://cjgrijnmond.nl/cursus/webinar-slaap-lekker-baby)
+- Drenthe (12), West-Brabant (10), Achterhoek (10): opname "Slapen baby in het eerste jaar" van Yunio uit 2024. Nakijken of terugkijken nog kan; de versie voor GGD regio Utrecht is al gesloten.
 
 ## Na 1 januari 2027
 

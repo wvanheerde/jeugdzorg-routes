@@ -2,7 +2,7 @@
 titel: Uw rechten als ouder
 samenvatting: Cliëntondersteuning, pgb, uw dossier inzien, bezwaar en een vertrouwenspersoon. Dit is in heel Nederland hetzelfde geregeld, in elke gemeente.
 volgorde: 3
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-16"
 bronnen:
   - titel: Jeugdstem – Rechten in de jeugdhulp
     url: https://jeugdstem.nl/
@@ -10,6 +10,9 @@ bronnen:
   - titel: Per Saldo – Pgb in de Jeugdwet
     url: https://www.pgb.nl/
     geraadpleegd: "2026-10-10"
+  - titel: Jeugdwet, artikel 8.1.1 (persoonsgebonden budget)
+    url: https://wetten.overheid.nl/BWBR0034925/2025-01-01/#Hoofdstuk8_Paragraaf8.1_Artikel8.1.1
+    geraadpleegd: "2026-10-16"
 ---
 
 ## Onafhankelijke cliëntondersteuning
@@ -33,17 +36,17 @@ Meestal regelt de gemeente de zorg voor u. Dat heet zorg in natura. U kunt ook k
 2. het budget kunt beheren, eventueel met hulp;
 3. zorg inkoopt die van goede kwaliteit is.
 
+Dat staat in de Jeugdwet (art. 8.1.1). <sup><a class="bron" href="https://wetten.overheid.nl/BWBR0034925/2025-01-01/#Hoofdstuk8_Paragraaf8.1_Artikel8.1.1" target="_blank" rel="noopener">bron</a></sup>
+
 De Sociale Verzekeringsbank (SVB) beheert het budget. De SVB betaalt de zorgverleners.
 
-**Eerlijk over wat het vraagt.** Met een pgb heeft u zelf de regie. Maar het is ook veel werk. U moet:
+**Eerlijk over wat het vraagt.** Met een pgb heeft u zelf de regie. Daar hoort ook werk bij. U sluit met elke zorgverlener een zorgovereenkomst, die de gemeente en de SVB goedkeuren. En u declareert elke maand, of keurt de declaratie van de zorgverlener goed.
 
-- een budgetplan schrijven;
-- met elke zorgverlener een zorgovereenkomst sluiten en die laten goedkeuren door de gemeente en de SVB;
-- elke maand declareren.
+Hoeveel papierwerk de aanvraag is, verschilt per gemeente. De wet vraagt geen vast budgetplan. Sommige gemeenten vragen wel een uitgebreid plan: welke hulp, van wie, hoe u de kwaliteit bewaakt en wat het kost. Andere vullen het samen met u in tijdens het gesprek met het wijkteam. Zeker bij één zorgverlener en een klein budget kan het meevallen.
 
-Ook bent u werkgever of opdrachtgever van de zorgverlener, met alles wat daarbij hoort. De gemeente mag vooraf toetsen of u een pgb aankunt. Dat heet 'pgb-vaardig'. Daarvoor gebruikt de gemeente tien landelijke punten. Vindt de gemeente dat u niet pgb-vaardig bent? Dan mag zij het pgb weigeren. U mag dan wel iemand aanwijzen die het budget voor u beheert. Reken op een paar uur papierwerk per maand. En reken erop dat de aanvraag een paar maanden duurt.
+Het wordt meer werk als u iemand voor langere tijd inhuurt of meerdere zorgverleners heeft. U bent dan opdrachtgever of werkgever van de zorgverlener, met alles wat daarbij hoort. De gemeente mag vooraf toetsen of u een pgb aankunt. Dat heet 'pgb-vaardig'. Daarvoor gebruikt de gemeente tien landelijke punten. Vindt de gemeente dat u niet pgb-vaardig bent? Dan mag zij het pgb weigeren. U mag dan wel iemand aanwijzen die het budget voor u beheert. Reken erop dat de aanvraag een paar maanden kan duren.
 
-Per Saldo is de vereniging van budgethouders. Per Saldo heeft een advieslijn en geeft cursussen. In veel gemeenten kan ook de cliëntondersteuner meekijken bij het budgetplan. Kies een pgb als u een bepaalde zorgverlener of hulpvorm wilt waar de gemeente geen contract mee heeft. Kies een pgb niet als snelle weg om een wachtlijst te ontlopen. <sup><a class="bron" href="https://www.rijksoverheid.nl/onderwerpen/persoonsgebonden-budget-pgb/vraag-en-antwoord/pgb-vaardigheid" target="_blank" rel="noopener">bron</a></sup>
+Per Saldo is de vereniging van budgethouders. Per Saldo heeft een advieslijn en geeft cursussen. In veel gemeenten kan ook de cliëntondersteuner meekijken bij de aanvraag. Kies een pgb als u een bepaalde zorgverlener of hulpvorm wilt waar de gemeente geen contract mee heeft. Kies een pgb niet als snelle weg om een wachtlijst te ontlopen. <sup><a class="bron" href="https://www.rijksoverheid.nl/onderwerpen/persoonsgebonden-budget-pgb/vraag-en-antwoord/pgb-vaardigheid" target="_blank" rel="noopener">bron</a></sup>
 
 ## Beschikking, bezwaar en beroep
 

@@ -12,7 +12,7 @@ bronnen:
   - titel: "NJi – Toegang tot jeugdhulp via de huisarts"
     url: https://www.nji.nl/
     geraadpleegd: "2026-10-11"
-situaties: [school-loopt-vast, angst-of-somberheid, adhd, autisme, dwang-en-tics, eetstoornis, trauma, verslaving-en-gamen, zindelijkheid, tos]
+situaties: [school-loopt-vast, angst-of-somberheid, adhd, autisme, dwang-en-tics, eetstoornis, trauma, verslaving-en-gamen, zindelijkheid, tos, slaapproblemen]
 volgorde: 3
 laatstGecontroleerd: "2026-10-12"
 ---

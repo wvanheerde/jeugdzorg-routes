@@ -68,7 +68,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
         <a href="#therapie"><span class="n">4</span>Therapievormen</a>
         <a href="#regelingen"><span class="n">5</span>Rechten en regelingen</a>
         <a href="#organisaties"><span class="n">6</span>Organisaties</a>
-        <a href="#brieven"><span class="n">7</span>Voorbeeldbrieven</a>
+        {brieven.length > 0 && <a href="#brieven"><span class="n">7</span>Voorbeeldbrieven</a>}
       </nav>
     </aside>
     <div>

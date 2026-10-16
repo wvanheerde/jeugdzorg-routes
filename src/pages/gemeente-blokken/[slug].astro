@@ -22,6 +22,13 @@ const reg = register.gemeenten.find((x: { cbsCode: string }) => x.cbsCode === d.
 const postadres = reg?.postadres ?? '';
 /** Apart blok boven het wijkteam bij een lichte start: het CJG of de jeugdgezondheidszorg. Is het CJG het wijkteam zelf, dan geen apart blok. */
 const cjg = d.cjg && d.cjg.soort !== 'wijkteam' ? d.cjg : undefined;
+/**
+ * Zonder eigen CJG-blok: de jeugdgezondheidszorg uit de huisartsroute (consultatiebureau, jeugdarts), voor situaties met jgzVoorop.
+ * Niet als het wijkteam bovenaan dezelfde organisatie is (zoals de Ouder- en Kindteams in Amsterdam). CJG Rijnmond doet de JGZ.
+ */
+const wijkteamNaam = contacten(d.toegang.routes.find((x) => x.type === 'wijkteam')?.contact)[0]?.naam;
+const jgz = cjg ? [] : contacten(d.toegang.routes.find((x) => x.type === 'huisarts')?.contact)
+  .filter((c) => /jeugdgezondheid|\bjgz\b|consultatiebureau|cjg rijnmond/i.test(c.naam) && c.naam !== wijkteamNaam);
 /** Eén zin voor de wachtkaart: wat de gemeente openbaar maakt over hoe lang de toegang duurt. */
 const doorloop = (() => {
   const t = d.ervaringen?.transparantie?.doorlooptijden;
@@ -75,7 +82,14 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
         <Contact contact={cjg.contact} />
       </div>
     )}
-    <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span><span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span>: {t?.naam}</h3>
+    {jgz.length > 0 && (
+      <div class="ec-cjg" data-ec-jgz hidden>
+        <h3>Consultatiebureau en jeugdarts in {d.naam}</h3>
+        <p class="meta">Voor vragen over de gezondheid, groei en ontwikkeling van uw kind. Gratis en zonder verwijzing.</p>
+        {jgz.map((c) => <Contact contact={c} />)}
+      </div>
+    )}
+    <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span>{jgz.length > 0 && <span data-kop-jgz hidden>Of bij het wijkteam</span>}<span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span>: {t?.naam}</h3>
     {t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
     {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
     {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}

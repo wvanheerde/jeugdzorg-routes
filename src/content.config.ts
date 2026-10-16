@@ -309,6 +309,11 @@ const situaties = defineCollection({
     }).optional(),
     /** Op zich geen reden voor jeugdhulp (zoals scheiding): het overzicht begint dan met de uitleg en het CJG, en vouwt de aanvraagstappen in. */
     lichteStart: z.boolean().default(false),
+    /**
+     * Bij een lichte start: de jeugdgezondheidszorg (consultatiebureau, jeugdarts) is de eerste plek (zoals slaap). Heeft de gemeente
+     * geen eigen CJG- of JGZ-blok (cjg.soort wijkteam), dan toont het overzicht de JGZ-contacten uit de huisartsroute boven het wijkteam.
+     */
+    jgzVoorop: z.boolean().default(false),
     /** Wel het wijkteam voorop, maar de aanvraagstappen ingeklapt en de eigen samenvatting als inleiding (zoals onveilig thuis). */
     aanvraagIngeklapt: z.boolean().default(false),
     volgorde: z.number(),
