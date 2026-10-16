@@ -5,10 +5,11 @@ samenvatting: "Bij onveiligheid thuis gaat het eerst om de veiligheid van het ki
 themas: [veiligheid, huiselijk geweld, kindermishandeling, gezin, crisis, hechting, pleegzorg, trauma, kinderrechten]
 hulpsoorten: [crisishulp, ambulante-begeleiding, opvoedondersteuning, verblijf-pleegzorg, jeugdbescherming]
 routes:
-  - type: spoed
-    waarom: "Voor advies, ook anoniem en ook over uzelf: Veilig Thuis 0800-2000. Gratis en 24 uur per dag."
   - type: wijkteam
-    waarom: "Merkt u zelf dat het thuis uit de hand loopt? Dan kunt u bij het wijkteam snel hulp krijgen. Daar is het wijkteam voor."
+    beginBij: "het wijkteam van uw gemeente of bij Veilig Thuis"
+    waarom: "Merkt u dat het thuis uit de hand loopt? Dan kunt u bij het wijkteam snel hulp krijgen. Daar is het wijkteam voor. Wilt u eerst advies, ook anoniem en ook over uw eigen gezin? Bel dan Veilig Thuis: 0800-2000, gratis en 24 uur per dag."
+  - type: spoed
+    waarom: "Is uw kind nu niet veilig? Dan wacht u niet op een afspraak."
 landelijk: [02-toegang, 03-rechten]
 regelingen:
   - naam: "Advies vragen verplicht tot niets"
@@ -39,6 +40,7 @@ therapievormen:
     - titel: "Richtlijn Problematische gehechtheid: kernaanbevelingen"
       url: https://richtlijnenjeugdhulp.nl/problematische-gehechtheid/kernaanbevelingen
       geraadpleegd: "2026-10-14"
+aanvraagIngeklapt: true
 volgorde: 15
 laatstGecontroleerd: "2026-10-12"
 bronnen:

@@ -309,6 +309,8 @@ const situaties = defineCollection({
     }).optional(),
     /** Op zich geen reden voor jeugdhulp (zoals scheiding): het overzicht begint dan met de uitleg en het CJG, en vouwt de aanvraagstappen in. */
     lichteStart: z.boolean().default(false),
+    /** Wel het wijkteam voorop, maar de aanvraagstappen ingeklapt en de eigen samenvatting als inleiding (zoals onveilig thuis). */
+    aanvraagIngeklapt: z.boolean().default(false),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
