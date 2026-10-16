@@ -118,31 +118,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het Stadsteam, zonder besluit van de gemeente. Het Stadsteam biedt zelf ook begeleiding, steungezinnen (vrijwilligers die een gezin steunen) en jongerenwerk. Sinds september 2025 is er een BSO-plus: buitenschoolse opvang in een kleine groep voor kinderen van 4 tot 12 jaar die extra ondersteuning nodig hebben. Daarvoor is een verwijsbrief van het Stadsteam nodig. Specialistische jeugdhulp koopt Oudewater in met vier andere gemeenten in Utrecht West. De Beschikbaarheidswijzer toont de aanbieders en hun wachttijden. Vanaf 1 januari 2027 neemt een nieuwe regionale organisatie de inkoop over. Wat dat voor ouders verandert, is nog niet bekend.",
+    "samenvatting": "Bij het Stadsteam Oudewater kunt u zelf terecht, zonder aanvraag bij de gemeente, voor advies, begeleiding, steungezinnen en jongerenwerk. Specialistische jeugdhulp koopt Oudewater in samen met De Ronde Venen, Montfoort, Stichtse Vecht en Woerden, de regio Utrecht West.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en advies",
-        "omschrijving": "Via het Stadsteam: gesprekken over opvoeden en opgroeien, begeleiding van ouders en kinderen, steungezinnen en jongerenwerk. Zonder verwijzing.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Gesprekken over opvoeden en opgroeien, en steungezinnen: vrijwilligers die een gezin steunen. U kunt zelf terecht, zonder aanvraag, bij het Stadsteam.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante begeleiding, jeugd-ggz, dagbehandeling, verblijf en pleegzorg. Regionaal ingekocht door Utrecht West.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Stadsteam begeleidt ouders en kinderen ook zelf; voor meer hulp verwijst het Stadsteam of de huisarts. Persoonlijke verzorging koopt de regio als eigen vorm van jeugdhulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. School en ouders vragen het samen aan bij de poortwachter van samenwerkingsverband Passenderwijs; in 2026 kan dat niet, in 2027 weer in twee vaste periodes.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep, en respijtzorg zoals dagopvang of logeren om u als ouder te ontlasten. Sinds september 2025 is er ook een BSO-plus voor kinderen van 4 tot 12 jaar die extra ondersteuning nodig hebben, met een verwijsbrief van het Stadsteam.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen en verblijf in een woongroep van een instelling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Valt onder de specialistische jeugdhulp. Zie de spoedroute.",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. De regio heeft spoedhulp thuis, crisispleegzorg, een crisisplek en crisisbehandeling in de jeugd-ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -275,7 +303,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Stadsteam Oudewater: Jeugd en gezin",
@@ -411,6 +439,36 @@
         "titel": "Veilig Thuis Utrecht: Het gaat thuis niet goed",
         "url": "https://veiligthuisutrecht.nl/over-ons/wie-wij-zijn/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West – Tarieven en productcodelijst Jeugd en Wmo 2026",
+        "url": "https://inkooputrechtwest.nl/wp-content/uploads/2025/12/Tarievenblad-Jeugd-Wmo-2026-1.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passenderwijs – Ernstige dyslexie (poortwachter Utrecht West)",
+        "url": "https://www.passenderwijs.nl/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie zit achter bot-controle; cliëntervaringsonderzoek na 2017 en doorlooptijden niet gevonden. Steunpunt RUW gekozen omdat Oudewater geen vo-school heeft (leerlingen naar Gouda vallen onder een ander verband); geen aandeelHuisarts, want CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Spoedroute verwijst naar Veilig Thuis Utrecht: Het gaat thuis niet goed (geen eigen spoedpagina voor jeugd gevonden)."

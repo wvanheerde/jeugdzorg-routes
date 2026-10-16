@@ -114,47 +114,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp (informatie, advies, cursussen, korte hulp) krijgt u via het CJG zonder beschikking. Specialistische jeugdhulp wordt ingekocht door de Regionale Inkooporganisatie Zorg (RIOZ) namens tien gemeenten in Noordoost-Brabant; alle aanbieders met een contract staan op rioz.nl. De regio is niet aangesloten op de Beschikbaarheidswijzer, dus wachttijden per aanbieder zijn daar niet te zien. Signalen of klachten over aanbieders kunt u melden bij het meldpunt van RIOZ.",
-    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/adresboek",
+    "samenvatting": "Voor informatie, advies, cursussen en korte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG. Specialistische jeugdhulp koopt Oss in met de andere gemeenten in Noordoost-Brabant, via de inkooporganisatie RIOZ. In het overzicht van RIOZ geven aanbieders zelf een geschatte wachttijd op; vraag het CJG wat dat voor uw kind betekent.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/contractenboek",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG, zonder beschikking, inclusief cursussen en het scheidingsteam Alsjeuitelkaargaat.",
+        "omschrijving": "Advies, korte hulp en cursussen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG en bij het scheidingsteam Alsjeuitelkaargaat.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie, intensieve hulp thuis en persoonlijke verzorging als de zorgverzekering die niet betaalt. U komt er via het CJG of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via het CJG of een verwijzing van huisarts, jeugdarts of medisch specialist.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Alleen bij ernstige dyslexie, vastgesteld via het samenwerkingsverband primair onderwijs.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen, als de hulp start vóór hun dertiende. U vraagt het samen met school aan bij het dyslexieteam van samenwerkingsverband PO 30 06; na een besluit van de gemeente kiest u zelf een aanbieder met contract.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Daghulp, respijtzorg en logeren",
+        "omschrijving": "Bij daghulp werkt uw kind in een groep aan vaardigheden en structuur. Respijtzorg, overdag of met logeren, ontlast u als ouder; eerst wordt gekeken of gewone opvang of uw eigen omgeving kan helpen.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In de regio zijn er pleeggezinnen (ook voor het weekend), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, een crisispleeggezin of een korte opvangplek. Spoedeisende Zorg van Jeugdbescherming Brabant beoordeelt dag en nacht of dat nodig is; bij een psychische crisis helpt de crisisdienst van de ggz.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noordoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -231,7 +243,7 @@
     },
     {
       "naam": "Aanbieders van specialistische jeugdhulp zoeken (RIOZ)",
-      "omschrijving": "Alle aanbieders met een contract in de regio Noordoost-Brabant. Niet aangesloten op de Beschikbaarheidswijzer.",
+      "omschrijving": "Alle aanbieders met een contract in de regio Noordoost-Brabant.",
       "url": "https://www.rioz.nl/jeugd/adresboek"
     },
     {
@@ -431,7 +443,7 @@
       {
         "titel": "RIOZ – Specialistische jeugdhulp regio Noordoost-Brabant",
         "url": "https://www.rioz.nl/jeugd",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "RIOZ – Ik ben inwoner",
@@ -527,6 +539,41 @@
         "titel": "Veilig Thuis Oost-Brabant: Werkgebied",
         "url": "https://www.veiligthuisoostbrabant.nl/over-ons-2/werkgebied/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "RIOZ: Contractenboek jeugd (producten en geschatte wachttijden per aanbieder)",
+        "url": "https://www.rioz.nl/jeugd/contractenboek",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Productenboek jeugd (versie juni 2026)",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Bijlage%202%20-%20Productenboek%202023%20versie%20juni%202026%201.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Veelgestelde vragen jeugd (crisis, huisartsverwijzing, gecertificeerde instellingen)",
+        "url": "https://www.rioz.nl/jeugd/veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO 30 06: Dyslexie (dyslexieteam)",
+        "url": "https://swvpo3006.nl/aanbod-expertise/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO 30 06 – werkgebied (Oss, Meierijstad, Bernheze en Maashorst)",
+        "url": "https://swvpo3006.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Open: geen jeugd-cliëntervaringsonderzoek of gemeten doorlooptijden voor Oss gevonden; geen IGJ-rapport of rekenkamerrapport over de toegang. De klachtenprocedure van ONS welzijn (2023) noemt de onafhankelijke klachtencommissie niet bij naam en de CJG-eigen klachtenroute is niet apart online gevonden. Spoedroute verwijst naar Veilig Thuis Oost-Brabant (geen eigen spoedpagina voor jeugd gevonden)."

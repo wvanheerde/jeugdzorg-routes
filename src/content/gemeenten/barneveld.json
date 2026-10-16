@@ -132,32 +132,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Barneveld, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Barneveld samen met zes andere gemeenten in de jeugdhulpregio JeugdFV in. De Beschikbaarheidswijzer bevat deze regio niet. Een lijst met aanbieders en wachttijden is voor Barneveld niet openbaar gevonden; vraag de gespreksvoerder om overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Bij het CJG Barneveld kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Barneveld in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij de gespreksvoerder jeugd of de huisarts.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Barneveld: advies, inloopspreekuur, cursussen, ambulante gezinsondersteuning, vrijwilligers (CJG @Home en CJG Connect) en de ondersteuner huisarts jeugd.",
+        "omschrijving": "Advies, inloopspreekuur, cursussen en gezinsondersteuning bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het CJG Barneveld; daar zijn ook vrijwilligers (CJG @Home en CJG Connect) en schoolmaatschappelijk werk op alle scholen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en kortdurend op alle scholen, via het CJG.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via de gespreksvoerders jeugd van de gemeente of een verwijzing van een arts; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met hardnekkige lees- en spellingsproblemen, door een aanbieder met een contract in de regio. School stelt met u het leerlingdossier op; daarna neemt de gemeente een besluit.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en logeeropvang om u als ouder te ontlasten. U vraagt het aan via de gespreksvoerders jeugd.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. De gemeente schakelt dag en nacht Spoedeisende Zorg (SEZ) van Jeugdbescherming Gelderland in; zo nodig volgt ambulante spoedhulp thuis of een crisisplek.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Barneveld doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
-    ]
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://jeugdfv.nl/bvo/professionals/productenboek/"
   },
   "cjg": {
     "soort": "cjg",
@@ -318,9 +348,44 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "JeugdFV: productenboek gecontracteerde aanbieders",
+        "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Gelderland (Ede, Barneveld, Scherpenzeel, Nijkerk)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_gelderl.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Geen cliëntervaringsonderzoek jeugd (alleen Wmo) en geen doorlooptijden gevonden; Beschikbaarheidswijzer dekt JeugdFV niet en jeugdfv.nl zit achter bot-controle. Niet vastgesteld: of POBV basis- en voortgezet onderwijs beide dekt, klachtregeling CJG. Regionale journalistiek niet doorzocht."
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Geen cliëntervaringsonderzoek jeugd (alleen Wmo) en geen doorlooptijden gevonden; Beschikbaarheidswijzer dekt JeugdFV niet en jeugdfv.nl zit achter bot-controle. Niet vastgesteld: of POBV basis- en voortgezet onderwijs beide dekt, klachtregeling CJG. Regionale journalistiek niet doorzocht. Dyslexie: 'de gemeente neemt een besluit' afgeleid uit de verordening (ernstige dyslexie is een individuele voorziening); wie het dossier indient en wie het toetst is voor deze gemeente niet openbaar te vinden. Buurgemeenten Ede en Renswoude: school vraagt het samen met de ouder aan bij de gemeente. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "jeugdzorgregio": "Foodvalley",
   "ervaringen": {

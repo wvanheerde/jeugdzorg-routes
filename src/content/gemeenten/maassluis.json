@@ -132,43 +132,65 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via wijkteam VraagRaak, het Centrum voor Jeugd en Gezin (CJG), de jeugdprofessional op school of de jeugdprofessional bij de huisarts. Specialistische hulp regelt Mevis grotendeels zelf, met aanbieders waarmee Mevis samenwerkt. Een deel, zoals jeugdbescherming en crisishulp, koopt de regio Rijnmond samen in. Regio Rijnmond doet niet mee aan de Beschikbaarheidswijzer. In het Verwijzingsfilter van Jeugdhulp Rijnmond ziet u wel welke aanbieders een contract hebben. Het huidige contract met Mevis kan na 2028 niet doorgaan. Vanaf 2029 wordt de jeugdhulp anders geregeld.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij wijkteam VraagRaak, het CJG en de jeugdprofessional op school, zonder aanvraag. Specialistische hulp regelt Mevis voor Maassluis, Vlaardingen en Schiedam; jeugdbescherming en crisishulp koopt de gemeente in met de regio Rijnmond. Vraag VraagRaak hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het wijkteam, het CJG en de jeugdprofessional op school. Omdat er een wachtlijst is, biedt Maassluis ook hulp in groepen. Een besluit van de gemeente is niet nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte hulp en groepen bij vragen over opvoeden, pesten of angst. U kunt zelf terecht bij VraagRaak, het CJG en de jeugdprofessional op school, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Begeleiding thuis en op school",
-        "omschrijving": "Door het wijkteam of via Mevis. Voor intensievere begeleiding is een beschikking of verwijzing nodig.",
+        "omschrijving": "Begeleiding door het wijkteam zelf of door een aanbieder via Mevis. Voor intensievere begeleiding is een beschikking of verwijzing nodig.",
         "hulpsoorten": [
           "ambulante-begeleiding"
         ]
       },
       {
         "naam": "Jeugd-ggz",
-        "omschrijving": "Lichte klachten helpt het wijkteam of de jeugdprofessional bij de huisarts. Voor specialistische jeugd-ggz is een verwijzing van het wijkteam, de huisarts, jeugdarts of medisch specialist nodig.",
+        "omschrijving": "Bij lichte klachten helpen het wijkteam of de jeugdprofessional bij de huisarts. Voor specialistische jeugd-ggz verwijst het wijkteam, de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Via het wijkteam of een verwijzer, met een beschikking.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 13 jaar op de basisschool met ernstige lees- en spellingsproblemen. Er geldt een vast stappenplan; vraag school of de jeugdprofessional op school hoe u uw kind aanmeldt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, logeren en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen, en logeren om u te ontlasten. U komt er via het wijkteam of een verwijzer; voor pleegzorg en verblijf zoekt Team Zorgbemiddeling van de regio een plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Dagbesteding en verzorging",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, en hulp bij de persoonlijke verzorging van uw kind. U komt er via VraagRaak.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Het Crisis Interventie Team van jeugdhulpregio Rijnmond helpt bij een crisis. Kijk voor de route op de crisispagina van het wijkteam.",
+        "omschrijving": "Bij een acute crisis helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Op de crisispagina van VraagRaak staat wat u doet.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -335,7 +357,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Maassluis: Jeugdhulp",
@@ -486,6 +508,26 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jeugdhoofdstuk jaarrekening 2025 en begroting 2027 gelezen: geen cijfers over wachttijden of cliëntervaring jeugd. Rogplus-onderzoek cliëntervaring 2025 en IGJ-rapport niet gevonden. Klachtenregeling CJG niet nagezocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

@@ -128,23 +128,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u via het loket, het Jeugd Preventie Overleg en de jeugdgezondheidszorg van GGD Zeeland, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Schouwen-Duiveland samen met de andere Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland. Daar staat een lijst met aanbieders. De Beschikbaarheidswijzer (overzicht van wachttijden) bevat Schouwen-Duiveland niet, en wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de medewerker van het loket om overzicht en om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://www.inkoopjeugdhulpzeeland.nl/",
+    "samenvatting": "Bij het Loket Samenleving en zorg, het Jeugd Preventie Overleg en de jeugdgezondheidszorg van GGD Zeeland kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Schouwen-Duiveland in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
         "naam": "Advies en lichte hulp",
-        "omschrijving": "Via het loket, het Jeugd Preventie Overleg (jongerenwerk, preventiewerkers) en de jeugdverpleegkundige van GGD Zeeland.",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het loket, het Jeugd Preventie Overleg (jongerenwerk en preventiewerkers, voor jongeren van 10 tot 18 jaar) en de jeugdverpleegkundige van GGD Zeeland.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en persoonlijke verzorging. U komt er via het Team Jeugd van de gemeente of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, bijvoorbeeld in een kinderdagcentrum, een medisch dagverblijf of BSO+. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het Team Jeugd van de gemeente of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -210,6 +246,11 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer Zeeland)",
+      "omschrijving": "Jeugdhulpaanbieders met een contract in Zeeland, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
     }
   ],
   "ervaringen": {
@@ -267,7 +308,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Schouwen-Duiveland: Jeugdhulp",
@@ -317,7 +358,7 @@
       {
         "titel": "Verordening jeugdhulp gemeente Schouwen-Duiveland 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR760999/1",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025, programma 2",
@@ -367,12 +408,42 @@
       {
         "titel": "Beschikbaarheidswijzer Zeeland",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek jeugd niet gevonden in jaarstukken, begroting en raadsinformatie. Samenwerkingsverband VO niet gevonden (het steunpunt dekt VO). Regionale journalistiek is beperkt doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

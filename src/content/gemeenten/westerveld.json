@@ -140,35 +140,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u in Westerveld bij Welzijn MensenWerk, zonder besluit van de gemeente. Specialistische jeugdhulp koopt de gemeente in met de andere Drentse gemeenten, in de inkoopregio Zuid-Drenthe. In de Beschikbaarheidswijzer van deze regio ziet u welke aanbieders er zijn en hoe lang het wachten is. Die is openbaar, zonder inloggen. Vanaf 1 januari 2027 wil Drenthe de inkoop onderbrengen bij een nieuwe gezamenlijke organisatie. Voor uw aanvraag blijft u bij de gemeente terecht.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Welzijn MensenWerk. Specialistische jeugdhulp koopt Westerveld in samen met de andere zes gemeenten in Zuid-Drenthe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-drenthe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Welzijn MensenWerk: maatschappelijk werk, ondersteuning bij leren en opvoeden van jonge kinderen, trainingen voor kinderen en jongeren en hulp voor jonge mantelzorgers.",
+        "omschrijving": "Maatschappelijk werk, steun bij opvoeden van jonge kinderen, trainingen, hulp voor jonge mantelzorgers en schoolmaatschappelijk werk op elke school, via Welzijn MensenWerk. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en op elke school in Westerveld, via Welzijn MensenWerk.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Begeleiding, behandeling, dagbehandeling en verblijf. Team Jeugd of de huisarts verwijst naar een aanbieder met een contract.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via Team Jeugd of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, wonen met begeleiding, verblijf met behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Crisishulp buiten kantooruren",
-        "omschrijving": "Spoed voor Jeugd Drenthe biedt eerste opvang en hulp bij een crisis buiten kantoortijd. Zie de pagina Meldpunten van de gemeente.",
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -308,7 +332,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Westerveld: Jeugdhulp",
@@ -419,6 +443,46 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: FAQ (ingekochte modules)",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/faq",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: Module Wonen",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/beschrijving-modules/29/wonen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Drenthe",
+        "url": "https://s4jd.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek en doorlooptijden toegang niet gevonden; de monitor sociaal domein (20 oktober 2026) was nog niet te lezen. Klachtenregeling van Welzijn MensenWerk niet online gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."

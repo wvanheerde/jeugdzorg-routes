@@ -124,25 +124,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en opvoedadvies krijgt u bij het CJG Voorschoten, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Voorschoten samen met de andere gemeenten van de regio Holland Rijnland in. De Beschikbaarheidswijzer van de regio laat zien welke aanbieders er zijn en hoe lang de wachttijden zijn, zonder inloggen. Die wachttijden verschillen sterk per soort hulp. Vraag de medewerker jeugd om hulp bij het kiezen. Moet u wachten? Vraag dan om tijdelijke hulp in de tussentijd (overbruggingszorg).",
+    "samenvatting": "Met vragen over opvoeden kunt u zelf terecht bij het CJG Voorschoten, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Voorschoten in samen met de andere gemeenten van de regio Holland Rijnland. Heeft een aanbieder zijn budget voor het jaar op, dan neemt die tijdelijk geen nieuwe kinderen aan: vraag het Sociaal Service Team dan om een andere aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Voorschoten: advies van een pedagogisch adviseur, cursussen en de jeugdgezondheidszorg. Zonder besluit van de gemeente.",
+        "omschrijving": "Advies van een pedagogisch adviseur, cursussen en de jeugdgezondheidszorg. U kunt zelf terecht bij het CJG Voorschoten, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Regionaal ingekocht, na een besluit van de gemeente of een verwijzing van de huisarts. Jeugd-ggz en begeleiding worden het meest gebruikt.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking. Jeugd-ggz en begeleiding worden het meest ingezet; u komt er via de medewerker jeugd van het Sociaal Service Team of de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het loopt via school: die meldt uw kind aan, daarna geeft de gemeente de hulp toe.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbehandeling, dagbesteding en respijtzorg",
+        "omschrijving": "Behandeling of begeleiding overdag in een groep, ook in een kinderdagcentrum, voor kinderen met een beperking of ernstige problemen. Dagbesteding kan ook tijdelijk worden ingezet om u als ouder te ontlasten.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Er is pleegzorg, ook in deeltijd, en er zijn gezinshuizen en woongroepen, soms met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. De medewerker jeugd kan hulp thuis, een crisisplek of crisispleegzorg regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Holland Rijnland doet Jeugdbescherming west dit, vanuit Leiden. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -203,7 +237,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Voorschoten: Jeugdhulp, wat is het?",
@@ -299,6 +333,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Gecontracteerde zorg",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/gecontracteerde-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Dienstomschrijvingen jeugdhulp 2022-2026 (pdf)",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/01/Bijlage-5-Dienstomschrijvingen-v12-feb-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Hoe te handelen bij een crisis?",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/hoe-te-handelen-bij-een-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west – Gemeenten en werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek jeugd (alleen 2019, regio Haaglanden) niet gevonden. Beschikbaarheidswijzer Holland Rijnland heeft een lege gemeentelijst; de gemeente linkt er zelf naar. Regionale journalistiek niet doorzocht (WebSearch-limiet); jaarstukken 2025 bevatten vooral financiële verantwoording."

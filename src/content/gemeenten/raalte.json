@@ -139,24 +139,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Raalte, zoals advies, cursussen en trainingen. Specialistische jeugdhulp koopt Raalte samen met de andere gemeenten in regio IJsselland in. Op de Beschikbaarheidswijzer IJsselland ziet u welke aanbieders er zijn en hoe lang het wachten is. De Beschikbaarheidswijzer is openbaar, zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG Raalte. Specialistische jeugdhulp koopt Raalte samen met de andere tien gemeenten van de regio IJsselland in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Raalte: advies, inloopspreekuren en groepsaanbod zoals Rots en Water, sociale vaardigheidstraining en een training voor examenstress.",
+        "omschrijving": "Advies, inloopspreekuren en groepsaanbod bij het CJG Raalte, zonder aanvraag. Voorbeelden zijn Rots en Water, sociale vaardigheidstraining en een training voor examenstress.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, alleen of in een groep. Voor andere hulp verwijst het CJG Raalte of de huisarts, jeugdarts of medisch specialist u naar een aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School geeft het advies en levert het leerlingdossier aan; daarna beslist het CJG Raalte over de hulp.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven. U vraagt dit aan via het CJG Raalte.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of zorgboerderij, of een kleine woongroep. De elf gemeenten van IJsselland regelen dit samen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd kan Veilig Thuis IJsselland of de jeugdbeschermer Spoedhulp IJsselland inzetten, eerst thuis en zo nodig met een crisisbed; bij psychische nood is er de crisisdienst van Dimence.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In IJsselland doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -220,7 +255,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Raalte: Jeugdhulp",
@@ -356,6 +391,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoop specialistische jeugdhulp",
+        "url": "https://www.rsj-ijsselland.nl/inkoop",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoopdocument Jeugdhulp Voorzieningen versie 1.8",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Inkoopdocument%20versie%201.8_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Jeugdbescherming, voor jeugdigen en ouders",
+        "url": "https://www.rsj-ijsselland.nl/jeugdbescherming/voor-jeugdigen-en-ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang niet gevonden. Laatste cliëntervaringsonderzoek jeugd is van 2021 (gescande pdf, niet gelezen); daarna alleen Wmo. Steunpunt samenwerkingsverband heeft alleen een 06-nummer; telefoon weggelaten. Regionale journalistiek beperkt doorzocht."

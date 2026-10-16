@@ -113,30 +113,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Jeugd en Gezin van aan-z, zonder besluit van de gemeente: advies, opvoedondersteuning, groepstrainingen en online cursussen (leerlijnen). Specialistische jeugdhulp kopen de 13 Zeeuwse gemeenten samen in via de Inkooporganisatie Jeugdhulp Zeeland. De gemeente wil vaker hulp in groepen inzetten in plaats van individuele hulp. Een overzicht van aanbieders en wachttijden vindt u in de Beschikbaarheidswijzer. Openbaar, zonder inloggen.",
+    "samenvatting": "Bij Jeugd en Gezin van aan-z kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Terneuzen in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via aan-z: advies, hulp aan huis en op school, groepstrainingen voor kinderen bij scheiding en gratis online leerlijnen.",
+        "omschrijving": "Advies, hulp thuis en op school, groepstrainingen voor kinderen bij een scheiding en gratis online cursussen (leerlijnen). U kunt zelf terecht, zonder aanvraag, bij Jeugd en Gezin van aan-z.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Lichte ondersteuning bij vragen over opvoeden en psychische klachten, zonder doorverwijzing naar jeugdhulp. Er zijn vier in de gemeente.",
+        "omschrijving": "Lichte hulp bij vragen over opvoeden en psychische klachten, in de huisartsenpraktijk en zonder verwijzing naar jeugdhulp. Terneuzen heeft er vier.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (hulp thuis of bij de aanbieder), behandeling, jeugd-ggz, dyslexiezorg, verblijf en pleegzorg. De Zeeuwse gemeenten kopen deze hulp samen in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en persoonlijke verzorging. U komt er via Jeugd en Gezin van aan-z of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op; de behandeling start op de basisschool en mag doorlopen in de brugklas.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, ook BSO+: naschoolse opvang in kleine groepen voor kinderen van werkende ouders. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt Jeugd en Gezin van aan-z of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -260,7 +294,7 @@
       {
         "titel": "Beschikbaarheidswijzer - Zeeland",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Verordening sociaal domein gemeente Terneuzen 2026",
@@ -270,7 +304,7 @@
       {
         "titel": "Nadere regels jeugdhulp gemeente Terneuzen 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR758277/1",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Brief B&W aan raad: Hervormingsagenda Jeugdhulp en lokale aanpak",
@@ -296,6 +330,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Doorlooptijden toegang niet gevonden; rapportcijfers van het cliëntervaringsonderzoek staan in een niet-leesbare factsheet. Geen crisispagina van de gemeente; spoedlink naar de crisissectie van aan-z (besluit gebruiker); klachtregeling van aan-z verwijst naar een externe commissie zonder naam. Gemeentepagina noemt als vertrouwenspersoon nog Zorgbelang Brabant, met het nummer van Jeugdstem."

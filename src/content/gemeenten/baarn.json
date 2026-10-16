@@ -133,31 +133,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Pit Baarn en het Lokaal Team: advies, brugfunctionarissen op school, de praktijkondersteuner jeugd bij de huisarts en groepen en trainingen voor ouders en kinderen. Specialistische jeugdhulp koopt Baarn samen met zes andere gemeenten in de regio Amersfoort in. Sinds 2024 levert vrijwel alleen MetMaya die hulp. Deze regio staat niet op de Beschikbaarheidswijzer. Een lijst met wachttijden voor Baarn is niet openbaar te vinden. Vraag het Lokaal Team om hulp bij het kiezen en naar de verwachte wachttijd.",
-    "gecontracteerdeAanbiedersUrl": "https://www.hulpenondersteuningregioamersfoort.nl/",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht bij Pit Baarn, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Baarn in met de andere gemeenten van de regio Amersfoort; bijna alles komt van één aanbieder, MetMaya. Een overzicht van wachttijden is niet openbaar te vinden: vraag het Lokaal Team naar de wachttijd voor uw kind.",
+    "gecontracteerdeAanbiedersUrl": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Pit Baarn en het Lokaal Team: advies, praktijkondersteuner jeugd bij de huisarts, brugfunctionarissen op school en trainingen zoals Triple P (positief opvoeden) en groepen voor kinderen.",
+        "omschrijving": "Advies, trainingen zoals Triple P (positief opvoeden) en groepen voor kinderen. U kunt zelf terecht bij Pit Baarn, zonder aanvraag; via de huisarts is er een praktijkondersteuner jeugd en op school een brugfunctionaris van het Lokaal Team.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een aanmelding van het Lokaal Team of een verwijzing van de huisarts of jeugdarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en pleegzorg, vrijwel allemaal via MetMaya.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Lokaal Team begeleidt eerst zelf. Is meer nodig, dan geeft MetMaya de hulp vanuit een team in uw gemeente, na verwijzing door het Lokaal Team, de huisarts of de jeugdarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 12 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Vermoedt school ernstige dyslexie, dan meldt u uw kind zelf aan bij de poortwachter dyslexie van Samenwerkingsverband de Eem; daar staat ook de lijst met aanbieders.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagactiviteiten is uw kind buiten schooltijd in een groep bezig; logeren ontlast u als ouder. Logeren regelt MetMaya, dagactiviteiten komen van andere aanbieders: vraag het Lokaal Team wat past.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. MetMaya regelt in deze regio pleegzorg, gezinshuizen en verblijf, ook met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Dyslexiezorg valt niet onder MetMaya. U krijgt het na een verwijzing.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Bij een psychische crisis schakelt de huisarts de crisisdienst van GGz Centraal in; het Lokaal Team kan via het Crisis Coördinatiepunt een crisisplek of crisishulp thuis regelen.",
         "hulpsoorten": [
-          "dyslexiezorg"
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Amersfoort doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -299,7 +327,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Baarn: Jeugdhulp",
@@ -410,6 +438,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Eén aanbieder voor bijna alle specialistische jeugdhulp: MetMaya",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Jeugdhulp vanuit MetMaya teams",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/jeugdhulp-vanuit-metmaya-teams",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Verwijzing bij crisis",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/verwijzing-bij-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Dyslexie, Bouw! en Poortwachter",
+        "url": "https://www.swvdeeem.nl/samen-leren/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Poortwachter Dyslexie regio Amersfoort",
+        "url": "https://dyslexie.swvdeeem.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland (SAVE Jeugdbescherming)",
+        "url": "https://www.samenveiligmiddennederland.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en doorlooptijden toegang niet gevonden in jaarstukken, begroting en raadsinformatie. Beschikbaarheidswijzer dekt regio Eemland niet. IGJ, rekenkamer en ombudsman niets over jeugd in Baarn gevonden; regionale journalistiek nauwelijks doorzocht."

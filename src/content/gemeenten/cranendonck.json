@@ -118,30 +118,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het Sociaal Team, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Cranendonck samen met andere gemeenten in Zuidoost-Brabant in (Samen voor Jeugd). Cranendonck staat niet in de Beschikbaarheidswijzer. Een lijst met aanbieders en wachttijden is niet openbaar te vinden. Vraag het Sociaal Team om een overzicht en om hulp bij het kiezen. Samen voor Jeugd noemt een gemiddelde wachttijd van 78 dagen in de regio.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het Sociaal Team, het jongerenwerk en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Cranendonck in met negen andere gemeenten in de regio Samen voor Jeugd. Wachttijden staan niet in een openbaar overzicht: vraag ernaar bij het Sociaal Team of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://zorgaanbieders.eindhoven.nl/jeugdhulp",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het Sociaal Team en het jongerenwerk: advies, korte begeleiding en trainingen, zonder besluit van de gemeente.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte begeleiding en trainingen bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Team, het kind- en scheidingsloket, de trainingen KIES en Rots en Water, het jongerenwerk van Cordaad Welzijn en de jeugdgezondheidszorg van GGD Brabant-Zuidoost.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante begeleiding, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, ook vaktherapie en diagnostiek. U komt er via het Sociaal Team of een verwijzing van de huisarts. Persoonlijke verzorging bij een beperking, zoals hulp bij wassen en aankleden, is ook ingekocht; verzorging bij ziekte loopt via de zorgverzekering.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Hulp bij zware problemen op meerdere gebieden",
+        "omschrijving": "Voor gezinnen met veel hulpverleners tegelijk kan één Multi-aanbieder alle specialistische hulp regelen en op elkaar afstemmen. Of dat past, bekijkt u samen met de gemeente.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met ernstige lees- en spellingsproblemen. Het begint bij school, die een leesdossier opstelt; de dyslexieaanbieder stemt af met school.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, en gespecialiseerde naschoolse opvang (BSO+) voor kinderen van 4 tot 13 jaar. Logeren en respijtzorg geven u als ouder even rust.",
+        "hulpsoorten": [
           "dagbesteding",
-          "persoonlijke-verzorging",
-          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, verblijf in een instelling of kleinschalige woonvorm, en begeleiding naar zelfstandig wonen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig is: crisishulp thuis, crisispleegzorg of een korte opvangplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Zuidoost-Brabant is dag en nacht bereikbaar en Spoed voor Jeugd regelt de crisishulp voor de hele regio.",
+        "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Jeugdbescherming en jeugdreclassering",
-        "omschrijving": "Alleen na een maatregel van de kinderrechter. Een erkende organisatie voor jeugdbescherming (gecertificeerde instelling) voert die uit.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuidoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -328,7 +360,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Cranendonck: Jeugdhulp",
@@ -439,6 +471,46 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten, verwijzer per regio",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp (inkoop Samen voor Jeugd)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen voor Jeugd: Product Diensten Catalogus Jeugdhulp 2024",
+        "url": "https://zorgaanbieders.eindhoven.nl/sites/default/files/2023-12/PDC%20Jeugdhulp%202024%20versie%204.0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Crisis (21 gemeenten Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Crisis Interventie Team Zuidoost-Brabant",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/crisis-interventie-team",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdbescherming en jeugdreclassering (gecertificeerde instellingen Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdbescherming-en-jeugdreclassering",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Multi",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-multi",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden over 2025 en de klachtenregeling van het Sociaal Team zelf niet gevonden; de gemeentelijke klachtregeling is gebruikt. Aanbiederslijst van Samen voor Jeugd niet openbaar gevonden en Beschikbaarheidswijzer dekt Cranendonck niet. Regionale journalistiek niet doorzocht (WebSearch-limiet)."

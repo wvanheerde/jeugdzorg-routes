@@ -109,28 +109,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het cluster Jeugd & Gezin en bij de huisarts of jeugdarts. Specialistische jeugdhulp koopt Sluis in met alle Zeeuwse gemeenten via Inkooporganisatie Jeugdhulp Zeeland. Op de site van die organisatie staat welke aanbieders een contract hebben. Vraag het cluster Jeugd & Gezin om hulp bij het kiezen.",
+    "samenvatting": "Bij het cluster Jeugd & Gezin van de gemeente kunt u zelf terecht voor advies en lichte hulp, zonder aanvraag. Specialistische jeugdhulp koopt Sluis in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en lichte hulp, zonder besluit van de gemeente.",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het cluster Jeugd & Gezin; tips voor ouders staan op de website Zeeuws-Vlaanderen, de beste plek om op te groeien.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. U komt er via het cluster Jeugd & Gezin of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, voor kinderen met een beperking of ernstige problemen. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Sluis kiest waar het kan voor pleegzorg; die geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het cluster Jeugd & Gezin of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
-    ],
-    "gecontracteerdeAanbiedersUrl": "https://www.inkoopjeugdhulpzeeland.nl/"
+    ]
   },
   "cjg": {
     "soort": "jgz",
@@ -199,10 +233,15 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer Zeeland)",
+      "omschrijving": "Jeugdhulpaanbieders met een contract in Zeeland, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Sluis: Jeugdhulp",
@@ -242,7 +281,7 @@
       {
         "titel": "Integrale Verordening Sociaal Domein gemeente Sluis 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR755313/1",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 gemeente Sluis",
@@ -293,6 +332,41 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Jeugdhulp Zeeland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 van de gemeente nog niet verschenen (alleen kadernota 2027-2030, zonder jeugdonderdeel). Uitvoerder onafhankelijke cliëntondersteuning, klachtenregeling met extern jeugdloket en cliëntervaringsonderzoek jeugd niet gevonden; regionale journalistiek niet doorzocht (WebSearch-limiet)."

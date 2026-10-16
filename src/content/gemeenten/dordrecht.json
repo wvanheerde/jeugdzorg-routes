@@ -134,49 +134,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp en opvoedondersteuning via Dordrecht Sociaal zonder beschikking; specialistische jeugdhulp wordt voor de tien gemeenten van Zuid-Holland Zuid ingekocht door de Serviceorganisatie Jeugd ZHZ. De Beschikbaarheidswijzer toont alle gecontracteerde aanbieders met wachttijden; gemaakt voor verwijzers, maar openbaar en bruikbaar om samen met het wijkteam te kiezen.",
+    "samenvatting": "Bij Dordrecht Sociaal kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Dordrecht in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Dordrecht Sociaal, de jeugdgezondheidszorg en schoolmaatschappelijk werk, zonder beschikking.",
+        "omschrijving": "Advies en hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij Dordrecht Sociaal, Jong JGZ en het schoolmaatschappelijk werk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via Dordrecht Sociaal of met een verwijzing van een arts.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Jeugd-GGZ en dyslexiezorg",
-        "omschrijving": "Via verwijzing van het wijkteam of een arts.",
-        "hulpsoorten": [
+          "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg"
-        ]
-      },
-      {
-        "naam": "Dagbesteding, logeren en respijtzorg",
-        "hulpsoorten": [
-          "dagbesteding",
-          "logeren-respijt",
           "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; de hulp moet starten voordat uw kind groep 8 verlaat. School vraagt het met uw toestemming aan bij de poortwachter van Samenwerkingsverband Dordrecht; daarna kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Crisishulp en jeugdbescherming",
-        "omschrijving": "Crisisinterventieteam ZHZ; jeugdbescherming via Jeugdbescherming West en andere gecertificeerde instellingen.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
         "hulpsoorten": [
-          "crisishulp",
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -393,7 +402,7 @@
       {
         "titel": "Veilig Thuis ZHZ – Crisisinterventieteam Zuid-Holland Zuid",
         "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Beschikbaarheidswijzer – Zuid-Holland Zuid",
@@ -414,8 +423,38 @@
         "titel": "SWV Passend Onderwijs Dordrecht: Ouder- en jeugdsteunpunt voor ouders",
         "url": "https://swvdordrecht.nl/ouder-enjeugdsteunpunt-ouders/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Passend Onderwijs Dordrecht: Ernstige dyslexie",
+        "url": "https://swvdordrecht.nl/eed/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Passend Onderwijs Dordrecht: over het samenwerkingsverband",
+        "url": "https://swvdordrecht.nl/samenwerkingsverband-2/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Toegang, klachtroute, bezwaar, pgb en cliëntondersteuning geverifieerd via gemeente, Mooi Sociaal en Serviceorganisatie Jeugd ZHZ. dordrechtsociaal.nl was op 2026-10-11 alleen via een botcontrole bereikbaar; telefoonnummer, e-mail en locaties komen van de gemeentesite en de Sociale Dienst Drechtsteden en moeten op dordrechtsociaal.nl worden nagelopen. raad.dordrecht.nl blokkeerde geautomatiseerd ophalen: de samenvattingen van de raadsinformatiebrief (2026-01-13) en het raadsvoorstel verordening (2025-12-09) zijn gebaseerd op zoekfragmenten, niet op de volledige pdf. Het cliëntervaringsonderzoek 2024 is als pdf niet machinaal leesbaar; de cijfers komen uit de samenvatting in zoekresultaten. Jaarstukken 2025 van de gemeente niet gevonden. Beschikbaarheidswijzer gecontroleerd op 2026-10-11: regio aangesloten, pagina openbaar."
+    "opmerkingen": "Toegang, klachtroute, bezwaar, pgb en cliëntondersteuning geverifieerd via gemeente, Mooi Sociaal en Serviceorganisatie Jeugd ZHZ. dordrechtsociaal.nl was op 2026-10-11 alleen via een botcontrole bereikbaar; telefoonnummer, e-mail en locaties komen van de gemeentesite en de Sociale Dienst Drechtsteden en moeten op dordrechtsociaal.nl worden nagelopen. raad.dordrecht.nl blokkeerde geautomatiseerd ophalen: de samenvattingen van de raadsinformatiebrief (2026-01-13) en het raadsvoorstel verordening (2025-12-09) zijn gebaseerd op zoekfragmenten, niet op de volledige pdf. Het cliëntervaringsonderzoek 2024 is als pdf niet machinaal leesbaar; de cijfers komen uit de samenvatting in zoekresultaten. Jaarstukken 2025 van de gemeente niet gevonden. Beschikbaarheidswijzer gecontroleerd op 2026-10-11: regio aangesloten, pagina openbaar. Dyslexie: poortwachter en aanmeldformulier (getekend door ouders en directie) van swvdordrecht.nl/eed; groep-8-grens uit Dienstomschrijvingen ZHZ 5.1. Dat ouders zelf kiezen is afgeleid uit de lijst met gecontracteerde aanbieders op de SWV-pagina; vanaf welke groep aanvragen kan, staat er niet."
   }
 }

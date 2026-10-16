@@ -141,50 +141,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente: bij het CJG, het Sociaal Wijkteam, het jeugd- en jongerenwerk en de praktijkondersteuner jeugd bij de huisarts. Voor specialistische jeugdhulp is een besluit van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist nodig. Katwijk koopt specialistische jeugdhulp in met twaalf andere gemeenten in de regio Holland Rijnland. De gemeente zegt zelf dat zij eerst zoekt naar groepsaanbod en lichtere hulp, voordat zij individuele hulp inzet. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen.",
+    "samenvatting": "Bij het CJG, het Sociaal Wijkteam, Ouders van Katwijk en de praktijkondersteuner jeugd bij de huisarts kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Katwijk in samen met de andere gemeenten van de regio Holland Rijnland. Heeft een aanbieder zijn budget voor het jaar op, dan neemt die tijdelijk geen nieuwe kinderen aan: vraag het Sociaal Wijkteam dan om een andere aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via het CJG, het Sociaal Wijkteam, Ouders van Katwijk, het jeugd- en jongerenwerk en de POH Jeugd. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, cursussen en trainingen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG, Ouders van Katwijk en het jeugd- en jongerenwerk; via het Sociaal Wijkteam helpt een steunouder.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Gezinsbegeleiding en ambulante hulp",
-        "omschrijving": "Gezinsbegeleiding, coaching en groepstrainingen geeft het Sociaal Wijkteam zelf. Intensievere hulp loopt via een besluit of verwijzing.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Sociaal Wijkteam geeft zelf gezinsbegeleiding, coaching en groepstrainingen en kijkt eerst naar groepsaanbod en lichtere hulp; ook de huisarts of jeugdarts kan verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via het Sociaal Wijkteam of een verwijzing van huisarts, jeugdarts of medisch specialist.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
         "naam": "Ernstige dyslexie",
-        "omschrijving": "Onderzoek en behandeling van ernstige dyslexie. In de verordening is dit een individuele voorziening: hulp waarover de gemeente een besluit neemt.",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het loopt via school: die meldt uw kind aan, daarna geeft de gemeente de hulp toe.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en logeren",
-        "omschrijving": "Pleegzorg, gezinshuis en dagbesteding met respijtzorg (logeren, zodat ouders even op adem komen) zijn in de verordening individuele voorzieningen: hulp waarover de gemeente een besluit neemt. Via Steunouder geven vrijwilligers praktische hulp; u komt erbij via het Sociaal Wijkteam.",
+        "naam": "Dagbehandeling, dagbesteding en logeren",
+        "omschrijving": "Behandeling of begeleiding overdag in een groep voor kinderen met een beperking of ernstige problemen. Logeren of dagbesteding kan ook om u als ouder even te ontlasten.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Er is pleegzorg, ook in deeltijd, en er zijn gezinshuizen en woongroepen, soms met behandeling.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis regelt de gemeente zo snel mogelijk tijdelijke hulp. De aanbieder neemt binnen 24 uur contact op nadat een verwijzer daarom vraagt.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. De aanbieder neemt binnen 24 uur contact op nadat een verwijzer, zoals het Sociaal Wijkteam, daarom vraagt.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Holland Rijnland doet Jeugdbescherming west dit, vanuit Leiden. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -473,6 +482,31 @@
       {
         "titel": "SWV PO Duin- en Bollenstreek: ouders",
         "url": "https://swv-db.nl/ouders/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Gecontracteerde zorg",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/gecontracteerde-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Dienstomschrijvingen jeugdhulp 2022-2026 (pdf)",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/01/Bijlage-5-Dienstomschrijvingen-v12-feb-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Hoe te handelen bij een crisis?",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/hoe-te-handelen-bij-een-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west – Gemeenten en werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

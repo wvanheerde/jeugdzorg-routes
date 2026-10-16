@@ -142,36 +142,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Vijfheerenlanden koopt specialistische jeugdhulp samen in met Houten, IJsselstein, Lopik en Nieuwegein (Regio Lekstroom). Volgens de gemeente moeten aanbieders met een contract een inwoner aannemen als die aan hen is toegewezen. De aanbieders houden hun wachttijden bij in de Beschikbaarheidswijzer. Die is openbaar, zonder inloggen. Lichte hulp krijgt u zonder besluit van de gemeente: het opvoedspreekuur, de jeugdgezondheidszorg, jongerenwerk en vrijwilligersorganisaties. Op Zorg4Vijfheerenlanden.nl staat een overzicht van vrij toegankelijke hulp.",
+    "samenvatting": "Voor het opvoedspreekuur, de jeugdgezondheidszorg, jongerenwerk en vrijwilligershulp kunt u zelf terecht, zonder aanvraag; op Zorg4Vijfheerenlanden.nl staat een overzicht. Specialistische jeugdhulp koopt Vijfheerenlanden in samen met Houten, IJsselstein, Lopik en Nieuwegein, de regio Lekstroom.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/lekstroom",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Opvoedspreekuur van de jeugdgezondheidszorg, Home-Start, Buurtgezinnen en jongerenwerk. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Het opvoedspreekuur van de jeugdgezondheidszorg, een vrijwilliger thuis via Home-Start of Buurtgezinnen, en jongerenwerk. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en behandeling via het Sociaal Team of een verwijzing",
-        "omschrijving": "Begeleiding thuis en jeugd-ggz via het Sociaal Team (een besluit of pgb) of via een verwijzing van huisarts, jeugdarts of medisch specialist. Bij begeleiding kijkt de gemeente strenger of het Sociaal Team of hulp in de buurt de vraag kan oplossen.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Bij begeleiding kijkt het Sociaal Team eerst of het zelf of hulp in de buurt de vraag kan oplossen; daarna loopt het via het Sociaal Team of een verwijzing van huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Pleegzorg en jeugdhulp met verblijf, samen met de regio.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. Ouders en school vullen samen de aanvraag in bij ZIEN in de Klas, dat voor de regio beoordeelt of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep na school, in het weekend of in de vakantie, een kinderdagcentrum voor jonge kinderen en logeren om u als ouder te ontlasten. U vraagt dit aan via het Sociaal Team.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: in een pleeggezin, een gezinshuis of op een behandelgroep. Vier aanbieders zoeken samen in een voordeurteam de best passende plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een acute crisis: huisarts of huisartsenpost.",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. De regio heeft crisishulp thuis, een tijdelijke crisisplek, crisispleegzorg en crisisbehandeling in de jeugd-ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -356,7 +379,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Vijfheerenlanden - Hulp voor kinderen en jongeren (jeugdhulp)",
@@ -477,6 +500,41 @@
         "titel": "JOS-Lekstroom",
         "url": "https://www.jos-lekstroom.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regio Lekstroom – Producten en tarieven Jeugdhulp 2026 (ambulant, onderwijstijd, crisis)",
+        "url": "https://www.regiolekstroom.nl/fileadmin/houten_regiolekstroom/Jeugd/Tarieven/Tarievenlijst_Jeugd_2026_-_Ambulant_en_JIO_Crisis_en_Forensisch_2.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Lekstroom – Gezinsvormen",
+        "url": "https://www.regiolekstroom.nl/jeugd/contracten-en-tarieven-jeugd/gezinsvormen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Lekstroom – Dyslexie (poortwachter ZIEN in de Klas)",
+        "url": "https://www.regiolekstroom.nl/verwijzers/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden jeugd, aantal reacties cliëntervaringsonderzoek en het rekenkamerrapport zelf niet gevonden. Klachtencijfers jeugd niet in het jaarverslag dienstverlening 2024. Raadsbesluit over programma Opgroeien (24 september 2026) niet nagezocht. JGZ-nummer uit stap (033 460 0046) vervangen door het nummer op de contactpagina van GGDrU."

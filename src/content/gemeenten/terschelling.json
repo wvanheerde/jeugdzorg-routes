@@ -112,31 +112,60 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Op Terschelling zelf is er vooral lichte hulp via het Eilandteam, de jeugdgezondheidszorg en het jeugdwerk. Specialistische jeugdhulp koopt de gemeente samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân. Die hulp zit grotendeels op het vasteland, ook als aanbieders naar het eiland komen. De Beschikbaarheidswijzer van Friesland is openbaar en laat zien welke aanbieders er zijn. Vraag het Eilandteam om hulp bij het kiezen. Vanaf 2028 koopt de regio de specialistische hulp opnieuw in.",
+    "samenvatting": "Bij opvoedvragen en voor begeleiding thuis kunt u zelf terecht bij het Eilandteam, zonder aanvraag. Specialistische jeugdhulp koopt Terschelling samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân. Die hulp komt grotendeels van het vasteland, ook als aanbieders naar het eiland komen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het Eilandteam: vragen over opvoeden en opgroeien, begeleiding thuis en lichte tot middelzware hulp. Ook de jeugdgezondheidszorg denkt mee.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en begeleiding thuis bij vragen over opvoeden en opgroeien, van het Eilandteam. Ook de jeugdgezondheidszorg en het jeugdwerk op het eiland denken mee. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "opvoedondersteuning",
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: jeugd-ggz, begeleiding, verblijf en pleegzorg. Deze hulp wordt voor heel Friesland samen ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het Eilandteam of met een verwijzing van de huisarts, jeugdarts of medisch specialist. Vraag hoe vaak de hulpverlener naar het eiland komt.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg",
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. Op Terschelling verwijst de school zelf naar dyslexiezorg. U kiest een van de aanbieders met een contract.",
+        "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via het Eilandteam of de huisarts.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via het Eilandteam of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Voor een crisis bij jeugd werkt Friesland met een regionale crisisdienst. De gemeente noemt die op de pagina van het Eilandteam.",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -244,7 +273,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Terschelling: Eilandteam",
@@ -320,6 +349,46 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Crisishulp",
+        "url": "https://www.sdfryslan.nl/jeugd/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Begroting 2027 nog niet verschenen; cliëntondersteuner, doorlooptijden en cliëntervaring niet openbaar gevonden, IGJ-rapport Eilandteam (mei 2023) niet leesbaar en ouder dan drie jaar. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Redactie: zin over 'twee derde via de huisarts' uit ervaringen.samenvatting gehaald om die reden."

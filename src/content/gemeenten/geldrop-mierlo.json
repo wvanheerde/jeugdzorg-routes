@@ -120,24 +120,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u via het CMD en de organisaties in de wijk, zoals Onze Wegwijzer. Specialistische jeugdhulp koopt Geldrop-Mierlo samen met andere gemeenten in Zuidoost-Brabant in, via de jeugdregio Een 10 voor de jeugd. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang het wachten is. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CMD en organisaties in de wijk; Onze Wegwijzer zet ze op een rij. Specialistische jeugdhulp koopt Geldrop-Mierlo in met tien andere gemeenten in de jeugdregio Een 10 voor de Jeugd.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/een-10-voor-de-jeugd",
     "categorieen": [
       {
-        "naam": "Advies en ondersteuning dichtbij",
-        "omschrijving": "Via het CMD, het PlusTeam voor gezinnen met meerdere zware problemen en het nieuwe verkenningsteam in de Coevering.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het CMD en de jeugdgezondheidszorg van GGD Brabant-Zuidoost; voor gezinnen met meerdere zware problemen is er het PlusTeam, en in de Coevering een verkenningsteam.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het CMD of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, ook vaktherapie, diagnostiek en praktische pedagogische thuisbegeleiding. U komt er via het CMD of een verwijzing van de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 12 jaar met ernstige, hardnekkige leesproblemen. School maakt een leesdossier; daarmee kiest u zelf een gecontracteerde dyslexieaanbieder, zonder aanvraag bij de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, bijvoorbeeld in een kinderdagcentrum, een medisch kinderdagverblijf of gespecialiseerde naschoolse opvang. Logeren en respijtzorg geven u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg (ook in deeltijd), gezinshuizen, woongroepen en begeleiding naar zelfstandig wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig is: crisishulp thuis, crisispleegzorg of een korte opvangplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Zuidoost-Brabant is dag en nacht bereikbaar en Spoed voor Jeugd regelt de crisishulp voor de hele regio.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuidoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -297,7 +332,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Geldrop-Mierlo: CMD (Zorg, jeugd en inkomen)",
@@ -403,6 +438,56 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Toegang per segment",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/jeugdhulp-toegang/toegang-segmenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 2 Wonen",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-2-wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 3 Dagbesteding en dagbehandeling",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-3-dagbesteding-dagbehandeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 4 Specialistisch en veel voorkomend",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-4-specialistisch-veel-voorkomend/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: PDC Jeugd versie 1.14 (dyslexie)",
+        "url": "https://jeugdwmo.nl/wp-content/uploads/PDC-Jeugd-2022-10vdj-versie-1.14-260702-def.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Crisis (21 gemeenten Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Crisis Interventie Team Zuidoost-Brabant",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/crisis-interventie-team",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdbescherming en jeugdreclassering (gecertificeerde instellingen Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdbescherming-en-jeugdreclassering",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen (behandeling 9 november 2026). Geen cliëntervaringsonderzoek jeugd gevonden; wachttijd CMD Jeugd uit de tabel bij de grafiek (bijlage 1). Samenwerkingsverband VO van Geldrop-Mierlo niet vastgesteld (steunpunt dekt beide verbanden); klachtregeling CMD en Verordening na 2025 niet nagelopen. Geen geschikte lokale journalistiek of IGJ-rapport gevonden."

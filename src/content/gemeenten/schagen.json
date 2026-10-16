@@ -110,12 +110,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente: het opvoedspreekuur en cursussen van de GGD, hulp van vrijwilligers en schoolmaatschappelijk werk. Specialistische jeugdhulp koopt Schagen samen met Den Helder, Hollands Kroon en Texel in. In 2025 zijn de contracten met aanbieders met 3 jaar verlengd. De vier gemeenten bereiden een nieuwe inkoop voor. In de openbare Beschikbaarheidswijzer van de regio ziet u aanbieders en wachttijden.",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht, zonder aanvraag, bijvoorbeeld bij het opvoedspreekuur van de GGD, vrijwilligers van Home-Start en Buurtgezinnen en het schoolmaatschappelijk werk. Specialistische jeugdhulp koopt Schagen in met de andere gemeenten in de Kop van Noord-Holland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning",
-        "omschrijving": "Opvoedspreekuur en opvoedcursussen van de GGD Hollands Noorden. Daarnaast vrijwilligers van Home-Start en Buurtgezinnen.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, gesprekken en cursussen bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het opvoedspreekuur en de opvoedcursussen van de GGD Hollands Noorden; vrijwilligers van Home-Start en Buurtgezinnen helpen thuis.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -131,21 +131,48 @@
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het wijkteam of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dyslexiezorg, dagbesteding en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij een instelling, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking, bijvoorbeeld oefenen met plannen of dagelijkse dingen zoals wassen en aankleden. U komt er via het wijkteam of met een verwijzing van de huisarts; ook begeleidende verzorging is mogelijk.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen jonger dan 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. De school verwijst uw kind in overleg met u naar een van de drie aanbieders met een contract; die meldt uw kind aan bij de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, voor kinderen met een beperking of ernstige problemen. Heeft degene die thuis voor uw kind zorgt rust nodig, dan kan uw kind maximaal 3 hele dagen per week logeren in een instelling.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Pleegzorg heeft de voorkeur; er zijn ook gezinshuizen en verblijf in een instelling, bijvoorbeeld voor behandeling of om zelfstandig te leren wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "De crisisdienst voor kinderen en jongeren (Integrale Crisisdienst Jeugd) is onderdeel van Veilig Thuis Noord-Holland Noord.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Bent u al bekend bij het wijkteam, dan kunt u overdag het wijkteam bellen; verder helpt het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord, dag en nacht.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de Kop van Noord-Holland doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -215,7 +242,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Schagen: Jeugdhulp",
@@ -331,9 +358,39 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verwervingsstrategie jeugdbescherming en jeugdreclassering NW4 regio's Noord-Holland 2026-2030",
+        "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/b608c77c-eb8c-4a6e-89b0-674add89bf4e",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Schagen: Dyslexie",
+        "url": "https://www.schagen.nl/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden toegang en het rapport van het cliëntervaringsonderzoek zelf niet gevonden (ook niet in Notubiz). Klachtregeling van de GGD, naam en gegevens van het schoolmaatschappelijk werk en het VO-steunpunt niet vastgesteld. Regionale journalistiek niet doorzocht."
+    "opmerkingen": "Doorlooptijden toegang en het rapport van het cliëntervaringsonderzoek zelf niet gevonden (ook niet in Notubiz). Klachtregeling van de GGD, naam en gegevens van het schoolmaatschappelijk werk en het VO-steunpunt niet vastgesteld. Regionale journalistiek niet doorzocht. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "ervaringen": {
     "samenvatting": "Schagen heeft één wijkteam voor alle vragen over zorg, werk en inkomen, ook voor jeugd. Aan het cliëntervaringsonderzoek over 2024 deed 26 procent van de uitgenodigde cliënten mee. De gemeente zag de meeste verbeterpunten bij jeugd. Zij noemt als oorzaak personeelswisselingen en de opbouw van een eigen team voor jeugd.\n\nVraag bij uw melding hoe lang het duurt tot een gesprek en leg afspraken schriftelijk vast. Na het gesprek krijgt u binnen 25 dagen een verslag. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over het wijkteam dient u in bij de gemeente; bent u niet tevreden over de afhandeling, dan kunt u naar de Nationale ombudsman.",

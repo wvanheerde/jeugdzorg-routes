@@ -125,36 +125,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, zoals advies van het Pedagogisch Bureau van Kwadraad, de praktijkondersteuner GGZ Jeugd bij de huisarts, jongerenwerk en steun van vrijwilligers. Specialistische jeugdhulp koopt De Ronde Venen samen met Montfoort, Oudewater, Stichtse Vecht en Woerden in, in de jeugdregio Utrecht West. Vanaf 1 januari 2027 doen de vijf gemeenten dat via een nieuwe gezamenlijke organisatie, Sociaal Domein Utrecht West. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen.",
+    "samenvatting": "Voor advies van het Pedagogisch Bureau van Kwadraad, de praktijkondersteuner GGZ Jeugd bij de huisarts, jongerenwerk en vrijwilligers kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt De Ronde Venen in samen met Montfoort, Oudewater, Stichtse Vecht en Woerden, de regio Utrecht West.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Pedagogisch Bureau van Kwadraad, bijeenkomsten voor ouders (Ouder&Kind Lokaal), weerbaarheidstrainingen voor kinderen en steun van vrijwilligers via HandjeHelpen en Buurtgezinnen. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Advies van het Pedagogisch Bureau van Kwadraad, bijeenkomsten voor ouders (Ouder&Kind Lokaal) en weerbaarheidstrainingen voor kinderen. U kunt zelf terecht, zonder aanvraag; HandjeHelpen en Buurtgezinnen bieden steun van vrijwilligers.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Lichte hulp bij de huisarts",
-        "omschrijving": "De praktijkondersteuner GGZ Jeugd bij de huisarts verheldert de vraag en biedt kortdurende, vrij toegankelijke ondersteuning.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Ambulante begeleiding en jeugdhulp via de gemeente",
-        "omschrijving": "Begeleiding en behandeling door een aanbieder met een contract in Utrecht West, na een besluit van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. De praktijkondersteuner GGZ Jeugd bij de huisarts helpt eerst kort; daarna loopt het via het Lokaal Team Jeugd of een verwijzing van huisarts, jeugdarts of medisch specialist. Persoonlijke verzorging koopt de regio als eigen vorm van jeugdhulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "De gemeente vergoedt onderzoek en behandeling van ernstige dyslexie voor kinderen van 7 tot en met 12 jaar op de basisschool, onder voorwaarden. U vraagt dit aan via Stichting Passenderwijs.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. School en ouders vragen het samen aan bij de poortwachter van samenwerkingsverband Passenderwijs; in 2026 kan dat niet, in 2027 weer in twee vaste periodes.",
         "hulpsoorten": [
           "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep, en respijtzorg zoals dagopvang of logeren om u als ouder te ontlasten. U vraagt dit aan via het Lokaal Team Jeugd.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen en verblijf in een woongroep van een instelling.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. De regio heeft spoedhulp thuis, crisispleegzorg, een crisisplek en crisisbehandeling in de jeugd-ggz.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -318,7 +341,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente De Ronde Venen: Hulp voor jeugd",
@@ -434,6 +457,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulp in natura (verwijzer, regio)",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West – Tarieven en productcodelijst Jeugd en Wmo 2026",
+        "url": "https://inkooputrechtwest.nl/wp-content/uploads/2025/12/Tarievenblad-Jeugd-Wmo-2026-1.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passenderwijs – Ernstige dyslexie (poortwachter Utrecht West)",
+        "url": "https://www.passenderwijs.nl/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd niet gevonden; wacht- en doorlooptijden staan alleen als grafiek in de raadsinformatiebrief Q4 2024. Gemeentepagina noemt 0297 29 16 02 voor het Lokaal Team Jeugd, maar de belknop op die pagina wijst naar 0297 58 76 00 (Servicepunt). Openingstijden van het team niet gevonden."

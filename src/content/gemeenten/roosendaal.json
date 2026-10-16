@@ -126,28 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u van Team Jeugd, zonder besluit van de gemeente. Denk aan advies, tips en kortdurende begeleiding. Ook zijn er cursussen en trainingen voor ouders en jongeren. Voor specialistische hulp, bijvoorbeeld van een psycholoog, is een gezinsplan met Team Jeugd nodig of een verwijzing van huisarts, jeugdarts of medisch specialist. Roosendaal koopt die hulp in met Bergen op Zoom, Etten-Leur, Halderberge, Moerdijk, Rucphen, Steenbergen, Woensdrecht en Zundert (regio West-Brabant West). Deze regio doet niet mee aan de Beschikbaarheidswijzer. Vraag Team Jeugd welke aanbieders een contract hebben en hoe lang het wachten is. Per 2027 koopt de regio jeugdhulp opnieuw in, en dan kunnen aanbieders veranderen. Verwijst een arts naar een aanbieder zonder contract, dan wordt dat alleen betaald als de gemeente vooraf instemt of als zij zelf geen vergelijkbare hulp kan regelen.",
+    "samenvatting": "Voor advies, tips en korte begeleiding kunt u zelf terecht, zonder aanvraag, bij Team Jeugd. Roosendaal koopt specialistische jeugdhulp in samen met de andere gemeenten in de regio West-Brabant West. Vraag Team Jeugd welke aanbieders een contract hebben en hoe lang het wachten is.",
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpwbw.nl/jeugdhulpaanbieders",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Advies en kortdurende begeleiding via Team Jeugd, de jeugdgezondheidszorg van de GGD en cursussen of trainingen. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, tips en korte begeleiding bij opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij Team Jeugd en de jeugdgezondheidszorg, en de gemeente biedt cursussen en trainingen voor ouders en jongeren.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp via een gecontracteerde aanbieder",
-        "omschrijving": "Via een gezinsplan met Team Jeugd of een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij een aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking. Lichte begeleiding en coaching geeft Team Jeugd zelf; voor andere hulp maakt u samen een gezinsplan, of u gaat via de huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 13 jaar met ernstige lees- en spellingsproblemen. School legt het leerlingdossier voor aan het samenwerkingsverband PO3002; gaat dat akkoord, dan kiest u zelf een aanbieder met een contract in de regio, zonder aanvraag bij de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Overdag begeleiding in een groep, of logeren zodat u als ouder even op adem komt. In West-Brabant West kan dit alleen als deel van een hulptraject, bijvoorbeeld bij een kind met een beperking; voor jonge kinderen met een ernstige meervoudige beperking is er dagbesteding met verzorging en verpleging.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In West-Brabant West zijn er pleegzorg (ook in deeltijd), gezinshuizen en kleine woongroepen met begeleiding dag en nacht.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Bij spoed: Team Jeugd tot 17.00 uur, daarna Meldpunt Crisiszorg West-Brabant (0800 5099).",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Overdag kunt u eerst bij Team Jeugd terecht; dag en nacht beoordeelt het Crisis Interventie Team via het Meldpunt Crisiszorg West-Brabant wat nodig is, zoals crisishulp thuis, een korte opvangplek of voor jonge kinderen een crisispleeggezin.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Brabant West doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -241,7 +272,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Roosendaal - Opvoeden en opgroeien (jeugdhulp)",
@@ -327,6 +358,61 @@
         "titel": "Ouder- en jeugdsteunpunt Roosendaal-Moerdijk e.o.: contact",
         "url": "https://oudersteunpunt-wbw.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: jeugdhulpaanbieders",
+        "url": "https://www.jeugdhulpwbw.nl/jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Jeugdhulpcatalogus laagcomplex (juni 2025)",
+        "url": "https://www.jeugdhulpwbw.nl/publish/pages/1833/jeugdhulpcatalogus_versie_juni_2025.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Laagcomplexe zorg",
+        "url": "https://www.jeugdhulpwbw.nl/kennisbank/laagcomplexe-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Pleegzorg",
+        "url": "https://www.jeugdhulpwbw.nl/kennisbank/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Woonzorg",
+        "url": "https://www.jeugdhulpwbw.nl/kennisbank/woonzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Crisisroute per 1 maart 2026",
+        "url": "https://www.jeugdhulpwbw.nl/publish/pages/2174/inf0005-003_crisisroute_wbw_2603.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Woensdrecht: Raadsinformatienota Stand van zaken inkoop jeugdbescherming en jeugdreclassering vanaf 2027",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=woensdrecht&id=73afd1a3-9fe2-4fe9-b112-cd998713ec3d",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "PO3002: Route naar vergoede ernstige dyslexiezorg",
+        "url": "https://po3002.nl/faq/route-naar-vergoede-ernstige-dyslexiezorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Oudersteunpunt West-Brabant West: Samenwerkingsverband",
+        "url": "https://oudersteunpunt-wbw.nl/samenwerkingsverband/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie (raad.roosendaal.nl) staat achter een bot-controle en is niet gelezen; cliëntervaring jeugd (alleen Wmo gevonden) en wachttijden ook niet in jaarstukken 2025 en begroting 2027. Beschikbaarheidswijzer dekt West-Brabant West niet en de site van de regionale inkooporganisatie is niet gevonden. Beleidsregels pgb dateren van 2019; regionale journalistiek en IGJ niet uitgebreid doorzocht."

@@ -111,36 +111,71 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Gebiedsteam, de GGD Fryslân en Home-Start, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Waadhoeke samen met de andere Friese gemeenten in via Sociaal Domein Fryslân. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben; die is openbaar, zonder inloggen. Volgens de gemeente is er niet voor elke hulpvraag passend aanbod. Vraag het Gebiedsteam om hulp bij het kiezen van een aanbieder. Vanaf 1 januari 2028 willen de Friese gemeenten nieuwe afspraken met aanbieders laten ingaan.",
+    "samenvatting": "Bij opvoedvragen en lichte zorgen kunt u zelf terecht bij het Gebiedsteam, de GGD Fryslân en Home-Start, zonder aanvraag. Specialistische jeugdhulp koopt Waadhoeke samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Gebiedsteam, de GGD Fryslân (consultatiebureau, pedagoog, jeugdverpleegkundige) en Home-Start. Gratis, zonder besluit van de gemeente.",
+        "omschrijving": "Gratis advies bij vragen over opvoeden en opgroeien, van het Gebiedsteam en de GGD (consultatiebureau, pedagoog, jeugdverpleegkundige). Een vrijwilliger van Home-Start komt een paar keer bij u thuis.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Het Gebiedsteam werkt op scholen. Via de intern begeleider of leerkracht komt u bij de schoolmaatschappelijk werker.",
+        "omschrijving": "Hulp op school, bijvoorbeeld bij faalangst, pesten, gedrag of rouw. U komt bij de schoolmaatschappelijk werker via de intern begeleider of de leerkracht.",
         "hulpsoorten": []
       },
       {
         "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Voor kinderen, jongeren en ouders met psychische of sociale klachten. De praktijkondersteuner werkt samen met de huisarts en hoort bij het Gebiedsteam.",
+        "omschrijving": "Gesprekken voor kinderen, jongeren en ouders met psychische of sociale klachten. De praktijkondersteuner hoort bij het Gebiedsteam en werkt samen met de huisarts.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: hulp thuis, behandeling, dagbehandeling en verblijf. Regionaal ingekocht door de Friese gemeenten.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het Gebiedsteam of met een verwijzing van de huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. School meldt uw kind aan, met uw toestemming. U kiest zelf een van de aanbieders met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via het Gebiedsteam of de huisarts.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via het Gebiedsteam of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -317,6 +352,46 @@
       {
         "titel": "Gemeente Waadhoeke – Contact",
         "url": "https://www.waadhoeke.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Crisishulp",
+        "url": "https://www.sdfryslan.nl/jeugd/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

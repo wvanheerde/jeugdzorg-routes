@@ -141,30 +141,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Stichting ZO! en het CJG, zonder beschikking. Specialistische jeugdhulp koopt Zuidplas samen met vier andere gemeenten in de jeugdhulpregio Midden-Holland in. De Beschikbaarheidswijzer bevat deze regio niet. Een overzicht van aanbieders met een contract staat wel openbaar, zonder inloggen, in Startpunt Midden-Holland. Aanbieders hebben soms lange wachtlijsten. Vraag Stichting ZO! om hulp bij het kiezen.",
+    "samenvatting": "Bij Stichting ZO! en het CJG kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Zuidplas in met de andere gemeenten van de regio Midden-Holland. Vraag naar wachttijden bij Stichting ZO! of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://zorgkaart.teamzorgportaal.nl/3",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Stichting ZO!: kortdurende hulp van een pedagoog. Via het CJG: advies, chatspreekuur, trainingen en cursussen.",
+        "omschrijving": "Korte opvoedhulp van een pedagoog, advies, een chatspreekuur, trainingen en cursussen. U kunt zelf terecht, zonder aanvraag, bij Stichting ZO! en het CJG.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en kortdurend op de basisscholen, via Stichting ZO!.",
+        "omschrijving": "Gratis en kortdurende hulp op de basisscholen, ook trainingen, bijvoorbeeld over faalangst en scheiding. Een schoolmaatschappelijk werker van Stichting ZO! werkt op elke basisschool.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een beschikking van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, bij de aanbieder of in een groep bij psychische problemen, gedrag, ontwikkeling of een beperking. Stichting ZO! onderzoekt wat nodig is en zoekt een aanbieder; ook een arts kan verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling bij hardnekkige lees- en spellingsproblemen, voor kinderen op de basisschool. Het begint op school: is de hulp van school niet genoeg, dan verwijst de school naar een dyslexiebehandelaar, die het met de gemeente regelt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding of behandeling in een groep, ook in een kinderdagcentrum, voor kinderen met een beperking of ernstige problemen; school wordt daarbij betrokken. Logeeropvang en deeltijdpleegzorg ontlasten u als ouder.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio Midden-Holland heeft pleegzorg, gezinshuizen, kamertraining voor oudere jongeren en wonen met behandeling, ook gesloten jeugdhulp.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Midden-Holland is het Crisis Interventie Team (CIT) dag en nacht bereikbaar bij een crisis waarbij kinderen betrokken zijn.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-Holland doet Jeugdbescherming west dit, vanuit Gouda. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -227,10 +261,15 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders van jeugdhulp in Midden-Holland zoeken (Startpunt)",
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://zorgkaart.teamzorgportaal.nl/3"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Zuidplas: Stichting ZO!",
@@ -260,7 +299,7 @@
       {
         "titel": "Gemeente Zuidplas: Eerste Hulp bij Zorg en Overlast (EHBZO)",
         "url": "https://www.zuidplas.nl/eerste-hulp-bij-zorg-en-overlast-ehbzo",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Zuidplas: Integrale Verordening Sociaal Domein",
@@ -356,6 +395,41 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GR JW: Informatie over de huidige contracten",
+        "url": "https://www.grjw.nl/informatie-over-de-huidige-contracten",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GR JW: Producten en productcodes 2026",
+        "url": "https://cuatro.sim-cdn.nl/grjwb466a1/uploads/Productcodelijst%202026_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GR JW: Overeenkomst Jeugdbescherming en Jeugdreclassering 2025 (inkijkexemplaar)",
+        "url": "https://cuatro.sim-cdn.nl/grjwb466a1/uploads/overeenkomst-jbjr-midden-holland_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GR JW: Voor verwijzers (Startpunt)",
+        "url": "https://www.grjw.nl/voor-verwijzers",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Gouda - Hulp bij dyslexie",
+        "url": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden/hulp-bij-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden van de toegang niet gevonden. Geen schoolmaatschappelijk werk voor het voortgezet onderwijs gevonden. Regionale journalistiek beperkt doorzocht; GR Jeugd en Wmo Midden-Holland niet apart onderzocht."

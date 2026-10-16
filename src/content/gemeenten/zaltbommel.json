@@ -139,26 +139,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Buurtzorg Jong, zonder besluit van de gemeente: advies, begeleiding thuis en cursussen. Jeugdhulp met verblijf koopt Zaltbommel in via de regio Rivierenland; andere specialistische jeugdhulp koopt de gemeente zelf in. Op de Beschikbaarheidswijzer van deze regio ziet u aanbieders voor Zaltbommel. Die is openbaar, zonder inloggen. Vraag Buurtzorg Jong om hulp bij het kiezen van een aanbieder.",
+    "samenvatting": "Bij Buurtzorg Jong kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Zaltbommel in samen met Maasdriel; voor wonen buiten huis, zoals pleegzorg, werkt de gemeente samen met de andere gemeenten van Regio Rivierenland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/rivierenland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Buurtzorg Jong: advies over opvoeden, begeleiding thuis en cursussen, zoals Triple P, hulp bij scheiding (KIES en Family Transitions) en voorlichting over ADHD en autisme. Ook op school en bij de huisarts.",
+        "omschrijving": "Advies over opvoeden, begeleiding thuis en cursussen, zoals Triple P, KIES en Family Transitions bij scheiding en voorlichting over ADHD en autisme. U kunt zelf terecht, zonder aanvraag en zonder kosten, bij Buurtzorg Jong, ook via spreekuren op sommige scholen en bij huisartsen.",
         "hulpsoorten": [
-          "opvoedondersteuning",
-          "ambulante-begeleiding"
+          "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een verwijzing van Buurtzorg Jong of de huisarts: behandeling, jeugd-ggz, dagbehandeling en verblijf, bij aanbieders met een contract van de gemeente.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking, ook gezinstherapie en begeleiding door een ervaringsdeskundige. U komt er via Buurtzorg Jong of de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
+          "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School vraagt het aan bij het dyslexieteam van samenwerkingsverband PO De Meierij; dat beoordeelt de aanvraag en geeft het oordeel door aan de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep bij een aanbieder, ook intensief voor kinderen die meer zorg nodig hebben. Logeren geeft u als ouder even rust; u vraagt beide aan via Buurtzorg Jong.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. Zaltbommel koopt pleegzorg, ook in deeltijd, gezinshuizen, woongroepen en kamertraining in met Regio Rivierenland; verblijf in de jeugd-ggz koopt de gemeente samen met Maasdriel in.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Overdag kan Buurtzorg Jong snel hulp thuis inzetten; daarbuiten is Spoedeisende Zorg van Jeugdbescherming Gelderland dag en nacht bereikbaar, en bij een psychische crisis gaat het via de huisarts naar de crisisdienst van de ggz.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Rivierenland doet Jeugdbescherming Gelderland dit, vanuit Tiel. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -230,7 +263,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Zaltbommel: Vragen over opvoeden en opgroeien van jeugd (Buurtzorg Jong)",
@@ -321,9 +354,59 @@
         "titel": "Veilig Thuis Gelderland-Zuid: Wat is ons werkgebied?",
         "url": "https://veiligthuisgelderlandzuid.nl/over-veilig-thuis/wat-is-ons-werkgebied/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorginkoop Bommelerwaard: Tarieven 2026 Wmo en Jeugdhulp Zaltbommel en Maasdriel",
+        "url": "https://onsmaasdriel.nl/files/onsmaasdriel.nl/uploads/files/762301/Tarieven%202026%20Wmo%20Jeugdhulp%20Zaltbommel%20en%20Maasdriel.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopstrategie Wmo en Jeugdhulp 2027 en verder, Maasdriel en Zaltbommel (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/411788/documenten/14101715/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Rivierenland: Productenboek Jeugdhulp met Verblijf",
+        "url": "https://sociaaldomeinrivierenland.nl/media/kl2jli1x/bijlage-f-productenboek-na-nvi-jeugdhulp-met-verblijf-rivierenland-2-def.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact (regiokantoor Tiel)",
+        "url": "https://www.jbgld.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bijlage 12 Algemeen Programma van Eisen 2027-2030, Zaltbommel en Maasdriel (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/411788/documenten/14105278/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Rivierenland: Stroomschema en werkbladen crisis jeugd (versie 08-10-2026)",
+        "url": "https://sociaaldomeinrivierenland.nl/media/10tdtut0/stroomschema_en_werkbladen_crisis_jeugd-versie08102026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO De Meierij: Dyslexieteam (werkgebied o.a. Zaltbommel en Maasdriel)",
+        "url": "https://www.demeierij-po.nl/voor-scholen/dyslexieteam/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Geen geschikte spoed- of crisispagina voor jeugd op zaltbommel.nl (alleen ramp/crisis en Wvggz); spoedroute verwijst naar Veilig Thuis Gelderland-Zuid (werkgebied omvat Zaltbommel). Geen telefoonnummer van Buurtzorg Jong-teams (alleen 06). Programmabegroting 2027 niet gevonden; doorlooptijden en cliëntervaringsonderzoek jeugd niet openbaar gevonden. Klachtenregeling gemeente niet verder gelezen; Regio Rivierenland koopt voor Zaltbommel alleen verblijf in, rest lokaal."
+    "opmerkingen": "Geen geschikte spoed- of crisispagina voor jeugd op zaltbommel.nl (alleen ramp/crisis en Wvggz); spoedroute verwijst naar Veilig Thuis Gelderland-Zuid (werkgebied omvat Zaltbommel). Geen telefoonnummer van Buurtzorg Jong-teams (alleen 06). Programmabegroting 2027 niet gevonden; doorlooptijden en cliëntervaringsonderzoek jeugd niet openbaar gevonden. Klachtenregeling gemeente niet verder gelezen; Regio Rivierenland koopt voor Zaltbommel alleen verblijf in, rest lokaal. Crisisdienst (16-10-2026): het regionale stroomschema crisis jeugd Rivierenland (okt. 2026) geldt ook voor de Bommelerwaard: overdag lokaal team met ambulante spoedhulp, buiten kantoortijden Spoedeisende Zorg Jeugdbescherming Gelderland (0800-9955599, 24/7) of via de huisarts de ggz-crisisdienst. Welke ggz-crisisdienst de Bommelerwaard bedient, is niet nagekeken."
   },
   "jeugdzorgregio": "Rivierenland",
   "ervaringen": {

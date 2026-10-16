@@ -120,23 +120,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het CJG Rijnmond en bij het Team Jeugd en Gezin, vaak zonder beschikking. Specialistische jeugdhulp koopt Goeree-Overflakkee samen met de andere gemeenten in regio Rijnmond in, via Jeugdhulp Rijnmond. De Beschikbaarheidswijzer heeft een eigen overzicht van aanbieders en wachttijden voor Goeree-Overflakkee. Openbaar, zonder inloggen. In januari 2029 gaan nieuwe contracten met aanbieders in.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij het CJG Rijnmond, maatschappelijk werk van Kwadraad en Bureau JIP, zonder aanvraag. Specialistische jeugdhulp koopt Goeree-Overflakkee in met twaalf andere gemeenten in de regio Rijnmond.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/goeree-overflakkee",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Rijnmond: advies, inloopspreekuur, cursussen en de jeugdgezondheidszorg voor kinderen van 0 tot 18 jaar.",
+        "omschrijving": "Advies, cursussen en korte hulp bij vragen over opvoeden. U kunt zelf terecht bij het CJG Rijnmond, Kwadraad en Bureau JIP, zonder aanvraag; Bureau JIP helpt kinderen bijvoorbeeld bij faalangst, rouw of een scheiding.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Team Jeugd en Gezin of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz en verblijf, lokaal en regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, psychische problemen of een beperking. Medewerkers van het Team Jeugd en Gezin begeleiden u eerst zelf; is meer nodig, dan zetten zij een lokale of regionale aanbieder in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling bij ernstige dyslexie, als hulp op school niet genoeg is. School meldt uw kind aan bij het samenwerkingsverband, en u kiest samen met school een aanbieder op het aanmeldformulier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via het Team Jeugd en Gezin; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, verzorging en logeren",
+        "omschrijving": "Hulp bij de persoonlijke verzorging, dagbesteding in een groep, een medisch kinderdagverblijf en logeren om u als ouder te ontlasten. De gemeente koopt dit zelf in; u komt er via het Team Jeugd en Gezin.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "persoonlijke-verzorging",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond, dag en nacht. Bij acute psychische problemen kan ook de acute dienst van de ggz helpen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -304,6 +340,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samenwerkingsverband GO: De dyslexiezorg",
+        "url": "https://www.swvgo.nl/over-ons/expertises/de-dyslexiezorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samenwerkingsverband GO: Wijzigingen in de dyslexieroute",
+        "url": "https://www.swvgo.nl/informatieplein/wijzigingen-in-de-dyslexieroute/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Geen cliëntervaringsonderzoek jeugd, geen gemeten doorlooptijden en geen aanbiedersoverzicht van de gemeente gevonden; Beschikbaarheidswijzer heeft een eigen overzicht voor Goeree-Overflakkee. Klachtenregeling CJG en aanmeldformulieren (cookie-redirect) niet gecontroleerd; regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

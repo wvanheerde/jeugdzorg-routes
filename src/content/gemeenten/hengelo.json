@@ -139,37 +139,60 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en opvoedondersteuning krijgt u bij Wijkracht Hengelo, zonder besluit van de gemeente. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Hengelo koopt die hulp sinds 2025 samen met andere Twentse gemeenten in. In de Beschikbaarheidswijzer ziet u welke aanbieders in Twente een contract hebben en hoe lang de wachttijden zijn. De wijzer is openbaar, zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Wijkracht Hengelo. Specialistische jeugdhulp koopt Hengelo in samen met de andere Twentse gemeenten.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via Wijkracht Hengelo: advies, groepen en lichte begeleiding. Geen besluit van de gemeente nodig. Opvoedtips online bij Loes.",
+        "omschrijving": "Advies, groepen en lichte begeleiding bij Wijkracht Hengelo, zonder aanvraag; opvoedtips vindt u bij Loes. Is uw vraag ingewikkelder, dan komt een medewerker jeugd van de gemeente bij u thuis. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "opvoedondersteuning",
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische begeleiding en jeugd-ggz",
-        "omschrijving": "Via een besluit van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie. U komt er via team Jeugd en gezin van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Pleegzorg, gezinshuis en andere woonvormen. Een besluit van de gemeente of van de jeugdbescherming is nodig.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen. Dit loopt via de gemeente of via de jeugdbescherming.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis is er onder meer ambulante spoedhulp. Er is ook een crisisdienst jeugd-ggz, die u bereikt via de huisarts of een andere verwijzer.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat, zoals crisishulp thuis. Voor jeugd-ggz is er een crisisdienst, die u bereikt via de huisarts of een andere verwijzer.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -345,7 +368,7 @@
       {
         "titel": "Gemeente Hengelo - Jeugdhulp",
         "url": "https://www.hengelo.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Wijkracht Hengelo",
@@ -456,6 +479,31 @@
         "titel": "SWV VO Twente Oost: Contact",
         "url": "https://www.swvvotwenteoost.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samen14: Inkoop 2025 (jeugdhulp Twente)",
+        "url": "https://samen14.nl/inkoop/default.aspx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Uitvoerder onafhankelijke cliëntondersteuning en begroting 2027 (nog niet verschenen) niet gevonden. Gemeentelijke klachtenpagina's over jeugd, IGJ en regionale journalistiek niet gevonden. Wijkracht-klachtenregeling alleen als pdf met slecht leesbare tekst (zonder spaties)."

@@ -122,26 +122,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via Wegwijs en de wijkteams, zonder besluit van de gemeente. Sinds 2025 geven de wijkteams ook zelf korte hulp aan jongeren. Specialistische jeugdhulp koopt de gemeente in met negen andere gemeenten, via RIOZ, de inkooporganisatie van Noordoost-Brabant. Op de zorgkaart van RIOZ ziet u welke aanbieders een contract hebben. Volgens de gemeente zijn er lange wachtlijsten bij aanbieders, door een tekort aan personeel. Vraag de medewerker jeugd om hulp bij het kiezen en om iets wat u helpt tijdens het wachten.",
-    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/zorgkaart/Jeugd",
+    "samenvatting": "Voor advies en korte hulp kunt u zelf terecht, zonder aanvraag, bij Wegwijs en de wijkteams. Specialistische jeugdhulp koopt Sint-Michielsgestel in met de andere gemeenten in Noordoost-Brabant, via de inkooporganisatie RIOZ. In het overzicht van RIOZ geven aanbieders zelf een geschatte wachttijd op; vraag de medewerker jeugd wat dat voor uw kind betekent.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/contractenboek",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Wegwijs en de wijkteams: advies, hulp vanuit uw eigen netwerk en korte begeleiding. De jeugdgezondheidszorg van de GGD heeft een consultatiebureau en een spreekuur over opvoeden.",
+        "omschrijving": "Advies en korte begeleiding bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij Wegwijs en de wijkteams, en bij het consultatiebureau en het opvoedspreekuur van de GGD.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbehandeling, logeren en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie, intensieve hulp thuis en persoonlijke verzorging als de zorgverzekering die niet betaalt. U komt er via een medewerker jeugd van het wijkteam (aanmelden bij Wegwijs) of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen, als de hulp start vóór hun dertiende. School vraagt het met u aan bij het dyslexieteam van samenwerkingsverband PO De Meierij; na een besluit van de gemeente kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Daghulp, respijtzorg en logeren",
+        "omschrijving": "Bij daghulp werkt uw kind in een groep aan vaardigheden en structuur. Respijtzorg, overdag of met logeren, ontlast u als ouder; eerst wordt gekeken of gewone opvang of uw eigen omgeving kan helpen.",
+        "hulpsoorten": [
           "dagbesteding",
-          "logeren-respijt",
-          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In de regio zijn er pleeggezinnen (ook voor het weekend), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, een crisispleeggezin of een korte opvangplek. Spoedeisende Zorg van Jeugdbescherming Brabant beoordeelt dag en nacht of dat nodig is; bij een psychische crisis helpt de crisisdienst van de ggz.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noordoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -313,7 +346,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Sint-Michielsgestel: Opvoeden en opgroeien (incl. bereikbaarheid bij spoed rondom jeugd)",
@@ -434,6 +467,41 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "RIOZ: Specialistische Jeugdhulp (gemeenten regio Noordoost-Brabant)",
+        "url": "https://www.rioz.nl/jeugd",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Contractenboek jeugd (producten en geschatte wachttijden per aanbieder)",
+        "url": "https://www.rioz.nl/jeugd/contractenboek",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Productenboek jeugd (versie juni 2026)",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Bijlage%202%20-%20Productenboek%202023%20versie%20juni%202026%201.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Veelgestelde vragen jeugd (crisis, huisartsverwijzing, gecertificeerde instellingen)",
+        "url": "https://www.rioz.nl/jeugd/veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO De Meierij: Dyslexieteam",
+        "url": "https://www.demeierij-po.nl/voor-scholen/dyslexieteam/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Resultaten van het cliëntervaringsonderzoek over 2025 (klantreizen) en doorlooptijden van Wegwijs niet gevonden. Contactgegevens (telefoon, e-mail) van het samenwerkingsverband en de klachtenregeling specifiek voor Wegwijs niet online. Regionale journalistiek niet gevonden; Wegwijs is ook het loket van Boxtel."

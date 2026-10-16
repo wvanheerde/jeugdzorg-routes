@@ -117,31 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp bij opvoeden krijgt u via de medewerkers jeugd van OnS Altena. Specialistische jeugdhulp koopt Altena samen met Breda, Drimmelen, Geertruidenberg en Oosterhout in, in de jeugdhulpregio West-Brabant Oost (WBO). Regio WBO heeft een openbaar overzicht van jeugdhulpaanbieders met een contract. Wachttijden staan daar niet bij. Vanaf 1 januari 2027 komen er nieuwe contracten, onder meer voor een Stevig Lokaal Team (één team rond het gezin), zorg in het onderwijs en behandeling met verblijf. Vraag bij OnS Altena om hulp bij het kiezen van een aanbieder.",
-    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/jeugdhulpaanbieders/",
+    "samenvatting": "Bij OnS Altena kunt u terecht met vragen over opvoeden en opgroeien. Specialistische jeugdhulp koopt Altena in met de regio West-Brabant Oost, samen met Breda, Drimmelen, Geertruidenberg en Oosterhout. Naar wachttijden vraagt u bij OnS Altena of bij de aanbieder.",
+    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/jeughulpaanbieders-overzicht/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via OnS Altena: korte ondersteuning door een medewerker jeugd, ook voor jongeren zelf. Daarnaast steungezinnen via Buurtgezinnen en ondersteuning door het jongerenwerk.",
+        "omschrijving": "Gesprekken en korte hulp bij vragen over opvoeden en opgroeien, ook voor jongeren zelf. Dat doen de medewerkers jeugd van OnS Altena, naast steungezinnen via Buurtgezinnen en het jongerenwerk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Hulp via school",
-        "omschrijving": "De verbindingsfunctionaris onderwijs en jeugdhulp denkt op alle scholen mee. Voor dyslexie vraagt u onderzoek aan via school of OnS Altena.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via OnS Altena of een verwijzing van de huisarts; op school legt de verbindingsfunctionaris onderwijs en jeugdhulp de lijn. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen met hardnekkige lees- en spellingsproblemen. School en u vragen het samen aan bij de poortwachter van samenwerkingsverband Driegang, ook op reformatorische scholen (Berséba); met het advies vraagt u bij de gemeente het besluit aan.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag of na school begeleiding in een groep; logeren geeft u als ouder even rust. De regio koopt beide in, en ook deeltijdpleegzorg kan u ontlasten.",
         "hulpsoorten": [
-          "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd of bij een crisis), gezinshuizen en verblijf bij een aanbieder; een plaatsingscoördinator zoekt een passend gezinshuis.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp als het thuis acuut niet veilig is of uit de hand loopt. In West-Brabant Oost is het Crisisinterventieteam (CIT) dag en nacht bereikbaar via het Meldpunt Crisiszorg en komt zo nodig langs.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Brabant Oost doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -214,7 +242,7 @@
     {
       "naam": "Jeugdhulpaanbieders met een contract in regio WBO",
       "omschrijving": "Openbaar, zonder inloggen.",
-      "url": "https://regiowbo.nl/jeugdhulpaanbieders/"
+      "url": "https://regiowbo.nl/jeughulpaanbieders-overzicht/"
     },
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
@@ -222,7 +250,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Altena: Hulp bij opvoeden, opgroeien en ontwikkeling",
@@ -338,9 +366,54 @@
         "titel": "SWV Langstraat Heusden Altena: Ouder en jeugdsteunpunt",
         "url": "https://www.samenwerkingsverbandlha.nl/ouder-en-jeugdsteunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regio WBO: overzicht gecontracteerde jeugdhulpaanbieders",
+        "url": "https://regiowbo.nl/jeughulpaanbieders-overzicht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Crisisinterventieteam (CIT)",
+        "url": "https://regiowbo.nl/kennisbank/crisisinterventie-team-cit/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Jeugdbeschermingstafel",
+        "url": "https://regiowbo.nl/kennisbank/jeugdbeschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Plaatsingscoördinator Gezinshuis Gezocht",
+        "url": "https://regiowbo.nl/kennisbank/plaatsingscoordinator-gezinshuis-gezocht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Productdienstcatalogus Pleegzorg en Gezinshuiszorg 2021",
+        "url": "https://regiowbo.nl/wp-content/uploads/2025/03/bijlage-5-PDC.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Breda: Verordening jeugdhulp 2025, veelgestelde vragen (normenkader met regionale producten)",
+        "url": "https://www.breda.nl/verordening-jeugdhulp-2025-veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Driegang: Enkelvoudige dyslexie (poortwachter, ook voor Altena)",
+        "url": "https://www.driegang.nl/professionals/diensten/enkelvoudige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Gemeten wachttijden en doorlooptijden van OnS Altena niet openbaar gevonden; begroting 2027 bevat daarover niets. Het cliëntervaringsonderzoek zelf is niet online, cijfers komen uit het rekenkamerrapport. Regionale journalistiek niet doorzocht."
+    "opmerkingen": "Gemeten wachttijden en doorlooptijden van OnS Altena niet openbaar gevonden; begroting 2027 bevat daarover niets. Het cliëntervaringsonderzoek zelf is niet online, cijfers komen uit het rekenkamerrapport. Regionale journalistiek niet doorzocht. Dyslexie: één basisschool in Andel (Het Fundament) valt onder SWV PO Langstraat Heusden Altena; route daar niet nagegaan."
   },
   "jeugdzorgregio": "West-Brabant Oost",
   "ervaringen": {

@@ -146,48 +146,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Vrij toegankelijke opvoed- en opgroeihulp is gratis en zonder beschikking. Specialistische jeugdhulp wordt ingekocht met de regio Zaanstreek-Waterland, waar volgens de gemeente brede specialistische hulp beschikbaar is; niet alle zwaardere zorg is in Purmerend zelf te krijgen. Volgens de gemeente krijgt ongeveer één op de zeven kinderen jeugdhulp. Vanaf 2027 start een nieuwe regionale inkoop van specialistische jeugdhulp. De Beschikbaarheidswijzer toont de gecontracteerde aanbieders met wachttijden, openbaar en zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen kunt u zelf terecht, zonder aanvraag, bijvoorbeeld bij het schoolmaatschappelijk werk of Levvel. Specialistische jeugdhulp koopt Purmerend in samen met de andere gemeenten van de regio Zaanstreek-Waterland; niet alle zwaardere hulp is in Purmerend zelf te krijgen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zaanstreek-waterland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Gratis en zonder aanmelding: schoolmaatschappelijk werk, Levvel, Home-Start, Eigen Kracht en Eigen Plan.",
+        "omschrijving": "Gesprekken, advies en steun bij opvoedvragen, gedrag of ontwikkeling. U kunt zelf terecht, zonder aanvraag, bij de schoolmaatschappelijk werker van Clup Welzijn op elke school, bij Levvel en bij Home-Start; Eigen Kracht en Eigen Plan helpen u met uw netwerk een plan te maken.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Loket Jeugd bekijkt wat nodig is en zet specialistische hulp in; ook de huisarts kan verwijzen, en bijna alle huisartsen hebben een praktijkondersteuner jeugd-ggz voor een paar gesprekken. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via Loket Jeugd of verwijzing van de huisarts, in veel praktijken met een praktijkondersteuner jeugd-ggz.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. School en u vragen het aan bij de poortwachter dyslexie van samenwerkingsverband Waterland, en na een positief advies kiest u zelf een aanbieder.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, of logeren buiten huis, voor kinderen met een beperking of ernstige problemen; logeren ontlast u ook als ouder. Ook pleeggezinnen bieden korte opvang in het weekend of de vakantie; u vraagt het aan via Loket Jeugd.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In de regio bieden Levvel, Timon en William Schrikker Gezinsvormen pleegzorg, kort of voor langere tijd, en zijn er gezinshuizen en woongroepen bij zorginstellingen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Crisisdienst jeugdhulp Zaanstreek-Waterland, ingeschakeld via Loket Jeugd of de huisarts(post).",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. De crisisdienst jeugdhulp Zaanstreek-Waterland, van Parnassia, zet hulp aan huis in of regelt een crisispleeggezin of crisisopvang; overdag Loket Jeugd (als u daar al bekend bent) of anders de huisarts of huisartsenpost kan de crisisdienst inschakelen.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
-        "omschrijving": "Pleegzorg in de regio via Levvel, Timon en WSGV; Stichting Buurtgezinnen koppelt steungezinnen aan gezinnen die het moeilijk hebben.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zaanstreek-Waterland doet Jeugdbescherming Regio Amsterdam of De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
-          "verblijf-pleegzorg"
+          "jeugdbescherming"
         ]
       }
     ]
@@ -476,7 +487,7 @@
       {
         "titel": "Gemeente Purmerend – Crisis met kind of gezin",
         "url": "https://purmerend.nl/zorg-onderwijs-en-jeugd/jeugd/crisis",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Purmerend – Voor professionals in jeugdhulp",
@@ -486,7 +497,7 @@
       {
         "titel": "Gemeente Purmerend – Pleegzorg",
         "url": "https://purmerend.nl/leven/jeugdhulp/pleegzorg",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Purmerend – Doorontwikkeling naar stevige lokale teams",
@@ -607,8 +618,58 @@
         "titel": "Ouder- en jeugdsteunpunt SWV Waterland PO",
         "url": "https://www.swvwaterland.nl/ouders/#ouderjeugdsteunpunt",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Zaanstad – Voortgangsrapportage Jeugd september 2026 (bijlage)",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Zaanstad&id=0efbadb6-db66-4a3e-b4d0-bf3929fbb414",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Presentaties Regionale raadsledenbijeenkomst Zaanstreek-Waterland 23 september 2026",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=landsmeer&id=fbd2e142-1ee2-4d5f-be21-3817a3d26249",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Zaanstad – Pleegzorg",
+        "url": "https://www.zaanstad.nl/direct-regelen/zorg-welzijn-cultuur/onderwijs-en-gezin/pleegzorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO Zaanstreek: Ouders",
+        "url": "https://swvpozaanstreek.nl/ouders/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Waterland PO: Ernstige dyslexie (ED)",
+        "url": "https://www.swvwaterland.nl/scholen/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Waterland PO: Routekaart dyslexie regio Purmerend",
+        "url": "https://www.swvwaterland.nl/wp-content/uploads/2026/08/Routekaart.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceplein Heemskerk: Spoed of crisis (Parnassia, crisisdienst Midden-Kennemerland en Zaanstreek/Waterland)",
+        "url": "https://servicepleinheemskerk.nl/is/een-vraag-over/opvoeding-en-gezin/gezond-opgroeien/jeugdhulp/crisishulp-jeugd",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Actuele wachtlijst- en wachttijdcijfers van Loket Jeugd staan op het dashboard Purmerend in cijfers (Swing/Mosaic, vereist sessie) en zijn niet uitgelezen; het laatst gevonden gemiddelde (12-18 maanden) is van december 2024. CBS-cijfer 47% is voorlopig. Klachtenregeling specifiek voor Loket Jeugd niet gevonden."
+    "opmerkingen": "Actuele wachtlijst- en wachttijdcijfers van Loket Jeugd staan op het dashboard Purmerend in cijfers (Swing/Mosaic, vereist sessie) en zijn niet uitgelezen; het laatst gevonden gemiddelde (12-18 maanden) is van december 2024. CBS-cijfer 47% is voorlopig. Klachtenregeling specifiek voor Loket Jeugd niet gevonden. Crisisdienst (16-10-2026): Parnassia als uitvoerder rust op de crisispagina van Heemskerk (\"Parnassia, de crisisdienst regio Midden-Kennemerland en Zaanstreek/Waterland\") en een oudere versie van de Purmerendse pagina (zoekfragment met dezelfde Parnassia-nummers). De huidige pagina van Purmerend noemt geen organisatie en verwijst buiten kantoortijd naar huisarts of huisartsenpost. Bevestiging via de regio Zaanstreek-Waterland ontbreekt."
   }
 }

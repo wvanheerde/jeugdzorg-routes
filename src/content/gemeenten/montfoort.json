@@ -116,31 +116,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het Jeugdteam Montfoort, zonder besluit van de gemeente. Het Jeugdteam regelt ook steungezinnen (vrijwilligers die een gezin steunen) en jongerenwerk. Specialistische jeugdhulp koopt Montfoort samen met vier andere gemeenten in de regio Utrecht West in. De Beschikbaarheidswijzer toont de aanbieders en hun wachttijden. Vanaf 1 januari 2027 doet een nieuwe gezamenlijke organisatie van deze gemeenten de inkoop. Wat dat voor ouders verandert, is nog niet bekend.",
+    "samenvatting": "Bij het Jeugdteam Montfoort kunt u zelf terecht, zonder aanvraag bij de gemeente, voor advies, lichte hulp, steungezinnen en jongerenwerk. Specialistische jeugdhulp koopt Montfoort in samen met De Ronde Venen, Oudewater, Stichtse Vecht en Woerden, de regio Utrecht West.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en advies",
-        "omschrijving": "Via het Jeugdteam Montfoort: gesprekken over opvoeden en opgroeien, steungezinnen en jongerenwerk. Zonder verwijzing.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Gesprekken over opvoeden en opgroeien, en steungezinnen: vrijwilligers die een gezin steunen. U kunt zelf terecht, zonder aanvraag, bij het Jeugdteam Montfoort.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, jeugd-ggz, dagbehandeling, verblijf en pleegzorg. Regionaal ingekocht door Utrecht West.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het Jeugdteam Montfoort of met een verwijzing van de huisarts. Persoonlijke verzorging koopt de regio als eigen vorm van jeugdhulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. School en ouders vragen het samen aan bij de poortwachter van samenwerkingsverband Passenderwijs; in 2026 kan dat niet, in 2027 weer in twee vaste periodes.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep, en respijtzorg zoals dagopvang of logeren om u als ouder te ontlasten. U vraagt dit aan via het Jeugdteam Montfoort.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen en verblijf in een woongroep van een instelling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Hulp bij een acute crisis. Zie de spoedroute.",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. De regio heeft spoedhulp thuis, crisispleegzorg, een crisisplek en crisisbehandeling in de jeugd-ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -265,7 +293,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Montfoort: Jeugdhulp en jongerenwerk",
@@ -371,6 +399,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West – Tarieven en productcodelijst Jeugd en Wmo 2026",
+        "url": "https://inkooputrechtwest.nl/wp-content/uploads/2025/12/Tarievenblad-Jeugd-Wmo-2026-1.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passenderwijs – Ernstige dyslexie (poortwachter Utrecht West)",
+        "url": "https://www.passenderwijs.nl/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen; geen cliëntervaringsonderzoek jeugd na 2017, geen doorlooptijden en geen klachtencommissie Jeugdteam gevonden. Telefoonnummer Jeugdteam komt van de gemeentesite (0348); de eigen site noemt een 06-nummer. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."

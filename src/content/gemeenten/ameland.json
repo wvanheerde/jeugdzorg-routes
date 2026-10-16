@@ -123,24 +123,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het Gebiedsteam en bij de POH-Jeugd van de huisarts, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Ameland samen met alle Friese gemeenten in via Sociaal Domein Fryslân. Daarvoor hebben ongeveer 175 aanbieders een contract. Normaal komt de aanbieder naar het eiland; soms gaat u naar de vaste wal. In de afspraken met aanbieders is rekening gehouden met de reistijd naar de Waddeneilanden. De Beschikbaarheidswijzer Friesland toont de aanbieders; die is openbaar, zonder inloggen.",
+    "samenvatting": "Bij opvoedvragen en lichte zorgen kunt u zelf terecht bij het Gebiedsteam Ameland, zonder aanvraag. Specialistische jeugdhulp koopt Ameland samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân. Meestal komt de aanbieder naar het eiland; soms gaat u naar de vaste wal.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
-        "naam": "Basisondersteuning en opvoedhulp",
-        "omschrijving": "Via het Gebiedsteam: advies, een plan en zo nodig hulp van andere organisaties. De POH-Jeugd van de huisarts biedt korte gesprekken.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en korte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht bij het Gebiedsteam; de praktijkondersteuner jeugd-ggz van de huisarts brengt in vijf gesprekken de problemen in kaart.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp thuis, begeleiding, dagbehandeling, logeren en verblijf. De regio koopt deze hulp in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het Gebiedsteam of met een verwijzing van de huisarts, jeugdarts of medisch specialist. Meestal komt de aanbieder naar het eiland. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "logeren-respijt",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. School meldt uw kind aan, met uw toestemming. U kiest zelf een van de aanbieders met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via het Gebiedsteam of de huisarts.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via het Gebiedsteam of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -261,7 +296,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Ameland: Jeugdhulp, geestelijke gezondheidszorg (ggz)",
@@ -367,6 +402,46 @@
         "titel": "Spoed4Jeugd Friesland",
         "url": "https://www.spoed4jeugd.nl/over.html",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Crisishulp",
+        "url": "https://www.sdfryslan.nl/jeugd/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Klachtenregeling Gebiedsteam en resultaten cliëntervaringsonderzoek 2025 niet openbaar gevonden; regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 alle verwijzercijfers geheim (totaal 70 trajecten). Spoedroute verwijst naar Spoed4Jeugd Friesland (geen eigen spoedpagina voor jeugd gevonden)."

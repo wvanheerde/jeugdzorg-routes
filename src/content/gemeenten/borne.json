@@ -128,32 +128,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Advies en opvoedondersteuning krijgt u gratis via het Sociaal Hus en Loes, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Borne samen met de andere Twentse gemeenten in. De gemeente vergoedt hulp van aanbieders met een contract. In de Beschikbaarheidswijzer van Twente ziet u welke aanbieders er zijn en hoe lang hun wachttijden zijn. Dat overzicht is openbaar, zonder inloggen. Vraag de jeugdregisseur om hulp bij het kiezen. Vanaf 2027 wil de gemeente strenger bepalen wat onder jeugdhulp valt en hoe lang hulp duurt.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het Sociaal Hus. Specialistische jeugdhulp koopt Borne in samen met de andere Twentse gemeenten. Een jeugdregisseur van de gemeente helpt u een aanbieder kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Sociaal Hus en Loes: informatie, advies, cursussen en gezinsondersteuners die gezinnen thuis helpen.",
+        "omschrijving": "Informatie, advies en cursussen over opvoeden, alleen of in een groep. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Hus en Loes; gezinsondersteuners komen ook bij u thuis.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp thuis, behandeling, jeugd-ggz, dyslexiezorg, groepsbegeleiding en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie. Een jeugdregisseur van de gemeente zoekt met u de hulp uit en blijft uw vaste aanspreekpunt; ook de huisarts kan verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Hulp in ernstige situaties die direct aandacht nodig hebben, regionaal geregeld.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -229,12 +256,12 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Borne: Jeugdhulp",
         "url": "https://www.borne.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Borne: Wmo- en jeugdloket",
@@ -309,7 +336,7 @@
       {
         "titel": "Samen14: Inkoop",
         "url": "https://samen14.nl/inkoop/default.aspx",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Borne: Jaarstukken 2025 (gewaarmerkt exemplaar 9 juni 2026)",
@@ -350,6 +377,26 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarstukken, monitor en raadsinformatie; regionale journalistiek niet doorzocht. Contactgegevens SWV VO Twente Oost: alleen 06-nummer en een e-mailadres met afwijkende mailto, daarom niet opgenomen. Of de raad de begroting 2027 en de strakkere toegang jeugd heeft vastgesteld, is nog niet gecontroleerd."

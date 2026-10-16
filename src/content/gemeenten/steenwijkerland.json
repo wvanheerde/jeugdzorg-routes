@@ -128,28 +128,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Sociaal Werk De Kop en de jeugdgezondheidszorg, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Steenwijkerland in met tien andere gemeenten in de regio IJsselland. In de Beschikbaarheidswijzer ziet u aanbieders en wachttijden in IJsselland; die is openbaar, zonder inloggen. Vraag de medewerker jeugd om hulp bij het kiezen van een aanbieder.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Sociaal Werk De Kop en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Steenwijkerland samen met de andere tien gemeenten van de regio IJsselland in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Sociaal Werk De Kop en de jeugdgezondheidszorg van de GGD: advies, groepsaanbod en cursussen, zonder besluit van de gemeente.",
+        "omschrijving": "Advies, groepsaanbod en cursussen via Sociaal Werk De Kop en de jeugdgezondheidszorg van de GGD, zonder aanvraag. Op basisscholen en middelbare scholen is er gratis, kortdurend schoolmaatschappelijk werk van Sociaal Werk De Kop.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en kort, op basisscholen en middelbare scholen, via Sociaal Werk De Kop.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: hulp thuis, behandeling, jeugd-ggz en verblijf. Regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, alleen of in een groep. Voor andere hulp verwijst een medewerker jeugd van de gemeente of de huisarts, jeugdarts of medisch specialist u naar een aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School geeft het advies en levert het leerlingdossier aan; daarna beslist de gemeente over de hulp.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven. U vraagt dit aan via een medewerker jeugd van de gemeente.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of zorgboerderij, of een kleine woongroep. De elf gemeenten van IJsselland regelen dit samen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd kan Veilig Thuis IJsselland of de jeugdbeschermer Spoedhulp IJsselland inzetten, eerst thuis en zo nodig met een crisisbed; bij psychische nood is er de crisisdienst van Dimence.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In IJsselland doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -219,7 +250,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Steenwijkerland: Jeugd",
@@ -330,6 +361,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoop specialistische jeugdhulp",
+        "url": "https://www.rsj-ijsselland.nl/inkoop",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoopdocument Jeugdhulp Voorzieningen versie 1.8",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Inkoopdocument%20versie%201.8_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Jeugdbescherming, voor jeugdigen en ouders",
+        "url": "https://www.rsj-ijsselland.nl/jeugdbescherming/voor-jeugdigen-en-ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang en klachtenregeling van de consulenten niet openbaar gevonden; nieuwste cliëntervaringsonderzoek Jeugd is over 2022. Beschikbaarheidswijzer: gemeentelijst in de regio IJsselland is leeg, dekking niet vast te stellen. Regionale journalistiek nauwelijks doorzocht."

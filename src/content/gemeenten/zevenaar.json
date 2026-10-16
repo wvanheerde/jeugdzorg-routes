@@ -117,25 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij organisaties in de buurt, zonder besluit van de gemeente. Voorbeelden zijn Buurtgezinnen, Humanitas Home-Start en de cursus Grip op ouderschap (4 tot 18 jaar). Specialistische jeugdhulp koopt Zevenaar samen met tien andere gemeenten in via Inkoop sociaal domein Centraal Gelderland. Welke aanbieders een contract hebben, ziet u in de openbare zoektool van de regio. Een openbare lijst met wachttijden is niet te vinden. Vraag de medewerker jeugd om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Voor lichte hulp, zoals Buurtgezinnen, Humanitas Home-Start en de cursus Grip op ouderschap, kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Zevenaar in samen met de tien andere gemeenten in de regio Centraal Gelderland. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij de medewerkers jeugd of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.inkoopsdcg.nl/home%2Binkoop/inkoop/zoektool%2Bgecontracteerd%2Baanbod%2Bsdcg/default.aspx",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Vrijwillige steun van Buurtgezinnen en Humanitas Home-Start, cursussen voor ouders en een praktijkondersteuner jeugd-ggz bij de huisarts.",
+        "omschrijving": "Vrijwillige steun van Buurtgezinnen en Humanitas Home-Start en cursussen voor ouders, zonder aanvraag. Bij bijna alle huisartsen helpt een praktijkondersteuner jeugd-ggz bij lichte psychische klachten en opvoedvragen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking. U komt er via de medewerkers jeugd van de gemeente of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. De aanbieder vraagt de gegevens op bij school en vraagt de vergoeding aan. De gemeente neemt alleen aanvragen in behandeling met een verwijzing van de basisschool.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij groepsbegeleiding of dagbehandeling krijgt uw kind overdag hulp in een groep buiten huis; voor kinderen van 4 tot 12 jaar met extra ondersteuning is er BSO+. Logeren bij een aanbieder geeft u als ouder even rust; de medewerker jeugd bekijkt wat past.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen en woongroepen. Eerst wordt gekeken of opvang in uw eigen netwerk of bij een steungezin van Buurtgezinnen kan.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: hulp aan huis, een crisispleeggezin of een korte opvangplek. In deze regio regelt de Spoedeisende Zorg van Jeugdbescherming Gelderland dit, dag en nacht.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Centraal Gelderland doet Jeugdbescherming Gelderland dit, vanuit Arnhem. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -280,7 +314,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Zevenaar: Jeugdhulp",
@@ -391,6 +425,46 @@
         "titel": "Inkoop sociaal domein Centraal Gelderland: zoektool gecontracteerd aanbod",
         "url": "https://www.inkoopsdcg.nl/home%2Binkoop/inkoop/zoektool%2Bgecontracteerd%2Baanbod%2Bsdcg/default.aspx",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Inkoop SDCG: Toegang tot dyslexiezorg in Centraal Gelderland (versie 24 maart 2026)",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2281111",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Groepsbegeleiding",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2334611",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Behandeling (met BSO+)",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2362658",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Verblijf (pleegzorg, gezinshuizen, logeren, woongroepen)",
+        "url": "https://www.inkoopsdcg.nl/home+inkoop/inkoop/inkoopdocumenten/inkoopdocumenten+verblijf/HandlerDownloadFiles.ashx?idnv=2765659",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Pleegzorg, achtergrond en afspraken in Centraal Gelderland (juli 2024)",
+        "url": "https://www.inkoopsdcg.nl/home+inkoop/inkoop/inkoopdocumenten/inkoopdocumenten+verblijf/HandlerDownloadFiles.ashx?idnv=2893384",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisendezorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact (regio midden, Arnhem)",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen crisispagina voor jeugd; de spoedroute linkt naar de gemeentepagina over huiselijk geweld. Zoektool gecontracteerd aanbod van Inkoop SDCG is openbaar (widget laadt zonder inlog); wachttijden niet gevonden. Geen regionale journalistiek gevonden; monitorcijfers (195 dagen gemiddeld, algemene jeugdaanvragen) niet in de tekst overgenomen vanwege onduidelijke definitie."

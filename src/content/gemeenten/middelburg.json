@@ -135,24 +135,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het sociaal team van Vizita, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Middelburg samen met de andere 12 Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland. Op de site van de inkooporganisatie staat een link naar de Beschikbaarheidswijzer met aanbieders en wachttijden. In 2026 gelden tijdelijke contracten. Nieuwe contracten moeten op 1 januari 2028 ingaan. Vraag TIM welke aanbieders nu een contract hebben.",
+    "samenvatting": "Bij het sociaal team van Vizita kunt u zelf terecht voor advies en lichte hulp, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Middelburg in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning en schoolmaatschappelijk werk",
-        "omschrijving": "Via het sociaal team van Vizita: advies, schoolmaatschappelijk werk, trainingen op school en Integrale Vroeghulp (hulp bij zorgen over de ontwikkeling van een jong kind).",
+        "omschrijving": "Advies, schoolmaatschappelijk werk en trainingen op school bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het sociaal team van Vizita; bij zorgen over de ontwikkeling van een jong kind is er Integrale Vroeghulp.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van TIM of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, verblijf en pleegzorg, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. U komt er via Toegang in Middelburg (TIM) of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, voor kinderen met een beperking of ernstige problemen. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt Toegang in Middelburg (TIM) of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -223,7 +258,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Middelburg: Jeugdhulp",
@@ -263,7 +298,7 @@
       {
         "titel": "Integrale verordening Jeugdhulp en maatschappelijke ondersteuning Middelburg",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR754907",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 Middelburg: programma Sociaal domein",
@@ -324,6 +359,41 @@
         "titel": "CBS StatLine 85097NED (Jeugdhulptrajecten in natura)",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Jeugdhulp Zeeland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen; doorlooptijden en cliëntervaringsonderzoek niet gevonden. PVOW en steunpunt: alleen formulier of website (06-nummer en onduidelijk e-mailadres weggelaten). Dekking Beschikbaarheidswijzer Zeeland niet vast te stellen (gemeentelijst leeg), de inkooporganisatie linkt er zelf naar."

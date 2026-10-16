@@ -130,29 +130,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG-ML, zonder beschikking. Specialistische jeugdhulp koopt Weert samen met Nederweert en Leudal in (regio Midden-Limburg West). Op de pagina van het CJG kunt u de aanbieders met een contract zoeken. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag het CJG welke aanbieders nu plek hebben.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht bij het CJG Midden-Limburg en Punt Welzijn, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Weert in samen met de andere gemeenten in Midden-Limburg. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het CJG of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.cjgml.nl/gespecialiseerde-jeugdhulp/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG-ML: advies, begeleiding, trainingen en groepen, en Integrale Vroeghulp voor kinderen van 0 tot 7 jaar.",
+        "omschrijving": "Advies, begeleiding, trainingen en groepen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG Midden-Limburg en Punt Welzijn; voor kinderen van 0 tot 7 jaar is er Integrale Vroeghulp.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Hulp in de buurt",
-        "omschrijving": "Punt Welzijn biedt lichte ondersteuning en activiteiten voor kinderen, jongeren en ouders, zonder beschikking.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een beschikking van het CJG of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, verblijf en crisishulp, ingekocht door de gemeenten.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school, in de kinderopvang of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. U komt er via het CJG of met een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. De basisschool stelt het vermoeden vast en verwijst door; wil de school dat niet, dan kunt u het aan de gemeente voorleggen.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag of na school in een groep, of logeren (een dagdeel of een nacht) om u als ouder even rust te geven. U komt er via het CJG.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen, kleine woongroepen en training in zelfstandig wonen. U komt er via het CJG.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Noord- en Midden-Limburg doet Crisishulp Jeugd dit dag en nacht, thuis of zo nodig met een tijdelijke opvangplek.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-Limburg doet Bureau Jeugdzorg Limburg dit, vanuit Roermond. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -320,7 +350,7 @@
       {
         "titel": "Verordening Jeugdhulp gemeente Weert 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR747958/1",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Tariefstructuur pgb Jeugdhulp per 1 juli 2026 Midden-Limburg",
@@ -345,7 +375,7 @@
       {
         "titel": "CJG Midden-Limburg: Gespecialiseerde jeugdhulp, pgb en cliëntondersteuning",
         "url": "https://www.cjgml.nl/gespecialiseerde-jeugdhulp/",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Midden-Limburg: Klachten",
@@ -420,6 +450,36 @@
       {
         "titel": "CJG Midden-Limburg – Klachtenreglement",
         "url": "https://www.cjgml.nl/wp-content/uploads/2025/09/CJG-ML-Klachtenreglement-versie-22.08.2025.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Over ons (gezamenlijke inkoop zeven gemeenten)",
+        "url": "https://sociaaldomeinmlo.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Crisis (Crisishulp Jeugd Noord- en Midden-Limburg)",
+        "url": "https://sociaaldomeinmlo.nl/crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Jeugdhulp (overeenkomst ambulante jeugdhulp en wonen per 2026)",
+        "url": "https://sociaaldomeinmlo.nl/jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Producten en productcodes jeugd ambulant en wonen per 1-1-2026",
+        "url": "https://sociaaldomeinmlo.nl/wp-content/uploads/2025/12/Producten-en-productcodes-jeugd-ambulant-en-wonen-Midden-Limburg-per-1-1-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bureau Jeugdzorg Limburg: Over ons",
+        "url": "https://www.bjzlimburg.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

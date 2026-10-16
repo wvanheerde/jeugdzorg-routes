@@ -123,31 +123,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u via het Dorpsteam, op school en bij het consultatiebureau van de GGD voor kinderen tot 4 jaar. Specialistische jeugdhulp koopt Renswoude samen met zes andere gemeenten in via JeugdFV. Een lijst met aanbieders en wachttijden is voor deze regio niet openbaar te vinden. Vraag het Dorpsteam om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Bij het Dorpsteam en het consultatiebureau kunt u zelf terecht, zonder aanvraag. Specialistische jeugdhulp koopt Renswoude in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Dorpsteam of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://jeugdfv.nl/bvo/professionals/productenboek/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Dorpsteam en het consultatiebureau van de GGD: advies, kortdurende ondersteuning en begeleiding bij opvoeden en opgroeien.",
+        "omschrijving": "Advies en korte steun bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het Dorpsteam en bij het consultatiebureau van de GGD regio Utrecht.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding via het Dorpsteam",
-        "omschrijving": "De jeugdhulpspecialisten van het Dorpsteam bieden kortdurende ondersteuning, ook op school.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. De jeugdhulpspecialisten van het Dorpsteam helpen eerst zelf, ook op school, en regelen zo nodig meer; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, jeugd-ggz, dagbehandeling en verblijf. De regio JeugdFV koopt deze hulp in.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. De school vraagt het samen met u aan bij de gemeente; een dyslexiespecialist beoordeelt of het nodig is.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en logeeropvang om u als ouder te ontlasten. U vraagt het aan via het Dorpsteam.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Dorpsteam regelt dan via het Crisis Coördinatiepunt van Veilig Thuis Utrecht spoedhulp thuis of een crisisplek; bij acute psychische nood schakelt de huisarts de crisisdienst van Pro Persona in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Renswoude doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -202,7 +230,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Renswoude: Jeugdhulp",
@@ -277,7 +305,7 @@
       {
         "titel": "JeugdFV: Productenboek gecontracteerde aanbieders",
         "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 gemeente Renswoude",
@@ -308,9 +336,44 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Utrecht (Veenendaal, Rhenen, Renswoude)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_utrecht_.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Renswoude: Ernstige dyslexie",
+        "url": "https://www.renswoude.nl/ernstige-dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Begroting 2027 nog niet gevonden; doorlooptijden toegang en aparte klachtenregeling jeugd niet gevonden. Contactgegevens samenwerkingsverband VO Gelderse Vallei (Ede) ontbreken; regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+    "opmerkingen": "Begroting 2027 nog niet gevonden; doorlooptijden toegang en aparte klachtenregeling jeugd niet gevonden. Contactgegevens samenwerkingsverband VO Gelderse Vallei (Ede) ontbreken; regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "ervaringen": {
     "samenvatting": "Renswoude is een kleine gemeente met weinig jeugdhulptrajecten per jaar. In het laatste cliëntervaringsonderzoek, over 2023, gaven ouders het Dorpsteam een 8,1 en jongeren een 7,4, maar slechts 14 ouders deden mee. Zij noemden de wachttijd en wisselende contactpersonen als verbeterpunt. Over 2025 is geen onderzoek gedaan, en cijfers over wachttijden zijn niet openbaar te vinden.\n\nBegin bij het Dorpsteam, vraag bij uw melding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een gratis cliëntondersteuner van MEE Dichtbij mee. Bent u het oneens met het plan van het Dorpsteam, vraag dan een second opinion. Een klacht over het Dorpsteam dient u in bij de gemeente.",

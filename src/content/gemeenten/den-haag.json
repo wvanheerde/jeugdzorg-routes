@@ -151,40 +151,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Sinds 1 januari 2024 verzorgen twee samenwerkingsverbanden alle jeugdhulp in Den Haag: Kracht in Escamp, Loosduinen, Segbroek en Scheveningen, en rondomJou in Centrum, Haagse Hout, Laak en Leidschenveen-Ypenburg. Zij bieden zelf basishulp en zetten specialistische hulp in bij onderaannemers. De Beschikbaarheidswijzer toont per hulpvraag de gecontracteerde aanbieders en de actuele wachttijd, maar is in deze regio alleen toegankelijk voor verwijzers; vraag Kracht, rondomJou of uw huisarts om er samen in te kijken.",
+    "samenvatting": "Bij het CJG Den Haag en Servicepunt XL kunt u zelf terecht, zonder aanvraag. Kracht of rondomJou geeft zelf begeleiding; specialistische jeugdhulp koopt Den Haag in via het Servicebureau Jeugdhulp Haaglanden.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/kracht-den-haag",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Laagdrempelig via Kracht of rondomJou, zonder beschikking.",
+        "omschrijving": "Advies, cursussen en hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het CJG Den Haag, Kracht of rondomJou, en in de buurt bij Servicepunt XL of het opvoedcafé van De Mussen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging zoals hulp bij wassen en aankleden. Kracht of rondomJou helpt eerst zelf en zet zo nodig specialistische hulp in; u kunt ook via de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van Kracht, rondomJou, de huisarts, jeugdarts of medisch specialist.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Het loopt via school: die verwijst en levert het leerlingdossier aan, dus vraag eerst de school of zij ernstige dyslexie vermoeden.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, ook op school of in plaats van school, voor kinderen met een beperking of ernstige problemen. Respijtzorg, zoals logeren in een huiselijke omgeving, ontlast u als ouder.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Haaglanden is er pleegzorg, ook in deeltijd, en er zijn gezinshuizen, behandelgroepen en kamertraining om zelfstandig te leren wonen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Haaglanden komt het Crisis Interventie Team van Jeugdbescherming west dag en nacht; zo nodig volgt een crisisplek of crisispleegzorg.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Haaglanden doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -390,7 +409,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "CJG Den Haag – Homepage",
@@ -586,6 +605,36 @@
         "titel": "SWV VO Zuid-Holland West – Contact",
         "url": "https://www.swvzhw.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productbeschrijvingen 2026 (H1, Den Haag)",
+        "url": "https://sbjh.nl/wp-content/uploads/2026/07/ROH1-B5-Productbeschrijvingen-V6-20260716-20260701.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productencatalogus (aanbieders en gecertificeerde instellingen)",
+        "url": "https://sbjh.nl/gemeente/productencatalogus/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Crisis Interventie Team",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Verordening jeugdhulp Den Haag 2024",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR714959/3",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Toegang sinds 2024 via Kracht en rondomJou (postcodecheck), niet meer via CJG. Nog open: cliëntervaringsonderzoek Jeugd 2023-2025 en doorlooptijden niet gevonden (raadsinformatiesysteem alleen met JavaScript doorzoekbaar); Home-Start Den Haag niet bevestigd."

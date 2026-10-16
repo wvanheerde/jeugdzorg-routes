@@ -120,50 +120,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit via het CJG, het jongerenwerk, de praktijkondersteuner jeugd-ggz bij de huisarts en activiteiten zoals cursussen en groepen. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Meierijstad koopt specialistische jeugdhulp in met andere gemeenten in regio Noordoost-Brabant, via de Regionale Inkooporganisatie Zorg (RIOZ). Op de Zorgkaart van RIOZ ziet u welke aanbieders een contract hebben. Vraag de aanbieder of het CJG hoe lang de wachttijd is.",
-    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/zorgkaart",
+    "samenvatting": "Voor advies, cursussen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG, het jongerenwerk en de praktijkondersteuner jeugd-ggz bij de huisarts. Specialistische jeugdhulp koopt Meierijstad in met de andere gemeenten in Noordoost-Brabant, via de inkooporganisatie RIOZ. In het overzicht van RIOZ geven aanbieders zelf een geschatte wachttijd op; vraag het CJG wat dat voor uw kind betekent.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/contractenboek",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via het CJG: advies, cursussen en trainingen, CJG op school, het Adviespunt Kind en Scheiding en Steunouder. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, cursussen en trainingen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG, ook op school, en bij het Adviespunt Kind en Scheiding.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en daghulp",
-        "omschrijving": "Begeleiding thuis en daghulp, in lichte en specialistische vorm. Via een besluit van de gemeente of een verwijzing.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie, intensieve hulp thuis en persoonlijke verzorging als de zorgverzekering die niet betaalt. U komt er via het CJG of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Basis-ggz en specialistische ggz, via de gemeente of via een verwijzing van huisarts, jeugdarts of medisch specialist.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Behandeling van ernstige dyslexie via een besluit van de gemeente.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen, als de hulp start vóór hun dertiende. U vraagt het samen met school aan bij het dyslexieteam van het samenwerkingsverband (PO 30 06, of PO De Meierij voor scholen in Schijndel); na een besluit van de gemeente kiest u zelf een aanbieder met contract.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg en respijtzorg",
-        "omschrijving": "Pleegzorg, logeren en respijt (even op adem komen). Steunouder via het CJG.",
+        "naam": "Daghulp, respijtzorg en logeren",
+        "omschrijving": "Bij daghulp werkt uw kind in een groep aan vaardigheden en structuur. Respijtzorg, overdag of met logeren, ontlast u als ouder; eerst wordt gekeken of gewone opvang, uw eigen omgeving of een steunouder via het CJG kan helpen.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In de regio zijn er pleeggezinnen (ook voor het weekend), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis start de hulp zo snel mogelijk. De gemeente legt het besluit binnen vier weken na de start vast.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, een crisispleeggezin of een korte opvangplek. Spoedeisende Zorg van Jeugdbescherming Brabant beoordeelt dag en nacht of dat nodig is; bij een psychische crisis helpt de crisisdienst van de ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noordoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -338,7 +347,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Meierijstad - Jeugdhulp",
@@ -413,7 +422,7 @@
       {
         "titel": "RIOZ - Specialistische jeugdhulp regio Noordoost-Brabant",
         "url": "https://www.rioz.nl/jeugd",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "RIOZ - Zorgkaart jeugd",
@@ -428,7 +437,7 @@
       {
         "titel": "RIOZ - Veelgestelde vragen jeugd",
         "url": "https://www.rioz.nl/jeugd/veelgestelde-vragen",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "RIOZ - Bij gemeente Meierijstad geen berichtenverkeer mogelijk",
@@ -499,6 +508,41 @@
         "titel": "Ouder- en jeugdsteunpunt De Meierij - Contact",
         "url": "https://www.ouderjeugdsteunpuntdemeierij.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RIOZ: Contractenboek jeugd (producten en geschatte wachttijden per aanbieder)",
+        "url": "https://www.rioz.nl/jeugd/contractenboek",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Productenboek jeugd (versie juni 2026)",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Bijlage%202%20-%20Productenboek%202023%20versie%20juni%202026%201.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO 30 06: Dyslexie (dyslexieteam)",
+        "url": "https://swvpo3006.nl/aanbod-expertise/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO De Meierij: Dyslexieteam",
+        "url": "https://www.demeierij-po.nl/voor-scholen/dyslexieteam/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO 30 06 – werkgebied (Oss, Meierijstad, Bernheze en Maashorst)",
+        "url": "https://swvpo3006.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek Jeugd (nieuwste gevonden: regio 2019) en gemeten doorlooptijden niet gevonden; IGJ-, rekenkamer- en ombudsmanrapporten over de Toegang niet gevonden. Klachtenregeling van het CJG niet online; Sint-Oedenrode-cliëntondersteuner niet overgenomen. Regionale journalistiek beperkt doorzocht."

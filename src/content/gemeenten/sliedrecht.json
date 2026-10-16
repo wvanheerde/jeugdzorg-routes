@@ -118,30 +118,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Het Bonkelaarhuis, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Sliedrecht samen met negen andere gemeenten in, via de Serviceorganisatie Jeugd Zuid-Holland Zuid. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. U kunt daar zelf kijken, zonder inloggen.",
+    "samenvatting": "Bij Het Bonkelaarhuis kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Sliedrecht in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Het Bonkelaarhuis: advies en gesprekken, gratis trainingen en online trainingen voor ouders en jongeren, en gezinsmaatjes (vrijwilligers) van Home-Start. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Advies, gesprekken en gratis trainingen voor ouders en jongeren, ook online. U kunt zelf terecht, zonder aanvraag, bij Het Bonkelaarhuis; Home-Start koppelt u aan een gezinsmaatje.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Kortdurende hulp via school, voor het kind, de ouders en de leerkracht. Er zijn ook trainingen voor kinderen van groep 5 tot en met 8.",
+        "omschrijving": "Korte hulp via school voor het kind, de ouders en de leerkracht, ook met trainingen voor groep 5 tot en met 8.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Regionaal ingekocht, na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (bij u thuis of op een praktijk), behandeling, jeugd-ggz en verblijf.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via Het Bonkelaarhuis of met een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; aanvragen kan vanaf midden groep 4. School vraagt het met uw toestemming aan bij de poortwachter van samenwerkingsverband Drechtsteden; daarna kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -205,6 +239,11 @@
       "nodig": "Het ingevulde formulier; mail het naar het Bonkelaarhuis of geef het af op Bonkelaarplein 7"
     },
     {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
+      "omschrijving": "Openbaar, zonder inloggen."
+    },
+    {
       "naam": "Klacht indienen over Het Bonkelaarhuis",
       "url": "https://bonkelaarhuis.nl/contact/klachtenregeling/",
       "nodig": "Beschrijf de klacht met datum en betrokkenen"
@@ -215,7 +254,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Het Bonkelaarhuis: Aanmelden",
@@ -341,9 +380,44 @@
         "titel": "Gemeente Sliedrecht: Bezwaarschrift indienen",
         "url": "https://www.sliedrecht.nl/Contact_met_de_gemeente/Meldingen/Bezwaarschrift_indienen",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis ZHZ: Crisisinterventieteam Zuid-Holland Zuid",
+        "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Drechtsteden: Handleiding Ernstige Dyslexie PO per 01-08-2026",
+        "url": "https://www.swvdrechtsteden.nl/system/files/handleiding-ernstige-dyslexie-po-per-01-08-2026-versie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Drechtsteden: aangesloten scholen",
+        "url": "https://www.swvdrechtsteden.nl/voor-ouders/scholen",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 niet openbaar (login) en raadsstukken op raad.sliedrecht.nl achter bot-controle, dus niet gelezen. Cijfers CEO-rapport ZHZ niet gevonden. Regionale journalistiek beperkt doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Programmabegroting 2027 niet openbaar (login) en raadsstukken op raad.sliedrecht.nl achter bot-controle, dus niet gelezen. Cijfers CEO-rapport ZHZ niet gevonden. Regionale journalistiek beperkt doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexie: route uit de handleiding van SWV Drechtsteden per 1-8-2026; dat de basisscholen in Sliedrecht onder SWV Drechtsteden vallen, blijkt uit de scholenlijst van het SWV (de handleiding noemt geen gemeenten)."
   },
   "ervaringen": {
     "samenvatting": "Sliedrecht wil hulp dichtbij en vroeg bieden, via Het Bonkelaarhuis. Bezoekers gaven Het Bonkelaarhuis in 2025 gemiddeld een 8,6, maar dat onderzoek gaat over alle bezoekers, niet alleen over jeugd. De gemeente heeft de regels aangescherpt: zij kijkt eerst naar wat gezin en netwerk zelf kunnen. Gemeten wachttijden voor jeugdhulp zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is Het Bonkelaarhuis. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een gratis onafhankelijke cliëntondersteuner mee, zeker als het gesprek over uw eigen netwerk gaat. Een klacht over Het Bonkelaarhuis gaat naar de klachtenfunctionaris en daarna naar de klachtencommissie.",

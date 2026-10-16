@@ -135,54 +135,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp, gesprekken, trainingen en groepsbegeleiding via Wijkteams Enschede zonder beschikking; met Hulp om de Hoek bieden de wijkteams ook ambulante begeleiding bij opvoeding, dagstructuur en geldzaken steeds vaker zelf. Specialistische jeugdhulp wordt voor de veertien Twentse gemeenten (Samen14) ingekocht door OZJT, onderdeel van SamenTwente, volgens het Twents Model: de aanbieder wordt gekozen op het resultaat dat u met uw gezin wilt bereiken. De regio Twente is aangesloten op de Beschikbaarheidswijzer, maar die is alleen toegankelijk voor verwijzers; bekijk hem samen met uw wijkteammedewerker of huisarts.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de Wijkwijzer en de wijkteams. Specialistische jeugdhulp koopt Enschede in samen met de andere Twentse gemeenten. Uw verwijzer helpt u vaak bij het kiezen van een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via de wijkteams, de Wijkwijzers (opvoedspreekuren van welzijnsorganisatie Alifa) en de jeugdgezondheidszorg van GGD Twente, zonder beschikking. Voor kinderen van 0 tot 7 jaar biedt MEE Samen Integrale Vroeghulp.",
+        "omschrijving": "Opvoedspreekuren, gesprekken en trainingen bij de Wijkwijzers, de wijkteams en de jeugdgezondheidszorg van GGD Twente, zonder aanvraag. Voor kinderen tot 7 jaar met zorgen over hun ontwikkeling is er Integrale Vroeghulp van MEE Samen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Lichte begeleiding door het wijkteam zelf (Hulp om de Hoek); intensievere begeleiding via gecontracteerde aanbieders met beschikking.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen; lichtere begeleiding bij opvoeding en dagstructuur geeft het wijkteam vaak zelf (Hulp om de Hoek). Voor andere hulp verwijst het wijkteam, de huisarts of de GGD-arts u naar een aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van het wijkteam of een arts.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
-        "omschrijving": "De gemeente wil kinderen zoveel mogelijk thuis laten opgroeien, zodat minder kinderen buiten het gezin hoeven te wonen (strategienota Onze Jeugd Onze Zorg).",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -342,12 +347,12 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Enschede – Jeugdhulp",
         "url": "https://www.enschede.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Wijkteams Enschede – Contact",
@@ -468,6 +473,31 @@
         "titel": "SWV VO Twente Oost: Contact",
         "url": "https://www.swvvotwenteoost.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Samen14: Inkoop 2025 (jeugdhulp Twente)",
+        "url": "https://samen14.nl/inkoop/default.aspx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: informatieblad Jeugd bij het cliëntervaringsonderzoek 2024 (rapportcijfer, respons) en de voortgangsrapportage Onze Jeugd Onze Zorg 2025 waren niet machinaal leesbaar; geen doorlooptijden wijkteam gevonden. Het aantal van negen wijkteams is niet op wijkteamsenschede.nl bevestigd."

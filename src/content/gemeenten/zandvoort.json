@@ -139,32 +139,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG, zonder besluit. Specialistische jeugdhulp koopt Zandvoort in met zes andere gemeenten in de jeugdhulpregio Zuid-Kennemerland en IJmond (ZKIJ). Een lijst van aanbieders met wachttijden is voor deze regio niet openbaar te vinden. De regio doet niet mee aan de Beschikbaarheidswijzer. Vraag de CJG-coach om een overzicht en om hulp bij het kiezen. Is er een wachttijd, vraag dan wat het CJG in de tussentijd kan doen.",
+    "samenvatting": "Bij het CJG Kennemerland kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Zandvoort in samen met de andere gemeenten van de regio Zuid-Kennemerland en IJmond. Vraag de CJG-coach naar de wachttijd; wie wacht op specialistische hulp, kan steun krijgen van een gezinsregisseur van Pluspunt.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: informatie en advies, gezins- en jongerencoaching en cursussen. Vrij toegankelijk, zonder besluit.",
+        "omschrijving": "Advies, gezins- en jongerencoaching en cursussen bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het CJG en bij de CJG-coach op elke school in Zandvoort.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Hulp op school",
-        "omschrijving": "CJG-coaches op alle scholen in Zandvoort, voor advies en lichte hulp.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het CJG of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht. Ernstige dyslexiezorg loopt via school, voor kinderen van 7 tot 13 jaar.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, in een groep of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het CJG of een verwijzing van de huisarts, jeugdarts of medisch specialist; is er hulp op meerdere gebieden nodig, dan komt die van één samenwerkingsverband van aanbieders, met één intake en één dossier. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Eerst geeft de school extra leesbegeleiding; daarna meldt de school aan, meestal via één aanmeldloket van samenwerkende dyslexieaanbieders.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding is begeleiding overdag in een groep; bij logeren (kort verblijf) verblijft uw kind af en toe ergens anders, zodat u even op adem kunt komen. Het CJG helpt bij de aanvraag, in natura of met een pgb (persoonsgebonden budget).",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, gezinshuizen en woongroepen, en voor oudere jongeren kamertraining.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten, thuis of met een tijdelijke crisisplek. Buiten de openingstijden van het CJG zet de Integrale Crisisdienst (ICD) van Veilig Thuis Kennemerland dag en nacht hulp in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Kennemerland en IJmond doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
-    ]
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpzkij.nl/verwerving-jeugdhulp"
   },
   "cjg": {
     "soort": "wijkteam"
@@ -217,7 +247,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Zandvoort: Jeugd en jeugdhulp",
@@ -242,7 +272,7 @@
       {
         "titel": "CJG Kennemerland: Contact",
         "url": "https://cjgkennemerland.nl/contact/",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Kennemerland: Klachtenprocedure",
@@ -338,9 +368,39 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "CJG Kennemerland: Beschermingstafel (organisaties voor jeugdbescherming)",
+        "url": "https://cjgkennemerland.nl/beschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Kennemerland: Zorgintensief & passende hulp",
+        "url": "https://cjgkennemerland.nl/zorgintensief-passende-hulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samenwerkingsverband Passend Onderwijs Zuid-Kennemerland: Hoe werkt het aanvragen van een dyslexieonderzoek?",
+        "url": "https://samenwerkingsverbandpo-zk.nl/kennisbank/protocol-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO Zuid-Kennemerland: Dyslexiezorg in Zuid-Kennemerland, update juni 2026",
+        "url": "https://wp-samenwerkingsverband.s3.eu-central-1.amazonaws.com/2026/06/Brief-dyslexiezorg-update-juni-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Geen cliëntervaringsonderzoek jeugd (alleen Wmo) en geen doorlooptijden gevonden; inspectie, rekenkamer en regionale journalistiek niet doorzocht. Klachtenregeling CJG alleen via de website van het CJG. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Geen cliëntervaringsonderzoek jeugd (alleen Wmo) en geen doorlooptijden gevonden; inspectie, rekenkamer en regionale journalistiek niet doorzocht. Klachtenregeling CJG alleen via de website van het CJG. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Crisisdienst (16-10-2026): CJG Kennemerland noemt buiten openingstijden de Integrale Crisisdienst (ICD, 088-8006201, 24/7). De crisispagina van Serviceplein Heemskerk noemt Parnassia als crisisdienst voor Midden-Kennemerland en Zaanstreek/Waterland. Raadsstukken uit 2021 (alleen als zoekfragment, pdf geblokkeerd) melden dat het ICD-mandaat overging naar een crisisfunctie bij Veilig Thuis Kennemerland, met ggz-crisis bij GGZ inGeest (Zuid-Kennemerland). Wie nu achter het ICD-nummer zit, is niet bevestigd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron. ICD wordt uitgevoerd door Veilig Thuis Kennemerland (bevestigd door redactie 16-10-2026)."
   },
   "jeugdzorgregio": "Zuid-Kennemerland en IJmond",
   "ervaringen": {

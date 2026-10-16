@@ -117,43 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, via Samen055, het CJG, vrijwilligersorganisaties en de praktijkondersteuner jeugd bij de huisarts. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Denk aan intensieve begeleiding thuis, jeugd-ggz, pleegzorg en verblijf. Apeldoorn koopt specialistische jeugdhulp in met Brummen, Epe, Hattem, Heerde, Lochem, Voorst en Zutphen, via ZorgRegio Midden-IJssel/Oost-Veluwe. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Samen055, het CJG (Centrum voor Jeugd en Gezin) en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Apeldoorn in samen met de andere gemeenten van de Zorgregio Midden-IJssel/Oost-Veluwe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via Samen055, het CJG, de Buurtwijzer en de praktijkondersteuner jeugd bij de huisarts. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, gesprekken en groepsactiviteiten voor ouders bij Samen055, het CJG en de praktijkondersteuner jeugd, zonder aanvraag. Op de Buurtwijzer van Samen055 vindt u steun en vrijwilligers in uw buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Tijdelijke begeleiding thuis krijgt u zonder besluit. Voor intensievere begeleiding is een besluit van de gemeente of een verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, via Samen055 of een verwijzing van huisarts, jeugdarts of medisch specialist. Lichte, tijdelijke begeleiding thuis krijgt u zonder aanvraag. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via het wijkteam of via een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen, na extra hulp op school. School stuurt het leesdossier naar Samen055. Daarna beoordeelt een dyslexiepraktijk met een contract of uw kind in aanmerking komt.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Steungezinnen, pleegzorg en gezinshuizen",
-        "omschrijving": "Steungezin via Humanitas, pleegzorg via het CJG.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding in een groep buiten schooltijd, en logeren bij een aanbieder, in een logeergezin of thuis, zodat u als ouder even rust heeft. Een vrijwillig steungezin van Humanitas (InHuis) kan uw kind ook een dagdeel per week of per twee weken opvangen.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd), gezinshuizen, woongroepen en begeleid zelfstandig wonen voor oudere jongeren.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis start de hulp zo snel mogelijk. Het besluit volgt binnen 4 weken.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig of vol te houden is: crisisbegeleiding thuis of een korte opvangplek. Dag en nacht helpt de Spoedeisende Zorg van Jeugdbescherming Gelderland, die bij een crisis binnen drie uur bij het gezin kan zijn.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-IJssel/Oost-Veluwe doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -352,7 +368,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Apeldoorn - Jeugdhulp in Apeldoorn",
@@ -558,6 +574,41 @@
         "titel": "SWV VO 2505: Contact",
         "url": "https://www.swv-vo-2505.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Over ons (deelnemende gemeenten)",
+        "url": "https://zorgregiomijov.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Zorgproductenboek Jeugdhulp 2026",
+        "url": "https://zorgregiomijov.nl/images/Zorgproductenboek_Jeugdhulp_definitief_incl._tarievenblad_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Instructie werkwijze bij ernstige dyslexie",
+        "url": "https://zorgregiomijov.nl/images/Instructie_Werkwijze_bij_ED.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Overeenkomst GI's, Productenboek 2026",
+        "url": "https://zorgregiomijov.nl/images/Productenboek_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden van Samen055 niet gevonden (raadsinformatiesysteem niet doorzocht); geen IGJ-rapport over Samen055. Evaluatie Samen055 en uitkomsten projectorganisatie Jeugd nog niet gepubliceerd. Telefoonnummer CJG en aparte pgb-aanvraagpagina niet gevonden."

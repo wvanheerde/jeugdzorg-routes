@@ -122,36 +122,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Gebiedsteam, de jeugdgezondheidszorg en het schoolmaatschappelijk werk, zonder besluit van de gemeente. Voor specialistische hulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Die hulp koopt Harlingen in met de andere Friese gemeenten, via Sociaal Domein Fryslân. In de Beschikbaarheidswijzer ziet u welke aanbieders in Friesland werken en hoe lang de wachttijden zijn; die is openbaar, zonder inloggen. Vanaf 2028 wil de regio de hulp opnieuw inkopen.",
+    "samenvatting": "Bij opvoedvragen en lichte zorgen kunt u zelf terecht bij het Gebiedsteam, zonder aanvraag. Specialistische jeugdhulp koopt Harlingen samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Gebiedsteam, de jeugdgezondheidszorg van de GGD Fryslân en vrijwilligers zoals Buurtgezinnen. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Advies en korte hulp bij vragen over opvoeden en opgroeien, van het Gebiedsteam en de jeugdgezondheidszorg van GGD Fryslân. Bij Buurtgezinnen helpt een steungezin in de buurt mee.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Contactpersonen en schoolmaatschappelijk werk",
-        "omschrijving": "Het Gebiedsteam heeft contactpersonen op de scholen. De gemeente wil school en zorg beter laten samenwerken, onder meer via schoolmaatschappelijk werk.",
+        "naam": "Hulp op school",
+        "omschrijving": "Het Gebiedsteam heeft contactpersonen op de scholen in Harlingen. Zij helpen zonder dat u eerst een aanvraag doet.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Gebiedsteam of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dyslexiezorg, pleegzorg en verblijf. Regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het Gebiedsteam of met een verwijzing van de huisarts, jeugdarts of medisch specialist. Het hele gezin krijgt één plan en één vaste regisseur. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. School meldt uw kind aan, met uw toestemming. U kiest zelf een van de aanbieders met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via het Gebiedsteam of de huisarts.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via het Gebiedsteam of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Spoedeisende jeugdhulp voor kinderen van 0 tot en met 17 jaar is in Friesland regionaal geregeld. Het Gebiedsteam hoort daarna dat uw kind deze hulp kreeg.",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -322,6 +350,41 @@
       {
         "titel": "Thuis in Cliëntondersteuning: contact",
         "url": "https://www.thuisinclientondersteuning.nl/contact-met-thuisinclientondersteuning/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

@@ -134,30 +134,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij De Boei: advies, trainingen zoals Triple P (positief opvoeden), groepen en jongerenwerk. Het Sociaal Team geeft zelf begeleiding en trainingen. Specialistische jeugdhulp koopt Bunschoten samen met zes andere gemeenten in de regio Amersfoort in. Sinds 2024 levert vooral MetMaya die hulp. Deze regio staat niet op de Beschikbaarheidswijzer. Wachttijden voor specialistische hulp zijn volgens de gemeente een aandachtspunt, maar een lijst met wachttijden voor Bunschoten is niet openbaar te vinden. Vraag het Sociaal Team of een gedragsdeskundige naar de actuele wachttijden.",
-    "gecontracteerdeAanbiedersUrl": "https://www.hulpenondersteuningregioamersfoort.nl/",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht bij De Boei en het Sociaal Team De Lingt, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Bunschoten in met de andere gemeenten van de regio Amersfoort; bijna alles komt van één aanbieder, MetMaya. Een overzicht van wachttijden is niet openbaar te vinden: vraag het Sociaal Team naar de wachttijd voor uw kind.",
+    "gecontracteerdeAanbiedersUrl": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via De Boei en het Sociaal Team: advies, Triple P-oudertrainingen, groepen voor kinderen en jongeren en Samen op de Bank op basisscholen.",
+        "omschrijving": "Advies, Triple P-oudertrainingen en groepen voor kinderen en jongeren. U kunt zelf terecht bij De Boei en het Sociaal Team, zonder aanvraag; op drie basisscholen zit De Boei met Samen op de Bank.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Gedragsdeskundigen van de gemeente",
-        "omschrijving": "Korte hulp bij angst, somberheid, gedragsproblemen of onzekerheid, en hulp bij de keuze voor vervolghulp. Via een verwijzing van de huisarts of jeugdarts, of via aanmelding bij de gemeente.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na aanmelding door het Sociaal Team of verwijzing van de huisarts of jeugdarts: begeleiding, behandeling, jeugd-ggz en pleegzorg, vooral via MetMaya.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Sociaal Team begeleidt zelf, en gedragsdeskundigen van de gemeente helpen kort bij angst, somberheid of gedrag. Is meer nodig, dan geeft MetMaya de hulp vanuit een team in uw gemeente, na verwijzing door het Sociaal Team, de huisarts of de jeugdarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 12 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Vermoedt school ernstige dyslexie, dan meldt u uw kind zelf aan bij de poortwachter dyslexie van Samenwerkingsverband de Eem; daar staat ook de lijst met aanbieders.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagactiviteiten is uw kind buiten schooltijd in een groep bezig; logeren ontlast u als ouder. Logeren regelt MetMaya, dagactiviteiten komen van andere aanbieders: vraag het Sociaal Team wat past.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. MetMaya regelt in deze regio pleegzorg, gezinshuizen en verblijf, ook met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Bij een psychische crisis schakelt de huisarts de crisisdienst van GGz Centraal in; het Sociaal Team kan via het Crisis Coördinatiepunt een crisisplek of crisishulp thuis regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Amersfoort doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -298,7 +327,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Bunschoten: Jeugdhulp",
@@ -394,6 +423,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Eén aanbieder voor bijna alle specialistische jeugdhulp: MetMaya",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Jeugdhulp vanuit MetMaya teams",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/jeugdhulp-vanuit-metmaya-teams",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Verwijzing bij crisis",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/verwijzing-bij-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Dyslexie, Bouw! en Poortwachter",
+        "url": "https://www.swvdeeem.nl/samen-leren/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Poortwachter Dyslexie regio Amersfoort",
+        "url": "https://dyslexie.swvdeeem.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland (SAVE Jeugdbescherming)",
+        "url": "https://www.samenveiligmiddennederland.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Rekenkamerrapport jeugdzorg (verschijnt 2026) nog niet gelezen; cliëntervaringsonderzoek, doorlooptijden toegang en klachtenregeling Eemkracht niet gevonden. Regionale journalistiek nauwelijks doorzocht (WebSearch-limiet). Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Spoedroute verwijst naar Gemeente Bunschoten: Sociaal Team De Lingt (acute hulp bij huiselijk geweld of kindermishandeling)."

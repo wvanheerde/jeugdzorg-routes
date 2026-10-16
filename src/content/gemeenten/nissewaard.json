@@ -127,47 +127,69 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, via Thuis in Nissewaard, het CJG Rijnmond, het schoolmaatschappelijk werk en de praktijkondersteuner jeugd bij de huisarts. Voor individuele jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Specialistische jeugdhulp koopt Nissewaard in met twaalf andere gemeenten, via Jeugdhulp Rijnmond. Nissewaard en Voorne aan Zee kopen daarnaast samen daginvulling jeugd in. Welke aanbieders een contract hebben, ziet u in het verwijzingsfilter van Jeugdhulp Rijnmond. Een openbaar overzicht van wachttijden per aanbieder voor Nissewaard is niet te vinden. Vraag Team Jeugd of de aanbieder hoe lang het wachten is.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij Thuis in Nissewaard, het CJG Rijnmond, het schoolmaatschappelijk werk en de praktijkondersteuner jeugd bij de huisarts, zonder aanvraag. Specialistische jeugdhulp koopt Nissewaard in met twaalf andere gemeenten in de regio Rijnmond. Vraag Team Jeugd of de aanbieder hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en jeugdgezondheidszorg",
-        "omschrijving": "Via het CJG Rijnmond en Thuis in Nissewaard, gratis en zonder besluit van de gemeente. Het CJG heeft inloopspreekuren.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, cursussen en jeugdgezondheidszorg, ook op een inloopspreekuur. U kunt zelf terecht bij het CJG Rijnmond en Thuis in Nissewaard, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en lokale jeugdhulp",
-        "omschrijving": "Basis-jeugdhulp en schoolmaatschappelijk werk, gesubsidieerd door de gemeente. Voor individuele begeleiding bekijkt Team Jeugd eerst wat u en uw netwerk zelf kunnen.",
+        "naam": "Begeleiding",
+        "omschrijving": "Basishulp en schoolmaatschappelijk werk krijgt u zonder aanvraag. Voor individuele begeleiding bekijkt Team Jeugd eerst wat u en de mensen om u heen zelf kunnen.",
         "hulpsoorten": [
           "ambulante-begeleiding"
         ]
       },
       {
         "naam": "Jeugd-ggz",
-        "omschrijving": "Via de praktijkondersteuner jeugd bij de huisarts, Team Jeugd of een verwijzing van huisarts of jeugdarts. Specialistische ggz wordt regionaal ingekocht.",
+        "omschrijving": "Onderzoek en behandeling bij psychische problemen. U komt er via de praktijkondersteuner jeugd bij de huisarts, Team Jeugd of een verwijzing van huisarts of jeugdarts.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met ernstige dyslexie, als hulp op school niet genoeg is. De intern begeleider meldt uw kind in overleg met u aan, vanaf halverwege groep 4, en u kiest zelf de aanbieder.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
         "naam": "Daginvulling jeugd",
-        "omschrijving": "Dagbehandeling voor kinderen met een ontwikkelingsachterstand, ingekocht door Nissewaard samen met Voorne aan Zee.",
+        "omschrijving": "Dagbehandeling in een groep voor kinderen met een ontwikkelingsachterstand. Nissewaard koopt dit samen met Voorne aan Zee in.",
         "hulpsoorten": [
           "dagbesteding"
         ]
       },
       {
+        "naam": "Logeren en verzorging",
+        "omschrijving": "Logeren in een huiselijke omgeving, om u als ouder te ontlasten of uw kind even een time-out te geven, en hulp bij de persoonlijke verzorging. U vraagt dit aan bij Team Jeugd.",
+        "hulpsoorten": [
+          "logeren-respijt",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via Team Jeugd; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis neemt Veilig Thuis Rotterdam-Rijnmond meldingen over onveiligheid dezelfde dag op.",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
         "naam": "Jeugdbescherming",
-        "omschrijving": "Het Jeugdbeschermingsplein bespreekt meldingen als de zorgen over veiligheid of ontwikkeling groot zijn. Ouders en jongeren vanaf 16 jaar mogen meepraten.",
+        "omschrijving": "Zijn de zorgen over de veiligheid of ontwikkeling van een kind groot, dan bespreekt het Jeugdbeschermingsplein welke aanpak nodig is. Ouders en jongeren vanaf 16 jaar praten mee. Na een maatregel van de kinderrechter begeleidt meestal Jeugdbescherming Rotterdam Rijnmond het gezin, soms de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -375,7 +397,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Nissewaard - Jeugdhulp",
@@ -551,6 +573,31 @@
         "titel": "Onderwijscollectief VPR: Steunpunt",
         "url": "https://www.onderwijscollectiefvpr.nl/steunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Nissewaard: Stappenplan vergoede dyslexiezorg Voorne-Putten (aanbesteding Dyslexiezorg, 2022)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/278553/documenten/8235193/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen; Perspectiefnota 2027 (juli 2026) is gebruikt. Cliëntervaringsonderzoek Jeugd, gemeten doorlooptijden en een eigen klachtenregeling van Team Jeugd niet gevonden. Volgens het onderzoek heeft de Beschikbaarheidswijzer geen pagina voor Nissewaard of regio Rijnmond, maar de bronnen noemen wel /jeugdhulp/voorne-aan-zee: nakijken. Contactgegevens Kindteam Stichting PUSH niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

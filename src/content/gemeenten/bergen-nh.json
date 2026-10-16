@@ -113,30 +113,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u van een jeugd- en gezinscoach van het Sociaal Team, gratis en zonder besluit van de gemeente. Specialistische jeugdhulp kopen Bergen, Alkmaar, Dijk en Waard, Castricum, Heiloo en Uitgeest samen in. Dat gebeurt sinds 1 januari 2026 via een gezamenlijke inkooporganisatie, de GISD Regio Alkmaar. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang het wachten is.",
+    "samenvatting": "Bij het Sociaal Team kunt u zelf terecht, zonder aanvraag, voor gratis hulp van een jeugd- en gezinscoach. Specialistische jeugdhulp koopt Bergen in samen met Alkmaar, Castricum, Dijk en Waard, Heiloo en Uitgeest (regio Alkmaar).",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/regio-alkmaar",
     "categorieen": [
       {
-        "naam": "Hulp van de jeugd- en gezinscoach",
-        "omschrijving": "Gesprekken thuis, op school of elders over gedrag, psychische gezondheid, vrije tijd, scheiding en onderwijs. Vrijwillig en gratis.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Gesprekken over opvoeden, gedrag, psychische gezondheid, scheiding of school, thuis, op school of elders. U kunt zelf terecht, zonder aanvraag, bij een jeugd- en gezinscoach van het Sociaal Team.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Hulp op school",
-        "omschrijving": "Preventiemedewerkers op de basisscholen en een vaste Jeugd- en Schoolcoach op de middelbare scholen. Daarnaast is er jongerenwerk.",
+        "omschrijving": "Op de basisscholen werken preventiemedewerkers en op de middelbare scholen een vaste Jeugd- en Schoolcoach. Daarnaast is er jongerenwerk.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: hulp thuis of op afspraak, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of in de wijk, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking; ook hulp bij persoonlijke verzorging kan daarbij horen. U komt er via het Sociaal Team of met een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met hardnekkige lees- en spellingsproblemen. Het begint bij school: die geeft eerst extra hulp en levert daarna de gegevens aan bij een dyslexieaanbieder met een contract, die controleert of alles compleet is.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, soms in plaats van school, en dagbehandeling bij psychische problemen. Logeren of tijdelijke begeleiding om u als ouder rust te geven kan met toestemming van de gemeente; eerst wordt gekeken of familie, vrienden of een voorziening in de buurt kan helpen.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, behandelgroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten: hulp thuis, een crisispleeggezin of een crisisplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord is dag en nacht bereikbaar en helpt ook bij het vinden van een crisisplek.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Alkmaar doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -236,7 +270,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Bergen: Onderwijs en jeugd",
@@ -337,8 +371,53 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "GISD Regio Alkmaar: Jeugdhulp ambulant en verblijf",
+        "url": "https://www.hulpinregioalkmaar.nl/jeugd/jeugdhulp-ambulant-verblijf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GISD Regio Alkmaar: Bijlage C. Percelen binnen ambulante jeugdhulp (versie 1.5)",
+        "url": "https://bdbfafeb-f0aa-4eb0-b9f4-f21f8d792576.filesusr.com/ugd/e47008_c68ea2a11dc148cc85c1a0593f9443ac.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GISD Regio Alkmaar: Bijlage C. Percelen binnen jeugdhulp met verblijf (versie 1.4)",
+        "url": "https://bdbfafeb-f0aa-4eb0-b9f4-f21f8d792576.filesusr.com/ugd/e47008_6f64c6468cc74a2f8bb0ee252b1bfaa3.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Verwervingsstrategie jeugdbescherming en jeugdreclassering NW4 regio's Noord-Holland 2026-2030",
+        "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/b608c77c-eb8c-4a6e-89b0-674add89bf4e",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Alkmaar: Acute crisis (Crisis Interventie Team)",
+        "url": "https://www.alkmaar.nl/direct-regelen/zorg-en-ondersteuning/opgroeien-en-opvoeden/acute-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 van Bergen nog niet verschenen. Geen cliëntervaringsonderzoek jeugd en geen doorlooptijden jeugd gevonden; raadsinformatie jeugd alleen deels doorzocht. IGJ, rekenkamer en regionale journalistiek over Bergen niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Programmabegroting 2027 van Bergen nog niet verschenen. Geen cliëntervaringsonderzoek jeugd en geen doorlooptijden jeugd gevonden; raadsinformatie jeugd alleen deels doorzocht. IGJ, rekenkamer en regionale journalistiek over Bergen niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   }
 }

@@ -115,25 +115,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij de Sociale Teams, zonder besluit van de gemeente: gesprekken, opvoedondersteuning door de gezinscoach en gesprekken met de kindercoach voor kinderen tot 12 jaar. Specialistische jeugdhulp koopt Borger-Odoorn in met de andere gemeenten van Zuid-Drenthe. Op de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang de wachttijd is, zonder inloggen. Vraag het Sociale Team ook om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de Sociale Teams. Specialistische jeugdhulp koopt Borger-Odoorn in samen met de andere zes gemeenten in Zuid-Drenthe. Vraag het Sociale Team om hulp bij het kiezen van een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-drenthe",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en lichte hulp",
-        "omschrijving": "Via de Sociale Teams, zonder besluit van de gemeente: gezinscoach, kindercoach, praktijkondersteuner jeugd bij de huisarts en kansencoaches op school. Welzijnsorganisatie Andes biedt jongerenwerk, cursussen en een steunouder.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Bij de Sociale Teams helpen een gezinscoach en, voor kinderen tot 12 jaar, een kindercoach, zonder aanvraag. Ook zijn er de praktijkondersteuner jeugd bij de huisarts, kansencoaches op school, en jongerenwerk, cursussen en steunouders van Andes.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Regionaal ingekocht, na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (bij u thuis of op een praktijk), behandeling, jeugd-ggz, dagbehandeling en verblijf.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via de Sociale Teams of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, wonen met begeleiding, verblijf met behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -395,6 +429,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: FAQ (ingekochte modules)",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/faq",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: Module Wonen",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/beschrijving-modules/29/wonen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Drenthe",
+        "url": "https://s4jd.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek jeugd en geen gemeten doorlooptijden gevonden. Klachtenregeling Sociale Teams noemt geen externe commissie; openingstijden van 0800 2009 verschillen op de site (8.30–12.30 uur op de contactpagina, 8.30–17.00 uur in de kop). Regionale journalistiek niet doorzocht; geen eigen crisispagina van de gemeente gevonden, spoedlink is de contactpagina van de Sociale Teams."

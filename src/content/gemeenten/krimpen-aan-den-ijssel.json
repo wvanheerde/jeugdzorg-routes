@@ -134,38 +134,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij KrimpenWijzer en het CJG Rijnmond, zonder besluit van de gemeente. Een deel van de specialistische hulp koopt Krimpen zelf in, zoals ambulante begeleiding, gezinsbehandeling en basis-ggz (lichtere geestelijke gezondheidszorg). Zwaardere hulp koopt de gemeente in met twaalf andere gemeenten, via Jeugdhulp Rijnmond. Een lijst met aanbieders staat in het Verwijzingsfilter van Jeugdhulp Rijnmond. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag KrimpenWijzer om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Voor advies, trainingen en lichte psychische hulp kunt u zelf terecht bij KrimpenWijzer en het CJG Rijnmond, zonder aanvraag. Een deel van de specialistische hulp koopt Krimpen zelf in; zwaardere hulp koopt de gemeente in met twaalf andere gemeenten in de regio Rijnmond. Vraag KrimpenWijzer hoe lang het wachten is bij een aanbieder.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies, trainingen (bijvoorbeeld over pubertijd, scheiding en weerbaarheid), een jongerencoach en jeugdmaatschappelijk werk via KrimpenWijzer. Het CJG Rijnmond biedt opvoedadvies en cursussen.",
+        "omschrijving": "Advies en trainingen, bijvoorbeeld over pubertijd, scheiding en weerbaarheid. U kunt zelf terecht bij KrimpenWijzer, een jongerencoach, het jeugdmaatschappelijk werk en het CJG Rijnmond, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Basishulp geestelijke gezondheid",
-        "omschrijving": "Basis-ggz door KrimpenWijzer zelf, zonder besluit van de gemeente.",
+        "naam": "Lichte psychische hulp (basis-ggz)",
+        "omschrijving": "Hulp bij lichte psychische klachten. KrimpenWijzer biedt dit zelf; u kunt er terecht zonder aanvraag.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Lokaal ingekochte specialistische hulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: dagbehandeling, individuele begeleiding, ambulante gezinsbehandeling, behandeling, kortdurend verblijf en dagbesteding. Voor hoe lang en hoeveel hulp gebruikt de gemeente vaste richtlijnen (een normenkader).",
+        "naam": "Begeleiding, dagbesteding en logeren",
+        "omschrijving": "Begeleiding, gezinsbehandeling thuis, persoonlijke verzorging, dagbehandeling en kortdurend verblijf, door de gemeente zelf ingekocht. KrimpenWijzer bekijkt eerst wat u en uw omgeving zelf kunnen; bij meerdere problemen helpt het Krimpens Sociaal Team.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "dagbesteding",
-          "logeren-respijt"
+          "logeren-respijt",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Regionaal ingekochte specialistische hulp",
-        "omschrijving": "Specialistische ambulante hulp, jeugd-ggz, pleegzorg, verblijf in een instelling, crisisopvang en jeugdzorgplus, ingekocht via Jeugdhulp Rijnmond.",
+        "naam": "Specialistische ggz en verblijf",
+        "omschrijving": "Zwaardere behandeling, pleegzorg en verblijf in een instelling, ingekocht met de regio Rijnmond. Voor pleegzorg en verblijf zoekt Team Zorgbemiddeling van de regio een passende plek.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar op de basisschool met ernstige dyslexie, als hulp op school niet genoeg is. School vraagt het aan; binnen 8 weken hoort u of uw kind onderzocht wordt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -269,7 +290,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "KrimpenWijzer: Jeugdhulp",
@@ -405,6 +426,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "KrimpenWijzer: Dyslexie",
+        "url": "https://www.krimpenwijzer.nl/is/professionals-3/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen (portaal vraagt inlog), cliëntervaringsonderzoek 2025 ook nog niet. Doorlooptijden en wachttijden niet gevonden in jaarstukken en raadsinformatie. Beschikbaarheidswijzer dekt Rijnmond niet, regionale journalistiek niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

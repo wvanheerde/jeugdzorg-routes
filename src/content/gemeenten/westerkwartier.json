@@ -124,48 +124,57 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u via Team Mens en Gezin en Sociaal Werk De Schans. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Westerkwartier koopt die hulp in met de negen andere Groninger gemeenten, via de Regionale Inkooporganisatie Groninger Gemeenten (RIGG). De aanbiederslijst staat openbaar op rigg.nl, onder 'Voor verwijzers'. Deze regio doet niet mee aan de Beschikbaarheidswijzer, de site waar u in andere regio's wachttijden kunt zien. Vraag de aanbieder zelf hoe lang het duurt.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht bij Team Mens en Gezin, Sociaal Werk De Schans en de GGD, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Westerkwartier in samen met de andere Groninger gemeenten, via de inkooporganisatie RIGG. Vraag naar wachttijden bij Team Mens en Gezin of de aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://www.rigg.nl/verwijzers/",
     "categorieen": [
       {
-        "naam": "Advies en opvoedondersteuning",
-        "omschrijving": "Via Team Mens en Gezin, de jeugdgezondheidszorg van GGD Groningen en Sociaal Werk De Schans. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en steun bij opvoeden via Team Mens en Gezin, de jeugdgezondheidszorg van GGD Groningen en Sociaal Werk De Schans. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Begeleiding thuis of op school, lokaal en regionaal ingekocht. Voor specialistische begeleiding is een besluit of verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, van begeleiding tot behandeling. Lichte begeleiding is er ook lokaal; voor specialistische hulp gaat u naar Team Mens en Gezin of de huisarts, jeugdarts of medisch specialist. De regio koopt ook persoonlijke verzorging in, zoals hulp bij wassen en aankleden, als die niet via de zorgverzekering of de Wet langdurige zorg loopt.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via een verwijzing van huisarts, jeugdarts of medisch specialist, of via een besluit van de gemeente.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met ernstige leesproblemen, als de extra hulp op school niet genoeg was. School stelt een leerlingdossier op; samen met school meldt u uw kind aan bij een dyslexieaanbieder, zoals OCRN of Molendrift, die het dossier beoordeelt.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Regionaal ingekocht via de RIGG.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding is een dagprogramma in een groep voor kinderen die op school uitvallen; jonge kinderen kunnen naar dagbehandeling. Logeren of deeltijdpleegzorg geeft u als ouder even rust; u vraagt dit aan via Team Mens en Gezin.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg (ook bij familie of bekenden), gezinshuizen, woonhoeves en andere woonvormen. U vraagt dit aan via Team Mens en Gezin; na een maatregel van de kinderrechter doet de jeugdbeschermer dat.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Overdag via de gemeente, buiten kantoortijden via Spoed voor Jeugd Groningen (0800 8081).",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Spoed voor Jeugd Groningen, een samenwerking van Accare, Jonx, Elker en Molendrift, helpt dag en nacht; bent u al bekend bij Team Mens en Gezin of een hulpverlener, dan belt u overdag eerst hen.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
         "naam": "Jeugdbescherming",
-        "omschrijving": "Uitgevoerd door Jeugdbescherming Noord. Die organisatie voert in Groningen en Drenthe de maatregelen van de kinderrechter uit. U meldt zich hier niet zelf aan.",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Groningen doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -346,7 +355,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Westerkwartier - Jeugd (Team Mens en Gezin)",
@@ -492,8 +501,88 @@
         "titel": "SWV Groningen Ommelanden: ouder- en jeugdsteunpunt",
         "url": "https://swv-go.nl/leerlingen-ouders/ouder-en-jeugdsteunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "RIGG: Crisishulp (Spoed voor Jeugd Groningen)",
+        "url": "https://www.rigg.nl/onderwerpen/crisis-en-calamiteiten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Groningen: informatie voor ouders",
+        "url": "https://spoedvoorjeugdgroningen.nl/hoe-werkt-het/informatie-voor-ouders/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: product Ondertoezichtstelling (gecertificeerde instellingen)",
+        "url": "https://www.rigg.nl/producten/ondertoezichtstelling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: product Persoonlijke verzorging",
+        "url": "https://www.rigg.nl/producten/persoonlijke-verzorging/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: product Ernstige Dyslexie",
+        "url": "https://www.rigg.nl/producten/specifieke-doelgroepen-8-ernstige-enkelvoudige-dyslexie-eed/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: product Dagbesteding",
+        "url": "https://www.rigg.nl/producten/dagbesteding/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: productcategorie Dagbesteding / dagbehandeling",
+        "url": "https://www.rigg.nl/product-categorie/dagbesteding-dagbehandeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: productcategorie Logeren / respijtzorg",
+        "url": "https://www.rigg.nl/product-categorie/logeren-respijtzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: productcategorie Verblijf / opname",
+        "url": "https://www.rigg.nl/product-categorie/verblijf-opname/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: product Pleegzorg",
+        "url": "https://www.rigg.nl/producten/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIGG: productcategorie Ambulant",
+        "url": "https://www.rigg.nl/product-categorie/ambulant/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "OCRN: Vergoede dyslexiezorg (contract met alle Groningse gemeenten)",
+        "url": "https://www.ocrn.nl/dyslexie/vergoeding-dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "OCRN: Aanmelden dyslexiezorg (formulier school en ouders)",
+        "url": "https://www.ocrn.nl/aanmelden/dyslexiezorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Molendrift: Aanmelden hulp bij dyslexie",
+        "url": "https://molendrift.nl/aanmelden/hulp-bij-dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden niet gevonden in jaarstukken en raadsinformatie. Klachtenregeling en bezwaarcommissie zijn die van de gemeente (geen apart team). Regionale journalistiek en IGJ-rapporten niet gevonden; wachttijden van aanbieders niet openbaar."
+    "opmerkingen": "Cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden niet gevonden in jaarstukken en raadsinformatie. Klachtenregeling en bezwaarcommissie zijn die van de gemeente (geen apart team). Regionale journalistiek en IGJ-rapporten niet gevonden; wachttijden van aanbieders niet openbaar. Dyslexieroute uit de sites van OCRN (contract met alle Groningse gemeenten; aanmelding met formulier van school en ouders, OCRN screent het dossier) en Molendrift (provincie Groningen, 7 t/m 12 jaar, start voor 13e); geen gemeentelijke of RIGG-bron die de route beschrijft. Een oudere OCRN-tekst noemde een melding van school aan CJG/WIJ/sociaal team een week vooraf; niet meer op de site."
   }
 }

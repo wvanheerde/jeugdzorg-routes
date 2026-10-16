@@ -2,6 +2,7 @@
   "naam": "Hattem",
   "cbsCode": "GM0244",
   "provincie": "Gelderland",
+  "jeugdzorgregio": "Midden-IJssel/Oost-Veluwe",
   "websiteJeugd": "https://hulpwijzer.hattem.nl/Jeugd_en_gezin",
   "toegang": {
     "samenvatting": "In Hattem meldt u zich bij het Centrum voor Jeugd en Gezin (CJG), voor vragen over opvoeden en opgroeien en voor jeugdhulp. U kunt ook via de huisarts, de jeugdarts of het schoolmaatschappelijk werk; een verwijzing is niet nodig.",
@@ -122,23 +123,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG, zonder besluit van de gemeente: opvoedadvies, schoolmaatschappelijk werk en groepsbijeenkomsten. Specialistische jeugdhulp koopt Hattem samen met zeven andere gemeenten in de jeugdregio Midden-IJssel / Oost-Veluwe in. Sinds 1 januari 2026 geldt daarvoor een nieuwe overeenkomst met aanbieders. In de Beschikbaarheidswijzer van deze regio ziet u aanbieders en wachttijden, openbaar en zonder inloggen. Welke aanbieder past, bespreekt u met de medewerker jeugd.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG (Centrum voor Jeugd en Gezin) Hattem. Specialistische jeugdhulp koopt Hattem in samen met de andere gemeenten van de Zorgregio Midden-IJssel/Oost-Veluwe. Welke aanbieder past, bespreekt u met de medewerker jeugd.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: opvoedadviesbureau, steunouders, schoolmaatschappelijk werk, jongerenwerk en het consultatiebureau.",
+        "omschrijving": "Het CJG geeft opvoedadvies en heeft schoolmaatschappelijk werk, jongerenwerk en het consultatiebureau, zonder aanvraag. In De Marke kunt u bij Krachtig Hattem terecht voor ouderbijeenkomsten en vragen over opvoeden.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na verwijzing door het CJG of de huisarts: begeleiding, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, via het CJG of een verwijzing van huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen, na extra hulp op school. School stuurt het leesdossier naar het CJG, dat het beoordeelt. Is het in orde, dan kiest u een dyslexiepraktijk met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding in een groep buiten schooltijd, en logeren bij een aanbieder, in een logeergezin of thuis, zodat u als ouder even rust heeft. Een vrijwillige steunouder kan uw kind ook zonder aanvraag een of twee dagdelen per week opvangen.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd), gezinshuizen, woongroepen en begeleid zelfstandig wonen voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig of vol te houden is: crisisbegeleiding thuis of een korte opvangplek. Dag en nacht helpt de Spoedeisende Zorg van Jeugdbescherming Gelderland, die bij een crisis binnen drie uur bij het gezin kan zijn.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-IJssel/Oost-Veluwe doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -219,7 +256,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",
@@ -350,6 +387,41 @@
         "titel": "CBS StatLine 85097NED: jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Over ons (deelnemende gemeenten)",
+        "url": "https://zorgregiomijov.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Zorgproductenboek Jeugdhulp 2026",
+        "url": "https://zorgregiomijov.nl/images/Zorgproductenboek_Jeugdhulp_definitief_incl._tarievenblad_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Instructie werkwijze bij ernstige dyslexie",
+        "url": "https://zorgregiomijov.nl/images/Instructie_Werkwijze_bij_ED.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Overeenkomst GI's, Productenboek 2026",
+        "url": "https://zorgregiomijov.nl/images/Productenboek_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen gemeten doorlooptijden van de toegang gevonden, alleen de schatting van ongeveer vier weken. Contact SWV Hanzeland alleen via e-mail (telefoon is een 06-nummer); regionale journalistiek beperkt doorzocht, geen IGJ- of rekenkamerrapport over Hattem jeugd gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

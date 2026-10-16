@@ -144,31 +144,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Scherpenzeel, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Scherpenzeel in met zes andere gemeenten, via JeugdFV. Daar zijn meer dan 300 aanbieders bij aangesloten. Een overzicht van aanbieders met wachttijden voor Scherpenzeel is niet openbaar te vinden. Vraag de medewerker jeugd om overzicht en hulp bij het kiezen.",
+    "samenvatting": "Bij het CJG Scherpenzeel kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Scherpenzeel in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Sociaal Team of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://jeugdfv.nl/bvo/professionals/productenboek/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: advies, inloopspreekuur, cursussen (zoals Puberbrein) en groepstrainingen, bijvoorbeeld over omgaan met scheiding.",
+        "omschrijving": "Advies, inloopspreekuur, cursussen zoals Puberbrein en groepstrainingen, bijvoorbeeld bij scheiding. U kunt zelf terecht, zonder aanvraag, bij het CJG Scherpenzeel.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Hulp via het Sociaal Team",
-        "omschrijving": "Begeleiders van het jeugdteam helpen bij u thuis. Op de basisscholen is ook jeugdhulp beschikbaar.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Begeleiders van het jeugdteam van het Sociaal Team helpen eerst zelf, ook op de basisscholen, en regelen zo nodig meer; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. Het loopt via school en het samenwerkingsverband passend onderwijs; een dyslexiespecialist beoordeelt namens de gemeente of het nodig is.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en logeeropvang om u als ouder te ontlasten. U vraagt het aan via het Sociaal Team.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Sociaal Team schakelt dag en nacht Spoedeisende Zorg (SEZ) van Jeugdbescherming Gelderland in; zo nodig volgt ambulante spoedhulp thuis of een crisisplek.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Scherpenzeel doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -326,7 +354,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Scherpenzeel: Hulp aan kinderen en jeugdigen",
@@ -431,7 +459,7 @@
       {
         "titel": "JeugdFV: Productenboek gecontracteerde aanbieders",
         "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Begroting 2027-2030 gemeente Scherpenzeel",
@@ -472,8 +500,38 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Gelderland (Ede, Barneveld, Scherpenzeel, Nijkerk)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_gelderl.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Geen aparte jeugdklachtregeling of externe klachtcommissie gevonden, alleen de klachtenregeling van de gemeente en de Nationale ombudsman. Doorlooptijden toegang niet gevonden. Niet vastgesteld bij welk vo-samenwerkingsverband Scherpenzeel hoort (geen middelbare school in de gemeente)."
+    "opmerkingen": "Geen aparte jeugdklachtregeling of externe klachtcommissie gevonden, alleen de klachtenregeling van de gemeente en de Nationale ombudsman. Doorlooptijden toegang niet gevonden. Niet vastgesteld bij welk vo-samenwerkingsverband Scherpenzeel hoort (geen middelbare school in de gemeente). GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   }
 }

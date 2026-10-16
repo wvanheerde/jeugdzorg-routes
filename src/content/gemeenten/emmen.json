@@ -153,55 +153,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder beschikking via Sedna; specialistische jeugdhulp wordt ingekocht door de zeven gemeenten van de subregio Zuid-Drenthe (team prestatiemanagement jeugdhulp Zuid-Drenthe), met contracten voor 2020 tot en met 2028. De gemeente meldt dat in 2025 3.073 jeugdigen jeugdhulp kregen; per 1 januari 2027 voert de nieuwe gemeenschappelijke regeling Jeugdhulpregio Drenthe (12 gemeenten) de regionale uitvoering uit. Emmen wil toe naar 'stevige lokale teams' en meer inzet op een pedagogische basis, zodat minder kinderen zwaardere hulp nodig hebben. De Beschikbaarheidswijzer toont de gecontracteerde aanbieders met wachttijden, openbaar en zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Sociaal Werk Sedna. Specialistische jeugdhulp koopt Emmen in samen met de andere zes gemeenten in Zuid-Drenthe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-drenthe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Sedna (gebiedsteams, schoolmaatschappelijk werk, trainingen, Steunouder, Moeders van Emmen), zonder beschikking.",
+        "omschrijving": "Gebiedsteams, schoolmaatschappelijk werk, trainingen, steunouders en Moeders van Emmen, via Sedna. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbehandeling",
-        "omschrijving": "Regionaal ingekocht; de gemeente ziet een toename van ambulante gezinsbehandeling.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via De Toegang of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van De Toegang of een arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, wonen met begeleiding, verblijf met behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Spoed voor Jeugd Drenthe, regionaal aanbesteed.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Regionaal aanbesteed.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
-          "dyslexiezorg"
+          "jeugdbescherming"
         ]
       }
     ]
@@ -461,7 +465,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Stichting De Toegang – Jeugd",
@@ -667,6 +671,46 @@
         "titel": "SWV Sterk VO Zuidoost-Drenthe: Contact",
         "url": "https://www.sterkvo-zodrenthe.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: FAQ (ingekochte modules)",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/faq",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: Module Wonen",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/beschrijving-modules/29/wonen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Drenthe",
+        "url": "https://s4jd.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen doorlooptijden van De Toegang over 2025 of 2026, geen cliëntervaringsonderzoek Jeugd over 2024 of 2025 en geen IGJ-, rekenkamer- of ombudsmanrapport van de afgelopen drie jaar gevonden. Nadere regels en tarieven pgb niet nagelopen. gemeente.emmen.nl antwoordt alleen met een browser-user-agent."

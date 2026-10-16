@@ -129,51 +129,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp bij opvoeden en opgroeien krijgt u zonder besluit van de gemeente, via Lisa, de LimonadeBrigade en de jeugdprofessional bij de huisarts. Voor specialistische hulp is een beschikking van de gemeente nodig of een verwijzing van huisarts, jeugdarts of medisch specialist. Lelystad heeft per 1 juli 2026 nieuwe afspraken met aanbieders van lokale jeugdhulp, waaronder jeugd-ggz. Hoogspecialistische ggz, verblijf en intensieve hulp thuis (Thuis op Maat) koopt Lelystad samen met andere Flevolandse gemeenten in. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en wat de wachttijden zijn. Die site is openbaar, zonder inloggen.",
+    "samenvatting": "Bij Lisa, de LimonadeBrigade en de jeugdprofessional bij de huisarts kunt u zelf terecht, zonder aanvraag bij de gemeente. Lokale jeugdhulp, zoals begeleiding en jeugd-ggz, koopt Lelystad zelf in; sinds 1 juli 2026 met nieuwe aanbieders. Hulp met verblijf, crisishulp, de zwaarst gespecialiseerde jeugd-ggz en intensieve hulp thuis (Thuis op Maat) koopt Lelystad samen met de andere Flevolandse gemeenten in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/flevoland",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via Lisa, de LimonadeBrigade en de jeugdprofessional bij de huisarts. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Informatie, advies en ontmoeting bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij Lisa, bij activiteiten van de LimonadeBrigade en bij de jeugdprofessional bij de huisarts, die kort hulp geeft.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en behandeling",
-        "omschrijving": "Hulp thuis of op een locatie van de aanbieder, na een beschikking of een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Gezinsbegeleiding thuis, vaktherapie en behandeling bij psychische problemen, bij een vrijgevestigde behandelaar of een ggz-instelling. U komt er via Jeugd Lelystad (JEL) of een verwijzing van een arts; Lelystad koopt ook persoonlijke verzorging in als eigen vorm van hulp.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "dagbesteding"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Per 1 juli 2026 nieuwe aanbieders. Verwijzing via de huisarts of een beschikking van de gemeente. Hoogspecialistische ggz loopt via de regio Flevoland.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Voor ernstige enkelvoudige dyslexie loopt de toegang via het samenwerkingsverband Passend Onderwijs Lelystad Dronten.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling bij hardnekkige lees- en spellingsproblemen, via de basisschool: die vraagt het aan bij het samenwerkingsverband Passend Onderwijs Lelystad Dronten. Het Regionaal Instituut voor Dyslexie helpt kinderen met een school in Lelystad-Zuid, Zien in de Klas kinderen met een school in Lelystad-Noord.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg, verblijf en jeugdbescherming",
-        "omschrijving": "Verblijf en pleegzorg worden regionaal ingekocht. Jeugdbescherming gebeurt na een uitspraak van de kinderrechter door een gecertificeerde instelling.",
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding in een groep tijdens of na schooltijd, ook naschoolse dagopvang en dagbesteding om u als ouder te ontlasten. Voor dagbehandeling is er een kinderbehandelcentrum, en kinderen kunnen logeren in het weekend of doordeweeks.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
-          "jeugdbescherming"
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio Flevoland heeft pleegzorg, gezinshuizen, woon- en leefgroepen, kamertraining voor oudere jongeren en wonen met behandeling, ook gesloten jeugdhulp.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis start de hulp zo snel mogelijk. De verwijzer beoordeelt of er een crisis is. Het besluit volgt binnen vier weken na de start.",
+        "omschrijving": "Directe hulp als de veiligheid of gezondheid van uw kind ernstig in gevaar is. Bespreek dit met de verwijzer, die beoordeelt of het een crisis is; in Flevoland doen Triade Vitree en GGz Centraal Fornhese (acute jeugd-ggz) de crisishulp.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Flevoland doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -379,7 +387,7 @@
       {
         "titel": "Gemeente Lelystad - Informatie Jeugdhulp lokaal",
         "url": "https://www.lelystad.nl/informatiejeugdlelystad",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Lelystad - Opvoeden en opgroeien",
@@ -399,7 +407,7 @@
       {
         "titel": "Gemeente Lelystad - Aanbieders zorg in natura",
         "url": "https://www.lelystad.nl/4/jeugdengezin/zorg-s-Waar-kan-ik-terecht/Aanbieders-zorg-in-natura.html",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Lelystad - Persoonsgebonden budget (pgb) Jeugdhulp",
@@ -565,6 +573,41 @@
         "titel": "SWV Passend Onderwijs Lelystad Dronten - Ouder- en jeugdsteunpunt",
         "url": "https://passendonderwijslelystaddronten.nl/ouder-en-jeugdsteunpunt",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Productomschrijvingen",
+        "url": "https://sociaaldomeinflevoland.nl/handelingskader/productomschrijvingen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Aanmelden bij crisis aanmeldpunt",
+        "url": "https://sociaaldomeinflevoland.nl/aanmelden-bij-crisis-aanmeldpunt",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Producten en aanbieders JB-JR",
+        "url": "https://sociaaldomeinflevoland.nl/sites/default/files/documents/Producten%20en%20aanbieders%20JB-JR.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Lelystad - Producten en tarieven jeugdhulp 1-7 t/m 31-12-2026",
+        "url": "https://www.gemeentelelystad.nl/documenten/producten%20en%20tarieven%201-7-31-12-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passend Onderwijs Lelystad Dronten: Route voor vergoede dyslexiezorg",
+        "url": "https://www.pold.nl/voor-scholen-en-professionals/leesondersteuning-en-dyslexie/route-voor-vergoede-dyslexiezorg-on4",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Gemeten doorlooptijden niet gevonden; kwartaaloverzicht wachttijden is toegezegd voor december 2026. Thematisch onderzoek jeugdketen (25 sep 2026) alleen als pdf met onleesbare tekstcodering; evaluatie JEL en integriteitsonderzoek niet openbaar gevonden. Geen IGJ- of ombudsmanrapport gevonden; Binnenlands Bestuur (betaalmuur) niet gelezen. Contactgegevens samenwerkingsverband en JGZ 0–4 jaar (Icare) niet gevonden."

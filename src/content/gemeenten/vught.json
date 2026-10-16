@@ -110,37 +110,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Vught koopt specialistische jeugdhulp in met negen andere gemeenten uit Noordoost-Brabant, via RIOZ (Regionale Inkooporganisatie Zorg). De Beschikbaarheidswijzer bevat deze regio niet. Op de zorgkaart van RIOZ staan de aanbieders met een contract. Lichte hulp krijgt u bij Wegwijs+, bij de praktijkondersteuner jeugd-ggz van de huisarts en bij het schoolmaatschappelijk werk. Een overzicht van wachttijden bij aanbieders is niet openbaar te vinden. Vraag de klantmanager om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/zorgkaart/Jeugd",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht, zonder aanvraag, bij Wegwijs+, de praktijkondersteuner jeugd-ggz van de huisarts en het schoolmaatschappelijk werk. Specialistische jeugdhulp koopt Vught in met de andere gemeenten in Noordoost-Brabant, via de inkooporganisatie RIOZ. In het overzicht van RIOZ geven aanbieders zelf een geschatte wachttijd op; vraag de klantmanager jeugd wat dat voor uw kind betekent.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/contractenboek",
     "categorieen": [
       {
-        "naam": "Lichte ondersteuning en advies",
-        "omschrijving": "Via Wegwijs+, het jongerenwerk en organisaties waar u zonder besluit van de gemeente terechtkunt. Op de pagina Opgroeien in Vught staat een overzicht.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij Wegwijs+ en het jongerenwerk; de pagina Opgroeien in Vught geeft een overzicht.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Praktijkondersteuner jeugd-ggz en schoolmaatschappelijk werk",
-        "omschrijving": "Kortdurende gesprekken bij de huisarts (afspraak via de doktersassistent) en op de scholen, via Wegwijs+.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Jeugd-ggz via expertisenetwerk GROEN",
-        "omschrijving": "Laagdrempelige hulp bij somberheid en vergelijkbare klachten, zodat zwaardere hulp minder vaak nodig is. Gestart in 2025, samen met een regionale zorgaanbieder.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, ingekocht via RIOZ.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie, intensieve hulp thuis en persoonlijke verzorging als de zorgverzekering die niet betaalt. U komt er via Wegwijs+ team jeugd of een verwijzing van huisarts, jeugdarts of medisch specialist. Bij somberheid en vergelijkbare klachten is er ook lichte hulp via de praktijkondersteuner jeugd-ggz en het expertisenetwerk GROEN.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen, als de hulp start vóór hun dertiende. School vraagt het met u aan bij het dyslexieteam van samenwerkingsverband PO De Meierij; na een besluit van de gemeente kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Daghulp, respijtzorg en logeren",
+        "omschrijving": "Bij daghulp werkt uw kind in een groep aan vaardigheden en structuur. Respijtzorg, overdag of met logeren, ontlast u als ouder; eerst wordt gekeken of gewone opvang of uw eigen omgeving kan helpen.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In de regio zijn er pleeggezinnen (ook voor het weekend), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, een crisispleeggezin of een korte opvangplek. Spoedeisende Zorg van Jeugdbescherming Brabant beoordeelt dag en nacht of dat nodig is; bij een psychische crisis helpt de crisisdienst van de ggz.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noordoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -199,7 +221,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Vught: Wegwijs+ (jeugd en onderwijs)",
@@ -299,7 +321,7 @@
       {
         "titel": "RIOZ: Specialistische jeugdhulp",
         "url": "https://www.rioz.nl/jeugd",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "RIOZ: Zorgkaart jeugd",
@@ -310,6 +332,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "RIOZ: Contractenboek jeugd (producten en geschatte wachttijden per aanbieder)",
+        "url": "https://www.rioz.nl/jeugd/contractenboek",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Productenboek jeugd (versie juni 2026)",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Bijlage%202%20-%20Productenboek%202023%20versie%20juni%202026%201.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Veelgestelde vragen jeugd (crisis, huisartsverwijzing, gecertificeerde instellingen)",
+        "url": "https://www.rioz.nl/jeugd/veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO De Meierij: Dyslexieteam",
+        "url": "https://www.demeierij-po.nl/voor-scholen/dyslexieteam/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en gemeten doorlooptijden toegang niet gevonden (alleen CEO Wmo 2025). Klachtenregeling van Wegwijs+ en ombudsman-aansluiting niet online gevonden. Datum van het overdrachtsdocument bij benadering; regionale journalistiek nauwelijks doorzocht."

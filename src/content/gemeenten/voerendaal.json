@@ -126,30 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en begeleiding krijgt u van JENS, voor kinderen tot 18 jaar in Heerlen, Landgraaf en Voerendaal. Voor specialistische hulp werkt JENS met andere aanbieders. Zwaardere hulp, zoals verblijf, koopt de gemeente samen met de rest van Zuid-Limburg in. Op de Beschikbaarheidswijzer ziet u welke aanbieders er zijn. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Voor trainingen, ontmoetingsgroepen en activiteiten kunt u zelf terecht bij JENS, zonder aanvraag. JENS geeft in Voerendaal ook de begeleiding en behandeling voor kinderen tot 18 jaar. Zwaardere hulp, zoals verblijf en crisishulp, koopt Voerendaal in met de andere gemeenten in Zuid-Limburg.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via JENS: schoolmaatschappelijk werk, trainingen voor ouders en kinderen, ontmoetingsgroepen en activiteiten in de buurt, vrij toegankelijk.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Schoolmaatschappelijk werk, trainingen voor ouders en kinderen, ontmoetingsgroepen en activiteiten in de buurt van JENS, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en behandeling",
-        "omschrijving": "Via JENS en andere aanbieders: ambulante begeleiding, behandeling en jeugd-ggz. Voor behandeling kan een wachttijd gelden.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp van JENS thuis, op school of in de wijk bij gedrag, ontwikkeling of psychische problemen. U komt er via het Toegangsteam Jeugd of een verwijzing van de huisarts, jeugdarts of medisch specialist; voor sommige behandeling verwijst JENS naar een andere aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Crisishulp en verblijf",
-        "omschrijving": "Regionaal ingekocht voor heel Zuid-Limburg: crisishulp, pleegzorg en verblijf.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met ernstige lees- en spellingsproblemen. School meldt uw kind met een leerlingdossier aan voor onderzoek; JENS vergoedt onderzoek en behandeling, altijd met uw toestemming.",
         "hulpsoorten": [
-          "crisishulp",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Daghulp en logeren",
+        "omschrijving": "Daghulpprogramma's en begeleiding in een groep van JENS. Logeren en deeltijdpleegzorg via JENS geven u als ouder en uw kind even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. Zuid-Limburg heeft pleegzorg, gezinshuizen, leefhuizen (woongroepen) en begeleid zelfstandig wonen vanaf 16 jaar; een pleeggezin of gezinshuis gaat voor.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als de veiligheid van uw kind ernstig in gevaar is, dag en nacht. In Zuid-Limburg doen Mondriaan, XONAR en Koraal dit samen als Crisishulp Jeugd Zuid-Limburg, met hulp aan huis of zo nodig een korte opvangplek.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Limburg doet Bureau Jeugdzorg Limburg dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -210,7 +239,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Register van Overheidsorganisaties – gemeenten",
@@ -326,6 +355,46 @@
         "titel": "CBS StatLine 85097NED: jeugdhulptrajecten naar verwijzer",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Contract schaarse ambulante jeugdhulp (logeren, deeltijdpleegzorg)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/contract-schaarse-ambulante-jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Wonen (pleegzorg, gezinshuizen, leefhuizen, begeleid zelfstandig wonen)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/wonen-0",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Crisishulp (Mondriaan, XONAR, Koraal)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/crisishulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Subsidieregeling gecertificeerde instellingen",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/subsidieregeling-gecertificeerde-instellingen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JENS – Over JENS (daghulp, logeren, begeleiding en behandeling)",
+        "url": "https://jenshelpt.nl/over-jens/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Ambulante hulp (groep en individueel, subregio's)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/ambulante-hulp-groepsverband-individueel",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bureau Jeugdzorg Limburg: werkgebied",
+        "url": "https://www.bjzlimburg.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek jeugd gevonden (alleen Wmo); klachtenregeling JENS (pdf) niet leesbaar. PO-steunpunt alleen via formulier; telefoonnummers van JENS en Toegangsteam verschillen per pagina van JENS. Geen aandeelHuisarts: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."

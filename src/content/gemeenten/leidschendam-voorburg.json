@@ -152,44 +152,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bijvoorbeeld bij het Sociaal Servicepunt, de jeugdgezondheidszorg en het schoolmaatschappelijk werk. Specialistische jeugdhulp kopen negen gemeenten in de regio Haaglanden samen in. Volgens de gemeente gaat het om ongeveer 150 aanbieders. Hulpaanbod en wachttijden per aanbieder staan in Startpunt Jeugd. Dat is openbaar, zonder inloggen, maar geschreven in vaktaal voor verwijzers. Bekijk het daarom samen met uw verwijzer. Wachttijden verschillen sterk per soort hulp en zijn lang bij kinderdagcentra. Op 1 januari 2028 gaan nieuwe regionale contracten voor specialistische hulp in. Lichtere hulp wil de gemeente daarna lokaal regelen in plaats van regionaal.",
+    "samenvatting": "Bij het Sociaal Servicepunt, de jeugdgezondheidszorg en het schoolmaatschappelijk werk kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Leidschendam-Voorburg in samen met de andere gemeenten van de regio Haaglanden. Vraag naar wachttijden bij team Jeugd of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://zoek-startpunt.sbjh.nl/2",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via het Sociaal Servicepunt, de jeugdgezondheidszorg, het schoolmaatschappelijk werk en het jongerenwerk. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en kortdurende hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Servicepunt, de jeugdgezondheidszorg, het schoolmaatschappelijk werk en het jongerenwerk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jeugd-ggz en dyslexiezorg",
-        "omschrijving": "Via team Jeugd of via een verwijzing van huisarts, jeugdarts of medisch specialist. Jeugd-ggz is de hulp die de meeste jongeren met jeugdhulp krijgen.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking; jeugd-ggz is de hulp die hier het vaakst wordt ingezet. U komt er via team Jeugd of een verwijzing van huisarts, jeugdarts of medisch specialist; ook hulp bij persoonlijke verzorging, zoals wassen en aankleden, is in Haaglanden ingekocht.",
         "hulpsoorten": [
+          "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Het loopt via school: die verwijst en levert het leerlingdossier aan, dus vraag eerst de school of zij ernstige dyslexie vermoeden.",
+        "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Begeleiding thuis en op school",
-        "omschrijving": "Begeleiding bij opvoed- en opgroeiproblemen. De gemeente wil op school vaker hulp in groepen geven in plaats van hulp aan één kind.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, buiten school, op school of in plaats van school, voor kinderen met een beperking of ernstige problemen. Logeren in een huiselijke omgeving, bijvoorbeeld een weekend, ontlast u als ouder.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Dagbehandeling en kinderdagcentra",
-        "omschrijving": "Dagbehandeling en dagbesteding voor kinderen met een zwaardere ondersteuningsvraag. Wachttijden zijn hier lang.",
-        "hulpsoorten": [
-          "dagbesteding"
-        ]
-      },
-      {
-        "naam": "Verblijf en pleegzorg",
-        "omschrijving": "Voor kinderen die tijdelijk niet thuis kunnen wonen. De regio wil kinderen zo veel mogelijk thuis of in een gezinssetting laten opgroeien.",
-        "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
           "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Haaglanden is er pleegzorg, ook in deeltijd, en er zijn gezinshuizen, behandelgroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Haaglanden komt het Crisis Interventie Team van Jeugdbescherming west dag en nacht; zo nodig volgt een crisisplek of crisispleegzorg.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Haaglanden doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -558,6 +573,31 @@
       {
         "titel": "MEE Zuid-Holland Noord: Leidschendam-Voorburg",
         "url": "https://www.meezhn.nl/mee-in-uw-gemeente/leidschendam-voorburg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productbeschrijvingen 2025 (H8)",
+        "url": "https://sbjh.nl/wp-content/uploads/2025/07/ROH8-B5-Productbeschrijvingen-V5.1-20250717-20250901.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productencatalogus (aanbieders en gecertificeerde instellingen)",
+        "url": "https://sbjh.nl/gemeente/productencatalogus/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Crisis Interventie Team",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

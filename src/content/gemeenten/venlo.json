@@ -120,55 +120,57 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Specialistische jeugdhulp wordt gezamenlijk ingekocht door de MGR Sociaal Domein Limburg-Noord, een samenwerking van veertien gemeenten in Noord- en Midden-Limburg. In 2025 sloot de regio nieuwe contracten met 'Kernpartners' en 'Partners' voor wonen, dagbesteding en dagbehandeling en ambulante hulp; zij moeten samen een passend en dekkend aanbod in Noord-Limburg bieden. De gemeente meldt dat steeds meer cliënten niet-gecontracteerd aanbod gebruiken, omdat het gecontracteerde aanbod niet altijd past. De Zoektool van Sociaal Domein Limburg-Noord toont de gecontracteerde aanbieders van de regio.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht bij Buurtkracht Venlo en de jeugdgezondheidszorg van de GGD, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Venlo in samen met de andere gemeenten in Noord-Limburg. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Sociaal Wijkteam of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.sociaaldomein-limburgnoord.nl/zoektool",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Buurtkracht Venlo, de jeugdgezondheidszorg van GGD Limburg-Noord en het Sociaal Wijkteam; algemene voorzieningen zijn zonder beschikking toegankelijk.",
+        "omschrijving": "Trainingen, ontmoeting en advies bij vragen over opvoeden, puberteit of scheiden. U kunt zelf terecht, zonder aanvraag, bij Buurtkracht Venlo en de jeugdgezondheidszorg van de GGD; Villa Pinedo steunt kinderen van gescheiden ouders.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en behandeling",
-        "omschrijving": "Individuele hulp aan huis of op locatie, waaronder jeugd-ggz. Het grootste deel van de jeugdhulp in Venlo is ambulant.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. U komt er via het Sociaal Wijkteam of een verwijzing van de huisarts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Dagbesteding en dagbehandeling",
-        "omschrijving": "Regionaal ingekocht; verwijzers en aanbieders maken per casus afspraken over passend aanbod (pilot aanmeldloket in 2025).",
-        "hulpsoorten": [
-          "dagbesteding"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Regionaal ingekocht product 'Dyslexie' (zie de Zoektool).",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen, als extra hulp op school niet genoeg hielp. School stuurt met uw toestemming het leesdossier naar een aanbieder met contract die u kiest; na het onderzoek mag u voor de behandeling een andere aanbieder kiezen.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
-        "omschrijving": "Behandeling met verblijf en (kleinschalige) woonvoorzieningen worden regionaal ingekocht; Venlo werft extra pleegouders.",
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag of na school in een groep, of logeren om u als ouder te ontlasten. Logeren gaat in deze regio altijd samen met hulp thuis voor het gezin.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen, kleine woongroepen en training in zelfstandig wonen. Een opname met behandeling loopt via de Bijzondere Toegang van Noord- en Midden-Limburg.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Integrale Crisishulp Jeugd Noord- en Midden-Limburg, 24 uur per dag bereikbaar.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Noord- en Midden-Limburg doet Crisishulp Jeugd dit dag en nacht, een samenwerking van Mutsaersstichting en Xonar.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Jeugdbescherming en jeugdreclassering",
-        "omschrijving": "Uitgevoerd door gecertificeerde instellingen op basis van een provinciale subsidieregeling.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noord-Limburg doet Bureau Jeugdzorg Limburg dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -416,7 +418,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Venlo – Jeugdhulp",
@@ -542,8 +544,38 @@
         "titel": "SWV VO Noord-Limburg: Contact",
         "url": "https://www.swvvo3101.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Actuele overeenkomsten en aanbestedingsstukken Jeugd",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/informatie-voor-aanbieders/aanbestedingsstukken/actuele-overeenkomsten-en-aanbestedingsstukken-jeugd",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Schematisch overzicht jeugdhulpvormen en producten 2026",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/gfx/Jeugdhulp/Overzicht_jeugdhulpvormen_producten_en_codes.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Handboek voor verwijzers en aanbieders Jeugdhulp 2026 (dyslexie, logeren, ambulante hulp, Crisishulp Jeugd)",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/gfx/Verwijzers/Handboek%20voor%20verwijzers%20en%20aanbieders%20Jeugdhulp%20v2-1pdf.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Bijzondere Toegang segment 1",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/informatie-segment-1-nml-routes-contact-aanmelding-bijzondere-toegang",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bureau Jeugdzorg Limburg: Over ons",
+        "url": "https://www.bjzlimburg.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Regio Limburg-Noord staat niet op de regiolijst van de Beschikbaarheidswijzer; de Zoektool van Sociaal Domein Limburg-Noord is gebruikt. Open: cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden (gemeenteraad.venlo.nl gaf alleen een beveiligingscontrole), eigen klachtenregeling Sociaal Wijkteam, e-mailadres wijkteam. Contactgegevens samenwerkingsverband primair onderwijs niet gevonden."
+    "opmerkingen": "Regio Limburg-Noord staat niet op de regiolijst van de Beschikbaarheidswijzer; de Zoektool van Sociaal Domein Limburg-Noord is gebruikt. Open: cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden (gemeenteraad.venlo.nl gaf alleen een beveiligingscontrole), eigen klachtenregeling Sociaal Wijkteam, e-mailadres wijkteam. Contactgegevens samenwerkingsverband primair onderwijs niet gevonden. Crisisdienst (16-10-2026): handboek verwijzers juni 2026 (par. 4.7) noemt Crisishulp Jeugd (Mutsaersstichting en Xonar) voor alle doelgroepen, ook ggz, 24/7 op 043-6045777; ook venlo.nl/crisishulp. MET ggz in het aanbiedersoverzicht is geen aparte crisisdienst; tekst blijft."
   }
 }

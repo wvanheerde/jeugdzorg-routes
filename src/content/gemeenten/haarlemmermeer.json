@@ -153,46 +153,57 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies via het CJG, de GGD en schoolcoaches; specialistische jeugdhulp koopt de gemeente in bij zorgaanbieders, bij een groot deel van de ambulante jeugdhulp met signaalbudgetten (kleine, snel inzetbare budgetten voor lichte hulp). Haarlemmermeer is een eigen jeugdhulpregio en is aangesloten op de Beschikbaarheidswijzer: alle gecontracteerde aanbieders met wachttijden, openbaar en zonder inloggen. Voorkeur gaat uit naar hulp thuis en, als dat niet kan, naar een gezinssituatie (pleegzorg of gezinshuis) boven een instelling.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG, de GGD en de schoolcoaches. Haarlemmermeer is een eigen jeugdhulpregio en koopt specialistische jeugdhulp zelf in bij zorgaanbieders.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/haarlemmermeer",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG, de GGD en schoolcoaches; cursussen en groepen worden samen met partners zoals GGD, Prezens en MeerWaarde aangeboden.",
+        "omschrijving": "Informatie, advies en cursussen bij opvoeden en opgroeien, zonder aanvraag, bij het CJG, de GGD en de schoolcoaches. Cursussen en groepen geeft het CJG samen met onder meer de GGD, Prezens en MeerWaarde.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en jeugdhulp op school",
-        "omschrijving": "Hulp thuis of op school, onder meer via Jeugdhulp op School; regelt het CJG of een gemandateerde professional.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school (Jeugdhulp op School) of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook hulp bij persoonlijke verzorging. Het CJG regelt dit, of u komt er met een verwijzing van een arts; lichte hulp geeft ook de praktijkondersteuner jeugd bij de huisarts.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Lichte hulp via de praktijkondersteuner jeugd bij de huisarts; specialistische jeugd-ggz via verwijzing van het CJG of een arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met ernstige lees- en spellingsproblemen. Helpt extra hulp op school niet, dan maakt school een leerlingdossier; daarmee gaat u zelf naar een aanbieder met contract, te vinden op de Sociale Kaart Haarlemmermeer (zoek op 'dyslexie').",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbegeleiding of dagbehandeling in een groep; sommige aanbieders regelen ook het vervoer. Logeeropvang en kortdurend verblijf geven u als ouder tijdelijk rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Kan een kind tijdelijk of langer niet thuis wonen, dan kiest de gemeente zo veel mogelijk voor pleegzorg of een gezinshuis boven een instelling. Daarnaast zijn er woongroepen, begeleid wonen en kamertraining voor oudere jongeren.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Via huisarts of huisartsenpost en Veilig Thuis; zie de route spoedeisende hulp.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De crisisdienst jeugd van Levvel en Arkin is dag en nacht bereikbaar; ook de huisarts, de huisartsenpost of Veilig Thuis Kennemerland kan deze hulp inschakelen.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Jeugdbescherming en jeugdreclassering",
-        "omschrijving": "Uitgevoerd door gecertificeerde instellingen in opdracht van de gemeente; geen startroute voor ouders.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Haarlemmermeer doet Jeugdbescherming Regio Amsterdam dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -469,7 +480,7 @@
       {
         "titel": "Gemeente Haarlemmermeer – Jeugdhulp",
         "url": "https://haarlemmermeergemeente.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Haarlemmermeer – Jeugdhulp aanvragen (formulier)",
@@ -579,7 +590,7 @@
       {
         "titel": "Beschikbaarheidswijzer – Jeugdhulp Haarlemmermeer",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/haarlemmermeer",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Haarlemmermeer – Waarom jeugdzorg steeds duurder wordt",
@@ -624,7 +635,7 @@
       {
         "titel": "Programmabegroting 2027-2030 – Beleidsdoel B jeugdzorg",
         "url": "https://programmabegroting.haarlemmermeer.nl/2027/programma-s/welzijn-zorg-en-onderwijs/beleidsdoel-b-kinderen-en-jongeren-ontvangen-passende-zorg-en-ondersteuning-wanneer-dat-nodig-is",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "iBabs Publieksportaal Haarlemmermeer (raadsinformatiesysteem)",
@@ -660,8 +671,33 @@
         "titel": "De Kindertelefoon",
         "url": "https://www.kindertelefoon.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: Gemeenten (werkgebied, kaart juli 2025)",
+        "url": "https://www.jeugdbescherming.nl/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Nieuwe crisisdienst jeugd voor Amsterdam en Amstelland",
+        "url": "https://www.levvel.nl/nieuws/nieuwe-crisisdienst-jeugd-voor-amsterdam-en-amstelland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Acute crisis (Geïntegreerde CrisisDienst-Jeugd)",
+        "url": "https://www.levvel.nl/acute-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden van de toegang niet gevonden in jaarstukken 2025 of begroting 2027-2030. Eigen klachtenregeling van het CJG niet online gevonden; externe klachtinstantie (Nationale ombudsman) niet bevestigd door de gemeente. Jeugdzorgregio afgeleid uit CBS en Beschikbaarheidswijzer, geen gemeentebron. Contactgegevens samenwerkingsverband VO niet gevonden."
+    "opmerkingen": "Doorlooptijden van de toegang niet gevonden in jaarstukken 2025 of begroting 2027-2030. Eigen klachtenregeling van het CJG niet online gevonden; externe klachtinstantie (Nationale ombudsman) niet bevestigd door de gemeente. Jeugdzorgregio afgeleid uit CBS en Beschikbaarheidswijzer, geen gemeentebron. Contactgegevens samenwerkingsverband VO niet gevonden. Dyslexieroute: geen aanmeldroute gevonden bij Passend Onderwijs Haarlemmermeer of CJG Haarlemmermeer; gemeentesite blokkeert (403). Hyperionhelpt werkt alleen in Zuid-Kennemerland en IJmond. Tekst ongewijzigd gelaten. Crisisdienst (16-10-2026): het Levvel-nieuwsbericht noemt Haarlemmermeer bij het werkgebied van de Geïntegreerde CrisisDienst-Jeugd (Levvel en Arkin, 24/7); de pagina \"Acute crisis\" van Levvel noemt Haarlemmermeer niet. De gemeentesite noemt geen crisisdienst jeugd. Dyslexieroute van de gemeentepagina Dyslexie op haarlemmermeer.nl (tekst aangeleverd door redactie 16-10-2026; site weigert geautomatiseerde toegang)."
   }
 }

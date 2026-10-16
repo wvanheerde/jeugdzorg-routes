@@ -126,32 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en opvoedondersteuning krijgt u zonder besluit van de gemeente, via het Dorpsteam, ONS Welzijn en de jeugdgezondheidszorg van de GGD. Voor specialistische jeugdhulp is een beschikking van de gemeente nodig, of een verwijzing van de huisarts, jeugdarts of medisch specialist. Boekel koopt die hulp in met negen andere gemeenten, via de Regionale Inkooporganisatie Zorg (RIOZ). Op de zorgkaart van RIOZ ziet u welke aanbieders een contract hebben, maar geen wachttijden. Vraag het Dorpsteam om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/zorgkaart/Jeugd",
+    "samenvatting": "Voor advies en lichte hulp bij opvoeden kunt u zelf terecht, zonder aanvraag, bij ONS Welzijn en de jeugdgezondheidszorg van de GGD. Specialistische jeugdhulp koopt Boekel in met de andere gemeenten in Noordoost-Brabant, via de inkooporganisatie RIOZ. In het overzicht van RIOZ geven aanbieders zelf een geschatte wachttijd op; vraag het Dorpsteam wat dat voor uw kind betekent.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/contractenboek",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Gratis via de jeugdgezondheidszorg van de GGD en de jeugdprofessionals van ONS Welzijn: advies, trainingen en informatiebijeenkomsten. Geen beschikking nodig.",
+        "omschrijving": "Advies, trainingen en informatiebijeenkomsten over opvoeden en opgroeien. U kunt gratis terecht, zonder aanvraag, bij de jeugdprofessionals van ONS Welzijn (aanmelden via het Dorpsteam) en de jeugdgezondheidszorg van de GGD.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een beschikking van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht via RIOZ.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie, intensieve hulp thuis en persoonlijke verzorging als de zorgverzekering die niet betaalt. U komt er via het Dorpsteam of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen, als de hulp start vóór hun dertiende. In Boekel vraagt u het samen met school aan bij het Dorpsteam, niet bij een dyslexieteam; na een besluit van de gemeente kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Daghulp, respijtzorg en logeren",
+        "omschrijving": "Bij daghulp werkt uw kind in een groep aan vaardigheden en structuur. Respijtzorg, overdag of met logeren, ontlast u als ouder; eerst wordt gekeken of gewone opvang of uw eigen omgeving kan helpen.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In de regio zijn er pleeggezinnen (ook voor het weekend), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Voor kinderen en jongeren tot 23 jaar in een acute crisis is er een regionale crisisdienst. Zie de pagina Crisis- en noodsituaties van het Dorpsteam.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, een crisispleeggezin of een korte opvangplek. Spoedeisende Zorg van Jeugdbescherming Brabant beoordeelt dag en nacht of dat nodig is; bij een psychische crisis helpt de crisisdienst van de ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noordoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -271,7 +298,7 @@
   },
   "jeugdzorgregio": "Noordoost-Brabant",
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Dorpsteam Boekel: Jeugdhulp",
@@ -387,8 +414,43 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "RIOZ: Specialistische Jeugdhulp (gemeenten regio Noordoost-Brabant)",
+        "url": "https://www.rioz.nl/jeugd",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Contractenboek jeugd (producten en geschatte wachttijden per aanbieder)",
+        "url": "https://www.rioz.nl/jeugd/contractenboek",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Productenboek jeugd (versie juni 2026)",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Bijlage%202%20-%20Productenboek%202023%20versie%20juni%202026%201.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Veelgestelde vragen jeugd (crisis, huisartsverwijzing, gecertificeerde instellingen)",
+        "url": "https://www.rioz.nl/jeugd/veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Regionale werkinstructie inkoop gespecialiseerde jeugdhulp (aug 2026, versie 13), par. 4.11 Dyslexie",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Regionale%20werkinstructie%20inkoop%20gespecialiseerde%20jeugdhulp%20aug%202026%20versie%2013.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Niet vastgesteld of de cliëntondersteuner buiten het Dorpsteam werkt. Steunpunt basisonderwijs heeft alleen een 06-nummer, steunpunt ZOB geen openbaar nummer. Geen aandeelHuisarts: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+    "opmerkingen": "Niet vastgesteld of de cliëntondersteuner buiten het Dorpsteam werkt. Steunpunt basisonderwijs heeft alleen een 06-nummer, steunpunt ZOB geen openbaar nummer. Geen aandeelHuisarts: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Dyslexie: werkinstructie RIOZ aug 2026 zegt dat toekenning in Boekel via 'onze lokale toegang' loopt, niet via het dyslexieteam; dat dit het Dorpsteam is, is afgeleid. Boekelse basisscholen vallen onder SWV PO Helmond-Peelland (steunpuntkaart), dat geen route publiceert."
   }
 }

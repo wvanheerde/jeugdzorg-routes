@@ -126,24 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij De Kleine Schans, zonder besluit van de gemeente: advies, opvoedondersteuning en oudertrainingen in een groep (Triple P). Specialistische jeugdhulp koopt Woudenberg samen met Amersfoort, Baarn, Bunschoten, Eemnes, Leusden en Soest in. Sinds 1 april 2025 kan nieuwe specialistische hulp alleen starten bij MetMaya. Uitzonderingen zijn onder meer dagactiviteiten en dyslexiezorg. MetMaya zegt zelf dat er wachttijden zijn en geeft vooraf geen inschatting. Een overzicht van wachttijden is niet openbaar te vinden.",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht bij het Sociaal Team van De Kleine Schans, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Woudenberg in met de andere gemeenten van de regio Amersfoort; bijna alles komt van één aanbieder, MetMaya. Een overzicht van wachttijden is niet openbaar te vinden: vraag het Sociaal Team naar de wachttijd voor uw kind.",
+    "gecontracteerdeAanbiedersUrl": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via De Kleine Schans: advies, Triple P-oudertrainingen voor ouders van kinderen en tieners en een groep voor kinderen na een scheiding (KIES).",
+        "omschrijving": "Advies, Triple P-oudertrainingen en de KIES-groep voor kinderen na een scheiding. U kunt zelf terecht bij De Kleine Schans, zonder aanvraag; Home-Start en Buurtgezinnen bieden steun van vrijwilligers en gezinnen uit de buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Sociaal Team of een verwijzing van de huisarts: behandeling, begeleiding en diagnostiek via MetMaya, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Sociaal Team van De Kleine Schans helpt eerst zelf. Is meer nodig, dan geeft MetMaya de hulp vanuit een team in uw gemeente, na verwijzing door het Sociaal Team, de huisarts of de jeugdarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 12 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Vermoedt school ernstige dyslexie, dan meldt u uw kind zelf aan bij de poortwachter dyslexie van Samenwerkingsverband de Eem; daar staat ook de lijst met aanbieders.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagactiviteiten is uw kind buiten schooltijd in een groep bezig; logeren ontlast u als ouder. Logeren regelt MetMaya, dagactiviteiten komen van andere aanbieders: vraag het Sociaal Team wat past.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. MetMaya regelt in deze regio pleegzorg, gezinshuizen en verblijf, ook met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Bij een psychische crisis schakelt de huisarts de crisisdienst van GGz Centraal in; het Sociaal Team kan via het Crisis Coördinatiepunt een crisisplek of crisishulp thuis regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Amersfoort doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -329,6 +364,46 @@
       {
         "titel": "MetMaya: contact",
         "url": "https://metmaya.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Eén aanbieder voor bijna alle specialistische jeugdhulp: MetMaya",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Jeugdhulp vanuit MetMaya teams",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/jeugdhulp-vanuit-metmaya-teams",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Verwijzing bij crisis",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/verwijzing-bij-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Dyslexie, Bouw! en Poortwachter",
+        "url": "https://www.swvdeeem.nl/samen-leren/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Poortwachter Dyslexie regio Amersfoort",
+        "url": "https://dyslexie.swvdeeem.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland (SAVE Jeugdbescherming)",
+        "url": "https://www.samenveiligmiddennederland.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

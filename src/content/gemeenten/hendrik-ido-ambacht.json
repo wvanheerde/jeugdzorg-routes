@@ -109,31 +109,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Sophia Sociaal Team en bij de huisarts, zonder besluit van de gemeente. Specialistische jeugdhulp koopt de gemeente samen met negen andere gemeenten in via de Serviceorganisatie Jeugd Zuid-Holland Zuid. De Beschikbaarheidswijzer toont de aanbieders met een contract en hun wachttijden. Openbaar, zonder inloggen. De regionale contracten lopen door tot en met 2027.",
+    "samenvatting": "Bij het Sophia Sociaal Team kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Hendrik-Ido-Ambacht in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
-        "naam": "Advies en lichte hulp",
-        "omschrijving": "Via het Sophia Sociaal Team: advies, korte ondersteuning, groepsaanbod en themabijeenkomsten voor ouders. Ook de POH-ggz jeugd bij de huisarts en Opvoedondersteuning PLUZ (voorheen Autipoli) horen hierbij.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte hulp, groepen en themabijeenkomsten voor ouders. U kunt zelf terecht, zonder aanvraag, bij het Sophia Sociaal Team, de praktijkondersteuner jeugd-ggz van de huisarts en Opvoedondersteuning PLUZ (voorheen Autipoli).",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Jeugdhulp op school (proef)",
-        "omschrijving": "Begeleiding op een aantal basisscholen door een jeugdprofessional van het Sophia Sociaal Team, om zwaardere hulp te voorkomen.",
-        "hulpsoorten": [
-          "ambulante-begeleiding"
-        ]
+        "omschrijving": "Op een aantal basisscholen werkt een jeugdprofessional van het Sophia Sociaal Team mee, zodat kinderen sneller hulp krijgen.",
+        "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist: ambulante hulp, jeugd-ggz, verblijf en pleegzorg, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via het Sophia Sociaal Team of met een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; aanvragen kan vanaf midden groep 4. School vraagt het met uw toestemming aan bij de poortwachter van samenwerkingsverband Drechtsteden; daarna kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -321,9 +354,44 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis ZHZ: Crisisinterventieteam Zuid-Holland Zuid",
+        "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Drechtsteden: Handleiding Ernstige Dyslexie PO per 01-08-2026",
+        "url": "https://www.swvdrechtsteden.nl/system/files/handleiding-ernstige-dyslexie-po-per-01-08-2026-versie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Drechtsteden: aangesloten scholen",
+        "url": "https://www.swvdrechtsteden.nl/voor-ouders/scholen",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Begroting 2027 nog niet verschenen. Eigen klachtenregeling en openingstijden van het Sophia Sociaal Team niet vastgesteld (site achter captcha). Bezwaarpagina en cliëntondersteuner MEE Plus niet op de gemeentesite bevestigd; doorlooptijden niet gevonden, regionale journalistiek niet doorzocht."
+    "opmerkingen": "Begroting 2027 nog niet verschenen. Eigen klachtenregeling en openingstijden van het Sophia Sociaal Team niet vastgesteld (site achter captcha). Bezwaarpagina en cliëntondersteuner MEE Plus niet op de gemeentesite bevestigd; doorlooptijden niet gevonden, regionale journalistiek niet doorzocht. Dyslexie: route uit de handleiding van SWV Drechtsteden per 1-8-2026; dat de basisscholen in Hendrik-Ido-Ambacht onder SWV Drechtsteden vallen, blijkt uit de scholenlijst van het SWV (de handleiding noemt geen gemeenten)."
   },
   "jeugdzorgregio": "Zuid-Holland Zuid",
   "ervaringen": {

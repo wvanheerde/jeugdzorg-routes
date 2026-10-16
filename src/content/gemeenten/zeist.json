@@ -123,44 +123,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente bij het CJG. Denk aan advies, korte begeleiding, online hulp via Evie en groepen over bijvoorbeeld scheiding, opvoeden van pubers en weerbaarheid. Voor specialistische jeugdhulp kiest u samen met het CJG een aanbieder met een contract. De gemeente neemt zo nodig een besluit. Zeist koopt die hulp in met Bunnik, De Bilt, Utrechtse Heuvelrug en Wijk bij Duurstede. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen. Per 1 januari 2027 gaan nieuwe regionale contracten in. De gemeente wil dan ook meer groepsaanbod en meer hulp van het CJG zelf.",
+    "samenvatting": "Bij het CJG Zeist kunt u zelf terecht, zonder aanvraag bij de gemeente, voor advies, korte begeleiding, online hulp via Evie en groepen. Specialistische jeugdhulp koopt Zeist in samen met Bunnik, De Bilt, Utrechtse Heuvelrug en Wijk bij Duurstede, de regio Zuidoost-Utrecht.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-oost-utrecht",
     "categorieen": [
       {
-        "naam": "Basisondersteuning en groepsaanbod via het CJG",
-        "omschrijving": "Advies, korte begeleiding, spreekuren (ook over scheiding), trainingen voor ouders en groepen voor kinderen. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, spreekuren en trainingen voor ouders, en groepen voor kinderen over bijvoorbeeld scheiding, pubers en weerbaarheid. U kunt zelf terecht, zonder aanvraag, bij het CJG, ook op de inloopspreekuren in de wijk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp thuis en op school",
-        "omschrijving": "Gezinscoaching, opvoedondersteuning aan huis, begeleiding bij autisme of een verstandelijke beperking en systeemtherapie, via een aanbieder met contract.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Bijvoorbeeld gezinscoaching, begeleiding bij autisme of een verstandelijke beperking en systeemtherapie; u kiest samen met het CJG een aanbieder, en voor jeugd-ggz mag de huisarts, jeugdarts of medisch specialist ook verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "opvoedondersteuning",
-          "dagbesteding"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Behandeling bij psychische klachten. De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. De basisschool verwijst uw kind zelf door; u hoeft hiervoor niet naar het CJG.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbehandeling en respijtzorg",
+        "omschrijving": "Behandeling overdag in een groep, en respijtzorg om u als ouder even te ontlasten. U vraagt dit aan via het CJG.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Zuidoost-Utrecht zoekt het KNOOPpunt van vijf aanbieders samen met het lokale team een plek die zo veel mogelijk op thuis lijkt.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Snelle hulp bij onveiligheid of als het thuis ernstig uit de hand loopt, zoals een crisisinterventieteam of crisispleegzorg.",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt. Veilig Thuis Utrecht voert dan de crisisdienst uit; bij een psychische crisis schakelt de huisarts de crisisdienst van Altrecht in.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Hulp buiten het eigen gezin, als thuis wonen tijdelijk niet kan.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
-          "verblijf-pleegzorg"
+          "jeugdbescherming"
         ]
       }
     ]
@@ -463,8 +478,48 @@
         "titel": "MEE Dichtbij: voor wie",
         "url": "https://meedichtbij.nl/",
         "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Zorgtoewijzing jeugdhulp (o.a. ernstige dyslexie via basisonderwijs)",
+        "url": "https://www.zorginzou.nl/jeugdhulp/zorgtoewijzing-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Jeugdhulp verblijf en KNOOPpunt",
+        "url": "https://www.zorginzou.nl/jeugdhulp-verblijf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Crisishulp",
+        "url": "https://www.zorginzou.nl/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Productenwaaier 2026 Jeugd Ambulant en Respijtzorg",
+        "url": "https://www.zorginzou.nl/documenten/productenwaaier-2026-jeugd-ambulant-en-respijtzorg-regio-zou/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijd tot eerste gesprek bij het CJG en gemeentelijke klachtenpagina's niet gevonden; CJG telefonisch 9-13 uur (9-17 uur geldt voor het Sociaal Team). Verordening 2027 is nog een voorstel (raad 10 november 2026); begroting 2027 nog niet vastgesteld (debat 29 oktober). Inspectie, rekenkamer en regionale journalistiek leverden geen Zeister jeugdsignalen op."
+    "opmerkingen": "Doorlooptijd tot eerste gesprek bij het CJG en gemeentelijke klachtenpagina's niet gevonden; CJG telefonisch 9-13 uur (9-17 uur geldt voor het Sociaal Team). Verordening 2027 is nog een voorstel (raad 10 november 2026); begroting 2027 nog niet vastgesteld (debat 29 oktober). Inspectie, rekenkamer en regionale journalistiek leverden geen Zeister jeugdsignalen op. Dyslexie: geen aparte poortwachter gevonden in ZOU; ZorginZOU noemt het basisonderwijs als verwijzer, de verordening verwijst naar de landelijke richtlijn."
   }
 }

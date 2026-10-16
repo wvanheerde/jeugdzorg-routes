@@ -145,12 +145,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Krimpenerwaard, bij de jeugdondersteuner van de huisarts en via het Sociaal Preventieteam. Dat is een samenwerking van onder meer WelZijn Krimpenerwaard en Kwadraad. Voor die hulp is geen besluit van de gemeente nodig. Specialistische jeugdhulp koopt Krimpenerwaard samen met vier andere gemeenten in, via de samenwerking Jeugd en Wmo Midden-Holland (GR JW). De regio heeft een eigen zoeker met aanbieders en wachttijden, Startpunt. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Bij het CJG Krimpenerwaard, de jeugdondersteuner bij de huisarts en het Sociaal Preventieteam kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Krimpenerwaard in met de andere gemeenten van de regio Midden-Holland. Vraag naar wachttijden bij het Loket Samenleving en Zorg of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://zorgkaart.teamzorgportaal.nl/3",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Krimpenerwaard: advies van een jeugdverpleegkundige, pedagogisch advies of korte begeleiding door een CJG-pedagoog, logopedie, cursussen en de jeugdgezondheidszorg. Vanuit de gemeente komt meer groepsaanbod voor opvoedondersteuning.",
+        "omschrijving": "Advies van een jeugdverpleegkundige, pedagogisch advies of korte begeleiding door een CJG-pedagoog, logopedie en cursussen. U kunt zelf terecht, zonder aanvraag, bij het CJG Krimpenerwaard en het Sociaal Preventieteam van onder meer WelZijn Krimpenerwaard en Kwadraad.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -161,14 +161,48 @@
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, behandeling, dagbesteding, jeugd-ggz, pleegzorg en verblijf, ingekocht door de regio.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, bij de aanbieder of in een groep bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via een medewerker jeugd van het Loket Samenleving en Zorg of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling bij hardnekkige lees- en spellingsproblemen, voor kinderen op de basisschool. Het begint op school: is de hulp van school niet genoeg, dan verwijst de school naar een dyslexiebehandelaar, die het met de gemeente regelt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding of behandeling in een groep, ook in een kinderdagcentrum, voor kinderen met een beperking of ernstige problemen; school wordt daarbij betrokken. Logeeropvang en deeltijdpleegzorg ontlasten u als ouder.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio Midden-Holland heeft pleegzorg, gezinshuizen, kamertraining voor oudere jongeren en wonen met behandeling, ook gesloten jeugdhulp.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Binnen kantoortijd regelt het lokale team van de gemeente dit; daarbuiten is het Crisis Interventie Team (CIT) van Kwadraad bereikbaar.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-Holland doet Jeugdbescherming west dit, vanuit Gouda. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -317,7 +351,7 @@
       {
         "titel": "CJG Krimpenerwaard: Nu hulp nodig?",
         "url": "https://www.cjgkrimpenerwaard.nl/pagina/nu-hulp-nodig/692858",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Krimpenerwaard: Afspraken (jeugdgezondheidszorg)",
@@ -383,6 +417,41 @@
         "titel": "Koers VO - Voor ouders",
         "url": "https://www.koersvo.nl/voor-ouders/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GR JW: Informatie over de huidige contracten",
+        "url": "https://www.grjw.nl/informatie-over-de-huidige-contracten",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GR JW: Producten en productcodes 2026",
+        "url": "https://cuatro.sim-cdn.nl/grjwb466a1/uploads/Productcodelijst%202026_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GR JW: Overeenkomst Jeugdbescherming en Jeugdreclassering 2025 (inkijkexemplaar)",
+        "url": "https://cuatro.sim-cdn.nl/grjwb466a1/uploads/overeenkomst-jbjr-midden-holland_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GR JW: Voor verwijzers (Startpunt)",
+        "url": "https://www.grjw.nl/voor-verwijzers",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Gouda - Hulp bij dyslexie",
+        "url": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden/hulp-bij-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen gemeentelijke spoedpagina: gelinkt naar de crisispagina van het CJG. Doorlooptijden toegang en CEO over 2025 niet gevonden."

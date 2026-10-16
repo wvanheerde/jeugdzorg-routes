@@ -118,25 +118,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bijvoorbeeld bij de maatschappelijk werker op school, de praktijkondersteuner Jeugd bij de huisarts en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Tynaarlo samen met Aa en Hunze, Assen, Midden-Drenthe en Noordenveld in (NMD-samenwerking). Voor een deel van de hulp werken alle twaalf Drentse gemeenten samen. De Beschikbaarheidswijzer toont de aanbieders en wachttijden in deze regio. Die is openbaar, zonder inloggen. Vraag Team Jeugd om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de maatschappelijk werker op school, de praktijkondersteuner jeugd bij de huisarts en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Tynaarlo in samen met Aa en Hunze, Assen, Midden-Drenthe en Noordenveld. Vraag Team Jeugd om hulp bij het kiezen van een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/noord-en-midden-drenthe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Jeugdgezondheidszorg (consultatiebureau en GGD), maatschappelijk werker op school en praktijkondersteuner Jeugd bij de huisarts. Zonder besluit van de gemeente.",
+        "omschrijving": "Advies bij de jeugdgezondheidszorg (consultatiebureau en GGD), de maatschappelijk werker op school en de praktijkondersteuner jeugd bij de huisarts. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van Team Jeugd of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via Team Jeugd of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, ook gericht op school, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg (ook in deeltijd), gezinshuizen, verblijf met begeleiding of behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -309,6 +343,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Productoverzicht 2026 Noord- en Midden-Drenthe (NMD-samenwerking)",
+        "url": "https://nmdsamenwerking.nl/wp-content/uploads/2026/03/Matrix-Productoverzicht-2026-versie-1.3.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "NMD-samenwerking: Veelgestelde vragen (dagbesteding, logeren/respijt Drenthe)",
+        "url": "https://nmdsamenwerking.nl/veelgestelde-vragen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 (jaarrekening staat achter een login) en begroting 2027 (verschenen 7 oktober 2026) niet gelezen; raad.tynaarlo.nl zit achter bot-controle. Geen cliëntervaringsonderzoek Jeugd en geen doorlooptijden gevonden (CEO Wmo 2022 wel). Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

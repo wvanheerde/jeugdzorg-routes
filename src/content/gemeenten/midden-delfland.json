@@ -126,25 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Sociaal Team, bijvoorbeeld van Home-Start Humanitas. Specialistische jeugdhulp koopt Midden-Delfland in met acht andere gemeenten in de regio Haaglanden, via het Servicebureau Jeugdhulp Haaglanden. In Startpunt van dat servicebureau kunt u aanbieders zoeken. Dat is openbaar, zonder inloggen. De Beschikbaarheidswijzer dekt alleen Den Haag. Vanaf 2028 koopt de regio basis-ggz, korte begeleiding van het gezin en begeleiding op school niet meer op de gewone manier in, dus de gemeente bouwt die hulp zelf op.",
+    "samenvatting": "Bij het Sociaal Team kunt u zelf terecht met lichte vragen, zonder aanvraag. Specialistische jeugdhulp koopt Midden-Delfland in samen met de andere gemeenten van de regio Haaglanden. Vraag naar wachttijden bij het Sociaal Team of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://zoek-startpunt.sbjh.nl/2",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het Sociaal Team en de jeugdgezondheidszorg: advies, de frontoffice voor lichte vragen en Home-Start Humanitas.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij de frontoffice van het Sociaal Team en de jeugdgezondheidszorg; via het Sociaal Team kan een vrijwilliger van Home-Start Humanitas helpen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Sociaal Team of een verwijzing van de huisarts: begeleiding, jeugd-ggz, behandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het Sociaal Team of een verwijzing van de huisarts; ook hulp bij persoonlijke verzorging, zoals wassen en aankleden, is in Haaglanden ingekocht.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Het loopt via school: die verwijst en levert het leerlingdossier aan, dus vraag eerst de school of zij ernstige dyslexie vermoeden.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, buiten school, op school of in plaats van school, voor kinderen met een beperking of ernstige problemen. Logeren in een huiselijke omgeving, bijvoorbeeld een weekend, ontlast u als ouder.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Haaglanden is er pleegzorg, ook in deeltijd, en er zijn gezinshuizen, behandelgroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Haaglanden komt het Crisis Interventie Team van Jeugdbescherming west dag en nacht; zo nodig volgt een crisisplek of crisispleegzorg.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Haaglanden doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -223,7 +257,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Midden-Delfland: Jeugdhulp",
@@ -354,6 +388,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productbeschrijvingen 2025 (H8)",
+        "url": "https://sbjh.nl/wp-content/uploads/2025/07/ROH8-B5-Productbeschrijvingen-V5.1-20250717-20250901.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productencatalogus (aanbieders en gecertificeerde instellingen)",
+        "url": "https://sbjh.nl/gemeente/productencatalogus/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Crisis Interventie Team",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en doorlooptijden toegang niet gevonden (wel een Wmo-onderzoek 2025), en geen aparte klachtenregeling van het Sociaal Team. Home-Start Humanitas heeft geen eigen website; cliëntondersteuning voor jeugd door SWMD niet apart bevestigd en regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

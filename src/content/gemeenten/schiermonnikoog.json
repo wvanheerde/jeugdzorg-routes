@@ -117,20 +117,60 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Gebiedsteam. Specialistische jeugdhulp koopt Schiermonnikoog samen met de andere 17 Friese gemeenten in via Sociaal Domein Fryslân. Op het eiland zelf is weinig aanbod; veel aanbieders zitten op de vaste wal. De Beschikbaarheidswijzer Friesland is openbaar, zonder inloggen. Vraag het Gebiedsteam om hulp bij het kiezen, en vraag hoe de reistijd is geregeld.",
+    "samenvatting": "Bij opvoedvragen en lichte zorgen kunt u zelf terecht bij het Gebiedsteam van Noardeast-Fryslân, dat dit werk voor Schiermonnikoog doet. Specialistische jeugdhulp koopt Schiermonnikoog samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân. Veel aanbieders zitten op de vaste wal; vraag het Gebiedsteam hoe de reistijd is geregeld.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
-        "naam": "Opvoed- en opgroeiondersteuning en lichte hulp",
-        "omschrijving": "Via het Gebiedsteam en de jeugdgezondheidszorg: advies en lichte hulp, zonder besluit van de gemeente.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en korte hulp bij vragen over opvoeden en opgroeien, van het Gebiedsteam en de jeugdgezondheidszorg. U kunt ook eerst de gemeente Schiermonnikoog zelf spreken.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Ambulante hulp (hulp thuis of op afspraak), dagbehandeling, pleegzorg en verblijf, samen ingekocht voor heel Fryslân. In de regionale afspraken is rekening gehouden met de reistijd naar de Waddeneilanden.",
-        "hulpsoorten": []
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het Gebiedsteam of met een verwijzing van de huisarts, jeugdarts of medisch specialist. Op het eiland is weinig aanbod; met de reistijd is in de afspraken rekening gehouden. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
+        "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. School meldt uw kind aan, met uw toestemming. U kiest zelf een van de aanbieders met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via het Gebiedsteam of de huisarts.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via het Gebiedsteam of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
     ]
   },
@@ -172,7 +212,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Schiermonnikoog: Zorg, werk en inkomen",
@@ -253,6 +293,46 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Crisishulp",
+        "url": "https://www.sdfryslan.nl/jeugd/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen eigen jeugdpagina; koppeling met Gebiedsteam Noardeast-Fryslân komt uit verordening en zomernota. Raad besluit 20 oktober 2026 over nieuwe verordening (nu geldt die van 2018) en 3 november over begroting 2027; doorlooptijden, cliëntervaringsonderzoek, pgb-pagina, klachtenregeling Noardeast-Fryslân en jeugdcrisispagina niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 de verwijzercijfers geheim (totaal 10 trajecten)."

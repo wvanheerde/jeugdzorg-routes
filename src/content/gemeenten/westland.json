@@ -132,48 +132,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Het SKT geeft zelf opvoed- en andere lichte hulp, zonder beschikking. Specialistische jeugdhulp wordt regionaal ingekocht door het Servicebureau Jeugdhulp Haaglanden namens negen gemeenten; de begroting 2027 meldt nieuwe afspraken met aanbieders vanaf 1 januari 2028, waarbij regionaal ingekochte hulp voor een bepaalde doelgroep vervalt en Westland collectieve basisjeugdhulp aanbesteedt. Voor ambulante hulp hanteert de gemeente een normenkader met een maximaal volume en een maximale behandelduur per product. In 2025 kreeg 12,4% van de jongeren tot 18 jaar in Westland jeugdhulp (Nederland 13,7%), volgens CBS-cijfers in de begroting 2027. De Beschikbaarheidswijzer is voor deze regio niet gevonden; het regionale platform Startpunt Jeugd toont aanbieders en wachttijden en is bedoeld voor professionals en verwijzers.",
+    "samenvatting": "Bij het Sociaal Kernteam Westland (SKT) en de jeugdgezondheidszorg kunt u zelf terecht voor opvoedhulp, zonder aanvraag. Specialistische jeugdhulp koopt Westland in samen met de andere gemeenten van de regio Haaglanden. Vraag naar wachttijden bij uw zorgregisseur van het SKT of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://zoek-startpunt.sbjh.nl/2",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het SKT en JGZ Zuid-Holland West, zonder beschikking.",
+        "omschrijving": "Advies en hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het SKT en JGZ Zuid-Holland West; Vitis Welzijn heeft themabijeenkomsten voor ouders en vrijwillige gezinsmaatjes.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en behandeling",
-        "omschrijving": "Met een beschikking van het SKT of via verwijzing van een arts; met normenkader voor volume en duur.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking; ook hulp bij persoonlijke verzorging, zoals wassen en aankleden, is in Haaglanden ingekocht. U komt er via het SKT of een verwijzing van een arts, en de gemeente legt per soort hulp vast hoeveel en hoelang die maximaal duurt.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via het SKT of een verwijzing van huisarts of jeugdarts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Het loopt via school: die verwijst en levert het leerlingdossier aan, dus vraag eerst de school of zij ernstige dyslexie vermoeden.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbehandeling en dagbesteding",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, buiten school, op school of in plaats van school, voor kinderen met een beperking of ernstige problemen. Logeren in een huiselijke omgeving, bijvoorbeeld een weekend, ontlast u als ouder.",
         "hulpsoorten": [
-          "dagbesteding"
+          "dagbesteding",
+          "logeren-respijt"
         ]
       },
       {
-        "naam": "Jeugdhulp met verblijf en pleegzorg",
-        "omschrijving": "Regionaal ingekocht.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Haaglanden is er pleegzorg, ook in deeltijd, en er zijn gezinshuizen, behandelgroepen en kamertraining om zelfstandig te leren wonen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Crisishulp en jeugdbescherming",
-        "omschrijving": "Crisis Interventie Team en Jeugdbescherming West.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Haaglanden komt het Crisis Interventie Team van Jeugdbescherming west dag en nacht; zo nodig volgt een crisisplek of crisispleegzorg.",
         "hulpsoorten": [
-          "crisishulp",
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Haaglanden doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -427,7 +437,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Westland – Sociaal Kernteam Westland",
@@ -618,6 +628,31 @@
         "titel": "SWV VO Westland: ouder- en jeugdsteunpunt",
         "url": "https://www.swv-westland.nl/voor-ouders/ouder-en-jeugdsteunpunt-passend-onderwijs/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productbeschrijvingen 2025 (H8)",
+        "url": "https://sbjh.nl/wp-content/uploads/2025/07/ROH8-B5-Productbeschrijvingen-V5.1-20250717-20250901.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productencatalogus (aanbieders en gecertificeerde instellingen)",
+        "url": "https://sbjh.nl/gemeente/productencatalogus/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Crisis Interventie Team",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen IGJ-rapport over het SKT gevonden en geen apart cliëntervaringsonderzoek over de toegang buiten het SKT-jaarverslag. De uitspraak van de rechtbank Den Haag is niet op rechtspraak.nl gevonden; de bron is het jaarverslag van de bezwaarcommissie. Datum van signalen uit het SKT-jaarverslag is de raadpleegdatum; Startpunt Jeugd is niet gecontroleerd op toegang zonder inloggen."

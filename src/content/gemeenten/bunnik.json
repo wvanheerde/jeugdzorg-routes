@@ -111,24 +111,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u via het Centrum voor Elkaar en de lokale organisaties in BunnikSamen, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Bunnik in met vier andere gemeenten in Zuidoost Utrecht (ZOU). De Beschikbaarheidswijzer toont de aanbieders van de regio; die is openbaar, zonder inloggen. Op 1 januari 2027 gaan nieuwe contracten in voor ambulante hulp (hulp thuis of op afspraak) en verblijf. Aanbieders kunnen dan veranderen. Vraag het CvE wat dit voor uw kind betekent.",
+    "samenvatting": "Bij het Centrum voor Elkaar kunt u zelf terecht, zonder aanvraag bij de gemeente, voor advies en lichte hulp. Specialistische jeugdhulp koopt Bunnik in samen met De Bilt, Utrechtse Heuvelrug, Wijk bij Duurstede en Zeist, de regio Zuidoost-Utrecht.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-oost-utrecht",
     "categorieen": [
       {
-        "naam": "Advies en lichte hulp",
-        "omschrijving": "Via het Centrum voor Elkaar: tips, advies en verwijzing naar hulp in de buurt, zoals Buurtgezinnen en jongerenwerk.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Tips en advies bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het Centrum voor Elkaar; Buurtgezinnen en het jongerenwerk bieden steun in de buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het CvE of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht in ZOU.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het Centrum voor Elkaar of met een verwijzing van huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. De basisschool verwijst uw kind zelf door; u hoeft hiervoor niet naar het Centrum voor Elkaar.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbehandeling en respijtzorg",
+        "omschrijving": "Behandeling overdag in een groep, en respijtzorg om u als ouder even te ontlasten. U vraagt dit aan via het Centrum voor Elkaar.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Zuidoost-Utrecht zoekt het KNOOPpunt van vijf aanbieders samen met het lokale team een plek die zo veel mogelijk op thuis lijkt.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt. Veilig Thuis Utrecht voert dan de crisisdienst uit; bij een psychische crisis schakelt de huisarts de crisisdienst van Altrecht in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -213,7 +248,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Bunnik: Opvoedondersteuning en jeugdhulp",
@@ -309,9 +344,49 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorg in ZOU – Zorgtoewijzing jeugdhulp (o.a. ernstige dyslexie via basisonderwijs)",
+        "url": "https://www.zorginzou.nl/jeugdhulp/zorgtoewijzing-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Jeugdhulp verblijf en KNOOPpunt",
+        "url": "https://www.zorginzou.nl/jeugdhulp-verblijf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Crisishulp",
+        "url": "https://www.zorginzou.nl/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in ZOU – Productenwaaier 2026 Jeugd Ambulant en Respijtzorg",
+        "url": "https://www.zorginzou.nl/documenten/productenwaaier-2026-jeugd-ambulant-en-respijtzorg-regio-zou/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Geen aparte crisispagina voor jeugd op bunnik.nl; spoedblok verwijst naar het onderdeel Veilig Thuis op de jeugdhulppagina. Doorlooptijden toegang niet gevonden, cliëntervaringsonderzoek over 2025 nog niet verschenen, contactgegevens MEE van de landelijke site en regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+    "opmerkingen": "Geen aparte crisispagina voor jeugd op bunnik.nl; spoedblok verwijst naar het onderdeel Veilig Thuis op de jeugdhulppagina. Doorlooptijden toegang niet gevonden, cliëntervaringsonderzoek over 2025 nog niet verschenen, contactgegevens MEE van de landelijke site en regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Dyslexie: geen aparte poortwachter gevonden in ZOU; ZorginZOU noemt het basisonderwijs als verwijzer, de verordening verwijst naar de landelijke richtlijn."
   },
   "jeugdzorgregio": "Zuidoost-Utrecht",
   "ervaringen": {

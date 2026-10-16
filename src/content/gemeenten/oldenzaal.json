@@ -118,31 +118,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u terecht bij het Sociaal Plein, het consultatiebureau en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Oldenzaal samen met de andere Twentse gemeenten in via Samen14. De afspraken gelden sinds 1 januari 2025 en lopen tot 1 januari 2029, met mogelijke verlenging. De Beschikbaarheidswijzer voor Twente toont aanbieders en wachttijden, openbaar en zonder inloggen. De wachttijden verschillen per aanbieder. Vraag team Jeugd om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het Sociaal Plein, Loes en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Oldenzaal in samen met de andere Twentse gemeenten. Het team Jeugd helpt u een aanbieder kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en lichte hulp via het Sociaal Plein, het consultatiebureau en de jeugdgezondheidszorg van GGD Twente voor kinderen van 0 tot 19 jaar.",
+        "omschrijving": "Advies en lichte hulp bij opvoeden, zonder aanvraag. U kunt terecht bij het Sociaal Plein, Loes en de jeugdgezondheidszorg van GGD Twente voor kinderen van 0 tot 19 jaar.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Bij een aantal huisartsen in Oldenzaal, voor kinderen van 0 tot 18 jaar met opvoedproblemen, psychische klachten, lichamelijke klachten door spanning of alcohol- en drugsgebruik.",
+        "omschrijving": "Korte hulp voor kinderen van 0 tot 18 jaar, bijvoorbeeld bij opvoedproblemen, psychische klachten, lichamelijke klachten door spanning of alcohol- en drugsgebruik. U maakt een afspraak via een van de Oldenzaalse huisartsen die meedoen.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van team Jeugd of een verwijzing van de huisarts. Bijvoorbeeld hulp thuis, jeugd-ggz, dagbehandeling, verblijf en pleegzorg. De Twentse gemeenten kopen deze hulp samen in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie. U komt er via het team Jeugd van het Sociaal Plein of een verwijzing van de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -183,12 +216,12 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Oldenzaal: Jeugd en Zorg",
         "url": "https://www.oldenzaal.nl/jeugd-en-zorg",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Sociaal Plein Oldenzaal: Contact",
@@ -263,7 +296,7 @@
       {
         "titel": "Samen14: Inkoop",
         "url": "https://samen14.nl/inkoop/default.aspx",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "GGD Twente: Contact met Jeugdgezondheid",
@@ -289,6 +322,26 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Doorlooptijden toegang en cliëntervaringsonderzoek 2025 niet gevonden; het onderzoek van 2024 is alleen via het rekenkamerrapport bekend. Klachtregeling Sociaal Plein zelf en cliëntondersteuning jeugd (Impuls: Wmo) niet bevestigd. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

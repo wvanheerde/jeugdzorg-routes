@@ -132,40 +132,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp via Voor ieder 1 zonder beschikking; specialistische jeugdhulp wordt regionaal ingekocht via de Serviceorganisatie Zorg Holland Rijnland. In 2024 ontving 11,6% van de jeugdigen van 0 tot en met 17 jaar in Teylingen jeugdhulp (regiogemiddelde 11,4%). De gemeente verwacht de komende jaren een verder oplopend financieel tekort door stijgende jeugdzorgkosten, deels tijdelijk gedekt door extra rijksgeld. De Beschikbaarheidswijzer toont alle gecontracteerde aanbieders met wachttijden, openbaar en zonder inloggen.",
+    "samenvatting": "Bij het CJG Teylingen en Voor ieder 1 kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Teylingen in samen met de andere gemeenten van de regio Holland Rijnland. Heeft een aanbieder zijn budget voor het jaar op, dan neemt die tijdelijk geen nieuwe kinderen aan: vraag Voor ieder 1 dan om een andere aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via CJG en Voor ieder 1, zonder beschikking.",
+        "omschrijving": "Advies, gesprekken en gratis trainingen voor kinderen, bijvoorbeeld over weerbaarheid of een scheiding. U kunt zelf terecht, zonder aanvraag, bij het CJG Teylingen en Voor ieder 1, en via Voor ieder 1 bij een steunouder.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking. Voor ieder 1 helpt eerst zelf, ook op middelbare scholen, en verwijst zo nodig door; ook de huisarts of jeugdarts kan verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van Voor ieder 1 of arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het loopt via school: die meldt uw kind aan, daarna geeft de gemeente de hulp toe.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbehandeling, dagbesteding en respijtzorg",
+        "omschrijving": "Behandeling of begeleiding overdag in een groep, ook in een kinderdagcentrum, voor kinderen met een beperking of ernstige problemen. Dagbesteding kan ook tijdelijk worden ingezet om u als ouder te ontlasten.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Er is pleegzorg, ook in deeltijd, en er zijn gezinshuizen en woongroepen, soms met behandeling.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Voor ieder 1 kan hulp thuis, een crisisplek of crisispleegzorg regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Holland Rijnland doet Jeugdbescherming west dit, vanuit Leiden. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -401,7 +420,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Teylingen – Hulp en ondersteuning",
@@ -602,6 +621,36 @@
         "titel": "SWV V(S)O Duin- en Bollenstreek – Contact",
         "url": "https://swvduinenbollenstreek.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Gecontracteerde zorg",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/gecontracteerde-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Dienstomschrijvingen jeugdhulp 2022-2026 (pdf)",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/01/Bijlage-5-Dienstomschrijvingen-v12-feb-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Hoe te handelen bij een crisis?",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/hoe-te-handelen-bij-een-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Voor ieder 1 – Vraag of zorg over je kind",
+        "url": "https://www.voorieder1.nl/vraag-zorg-over-je-kind/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west – Gemeenten en werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: geen gemeentespecifiek cijfer uit het regionale MCJO-cliëntervaringsonderzoek (Holland Rijnland/Lorenz) en geen kwantitatieve doorlooptijden van Voor ieder 1; geen IGJ-rapport over Voor ieder 1. Het meldpunt Zorgombudsman was een pilot uit 2017 en is bewust niet opgenomen. Contactgegevens samenwerkingsverband primair onderwijs (Duin- en Bollenstreek) niet gevonden."

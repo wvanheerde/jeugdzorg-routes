@@ -133,37 +133,65 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u meestal meteen, zonder besluit van de gemeente. U vindt die bij de schoolmaatschappelijk werker, het CJG, de praktijkondersteuner jeugd en het inloopmoment van Fijn je te Zien. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van de huisarts, jeugdarts of medisch specialist. Voorne aan Zee koopt die hulp in met twaalf andere gemeenten, via de Gemeenschappelijke Regeling Jeugdhulp Rijnmond (GRJR). Dat is een samenwerkingsverband van gemeenten. Daaronder vallen onder meer pleegzorg, crisishulp en jeugdbescherming. In de Beschikbaarheidswijzer van Voorne aan Zee ziet u welke aanbieders een contract hebben, welke hulp zij bieden en of er wachttijden zijn. Die site is openbaar, zonder inloggen.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij de schoolmaatschappelijk werker, het CJG, de praktijkondersteuner jeugd en Fijn je te Zien, zonder aanvraag. Specialistische jeugdhulp koopt Voorne aan Zee in met twaalf andere gemeenten in de regio Rijnmond.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/voorne-aan-zee",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via het CJG, de schoolmaatschappelijk werker, Fijn je te Zien en de praktijkondersteuner jeugd. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, opvoedcursussen en trainingen. U kunt zelf terecht bij het CJG, de schoolmaatschappelijk werker, Fijn je te Zien en de praktijkondersteuner jeugd van de huisarts, zonder aanvraag; die laatste is er niet in Oostvoorne en Rockanje.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jeugd-ggz en begeleiding",
-        "omschrijving": "Jeugd-ggz via het Sociaal Gebiedsteam of een verwijzing. Bij een aanvraag voor jeugd-ggz laat de gemeente binnen 8 weken weten of u de hulp krijgt.",
+        "naam": "Begeleiding en jeugd-ggz",
+        "omschrijving": "Begeleiding of behandeling thuis of bij de aanbieder. U komt er via het Sociaal Gebiedsteam of een verwijzing; bij jeugd-ggz hoort u binnen 8 weken of u de hulp krijgt.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz",
           "ambulante-begeleiding"
         ]
       },
       {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met ernstige dyslexie, als hulp op school niet genoeg is. De intern begeleider meldt uw kind in overleg met u aan, vanaf halverwege groep 4, en u kiest zelf de aanbieder.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
         "naam": "Hulp op school en daginvulling",
-        "omschrijving": "Gemeente en scholen maken samen afspraken over hulp op school en over daginvulling. Die afspraken heten het Afwegingskader Onderwijs-Jeugdhulp en Daginvulling Jeugd Voorne-Putten.",
+        "omschrijving": "Jeugdhulp op school en daginvulling voor kinderen die dat nodig hebben. Gemeente en scholen op Voorne-Putten maken samen afspraken over wie wat regelt.",
         "hulpsoorten": [
           "dagbesteding"
         ]
       },
       {
-        "naam": "Jeugdbescherming en pleegzorg",
-        "omschrijving": "Regionaal ingekocht via de GRJR. Zijn er zorgen over de veiligheid van een kind? Dan kunnen die worden besproken in het Jeugdbeschermingsplein Voorne aan Zee. U bent daar zelf bij.",
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via het Sociaal Gebiedsteam; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
         "hulpsoorten": [
-          "jeugdbescherming",
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Logeren en verzorging",
+        "omschrijving": "Logeren met dagactiviteiten, om u als ouder te ontlasten, en hulp bij de persoonlijke verzorging van uw kind. U komt er via het Sociaal Gebiedsteam.",
+        "hulpsoorten": [
+          "logeren-respijt",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Zijn er grote zorgen over de veiligheid van een kind, dan bespreekt het Jeugdbeschermingsplein Voorne aan Zee welke aanpak nodig is. U bent daar zelf bij. Na een maatregel van de kinderrechter begeleidt meestal Jeugdbescherming Rotterdam Rijnmond het gezin, soms de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -408,6 +436,36 @@
         "titel": "Onderwijscollectief VPR: steunpunt",
         "url": "https://www.onderwijscollectiefvpr.nl/steunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Nissewaard: Stappenplan vergoede dyslexiezorg Voorne-Putten (aanbesteding Dyslexiezorg, 2022)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/278553/documenten/8235193/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Samenwerking in crisissituaties",
+        "url": "https://www.jeugdhulprijnmond.nl/2026/01/29/samenwerking-in-crisissituaties-integrale-crisisdienst/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Klachtenregeling van het Sociaal Gebiedsteam zelf (los van de gemeentelijke klachtregeling) niet online gevonden. Cliëntervaringsonderzoek jeugd en gemeten doorlooptijden niet gevonden. Regionale journalistiek beperkt doorzocht."

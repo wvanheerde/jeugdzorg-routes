@@ -121,12 +121,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en groepsaanbod krijgt u van het wijkteam van Incluzio, zonder besluit van de gemeente. Specialistische jeugdhulp regelt Incluzio bij aanbieders waarmee het een contract heeft. Hollands Kroon werkt voor de inkoop samen met Den Helder, Schagen en Texel (regio Kop van Noord-Holland). De huidige contracten lopen volgens de gemeente tot 1 januari 2028. Daarna is het plan dat de vier gemeenten samen een deel van de specialistische hulp inkopen. U meldt zich dan nog steeds bij het wijkteam. In de Beschikbaarheidswijzer ziet u aanbieders en wachttijden.",
+    "samenvatting": "Bij het wijkteam van Incluzio kunt u zelf terecht, zonder aanvraag, voor advies, lichte hulp en groepstrainingen. Specialistische jeugdhulp regelt Incluzio bij aanbieders waarmee het een contract heeft; voor jeugdbescherming werkt Hollands Kroon samen met de andere gemeenten in de Kop van Noord-Holland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/hollands-kroon",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en groepsaanbod",
-        "omschrijving": "Via het wijkteam: advies, begeleiding, groepstrainingen voor kinderen, jongeren en ouders en hulp bij scheiding. Het wijkteam kijkt altijd eerst of hulp in een groep past.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, begeleiding, groepstrainingen voor kinderen, jongeren en ouders, en hulp bij scheiding. U kunt zelf terecht, zonder aanvraag, bij het wijkteam van Incluzio; dat kijkt eerst of hulp in een groep past.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -137,19 +137,48 @@
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp thuis, behandeling, jeugd-ggz en verblijf, ingekocht door Incluzio.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het wijkteam begeleidt eerst zelf en regelt zo nodig hulp bij een aanbieder met een contract; een verwijzing van huisarts of jeugdarts kan ook. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling bij ernstige dyslexie, betaald door Incluzio. U meldt uw kind zelf aan via de website van het Regionaal Instituut Dyslexie (RID), met de gegevens van de intern begeleider van school; daarna volgt een screening.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, voor kinderen met een beperking of ernstige problemen. Logeren of andere respijtzorg helpt te voorkomen dat u als ouder overbelast raakt; vraag ernaar bij het wijkteam.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep van een instelling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Onderzoek en behandeling bij ernstige dyslexie. U meldt uw kind aan via het Regionaal Instituut Dyslexie, samen met de intern begeleider van school.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp bij ernstige zorgen over de veiligheid van een kind. Op werkdagen helpt het wijkteam; daarbuiten is het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord dag en nacht bereikbaar, ook op feestdagen.",
         "hulpsoorten": [
-          "dyslexiezorg"
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de Kop van Noord-Holland doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -222,7 +251,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hollands Kroon: Jeugdhulp",
@@ -378,9 +407,34 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verwervingsstrategie jeugdbescherming en jeugdreclassering NW4 regio's Noord-Holland 2026-2030",
+        "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/b608c77c-eb8c-4a6e-89b0-674add89bf4e",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027-2030 (raad 5 november 2026) nog niet gevonden; tijd tot start bij de toegang en cliëntondersteuning speciaal voor jeugd niet vastgesteld. Contactgegevens op de steunpuntpagina van het SWV verwijzen deels naar andere regio's en zijn niet overgenomen. De pgb-pagina van de gemeente noemt ook de Wmo; voor jeugd geldt de Verordening jeugdhulp. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Programmabegroting 2027-2030 (raad 5 november 2026) nog niet gevonden; tijd tot start bij de toegang en cliëntondersteuning speciaal voor jeugd niet vastgesteld. Contactgegevens op de steunpuntpagina van het SWV verwijzen deels naar andere regio's en zijn niet overgenomen. De pgb-pagina van de gemeente noemt ook de Wmo; voor jeugd geldt de Verordening jeugdhulp. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "jeugdzorgregio": "Kop van Noord-Holland",
   "ervaringen": {

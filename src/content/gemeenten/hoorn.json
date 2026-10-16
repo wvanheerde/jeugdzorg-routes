@@ -117,42 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via 1.Hoorn zelf. Daar werken opvoedadviseurs die u adviseren en soms groepsaanbod of themaspreekuren geven, bijvoorbeeld over scheiden. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Hoorn koopt die hulp in met de andere Westfriese gemeenten. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. De wijzer is openbaar, zonder inloggen. Bij sommige aanbieders is de wachttijd opgelopen tot een jaar. In die tijd kan 1.Hoorn of de praktijkondersteuner jeugd bij de huisarts overbruggingshulp inzetten. Vraag ernaar.",
+    "samenvatting": "Bij 1.Hoorn kunt u zelf terecht, zonder aanvraag, bijvoorbeeld bij een opvoedadviseur of een inloopspreekuur. Specialistische jeugdhulp koopt Hoorn in samen met de andere Westfriese gemeenten. Moet u wachten op hulp? Vraag 1.Hoorn of de praktijkondersteuner jeugd bij de huisarts dan om hulp in de tussentijd.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/west-friesland",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en lichte hulp",
-        "omschrijving": "Via de opvoedadviseurs van 1.Hoorn en de POH-jeugd bij de huisarts. Meestal geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, groepen en themaspreekuren bij vragen over opvoeden, bijvoorbeeld over scheiden. U kunt zelf terecht, zonder aanvraag, bij de opvoedadviseurs van 1.Hoorn en bij de praktijkondersteuner jeugd van veel huisartsen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Begeleiding thuis of op school, via een aanbieder met een contract. Daarvoor is een besluit van de gemeente of een verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook onderzoek naar wat er speelt. U komt er via 1.Hoorn, waar u met een vaste contactpersoon een perspectiefplan maakt, of via een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via 1.Hoorn of via een verwijzing van huisarts, jeugdarts of medisch specialist. Voor diagnostiek en behandeling kunnen wachttijden oplopen.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar op de (speciale) basisschool met hardnekkige lees- en spellingsproblemen. U kiest zelf een aanbieder met een contract; school stuurt het verwijzingsadvies daarheen.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Pleegzorg is schaars. De regio werkt aan meer kleine woonvoorzieningen en aan hulp thuis in plaats van verblijf.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, ook voor kinderen met een verstandelijke beperking. Logeren, gewoon of intensief, geeft u als ouder even rust; vraag ernaar bij 1.Hoorn.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd), gezinshuizen, woongroepen, behandelgroepen en kamertraining voor oudere jongeren.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis wordt direct zwaardere hulp ingeschakeld. Bel buiten kantoortijden de huisartsenpost.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten, ook met crisishulp thuis of een korte crisisplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord is dag en nacht bereikbaar.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Friesland doet Jeugdbescherming Regio Amsterdam of De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -360,7 +377,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hoorn - Jeugdhulp",
@@ -501,8 +518,68 @@
         "titel": "Passend Onderwijs West-Friesland - Ouder- en jeugdsteunpunt",
         "url": "https://www.passendonderwijswf.nl/ouder-en-jeugdsteunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Specialistische jeugdhulp (segment B)",
+        "url": "https://zorginregiowestfriesland.nl/specialistische-jeugdhulp-segment-b",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Hoog specialistische jeugdhulp (segment C)",
+        "url": "https://zorginregiowestfriesland.nl/hoogspecialistische-jeugdhulp-segment-c",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Jeugdhulp met verblijf (segment V)",
+        "url": "https://zorginregiowestfriesland.nl/jeugdhulp-segment-v",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Ernstige Dyslexie (ED)",
+        "url": "https://zorginregiowestfriesland.nl/ernstige-enkevoudige-dyslexie-eed",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Crisishulp",
+        "url": "https://zorginregiowestfriesland.nl/crisishulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Gecertificeerde Instellingen (GI's)",
+        "url": "https://zorginregiowestfriesland.nl/nieuwe-pagina",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Hoorn: Dyslexie",
+        "url": "https://www.hoorn.nl/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Cliëntervaringsonderzoek nieuwer dan 2022 en gemeten doorlooptijden niet gevonden; jaarstukken 2025 bevatten geen wachttijden. IGJ-rapport over de gebiedsteams (2023) niet teruggevonden (link 404). Regionale journalistiek niet doorzocht; Begroting 2027 is nog een werkversie."
+    "opmerkingen": "Cliëntervaringsonderzoek nieuwer dan 2022 en gemeten doorlooptijden niet gevonden; jaarstukken 2025 bevatten geen wachttijden. IGJ-rapport over de gebiedsteams (2023) niet teruggevonden (link 404). Regionale journalistiek niet doorzocht; Begroting 2027 is nog een werkversie. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd."
   }
 }

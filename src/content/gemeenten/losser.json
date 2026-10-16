@@ -128,32 +128,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Advies en opvoedondersteuning krijgt u gratis en zonder besluit van de gemeente, bij team wijz, Loes en de schoolmaatschappelijk werkers. Specialistische jeugdhulp koopt Losser samen met de andere Twentse gemeenten in. In de Beschikbaarheidswijzer van Twente ziet u welke aanbieders er zijn en hoe lang hun wachttijden zijn. Dat overzicht is openbaar, zonder inloggen. Vraag team wijz om hulp bij het kiezen. Volgens de gemeente zijn de wachttijden bij aanbieders een probleem. Het team zegt andere hulp te geven zolang u wacht op specialistische hulp.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij team wijz en Loes. Specialistische jeugdhulp koopt Losser in samen met de andere Twentse gemeenten. Team wijz helpt u een aanbieder kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via team wijz, Loes en het schoolmaatschappelijk werk: informatie, advies en lichte hulp dichtbij. Er is ook de gratis training KIES voor kinderen van 7 tot 12 jaar bij een scheiding.",
+        "omschrijving": "Informatie, advies en lichte hulp dichtbij, bij team wijz, Loes en het schoolmaatschappelijk werk, zonder aanvraag. Voor kinderen van 7 tot 12 jaar van wie de ouders scheiden is er de gratis training KIES.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp thuis, behandeling, jeugd-ggz, dyslexiezorg, groepsbegeleiding en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie. U komt er via team wijz of de huisarts; moet u wachten, dan biedt team wijz zolang andere hulp. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Hulp in ernstige situaties die direct aandacht nodig hebben, regionaal geregeld.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -205,12 +232,12 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Losser: Jeugd en gezondheid",
         "url": "https://www.losser.nl/jeugd-en-gezondheid",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Losser: Zorg en ondersteuning (toegangsteam wijz)",
@@ -275,7 +302,7 @@
       {
         "titel": "Samen14: Inkoop",
         "url": "https://samen14.nl/inkoop/default.aspx",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeenterekening 2025 (jaarstukken, gewaarmerkt)",
@@ -311,6 +338,26 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarstukken, monitor en raadsinformatie. Nieuwere cliëntervaringsonderzoeken dan dat over 2023 niet gevonden. Regionale journalistiek niet doorzocht (WebSearch-limiet). Contactgegevens SWV VO Twente Oost: alleen 06-nummer, daarom niet opgenomen. Of de raad de begroting 2027 heeft vastgesteld (besluit 10 november), is nog niet gecontroleerd."

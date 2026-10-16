@@ -133,43 +133,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "SamenWaard geeft lichte hulp, steun bij opvoeden en begeleiding. Daarvoor heeft u geen besluit van de gemeente nodig. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Hoeksche Waard koopt die hulp in met de andere gemeenten in Zuid-Holland Zuid, via de Dienst Gezondheid & Jeugd (DG&J). Sinds 2026 zijn er nieuwe contracten met aanbieders. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die site is openbaar, zonder inloggen.",
+    "samenvatting": "Bij SamenWaard kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Hoeksche Waard in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en lichte hulp",
-        "omschrijving": "Via SamenWaard, zonder besluit van de gemeente. Ook praktijkondersteuners jeugd-ggz bij de huisarts bieden korte hulp.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte hulp en begeleiding bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij SamenWaard en de praktijkondersteuner jeugd-ggz van de huisarts; Buurtgezinnen koppelt u aan een steungezin in de buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding thuis (ambulant)",
-        "omschrijving": "SamenWaard wil meer begeleiding zelf gaan bieden. Voor intensievere begeleiding is een besluit van de gemeente of een verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via SamenWaard of met een verwijzing van een arts.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via SamenWaard of via een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; de hulp moet starten voordat uw kind groep 8 verlaat. School vraagt het samen met u aan; na akkoord van de dyslexiespecialist van het samenwerkingsverband kiest u zelf een aanbieder met contract.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis start de hulp eerst. Het besluit volgt binnen vier weken na de start.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is: de hulp start eerst, het besluit van de gemeente volgt binnen vier weken. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Steungezinnen en pleegzorg",
-        "omschrijving": "Buurtgezinnen koppelt gezinnen die het moeilijk hebben aan een steungezin in de buurt.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
-          "logeren-respijt"
+          "jeugdbescherming"
         ]
       }
     ]
@@ -361,7 +377,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hoeksche Waard - Opvoeden en opgroeien",
@@ -522,8 +538,38 @@
         "titel": "Ouder- en jeugdsteunpunt SWV Hoeksche Waard - Contact",
         "url": "https://www.ouder-jeugdsteunpunthw.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis ZHZ: Crisisinterventieteam Zuid-Holland Zuid",
+        "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Primair Passend Onderwijs Hoeksche Waard (SWV 28.04): veelgestelde vragen",
+        "url": "https://swv2804.nl/faq/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Cliëntervaringsonderzoek en gemeten doorlooptijden jeugd niet gevonden, ook niet in de jaarstukken 2025; evaluatie lokaal team (zomer 2026) niet gevonden. Geen IGJ-, rekenkamer- of ombudsmanrapport gevonden; regionale journalistiek beperkt doorzocht."
+    "opmerkingen": "Cliëntervaringsonderzoek en gemeten doorlooptijden jeugd niet gevonden, ook niet in de jaarstukken 2025; evaluatie lokaal team (zomer 2026) niet gevonden. Geen IGJ-, rekenkamer- of ombudsmanrapport gevonden; regionale journalistiek beperkt doorzocht. Dyslexie: verordening 2026 art. 12 (akkoord ED-specialist van het verantwoordelijke samenwerkingsverband) en FAQ van SWV 28.04 (laatst gewijzigd 2022; noemt nog aanmelding via \"loket Drechtsteden\" en daarna zelf een gecontracteerde aanbieder kiezen). Wie nu precies de poortwachter is (SWV 28.04, Driegang of Drechtsteden), is niet bevestigd."
   }
 }

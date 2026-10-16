@@ -128,37 +128,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Veel lichte hulp krijgt u zonder verwijzing: spreekuren, groepstrainingen voor kinderen en hulp bij school, pesten of opvoeden. Voor specialistische jeugdhulp hebt u een verwijzing van Geynwijs, huisarts, jeugdarts of medisch specialist nodig. Nieuwegein koopt die hulp in met Houten, IJsselstein, Lopik en Vijfheerenlanden, in de regio Lekstroom. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen.",
+    "samenvatting": "Voor spreekuren, groepstrainingen voor kinderen en hulp bij school, pesten, scheiding of opvoeden kunt u zelf terecht, zonder aanvraag. Specialistische jeugdhulp koopt Nieuwegein in samen met Houten, IJsselstein, Lopik en Vijfheerenlanden, de regio Lekstroom.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/lekstroom",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Spreekuren voor ouders en jongeren, hulp bij onderwijs en pesten, groepstrainingen voor kinderen en gratis ondersteuning bij scheiding. Geen verwijzing nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Spreekuren voor ouders en jongeren, groepstrainingen voor kinderen en gratis ondersteuning bij scheiding. U kunt zelf terecht, zonder aanvraag, bij Geynwijs, ook via Geynwijs op School en de Duo-functionarissen op middelbare scholen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Hulp op school en bij de huisarts",
-        "omschrijving": "Geynwijs op School en de Duo-functionarissen (Geynwijs samen met een jongerenwerker) op de middelbare scholen. Bij de huisarts werkt de POH-jeugd.",
-        "hulpsoorten": [
-          "opvoedondersteuning",
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Begeleiding en behandeling via verwijzing",
-        "omschrijving": "Specialistische hulp bij bijvoorbeeld gedrag, angst of trauma. Verwijzing via Geynwijs of de huisarts.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Bij de huisarts werkt een POH-jeugd (praktijkondersteuner); voor hulp bij bijvoorbeeld gedrag, angst of trauma verwijst Geynwijs of de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Crisishulp en veiligheid",
-        "omschrijving": "Bij een crisis of zorgen over veiligheid: Veilig Thuis, huisarts of huisartsenpost.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. Ouders en school vullen samen de aanvraag in bij ZIEN in de Klas, dat voor de regio beoordeelt of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep na school, in het weekend of in de vakantie, een kinderdagcentrum voor jonge kinderen en logeren om u als ouder te ontlasten. U vraagt dit aan via Geynwijs.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: in een pleeggezin, een gezinshuis of op een behandelgroep. Vier aanbieders zoeken samen in een voordeurteam de best passende plek.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. De regio heeft crisishulp thuis, een tijdelijke crisisplek, crisispleegzorg en crisisbehandeling in de jeugd-ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -518,6 +540,41 @@
       {
         "titel": "Adviespunt Zorgbelang",
         "url": "https://adviespuntzorgbelang.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Lekstroom – Producten en tarieven Jeugdhulp 2026 (ambulant, onderwijstijd, crisis)",
+        "url": "https://www.regiolekstroom.nl/fileadmin/houten_regiolekstroom/Jeugd/Tarieven/Tarievenlijst_Jeugd_2026_-_Ambulant_en_JIO_Crisis_en_Forensisch_2.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Lekstroom – Gezinsvormen",
+        "url": "https://www.regiolekstroom.nl/jeugd/contracten-en-tarieven-jeugd/gezinsvormen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Lekstroom – Dyslexie (poortwachter ZIEN in de Klas)",
+        "url": "https://www.regiolekstroom.nl/verwijzers/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

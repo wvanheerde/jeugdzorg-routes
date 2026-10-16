@@ -114,25 +114,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Den Helder koopt jeugdhulp in samen met de andere gemeenten in de regio Kop van Noord-Holland. De huidige contracten met aanbieders zijn verlengd. Nieuwe contracten zijn gepland voor 1 januari 2028. De gemeente bereidt jeugdhulp op school voor, eerst op negen scholen. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang de wachttijd is. Openbaar, zonder inloggen.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het consultatiebureau, de jeugdgezondheidszorg en de praktijkondersteuner jeugd van de huisarts. Specialistische jeugdhulp koopt Den Helder in met de andere gemeenten in de Kop van Noord-Holland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
     "categorieen": [
       {
-        "naam": "Lichte hulp en advies",
-        "omschrijving": "Via de medewerkers jeugd van Team Zorg, de praktijkondersteuner jeugd bij de huisarts, de jeugdgezondheidszorg en lichte hulp in de buurt.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het consultatiebureau, de jeugdgezondheidszorg of de praktijkondersteuner jeugd van de huisarts; ook de medewerker jeugd van Team Zorg geeft zelf lichte hulp.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (hulp thuis of bij de aanbieder), jeugd-ggz, dagbehandeling, vaktherapie, hulp bij ernstige dyslexie en verblijf.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, soms met vaktherapie als deel van de behandeling. De medewerker jeugd van Team Zorg maakt met u een plan en verwijst door; een verwijzing van huisarts of jeugdarts kan ook. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het begint bij school: een dyslexiespecialist van het samenwerkingsverband passend onderwijs beoordeelt of onderzoek of behandeling nodig is.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, voor kinderen met een beperking of ernstige problemen. Logeeropvang geeft u als ouder even rust.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Er is pleegzorg, er zijn gezinshuizen en kleine woongroepen, en kamer- en fasetraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als de veiligheid thuis plotseling in gevaar is. Overdag belt u de gemeente en onderneemt Team Zorg direct actie; buiten kantoortijden helpt het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de Kop van Noord-Holland doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -196,7 +230,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Den Helder: Jeugdhulp",
@@ -297,9 +331,34 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verwervingsstrategie jeugdbescherming en jeugdreclassering NW4 regio's Noord-Holland 2026-2030",
+        "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/b608c77c-eb8c-4a6e-89b0-674add89bf4e",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarstukken en raadsinformatie. Klachtenregeling Team Zorg apart niet online (gemeentelijke regeling gebruikt); raadsinformatiesysteem zit achter bot-controle, RIB's via de gemeentesite gelezen. Inkooporganisatie regio niet vastgesteld."
+    "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarstukken en raadsinformatie. Klachtenregeling Team Zorg apart niet online (gemeentelijke regeling gebruikt); raadsinformatiesysteem zit achter bot-controle, RIB's via de gemeentesite gelezen. Inkooporganisatie regio niet vastgesteld. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "jeugdzorgregio": "Kop van Noord-Holland",
   "ervaringen": {

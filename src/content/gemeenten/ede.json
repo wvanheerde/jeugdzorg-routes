@@ -146,37 +146,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp en lichte ondersteuning loopt via het CJG, zonder beschikking. Specialistische jeugdhulp koopt Ede in met zes andere gemeenten (Barneveld, Nijkerk, Renswoude, Rhenen, Scherpenzeel en Veenendaal) in de jeugdhulpregio FoodValley; de inzet verloopt via de gemeente. In 2024 kreeg 13,3% van de jongeren tot 18 jaar in Ede jeugdhulp (gemeenten van 100.000–300.000 inwoners: 14,7%). Ede zet in op preventie, actieve regie en collectief aanbod om de kosten te beperken.",
-    "gecontracteerdeAanbiedersUrl": "https://www.ede.nl/ondersteuning-werk-inkomen/hulp-bij-opvoeden-en-opgroeien",
+    "samenvatting": "Bij het CJG Ede kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Ede in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Toegangsteam Jeugd of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://jeugdfv.nl/bvo/professionals/productenboek/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG, zonder verwijzing of beschikking: informatie, advies, lichte hulp, trainingen en vroeghulp voor kinderen van 0 tot 7 jaar.",
+        "omschrijving": "Informatie, advies, lichte hulp en trainingen bij vragen over opvoeden, en vroeghulp voor kinderen van 0 tot 7 jaar. U kunt zelf terecht, zonder aanvraag, bij het CJG Ede; ook Maatschappelijk Werk Ede helpt gezinnen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Regionaal ingekocht in FoodValley; toegang via het Toegangsteam Jeugd of een verwijzer.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het Toegangsteam Jeugd of een verwijzing van een arts; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met hardnekkige lees- en spellingsproblemen. De school vraagt het samen met u aan bij de gemeente en stuurt het leerlingdossier mee.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en logeeropvang om u als ouder te ontlasten. U vraagt het aan via het Toegangsteam Jeugd.",
+        "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Verblijf en pleegzorg",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Crisisdienst voor jeugdhulp met ondersteuning aan huis, zo nodig een crisispleeggezin of crisisopvang.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Toegangsteam Jeugd schakelt dag en nacht Spoedeisende Zorg (SEZ) van Jeugdbescherming Gelderland in; zo nodig volgt ambulante spoedhulp thuis of een crisisplek.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Ede doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -394,7 +416,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Ede – Hulp bij opvoeden en opgroeien",
@@ -565,8 +587,48 @@
         "titel": "SWV VO Gelderse Vallei: Ouder- en jeugdsteunpunt",
         "url": "https://swvgeldersevallei.nl/onze-partners/ouderenjeugdsteunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "JeugdFV: productenboek gecontracteerde aanbieders",
+        "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Gelderland (Ede, Barneveld, Scherpenzeel, Nijkerk)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_gelderl.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Ede: Hulp bij ernstige dyslexie",
+        "url": "https://www.ede.nl/ondersteuning-werk-inkomen/hulp-bij-ernstige-dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Regio FoodValley staat niet in de Beschikbaarheidswijzer en jeugdfv.nl is met een captcha afgeschermd, dus een overzicht van gecontracteerde aanbieders ontbreekt. Geen aparte klachtenregeling van het Toegangsteam Jeugd gevonden. Doorlooptijden Toegangsteam en het samenwerkingsverband passend onderwijs staan nog open."
+    "opmerkingen": "Regio FoodValley staat niet in de Beschikbaarheidswijzer en jeugdfv.nl is met een captcha afgeschermd, dus een overzicht van gecontracteerde aanbieders ontbreekt. Geen aparte klachtenregeling van het Toegangsteam Jeugd gevonden. Doorlooptijden Toegangsteam en het samenwerkingsverband passend onderwijs staan nog open. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   }
 }

@@ -127,30 +127,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp bij opvoeden krijgt u bij het sociaal wijkteam en bij Jeugd en Gezin, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Wijdemeren in met de andere gemeenten in Gooi en Vechtstreek. Aanbieders van zorg en ondersteuning in de regio vindt u openbaar op KiesZO. De regio staat niet op de Beschikbaarheidswijzer. Vraag de medewerker jeugd om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het sociaal wijkteam en bij Jeugd en Gezin. Specialistische jeugdhulp koopt Wijdemeren in samen met de andere gemeenten in Gooi en Vechtstreek. Vraag naar wachttijden bij het sociaal wijkteam of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.kieszo.nl",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Jeugd en Gezin en het sociaal wijkteam: advies, opvoedcoach, echtscheidingscoach, jongerenwerk (Jeugdpunt Wijdemeren) en Buurtgezinnen voor gezinnen die het zwaar hebben.",
+        "omschrijving": "Advies, een opvoedcoach of een echtscheidingscoach bij Jeugd en Gezin en het sociaal wijkteam, zonder aanvraag. Daarnaast zijn er het jongerenwerk van Jeugdpunt Wijdemeren en Buurtgezinnen, waar een ander gezin u steunt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Lichte ggz bij de huisarts",
-        "omschrijving": "Praktijkondersteuner en gedragswetenschapper bij de huisartsen voor jongeren met psychische klachten. De huisarts verwijst.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij een aanbieder bij problemen in het gezin, psychische problemen of een beperking, ook persoonlijke verzorging. Bij de huisarts helpen een praktijkondersteuner en een gedragswetenschapper jongeren met psychische klachten; voor meer hulp gaat u naar het sociaal wijkteam of de huisarts.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "ambulante-begeleiding",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, verblijf en pleegzorg, grotendeels regionaal ingekocht.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 12 jaar op de basisschool met ernstige lees- of spellingsproblemen. U en de school vullen elk een vragenlijst in; de Poortwachter Gooi en Vecht van Het ABC beoordeelt de aanvraag.",
         "hulpsoorten": [
-          "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, en kortdurend verblijf zodat uw kind even logeert en u als ouder op adem komt. U vraagt dit aan bij het sociaal wijkteam.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of jeugdinstelling",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen en verblijf in een jeugdinstelling. Eerst wordt gekeken of de problemen thuis op te lossen zijn.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis acuut niet meer veilig of houdbaar is. In Gooi en Vechtstreek doet de crisisdienst van Veilig Thuis dit, met onder meer crisispleegzorg.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Gooi en Vechtstreek doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -217,7 +246,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Wijdemeren: Hulp voor jeugd",
@@ -318,9 +347,64 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop & Contractbeheer Gooi en Vechtstreek: Voorzieningen en aanbieders",
+        "url": "https://www.icgv.nl/sociaal-domein/voorzieningen-en-aanbieders/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "KiesZO: Jeugdhulp in Gooi en Vechtstreek",
+        "url": "https://www.kieszo.nl/zorg-en-ondersteuning/jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Het ABC: Poortwachter dyslexie Regio Gooi en Vechtstreek",
+        "url": "https://hetabc.nl/themas/dyslexie/poortwachter/regio-gooi-en-vecht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Gooi en Vechtstreek: Samenwerkingsprotocol jeugdhulp in het gedwongen kader (2023)",
+        "url": "https://regiogv.nl/wp-content/uploads/2024/01/2023-Samenwerkingsprotocol-jeugdhulp-in-het-gedwongen-kader-.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Gooi en Vechtstreek: Oplegger hulpverlener op de bank (crisisopvang jeugd, 2023)",
+        "url": "https://www.regiogv.nl/wp-content/uploads/2023/06/Bijlage-13-Oplegger-en-bijlage-hulpverlener-op-de-bank.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Wijdemeren: Dyslexie",
+        "url": "https://www.wijdemeren.nl/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Wijdemeren: Pleegzorg",
+        "url": "https://www.wijdemeren.nl/pleegzorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Gooi en Vechtstreek: Wie zijn wij (Crisisdienst ook na kantooruren via 0800-2000)",
+        "url": "https://www.veiligthuisgv.nl/over-ons/wie-zijn-wij/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Gooi en Vechtstreek: Gebundelde ambulante crisiszorg 24/7",
+        "url": "https://www.regiogv.nl/gemeenteraden/bescherming-opvang/gebundelde-ambulante-crisiszorg-24-7/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 niet gevonden (alleen Kadernota 2027; Wijdemeren gaat per 2027 op in Hilversum). Geen recent cliëntervaringsonderzoek jeugd, doorlooptijden of klachtenregeling van het wijkteam gevonden. E-mailadres sociaal wijkteam en steunpunt niet op de eigen site bevestigd; WebSearch beperkt gebruikt."
+    "opmerkingen": "Programmabegroting 2027 niet gevonden (alleen Kadernota 2027; Wijdemeren gaat per 2027 op in Hilversum). Geen recent cliëntervaringsonderzoek jeugd, doorlooptijden of klachtenregeling van het wijkteam gevonden. E-mailadres sociaal wijkteam en steunpunt niet op de eigen site bevestigd; WebSearch beperkt gebruikt. Crisisdienst (16-10-2026): bevestigd op de site van Veilig Thuis Gooi en Vechtstreek (Crisisdienst ook na kantooruren via 0800-2000) en de regiopagina (crisisdienst voor jongeren ondergebracht bij Veilig Thuis)."
   },
   "jeugdzorgregio": "Gooi en Vechtstreek",
   "ervaringen": {

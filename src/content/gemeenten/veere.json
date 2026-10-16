@@ -124,23 +124,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp zonder beschikking krijgt u via welzijnsorganisaties op Walcheren, zoals Welzijn Veere. Specialistische jeugdhulp koopt Veere samen met de andere Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland. Op de website van die organisatie vindt u de aanbieders. Heeft uw jonge kind een ontwikkelingsprobleem, dan is er Integrale Vroeghulp. Zorg die uw kind op school nodig heeft, kan via de Jeugdwet.",
-    "gecontracteerdeAanbiedersUrl": "https://www.inkoopjeugdhulpzeeland.nl/aanbieders/",
+    "samenvatting": "Bij Welzijn Veere en de andere welzijnsorganisaties op Walcheren kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Veere in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
-        "naam": "Eerste hulp bij opvoeden en opgroeien",
-        "omschrijving": "Gratis advies, gesprekken en groepstrainingen via welzijnsorganisaties op Walcheren, bijvoorbeeld schoolmaatschappelijk werk. Hiervoor hebt u geen beschikking nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Gratis advies, gesprekken en groepstrainingen, bijvoorbeeld schoolmaatschappelijk werk. U kunt zelf terecht, zonder aanvraag, bij de welzijnsorganisaties op Walcheren; bij een ontwikkelingsprobleem van een jong kind is er Integrale Vroeghulp.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en persoonlijke verzorging. U komt er via het team Toegang Wmo en Jeugdwet of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen vanaf 7 jaar met hardnekkige lees- en spellingsproblemen; de behandeling moet voor de 13e verjaardag starten. School stuurt het leerlingdossier met uw toestemming naar Toegang Dyslexie, die beoordeelt of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding geeft uw kind buiten schooltijd, in het weekend of in de vakantie een zinvolle invulling van de dag. Logeeropvang, als aanvulling op dagbesteding, geeft u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: een pleeggezin, een gezinshuis of verblijf in een woongroep, soms met behandeling. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het team Toegang Wmo en Jeugdwet of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -220,6 +256,11 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer Zeeland)",
+      "omschrijving": "Jeugdhulpaanbieders met een contract in Zeeland, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
     }
   ],
   "ervaringen": {
@@ -286,7 +327,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Veere: Toegang Wmo en Jeugdwet",
@@ -361,12 +402,12 @@
       {
         "titel": "Verordening jeugdhulp en maatschappelijke ondersteuning gemeente Veere 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR750898/1",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Nadere regels jeugdhulp en maatschappelijke ondersteuning Veere 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR750967/1",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarverslag Veere 2025",
@@ -437,6 +478,41 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Jeugdhulp Zeeland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Begroting 2027 en Rapportage Sociaal Domein 2025 nog niet verschenen of niet gevonden. Klachtenregeling specifiek voor de Toegang, contactgegevens samenwerkingsverband VO en openingstijden van de Toegang niet gevonden. Beschikbaarheidswijzer Zeeland noemt Veere niet, daarom link naar IJZ; regionale journalistiek nauwelijks doorzocht."

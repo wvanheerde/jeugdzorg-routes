@@ -125,32 +125,63 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Barendrecht koopt een deel van de jeugdhulp zelf in. Specialistische jeugdhulp koopt de gemeente samen met twaalf andere gemeenten in de regio Rijnmond in, via de Gemeenschappelijke Regeling Jeugdhulp Rijnmond (GRJR). De Beschikbaarheidswijzer toont aanbieders en wachttijden voor Albrandswaard, Barendrecht en Ridderkerk. U kunt daar zelf ook kijken, zonder inloggen. Vraag het wijkteam om hulp bij het kiezen.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij de wijkteams en het CJG Rijnmond, zonder aanvraag. Een deel van de jeugdhulp koopt Barendrecht zelf in. Zwaardere specialistische hulp koopt de gemeente in met twaalf andere gemeenten in de regio Rijnmond.",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en preventie",
-        "omschrijving": "Via de wijkteams en het CJG: advies, cursussen en lichte hulp, zonder besluit van de gemeente. Bij tien huisartsen werkt een praktijkondersteuner jeugd-ggz.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, cursussen en korte hulp bij vragen over opvoeden. U kunt zelf terecht bij de wijkteams en het CJG Rijnmond, zonder aanvraag; bij tien huisartsen werkt ook een praktijkondersteuner jeugd-ggz.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Lokaal ingekochte jeugdhulp",
-        "omschrijving": "Ambulante hulp voor jeugdigen met een beperking of stoornis, dagprogramma's, generalistische basis-ggz (lichtere psychische hulp) en hulp bij ernstige dyslexie. Na een besluit van de gemeente of een verwijzing van de huisarts.",
+        "naam": "Begeleiding, verzorging en logeren",
+        "omschrijving": "Hulp thuis of bij de aanbieder voor kinderen met een beperking of stoornis, zoals begeleiding, persoonlijke verzorging, vaktherapie en logeren. De gemeente koopt deze hulp zelf in; u komt er via het wijkteam.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
-          "dagbesteding",
-          "dyslexiezorg",
-          "persoonlijke-verzorging"
+          "persoonlijke-verzorging",
+          "logeren-respijt"
         ]
       },
       {
-        "naam": "Regionale specialistische hulp",
-        "omschrijving": "Onder meer pleegzorg, specialistische ambulante hulp, crisisdienst en jeugdbescherming, door de GRJR ingekocht voor dertien gemeenten.",
+        "naam": "Lichte psychische hulp (basis-ggz)",
+        "omschrijving": "Onderzoek en behandeling bij lichte tot matige psychische problemen, ook begeleiding bij medicijnen voor bijvoorbeeld ADHD. U komt er via het wijkteam of een verwijzing van de huisarts.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
-          "crisishulp",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagprogramma's",
+        "omschrijving": "Dagactiviteiten of dagbehandeling in een groep. De gemeente koopt dit zelf in; u komt er via het wijkteam.",
+        "hulpsoorten": [
+          "dagbesteding"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 12 jaar met ernstige lees- en spellingsproblemen. School meldt aan via samenwerkingsverband RiBA en moet een volledig leerlingdossier hebben.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via het wijkteam; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Een jeugdbeschermer begeleidt het gezin als de zorgen over de veiligheid van een kind groot blijven. In de regio doet Jeugdbescherming Rotterdam Rijnmond dit, altijd samen met iemand van het lokale team. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -238,7 +269,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Barendrecht: Jeugdhulp",
@@ -344,6 +375,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Inkoop",
+        "url": "https://www.jeugdhulprijnmond.nl/werkwijze/inkoop/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek jeugd en geen doorlooptijden gevonden. Geen aparte spoedpagina van de gemeente: de spoedlink verwijst naar het crisiskopje op de pagina Wijkteams. Wie de wijkteams uitvoert, is niet vastgesteld; Beschikbaarheidswijzer-dekking van de regio niet vast te stellen."

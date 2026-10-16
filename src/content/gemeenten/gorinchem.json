@@ -133,12 +133,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het Sociaal Team, bij Jong JGZ en via de schoolmaatschappelijk werker. Specialistische jeugdhulp koopt Gorinchem samen met negen andere gemeenten in, via de Serviceorganisatie Jeugd Zuid-Holland Zuid. De Beschikbaarheidswijzer van deze regio toont aanbieders en wachttijden. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Bij het Sociaal Team kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Gorinchem in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Sociaal Team: gesprekken, het jeugd- en gezinsteam en trainingen voor ouders, zoals Triple P en groepsbehandeling angst. Ook de pedagogen van Jong JGZ geven kortdurende opvoedondersteuning.",
+        "omschrijving": "Gesprekken en trainingen bij vragen over opvoeden, zoals Triple P en groepsbehandeling bij angst. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Team; ook de pedagogen van Jong JGZ geven korte opvoedhulp.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -149,13 +149,48 @@
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit via het Sociaal Team of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, dagbehandeling en verblijf. Regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via het Sociaal Team of met een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; de hulp moet starten voordat uw kind groep 8 verlaat. School en u vragen het samen aan bij de poortwachter van samenwerkingsverband Driegang, die een compleet dossier binnen twee weken beoordeelt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -399,8 +434,38 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis ZHZ: Crisisinterventieteam Zuid-Holland Zuid",
+        "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Driegang: Enkelvoudige dyslexie (poortwachter ED)",
+        "url": "https://www.driegang.nl/professionals/diensten/enkelvoudige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 nog niet verschenen (raadssessie 29 oktober 2026). Geen klachtenregeling van het Sociaal Team online en geen doorlooptijden gemeten gevonden; nieuwste cliëntervaringsonderzoek is regionaal over 2022. Driegang.nl was niet bereikbaar: gegevens steunpunt PO van de landelijke kaart. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen (raadssessie 29 oktober 2026). Geen klachtenregeling van het Sociaal Team online en geen doorlooptijden gemeten gevonden; nieuwste cliëntervaringsonderzoek is regionaal over 2022. Driegang.nl was niet bereikbaar: gegevens steunpunt PO van de landelijke kaart. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexie: Driegang-pagina (laatst gewijzigd april 2025) noemt Gorinchem, Molenlanden en Hardinxveld-Giessendam met eigen procedure (toestemmingsverklaring, aanmelding in Grippa, deadlines 1 november en 1 april); wat er na het advies gebeurt (keuze aanbieder of beschikking) staat er voor deze gemeenten niet bij."
   }
 }

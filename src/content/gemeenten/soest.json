@@ -118,29 +118,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Soest werkt samen met de andere gemeenten in de regio Amersfoort. Lichte hulp krijgt u van het jeugdteam van Eemkracht en uit de sociale basis: hulp in de buurt, zonder besluit van de gemeente. Specialistische jeugdhulp en basis-ggz komen sinds 2024 van één aanbieder, MetMaya. Daarom is er geen lijst met losse aanbieders, en deze regio staat ook niet in de Beschikbaarheidswijzer. Heeft uw kind al een pgb of hulp van een andere aanbieder? Vraag dan het jeugdteam wat dat voor u betekent.",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht bij het jeugdteam van Eemkracht, ook op het inloopspreekuur in het gemeentehuis, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Soest in met de andere gemeenten van de regio Amersfoort; bijna alles komt van één aanbieder, MetMaya. Hoe de wachtlijst werkt, staat op de website van de regio; vraag het jeugdteam naar de wachttijd voor uw kind.",
+    "gecontracteerdeAanbiedersUrl": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het jeugdteam, school- en jongerenwerk, trainingen en steungezinnen. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, trainingen en school- en jongerenwerk. U kunt zelf terecht bij het jeugdteam van Eemkracht, zonder aanvraag; via Homies steunt een steungezin uw gezin.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Spreekuur Jeugd GGZ",
-        "omschrijving": "Eerste hulp bij psychische klachten en gedragsproblemen, via de huisarts.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp (MetMaya)",
-        "omschrijving": "Ambulante hulp (hulp thuis of op school), behandeling en jeugd-ggz in de regio Amersfoort, na verwijzing door het jeugdteam, de huisarts of de jeugdarts. Hier zijn wachttijden.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het jeugdteam helpt eerst zelf, en via de huisarts is er het Spreekuur Jeugd GGZ bij psychische klachten of gedrag. Is meer nodig, dan geeft MetMaya de hulp vanuit een team in uw gemeente, na verwijzing door het jeugdteam, de huisarts of de jeugdarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dagbesteding"
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 12 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Vermoedt school ernstige dyslexie, dan meldt u uw kind zelf aan bij de poortwachter dyslexie van Samenwerkingsverband de Eem; daar staat ook de lijst met aanbieders.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagactiviteiten is uw kind buiten schooltijd in een groep bezig; logeren ontlast u als ouder. Logeren regelt MetMaya, dagactiviteiten komen van andere aanbieders: vraag het jeugdteam wat past.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. MetMaya regelt in deze regio pleegzorg, gezinshuizen en verblijf, ook met behandeling.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Bij een psychische crisis schakelt de huisarts de crisisdienst van GGz Centraal in; het jeugdteam kan via het Crisis Coördinatiepunt een crisisplek of crisishulp thuis regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Amersfoort doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -312,6 +342,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Eén aanbieder voor bijna alle specialistische jeugdhulp: MetMaya",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/een-aanbieder-voor-bijna-alle-specialistische-jeugdhulp-metmaya",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Jeugdhulp vanuit MetMaya teams",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/jeugdhulp-vanuit-metmaya-teams",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hulp en Ondersteuning regio Amersfoort: Verwijzing bij crisis",
+        "url": "https://www.hulpenondersteuningregioamersfoort.nl/verwijzing-bij-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Dyslexie, Bouw! en Poortwachter",
+        "url": "https://www.swvdeeem.nl/samen-leren/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV de Eem: Poortwachter Dyslexie regio Amersfoort",
+        "url": "https://dyslexie.swvdeeem.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland (SAVE Jeugdbescherming)",
+        "url": "https://www.samenveiligmiddennederland.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd niet gevonden. Klachtregeling van Gemeentelijke Ombudsman alleen via de gemeentesite. Beschikbaarheidswijzer dekt regio Amersfoort niet. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

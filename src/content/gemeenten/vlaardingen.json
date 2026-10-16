@@ -121,48 +121,63 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het wijkteam, het CJG (Centrum voor Jeugd en Gezin), de gezinsspecialist op school en gratis online modules en cursussen van Mevis. Voor specialistische hulp maakt het wijkteam samen met u een ondersteuningsplan. Mevis zoekt dan een aanbieder die namens Mevis de hulp geeft. Crisishulp, jeugdbescherming en Veilig Thuis regelt de regio Rijnmond samen, via de Gemeenschappelijke Regeling Jeugdhulp Rijnmond (GRJR). Regio Rijnmond doet niet mee aan de Beschikbaarheidswijzer. In het Verwijzingsfilter van Jeugdhulp Rijnmond ziet u welke aanbieders een contract hebben.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij de wijkteams, het CJG, de gezinsspecialist op school en de online modules van Mevis, zonder aanvraag. Specialistische hulp regelt Mevis voor Vlaardingen, Schiedam en Maassluis; crisishulp en jeugdbescherming koopt de gemeente in met de regio Rijnmond. Vraag het wijkteam hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en lichte hulp",
-        "omschrijving": "Gratis online modules en cursussen van Mevis, het CJG Rijnmond en korte hulp van het wijkteam. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte hulp, cursussen en gratis online modules van Mevis. U kunt zelf terecht bij de wijkteams, het CJG en de gezinsspecialist op school, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Begeleiding thuis en op school",
-        "omschrijving": "Via het wijkteam, de gezinsspecialist op school of een aanbieder van Mevis. Voor intensieve begeleiding is een beschikking nodig.",
+        "omschrijving": "Hulp thuis, op school of in een groep, ook korte behandeling door het wijkteam zelf. Voor intensieve begeleiding kiest u samen met het wijkteam een aanbieder; daarvoor is een beschikking nodig.",
         "hulpsoorten": [
           "ambulante-begeleiding"
         ]
       },
       {
         "naam": "Jeugd-ggz",
-        "omschrijving": "Via het wijkteam of een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "omschrijving": "Onderzoek en behandeling bij psychische problemen. U komt er via het wijkteam of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Via het wijkteam of een gecertificeerde instelling (jeugdbescherming).",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 13 jaar op de basisschool met ernstige lees- en spellingsproblemen. Er geldt een vast stappenplan; vraag school of de jeugdprofessional op school hoe u uw kind aanmeldt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, logeren en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen, en logeren om u te ontlasten. Het wijkteam brengt u in contact met aanbieders; voor pleegzorg en verblijf zoekt Team Zorgbemiddeling van de regio een plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Dagbesteding en verzorging",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, en hulp bij de persoonlijke verzorging van uw kind. U komt er via het wijkteam.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Via het Crisis Interventie Team van de regio Rijnmond, dag en nacht bereikbaar.",
+        "omschrijving": "Bij een acute crisis helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond, dag en nacht.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
         "naam": "Jeugdbescherming",
-        "omschrijving": "Een jeugdbeschermer volgt alleen na een rechterlijke maatregel. Zorgen melden kan bij het wijkteam of Veilig Thuis.",
+        "omschrijving": "Een jeugdbeschermer begeleidt het gezin alleen na een maatregel van de kinderrechter. Zorgen over de veiligheid van een kind kunt u bespreken met het wijkteam of Veilig Thuis. Meestal doet Jeugdbescherming Rotterdam Rijnmond dit, soms de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -389,7 +404,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Vlaardingen - Jeugdhulp",
@@ -520,6 +535,31 @@
         "titel": "OuderPlusJeugdsteunpunt Schiedam, Vlaardingen, Maassluis",
         "url": "https://ouderplusjeugdsteunpunt.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Mevis: Op school",
+        "url": "https://www.mevis.nl/op-school/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Vlaardingen heeft zelf geen eigen versie van de Rogplus-voortgangsrapportage in de raadsinformatie; de versie van Schiedam is gebruikt. Regionale journalistiek beperkt doorzocht (rodi.nl blokkeerde, 9 zoekopdrachten). Rekenkamer (mogelijk ander jaar of andere definitie) meldt veel verwijzingen via de huisarts; het CBS-aandeel is 19%."

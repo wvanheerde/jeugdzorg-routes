@@ -133,50 +133,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp krijgt u via het buurtteam Jeugd & Gezin, zonder besluit van de gemeente. Aanvullende (specialistische) jeugdhulp komt van twee vaste partners: KOOS Utrecht in het westen van de stad en Spoor030 in het oosten. Zij werken in de wijken en samen met scholen en huisartsen. Yeph biedt hoogspecialistische hulp. Een lijst met losse aanbieders is er daarom niet; op de gemeentepagina ziet u welke partner bij uw wijk hoort. Utrecht doet niet mee aan de Beschikbaarheidswijzer. Vraag het buurtteam, KOOS of Spoor030 naar de actuele wachttijd.",
+    "samenvatting": "Bij het buurtteam Jeugd & Gezin kunt u zelf terecht, zonder aanvraag bij de gemeente; het buurtteam geeft zelf hulp. Aanvullende jeugdhulp koopt Utrecht in bij twee vaste partners: KOOS Utrecht in het westen van de stad en Spoor030 in het oosten. Vraag het buurtteam, KOOS of Spoor030 naar de actuele wachttijd.",
     "categorieen": [
       {
-        "naam": "Basishulp via het buurtteam",
-        "omschrijving": "Opvoedondersteuning, gezinsbegeleiding, groepen en online trainingen van Lokalis. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Gesprekken, groepen en online trainingen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het buurtteam Jeugd & Gezin van Lokalis; elke school heeft een vaste gezinswerker.",
         "hulpsoorten": [
-          "opvoedondersteuning",
-          "ambulante-begeleiding"
+          "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Aanvullende jeugdhulp (KOOS Utrecht, Spoor030)",
-        "omschrijving": "Jeugd-ggz, specialistische begeleiding en dagbehandeling, georganiseerd per wijk. Voor dagbehandeling van jonge kinderen is er een wachtlijst.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. De gezinswerker van het buurtteam helpt eerst zelf en verwijst zo nodig naar KOOS of Spoor030, vaak voor hulp in een groep; ook de huisarts, jeugdarts of medisch specialist mag verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
           "ambulante-begeleiding",
-          "dagbesteding"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Vergoed onderzoek en behandeling bij ernstige dyslexie; de gemeente heeft hiervoor een eigen pagina.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met hardnekkige lees- en spellingsproblemen. De school stuurt het dossier naar Het ABC, dat voor de gemeente beoordeelt; daarna kiest u, vaak samen met de school, een dyslexieaanbieder.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Logeren en respijtzorg",
-        "omschrijving": "Via aanvullende jeugdhulp of een pgb. Steun van vrijwilligers via Handjehelpen en Mantelzorg Utrecht.",
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Dagbesteding voor kinderen met een verstandelijke beperking, en respijtzorg zoals logeren om u als ouder te ontlasten, via KOOS, Spoor030 of een pgb. Vrijwilligers van Handjehelpen en Mantelzorg Utrecht bieden ook steun.",
         "hulpsoorten": [
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
-        "omschrijving": "De gemeente zoekt actief pleegouders. In 2025 vroegen meer kinderen om een verblijfplek, omdat de gesloten jeugdzorg wordt afgebouwd.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen, zoals in een pleeggezin, via KOOS of Spoor030. Voor hoogspecialistische hulp is er Yeph.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt. Veilig Thuis Utrecht is dag en nacht bereikbaar en voert dan de crisisdienst uit.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -628,6 +636,31 @@
         "titel": "Sterk VO - Contact",
         "url": "https://www.sterkvo.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gemeente Utrecht – Dyslexie",
+        "url": "https://www.utrecht.nl/zorg-en-onderwijs/jeugd-en-gezin/dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: geen gemeentelijke pagina met jeugdcrisisnummer buiten kantoortijd en geen pgb-plan-formulier gevonden. lokalis.nl, koosutrecht.nl en spoor030.nl laden niet zonder browser; nummers via UGids. AD-artikel alleen via samenvatting gelezen (betaalmuur). KOOS Utrecht en Spoor030 (aanbieders) hebben geen eigen contactblok."

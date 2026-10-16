@@ -115,23 +115,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij Zorg in Deurne. Specialistische jeugdhulp kopen elf gemeenten samen in via de jeugdregio Een 10 voor de Jeugd. In de Beschikbaarheidswijzer kiest u daar het gebied Peelgemeenten voor aanbieders en wachttijden. Vraag Zorg in Deurne om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de gezins- en jongerencoaches van Zorg in Deurne. Specialistische jeugdhulp koopt Deurne in met tien andere gemeenten in de jeugdregio Een 10 voor de Jeugd.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/een-10-voor-de-jeugd",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en lichte hulp van de gezins- en jongerencoaches, en van de jeugdgezondheidszorg van GGD Brabant-Zuidoost (onder meer Triple P).",
+        "omschrijving": "Gesprekken, advies en lichte hulp bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij de gezins- en jongerencoaches, het echtscheidingsspreekuur en de jeugdgezondheidszorg van GGD Brabant-Zuidoost, die onder meer de oudercursus Triple P geeft.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, ook vaktherapie, diagnostiek en praktische pedagogische thuisbegeleiding. U komt er via Zorg in Deurne of een verwijzing van de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 12 jaar met ernstige, hardnekkige leesproblemen. School maakt een leesdossier; daarmee kiest u zelf een gecontracteerde dyslexieaanbieder, zonder aanvraag bij de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, bijvoorbeeld in een kinderdagcentrum, een medisch kinderdagverblijf of gespecialiseerde naschoolse opvang. Logeren en respijtzorg geven u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg (ook in deeltijd), gezinshuizen, woongroepen en begeleiding naar zelfstandig wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig is: crisishulp thuis, crisispleegzorg of een korte opvangplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Zuidoost-Brabant is dag en nacht bereikbaar en Spoed voor Jeugd regelt de crisishulp voor de hele regio.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuidoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -267,7 +303,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Zorg in Deurne: Jeugd en gezin",
@@ -383,6 +419,56 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Toegang per segment",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/jeugdhulp-toegang/toegang-segmenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 2 Wonen",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-2-wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 3 Dagbesteding en dagbehandeling",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-3-dagbesteding-dagbehandeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 4 Specialistisch en veel voorkomend",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-4-specialistisch-veel-voorkomend/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: PDC Jeugd versie 1.14 (dyslexie)",
+        "url": "https://jeugdwmo.nl/wp-content/uploads/PDC-Jeugd-2022-10vdj-versie-1.14-260702-def.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Crisis (21 gemeenten Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Crisis Interventie Team Zuidoost-Brabant",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/crisis-interventie-team",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdbescherming en jeugdreclassering (gecertificeerde instellingen Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdbescherming-en-jeugdreclassering",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden en cliëntervaring jeugd niet gevonden; jeugdhoofdstuk in begroting 2027 (concept, 9 okt 2026) niet leesbaar via de online versie. Contactgegevens cliëntondersteuner MEE niet apart gevonden. Regionale journalistiek maar beperkt doorzocht."

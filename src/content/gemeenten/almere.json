@@ -124,56 +124,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp, opvoedondersteuning en preventieve trainingen via JGZ Almere en op school (Sterk in de wijk), zonder beschikking. Specialistische jeugdhulp koopt de gemeente Almere grotendeels zelf in bij gecontracteerde hoofdaannemers; jeugd-ggz, crisishulp en jeugdhulp met verblijf worden deels regionaal (Flevoland) ingekocht. Sinds het faillissement van aanbieder Het Palet (2024) mogen hoofdaannemers alleen met schriftelijke toestemming van de gemeente onderaannemers inzetten. De regio Flevoland is aangesloten op de Beschikbaarheidswijzer, waar u zelf de gecontracteerde aanbieders en hun wachttijden kunt bekijken. De gemeente publiceert op sociaaldomein.almere.nl links naar de wachttijden die jeugd-ggz-aanbieders zelf melden.",
+    "samenvatting": "Bij JGZ Almere en op de basisschool via Sterk in de wijk kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Almere grotendeels zelf in. Hulp met verblijf, crisishulp en de zwaarst gespecialiseerde jeugd-ggz koopt Almere samen met de andere Flevolandse gemeenten in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/almere",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via JGZ Almere (consultatiebureau, jeugdverpleegkundige, jeugdarts) en op school via Sterk in de wijk en Oké op school, zonder beschikking.",
+        "omschrijving": "Advies, cursussen en trainingen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij JGZ Almere (consultatiebureau, jeugdverpleegkundige, jeugdarts) en op de basisschool via Sterk in de wijk, bijvoorbeeld met de groepstraining Oké op school.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Individuele en specialistische begeleiding via een beschikking van JGZ Almere of een verwijzing van de arts.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Begeleiding thuis, op school of op een locatie, alleen of in een groep, en behandeling bij psychische problemen of een licht verstandelijke beperking. U komt er via een medewerker jeugd van JGZ Almere of een verwijzing van een arts; Almere koopt ook persoonlijke verzorging in, zoals hulp bij wassen en aankleden door een beperking.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van JGZ Almere of een arts. De gemeente verwijst voor actuele wachttijden naar de websites van de aanbieders.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Behandeling van ernstige dyslexie valt onder de jeugdhulp van de gemeente; school levert het leerlingdossier aan.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen vanaf groep 3 tot 13 jaar met hardnekkige lees- en spellingsproblemen. De basisschool verwijst uw kind door, zonder aanvraag bij de gemeente: vraag de school of zij ernstige dyslexie vermoeden.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of dagbesteding in een groep, ook om u als ouder te ontlasten. Een kind dat permanent toezicht nodig heeft, kan ook logeren, hooguit drie etmalen per week.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
-        "omschrijving": "Pleegzorg, begeleid wonen, crisisopvang en gesloten jeugdhulp (JeugdzorgPlus), regionaal ingekocht.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio Flevoland heeft pleegzorg, gezinshuizen, woon- en leefgroepen, kamertraining voor oudere jongeren en wonen met behandeling, ook gesloten jeugdhulp.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Sinds 1 januari 2025 via het Crisiscoördinatiepunt van Triade Vitree en de acute jeugd-ggz van GGz Centraal Fornhese.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is of bij een psychische crisis van uw kind. In Flevoland doen het Crisiscoördinatiepunt van Triade Vitree en GGz Centraal Fornhese (acute jeugd-ggz) dit; in Almere kan elke verwijzer crisishulp voor hooguit 28 dagen inzetten.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Flevoland doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -443,12 +446,12 @@
       {
         "titel": "Sociaal Domein Almere – Crisissituaties",
         "url": "https://sociaaldomein.almere.nl/jeugdhulp-inzetten/crisissituaties",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Sociaal Domein Flevoland – Aanmelden bij crisis aanmeldpunt",
         "url": "https://sociaaldomeinflevoland.nl/aanmelden-bij-crisis-aanmeldpunt",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Veilig Thuis Flevoland – Contact",
@@ -514,6 +517,51 @@
         "titel": "Gemeente Almere - Contact",
         "url": "https://www.almere.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Productomschrijvingen",
+        "url": "https://sociaaldomeinflevoland.nl/handelingskader/productomschrijvingen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Producten en aanbieders JB-JR",
+        "url": "https://sociaaldomeinflevoland.nl/sites/default/files/documents/Producten%20en%20aanbieders%20JB-JR.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Almere: Jeugdhulp zonder verblijf",
+        "url": "https://sociaaldomein.almere.nl/jeugdhulp-inzetten/jeugdhulp-zonder-verblijf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Almere: Begeleiding",
+        "url": "https://sociaaldomein.almere.nl/jeugdhulp-inzetten/jeugdhulp-zonder-verblijf/begeleiding",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Almere: Behandeling dyslexie",
+        "url": "https://sociaaldomein.almere.nl/jeugdhulp-inzetten/jeugdhulp-zonder-verblijf/behandeling-dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Almere: Persoonlijke verzorging",
+        "url": "https://sociaaldomein.almere.nl/jeugdhulp-inzetten/jeugdhulp-zonder-verblijf/persoonlijke-verzorging",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Almere: Kortdurend verblijf",
+        "url": "https://sociaaldomein.almere.nl/jeugdhulp-inzetten/jeugdhulp-zonder-verblijf/kortdurend-verblijf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: geen apart telefoonnummer frontoffice jeugdhulp (algemeen nummer JGZ gebruikt); bezwaartermijn 6 weken staat niet letterlijk op de bezwaarpagina; pgb-regels uit verordening 2022, geen ouderpagina gevonden. Raadsrapportages Jeugd zijn alleen via de JavaScript-Documentwijzer vindbaar; signaal gebaseerd op persverslag."

@@ -134,25 +134,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Opvoedvragen en lichtere hulp bespreekt u met het CJG. Specialistische jeugdhulp koopt Bloemendaal samen met zes andere gemeenten in, in de regio Zuid-Kennemerland en IJmond. Deze regio staat niet in de Beschikbaarheidswijzer. Een lijst met aanbieders en wachttijden voor ouders is niet openbaar te vinden. Vraag de CJG-coach om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Bij het CJG Kennemerland kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Bloemendaal in samen met de andere gemeenten van de regio Zuid-Kennemerland en IJmond. Vraag het CJG welke aanbieders een contract hebben en hoe lang de wachttijd is.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Kennemerland: advies, gezinscoaching, hulp op maat, cursussen en hulp bij scheiding.",
+        "omschrijving": "Advies, gezinscoaching, cursussen en hulp bij scheiding. U kunt zelf terecht, zonder aanvraag, bij het CJG; elke basisschool heeft een vaste CJG-coach en bij de huisartsen werkt een praktijkondersteuner jeugd.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na afspraak met de CJG-coach of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, in een groep of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het CJG of een verwijzing van de huisarts, jeugdarts of medisch specialist; is er hulp op meerdere gebieden nodig, dan komt die van één samenwerkingsverband van aanbieders, met één intake en één dossier. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Eerst geeft de school extra leesbegeleiding; daarna meldt de school aan, meestal via één aanmeldloket van samenwerkende dyslexieaanbieders.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding is begeleiding overdag in een groep; bij logeren (kort verblijf) verblijft uw kind af en toe ergens anders, zodat u even op adem kunt komen. Het CJG helpt bij de aanvraag, in natura of met een pgb (persoonsgebonden budget).",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, gezinshuizen en woongroepen, en voor oudere jongeren kamertraining.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten, thuis of met een tijdelijke crisisplek. Buiten de openingstijden van het CJG zet de Integrale Crisisdienst (ICD) van Veilig Thuis Kennemerland dag en nacht hulp in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Kennemerland en IJmond doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
-    ]
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpzkij.nl/verwerving-jeugdhulp"
   },
   "cjg": {
     "soort": "wijkteam"
@@ -233,7 +270,7 @@
       {
         "titel": "CJG Kennemerland: Contact",
         "url": "https://cjgkennemerland.nl/contact/",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Kennemerland: Klachtenprocedure",
@@ -314,9 +351,49 @@
         "titel": "SYLTA: contact",
         "url": "https://www.sylta.nl/contact/",
         "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Kennemerland IJmond: Aanbieders (complexe en enkelvoudige jeugdhulp)",
+        "url": "https://www.jeugdhulpzkij.nl/verwerving-jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Kennemerland: Beschermingstafel (organisaties voor jeugdbescherming)",
+        "url": "https://cjgkennemerland.nl/beschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Kennemerland: Zorgintensief & passende hulp",
+        "url": "https://cjgkennemerland.nl/zorgintensief-passende-hulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Kennemerland: Hulp op maat (verzorging via zorgverzekeraar, pgb of natura)",
+        "url": "https://cjgkennemerland.nl/hulp-op-maat/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samenwerkingsverband Passend Onderwijs Zuid-Kennemerland: Hoe werkt het aanvragen van een dyslexieonderzoek?",
+        "url": "https://samenwerkingsverbandpo-zk.nl/kennisbank/protocol-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO Zuid-Kennemerland: Dyslexiezorg in Zuid-Kennemerland, update juni 2026",
+        "url": "https://wp-samenwerkingsverband.s3.eu-central-1.amazonaws.com/2026/06/Brief-dyslexiezorg-update-juni-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Cliëntervaringsonderzoek jeugd en doorlooptijden niet gevonden; het cliëntervaringsonderzoek Wmo en Jeugdwet over 2022 is te oud en niet gelezen. Raadsinformatie van Bloemendaal zit achter bot-controle (Anubis); de Bloemendaalse aanpak is gelezen via het Internet Archive. Regionale journalistiek beperkt doorzocht (WebSearch-limiet)."
+    "opmerkingen": "Cliëntervaringsonderzoek jeugd en doorlooptijden niet gevonden; het cliëntervaringsonderzoek Wmo en Jeugdwet over 2022 is te oud en niet gelezen. Raadsinformatie van Bloemendaal zit achter bot-controle (Anubis); de Bloemendaalse aanpak is gelezen via het Internet Archive. Regionale journalistiek beperkt doorzocht (WebSearch-limiet). Crisisdienst (16-10-2026): CJG Kennemerland noemt buiten openingstijden de Integrale Crisisdienst (ICD, 088-8006201, 24/7). De crisispagina van Serviceplein Heemskerk noemt Parnassia als crisisdienst voor Midden-Kennemerland en Zaanstreek/Waterland. Raadsstukken uit 2021 (alleen als zoekfragment, pdf geblokkeerd) melden dat het ICD-mandaat overging naar een crisisfunctie bij Veilig Thuis Kennemerland, met ggz-crisis bij GGZ inGeest (Zuid-Kennemerland). Wie nu achter het ICD-nummer zit, is niet bevestigd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron. ICD wordt uitgevoerd door Veilig Thuis Kennemerland (bevestigd door redactie 16-10-2026)."
   },
   "ervaringen": {
     "samenvatting": "Het CJG Kennemerland voert in Bloemendaal de toegang uit en heeft een vaste coach op elke basisschool. De gemeente wil eerst kijken naar lichte hulp in de buurt, op school en bij de huisarts. Het aantal jeugdigen in zorg stijgt volgens de regio niet, maar in delen van de specialistische hulp lopen de wachttijden op. Wachttijden voor de toegang en een recent tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nVraag bij uw eerste gesprek met het CJG hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner mee en vraag om een beschikking als u bezwaar wilt kunnen maken. Een klacht over het CJG begint bij de coach, daarna volgt een onafhankelijke klachtencommissie. Wilt u meedenken over het jeugdbeleid? Dat kan in het Ouderpanel Bloemendaal.",

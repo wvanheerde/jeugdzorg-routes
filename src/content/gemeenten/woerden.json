@@ -146,31 +146,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u zonder besluit van de gemeente bij organisaties in de buurt, zoals het Pedagogisch Bureau, de jeugdgezondheidszorg en welzijnscoaches. WoerdenWijzer zet ze op de website. Specialistische jeugdhulp koopt Woerden samen met vier andere gemeenten in de regio Utrecht West in. De Beschikbaarheidswijzer toont de aanbieders en hun wachttijden. Alternatieve of aanvullende zorg, zoals hypnotherapie, mindfulness of kindercoaching, koopt de gemeente niet in. Vanaf 1 januari 2027 moeten gemeenten een deel van de jeugdzorg samen in de regio inkopen. De huidige contracten lopen door tot januari 2028.",
+    "samenvatting": "Bij het Pedagogisch Bureau, de jeugdgezondheidszorg en welzijnscoaches kunt u zelf terecht, zonder aanvraag bij de gemeente; WoerdenWijzer zet ze op de website. Specialistische jeugdhulp koopt Woerden in samen met De Ronde Venen, Montfoort, Oudewater en Stichtse Vecht, de regio Utrecht West.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/utrecht-west",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en advies",
-        "omschrijving": "Pedagogisch Bureau (0–18 jaar, kortdurend en gratis), jeugdgezondheidszorg, Buurtgezinnen en welzijnscoaches. Zonder verwijzing.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Kortdurend en gratis advies van het Pedagogisch Bureau voor kinderen van 0 tot 18 jaar, de jeugdgezondheidszorg, Buurtgezinnen en welzijnscoaches. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante begeleiding (hulp thuis of bij de aanbieder), jeugd-ggz, dagbehandeling, verblijf en pleegzorg. De gemeenten in de regio kopen deze hulp samen in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via WoerdenWijzer of met een verwijzing van de huisarts; alternatieve zorg zoals hypnotherapie, mindfulness of kindercoaching koopt de gemeente niet in. Persoonlijke verzorging koopt de regio als eigen vorm van jeugdhulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. School en ouders vragen het samen aan bij de poortwachter van samenwerkingsverband Passenderwijs; in 2026 kan dat niet, in 2027 weer in twee vaste periodes.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep, en respijtzorg zoals dagopvang of logeren om u als ouder te ontlasten. U vraagt dit aan via WoerdenWijzer.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen en verblijf in een woongroep van een instelling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Valt onder de individuele jeugdhulp in de Verordening jeugdhulp. Zie de spoedroute.",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. De regio heeft spoedhulp thuis, crisispleegzorg, een crisisplek en crisisbehandeling in de jeugd-ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -329,7 +357,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "WoerdenWijzer: Jeugd en gezin",
@@ -440,6 +468,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West – Tarieven en productcodelijst Jeugd en Wmo 2026",
+        "url": "https://inkooputrechtwest.nl/wp-content/uploads/2025/12/Tarievenblad-Jeugd-Wmo-2026-1.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passenderwijs – Ernstige dyslexie (poortwachter Utrecht West)",
+        "url": "https://www.passenderwijs.nl/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie (gemeenteraad.woerden.nl) zit achter bot-controle; raadsbrieven, monitor sociaal domein en cliëntervaringsonderzoek daardoor niet doorzocht. Regionale journalistiek, inspectie en rekenkamer niet gevonden of niet doorzocht. Publicatiedatum jaarstukken en begroting staat niet op de site; maanden in de signalen zijn bij benadering."

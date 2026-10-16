@@ -126,25 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Voor advies en lichte hulp kunt u terecht bij Loes, de schoolzorgondersteuners en de praktijkondersteuners jeugd. Specialistische jeugdhulp koopt Hellendoorn samen met dertien andere Twentse gemeenten in. Sinds 2025 gelden daarvoor nieuwe contracten. In de Beschikbaarheidswijzer Twente ziet u welke aanbieders er zijn en hoe lang het wachten is. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Met vragen over opvoeden en gedrag gaat u eerst zelf naar Loes of het consultatiebureau, zonder aanvraag. Specialistische jeugdhulp koopt Hellendoorn in samen met de andere Twentse gemeenten.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Advies en lichte hulp",
-        "omschrijving": "Loes voor opvoedvragen, schoolzorgondersteuners op basisscholen, praktijkondersteuners jeugd bij de huisarts en een gezinswerker aan huis.",
+        "omschrijving": "Advies over opvoeden en gedrag bij Loes of het consultatiebureau, zonder aanvraag. Ook de schoolzorgondersteuners op basisscholen, de praktijkondersteuner jeugd bij de huisarts en een gezinswerker aan huis helpen bij lichtere vragen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, dyslexiezorg, pleegzorg, verblijf en crisishulp, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Begeleiding thuis of behandeling bij problemen met opvoeding, gedrag of ontwikkeling, altijd tijdelijk. Een medewerker jeugd van de gemeente bespreekt met u welke hulp past, of de huisarts verwijst. Ook hulp bij persoonlijke verzorging kan; een kinderverpleegkundige beoordeelt dan of die via de gemeente of de zorgverzekering loopt.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -193,12 +227,12 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hellendoorn: Jeugdhulp",
         "url": "https://www.hellendoorn.nl/direct-regelen/zorg-en-welzijn/jeugd-en-gezin/jeugdhulp",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Hellendoorn: Opvoedvragen",
@@ -268,7 +302,7 @@
       {
         "titel": "Samen14: Inkoop",
         "url": "https://samen14.nl/inkoop/default.aspx",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jeugdbeleidsplan Samen bouwen aan kansrijk opgroeien 2025-2030",
@@ -294,6 +328,26 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek 2023 alleen uit het jeugdbeleidsplan bekend (eigen rapport niet gevonden). Geen aparte crisispagina gevonden; de spoedlink gaat naar de pagina over kindermishandeling en huiselijk geweld. Klachtenregeling van Loes en raadsinformatie niet doorzocht; regionale journalistiek leverde niets op."

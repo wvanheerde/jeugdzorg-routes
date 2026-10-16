@@ -123,29 +123,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente bij PIT Nijkerk. Het Sociaal Team geeft ook zelf advies en korte hulp. Specialistische jeugdhulp koopt Nijkerk in met zes andere gemeenten in de regio FoodValley (JeugdFV). De aanbieders met een contract staan in het productenboek van JeugdFV. Wachttijden staan daar niet bij, en de regio zit niet in de Beschikbaarheidswijzer. Vraag het Sociaal Team om hulp bij het kiezen.",
+    "samenvatting": "Bij PIT Nijkerk kunt u zelf terecht, zonder aanvraag bij de gemeente; ook het Sociaal Team geeft advies en korte hulp. Specialistische jeugdhulp koopt Nijkerk in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Sociaal Team of de huisarts.",
     "categorieen": [
       {
-        "naam": "Opvoed- en opgroeiondersteuning (PIT Nijkerk)",
-        "omschrijving": "Opvoedspreekuur, opvoedhulp, cursussen en trainingen, een spreekuur bij scheiding en Steunouder Nijkerk. Voor ouders in Nijkerk, Hoevelaken en Nijkerkerveen, zonder aanvraag.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Opvoedspreekuur, opvoedhulp, cursussen en een spreekuur bij scheiding. U kunt zelf terecht, zonder aanvraag, bij PIT Nijkerk in Nijkerk, Hoevelaken en Nijkerkerveen; Steunouder Nijkerk koppelt u aan een steunouder.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Sociaal Team of een verwijzing van de huisarts: hulp thuis, behandeling, jeugd-ggz en verblijf. Regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het Sociaal Team of een verwijzing van een arts; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. De school vraagt met uw akkoord een beoordeling aan bij de beoordelaar van de gemeente; daarna kiest u een aanbieder met een contract in de regio.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en logeeropvang om u als ouder te ontlasten. U vraagt het aan via het Sociaal Team.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Vergoede zorg bij ernstige dyslexie",
-        "omschrijving": "De school vraagt met uw akkoord een beoordeling aan bij de gemeente. Is die positief, dan krijgt u een besluit. Uw kind kan dan behandeld worden door een dyslexie-aanbieder met een contract in de regio.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Sociaal Team schakelt dag en nacht Spoedeisende Zorg (SEZ) van Jeugdbescherming Gelderland in; zo nodig volgt ambulante spoedhulp thuis of een crisisplek.",
         "hulpsoorten": [
-          "dyslexiezorg"
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Nijkerk doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -227,7 +256,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Nijkerk: Jeugd",
@@ -372,10 +401,40 @@
       {
         "titel": "JeugdFV: productenboek gecontracteerde jeugdhulpaanbieders",
         "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Gelderland (Ede, Barneveld, Scherpenzeel, Nijkerk)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_gelderl.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 nog niet behandeld (raad 5 november 2026); doorlooptijden en een eigen klachtregeling van het Sociaal Team niet gevonden. Gemeentepagina noemt de Nationale ombudsman, de klachtenprocedure alleen de gemeentelijke ombudsman (hier gevolgd). Spoedpagina van de gemeente gaat alleen over psychische crisis (Wvggz); regionale journalistiek beperkt doorzocht."
+    "opmerkingen": "Programmabegroting 2027 nog niet behandeld (raad 5 november 2026); doorlooptijden en een eigen klachtregeling van het Sociaal Team niet gevonden. Gemeentepagina noemt de Nationale ombudsman, de klachtenprocedure alleen de gemeentelijke ombudsman (hier gevolgd). Spoedpagina van de gemeente gaat alleen over psychische crisis (Wvggz); regionale journalistiek beperkt doorzocht. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "jeugdzorgregio": "Foodvalley",
   "ervaringen": {

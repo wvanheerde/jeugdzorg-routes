@@ -118,25 +118,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG en het Jeugdteam zelf. Specialistische jeugdhulp koopt Rhenen samen met zes andere gemeenten in via de jeugdhulpregio JeugdFV (Foodvalley). Deze regio staat niet in de Beschikbaarheidswijzer. Wel is er een openbaar productenboek met de ingekochte hulp. Een lijst met wachttijden per aanbieder is niet openbaar te vinden. De gemeente schrijft zelf dat er nu een tekort aan hulp is. Vraag het Jeugdteam om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Bij het CJG en het Jeugdteam Rhenen kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Rhenen in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Jeugdteam of de huisarts.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Rhenen: advies bij vragen over opvoeden en opgroeien, de Blij met Mij-training en Buurtgezinnen (een steungezin in de buurt).",
+        "omschrijving": "Advies bij vragen over opvoeden en opgroeien, en trainingen zoals Blij met Mij. U kunt zelf terecht, zonder aanvraag, bij het CJG Rhenen; via Buurtgezinnen krijgt u steun van een gezin in de buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Begeleiding, behandeling, jeugd-ggz, pleegzorg en verblijf, regionaal ingekocht via JeugdFV. U krijgt dit na een besluit van het Jeugdteam of een verwijzing van de huisarts.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het Jeugdteam of een verwijzing van een arts; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met hardnekkige lees- en spellingsproblemen, door een aanbieder met een contract in de regio. School stelt met u het leerlingdossier op; daarna neemt de gemeente een besluit.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en logeeropvang om u als ouder te ontlasten. U vraagt het aan via het Jeugdteam.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Jeugdteam regelt dan via het Crisis Coördinatiepunt van Veilig Thuis Utrecht spoedhulp thuis of een crisisplek; bij acute psychische nood schakelt de huisarts de crisisdienst van Pro Persona in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Rhenen doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
-    ]
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://jeugdfv.nl/bvo/professionals/productenboek/"
   },
   "cjg": {
     "soort": "wijkteam"
@@ -181,7 +218,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Rhenen: Jeugd",
@@ -211,7 +248,7 @@
       {
         "titel": "JeugdFV: productenboek gecontracteerde aanbieders",
         "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Samenwerkingsverband Rijn en Gelderse Vallei: Ouder- en jeugdsteunpunt",
@@ -272,9 +309,39 @@
         "titel": "CBS StatLine 85097NED: jeugdhulptrajecten in natura per verwijzer",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Utrecht (Veenendaal, Rhenen, Renswoude)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_utrecht_.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Begroting 2027 nog niet verschenen (raad bespreekt begin november); doorlooptijden en cliëntervaringsonderzoek Jeugd niet gevonden. Gemeentepagina noemt voor de GGD 033 46 000 46, GGD-site 030 608 60 86; regiobestand overgenomen. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
+    "opmerkingen": "Begroting 2027 nog niet verschenen (raad bespreekt begin november); doorlooptijden en cliëntervaringsonderzoek Jeugd niet gevonden. Gemeentepagina noemt voor de GGD 033 46 000 46, GGD-site 030 608 60 86; regiobestand overgenomen. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Dyslexie: 'de gemeente neemt een besluit' afgeleid uit de verordening (ernstige dyslexie is een individuele voorziening); wie het dossier indient en wie het toetst is voor deze gemeente niet openbaar te vinden. Buurgemeenten Ede en Renswoude: school vraagt het samen met de ouder aan bij de gemeente. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "jeugdzorgregio": "Foodvalley",
   "ervaringen": {

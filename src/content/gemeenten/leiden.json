@@ -125,39 +125,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Specialistische jeugdhulp wordt regionaal ingekocht via de Serviceorganisatie Zorg Holland Rijnland. De Beschikbaarheidswijzer toont alle gecontracteerde aanbieders met wachttijden, gesorteerd op hulpvraag en afstand. Hij is gemaakt voor verwijzers, maar openbaar en goed bruikbaar om samen met het jeugdteam een aanbieder te kiezen.",
+    "samenvatting": "Bij het CJG Leiden en de Jeugdteams Leidse regio kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Leiden in samen met de andere gemeenten van de regio Holland Rijnland. Heeft een aanbieder zijn budget voor het jaar op, dan neemt die tijdelijk geen nieuwe kinderen aan: vraag het Jeugdteam dan om een andere aanbieder.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Laagdrempelig via het gemeentelijke team, zonder beschikking.",
+        "omschrijving": "Advies en cursussen bij vragen over opvoeden, ook groepen voor kinderen van gescheiden ouders (KIES). U kunt zelf terecht, zonder aanvraag, bij het CJG en de Jeugdteams; Home-Start van Humanitas biedt een vrijwilliger thuis.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Jeugdteam in uw wijk helpt eerst zelf, bijvoorbeeld met een training met andere kinderen, en verwijst zo nodig door; elke school heeft een vaste contactpersoon in een jeugdteam. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van het gemeentelijke team of een arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het loopt via school, niet via het Jeugdteam: vraag de school of zij dyslexie vermoeden.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbehandeling, dagbesteding en respijtzorg",
+        "omschrijving": "Behandeling of begeleiding overdag in een groep, ook in een kinderdagcentrum, voor kinderen met een beperking of ernstige problemen. Dagbesteding kan ook tijdelijk worden ingezet om u als ouder te ontlasten.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Er is pleegzorg, ook in deeltijd, en er zijn gezinshuizen en woongroepen, soms met behandeling.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Jeugdteam kan hulp thuis, een crisisplek of crisispleegzorg regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Holland Rijnland doet Jeugdbescherming west dit, vanuit Leiden. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -465,6 +484,46 @@
       {
         "titel": "PPO Regio Leiden: Ouder- en Jeugdsteunpunt",
         "url": "https://www.pporegioleiden.nl/ouders/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Gecontracteerde zorg",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/gecontracteerde-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Dienstomschrijvingen jeugdhulp 2022-2026 (pdf)",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/01/Bijlage-5-Dienstomschrijvingen-v12-feb-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Hoe te handelen bij een crisis?",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/hoe-te-handelen-bij-een-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Hulp nodig?",
+        "url": "https://www.jeugdteamsleidseregio.nl/hoe-werkt-het/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Dyslexie",
+        "url": "https://www.jeugdteamsleidseregio.nl/hulp-nodig-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Echtscheiding",
+        "url": "https://www.jeugdteamsleidseregio.nl/echtscheiding/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west – Gemeenten en werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

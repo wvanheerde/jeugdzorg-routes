@@ -136,30 +136,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp bij opvoeden en opgroeien krijgt u bij Jeugd en Gezin en bij de gemeente, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Huizen in met de andere gemeenten in Gooi en Vechtstreek. Aanbieders van zorg en ondersteuning in de regio vindt u openbaar op KiesZO. Wachttijden per aanbieder staan daar niet bij. Vraag uw medewerker jeugd om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Jeugd en Gezin van de GGD en bij Maatschappelijke Zaken. Specialistische jeugdhulp koopt Huizen in samen met de andere gemeenten in Gooi en Vechtstreek. Vraag naar wachttijden bij Maatschappelijke Zaken of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.kieszo.nl",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Jeugd en Gezin: consultatiebureau, gezins- en opvoedcoaches, MamaCafé en Ontmoetingscafé. Daarnaast begeleiding door de gemeente en Buurtgezinnen.",
+        "omschrijving": "Gesprekken, coaching en ontmoeting bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij Jeugd en Gezin (consultatiebureau, gezins- en opvoedcoaches), het MamaCafé en Ontmoetingscafé, en bij Buurtgezinnen voor steun van een ander gezin.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Snelle, lichte hulp bij psychische klachten van jongeren en overbrugging bij wachttijd. De huisarts verwijst.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz, hulp voor jongeren met een beperking, pleegzorg en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij een aanbieder bij problemen in het gezin, psychische problemen of een beperking, ook persoonlijke verzorging. U komt er via een gesprek met een medewerker jeugd van Maatschappelijke Zaken of een verwijzing van de huisarts; bij lichte psychische klachten helpt de praktijkondersteuner jeugd bij de huisarts snel.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. U vraagt het samen met de school aan; de Poortwachter Gooi en Vecht van Het ABC beoordeelt het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, en kortdurend verblijf zodat uw kind even logeert en u als ouder op adem komt. U vraagt dit aan bij Maatschappelijke Zaken.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of jeugdinstelling",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, ook bij familie of bekenden, gezinshuizen en verblijf in een jeugdinstelling. Voor Jeugdzorgplus, bij ernstige gedragsproblemen, is toestemming van de kinderrechter nodig.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis acuut niet meer veilig of houdbaar is. In Gooi en Vechtstreek doet de crisisdienst van Veilig Thuis dit, met onder meer crisispleegzorg; bij een psychiatrische crisis schakelt de huisarts de crisisdienst van de ggz in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Gooi en Vechtstreek doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -237,12 +266,12 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Maatschappelijke Zaken: Jeugdhulp",
         "url": "https://www.maatschappelijkezaken.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Maatschappelijke Zaken: Hulp bij opvoeden en opgroeien",
@@ -282,7 +311,7 @@
       {
         "titel": "Maatschappelijke Zaken: Crisis",
         "url": "https://www.maatschappelijkezaken.nl/crisis",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Maatschappelijke Zaken: Buurtgezinnen",
@@ -343,9 +372,54 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Inkoop & Contractbeheer Gooi en Vechtstreek: Voorzieningen en aanbieders",
+        "url": "https://www.icgv.nl/sociaal-domein/voorzieningen-en-aanbieders/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "KiesZO: Jeugdhulp in Gooi en Vechtstreek",
+        "url": "https://www.kieszo.nl/zorg-en-ondersteuning/jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Het ABC: Poortwachter dyslexie Regio Gooi en Vechtstreek",
+        "url": "https://hetabc.nl/themas/dyslexie/poortwachter/regio-gooi-en-vecht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Gooi en Vechtstreek: Samenwerkingsprotocol jeugdhulp in het gedwongen kader (2023)",
+        "url": "https://regiogv.nl/wp-content/uploads/2024/01/2023-Samenwerkingsprotocol-jeugdhulp-in-het-gedwongen-kader-.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Gooi en Vechtstreek: Oplegger hulpverlener op de bank (crisisopvang jeugd, 2023)",
+        "url": "https://www.regiogv.nl/wp-content/uploads/2023/06/Bijlage-13-Oplegger-en-bijlage-hulpverlener-op-de-bank.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Gooi en Vechtstreek: Wie zijn wij (Crisisdienst ook na kantooruren via 0800-2000)",
+        "url": "https://www.veiligthuisgv.nl/over-ons/wie-zijn-wij/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio Gooi en Vechtstreek: Gebundelde ambulante crisiszorg 24/7",
+        "url": "https://www.regiogv.nl/gemeenteraden/bescherming-opvang/gebundelde-ambulante-crisiszorg-24-7/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Jaarstukken 2025 en programmabegroting 2027 staan op het raadsinformatiesysteem achter bot-controle (Anubis) en zijn niet gelezen; het jeugdhoofdstuk van de begroting 2026 wel. Raadsinformatie over jeugd 2024-2026, doorlooptijden van de toegang en inspectierapporten niet gevonden. Klachtenregeling van Jeugd en Gezin niet onderzocht."
+    "opmerkingen": "Jaarstukken 2025 en programmabegroting 2027 staan op het raadsinformatiesysteem achter bot-controle (Anubis) en zijn niet gelezen; het jeugdhoofdstuk van de begroting 2026 wel. Raadsinformatie over jeugd 2024-2026, doorlooptijden van de toegang en inspectierapporten niet gevonden. Klachtenregeling van Jeugd en Gezin niet onderzocht. Crisisdienst (16-10-2026): bevestigd op de site van Veilig Thuis Gooi en Vechtstreek (Crisisdienst ook na kantooruren via 0800-2000) en de regiopagina (crisisdienst voor jongeren ondergebracht bij Veilig Thuis)."
   },
   "jeugdzorgregio": "Gooi en Vechtstreek",
   "ervaringen": {

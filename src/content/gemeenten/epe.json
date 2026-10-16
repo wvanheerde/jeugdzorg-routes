@@ -129,37 +129,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Epe, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Epe samen met andere gemeenten in de jeugdregio Midden IJssel / Oost Veluwe in. Sinds 1 januari 2026 gelden nieuwe contracten. In de Beschikbaarheidswijzer van deze regio ziet u aanbieders en wachttijden, openbaar en zonder inloggen. Welke aanbieder in Epe hulp geeft, bespreekt u met de medewerker jeugd.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG (Centrum voor Jeugd en Gezin) Epe. Specialistische jeugdhulp koopt Epe in samen met de andere gemeenten van de Zorgregio Midden-IJssel/Oost-Veluwe. Welke aanbieder past, bespreekt u met de medewerker jeugd.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: advies, het opvoedadviesbureau (orthopedagoog), steunouders en de ouderondersteuning #Opladers.",
+        "omschrijving": "Advies via het CJG, het opvoedadviesbureau (orthopedagoog), steunouders en de ouderondersteuning #Opladers, zonder aanvraag. Op school is er gratis, kortdurend schoolmaatschappelijk werk van Vérian en het CJG.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en kortdurend op de scholen, via Vérian en het CJG.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Gezinsondersteuning (CJG4kracht)",
-        "omschrijving": "Een begeleider maakt met uw gezin een plan om thuis de situatie te verbeteren. Aanvragen via het aanvraagformulier van het CJG.",
-        "hulpsoorten": [
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, jeugd-ggz, dagbehandeling en verblijf. De regio koopt deze hulp in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, via het CJG of een verwijzing van huisarts, jeugdarts of medisch specialist. Bij gezinsondersteuning CJG4kracht maakt een begeleider met uw gezin een plan om het thuis beter te laten gaan. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen, na extra hulp op school. Met het leesdossier van school meldt u uw kind zelf aan bij een dyslexiepraktijk met een contract. Die praktijk beoordeelt het dossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding in een groep buiten schooltijd, en logeren bij een aanbieder, in een logeergezin of thuis, zodat u als ouder even rust heeft. Steunouders van Koppel-Swoe nemen ook zonder aanvraag een dagdeel de zorg voor uw kind over.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd), gezinshuizen, woongroepen en begeleid zelfstandig wonen voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig of vol te houden is: crisisbegeleiding thuis of een korte opvangplek. Dag en nacht helpt de Spoedeisende Zorg van Jeugdbescherming Gelderland, die bij een crisis binnen drie uur bij het gezin kan zijn.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-IJssel/Oost-Veluwe doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -228,7 +250,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Epe: Opvoeden en opgroeien",
@@ -349,6 +371,41 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Over ons (deelnemende gemeenten)",
+        "url": "https://zorgregiomijov.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Zorgproductenboek Jeugdhulp 2026",
+        "url": "https://zorgregiomijov.nl/images/Zorgproductenboek_Jeugdhulp_definitief_incl._tarievenblad_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Instructie werkwijze bij ernstige dyslexie",
+        "url": "https://zorgregiomijov.nl/images/Instructie_Werkwijze_bij_ED.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Overeenkomst GI's, Productenboek 2026",
+        "url": "https://zorgregiomijov.nl/images/Productenboek_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek jeugd, geen doorlooptijden toegang en geen externe klachtencommissie voor het CJG gevonden; spoedblok verwijst naar de CJG-contactpagina. Verordening noemt € 20 per uur als maximum voor pgb-hulp uit het netwerk (begeleiding en verzorging); uit de publieke tekst gehaald omdat het bedrag kan wijzigen. Ouder- en jeugdsteunpuntenkaart koppelt de gevonden basisscholen in Epe, Vaassen, Emst en Oene aan Zeeluwe; de VO-school RSG Noord Oost Veluwe aan SWV VO 2505. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

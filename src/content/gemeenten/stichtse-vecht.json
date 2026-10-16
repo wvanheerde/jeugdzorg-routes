@@ -166,43 +166,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente. Bijvoorbeeld via VIA Stichtse Vecht, Kwadraad, de jeugdgezondheidszorg (JGZ) of het wijkteam. Voor specialistische jeugdhulp heeft u een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. TIM SV regelt specialistische jeugdhulp en jeugd-ggz via een eigen specialistisch team en via andere aanbieders. Dyslexiezorg, de crisisdienst jeugd-ggz en zeer specialistische zorg zijn apart of regionaal geregeld. Vanaf 2027 koopt de gemeente specialistische jeugdhulp samen met andere gemeenten in Utrecht-West in. De nieuwe contracten gaan in 2028 in. In de Beschikbaarheidswijzer ziet u aanbieders en wachttijden. Openbaar, zonder inloggen.",
+    "samenvatting": "Bij VIA Stichtse Vecht, Kwadraad en de jeugdgezondheidszorg kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp regelt TIM Stichtse Vecht tot en met 2026; vanaf 1 januari 2027 doet de gemeente dat zelf en koopt zij die hulp in met de gemeenten van Utrecht West.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/stichtse-vecht",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via VIA Stichtse Vecht, Kwadraad en het wijkteam. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij VIA Stichtse Vecht, Kwadraad en het wijkteam.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbehandeling",
-        "omschrijving": "Hulp thuis door gedragswetenschappers, orthopedagogen en gezinsbehandelaren van het specialistisch team.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Gedragswetenschappers, orthopedagogen en gezinsbehandelaren van het specialistisch team van TIM Stichtse Vecht helpen thuis; voor jeugd-ggz mag ook de huisarts, jeugdarts of medisch specialist verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via TIM SV, of via een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen. School en ouders vragen het samen aan bij de poortwachter van samenwerkingsverband Passenderwijs; in 2026 kan dat niet, in 2027 weer in twee vaste periodes.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg en spoedhulp",
-        "omschrijving": "Pleegzorgmedewerkers en spoedhulp horen bij het specialistisch team. Bij een crisis: zie de route spoedeisende hulp.",
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Begeleiding overdag in een groep, en respijtzorg zoals logeren om u als ouder te ontlasten. U vraagt dit aan via TIM Stichtse Vecht; vanaf 2027 gelden de afspraken van Utrecht West.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Pleegzorgmedewerkers horen bij het specialistisch team van TIM Stichtse Vecht.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis acuut onveilig is of uit de hand loopt; Veilig Thuis Utrecht voert dan de crisisdienst uit. Ook het specialistisch team van TIM Stichtse Vecht biedt spoedhulp.",
+        "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Hulp bij ernstige dyslexie loopt apart van TIM SV, via de gemeente.",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de provincie Utrecht doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
-          "dyslexiezorg"
+          "jeugdbescherming"
         ]
       }
     ]
@@ -497,6 +513,41 @@
       {
         "titel": "Ouder- en jeugdsteunpunt Sterk VO: contact",
         "url": "https://www.ouderenjeugdsteunpuntsterkvo.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West – Toetreding gemeente Stichtse Vecht per 1 januari 2027",
+        "url": "https://inkooputrechtwest.nl/heropenstelling-aanmelding-overeenkomst-jeugdhulp-en-wmo-toetreding-gemeente-stichtse-vecht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop & Monitoring Utrecht West – Tarieven en productcodelijst Jeugd en Wmo 2026",
+        "url": "https://inkooputrechtwest.nl/wp-content/uploads/2025/12/Tarievenblad-Jeugd-Wmo-2026-1.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passenderwijs – Ernstige dyslexie (poortwachter Utrecht West)",
+        "url": "https://www.passenderwijs.nl/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Utrecht – Wat wij doen (crisisdienst, gecertificeerde instellingen)",
+        "url": "https://veiligthuisutrecht.nl/over-ons/wat-wij-doen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen Veilig Midden-Nederland – SAVE Jeugdbescherming voor de provincies Utrecht en Flevoland",
+        "url": "https://www.samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

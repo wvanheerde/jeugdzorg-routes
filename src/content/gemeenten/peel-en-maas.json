@@ -113,31 +113,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lokale hulp loopt in Peel en Maas via Hendig: een netwerk van hulpverleners dat met de gezinscoach samenwerkt. U kiest samen met de gezinscoach welke hulpverlener past. Specialistische jeugdhulp koopt de gemeente in samen met de andere gemeenten in Noord-Limburg. Sinds 1 januari 2026 zijn er nieuwe contracten voor wonen, dagbesteding en ambulante hulp (hulp thuis of op afspraak). Een lijst met aanbieders en wachttijden is niet openbaar te vinden. Vraag de gezinscoach om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Bij de gezinscoach van de gemeente kunt u zelf terecht, zonder aanvraag; eenvoudige opvoedvragen beantwoordt die vaak al aan de telefoon. Specialistische jeugdhulp koopt Peel en Maas in samen met de andere gemeenten in Noord-Limburg. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij de gezinscoach of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://www.sociaaldomein-limburgnoord.nl/zoektool",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via de gezinscoach: advies, begeleiding en hulp thuis, met aandacht voor uw eigen netwerk.",
+        "omschrijving": "Advies, begeleiding en hulp thuis bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij de gezinscoach; vrijwilligers van Steun door jou helpen gezinnen die het zwaar hebben.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Lokale hulp via Hendig",
-        "omschrijving": "Hulpverleners uit het Hendig-netwerk. Zij spreken met de gezinscoach en het gezin af welke hulp nodig is.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. Via de gezinscoach kiest u samen met de hulpverleners van het netwerk Hendig wat past; u kunt ook via de huisarts.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Samen ingekocht door de gemeenten in Noord-Limburg: ambulante hulp, jeugd-ggz, dagbehandeling, wonen en verblijf, crisishulp en gesloten jeugdzorg (jeugdzorgplus).",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen, als extra hulp op school niet genoeg hielp. School stuurt met uw toestemming het leesdossier naar een aanbieder met contract die u kiest; na het onderzoek mag u voor de behandeling een andere aanbieder kiezen.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag of na school in een groep, of logeren om u als ouder te ontlasten. Logeren gaat in deze regio altijd samen met hulp thuis voor het gezin.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen, kleine woongroepen en training in zelfstandig wonen. Een opname met behandeling loopt via de Bijzondere Toegang van Noord- en Midden-Limburg.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Noord- en Midden-Limburg doet Crisishulp Jeugd dit dag en nacht, een samenwerking van Mutsaersstichting en Xonar.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noord-Limburg doet Bureau Jeugdzorg Limburg dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -204,6 +232,11 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders zoeken (Zoektool Sociaal Domein Limburg-Noord)",
+      "omschrijving": "Gecontracteerde aanbieders van jeugdhulp in de regio. Openbaar, zonder inloggen.",
+      "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool"
     }
   ],
   "meta": {
@@ -318,9 +351,44 @@
         "titel": "MEE De Meent Groep – MEE in Peel en Maas",
         "url": "https://www.meedemeentgroep.nl/mee-in-uw-gemeente/peel-en-maas",
         "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Actuele overeenkomsten en aanbestedingsstukken Jeugd",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/informatie-voor-aanbieders/aanbestedingsstukken/actuele-overeenkomsten-en-aanbestedingsstukken-jeugd",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Schematisch overzicht jeugdhulpvormen en producten 2026",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/gfx/Jeugdhulp/Overzicht_jeugdhulpvormen_producten_en_codes.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Handboek voor verwijzers en aanbieders Jeugdhulp 2026 (dyslexie, logeren, ambulante hulp, Crisishulp Jeugd)",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/gfx/Verwijzers/Handboek%20voor%20verwijzers%20en%20aanbieders%20Jeugdhulp%20v2-1pdf.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Bijzondere Toegang segment 1",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/informatie-segment-1-nml-routes-contact-aanmelding-bijzondere-toegang",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Limburg-Noord: Zoektool",
+        "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bureau Jeugdzorg Limburg: Over ons",
+        "url": "https://www.bjzlimburg.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "programmabegroting 2027 volgt (raad 10 november 2026). Telefoonnummer SWV VO en een aparte klachtenregeling voor de gezinscoaches niet gevonden. Regionale journalistiek niet doorzocht. Spoedroute verwijst naar Gemeente Peel en Maas: contact buiten kantoortijden (spoedeisende jeugdhulp)."
+    "opmerkingen": "programmabegroting 2027 volgt (raad 10 november 2026). Telefoonnummer SWV VO en een aparte klachtenregeling voor de gezinscoaches niet gevonden. Regionale journalistiek niet doorzocht. Spoedroute verwijst naar Gemeente Peel en Maas: contact buiten kantoortijden (spoedeisende jeugdhulp). Crisisdienst (16-10-2026): handboek verwijzers juni 2026 (par. 4.7) noemt Crisishulp Jeugd (Mutsaersstichting en Xonar) voor alle doelgroepen, ook ggz, 24/7 op 043-6045777; ook venlo.nl/crisishulp. MET ggz in het aanbiedersoverzicht is geen aparte crisisdienst; tekst blijft."
   },
   "jeugdzorgregio": "Noord-Limburg",
   "ervaringen": {

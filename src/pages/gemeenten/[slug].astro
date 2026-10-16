@@ -134,9 +134,11 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
         <h2><span class="section-num">3</span>Welke hulp is er?</h2>
         {d.aanbod.samenvatting && <p>{d.aanbod.samenvatting}</p>}
         {categorieen.length > 0 && (
-          <ul>{categorieen.map((c) => <li><strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}</li>)}</ul>
+          <ul class="aanbod-lijst">{categorieen.map((c) => <li><strong>{c.naam}</strong>{c.omschrijving && <><br />{c.omschrijving}</>}</li>)}</ul>
         )}
-        {d.aanbod.gecontracteerdeAanbiedersUrl && <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Overzicht gecontracteerde aanbieders<span aria-hidden="true"> ↗</span></a></p>}
+        {d.aanbod.gecontracteerdeAanbiedersUrl && (d.aanbod.gecontracteerdeAanbiedersUrl.includes('beschikbaarheidswijzer')
+          ? <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders en wachttijden bekijken<span aria-hidden="true"> ↗</span></a><br /><span class="meta">In de Beschikbaarheidswijzer van de regio. Openbaar, zonder inloggen.</span></p>
+          : <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders met een contract bekijken<span aria-hidden="true"> ↗</span></a></p>)}
       </section>
 
       <section class="section" id="lokaal">

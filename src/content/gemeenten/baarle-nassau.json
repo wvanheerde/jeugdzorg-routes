@@ -136,30 +136,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp bij opvoeden en opgroeien krijgt u bij het Dorpsteam. Specialistische jeugdhulp koopt Baarle-Nassau samen met tien andere gemeenten in via Regio Hart van Brabant. Voor de meeste specialistische hulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. De regio is bezig met plannen om meer hulp dichtbij huis te bieden. Een lijst met aanbieders en wachttijden is voor deze regio niet openbaar te vinden. Vraag het Sociaal Team om een overzicht en om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://www.regio-hartvanbrabant.nl/inkoopjeugdhulp",
+    "samenvatting": "Voor lichte hulp bij opvoeden en opgroeien kunt u zelf terecht bij het Dorpsteam, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Baarle-Nassau in samen met de regio Hart van Brabant. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Sociaal Team of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://www.wegwijzerhvb.nl/jeugdhulp/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Dorpsteam: advies, inloopspreekuur en jeugdprofessionals bij scholen. De gemeente zet ook buurtgezinnen en een jongerenaanjager in. Een besluit van de gemeente is niet nodig.",
+        "omschrijving": "Gesprekken en tips bij vragen over opvoeden. U kunt zelf terecht bij het Dorpsteam, zonder aanvraag, op het inloopspreekuur of bij de jeugdprofessional op school; de gemeente zet ook buurtgezinnen en een jongerenaanjager in.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (hulp thuis of op afspraak), jeugd-ggz, hulp bij een verstandelijke beperking, pleegzorg en verblijf. De regio koopt deze hulp in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en verzorging. U komt er via het Sociaal Team van de gemeente of een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School levert het leerlingdossier aan.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbegeleiding en respijtzorg",
+        "omschrijving": "Bij dagbegeleiding leert uw kind buiten schooltijd in een groep sociale en praktische vaardigheden. Respijtzorg, zoals logeren, ontlast u als ouder; eerst wordt gekeken of kinderopvang of BSO+ past.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die niet meer veilig of passend thuis kunnen wonen. Naast pleegzorg en gezinshuizen zijn er kleine woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Hulp bij onveiligheid en crisis",
-        "omschrijving": "De gemeente zet specialistische hulp ook in bij onveiligheid, kindermishandeling en huiselijk geweld, en bij jeugdreclassering na een strafbaar feit.",
+        "naam": "Zware specialistische hulp en crisishulp",
+        "omschrijving": "Intensieve hulp, soms met verblijf, voor gezinnen met ernstige problemen op meerdere gebieden. Bij een crisis beslist het Crisis Interventie Team van de regio dag en nacht over directe hulp.",
         "hulpsoorten": [
-          "crisishulp",
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Hart van Brabant doet Jeugdbescherming Brabant dit, vanuit Tilburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -407,6 +435,51 @@
         "titel": "Beschikbaarheidswijzer - regio's",
         "url": "https://beschikbaarheidswijzer.nl/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 4: Veelvoorkomende jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-4-veelvoorkomende-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Overige jeugdhulp (dyslexie)",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/overige-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 3: Dagbegeleiding en respijtzorg",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-3-dagbegeleiding-en-respijtzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Wonen Jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/wonen-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 1 en crisishulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-5-crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant – Vestigingen in Noord-Brabant",
+        "url": "https://www.jeugdbeschermingbrabant.nl/contact/alle-vestigingen-in-noord-brabant/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang en klachtenregeling Dorpsteam niet online gevonden; Beschikbaarheidswijzer heeft geen regio Hart van Brabant. Rapportcijfer CEO: raadsbrief noemt 7,7, factsheet 7,9 (nakijken). Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."

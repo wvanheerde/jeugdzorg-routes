@@ -108,32 +108,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en groepsaanbod krijgt u via Loket Wegwijs en voorzieningen in de buurt. Daarvoor is geen besluit van de gemeente nodig. Specialistische jeugdhulp koopt Oisterwijk samen met tien andere gemeenten in de regio Hart van Brabant in. De Beschikbaarheidswijzer bevat deze regio niet. Een lijst met aanbieders en wachttijden voor Oisterwijk is niet openbaar te vinden. Vraag Loket Wegwijs om een overzicht en om hulp bij het kiezen. De regio wil de komende jaren veel voorkomende jeugdhulp vaker als groepsaanbod of vrij toegankelijke hulp bieden.",
-    "gecontracteerdeAanbiedersUrl": "https://www.regio-hartvanbrabant.nl/inkoopjeugdhulp",
+    "samenvatting": "Voor lichte hulp en groepsaanbod kunt u zelf terecht bij Loket Wegwijs en voorzieningen in de buurt, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Oisterwijk in samen met de regio Hart van Brabant. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij Loket Wegwijs of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://www.wegwijzerhvb.nl/jeugdhulp/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Loket Wegwijs: advies, voorzieningen in de buurt en groepstrainingen. Een training voor jongens die moeite hebben met hun emoties is in voorbereiding.",
+        "omschrijving": "Gesprekken, groepstrainingen en tips bij vragen over opvoeden. U kunt zelf terecht bij Loket Wegwijs, zonder aanvraag; het loket wijst ook de weg naar activiteiten in Oisterwijk, Moergestel en Haaren.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, dagbegeleiding en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en verzorging. U komt er via Loket Wegwijs of een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School levert het leerlingdossier aan.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbegeleiding en respijtzorg",
+        "omschrijving": "Bij dagbegeleiding leert uw kind buiten schooltijd in een groep sociale en praktische vaardigheden. Respijtzorg, zoals logeren, ontlast u als ouder; eerst wordt gekeken of kinderopvang of BSO+ past.",
+        "hulpsoorten": [
           "dagbesteding",
-          "logeren-respijt",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die niet meer veilig of passend thuis kunnen wonen. Naast pleegzorg en gezinshuizen zijn er kleine woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Crisishulp",
-        "omschrijving": "Een Crisis Interventie Team voor de regio Hart van Brabant helpt dag en nacht bij een crisis. Zie de pagina van de gemeente.",
+        "naam": "Zware specialistische hulp en crisishulp",
+        "omschrijving": "Intensieve hulp, soms met verblijf, voor gezinnen met ernstige problemen op meerdere gebieden. Bij een crisis beslist het Crisis Interventie Team van de regio dag en nacht over directe hulp.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Hart van Brabant doet Jeugdbescherming Brabant dit, vanuit Tilburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -261,7 +288,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Oisterwijk: Jeugdhulp",
@@ -342,6 +369,51 @@
         "titel": "Register van Overheidsorganisaties – gemeenten",
         "url": "https://organisaties.overheid.nl/",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 4: Veelvoorkomende jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-4-veelvoorkomende-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Overige jeugdhulp (dyslexie)",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/overige-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 3: Dagbegeleiding en respijtzorg",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-3-dagbegeleiding-en-respijtzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Wonen Jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/wonen-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 1 en crisishulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-5-crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant – Vestigingen in Noord-Brabant",
+        "url": "https://www.jeugdbeschermingbrabant.nl/contact/alle-vestigingen-in-noord-brabant/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 en het CEO-rapport zelf niet gevonden (raadsinformatie deels niet openbaar). Doorlooptijden toegang en klachtenregeling Loket Wegwijs niet gevonden. Een tweede samenwerkingsverband (De Meierij, één school) is niet opgenomen."

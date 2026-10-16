@@ -111,36 +111,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Noardeast-Fryslân koopt specialistische jeugdhulp in met de andere Friese gemeenten, via Sociaal Domein Fryslân. Lichte hulp krijgt u via het Gebiedsteam en de schoolmaatschappelijk werker, zonder beschikking. Een openbare lijst met aanbieders en wachttijden voor deze gemeente is niet te vinden. Vraag het Gebiedsteam om een overzicht en om hulp bij het kiezen. Spoedeisende jeugdhulp in Friesland loopt via het centrale meldpunt Spoed4Jeugd.",
-    "gecontracteerdeAanbiedersUrl": "https://www.sdfryslan.nl/jeugd/",
+    "samenvatting": "Bij opvoedvragen en lichte zorgen kunt u zelf terecht bij het Gebiedsteam en de schoolmaatschappelijk werker, zonder aanvraag. Specialistische jeugdhulp koopt Noardeast-Fryslân samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
-        "naam": "Opvoed- en opgroeiondersteuning en schoolmaatschappelijk werk",
-        "omschrijving": "Via het Gebiedsteam en op de basisscholen. Geen beschikking nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en korte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht bij het Gebiedsteam; vaak is een tip of advies al genoeg.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Hulp thuis en hulp met verblijf, na een beschikking van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Hulp op school",
+        "omschrijving": "Op alle basisscholen werkt een schoolmaatschappelijk werker, zodat kinderen sneller lichte hulp krijgen.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het Gebiedsteam of met een verwijzing van de huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Pleegzorg en logeren",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. School meldt uw kind aan, met uw toestemming. U kiest zelf een van de aanbieders met een contract.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via het Gebiedsteam of de huisarts.",
+        "hulpsoorten": [
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via het Gebiedsteam of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Spoedeisende hulp in Friesland via Spoed4Jeugd.",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -198,6 +226,11 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer)",
+      "omschrijving": "Gecontracteerde jeugdhulpaanbieders in Friesland met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland"
     }
   ],
   "ervaringen": {
@@ -275,7 +308,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Noardeast-Fryslân - Jeugdhulp",
@@ -381,6 +414,41 @@
         "titel": "Beschikbaarheidswijzer - Friesland",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Beschikbaarheidswijzer Friesland toont geen gemeentelijst en noemt Noardeast-Fryslân alleen als Wmo-regio; daarom niet gelinkt. Cliëntervaringsonderzoek jeugd na 2019, gemeten doorlooptijden en een aparte klachtenregeling of klachtcommissie voor het Gebiedsteam niet online gevonden. Openingstijden JGZ GGD Fryslân niet vermeld."

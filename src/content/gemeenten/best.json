@@ -126,31 +126,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het Basisteam Jeugd van Bestwijzer, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Best samen met andere gemeenten in Zuidoost-Brabant in (regio 21voordeJeugd). Een lijst met aanbieders en wachttijden voor Best is niet openbaar te vinden. Vraag de jeugdregisseur om een overzicht en om hulp bij het kiezen. Volgens de gemeente wordt in 2027 veel soorten jeugdhulp opnieuw ingekocht.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het Basisteam Jeugd van Bestwijzer en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Best in met negen andere gemeenten in de regio Samen voor Jeugd. Wachttijden staan niet in een openbaar overzicht: vraag ernaar bij het Ondersteuningsteam Best of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://zorgaanbieders.eindhoven.nl/jeugdhulp",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Basisteam Jeugd en de jeugdgezondheidszorg: advies, jeugdmaatschappelijk werk, jeugdverpleegkundige en cursussen voor ouders en jongeren.",
+        "omschrijving": "Advies, jeugdmaatschappelijk werk en cursussen bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij het Basisteam Jeugd, ook via de contactpersoon op school, en bij de jeugdverpleegkundige van GGD Brabant-Zuidoost.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het OTB of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, ook vaktherapie en diagnostiek. U komt er via het Ondersteuningsteam Best of een verwijzing van de huisarts. Persoonlijke verzorging bij een beperking, zoals hulp bij wassen en aankleden, is ook ingekocht; verzorging bij ziekte loopt via de zorgverzekering.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Hulp bij zware problemen op meerdere gebieden",
+        "omschrijving": "Voor gezinnen met veel hulpverleners tegelijk kan één Multi-aanbieder alle specialistische hulp regelen en op elkaar afstemmen. Of dat past, bekijkt u samen met de gemeente.",
+        "hulpsoorten": []
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met ernstige lees- en spellingsproblemen. Het begint bij school, die een leesdossier opstelt; de dyslexieaanbieder stemt af met school.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, en gespecialiseerde naschoolse opvang (BSO+) voor kinderen van 4 tot 13 jaar. Logeren en respijtzorg geven u als ouder even rust.",
+        "hulpsoorten": [
           "dagbesteding",
-          "logeren-respijt",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, verblijf in een instelling of kleinschalige woonvorm, en begeleiding naar zelfstandig wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "SpoedvoorJeugd Zuidoost-Brabant is het regionale meldpunt bij een acute crisis rond een kind of jongere tot 23 jaar.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig is: crisishulp thuis, crisispleegzorg of een korte opvangplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Zuidoost-Brabant is dag en nacht bereikbaar en Spoed voor Jeugd regelt de crisishulp voor de hele regio.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuidoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -282,7 +315,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Best: Hulp bij opgroeien en opvoeden",
@@ -388,6 +421,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp (inkoop Samen voor Jeugd)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen voor Jeugd: Product Diensten Catalogus Jeugdhulp 2024",
+        "url": "https://zorgaanbieders.eindhoven.nl/sites/default/files/2023-12/PDC%20Jeugdhulp%202024%20versie%204.0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Crisis (21 gemeenten Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Crisis Interventie Team Zuidoost-Brabant",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/crisis-interventie-team",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdbescherming en jeugdreclassering (gecertificeerde instellingen Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdbescherming-en-jeugdreclassering",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Multi",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-multi",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en gemeten doorlooptijden niet gevonden (raadsvoorstel zegt dat het jaarlijks plaatsvindt). Aanbiederslijst Zuidoost-Brabant niet gevonden (21voordejeugd.nl niet bereikbaar). Samenwerkingsverband VO voor Best en klachtregeling OTB (intern) niet verder vastgesteld; regionale journalistiek, IGJ en rekenkamer niet gevonden."

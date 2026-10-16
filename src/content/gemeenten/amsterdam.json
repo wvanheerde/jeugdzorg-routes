@@ -129,47 +129,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Advies, lichte begeleiding en trainingen via het OKT zonder besluit. Aanvullende jeugdhulp (enkelvoudig specialistisch en hoogspecialistisch) koopt de gemeente in bij een beperkt aantal gecontracteerde aanbieders per stadsdeel, voor 2024 tot en met 2027; in 2028 start een nieuwe inkoop. De aanbieders staan in de openbare aanbiederszoeker van Gebiedsgericht Samenwerken Jeugdhulp, zoekbaar op gebied, leeftijd en probleem. De regio Amsterdam-Amstelland staat niet op de Beschikbaarheidswijzer; wachttijden per aanbieder zijn niet openbaar. Vraag het OKT of het Gebiedsknooppunt waar plek is.",
+    "samenvatting": "Voor opvoedvragen, lichte begeleiding en trainingen kunt u zelf terecht bij het Ouder- en Kindteam (OKT), zonder aanvraag. Aanvullende jeugdhulp koopt Amsterdam samen met Diemen, Ouder-Amstel en Uithoorn in, bij twintig aanbieders. Wachttijden per aanbieder zijn niet openbaar: vraag ernaar bij het OKT of uw huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpamsterdamduo.nl/aanbieders",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Laagdrempelig via het OKT in de wijk en op school, zonder besluit; ook groepstrainingen voor ouders en jongeren.",
+        "omschrijving": "Gesprekken, advies en groepstrainingen voor ouders en jongeren, zonder aanvraag. Het OKT werkt in de wijk en heeft op elke school een contactpersoon.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via het OKT of een arts, met advies van het Gebiedsknooppunt.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, psychische problemen, gezinsproblemen of een (licht) verstandelijke beperking. Het OKT, de huisarts of de jeugdarts verwijst u; het Gebiedsknooppunt in uw stadsdeel adviseert welke aanbieder past. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en hulp bij een (licht) verstandelijke beperking",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. Het samenwerkingsverband passend onderwijs stelt vast of het nodig is; een poortwachter controleert het leerlingdossier van school.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Daghulp en logeren",
+        "omschrijving": "Hulp overdag in een groep bij de aanbieder, zoals dagbehandeling. Logeren bij een aanbieder geeft u als ouder even rust.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
-        "omschrijving": "De grootste aanbieder van verblijfszorg nam van eind juni tot 8 oktober 2026 nauwelijks nieuwe Amsterdamse kinderen aan; de gemeente staat sindsdien garant. Vraag bij een verblijfsindicatie expliciet naar de wachttijd en naar een plek in de stad.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen en andere woonvormen. In Amsterdam valt dit onder de hoogspecialistische jeugdhulp.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. In de regio Amsterdam-Amstelland werkt daarvoor dag en nacht de crisisdienst jeugd van Arkin en Levvel, samen met Veilig Thuis.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Amsterdam doet Jeugdbescherming Regio Amsterdam dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -410,7 +422,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Amsterdam – Jeugdhulp",
@@ -601,8 +613,53 @@
         "titel": "Leerlingsteunpunt 020",
         "url": "https://leerlingsteunpunt020.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Gebiedsgericht Samenwerken Jeugdhulp Amsterdam en DUO-gemeenten: Over Aanvullende Jeugdhulp",
+        "url": "https://www.jeugdhulpamsterdamduo.nl/aanbieders/algemene-tekst-aanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Verordening jeugdhulp Amsterdam 2025",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR739750/2",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Duo+",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: Gemeenten (werkgebied, kaart juli 2025)",
+        "url": "https://www.jeugdbescherming.nl/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Arkin: A central place for young people in crisis situations (26-07-2024)",
+        "url": "https://arkin.nl/en/news-overview/a-central-place-for-young-people-in-crisis-situations",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Nieuwe crisisdienst jeugd voor Amsterdam en Amstelland",
+        "url": "https://www.levvel.nl/nieuws/nieuwe-crisisdienst-jeugd-voor-amsterdam-en-amstelland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Acute crisis (Geïntegreerde CrisisDienst-Jeugd)",
+        "url": "https://www.levvel.nl/acute-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd na 2015, geen doorlooptijden, raadsbrief september 2026 over Levvel alleen via pers. Het klachtenreglement van de externe klachtencommissie OKT (pdf) kon niet worden uitgelezen. amsterdam.nl vereist volledige browser-headers."
+    "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd na 2015, geen doorlooptijden, raadsbrief september 2026 over Levvel alleen via pers. Het klachtenreglement van de externe klachtencommissie OKT (pdf) kon niet worden uitgelezen. amsterdam.nl vereist volledige browser-headers. Crisisdienst (16-10-2026): Geïntegreerde CrisisDienst-Jeugd van Levvel en Arkin sinds 1 november 2024, 24/7, met Veilig Thuis; nog actueel volgens levvel.nl."
   }
 }

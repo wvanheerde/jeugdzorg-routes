@@ -129,31 +129,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, via het preventieve aanbod voor jeugd. Voor specialistische hulp is een besluit van de gids jeugd nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Dronten koopt die hulp samen met andere gemeenten in Flevoland in, via Sociaal Domein Flevoland. In de Beschikbaarheidswijzer ziet u de hulp die de regio Flevoland inkoopt, met wachttijden. U hoeft daarvoor niet in te loggen.",
+    "samenvatting": "Voor lichte hulp bij opvoeden en opgroeien kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Dronten deels zelf in en deels samen met de andere Flevolandse gemeenten, zoals hulp met verblijf en crisishulp.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/flevoland",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Preventief aanbod zonder besluit van de gemeente, zoals groepsaanbod, BSO+ en groepsgerichte preventieve ggz. In 2025 kregen ongeveer 750 kinderen zo ondersteuning.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Groepsaanbod, BSO+ en preventieve groepen bij psychische klachten. U kunt zelf terecht, zonder aanvraag; voor advies over opvoeden is er ook de jeugdgezondheidszorg van Icare (tot 4 jaar) en GGD Flevoland (4 tot 18 jaar).",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding en behandeling, jeugd-ggz en dagbehandeling.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, in het gezin of in een groep bij psychische problemen, gedrag, ontwikkeling of een beperking, ook specialistische jeugd-ggz en onderzoek bij een licht verstandelijke beperking. U komt er via de gids jeugd of een verwijzing van de huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dagbesteding"
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Verblijf en crisishulp",
-        "omschrijving": "Hulp met verblijf, pleegzorg en crisishulp. Die koopt de regio in; de gids jeugd regelt de toegang.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. De basisschool vraagt het aan bij de poortwachter, in Dronten de IJsselgroep: vraag de school of zij ernstige dyslexie vermoeden.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, zonder overnachting, die u als ouder ontlast en uw kind vaardigheden leert; jonge kinderen tot 5 jaar kunnen behandeling in een groep krijgen. Kinderen met een beperking of psychiatrische aandoening kunnen ook logeren bij een instelling, logeerhuis of vakantieopvang.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio Flevoland heeft pleegzorg, gezinshuizen, woon- en leefgroepen, kamertraining voor oudere jongeren en wonen met behandeling, ook gesloten jeugdhulp. De gids jeugd regelt de toegang.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is of bij een psychische crisis van uw kind. In Flevoland regelt het Crisiscoördinatiepunt van Triade Vitree crisishulp in het gezin en geeft GGz Centraal Fornhese acute jeugd-ggz; een huisarts of hulpverlener meldt aan.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Flevoland doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -227,7 +255,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Dronten: Jeugdhulp",
@@ -343,6 +371,41 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Productomschrijvingen",
+        "url": "https://sociaaldomeinflevoland.nl/handelingskader/productomschrijvingen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Aanmelden bij crisis aanmeldpunt",
+        "url": "https://sociaaldomeinflevoland.nl/aanmelden-bij-crisis-aanmeldpunt",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Producten en aanbieders JB-JR",
+        "url": "https://sociaaldomeinflevoland.nl/sites/default/files/documents/Producten%20en%20aanbieders%20JB-JR.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Dronten: Overzicht aanbieders Jeugdhulp 2023",
+        "url": "https://openpdc.dronten.nl/wp-content/uploads/2023/02/Overzicht-aanbieders-Jeugdhulp-gemeente-Dronten-2023.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Passend Onderwijs Lelystad Dronten: Route voor vergoede dyslexiezorg",
+        "url": "https://www.pold.nl/voor-scholen-en-professionals/leesondersteuning-en-dyslexie/route-voor-vergoede-dyslexiezorg-on4",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie zit achter een bot-controle; begroting 2027 nog niet verschenen. Geen aparte crisispagina (spoedlink gaat naar Huiselijk geweld). Doorlooptijden en cliëntervaring jeugd niet gevonden. Plan regio: vanaf 2027 meer hulp bij complexe problemen gezamenlijk inkopen (jaarstukken 2025)."

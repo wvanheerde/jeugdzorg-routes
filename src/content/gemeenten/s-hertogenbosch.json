@@ -117,47 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Vrij toegankelijke hulp (opvoedondersteuning, maatschappelijk werk, groepswerk) loopt via Koo en de gebiedsteams van Farent, zonder beschikking. Gespecialiseerde jeugdhulp koopt 's-Hertogenbosch in met de jeugdzorgregio Noordoost-Brabant; per 1 januari 2026 gelden nieuwe inkoopcontracten. De regio is niet aangesloten op de Beschikbaarheidswijzer; de gemeente bundelt informatie over zorg op de pagina MijnZorg en Koo helpt bij het kiezen van een gecontracteerde aanbieder.",
-    "gecontracteerdeAanbiedersUrl": "https://www.s-hertogenbosch.nl/mijnzorg/",
+    "samenvatting": "Voor opvoedvragen, maatschappelijk werk en groepen kunt u zelf terecht, zonder aanvraag, bij Koo en de gebiedsteams van Farent. Specialistische jeugdhulp koopt 's-Hertogenbosch in met de andere gemeenten in Noordoost-Brabant, via de inkooporganisatie RIOZ. In het overzicht van RIOZ geven aanbieders zelf een geschatte wachttijd op; vraag Koo wat dat voor uw kind betekent.",
+    "gecontracteerdeAanbiedersUrl": "https://www.rioz.nl/jeugd/contractenboek",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Koo, de gebiedsteams van Farent en de jeugdgezondheidszorg van de GGD, zonder beschikking.",
+        "omschrijving": "Advies, gesprekken en groepen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij Koo, de gebiedsteams van Farent en de jeugdgezondheidszorg van de GGD.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie, intensieve hulp thuis en persoonlijke verzorging als de zorgverzekering die niet betaalt. U komt er via Koo en de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van de gemeente of een arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen, als de hulp start vóór hun dertiende. School vraagt het met u aan bij het dyslexieteam van samenwerkingsverband PO De Meierij; na een besluit van de gemeente kiest u zelf een aanbieder met contract.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Daghulp, respijtzorg en logeren",
+        "omschrijving": "Bij daghulp werkt uw kind in een groep aan vaardigheden en structuur. Respijtzorg, overdag of met logeren, ontlast u als ouder; eerst wordt gekeken of gewone opvang of uw eigen omgeving kan helpen.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
-        "omschrijving": "Als thuis opgroeien niet kan, streeft de gemeente naar gezinsgericht verblijf.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In de regio zijn er pleeggezinnen (ook voor het weekend), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, een crisispleeggezin of een korte opvangplek. Spoedeisende Zorg van Jeugdbescherming Brabant beoordeelt dag en nacht of dat nodig is; bij een psychische crisis helpt de crisisdienst van de ggz.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noordoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -312,7 +324,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente 's-Hertogenbosch – Jeugdhulp",
@@ -388,6 +400,41 @@
         "titel": "Koo (gemeente 's-Hertogenbosch): spoed of crisis, snel hulp voor kind en gezin",
         "url": "https://www.kijkopkoo.nl/is/een-vraag-over/opvoeding-en-gezin/gezond-opgroeien/jeugdhulp/crisishulp-jeugd",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "RIOZ: Specialistische Jeugdhulp (gemeenten regio Noordoost-Brabant)",
+        "url": "https://www.rioz.nl/jeugd",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Contractenboek jeugd (producten en geschatte wachttijden per aanbieder)",
+        "url": "https://www.rioz.nl/jeugd/contractenboek",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Productenboek jeugd (versie juni 2026)",
+        "url": "https://www.rioz.nl/sites/default/files/2026-08/Bijlage%202%20-%20Productenboek%202023%20versie%20juni%202026%201.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RIOZ: Veelgestelde vragen jeugd (crisis, huisartsverwijzing, gecertificeerde instellingen)",
+        "url": "https://www.rioz.nl/jeugd/veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO De Meierij: Dyslexieteam",
+        "url": "https://www.demeierij-po.nl/voor-scholen/dyslexieteam/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Toegang (Koo), klacht, bezwaar, pgb, cliëntondersteuning en cliëntervaringsonderzoek geverifieerd op 2026-10-11. Niet geverifieerd: de precieze naam van het gemeentelijke onderzoeksteam jeugd (de verordening noemt een 'Basisteam Jeugd en Gezin', de publiekssite spreekt van 'een medewerker van de gemeente') en de nieuwe inkoopcontracten 2026 van regio Noordoost-Brabant; MijnZorg is een gemeentelijke informatiepagina, geen aanbiederslijst. Beschikbaarheidswijzer gecontroleerd op 2026-10-11: regio Noordoost-Brabant niet aangesloten. Geen recente regionale persberichten of IGJ-rapporten specifiek over de Bossche toegang gevonden; jaarrekening 2025 niet doorzocht op jeugdcijfers. Spoedroute verwijst naar Koo (gemeente 's-Hertogenbosch): spoed of crisis, snel hulp voor kind en gezin."

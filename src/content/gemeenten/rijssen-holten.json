@@ -126,25 +126,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Voor advies en lichte hulp kunt u terecht bij Loes en het Sociaal VraagPlein. Specialistische jeugdhulp koopt Rijssen-Holten samen met dertien andere Twentse gemeenten in. Sinds 2025 werkt de regio daarvoor met nieuwe contracten. De Beschikbaarheidswijzer van regio Twente laat zien welke aanbieders er zijn en hoe lang het wachten is. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Loes en het Sociaal VraagPlein. Specialistische jeugdhulp koopt Rijssen-Holten in samen met de andere Twentse gemeenten.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/twente",
     "categorieen": [
       {
         "naam": "Advies over opvoeden en opgroeien",
-        "omschrijving": "Via Loes, voor ouders van kinderen tot en met 18 jaar: tips, online vragen, cursussen en persoonlijk contact bij het Sociaal VraagPlein.",
+        "omschrijving": "Tips, online vragen en cursussen via Loes voor ouders van kinderen tot en met 18 jaar. Persoonlijk contact kan bij het Sociaal VraagPlein, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, pleegzorg en verblijf, logeren en crisishulp, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie. Een medewerker jeugd bespreekt met u wat past; vaak zoekt de hulpverlener ook met u een mentor uit uw eigen omgeving (JIM, Jouw Ingebrachte Mentor). Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "logeren-respijt",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -206,12 +240,12 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Rijssen-Holten: Hulp bij jeugd en gezin",
         "url": "https://www.rijssen-holten.nl/direct-regelen/sociaal-vraagplein/gezin-en-relaties/hulp-bij-jeugd-en-gezin",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Rijssen-Holten: Inlooppunt Sociaal VraagPlein",
@@ -322,6 +356,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Samen14: Inkoop 2025 (jeugdhulp Twente)",
+        "url": "https://samen14.nl/inkoop/default.aspx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek jeugd gevonden; uitkomsten van de vragenlijst over het Sociaal VraagPlein (mei 2026) niet openbaar gevonden. Raadsinformatie (gemeenteraad.rijssen-holten.nl) zit achter bot-controle en is niet doorzocht; regionale journalistiek ook niet. Wachttijd 6 tot 8 weken uit de jaarstukken 2025 is een toelichting bij een prioriteit, geen meetrapportage."

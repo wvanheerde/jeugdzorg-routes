@@ -8,6 +8,10 @@ Werkwijze: is de datum voorbij, kijk het punt na, werk de pagina bij en haal de 
 
 - brunssum: proef met een wijkteam in Brunssum Noord start op 26 oktober 2026. Nakijken of het wijkteam een eigen route of contactblok nodig heeft.
 
+## Na 1 december 2026
+
+- veenendaal: nieuwe poortwachter ernstige dyslexie per 1-12-2026 (bron: vacature). Dyslexiecategorie nakijken.
+
 ## Na november 2026: begroting 2027
 
 De programmabegroting 2027 was op 16 oktober 2026 nog niet verschenen. Daarna het jeugdhoofdstuk lezen op wachttijden, cliëntervaring en veranderingen in de toegang (zie `meta.opmerkingen`):
@@ -19,9 +23,37 @@ albrandswaard, alkmaar, asten, barneveld, bergen-l, bergen-op-zoom, berkelland, 
 - stichtse-vecht: toegang gaat van TIM SV naar de gemeente. Naam, contact en routes van het nieuwe team invullen; TIM SV-route weghalen.
 - oosterhout: het Stevig Lokaal Team wordt het startpunt voor hulpvragen. Aanmelding en contactgegevens nakijken. (https://regiowbo.nl/veranderopgaven/stevige-lokale-teams/)
 - drimmelen: idem, Stevig Lokaal Team. (https://regiowbo.nl/veranderopgaven/stevige-lokale-teams/)
+- altena: idem, Stevig Lokaal Team (Surplus, MEE en Sterk Huis, gegund juli 2026). Toegang en aanbod nakijken.
 - geertruidenberg: CJG gaat op in het Stevig Lokaal Team. Toegang herschrijven. (https://www.geertruidenberg.nl/alle-onderwerpen/jeugd-en-onderwijs/jeugdhulp-via-stevig-lokaal-team/)
 - heerenveen: plannen voor een medewerker jeugd op scholen en een praktijkondersteuner jeugd bij huisartsen. Nakijken of ze zijn ingevoerd; dan in de school- en huisartsroute zetten.
 - krimpenerwaard: lokaal team per gebied, volgens raadsvragen BV26-034 pas in 2027. Nakijken of het er is.
+- alphen-aan-den-rijn: koopt jeugdhulp vanaf 2027 in met de regio Holland Rijnland. Aanbod gelijktrekken met de regio (dyslexie- en crisiscategorie, Beschikbaarheidswijzer) en de samenvatting bijwerken.
+- dongen (en de rest van Hart van Brabant): vanaf 1 januari 2027 verandert de lijst van aanbieders voor veelvoorkomende jeugdhulp; hulp die al loopt mag doorgaan. Nakijken of het aanbod en de link naar aanbieders nog kloppen.
+- nissewaard, voorne-aan-zee: nieuwe aanbesteding "Dyslexiezorg 2027-2030" (TED 398533-2026). Dyslexieroute in het aanbod nakijken; de huidige tekst rust op een aanbestedingsstuk uit 2022.
+- drenthe (alle 12): dyslexieroute komt uit het inkoopdocument Dyslexie 2027-2030; na de start van de nieuwe contracten nakijken.
+- oirschot, valkenswaard (Samen voor Jeugd): contracten lopen tot eind 2027, nieuwe per 1-1-2028. Aanbod en aanbiederslink nakijken.
+- waalre: plannen voor een sterker lokaal team in 2027. Nakijken of het er is.
+- helmond: STH neemt vanaf 2026 meer hulp over. Nakijken of de categorie begeleiding nog klopt.
+- zuidoost-brabant (alle 21): afspraken met de jeugdbeschermingsorganisaties vanaf 2027 zijn nog onzeker. Categorie Jeugdbescherming nakijken.
+- zeeland (alle 13): dyslexieroute rust op de IJZ-factsheet van juni 2025; nakijken bij een nieuwe versie. Jeugdbescherming west kondigde op 15-10-2026 een juridische samenvoeging aan; naam van de instelling nakijken.
+- ijsselland (alle 11): crisiscontract liep tot 1-1-2026 en is verlengd of opnieuw ingekocht; nakijken of Spoedhulp IJsselland en Dimence nog kloppen. Nieuwe aanbesteding ernstige dyslexie per 1-1-2027: dyslexieroute nakijken. Hardenberg: nakijken of het volledig in de regionale contracten zit (RSJ noemt integratie in 2026).
+- zuid-limburg (alle 16): GI-subsidieregeling wordt per 1-1-2027 vervangen door een Limburgse regeling; crisiscontract loopt tot 1-1-2027; JENS-contract (Heerlen, Landgraaf, Voerendaal) loopt tot en met 2027. Jeugdbescherming, crisishulp en de JENS-teksten nakijken. Ook: kinderpsycholoog-proef in Vaals, en of Sittard-Geleen ambulante hulp zelf gaat inkopen.
+- centraal gelderland (alle 11): SDCG-contracten lopen tot en met 31-12-2026. Aanbod nakijken na de nieuwe contracten, ook de vaste aanbieders in Rheden en Rozendaal (tussentijdse openstelling 26-6 tot 3-9-2026).
+- haaglanden (alle 9): nieuwe regionale contracten per 1-1-2028. Aanbod en Startpunt-link nakijken.
+- zuid-holland zuid (alle 10): SOJ-contracten veranderen per 1-1-2027; aanbod nakijken. Hendrik-Ido-Ambacht: loopt de proef "Jeugdhulp op school" nog (contracten tot en met 2027)?
+- midden-ijssel/oost-veluwe (alle 8): dyslexieroute rust op instructie ED versie 1.13 (31-05-2023) in de map 2026; nakijken of die nog geldt.
+- west-brabant west (alle 9): de jeugdbeschermingsorganisaties wezen het Brabantse inkoopaanbod vanaf 2027 af; categorie Jeugdbescherming nakijken zodra de contracten rond zijn.
+- maasdriel, zaltbommel: nieuwe contracten Zorginkoop Bommelerwaard per 2027 (inkoop 2027-2030). Aanbod nakijken. Rivierenland: raamovereenkomst verlengd tot 1-7-2028.
+- zuid-kennemerland en ijmond (alle 7): contracten met de jeugdbeschermingsorganisaties liepen vanaf 2019 voor 7 jaar; nakijken of die na 2026 veranderen. SWV PO Zuid-Kennemerland verwacht in oktober 2026 een aangepast dyslexieprotocol; dyslexiecategorie nakijken.
+- amsterdam-amstelland (alle 6): crisisdienst jeugd (Arkin en Levvel met Veilig Thuis) rust op een bericht van juli 2024; nakijken of die nog zo heet en werkt.
+- zaanstreek-waterland (alle 7): nieuwe contracten specialistische jeugdhulp per 1-1-2027 (gunning oktober 2026) en dyslexiezorg in 2026 opnieuw aanbesteed. Aanbod, wonen en dyslexiecategorie nakijken.
+- west-friesland (alle 7): contracten met de jeugdbeschermingsorganisaties gestart in 2024 met optie tot verlengen; nakijken bij verlenging of nieuwe inkoop.
+- noord-veluwe (alle 7): poortwachtercontract dyslexie loopt af op 31-12-2026; aanbesteding ambulante spoedhulp loopt in 2026. Dyslexie- en crisiscategorie nakijken.
+- midden-limburg (alle 7): de websites van de regio gaan in 2026 samen in de MGR Limburg-Noord; aanbiederslink (cjgml.nl) nakijken. Echt-Susteren: raad besluit op 5-11-2026 over het structureel maken van het project preventieve dyslexie.
+- lelystad: dyslexie via POLD, behandelaar per stadsdeel (RID Zuid, Zien in de Klas Noord) "per 2021"; nakijken of dat nog geldt. Lokale contracten lopen 1-7 t/m 31-12-2026.
+- alkmaar, kop van noord-holland: nieuw contract jeugdbescherming 2026-2030 (NW4); in de Beschikbaarheidswijzer van Hollands Kroon staat het Leger des Heils niet. Categorie Jeugdbescherming nakijken.
+- utrecht west, stichtse-vecht: poortwachter Passenderwijs neemt in 2026 geen dyslexie-aanvragen aan; in 2027 weer (8 feb t/m 28 mrt en 28 jun t/m 24 sep). Tekst dyslexie aanpassen na die data. Stichtse Vecht sluit per 1-1-2027 aan bij de inkoop van Utrecht West: aanbod en aanbiederslink gelijktrekken.
+- rijk van nijmegen (alle 7): dyslexieroutes per gemeente rusten op een aanbestedingsbijlage uit 2023; nakijken bij een nieuwe aanbesteding of als een gemeente de route op haar site zet.
 - leidschendam-voorburg: proef met een nieuw lokaal team voor de toegang. Nakijken na de start. (https://www.lv.nl/aanvragen-jeugdhulp)
 - baarle-nassau: Sterk Lokaal Team (netwerkteams en een centraal aanmeldpunt). Nakijken zodra de gemeentepagina verandert, uiterlijk begin 2027. (https://api.notubiz.nl/document/15657629/1)
 - bodegraven-reeuwijk: begroting 2027 noemt een nulmeting van de doorlooptijden per 1 januari 2027. Nakijken of er cijfers zijn.

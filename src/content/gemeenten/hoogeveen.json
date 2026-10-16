@@ -124,35 +124,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG en bij het jeugdmaatschappelijk werk op school. Specialistische jeugdhulp koopt Hoogeveen samen met zes andere gemeenten in Zuid-Drenthe in. Naar verwachting gaat dat vanaf januari 2027 via de nieuwe Jeugdhulpregio Drenthe, voor alle twaalf Drentse gemeenten. Vanaf 1 januari 2028 wil de gemeente lichte jeugdhulp zelf organiseren. Aanbieders en wachttijden vindt u in de Beschikbaarheidswijzer. Vraag het CJG om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het Centrum voor Jeugd en Gezin (CJG) en het jeugdmaatschappelijk werk op school. Specialistische jeugdhulp koopt Hoogeveen in samen met de andere zes gemeenten in Zuid-Drenthe. Vraag het CJG om hulp bij het kiezen van een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-drenthe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: advies, ondersteuning bij opvoeden en een relatie- en scheidingsteam voor ouders.",
+        "omschrijving": "Advies en steun bij opvoeden via het CJG, met een relatie- en scheidingsteam voor ouders. Op alle scholen werkt een jeugdmaatschappelijk werker, gratis en vertrouwelijk, ook met groepstrainingen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jeugdmaatschappelijk werk op school",
-        "omschrijving": "Gratis en vertrouwelijk op alle basisscholen en middelbare scholen, met groepstrainingen voor kinderen en jongeren.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp (hulp thuis of bij de aanbieder), jeugd-ggz, verblijf en pleegzorg. De gemeenten in de regio kopen deze hulp samen in.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via het CJG of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, wonen met begeleiding, verblijf met behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Crisishulp buiten kantoortijd",
-        "omschrijving": "Spoed voor Jeugd helpt in heel Drenthe buiten kantoortijd en in het weekend. Ouders, jongeren, huisartsen en politie kunnen contact opnemen.",
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -205,7 +229,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hoogeveen: Jeugd en gezin",
@@ -291,6 +315,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: FAQ (ingekochte modules)",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/faq",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: Module Wonen",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/beschrijving-modules/29/wonen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Drenthe",
+        "url": "https://s4jd.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden en wachttijden van de toegang niet gevonden; raadsinformatie alleen op titel doorzocht. Verband tussen het CJG en het team Veilig Opgroeien uit de jaarstukken niet vastgesteld. Geen aparte crisispagina; de spoedlink gaat naar Jeugd en gezin (kopje Spoed voor Jeugd)."

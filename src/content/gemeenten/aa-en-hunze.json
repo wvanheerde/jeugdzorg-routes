@@ -128,29 +128,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bij Attenta, het jeugd- en schoolmaatschappelijk werk van Impuls en Home-Start. Specialistische jeugdhulp koopt Aa en Hunze samen in met Assen, Midden-Drenthe, Noordenveld en Tynaarlo. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn, zonder inloggen. Vanaf 2027 koopt de nieuwe Jeugdhulpregio Drenthe de jeugdhulp in. Volgens de gemeente gelden er vanaf 2028 nieuwe contracten.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Attenta, het jeugd- en schoolmaatschappelijk werk van Impuls en Home-Start. Specialistische jeugdhulp koopt Aa en Hunze in samen met Assen, Midden-Drenthe, Noordenveld en Tynaarlo.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/noord-en-midden-drenthe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en lichte hulp bij Attenta, jeugdgezondheidszorg (Icare JGZ en GGD Drenthe), Home-Start en de praktijkondersteuner jeugd bij de huisarts in Rolde en Gieten.",
+        "omschrijving": "Advies en lichte hulp bij Attenta, de jeugdgezondheidszorg (Icare JGZ en GGD Drenthe), Home-Start en de praktijkondersteuner jeugd bij de huisarts in Rolde en Gieten. Het jeugd- en schoolmaatschappelijk werk van Impuls helpt bij zorgen over hoe uw kind zich voelt en met anderen omgaat.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jeugd- en schoolmaatschappelijk werk",
-        "omschrijving": "Korte hulp via Impuls Welzijn bij zorgen over hoe uw kind zich voelt en met anderen omgaat.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Regionaal ingekocht, na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz, dyslexiezorg en verblijf.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via Attenta of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, ook gericht op school, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg (ook in deeltijd), gezinshuizen, verblijf met begeleiding of behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -233,7 +263,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Aa en Hunze: Jeugdgezondheidszorg en jeugdhulp (met spoed of crisis jeugd)",
@@ -344,6 +374,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Productoverzicht 2026 Noord- en Midden-Drenthe (NMD-samenwerking)",
+        "url": "https://nmdsamenwerking.nl/wp-content/uploads/2026/03/Matrix-Productoverzicht-2026-versie-1.3.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "NMD-samenwerking: Veelgestelde vragen (dagbesteding, logeren/respijt Drenthe)",
+        "url": "https://nmdsamenwerking.nl/veelgestelde-vragen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Drenthe",
+        "url": "https://s4jd.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Gemeten doorlooptijden toegang en klachtencijfers niet gevonden; klachtenregeling Attenta stamt uit 2022. Beschikbaarheidswijzer dekt alleen de 5 NMD-gemeenten; van het samenwerkingsverband alleen een contactformulier gevonden. Regionale journalistiek beperkt doorzocht (WebSearch-limiet)."

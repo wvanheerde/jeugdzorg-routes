@@ -110,44 +110,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp, opvoedondersteuning en begeleiding bieden de wijkcoaches zelf, zonder beschikking. Specialistische jeugdhulp wordt ingekocht door Inkoop Sociaal Domein Centraal Gelderland (elf gemeenten rond Arnhem), dat een openbare zoektool met gecontracteerd aanbod heeft. Arnhem werkt sinds 2025 met gebiedsgerichte opdrachten aan vaste jeugdhulpaanbieders per wijk (Vertrouwd, Aanwezig, Veilig). De regio is niet aangesloten op de Beschikbaarheidswijzer.",
+    "samenvatting": "Voor opvoedvragen en lichte begeleiding kunt u zelf terecht bij uw wijkcoach van Wijkteams Arnhem, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Arnhem in samen met de tien andere gemeenten in de regio Centraal Gelderland. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij uw wijkcoach of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=238343",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via de wijkcoach en de jeugdgezondheidszorg, zonder beschikking.",
+        "omschrijving": "Gesprekken en advies bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij uw wijkcoach en bij de jeugdgezondheidszorg van GGD Gelderland-Midden.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en gezinsbegeleiding",
-        "omschrijving": "Lichte begeleiding door het wijkteam zelf; intensievere begeleiding via gecontracteerde aanbieders.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking. Lichte begeleiding geeft de wijkcoach zelf; voor meer hulp verwijst de wijkcoach of een arts u naar een aanbieder, sinds 2025 vaak een vaste aanbieder in uw wijk. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Behandeling, waaronder jeugd-ggz",
-        "omschrijving": "Via verwijzing van wijkcoach of arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Op advies van school kiest u zelf een aanbieder met een contract en geeft u het leesdossier van school mee; de aanbieder vraagt de vergoeding aan bij de gemeente.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij groepsbegeleiding of dagbehandeling krijgt uw kind overdag hulp in een groep buiten huis; voor kinderen van 4 tot 12 jaar met extra ondersteuning is er BSO+. Logeren bij een aanbieder geeft u als ouder even rust; de wijkcoach bekijkt wat past.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
-        "omschrijving": "Hulp waarbij een kind (tijdelijk) buiten het gezin woont, loopt via een apart team. De gemeente wil dat zo weinig mogelijk kinderen buiten het gezin hoeven te wonen.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen en woongroepen. In Arnhem regelt een apart team deze hulp. Eerst wordt gekeken of opvang in uw eigen netwerk of bij een steungezin kan.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: hulp aan huis, een crisispleeggezin of een korte opvangplek. In deze regio regelt de Spoedeisende Zorg van Jeugdbescherming Gelderland dit, dag en nacht.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Centraal Gelderland doet Jeugdbescherming Gelderland dit, vanuit Arnhem. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -311,7 +326,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Arnhem – Wijkteams Arnhem",
@@ -392,6 +407,46 @@
         "titel": "Wijkteams Arnhem: Veiligheid (huiselijk geweld en zorgen om een kind)",
         "url": "https://www.wijkteamsarnhem.nl/mijn-vraag/veiligheid/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop SDCG: Toegang tot dyslexiezorg in Centraal Gelderland (versie 24 maart 2026)",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2281111",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Groepsbegeleiding",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2334611",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Behandeling (met BSO+)",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2362658",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Verblijf (pleegzorg, gezinshuizen, logeren, woongroepen)",
+        "url": "https://www.inkoopsdcg.nl/home+inkoop/inkoop/inkoopdocumenten/inkoopdocumenten+verblijf/HandlerDownloadFiles.ashx?idnv=2765659",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Pleegzorg, achtergrond en afspraken in Centraal Gelderland (juli 2024)",
+        "url": "https://www.inkoopsdcg.nl/home+inkoop/inkoop/inkoopdocumenten/inkoopdocumenten+verblijf/HandlerDownloadFiles.ashx?idnv=2893384",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisendezorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact (regio midden, Arnhem)",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Toegang, klacht- en bezwaarprocedure, pgb en cliëntondersteuning geverifieerd op de sites van Wijkteams Arnhem en de gemeente. Regio Centraal Gelderland staat op 2026-10-11 niet in de regiolijst van de Beschikbaarheidswijzer; de zoektool van Inkoop SDCG is gebruikt (publiek bereikbaar, maar niet gecontroleerd of alle functies zonder inloggen werken). de contactpagina van jbgld.nl kon niet worden gelezen. Telefoonnummer van Adviespunt Zorgbelang voor Arnhem niet gevonden; alleen het webadres is opgenomen. Publicatiedatum van het jaarverslag 2025 van de wijkteams is niet exact bekend (geschat juni 2026). Het online klachtformulier van de gemeente (eloket.arnhem.nl/f/387) gaf bij controle een foutmelding; daarom is de productpagina gelinkt. Spoedroute verwijst naar Wijkteams Arnhem: Veiligheid (huiselijk geweld en zorgen om een kind)."

@@ -123,31 +123,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Zoeterwoude en het Jeugdteam, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Zoeterwoude samen met de andere gemeenten van jeugdregio Holland Rijnland in. Welke aanbieders er zijn en hoe lang de wachttijden zijn, ziet u op de Beschikbaarheidswijzer van de regio. Die is openbaar, zonder inloggen.",
+    "samenvatting": "Bij het CJG Zoeterwoude en het Jeugdteam kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Zoeterwoude in samen met de andere gemeenten van de regio Holland Rijnland. Heeft een aanbieder zijn budget voor het jaar op, dan neemt die tijdelijk geen nieuwe kinderen aan: vraag het Jeugdteam dan om een andere aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
     "categorieen": [
       {
         "naam": "Opvoedondersteuning en jeugdgezondheidszorg",
-        "omschrijving": "Via het CJG Zoeterwoude: opvoedadvies, pedagogisch advies, cursussen en de jeugdgezondheidszorg, zonder verwijzing.",
+        "omschrijving": "Opvoedadvies, pedagogisch advies, cursussen en de jeugdgezondheidszorg. U kunt zelf terecht bij het CJG Zoeterwoude, zonder verwijzing.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Hulp van het Jeugdteam",
-        "omschrijving": "Ambulante hulp (hulp aan huis of op school) door het Jeugdteam, en trainingen voor kinderen.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Jeugdteam voor Leiderdorp en Zoeterwoude helpt eerst zelf, bijvoorbeeld met een training met andere kinderen, en verwijst zo nodig door; elke school heeft een vaste contactpersoon in een jeugdteam. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, jeugd-ggz, dagbesteding, dyslexiezorg en verblijf. De regio koopt deze hulp in.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het loopt via school, niet via het Jeugdteam: vraag de school of zij dyslexie vermoeden.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbehandeling, dagbesteding en respijtzorg",
+        "omschrijving": "Behandeling of begeleiding overdag in een groep, ook in een kinderdagcentrum, voor kinderen met een beperking of ernstige problemen. Dagbesteding kan ook tijdelijk worden ingezet om u als ouder te ontlasten.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. Er is pleegzorg, ook in deeltijd, en er zijn gezinshuizen en woongroepen, soms met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Jeugdteam kan hulp thuis, een crisisplek of crisispleegzorg regelen.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Holland Rijnland doet Jeugdbescherming west dit, vanuit Leiden. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -448,6 +476,36 @@
         "titel": "Gemeente Zoeterwoude: Staat van Zoeterwoude (Kaderbrief 2027-2030)",
         "url": "https://zoeterwoude.qualigraf.nl/vji/public/agenda/agendaview/action=showdoc/pdc=2aa0008820a2020208aa80858a092705/Bijlage_1._Staat_van_Zoeterwoude_-_Kaderbrief_2027-2030.pdf",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Gecontracteerde zorg",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/gecontracteerde-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Dienstomschrijvingen jeugdhulp 2022-2026 (pdf)",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/wp-content/uploads/2025/01/Bijlage-5-Dienstomschrijvingen-v12-feb-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Zorg Holland Rijnland – Hoe te handelen bij een crisis?",
+        "url": "https://serviceorganisatiezorghollandrijnland.nl/informatie-voor-verwijzers/hoe-te-handelen-bij-een-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdteams Leidse Regio – Dyslexie",
+        "url": "https://www.jeugdteamsleidseregio.nl/hulp-nodig-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west – Gemeenten en werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 en begroting 2027 nog niet in de raadsinformatie; gelezen zijn begroting 2026, Voorjaarsnota en Kaderbrief 2027-2030. Wachttijdcijfers zijn van de Jeugdteams Leidse Regio samen (2022-2023); regionale journalistiek niet doorzocht; Beschikbaarheidswijzer holland-rijnland heeft lege gemeentelijst, maar SOZ noemt Zoeterwoude. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."

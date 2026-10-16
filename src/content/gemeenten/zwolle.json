@@ -127,47 +127,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp, trainingen en gezinsbegeleiding via het Sociaal wijkteam zonder beschikking. Specialistische jeugdhulp wordt ingekocht door het Regionaal Serviceteam Jeugd (RSJ) IJsselland voor elf gemeenten, sinds 1 januari 2026 ondergebracht bij GGD IJsselland. De regio IJsselland is aangesloten op de Beschikbaarheidswijzer, waar u zelf de gecontracteerde aanbieders en hun wachttijden kunt bekijken.",
+    "samenvatting": "Voor opvoedvragen, trainingen en gezinsbegeleiding kunt u zelf terecht, zonder aanvraag, bij het Sociaal wijkteam. Specialistische jeugdhulp koopt Zwolle samen met de andere tien gemeenten van de regio IJsselland in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Sociaal wijkteam en de jeugdgezondheidszorg van GGD IJsselland, zonder beschikking. Het wijkteam biedt ook trainingen, zoals 'Plezier op school' voor kinderen die naar de brugklas gaan en 'Leer te durven' voor kinderen die angstig zijn.",
+        "omschrijving": "Advies en gesprekken bij het Sociaal wijkteam en de jeugdgezondheidszorg van GGD IJsselland, zonder aanvraag. Het wijkteam geeft ook trainingen, zoals 'Plezier op school' voor kinderen die naar de brugklas gaan en 'Leer te durven' voor kinderen die angstig zijn.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, alleen of in een groep. Gezinsbegeleiding geeft het Sociaal wijkteam vaak zelf. Voor andere hulp verwijst het Sociaal wijkteam of de huisarts, jeugdarts of medisch specialist u naar een aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van het Sociaal wijkteam of een arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School geeft het advies en levert het leerlingdossier aan; daarna beslist het Sociaal wijkteam over de hulp.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven. U vraagt dit aan via het Sociaal wijkteam.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
-        "omschrijving": "De gemeente wil zoveel mogelijk voorkomen dat kinderen buiten het gezin moeten wonen. Is dat toch nodig, dan zo veel mogelijk in een gezin.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of zorgboerderij, of een kleine woongroep. De elf gemeenten van IJsselland regelen dit samen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd kan Veilig Thuis IJsselland of de jeugdbeschermer Spoedhulp IJsselland inzetten, eerst thuis en zo nodig met een crisisbed; bij psychische nood is er de crisisdienst van Dimence.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In IJsselland doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -530,6 +542,31 @@
       {
         "titel": "Zorgbelang Overijssel: onafhankelijke cliëntondersteuning",
         "url": "https://www.zorgbelang-overijssel.nl/clientondersteuning/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoop specialistische jeugdhulp",
+        "url": "https://www.rsj-ijsselland.nl/inkoop",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoopdocument Jeugdhulp Voorzieningen versie 1.8",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Inkoopdocument%20versie%201.8_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Jeugdbescherming, voor jeugdigen en ouders",
+        "url": "https://www.rsj-ijsselland.nl/jeugdbescherming/voor-jeugdigen-en-ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

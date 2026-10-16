@@ -2,6 +2,7 @@
   "naam": "Molenlanden",
   "cbsCode": "GM1978",
   "provincie": "Zuid-Holland",
+  "jeugdzorgregio": "Zuid-Holland Zuid",
   "websiteJeugd": "https://www.molenlanden.nl/opvoeden-en-opgroeien",
   "toegang": {
     "samenvatting": "In Molenlanden meldt u zich zonder verwijzing bij het Sociaal Team, via het Sociaal Loket, voor kinderen en jongeren tot 18 jaar. U kunt ook via de huisarts, de jeugdarts of school.",
@@ -121,31 +122,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het Sociaal Team en bij Jong JGZ: gesprekken, trainingen en bijeenkomsten voor kinderen, jongeren en ouders. Specialistische jeugdhulp koopt Molenlanden samen met negen andere gemeenten in, via de Serviceorganisatie Jeugd Zuid-Holland Zuid. De Beschikbaarheidswijzer van deze regio toont aanbieders en wachttijden. Hij is openbaar, zonder inloggen.",
+    "samenvatting": "Bij het Sociaal Team kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Molenlanden in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het Sociaal Team, ook met trainingen en groepsbijeenkomsten. En via de pedagogen van Jong JGZ: kort en gratis, ongeveer vijf gesprekken.",
+        "omschrijving": "Gesprekken, trainingen en groepsbijeenkomsten voor kinderen, jongeren en ouders. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Team; de pedagogen van Jong JGZ geven kort en gratis ongeveer vijf gesprekken.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Sociaal Team of een verwijzing van de huisarts: ambulante hulp (thuis of op afspraak), jeugd-ggz, dagbehandeling en verblijf. Samen ingekocht in de regio.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via het Sociaal Team of met een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; de hulp moet starten voordat uw kind groep 8 verlaat. School en u vragen het samen aan bij de poortwachter van samenwerkingsverband Driegang, die een compleet dossier binnen twee weken beoordeelt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Onderzoek en behandeling bij ernstige dyslexie. De school vraagt dit aan bij het samenwerkingsverband.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
         "hulpsoorten": [
-          "dyslexiezorg"
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -220,7 +249,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Molenlanden: Opvoeden en opgroeien",
@@ -356,9 +385,44 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis ZHZ: Crisisinterventieteam Zuid-Holland Zuid",
+        "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: over de SOJ (tien gemeenten)",
+        "url": "https://www.jeugdzhz.nl/over-soj",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Driegang: Enkelvoudige dyslexie (poortwachter ED)",
+        "url": "https://www.driegang.nl/professionals/diensten/enkelvoudige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Begroting 2027 van de gemeente is nog niet verschenen. Website Driegang niet bereikbaar vanaf onze server; gegevens komen van de landelijke steunpuntenkaart. Nieuwere editie cliëntervaringsonderzoek Jeugd ZHZ dan 2022 niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Begroting 2027 van de gemeente is nog niet verschenen. Website Driegang niet bereikbaar vanaf onze server; gegevens komen van de landelijke steunpuntenkaart. Nieuwere editie cliëntervaringsonderzoek Jeugd ZHZ dan 2022 niet gevonden. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexie: Driegang-pagina (laatst gewijzigd april 2025) noemt Gorinchem, Molenlanden en Hardinxveld-Giessendam met eigen procedure (toestemmingsverklaring, aanmelding in Grippa, deadlines 1 november en 1 april); wat er na het advies gebeurt (keuze aanbieder of beschikking) staat er voor deze gemeenten niet bij."
   },
   "ervaringen": {
     "samenvatting": "Molenlanden wil gezinnen vroeg en dichtbij helpen, via het eigen Sociaal Team. Volgens de gemeente kregen in 2025 minder kinderen hulp van een aanbieder buiten het team, terwijl meer gezinnen zich bij het team zelf meldden. In het regionale ervaringsonderzoek van 2022 noemden ouders lange wachttijden en weinig uitleg over de volgende stappen. Hoe lang u op de toegang wacht, wordt niet openbaar gemeten.\n\nVraag bij uw aanmelding bij het Sociaal Loket hoe lang het duurt en wie uw vaste contactpersoon wordt. Leg afspraken schriftelijk vast, zoals het actieplan en de beschikking. Neem een onafhankelijke cliëntondersteuner van MEE Plus mee. Loopt het niet goed, bespreek het dan met de klachtencoördinator sociaal.",

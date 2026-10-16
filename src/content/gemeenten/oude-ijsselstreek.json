@@ -139,32 +139,66 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij Buurtzorg Jong, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Oude IJsselstreek samen met de andere Achterhoekse gemeenten in via Sociaal Domein Achterhoek. De Beschikbaarheidswijzer bevat Oude IJsselstreek niet. Een lijst met aanbieders en wachttijden voor deze gemeente is niet openbaar te vinden. Vraag de jeugd- en gezinswerker om een overzicht en hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://www.sociaaldomeinachterhoek.nl/inwoner",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Buurtzorg Jong. Specialistische jeugdhulp koopt Oude IJsselstreek in samen met de andere Achterhoekse gemeenten, via Sociaal Domein Achterhoek. Vraag de jeugd- en gezinswerker om hulp bij het kiezen van een aanbieder.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/achterhoek",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Buurtzorg Jong: advies, hulp thuis en cursussen voor kinderen, jongeren en ouders. De cursussen zijn voor inwoners gratis.",
-        "hulpsoorten": [
-          "opvoedondersteuning",
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Hulp bij scheiding",
-        "omschrijving": "Het Kind & Scheidingspunt helpt ouders en kinderen bij een scheiding, gratis. Buurtzorg Jong werkt hierin samen met andere organisaties.",
+        "omschrijving": "Advies, hulp thuis en cursussen van de jeugd- en gezinswerkers van Buurtzorg Jong, zonder aanvraag; de cursussen zijn gratis. Jongeren van 10 tot 23 jaar kunnen ook bij de jongerenwerkers terecht.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Hulp bij scheiding",
+        "omschrijving": "Gratis informatie, advies en coaching voor ouders die gaan scheiden of net gescheiden zijn, met aandacht voor de kinderen. Dit geeft het Kind & Scheidingspunt, waarin Buurtzorg Jong samenwerkt met andere organisaties.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
+          "opvoedondersteuning"
+        ]
+      },
+      {
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, bij de aanbieder of in een groep bij gedrag, ontwikkeling of psychische problemen, ook onderzoek en jeugd-ggz. Lichtere hulp geeft Buurtzorg Jong vaak zelf; anders beslist de jeugd- en gezinswerker over hulp van een andere aanbieder, of u komt er via een verwijzing van de huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
+        "hulpsoorten": [
           "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige leesproblemen, als de diagnose voor hun 13e wordt gesteld. School bouwt het leesdossier op; u stuurt de aanvraag met de verklaring van school naar de gemeente Oude IJsselstreek en kiest een van de drie aanbieders: RID, IJsselgroep of Berkel-B.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, bijvoorbeeld op een zorgboerderij of in een orthopedagogisch dagcentrum. Logeren geeft u als ouder even rust; de Achterhoekse gemeenten kopen het samen in.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen, verblijf bij een ggz-instelling en wonen gericht op zelfstandigheid. Lukt het niet om een plek te vinden, dan zoekt de Regionale Toeleidings Tafel samen met aanbieders verder.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig of vol te houden is: crisisbegeleiding thuis of een korte opvangplek. Dag en nacht helpt de Spoedeisende Zorg van Jeugdbescherming Gelderland; bij een psychische crisis de crisisdienst van GGNet.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de Achterhoek doet Jeugdbescherming Gelderland dit, vanuit Doetinchem. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -212,6 +246,11 @@
     }
   ],
   "directRegelen": [
+    {
+      "naam": "Aanbieders en wachttijden bekijken in de Beschikbaarheidswijzer",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/achterhoek",
+      "omschrijving": "Openbaar, zonder inloggen."
+    },
     {
       "naam": "Klacht indienen bij de gemeente",
       "url": "https://mijn.oude-ijsselstreek.nl/aanvragen/129/persoon/klacht-indienen",
@@ -275,12 +314,12 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Oude IJsselstreek: Jeugdhulp",
         "url": "https://www.oude-ijsselstreek.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Oude IJsselstreek: Buurtzorg Jong",
@@ -390,12 +429,42 @@
       {
         "titel": "Beschikbaarheidswijzer Achterhoek",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/achterhoek",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Domein Achterhoek: Gecontracteerde aanbieders per 1 januari 2026",
+        "url": "https://www.sociaaldomeinachterhoek.nl/verwijzer/gecontracteerde-aanbieders-per-1-januari-2026",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Achterhoek: Regionale Toeleidings Tafel",
+        "url": "https://www.sociaaldomeinachterhoek.nl/verwijzer/regionale-toeleidings-tafel-achterhoek-rtt",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Dyslexie Achterhoek: stappenplan, aanbieders en contact per gemeente",
+        "url": "https://www.dyslexieachterhoek.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisendezorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact en vestigingen",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie (raad.oude-ijsselstreek.nl) zit achter bot-controle: het CEO-rapport 2024 en de beantwoording van raadsvragen over de inkoop jeugdzorg (RG2025-014) zijn niet zelf gelezen, de CEO-cijfers komen uit zoekresultaten. Klachtenregeling van Buurtzorg Jong niet online gevonden; doorlooptijden toegang niet gevonden. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

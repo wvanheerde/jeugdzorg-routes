@@ -129,37 +129,71 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via Carins, zonder verwijzing: pedagogen, de praktijkondersteuner jeugd-ggz bij de huisarts en medewerkers jeugd op school. Specialistische jeugdhulp koopt Smallingerland samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen.",
+    "samenvatting": "Bij opvoedvragen en lichte zorgen kunt u zelf terecht bij Carins, zonder aanvraag. Specialistische jeugdhulp koopt Smallingerland samen met de andere Friese gemeenten in, via Sociaal Domein Fryslân.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Carins: advies en kortdurende begeleiding door pedagogen en de praktijkondersteuner jeugd-ggz bij de huisarts.",
+        "omschrijving": "Advies en korte begeleiding van de pedagogen van Carins en de praktijkondersteuner jeugd-ggz bij de huisarts. Carins houdt ook gratis ouderbijeenkomsten over opvoeden en gedrag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Medewerkers jeugd op school",
-        "omschrijving": "Elke basisschool, school voor voortgezet onderwijs en mbo-school heeft een medewerker jeugd van Carins.",
+        "omschrijving": "Elke basisschool, middelbare school en mbo-school heeft een medewerker jeugd van Carins. Die geeft advies en hulp, zodat kinderen zoveel mogelijk op school kunnen blijven.",
         "hulpsoorten": []
       },
       {
         "naam": "Gezinshulp Smallingerland",
-        "omschrijving": "Een team van professionals helpt gezinnen met vragen op meerdere terreinen tegelijk: zorg, wonen, werk, inkomen en welzijn. Het team is in 2024 gestart.",
+        "omschrijving": "Voor gezinnen met vragen op meerdere terreinen tegelijk, zoals zorg, wonen, werk en inkomen. Een team van verschillende hulpverleners helpt het gezin samen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van huisarts, jeugdarts of medisch specialist. De gemeenten in Friesland kopen deze hulp samen in: begeleiding, jeugd-ggz, ernstige dyslexie, pleegzorg en crisishulp.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via Carins of met een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar met hardnekkige lees- en spellingsproblemen. School meldt uw kind aan, met uw toestemming. U kiest zelf een van de aanbieders met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag begeleiding in een groep. Logeren geeft u als ouder even rust; u komt er via Carins of de huisarts.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en wonen",
+        "omschrijving": "Voor kinderen die niet thuis kunnen wonen: pleegzorg (ook alleen in het weekend of de vakantie), een gezinshuis, een kleine woonvoorziening of training in zelfstandig wonen vanaf 16 jaar. Pleegzorg loopt via Carins of, na een uitspraak van de kinderrechter, via de jeugdbescherming.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Snelle hulp bij een crisis, dag en nacht, voor kinderen tot 18 jaar. In Friesland regelt Spoed4Jeugd dit; u kunt als gezin zelf contact opnemen.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Friesland doet Regiecentrum Bescherming en Veiligheid dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -324,7 +358,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Carins: Contact",
@@ -465,6 +499,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Ernstige dyslexie",
+        "url": "https://www.sdfryslan.nl/jeugd/ernstige-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Specialistische jeugdhulp",
+        "url": "https://www.sdfryslan.nl/jeugd/specialistische-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Wonen",
+        "url": "https://www.sdfryslan.nl/jeugd/wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Crisishulp",
+        "url": "https://www.sdfryslan.nl/jeugd/crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân: Pleegzorg",
+        "url": "https://www.sdfryslan.nl/jeugd/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Fryslân – Gedwongen kader",
+        "url": "https://www.sdfryslan.nl/jeugd/geslotenplaatsing/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regiecentrum Bescherming en Veiligheid: werkgebied",
+        "url": "https://www.regiecentrumbv.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 bevatten weinig over jeugd; begroting 2027 nog niet verschenen. Niet vastgesteld: welke organisatie cliëntondersteuning jeugd doet (Zorgbelang Fryslân en MEE Noord staan op de site van Carins) en de contactgegevens van het samenwerkingsverband voortgezet onderwijs. Geen spoedpagina van de gemeente; gelinkt naar de pagina Onveilig thuis van Carins."

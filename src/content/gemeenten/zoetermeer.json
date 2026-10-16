@@ -173,55 +173,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Vrij toegankelijke hulp (Meerpunt, jeugdgezondheidszorg, jongerenwerk, schoolmaatschappelijk werk, gezins- en jongerencoaching) krijgt u zonder beschikking; voor specialistische jeugdhulp is een besluit van de gemeente of een verwijzing nodig. Specialistische jeugdhulp koopt Zoetermeer samen met negen gemeenten in de regio Haaglanden in, via het Servicebureau Jeugdhulp Haaglanden. In 2025 kregen ruim 4.700 jeugdigen specialistische jeugdhulp, vaak ambulante hulp of jeugd-GGZ. De regio bereidt een nieuwe inkoop in vijf segmenten voor; de begroting 2027 noemt voorbereiding van de regionale inkoop vanaf 2028. Het regionale aanbod en de wachttijden staan op Startpunt Jeugd, dat volgens de regio is bedoeld voor professionals en verwijzers; de regio Haaglanden is niet aangesloten op de Beschikbaarheidswijzer.",
-    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulphaaglanden.nl/ouders-jongeren/default.aspx",
+    "samenvatting": "Bij het Meerpunt, de jeugdgezondheidszorg, het schoolmaatschappelijk werk en het jongerenwerk kunt u zelf terecht, zonder aanvraag. Specialistische jeugdhulp koopt Zoetermeer in samen met de andere gemeenten van de regio Haaglanden. Vraag naar wachttijden bij het Meerpunt of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://zoek-startpunt.sbjh.nl/2",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Meerpunt, jeugdgezondheidszorg, schoolmaatschappelijk werk en POH-jeugd, zonder beschikking.",
+        "omschrijving": "Advies, gezins- en jongerencoaching en hulp bij scheiding. U kunt zelf terecht, zonder aanvraag, bij het Meerpunt (met het Scheidingspunt), de jeugdgezondheidszorg, het schoolmaatschappelijk werk en de praktijkondersteuner jeugd bij de huisarts.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Inclusief de Expertisepool voor het speciaal onderwijs.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook via de Expertisepool in het speciaal onderwijs. U komt er via het Meerpunt of een verwijzing van een arts; ook hulp bij persoonlijke verzorging, zoals wassen en aankleden, is in Haaglanden ingekocht.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van het Meerpunt of een arts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Het loopt via school: die verwijst en levert het leerlingdossier aan, dus vraag eerst de school of zij ernstige dyslexie vermoeden.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Overdag begeleiding of behandeling in een groep, buiten school, op school of in plaats van school, voor kinderen met een beperking of ernstige problemen. Logeren in een huiselijke omgeving, bijvoorbeeld een weekend, ontlast u als ouder.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. In Haaglanden is er pleegzorg, ook in deeltijd, en er zijn gezinshuizen, behandelgroepen en kamertraining om zelfstandig te leren wonen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Crisisdienst Jeugd en Crisis Interventie Team.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Haaglanden komt het Crisis Interventie Team van Jeugdbescherming west dag en nacht; zo nodig volgt een crisisplek of crisispleegzorg.",
         "hulpsoorten": [
           "crisishulp"
         ]
       },
       {
-        "naam": "Dagbehandeling en dagbesteding",
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Haaglanden doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
-          "dagbesteding"
-        ]
-      },
-      {
-        "naam": "Verblijf, logeren en pleegzorg",
-        "hulpsoorten": [
-          "verblijf-pleegzorg",
-          "logeren-respijt"
-        ]
-      },
-      {
-        "naam": "Hulp bij ernstige dyslexie",
-        "omschrijving": "Voor kinderen tot 13 jaar, als een specialist dit vaststelt.",
-        "hulpsoorten": [
-          "dyslexiezorg"
+          "jeugdbescherming"
         ]
       }
     ]
@@ -402,7 +406,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Zoetermeer - Opvoeden en opgroeien",
@@ -543,6 +547,31 @@
         "titel": "Ouder- en Jeugdsteunpunt Zoetermeer",
         "url": "https://www.ouderenjeugdsteunpuntzoetermeer.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productbeschrijvingen 2025 (H8)",
+        "url": "https://sbjh.nl/wp-content/uploads/2025/07/ROH8-B5-Productbeschrijvingen-V5.1-20250717-20250901.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Servicebureau Jeugdhulp Haaglanden: Productencatalogus (aanbieders en gecertificeerde instellingen)",
+        "url": "https://sbjh.nl/gemeente/productencatalogus/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Crisis Interventie Team",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Wachttijden en aanbod op Startpunt Jeugd niet uitgelezen (JavaScript-app). Telefoonnummer cliëntondersteuning Adviespunt Zorgbelang en eventueel gepubliceerd cliëntervaringsonderzoek Jeugd in het raadsinformatiesysteem niet gevonden. IGJ-rapport lokale teams Zoetermeer (2023) niet meer online."

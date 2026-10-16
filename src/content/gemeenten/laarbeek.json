@@ -112,23 +112,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u via het Sociaal Team Laarbeek. Specialistische jeugdhulp koopt Laarbeek samen met tien andere gemeenten in, in de jeugdregio Een 10 voor de Jeugd. Op de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en wat hun wachttijd is. Die is openbaar, zonder inloggen. Aanbieders werken hun wachttijd niet altijd op tijd bij. Bel bij twijfel de aanbieder zelf.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het Sociaal Team Laarbeek. Specialistische jeugdhulp koopt Laarbeek in met tien andere gemeenten in de jeugdregio Een 10 voor de Jeugd.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/een-10-voor-de-jeugd",
     "categorieen": [
       {
-        "naam": "Advies en lichte ondersteuning",
-        "omschrijving": "Via het Sociaal Team Laarbeek, zonder besluit van de gemeente: advies, opvoedondersteuning en hulp door gezins- en jongerencoaches.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en gesprekken bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Team Laarbeek (het Centrum voor Jeugd en Gezin) en de jeugdgezondheidszorg van de GGD.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie en praktische pedagogische thuisbegeleiding. Bij meerdere problemen zetten de gezins- en jongerencoaches van het Sociaal Team de hulp in; ook de huisarts kan verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met hardnekkige leesproblemen. School stelt een leesdossier op; daarmee gaat u zelf naar een aanbieder met een contract, zonder aanvraag bij de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep, bijvoorbeeld in een kinderdagcentrum, voor kinderen die (even) niet naar school kunnen, en specialistische naschoolse opvang. Logeren en respijtzorg geven u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft voltijd- en deeltijdpleegzorg, gezinshuizen, woongroepen en begeleiding naar zelfstandig wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig is. Het Crisis Interventie Team (CIT) Zuidoost-Brabant is dag en nacht bereikbaar; bij een psychische crisis gaat het via de huisartsenpost naar de crisisdienst van GGZ Oost Brabant of GGzE.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuidoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -176,7 +212,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Laarbeek: Centrum voor Jeugd en Gezin (incl. spoed, crisis of zorgwekkend gedrag)",
@@ -257,6 +293,51 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdregio Een 10 voor de Jeugd - Toegang per segment",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/jeugdhulp-toegang/toegang-segmenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 2 Wonen",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-2-wonen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 3 Dagbesteding / Dagbehandeling",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-3-dagbesteding-dagbehandeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: Segment 4 Specialistisch / veel voorkomend",
+        "url": "https://jeugdwmo.nl/een-10-voor-de-jeugd/inkoop/overeenkomst-sluiten/segment-4-specialistisch-veel-voorkomend/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Een 10 voor de Jeugd: PDC Jeugd versie 1.14 (o.a. werkwijze ernstige dyslexie)",
+        "url": "https://jeugdwmo.nl/wp-content/uploads/PDC-Jeugd-2022-10vdj-versie-1.14-260702-def.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Crisis (Spoed voor Jeugd, 21 gemeenten)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdbescherming en jeugdreclassering (gecertificeerde instellingen Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdbescherming-en-jeugdreclassering",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 van Laarbeek nog niet verschenen (alleen die van GR Peelgemeenten gelezen). Geen cliëntervaringsonderzoek jeugd (alleen Wmo 2025) en geen doorlooptijden gevonden; openingstijden Sociaal Team en klachtenregeling van het team zelf niet online. Beschikbaarheidswijzer noemt Laarbeek niet bij naam maar wel de Peelgemeenten; JGZ-uitvoerder voor 0-4 jaar niet apart bevestigd. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

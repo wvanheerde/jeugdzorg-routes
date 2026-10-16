@@ -118,30 +118,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Medemblik koopt specialistische jeugdhulp samen met de andere Westfriese gemeenten in. In de Beschikbaarheidswijzer van de regio ziet u welke aanbieders er zijn en hoe lang het wachten is; die is openbaar, zonder inloggen. Lichte hulp krijgt u via het schoolmaatschappelijk werk, het jongerenwerk en het Sociaal Loket, zonder besluit van de gemeente. Weet u niet welke aanbieder past? Vraag het Team Jeugd om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Bij het Sociaal Loket, de jeugdgezondheidszorg, het jongerenwerk en het schoolmaatschappelijk werk kunt u zelf terecht, zonder aanvraag. Specialistische jeugdhulp koopt Medemblik in samen met de andere Westfriese gemeenten. Weet u niet welke aanbieder past? Vraag het Team Jeugd om een overzicht en om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/west-friesland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en opvoedondersteuning via het Sociaal Loket, de jeugdgezondheidszorg en het jongerenwerk.",
+        "omschrijving": "Advies en steun bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het Sociaal Loket, de jeugdgezondheidszorg van de GGD en het jongerenwerk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en kort, op alle basisscholen en SG De Dijk. Met gesprekken en groepstrainingen.",
+        "omschrijving": "Korte, gratis hulp op alle basisscholen en SG De Dijk, met gesprekken en groepstrainingen. Bijvoorbeeld bij somberheid, een scheiding of problemen met andere kinderen.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: hulp thuis, behandeling, jeugd-ggz, dagbehandeling en verblijf. Regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het Team Jeugd regelt deze hulp samen met u via een perspectiefplan; ook de huisarts kan verwijzen. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 12 jaar op de (speciale) basisschool met hardnekkige lees- en spellingsproblemen. School geeft eerst zelf extra hulp; daarna kiest u een aanbieder met een contract en stuurt school het leerlingdossier daarheen.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, ook voor kinderen met een verstandelijke beperking. Logeren, gewoon of intensief, geeft u als ouder even rust; vraag ernaar bij het Team Jeugd.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd), gezinshuizen, woongroepen, behandelgroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten, ook met crisishulp thuis of een korte crisisplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord is dag en nacht bereikbaar.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Friesland doet Jeugdbescherming Regio Amsterdam of De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -318,9 +352,69 @@
         "titel": "Gemeente Medemblik - Klacht over behandeling door gemeente",
         "url": "https://www.medemblik.nl/over-gemeente-medemblik/organisatie/klacht-over-behandeling-door-gemeente",
         "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Specialistische jeugdhulp (segment B)",
+        "url": "https://zorginregiowestfriesland.nl/specialistische-jeugdhulp-segment-b",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Hoog specialistische jeugdhulp (segment C)",
+        "url": "https://zorginregiowestfriesland.nl/hoogspecialistische-jeugdhulp-segment-c",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Jeugdhulp met verblijf (segment V)",
+        "url": "https://zorginregiowestfriesland.nl/jeugdhulp-segment-v",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Ernstige Dyslexie (ED)",
+        "url": "https://zorginregiowestfriesland.nl/ernstige-enkevoudige-dyslexie-eed",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Crisishulp",
+        "url": "https://zorginregiowestfriesland.nl/crisishulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorg in Regio Westfriesland: Gecertificeerde Instellingen (GI's)",
+        "url": "https://zorginregiowestfriesland.nl/nieuwe-pagina",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Koggenland: Dyslexiezorg, aanvraag (zelfde regionale overeenkomst)",
+        "url": "https://www.koggenland.nl/dyslexiezorg-aanvraag",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Geen wachttijdcijfers na oktober 2025 gevonden; Beschikbaarheidswijzer toont geen gemeentelijst in de serverrespons, dekking van Medemblik niet vast te stellen. Contactgegevens Netwerkorganisatie West-Friesland en klachtregeling Team Jeugd (naast gemeente) niet gevonden. Regionale journalistiek maar kort doorzocht; Veilig Thuis- en inspectiesignalen niet onderzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Geen wachttijdcijfers na oktober 2025 gevonden. De Beschikbaarheidswijzer West-Friesland geldt voor de hele regio. Contactgegevens Netwerkorganisatie West-Friesland en klachtregeling Team Jeugd (naast gemeente) niet gevonden. Regionale journalistiek maar kort doorzocht; Veilig Thuis- en inspectiesignalen niet onderzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexieroute: dat ouders zelf de aanbieder kiezen staat op de dyslexiepagina's van Hoorn en Koggenland (zelfde regionale overeenkomst); de eigen gemeentesite heeft geen dyslexiepagina. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd."
   },
   "jeugdzorgregio": "West-Friesland",
   "ervaringen": {

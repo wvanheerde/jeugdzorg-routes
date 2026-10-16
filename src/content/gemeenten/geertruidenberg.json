@@ -120,25 +120,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG, zonder besluit van de gemeente. Het CJG biedt ook trainingen en groepen. Specialistische jeugdhulp koopt Geertruidenberg in met de andere gemeenten van de regio West-Brabant Oost. Op de website van de regio staat een overzicht van aanbieders met een contract. Per 1 januari 2027 gelden nieuwe contracten met aanbieders. Een overzicht van wachttijden per aanbieder is niet openbaar te vinden. Vraag uw contactpersoon om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/kies-je-zorg/",
+    "samenvatting": "Bij het CJG Drimmelen Geertruidenberg kunt u zelf terecht met vragen over opvoeden en opgroeien, zonder aanvraag. Specialistische jeugdhulp koopt Geertruidenberg in met de regio West-Brabant Oost. Naar wachttijden vraagt u bij het CJG of bij de aanbieder.",
+    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/jeughulpaanbieders-overzicht/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: advies, gesprekken, trainingen en groepen, bijvoorbeeld Rots en Water (weerbaarheid) en een praatgroep voor kinderen bij een scheiding. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Advies, gesprekken, trainingen en groepen bij vragen over opvoeden. U kunt zelf terecht bij het CJG, zonder aanvraag, bijvoorbeeld voor Rots en Water (weerbaarheid) of een praatgroep voor kinderen bij een scheiding.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: onder meer begeleiding, behandeling, jeugd-ggz, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. U komt er via het CJG of een verwijzing van de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; de behandeling moet starten voor de 13e verjaardag. School vraagt het onderzoek met uw toestemming aan bij de poortwachter van samenwerkingsverband RSV Breda; bij een positief advies regelt het CJG het besluit en kiest u een aanbieder met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag of na school begeleiding in een groep; logeren geeft u als ouder even rust. De regio koopt beide in, en ook deeltijdpleegzorg kan u ontlasten.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd of bij een crisis), gezinshuizen en verblijf bij een aanbieder; een plaatsingscoördinator zoekt een passend gezinshuis.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp als het thuis acuut niet veilig is of uit de hand loopt. In West-Brabant Oost is het Crisisinterventieteam (CIT) dag en nacht bereikbaar via het Meldpunt Crisiszorg en komt zo nodig langs.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Brabant Oost doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -196,7 +230,7 @@
     },
     {
       "naam": "Aanbieders met een contract bekijken (regio WBO)",
-      "url": "https://regiowbo.nl/kies-je-zorg/"
+      "url": "https://regiowbo.nl/jeughulpaanbieders-overzicht/"
     },
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
@@ -204,7 +238,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Geertruidenberg: Hulp voor gezinnen en kinderen",
@@ -325,6 +359,51 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Regio WBO: overzicht gecontracteerde jeugdhulpaanbieders",
+        "url": "https://regiowbo.nl/jeughulpaanbieders-overzicht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Crisisinterventieteam (CIT)",
+        "url": "https://regiowbo.nl/kennisbank/crisisinterventie-team-cit/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Jeugdbeschermingstafel",
+        "url": "https://regiowbo.nl/kennisbank/jeugdbeschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Plaatsingscoördinator Gezinshuis Gezocht",
+        "url": "https://regiowbo.nl/kennisbank/plaatsingscoordinator-gezinshuis-gezocht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Productdienstcatalogus Pleegzorg en Gezinshuiszorg 2021",
+        "url": "https://regiowbo.nl/wp-content/uploads/2025/03/bijlage-5-PDC.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Breda: Verordening jeugdhulp 2025, veelgestelde vragen (normenkader met regionale producten)",
+        "url": "https://www.breda.nl/verordening-jeugdhulp-2025-veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Drimmelen Geertruidenberg: Ernstige dyslexie (ED)",
+        "url": "https://cjgdrimmelengeertruidenberg.nl/voor-ouders/ernstige-dyslexie-ed/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Wachttijden CJG na januari 2025 en een nieuw cliëntervaringsonderzoek jeugd (laatste CEO CJG over 2022) niet openbaar gevonden. Klachtregeling gemeente over toegang na 2027 (Stevig Lokaal Team) nog niet bekend. Regionale journalistiek niet doorzocht (WebSearch-limiet)."

@@ -146,32 +146,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Welzijn MensenWerk, de schoolmaatschappelijk werker, de praktijkondersteuner jeugd van de huisarts en de jeugdgezondheidszorg, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Meppel samen met de andere Drentse gemeenten in via de Jeugdhulpregio Drenthe. In de Beschikbaarheidswijzer ziet u de aanbieders van Zuid-Drenthe, waar Meppel bij hoort. De gemeente schrijft dat specialistische jeugdhulp lange wachtlijsten heeft, soms meer dan een half jaar. Vraag de medewerker jeugd om hulp bij het kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Welzijn MensenWerk, de schoolmaatschappelijk werker en de praktijkondersteuner jeugd van de huisarts. Specialistische jeugdhulp koopt Meppel in samen met de andere zes gemeenten in Zuid-Drenthe. Vraag de medewerker jeugd om hulp bij het kiezen van een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-drenthe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Welzijn MensenWerk: advies, programma's voor gezinnen met kinderen van 0 tot 6 jaar, trainingen voor kinderen en jongeren, en jongerenwerk. Ook de jeugdgezondheidszorg geeft advies.",
+        "omschrijving": "Advies, programma's voor gezinnen met kinderen tot 6 jaar, trainingen en schoolmaatschappelijk werk op alle scholen, via Welzijn MensenWerk. De praktijkondersteuner jeugd bij de huisarts helpt kort bij opvoedvragen, gedrag, stress en lichte psychische klachten.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Bij de Meppelse huisartsen: korte hulp bij opvoed- en opgroeivragen, gedrag, stress en lichte psychische klachten.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Gratis en kortdurend op alle scholen, door Welzijn MensenWerk.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, jeugd-ggz en gezinsbehandeling, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via de medewerkers jeugd van de gemeente of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, wonen met begeleiding, verblijf met behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -362,6 +389,41 @@
       {
         "titel": "Cliënt&Co - Contact",
         "url": "https://clientenco.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: FAQ (ingekochte modules)",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/faq",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Drenthe: Module Wonen",
+        "url": "https://www.jeugdhulpzuiddrenthe.nl/beschrijving-modules/29/wonen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

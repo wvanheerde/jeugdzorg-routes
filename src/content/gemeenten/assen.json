@@ -146,50 +146,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, via het buurtteam, het inloopspreekuur en de praktijkondersteuner jeugd bij de huisarts. Voor specialistische jeugdhulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Assen koopt jeugdhulp in met Aa en Hunze, Midden-Drenthe, Noordenveld en Tynaarlo (de NMD-samenwerking). Voor zwaardere hulp werkt Assen samen met alle Drentse gemeenten. Vanaf 1 januari 2027 doet de nieuwe Jeugdhulpregio Drenthe dat. Nieuwe contracten gaan naar verwachting in op 1 januari 2028. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die site is openbaar, zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het buurtteam van Vaart Welzijn en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Assen in samen met Aa en Hunze, Midden-Drenthe, Noordenveld en Tynaarlo.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/noord-en-midden-drenthe",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en lichte hulp in de buurt",
-        "omschrijving": "Via het buurtteam van Vaart Welzijn, het inloopspreekuur en de praktijkondersteuner jeugd bij de huisarts. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij het buurtteam van Vaart Welzijn, ook op het inloopspreekuur, en bij de praktijkondersteuner jeugd van de huisarts. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Begeleiding thuis of op school. Daarvoor is een besluit van de gemeente of een verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling of psychische problemen, ook vaktherapie en (intensieve) gezinsbehandeling. U komt er via Zorg & Welzijn van de gemeente of een verwijzing van een arts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via een verwijzing van huisarts, jeugdarts of medisch specialist, of via Team Jeugd.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Dyslexiezorg valt onder de Jeugdwet. De regels staan in de verordening van de gemeente.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. Alleen de school kan uw kind aanmelden, en een diagnosticus bekijkt eerst het leerlingdossier.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg, verblijf en logeren",
-        "omschrijving": "Hulp met verblijf, pleegzorg en logeren (respijt) via een besluit van de gemeente.",
+        "naam": "Dagbesteding, kinderdagcentrum en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, ook gericht op school, en voor jonge kinderen een kinderdagcentrum of medisch orthopedagogisch centrum. Logeren, om u als ouder even rust te geven, kopen de twaalf Drentse gemeenten samen in.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg (ook in deeltijd), gezinshuizen, verblijf met begeleiding of behandeling en begeleid kamerwonen voor oudere jongeren. Pleegzorg en gezinshuizen kopen de twaalf Drentse gemeenten samen in.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Buiten kantooruren via Spoed voor Jeugd Drenthe. Het besluit volgt binnen 4 weken na de start van de hulp.",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd en in het weekend regelt Spoed voor Jeugd Drenthe dit, overdag de gemeente.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Drenthe doet Jeugdbescherming Noord dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -405,7 +414,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Assen - Opgroeien en opvoeden",
@@ -566,6 +575,46 @@
         "titel": "SWV Noord- en Midden-Drenthe: Ouder- en jeugdsteunpunt",
         "url": "https://passendonderwijsdrenthe.nl/ouder-en-jeugdsteunpunt/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Productoverzicht 2026 Noord- en Midden-Drenthe (NMD-samenwerking)",
+        "url": "https://nmdsamenwerking.nl/wp-content/uploads/2026/03/Matrix-Productoverzicht-2026-versie-1.3.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "NMD-samenwerking: Veelgestelde vragen (dagbesteding, logeren/respijt Drenthe)",
+        "url": "https://nmdsamenwerking.nl/veelgestelde-vragen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Regionale inkoopagenda (logeren, pleegzorg, gezinshuizen)",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/onze-opdrachten/regionale-inkoopagenda/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoopdocument Dyslexie 2027-2030, Drenthe (TenderNed)",
+        "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/420367/documenten/14074941/content",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Spoed voor Jeugd Drenthe",
+        "url": "https://s4jd.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Drenthe: Informatie over Jeugdbescherming Noord",
+        "url": "https://www.jeugdhulpregiodrenthe.nl/actualiteiten/informatie-over-jeugdbescherming-noord/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Noord: werkgebied",
+        "url": "https://www.jeugdbeschermingnoord.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek Jeugd en gemeten doorlooptijden niet gevonden in jaarstukken, begroting en raadsinformatie. Klachtenregeling buurtteams Vaart Welzijn niet online; telefoonnummer Spoed voor Jeugd Drenthe komt van de gemeentesite en is niet bij de bron zelf gecontroleerd. Geen IGJ-, rekenkamer- of ombudsmanrapport over jeugd gevonden; regionale journalistiek nauwelijks doorzocht."

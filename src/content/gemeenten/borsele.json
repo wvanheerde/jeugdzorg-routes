@@ -117,23 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het CJG, de jeugd- en gezinsondersteuners op school en het Welzijnshuis. Specialistische jeugdhulp koopt Borsele samen met de andere Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland. Op de website van die organisatie vindt u de aanbieders.",
-    "gecontracteerdeAanbiedersUrl": "https://www.inkoopjeugdhulpzeeland.nl/aanbieders/",
+    "samenvatting": "Bij het CJG Borsele, de jeugd- en gezinsondersteuners op school en het Welzijnshuis kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Borsele in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
-        "naam": "Eerste hulp bij opvoeden en opgroeien",
-        "omschrijving": "Advies en korte begeleiding van het CJG, ook op school. Daarnaast gratis groepstrainingen via Emergis Preventie en SMWO.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte begeleiding en gratis groepstrainingen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG, ook via de jeugd- en gezinsondersteuner op de basisschool.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het CJG of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en persoonlijke verzorging. U komt er via het CJG of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, voor kinderen met een beperking of ernstige problemen. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het CJG of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -198,6 +234,11 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer Zeeland)",
+      "omschrijving": "Jeugdhulpaanbieders met een contract in Zeeland, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
     }
   ],
   "ervaringen": {
@@ -268,7 +309,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "CJG Borsele: Contact en openingstijden",
@@ -323,7 +364,7 @@
       {
         "titel": "Verordening jeugdhulp gemeente Borsele 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR758193/2",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarverantwoording 2025 gemeente Borsele",
@@ -364,6 +405,41 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Jeugdhulp Zeeland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Begroting 2027 nog niet verschenen. Klachtenregeling specifiek voor het CJG en contactgegevens samenwerkingsverband VO niet gevonden. Regionale journalistiek niet doorzocht (WebSearch-limiet); Beschikbaarheidswijzer Zeeland noemt Borsele niet, daarom link naar IJZ. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

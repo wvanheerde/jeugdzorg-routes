@@ -117,47 +117,57 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bij de Ouder- en Kindadviseurs, de jeugdgezondheidszorg en via trainingen. Specialistische jeugdhulp koopt Uithoorn in met Diemen en Ouder-Amstel. In de Beschikbaarheidswijzer van deze drie gemeenten ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die is openbaar, zonder inloggen. Vindt u geen passende hulp, dan kan het Sociaal Loket of de huisarts adviseren om een pgb aan te vragen. Vanaf 1 januari 2028 kopen de zes gemeenten van de regio samen hulp in, bij hooguit twintig grotere aanbieders. Welke aanbieders dat worden, is nog niet bekend.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de Ouder- en Kindadviseurs, de jeugdgezondheidszorg en trainingen. Specialistische jeugdhulp koopt Uithoorn samen met Amsterdam, Diemen en Ouder-Amstel in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Ouder- en Kindadviseurs op basisscholen en kinderdagverblijven, opvoedspreekuur van de jeugdgezondheidszorg en trainingen zoals Rots en Water. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Ouder- en Kindadviseurs op basisscholen en kinderdagverblijven, het opvoedspreekuur van de jeugdgezondheidszorg en trainingen zoals Rots en Water. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en hulp thuis",
-        "omschrijving": "Begeleiding en opvoedhulp thuis, via het Sociaal Loket of een verwijzing.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij opvoeding, gedrag, psychische klachten of een beperking, ook hulp bij persoonlijke verzorging. U komt er via het Sociaal Loket of met een verwijzing van huisarts, jeugdarts of medisch specialist; bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Hulp bij psychische klachten, via het Sociaal Loket of een verwijzing van de huisarts, jeugdarts of medisch specialist. Bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Pleegzorg, gezinshuis en verblijf als thuis wonen even niet lukt.",
-        "hulpsoorten": [
-          "verblijf-pleegzorg"
-        ]
-      },
-      {
-        "naam": "Dyslexie",
-        "omschrijving": "Bij ernstige dyslexie zorgt de gemeente voor onderzoek en behandeling.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. De gemeente beslist op basis van het leerlingdossier van de basisschool; Uithoorn koopt dit samen met Amsterdam en Zaanstreek-Waterland in.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Jeugdbescherming en jeugdreclassering",
-        "omschrijving": "Voor kinderen die onder toezicht staan of een rechterlijke maatregel hebben.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep bij de aanbieder. Logeren bij een aanbieder geeft u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen en andere woonvormen. Als het niet anders kan, ook gesloten jeugdhulp (jeugdzorgplus).",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. In de regio Amsterdam-Amstelland werkt daarvoor dag en nacht de crisisdienst jeugd van Arkin en Levvel, samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Uithoorn doet Jeugdbescherming Regio Amsterdam dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -333,7 +343,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Uithoorn: Jeugdhulp",
@@ -413,12 +423,12 @@
       {
         "titel": "Beschikbaarheidswijzer Duo+",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Verordening Jeugdhulp Uithoorn 2022",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR677686/1",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 gemeente Uithoorn (programma Samenleving, jeugd)",
@@ -454,8 +464,38 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: Gemeenten (werkgebied, kaart juli 2025)",
+        "url": "https://www.jeugdbescherming.nl/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Arkin: A central place for young people in crisis situations (26-07-2024)",
+        "url": "https://arkin.nl/en/news-overview/a-central-place-for-young-people-in-crisis-situations",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Nieuwe crisisdienst jeugd voor Amsterdam en Amstelland",
+        "url": "https://www.levvel.nl/nieuws/nieuwe-crisisdienst-jeugd-voor-amsterdam-en-amstelland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Acute crisis (Geïntegreerde CrisisDienst-Jeugd)",
+        "url": "https://www.levvel.nl/acute-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 nog niet verschenen (Duo+-begroting wel). Meetjaar van het cliëntervaringsonderzoek en een rapportcijfer niet gevonden; IGJ en regionale journalistiek niet doorzocht (1 zoekopdracht gedaan)."
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen (Duo+-begroting wel). Meetjaar van het cliëntervaringsonderzoek en een rapportcijfer niet gevonden; IGJ en regionale journalistiek niet doorzocht (1 zoekopdracht gedaan). Crisisdienst (16-10-2026): Geïntegreerde CrisisDienst-Jeugd van Levvel en Arkin sinds 1 november 2024, 24/7, met Veilig Thuis; nog actueel volgens levvel.nl."
   }
 }

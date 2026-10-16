@@ -2,7 +2,7 @@
   "naam": "Leudal",
   "cbsCode": "GM1640",
   "provincie": "Limburg",
-  "jeugdzorgregio": "Midden-Limburg",
+  "jeugdzorgregio": "Midden-Limburg West",
   "websiteJeugd": "https://www.leudal.nl/centrum-voor-jeugd-en-gezin",
   "toegang": {
     "samenvatting": "In Leudal meldt u zich bij het Centrum voor Jeugd en Gezin Midden-Limburg (CJG), met een vestiging in Heythuysen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
@@ -121,25 +121,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Leudal samen met andere gemeenten in Midden-Limburg in. Sinds 1 januari 2026 zijn er nieuwe afspraken voor hulp zonder verblijf (ambulante hulp) en wonen. Deze regio staat niet in de Beschikbaarheidswijzer. Er is een lijst van aanbieders op de site van Sociaal Domein Midden-Limburg West, maar die kan verouderd zijn. Vraag het CJG wie hulp kan bieden en hoe lang het duurt.",
-    "gecontracteerdeAanbiedersUrl": "https://www.sociaaldomeinmlw.nl/inkoop/gecontracteerde-aanbieders/",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht bij het CJG Midden-Limburg, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Leudal in samen met de andere gemeenten in Midden-Limburg. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het CJG of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://www.cjgml.nl/gespecialiseerde-jeugdhulp/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: advies, workshops, groepstrainingen en begeleiding thuis. Bij zes huisartspraktijken werkt een praktijkondersteuner jeugd.",
+        "omschrijving": "Advies, workshops, groepstrainingen en begeleiding thuis bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG Midden-Limburg en bij zes huisartspraktijken bij een praktijkondersteuner jeugd; Buurtgezinnen koppelt u aan een steungezin in de buurt.",
         "hulpsoorten": [
-          "opvoedondersteuning",
-          "ambulante-begeleiding"
+          "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het CJG namens de gemeente, of een verwijzing van de huisarts: behandeling, jeugd-ggz, dyslexiezorg, dagbesteding en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school, in de kinderopvang of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. U komt er via het CJG of met een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
+          "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. De basisschool stelt het vermoeden vast en verwijst door; wil de school dat niet, dan kunt u het aan de gemeente voorleggen.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag of na school in een groep, of logeren (een dagdeel of een nacht) om u als ouder even rust te geven. U komt er via het CJG.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen, kleine woongroepen en training in zelfstandig wonen. U komt er via het CJG.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Noord- en Midden-Limburg doet Crisishulp Jeugd dit dag en nacht, thuis of zo nodig met een tijdelijke opvangplek.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-Limburg doet Bureau Jeugdzorg Limburg dit, vanuit Roermond. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -193,7 +227,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Leudal: Centrum voor Jeugd en Gezin",
@@ -233,7 +267,7 @@
       {
         "titel": "Verordening Jeugdhulp Leudal 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR755265/1",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Midden-Limburg: Contact",
@@ -314,6 +348,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Over ons (gezamenlijke inkoop zeven gemeenten)",
+        "url": "https://sociaaldomeinmlo.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Crisis (Crisishulp Jeugd Noord- en Midden-Limburg)",
+        "url": "https://sociaaldomeinmlo.nl/crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Jeugdhulp (overeenkomst ambulante jeugdhulp en wonen per 2026)",
+        "url": "https://sociaaldomeinmlo.nl/jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg: Producten en productcodes jeugd ambulant en wonen per 1-1-2026",
+        "url": "https://sociaaldomeinmlo.nl/wp-content/uploads/2025/12/Producten-en-productcodes-jeugd-ambulant-en-wonen-Midden-Limburg-per-1-1-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Midden-Limburg: Gespecialiseerde jeugdhulp (aanbieders per gemeente)",
+        "url": "https://www.cjgml.nl/gespecialiseerde-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bureau Jeugdzorg Limburg: Over ons",
+        "url": "https://www.bjzlimburg.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Midden-Limburg West: Home (Leudal, Nederweert en Weert)",
+        "url": "https://www.sociaaldomeinmlw.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen representatief cliëntervaringsonderzoek jeugd en geen IGJ- of rekenkamersignalen van de laatste drie jaar gevonden; regionale journalistiek beperkt doorzocht. Per 2026 is Midden-Limburg één jeugdregio; de inkoopsite Sociaal Domein MLW kan verouderd zijn. Antwoord op raadsvraag 2026.84 ontbrak bij raadpleging."

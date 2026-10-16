@@ -123,28 +123,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u bij het CJG+, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Reusel-De Mierden in met andere gemeenten in de regio Zuidoost-Brabant (Samen voor Jeugd). De inkoop loopt via de gemeente Eindhoven. Een overzicht van aanbieders met wachttijden voor Reusel-De Mierden is niet openbaar te vinden. Vraag het CJG+ om een overzicht en om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://zorgaanbieders.eindhoven.nl",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij het CJG+ de Kempen. Specialistische jeugdhulp koopt Reusel-De Mierden in met negen andere gemeenten in de regio Samen voor Jeugd; de gemeente Eindhoven regelt die inkoop. Wachttijden van aanbieders zijn niet openbaar: vraag ernaar bij het CJG+ of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://zorgaanbieders.eindhoven.nl/jeugdhulp",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG+: advies, preventief spreekuur, trainingen voor ouders en jongeren en ondersteuning bij scheiding.",
+        "omschrijving": "Advies, een spreekuur, trainingen voor ouders en jongeren en steun bij scheiding bij het CJG+, zonder aanvraag. De jeugdcoach en het jongerenwerk zijn er voor jongeren van 10 tot 21 jaar, bijvoorbeeld met de Bondgenoten-groepen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jongerenwerk en jeugdcoach",
-        "omschrijving": "De jeugdcoach en het jongerenwerk bieden jongeren van 10 tot 21 jaar een vertrouwd gesprek en activiteiten, bijvoorbeeld de Bondgenoten-groepen.",
-        "hulpsoorten": []
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het CJG+ of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, verblijf en pleegzorg, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook vaktherapie. U komt er via het CJG+ of een verwijzing van de huisarts; bij complexe situaties neemt het Kempenteam het over. De regio koopt ook persoonlijke verzorging in voor kinderen die door een beperking hulp nodig hebben bij hun dagelijkse verzorging; verzorging bij ziekte loopt via de zorgverzekering.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met hardnekkige leesproblemen. School stelt een leesdossier op en adviseert u; daarmee kiest u zelf een gecontracteerd bureau, dat de gemeente inlicht.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding in een groep voor kinderen vanaf 4 jaar, ook als het (even) niet lukt op school, en specialistische naschoolse opvang (BSO+) voor kinderen van 4 tot 13 jaar. Logeren en respijtzorg geven u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg, gezinshuizen, verblijf met behandeling, kleinschalige woonplekken en begeleiding naar zelfstandig wonen.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig is: crisishulp thuis, crisispleegzorg of een korte opvangplek. Het Crisis Interventie Team (CIT) van Veilig Thuis Zuidoost-Brabant is dag en nacht bereikbaar en Spoed voor Jeugd regelt de crisishulp voor de hele regio.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuidoost-Brabant doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -202,7 +233,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Reusel-De Mierden: Jeugdhulp",
@@ -343,6 +374,46 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp (Samen voor Jeugd)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samen voor Jeugd: Product Diensten Catalogus Jeugdhulp 2024",
+        "url": "https://zorgaanbieders.eindhoven.nl/sites/default/files/2023-12/PDC%20Jeugdhulp%202024%20versie%204.0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Crisis Interventie Team",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/crisis-interventie-team",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Eindhoven: Hulp bij onderwijs of opvoeding (dyslexie, regio Samen voor Jeugd)",
+        "url": "https://www.eindhoven.nl/inkomen-zorg-en-onderwijs/zorg/zorg-en-ondersteuning/hulp-bij-onderwijs-of-opvoeding",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdhulp Crisis (Spoed voor Jeugd, 21 gemeenten)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdhulp-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgaanbieders Eindhoven: Jeugdbescherming en jeugdreclassering (gecertificeerde instellingen Zuidoost-Brabant)",
+        "url": "https://zorgaanbieders.eindhoven.nl/jeugdhulp/jeugdbescherming-en-jeugdreclassering",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen doorlooptijden of wachtlijstcijfers van de toegang gevonden; regionale journalistiek nauwelijks doorzocht. Klachtregeling heeft geen eigen externe commissie; JGZ-blok uit regiobestand. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

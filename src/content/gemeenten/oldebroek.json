@@ -129,25 +129,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Oldebroek, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Oldebroek samen met zes andere gemeenten in de jeugdhulpregio Noord-Veluwe in. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang hun wachttijden zijn. Die is openbaar, zonder inloggen. Vraag het CJG om hulp bij het kiezen. Kiest u een aanbieder zonder contract bij de gemeente, dan betaalt u de kosten zelf.",
+    "samenvatting": "Bij het CJG Oldebroek in Wezep kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Oldebroek in samen met de andere gemeenten van de jeugdhulpregio Noord-Veluwe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/noord-veluwe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: advies, inloopspreekuur, cursussen voor ouders, kinderen en jongeren en het consultatiebureau. De ondersteuning is gratis.",
+        "omschrijving": "Advies, inloopspreekuur en cursussen voor ouders, kinderen en jongeren, en het consultatiebureau. U kunt gratis zelf terecht, zonder aanvraag, bij het CJG in Wezep.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente via het CJG, of een verwijzing van de huisarts. Regionaal ingekocht: ambulante hulp, behandeling, dagbehandeling, verblijf en crisishulp.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Specialistische hulp regelt het CJG met u, of u gaat met een verwijzing van de huisarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 12 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het begint bij school; daarna controleert het Regionaal Instituut voor Dyslexie (RID) het dossier, voordat het onderzoek start.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, ook als buitenschoolse opvang of kinderdagverblijf met extra begeleiding (BSO+ en KDV+). Logeren bij een zorgaanbieder geeft u als ouder even rust.",
+        "hulpsoorten": [
           "dagbesteding",
-          "crisishulp",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, woongroepen, kamertraining voor oudere jongeren en een moeder-en-kindhuis.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp, zo veel mogelijk thuis, als het thuis acuut niet meer gaat. Op werkdagen van 9.00 tot 17.00 uur helpt het CJG (Stichting Jeugd Noord-Veluwe); daarbuiten de Spoedeisende Zorg van Jeugdbescherming Gelderland, dag en nacht.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noord-Veluwe doet Jeugdbescherming Gelderland dit, vanuit Harderwijk. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -195,7 +229,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Oldebroek: Jeugdhulp",
@@ -280,7 +314,7 @@
       {
         "titel": "CJG Oldebroek: Contact",
         "url": "https://www.cjgoldebroek.nl/contact/",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Oldebroek: Veelgestelde vragen",
@@ -311,9 +345,54 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulpregio Noord Veluwe: Zo werkt de jeugdhulpketen",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/Professionals/Zo_werkt_de_jeugdhulpketen_in_Jeugdhulpregio_Noord_Veluwe",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Noord Veluwe: Gecontracteerde aanbieders",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/Aanbieders/Gecontracteerde_aanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Lijst aanbieders jeugdhulpregio Noord-Veluwe (oktober 2026)",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/dsresource?objectid=279a0eaa-37b0-44bc-bf92-34a52b0ee101&type=org",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Productomschrijvingen aanbesteding Maatwerkdiensten Jeugd Regio Noord Veluwe en Zeewolde (versie 04-06-2026)",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/dsresource?objectid=f28e570c-d2d6-4094-9512-036f1d059852&type=org",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact",
+        "url": "https://www.jbgld.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Halfjaarverslag 2026 Uitvoering Jeugd (Meerinzicht)",
+        "url": "https://api.notubiz.nl/document/17494864/1",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Cliëntervaringsonderzoek Jeugd niet gevonden (alleen Wmo; de editie Wmo en Jeugd 2020 is te oud). Verordening Jeugdhulp 2026 staat nog niet op lokaleregelgeving.overheid.nl; pgb-regels uit het raadsstuk. Klachtencommissie heeft alleen een postadres. Regionale journalistiek niet doorzocht (WebSearch-limiet). Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Cliëntervaringsonderzoek Jeugd niet gevonden (alleen Wmo; de editie Wmo en Jeugd 2020 is te oud). Verordening Jeugdhulp 2026 staat nog niet op lokaleregelgeving.overheid.nl; pgb-regels uit het raadsstuk. Klachtencommissie heeft alleen een postadres. Regionale journalistiek niet doorzocht (WebSearch-limiet). Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexie: RID als controleur van het dossier en leeftijd t/m 12 jaar uit de regionale productomschrijvingen (versie 04-06-2026); hoe school en ouders het dossier indienen staat er niet in. Poortwachtercontract loopt af op 31-12-2026 (zie later-nakijken)."
   },
   "jeugdzorgregio": "Noord-Veluwe",
   "ervaringen": {

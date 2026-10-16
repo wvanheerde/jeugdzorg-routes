@@ -132,39 +132,35 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Alphen aan den Rijn koopt specialistische jeugdhulp tot en met 2026 nog grotendeels zelf in. Per 1 januari 2027 treedt de gemeente volledig toe tot alle segmenten van de jeugdhulp in de regio Holland Rijnland; lopende contracten en beschikkingen blijven gewoon geldig tot de einddatum van de indicatie. Oog voor Thuis bepaalt samen met u welke gecontracteerde aanbieder wordt ingezet; een openbare lijst van alle aanbieders publiceert de gemeente zelf niet. De Beschikbaarheidswijzer toont per hulpvraag welke gecontracteerde aanbieders er zijn en wat de actuele wachttijd is, openbaar en zonder in te loggen.",
+    "samenvatting": "Met vragen over opvoeden kunt u zelf terecht bij het CJG, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Alphen aan den Rijn tot eind 2026 grotendeels zelf in; vanaf 1 januari 2027 doet de gemeente dat samen met de regio Holland Rijnland. Hulp die u al krijgt, loopt door tot de einddatum van uw indicatie.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/alphen-aan-den-rijn",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Laagdrempelig via CJG en Oog voor Thuis, zonder beschikking.",
+        "omschrijving": "Advies van de jeugdarts en jeugdverpleegkundige, cursussen en zo nodig een wijkpedagoog van Kwadraad. U kunt zelf terecht bij het CJG, zonder aanvraag; via Steunouder helpt een vrijwilliger wekelijks mee.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante gezinsbegeleiding",
-        "omschrijving": "Door Oog voor Thuis zelf.",
-        "hulpsoorten": [
-          "ambulante-begeleiding"
-        ]
-      },
-      {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van Oog voor Thuis of arts.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Hulp bij (licht) verstandelijke beperking",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Oog voor Thuis helpt eerst zelf en betrekt het hele gezin; lukt dat niet, dan verwijst het team door, net als de huisarts of jeugdarts. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "dagbesteding"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 13 jaar met hardnekkige lees- en spellingsproblemen. Heeft school eerst zelf extra hulp gegeven, dan draagt school uw kind voor bij een aanbieder met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
         ]
       },
       {
         "naam": "Dagbesteding, logeren en respijtzorg",
+        "omschrijving": "Begeleiding overdag in een groep voor kinderen met een beperking, en logeren of andere hulp om u als ouder te ontlasten. U komt er via Oog voor Thuis.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
@@ -172,8 +168,23 @@
       },
       {
         "naam": "Pleegzorg en gezinshuizen",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. U komt er via Oog voor Thuis, of via een jeugdbeschermer.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Overdag neemt u contact op met Oog voor Thuis of uw eigen hulpverlener; buiten kantoortijden helpt een crisiscentrale verder.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Holland Rijnland doet Jeugdbescherming west dit, vanuit Leiden. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -599,6 +610,26 @@
       {
         "titel": "Oog voor Thuis – Wie zijn wij?",
         "url": "https://www.oogvoorthuis.nl/Wie_zijn_wij",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Oog voor Thuis – Voor ouders",
+        "url": "https://www.oogvoorthuis.nl/Voor_ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west – Gemeenten en werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samenwerkingsverband Passend Onderwijs Rijnstreek: Ernstige Dyslexie (ED) zorg",
+        "url": "https://www.swvrijnstreek.nl/voor_professionals_/specifieke_ondersteuning/ernstige_dyslexie_(ed)_zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

@@ -122,36 +122,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies krijgt u dichtbij, bijvoorbeeld bij het Informatiepunt Dalfsen. Specialistische jeugdhulp koopt Dalfsen in met tien andere gemeenten, via het Regionaal Serviceteam Jeugd (RSJ) IJsselland. In de Beschikbaarheidswijzer van de regio IJsselland ziet u aanbieders en wachttijden. Vraag de medewerker jeugd om hulp bij het kiezen.",
+    "samenvatting": "Voor vragen over opvoeden kunt u zelf terecht, zonder aanvraag, bij het Informatiepunt Dalfsen en de jeugdgezondheidszorg van GGD IJsselland. Specialistische jeugdhulp koopt Dalfsen samen met de andere tien gemeenten van de regio IJsselland in. Algemene hulp van de gemeente krijgt u meestal direct; voor specifieke hulp doet u een aanvraag.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Informatie en een luisterend oor van vrijwilligers in de Informatiepunten in de kernen. Het consultatiebureau en de jeugdgezondheidszorg zijn er via GGD IJsselland.",
+        "omschrijving": "Informatie en een luisterend oor van vrijwilligers in de Informatiepunten in de kernen, zonder aanvraag. Het consultatiebureau en de jeugdgezondheidszorg zijn er via GGD IJsselland.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Persoonlijke verzorging",
-        "omschrijving": "Voor kinderen tot 18 jaar die zichzelf niet of onvoldoende kunnen verzorgen. Gaat het om geneeskundige zorg, dan loopt dit via de zorgverzekeraar.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Begeleiding alleen of in een groep bij een beperking of aandoening, ook voor andere gezinsleden, en behandeling of jeugd-ggz bij een aanbieder. U komt er via de medewerkers jeugd van de gemeente of een verwijzing van de huisarts, jeugdarts of medisch specialist. Dalfsen biedt ook persoonlijke verzorging voor kinderen die zichzelf niet goed kunnen verzorgen; gaat het om medische zorg, dan loopt dit via de zorgverzekeraar.",
         "hulpsoorten": [
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
           "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Begeleiding en verblijf",
-        "omschrijving": "Begeleiding alleen of in een groep, ook voor andere gezinsleden, en tijdelijk verblijf in een instelling. U krijgt dit na een aanvraag bij de gemeente.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School geeft het advies en levert het leerlingdossier aan; daarna beslist de gemeente over de hulp.",
         "hulpsoorten": [
-          "ambulante-begeleiding",
-          "dagbesteding"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg",
-        "omschrijving": "Voor kinderen die niet thuis kunnen wonen, vrijwillig of via de rechter. Ook in weekenden en vakanties mogelijk.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven. Hiervoor doet u een aanvraag bij de gemeente.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, ook in weekenden en vakanties, een gezinshuis of zorgboerderij, of een kleine woongroep. Dalfsen kan ook tijdelijk verblijf in een instelling regelen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd kan Veilig Thuis IJsselland of de jeugdbeschermer Spoedhulp IJsselland inzetten, eerst thuis en zo nodig met een crisisbed; bij psychische nood is er de crisisdienst van Dimence.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In IJsselland doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -212,7 +235,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Dalfsen: Jeugdhulp",
@@ -333,6 +356,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoop specialistische jeugdhulp",
+        "url": "https://www.rsj-ijsselland.nl/inkoop",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoopdocument Jeugdhulp Voorzieningen versie 1.8",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Inkoopdocument%20versie%201.8_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Jeugdbescherming, voor jeugdigen en ouders",
+        "url": "https://www.rsj-ijsselland.nl/jeugdbescherming/voor-jeugdigen-en-ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 en begroting 2027 niet gelezen (certificaatfout; ris.dalfsen.nl achter Anubis), cijfers uit het cliëntervaringsonderzoek over 2024 dus niet bekend. Beschikbaarheidswijzer: gemeentelijst in de serverrespons leeg, dekking van Dalfsen niet vastgesteld. E-mailadres steunpunt basisonderwijs en regionale journalistiek niet gevonden."

@@ -122,25 +122,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het CJG, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Goes samen met de andere Zeeuwse gemeenten in via Inkooporganisatie Jeugdhulp Zeeland. In de Beschikbaarheidswijzer ziet u aanbieders en wachttijden. Die is openbaar, zonder inloggen. Vanaf 1 januari 2027 doet een nieuwe regionale organisatie de inkoop. Vraag het CJG om hulp bij het kiezen.",
+    "samenvatting": "Bij het CJG Goes kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Goes in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG: informatie en advies, opvoedondersteuning, korte ambulante hulp, trainingen en groepen, de POH Jeugd en Gezin bij de huisarts en ondersteuning op school.",
+        "omschrijving": "Informatie, advies, korte hulp en trainingen of groepen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG, ook via de praktijkondersteuner Jeugd en Gezin bij de huisarts en op school.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, dagbehandeling, jeugd-ggz en hulp met verblijf, regionaal ingekocht. Dyslexiezorg is er alleen bij ernstige dyslexie, voor kinderen tot 13 jaar.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en persoonlijke verzorging. U komt er via het CJG of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, bijvoorbeeld in een kinderdagcentrum, een medisch dagverblijf of BSO+. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het CJG of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -271,7 +305,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Goes: Compliment of klacht",
@@ -326,12 +360,12 @@
       {
         "titel": "Verordening Jeugdhulp Gemeente Goes 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR763024/1",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Nadere regels jeugdhulp Gemeente Goes 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR763025/1",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 gemeente Goes: programma 4 Sociaal domein",
@@ -381,12 +415,42 @@
       {
         "titel": "Beschikbaarheidswijzer Zeeland",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek jeugd en geen gemeten doorlooptijden gevonden in jaarstukken 2025, begroting 2027 en raadsinformatie; raadsbesluit over de visie Stevig Lokaal Team niet gevonden. De gemeente heeft geen eigen crisispagina; de spoedlink wijst naar de contactpagina van het CJG. Beschikbaarheidswijzer Zeeland noemt niet alle 13 gemeenten (Goes wel); regionale journalistiek nauwelijks doorzocht."

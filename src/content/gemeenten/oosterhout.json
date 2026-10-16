@@ -115,22 +115,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u dichtbij, zonder besluit van de gemeente. Denk aan de jeugdgezondheidszorg van de GGD, het jeugdmaatschappelijk werk en jongerenwerk van Surplus Welzijn, en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Oosterhout samen met Altena, Breda, Drimmelen en Geertruidenberg in via de jeugdhulpregio West-Brabant Oost (Regio WBO). Regio WBO heeft een openbaar overzicht van aanbieders, zonder inloggen. Wachttijden per aanbieder staan daar niet bij. Vraag het Sociaal Team om hulp bij het kiezen. Vanaf 2027 wordt jeugdhulp opnieuw ingekocht, met het Stevig Lokaal Team als startpunt.",
-    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/kies-je-zorg/",
+    "samenvatting": "Met vragen over opvoeden en opgroeien kunt u zelf terecht bij de jeugdgezondheidszorg, Surplus Welzijn en de praktijkondersteuner jeugd bij de huisarts, zonder aanvraag. Specialistische jeugdhulp koopt Oosterhout in met de regio West-Brabant Oost. Naar wachttijden vraagt u bij het Sociaal Team of bij de aanbieder.",
+    "gecontracteerdeAanbiedersUrl": "https://regiowbo.nl/jeughulpaanbieders-overzicht/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en lichte hulp zonder besluit van de gemeente: jeugdgezondheidszorg, jeugdmaatschappelijk werk, jongerenwerk en de praktijkondersteuner jeugd bij de huisarts.",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij de jeugdgezondheidszorg van de GGD, het jeugdmaatschappelijk werk en jongerenwerk van Surplus Welzijn en de praktijkondersteuner jeugd bij de huisarts.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van het Sociaal Team of een verwijzing van de huisarts: hulp en behandeling door aanbieders met een contract, regionaal ingekocht via Regio WBO.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook dagbehandeling. Meestal kiest u samen met het Sociaal Team een aanbieder met een contract; in de wijk Dommelbergen helpt het Stevig Lokaal Team. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. School vraagt het namens u aan bij de poortwachter van samenwerkingsverband RSV Breda; bij een positief advies krijgt u via school een brief waarmee u de hulp regelt bij de gemeente of een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding krijgt uw kind overdag of na school begeleiding in een groep; logeren geeft u als ouder even rust. De regio koopt beide in, en ook deeltijdpleegzorg kan u ontlasten.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd of bij een crisis), gezinshuizen en verblijf bij een aanbieder; een plaatsingscoördinator zoekt een passend gezinshuis.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp als het thuis acuut niet veilig is of uit de hand loopt. In West-Brabant Oost is het Crisisinterventieteam (CIT) dag en nacht bereikbaar via het Meldpunt Crisiszorg en komt zo nodig langs.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Brabant Oost doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -207,7 +244,7 @@
     {
       "naam": "Overzicht aanbieders jeugdhulp (Regio WBO)",
       "omschrijving": "Openbaar, zonder inloggen.",
-      "url": "https://regiowbo.nl/kies-je-zorg/"
+      "url": "https://regiowbo.nl/jeughulpaanbieders-overzicht/"
     },
     {
       "naam": "Klacht indienen bij de gemeente",
@@ -356,9 +393,59 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regio WBO: overzicht gecontracteerde jeugdhulpaanbieders",
+        "url": "https://regiowbo.nl/jeughulpaanbieders-overzicht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Crisisinterventieteam (CIT)",
+        "url": "https://regiowbo.nl/kennisbank/crisisinterventie-team-cit/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Jeugdbeschermingstafel",
+        "url": "https://regiowbo.nl/kennisbank/jeugdbeschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Plaatsingscoördinator Gezinshuis Gezocht",
+        "url": "https://regiowbo.nl/kennisbank/plaatsingscoordinator-gezinshuis-gezocht/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Regio WBO: Productdienstcatalogus Pleegzorg en Gezinshuiszorg 2021",
+        "url": "https://regiowbo.nl/wp-content/uploads/2025/03/bijlage-5-PDC.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Breda: Verordening jeugdhulp 2025, veelgestelde vragen (normenkader met regionale producten)",
+        "url": "https://www.breda.nl/verordening-jeugdhulp-2025-veelgestelde-vragen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Oosterhout: Mandaat-, volmacht en machtigingsbesluit Ernstige Dyslexie (Gemeenteblad 2026, 89668)",
+        "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-89668.html",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSV Breda PO: Handleiding Teddy (aanvraag ernstige dyslexie)",
+        "url": "https://www.rsvbreda.nl/po/wp-content/uploads/2026/01/HANDLEIDING-TEDDY.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden toegang en wachttijden niet gevonden; cliëntervaringsonderzoek over 2024 niet gevonden (nieuwste is 2023). Gemeentepagina Spoed of crisis noemt oude namen (Bureau Jeugdzorg Brabant); nummers daar niet gecontroleerd. Contactgegevens basisonderwijs-samenwerkingsverband: alleen algemeen e-mailadres; regionale journalistiek beperkt doorzocht."
+    "opmerkingen": "Doorlooptijden toegang en wachttijden niet gevonden; cliëntervaringsonderzoek over 2024 niet gevonden (nieuwste is 2023). Gemeentepagina Spoed of crisis noemt oude namen (Bureau Jeugdzorg Brabant); nummers daar niet gecontroleerd. Contactgegevens basisonderwijs-samenwerkingsverband: alleen algemeen e-mailadres; regionale journalistiek beperkt doorzocht. Dyslexie: handleiding Teddy (RSV Breda) zegt dat ouders met de adviesbrief bij de gemeente de beschikking ophalen of bij sommige gemeenten rechtstreeks naar een aanbieder gaan; welke variant Oosterhout volgt staat niet openbaar."
   },
   "jeugdzorgregio": "West-Brabant Oost",
   "ervaringen": {

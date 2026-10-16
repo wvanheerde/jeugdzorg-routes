@@ -120,42 +120,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente. Denk aan jeugdgezondheidszorg, jeugdmaatschappelijk werk, korte opvoedondersteuning, de praktijkondersteuner bij de huisarts en welzijnswerk. Voor begeleiding of behandeling thuis, op school of in de wijk (ambulante jeugdhulp), verblijf en crisishulp is een besluit van de gemeente nodig. Een verwijzing van huisarts, jeugdarts of medisch specialist kan ook. Dijk en Waard koopt deze hulp in met Alkmaar, Bergen, Castricum, Heiloo en Uitgeest, via de Gemeenschappelijke Inkoop Sociaal Domein Regio Alkmaar (GISD). In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die site is openbaar, zonder inloggen. Volgens de gemeente zijn er wachtlijsten bij aanbieders.",
+    "samenvatting": "Bij Team Jeugd, de jeugdgezondheidszorg, het jeugdmaatschappelijk werk en het welzijnswerk kunt u zelf terecht, zonder aanvraag. Specialistische jeugdhulp koopt Dijk en Waard in samen met Alkmaar, Bergen, Castricum, Heiloo en Uitgeest (regio Alkmaar).",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/regio-alkmaar",
     "categorieen": [
       {
-        "naam": "Vrij toegankelijke hulp en opvoedondersteuning",
-        "omschrijving": "Via jeugdgezondheidszorg, jeugdmaatschappelijk werk, korte opvoedondersteuning en welzijnswerk. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en korte opvoedondersteuning bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij de jeugdgezondheidszorg, het jeugdmaatschappelijk werk, het welzijnswerk van MET en Wonen Plus Welzijn of het inloopspreekuur van het Sociaalplein.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante jeugdhulp",
-        "omschrijving": "Begeleiding en behandeling thuis, op school of in de wijk. Hiervoor is een besluit van de gemeente of een verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of in de wijk, alleen of in een groep, bij psychische problemen, gedrag, ontwikkeling of een beperking; ook hulp bij persoonlijke verzorging kan daarbij horen. U komt er via Team Jeugd of met een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via een verwijzing van de huisarts, jeugdarts of medisch specialist, of via Team Jeugd. Sinds 2026 loopt een proef met een ggz-expert bij het lokale team, eerst in Zuid-Heerhugowaard.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen op de basisschool met hardnekkige lees- en spellingsproblemen. Het begint bij school: die geeft eerst extra hulp en levert daarna de gegevens aan bij een dyslexieaanbieder met een contract, die controleert of alles compleet is.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Verblijf en pleegzorg",
-        "omschrijving": "Hulp waarbij een kind tijdelijk of langer buitenshuis woont. Hiervoor is een besluit van de gemeente of een verwijzing nodig.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding overdag in een groep, soms in plaats van school, en dagbehandeling bij psychische problemen. Logeren of tijdelijke begeleiding om u als ouder rust te geven kan als u overbelast dreigt te raken; eerst wordt gekeken of logeren bij familie of Buurtgezinnen mogelijk is.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, behandelgroepen en kamertraining voor oudere jongeren.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Tijdens kantooruren via de gemeente, daarbuiten via de Crisisdienst Jeugd Noord-Holland Noord.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten: hulp thuis, een crisispleeggezin of een crisisplek. Overdag regelt de gemeente dit; buiten kantoortijden het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Alkmaar doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -347,7 +364,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Dijk en Waard - Jeugd en gezin",
@@ -513,8 +530,43 @@
         "titel": "JONK: contact (ouder- en jeugdsteunpunt Noord-Kennemerland)",
         "url": "https://jo-nk.nl/groups/34-algemeen-contact/welcome",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "GISD Regio Alkmaar: Bijlage C. Percelen binnen ambulante jeugdhulp (versie 1.5)",
+        "url": "https://bdbfafeb-f0aa-4eb0-b9f4-f21f8d792576.filesusr.com/ugd/e47008_c68ea2a11dc148cc85c1a0593f9443ac.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GISD Regio Alkmaar: Bijlage C. Percelen binnen jeugdhulp met verblijf (versie 1.4)",
+        "url": "https://bdbfafeb-f0aa-4eb0-b9f4-f21f8d792576.filesusr.com/ugd/e47008_6f64c6468cc74a2f8bb0ee252b1bfaa3.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Verwervingsstrategie jeugdbescherming en jeugdreclassering NW4 regio's Noord-Holland 2026-2030",
+        "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/b608c77c-eb8c-4a6e-89b0-674add89bf4e",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Rechtstreeks nummer van De Meedenker niet gevonden; het algemene nummer van MET Dijk en Waard staat erbij. Klachtenregeling specifiek voor Team Jeugd bestaat niet apart; de gemeentelijke klachtenregeling geldt. Geen IGJ- of rekenkamerrapport gevonden; regionale journalistiek leverde niets specifieks op. Spoedroute verwijst naar Gemeente Dijk en Waard: jeugdhulp (direct gevaar en crisisdienst jeugd)."
+    "opmerkingen": "Rechtstreeks nummer van De Meedenker niet gevonden; het algemene nummer van MET Dijk en Waard staat erbij. Klachtenregeling specifiek voor Team Jeugd bestaat niet apart; de gemeentelijke klachtenregeling geldt. Geen IGJ- of rekenkamerrapport gevonden; regionale journalistiek leverde niets specifieks op. Spoedroute verwijst naar Gemeente Dijk en Waard: jeugdhulp (direct gevaar en crisisdienst jeugd). Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd. De crisispagina van Dijk en Waard (spoedroute) noemt nog het oude nummer. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   }
 }

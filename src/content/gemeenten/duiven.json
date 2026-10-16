@@ -117,29 +117,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bijvoorbeeld algemeen maatschappelijk werk, jongerenwerk en een steungezin. Specialistische jeugdhulp koopt Duiven samen met tien andere gemeenten in via Inkoop sociaal domein Centraal Gelderland. De Beschikbaarheidswijzer bevat deze regio niet. De regio heeft een eigen zoektool met gecontracteerde hulpverleners. Openbaar, zonder inloggen. Vraag de medewerker jeugd om hulp bij het kiezen en naar de wachttijd.",
+    "samenvatting": "Voor lichte hulp, zoals maatschappelijk werk, jongerenwerk of een steungezin, kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Duiven in samen met de tien andere gemeenten in de regio Centraal Gelderland. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Sociaal Loket of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.inkoopsdcg.nl/home%2Binkoop/inkoop/zoektool%2Bgecontracteerd%2Baanbod%2Bsdcg/default.aspx",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Algemeen maatschappelijk werk en jongerenwerk van Santé Partners, steungezinnen via Buurtgezinnen en opvoedadvies. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies bij opvoedvragen en scheiding, jongerencoaching en steungezinnen. U kunt zelf terecht, zonder aanvraag, bij het maatschappelijk werk en jongerenwerk van Santé Partners en bij Buurtgezinnen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Begeleiding en behandeling",
-        "omschrijving": "Begeleiding en behandeling vraagt u aan via het Sociaal Loket, of via een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking. U vraagt het aan via het Sociaal Loket, of via een verwijzing van huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz"
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Hulp met verblijf, pleegzorg en jeugdbescherming",
-        "omschrijving": "Voor zwaardere hulp werkt Duiven regionaal samen, ook met Veilig Thuis en Jeugdbescherming Gelderland.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. De basisschool meldt uw kind aan bij een aanbieder met een contract. De aanbieder bekijkt of de gemeente het onderzoek vergoedt.",
         "hulpsoorten": [
-          "verblijf-pleegzorg",
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij groepsbegeleiding of dagbehandeling krijgt uw kind overdag hulp in een groep buiten huis; voor kinderen van 4 tot 12 jaar met extra ondersteuning is er BSO+. Logeren bij een aanbieder geeft u als ouder even rust; de medewerker jeugd bekijkt wat past.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, ook in deeltijd, gezinshuizen en woongroepen. Eerst wordt gekeken of opvang in uw eigen netwerk of bij een steungezin van Buurtgezinnen kan.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: hulp aan huis, een crisispleeggezin of een korte opvangplek. In deze regio regelt de Spoedeisende Zorg van Jeugdbescherming Gelderland dit, dag en nacht.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Centraal Gelderland doet Jeugdbescherming Gelderland dit, vanuit Arnhem; de jeugdbeschermers overleggen elke twee weken met de medewerkers jeugd van Duiven. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -214,7 +243,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Duiven: Jeugdhulp",
@@ -300,6 +329,46 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Inkoop SDCG: Toegang tot dyslexiezorg in Centraal Gelderland (versie 24 maart 2026)",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2281111",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Groepsbegeleiding",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2334611",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Behandeling (met BSO+)",
+        "url": "https://www.inkoopsdcg.nl/PageByID.aspx?sectionID=185023&contentPageID=2362658",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Productbeschrijvingen Verblijf (pleegzorg, gezinshuizen, logeren, woongroepen)",
+        "url": "https://www.inkoopsdcg.nl/home+inkoop/inkoop/inkoopdocumenten/inkoopdocumenten+verblijf/HandlerDownloadFiles.ashx?idnv=2765659",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkoop SDCG: Pleegzorg, achtergrond en afspraken in Centraal Gelderland (juli 2024)",
+        "url": "https://www.inkoopsdcg.nl/home+inkoop/inkoop/inkoopdocumenten/inkoopdocumenten+verblijf/HandlerDownloadFiles.ashx?idnv=2893384",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisendezorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact (regio midden, Arnhem)",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Klachtenregeling van het Sociaal Loket zelf en een cliëntervaringsonderzoek Jeugd niet gevonden; nieuwere wachtlijstcijfers dan 2024 niet gevonden. Locatie van het consultatiebureau in Duiven niet apart gecontroleerd. IGJ, rekenkamer, ombudsman en regionale journalistiek niet doorzocht."

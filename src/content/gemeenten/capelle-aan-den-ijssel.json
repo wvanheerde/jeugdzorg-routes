@@ -120,42 +120,65 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, via het CJG, de praktijkondersteuner jeugd bij de huisarts, trainingen en groepen. Voor specialistische hulp is een beschikking van het CJG nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Capelle koopt specialistische hulp samen in met andere gemeenten in de regio Rijnmond (Jeugdhulp Rijnmond). Op de website van Jeugdhulp Rijnmond ziet u met het verwijzingsfilter welke aanbieders een contract hebben. Het CJG publiceert ook een eigen lijst met aanbieders. Capelle gebruikt de Beschikbaarheidswijzer niet. Wachttijden per aanbieder kunt u daar dus niet opzoeken. Het CJG meldt dat bij de eigen jeugdhulp nog wachttijden zijn. Ook bij aanbieders kan een wachtlijst zijn. Vraag het bij de aanmelding.",
+    "samenvatting": "Voor advies, trainingen en lichte hulp kunt u zelf terecht bij het CJG, zonder aanvraag. Specialistische hulp koopt Capelle in met twaalf andere gemeenten in de regio Rijnmond. Vraag bij het CJG of de aanbieder hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het CJG: adviesgesprekken, trainingen voor kinderen, jongeren en ouders, en groepen. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, trainingen en groepen voor ouders en kinderen, bijvoorbeeld over pubers, rouw of weerbaarheid. U kunt zelf terecht bij het CJG en de KinderLabs, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Begeleiding en gezinscoaching",
-        "omschrijving": "Jeugd- en gezinscoaches van het CJG begeleiden gezinnen thuis. Voor langere of zwaardere begeleiding is een beschikking nodig.",
+        "omschrijving": "Jeugd- en gezinscoaches van het CJG begeleiden gezinnen thuis. Voor langere of zwaardere begeleiding door een andere aanbieder geeft het CJG een beschikking af.",
         "hulpsoorten": [
           "ambulante-begeleiding"
         ]
       },
       {
         "naam": "Jeugd-ggz",
-        "omschrijving": "Via het CJG, de praktijkondersteuner jeugd bij de huisarts of een verwijzing van huisarts, jeugdarts of medisch specialist. Het CJG meldt langere wachttijden voor onderzoek naar de oorzaak van gedragsproblemen (diagnostiek).",
+        "omschrijving": "Onderzoek en behandeling bij psychische problemen. U komt er via het CJG, de praktijkondersteuner jeugd bij de huisarts of een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Dyslexie",
-        "omschrijving": "De verordening heeft een eigen protocol voor onderzoek en behandeling van ernstige dyslexie. Het CJG heeft hierover een aparte pagina.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 12 jaar met ernstige lees- en spellingsproblemen. School stuurt het leerlingdossier via het CJG naar BLICK Expertise, dat beoordeelt of uw kind de hulp krijgt.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
+        "naam": "Dagbesteding, verzorging en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, hulp bij de persoonlijke verzorging en kortdurend verblijf (logeren). U komt er via het CJG, dat een beschikking afgeeft.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "persoonlijke-verzorging",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via het CJG; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Bij een crisis start de hulp zo snel mogelijk. De beschikking volgt uiterlijk vier weken na de start.",
+        "omschrijving": "Bij een crisis start de hulp zo snel mogelijk, ook voordat er een beschikking is. Het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond helpt bij een acute crisis.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -497,6 +520,31 @@
         "titel": "SWV Koers VO: Voor ouders",
         "url": "https://www.koersvo.nl/voor-ouders/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Capelle: Dyslexie",
+        "url": "https://www.cjgcapelleaandenijssel.nl/ouders/dyslexie",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsvragen over schoolverzuim en thuiszitters (2026) weggelaten tot het college antwoordt; dan nakijken. IGJ-rapport over het CJG (maart 2023) is ouder dan drie jaar en niet gelezen. Regionale journalistiek niet doorzocht."

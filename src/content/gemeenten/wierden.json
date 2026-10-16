@@ -109,24 +109,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u vaak direct, zonder besluit van de gemeente: advies, het consultatiebureau, algemeen maatschappelijk werk, jongerenwerk en de praktijkondersteuner jeugd-ggz bij de huisarts. Opvoedvragen kunt u ook voorleggen via loes.nl. Specialistische jeugdhulp koopt Wierden samen met de andere Twentse gemeenten in. Aanbieders en wachttijden kunt u bekijken in de Beschikbaarheidswijzer van Twente.",
+    "samenvatting": "Algemene hulp, zoals advies, maatschappelijk werk en jongerenwerk, krijgt u meestal direct, zonder aanvraag. Specialistische jeugdhulp koopt Wierden in samen met de andere Twentse gemeenten.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies, jeugdgezondheidszorg, maatschappelijk werk, jongerenwerk en cursussen, zonder besluit van de gemeente.",
+        "omschrijving": "Advies, jeugdgezondheidszorg, maatschappelijk werk, jongerenwerk en cursussen, zonder aanvraag. Opvoedvragen kunt u ook stellen bij Loes.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, dyslexiezorg, verblijf en pleegzorg, regionaal ingekocht in Twente.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Begeleiding, alleen of in een groep, om zo zelfstandig mogelijk te worden, en behandeling bij psychische problemen. Na een gesprek met de gemeente vraagt u deze hulp aan, of de huisarts verwijst.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
-          "dyslexiezorg",
-          "verblijf-pleegzorg",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Persoonlijke verzorging",
+        "omschrijving": "Hulp bij wassen, aankleden, eten of naar het toilet gaan, voor kinderen die dat zelf niet of onvoldoende kunnen. Hoort de verzorging bij medische zorg, dan regelt u die via de zorgverzekeraar.",
+        "hulpsoorten": [
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen. Dit loopt via school, die het leerlingdossier aanlevert.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding, dagbehandeling en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen, woongroepen en kamertraining om zelfstandig te leren wonen. Pleegzorg kan ook alleen in weekenden, vakanties of overdag.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg of een korte opvangplek. De Twentse gemeenten regelen dit samen.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Twente doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -194,7 +234,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",
@@ -204,7 +244,7 @@
       {
         "titel": "Gemeente Wierden: Jeugdhulp",
         "url": "https://www.wierden.nl/jeugdhulp",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Wierden: Jeugdgezondheidszorg",
@@ -324,12 +364,32 @@
       {
         "titel": "Samen14: Inkoop",
         "url": "https://samen14.nl/inkoop/default.aspx",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Samen14: Opdracht zorgmakelaar Overijssel (gecertificeerde instellingen in Twente en IJsselland)",
+        "url": "https://samen14.mett.nl/documenten/HandlerDownloadFiles.ashx?id=1367134",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: home (regiokantoor Twente)",
+        "url": "https://www.jbov.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 en Programmabegroting 2027 niet gevonden (alleen jaarverslag 2024 en een nieuwsbericht; raad behandelt begroting op 10 november 2026); geen gemeten doorlooptijden gevonden. Contactgegevens samenwerkingsverband VO niet gevonden (geen VO-school in Wierden op de steunpuntenkaart). Regionale journalistiek niet doorzocht."

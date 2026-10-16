@@ -127,30 +127,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het jeugdteam in Het Brughuis, zoals opvoedondersteuning, hulp voor het gezin en groepstrainingen. Specialistische jeugdhulp koopt Alblasserdam samen met negen andere gemeenten in via de Serviceorganisatie Jeugd Zuid-Holland Zuid. In de Beschikbaarheidswijzer ziet u aanbieders en wachttijden. Die is openbaar, zonder inloggen. Kijk samen met de jeugdprofessional welke hulp past.",
+    "samenvatting": "Bij het jeugdteam in Het Brughuis kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Alblasserdam in samen met de andere gemeenten van de regio Zuid-Holland Zuid.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-holland-zuid",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het jeugdteam in Het Brughuis: advies, hulp thuis voor gezinnen met kinderen van 0 tot 18 jaar, en een gezinsregisseur als er veel tegelijk speelt.",
+        "omschrijving": "Advies en hulp thuis bij vragen over opvoeden, voor gezinnen met kinderen van 0 tot 18 jaar. U kunt zelf terecht, zonder aanvraag, bij het jeugdteam in Het Brughuis; speelt er veel tegelijk, dan helpt een gezinsregisseur.",
         "hulpsoorten": [
-          "opvoedondersteuning",
-          "ambulante-begeleiding"
+          "opvoedondersteuning"
         ]
       },
       {
         "naam": "Schoolmaatschappelijk werk",
-        "omschrijving": "Kortdurende begeleiding van kinderen op school en advies aan ouders, via Het Brughuis.",
+        "omschrijving": "Korte begeleiding van kinderen op school en advies aan ouders, via Het Brughuis.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Bijvoorbeeld jeugd-ggz, dagbehandeling, dyslexiezorg en verblijf, regionaal ingekocht. U krijgt dit na een beschikking of een verwijzing van de huisarts.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en hulp thuis bij wassen, aankleden en eten. U komt er via het jeugdteam in Het Brughuis of met een verwijzing van een arts.",
         "hulpsoorten": [
+          "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met hardnekkige lees- en spellingsproblemen; aanvragen kan vanaf midden groep 4. School vraagt het met uw toestemming aan bij de poortwachter van samenwerkingsverband Drechtsteden; daarna kiest u zelf een aanbieder met contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Bij dagbesteding doet uw kind overdag in een groep activiteiten met begeleiding; bij logeren of weekendpleegzorg verblijft uw kind af en toe elders, zodat u als ouder op adem komt. Eerst wordt gekeken naar activiteiten in de buurt en hulp uit uw eigen omgeving.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, wonen met begeleiding en verblijf met behandeling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. In Zuid-Holland Zuid helpt het Crisisinterventieteam van Veilig Thuis dag en nacht; bij acute psychische nood schakelt de huisarts de crisisdienst van Yulius in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Holland Zuid doet Jeugdbescherming west dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -219,7 +253,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Alblasserdam: Het Brughuis",
@@ -335,9 +369,44 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: gecontracteerde jeugdhulpaanbieders",
+        "url": "https://www.jeugdzhz.nl/inkoop-2022-e-v/gecontracteerde-jeugdhulpaanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Serviceorganisatie Jeugd ZHZ: dienstomschrijving jeugdhulp 2026 (versie 5.1)",
+        "url": "https://www.dienstgezondheidjeugd.nl/assets/uploads/SOJ/Bijlage-2-Dienstomschrijving-versie-5.1-01-01-26-DEF.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis ZHZ: Crisisinterventieteam Zuid-Holland Zuid",
+        "url": "https://www.veiligthuiszuidhollandzuid.nl/het-crisisinterventieteam-zuid-holland-zuid",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Drechtsteden: Handleiding Ernstige Dyslexie PO per 01-08-2026",
+        "url": "https://www.swvdrechtsteden.nl/system/files/handleiding-ernstige-dyslexie-po-per-01-08-2026-versie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Drechtsteden: aangesloten scholen",
+        "url": "https://www.swvdrechtsteden.nl/voor-ouders/scholen",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Raadsstukken van Alblasserdam niet gelezen (bot-controle op raad.alblasserdam.nl); begroting 2027 volgt op 10 november 2026. Klachtenregeling van Stichting Jeugdteams ZHZ en doorlooptijden niet gevonden; verordening 2026 staat nog niet op overheid.nl, versie 2022 gebruikt. Aandeel via huisarts niet opgenomen (CBS houdt voor 2025 een deel van de verwijzercijfers geheim); daarom ook de vergelijking met landelijk uit de tekst gehaald."
+    "opmerkingen": "Raadsstukken van Alblasserdam niet gelezen (bot-controle op raad.alblasserdam.nl); begroting 2027 volgt op 10 november 2026. Klachtenregeling van Stichting Jeugdteams ZHZ en doorlooptijden niet gevonden; verordening 2026 staat nog niet op overheid.nl, versie 2022 gebruikt. Aandeel via huisarts niet opgenomen (CBS houdt voor 2025 een deel van de verwijzercijfers geheim); daarom ook de vergelijking met landelijk uit de tekst gehaald. Dyslexie: route uit de handleiding van SWV Drechtsteden per 1-8-2026; dat de basisscholen in Alblasserdam onder SWV Drechtsteden vallen, blijkt uit de scholenlijst van het SWV (de handleiding noemt geen gemeenten)."
   },
   "ervaringen": {
     "samenvatting": "Voor Alblasserdam zelf zijn geen cijfers over wachttijden of tevredenheid openbaar te vinden. Wel is er een onderzoek voor de hele regio Zuid-Holland Zuid. Daarin vond ruim 4 op de 10 deelnemers de weg naar hulp makkelijk en 3 op de 10 moeilijk, vooral door bureaucratie en lang wachten. Bij een kwart van de ervaringen wachtten ouders en jongeren nog op hulp.\n\nVraag bij uw aanmelding bij Het Brughuis hoe lang het duurt, en leg afspraken zoals het actieplan schriftelijk vast. Zijn er meerdere hulpverleners, vraag dan naar een gezinsregisseur. Neem een cliëntondersteuner mee naar gesprekken. Loopt het vast, vraag dan een vertrouwenspersoon van Jeugdstem om mee te denken.",

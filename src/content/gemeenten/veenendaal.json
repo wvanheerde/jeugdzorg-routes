@@ -134,43 +134,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente. Denk aan opvoedadvies, cursussen, vrijwilligers, Veens Welzijn, de pedagoog bij de huisarts en korte begeleiding thuis door het CJG. Voor specialistische hulp is een besluit van de gemeente nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Veenendaal koopt specialistische jeugdhulp in met Barneveld, Ede, Nijkerk, Renswoude, Rhenen en Scherpenzeel. Sinds 1 november 2025 doen zij dat samen als Jeugdhulpregio JeugdFV. Veenendaal is niet aangesloten op de Beschikbaarheidswijzer. Vraag het CJG welke aanbieders een contract hebben. Informatie over de regio staat op jeugdfv.nl.",
-    "gecontracteerdeAanbiedersUrl": "https://www.jeugdfv.nl",
+    "samenvatting": "Bij het CJG Veenendaal kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Veenendaal in met de zes andere gemeenten van de regio Foodvalley (JeugdFV). Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het CJG of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://jeugdfv.nl/bvo/professionals/productenboek/",
     "categorieen": [
       {
-        "naam": "Opvoedondersteuning en vrij toegankelijke hulp",
-        "omschrijving": "Via het CJG, Veens Welzijn, vrijwilligers en de praktijkondersteuner jeugd bij de huisarts. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Opvoedadvies, cursussen en hulp van vrijwilligers. U kunt zelf terecht, zonder aanvraag, bij het CJG, Veens Welzijn en de praktijkondersteuner jeugd bij de huisarts.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding",
-        "omschrijving": "Korte begeleiding thuis door het CJG zelf, zonder besluit. Voor andere hulp, zoals dagbehandeling, is een besluit of verwijzing nodig.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Het CJG geeft zelf korte begeleiding thuis, zonder aanvraag, en regelt zo nodig meer; persoonlijke verzorging koopt de regio als eigen vorm van hulp in.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Voor kinderen van 4 tot 13 jaar met ernstige dyslexie. De dyslexiespecialist van het CJG beoordeelt eerst of onderzoek of behandeling nodig is. De behandeling duurt hoogstens 60 uur, verspreid over hoogstens 18 maanden.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 4 tot 13 jaar met hardnekkige lees- en spellingsproblemen. De dyslexiespecialist van het CJG beoordeelt eerst het leerlingdossier van school.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Crisishulp en verblijf",
-        "omschrijving": "Voor crisishulp, crisisverblijf, woonvormen en gesloten verblijf is een besluit van de gemeente nodig. Bij een crisis start de hulp eerst en volgt het onderzoek daarna.",
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Dagbesteding in een groep voor kinderen die extra begeleiding nodig hebben, en respijtzorg zoals logeren, zodat u de zorg langer volhoudt. U vraagt het aan via het CJG.",
         "hulpsoorten": [
-          "crisishulp",
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio koopt pleegzorg, gezinshuizen en verblijf bij een jeugdhulpaanbieder in, ook voor jeugd-ggz.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Respijtzorg",
-        "omschrijving": "Tijdelijke ontlasting van ouders, zodat zij de zorg langer kunnen volhouden.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het CJG regelt dan via het Crisis Coördinatiepunt van Veilig Thuis Utrecht spoedhulp thuis of een crisisplek; bij acute psychische nood schakelt de huisarts de crisisdienst van Pro Persona in.",
         "hulpsoorten": [
-          "logeren-respijt"
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Veenendaal doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -419,8 +435,48 @@
         "titel": "MEE Dichtbij: contact (Veenendaal)",
         "url": "https://www.mee-ugv.nl/gemeentes/veenendaal/",
         "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: productenboek gecontracteerde aanbieders",
+        "url": "https://jeugdfv.nl/bvo/professionals/productenboek/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: jeugdbescherming en jeugdreclassering (contracten met gecertificeerde instellingen)",
+        "url": "https://jeugdfv.nl/bvo/professionals/verbeteragenda-jeugdbescherming/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Ambulant (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-ambulant.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: format zorgproducten Verblijf (productenlijst)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/format-zorgproducten-verblijf.xlsx",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "JeugdFV: Stappenplan bij crisis Utrecht (Veenendaal, Rhenen, Renswoude)",
+        "url": "https://jeugdfv.nl/wp-content/uploads/documents/jeugdzorg_stroomschema_utrecht_.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Veenendaal: vacature Poortwachter ED (taak beoordeling leerlingdossiers ernstige dyslexie)",
+        "url": "https://cjgveenendaal.nl/2026/10/07/vacature-jeugd-en-gezinswerker-2-2/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 nog niet verschenen (raadscommissie 28 oktober 2026). Cliëntervaringsonderzoek jeugd, gemeten doorlooptijden en inspectie- of rekenkamerrapport over jeugd niet gevonden; regionale journalistiek leverde niets op. Publicatiedatum Jaarstukken 2025 (juli 2026) niet bevestigd."
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen (raadscommissie 28 oktober 2026). Cliëntervaringsonderzoek jeugd, gemeten doorlooptijden en inspectie- of rekenkamerrapport over jeugd niet gevonden; regionale journalistiek leverde niets op. Publicatiedatum Jaarstukken 2025 (juli 2026) niet bevestigd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   }
 }

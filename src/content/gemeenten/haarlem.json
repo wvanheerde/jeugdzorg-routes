@@ -170,51 +170,62 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Basishulp loopt via het CJG (opvoedondersteuning, gezinscoaching, jongerencoaching, praktijkondersteuners jeugd bij de huisarts) en het wijkteam. Specialistische jeugdhulp koopt Haarlem samen met de regio Zuid-Kennemerland en IJmond in: volgens de Verordening jeugdhulp zijn sinds 2023 vier consortia gecontracteerd die binnen een taakgericht budget de door het CJG en andere verwijzers verwezen jeugdigen van passende hulp voorzien. Een lijst van losse aanbieders is er daarom niet. De regio is niet aangesloten op de Beschikbaarheidswijzer voor jeugdhulp; vraag het CJG naar de verwachte wachttijd en naar overbruggingshulp. Informatie over de regionale inkoop staat op jeugdhulpzkij.nl.",
+    "samenvatting": "Bij het CJG Kennemerland en de wijkteams van Buurts kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Haarlem in samen met de andere gemeenten van de regio Zuid-Kennemerland en IJmond. Vraag het CJG of Buurts naar de wachttijd en naar hulp in de tussentijd.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG, de CJG-coach op school en de praktijkondersteuner jeugd bij de huisarts, zonder beschikking.",
+        "omschrijving": "Advies, gezins- en jongerencoaching en cursussen bij vragen over opvoeden, ook bij een scheiding. U kunt zelf terecht, zonder aanvraag, bij het CJG en het wijkteam van Buurts; Home-Start van Humanitas biedt een vrijwilliger thuis.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinscoaching",
-        "omschrijving": "Gezinscoaching via het CJG; specialistische begeleiding via de gecontracteerde consortia.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, in een groep of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het CJG of Buurts of een verwijzing van de huisarts, jeugdarts of medisch specialist; is er hulp op meerdere gebieden nodig, dan komt die van één samenwerkingsverband van aanbieders, met één intake en één dossier. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van het CJG of de huisarts.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Eerst geeft de school extra leesbegeleiding; daarna meldt de school aan, meestal via één aanmeldloket van samenwerkende dyslexieaanbieders.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz"
+          "dyslexiezorg"
         ]
       },
       {
-        "naam": "Crisishulp",
-        "omschrijving": "Integrale Crisisdienst (ICD), dag en nacht bereikbaar.",
-        "hulpsoorten": [
-          "crisishulp"
-        ]
-      },
-      {
-        "naam": "Dagbesteding, logeren en respijtzorg",
-        "omschrijving": "Voor zorgintensieve gezinnen; het CJG helpt bij de aanvraag, in natura of via pgb.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding is begeleiding overdag in een groep; bij logeren (kort verblijf) verblijft uw kind af en toe ergens anders, zodat u even op adem kunt komen. Het CJG helpt bij de aanvraag, in natura of met een pgb (persoonsgebonden budget).",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, gezinshuizen en woongroepen, en voor oudere jongeren kamertraining.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten, thuis of met een tijdelijke crisisplek. Buiten de openingstijden van het CJG zet de Integrale Crisisdienst (ICD) van Veilig Thuis Kennemerland dag en nacht hulp in.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Kennemerland en IJmond doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
-    ]
+    ],
+    "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpzkij.nl/verwerving-jeugdhulp"
   },
   "cjg": {
     "soort": "wijkteam"
@@ -392,7 +403,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-14",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Haarlem - Jeugd en jeugdhulp",
@@ -432,7 +443,7 @@
       {
         "titel": "CJG Kennemerland - Contact",
         "url": "https://cjgkennemerland.nl/contact/",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "CJG Kennemerland - Informatie & Advies",
@@ -603,8 +614,38 @@
         "titel": "GGD Kennemerland: Mijn kind (0-4 jaar alleen in Haarlemmermeer)",
         "url": "https://www.ggdkennemerland.nl/mijn-kind",
         "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Kennemerland IJmond: Aanbieders (complexe en enkelvoudige jeugdhulp)",
+        "url": "https://www.jeugdhulpzkij.nl/verwerving-jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Kennemerland: Beschermingstafel (organisaties voor jeugdbescherming)",
+        "url": "https://cjgkennemerland.nl/beschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Samenwerkingsverband Passend Onderwijs Zuid-Kennemerland: Hoe werkt het aanvragen van een dyslexieonderzoek?",
+        "url": "https://samenwerkingsverbandpo-zk.nl/kennisbank/protocol-dyslexie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO Zuid-Kennemerland: Dyslexiezorg in Zuid-Kennemerland, update juni 2026",
+        "url": "https://wp-samenwerkingsverband.s3.eu-central-1.amazonaws.com/2026/06/Brief-dyslexiezorg-update-juni-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarverslag 2025 en programmabegroting 2027. Cliëntervaringsonderzoek Jeugd niet gevonden (alleen Wmo). E-mailadres voor klachten bij Buurts niet vastgelegd."
+    "opmerkingen": "Doorlooptijden toegang niet gevonden in jaarverslag 2025 en programmabegroting 2027. Cliëntervaringsonderzoek Jeugd niet gevonden (alleen Wmo). E-mailadres voor klachten bij Buurts niet vastgelegd. Crisisdienst (16-10-2026): CJG Kennemerland noemt buiten openingstijden de Integrale Crisisdienst (ICD, 088-8006201, 24/7). De crisispagina van Serviceplein Heemskerk noemt Parnassia als crisisdienst voor Midden-Kennemerland en Zaanstreek/Waterland. Raadsstukken uit 2021 (alleen als zoekfragment, pdf geblokkeerd) melden dat het ICD-mandaat overging naar een crisisfunctie bij Veilig Thuis Kennemerland, met ggz-crisis bij GGZ inGeest (Zuid-Kennemerland). Wie nu achter het ICD-nummer zit, is niet bevestigd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron. ICD wordt uitgevoerd door Veilig Thuis Kennemerland (bevestigd door redactie 16-10-2026)."
   }
 }

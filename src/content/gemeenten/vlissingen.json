@@ -141,29 +141,65 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij Buurtteams Vlissingen en het Ouder kind-team, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Vlissingen in met de twaalf andere Zeeuwse gemeenten, via Inkooporganisatie Jeugdhulp Zeeland. Sinds 1 juni 2026 gelden nieuwe contracten met aanbieders. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang het wachten is; die is openbaar, zonder inloggen. Vraag het team Wmo en Jeugd om hulp bij het kiezen.",
+    "samenvatting": "Bij Buurtteams Vlissingen en het Ouder kind-team kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Vlissingen in met de twaalf andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Buurtteams Vlissingen en het Ouder kind-team: advies, coaching, voorlichting en online modules voor ouders en jongeren, zonder besluit van de gemeente.",
+        "omschrijving": "Advies, coaching, voorlichting en online modules voor ouders en jongeren. U kunt zelf terecht, zonder aanvraag, bij Buurtteams Vlissingen en het Ouder kind-team.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: hulp thuis, behandeling, jeugd-ggz en verblijf. Regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook persoonlijke verzorging. U komt er via het team Wmo en Jeugd of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg"
+          "persoonlijke-verzorging"
         ]
       },
       {
         "naam": "Extra zorg op school",
         "omschrijving": "Voor leerlingen die op school zowel extra onderwijsondersteuning als zorg nodig hebben. School (via Loket Kind op 1) en gemeente regelen dit samen.",
         "hulpsoorten": []
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, voor kinderen met een beperking of ernstige problemen. Logeren bij een zorgaanbieder kan u als ouder even rust geven.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of een woongroep. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het team Wmo en Jeugd of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
+        ]
       }
     ]
   },
@@ -308,7 +344,7 @@
       {
         "titel": "Integrale verordening jeugdhulp en maatschappelijke ondersteuning Vlissingen 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR750189/1",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Buurtteams Vlissingen: Contact",
@@ -338,7 +374,7 @@
       {
         "titel": "Beschikbaarheidswijzer Zeeland",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
-        "geraadpleegd": "2026-10-12"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 Vlissingen: Programma Sociale samenhang",
@@ -364,6 +400,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek is er alleen voor de Wmo; doorlooptijden jeugd niet gevonden. Klachtenregeling Buurtteams niet online, samenwerkingsverband VO apart niet vastgesteld, jeugdbescherming niet onderzocht. Regionale journalistiek beperkt doorzocht."

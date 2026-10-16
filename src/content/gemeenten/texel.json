@@ -121,12 +121,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp is er zonder besluit van de gemeente: schoolmaatschappelijk werk, jeugdgezondheidszorg, jongerenwerk en opvoedondersteuning. Voor specialistische hulp werkt Texel samen met de andere gemeenten in de Kop van Noord-Holland. Veel specialistische hulp zit op het vasteland. Op de openbare Beschikbaarheidswijzer van de regio ziet u welke aanbieders er zijn. Volgens de gemeente zijn er lange wachtlijsten in de jeugdzorg. Vraag het Sociaal Team om hulp bij het kiezen van een aanbieder.",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht, zonder aanvraag, bij het schoolmaatschappelijk werk, de jeugdgezondheidszorg, het jongerenwerk en de opvoedondersteuning. Specialistische jeugdhulp koopt Texel grotendeels in met de andere gemeenten in de Kop van Noord-Holland.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Informatie, bijeenkomsten en gesprekken over opvoeden, onder meer via de werkgroep Ouderkracht en de jeugdgezondheidszorg.",
+        "omschrijving": "Informatie, bijeenkomsten en gesprekken over opvoeden. U kunt zelf terecht, zonder aanvraag, bij de jeugdgezondheidszorg en de bijeenkomsten van de werkgroep Ouderkracht; het Sociaal Team kan ook persoonlijk advies of een cursus regelen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -137,12 +137,48 @@
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: begeleiding, jeugd-ggz, verblijf, pleegzorg en crisishulp, grotendeels regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking; ook persoonlijke verzorging kan via de gemeente. Veel specialistische hulp zit op het vasteland: het Sociaal Team helpt u een aanbieder kiezen.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het begint bij school: bespreek het eerst met de leerkracht of intern begeleider.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, voor kinderen met een beperking of ernstige problemen. Kortdurend verblijf, zoals logeren, geeft u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen: een pleeggezin, een gezinshuis of verblijf in een instelling.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Het Crisis Interventie Team (CIT) van Veilig Thuis Noord-Holland Noord helpt dag en nacht.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de Kop van Noord-Holland doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -203,8 +239,8 @@
     },
     {
       "naam": "Beschikbaarheidswijzer Kop van Noord-Holland",
-      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland",
-      "nodig": "Openbaar, zonder inloggen."
+      "omschrijving": "Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/kop-van-noord-holland"
     },
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
@@ -298,9 +334,34 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verwervingsstrategie jeugdbescherming en jeugdreclassering NW4 regio's Noord-Holland 2026-2030",
+        "url": "https://alkmaar.bestuurlijkeinformatie.nl/Document/View/b608c77c-eb8c-4a6e-89b0-674add89bf4e",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "GGZ Noord-Holland-Noord: Crisis (crisisdienst jeugd vanaf 2026 bij CIT Veilig Thuis NHN)",
+        "url": "https://www.ggz-nhn.nl/crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Veilig Thuis Noord-Holland Noord: Crisis Interventie Team",
+        "url": "https://www.veiligthuisnhn.nl/crisis-interventie-team/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden toegang niet gevonden; uitvoerder cliëntondersteuning niet online te vinden. SWV voortgezet onderwijs van de Texelse school en Sylta als opvolger van MEE & de Wering (schoolmaatschappelijk werk) niet apart bevestigd. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Doorlooptijden toegang niet gevonden; uitvoerder cliëntondersteuning niet online te vinden. SWV voortgezet onderwijs van de Texelse school en Sylta als opvolger van MEE & de Wering (schoolmaatschappelijk werk) niet apart bevestigd. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexieroute: texel.nl en SWV Kop van Noord-Holland beschrijven geen route; de verordening noemt alleen 'hulp bij ernstige dyslexie'. Buren verschillen (Den Helder: ED-specialist SWV; Schagen: school verwijst naar aanbieder; Hollands Kroon: RID via Incluzio), dus niet overgenomen. Tekst ongewijzigd gelaten. Crisisdienst (16-10-2026): volgens GGZ NHN voert vanaf 1 januari 2026 het CIT van Veilig Thuis NHN (088-0100502, dag en nacht) de crisisdienst jeugd uit. Dijk en Waard en zorginregiowestfriesland.nl noemen nog \"Crisisdienst Jeugd Noord-Holland Noord\" met 088 777 8887 (de vroegere ICD van GGZ NHN, Parlan en J&G); vermoedelijk verouderd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "ervaringen": {
     "samenvatting": "Aan het onderzoek over 2025 deden maar 8 van de 92 uitgenodigde ouders en jongeren mee, dus de uitkomsten zijn indicatief. Het aanvragen van hulp kreeg een 5,6, de hulp van de zorgaanbieder een 7,1. Ouders noemden wisselende medewerkers en informatie die niet goed werd overgedragen. Volgens de gemeente zijn er lange wachtlijsten, waardoor gezinnen langer bij het Sociaal Team blijven.\n\nVraag bij uw aanmelding hoe lang het duurt en wie uw vaste klantmanager is. Leg afspraken schriftelijk vast, zodat een nieuwe medewerker weet wat er is afgesproken. Vraag het Sociaal Team naar onafhankelijke cliëntondersteuning. Een klacht dient u in bij de klachtencoördinator van de gemeente, daarna kunt u naar de Nationale ombudsman.",

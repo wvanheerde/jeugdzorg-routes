@@ -117,24 +117,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Steenbergen koopt specialistische jeugdhulp samen met acht andere gemeenten in de jeugdhulpregio West-Brabant West in, via het Zorg Inkoop en Toegang Team (Zi2T). Deze regio staat niet op de Beschikbaarheidswijzer. Op de site van de regio staat welke aanbieders een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de jeugdprofessional om hulp bij het kiezen.",
+    "samenvatting": "Voor vragen over opvoeden en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Vraagwijzer en Team Jeugd. Steenbergen koopt specialistische jeugdhulp in samen met de andere gemeenten in de regio West-Brabant West. Vraag de jeugdprofessional welke aanbieders passen en hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpwbw.nl/jeugdhulpaanbieders",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Vraagwijzer en Team Jeugd: gesprekken met een jeugdprofessional thuis of op kantoor, trainingen voor ouders en kinderen, en jongerenwerk.",
+        "omschrijving": "Gesprekken en trainingen bij vragen over opvoeden. U kunt zelf terecht bij Vraagwijzer en Team Jeugd, zonder aanvraag, voor gesprekken met een jeugdprofessional thuis of op kantoor, trainingen voor ouders en kinderen, en jongerenwerk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, laag- en hoogcomplexe zorg, pleegzorg, woonzorg en crisiszorg, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij een aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking. Lichte begeleiding en coaching geeft Team Jeugd zelf; voor andere hulp maakt u samen een gezinsplan, of u gaat via de huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 13 jaar met ernstige lees- en spellingsproblemen. School legt het leerlingdossier voor aan het samenwerkingsverband Brabantse Wal; gaat dat akkoord, dan kiest u zelf een aanbieder met een contract in de regio, zonder aanvraag bij de gemeente.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en respijtzorg",
+        "omschrijving": "Overdag begeleiding in een groep, of logeren zodat u als ouder even op adem komt. In West-Brabant West kan dit alleen als deel van een hulptraject, bijvoorbeeld bij een kind met een beperking; voor jonge kinderen met een ernstige meervoudige beperking is er dagbesteding met verzorging en verpleging.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. In West-Brabant West zijn er pleegzorg (ook in deeltijd), gezinshuizen en kleine woongroepen met begeleiding dag en nacht.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Overdag kunt u eerst bij Vraagwijzer terecht; dag en nacht beoordeelt het Crisis Interventie Team via het Meldpunt Crisiszorg West-Brabant wat nodig is, zoals crisishulp thuis, een korte opvangplek of voor jonge kinderen een crisispleeggezin.",
+        "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In West-Brabant West doet Jeugdbescherming Brabant dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -259,7 +294,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Steenbergen Vraagwijzer: Hulp bij het opvoeden (Team Jeugd)",
@@ -370,6 +405,51 @@
         "titel": "CBS StatLine 85097NED: Jeugdhulptrajecten in natura (verwijzer, regio)",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Jeugdhulpcatalogus laagcomplex (juni 2025)",
+        "url": "https://www.jeugdhulpwbw.nl/publish/pages/1833/jeugdhulpcatalogus_versie_juni_2025.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Laagcomplexe zorg",
+        "url": "https://www.jeugdhulpwbw.nl/kennisbank/laagcomplexe-zorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Pleegzorg",
+        "url": "https://www.jeugdhulpwbw.nl/kennisbank/pleegzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Woonzorg",
+        "url": "https://www.jeugdhulpwbw.nl/kennisbank/woonzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp West-Brabant West: Crisisroute per 1 maart 2026",
+        "url": "https://www.jeugdhulpwbw.nl/publish/pages/2174/inf0005-003_crisisroute_wbw_2603.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Woensdrecht: Raadsinformatienota Stand van zaken inkoop jeugdbescherming en jeugdreclassering vanaf 2027",
+        "url": "https://api2.ibabs.biz/publicdownload.aspx?site=woensdrecht&id=73afd1a3-9fe2-4fe9-b112-cd998713ec3d",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV Brabantse Wal PO: Veelgestelde vragen (dyslexie)",
+        "url": "https://swvbrabantsewal.nl/primair-onderwijs/ouders/veelgestelde-vragen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek jeugd niet gevonden; raadssite staat achter bot-controle (raadsinformatie en rekenkamer niet doorzocht). Begroting 2027 nog niet verschenen; publicatiemaand van jaarstukken 2025 en perspectiefnota 2027-2030 geschat. Regionale journalistiek beperkt doorzocht (WebSearch-limiet)."

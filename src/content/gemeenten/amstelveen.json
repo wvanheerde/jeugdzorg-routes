@@ -122,47 +122,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Specialistische jeugdhulp is ingekocht via de Raamovereenkomst Jeugdhulp die Amstelveen samen met Aalsmeer sinds 1 januari 2022 heeft. Het vrij toegankelijke (preventieve) aanbod voor 0 tot 23 jaar staat in een jaarlijks overzicht van de gemeente. Ruim 2500 jeugdigen per jaar krijgen jeugdhulp. De Beschikbaarheidswijzer toont de gecontracteerde aanbieders met wachttijden, openbaar en zonder inloggen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de organisaties uit het overzicht jeugdaanbod van de gemeente. Specialistische jeugdhulp koopt Amstelveen samen met Aalsmeer in. Is die hulp nodig, dan kiest de medewerker jeugd samen met u een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/aalsmeeramstelveen",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Vrij toegankelijk, zonder verwijzing en meestal gratis; zie het overzicht jeugdaanbod van de gemeente.",
+        "omschrijving": "Hulp bij opvoeden voor kinderen van 0 tot 23 jaar en hun ouders, zonder aanvraag en meestal gratis. Denk aan het opvoedspreekuur van de jeugdgezondheidszorg, Home-Start, Buurtgezinnen en de praktijkondersteuner jeugd bij de huisarts.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook hulp bij wassen en aankleden (persoonlijke verzorging). U komt er via de medewerkers jeugd van het Sociaal loket of met een verwijzing van huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van huisarts, jeugdarts, medisch specialist of medewerker jeugd.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Alleen via aanmelding door de basisschool, voor ernstige dyslexie.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot en met 13 jaar met hardnekkige leesproblemen. De intern begeleider van school meldt uw kind samen met u aan; daarna kiest u zelf een aanbieder.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook overdag als daghulp. Logeren geeft u als ouder even rust; uw kind krijgt daar ook begeleiding.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen kiest de gemeente zo veel mogelijk voor een gezinsvorm: pleegzorg (ook een deel van de week) of een gezinshuis. Daarnaast zijn er woongroepen, kamertraining en plekken waar ouder en kind samen wonen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: crisishulp thuis, crisispleegzorg, crisisopvang of een noodbed voor één of twee nachten. In de regio Amsterdam-Amstelland werkt daarnaast dag en nacht de crisisdienst jeugd van Arkin en Levvel, samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Amstelveen doet Jeugdbescherming Regio Amsterdam dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -385,7 +397,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Amstelveen – Hulp bij het opgroeien en/of opvoeden van uw kind(eren)",
@@ -395,7 +407,7 @@
       {
         "titel": "Gemeente Amstelveen – Uitgangspunten en aanpak jeugdhulp",
         "url": "https://www.amstelveen.nl/uitgangspunten-en-aanpak-jeugdhulp",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Amstelveen – Sociaal loket",
@@ -430,12 +442,12 @@
       {
         "titel": "Gemeente Amstelveen – Inkoop jeugdhulp",
         "url": "https://www.amstelveen.nl/inkoop-jeugdhulp",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Amstelveen – Jeugdhulp bij dyslexie aanvragen",
         "url": "https://www.amstelveen.nl/jeugdhulp-bij-dyslexie-aanvragen",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Amstelveen – Jeugdaanbod Amstelveen 2025",
@@ -470,7 +482,7 @@
       {
         "titel": "Beschikbaarheidswijzer – Jeugdhulp Aalsmeer-Amstelveen",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/aalsmeeramstelveen",
-        "geraadpleegd": "2026-10-11"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "MEE Dichtbij – Amstelveen",
@@ -536,8 +548,38 @@
         "titel": "SWV Amstelenmeer: Contact",
         "url": "https://www.amstelenmeer.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: Gemeenten (werkgebied, kaart juli 2025)",
+        "url": "https://www.jeugdbescherming.nl/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Arkin: A central place for young people in crisis situations (26-07-2024)",
+        "url": "https://arkin.nl/en/news-overview/a-central-place-for-young-people-in-crisis-situations",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Nieuwe crisisdienst jeugd voor Amsterdam en Amstelland",
+        "url": "https://www.levvel.nl/nieuws/nieuwe-crisisdienst-jeugd-voor-amsterdam-en-amstelland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Acute crisis (Geïntegreerde CrisisDienst-Jeugd)",
+        "url": "https://www.levvel.nl/acute-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek Jeugd niet gevonden in raadsinformatie, jaarstukken 2025 of begroting 2027. Het aanvraagformulier laadt alleen met JavaScript; of DigiD nodig is, is niet vastgesteld. Regio-indeling: Amstelveen en Aalsmeer kopen samen in, de formele regio is Amsterdam-Amstelland."
+    "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek Jeugd niet gevonden in raadsinformatie, jaarstukken 2025 of begroting 2027. Het aanvraagformulier laadt alleen met JavaScript; of DigiD nodig is, is niet vastgesteld. Regio-indeling: Amstelveen en Aalsmeer kopen samen in, de formele regio is Amsterdam-Amstelland. Crisisdienst (16-10-2026): Geïntegreerde CrisisDienst-Jeugd van Levvel en Arkin sinds 1 november 2024, 24/7, met Veilig Thuis; nog actueel volgens levvel.nl."
   }
 }

@@ -143,45 +143,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Specialistische jeugdhulp wordt regionaal ingekocht via de Gemeenschappelijke Regeling Jeugdhulp Rijnmond (dertien gemeenten). Het Verwijzingsfilter van Jeugdhulp Rijnmond toont welke gecontracteerde aanbieders welke hulp waar leveren; dit is een hulpmiddel voor verwijzers, bekijk het samen met uw huisarts, jeugdarts of wijkteam. De regio Rijnmond is niet aangesloten op de Beschikbaarheidswijzer.",
+    "samenvatting": "Voor advies, cursussen en opvoedhulp kunt u zelf terecht bij het CJG Rijnmond, het wijkteam en de schoolmaatschappelijk werker, zonder aanvraag. Specialistische jeugdhulp koopt Rotterdam in met twaalf andere gemeenten in de regio Rijnmond. Vraag het wijkteam of de huisarts hoe lang het wachten is.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Laagdrempelig via CJG Rijnmond of het wijkteam, zonder beschikking.",
+        "omschrijving": "Cursussen en bijeenkomsten voor ouders, bijvoorbeeld over pubers, grenzen stellen of scheiden, en samenspeelgroepen voor ouders met jonge kinderen. U kunt zelf terecht bij het CJG Rijnmond en het wijkteam, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding",
+        "naam": "Begeleiding bij een beperking",
+        "omschrijving": "Langdurige begeleiding bij school, vrije tijd en contacten voor kinderen met een verstandelijke of lichamelijke beperking of een blijvende psychische stoornis. Uw kind moet daarvoor al een diagnose hebben. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ",
-        "omschrijving": "Via verwijzing van het wijkteam, een arts of school.",
+        "naam": "Jeugd-ggz",
+        "omschrijving": "Behandeling bij psychische problemen, van korte hulp in de wijk tot intensieve behandeling thuis of in dagbehandeling. U komt er via de huisarts, de jeugdarts of het wijkteam.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen in groep 3 tot en met 8 met ernstige dyslexie, als school niet genoeg kan helpen. U vraagt het alleen via school aan.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagprogramma's, logeren en ontlasting",
+        "omschrijving": "Dagprogramma's voor jonge kinderen en kinderen die extra steun nodig hebben bij school of ontwikkeling. Dreigt u als ouder overbelast te raken, dan kan uw kind logeren of meedoen aan dagactiviteiten.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg en gezinshuizen",
+        "naam": "Pleegzorg, gezinshuis en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen; pleegzorg heeft de voorkeur, voor jonge kinderen ook een gezinshuis. Team Zorgbemiddeling van de regio zoekt een passende plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -519,6 +538,31 @@
       {
         "titel": "PPO Rotterdam: Ouder- en Jeugdsteunpunt",
         "url": "https://pporotterdam.nl/ouder-jeugd-steunpunt/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Rotterdam: Jeugdhulp voor professionals",
+        "url": "https://www.rotterdam.nl/jeugdhulp-voor-professionals",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

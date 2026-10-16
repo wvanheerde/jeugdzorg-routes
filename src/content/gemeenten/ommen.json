@@ -118,29 +118,57 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via Samen Doen en de praktijkondersteuner jeugd bij de huisarts, zonder besluit van de gemeente (beschikking). Specialistische jeugdhulp koopt Ommen samen met tien andere gemeenten in via het Regionaal Serviceteam Jeugd (RSJ) IJsselland. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Die is openbaar, zonder inloggen. Voor hulp van een zorgaanbieder heeft u een besluit van de gemeente nodig, of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Samen Doen en de praktijkondersteuner jeugd bij de huisarts. Specialistische jeugdhulp koopt Ommen samen met de andere tien gemeenten van de regio IJsselland in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via Samen Doen, het consultatiebureau van de jeugdgezondheidszorg en de praktijkondersteuner jeugd bij de huisarts. De gemeente werkt ook aan meer hulp vooraf, onder meer op het Vechtdal College in Ommen.",
+        "omschrijving": "Advies en gesprekken bij Samen Doen, het consultatiebureau van de jeugdgezondheidszorg en de praktijkondersteuner jeugd bij de huisarts, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz, pleegzorg en verblijf, regionaal ingekocht in IJsselland.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, alleen of in een groep. Voor andere hulp verwijst Samen Doen of de huisarts, jeugdarts of medisch specialist u naar een aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "verblijf-pleegzorg",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School geeft het advies en levert het leerlingdossier aan; daarna beslist Samen Doen over de hulp.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven. U vraagt dit aan via Samen Doen.",
+        "hulpsoorten": [
+          "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Jeugdbescherming en jeugdreclassering",
-        "omschrijving": "Uitgevoerd door erkende organisaties voor jeugdbescherming, als de rechter een maatregel oplegt. In 2025 kregen 14 kinderen uit Ommen een jeugdbeschermingsmaatregel.",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of zorgboerderij, of een kleine woongroep. De elf gemeenten van IJsselland regelen dit samen.",
+        "hulpsoorten": [
+          "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Buiten kantoortijd kan Veilig Thuis IJsselland of de jeugdbeschermer Spoedhulp IJsselland inzetten, eerst thuis en zo nodig met een crisisbed; bij psychische nood is er de crisisdienst van Dimence.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In IJsselland doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
         "hulpsoorten": [
           "jeugdbescherming"
         ]
@@ -212,7 +240,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Ommen: Ondersteuning bij jeugd en gezin",
@@ -303,6 +331,31 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoop specialistische jeugdhulp",
+        "url": "https://www.rsj-ijsselland.nl/inkoop",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoopdocument Jeugdhulp Voorzieningen versie 1.8",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Inkoopdocument%20versie%201.8_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Jeugdbescherming, voor jeugdigen en ouders",
+        "url": "https://www.rsj-ijsselland.nl/jeugdbescherming/voor-jeugdigen-en-ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en doorlooptijden toegang niet gevonden; een eigen klachtenregeling van SDO Support staat niet online, klachten lopen via de gemeente. Regionale journalistiek leverde niets op; e-mail oudersteunpunt Veld, Vaart & Vecht staat niet op de eigen site. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

@@ -123,12 +123,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Lokaal team, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Reimerswaal samen met de andere Zeeuwse gemeenten in via de Inkooporganisatie Jeugdhulp Zeeland. Welke aanbieders een contract hebben, staat op de site van die organisatie. De huidige contracten lopen tot eind 2027. Voor 2028 komt er een nieuwe inkoopronde.",
-    "gecontracteerdeAanbiedersUrl": "https://www.inkoopjeugdhulpzeeland.nl/",
+    "samenvatting": "Bij het Lokaal team kunt u zelf terecht voor advies en lichte hulp, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Reimerswaal in met de andere Zeeuwse gemeenten, via de Inkooporganisatie Jeugdhulp Zeeland.",
+    "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
     "categorieen": [
       {
-        "naam": "Eerste hulp bij opvoeden en opgroeien",
-        "omschrijving": "Het Lokaal team met medewerkers jeugd, jongerenwerkers en buurtwerkers. Het team biedt advies en lichte hulp, voor alle leeftijden.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies en lichte hulp bij vragen over opvoeden en opgroeien, voor alle leeftijden. U kunt zelf terecht, zonder aanvraag, bij het Lokaal team met medewerkers jeugd, jongerenwerkers en buurtwerkers.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -139,12 +139,48 @@
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, jeugd-ggz en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Begeleiding thuis of in een groep, behandeling en jeugd-ggz bij psychische problemen, gedrag, ontwikkeling of een beperking, ook intensieve hulp thuis en persoonlijke verzorging. U komt er via het Lokaal team of een verwijzing van de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt het leerlingdossier op en bekijkt samen met de dyslexieaanbieder of uw kind in aanmerking komt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding is begeleiding overdag in een groep, bijvoorbeeld in een kinderdagcentrum of BSO+. Logeren en kortdurend verblijf geven u als ouder even rust.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis, verblijf met behandeling of wonen met begeleiding. Pleegzorg geven in Zeeland Juvent, Timon en de William Schrikker Groep.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis onhoudbaar of onveilig wordt: crisishulp thuis, crisispleegzorg of een plek in een behandelgroep. Overdag regelt het Lokaal team of de huisarts dit, buiten kantoortijd het crisisteam van Juvent.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeeland doet Jeugdbescherming west dit, vanuit Middelburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -211,6 +247,11 @@
     {
       "naam": "Vertrouwenspersoon Jeugdstem inschakelen",
       "url": "https://jeugdstem.nl/contact"
+    },
+    {
+      "naam": "Aanbieders en wachttijden zoeken (Beschikbaarheidswijzer Zeeland)",
+      "omschrijving": "Jeugdhulpaanbieders met een contract in Zeeland, met actuele wachttijden. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland"
     }
   ],
   "ervaringen": {
@@ -287,7 +328,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Reimerswaal: Lokaal team",
@@ -347,7 +388,7 @@
       {
         "titel": "Verordening Jeugdhulp gemeente Reimerswaal 2025",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR746823/1",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Jaarstukken 2025 gemeente Reimerswaal",
@@ -413,6 +454,41 @@
         "titel": "Veilig Thuis Zeeland",
         "url": "https://www.veiligthuiszeeland.nl/over-veilig-thuis-zeeland/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Beschikbaarheidswijzer Jeugdhulp Zeeland",
+        "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/zeeland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Inkooporganisatie Jeugdhulp Zeeland: Factsheet ernstige dyslexie (juni 2025)",
+        "url": "https://www.inkoopjeugdhulpzeeland.nl/app/uploads/2023/04/20250701-Factsheet-Ernstige-Dyslexie.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: Acute hulp bij crisis",
+        "url": "https://www.juvent.nl/hulpaanbod/acute-hulp-bij-crisis/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Juvent: homepage (nieuws over de Zeeuwse pleegzorgorganisaties)",
+        "url": "https://www.juvent.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: Contact (vestiging Middelburg, regio Zeeland)",
+        "url": "https://jeugdbeschermingwest.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming west: werkgebied",
+        "url": "https://jeugdbeschermingwest.nl/wie-zijn-wij/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Samenwerkingsverband VO niet vastgesteld; steunpunt heeft alleen een formulier. Beschikbaarheidswijzer Zeeland dekt Reimerswaal niet (volgens regiobestand); regionale journalistiek niet doorzocht. Spoedroute verwijst naar Veilig Thuis Zeeland (geen eigen spoedpagina voor jeugd gevonden)."

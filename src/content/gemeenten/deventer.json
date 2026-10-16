@@ -121,48 +121,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en kortdurende ambulante begeleiding via Team Uitvoering Jeugd zonder beschikking; specialistische jeugdhulp wordt regionaal ingekocht door de elf gemeenten van regio IJsselland via het Regionaal Serviceteam Jeugd IJsselland (RSJ IJsselland), dat contracten beheert met meer dan 160 aanbieders. De Beschikbaarheidswijzer toont de gecontracteerde aanbieders in IJsselland met wachttijden, openbaar en zonder inloggen te gebruiken om samen met het team te kiezen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Team Uitvoering Jeugd en de jeugdgezondheidszorg van GGD IJsselland. Specialistische jeugdhulp koopt Deventer samen met de andere tien gemeenten van de regio IJsselland in.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via de jeugdgezondheidszorg van GGD IJsselland en Team Uitvoering Jeugd, zonder beschikking.",
+        "omschrijving": "Advies en gesprekken bij Team Uitvoering Jeugd en de jeugdgezondheidszorg van GGD IJsselland, zonder aanvraag. Ook is er Home-Start Deventer: vrijwilligers die gezinnen thuis een paar uur per week steunen.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding en gezinsbegeleiding",
-        "omschrijving": "Kortdurend door het team zelf; langer of specialistischer via een gecontracteerde aanbieder.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, een beperking of psychische problemen, alleen of in een groep. Kortdurende begeleiding geeft Team Uitvoering Jeugd vaak zelf. Voor andere hulp verwijst Team Uitvoering Jeugd of de huisarts, jeugdarts of medisch specialist u naar een aanbieder. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-GGZ en dyslexiezorg",
-        "omschrijving": "Via verwijzing van het team of een arts; ernstige dyslexie via een aparte aanvraag.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School geeft het advies en levert het leerlingdossier aan; daarna beslist Team Uitvoering Jeugd over de hulp.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Dagbesteding, logeren en respijtzorg",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, ook in een kinderdagcentrum, en logeren om u als ouder even rust te geven. U vraagt dit aan via Team Uitvoering Jeugd.",
         "hulpsoorten": [
           "dagbesteding",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Pleegzorg, gezinshuizen en verblijf",
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of zorgboerderij, of een kleine woongroep. De elf gemeenten van IJsselland regelen dit samen.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Crisishulp en jeugdbescherming",
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. Is uw kind in behandeling, bel dan overdag de aanbieder; anders kunt u dag en nacht Veilig Thuis IJsselland bellen, dat zo nodig Spoedhulp IJsselland of de crisisdienst van Dimence inzet.",
         "hulpsoorten": [
-          "crisishulp",
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In IJsselland doet Jeugdbescherming Overijssel dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -657,6 +667,31 @@
       {
         "titel": "Ouder- en Jeugdsteunpunt Passend Onderwijs Deventer: contact",
         "url": "https://www.ouderenjeugdsteunpuntdeventer.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoop specialistische jeugdhulp",
+        "url": "https://www.rsj-ijsselland.nl/inkoop",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Inkoopdocument Jeugdhulp Voorzieningen versie 1.8",
+        "url": "https://www.rsj-ijsselland.nl/sites/default/files/documents/Inkoopdocument%20versie%201.8_0.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "RSJ IJsselland: Jeugdbescherming, voor jeugdigen en ouders",
+        "url": "https://www.rsj-ijsselland.nl/jeugdbescherming/voor-jeugdigen-en-ouders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Overijssel: werkgebied",
+        "url": "https://www.jbov.nl/over-jbov",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

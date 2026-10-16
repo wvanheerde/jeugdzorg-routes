@@ -152,31 +152,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het CJG Putten, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Putten samen met zes andere gemeenten in de jeugdhulpregio Noord-Veluwe in. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang hun wachttijden zijn. Die is openbaar, zonder inloggen. Vraag de medewerker jeugd om hulp bij het kiezen.",
+    "samenvatting": "Bij het CJG Putten en Putten voor Elkaar kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Putten in samen met de andere gemeenten van de jeugdhulpregio Noord-Veluwe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/noord-veluwe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het CJG Putten: advies, inloopspreekuur, cursussen en het consultatiebureau. Putten voor Elkaar biedt ook jongerencoaching en buurtsportcoaches.",
+        "omschrijving": "Advies, inloopspreekuur en cursussen bij vragen over opvoeden, en het consultatiebureau. U kunt zelf terecht, zonder aanvraag, bij het CJG Putten; Putten voor Elkaar heeft jongerencoaching en buurtsportcoaches.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Jeugd-ggz bij de huisarts",
-        "omschrijving": "Een specialist jeugd-ggz bij gezondheidscentrum Da Costa en gezondheidscentrum Putten, via verwijzing van de huisarts.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, behandeling, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. De medewerkers jeugd van de gemeente bekijken met u welke hulp nodig is en regelen die; bij gezondheidscentrum Da Costa en gezondheidscentrum Putten werkt een specialist jeugd-ggz, via de huisarts. Hulp bij persoonlijke verzorging door een beperking kan via de gemeente; verzorging die met ziekte te maken heeft, loopt via de zorgverzekering.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Eerst doorloopt de school de stappen van het landelijke dyslexieprotocol; daarna controleert het Regionaal Instituut voor Dyslexie (RID) het dossier, voordat het onderzoek start.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, ook als buitenschoolse opvang of kinderdagverblijf met extra begeleiding (BSO+ en KDV+). Logeren (kort verblijf) ontlast u als ouder als uw kind veel meer toezicht nodig heeft dan gebruikelijk.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, woongroepen, kamertraining voor oudere jongeren en een moeder-en-kindhuis.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp, zo veel mogelijk thuis, als het thuis acuut niet meer gaat. Zijn de medewerkers jeugd niet bereikbaar, dan helpt de Spoedeisende Zorg van Jeugdbescherming Gelderland, dag en nacht.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Noord-Veluwe doet Jeugdbescherming Gelderland dit, vanuit Harderwijk. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -241,7 +269,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Putten: Jeugd",
@@ -261,7 +289,7 @@
       {
         "titel": "Gemeente Putten: Melding huiselijk geweld en crisis",
         "url": "https://www.putten.nl/Jeugd_Onderwijs/Jeugd/Melding_huiselijk_geweld_en_crisis",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Putten: Jeugd GGZ",
@@ -296,7 +324,7 @@
       {
         "titel": "Verordening Jeugdhulp 2025 gemeente Putten",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR742268/1",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Gemeente Putten: Jaarstukken (Jaarstukken 2025)",
@@ -367,9 +395,54 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulpregio Noord Veluwe: Zo werkt de jeugdhulpketen",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/Professionals/Zo_werkt_de_jeugdhulpketen_in_Jeugdhulpregio_Noord_Veluwe",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Noord Veluwe: Gecontracteerde aanbieders",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/Aanbieders/Gecontracteerde_aanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Lijst aanbieders jeugdhulpregio Noord-Veluwe (oktober 2026)",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/dsresource?objectid=279a0eaa-37b0-44bc-bf92-34a52b0ee101&type=org",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Productomschrijvingen aanbesteding Maatwerkdiensten Jeugd Regio Noord Veluwe en Zeewolde (versie 04-06-2026)",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/dsresource?objectid=f28e570c-d2d6-4094-9512-036f1d059852&type=org",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Contact",
+        "url": "https://www.jbgld.nl/contact",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Beleidsregels Sociaal Domein Gemeente Putten 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR756998/1",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmabegroting 2027 nog niet verschenen; geen cliëntervaringsonderzoek jeugd en geen gemeten doorlooptijden gevonden (klanttevredenheidsonderzoeken 2020-2024 uit de evaluatie niet gepubliceerd). Beschikbaarheidswijzer toont geen gemeentelijst, regionale inkoopsite verwijst er wel naar; IGJ-rapport 2023 niet opgehaald (ouder dan drie jaar). Klachtregeling CJG niet online; regionale journalistiek beperkt doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Programmabegroting 2027 nog niet verschenen; geen cliëntervaringsonderzoek jeugd en geen gemeten doorlooptijden gevonden (klanttevredenheidsonderzoeken 2020-2024 uit de evaluatie niet gepubliceerd). Beschikbaarheidswijzer toont geen gemeentelijst, regionale inkoopsite verwijst er wel naar; IGJ-rapport 2023 niet opgehaald (ouder dan drie jaar). Klachtregeling CJG niet online; regionale journalistiek beperkt doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexie: RID als controleur van het dossier en leeftijd t/m 12 jaar uit de regionale productomschrijvingen (versie 04-06-2026); hoe school en ouders het dossier indienen staat er niet in. Poortwachtercontract loopt af op 31-12-2026 (zie later-nakijken). Putten: valt onder dezelfde regionale productomschrijvingen (Putten wordt in het document als regiogemeente genoemd); leeftijd 7 tot 13 uit de eigen verordening."
   },
   "jeugdzorgregio": "Noord-Veluwe",
   "ervaringen": {

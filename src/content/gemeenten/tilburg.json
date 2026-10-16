@@ -121,45 +121,58 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte ondersteuning via Toegang Tilburg, IMW, GGD en Samen Opgroeien Tilburg zonder beschikking. Specialistische jeugdhulp koopt de regio Hart van Brabant in vier segmenten in: hoogspecialistische hulp (segment 1) via het samenwerkingsverband Crossroads, wonen (segment 2), dagbegeleiding en respijtzorg (segment 3) en veelvoorkomende jeugdhulp zoals jeugd-ggz en begeleiding (segment 4). De Wegwijzer Hart van Brabant toont per segment de gecontracteerde aanbieders. De regio is niet aangesloten op de Beschikbaarheidswijzer; vraag Toegang Tilburg of de huisarts naar wachttijden.",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Tilburg in samen met de regio Hart van Brabant. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij Toegang Tilburg of de huisarts.",
     "gecontracteerdeAanbiedersUrl": "https://www.wegwijzerhvb.nl/jeugdhulp/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via GGD (opvoedspreekuur, ouderchat), IMW-trainingen, Samen Opgroeien Tilburg en Toegang Tilburg, zonder beschikking.",
+        "omschrijving": "Gesprekken, cursussen en tips bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bijvoorbeeld bij het opvoedspreekuur van de GGD, trainingen van IMW en steunouders via Samen Opgroeien Tilburg.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Veelvoorkomende jeugdhulp (segment 4): begeleiding en jeugd-GGZ",
-        "omschrijving": "Via verwijzing van Toegang Tilburg of een arts.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en verzorging. U komt er via Toegang Tilburg of een verwijzing van een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
-          "dyslexiezorg"
-        ]
-      },
-      {
-        "naam": "Dagbegeleiding en respijtzorg (segment 3)",
-        "hulpsoorten": [
-          "dagbesteding",
-          "logeren-respijt",
           "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Wonen: pleegzorg en gezinshuizen (segment 2)",
-        "omschrijving": "De regio meldt een tekort aan pleeggezinnen en gezinsgerichte woonplekken.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. School levert het leerlingdossier aan.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbegeleiding en respijtzorg",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ],
+        "omschrijving": "Bij dagbegeleiding leert uw kind buiten schooltijd in een groep sociale en praktische vaardigheden. Respijtzorg, zoals logeren, ontlast u als ouder; eerst wordt gekeken of kinderopvang of BSO+ past."
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die niet meer veilig of passend thuis kunnen wonen. Naast pleegzorg en gezinshuizen zijn er kleine woongroepen en kamertraining voor oudere jongeren.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
-        "naam": "Hoogspecialistische jeugdhulp en crisis (segment 1)",
-        "omschrijving": "Via Crossroads; crisis via het Crisis Interventie Team.",
+        "naam": "Zware specialistische hulp en crisishulp",
+        "omschrijving": "Intensieve hulp, soms met verblijf, voor gezinnen met ernstige problemen op meerdere gebieden. Bij een crisis beslist het Crisis Interventie Team dag en nacht over directe hulp.",
         "hulpsoorten": [
-          "crisishulp",
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Hart van Brabant doet Jeugdbescherming Brabant dit, vanuit Tilburg. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -403,6 +416,46 @@
       {
         "titel": "Financieel besluit jeugdhulp en maatschappelijke ondersteuning gemeente Tilburg 2026",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR755737",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 3: Dagbegeleiding en respijtzorg",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-3-dagbegeleiding-en-respijtzorg/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Wonen Jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/wonen-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 4: Veelvoorkomende jeugdhulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-4-veelvoorkomende-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Segment 1 en crisishulp",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/segment-5-crisishulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Wegwijzer Hart van Brabant – Overige jeugdhulp (dyslexie)",
+        "url": "https://www.wegwijzerhvb.nl/jeugdhulp/overige-jeugdhulp/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant – Vestigingen in Noord-Brabant",
+        "url": "https://www.jeugdbeschermingbrabant.nl/contact/alle-vestigingen-in-noord-brabant/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Brabant: werkgebied",
+        "url": "https://www.jeugdbeschermingbrabant.nl",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
         "geraadpleegd": "2026-10-16"
       }
     ],

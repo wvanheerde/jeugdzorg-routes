@@ -143,49 +143,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, via het CJG, de CJG-coach op school en de poh jeugd bij de huisarts. Het CJG biedt ook cursussen en trainingen voor ouders en kinderen. Voor specialistische jeugdhulp is een beschikking van het CJG nodig, of een verwijzing van huisarts, jeugdarts of medisch specialist. Velsen koopt die hulp in met Beverwijk, Heemskerk, Haarlem, Bloemendaal, Heemstede en Zandvoort (regio Zuid-Kennemerland en IJmond). Voor ingewikkelde situaties, waarin meerdere soorten hulp tegelijk nodig zijn, zijn er vier samenwerkingsverbanden van aanbieders (consortia). Daar hebt u één intake en één dossier. Losse hulp, zoals begeleiding thuis, jeugd-ggz en dyslexiezorg, komt van bijna 70 aanbieders. Vraag het CJG welke aanbieders een contract hebben en hoe lang de wachttijd is.",
+    "samenvatting": "Bij het CJG, de CJG-coach op school en de praktijkondersteuner jeugd bij de huisarts kunt u zelf terecht, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Velsen in samen met de andere gemeenten van de regio Zuid-Kennemerland en IJmond. Vraag het CJG welke aanbieders een contract hebben en hoe lang de wachttijd is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulpzkij.nl/verwerving-jeugdhulp",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het CJG (informatie, advies, coaching en cursussen), de CJG-coach op school en de poh jeugd bij de huisarts. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, coaching en cursussen bij vragen over opvoeden en opgroeien. U kunt zelf terecht, zonder aanvraag, bij het CJG-team Velsen of het kernteam op school, waarin ook een jeugdmaatschappelijk werker van Socius zit.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Ambulante begeleiding",
-        "omschrijving": "Begeleiding thuis of op school. Met beschikking van het CJG of verwijzing van de huisarts.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, in een groep of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. U komt er via het CJG of een verwijzing van de huisarts, jeugdarts of medisch specialist; is er hulp op meerdere gebieden nodig, dan komt die van één samenwerkingsverband van aanbieders, met één intake en één dossier. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
-          "ambulante-begeleiding"
+          "ambulante-begeleiding",
+          "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
         ]
       },
       {
-        "naam": "Jeugd-ggz",
-        "omschrijving": "Via het CJG of via een verwijzing van huisarts, jeugdarts of medisch specialist.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Dyslexiezorg",
-        "omschrijving": "Voor kinderen met ernstige dyslexie. Daarvoor is een beschikking nodig.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor leerlingen van 7 tot 13 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Eerst geeft de school extra leeshulp; daarna meldt de school uw kind aan, meestal bij Hyperionhelpt, een samenwerking van dyslexieaanbieders in Zuid-Kennemerland en IJmond.",
         "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg",
-        "omschrijving": "Pleegzorg is een vorm van specialistische jeugdhulp. Informatie staat op de website van het CJG Kennemerland.",
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding is begeleiding overdag in een groep; bij logeren (kort verblijf) verblijft uw kind af en toe ergens anders, zodat u even op adem kunt komen. In Velsen kan logeren als onderdeel van bredere hulp, of als uw kind voortdurend toezicht nodig heeft.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, gezinshuizen en woongroepen, en voor oudere jongeren kamertraining.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
         ]
       },
       {
         "naam": "Crisishulp",
-        "omschrijving": "Buiten kantooruren via de Integrale Crisisdienst, 088 800 6201.",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten, thuis of met een tijdelijke crisisplek. Buiten de openingstijden van het CJG zet de Integrale Crisisdienst (ICD) van Veilig Thuis Kennemerland dag en nacht hulp in.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Kennemerland en IJmond doet De Jeugd- en Gezinsbeschermers dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -548,8 +558,38 @@
         "titel": "GGD Kennemerland: Mijn kind (0-4 jaar alleen in Haarlemmermeer)",
         "url": "https://www.ggdkennemerland.nl/mijn-kind",
         "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "CJG Kennemerland: Beschermingstafel (organisaties voor jeugdbescherming)",
+        "url": "https://cjgkennemerland.nl/beschermingstafel/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "CJG Kennemerland: Contact (Integrale Crisisdienst buiten openingstijden)",
+        "url": "https://cjgkennemerland.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Hyperionhelpt: samenwerking jeugdhulp Zuid-Kennemerland en IJmond (o.a. dyslexie)",
+        "url": "https://www.hyperionhelpt.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SWV PO Zuid-Kennemerland: Dyslexiezorg in Zuid-Kennemerland, update juni 2026",
+        "url": "https://wp-samenwerkingsverband.s3.eu-central-1.amazonaws.com/2026/06/Brief-dyslexiezorg-update-juni-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "De Jeugd- en Gezinsbeschermers: werkgebied",
+        "url": "https://www.dejeugdengezinsbeschermers.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Begroting 2027 nog niet verschenen. Cliëntondersteuning (Sylta) en doorlooptijden niet in gemeentebronnen bevestigd. Beschikbaarheidswijzer dekt voor IJmond alleen Wmo; regionale journalistiek beperkt doorzocht. Contactgegevens Socius niet gevonden; VO-scholen in IJmuiden vallen volgens het landelijk overzicht onder SWV VO Zuid-Kennemerland."
+    "opmerkingen": "Begroting 2027 nog niet verschenen. Cliëntondersteuning (Sylta) en doorlooptijden niet in gemeentebronnen bevestigd. Beschikbaarheidswijzer dekt voor IJmond alleen Wmo; regionale journalistiek beperkt doorzocht. Contactgegevens Socius niet gevonden; VO-scholen in IJmuiden vallen volgens het landelijk overzicht onder SWV VO Zuid-Kennemerland. Dyslexieroute: het centrale aanmeldloket van Hyperionhelpt staat in de brief van SWV PO Zuid-Kennemerland; dat het ook voor IJmond geldt, is afgeleid uit Hyperionhelpt zelf (werkt in Zuid-Kennemerland en IJmond) en de gezamenlijke inkoop ZKIJ. SWV Passend Onderwijs IJmond beschrijft geen eigen route; een poortwachter dyslexie is voor IJmond niet bevestigd. Crisisdienst (16-10-2026): CJG Kennemerland noemt buiten openingstijden de Integrale Crisisdienst (ICD, 088-8006201, 24/7). De crisispagina van Serviceplein Heemskerk noemt Parnassia als crisisdienst voor Midden-Kennemerland en Zaanstreek/Waterland. Raadsstukken uit 2021 (alleen als zoekfragment, pdf geblokkeerd) melden dat het ICD-mandaat overging naar een crisisfunctie bij Veilig Thuis Kennemerland, met ggz-crisis bij GGZ inGeest (Zuid-Kennemerland). Wie nu achter het ICD-nummer zit, is niet bevestigd. GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron. ICD wordt uitgevoerd door Veilig Thuis Kennemerland (bevestigd door redactie 16-10-2026)."
   }
 }

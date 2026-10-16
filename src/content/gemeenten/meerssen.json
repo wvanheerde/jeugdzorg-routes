@@ -130,30 +130,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Advies over opvoeden krijgt u online bij het CJG043, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Meerssen samen met vijftien andere gemeenten in, via Jeugdhulp Zuid-Limburg. In de Beschikbaarheidswijzer van de regio Zuid-Limburg kunt u aanbieders en wachttijden bekijken, zonder inloggen. Enkele zorgaanbieders in de regio hadden de afgelopen jaren problemen. De gemeenten volgen hen en willen dat de zorg doorgaat. Vraag het Sociaal Team om hulp bij het kiezen van een aanbieder.",
+    "samenvatting": "Voor advies over opvoeden kunt u zelf terecht bij het online CJG043 en bij Home-Start, zonder aanvraag. Specialistische jeugdhulp koopt Meerssen in met de andere gemeenten in Zuid-Limburg. Het Sociaal Team helpt u bij het kiezen van een aanbieder.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/zuid-limburg",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via CJG043: informatie, chat en e-mailadvies, webinars en gratis cursussen, ook voor ouders bij echtscheiding. Home-Start biedt vrijwilligers die een gezin thuis ondersteunen.",
+        "omschrijving": "Advies per chat of e-mail, webinars en gratis cursussen bij CJG043, ook voor ouders die uit elkaar gaan, zonder aanvraag. Bij Home-Start steunt een vrijwilliger uw gezin thuis.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Korte hulp bij angst, gedrag of sombere gevoelens, via de huisarts.",
+        "omschrijving": "Korte hulp bij angst, gedrag of sombere gevoelens, via uw huisarts.",
         "hulpsoorten": []
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: behandeling, begeleiding, jeugd-ggz, crisishulp en verblijf. Regionaal ingekocht door Jeugdhulp Zuid-Limburg.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, ook in een groep. U komt er via het Sociaal Team of een verwijzing van de huisarts, jeugdarts of medisch specialist. Begeleiding kan ook hulp bij persoonlijke verzorging bevatten, zoals wassen en aankleden; verzorging bij ziekte loopt via de zorgverzekering.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen met ernstige lees- en spellingsproblemen. Na extra begeleiding op school stuurt school het leerlingdossier naar een dyslexieaanbieder van de regio; die aanbieder doet ook de behandeling.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Groepsbegeleiding en logeren",
+        "omschrijving": "Begeleiding of behandeling in een groep, voor kinderen die meer nodig hebben dan school of opvang kan bieden. Logeren en deeltijdpleegzorg geven u als ouder even rust; de Zuid-Limburgse gemeenten kopen dit samen in.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. Zuid-Limburg heeft pleegzorg, gezinshuizen, leefhuizen (woongroepen) en begeleid zelfstandig wonen vanaf 16 jaar; een pleeggezin of gezinshuis gaat voor.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als de veiligheid van uw kind ernstig in gevaar is, dag en nacht. In Zuid-Limburg doen Mondriaan, XONAR en Koraal dit samen als Crisishulp Jeugd Zuid-Limburg, met hulp aan huis of zo nodig een korte opvangplek.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zuid-Limburg doet Bureau Jeugdzorg Limburg dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -218,7 +252,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Meerssen: Sociaal Team jeugd en Wmo",
@@ -339,6 +373,51 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Ambulante hulp (groep en individueel, subregio's)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/ambulante-hulp-groepsverband-individueel",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Contract schaarse ambulante jeugdhulp (logeren, deeltijdpleegzorg)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/contract-schaarse-ambulante-jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Wonen (pleegzorg, gezinshuizen, leefhuizen, begeleid zelfstandig wonen)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/wonen-0",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Crisishulp (Mondriaan, XONAR, Koraal)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/crisishulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Subsidieregeling gecertificeerde instellingen",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/subsidieregeling-gecertificeerde-instellingen",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Arrangementbeschrijving ambulant begeleiding (persoonlijke verzorging)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/sites/jhzl/files/2026-07/Arrangementbeschrijving%20ambulant%20begeleiding-4a.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Zuid-Limburg – Arrangementbeschrijving ambulant behandeling (dyslexie)",
+        "url": "https://www.jeugdhulpzuidlimburg.nl/sites/jhzl/files/2026-07/Arrangementbeschrijving%20ambulant%20behandeling-4b.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Bureau Jeugdzorg Limburg: werkgebied",
+        "url": "https://www.bjzlimburg.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen (raad behandelt begrotingsscenario in november 2026). Doorlooptijden toegang en klachtregeling Sociaal Team zelf niet gevonden; Regionale journalistiek maar beperkt doorzocht."

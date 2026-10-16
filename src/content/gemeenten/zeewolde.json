@@ -139,24 +139,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Advies en lichte hulp krijgt u bij Team Jeugd Zeewolde. Voor het eerste gesprek is geen besluit van de gemeente nodig. Specialistische jeugdhulp koopt Zeewolde samen met zes andere gemeenten in de jeugdhulpregio Noord-Veluwe in. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang hun wachttijden zijn, openbaar en zonder inloggen. Vraag de klantmanager om hulp bij het kiezen. Zoekt uw gezin steun in de buurt, dan is er Buurtgezinnen.",
+    "samenvatting": "Bij Team Jeugd Zeewolde kunt u zelf terecht voor advies en een eerste gesprek, zonder aanvraag bij de gemeente. Specialistische jeugdhulp koopt Zeewolde in samen met de gemeenten van de jeugdhulpregio Noord-Veluwe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/noord-veluwe",
     "categorieen": [
       {
-        "naam": "Advies en lichte hulp",
-        "omschrijving": "Via Team Jeugd Zeewolde: een adviesgesprek, soms op school, en tijdelijke begeleiding. Ook ondersteuning bij een echtscheiding en de omgangsregeling.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies over opvoeden, soms op school, en steun bij een echtscheiding en de omgangsregeling. U kunt zelf terecht bij Team Jeugd Zeewolde; Buurtgezinnen koppelt uw gezin aan een steungezin in de buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van Team Jeugd of een verwijzing van de huisarts: ambulante hulp, behandeling, dagbehandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis, op school of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking. Team Jeugd geeft tijdelijke begeleiding en verwijst zo nodig door; een klantmanager blijft uw contactpersoon, ook als een andere organisatie de hulp geeft. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot en met 12 jaar op de basisschool met hardnekkige lees- en spellingsproblemen. Het begint bij school; daarna controleert het Regionaal Instituut voor Dyslexie (RID) het dossier, voordat het onderzoek start.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, ook als buitenschoolse opvang of kinderdagverblijf met extra begeleiding (BSO+ en KDV+). Logeren bij een zorgaanbieder geeft u als ouder even rust.",
+        "hulpsoorten": [
           "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die (tijdelijk) niet thuis kunnen wonen. De regio heeft pleegzorg, ook in deeltijd, gezinshuizen, woongroepen, kamertraining voor oudere jongeren en een moeder-en-kindhuis.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp, zo veel mogelijk thuis, als het thuis acuut niet meer gaat. De regio koopt die hulp in; ze start in overleg met Team Jeugd.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Zeewolde, net als in de rest van Flevoland, doet SAVE Jeugdbescherming (Samen Veilig Midden-Nederland) dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -226,7 +261,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Zeewolde: Hulp bij opvoeden en opgroeien (Team Jeugd)",
@@ -357,9 +392,59 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulpregio Noord Veluwe: Zo werkt de jeugdhulpketen",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/Professionals/Zo_werkt_de_jeugdhulpketen_in_Jeugdhulpregio_Noord_Veluwe",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulpregio Noord Veluwe: Gecontracteerde aanbieders",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/Aanbieders/Gecontracteerde_aanbieders",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Lijst aanbieders jeugdhulpregio Noord-Veluwe (oktober 2026)",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/dsresource?objectid=279a0eaa-37b0-44bc-bf92-34a52b0ee101&type=org",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Productomschrijvingen aanbesteding Maatwerkdiensten Jeugd Regio Noord Veluwe en Zeewolde (versie 04-06-2026)",
+        "url": "https://www.jeugdhulpregionoordveluwe.nl/dsresource?objectid=f28e570c-d2d6-4094-9512-036f1d059852&type=org",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Halfjaarverslag 2026 Uitvoering Jeugd (Meerinzicht)",
+        "url": "https://api.notubiz.nl/document/17494864/1",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Eindafrekening uittreding Zeewolde uit Centrumregeling Sociaal Domein Flevoland (Lysias Advies)",
+        "url": "https://zeewolde.bestuurlijkeinformatie.nl/Document/View/47e793e1-efea-47c3-81db-f69ffbe7eefa",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Mandaatbesluit Sociaal Domein Zeewolde-Almere",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR714990/1",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Sociaal Domein Flevoland: Producten en aanbieders JB-JR",
+        "url": "https://sociaaldomeinflevoland.nl/sites/default/files/documents/Producten%20en%20aanbieders%20JB-JR.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "SAVE Jeugdbescherming: werkgebied",
+        "url": "https://samen-veilig.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Geen gemeten doorlooptijden van de toegang gevonden. Cliëntervaringsonderzoek jeugd apart nog niet gepubliceerd; de resultaten over 2025 worden volgens de gemeente na september 2026 verwacht. Regionale journalistiek is beperkt doorzocht; klachtregeling van Team Jeugd zelf niet apart online. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."
+    "opmerkingen": "Geen gemeten doorlooptijden van de toegang gevonden. Cliëntervaringsonderzoek jeugd apart nog niet gepubliceerd; de resultaten over 2025 worden volgens de gemeente na september 2026 verwacht. Regionale journalistiek is beperkt doorzocht; klachtregeling van Team Jeugd zelf niet apart online. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim. Dyslexie: RID als controleur van het dossier en leeftijd t/m 12 jaar uit de regionale productomschrijvingen (versie 04-06-2026); hoe school en ouders het dossier indienen staat er niet in. Poortwachtercontract loopt af op 31-12-2026 (zie later-nakijken). GI afgeleid uit werkgebied van de GI (provincie/regio), niet uit een gemeentebron."
   },
   "jeugdzorgregio": "Noord-Veluwe",
   "ervaringen": {

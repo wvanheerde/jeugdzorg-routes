@@ -116,23 +116,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via Team Voor Elkaar en het jongerenwerk. Specialistische jeugdhulp koopt Brummen in met Apeldoorn, Epe, Hattem, Heerde, Lochem, Voorst en Zutphen, in de jeugdzorgregio Midden IJssel / Oost Veluwe. In de Beschikbaarheidswijzer ziet u welke aanbieders een contract hebben en hoe lang de wachttijden zijn. Openbaar, zonder inloggen. De gemeente wil meer lichte hulp in de buurt, zonder besluit.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij Team Voor Elkaar en het jongerenwerk. Specialistische jeugdhulp koopt Brummen in samen met de andere gemeenten van de Zorgregio Midden-IJssel/Oost-Veluwe.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/midden-ijsseloost-veluwe",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies en lichte hulp via Team Voor Elkaar. Het jongerenwerk helpt ook ouders met vragen over opvoeding.",
+        "omschrijving": "Advies en lichte hulp bij Team Voor Elkaar, met afspraken in Brummen of Eerbeek. Ook het jongerenwerk van Stichting Welzijn Brummen helpt ouders met vragen over opvoeding.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: ambulante hulp, jeugd-ggz en hulp met verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij gedrag, ontwikkeling, psychische problemen of een beperking, via Team Voor Elkaar of een verwijzing van huisarts, jeugdarts of medisch specialist. Verzorging bij ziekte loopt meestal via de zorgverzekering; hulp bij verzorging door een beperking via de gemeente.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen tot 13 jaar met hardnekkige lees- en spellingsproblemen, na extra hulp op school. School stuurt het leesdossier naar Team Voor Elkaar, dat het beoordeelt. Is het in orde, dan kiest u een dyslexiepraktijk met een contract.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Begeleiding in een groep buiten schooltijd, en logeren bij een aanbieder, in een logeergezin of thuis, zodat u als ouder even rust heeft.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen. De regio heeft pleegzorg (ook in deeltijd), gezinshuizen, woongroepen en begeleid zelfstandig wonen voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer veilig of vol te houden is: crisisbegeleiding thuis of een korte opvangplek. Dag en nacht helpt de Spoedeisende Zorg van Jeugdbescherming Gelderland, die bij een crisis binnen drie uur bij het gezin kan zijn.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Midden-IJssel/Oost-Veluwe doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -202,7 +238,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Brummen: Team Voor Elkaar",
@@ -293,6 +329,41 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Over ons (deelnemende gemeenten)",
+        "url": "https://zorgregiomijov.nl/over-ons",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Zorgproductenboek Jeugdhulp 2026",
+        "url": "https://zorgregiomijov.nl/images/Zorgproductenboek_Jeugdhulp_definitief_incl._tarievenblad_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Instructie werkwijze bij ernstige dyslexie",
+        "url": "https://zorgregiomijov.nl/images/Instructie_Werkwijze_bij_ED.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Zorgregio Midden-IJssel/Oost-Veluwe: Overeenkomst GI's, Productenboek 2026",
+        "url": "https://zorgregiomijov.nl/images/Productenboek_2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang en cliëntervaringsonderzoek Jeugd niet gevonden; ook niets over de klachtregeling van Team Voor Elkaar zelf. Steunpunt van het samenwerkingsverband voortgezet onderwijs niet vastgesteld (geen middelbare school in Brummen). Regionale journalistiek beperkt doorzocht (WebSearch-limiet). Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

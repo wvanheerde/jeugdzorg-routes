@@ -126,30 +126,64 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Albrandswaard koopt een deel van de jeugdhulp zelf in. Het gaat om ambulante hulp (hulp bij u thuis of op een praktijk) voor kinderen met een beperking of stoornis, dagprogramma's, lichte psychische hulp (generalistische basis-ggz) en hulp bij ernstige dyslexie. Specialistische jeugdhulp koopt de gemeente samen met andere gemeenten in de regio Rijnmond in. De Beschikbaarheidswijzer toont aanbieders en wachttijden voor Albrandswaard, Barendrecht en Ridderkerk. U kunt daar zelf kijken, zonder inloggen. Vraag het wijkteam om hulp bij het kiezen.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij het wijkteam en het CJG Rijnmond, zonder aanvraag. Een deel van de jeugdhulp koopt Albrandswaard zelf in. Zwaardere specialistische hulp koopt de gemeente in met twaalf andere gemeenten in de regio Rijnmond.",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Via het wijkteam en het CJG Rijnmond: advies, cursussen en lichte hulp, zonder besluit van de gemeente.",
+        "omschrijving": "Advies, cursussen en korte hulp bij vragen over opvoeden. U kunt zelf terecht bij het wijkteam en het CJG Rijnmond, zonder aanvraag; de gemeente heeft ook online webinars over faalangst en perfectionisme.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Lokaal ingekochte jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente: ambulante hulp en dagprogramma's voor kinderen met een beperking of stoornis, lichte psychische hulp (generalistische basis-ggz) en hulp bij ernstige dyslexie.",
+        "naam": "Begeleiding, verzorging en logeren",
+        "omschrijving": "Hulp thuis of bij de aanbieder voor kinderen met een beperking of stoornis, zoals begeleiding, persoonlijke verzorging, vaktherapie en logeren. De gemeente koopt deze hulp zelf in; u komt er via het wijkteam.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "behandeling-jeugd-ggz",
-          "dagbesteding",
+          "persoonlijke-verzorging",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Lichte psychische hulp (basis-ggz)",
+        "omschrijving": "Onderzoek en behandeling bij lichte tot matige psychische problemen, ook begeleiding bij medicijnen voor bijvoorbeeld ADHD. U komt er via het wijkteam of een verwijzing van de huisarts.",
+        "hulpsoorten": [
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagprogramma's",
+        "omschrijving": "Dagactiviteiten of dagbehandeling in een groep. De gemeente koopt dit zelf in; u komt er via het wijkteam.",
+        "hulpsoorten": [
+          "dagbesteding"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 12 jaar met ernstige lees- en spellingsproblemen. School meldt aan via samenwerkingsverband RiBA en moet een volledig leerlingdossier hebben.",
+        "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Samen met de regio Rijnmond ingekocht, na een besluit van de gemeente of een verwijzing van de huisarts. Bijvoorbeeld behandeling en verblijf.",
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via het wijkteam; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ],
@@ -302,6 +336,36 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Inkoop",
+        "url": "https://www.jeugdhulprijnmond.nl/werkwijze/inkoop/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Samenwerking in crisissituaties",
+        "url": "https://www.jeugdhulprijnmond.nl/2026/01/29/samenwerking-in-crisissituaties-integrale-crisisdienst/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie (raad.albrandswaard.nl) zit achter bot-controle; cliëntervaringsonderzoek en doorlooptijden niet gevonden in de jaarstukken, programmabegroting 2027 nog niet verschenen. Beschikbaarheidswijzer: gemeentenlijst in de serverrespons is leeg, regionaam noemt Albrandswaard. Regionale journalistiek niet doorzocht; maand jaarstukken-signaal niet vastgesteld."

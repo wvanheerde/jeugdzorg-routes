@@ -121,33 +121,65 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en advies zonder verwijzing staan op de pagina Zorg zonder verwijzing van de gemeente en in de Beschikbaarheidswijzer. Specialistische jeugdhulp koopt Ridderkerk lokaal en samen met de andere gemeenten in de regio Rijnmond in. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hun wachttijden. Openbaar, zonder inloggen.",
+    "samenvatting": "Voor advies, cursussen en activiteiten kunt u zelf terecht bij organisaties in Ridderkerk, zonder aanvraag. Een deel van de jeugdhulp koopt Ridderkerk zelf in. Zwaardere specialistische hulp koopt de gemeente in met twaalf andere gemeenten in de regio Rijnmond.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ridderkerk",
     "categorieen": [
       {
-        "naam": "Lichte hulp zonder verwijzing",
-        "omschrijving": "Advies, cursussen en activiteiten bij welzijnsorganisaties en de Huiskamer van Ridderkerk, zonder beschikking. De lokale teams kennen deze organisaties.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, cursussen en activiteiten bij vragen over opvoeden en opgroeien. U kunt zelf terecht bij welzijnsorganisatie Facet, de Huiskamer van Ridderkerk en het CJG Rijnmond, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Lokaal ingekochte jeugdhulp",
-        "omschrijving": "Ambulante hulp thuis of bij de aanbieder, dagprogramma's, basis-ggz, ernstige dyslexie en persoonlijke verzorging, na een besluit van de gemeente of een verwijzing van de huisarts.",
+        "naam": "Begeleiding, verzorging en logeren",
+        "omschrijving": "Hulp thuis of bij de aanbieder voor kinderen met een beperking of stoornis, zoals begeleiding, persoonlijke verzorging, vaktherapie en logeren. De gemeente koopt deze hulp zelf in; u komt er via de lokale teams.",
         "hulpsoorten": [
           "ambulante-begeleiding",
-          "dagbesteding",
-          "behandeling-jeugd-ggz",
-          "dyslexiezorg",
-          "persoonlijke-verzorging"
+          "persoonlijke-verzorging",
+          "logeren-respijt"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp in de regio Rijnmond",
-        "omschrijving": "Behandeling, crisishulp en verblijf, samen met de andere gemeenten in de regio ingekocht.",
+        "naam": "Lichte psychische hulp (basis-ggz)",
+        "omschrijving": "Onderzoek en behandeling bij lichte tot matige psychische problemen, ook begeleiding bij medicijnen voor bijvoorbeeld ADHD. U komt er via de lokale teams of een verwijzing van de huisarts.",
         "hulpsoorten": [
-          "crisishulp",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Dagprogramma's",
+        "omschrijving": "Dagactiviteiten of dagbehandeling in een groep. De gemeente koopt dit zelf in; u komt er via de lokale teams.",
+        "hulpsoorten": [
+          "dagbesteding"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot 12 jaar met ernstige lees- en spellingsproblemen. School meldt aan via samenwerkingsverband RiBA en moet een volledig leerlingdossier hebben.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, een gezinshuis of verblijf in een instelling. U komt er via de lokale teams; Team Zorgbemiddeling van de regio Rijnmond zoekt een passende plek.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond. Dit team werkt samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -228,7 +260,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Ridderkerk: Lokale teams ondersteuning jeugd en volwassenen",
@@ -334,6 +366,31 @@
         "titel": "Koers VO: Ouder- en jeugdsteunpunt",
         "url": "https://www.koersvo.nl/voor-ouders/",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Inkoop",
+        "url": "https://www.jeugdhulprijnmond.nl/werkwijze/inkoop/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Begroting 2027 van de gemeente is nog niet verschenen. Doorlooptijden toegang, klachtenregeling van het team en regionale journalistiek niet gevonden of niet doorzocht."

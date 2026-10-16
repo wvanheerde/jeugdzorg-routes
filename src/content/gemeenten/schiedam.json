@@ -117,43 +117,65 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het wijkteam (WOT), het Centrum voor Jeugd en Gezin (CJG), de jeugdprofessional op school of de praktijkondersteuner jeugd bij de huisarts. Specialistische hulp regelt u grotendeels via Mevis. Een deel, zoals jeugdbescherming, Veilig Thuis en zeer gespecialiseerde hulp, koopt de regio Rijnmond samen in. Regio Rijnmond doet niet mee aan de Beschikbaarheidswijzer. In het Verwijzingsfilter van Jeugdhulp Rijnmond ziet u wel welke aanbieders een contract hebben. Het contract met Mevis loopt tot eind 2028. Vanaf 2029 wordt jeugdhulp opnieuw ingekocht.",
+    "samenvatting": "Voor advies en lichte hulp kunt u zelf terecht bij het WOT, het CJG en de jeugdprofessional op school, zonder aanvraag. Specialistische hulp regelt Mevis voor Schiedam, Vlaardingen en Maassluis; jeugdbescherming en zeer gespecialiseerde hulp koopt de gemeente in met de regio Rijnmond. Vraag het WOT hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://www.jeugdhulprijnmond.nl/verwijzen/verwijzingsfilter/",
     "categorieen": [
       {
-        "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het WOT, het CJG en de jeugdprofessional op school. Ook zijn er gratis online modules van Mevis over bijvoorbeeld zelfvertrouwen en opvoeden. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Advies, korte hulp en gratis online modules van Mevis, bijvoorbeeld over zelfvertrouwen en opvoeden. U kunt zelf terecht bij het WOT, het CJG en de jeugdprofessional op school, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Begeleiding thuis en op school",
-        "omschrijving": "Door het wijkteam of een gezinsspecialist van Mevis op school. Voor intensievere begeleiding is een beschikking of verwijzing nodig.",
+        "omschrijving": "Begeleiding door het WOT of een gezinsspecialist van Mevis op school. Voor intensievere begeleiding is een beschikking of verwijzing nodig.",
         "hulpsoorten": [
           "ambulante-begeleiding"
         ]
       },
       {
         "naam": "Jeugd-ggz",
-        "omschrijving": "Lichte klachten helpt het WOT zelf (basis-ggz). Voor specialistische jeugd-ggz is een verwijzing van het wijkteam, de huisarts, jeugdarts of medisch specialist nodig.",
+        "omschrijving": "Bij lichte klachten helpt het WOT zelf. Voor specialistische jeugd-ggz verwijst het wijkteam, de huisarts, jeugdarts of medisch specialist.",
         "hulpsoorten": [
           "behandeling-jeugd-ggz"
         ]
       },
       {
-        "naam": "Pleegzorg en verblijf",
-        "omschrijving": "Via het wijkteam of een verwijzer, met een beschikking.",
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor kinderen van 7 tot en met 13 jaar op de basisschool met ernstige lees- en spellingsproblemen. Er geldt een vast stappenplan; vraag school of de jeugdprofessional op school hoe u uw kind aanmeldt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Pleegzorg, logeren en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen, en logeren om u te ontlasten. U komt er via het WOT of een verwijzer; voor pleegzorg en verblijf zoekt Team Zorgbemiddeling van de regio een plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg",
           "logeren-respijt"
         ]
       },
       {
+        "naam": "Dagbesteding en verzorging",
+        "omschrijving": "Begeleiding of behandeling overdag in een groep, en hulp bij de persoonlijke verzorging van uw kind. U komt er via het WOT.",
+        "hulpsoorten": [
+          "dagbesteding",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
         "naam": "Crisishulp",
-        "omschrijving": "Het Crisis Interventie Team (CIT) is dag en nacht bereikbaar via 010 233 0000.",
+        "omschrijving": "Bij een acute crisis helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond, dag en nacht. Het WOT zelf is geen crisisdienst.",
         "hulpsoorten": [
           "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -540,6 +562,26 @@
         "titel": "OuderPlusJeugdsteunpunt Schiedam, Vlaardingen en Maassluis",
         "url": "https://ouderplusjeugdsteunpunt.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Jaarstukken 2025 gelezen: geen wachttijden of cliëntervaring jeugd per gemeente. Begroting 2027 nog niet gevonden (niet in Notubiz of op schiedam.nl). Rogplus-onderzoek cliëntervaring 2025 nog niet gepubliceerd; geen IGJ-rapport gevonden."

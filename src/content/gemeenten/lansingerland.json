@@ -120,19 +120,19 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp zonder verwijzing is gratis of kost een kleine bijdrage. Denk aan trainingen voor kinderen, scheidingshulp en mentorprojecten. U vindt ze op jeugdhulp.lansingerland.nl. Voor jeugdhulp met een verwijzing staat daar ook welke aanbieders een contract met Lansingerland hebben. Specialistische hulp, zoals verblijf en intensieve behandeling, koopt de gemeente samen in met andere gemeenten in de regio Rijnmond. Lansingerland doet niet mee aan de Beschikbaarheidswijzer. Vraag de aanbieder of Team Jeugd naar de actuele wachttijd.",
+    "samenvatting": "Voor trainingen, scheidingshulp en mentorprojecten kunt u zelf terecht, zonder aanvraag; het aanbod staat op jeugdhulp.lansingerland.nl. Specialistische hulp, zoals verblijf en intensieve behandeling, koopt Lansingerland in met twaalf andere gemeenten in de regio Rijnmond. Vraag Team Jeugd of de aanbieder hoe lang het wachten is.",
     "gecontracteerdeAanbiedersUrl": "https://jeugdhulp.lansingerland.nl/hulp-met-verwijzing/",
     "categorieen": [
       {
-        "naam": "Hulp zonder verwijzing en opvoedondersteuning",
-        "omschrijving": "Trainingen, groepen en advies via het CJG, de Jeugdcoach op School, de praktijkondersteuner jeugd bij de huisarts en maatjesprojecten. Geen besluit van de gemeente nodig.",
+        "naam": "Opvoed- en opgroeiondersteuning",
+        "omschrijving": "Trainingen, groepen en advies, bijvoorbeeld bij faalangst of een scheiding. U kunt zelf terecht bij het CJG, de Jeugdcoach op School, de praktijkondersteuner jeugd bij de huisarts en het Scheidingspunt van Kwadraad, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
         "naam": "Begeleiding, behandeling en dagbesteding",
-        "omschrijving": "Voor kinderen die door een beperking of psychische of psychosociale problemen niet zelfstandig kunnen functioneren. Aan te vragen via Team Jeugd.",
+        "omschrijving": "Hulp voor kinderen die door een beperking of psychische problemen niet goed mee kunnen doen, thuis, bij de aanbieder of in een groep. U vraagt dit aan bij Team Jeugd.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "dagbesteding",
@@ -140,26 +140,38 @@
         ]
       },
       {
-        "naam": "Jeugd-ggz en dyslexiezorg",
-        "omschrijving": "Behandeling bij psychische klachten, via Team Jeugd of een verwijzing van de huisarts. Dyslexiezorg volgt een vast protocol.",
+        "naam": "Jeugd-ggz",
+        "omschrijving": "Onderzoek en behandeling bij psychische klachten. U komt er via Team Jeugd of een verwijzing van de huisarts.",
         "hulpsoorten": [
-          "behandeling-jeugd-ggz",
+          "behandeling-jeugd-ggz"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling bij ernstige lees- en spellingsproblemen, bij aanbieders met contract zoals Leestalent en Opdidakt. School geeft eerst zelf extra hulp; helpt dat te weinig, dan verwijst school uw kind door.",
+        "hulpsoorten": [
           "dyslexiezorg"
         ]
       },
       {
-        "naam": "Pleegzorg, logeeropvang en verblijf",
-        "omschrijving": "Hulp voor kinderen die tijdelijk of langer niet thuis kunnen wonen, en logeeropvang om ouders te ontlasten.",
+        "naam": "Pleegzorg, logeren en verblijf",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen, en logeeropvang om u als ouder te ontlasten. U komt er via Team Jeugd; voor pleegzorg en verblijf zoekt Team Zorgbemiddeling van de regio Rijnmond een plek.",
         "hulpsoorten": [
           "verblijf-pleegzorg",
           "logeren-respijt"
         ]
       },
       {
-        "naam": "Crisishulp en jeugdbescherming",
-        "omschrijving": "Bij acute onveiligheid. Jeugdbescherming komt pas als vrijwillige hulp niet werkt. Daarover beslist de kinderrechter.",
+        "naam": "Crisishulp",
+        "omschrijving": "Directe hulp als het thuis ernstig mis is en het niet kan wachten. Bij een acute crisis in het gezin helpt het Crisis Interventie Team van Jeugdbescherming Rotterdam Rijnmond, samen met Veilig Thuis.",
         "hulpsoorten": [
-          "crisishulp",
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In de regio Rijnmond doet Jeugdbescherming Rotterdam Rijnmond dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
           "jeugdbescherming"
         ]
       }
@@ -340,7 +352,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Lansingerland - Jeugdhulp",
@@ -481,8 +493,38 @@
         "titel": "Koers VO - Voor ouders",
         "url": "https://www.koersvo.nl/voor-ouders/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Team Zorgbemiddeling",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/team-zorgbemiddeling/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Rijnmond: Gecertificeerde instellingen",
+        "url": "https://www.jeugdhulprijnmond.nl/verwijzen/gecertificeerde-instellingen/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Lansingerland: Leestalent BV (dyslexiezorg)",
+        "url": "https://jeugdhulp.lansingerland.nl/zorgaanbieder/leestalent-bv/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdhulp Lansingerland: Opdidakt (dyslexieonderzoek)",
+        "url": "https://jeugdhulp.lansingerland.nl/zorgaanbieder/opdidakt/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Rotterdam Rijnmond: werkgebied",
+        "url": "https://jeugdbeschermingrotterdamrijnmond.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Cliëntervaringsonderzoek Jeugd en doorlooptijden van Team Jeugd niet gevonden (alleen Wmo-CEO). Klachtenregeling CJG Rijnmond, formulier Mijn Lansingerland (niet bereikbaar vanaf onze server) en maatregelenlijst-uitkomst (raad besluit in november) nog te controleren. IGJ en rekenkamer niets over jeugd gevonden; regionale journalistiek slechts beperkt doorzocht."
+    "opmerkingen": "Cliëntervaringsonderzoek Jeugd en doorlooptijden van Team Jeugd niet gevonden (alleen Wmo-CEO). Klachtenregeling CJG Rijnmond, formulier Mijn Lansingerland (niet bereikbaar vanaf onze server) en maatregelenlijst-uitkomst (raad besluit in november) nog te controleren. IGJ en rekenkamer niets over jeugd gevonden; regionale journalistiek slechts beperkt doorzocht. Dyslexie: aanmeldroute niet openbaar; basisscholen vallen onder PPO Delflanden, dat geen dyslexieroute publiceert; verordening noemt alleen 'diagnose en behandeling ernstige dyslexie'. Dyslexieroute van de gemeentesite Lansingerland (tekst aangeleverd door redactie 16-10-2026)."
   }
 }

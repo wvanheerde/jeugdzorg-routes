@@ -113,32 +113,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij het Sociaal Team zelf, zonder beschikking. Denk aan advies van de medewerker jeugd, de specialist jeugd-ggz, de jongerencoach en Buurtgezinnen. Specialistische jeugdhulp koopt Heumen in met de andere gemeenten in de regio Rijk van Nijmegen, via het Regionaal Ondersteuningsbureau (ROB). Op de Steunwijzer Regio Rijk van Nijmegen ziet u welke aanbieders er zijn. Die is openbaar, zonder inloggen. Voor sommige hulp heeft u een verwijzing nodig. Vraag het Sociaal Team om hulp bij het kiezen.",
-    "gecontracteerdeAanbiedersUrl": "https://regiorijkvannijmegen.steunwijzer.nl",
+    "samenvatting": "Voor lichte hulp kunt u zelf terecht bij het Sociaal Team, zonder aanvraag, ook bij de specialist jeugd-ggz van de gemeente. Specialistische jeugdhulp koopt Heumen in met de regio Rijk van Nijmegen. Wachttijden staan niet in het overzicht van aanbieders: vraag ernaar bij het Sociaal Team of de huisarts.",
+    "gecontracteerdeAanbiedersUrl": "https://regiorijkvannijmegen.steunwijzer.nl/",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Advies van de medewerker jeugd, Buurtgezinnen (een steungezin in de buurt) en jongerenwerk, zonder beschikking.",
+        "omschrijving": "Gesprekken en advies bij vragen over opvoeden. U kunt zelf terecht, zonder aanvraag, bij de medewerker jeugd van het Sociaal Team, Buurtgezinnen (een steungezin in de buurt) en het jongerenwerk.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialist jeugd-ggz bij het Sociaal Team",
-        "omschrijving": "Een psycholoog van de gemeente denkt vroeg mee over stress, angst, gedrag en andere vragen over de mentale gezondheid van kinderen van 0 tot 18 jaar. Gratis en zonder verwijzing.",
-        "hulpsoorten": [
-          "behandeling-jeugd-ggz"
-        ]
-      },
-      {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een besluit van de gemeente of een verwijzing van de huisarts: jeugd-ggz, begeleiding, behandeling en verblijf, regionaal ingekocht.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij psychische problemen, gedrag, ontwikkeling of een beperking, ook vaktherapie en persoonlijke verzorging. Eerst kan de specialist jeugd-ggz van de gemeente, een psycholoog, gratis en zonder verwijzing meedenken; voor verdere hulp gaat u via het Sociaal Team of een arts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen (groep 3 tot en met 8) met hardnekkige lees- en spellingsproblemen. School stelt een leerlingdossier op; daarna kiest u een aanbieder met een contract, die uw kind bij de gemeente aanmeldt.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbehandeling en logeren",
+        "omschrijving": "Dagbehandeling voor jonge kinderen of na school, BSO+ en dagbesteding als opstap naar school. Logeeropvang, bijvoorbeeld een weekend per maand, ontlast u als ouder.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die niet meer veilig of passend thuis kunnen wonen. De regio heeft pleegzorg (ook in het weekend of de vakantie), gezinshuizen, woongroepen en kamertraining voor oudere jongeren.",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat: ambulante spoedhulp aan huis, een crisispleeggezin of een korte opvangplek. Buiten kantoortijd regelt de crisisdienst van Jeugdbescherming Gelderland spoedeisende jeugdhulp.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Rijk van Nijmegen doet Jeugdbescherming Gelderland dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -206,7 +233,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Heumen: Jeugd en gezin",
@@ -312,9 +339,69 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Steunwijzer",
+        "url": "https://robregionijmegen.nl/steunwijzer/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Productenboek ambulante jeugdhulp en maatschappelijke ondersteuning 2026",
+        "url": "https://robregionijmegen.nl/wp-content/uploads/2026/10/Productenboek-ambulant-2026-16102026-.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Productenboek specialistische jeugdhulp 2026",
+        "url": "https://robregionijmegen.nl/wp-content/uploads/2026/01/Bijlage-2-Productenboek-specialistische-jeugdhulp-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Productenboek jeugdbescherming en jeugdreclassering 2026",
+        "url": "https://robregionijmegen.nl/wp-content/uploads/2026/01/Productenboek-JBJR-2026.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Productomschrijving dyslexiezorg 2026",
+        "url": "https://robregionijmegen.nl/wp-content/uploads/2025/12/Productomschrijving-Dyslexiezorg_2026-1.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "ROB regio Nijmegen: Toegang dyslexie per gemeente (bijlage aanbesteding 2023)",
+        "url": "https://robregionijmegen.nl/wp-content/uploads/2023/09/Bijlage-15-Toegang-dyslexie-per-gemeente.pdf",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Wijchen: Met spoed zorg of hulp nodig",
+        "url": "https://www.wijchen.nl/met-spoed-zorg-of-hulp-nodig",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: Spoedeisende Zorg",
+        "url": "https://www.jbgld.nl/spoedeisende-zorg",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Mook en Middelaar: Jeugdhulp (spoed via Jeugdbescherming Gelderland)",
+        "url": "https://www.mookenmiddelaar.nl/jeugdhulp",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Gemeente Berg en Dal: Sociaal Team (spoedeisende jeugdzorg via Jeugdbescherming Gelderland)",
+        "url": "https://www.bergendal.nl/sociaal-team-berg-en-dal",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Gelderland: werkgebied",
+        "url": "https://www.jbgld.nl/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Programmarekening 2025 niet online gevonden en begroting 2027 nog niet verschenen; doorlooptijden toegang niet gevonden. Klachtenregeling Sociaal Team niet apart online. Contactgegevens MEE Gelderse Poort komen van een mogelijk verouderde site; regionale journalistiek niet doorzocht."
+    "opmerkingen": "Programmarekening 2025 niet online gevonden en begroting 2027 nog niet verschenen; doorlooptijden toegang niet gevonden. Klachtenregeling Sociaal Team niet apart online. Contactgegevens MEE Gelderse Poort komen van een mogelijk verouderde site; regionale journalistiek niet doorzocht. Crisisdienst (16-10-2026): Wijchen, Mook en Middelaar en Berg en Dal verwijzen voor spoedeisende jeugdhulp naar Jeugdbescherming Gelderland; die noemt Spoedeisende Zorg 0800-9955599, altijd bereikbaar."
   },
   "jeugdzorgregio": "Rijk van Nijmegen",
   "ervaringen": {

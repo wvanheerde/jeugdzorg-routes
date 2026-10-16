@@ -113,25 +113,59 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u via het Sociaal Loket, de ouder-kindcoaches en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Ouder-Amstel samen met Diemen en Uithoorn in, binnen de regio Amsterdam-Amstelland. Aanbieders en hun wachtlijsten staan op de Beschikbaarheidswijzer, openbaar en zonder inloggen. Vanaf 1 januari 2028 werkt de regio met hooguit twintig aanbieders. Uw aanbieder kan daardoor veranderen.",
+    "samenvatting": "Voor opvoedvragen en lichte hulp kunt u zelf terecht, zonder aanvraag, bij de ouder-kindcoaches en de jeugdgezondheidszorg. Specialistische jeugdhulp koopt Ouder-Amstel samen met Amsterdam, Diemen en Uithoorn in. Is die hulp nodig, dan maakt de klantmanager van het Sociaal Loket samen met u een plan.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo",
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Ouder-kindcoaches op basisscholen en kinderopvang (0 tot 12 jaar), jeugdgezondheidszorg en trainingen voor ouders en kinderen. Op dit moment staat er geen cursusaanbod open.",
+        "omschrijving": "Ouder-kindcoaches op basisscholen en in de kinderopvang voor kinderen van 0 tot 12 jaar, de jeugdgezondheidszorg en trainingen voor ouders en kinderen. U kunt zelf terecht, zonder aanvraag.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
       },
       {
-        "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een perspectiefplan van de klantmanager of een verwijzing van de huisarts: begeleiding, behandeling, jeugd-ggz en verblijf, ingekocht in de regio.",
+        "naam": "Begeleiding, behandeling en jeugd-ggz",
+        "omschrijving": "Hulp thuis of bij de aanbieder bij opvoeding, gedrag, psychische klachten of een beperking, ook hulp bij persoonlijke verzorging. U komt er met een plan van de klantmanager van het Sociaal Loket of met een verwijzing van de huisarts.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
+          "persoonlijke-verzorging"
+        ]
+      },
+      {
+        "naam": "Ernstige dyslexie",
+        "omschrijving": "Onderzoek en behandeling voor basisschoolkinderen van 7 tot 13 jaar met hardnekkige lees- en spellingsproblemen. De gemeente beslist op basis van het leerlingdossier van de basisschool; Ouder-Amstel koopt dit samen met Amsterdam en Zaanstreek-Waterland in.",
+        "hulpsoorten": [
+          "dyslexiezorg"
+        ]
+      },
+      {
+        "naam": "Dagbesteding en logeren",
+        "omschrijving": "Dagbesteding of dagbehandeling in een groep bij de aanbieder. Logeren bij een aanbieder geeft u als ouder even rust.",
+        "hulpsoorten": [
           "dagbesteding",
-          "dyslexiezorg",
+          "logeren-respijt"
+        ]
+      },
+      {
+        "naam": "Wonen: pleegzorg, gezinshuis of woongroep",
+        "omschrijving": "Voor kinderen die tijdelijk of langer niet thuis kunnen wonen: pleegzorg, gezinshuizen en andere woonvormen. Als het niet anders kan, ook gesloten jeugdhulp (jeugdzorgplus).",
+        "hulpsoorten": [
           "verblijf-pleegzorg"
+        ]
+      },
+      {
+        "naam": "Crisishulp",
+        "omschrijving": "Hulp die direct start als het thuis niet meer gaat. In de regio Amsterdam-Amstelland werkt daarvoor dag en nacht de crisisdienst jeugd van Arkin en Levvel, samen met Veilig Thuis.",
+        "hulpsoorten": [
+          "crisishulp"
+        ]
+      },
+      {
+        "naam": "Jeugdbescherming",
+        "omschrijving": "Na een maatregel van de kinderrechter, zoals een ondertoezichtstelling, begeleidt een jeugdbeschermer het gezin. In Ouder-Amstel doet Jeugdbescherming Regio Amsterdam dit. Soms doet een landelijke instelling het: de William Schrikker Stichting (bij een beperking in het gezin) of het Leger des Heils.",
+        "hulpsoorten": [
+          "jeugdbescherming"
         ]
       }
     ]
@@ -193,9 +227,8 @@
   "directRegelen": [
     {
       "naam": "Aanbieder zoeken op de Beschikbaarheidswijzer",
-      "omschrijving": "Aanbieders en wachtlijsten voor Ouder-Amstel, Diemen en Uithoorn.",
-      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo",
-      "nodig": "Openbaar, zonder inloggen."
+      "omschrijving": "Aanbieders en wachtlijsten voor Ouder-Amstel, Diemen en Uithoorn. Openbaar, zonder inloggen.",
+      "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo"
     },
     {
       "naam": "Klacht indienen bij de gemeente",
@@ -213,7 +246,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",
@@ -288,12 +321,12 @@
       {
         "titel": "Verordening Jeugdhulp Ouder-Amstel 2022",
         "url": "https://lokaleregelgeving.overheid.nl/CVDR676984",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Beschikbaarheidswijzer: Duo+",
         "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/duo",
-        "geraadpleegd": "2026-10-13"
+        "geraadpleegd": "2026-10-16"
       },
       {
         "titel": "Handjehelpen Ouder-Amstel",
@@ -344,9 +377,39 @@
         "titel": "Veilig Thuis Amsterdam-Amstelland",
         "url": "https://www.020veiligthuis.nl/",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: Gemeenten (werkgebied, kaart juli 2025)",
+        "url": "https://www.jeugdbescherming.nl/gemeenten/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Arkin: A central place for young people in crisis situations (26-07-2024)",
+        "url": "https://arkin.nl/en/news-overview/a-central-place-for-young-people-in-crisis-situations",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Nieuwe crisisdienst jeugd voor Amsterdam en Amstelland",
+        "url": "https://www.levvel.nl/nieuws/nieuwe-crisisdienst-jeugd-voor-amsterdam-en-amstelland",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Levvel: Acute crisis (Geïntegreerde CrisisDienst-Jeugd)",
+        "url": "https://www.levvel.nl/acute-crisis",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Jeugdbescherming Regio Amsterdam: werkgebied",
+        "url": "https://www.jeugdbescherming.nl/onze-organisatie/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "William Schrikker Jeugdbescherming & Jeugdreclassering: over ons (landelijk)",
+        "url": "https://williamschrikker.nl/over-ons/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
-    "opmerkingen": "Doorlooptijden van de toegang jeugd niet gevonden; regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Spoedroute verwijst naar Veilig Thuis Amsterdam-Amstelland (geen eigen spoedpagina voor jeugd gevonden)."
+    "opmerkingen": "Doorlooptijden van de toegang jeugd niet gevonden; regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim. Spoedroute verwijst naar Veilig Thuis Amsterdam-Amstelland (geen eigen spoedpagina voor jeugd gevonden). Crisisdienst (16-10-2026): Geïntegreerde CrisisDienst-Jeugd van Levvel en Arkin sinds 1 november 2024, 24/7, met Veilig Thuis; nog actueel volgens levvel.nl."
   },
   "ervaringen": {
     "samenvatting": "In een kleine meting uit 2024 wist ongeveer de helft van de ouders en jongeren niet goed waar ze terechtkunnen. Wel voelde 81 procent zich goed geholpen door de gemeente. Volgens de gemeente komen kinderen soms op een wachtlijst als de ingekochte hulp vol zit. Kan een kind niet wachten, dan regelt de gemeente hulp bij een andere aanbieder.\n\nVraag bij uw aanmelding bij het Sociaal Loket hoe lang het duurt, en vraag de aanbieder naar de wachttijd. Kan uw kind niet wachten, zeg dat dan duidelijk en vraag welke andere hulp mogelijk is. Leg afspraken en het perspectiefplan schriftelijk vast en neem een cliëntondersteuner van MEE Dichtbij mee. Een klacht dient u in bij de gemeente, daarna kunt u naar de Ombudsman Metropool Amsterdam.",
