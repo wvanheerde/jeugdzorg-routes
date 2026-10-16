@@ -4,22 +4,22 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.hellendoorn.nl/direct-regelen/zorg-en-welzijn/jeugd-en-gezin/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Hellendoorn kunt u op drie plekken beginnen. Voor advies over opvoeden en opgroeien gaat u zonder verwijzing naar Loes of het consultatiebureau. Is meer nodig, dan meldt u zich bij de gemeente. Een jeugdconsulent (medewerker van de gemeente) bespreekt met u wat er speelt. De consulent maakt een ondersteuningsplan en neemt het besluit over de hulp. Jongeren mogen zich ook zelf melden. U kunt ook naar de huisarts: die mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd. In 2025 duurde het volgens de gemeente gemiddeld 62 dagen van melding tot besluit. Vraag bij uw melding hoe lang het bij u duurt.",
+    "samenvatting": "In Hellendoorn kunt u op drie plekken beginnen. Voor advies over opvoeden en opgroeien gaat u zonder verwijzing naar Loes of het consultatiebureau. Is meer nodig, dan meldt u zich bij de gemeente. Een medewerker jeugd (medewerker van de gemeente) bespreekt met u wat er speelt. De medewerker jeugd maakt een ondersteuningsplan en neemt het besluit over de hulp. Jongeren mogen zich ook zelf melden. U kunt ook naar de huisarts: die mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd. In 2025 duurde het volgens de gemeente gemiddeld 62 dagen van melding tot besluit. Vraag bij uw melding hoe lang het bij u duurt.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Jeugdconsulenten van de gemeente, met Loes",
-        "omschrijving": "De jeugdconsulenten werken voor de gemeente. Zij beoordelen of uw kind jeugdhulp krijgt, maken met u een ondersteuningsplan en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Heeft u alleen een vraag over opvoeden? Dan geeft Loes advies, zonder dat de gemeente erbij komt.",
+        "naam": "Medewerkers jeugd van de gemeente, met Loes",
+        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij beoordelen of uw kind jeugdhulp krijgt, maken met u een ondersteuningsplan en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Heeft u alleen een vraag over opvoeden? Dan geeft Loes advies, zonder dat de gemeente erbij komt.",
         "stappen": [
           "Bel Loes of stel uw vraag online als u een vraag over opvoeden heeft. Kan Loes u helpen, dan hoeft u niet naar de gemeente.",
           "Meld u bij de gemeente als dat niet genoeg is. Gebruik het online formulier op de pagina Jeugdhulp, of bel de gemeente.",
-          "Ga in gesprek met de jeugdconsulent, die een afspraak met u maakt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Ga in gesprek met de medewerker jeugd, die een afspraak met u maakt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Reken soms op meer dan één gesprek. De gemeente neemt alleen contact op met school of een zorgverlener als u daarvoor toestemming geeft.",
           "Lees het ondersteuningsplan goed. U krijgt het samen met het schriftelijke besluit over uw aanvraag."
         ],
         "contact": [
           {
-            "naam": "Jeugdconsulenten van de gemeente Hellendoorn",
+            "naam": "Medewerkers jeugd van de gemeente Hellendoorn",
             "telefoon": "0548 630 000",
             "email": "gemeente@hellendoorn.nl",
             "url": "https://www.hellendoorn.nl/direct-regelen/zorg-en-welzijn/jeugd-en-gezin/jeugdhulp",
@@ -36,7 +36,7 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp waarvoor de gemeente een contract heeft. Dit is een gelijkwaardige route naast de jeugdconsulenten. Bij veel huisartsen werkt een praktijkondersteuner jeugd voor lichtere vragen. Jeugdartsen werken bij de jeugdgezondheidszorg van de GGD Twente (het consultatiebureau).",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp waarvoor de gemeente een contract heeft. Dit is een gelijkwaardige route naast de medewerkers jeugd. Bij veel huisartsen werkt een praktijkondersteuner jeugd voor lichtere vragen. Jeugdartsen werken bij de jeugdgezondheidszorg van de GGD Twente (het consultatiebureau).",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
           "Vraag wat de huisarts adviseert. De huisarts kan u eerst naar de praktijkondersteuner jeugd sturen, of direct verwijzen naar een aanbieder met een contract.",
@@ -55,12 +55,12 @@
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag of de schoolzorgondersteuner of schoolmaatschappelijk werker kan meedenken.",
-          "Meld u bij de jeugdconsulenten van de gemeente als meer hulp nodig is.",
+          "Meld u bij de medewerkers jeugd van de gemeente als meer hulp nodig is.",
           "Vraag advies bij het Ouder- en jeugdsteunpunt als u er met school niet uitkomt. Voor de basisschool is dat Twente Noord, voor het voortgezet onderwijs Twente West."
         ],
         "contact": [
           {
-            "naam": "Jeugdconsulenten van de gemeente Hellendoorn",
+            "naam": "Medewerkers jeugd van de gemeente Hellendoorn",
             "telefoon": "0548 630 000",
             "email": "gemeente@hellendoorn.nl",
             "url": "https://www.hellendoorn.nl/direct-regelen/zorg-en-welzijn/jeugd-en-gezin/jeugdhulp",
@@ -98,14 +98,13 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Samen",
-      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. De gemeente verwijst zelf naar MEE Samen. Een cliëntondersteuner gaat mee naar het gesprek met de jeugdconsulent en helpt bij een aanvraag of bij bezwaar. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
       "telefoon": "088 633 0633",
       "email": "info@meesamen.nl",
       "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/hellendoorn"
     },
     "klacht": {
-      "naam": "Klacht over de jeugdconsulenten van de gemeente",
-      "toelichting": "De jeugdconsulenten werken voor de gemeente. Een klacht over hoe zij u behandelen, gaat daarom via de klachtenregeling van de gemeente. U dient de klacht online (met DigiD), per e-mail of mondeling in. Een mondelinge klacht zet een medewerker op papier. Er volgt een hoorzitting en u krijgt binnen zes weken een uitkomst. De klacht mag niet ouder zijn dan een jaar. Bent u het niet eens met het besluit zelf, dan maakt u bezwaar. Een vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "naam": "Klacht over de medewerkers jeugd van de gemeente",
+      "toelichting": "Een klacht over hoe de medewerkers jeugd u behandelen, gaat via de klachtenregeling van de gemeente. U dient de klacht online (met DigiD), per e-mail of mondeling in; een mondelinge klacht zet een medewerker op papier. Er volgt een hoorzitting en u krijgt binnen zes weken een uitkomst. De klacht mag niet ouder zijn dan een jaar.",
       "url": "https://www.hellendoorn.nl/direct-regelen/melding-klacht-of-compliment/klachten-en-bezwaren/klacht-over-een-ambtenaar-of-het-gemeentebestuur",
       "email": "gemeente@hellendoorn.nl",
       "telefoon": "0548 630 000",
@@ -115,17 +114,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "U maakt bezwaar online met DigiD of per post. Een commissie bezwaarschriften sociaal domein geeft de gemeente advies. De leden werken niet voor de gemeente. De gemeente beslist binnen 12 weken na het einde van de bezwaartermijn. Een cliëntondersteuner van MEE Samen kan helpen. Bent u het daarna nog niet eens, dan kunt u in beroep bij de rechtbank.",
+      "toelichting": "U maakt bezwaar online met DigiD of per post. De gemeente beslist binnen 12 weken na het einde van de bezwaartermijn.",
       "url": "https://www.hellendoorn.nl/direct-regelen/melding-klacht-of-compliment/klachten-en-bezwaren/bezwaar-en-beroep"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Met een pgb (persoonsgebonden budget) kunt u hulp inkopen bij een aanbieder zonder contract met de gemeente. De gemeente kiest eerst voor zorg in natura: hulp van een aanbieder met contract. Voor een pgb legt u uit waarom die hulp niet past. U moet de taken van een pgb goed kunnen uitvoeren, en de hulp moet van goede kwaliteit zijn. Let op: de pgb-pagina van de gemeente gaat over volwassenen (Wmo). Voor jeugd gelden de Beleidsregels jeugdhulp.",
+      "toelichting": "Met een pgb kunt u hulp inkopen bij een aanbieder zonder contract met de gemeente. De gemeente kiest eerst voor hulp van een aanbieder met contract (zorg in natura); voor een pgb legt u uit waarom die hulp niet past. Voor jeugd gelden de Beleidsregels jeugdhulp; de pgb-pagina van de gemeente gaat over volwassenen (Wmo).",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR734097/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -305,12 +303,12 @@
   },
   "jeugdzorgregio": "Twente",
   "ervaringen": {
-    "samenvatting": "In 2023 vertelden 40 ouders en jongeren over hun ervaring met jeugdhulp. Zij waren positief over het contact met de jeugdconsulent en over de hulp, maar de hulp kwam niet altijd snel en ze hadden niet altijd één vaste consulent. Professionals vinden de toegang laagdrempelig, maar ouders weten niet altijd hoe jeugdhulp geregeld is. In 2025 duurde het gemiddeld 62 dagen van melding tot besluit.\n\nVraag bij uw melding hoe lang het duurt en of u een vaste jeugdconsulent krijgt. Leg afspraken schriftelijk vast, bijvoorbeeld in het ondersteuningsplan. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "In 2023 vertelden 40 ouders en jongeren over hun ervaring met jeugdhulp. Zij waren positief over het contact met de medewerker jeugd en over de hulp, maar de hulp kwam niet altijd snel en ze hadden niet altijd één vaste medewerker jeugd. Professionals vinden de toegang laagdrempelig, maar ouders weten niet altijd hoe jeugdhulp geregeld is. In 2025 duurde het gemiddeld 62 dagen van melding tot besluit.\n\nVraag bij uw melding hoe lang het duurt en of u een vaste medewerker jeugd krijgt. Leg afspraken schriftelijk vast, bijvoorbeeld in het ondersteuningsplan. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "clientervaringsonderzoek",
         "titel": "Ouders en jongeren over jeugdhulp in Hellendoorn",
-        "samenvatting": "In 2023 deden 40 ouders en jongeren mee aan het cliëntervaringsonderzoek. Zij waren positief over het contact met de jeugdconsulent, maar misten soms snelle hulp en een vaste consulent. Het jeugdbeleidsplan twijfelt ook of jeugdhulp goed bereikbaar is voor ouders die minder makkelijk voor zichzelf opkomen.",
+        "samenvatting": "In 2023 deden 40 ouders en jongeren mee aan het cliëntervaringsonderzoek. Zij waren positief over het contact met de medewerker jeugd, maar misten soms snelle hulp en een vaste medewerker jeugd. Het jeugdbeleidsplan twijfelt ook of jeugdhulp goed bereikbaar is voor ouders die minder makkelijk voor zichzelf opkomen.",
         "datum": "2025-04",
         "bron": {
           "titel": "Samen bouwen aan kansrijk opgroeien: jeugdbeleidsplan 2025-2030",

@@ -84,15 +84,45 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Onafhankelijke cliëntondersteuner (OCO)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en het gebiedsteam. De cliëntondersteuner gaat mee naar gesprekken, legt brieven uit en denkt mee als de uitkomst anders is dan u verwachtte. De gemeente heeft vijf aanbieders: Cliënt & Co, Clionn, MEE Noord, Thuis in Cliëntondersteuning en Zorgbelang Fryslân. Kies zelf wie u belt. Doe dit bij voorkeur vóór het gesprek met het gebiedsteam.",
+      "naam": "Cliënt & Co",
+      "toelichting": "De gemeente heeft vijf aanbieders van onafhankelijke cliëntondersteuning. U kiest zelf wie u belt.",
       "telefoon": "085 400 4994",
       "email": "info@clientenco.nl",
-      "url": "https://sudwestfryslan.nl/onderwerp/oco/"
+      "url": "https://sudwestfryslan.nl/onderwerp/oco/",
+      "andere": [
+        {
+          "naam": "Clionn",
+          "telefoon": "085 301 9713",
+          "email": "info@clionn.nl",
+          "url": "https://www.clionn.nl",
+          "openingstijden": "Werkdagen 9.00–17.00 uur"
+        },
+        {
+          "naam": "MEE Noord",
+          "telefoon": "088 023 11 00",
+          "email": "aanmeldpunt@meenoord.nl",
+          "url": "https://www.meenoord.nl",
+          "openingstijden": "Werkdagen 8.30–17.00 uur"
+        },
+        {
+          "naam": "Thuis in Cliëntondersteuning",
+          "telefoon": "085 303 29 85",
+          "email": "swf@thuisinclientondersteuning.nl",
+          "url": "https://www.thuisinclientondersteuning.nl",
+          "openingstijden": "Werkdagen 8.30–17.30 uur"
+        },
+        {
+          "naam": "Zorgbelang Fryslân",
+          "telefoon": "085 483 2432",
+          "email": "adviespunt@zorgbelang-fryslan.nl",
+          "url": "https://www.zorgbelang-fryslan.nl",
+          "openingstijden": "Telefonisch 9.00–13.00 uur"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klacht over de toegang tot jeugdhulp",
-      "toelichting": "Bespreek het eerst met de medewerker van het gebiedsteam. Komt u er niet uit? Dien dan een klacht in bij de gemeente, via het formulier, telefonisch of schriftelijk. Gaat de klacht over de toegang tot of het verlenen van jeugdhulp, dan behandelt de onafhankelijke klachtencommissie Jeugd die. Eerst kijkt de gemeente of bemiddeling kan. Lukt dat niet, dan volgt een hoorzitting. De commissie geeft advies, daarna beslist de gemeente. Gaat de klacht over een aanbieder? Dien die dan bij de aanbieder zelf in.",
+      "toelichting": "Bespreek het eerst met de medewerker van het gebiedsteam. Komt u er niet uit, dien dan een klacht in bij de gemeente, via het formulier, telefonisch of schriftelijk. Een klacht over de toegang tot of het verlenen van jeugdhulp gaat naar de onafhankelijke klachtencommissie Jeugd. Eerst kijkt de gemeente of bemiddeling kan. Een klacht over een aanbieder dient u bij de aanbieder zelf in.",
       "url": "https://sudwestfryslan.nl/onderwerp/klacht-indienen/",
       "extern": {
         "naam": "Nationale ombudsman (binnen 12 maanden na de afhandeling door de gemeente)",
@@ -100,17 +130,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking (het besluit van de gemeente) maakt u online of schriftelijk. Stuur een kopie van het besluit mee en schrijf waarom u het er niet mee eens bent. Is er een hoorzitting nodig, dan nodigt de commissie bezwaarschriften u uit.",
+      "toelichting": "U maakt bezwaar online of schriftelijk. Stuur een kopie van het besluit mee en schrijf waarom u het er niet mee eens bent.",
       "url": "https://sudwestfryslan.nl/onderwerp/bezwaar-maken/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "U bespreekt een pgb met het gebiedsteam. U schrijft een pgb-plan met onder meer waarom zorg in natura (hulp via een aanbieder van de gemeente) niet past, wat u en uw netwerk zelf doen en hoe u de kwaliteit zeker stelt. U moet het budget zelf kunnen beheren, eventueel met hulp van iemand uit uw netwerk. Een bemiddelingsbureau mag dat niet. Voor hulp aan kinderen is een Verklaring Omtrent het Gedrag (VOG) van de hulpverlener verplicht. Een pgb kan voor begeleiding, persoonlijke verzorging, specialistische begeleiding, dagbesteding, logeren en vervoer. Hulp van een organisatie of zzp'er wordt betaald tot maximaal 80% van het tarief in natura. Hulp van familie tot en met de tweede graad en andere bekenden is informele hulp: 50% van het tarief, met een maximum per uur. Kosten voor bemiddeling en voor budgetbeheer mag u niet uit het pgb betalen.",
+      "toelichting": "U bespreekt een pgb met het gebiedsteam en schrijft een pgb-plan. Daarin staat onder meer waarom zorg in natura (hulp via een aanbieder van de gemeente) niet past en wat u en uw netwerk zelf doen. Een pgb kan voor begeleiding, persoonlijke verzorging, specialistische begeleiding, dagbesteding, logeren en vervoer. Een organisatie of zzp'er krijgt maximaal 80% van het tarief in natura, familie tot en met de tweede graad en andere bekenden 50% met een maximum per uur. De hulpverlener heeft een Verklaring Omtrent het Gedrag (VOG) nodig, en een bemiddelingsbureau mag het budget niet beheren.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR739391/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

@@ -75,6 +75,8 @@ const gemeenten = defineCollection({
     rechten: z.object({
       onafhankelijkeClientondersteuning: contact.extend({
         toelichting: z.string().optional(),
+        /** Noemt de gemeente meer organisaties, dan staan de andere hier, elk met een eigen contactblok. */
+        andere: z.array(contact).optional(),
       }),
       pgb: z.object({
         mogelijk: z.boolean(),
@@ -88,13 +90,19 @@ const gemeenten = defineCollection({
         url: z.url().optional(),
         email: z.email().optional(),
         telefoon: z.string().optional(),
-        /** Onafhankelijke klachtencommissie of ombudsman als het intern niet lukt. */
-        extern: z.object({ naam: z.string(), url: z.url().optional() }).optional(),
+        /** Postadres voor een klacht per brief, als dat in de tekst genoemd wordt. */
+        adres: z.string().optional(),
+        /** Onafhankelijke klachtencommissie of ombudsman als het intern niet lukt. Contactgegevens horen in de velden, niet in de naam. */
+        extern: contact.pick({ naam: true, url: true, telefoon: true, email: true, adres: true }).partial({ url: true, telefoon: true, email: true, adres: true }).optional(),
       }),
       /** Bezwaar: formeel, alleen tegen een beschikking, binnen 6 weken. */
       bezwaar: z.object({
         toelichting: z.string(),
         url: z.url().optional(),
+        /** Alleen als bezwaar naar een ander adres moet dan het postadres van de gemeente in het register (bijv. een regionale commissie). */
+        adres: z.string().optional(),
+        /** true als de gemeente zegt dat het adres voor bezwaar in het besluit staat: dan geen postadres uit het register tonen. */
+        adresInBesluit: z.boolean().optional(),
       }),
       vertrouwenspersoon: contact.optional(),
     }),

@@ -5,16 +5,16 @@
   "jeugdzorgregio": "Rivierenland",
   "websiteJeugd": "https://www.buren.nl/sociaalteam/",
   "toegang": {
-    "samenvatting": "In Buren regelt het Sociaal Team van de gemeente de toegang tot jeugdhulp. U belt of mailt de toegang van het team en hoeft niet eerst naar de huisarts. Samen kijkt u waar u het best terecht kunt. Soms is dat een organisatie in de buurt. Soms onderzoekt een jeugdconsulent (medewerker van de gemeente) uw vraag en neemt de gemeente een besluit over de hulp. De huisarts, de jeugdarts en de medisch specialist mogen ook rechtstreeks verwijzen. In Buren start meer dan de helft van de jeugdhulp bij een van hen. Op de basisscholen werkt schoolmaatschappelijk werk. De gemeente noemt 6 tot 8 weken van uw eerste contact tot de start van de hulp. Dat is een schatting, geen meting. Vraag bij uw aanmelding wat u kunt verwachten.",
+    "samenvatting": "In Buren regelt het Sociaal Team van de gemeente de toegang tot jeugdhulp. U belt of mailt de toegang van het team en hoeft niet eerst naar de huisarts. Samen kijkt u waar u het best terecht kunt. Soms is dat een organisatie in de buurt. Soms onderzoekt een medewerker jeugd (medewerker van de gemeente) uw vraag en neemt de gemeente een besluit over de hulp. De huisarts, de jeugdarts en de medisch specialist mogen ook rechtstreeks verwijzen. In Buren start meer dan de helft van de jeugdhulp bij een van hen. Op de basisscholen werkt schoolmaatschappelijk werk. De gemeente noemt 6 tot 8 weken van uw eerste contact tot de start van de hulp. Dat is een schatting, geen meting. Vraag bij uw aanmelding wat u kunt verwachten.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team gemeente Buren",
-        "omschrijving": "De toegang van het Sociaal Team bestaat uit twee medewerkers. Zij kijken met u wie u kan helpen. Heeft u meer hulp nodig, dan onderzoekt een jeugdconsulent uw vraag en geeft de gemeente een besluit (beschikking) af. U meldt zich zelf aan, een verwijzing is niet nodig.",
+        "omschrijving": "De toegang van het Sociaal Team bestaat uit twee medewerkers. Zij kijken met u wie u kan helpen. Heeft u meer hulp nodig, dan onderzoekt een medewerker jeugd uw vraag en geeft de gemeente een besluit (beschikking) af. U meldt zich zelf aan, een verwijzing is niet nodig.",
         "stappen": [
           "Bel of mail de toegang van het Sociaal Team en vertel waar u hulp bij zoekt.",
           "Bekijk samen met de medewerker waar u het best terecht kunt. Dat kan een organisatie zijn die u direct verder helpt.",
-          "Is meer hulp nodig? Dan onderzoekt een jeugdconsulent uw vraag in een of meer gesprekken. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Is meer hulp nodig? Dan onderzoekt een medewerker jeugd uw vraag in een of meer gesprekken. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Vraag om een verslag van het gesprek. Is jeugdhulp nodig, dan krijgt u een schriftelijk besluit."
         ],
         "contact": {
@@ -24,7 +24,7 @@
           "url": "https://www.buren.nl/sociaalteam/",
           "openingstijden": "Telefonisch 9.00–12.00 uur"
         },
-        "doorlooptijd": "Volgens de gemeente 4 tot 6 weken onderzoek door de consulent, plus ongeveer 2 weken voor het besluit en de afhandeling."
+        "doorlooptijd": "Volgens de gemeente 4 tot 6 weken onderzoek door de medewerker jeugd, plus ongeveer 2 weken voor het besluit en de afhandeling."
       },
       {
         "type": "huisarts",
@@ -50,7 +50,7 @@
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag school om het schoolmaatschappelijk werk, of neem zelf contact op via het Sociaal Team.",
-          "Is meer hulp nodig, dan schakelt het Sociaal Team een jeugdconsulent in.",
+          "Is meer hulp nodig, dan schakelt het Sociaal Team een medewerker jeugd in.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -92,17 +92,17 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (MEE Gelderse Poort of Zorgbelang)",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner kan meegaan naar het gesprek met het Sociaal Team en helpt bij een aanvraag of bij een klacht. Vraag het Sociaal Team hoe u contact opneemt, bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "Vraag het Sociaal Team hoe u contact opneemt.",
       "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/hulp-en-ondersteuning/wmo-voorziening-aanvragen/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. Neem eerst contact op met het Sociaal Team. Samen bespreekt u de hulpvraag. Daarna vult u een budgetplan in: waarom wilt u een pgb, hoe organiseert u de hulp en kunt u het budget en de administratie zelf beheren? De gemeente bepaalt de hoogte. Ouders en huisgenoten kunt u er niet mee betalen. Een pgb is niet mogelijk bij een kinderbeschermingsmaatregel, jeugdreclassering of opname in een gesloten jeugdinstelling. De Sociale Verzekeringsbank betaalt de zorgverlener.",
+      "toelichting": "Neem eerst contact op met het Sociaal Team en bespreek samen de hulpvraag. Daarna vult u een budgetplan in; de gemeente bepaalt de hoogte. Ouders en huisgenoten kunt u er niet mee betalen. Een pgb is niet mogelijk bij een kinderbeschermingsmaatregel, jeugdreclassering of opname in een gesloten jeugdinstelling.",
       "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/hulp-en-ondersteuning/persoonsgeboden-budget/"
     },
     "klacht": {
       "naam": "Klacht over het Sociaal Team of de gemeente",
-      "toelichting": "Het Sociaal Team en de jeugdconsulenten werken voor de gemeente. Een klacht over hun gedrag gaat daarom via de klachtenregeling van de gemeente. Bespreek het eerst met de medewerker. Komt u er niet uit, dan dient u de klacht schriftelijk in, online of per brief of mail. De klachtcoördinator van de gemeente helpt u daar ook bij. U krijgt een bevestiging, en binnen tien weken beslist het college. Daarna kunt u naar de Nationale ombudsman. Een klacht over een besluit loopt via bezwaar.",
+      "toelichting": "Het Sociaal Team en de medewerkers jeugd werken voor de gemeente. Bespreek het eerst met de medewerker. Komt u er niet uit, dien de klacht dan schriftelijk in: online, per brief of per mail. De klachtcoördinator van de gemeente helpt u daarbij. Binnen tien weken beslist het college.",
       "url": "https://www.buren.nl/direct-regelen/melding-klacht-en-compliment/klacht-of-bezwaar/klacht/",
       "telefoon": "14 0344",
       "extern": {
@@ -111,12 +111,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Maak bezwaar tegen een besluit over jeugdhulp met het algemene bezwaarformulier van de gemeente. Bent u het niet eens met de beslissing op uw bezwaar, dan kunt u in beroep bij de rechtbank in Arnhem. Bel gerust eerst het Sociaal Team. Een medewerker kan het besluit toelichten.",
+      "toelichting": "Maak bezwaar met het algemene bezwaarformulier van de gemeente. Bel gerust eerst het Sociaal Team; een medewerker kan het besluit toelichten.",
       "url": "https://www.buren.nl/direct-regelen/melding-klacht-en-compliment/klacht-of-bezwaar/bezwaar/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -198,7 +197,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Plan Grip op Jeugd: strengere afspraken bij aanvragen",
-        "samenvatting": "Het college stuurde de raad in september 2026 een plan om de groei van de jeugdhulp af te remmen. Jeugdconsulenten kijken bij elke aanvraag eerst naar hulp zonder besluit, zoals school of welzijn, bekijken hulp na 9 maanden opnieuw en verlengen alleen bij resultaat en met een plan om af te bouwen. Volgens de gemeente loopt de uitvoering achter door te weinig capaciteit.",
+        "samenvatting": "Het college stuurde de raad in september 2026 een plan om de groei van de jeugdhulp af te remmen. Medewerkers jeugd kijken bij elke aanvraag eerst naar hulp zonder besluit, zoals school of welzijn, bekijken hulp na 9 maanden opnieuw en verlengen alleen bij resultaat en met een plan om af te bouwen. Volgens de gemeente loopt de uitvoering achter door te weinig capaciteit.",
         "datum": "2026-09-28",
         "bron": {
           "titel": "Raadsinformatiebrief en plan van aanpak Grip op Jeugd",

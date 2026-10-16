@@ -5,7 +5,7 @@
   "jeugdzorgregio": "Noordoost-Brabant",
   "websiteJeugd": "https://www.meierijstad.nl/Alle_onderwerpen/Zorg_en_hulp/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Meierijstad meldt u zich voor jeugdhulp bij het Centrum voor Jeugd en Gezin (CJG) of bij de Toegang van de gemeente. Het CJG geeft advies en cursussen over opvoeden en opgroeien. Het helpt ook bij een aanvraag voor specialistische jeugdhulp. Sinds 1 januari 2026 werken de jeugdconsulenten (de medewerkers die uw vraag beoordelen) bij de gemeente zelf. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Een persoonsgebonden budget (pgb) vraagt u alleen aan via het CJG.",
+    "samenvatting": "In Meierijstad meldt u zich voor jeugdhulp bij het Centrum voor Jeugd en Gezin (CJG) of bij de Toegang van de gemeente. Het CJG geeft advies en cursussen over opvoeden en opgroeien. Het helpt ook bij een aanvraag voor specialistische jeugdhulp. Sinds 1 januari 2026 werken de medewerkers jeugd (de medewerkers die uw vraag beoordelen) bij de gemeente zelf. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Een persoonsgebonden budget (pgb) vraagt u alleen aan via het CJG.",
     "routes": [
       {
         "type": "wijkteam",
@@ -92,31 +92,33 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (OCO)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en van zorgaanbieders. Een cliëntondersteuner gaat mee naar gesprekken, helpt bij een aanvraag en denkt mee als u het niet eens bent met een besluit. In Meierijstad zijn cliëntondersteuners per gebied bereikbaar (Schijndel, Sint-Oedenrode en Veghel). MEE De Meent Groep is er voor inwoners met een beperking. Wilt u hulp bij het kiezen, bel dan 14 0413 en kies optie 1. De gemeente wijst u in de uitnodiging voor het gesprek op deze mogelijkheid.",
+      "toelichting": "Cliëntondersteuners zijn per gebied bereikbaar (Schijndel, Sint-Oedenrode en Veghel); MEE De Meent Groep is er voor inwoners met een beperking. Wilt u hulp bij het kiezen, bel dan de gemeente en kies optie 1.",
       "telefoon": "088 465 35 55",
       "url": "https://www.meierijstad.nl/Alle_onderwerpen/Zorg_en_hulp/Informatie_of_advies_nodig/Onafhankelijke_cli_ntondersteuning_OCO"
     },
     "klacht": {
       "naam": "Klacht over het CJG of de Toegang van de gemeente",
-      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dan dient u een klacht in bij de gemeente: per e-mail (info@meierijstad.nl), per brief of digitaal met DigiD. De gemeente neemt geen anonieme klachten aan. Een klachtencoördinator zorgt dat de klacht wordt behandeld. De gemeente beslist meestal binnen zes weken. Gaat de klacht over een zorgaanbieder? Dan kunt u ook bij de aanbieder zelf klagen of een melding doen bij RIOZ.",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dan dient u een klacht in bij de gemeente: per e-mail, per brief, telefonisch of digitaal met DigiD. Een anonieme klacht kan niet. De gemeente beslist meestal binnen zes weken. Een klacht over een zorgaanbieder dient u eerst bij de aanbieder zelf in. Heeft u problemen met een aanbieder, dan kunt u ook contact opnemen met de vertrouwenspersoon Wmo/Jeugd.",
       "url": "https://www.meierijstad.nl/Contact/Melding_maken/Klacht_indienen_tegen_medewerker_afdeling_of_bestuurder",
+      "email": "info@meierijstad.nl",
+      "telefoon": "14 0413",
       "extern": {
         "naam": "Nationale ombudsman (als de gemeente de klacht niet goed behandelt). Bij vragen over kinderrechten: Kinderombudsman",
         "url": "https://www.nationaleombudsman.nl/"
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking maakt u bij de gemeente, digitaal met DigiD of per brief. Meestal volgt een hoorzitting, waarna een onafhankelijke bezwaarschriftcommissie de gemeente adviseert. De gemeente beslist daarna meestal binnen twaalf weken na het einde van de bezwaartermijn.",
+      "toelichting": "Bezwaar kan digitaal met DigiD of per brief. De gemeente beslist meestal binnen twaalf weken na het einde van de bezwaartermijn.",
       "url": "https://www.meierijstad.nl/Contact/Zienswijze_Bezwaar_Beroep"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "U vraagt een pgb alleen aan via het CJG. De gemeente onderzoekt of u het budget zelf kunt beheren, of een vertegenwoordiger heeft. U schrijft een pgb-plan: wat u wilt inkopen, van wie en hoe de kwaliteit is geborgd. Hulp van een organisatie of zzp'er wordt betaald tot maximaal het tarief dat de gemeente zelf betaalt. Hulp van iemand uit uw netwerk krijgt het minimumloon, en alleen voor persoonlijke verzorging of individuele begeleiding. Kosten voor een pgb-administratie en belangenbehartigers mag u niet uit het pgb betalen.",
+      "toelichting": "U vraagt een pgb alleen aan via het CJG. In een pgb-plan schrijft u wat u wilt inkopen, van wie en hoe de kwaliteit is geborgd. Een organisatie of zzp'er krijgt maximaal het tarief dat de gemeente zelf betaalt. Iemand uit uw netwerk krijgt het minimumloon, en alleen voor persoonlijke verzorging of individuele begeleiding.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR756540/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis. De gemeente noemt de vertrouwenspersoon jeugd ook op haar klachtenpagina.",
+      "omschrijving": "De gemeente noemt de vertrouwenspersoon jeugd ook op haar klachtenpagina.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -231,7 +233,7 @@
     },
     {
       "naam": "Onafhankelijke cliëntondersteuning (OCO)",
-      "omschrijving": "Gratis hulp bij gesprekken, aanvragen en bezwaar. Bel 14 0413 en kies optie 1 voor hulp bij het kiezen.",
+      "omschrijving": "Gratis hulp bij gesprekken, aanvragen en bezwaar. Bel de gemeente en kies optie 1 voor hulp bij het kiezen.",
       "url": "https://www.meierijstad.nl/Alle_onderwerpen/Zorg_en_hulp/Informatie_of_advies_nodig/Onafhankelijke_cli_ntondersteuning_OCO"
     },
     {
@@ -270,8 +272,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Jeugdconsulenten sinds 2026 in dienst van de gemeente",
-        "samenvatting": "Sinds 1 januari 2026 zijn alle jeugdconsulenten in dienst van de gemeente. De gemeente werkt aan sterkere lokale teams en wil in het eerste gesprek breder kijken naar alles wat in het gezin speelt. Ze blijft inzetten op preventie, zoals het CJG op school.",
+        "titel": "Medewerkers jeugd sinds 2026 in dienst van de gemeente",
+        "samenvatting": "Sinds 1 januari 2026 zijn alle medewerkers jeugd in dienst van de gemeente. De gemeente werkt aan sterkere lokale teams en wil in het eerste gesprek breder kijken naar alles wat in het gezin speelt. Ze blijft inzetten op preventie, zoals het CJG op school.",
         "datum": "2026-06",
         "bron": {
           "titel": "Gemeente Meierijstad - Jaarstukken 2025, Sociaal Domein: jeugdzorg",

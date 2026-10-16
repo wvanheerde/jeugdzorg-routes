@@ -9,7 +9,7 @@
       {
         "type": "wijkteam",
         "naam": "Zorgteam Koggenland",
-        "omschrijving": "Het Zorgteam is een team van de gemeente met onder andere maatschappelijk werkers en consulenten jeugd. Het beoordeelt of uw kind jeugdhulp krijgt en regelt de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Het Zorgteam geeft zelf lichte hulp aan kinderen van 0 tot 12 jaar, zoals korte trajecten en video home training. Is er meer nodig, dan kijkt het team naar hulp van een aanbieder met een contract.",
+        "omschrijving": "Het Zorgteam is een team van de gemeente met onder andere maatschappelijk werkers en medewerkers jeugd. Het beoordeelt of uw kind jeugdhulp krijgt en regelt de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Het Zorgteam geeft zelf lichte hulp aan kinderen van 0 tot 12 jaar, zoals korte trajecten en video home training. Is er meer nodig, dan kijkt het team naar hulp van een aanbieder met een contract.",
         "stappen": [
           "Meld u aan bij het Zorgteam met het online aanmeldformulier, of bel het Zorgteam.",
           "Het Zorgteam maakt een afspraak voor een gesprek. Dat kan telefonisch, bij u thuis of op een andere plek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
@@ -85,14 +85,13 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "De SMD (Stichting Maatschappelijke Dienstverlening)",
-      "toelichting": "Gratis, kortdurend en onafhankelijk, voor jong en oud. De cliëntondersteuner staat naast u, legt de mogelijkheden uit en helpt bij aanvragen en het contact met instanties. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek met het Zorgteam.",
       "telefoon": "0229 30 80 01",
       "email": "westfriesland@desmd.nl",
       "url": "https://www.koggenland.nl/clientondersteuning-bij-hulpvragen-over-zorg"
     },
     "klacht": {
       "naam": "Klacht over het Zorgteam of de gemeente",
-      "toelichting": "Het Zorgteam is een team van de gemeente. Een klacht over de bejegening door een medewerker dient u online in bij het college van burgemeester en wethouders (met DigiD). De gemeente beoordeelt de klacht zelf en reageert schriftelijk. Bent u het niet eens met de uitkomst, dan kunt u een externe beoordeling vragen. Hoe dat gaat, staat in de brief over uw klacht. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "Het Zorgteam hoort bij de gemeente. Een klacht over hoe een medewerker u behandelt, dient u online met DigiD in bij de gemeente. De gemeente beoordeelt de klacht zelf en reageert schriftelijk. Bent u het niet eens met de uitkomst, dan kunt u een externe beoordeling vragen; hoe dat gaat, staat in de brief over uw klacht. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.koggenland.nl/klacht-indienen",
       "extern": {
         "naam": "Externe klachtvoorziening, daarna de Nationale ombudsman",
@@ -100,17 +99,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maken tegen een besluit over jeugdhulp kan online met DigiD of per brief. Het adres staat op het besluit. Volgens de gemeente duurt de behandeling van bezwaren op dit moment soms langer dan normaal.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief; het adres staat op het besluit. Volgens de gemeente duurt de behandeling van bezwaren op dit moment soms langer dan normaal.",
       "url": "https://www.koggenland.nl/bezwaar-maken-tegen-een-gemeentelijk-besluit"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk, maar de gemeente kijkt eerst naar zorg in natura bij een aanbieder met een contract. U dient een pgb-plan in. Daarin legt u uit waarom het aanbod van de gemeente niet past, welke hulp u inkoopt en hoe de kwaliteit is geborgd. U moet het budget zelf kunnen beheren (pgb-vaardigheid). Hulp van ouders of van iemand met een persoonlijke band die de belangen in de weg kan staan, wordt niet met een pgb betaald. Een pgb met terugwerkende kracht is niet mogelijk.",
+      "toelichting": "De gemeente kijkt eerst naar hulp van een aanbieder met een contract (zorg in natura). In uw pgb-plan legt u uit waarom dat aanbod niet past, welke hulp u inkoopt en hoe de kwaliteit geregeld is. Behandeling door een ouder, of door iemand met wie u zo'n sterke persoonlijke band hebt dat dit de belangen van het kind kan schaden, betaalt de gemeente niet met een pgb. Ook hulp die iemand uit uw netwerk te zwaar belast, kan de gemeente weigeren. Een pgb met terugwerkende kracht is niet mogelijk.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR741822/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

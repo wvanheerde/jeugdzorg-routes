@@ -4,17 +4,17 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.voorschoten.nl/jeugd",
   "toegang": {
-    "samenvatting": "In Voorschoten vraagt u hulp voor uw kind aan bij het Sociaal Service Team van de gemeente. U meldt u zelf aan, met een formulier op de website of telefonisch. Een verwijzing is niet nodig. Het team bespreekt met u wie u het beste kan helpen. Soms is dat lichte hulp in de gemeente. Is specialistische hulp nodig, dan komt een jeugdconsulent bij u thuis en krijgt u een verslag. Ook de huisarts mag rechtstreeks verwijzen. Met vragen over opvoeden en gezondheid kunt u terecht bij het Centrum voor Jeugd en Gezin (CJG). Hoe lang het duurt voordat een consulent met u in gesprek gaat, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Voorschoten vraagt u hulp voor uw kind aan bij het Sociaal Service Team van de gemeente. U meldt u zelf aan, met een formulier op de website of telefonisch. Een verwijzing is niet nodig. Het team bespreekt met u wie u het beste kan helpen. Soms is dat lichte hulp in de gemeente. Is specialistische hulp nodig, dan komt een medewerker jeugd bij u thuis en krijgt u een verslag. Ook de huisarts mag rechtstreeks verwijzen. Met vragen over opvoeden en gezondheid kunt u terecht bij het Centrum voor Jeugd en Gezin (CJG). Hoe lang het duurt voordat een medewerker jeugd met u in gesprek gaat, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Sociaal Service Team van de gemeente (jeugdconsulenten)",
-        "omschrijving": "Het Sociaal Service Team werkt voor de gemeente en behandelt hulpvragen over jeugd en Wmo (hulp voor volwassenen). U meldt zich zelf aan. Daarna belt een consulent u. Die beoordeelt of lichte hulp genoeg is of dat een onderzoek naar specialistische hulp nodig is. Is dat zo, dan maakt een jeugdconsulent een afspraak voor een huisbezoek en stuurt u een verslag. Is uw vraag ingewikkeld? Dan bespreekt het team die zonder uw naam met andere organisaties in het aanmeldoverleg.",
+        "naam": "Sociaal Service Team van de gemeente (medewerkers jeugd)",
+        "omschrijving": "Het Sociaal Service Team werkt voor de gemeente en behandelt hulpvragen over jeugd en Wmo (hulp voor volwassenen). U meldt zich zelf aan. Daarna belt een medewerker jeugd u. Die beoordeelt of lichte hulp genoeg is of dat een onderzoek naar specialistische hulp nodig is. Is dat zo, dan maakt een medewerker jeugd een afspraak voor een huisbezoek en stuurt u een verslag. Is uw vraag ingewikkeld? Dan bespreekt het team die zonder uw naam met andere organisaties in het aanmeldoverleg.",
         "stappen": [
           "Vul het meldingsformulier hulpvraag in op de website van de gemeente. De gemeente belooft u binnen twee werkdagen te bellen.",
           "Bel het Sociaal Service Team als u liever belt. Zeg dat u een hulpvraag over uw kind heeft.",
-          "Bespreek met de consulent wat nodig is: advies, hulp in de gemeente, het aanmeldoverleg of een onderzoek door een jeugdconsulent.",
-          "Ontvang de jeugdconsulent thuis als er een onderzoek komt. U mag iemand bij het gesprek vragen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Bespreek met de medewerker jeugd wat nodig is: advies, hulp in de gemeente, het aanmeldoverleg of een onderzoek door een medewerker jeugd.",
+          "Ontvang de medewerker jeugd thuis als er een onderzoek komt. U mag iemand bij het gesprek vragen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Vraag om het schriftelijke verslag. Daarin staat of u hulp krijgt en welke. Vraag bij specialistische hulp om een beschikking (schriftelijk besluit)."
         ],
         "contact": {
@@ -98,13 +98,12 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Voorschoten Voor Elkaar",
-      "toelichting": "Gratis en onafhankelijk, voor alle inwoners van Voorschoten. De cliëntondersteuner werkt niet voor de gemeente of een zorgaanbieder. Hij of zij helpt bij een aanvraag, bereidt een gesprek met u voor en gaat mee als u dat wilt. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
       "telefoon": "071 561 9001",
       "url": "https://www.voorschoten.nl/onafhankelijke-clientondersteuning-en-vertrouwenspersoon"
     },
     "klacht": {
       "naam": "Klacht over de gemeente en het Sociaal Service Team",
-      "toelichting": "Het Sociaal Service Team werkt voor de gemeente. Een klacht over hoe u bent behandeld of over een antwoord dat uitblijft, gaat daarom via de klachtenregeling van de gemeente. U kunt een klacht online (met DigiD), schriftelijk of mondeling indienen. De gemeente belooft een klacht binnen 6 weken af te handelen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Ook een vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "toelichting": "Het Sociaal Service Team werkt voor de gemeente. Een klacht over hoe u bent behandeld of over een antwoord dat uitblijft, gaat daarom via de klachtenregeling van de gemeente. U dient een klacht online (met DigiD), schriftelijk of mondeling in. De gemeente belooft een klacht binnen 6 weken af te handelen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.voorschoten.nl/klacht-indienen",
       "telefoon": "14071",
       "extern": {
@@ -113,23 +112,22 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bent u het niet eens met een besluit over jeugdhulp, dan kunt u bezwaar maken. Een onafhankelijke adviescommissie adviseert de gemeente over uw bezwaar. De gemeente beslist meestal binnen 12 weken nadat de bezwaartermijn is afgelopen. Vraag zo nodig eerst advies, bijvoorbeeld bij het Juridisch Loket of een cliëntondersteuner.",
+      "toelichting": "U maakt bezwaar online met DigiD of eHerkenning, of met een brief. De gemeente beslist meestal binnen 12 weken nadat de bezwaartermijn is afgelopen. Vraag zo nodig eerst advies, bijvoorbeeld bij het Juridisch Loket.",
       "url": "https://www.voorschoten.nl/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is alleen mogelijk als hulp van een aanbieder met een contract niet past of niet genoeg is. U dient een pgb-plan in en moet laten zien dat u het budget zelf kunt beheren. De gemeente kan een pgb weigeren als er passende hulp van een gecontracteerde aanbieder is. Sinds 1 september 2026 gelden vaste maximumtarieven. Voor een professional in dienst van een aanbieder is dat 90 procent van het gewone tarief, voor een zelfstandige zonder personeel 80 procent. Daar komt niets bij voor administratie of andere kosten. Hulp van iemand uit uw netwerk kan alleen als dat veilig is en als het om meer gaat dan wat ouders normaal zelf doen (gebruikelijke hulp).",
+      "toelichting": "Een pgb kan alleen als hulp van een aanbieder met een contract niet past of niet genoeg is. Sinds 1 september 2026 gelden vaste maximumtarieven: 90 procent van het gewone tarief voor een professional in dienst van een aanbieder, 80 procent voor een zelfstandige zonder personeel. Daar komt niets bij voor administratie of andere kosten. Hulp van iemand uit uw netwerk kan alleen als dat veilig is. Het moet dan ook gaan om meer dan wat ouders normaal zelf doen (gebruikelijke hulp).",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR765100/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp en opvoedadvies krijgt u bij het CJG Voorschoten, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Voorschoten samen met de andere gemeenten van de regio Holland Rijnland in. De Beschikbaarheidswijzer van de regio laat zien welke aanbieders er zijn en hoe lang de wachttijden zijn, zonder inloggen. Die wachttijden verschillen sterk per soort hulp. Vraag de consulent om hulp bij het kiezen. Moet u wachten? Vraag dan om tijdelijke hulp in de tussentijd (overbruggingszorg).",
+    "samenvatting": "Lichte hulp en opvoedadvies krijgt u bij het CJG Voorschoten, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Voorschoten samen met de andere gemeenten van de regio Holland Rijnland in. De Beschikbaarheidswijzer van de regio laat zien welke aanbieders er zijn en hoe lang de wachttijden zijn, zonder inloggen. Die wachttijden verschillen sterk per soort hulp. Vraag de medewerker jeugd om hulp bij het kiezen. Moet u wachten? Vraag dan om tijdelijke hulp in de tussentijd (overbruggingszorg).",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/holland-rijnland",
     "categorieen": [
       {

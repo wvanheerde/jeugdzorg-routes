@@ -90,32 +90,34 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "SMD (cliëntondersteuning Medemblik)",
-      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. De cliëntondersteuner helpt kort, hooguit 8 uur. Die gaat mee naar een gesprek met de gemeente en helpt met een plan of een bezwaar. In het onderzoek over 2025 kenden bijna alle ouders en jongeren deze hulp niet. Vraag er dus zelf naar, het liefst vóór het eerste gesprek.",
+      "toelichting": "De ondersteuning is kort, hooguit 8 uur. In het onderzoek over 2025 kenden bijna alle ouders en jongeren deze hulp niet: vraag er dus zelf naar.",
       "telefoon": "0229 30 80 01",
       "email": "Westfriesland@desmd.nl",
       "url": "https://sociaalloket.medemblik.nl/clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom het aanbod van de gemeente niet past. U levert een pgb-plan en een getekend perspectiefplan in. De gemeente kijkt of u het budget kunt beheren en of de hulp goed en passend is. Hulp van iemand die u kent, kan onder voorwaarden. Bij spoed is een pgb niet mogelijk. Een pgb met terugwerkende kracht krijgt u niet. Hulp bij het aanvragen of beheren van het pgb betaalt de gemeente niet.",
+      "toelichting": "Een pgb kan als u kunt uitleggen waarom het aanbod van de gemeente niet past. U levert een pgb-plan en een getekend perspectiefplan in. Hulp van iemand die u kent, kan onder voorwaarden. Bij spoed of met terugwerkende kracht is een pgb niet mogelijk. Hulp bij het aanvragen of beheren van het pgb betaalt de gemeente niet.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR742776/1"
     },
     "klacht": {
       "naam": "Klacht over de gemeente en het Team Jeugd",
-      "toelichting": "Het Team Jeugd werkt voor de gemeente. Een klacht over hoe u bent behandeld of hoe uw aanvraag is afgehandeld, gaat daarom via de klachtenregeling van de gemeente. U kunt online, per brief, per mail, telefonisch of aan de balie klagen. Binnen vier weken krijgt u een inhoudelijke reactie. De gemeente mag die termijn één keer met vier weken verlengen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
-      "url": "https://sociaalloket.medemblik.nl/klacht-over-behandeling-door-gemeente",
+      "toelichting": "Het Team Jeugd werkt voor de gemeente. Een klacht over hoe u bent behandeld of hoe uw aanvraag is afgehandeld, dient u daarom in bij de gemeente: online, per brief, per mail, telefonisch of aan de balie (gegevens hieronder). Binnen vier weken krijgt u een inhoudelijke reactie. De gemeente mag die termijn één keer met vier weken verlengen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "url": "https://www.medemblik.nl/over-gemeente-medemblik/organisatie/klacht-over-behandeling-door-gemeente",
+      "email": "info@medemblik.nl",
+      "telefoon": "0229 85 60 00",
+      "adres": "Postbus 45, 1687 ZG Wognum",
       "extern": {
         "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
         "url": "https://www.nationaleombudsman.nl/"
       }
     },
     "bezwaar": {
-      "toelichting": "U maakt schriftelijk bezwaar: online met DigiD of per brief. Een gewone e-mail telt niet als bezwaarschrift. Na uw bezwaar kunt u een hoorzitting krijgen, een gesprek waarin u uw bezwaar toelicht. Een onafhankelijke cliëntondersteuner of de vertrouwenspersoon van Jeugdstem kan u helpen.",
+      "toelichting": "Maak schriftelijk bezwaar: online met DigiD of per brief. Een gewone e-mail telt niet als bezwaarschrift.",
       "url": "https://www.medemblik.nl/raad-bestuur-en-organisatie/klacht-bezwaar-en-informatieverzoek/bezwaar-maken-tegen-een-besluit-van-de-gemeente"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -215,7 +217,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Sociaal Loket Medemblik: Jeugdhulp",
@@ -316,6 +318,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Medemblik - Klacht over behandeling door gemeente",
+        "url": "https://www.medemblik.nl/over-gemeente-medemblik/organisatie/klacht-over-behandeling-door-gemeente",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen wachttijdcijfers na oktober 2025 gevonden; Beschikbaarheidswijzer toont geen gemeentelijst in de serverrespons, dekking van Medemblik niet vast te stellen. Contactgegevens Netwerkorganisatie West-Friesland en klachtregeling Team Jeugd (naast gemeente) niet gevonden. Regionale journalistiek maar kort doorzocht; Veilig Thuis- en inspectiesignalen niet onderzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

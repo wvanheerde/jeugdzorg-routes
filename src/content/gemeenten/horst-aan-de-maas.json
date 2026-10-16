@@ -5,20 +5,20 @@
   "jeugdzorgregio": "Noord-Limburg",
   "websiteJeugd": "https://www.horstaandemaas.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Horst aan de Maas stelt u uw hulpvraag rechtstreeks aan de gemeente, via een online formulier of telefonisch. Een verwijzing is niet nodig. De gemeente belooft u binnen 3 tot 5 werkdagen terug te bellen om uw vraag te bespreken. Soms lukt het met hulp van familie, vrienden of school. Is hulp via de gemeente nodig, dan maakt een consulent jeugd een afspraak: op het gemeentehuis, bij u thuis of elders. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ), die meekijkt bij vragen over kinderen. Hoe lang het in de praktijk duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Horst aan de Maas stelt u uw hulpvraag rechtstreeks aan de gemeente, via een online formulier of telefonisch. Een verwijzing is niet nodig. De gemeente belooft u binnen 3 tot 5 werkdagen terug te bellen om uw vraag te bespreken. Soms lukt het met hulp van familie, vrienden of school. Is hulp via de gemeente nodig, dan maakt een medewerker jeugd een afspraak: op het gemeentehuis, bij u thuis of elders. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ), die meekijkt bij vragen over kinderen. Hoe lang het in de praktijk duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Consulenten jeugd van de gemeente",
-        "omschrijving": "De consulenten jeugd werken voor de gemeente. Zij onderzoeken met u wat nodig is en vragen samen met u hulp aan. U meldt zich zelf aan, een verwijzing is niet nodig. U kunt iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Brieven over de hulp krijgt u in MijnZorg, het online portaal van de gemeente.",
+        "naam": "Medewerkers jeugd van de gemeente",
+        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken met u wat nodig is en vragen samen met u hulp aan. U meldt zich zelf aan, een verwijzing is niet nodig. U kunt iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Brieven over de hulp krijgt u in MijnZorg, het online portaal van de gemeente.",
         "stappen": [
           "Stel uw hulpvraag via het online formulier op de website van de gemeente. Lukt dat niet, bel dan de gemeente.",
           "De gemeente belt u terug en bespreekt uw vraag in een telefoongesprek. Soms is hulp van familie, vrienden of school al genoeg.",
-          "Is hulp via de gemeente nodig, dan maakt de consulent jeugd een afspraak met u. U mag iemand meenemen.",
-          "Vraag samen met de consulent de hulp aan. Vraag om een schriftelijk verslag en, bij specialistische hulp, om een beschikking (besluit van de gemeente)."
+          "Is hulp via de gemeente nodig, dan maakt de medewerker jeugd een afspraak met u. U mag iemand meenemen.",
+          "Vraag samen met de medewerker jeugd de hulp aan. Vraag om een schriftelijk verslag en, bij specialistische hulp, om een beschikking (besluit van de gemeente)."
         ],
         "contact": {
-          "naam": "Gemeente Horst aan de Maas (consulenten jeugd)",
+          "naam": "Gemeente Horst aan de Maas (medewerkers jeugd)",
           "telefoon": "077 477 9777",
           "email": "gemeente@horstaandemaas.nl",
           "url": "https://www.horstaandemaas.nl/jeugdhulp"
@@ -27,7 +27,7 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de consulenten jeugd. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ). Die onderzoekt samen met u wat er speelt en kan lichte behandeling geven. De gemeente wil dat elke praktijk een SOJ krijgt.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ). Die onderzoekt samen met u wat er speelt en kan lichte behandeling geven. De gemeente wil dat elke praktijk een SOJ krijgt.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
           "Laat de huisarts u eerst doorverwijzen naar de SOJ, of direct naar een aanbieder met een contract bij de gemeente.",
@@ -62,7 +62,7 @@
             "url": "https://www.swvvo3101.nl/contact/"
           },
           {
-            "naam": "Gemeente Horst aan de Maas (consulenten jeugd)",
+            "naam": "Gemeente Horst aan de Maas (medewerkers jeugd)",
             "telefoon": "077 477 9777",
             "email": "gemeente@horstaandemaas.nl",
             "url": "https://www.horstaandemaas.nl/jeugdhulp"
@@ -88,18 +88,17 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE de Meentgroep",
-      "toelichting": "Gratis en onafhankelijk, zonder verwijzing of indicatie. Een cliëntondersteuner denkt met u mee, helpt bij gesprekken met de gemeente of een zorgaanbieder en zorgt dat u goed wordt gehoord. Vraag er bij voorkeur een vóór het eerste gesprek met de consulent jeugd.",
       "telefoon": "088 465 35 55",
       "url": "https://www.meedemeentgroep.nl/clienten/onafhankelijke-clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk in plaats van hulp via een aanbieder met een contract bij de gemeente (zorg in natura). U legt de gemeente uit waarom die hulp niet past, en u maakt een budgetplan. U of uw vertegenwoordiger moet het budget zelf kunnen beheren. De beheerder van het pgb mag niet dezelfde persoon zijn als de hulpverlener. Het pgb is nooit hoger dan wat zorg in natura de gemeente kost. Hulp van iemand uit uw netwerk kan, als die persoon goede hulp kan geven. Daarvoor is vaak een verklaring omtrent gedrag (VOG) nodig, behalve bij familie in de eerste of tweede graad. De uitbetaling gaat via de Sociale Verzekeringsbank (SVB).",
+      "toelichting": "U legt de gemeente uit waarom hulp via een aanbieder met een contract (zorg in natura) niet past. De beheerder van het pgb mag niet dezelfde persoon zijn als de hulpverlener. Het pgb is nooit hoger dan wat zorg in natura de gemeente kost. Hulp van iemand uit uw netwerk kan, als die persoon goede hulp kan geven. Daarvoor is vaak een verklaring omtrent gedrag (VOG) nodig, behalve bij familie in de eerste of tweede graad.",
       "url": "https://www.horstaandemaas.nl/persoonsgebonden-budget-pgb"
     },
     "klacht": {
-      "naam": "Klacht over de gemeente en de consulenten jeugd",
-      "toelichting": "De consulenten jeugd werken voor de gemeente. Een klacht over hoe zij u behandelden, gaat daarom via de klachtenregeling van de gemeente. U kunt online of telefonisch klagen, of een brief schrijven aan het college van burgemeester en wethouders (Postbus 6005, 5960 AA Horst). Binnen 5 werkdagen hoort u hoe de gemeente de klacht afhandelt. Anoniem klagen kan niet. Bent u daarna niet tevreden, dan kunt u om een officieel oordeel vragen of naar de onafhankelijke klachtencommissie gaan. Een vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "naam": "Klacht over de gemeente en de medewerkers jeugd",
+      "toelichting": "De medewerkers jeugd werken voor de gemeente. Een klacht over hoe zij u behandelden, gaat daarom via de klachtenregeling van de gemeente. U kunt online of telefonisch klagen, of een brief schrijven aan het college van burgemeester en wethouders (Postbus 6005, 5960 AA Horst); anoniem klagen kan niet. Binnen 5 werkdagen hoort u hoe de gemeente de klacht afhandelt. Bent u daarna niet tevreden, dan kunt u om een officieel oordeel vragen of naar de onafhankelijke klachtencommissie gaan.",
       "url": "https://www.horstaandemaas.nl/klacht-indienen",
       "telefoon": "077 477 9777",
       "extern": {
@@ -108,18 +107,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u met een brief aan het college van burgemeester en wethouders. Noem uw gegevens en de reden, en voeg het besluit toe. Bezwaren over jeugdhulp gaan naar de wethouder voor het sociaal domein, die u kan uitnodigen voor een hoorzitting. U mag iemand namens u laten gaan, met een schriftelijke machtiging. Meestal volgt een besluit binnen 6 weken na het einde van de bezwaartermijn.",
+      "toelichting": "Schrijf een brief aan het college van burgemeester en wethouders met uw gegevens, de reden en het besluit erbij. Bezwaren over jeugdhulp gaan naar de wethouder voor het sociaal domein, die u kan uitnodigen voor een hoorzitting. Meestal volgt een besluit binnen 6 weken na het einde van de bezwaartermijn.",
       "url": "https://www.horstaandemaas.nl/bezwaar-en-beroep"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Specialistische jeugdhulp koopt Horst aan de Maas samen met de andere gemeenten in Noord-Limburg in, via Sociaal Domein Limburg-Noord. Op 1 januari 2026 zijn nieuwe contracten met aanbieders ingegaan. Deze regio staat niet in de Beschikbaarheidswijzer. Een lijst met aanbieders en wachttijden voor Horst aan de Maas is niet openbaar te vinden. Vraag de consulent jeugd om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Specialistische jeugdhulp koopt Horst aan de Maas samen met de andere gemeenten in Noord-Limburg in, via Sociaal Domein Limburg-Noord. Op 1 januari 2026 zijn nieuwe contracten met aanbieders ingegaan. Deze regio staat niet in de Beschikbaarheidswijzer. Een lijst met aanbieders en wachttijden voor Horst aan de Maas is niet openbaar te vinden. Vraag de medewerker jeugd om een overzicht en om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://sociaaldomein-limburgnoord.nl/informatie-voor-inwoners/domein-jeugdhulp",
     "categorieen": [
       {
@@ -203,7 +201,7 @@
     }
   ],
   "ervaringen": {
-    "samenvatting": "Over de ervaringen van ouders met de toegang in Horst aan de Maas is weinig openbaar te vinden. Volgens een overzicht voor de gemeenteraad (juni 2026) daalt het aantal jeugdigen met specialistische hulp van de gemeente, van 1.091 in 2021 naar 933 in 2025. Volgens de gemeente zijn hulpvragen wel complexer geworden, waardoor zwaardere hulp langer nodig is. In 2025 begon 33 procent van de trajecten via de huisarts, landelijk was dat 43 procent.\n\nVraag bij uw hulpvraag hoe lang het duurt tot het eerste gesprek en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE de Meentgroep mee. Bent u ontevreden over de kwaliteit van hulp, dan kunt u een zorgsignaal melden. Over hoe de consulent u behandelde, klaagt u bij de gemeente.",
+    "samenvatting": "Over de ervaringen van ouders met de toegang in Horst aan de Maas is weinig openbaar te vinden. Volgens een overzicht voor de gemeenteraad (juni 2026) daalt het aantal jeugdigen met specialistische hulp van de gemeente, van 1.091 in 2021 naar 933 in 2025. Volgens de gemeente zijn hulpvragen wel complexer geworden, waardoor zwaardere hulp langer nodig is. In 2025 begon 33 procent van de trajecten via de huisarts, landelijk was dat 43 procent.\n\nVraag bij uw hulpvraag hoe lang het duurt tot het eerste gesprek en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE de Meentgroep mee. Bent u ontevreden over de kwaliteit van hulp, dan kunt u een zorgsignaal melden. Over hoe de medewerker jeugd u behandelde, klaagt u bij de gemeente.",
     "signalen": [
       {
         "soort": "gemeenteraad",
@@ -228,7 +226,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Plan 2027: eerst lichte hulp, daarna zwaardere hulp",
-        "samenvatting": "In de begroting voor 2027 schrijft de gemeente dat zij eerst kijkt of lichte hulp genoeg is, en pas daarna zwaardere hulp inzet. Ook wil zij huisartsen, ondersteuners en consulenten jeugd beter laten samenwerken. Dit is een plan: de gemeenteraad bespreekt de begroting op 10 november 2026.",
+        "samenvatting": "In de begroting voor 2027 schrijft de gemeente dat zij eerst kijkt of lichte hulp genoeg is, en pas daarna zwaardere hulp inzet. Ook wil zij huisartsen, ondersteuners en medewerkers jeugd beter laten samenwerken. Dit is een plan: de gemeenteraad bespreekt de begroting op 10 november 2026.",
         "datum": "2026-10",
         "bron": {
           "titel": "Begroting 2027 Horst aan de Maas: Zorg",

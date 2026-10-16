@@ -4,18 +4,18 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.raalte.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Raalte begint u bij het Centrum voor Jeugd en Gezin (CJG). U belt of mailt zelf, een verwijzing is niet nodig. Sinds 1 januari 2026 is het CJG onderdeel van de gemeente. Het CJG praat met u over uw vraag en biedt lichte hulp, zoals advies, een cursus of begeleiding. Is specialistische hulp nodig, dan maakt u met het CJG een ondersteuningsplan. Daarmee vraagt u hulp aan bij Team Jeugd van de gemeente. Een jeugdconsulent van de gemeente beslist dan over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Raalte begint u bij het Centrum voor Jeugd en Gezin (CJG). U belt of mailt zelf, een verwijzing is niet nodig. Sinds 1 januari 2026 is het CJG onderdeel van de gemeente. Het CJG praat met u over uw vraag en biedt lichte hulp, zoals advies, een cursus of begeleiding. Is specialistische hulp nodig, dan maakt u met het CJG een ondersteuningsplan. Daarmee vraagt u hulp aan bij Team Jeugd van de gemeente. Een medewerker jeugd van de gemeente beslist dan over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) en Team Jeugd",
-        "omschrijving": "Bij het CJG Raalte kunt u terecht met vragen over opvoeden, opgroeien en gezondheid van kinderen van 0 tot 18 jaar. Medewerkers van het CJG, de jeugdgezondheidszorg, maatschappelijk werk en MEE werken er samen met de jeugdconsulenten van Team Jeugd. U meldt zich zelf aan. Specialistische jeugdhulp vraagt u aan met een ondersteuningsplan. De jeugdconsulent van de gemeente neemt het besluit (de beschikking).",
+        "omschrijving": "Bij het CJG Raalte kunt u terecht met vragen over opvoeden, opgroeien en gezondheid van kinderen van 0 tot 18 jaar. Medewerkers van het CJG, de jeugdgezondheidszorg, maatschappelijk werk en MEE werken er samen met de medewerkers jeugd van Team Jeugd. U meldt zich zelf aan. Specialistische jeugdhulp vraagt u aan met een ondersteuningsplan. De medewerker jeugd van de gemeente neemt het besluit (de beschikking).",
         "stappen": [
           "Bel of mail het CJG Raalte, of gebruik het vragenformulier op de website van het CJG. U krijgt een medewerker aan de telefoon.",
           "Het CJG plant een kennismakingsgesprek om uw vraag helder te krijgen. Soms zijn meer gesprekken nodig.",
           "Samen kijkt u welke hulp past, bijvoorbeeld een cursus, een training of begeleiding voor u of uw kind.",
           "Is specialistische jeugdhulp nodig? Maak dan met het CJG een ondersteuningsplan. Onderteken het en stuur het naar Team Jeugd. Dan is het een officiële aanvraag.",
-          "De jeugdconsulent kijkt met u welke hulp past en geeft u een schriftelijk besluit. U kiest dan tussen hulp die de gemeente regelt en een pgb (persoonsgebonden budget).",
+          "De medewerker jeugd kijkt met u welke hulp past en geeft u een schriftelijk besluit. U kiest dan tussen hulp die de gemeente regelt en een pgb (persoonsgebonden budget).",
           "Krijgt uw kind al jeugdhulp en wilt u die verlengen of wijzigen? Vul het aanvraagformulier in en mail het naar Team Jeugd."
         ],
         "contact": [
@@ -69,7 +69,7 @@
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of zorgcoördinator.",
           "Vraag school om u in contact te brengen met de CJG-contactpersoon, of meld u zelf aan bij het CJG.",
-          "Is meer hulp nodig, dan schakelt het CJG een jeugdconsulent van Team Jeugd in.",
+          "Is meer hulp nodig, dan schakelt het CJG een medewerker jeugd van Team Jeugd in.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -112,14 +112,14 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Samen",
-      "toelichting": "Gratis, onafhankelijk en zonder verwijzing. MEE Samen gaat mee naar gesprekken met het CJG of Team Jeugd, helpt bij het ondersteuningsplan of een aanvraag en denkt mee bij onvrede over een besluit. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "MEE Samen helpt ook bij het ondersteuningsplan, bij een aanvraag en als u het niet eens bent met een besluit.",
       "telefoon": "088 633 0633",
       "email": "info@meesamen.nl",
       "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/raalte"
     },
     "klacht": {
       "naam": "Klacht over het CJG of Team Jeugd",
-      "toelichting": "Bespreek uw klacht eerst met de medewerker. Komt u er niet uit, dan dient u per mail of brief een klacht in bij het CJG. Meestal behandelt de coördinator van het CJG die. Een klacht over Team Jeugd dient u online of per brief in bij de gemeente. Wilt of kunt u zelf geen klacht indienen bij het CJG? Dan helpen de vertrouwenspersonen van Jeugdstem.",
+      "toelichting": "Bespreek uw klacht eerst met de medewerker. Gaat het over het CJG, dien de klacht dan per e-mail of brief in bij het CJG. Meestal behandelt de coördinator van het CJG die. Een klacht over Team Jeugd dient u online of per brief in bij de gemeente.",
       "url": "https://www.cjgraalte.nl/klachtenregeling",
       "email": "info@cjgraalte.nl",
       "extern": {
@@ -128,17 +128,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u per mail of per brief. De gemeente beslist binnen 12 weken; dat kan met 6 weken worden verlengd. Een cliëntondersteuner van MEE Samen kan u helpen.",
+      "toelichting": "U maakt bezwaar per e-mail of per brief. De gemeente beslist binnen 12 weken; dat kan met 6 weken worden verlengd.",
       "url": "https://www.raalte.nl/ik-ben-het-niet-eens-met-een-besluit-van-de-gemeente-bezwaar"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U dient een budgetplan in en legt uit waarom hulp in natura (hulp van een aanbieder met een contract) niet past. De gemeente kijkt of u het budget goed kunt beheren en of de hulp goed en passend is. De zorgverlener moet aan eisen voldoen, zoals een Verklaring Omtrent het Gedrag (VOG). De gemeente kan een pgb weigeren als zij twijfelt aan de betrouwbaarheid van de hulpverlener, of als de budgethouder zelf de hulp geeft. Let op: de pgb-pagina van de gemeente gaat over de Wmo, niet over jeugdhulp. Voor jeugd staan de regels in de Verordening domein sociaal.",
+      "toelichting": "Leg in een budgetplan uit waarom hulp van een aanbieder met een contract niet past. De zorgverlener moet aan eisen voldoen, zoals een Verklaring Omtrent het Gedrag (VOG). De gemeente kan een pgb weigeren als zij twijfelt aan de betrouwbaarheid van de hulpverlener, of als de budgethouder zelf de hulp geeft. De regels voor jeugd staan in de Verordening domein sociaal; de pgb-pagina van de gemeente gaat over de Wmo.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR645172/8"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

@@ -89,7 +89,7 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE (Servicepunt Onafhankelijke Cliëntondersteuning)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente. De gemeente Venlo verwijst naar MEE voor vragen over onder meer jeugdhulp, opvoeding, onderwijs en de Wlz. De cliëntondersteuner kan u helpen een gesprek met het Sociaal Wijkteam voor te bereiden, vragen te stellen en keuzes te maken. Bel bij voorkeur vóór het keukentafelgesprek.",
+      "toelichting": "MEE helpt bij vragen over onder meer jeugdhulp, opvoeding, onderwijs en de Wlz (Wet langdurige zorg).",
       "telefoon": "088 465 3555",
       "email": "servicepunt@meedemeentgroep.nl",
       "url": "https://www.meedemeentgroep.nl/contact",
@@ -97,7 +97,7 @@
     },
     "klacht": {
       "naam": "Klacht over behandeling door de gemeente of het Sociaal Wijkteam",
-      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dan kunt u een klacht indienen bij de gemeente, online met DigiD of eHerkenning of per brief aan Gemeente Venlo, Postbus 3434, 5902 RK Venlo (met naam, adres, geboortedatum, telefoonnummer, toelichting en handtekening). Een klacht mag niet anoniem zijn. De gemeente behandelt de klacht vertrouwelijk en kan vragen de klacht mondeling toe te lichten. Een aparte klachtenregeling voor het Sociaal Wijkteam is niet gevonden. Voor klachten over een jeugdhulpaanbieder moet de aanbieder zelf een onafhankelijke klachtenprocedure hebben.",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dien dan een klacht in bij de gemeente: online met DigiD of eHerkenning, of per brief aan Gemeente Venlo, Postbus 3434, 5902 RK Venlo. Zet uw naam, adres, geboortedatum, telefoonnummer, toelichting en handtekening erbij; anoniem kan niet. De gemeente kan u vragen de klacht mondeling toe te lichten. Een klacht over een jeugdhulpaanbieder dient u in via de klachtenprocedure van die aanbieder.",
       "url": "https://www.venlo.nl/klacht-over-behandeling-gemeente",
       "telefoon": "14 077",
       "extern": {
@@ -106,17 +106,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken, online met DigiD of eHerkenning of per brief aan Gemeente Venlo, Postbus 3434, 5902 RK Venlo, met een kopie van het besluit. Een bezwaarschrift per e-mail accepteert de gemeente niet. Team Juridische Zaken behandelt het bezwaar en een hoorcommissie kan u uitnodigen; de beslissing komt meestal binnen 12 weken nadat de bezwaartermijn is verstreken. Daarna staat beroep open bij de rechtbank.",
+      "toelichting": "Maak bezwaar online met DigiD of eHerkenning of per brief, met een kopie van het besluit; per e-mail kan niet. Team Juridische Zaken behandelt het bezwaar, en een hoorcommissie kan u uitnodigen. Meestal komt de beslissing binnen 12 weken na afloop van de bezwaartermijn.",
       "url": "https://www.venlo.nl/bezwaar-en-beroep"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb is mogelijk als het gecontracteerde aanbod volgens het Sociaal Wijkteam niet toereikend of passend is en u pgb-vaardig bent. U stelt een plan met budgetplan op: hoe het pgb de doelen bereikt, welke hulp past, hoe u het budget besteedt en hoe u de taken en verplichtingen zelf of met een vertegenwoordiger uitvoert; de gemeente toetst dit aan de tien punten pgb-vaardigheid van VWS. Het pgb bedraagt niet meer dan de kostprijs van de goedkoopste passende hulp in natura die tijdig beschikbaar is: voor professionele hulp 100%, voor een zzp'er 90% en voor hulp uit het eigen netwerk 75%. Bij jeugdhulp uit het eigen netwerk moet de hulp passend en veilig zijn, geen ggz-behandeling betreffen en is een verklaring omtrent het gedrag nodig, tenzij het een bloed- of aanverwant in de eerste of tweede graad is. De beschikking duurt maximaal twee jaar; u sluit een schriftelijke zorgovereenkomst en declaraties lopen via de Sociale Verzekeringsbank. Er is geen pgb in een spoedeisende situatie.",
+      "toelichting": "Een pgb kan als het Sociaal Wijkteam vindt dat het gecontracteerde aanbod niet past of niet genoeg is. In het plan met budgetplan staat hoe het pgb de doelen bereikt, welke hulp past en hoe u het budget besteedt. Het pgb is hooguit de prijs van de goedkoopste passende hulp in natura (hulp die de gemeente regelt) die op tijd beschikbaar is: 100% voor professionele hulp, 90% voor een zelfstandige hulpverlener (zzp'er) en 75% voor hulp uit uw eigen omgeving. Hulp uit uw eigen omgeving moet passend en veilig zijn en mag geen ggz-behandeling zijn; de hulpverlener heeft een verklaring omtrent het gedrag nodig, behalve een bloed- of aanverwant in de eerste of tweede graad. De beschikking duurt hooguit twee jaar, en in een spoedsituatie is er geen pgb.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR758578"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis; helpt ook bij een klachtbrief en bij een gesprek met het Sociaal Wijkteam.",
+      "omschrijving": "Helpt ook bij een klachtbrief en bij een gesprek met het Sociaal Wijkteam.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -304,7 +304,7 @@
     },
     {
       "naam": "Mijn Sociaal Domein: uw dossier inzien",
-      "omschrijving": "Bekijk uw persoonlijke gegevens, de toegekende hulp en de contactgegevens van uw consulent.",
+      "omschrijving": "Bekijk uw persoonlijke gegevens, de toegekende hulp en de contactgegevens van uw medewerker jeugd.",
       "url": "https://mijnsociaaldomein.venlo.nl/Login",
       "nodig": "DigiD"
     },

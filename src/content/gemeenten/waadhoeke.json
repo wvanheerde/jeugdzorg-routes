@@ -86,30 +86,30 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (o.a. MEE Noord, Zorgbelang Fryslân)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente. Een cliëntondersteuner gaat mee naar het gesprek met het Gebiedsteam en denkt met u mee. Vraag erom bij het Gebiedsteam of neem zelf contact op. Op de pagina van de gemeente staan vier organisaties met hun gegevens. Regel het liefst vóór het eerste gesprek.",
+      "toelichting": "Vraag erom bij het Gebiedsteam of neem zelf contact op. Op de pagina van de gemeente staan vier organisaties met hun gegevens.",
       "url": "https://www.waadhoeke.nl/oco"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom hulp van een aanbieder met een contract niet past. U moet het budget ook zelf kunnen beheren, en de gemeente moet de hulp goed vinden. U maakt een budgetplan. Voor hulp van een professional krijgt u hooguit 75% van het tarief dat de gemeente aan aanbieders betaalt. Voor hulp van iemand uit uw omgeving is dat 50%. Kosten van vóór de aanvraag worden niet vergoed. Zit u bijvoorbeeld in de schuldsanering, of heeft u hulp nodig bij uw administratie, dan kunt u geen pgb krijgen.",
+      "toelichting": "Een pgb kan als u kunt uitleggen waarom hulp van een aanbieder met een contract niet past. Voor hulp van een professional krijgt u hooguit 75% van het tarief dat de gemeente aan aanbieders betaalt, voor hulp van iemand uit uw omgeving 50%. Kosten van vóór de aanvraag worden niet vergoed. Volgens de regels krijgt u geen pgb als u in de schuldsanering zit of hulp nodig heeft bij uw administratie.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR706076/1"
     },
     "klacht": {
       "naam": "Klacht over het Gebiedsteam of de gemeente",
-      "toelichting": "Het Gebiedsteam werkt voor de gemeente. Een klacht over hoe u bent behandeld, gaat daarom via de klachtenregeling van de gemeente. Bespreek het eerst met de medewerker. Komt u er niet uit, schrijf of bel dan het college van B&W (Postbus 58, 8800 AB Franeker). Anonieme klachten behandelt de gemeente niet. U hoort binnen zes weken hoe uw klacht is afgehandeld. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "Bespreek een klacht over het Gebiedsteam eerst met de medewerker. Komt u er niet uit, schrijf of bel dan het college van burgemeester en wethouders (Postbus 58, 8800 AB Franeker). Anonieme klachten behandelt de gemeente niet. U hoort binnen zes weken hoe uw klacht is afgehandeld. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.waadhoeke.nl/klacht-en-bezwaar/klacht-insturen",
       "extern": {
         "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
         "url": "https://www.nationaleombudsman.nl/"
-      }
+      },
+      "telefoon": "0517 38 03 80"
     },
     "bezwaar": {
-      "toelichting": "Beschrijf in uw bezwaar om welk besluit het gaat en waarom u het er niet mee eens bent. Een onafhankelijke commissie nodigt u uit voor een gesprek (hoorzitting) en geeft het college advies. Bent u het niet eens met de beslissing op uw bezwaar, dan kunt u in beroep bij de rechtbank Noord-Nederland.",
+      "toelichting": "Beschrijf in uw bezwaar om welk besluit het gaat en waarom u het er niet mee eens bent.",
       "url": "https://www.waadhoeke.nl/bezwaar"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -216,7 +216,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Waadhoeke: Kinderen en gezin",
@@ -317,6 +317,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-12"
+      },
+      {
+        "titel": "Gemeente Waadhoeke – Contact",
+        "url": "https://www.waadhoeke.nl/contact",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Geen cliëntervaringsonderzoek jeugd en geen gemeten doorlooptijden gevonden; Beschikbaarheidswijzer Friesland toont geen gemeentelijst (dekking niet vast te stellen; gemeente noemt hem zelf in de jaarstukken). Regionale journalistiek nauwelijks doorzocht."

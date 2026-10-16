@@ -105,15 +105,23 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "MEE (en KernKracht)",
-      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. Een cliëntondersteuner gaat mee naar het gesprek met Stichting ZO! en helpt bij een aanvraag, een klacht of een bezwaar. MEE richt zich op mensen met een beperking of chronische ziekte. Bij psychische problemen of problemen in het gezin of met anderen helpt KernKracht: bel 0182 51 90 60 of mail info@kernkracht.nl. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "naam": "MEE",
+      "toelichting": "MEE richt zich op mensen met een beperking of chronische ziekte. Bij psychische problemen of problemen in het gezin of met anderen helpt KernKracht.",
       "telefoon": "0182 52 03 33",
       "email": "contactmh@meeplus.nl",
-      "url": "https://www.zuidplas.nl/hulp-bij-uw-aanvraag-onafhankelijke-clientondersteuning"
+      "url": "https://www.zuidplas.nl/hulp-bij-uw-aanvraag-onafhankelijke-clientondersteuning",
+      "andere": [
+        {
+          "naam": "KernKracht",
+          "telefoon": "0182 51 90 60",
+          "email": "info@kernkracht.nl",
+          "url": "https://www.kernkracht.nl"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klacht over Stichting ZO!",
-      "toelichting": "Bespreek het eerst met de medewerker of diens leidinggevende. Komt u er niet uit, dan dient u een klacht in bij de klachtenfunctionaris van ZO!, per mail of per post. U krijgt binnen 5 werkdagen een ontvangstbevestiging. ZO! streeft naar een antwoord binnen 6 weken. Wilt u de klacht liever niet bij ZO! indienen, omdat u geen vertrouwen meer heeft, dan kan dat bij de klachtencoördinator van de gemeente. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Bespreek het eerst met de medewerker of diens leidinggevende. Komt u er niet uit, dien dan een klacht in bij de klachtenfunctionaris van ZO!, per mail of per post. U krijgt binnen 5 werkdagen een ontvangstbevestiging en ZO! streeft naar een antwoord binnen 6 weken. Heeft u geen vertrouwen meer in ZO!, dan kunt u de klacht ook indienen bij de klachtencoördinator van de gemeente.",
       "url": "https://www.stzo.nl/feedback-en-klachtenregeling",
       "email": "klachten@stzo.nl",
       "extern": {
@@ -122,17 +130,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking maakt u bij de gemeente, niet bij Stichting ZO!. Dat kan online met DigiD of per post. De gemeente beslist meestal binnen 12 weken na het einde van de bezwaartermijn. Een cliëntondersteuner kan u helpen.",
+      "toelichting": "Bezwaar tegen een beschikking maakt u bij de gemeente, niet bij Stichting ZO!. Dat kan online met DigiD of per post. De gemeente beslist meestal binnen 12 weken na het einde van de bezwaartermijn.",
       "url": "https://www.zuidplas.nl/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U voert eerst een gesprek met Stichting ZO!. Daarin legt u uit waarom zorg in natura (de hulp die de gemeente heeft ingekocht) niet past. Daarna maakt u een budgetplan. U moet het budget zelf kunnen beheren en de hulp moet veilig en passend zijn. Hulp van familie, buren of vrienden krijgt een lager tarief dan hulp van een professional.",
+      "toelichting": "U voert eerst een gesprek met Stichting ZO!. Daarin legt u uit waarom zorg in natura (de hulp die de gemeente heeft ingekocht) niet past. Daarna maakt u een budgetplan. Hulp van familie, buren of vrienden krijgt een lager tarief dan hulp van een professional.",
       "url": "https://www.stzo.nl/persoonsgebonden-budget-pgb"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

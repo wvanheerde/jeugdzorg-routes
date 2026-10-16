@@ -91,30 +91,33 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
 
       <section class="section" id="rechten">
         <h2><span class="section-num">2</span>Waar heb ik recht op?</h2>
-        <h3>Onafhankelijke cliëntondersteuning (gratis)</h3>
-        <p class="meta">Een cliëntondersteuner staat naast u, niet naast de gemeente: helpt uw hulpvraag op papier te zetten, gaat mee naar gesprekken en bespreekt ze na. Elke gemeente moet dit gratis aanbieden; de organisatie die het uitvoert verschilt. Vaak is dat MEE, een landelijke organisatie met regionale vestigingen, van oorsprong gespecialiseerd in mensen met een beperking of chronische ziekte. <a href={`${base}/landelijk/#03-rechten`}>Meer over dit recht</a>.</p>
+        {/* Per recht: kop met de kern, de tekst van de gemeente en één contactblok. De algemene uitleg staat op de landelijke pagina
+             (link onderaan); grijze vaste tekst per recht herhaalde wat de gemeentetekst al zei. */}
+        <h3>Cliëntondersteuning: gratis iemand naast u</h3>
         {d.rechten.onafhankelijkeClientondersteuning.toelichting && <p>{d.rechten.onafhankelijkeClientondersteuning.toelichting}</p>}
         <Contact contact={d.rechten.onafhankelijkeClientondersteuning} />
+        {(d.rechten.onafhankelijkeClientondersteuning.andere ?? []).map((c) => <Contact contact={c} />)}
 
-        <h3>Persoonsgebonden budget (pgb)</h3>
-        <p>{d.rechten.pgb.mogelijk ? 'Een pgb is mogelijk.' : 'Een pgb wordt in deze gemeente niet of beperkt verstrekt.'} {d.rechten.pgb.toelichting}
-          {d.rechten.pgb.url && <> <a href={d.rechten.pgb.url} target="_blank" rel="noopener">Meer informatie<span aria-hidden="true"> ↗</span></a></>}</p>
-        <p class="meta">Een pgb vraagt een budgetplan, zorgovereenkomsten, maandelijkse declaraties en een toets op pgb-vaardigheid; reken op enkele uren administratie per maand. <a href={`${base}/landelijk/#03-rechten`}>Wat een pgb van u vraagt</a>.</p>
+        <h3>Persoonsgebonden budget (pgb): zelf hulp inkopen</h3>
+        <p>{!d.rechten.pgb.mogelijk && 'Een pgb wordt in deze gemeente niet of beperkt verstrekt. '}{d.rechten.pgb.toelichting}
+          {d.rechten.pgb.url && <> <a href={d.rechten.pgb.url} target="_blank" rel="noopener">Pgb bij de gemeente<span aria-hidden="true"> ↗</span></a></>}</p>
 
-        <h3>Klacht indienen: de laagdrempelige route</h3>
-        <p class="meta">Voor als er niets gebeurt, er geen plan komt of u slecht wordt behandeld. Geen termijn, vaak snel resultaat. <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>Klacht of bezwaar: wat werkt wanneer?</a></p>
+        <h3>Klacht: als er niets gebeurt of u slecht behandeld wordt</h3>
         <p>{d.rechten.klacht.toelichting}</p>
-        <Contact contact={{ naam: d.rechten.klacht.naam, email: d.rechten.klacht.email, telefoon: d.rechten.klacht.telefoon, url: d.rechten.klacht.url }} />
-        {d.rechten.klacht.extern && <p class="meta">Komt u er intern niet uit: <strong>{d.rechten.klacht.extern.naam}</strong>{d.rechten.klacht.extern.url && <> · <a href={d.rechten.klacht.extern.url} target="_blank" rel="noopener">meer informatie<span aria-hidden="true"> ↗</span></a></>}</p>}
+        <Contact contact={{ naam: d.rechten.klacht.naam, email: d.rechten.klacht.email, telefoon: d.rechten.klacht.telefoon, url: d.rechten.klacht.url, adres: d.rechten.klacht.adres && `Per post: ${d.rechten.klacht.adres}` }} />
+        {d.rechten.klacht.extern && <Contact contact={{ ...d.rechten.klacht.extern, adres: d.rechten.klacht.extern.adres && `Per post: ${d.rechten.klacht.extern.adres}` }} />}
 
-        <h3>Bezwaar: tegen een besluit</h3>
-        <p class="meta">Alleen als er een beschikking ligt waar u het niet mee eens bent. Binnen 6 weken.</p>
-        <p>{d.rechten.bezwaar.toelichting}
-          {d.rechten.bezwaar.url && <> <a href={d.rechten.bezwaar.url} target="_blank" rel="noopener">Bezwaar maken<span aria-hidden="true"> ↗</span></a></>}</p>
-        {postadres && <p class="meta">Per post: Gemeente {d.naam}, {postadres}. Hier stuurt u ook een ingebrekestelling heen, tenzij het besluit een ander adres noemt. <span class="bron">Bron: <a href="https://organisaties.overheid.nl" target="_blank" rel="noopener">Register van Overheidsorganisaties</a></span></p>}
+        <h3>Bezwaar: tegen een besluit, binnen 6 weken</h3>
+        <p>{d.rechten.bezwaar.toelichting}</p>
+        {/* Bezwaar gaat naar het postadres van de gemeente (register), tenzij de gemeente een ander adres noemt (bezwaar.adres). */}
+        {(d.rechten.bezwaar.url || d.rechten.bezwaar.adres || postadres) && <Contact contact={{ naam: `Bezwaar bij gemeente ${d.naam}`, url: d.rechten.bezwaar.url, adres: d.rechten.bezwaar.adres ? `Per post: ${d.rechten.bezwaar.adres}` : d.rechten.bezwaar.adresInBesluit ? undefined : postadres && `Per post: Gemeente ${d.naam}, ${postadres}` }} />}
 
-        {d.rechten.vertrouwenspersoon && (<><h3>Vertrouwenspersoon</h3><Contact contact={d.rechten.vertrouwenspersoon} /></>)}
-        <p class="meta" style="margin-top:1.25rem">Deze rechten gelden in heel Nederland. <a href={`${base}/landelijk/`}>Lees de landelijke uitleg</a>, ook over <a href={`${base}/landelijk/#05-financieel`}>dubbele kinderbijslag en andere financiële regelingen</a>.</p>
+        {d.rechten.vertrouwenspersoon && (<>
+          <h3>Vertrouwenspersoon: iemand aan uw kant</h3>
+          <p>Heeft u vragen over uw rechten, of komt u er met het wijkteam of een hulpverlener niet uit? Een vertrouwenspersoon luistert, legt uit en helpt u bij een klacht. Gratis en onafhankelijk van de gemeente.</p>
+          <Contact contact={d.rechten.vertrouwenspersoon} />
+        </>)}
+        <p class="meta" style="margin-top:1.25rem">Deze rechten gelden in heel Nederland. Meer uitleg: <a href={`${base}/landelijk/#03-rechten`}>cliëntondersteuning en pgb</a>, <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>klacht of bezwaar</a> en <a href={`${base}/landelijk/#05-financieel`}>financiële regelingen</a>.</p>
       </section>
 
       <section class="section" id="aanbod">
@@ -190,7 +193,7 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
         </details>)}
       </section>
 
-      <Sources bronnen={d.meta.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />
+      <Sources bronnen={postadres && !d.rechten.bezwaar.adres && !d.rechten.bezwaar.adresInBesluit ? [...d.meta.bronnen, { titel: 'Register van Overheidsorganisaties (postadres)', url: 'https://organisaties.overheid.nl', geraadpleegd: register.postadresGeraadpleegd }] : d.meta.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />
     </div>
   </div>
 </Base>

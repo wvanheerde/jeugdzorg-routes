@@ -4,21 +4,21 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.staphorst.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Staphorst is Team Samenleving van de gemeente de toegang tot jeugdhulp. U meldt zich zelf aan door te bellen, te mailen of het contactformulier in te vullen. Een verwijzing is niet nodig. Een jeugdconsulent praat met u, bij u thuis of op een andere plek. U maakt samen een plan. Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit). De huisarts mag ook rechtstreeks verwijzen. De gemeente heeft wel met de huisartsen afgesproken dat zij zoveel mogelijk via het team verwijzen. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Staphorst is Team Samenleving van de gemeente de toegang tot jeugdhulp. U meldt zich zelf aan door te bellen, te mailen of het contactformulier in te vullen. Een verwijzing is niet nodig. Een medewerker jeugd praat met u, bij u thuis of op een andere plek. U maakt samen een plan. Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit). De huisarts mag ook rechtstreeks verwijzen. De gemeente heeft wel met de huisartsen afgesproken dat zij zoveel mogelijk via het team verwijzen. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Team Samenleving (jeugdconsulenten van de gemeente)",
-        "omschrijving": "Team Samenleving is het team van de gemeente voor vragen over zorg, jeugd, onderwijs en werk en inkomen. De jeugdconsulenten onderzoeken uw vraag, maken met u een plan en nemen het besluit over specialistische hulp. U meldt zich zelf aan. De consulent blijft tijdens de hulp bij uw gezin betrokken. Voor lichte hulp zonder besluit, zoals een opvoedtraining of thuisbegeleiding, meldt u zich ook via de jeugdconsulent.",
+        "naam": "Team Samenleving (medewerkers jeugd van de gemeente)",
+        "omschrijving": "Team Samenleving is het team van de gemeente voor vragen over zorg, jeugd, onderwijs en werk en inkomen. De medewerkers jeugd onderzoeken uw vraag, maken met u een plan en nemen het besluit over specialistische hulp. U meldt zich zelf aan. De medewerker jeugd blijft tijdens de hulp bij uw gezin betrokken. Voor lichte hulp zonder besluit, zoals een opvoedtraining of thuisbegeleiding, meldt u zich ook via de medewerker jeugd.",
         "stappen": [
           "Bel Team Samenleving of mail het team. U kunt ook het contactformulier op de gemeentesite invullen.",
-          "Krijg soms direct tips van de consulent. Is meer nodig, dan volgt een gesprek bij u thuis of op een andere plek.",
+          "Krijg soms direct tips van de medewerker jeugd. Is meer nodig, dan volgt een gesprek bij u thuis of op een andere plek.",
           "U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE Samen.",
           "Maak samen een plan. U krijgt daar een kopie van. Is specialistische hulp nodig, dan krijgt u een beschikking.",
           "Vraag om een eindgesprek als de hulp bijna klaar is. Dan kijkt u samen of de hulp genoeg was."
         ],
         "contact": {
-          "naam": "Team Samenleving (jeugdconsulenten van de gemeente)",
+          "naam": "Team Samenleving (medewerkers jeugd van de gemeente)",
           "telefoon": "0522 46 74 66",
           "email": "teamsamenleving@staphorst.nl",
           "url": "https://www.staphorst.nl/jeugdhulp"
@@ -51,7 +51,7 @@
         ],
         "contact": [
           {
-            "naam": "Team Samenleving (jeugdconsulenten van de gemeente)",
+            "naam": "Team Samenleving (medewerkers jeugd van de gemeente)",
             "telefoon": "0522 46 74 66",
             "email": "teamsamenleving@staphorst.nl",
             "url": "https://www.staphorst.nl/jeugdhulp"
@@ -88,18 +88,17 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Samen",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner denkt met u mee, helpt bij een aanvraag en kan meegaan naar gesprekken met de gemeente of een zorgverlener. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek met de jeugdconsulent. U mag ook een familielid of vriend meenemen.",
       "telefoon": "088 633 0633",
       "email": "info@meesamen.nl",
       "url": "https://www.staphorst.nl/iemand-die-met-je-meedenkt-als-je-hulp-of-zorg-nodig-hebt"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u goed uitlegt waarom de hulp van een aanbieder met een contract niet past. U dient een pgb-plan in en laat zien dat u het budget kunt beheren, eventueel met hulp van uw netwerk. Vanaf 1 januari 2027 gelden nieuwe regels. Het pgb voor hulp van een professional is dan net zo hoog als het laagste passende tarief van een aanbieder met een contract. Voor hulp van een bekende, zoals familie, is het tarief maximaal 20 euro per uur. Bemiddeling, de pgb-administratie en hulp bij de aanvraag mag u niet uit het pgb betalen."
+      "toelichting": "U legt goed uit waarom de hulp van een aanbieder met een contract niet past. Voor hulp van een bekende, zoals familie, is het tarief maximaal 20 euro per uur. Dat blijft zo na 1 januari 2027. Vanaf dan is het pgb voor hulp van een professional net zo hoog als het laagste passende tarief van een aanbieder met een contract. Bemiddeling, de pgb-administratie en hulp bij de aanvraag mag u niet uit het pgb betalen."
     },
     "klacht": {
       "naam": "Klacht over Team Samenleving of de gemeente",
-      "toelichting": "Team Samenleving hoort bij de gemeente. Een klacht over hoe een medewerker u behandelde, dient u daarom online of met een brief in bij de gemeente. De gemeente behandelt de klacht binnen 6 weken en mag daar 4 weken extra voor nemen. Bent u het niet eens met het antwoord, dan kunt u de Nationale ombudsman om een oordeel vragen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Team Samenleving hoort bij de gemeente. Een klacht over hoe een medewerker u behandelde, dient u daarom online of met een brief in bij de gemeente. De gemeente behandelt de klacht binnen 6 weken en mag daar 4 weken extra voor nemen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.staphorst.nl/klacht-indienen",
       "email": "gemeente@staphorst.nl",
       "telefoon": "0522 46 74 00",
@@ -109,18 +108,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een besluit over jeugdhulp maakt u online of met een brief bezwaar. Een onafhankelijke commissie bezwaarschriften geeft het college (het gemeentebestuur) advies. De gemeente beslist binnen 6 weken op uw bezwaar, of binnen 12 weken als de commissie het behandelt. Het Juridisch Loket, uw rechtsbijstandsverzekeraar of een advocaat kan u vooraf helpen.",
+      "toelichting": "U maakt online of met een brief bezwaar. De gemeente beslist binnen 6 weken op uw bezwaar, of binnen 12 weken als de onafhankelijke commissie bezwaarschriften het behandelt. Het Juridisch Loket, uw rechtsbijstandsverzekeraar of een advocaat kan u vooraf helpen.",
       "url": "https://www.staphorst.nl/bezwaar-maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u dichtbij, zoals opvoedcursussen, trainingen voor kinderen en een preventief traject voor gezinnen met een baby. Specialistische jeugdhulp koopt Staphorst in met tien andere gemeenten, via het Regionaal Serviceteam Jeugd (RSJ) IJsselland. In de Beschikbaarheidswijzer van de regio IJsselland ziet u aanbieders en wachttijden. Vraag de jeugdconsulent om hulp bij het kiezen.",
+    "samenvatting": "Lichte hulp krijgt u dichtbij, zoals opvoedcursussen, trainingen voor kinderen en een preventief traject voor gezinnen met een baby. Specialistische jeugdhulp koopt Staphorst in met tien andere gemeenten, via het Regionaal Serviceteam Jeugd (RSJ) IJsselland. In de Beschikbaarheidswijzer van de regio IJsselland ziet u aanbieders en wachttijden. Vraag de medewerker jeugd om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://beschikbaarheidswijzer.nl/jeugdhulp/ijsselland",
     "categorieen": [
       {
@@ -132,7 +130,7 @@
       },
       {
         "naam": "Thuisbegeleiding",
-        "omschrijving": "Kortdurende hulp thuis om te zien hoe het gezin functioneert en wat nodig is, soms met videohometraining. Aanmelden gaat via een jeugdconsulent.",
+        "omschrijving": "Kortdurende hulp thuis om te zien hoe het gezin functioneert en wat nodig is, soms met videohometraining. Aanmelden gaat via een medewerker jeugd.",
         "hulpsoorten": [
           "ambulante-begeleiding"
         ]
@@ -211,7 +209,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Staphorst: Jeugdhulp",
@@ -347,13 +345,18 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Verordening jeugdhulp gemeente Staphorst 2027",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR767892/1",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Doorlooptijden toegang niet gevonden, regionale journalistiek niet doorzocht; rekenkamerrapport jeugdzorg 2022 is ouder dan drie jaar en niet gebruikt. Samenwerkingsverband VO voor Staphorst niet vastgesteld (VO 22.03 noemt Staphorst niet); pgb-regels komen uit de verordening 2027. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers geheim."
   },
   "jeugdzorgregio": "IJsselland",
   "ervaringen": {
-    "samenvatting": "Staphorst heeft relatief weinig kinderen met jeugdhulp: 307 jeugdigen in 2024, volgens de gemeente 6,3 procent van de kinderen tot en met 17 jaar. Volgens de gemeente wordt veel hulp in de eigen omgeving opgepakt, maar is het jongerenwerk beperkt. Vanaf 1 januari 2027 gelden nieuwe regels voor jeugdhulp. Die leggen beter uit wat de gemeente van ouders en hun netwerk verwacht en wanneer hulp past.\n\nUw aanspreekpunt is een jeugdconsulent van Team Samenleving, zo mogelijk dezelfde tijdens de hele hulp. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken en het plan schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht over de consulent dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "Staphorst heeft relatief weinig kinderen met jeugdhulp: 307 jeugdigen in 2024, volgens de gemeente 6,3 procent van de kinderen tot en met 17 jaar. Volgens de gemeente wordt veel hulp in de eigen omgeving opgepakt, maar is het jongerenwerk beperkt. Vanaf 1 januari 2027 gelden nieuwe regels voor jeugdhulp. Die leggen beter uit wat de gemeente van ouders en hun netwerk verwacht en wanneer hulp past.\n\nUw aanspreekpunt is een medewerker jeugd van Team Samenleving, zo mogelijk dezelfde tijdens de hele hulp. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken en het plan schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht over de medewerker jeugd dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",
@@ -368,7 +371,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Weinig verwijzingen door de huisarts",
-        "samenvatting": "In Staphorst gaan weinig kinderen via de huisarts naar jeugdhulp. De gemeente heeft met de huisartsen afgesproken dat zij zoveel mogelijk via Team Samenleving verwijzen, zodat de consulent vanaf het begin betrokken is. Ook via de huisarts krijgt u dus vaak met een jeugdconsulent te maken.",
+        "samenvatting": "In Staphorst gaan weinig kinderen via de huisarts naar jeugdhulp. De gemeente heeft met de huisartsen afgesproken dat zij zoveel mogelijk via Team Samenleving verwijzen, zodat de medewerker jeugd vanaf het begin betrokken is. Ook via de huisarts krijgt u dus vaak met een medewerker jeugd te maken.",
         "datum": "2025-05-27",
         "bron": {
           "titel": "Monitor Sociaal Domein 2024, paragraaf 2.5 Verwijzers van jeugdzorg",
@@ -388,7 +391,7 @@
       {
         "soort": "clientervaringsonderzoek",
         "titel": "Korte vragenlijsten bij jeugdhulp: kleine groep reacties",
-        "samenvatting": "Ouders krijgen na het huisbezoek en aan het einde van de hulp een korte vragenlijst. In 2024 reageerden 7 van 14 ouders na het huisbezoek en 9 van 18 aan het einde, dus kleine aantallen. Alle 7 vonden dat de consulent hun vraag goed begreep, en 8 van de 9 voelden zich geholpen.",
+        "samenvatting": "Ouders krijgen na het huisbezoek en aan het einde van de hulp een korte vragenlijst. In 2024 reageerden 7 van 14 ouders na het huisbezoek en 9 van 18 aan het einde, dus kleine aantallen. Alle 7 vonden dat de medewerker jeugd hun vraag goed begreep, en 8 van de 9 voelden zich geholpen.",
         "datum": "2025-05-27",
         "bron": {
           "titel": "Monitor Sociaal Domein 2024, paragraaf 2.7 Cliëntervaringsonderzoek Jeugdzorg",
@@ -407,8 +410,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Vaste jeugdconsulent en geregistreerde professionals",
-        "samenvatting": "De gemeente schreef in januari 2026 dat een gezin zo mogelijk de hele hulp met dezelfde jeugdconsulent werkt. Alle jeugdconsulenten staan in het Kwaliteitsregister Jeugd (SKJ). Aan het begin en einde van de hulp vraagt de gemeente naar uw ervaring.",
+        "titel": "Vaste medewerker jeugd en geregistreerde professionals",
+        "samenvatting": "De gemeente schreef in januari 2026 dat een gezin zo mogelijk de hele hulp met dezelfde medewerker jeugd werkt. Alle medewerkers jeugd staan in het Kwaliteitsregister Jeugd (SKJ). Aan het begin en einde van de hulp vraagt de gemeente naar uw ervaring.",
         "datum": "2026-01-27",
         "bron": {
           "titel": "Reactie college op advies Adviesraad Sociaal Domein over regiovisie jeugd 2026-2031",

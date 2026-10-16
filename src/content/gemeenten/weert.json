@@ -99,7 +99,6 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Algemeen Maatschappelijk Werk Midden-Limburg (AMW-ML)",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner luistert, geeft advies, gaat mee naar gesprekken en helpt bij een aanvraag of bij onvrede over een besluit. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek met het CJG.",
       "telefoon": "088 656 0600",
       "email": "clientondersteuning@amwml.nl",
       "url": "https://www.cjgml.nl/gespecialiseerde-jeugdhulp/",
@@ -107,26 +106,27 @@
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk, maar alleen als u uitlegt waarom de hulp van een aanbieder met contract niet bij uw kind past. U maakt samen met het CJG een budgetplan: welke hulp, met welk doel en van wie. U moet het budget zelf kunnen beheren. De gemeente kijkt daar vooraf naar. Er is geen bedrag dat u zonder verantwoording mag besteden, en de Sociale Verzekeringsbank betaalt de zorgverlener. Hulp van familie telt als informele hulp. De gemeente stelt voor pgb-hulp eisen aan de kwaliteit en vraagt een Verklaring Omtrent het Gedrag (VOG). De pgb-tarieven staan in een regeling voor Midden-Limburg die geldt vanaf 1 juli 2026.",
+      "toelichting": "U maakt samen met het CJG een budgetplan: welke hulp, met welk doel en van wie. Er is geen bedrag dat u zonder verantwoording mag besteden. Hulp van familie telt als informele hulp. De gemeente stelt voor pgb-hulp eisen aan de kwaliteit en vraagt een Verklaring Omtrent het Gedrag (VOG). De pgb-tarieven staan in een regeling voor Midden-Limburg die geldt vanaf 1 juli 2026.",
       "url": "https://www.cjgml.nl/gespecialiseerde-jeugdhulp/"
     },
     "klacht": {
       "naam": "Klacht over het CJG Midden-Limburg",
-      "toelichting": "Het CJG-ML voert de toegang uit. Bespreek een klacht eerst met de medewerker. Komt u er niet uit, of gaat het over de medewerker zelf? Dien de klacht dan in via het formulier op de website, per mail of per post. Lukt het daarna niet, dan kunt u terecht bij de onafhankelijke Provinciale Klachtencommissie. Een klacht over de gemeente zelf dient u in bij het college van burgemeester en wethouders. U krijgt binnen 6 weken schriftelijk bericht. Daarna kunt u naar de Nationale ombudsman. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan u bij een klacht helpen.",
+      "toelichting": "Bespreek een klacht over het CJG eerst met uw jeugd- en gezinswerker. Komt u er niet uit, of gaat het over de medewerker zelf? Dien de klacht dan in via het formulier op de website, per mail of per post. Binnen 5 werkdagen reageert het CJG en nodigt het u uit voor een gesprek; het CJG streeft ernaar de klacht binnen 6 weken af te handelen. Een klacht over de gemeente zelf dient u in bij het college van burgemeester en wethouders.",
       "url": "https://www.cjgml.nl/klachten",
       "email": "info@cjgml.nl",
       "extern": {
         "naam": "Provinciale Klachtencommissie (onafhankelijk)",
-        "url": "https://www.cjgml.nl/klachten"
-      }
+        "url": "https://www.cjgml.nl/klachten",
+        "adres": "Postbus 112, 6000 AC Weert"
+      },
+      "adres": "CJG-ML, t.a.v. klacht, Vogelsbleek 10, 6001 BE Weert"
     },
     "bezwaar": {
-      "toelichting": "Het CJG beslist namens de gemeente. Bent u het niet eens met een beschikking? Maak dan schriftelijk bezwaar bij het college van burgemeester en wethouders van Weert. Waar u het bezwaar naartoe stuurt, staat onderaan het besluit. Een cliëntondersteuner kan u daarbij helpen.",
+      "toelichting": "Het CJG beslist namens de gemeente. Bezwaar tegen een beschikking maakt u schriftelijk bij het college van burgemeester en wethouders van Weert. Waar u het bezwaar naartoe stuurt, staat onderaan het besluit.",
       "url": "https://www.weert.nl/bezwaar"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -292,7 +292,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Weert: Jeugdhulp en Centrum voor Jeugd en Gezin (CJG)",
@@ -418,6 +418,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "CJG Midden-Limburg – Klachtenreglement",
+        "url": "https://www.cjgml.nl/wp-content/uploads/2025/09/CJG-ML-Klachtenreglement-versie-22.08.2025.pdf",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie van Weert zit achter bot-controle; jaarstukken en begroting gelezen via de begrotingsportalen, CJG-stukken via Nederweert. Gemeten doorlooptijden, een onafhankelijk cliëntervaringsonderzoek jeugd en een aparte spoedpagina niet gevonden; de Beschikbaarheidswijzer bevat Midden-Limburg West niet. Regionale journalistiek beperkt doorzocht."

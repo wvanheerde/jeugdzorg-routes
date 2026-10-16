@@ -98,20 +98,40 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Onafhankelijke cliëntondersteuning (MEE Samen, Clionn Participaasje, Zorgbelang Drenthe, Thuis in Clientondersteuning)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en het buurtteam. U mag zelf kiezen bij welke organisatie u aanklopt en u hoeft zich niet eerst bij de gemeente te melden. Een cliëntondersteuner kan meegaan naar een gesprek, helpt bij een aanvraag en denkt mee als u het niet eens bent met een besluit. Bel bij voorkeur vóór het eerste gesprek.",
-      "telefoon": "088 633 0633",
-      "email": "info@meesamen.nl",
-      "url": "https://www.assen.nl/onafhankelijke-clientondersteuning"
+      "naam": "Clionn Participaasje",
+      "toelichting": "In Assen kiest u zelf bij welke van vier organisaties u aanklopt. U hoeft zich niet eerst bij de gemeente te melden.",
+      "telefoon": "085 301 9712",
+      "email": "info@clionn.nl",
+      "url": "https://www.clionn.nl/",
+      "andere": [
+        {
+          "naam": "MEE Samen",
+          "telefoon": "088 633 0633",
+          "email": "info@meesamen.nl",
+          "url": "https://www.meesamen.nl/"
+        },
+        {
+          "naam": "Zorgbelang Drenthe",
+          "telefoon": "050 727 1505",
+          "email": "clientondersteuner@zorgbelang-drenthe.nl",
+          "url": "https://www.zorgbelang-drenthe.nl/"
+        },
+        {
+          "naam": "Thuis in Clientondersteuning",
+          "telefoon": "085 303 29 85",
+          "email": "assen@thuisinclientondersteuning.nl",
+          "url": "https://www.thuisinclientondersteuning.nl/"
+        }
+      ]
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "U kunt een persoonsgebonden budget (pgb) krijgen als u recht hebt op hulp en die liever zelf inkoopt. U moet uitleggen waarom hulp van een aanbieder met contract (zorg in natura) volgens u niet past. U, of uw budgetbeheerder, moet het pgb kunnen beheren. De gemeente moet de hulp van goede kwaliteit vinden (volgens het Drents Kwaliteitskader). Het digitale pgb-plan vult u pas in als u daarover een brief van de gemeente hebt. Bemiddeling, pgb-administratie, hulp bij het aanvragen en crisishulp betaalt u niet uit het pgb. Hulp van iemand uit uw netwerk wordt betaald op basis van het minimumloon.",
+      "toelichting": "U legt uit waarom hulp van een aanbieder met contract (zorg in natura) volgens u niet past. De hulp moet voldoen aan het Drents Kwaliteitskader. Het digitale pgb-plan vult u pas in als u daarover een brief van de gemeente hebt. Crisishulp kan niet met een pgb. Iemand uit uw netwerk krijgt een vergoeding op basis van het minimumloon.",
       "url": "https://www.assen.nl/financieringsvormen-jeugdhulp"
     },
     "klacht": {
       "naam": "Klacht over Zorg & Welzijn, Team Jeugd of de gemeente",
-      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit? Dien dan een klacht in bij de klachtencoördinator van de gemeente. Dat kan online, telefonisch of per brief. De gemeente handelt de klacht binnen 6 weken af en kan dat één keer met 4 weken verlengen. Bent u het niet eens met de afhandeling? Dan kunt u terecht bij de onafhankelijke Ombudscommissie Assen. Een eigen klachtenregeling van de buurtteams van Vaart Welzijn is niet openbaar te vinden. Vraag het buurtteam zelf hoe u daar een klacht indient. Klachten over een zorgaanbieder dient u bij de aanbieder zelf in.",
+      "toelichting": "Bespreek het eerst met de medewerker; komt u er niet uit, dien dan online, telefonisch of per brief een klacht in bij de klachtencoördinator van de gemeente. De gemeente handelt de klacht binnen 6 weken af, soms 4 weken later. Bent u het niet eens met de afhandeling, dan kunt u naar de onafhankelijke Ombudscommissie Assen. Voor een klacht over een buurtteam van Vaart Welzijn vraagt u het buurtteam zelf hoe dat gaat. Een klacht over een zorgaanbieder dient u bij de aanbieder zelf in.",
       "url": "https://www.assen.nl/klacht-over-de-gemeente-indienen",
       "extern": {
         "naam": "Ombudscommissie Assen",
@@ -119,12 +139,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking (het besluit van de gemeente) maakt u bij de gemeente Assen. Een bezwaarschriftencommissie die onafhankelijk is van de gemeente bekijkt uw bezwaar. Die kan u uitnodigen voor een hoorzitting. U mag daar iemand meenemen. Daarna beslist de gemeente. Schrijf in uw bezwaar uw naam en adres, de datum en het onderwerp van het besluit, en waarom u het er niet mee eens bent.",
+      "toelichting": "Schrijf in uw bezwaar uw naam en adres, de datum en het onderwerp van het besluit, en waarom u het er niet mee eens bent. Wordt u uitgenodigd voor een hoorzitting, dan mag u iemand meenemen.",
       "url": "https://www.assen.nl/bezwaar-maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

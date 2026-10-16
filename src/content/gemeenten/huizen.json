@@ -4,16 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.maatschappelijkezaken.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Huizen regelt het gemeentelijke team Maatschappelijke Zaken de toegang tot jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. U belt of mailt, of u loopt binnen bij het inloopspreekuur. Een consulent bespreekt dan uw vraag en maakt met u een plan. Hij of zij neemt ook het besluit over specialistische hulp. Voor vragen over opvoeden en opgroeien, en voor het consultatiebureau, kunt u ook terecht bij Jeugd en Gezin van de GGD. De huisarts mag ook rechtstreeks verwijzen. De gemeente vraagt huisartsen om bij voorkeur eerst te verwijzen naar de praktijkondersteuner jeugd. Hoe lang het duurt voordat u een gesprek hebt, is niet openbaar te vinden. Vraag ernaar bij uw aanmelding.",
+    "samenvatting": "In Huizen regelt het gemeentelijke team Maatschappelijke Zaken de toegang tot jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. U belt of mailt, of u loopt binnen bij het inloopspreekuur. Een medewerker jeugd bespreekt dan uw vraag en maakt met u een plan. Hij of zij neemt ook het besluit over specialistische hulp. Voor vragen over opvoeden en opgroeien, en voor het consultatiebureau, kunt u ook terecht bij Jeugd en Gezin van de GGD. De huisarts mag ook rechtstreeks verwijzen. De gemeente vraagt huisartsen om bij voorkeur eerst te verwijzen naar de praktijkondersteuner jeugd. Hoe lang het duurt voordat u een gesprek hebt, is niet openbaar te vinden. Vraag ernaar bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Maatschappelijke Zaken: consulenten jeugd van de gemeente",
-        "omschrijving": "Maatschappelijke Zaken werkt voor de gemeente Huizen en ook voor Blaricum en Laren. De consulenten jeugd bespreken uw vraag en beoordelen of uw kind jeugdhulp krijgt. Zij geven ook het besluit af (beschikking). U meldt zich zelf aan. Lichtere hulp bij opvoeden en opgroeien krijgt u bij Jeugd en Gezin, zonder besluit van de gemeente.",
+        "naam": "Maatschappelijke Zaken: medewerkers jeugd van de gemeente",
+        "omschrijving": "Maatschappelijke Zaken werkt voor de gemeente Huizen en ook voor Blaricum en Laren. De medewerkers jeugd bespreken uw vraag en beoordelen of uw kind jeugdhulp krijgt. Zij geven ook het besluit af (beschikking). U meldt zich zelf aan. Lichtere hulp bij opvoeden en opgroeien krijgt u bij Jeugd en Gezin, zonder besluit van de gemeente.",
         "stappen": [
           "Bel Maatschappelijke Zaken, mail of vul het formulier voor jeugdhulp in. U kunt ook binnenlopen bij het inloopspreekuur.",
-          "Leg uw vraag uit aan het Informatiepunt, dat contact met u opneemt. Daarna krijgt u een consulent.",
-          "Spreek af met de consulent, zo nodig bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Leg uw vraag uit aan het Informatiepunt, dat contact met u opneemt. Daarna krijgt u een medewerker jeugd.",
+          "Spreek af met de medewerker jeugd, zo nodig bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Maak samen een plan van aanpak. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit.",
           "Heeft u eerst lichtere hulp nodig, bijvoorbeeld een gesprek met een opvoedcoach? Meld u dan aan bij Jeugd en Gezin."
         ],
@@ -56,10 +56,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Jeugdconsulenten van de gemeente zijn vaste aanspreekpunten voor scholen in Huizen. Ze schuiven aan bij het overleg over leerlingen die extra zorg nodig hebben. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden Unita (basisonderwijs) en Qinas (voortgezet onderwijs). Bellen met het steunpunt kan anoniem.",
+        "omschrijving": "Medewerkers jeugd van de gemeente zijn vaste aanspreekpunten voor scholen in Huizen. Ze schuiven aan bij het overleg over leerlingen die extra zorg nodig hebben. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden Unita (basisonderwijs) en Qinas (voortgezet onderwijs). Bellen met het steunpunt kan anoniem.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school of de jeugdconsulent van de gemeente kan meedenken. U kunt zich ook zelf aanmelden bij Maatschappelijke Zaken.",
+          "Vraag school of de medewerker jeugd van de gemeente kan meedenken. U kunt zich ook zelf aanmelden bij Maatschappelijke Zaken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband van de school van uw kind."
         ],
         "contact": [
@@ -109,19 +109,18 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Dichtbij",
-      "toelichting": "Gratis en onafhankelijk. MEE Dichtbij denkt met u mee, bereidt het gesprek met de gemeente met u voor en gaat zo nodig mee. U kunt ook ondersteuning vragen nadat de gemeente hulp heeft toegewezen. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
       "telefoon": "035 303 0164",
       "email": "hbel@meedichtbij.nl",
       "url": "https://www.maatschappelijkezaken.nl/clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U maakt een pgb-plan met het formulier Persoonlijk plan Jeugd. Daarin legt u uit waarom hulp van een aanbieder met een contract (hulp in natura) niet past. Ook schrijft u welke hulp u wilt inkopen, wie die geeft en hoe u de kwaliteit bewaakt. De gemeente kent een pgb toe bij een medische noodzaak. Zonder medische noodzaak kan het bij tijdelijke overbelasting, of bij een andere aantoonbare beperking waardoor hulp in natura niet haalbaar of passend is. De gemeente kijkt of u het budget kunt beheren, bijvoorbeeld de administratie en de taal. Lukt dat niet zelf? Dan mag iemand anders het voor u doen, een budgetbeheerder. Bij schulden of een ernstige verslaving kan de gemeente een pgb afwijzen. De gemeente beslist binnen acht weken.",
+      "toelichting": "U maakt een pgb-plan met het formulier Persoonlijk plan Jeugd en legt daarin uit waarom hulp van een aanbieder met een contract niet past. De gemeente kent een pgb toe bij een medische noodzaak, of zonder die noodzaak bij tijdelijke overbelasting of een andere aantoonbare beperking waardoor hulp van een aanbieder niet haalbaar of passend is. De gemeente kijkt of u het budget kunt beheren. Bij bijvoorbeeld grote schulden kan het antwoord nee zijn; vraag dan naar hulp in natura of een budgetbeheerder. De gemeente beslist binnen acht weken.",
       "url": "https://www.maatschappelijkezaken.nl/persoonsgebonden-budget"
     },
     "klacht": {
-      "naam": "Klacht over Maatschappelijke Zaken en de consulenten",
-      "toelichting": "De consulenten werken voor de gemeente. Een klacht over hun bejegening of over een te trage afhandeling dient u in bij de klachtencoördinator van Maatschappelijke Zaken: online, per brief of per e-mail. Eerst probeert de leidinggevende het met u op te lossen. Lukt dat niet, dan beoordeelt de klachtencommissie van de gemeente de klacht. Die bestaat uit de burgemeester, de gemeentesecretaris en de klachtencoördinator. U krijgt binnen 10 weken een schriftelijk antwoord. Een klacht over een zorgaanbieder meldt u bij het regionale klachtenmeldpunt sociaal domein van Gooi en Vechtstreek. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "naam": "Klacht over Maatschappelijke Zaken en de medewerkers jeugd",
+      "toelichting": "De medewerkers jeugd werken voor de gemeente. Een klacht over hoe zij u behandelen of over een te trage afhandeling dient u online, per brief of per e-mail in bij de klachtencoördinator van Maatschappelijke Zaken. Eerst probeert de leidinggevende het met u op te lossen; lukt dat niet, dan beoordeelt de klachtencommissie van de gemeente de klacht. U krijgt binnen 10 weken een schriftelijk antwoord. Een klacht over een zorgaanbieder meldt u bij het regionale klachtenmeldpunt sociaal domein van Gooi en Vechtstreek.",
       "url": "https://www.maatschappelijkezaken.nl/klacht-over-medewerker-van-maatschappelijke-zaken-hbel",
       "email": "gemeente@huizen.nl",
       "extern": {
@@ -130,18 +129,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bent u het niet eens met een besluit over jeugdhulp? Maak dan bezwaar met het online formulier voor het sociaal domein, of schriftelijk. Stuur uw bezwaar ook als het nog niet compleet is. U mag het later aanvullen. Een onafhankelijke commissie voor de bezwaarschriften behandelt het bezwaar. Bel eerst gerust uw consulent: die kan het besluit toelichten.",
+      "toelichting": "Maak bezwaar met het online formulier voor het sociaal domein, of schriftelijk. Stuur uw bezwaar ook als het nog niet compleet is; u mag het later aanvullen. Bel eerst gerust uw medewerker jeugd: die kan het besluit toelichten.",
       "url": "https://www.huizen.nl/bezwaar-en-beroep"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp bij opvoeden en opgroeien krijgt u bij Jeugd en Gezin en bij de gemeente, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Huizen in met de andere gemeenten in Gooi en Vechtstreek. Aanbieders van zorg en ondersteuning in de regio vindt u openbaar op KiesZO. Wachttijden per aanbieder staan daar niet bij. Vraag uw consulent om hulp bij het kiezen.",
+    "samenvatting": "Lichte hulp bij opvoeden en opgroeien krijgt u bij Jeugd en Gezin en bij de gemeente, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Huizen in met de andere gemeenten in Gooi en Vechtstreek. Aanbieders van zorg en ondersteuning in de regio vindt u openbaar op KiesZO. Wachttijden per aanbieder staan daar niet bij. Vraag uw medewerker jeugd om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://www.kieszo.nl",
     "categorieen": [
       {
@@ -359,7 +357,7 @@
       {
         "soort": "clientervaringsonderzoek",
         "titel": "Ouders over jeugdhulp in Gooi en Vechtstreek",
-        "samenvatting": "Het regionale onderzoek bestond uit een online vragenlijst (64 ouders en 39 jongeren) en een gesprek met drie ouders. De resultaten zijn niet per gemeente uitgesplitst. Ouders noemden vooral meer snelheid, betere samenwerking met consulenten en minder bureaucratie als wensen.",
+        "samenvatting": "Het regionale onderzoek bestond uit een online vragenlijst (64 ouders en 39 jongeren) en een gesprek met drie ouders. De resultaten zijn niet per gemeente uitgesplitst. Ouders noemden vooral meer snelheid, betere samenwerking met medewerkers jeugd en minder bureaucratie als wensen.",
         "datum": "2025-04",
         "bron": {
           "titel": "Clientervaringsonderzoek Jeugd 2024 Gooi en Vechtstreek",
@@ -388,8 +386,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Jeugdconsulenten vaste gezichten op scholen",
-        "samenvatting": "Sinds 2015 koppelt Huizen jeugdconsulenten aan vaste scholen, zodat problemen vroeg in beeld komen en zwaardere hulp minder nodig is. Ze schuiven aan bij het overleg over leerlingen die extra zorg nodig hebben. Volgens de regio is die makkelijk bereikbare hulp lastig vast te houden als een gezin naar een andere gemeente verhuist.",
+        "titel": "Medewerkers jeugd vaste gezichten op scholen",
+        "samenvatting": "Sinds 2015 koppelt Huizen medewerkers jeugd aan vaste scholen, zodat problemen vroeg in beeld komen en zwaardere hulp minder nodig is. Ze schuiven aan bij het overleg over leerlingen die extra zorg nodig hebben. Volgens de regio is die makkelijk bereikbare hulp lastig vast te houden als een gezin naar een andere gemeente verhuist.",
         "datum": "2026-03",
         "bron": {
           "titel": "Geleerde lessen IDU: jeugdconsulenten gemeente Huizen en onderwijs",

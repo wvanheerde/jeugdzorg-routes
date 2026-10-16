@@ -83,19 +83,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (MEE Noord, Clionn, Zorgbelang Fryslân en Client & CO)",
-      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. U kiest zelf een van de vier organisaties. Een cliëntondersteuner gaat mee naar gesprekken, helpt bij een aanvraag en bij problemen met de hulp. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek met Team Jeugd.",
+      "toelichting": "U kiest zelf een van de vier organisaties.",
       "telefoon": "088 023 1100",
       "email": "aanmeldpunt@meenoord.nl",
       "url": "https://www.achtkarspelen.nl/onafhankelijke-clientondersteuner-oco"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U moet het budget kunnen beheren. U moet ook goed uitleggen waarom hulp van een aanbieder met een contract niet past. De hulp moet veilig en van goede kwaliteit zijn. Voor een aanbieder zonder contract is het tarief maximaal 80 procent van het tarief van de gemeente. Hulp van bekenden (informele hulp) kan alleen als de problemen niet op te lossen zijn met hulp die ouders normaal zelf geven (gebruikelijke hulp). Sinds 1 januari 2026 beoordeelt de gemeente zulke aanvragen strenger. Voor crisishulp is geen pgb mogelijk. Het besluit komt binnen acht weken, tenzij de gemeente de termijn verlengt.",
+      "toelichting": "U legt goed uit waarom hulp van een aanbieder met een contract niet past. Voor een aanbieder zonder contract is het tarief hooguit 80 procent van het tarief van de gemeente. Hulp van bekenden kan alleen als de problemen niet op te lossen zijn met wat ouders normaal zelf doen (gebruikelijke hulp); sinds 1 januari 2026 beoordeelt de gemeente dat strenger. Voor crisishulp is geen pgb mogelijk. Het besluit komt binnen acht weken, tenzij de gemeente de termijn verlengt.",
       "url": "https://api2.ibabs.biz/publicdownload.aspx?site=Achtkarspelen&id=5f8720e6-a62f-43e9-8a51-ef2c5dd9abb5"
     },
     "klacht": {
       "naam": "Klacht over de gemeente en Team Jeugd",
-      "toelichting": "Team Jeugd werkt voor de gemeente. Een klacht over het gedrag van een medewerker gaat daarom via de klachtenregeling van de gemeente, met een klachtencoördinator. Dien de klacht online in, bel de gemeente of stuur een brief (Gemeente Achtkarspelen, t.a.v. Klachtencoördinator, Postbus 2, 9285 ZV Buitenpost). Bent u het niet eens met een besluit, dan maakt u bezwaar. Komt u er met de gemeente niet uit, dan kunt u naar de Nationale ombudsman.",
+      "toelichting": "Team Jeugd werkt voor de gemeente. Een klacht over het gedrag van een medewerker gaat daarom naar de klachtencoördinator van de gemeente. Dien de klacht online in, bel de gemeente of stuur een brief (Gemeente Achtkarspelen, t.a.v. Klachtencoördinator, Postbus 2, 9285 ZV Buitenpost).",
       "url": "https://www.achtkarspelen.nl/klacht-indienen",
       "telefoon": "14 0511",
       "extern": {
@@ -104,12 +104,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Maak bezwaar tegen een besluit over jeugdhulp online met DigiD of per brief. Leg uit waarom u het niet eens bent. Een groep medewerkers van de gemeente bekijkt het bezwaar. Vaak nodigen zij u uit voor een gesprek. Daarna adviseren zij het college. Bent u het daarna nog niet eens, dan kunt u in beroep bij de rechtbank.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief, en leg uit waarom u het niet eens bent. Een groep medewerkers van de gemeente bekijkt het bezwaar en nodigt u vaak uit voor een gesprek.",
       "url": "https://www.achtkarspelen.nl/bezwaar-maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

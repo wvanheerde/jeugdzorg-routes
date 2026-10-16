@@ -5,17 +5,17 @@
   "jeugdzorgregio": "Rijnmond",
   "websiteJeugd": "https://www.voorneaanzee.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Voorne aan Zee (Brielle, Hellevoetsluis en Westvoorne) vraagt u hulp bij opvoeden en opgroeien aan bij het Sociaal Gebiedsteam. Daarin werken onder anderen jeugdconsulenten, jeugd- en gezinscoaches en medewerkers van het Centrum voor Jeugd en Gezin (CJG Rijnmond). U belt daarvoor de gemeente. U kunt ook eerst langsgaan bij de schoolmaatschappelijk werker, het CJG of het inloopmoment van Fijn je te Zien. Of bij de praktijkondersteuner jeugd: een medewerker bij de huisarts die helpt bij vragen over opvoeden en psychische klachten. In Oostvoorne en Rockanje is er geen praktijkondersteuner jeugd. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. De gemeente wil later één loket voor alle hulpvragen: digitaal, telefonisch en op plekken in Brielle, Hellevoetsluis en Rockanje. Dat is nog een plan.",
+    "samenvatting": "In Voorne aan Zee (Brielle, Hellevoetsluis en Westvoorne) vraagt u hulp bij opvoeden en opgroeien aan bij het Sociaal Gebiedsteam. Daarin werken onder anderen medewerkers jeugd, jeugd- en gezinscoaches en medewerkers van het Centrum voor Jeugd en Gezin (CJG Rijnmond). U belt daarvoor de gemeente. U kunt ook eerst langsgaan bij de schoolmaatschappelijk werker, het CJG of het inloopmoment van Fijn je te Zien. Of bij de praktijkondersteuner jeugd: een medewerker bij de huisarts die helpt bij vragen over opvoeden en psychische klachten. In Oostvoorne en Rockanje is er geen praktijkondersteuner jeugd. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. De gemeente wil later één loket voor alle hulpvragen: digitaal, telefonisch en op plekken in Brielle, Hellevoetsluis en Rockanje. Dat is nog een plan.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Gebiedsteam Voorne aan Zee",
-        "omschrijving": "Het Sociaal Gebiedsteam beoordeelt aanvragen voor specialistische jeugdhulp. Het team geeft daarvoor een beschikking (een besluit van de gemeente). Lichte hulp krijgt u meestal meteen, zonder besluit. In het team werken onder meer een onafhankelijke cliëntondersteuner, jeugd- en gezinscoaches en jeugdconsulenten. U mag zelf een familiegroepsplan indienen: een plan dat u met familie en bekenden maakt. De gemeente moet u daarover informeren.",
+        "omschrijving": "Het Sociaal Gebiedsteam beoordeelt aanvragen voor specialistische jeugdhulp. Het team geeft daarvoor een beschikking (een besluit van de gemeente). Lichte hulp krijgt u meestal meteen, zonder besluit. In het team werken onder meer een onafhankelijke cliëntondersteuner, jeugd- en gezinscoaches en medewerkers jeugd. U mag zelf een familiegroepsplan indienen: een plan dat u met familie en bekenden maakt. De gemeente moet u daarover informeren.",
         "stappen": [
           "Bel de gemeente. Het Sociaal Gebiedsteam is op werkdagen bereikbaar van 9.00 tot 17.00 uur.",
-          "Vertel wat er speelt en vraag om een gesprek met een jeugdconsulent. Neem zo nodig een onafhankelijke cliëntondersteuner mee.",
+          "Vertel wat er speelt en vraag om een gesprek met een medewerker jeugd. Neem zo nodig een onafhankelijke cliëntondersteuner mee.",
           "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig? Vraag dan om een beschikking.",
-          "Neem rechtstreeks contact op met uw jeugdconsulent als u die al hebt."
+          "Neem rechtstreeks contact op met uw medewerker jeugd als u die al hebt."
         ],
         "contact": {
           "naam": "Gemeente Voorne aan Zee, Sociaal Gebiedsteam",
@@ -105,32 +105,33 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Plus en SBO",
-      "toelichting": "MEE Plus en SBO helpen gratis en zijn onafhankelijk van de gemeente en van zorgaanbieders. Zij helpen onder meer bij vragen over opvoeding en ontwikkeling, school en werk. Een cliëntondersteuner kan samen met u uw hulpvraag op papier zetten en meegaan naar gesprekken met de gemeente. De cliëntondersteuner helpt ook bij een meningsverschil met de gemeente of een aanbieder. U neemt zelf rechtstreeks contact op met MEE Plus of SBO.",
+      "toelichting": "MEE Plus en SBO helpen onder meer bij vragen over opvoeding en ontwikkeling, school en werk, en bij een meningsverschil met de gemeente of een aanbieder. U neemt zelf rechtstreeks contact op met MEE Plus of SBO.",
       "url": "https://www.voorneaanzee.nl/onafhankelijke-clientondersteuning"
     },
     "klacht": {
       "naam": "Klacht over de gemeente en het Sociaal Gebiedsteam",
-      "toelichting": "Het Sociaal Gebiedsteam hoort bij de gemeente. Een klacht over een medewerker of over hoe u bent behandeld, dient u daarom in bij de gemeente. U krijgt een schriftelijke ontvangstbevestiging. De gemeente zoekt eerst samen met u een oplossing. Lukt dat niet, dan geeft een onafhankelijke klachtencommissie advies. De gemeente beslist binnen 6 weken, of binnen 10 weken als de klacht formeel wordt behandeld. Een klacht over een zorgaanbieder dient u in bij de aanbieder zelf.",
+      "toelichting": "Het Sociaal Gebiedsteam hoort bij de gemeente, dus een klacht over een medewerker of over hoe u bent behandeld dient u in bij de gemeente. De gemeente zoekt eerst samen met u een oplossing. Lukt dat niet, dan geeft een onafhankelijke klachtencommissie advies. De gemeente beslist binnen 6 weken, of binnen 10 weken als de klacht formeel wordt behandeld. Een klacht over een zorgaanbieder dient u in bij de aanbieder zelf.",
       "url": "https://www.voorneaanzee.nl/klacht-indienen",
       "email": "gemeente@voorneaanzee.nl",
       "telefoon": "14 0181",
       "extern": {
-        "naam": "Ombudsman Rotterdam-Rijnmond (gratis, 0800 0802)",
-        "url": "https://orr.nl"
+        "naam": "Ombudsman Rotterdam-Rijnmond (gratis)",
+        "url": "https://orr.nl",
+        "telefoon": "0800 0802",
+        "email": "info@orr.nl"
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking (het besluit van de gemeente) maakt u bij de gemeente. Dat kan per post of digitaal met DigiD. U krijgt een ontvangstbevestiging. Meestal volgt een uitnodiging voor een hoorzitting bij een onafhankelijke adviescommissie. De gemeente beslist binnen 12 weken na het einde van de bezwaartermijn. Die termijn kan met 6 weken worden verlengd. Daarna kunt u in beroep bij de rechtbank.",
+      "toelichting": "Bezwaar kan per post of digitaal met DigiD. De gemeente beslist binnen 12 weken na het einde van de bezwaartermijn; dat kan met 6 weken worden verlengd.",
       "url": "https://www.voorneaanzee.nl/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Het uitgangspunt is hulp in natura: hulp van een aanbieder met een contract met de gemeente. Een pgb (persoonsgebonden budget) is mogelijk als u een budgetplan maakt. Daarin legt u uit waarom hulp in natura niet past. Ook moet u laten zien dat het pgb tot betere en doelmatiger (efficiëntere) hulp leidt. Helpt iemand uit uw netwerk, dan mag die persoon niet overbelast raken. Voor pleegzorg, gezinshuizen en vergelijkbaar verblijf is geen pgb mogelijk. Het pgb-tarief is een deel van het tarief voor hulp van een aanbieder met contract: 90% voor een instelling zonder contract en 75% voor een zelfstandige zonder personeel (zzp'er). Beide moeten onder meer ingeschreven staan bij de Kamer van Koophandel en de juiste diploma's hebben. Voor hulp van iemand uit uw netwerk geldt het minimumloon. In de tarieventabel (prijspeil 2024) is dat 20 euro per uur. Voor hulp uit het netwerk die u niet verplicht bent te geven, is er alleen een tegemoetkoming van 141 euro per maand. Het pgb is nooit hoger dan de goedkoopste passende hulp in natura. Hebt u al een beschikking? Die blijft gelden tot de einddatum.",
+      "toelichting": "In een budgetplan legt u uit waarom hulp in natura (van een aanbieder met contract) niet past en dat het pgb tot betere en doelmatiger hulp leidt. Voor pleegzorg, gezinshuizen en vergelijkbaar verblijf is geen pgb mogelijk. Een instelling zonder contract krijgt 90% van het tarief in natura, een zzp'er 75%; beide moeten onder meer bij de Kamer van Koophandel staan en de juiste diploma's hebben. Iemand uit uw netwerk krijgt het minimumloon (20 euro per uur, prijspeil 2024), maar mag niet overbelast raken. Voor netwerkhulp die u niet verplicht bent te geven, is er alleen een tegemoetkoming van 141 euro per maand.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR727742/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis; gaat zo nodig mee naar gesprekken met de gemeente en helpt bij een klacht of bezwaar.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

@@ -186,7 +186,8 @@ li { margin-bottom: .3rem; }
 .toc { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 2rem; }
 .toc a { font-size: .9rem; text-decoration: none; border: 1px solid var(--c-border); background: var(--c-surface); border-radius: 999px; padding: .3rem .9rem; color: var(--c-text); }
 .toc a:hover { border-color: var(--c-primary); color: var(--c-primary-dark); }
-@media (min-width: 960px) { .page-with-side .toc { display: none; } }
+/* Met zijnavigatie zijn de knoppen overbodig; ook de omhulling (.toc-wrap, met eigen marge) weg, anders staat het eerste blok lager dan de zijbalk. */
+@media (min-width: 960px) { .page-with-side .toc, .page-with-side .toc-wrap { display: none; } }
 
 /* ---------- Direct regelen ---------- */
 .linklist { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); }

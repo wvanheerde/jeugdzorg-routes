@@ -91,13 +91,22 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Adviespunt Zorgbelang of MEE Dichtbij",
-      "toelichting": "Gratis en onafhankelijk van de gemeente. Een cliëntondersteuner geeft advies en kan mee naar het gesprek met Geynwijs. Geynwijs noemt op de website Adviespunt Zorgbelang en MEE. Regel dit bij voorkeur vóór het keukentafelgesprek.",
-      "url": "https://adviespuntzorgbelang.nl/"
+      "naam": "Adviespunt Zorgbelang",
+      "toelichting": "U kiest zelf tussen Adviespunt Zorgbelang en MEE Dichtbij. Een cliëntondersteuner kan mee naar het gesprek met Geynwijs.",
+      "telefoon": "0900 243 81 81",
+      "url": "https://adviespuntzorgbelang.nl/",
+      "andere": [
+        {
+          "naam": "MEE Dichtbij",
+          "telefoon": "020 512 72 72",
+          "email": "info@meedichtbij.nl",
+          "url": "https://www.mee-ugv.nl/gemeentes/nieuwegein/"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klacht over Geynwijs of de gemeente (ombudsfunctionaris)",
-      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit? Dien dan een klacht in bij de gemeente. De ombudsfunctionaris geeft die door aan de leidinggevende, die met u in gesprek gaat. Lukt dat niet, dan beoordeelt de ombudsfunctionaris de klacht. Gaat de klacht over een zorgaanbieder? Dan geldt de klachtenregeling van die aanbieder. Over iets van langer dan een jaar geleden kunt u geen klacht indienen.",
+      "toelichting": "Een klacht dient u in bij de gemeente, tot een jaar na het voorval. De ombudsfunctionaris geeft die door aan de leidinggevende, die met u in gesprek gaat. Lukt dat niet, dan beoordeelt de ombudsfunctionaris de klacht. Gaat de klacht over een zorgaanbieder? Dan geldt de klachtenregeling van die aanbieder.",
       "url": "https://www.nieuwegein.nl/contact/klacht-indienen",
       "email": "klachten@nieuwegein.nl",
       "telefoon": "14 030",
@@ -107,17 +116,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking (het besluit over uw hulp) maakt u bij de gemeente Nieuwegein. Een onafhankelijke Commissie bezwaarschriften behandelt het. Die kijkt eerst of een informeel gesprek met u en de gemeente kan helpen. U kunt digitaal bezwaar maken met DigiD. Bel gerust eerst de gemeente voor advies.",
+      "toelichting": "Bel gerust eerst de gemeente voor advies. Een onafhankelijke Commissie bezwaarschriften kijkt eerst of een informeel gesprek met u en de gemeente kan helpen. U kunt digitaal bezwaar maken met DigiD.",
       "url": "https://www.nieuwegein.nl/contact/bezwaar-en-beroep"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "U krijgt een pgb als u uitlegt waarom hulp in natura niet past. Hulp in natura is hulp van een aanbieder met een contract bij de gemeente. U moet het budget zelf kunnen beheren, of daarbij hulp hebben. U schrijft een pgb-plan in het formulier van de gemeente. De gemeente moet de gekozen hulp van goede kwaliteit vinden. Een zzp'er krijgt 75% van het uurtarief dat de gemeente zelf betaalt. Een organisatie zonder contract met de gemeente krijgt 100% van dat tarief. Hulp van iemand uit uw netwerk wordt betaald met minstens het minimumloon. Tussenpersonen en belangenbehartigers betaalt u niet uit het pgb.",
+      "toelichting": "U schrijft een pgb-plan in het formulier van de gemeente. Een zzp'er krijgt 75% van het uurtarief dat de gemeente zelf betaalt. Een organisatie zonder contract met de gemeente krijgt 100% van dat tarief. Hulp van iemand uit uw netwerk wordt betaald met minstens het minimumloon. Tussenpersonen en belangenbehartigers betaalt u niet uit het pgb.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR633769/2"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -338,7 +346,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Nieuwegein - Geynwijs",
@@ -504,6 +512,16 @@
         "titel": "SWV VO Zuid-Utrecht",
         "url": "https://swv-zuidutrecht.nl/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE Dichtbij - Nieuwegein",
+        "url": "https://www.mee-ugv.nl/gemeentes/nieuwegein/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Adviespunt Zorgbelang",
+        "url": "https://adviespuntzorgbelang.nl/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Gemeten doorlooptijden Geynwijs en een klachtenregeling specifiek voor Geynwijs niet gevonden; klachten lopen via de ombudsfunctionaris van de gemeente. Tarieven pgb komen uit de Verordening 2020 (versie 2), nieuwere beleidsregels niet nagelopen. IGJ- en journalistieke bronnen over Geynwijs niet gevonden. Verordening 2020 is gecontroleerd: geldend sinds 3 december 2025, pgb-regels actueel."

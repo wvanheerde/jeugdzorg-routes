@@ -96,15 +96,31 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "MEE Gelderse Poort, De Kentering en Stichting BWN",
-      "toelichting": "Gratis en onafhankelijk van de buurtteams. MEE Gelderse Poort ondersteunt met name bij een ontwikkelings- of verstandelijke beperking; De Kentering en Stichting BWN bieden bredere ondersteuning in het sociaal domein. De gemeente en de buurtteams wijzen zelf op deze drie organisaties voor hulp bij een aanvraag, een persoonlijk plan of het vinden van passende zorg.",
+      "naam": "MEE Gelderse Poort",
+      "toelichting": "MEE Gelderse Poort helpt vooral bij een ontwikkelings- of verstandelijke beperking; De Kentering en Stichting BWN helpen breder. De gemeente en de buurtteams wijzen zelf op deze drie organisaties.",
       "telefoon": "088 633 0000",
-      "url": "https://buurtteamsjeugdengezin.nl/onafhankelijke-ondersteuning/",
-      "openingstijden": "MEE: werkdagen 9.00–12.30 uur; De Kentering: werkdagen 10.00–16.00 uur"
+      "email": "contactgp@meeplus.nl",
+      "url": "https://www.meegeldersepoort.nl/werk/clientondersteuning",
+      "openingstijden": "Telefonisch werkdagen 9.00–12.30 uur",
+      "andere": [
+        {
+          "naam": "De Kentering",
+          "telefoon": "024 324 99 75",
+          "email": "ondersteuning@dekentering.info",
+          "url": "https://www.dekentering.info/clientondersteuning/",
+          "openingstijden": "Telefonisch werkdagen 10.00–16.00 uur"
+        },
+        {
+          "naam": "Stichting BWN",
+          "telefoon": "024 751 11 40",
+          "email": "info@stichtingbwn.nl",
+          "url": "https://www.stichtingbwn.nl/contact"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klachtenregeling Buurtteams Jeugd en Gezin",
-      "toelichting": "Meld een klacht over hoe u bent behandeld bij de teamleider van uw buurtteam; die neemt binnen 5 werkdagen contact op voor een gesprek en streeft naar een oplossing binnen 6 weken (eenmalig te verlengen met 4 weken). Komt u er niet uit, dan kunt u de klacht voorleggen aan de Onafhankelijke Klachtencommissie (OKC). Gaat uw klacht over de gemeente zelf, of bent u niet tevreden over de afhandeling, dan kunt u terecht bij de Ombudsman Nijmegen (0800 1027, gratis).",
+      "toelichting": "Een klacht over hoe u bent behandeld meldt u bij de teamleider van uw buurtteam. Die neemt binnen 5 werkdagen contact op en zoekt binnen 6 weken een oplossing (één keer 4 weken langer). Komt u er niet uit, dan kunt u naar de Onafhankelijke Klachtencommissie (OKC). Gaat uw klacht over de gemeente zelf, of bent u niet tevreden over de afhandeling, dan kunt u naar de Ombudsman Nijmegen (0800 1027, gratis).",
       "url": "https://buurtteamsjeugdengezin.nl/klachten-en-bezwaren/klacht-buurtteams/",
       "email": "klachten@buurtteamsjeugdengezin.nl",
       "telefoon": "024 220 3000",
@@ -114,17 +130,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bent u het niet eens met de beschikking, bespreek dit dan eerst met uw buurtteam. Daarna kunt u binnen 6 weken na de datum van het besluit bezwaar maken: online met DigiD via het bezwaarformulier van de gemeente, of per brief aan het College van burgemeester en wethouders, Postbus 9105, 6500 HG Nijmegen. De gemeente beslist binnen 18 weken (24 weken als een onafhankelijke commissie adviseert); daarna is beroep bij de rechtbank Gelderland mogelijk.",
+      "toelichting": "Bespreek het besluit eerst met uw buurtteam. Maak daarna bezwaar online met DigiD via het bezwaarformulier, of per brief aan het college van burgemeester en wethouders (adres hieronder). De gemeente beslist binnen 18 weken, of 24 weken als een onafhankelijke commissie adviseert.",
       "url": "https://www.nijmegen.nl/diensten/klacht-bezwaar-en-beroep/bezwaar-maken-beroep-instellen/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb is mogelijk als u zelf in staat bent de taken en verantwoordelijkheden die daarbij horen uit te voeren, zoals het afsluiten van een zorgovereenkomst en het bijhouden van een administratie. Na het gesprek met het buurtteam over wat u nodig heeft, toetst de gemeente of u aan de pgb-voorwaarden voldoet en ontvangt u een beschikking met het besluit.",
+      "toelichting": "Na het gesprek met het buurtteam over wat u nodig heeft, toetst de gemeente of u aan de pgb-voorwaarden voldoet. U krijgt daarna een beschikking met het besluit.",
       "url": "https://www.nijmegen.nl/diensten/zorg-en-hulp/pgb/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -369,7 +384,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Buurtteams Jeugd en Gezin Nijmegen – Buurtteams",
@@ -545,6 +560,21 @@
         "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland: contact",
         "url": "https://www.steunpuntnijmegenstromenland.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "De Kentering - Contact",
+        "url": "https://www.dekentering.info/contact/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "MEE Gelderse Poort - Contact",
+        "url": "https://www.meegp.nl/",
+        "geraadpleegd": "2026-10-16"
+      },
+      {
+        "titel": "Stichting BWN - Contact",
+        "url": "https://www.stichtingbwn.nl/contact",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: geen cliëntervaringsonderzoek Jeugd na 2023. De site van de Onafhankelijke Klachtencommissie is alleen via http bereikbaar."

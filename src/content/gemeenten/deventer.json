@@ -5,7 +5,7 @@
   "jeugdzorgregio": "IJsselland",
   "websiteJeugd": "https://www.deventer.nl/zorg-en-ondersteuning/jeugdhulp/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Deventer is Team Uitvoering Jeugd (voorheen Team Toegang Jeugd) van de gemeente de toegang tot specialistische jeugdhulp. Het team doet het onderzoek, biedt zelf kortdurende ambulante hulp en geeft de beschikking af. Voor opvoed- en ontwikkelvragen kunt u terecht bij de jeugdgezondheidszorg van GGD IJsselland. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; bij meerdere huisartsen werkt een jeugdconsulent van het team, en op scholen voor voortgezet onderwijs werken jeugdhulpverleners van de gemeente. Let op: de gemeente meldt zelf een wachttijd van ongeveer drie maanden bij het team.",
+    "samenvatting": "In Deventer is Team Uitvoering Jeugd (voorheen Team Toegang Jeugd) van de gemeente de toegang tot specialistische jeugdhulp. Het team doet het onderzoek, biedt zelf kortdurende ambulante hulp en geeft de beschikking af. Voor opvoed- en ontwikkelvragen kunt u terecht bij de jeugdgezondheidszorg van GGD IJsselland. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; bij meerdere huisartsen werkt een medewerker jeugd van het team, en op scholen voor voortgezet onderwijs werken jeugdhulpverleners van de gemeente. Let op: de gemeente meldt zelf een wachttijd van ongeveer drie maanden bij het team.",
     "routes": [
       {
         "type": "wijkteam",
@@ -29,10 +29,10 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het gemeentelijke team. Bij een deel van de Deventer huisartsen werkt een jeugdconsulent van de gemeente in de praktijk.",
+        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het gemeentelijke team. Bij een deel van de Deventer huisartsen werkt een medewerker jeugd van de gemeente in de praktijk.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD IJsselland.",
-          "De arts verwijst naar een door de regio IJsselland gecontracteerde aanbieder, of schakelt de jeugdconsulent in de praktijk in.",
+          "De arts verwijst naar een door de regio IJsselland gecontracteerde aanbieder, of schakelt de medewerker jeugd in de praktijk in.",
           "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
         ],
         "contact": {
@@ -86,14 +86,14 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Samen (MEE IJsseloevers) in de Voor Elkaar-teams",
-      "toelichting": "Gratis en onafhankelijk. In Deventer werken cliëntondersteuners van MEE samen met De Kern, Raster en Solis in de Voor Elkaar-teams. Zij denken mee, gaan mee naar het gesprek met Team Uitvoering Jeugd en helpen bij een aanvraag of bij onvrede over een besluit. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "In Deventer werken de cliëntondersteuners van MEE samen met De Kern, Raster en Solis in de Voor Elkaar-teams.",
       "telefoon": "088 633 0633",
       "email": "info@meesamen.nl",
       "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/deventer"
     },
     "klacht": {
       "naam": "Klacht over Team Uitvoering Jeugd (gemeente Deventer)",
-      "toelichting": "Bespreek het eerst met de betrokken medewerker; lukt dat niet, dan met de teammanager. Daarna kunt u een klacht indienen bij de gemeente: online, per post (Postbus 5000, 7400 GC Deventer) of mondeling per telefoon; de klachtencoördinator zet de klacht dan op papier. Daarnaast heeft Deventer een onafhankelijk aanspreekpunt Jeugd, Werk en Zorg dat knelpunten signaleert en meedenkt (aanspreekpuntJWZ@deventer.nl); dit vervangt de klachtprocedure niet.",
+      "toelichting": "Bespreek het eerst met de medewerker, en daarna met de teammanager. Komt u er niet uit, dien dan een klacht in bij de gemeente: online, per post (Postbus 5000, 7400 GC Deventer) of telefonisch; de klachtencoördinator schrijft uw klacht dan voor u op. Deventer heeft ook een onafhankelijk aanspreekpunt Jeugd, Werk en Zorg (aanspreekpuntJWZ@deventer.nl), dat meedenkt en knelpunten doorgeeft. Dat komt niet in plaats van de klachtprocedure.",
       "url": "https://www.deventer.nl/bezwaar-klacht-en-andere-procedures/klacht/klacht-over-de-gemeente-indienen",
       "telefoon": "14 0570",
       "extern": {
@@ -102,17 +102,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een beschikking kunt u binnen 6 weken bezwaar maken, digitaal met DigiD of per post aan het college van B&W, Postbus 5000, 7400 GC Deventer. Vermeld welk besluit het betreft en waarom u het er niet mee eens bent. De Algemene bezwaarschriftencommissie nodigt u uit voor een hoorzitting.",
+      "toelichting": "Maak bezwaar digitaal met DigiD of per post aan het college van burgemeester en wethouders. Vermeld om welk besluit het gaat en waarom u het er niet mee eens bent.",
       "url": "https://www.deventer.nl/bezwaar-klacht-en-andere-procedures/bezwaar/bezwaarschrift-indienen"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Als gecontracteerde hulp niet passend is, kunt u via Team Uitvoering Jeugd een pgb aanvragen. Volgens de Verordening jeugdhulp levert u een pgb-budgetplan naar het model van de gemeente aan, met de motivering waarom zorg in natura niet past en waar u de hulp inkoopt. Let op: de algemene pgb-pagina van de gemeente (deventer.nl/pgb) gaat alleen over de Wmo; voor jeugd regelt u dit via Team Uitvoering Jeugd.",
+      "toelichting": "Past gecontracteerde hulp niet, dan vraagt u via Team Uitvoering Jeugd een pgb aan. U levert een pgb-budgetplan aan volgens het model van de gemeente: waarom hulp in natura (hulp die de gemeente regelt) niet past en waar u de hulp inkoopt. Let op: de algemene pgb-pagina van de gemeente (deventer.nl/pgb) gaat alleen over de Wmo, niet over jeugdhulp.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR684943/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -225,7 +224,7 @@
     {
       "naam": "Steunpunt Mantelzorg Deventer (Carinova)",
       "soort": "informatiepunt",
-      "omschrijving": "Gratis informatie, advies en praktische en mentale ondersteuning voor mantelzorgers vanaf 6 jaar, waaronder ouders van een kind met een beperking en jonge mantelzorgers. Een vaste consulent is gespecialiseerd in jonge mantelzorgers in Deventer en Raalte.",
+      "omschrijving": "Gratis informatie, advies en praktische en mentale ondersteuning voor mantelzorgers vanaf 6 jaar, waaronder ouders van een kind met een beperking en jonge mantelzorgers. Een vaste medewerker jeugd is gespecialiseerd in jonge mantelzorgers in Deventer en Raalte.",
       "themas": [
         "mantelzorg",
         "jonge mantelzorger",

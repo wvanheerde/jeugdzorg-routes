@@ -4,15 +4,15 @@
   "provincie": "Groningen",
   "websiteJeugd": "https://www.stadskanaal.nl/inwoners/jeugd-en-gezin/aanvragen-jeugdhulp",
   "toegang": {
-    "samenvatting": "In Stadskanaal vraagt u jeugdhulp aan bij het team CJGV (Centrum voor Jeugd, Gezin en Veiligheid) van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Een jeugdconsulent praat met u, maakt een ondersteuningsplan en neemt het besluit over de hulp. Het team geeft zelf geen hulp, dat doen aanbieders. Ook de huisarts mag rechtstreeks verwijzen. Bij alle huisartsen werkt een ondersteuner jeugd en gezin. Bij het team CJGV kan een wachtlijst zijn voordat een jeugdconsulent uw aanvraag oppakt. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Stadskanaal vraagt u jeugdhulp aan bij het team CJGV (Centrum voor Jeugd, Gezin en Veiligheid) van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Een medewerker jeugd praat met u, maakt een ondersteuningsplan en neemt het besluit over de hulp. Het team geeft zelf geen hulp, dat doen aanbieders. Ook de huisarts mag rechtstreeks verwijzen. Bij alle huisartsen werkt een ondersteuner jeugd en gezin. Bij het team CJGV kan een wachtlijst zijn voordat een medewerker jeugd uw aanvraag oppakt. Vraag bij uw aanmelding hoe lang het duurt.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team CJGV van de gemeente",
-        "omschrijving": "Het team CJGV werkt voor de gemeente. U meldt zich zelf aan. De jeugdconsulenten onderzoeken uw hulpvraag, maken met u een ondersteuningsplan en nemen een besluit (beschikking). Het team helpt ook bij zorgen over de veiligheid van een kind, bijvoorbeeld na een melding bij Veilig Thuis Groningen. Lichtere hulp zonder besluit krijgt u bij Welstad, het welzijnswerk in Stadskanaal.",
+        "omschrijving": "Het team CJGV werkt voor de gemeente. U meldt zich zelf aan. De medewerkers jeugd onderzoeken uw hulpvraag, maken met u een ondersteuningsplan en nemen een besluit (beschikking). Het team helpt ook bij zorgen over de veiligheid van een kind, bijvoorbeeld na een melding bij Veilig Thuis Groningen. Lichtere hulp zonder besluit krijgt u bij Welstad, het welzijnswerk in Stadskanaal.",
         "stappen": [
-          "Bel of mail de gemeente en vraag naar jeugdhulp. Er kan een wachtlijst zijn voordat een jeugdconsulent uw aanvraag oppakt.",
-          "Praat met de jeugdconsulent in een of meer gesprekken (het keukentafelgesprek). Waar het kan, praat de consulent ook met uw kind. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner.",
+          "Bel of mail de gemeente en vraag naar jeugdhulp. Er kan een wachtlijst zijn voordat een medewerker jeugd uw aanvraag oppakt.",
+          "Praat met de medewerker jeugd in een of meer gesprekken (het keukentafelgesprek). Waar het kan, praat de medewerker jeugd ook met uw kind. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner.",
           "Lees het ondersteuningsplan en de beschikking. Daarin staat of u hulp krijgt en welke.",
           "Vraag de aanbieder hoe lang het duurt voordat de hulp start. Ook na een besluit kan er nog een wachttijd zijn.",
           "Liever eerst advies of lichte hulp zonder besluit? Vraag het aan Welstad."
@@ -98,19 +98,18 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Welstad (onafhankelijke cliëntondersteuning)",
-      "toelichting": "Gratis en onafhankelijk. De cliëntondersteuner luistert, denkt mee en gaat mee naar gesprekken met het team CJGV. Ook bij een aanvraag, een bezwaar of een klacht kunt u hulp vragen. Vraag het bij voorkeur vóór het eerste gesprek.",
       "telefoon": "0599 635 999",
       "email": "info@welstad.nl",
       "url": "https://www.welstad.nl/onafhankelijke-clientondersteuning-oco/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u het budget zelf kunt beheren. U moet ook uitleggen waarom de hulp van een aanbieder met een contract niet past. U maakt een plan voor hoe u het budget besteedt en sluit zelf een zorgovereenkomst met de hulpverlener. Hulp van iemand uit uw netwerk kan onder voorwaarden, bijvoorbeeld als die persoon niet overbelast raakt. Ouders of anderen uit uw huishouden krijgen niet het tarief van een professional.",
+      "toelichting": "U legt uit waarom de hulp van een aanbieder met een contract niet past, en maakt een plan voor hoe u het budget besteedt. Hulp van iemand uit uw netwerk kan onder voorwaarden, bijvoorbeeld als die persoon niet overbelast raakt. Ouders of anderen uit uw huishouden krijgen niet het tarief van een professional.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR680005/1"
     },
     "klacht": {
       "naam": "Klacht over het team CJGV of de gemeente",
-      "toelichting": "Het team CJGV hoort bij de gemeente. Een klacht over bejegening of een trage reactie gaat daarom via de klachtenregeling van de gemeente. Een medewerker neemt binnen vijf werkdagen contact met u op. De gemeente heeft in principe hooguit 6 weken om de klacht af te handelen. Loopt het contact vast, dan kunt u om een onafhankelijke bemiddelaar vragen. Een klacht over een aanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "Het team CJGV hoort bij de gemeente, dus een klacht over hoe u behandeld bent of over een trage reactie gaat via de gemeente. Een medewerker neemt binnen vijf werkdagen contact met u op. De gemeente heeft in principe hooguit 6 weken om de klacht af te handelen. Loopt het contact vast, dan kunt u om een onafhankelijke bemiddelaar vragen. Een klacht over een aanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.stadskanaal.nl/klacht",
       "email": "gemeente@stadskanaal.nl",
       "telefoon": "0599 631 631",
@@ -120,12 +119,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief aan het college. De Commissie rechtsbescherming behandelt uw bezwaar en nodigt u uit voor een hoorzitting. U mag komen, maar het hoeft niet. U krijgt binnen 12 weken een beslissing. Die termijn kan één keer met 6 weken worden verlengd. Bezwaar maken is gratis.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief aan het college. U wordt uitgenodigd voor een hoorzitting bij de Commissie rechtsbescherming; komen mag, maar hoeft niet. U krijgt binnen 12 weken een beslissing; die termijn kan één keer met 6 weken worden verlengd.",
       "url": "https://www.stadskanaal.nl/bezwaar"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -362,12 +360,12 @@
   },
   "jeugdzorgregio": "Groningen",
   "ervaringen": {
-    "samenvatting": "Het team CJGV had in 2024 een wachtlijst van meer dan 60 kinderen. In september 2025 waren dat er 30 tot 35, en wachtte een gezin 2 tot 5 maanden op een vaste jeugdconsulent. In oktober 2026 schrijft de gemeente dat het team nog onder druk staat, en stelt zij voor er twee jeugdconsulenten bij te zetten. De inspectie doet vooronderzoek naar een ernstige zaak van kindermishandeling in de gemeente.\n\nVraag bij uw aanmelding bij het team CJGV hoe lang het duurt en wie uw vaste jeugdconsulent wordt. Leg afspraken schriftelijk vast en vraag om een beschikking. Neem een gratis cliëntondersteuner van Welstad mee. Bent u ontevreden, dien dan een klacht in bij de gemeente.",
+    "samenvatting": "Het team CJGV had in 2024 een wachtlijst van meer dan 60 kinderen. In september 2025 waren dat er 30 tot 35, en wachtte een gezin 2 tot 5 maanden op een vaste medewerker jeugd. In oktober 2026 schrijft de gemeente dat het team nog onder druk staat, en stelt zij voor er twee medewerkers jeugd bij te zetten. De inspectie doet vooronderzoek naar een ernstige zaak van kindermishandeling in de gemeente.\n\nVraag bij uw aanmelding bij het team CJGV hoe lang het duurt en wie uw vaste medewerker jeugd wordt. Leg afspraken schriftelijk vast en vraag om een beschikking. Neem een gratis cliëntondersteuner van Welstad mee. Bent u ontevreden, dien dan een klacht in bij de gemeente.",
     "signalen": [
       {
         "soort": "gemeenteraad",
         "titel": "Wachtlijst bij het team CJGV korter, maar nog steeds wachttijd",
-        "samenvatting": "Op het hoogtepunt in 2024 stonden meer dan 60 kinderen op de wachtlijst, in september 2025 nog 30 tot 35. Gezinnen wachtten toen 2 tot 5 maanden op een vaste jeugdconsulent, in 2024 was dat 3 tot 6 maanden. Het bleef moeilijk om vacatures te vullen.",
+        "samenvatting": "Op het hoogtepunt in 2024 stonden meer dan 60 kinderen op de wachtlijst, in september 2025 nog 30 tot 35. Gezinnen wachtten toen 2 tot 5 maanden op een vaste medewerker jeugd, in 2024 was dat 3 tot 6 maanden. Het bleef moeilijk om vacatures te vullen.",
         "datum": "2025-09",
         "bron": {
           "titel": "Beantwoording technische vragen jaarstukken 2024",
@@ -376,8 +374,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Gemeente wil team CJGV versterken met twee jeugdconsulenten",
-        "samenvatting": "Het college schrijft dat het team CJGV onder druk staat door ingewikkelder hulpvragen en personeelstekort, en dat partners zien dat kinderen niet op tijd passende hulp krijgen. Het stelt voor twee jeugdconsulenten toe te voegen. De raad beslist op 26 oktober 2026.",
+        "titel": "Gemeente wil team CJGV versterken met twee medewerkers jeugd",
+        "samenvatting": "Het college schrijft dat het team CJGV onder druk staat door ingewikkelder hulpvragen en personeelstekort, en dat partners zien dat kinderen niet op tijd passende hulp krijgen. Het stelt voor twee medewerkers jeugd toe te voegen. De raad beslist op 26 oktober 2026.",
         "datum": "2026-10",
         "bron": {
           "titel": "Raadsvoorstel Programmatische aanpak Jeugd 2026-2030",
@@ -452,7 +450,7 @@
       "doorlooptijden": {
         "status": "ja",
         "url": "https://api1.ibabs.eu/publicdownload.aspx?site=Stadskanaal&id=8521f16c-373e-4d18-8ddf-069002ffd2bb",
-        "samenvatting": "Het college noemde in september 2025 cijfers over de wachtlijst bij het team CJGV: 30 tot 35 kinderen en 2 tot 5 maanden tot een vaste jeugdconsulent. Dat was een antwoord op vragen van de raad, geen vaste rapportage. De gemeente heeft toegezegd de wachtlijst voortaan op te nemen in de vaste verslagen aan de raad."
+        "samenvatting": "Het college noemde in september 2025 cijfers over de wachtlijst bij het team CJGV: 30 tot 35 kinderen en 2 tot 5 maanden tot een vaste medewerker jeugd. Dat was een antwoord op vragen van de raad, geen vaste rapportage. De gemeente heeft toegezegd de wachtlijst voortaan op te nemen in de vaste verslagen aan de raad."
       },
       "aandeelHuisarts": {
         "percentage": 49,

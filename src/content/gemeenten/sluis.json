@@ -9,7 +9,7 @@
       {
         "type": "wijkteam",
         "naam": "Cluster Jeugd & Gezin van de gemeente Sluis",
-        "omschrijving": "In Sluis is er geen apart wijkteam. Medewerkers van de gemeente bekijken samen met u wat nodig is. Dat zijn jeugdconsulenten en casusregisseurs (zij houden het overzicht als er meer hulpverleners zijn). Vindt u dat uw kind jeugdhulp nodig heeft? Dan dient u zelf een aanvraag in. De gemeente beslist en legt de hulp vast in een beschikking (het besluit over de hulp).",
+        "omschrijving": "In Sluis is er geen apart wijkteam. Medewerkers van de gemeente bekijken samen met u wat nodig is. Dat zijn medewerkers jeugd en casusregisseurs (zij houden het overzicht als er meer hulpverleners zijn). Vindt u dat uw kind jeugdhulp nodig heeft? Dan dient u zelf een aanvraag in. De gemeente beslist en legt de hulp vast in een beschikking (het besluit over de hulp).",
         "stappen": [
           "Bel het cluster Jeugd & Gezin of loop binnen op het gemeentehuis als u twijfelt of jeugdhulp nodig is.",
           "Vraagt u jeugdhulp aan? Gebruik dan het aanvraagformulier Jeugdhulp van de gemeente.",
@@ -44,7 +44,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school kunt u terecht bij de leerkracht, mentor of intern begeleider. De school kan de jeugdconsulent van de gemeente erbij halen. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van Passend Onderwijs Zeeuws-Vlaanderen. Dat steunpunt is er voor ouders en leerlingen in het basis- en voortgezet onderwijs.",
+        "omschrijving": "Op school kunt u terecht bij de leerkracht, mentor of intern begeleider. De school kan de medewerker jeugd van de gemeente erbij halen. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van Passend Onderwijs Zeeuws-Vlaanderen. Dat steunpunt is er voor ouders en leerlingen in het basis- en voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag of school het cluster Jeugd & Gezin van de gemeente erbij haalt. U kunt zich ook zelf melden.",
@@ -83,16 +83,16 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (via de gemeente)",
-      "toelichting": "Gratis en onafhankelijk. In de uitnodiging voor het gesprek hoort de gemeente u te wijzen op een onafhankelijke cliëntondersteuner of meedenker. U mag die meenemen naar het gesprek. Wie dit in Sluis doet, is niet openbaar te vinden. Vraag er bij het cluster Jeugd & Gezin naar voordat het gesprek plaatsvindt."
+      "toelichting": "In de uitnodiging voor het gesprek hoort de gemeente u te wijzen op een cliëntondersteuner of meedenker. Wie dit in Sluis doet, is niet openbaar te vinden; vraag het bij het cluster Jeugd & Gezin vóór het gesprek."
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U legt uit waarom het aanbod van de gemeente niet past en waarom u een pgb wilt. De gemeente kijkt of u of uw budgetbeheerder het budget kan beheren. Een administratiekantoor mag het budget niet beheren. Huurt u een professionele hulpverlener in? Dan is het pgb 75% van de prijs van zorg in natura (hulp van een aanbieder met een contract), tenzij passende hulp goedkoper kan. De huisarts of jeugdarts kent zelf geen pgb toe.",
+      "toelichting": "U legt uit waarom het aanbod van de gemeente niet past en waarom u een pgb wilt. Een administratiekantoor mag het budget niet beheren. Huurt u een professionele hulpverlener in, dan is het pgb 75% van de prijs van zorg in natura (hulp van een aanbieder met een contract), tenzij passende hulp goedkoper kan. De huisarts of jeugdarts kent zelf geen pgb toe.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR755313/1"
     },
     "klacht": {
       "naam": "Klacht over het cluster Jeugd & Gezin (klachtenregeling gemeente)",
-      "toelichting": "Het toegangsteam hoort bij de gemeente, dus u gebruikt de klachtenregeling van de gemeente. Dien uw klacht in via het online formulier, per e-mail, per brief of mondeling. De gemeente probeert het eerst samen met u op te lossen. Lukt dat niet, dan beoordeelt een klachtencommissie met drie onafhankelijke leden de klacht. De gemeente moet binnen tien weken reageren. Komt u er niet uit, dan kunt u naar de Nationale ombudsman. Een vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Het toegangsteam hoort bij de gemeente, dus u gebruikt de klachtenregeling van de gemeente. Dien uw klacht in via het online formulier, per e-mail, per brief of mondeling. De gemeente probeert het eerst samen met u op te lossen; lukt dat niet, dan beoordeelt een klachtencommissie de klacht. De gemeente moet binnen tien weken reageren.",
       "url": "https://www.gemeentesluis.nl/direct-regelen/melding-klacht-en-bezwaar/klacht-over-de-gemeente-indienen/",
       "email": "info@gemeentesluis.nl",
       "extern": {
@@ -101,12 +101,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Een onafhankelijke bezwarencommissie adviseert de gemeente. U krijgt antwoord binnen twaalf weken na het einde van de bezwaartermijn. Daarna kunt u in beroep bij de rechtbank. Bel gerust eerst het cluster Jeugd & Gezin: zij kunnen het besluit toelichten.",
+      "toelichting": "Maak bezwaar per brief aan de gemeente Sluis, binnen zes weken na de datum op het besluit. U krijgt antwoord binnen twaalf weken na het einde van de bezwaartermijn; een onafhankelijke commissie adviseert de gemeente. Bel gerust eerst het cluster Jeugd & Gezin: zij kunnen het besluit toelichten.",
       "url": "https://www.gemeentesluis.nl/direct-regelen/melding-klacht-en-bezwaar/bezwaar-en-beroep/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -302,12 +301,12 @@
   },
   "jeugdzorgregio": "Zeeland",
   "ervaringen": {
-    "samenvatting": "In 2025 kregen in Sluis 610 jeugdigen of hun ouders jeugdhulp. Sinds maart 2025 zoeken jeugdconsulenten en casusregisseurs samen met gezinnen naar passende hulp; die werkwijze blijft. Uiterlijk 2028 wil de gemeente een vast team voor alle vragen over opgroeien en opvoeden. Wachttijden bij de toegang en een tevredenheidsonderzoek onder ouders over jeugdhulp zijn niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt, leg afspraken schriftelijk vast en bewaar verslag en beschikking. De gemeente kijkt eerst wat u zelf en uw omgeving kunnen, ook bij hulp die verder gaat dan gewone opvoeding. Vertel daarom duidelijk wat u zelf niet kunt dragen, en neem een cliëntondersteuner mee naar het gesprek. Een klacht dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "In 2025 kregen in Sluis 610 jeugdigen of hun ouders jeugdhulp. Sinds maart 2025 zoeken medewerkers jeugd en casusregisseurs samen met gezinnen naar passende hulp; die werkwijze blijft. Uiterlijk 2028 wil de gemeente een vast team voor alle vragen over opgroeien en opvoeden. Wachttijden bij de toegang en een tevredenheidsonderzoek onder ouders over jeugdhulp zijn niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt, leg afspraken schriftelijk vast en bewaar verslag en beschikking. De gemeente kijkt eerst wat u zelf en uw omgeving kunnen, ook bij hulp die verder gaat dan gewone opvoeding. Vertel daarom duidelijk wat u zelf niet kunt dragen, en neem een cliëntondersteuner mee naar het gesprek. Een klacht dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",
-        "titel": "610 jeugdigen kregen jeugdhulp, pilot met jeugdconsulenten",
-        "samenvatting": "In 2025 ondersteunde de gemeente 610 jeugdigen of hun ouders met jeugdhulp. Op 1 maart 2025 startte een pilot waarin jeugdconsulenten en casusregisseurs zoeken naar passende jeugdhulp. Sinds 1 januari 2026 is er ook een Jongerenloket in Sluis.",
+        "titel": "610 jeugdigen kregen jeugdhulp, pilot met medewerkers jeugd",
+        "samenvatting": "In 2025 ondersteunde de gemeente 610 jeugdigen of hun ouders met jeugdhulp. Op 1 maart 2025 startte een pilot waarin medewerkers jeugd en casusregisseurs zoeken naar passende jeugdhulp. Sinds 1 januari 2026 is er ook een Jongerenloket in Sluis.",
         "datum": "2026-06-23",
         "bron": {
           "titel": "Jaarstukken 2025 gemeente Sluis",
@@ -317,7 +316,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Pilot jeugdhulp wordt structureel",
-        "samenvatting": "De gemeente noemt de pilot succesvol en besluit er structureel vorm aan te geven. Voor ouders betekent dit dat jeugdconsulenten en casusregisseurs een vaste rol houden bij de keuze voor hulp.",
+        "samenvatting": "De gemeente noemt de pilot succesvol en besluit er structureel vorm aan te geven. Voor ouders betekent dit dat medewerkers jeugd en casusregisseurs een vaste rol houden bij de keuze voor hulp.",
         "datum": "2026-08",
         "bron": {
           "titel": "1e Bestuursrapportage 2026 gemeente Sluis",

@@ -72,15 +72,22 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Adviespunt Zorgbelang en MEE Gelderse Poort",
-      "toelichting": "Gratis en onafhankelijk van gemeente en wijkteam. Wijkteams Arnhem verwijst voor cliëntondersteuning naar Adviespunt Zorgbelang; u mag de ondersteuner meenemen naar het keukentafelgesprek. Voor kinderen met een beperking, autisme, chronische ziekte of psychische problemen kunt u ook terecht bij MEE Gelderse Poort (telefonisch spreekuur werkdagen 9.00–13.00 uur).",
-      "telefoon": "088 633 0000",
-      "email": "clientondersteuning@meegeldersepoort.nl",
-      "url": "https://adviespuntzorgbelang.nl/clientondersteuning-sociaal-domein-wmo"
+      "naam": "Adviespunt Zorgbelang",
+      "toelichting": "Wijkteams Arnhem verwijst naar Adviespunt Zorgbelang; u mag de ondersteuner meenemen naar het keukentafelgesprek. Bij een beperking, autisme, chronische ziekte of psychische problemen kunt u ook naar MEE Gelderse Poort.",
+      "url": "https://adviespuntzorgbelang.nl/clientondersteuning-sociaal-domein-wmo",
+      "andere": [
+        {
+          "naam": "MEE Gelderse Poort",
+          "telefoon": "088 633 0000",
+          "email": "clientondersteuning@meegeldersepoort.nl",
+          "url": "https://www.meegeldersepoort.nl/clienten/wmo-voor-clienten/",
+          "openingstijden": "Telefonisch spreekuur elke werkdag 9.00–13.00 uur"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klacht over Wijkteams Arnhem",
-      "toelichting": "Bespreek het eerst met uw wijkcoach; u kunt de teamleider bij dat gesprek vragen. Komt u er samen niet uit, dan dient u een formele klacht in bij de klachtencoördinator van de gemeente Arnhem: de gemeenteraad heeft de klachtregeling voor de sociale wijkteams vastgesteld. De gemeente handelt de klacht binnen 6 weken af (eenmaal te verlengen met 4 weken). Vermoedens van misstanden kunt u melden bij een externe partij, zie de klachtenpagina van de wijkteams.",
+      "toelichting": "Bespreek het eerst met uw wijkcoach; u kunt de teamleider bij het gesprek vragen. Komt u er niet uit, dan dient u een formele klacht in bij de klachtencoördinator van de gemeente Arnhem. De gemeente handelt de klacht binnen 6 weken af, soms 4 weken later. Een vermoeden van een misstand meldt u bij een externe partij; zie de klachtenpagina van de wijkteams.",
       "url": "https://www.wijkteamsarnhem.nl/over-ons/klachten-en-bezwaar/",
       "telefoon": "026 377 5320",
       "extern": {
@@ -89,17 +96,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een beschikking kunt u binnen 6 weken na bekendmaking bezwaar maken, online via het e-loket of per post aan het college van burgemeester en wethouders, Postbus 9029, 6800 EL Arnhem. Een ambtenaar gaat eerst met u in gesprek, of de bezwaarschriftencommissie behandelt uw bezwaar. Vragen: afdeling Juridische Zaken, 026 204 3970.",
+      "toelichting": "Maak bezwaar online via het e-loket of per post aan het college van burgemeester en wethouders (adres hieronder). Eerst praat een ambtenaar met u, of de bezwaarschriftencommissie behandelt uw bezwaar. Vragen stelt u aan de afdeling Juridische Zaken: 026 204 3970.",
       "url": "https://www.arnhem.nl/product/bezwaar-maken/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Aanvraag via de wijkcoach in het keukentafelgesprek. U moet motiveren waarom het gecontracteerde aanbod niet passend of toereikend is, een geschikte budgetbeheerder aanwijzen en laten zien dat de hulp veilig en doeltreffend is. Er gelden twee tarieven: voor niet-gekwalificeerde hulp uit het sociale netwerk en voor professionele aanbieders. De gemeente doet een kwaliteitstoets voordat het budget wordt vrijgegeven. Pgb voor hulp door de ouder zelf is onder de Jeugdwet alleen in goed gemotiveerde uitzonderingen toegestaan.",
+      "toelichting": "U vraagt een pgb aan via de wijkcoach in het keukentafelgesprek. U legt uit waarom het gecontracteerde aanbod niet past of niet genoeg is, en laat zien dat de hulp veilig is en werkt. Er zijn twee tarieven: voor niet-professionele hulp uit uw sociale netwerk en voor professionele aanbieders. De gemeente toetst de kwaliteit voordat het budget vrijkomt. Een pgb voor hulp door de ouder zelf kan alleen bij een goed onderbouwde uitzondering.",
       "url": "https://www.wijkteamsarnhem.nl/pgb/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

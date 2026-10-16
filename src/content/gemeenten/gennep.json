@@ -4,20 +4,20 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.gennep.nl/jeugdwet",
   "toegang": {
-    "samenvatting": "In Gennep is Team Toegang van de gemeente de ingang voor vragen over opvoeden, opgroeien en jeugdhulp. Een jeugdconsulent van het team bespreekt met u wat nodig is. Samen maakt u een leefzorgplan: een plan met uw situatie en de mogelijke oplossingen. U meldt u zelf aan. Een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding. De gemeente wil uiterlijk eind 2028 een nieuw lokaal team voor jeugd, Wmo (ondersteuning voor volwassenen) en andere vragen.",
+    "samenvatting": "In Gennep is Team Toegang van de gemeente de ingang voor vragen over opvoeden, opgroeien en jeugdhulp. Een medewerker jeugd van het team bespreekt met u wat nodig is. Samen maakt u een leefzorgplan: een plan met uw situatie en de mogelijke oplossingen. U meldt u zelf aan. Een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding. De gemeente wil uiterlijk eind 2028 een nieuw lokaal team voor jeugd, Wmo (ondersteuning voor volwassenen) en andere vragen.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Toegang van de gemeente Gennep",
-        "omschrijving": "Team Toegang werkt vanuit het gemeentekantoor en komt ook bij u thuis, in alle dorpen van de gemeente. Voor jeugd spreekt u een jeugdconsulent. U meldt u zelf aan. Eerst kijkt het team wat u zelf kunt doen, eventueel met familie of vrienden. Daarna volgt zo nodig hulp van een aanbieder met een beschikking (een schriftelijk besluit van de gemeente).",
+        "omschrijving": "Team Toegang werkt vanuit het gemeentekantoor en komt ook bij u thuis, in alle dorpen van de gemeente. Voor jeugd spreekt u een medewerker jeugd. U meldt u zelf aan. Eerst kijkt het team wat u zelf kunt doen, eventueel met familie of vrienden. Daarna volgt zo nodig hulp van een aanbieder met een beschikking (een schriftelijk besluit van de gemeente).",
         "stappen": [
-          "Bel Team Toegang en vraag naar een jeugdconsulent.",
+          "Bel Team Toegang en vraag naar een medewerker jeugd.",
           "Maak een afspraak voor een gesprek, het keukentafelgesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE.",
           "Maak samen een leefzorgplan. Op de website van de gemeente staat een leeg plan om het gesprek voor te bereiden.",
           "Heeft uw kind specialistische hulp nodig? Vraag na het gesprek om het verslag en om een schriftelijk besluit."
         ],
         "contact": {
-          "naam": "Team Toegang (jeugdconsulenten, gemeente Gennep)",
+          "naam": "Team Toegang (medewerkers jeugd, gemeente Gennep)",
           "telefoon": "0485 49 41 41",
           "email": "gemeente@gennep.nl",
           "url": "https://www.gennep.nl/team-toegang",
@@ -50,7 +50,7 @@
         ],
         "contact": [
           {
-            "naam": "Team Toegang (jeugdconsulenten, gemeente Gennep)",
+            "naam": "Team Toegang (medewerkers jeugd, gemeente Gennep)",
             "telefoon": "0485 49 41 41",
             "email": "gemeente@gennep.nl",
             "url": "https://www.gennep.nl/team-toegang",
@@ -86,13 +86,12 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE de Meent groep",
-      "toelichting": "Gratis en onafhankelijk, zonder verwijzing. De cliëntondersteuner van MEE helpt u uw vraag te formuleren, gaat mee naar het gesprek met Team Toegang en helpt bij een aanvraag of bij onvrede. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
       "telefoon": "088 465 3555",
       "url": "https://www.gennep.nl/onafhankelijke-clientondersteuning"
     },
     "klacht": {
       "naam": "Klacht over Team Toegang en de gemeente",
-      "toelichting": "Team Toegang is een team van de gemeente. Een klacht over hoe een medewerker u behandelde, dient u daarom in bij de gemeente, online of per brief (Postbus 9003, 6590 HD Gennep). De gemeente belt u eerst om samen een oplossing te zoeken. U krijgt binnen zes weken een reactie. De gemeente mag daar vier weken extra voor nemen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Team Toegang is een team van de gemeente. Een klacht over hoe een medewerker u behandelde, dient u daarom online of per brief bij de gemeente in. De gemeente belt u eerst om samen een oplossing te zoeken. U krijgt binnen zes weken een reactie; de gemeente mag daar vier weken extra voor nemen. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.gennep.nl/klacht-indienen",
       "email": "gemeente@gennep.nl",
       "telefoon": "0485 49 41 41",
@@ -102,17 +101,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een besluit over jeugdhulp maakt u online of schriftelijk bezwaar. Het adres staat in het besluit. U krijgt binnen 12 weken een reactie. Is meer tijd nodig, dan hoort u dat. Vraag gerust eerst uitleg bij Team Toegang. Na de beslissing op uw bezwaar kunt u in beroep gaan bij de rechtbank.",
+      "toelichting": "U maakt online of schriftelijk bezwaar; het adres staat in het besluit. U krijgt binnen 12 weken een reactie, en hoort het als er meer tijd nodig is. Vraag gerust eerst uitleg bij Team Toegang.",
       "url": "https://www.gennep.nl/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U dient een pgb-plan in. Daarin staat onder meer waarom hulp van een aanbieder met een contract niet past, wie de hulp geeft en hoe de kwaliteit goed blijft. U kunt een pgb niet gebruiken voor hulp door een ouder, broer, zus of huisgenoot van uw kind. Hulp van andere mensen uit uw omgeving kan onder voorwaarden, bijvoorbeeld met een verklaring omtrent het gedrag (VOG). In 2026 stelde de gemeente nieuwe regels vast, ook voor pgb-hulp uit het eigen netwerk. Vraag Team Toegang welke regels voor u gelden.",
+      "toelichting": "In uw pgb-plan staat onder meer waarom hulp van een aanbieder met een contract niet past, wie de hulp geeft en hoe de kwaliteit goed blijft. U kunt een pgb niet gebruiken voor hulp door een ouder, broer, zus of huisgenoot van uw kind. Hulp van andere mensen uit uw omgeving kan onder voorwaarden, bijvoorbeeld met een verklaring omtrent het gedrag (VOG). In 2026 stelde de gemeente nieuwe regels vast, ook voor pgb-hulp uit het eigen netwerk. Vraag Team Toegang welke regels voor u gelden.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR727260/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

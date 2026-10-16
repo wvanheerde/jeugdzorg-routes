@@ -87,18 +87,26 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Zorgbelang Fryslân (en Thuis in Cliëntondersteuning)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente. Voor Noordwest-Friesland, dus ook Harlingen, werkt Zorgbelang Fryslân. U kunt ook kiezen voor Thuis in Cliëntondersteuning, op werkdagen 8.30–17.30 uur bereikbaar via 085 303 2985. Een cliëntondersteuner luistert, gaat mee naar gesprekken met het Gebiedsteam en helpt bij een klacht of bezwaar. Het Gebiedsteam wijst u hierop vóór het onderzoek.",
+      "toelichting": "U kunt ook kiezen voor Thuis in Cliëntondersteuning. Het Gebiedsteam wijst u op cliëntondersteuning vóór het onderzoek.",
       "telefoon": "085 483 2432",
-      "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet"
+      "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet",
+      "andere": [
+        {
+          "naam": "Thuis in Cliëntondersteuning",
+          "telefoon": "085 303 2985",
+          "url": "https://www.thuisinclientondersteuning.nl/contact-met-thuisinclientondersteuning/",
+          "openingstijden": "Op werkdagen 8.30–17.30 uur telefonisch bereikbaar"
+        }
+      ]
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom hulp van een aanbieder met een contract niet past. U maakt een budgetplan en moet het budget zelf kunnen beheren. De hulp moet goed zijn. Wie de hulp geeft, een bekende of een aanbieder, heeft een geldige Verklaring Omtrent het Gedrag (VOG) nodig. Een pgb voor crisishulp of voor kosten van vóór de aanvraag is in principe niet mogelijk. Het tarief is lager dan bij zorg in natura: volgens de verordening 75 procent voor begeleiding door een professional en 60 procent voor hulp door iemand uit uw netwerk. Ouders mogen de hulp niet zelf geven.",
+      "toelichting": "Leg uit waarom hulp van een aanbieder met een contract niet past. Wie de hulp geeft, een bekende of een aanbieder, heeft een geldige Verklaring Omtrent het Gedrag (VOG) nodig. Een pgb voor crisishulp of voor kosten van vóór de aanvraag is in principe niet mogelijk. Het tarief is lager dan bij zorg in natura: 75 procent voor begeleiding door een professional en 60 procent voor hulp door iemand uit uw netwerk. Ouders mogen de hulp niet zelf geven.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR746300/1"
     },
     "klacht": {
       "naam": "Klacht over het Gebiedsteam",
-      "toelichting": "Bespreek het eerst met uw contactpersoon bij het Gebiedsteam. U mag daarbij een cliëntondersteuner meenemen. Komt u er niet uit, dien dan een klacht in bij het college van B&W: per brief, per mail of telefonisch. Komen u en de klachtenbehandelaar er niet uit, dan volgt een hoorzitting en een advies aan het college. Over de jeugdhulp zelf kunt u ook praten met een vertrouwenspersoon van Jeugdstem.",
+      "toelichting": "Bespreek het eerst met uw contactpersoon bij het Gebiedsteam. Komt u er niet uit, dien dan een klacht in bij het college van burgemeester en wethouders: per brief, per mail of telefonisch. Komen u en de klachtenbehandelaar er niet uit, dan volgt een hoorzitting en een advies aan het college.",
       "url": "https://www.harlingen.nl/u-heeft-een-klacht-en-nu",
       "email": "info@harlingen.nl",
       "extern": {
@@ -107,12 +115,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "In de brief met het besluit staat hoe u bezwaar maakt. Een onafhankelijke commissie voor bezwaarschriften nodigt u uit voor een hoorzitting. Een cliëntondersteuner kan u helpen.",
+      "toelichting": "In de brief met het besluit staat hoe u bezwaar maakt.",
       "url": "https://www.harlingen.nl/onafhankelijk-clientondersteuner-wmo-jeugdwet-of-participatiewet"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -213,7 +220,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Harlingen: Jeugdhulp",
@@ -314,6 +321,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Thuis in Cliëntondersteuning: contact",
+        "url": "https://www.thuisinclientondersteuning.nl/contact-met-thuisinclientondersteuning/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en gemeten doorlooptijden niet gevonden. Jaarstukken 2025 (pdf) gelezen op cijfers; sociaal-domeintekst was slecht leesbaar. Regionale journalistiek niet doorzocht. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

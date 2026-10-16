@@ -88,15 +88,25 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "De ondersteuners van Amsterdam (Cliëntenbelang Amsterdam en MEE Amstel en Zaan)",
-      "toelichting": "Gratis en onafhankelijk van het OKT en de gemeente, zonder verwijzing. Een cliëntondersteuner helpt uw vraag te verwoorden, bereidt gesprekken voor, gaat mee naar het OKT of het Gebiedsknooppunt, legt uit hoe een verwijzing of pgb-aanvraag verloopt en helpt als u het oneens bent met de hulp. Voor jeugd verwijst de gemeente naar Cliëntenbelang Amsterdam (werkdagen 10.00–14.00 uur) en MEE Amstel en Zaan, tegenwoordig MEE Dichtbij (020 512 7272).",
+      "naam": "Cliëntenbelang Amsterdam",
+      "toelichting": "Voor jeugd verwijst de gemeente naar Cliëntenbelang Amsterdam en MEE Dichtbij, voorheen MEE Amstel en Zaan. U heeft geen verwijzing nodig, en een ondersteuner kan ook mee naar het OKT of het Gebiedsknooppunt.",
       "telefoon": "020 577 7999",
       "email": "steunpunt@clientenbelangamsterdam.nl",
-      "url": "https://www.deondersteunersvanamsterdam.nl/voor-jongeren/"
+      "url": "https://www.deondersteunersvanamsterdam.nl/voor-jongeren/",
+      "openingstijden": "Maandag tot en met vrijdag 10.00–16.00 uur",
+      "andere": [
+        {
+          "naam": "MEE Dichtbij (voorheen MEE Amstel en Zaan)",
+          "telefoon": "020 512 72 72",
+          "email": "informatie@mee-az.nl",
+          "url": "https://www.deondersteunersvanamsterdam.nl/voor-jongeren/",
+          "openingstijden": "Maandag tot en met vrijdag 9.00–17.00 uur"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klacht over Stichting Ouder- en Kindteams Amsterdam",
-      "toelichting": "Bespreek het eerst met de medewerker; lukt dat niet, vraag dan een gesprek met de manager. Daarna mailt u de klacht naar het OKT; een klachtenfunctionaris neemt contact op om samen een passende vervolgstap te kiezen. In sommige gevallen kunt u naar de externe klachtencommissie van de stichting (reglement op de klachtenpagina). Gaat de klacht over de jeugdarts of jeugdverpleegkundige, dan loopt die via de klachtenregeling van GGD Amsterdam. Jeugdstem kan u gratis helpen bij het indienen. Bent u ontevreden over de gemeente zelf, dan kunt u na de interne klacht naar de Ombudsman Metropool Amsterdam.",
+      "toelichting": "Bespreek het eerst met de medewerker en daarna met de manager. Lukt dat niet, mail dan uw klacht naar het OKT; een klachtenfunctionaris kiest met u een vervolgstap, soms de externe klachtencommissie van de stichting. Een klacht over de jeugdarts of jeugdverpleegkundige gaat via de klachtenregeling van GGD Amsterdam. Bent u ontevreden over de gemeente zelf, dan kunt u na de interne klacht naar de Ombudsman Metropool Amsterdam.",
       "url": "https://oktamsterdam.nl/over-ons/tips-en-klachten/tips-en-klachten-stichting-ouder-en-kindteams/",
       "email": "klacht@oktamsterdam.nl",
       "telefoon": "020 555 5961",
@@ -106,17 +116,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een besluit over aanvullende jeugdhulp of een pgb kunt u binnen 6 weken bezwaar maken bij de gemeente Amsterdam. Het adres staat onderaan het besluit; voor het sociaal domein is dat Burgemeester en wethouders, afdeling Juridische Zaken, Postbus 1840, 1000 BV Amsterdam, of als ondertekende pdf per e-mail naar bezwaarenberoep.sociaal@amsterdam.nl. Vermeld uw gegevens, de datum, het kenmerk van het besluit en de reden, en onderteken de brief. De gemeente beslist binnen 6 tot 12 weken; daarna staat beroep open bij de rechtbank Amsterdam.",
-      "url": "https://www.amsterdam.nl/contact/bezwaar-maken-besluit/"
+      "toelichting": "Maak bezwaar online via de website van de gemeente. Per post kan ook: het adres staat onder het besluit. Vermeld uw gegevens, de datum, het kenmerk van het besluit en de reden; de gemeente beslist binnen 6 tot 12 weken.",
+      "url": "https://www.amsterdam.nl/contact/bezwaar-maken-besluit/",
+      "adresInBesluit": true
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb is mogelijk voor jeugdhulp die onder de Jeugdwet valt (ambulante hulp, dagbehandeling, verblijf of logeren, vervoer) als uw kind jonger is dan 18, in Amsterdam woont en een ondertekend perspectiefplan heeft. U meldt zich bij het OKT; een pgb-specialist van het team legt de voorwaarden uit, u stelt een pgb-plan op en de ouder- en kindadviseur beoordeelt ook de zorgverlener. De gemeente hanteert maximumtarieven; de SVB betaalt uit. Loopt het pgb af, neem dan minstens 2 maanden van tevoren contact op.",
+      "toelichting": "Een pgb kan voor jeugdhulp onder de Jeugdwet, zoals ambulante hulp, dagbehandeling, verblijf of logeren en vervoer. Uw kind is jonger dan 18, woont in Amsterdam en heeft een ondertekend perspectiefplan. U meldt zich bij het OKT: een pgb-specialist legt de voorwaarden uit en u maakt een pgb-plan. De ouder- en kindadviseur beoordeelt ook de zorgverlener, en de gemeente werkt met maximumtarieven. Loopt het pgb af, neem dan minstens 2 maanden van tevoren contact op.",
       "url": "https://www.amsterdam.nl/zorg-en-ondersteuning/hulp-zorg-betalen/zorg-voor-uw-kind-inkopen-met-een-0/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

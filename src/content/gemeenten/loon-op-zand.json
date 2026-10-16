@@ -98,18 +98,31 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Onafhankelijke cliëntondersteuning",
-      "toelichting": "Gratis en onafhankelijk. U vraagt de ondersteuner zelf aan, bij een van de partijen die de gemeente noemt, onder andere Farent, MEE De Meent Groep en Jeugdstem. Een cliëntondersteuner gaat mee naar gesprekken en helpt bij een aanvraag of als u het niet eens bent met een besluit. Twijfelt u aan de onafhankelijkheid van de ondersteuner, dan kunt u dat melden bij de gemeente.",
-      "url": "https://www.loonopzand.nl/zorg-jeugdhulp-onderwijs/client-ondersteuning"
+      "naam": "Farent",
+      "toelichting": "U vraagt de ondersteuner zelf aan, bij Farent, Jeugdstem of MEE De Meent Groep. Twijfelt u aan de onafhankelijkheid van de ondersteuner, meld dat dan bij de gemeente.",
+      "telefoon": "088 023 7500",
+      "url": "https://www.farent.nl/contact/",
+      "andere": [
+        {
+          "naam": "Jeugdstem",
+          "telefoon": "088 555 1000",
+          "url": "https://jeugdstem.nl/contact"
+        },
+        {
+          "naam": "MEE De Meent Groep",
+          "telefoon": "088 465 3555",
+          "url": "https://www.meedemeentgroep.nl/mee-in-uw-gemeente/regio-tilburg/loon-op-zand"
+        }
+      ]
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "U kiest zelf tussen zorg in natura (de gemeente regelt de hulp) en een pgb (persoonsgebonden budget). Voor een pgb maakt u een budgetplan. Daarin legt u uit waarom de hulp van de gemeente niet past, bij wie u de hulp inkoopt en wie het budget beheert. Voor hulp van een professional is het pgb 80 procent van het tarief van een aanbieder met een contract, tenzij het goedkoper kan. Hulp van iemand uit uw netwerk kan alleen voor begeleiding en persoonlijke verzorging. Hulp van familie, ook aangetrouwde familie, telt altijd als informele hulp. Dit staat in de Verordening jeugdhulp 2026, die per 1 oktober 2026 geldt.",
+      "toelichting": "U kiest zelf tussen zorg in natura (de gemeente regelt de hulp) en een pgb. In uw budgetplan legt u uit waarom de hulp van de gemeente niet past, bij wie u de hulp inkoopt en wie het budget beheert. Voor hulp van een professional is het pgb 80 procent van het tarief van een aanbieder met een contract, tenzij het goedkoper kan. Hulp van iemand uit uw netwerk kan alleen voor begeleiding en persoonlijke verzorging; hulp van familie, ook aangetrouwde familie, telt altijd als informele hulp. Dit staat in de Verordening jeugdhulp 2026, die per 1 oktober 2026 geldt.",
       "url": "https://api2.ibabs.biz/publicdownload.aspx?site=LoonOpZand&id=5b87e6b6-2b8f-483b-bb98-d7b50b0caa3a"
     },
     "klacht": {
       "naam": "Klacht over het Zorgloket of de gemeente",
-      "toelichting": "Het Zorgloket valt onder de gemeente. Neem eerst contact op. Vaak is het snel op te lossen. Lukt dat niet, dan dient u een klacht in bij de gemeente. Een klachtencoördinator behandelt die. Bij een ernstige klacht over gedrag geeft de gemeentesecretaris advies en beslist het college (burgemeester en wethouders). U krijgt het besluit per brief. Een klacht over een zorgaanbieder bespreekt u eerst met die aanbieder. Een vertrouwenspersoon van Jeugdstem kan met u meedenken.",
+      "toelichting": "Het Zorgloket hoort bij de gemeente. Neem eerst contact op; vaak is het snel op te lossen. Lukt dat niet, dien dan een klacht in bij de gemeente; een klachtencoördinator behandelt die. Bij een ernstige klacht over gedrag geeft de gemeentesecretaris advies en beslist het college (burgemeester en wethouders); u krijgt het besluit per brief. Een klacht over een zorgaanbieder bespreekt u eerst met die aanbieder.",
       "url": "https://www.loonopzand.nl/organisatie-en-politiek/klacht-indienen",
       "telefoon": "0416 28 91 11",
       "extern": {
@@ -118,12 +131,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maken tegen een besluit van de gemeente kan online of per brief. Bezwaar per e-mail neemt de gemeente niet in behandeling. U betaalt niets. Advies vragen kan bij het Juridisch Loket.",
+      "toelichting": "Maak bezwaar online of per brief; bezwaar per e-mail neemt de gemeente niet in behandeling. Advies vragen kan bij het Juridisch Loket.",
       "url": "https://www.loonopzand.nl/nieuws-en-besluiten/bezwaar-maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

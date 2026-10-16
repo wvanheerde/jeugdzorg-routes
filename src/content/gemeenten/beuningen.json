@@ -4,7 +4,7 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.beuningen.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Beuningen is het Sociaal Team de voordeur voor jeugdhulp, hulp bij het huishouden en geldzorgen. U meldt zich zelf aan, een verwijzing is niet nodig. Het team heeft een ondersteuner jeugd en gezin die bij de huisartsen werkt, en schoolmaatschappelijk werkers op de basisscholen. Zij bieden lichte hulp zonder besluit van de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Dat gebeurt in Beuningen vaak. De gemeente zegt dat een melding binnen twee weken aan een consulent (medewerker die uw vraag onderzoekt) wordt gegeven. Hoe lang het daarna duurt tot het eerste gesprek, wordt niet gemeten. Vraag dat bij uw melding.",
+    "samenvatting": "In Beuningen is het Sociaal Team de voordeur voor jeugdhulp, hulp bij het huishouden en geldzorgen. U meldt zich zelf aan, een verwijzing is niet nodig. Het team heeft een ondersteuner jeugd en gezin die bij de huisartsen werkt, en schoolmaatschappelijk werkers op de basisscholen. Zij bieden lichte hulp zonder besluit van de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Dat gebeurt in Beuningen vaak. De gemeente zegt dat een melding binnen twee weken aan een medewerker jeugd (medewerker die uw vraag onderzoekt) wordt gegeven. Hoe lang het daarna duurt tot het eerste gesprek, wordt niet gemeten. Vraag dat bij uw melding.",
     "routes": [
       {
         "type": "wijkteam",
@@ -83,32 +83,31 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Gelderse Poort",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner kan met u meegaan naar het gesprek met het Sociaal Team en helpt ook als u na afloop niet tevreden bent. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek. Het Sociaal Team kan u hier ook meer over vertellen.",
       "telefoon": "088 633 0000",
       "url": "https://www.meegeldersepoort.nl/clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u hulp wilt die de aanbieders met een contract niet bieden. Eerst moet de gemeente vaststellen dat u recht heeft op hulp. Daarna dient u een budgetplan in. Daarin legt u uit waarom zorg in natura niet past, bij wie u de hulp inkoopt en hoe u de kwaliteit bewaakt. Een verklaring omtrent gedrag (VOG) van de zorgverlener kan nodig zijn. De gemeente toetst of u het budget kunt beheren. Het pgb is nooit hoger dan de goedkoopste passende zorg in natura en is niet vrij te besteden. Hulp van iemand uit uw netwerk mag, behalve ggz-behandeling.",
+      "toelichting": "Eerst moet de gemeente vaststellen dat u recht heeft op hulp. In uw budgetplan legt u uit waarom zorg in natura niet past, bij wie u de hulp inkoopt en hoe u de kwaliteit bewaakt. Een verklaring omtrent gedrag (VOG) van de zorgverlener kan nodig zijn. Het pgb is nooit hoger dan de goedkoopste passende zorg in natura. Hulp van iemand uit uw netwerk mag, behalve ggz-behandeling.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR763033/1"
     },
     "klacht": {
       "naam": "Klacht over het Sociaal Team (klachtenregeling van de gemeente)",
-      "toelichting": "Het Sociaal Team werkt voor de gemeente. Een klacht gaat dus via de klachtenregeling van de gemeente. Bespreek het eerst met de medewerker. Komt u er niet uit, dan kunt u met de coördinator van het Sociaal Team praten. Zo nodig gaat de klacht naar de klachtencoördinator. U kunt het klachtenformulier invullen of een brief sturen aan het college van burgemeester en wethouders (Postbus 14, 6640 AA Beuningen). Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Het Sociaal Team werkt voor de gemeente. Bespreek het eerst met de medewerker; komt u er niet uit, praat dan met de coördinator van het Sociaal Team. Zo nodig gaat de klacht naar de klachtencoördinator. U kunt het klachtenformulier invullen of een brief sturen aan het college van burgemeester en wethouders. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.beuningen.nl/ambtenaren-en-bestuurders",
       "telefoon": "14 024",
+      "adres": "College van burgemeester en wethouders, Postbus 14, 6640 AA Beuningen GLD",
       "extern": {
         "naam": "Gemeentelijke ombudsman Beuningen (als u niet tevreden bent over de afhandeling)",
         "url": "https://www.beuningen.nl/de-gemeentelijke-ombudsman"
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief aan het college (Postbus 14, 6640 AA Beuningen). Een onafhankelijke commissie adviseert de gemeente over uw bezwaar. Het besluit blijft gelden zolang uw bezwaar loopt. Wilt u dat het niet meteen ingaat, vraag dan een voorlopige voorziening (een snelle uitspraak) bij de rechtbank.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief aan het college (adres hieronder). Het besluit blijft gelden zolang uw bezwaar loopt. Wilt u dat het niet meteen ingaat, vraag dan bij de rechtbank een voorlopige voorziening (een snelle uitspraak).",
       "url": "https://www.beuningen.nl/bezwaar-en-beroep"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ) en Adviespunt Zorgbelang",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Voor advies, een vraag of een klacht.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/contact",
       "openingstijden": "Werkdagen 9.00–17.00 uur"
@@ -187,7 +186,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Beuningen: Jeugdhulp",
@@ -356,7 +355,7 @@
       },
       "doorlooptijden": {
         "status": "nee",
-        "samenvatting": "De gemeente meet de tijd tot het eerste gesprek niet. Een melding wordt volgens de gemeente binnen twee weken aan een consulent gegeven. Alleen uit het cliëntervaringsonderzoek is een indicatie te halen: 12 procent van de jeugd-cliënten wachtte langer dan zes weken."
+        "samenvatting": "De gemeente meet de tijd tot het eerste gesprek niet. Een melding wordt volgens de gemeente binnen twee weken aan een medewerker jeugd gegeven. Alleen uit het cliëntervaringsonderzoek is een indicatie te halen: 12 procent van de jeugd-cliënten wachtte langer dan zes weken."
       }
     },
     "laatstBijgewerkt": "2026-10-13"

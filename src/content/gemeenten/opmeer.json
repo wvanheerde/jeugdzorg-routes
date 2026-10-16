@@ -5,7 +5,7 @@
   "jeugdzorgregio": "West-Friesland",
   "websiteJeugd": "https://www.opmeer.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Opmeer is het Wijkteam de plek voor hulp aan uw kind. U meldt zich zelf aan, een verwijzing is niet nodig. Een consulent (medewerker) van het Wijkteam brengt samen met u de vraag in kaart. Soms is advies genoeg. Is meer nodig, dan volgt een intakegesprek en soms een langer traject. Volgens de rekenkamer blijft in Opmeer dezelfde consulent u meestal begeleiden van het eerste gesprek tot het besluit. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voor u een eerste gesprek hebt, is niet openbaar te vinden. In een onderzoek onder ouders kon de helft binnen twee weken in gesprek. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Opmeer is het Wijkteam de plek voor hulp aan uw kind. U meldt zich zelf aan, een verwijzing is niet nodig. Een medewerker jeugd (medewerker) van het Wijkteam brengt samen met u de vraag in kaart. Soms is advies genoeg. Is meer nodig, dan volgt een intakegesprek en soms een langer traject. Volgens de rekenkamer blijft in Opmeer dezelfde medewerker jeugd u meestal begeleiden van het eerste gesprek tot het besluit. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voor u een eerste gesprek hebt, is niet openbaar te vinden. In een onderzoek onder ouders kon de helft binnen twee weken in gesprek. Vraag bij uw aanmelding hoe lang het nu duurt.",
     "routes": [
       {
         "type": "wijkteam",
@@ -17,7 +17,7 @@
           "Vraag hoe lang het duurt tot het eerste gesprek en wat u in de tussentijd kunt doen.",
           "Neem zo nodig een onafhankelijke cliëntondersteuner mee naar het gesprek.",
           "Vraag om een schriftelijk verslag van het gesprek. Ondertekent u het en schrijft u erbij dat het een aanvraag is, dan telt het als aanvraag. De gemeente beslist binnen acht weken.",
-          "Hebt u hulp nodig bij het formulier? De consulent kan het in het eerste gesprek samen met u invullen."
+          "Hebt u hulp nodig bij het formulier? De medewerker jeugd kan het in het eerste gesprek samen met u invullen."
         ],
         "contact": {
           "naam": "Wijkteam Opmeer",
@@ -89,19 +89,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Stichting Maatschappelijke Dienstverlening (SMD)",
-      "toelichting": "Gratis en onafhankelijk, voor inwoners van West-Friesland vanaf 18 jaar. De cliëntondersteuner helpt kortdurend: uitzoeken wat u nodig heeft, meegaan naar gesprekken, uitleggen hoe een aanvraag verloopt en een persoonlijk plan schrijven. Zeg dat u in Opmeer woont. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek met het Wijkteam.",
+      "toelichting": "SMD helpt inwoners van West-Friesland vanaf 18 jaar, kortdurend, en kan ook een persoonlijk plan met u schrijven. Zeg dat u in Opmeer woont.",
       "telefoon": "0229 30 80 01",
       "email": "westfriesland@desmd.nl",
       "url": "https://www.opmeer.nl/clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u goed uitlegt waarom de hulp van een aanbieder met een contract niet past. U dient een pgb-plan in en een ondertekend perspectiefplan (het plan met doelen voor uw kind). U of uw budgetbeheerder moet het budget kunnen beheren, en de hulp moet van goede kwaliteit zijn. U krijgt geen pgb voor spoedeisende hulp of voor gebruikelijke hulp die u als ouder zelf geeft. Ook niet voor behandeling door een ouder of iemand met een persoonlijke band, als dat het belang van het kind in de weg kan staan. Kosten voor bemiddeling, pgb-administratie en een Verklaring omtrent gedrag (VOG) vergoedt het pgb niet. Een pgb met terugwerkende kracht is er niet.",
+      "toelichting": "Naast het pgb-plan dient u een ondertekend perspectiefplan in: het plan met doelen voor uw kind. U krijgt geen pgb voor spoedeisende hulp of voor gebruikelijke hulp die u als ouder zelf geeft. Ook niet voor behandeling door een ouder of iemand met een persoonlijke band, als dat het belang van het kind in de weg kan staan. Kosten voor bemiddeling, pgb-administratie en een Verklaring omtrent gedrag (VOG) vergoedt het pgb niet. Een pgb met terugwerkende kracht is er niet.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR742083/1"
     },
     "klacht": {
       "naam": "Klacht over het Wijkteam of de gemeente",
-      "toelichting": "Het Wijkteam werkt voor de gemeente. Een klacht over hoe u bent behandeld, dient u daarom in bij de gemeente, online met DigiD. De gemeente behandelt uw klacht binnen 6 weken en kan u uitnodigen voor een gesprek. Wilt u iets kwijt over het Wijkteam, positief of negatief? Mail dan naar de gemeente, ter attentie van het Wijkteam. Een vertrouwenspersoon van Jeugdstem kan u helpen.",
+      "toelichting": "Het Wijkteam werkt voor de gemeente. Een klacht over hoe u bent behandeld, dient u daarom in bij de gemeente, online met DigiD. De gemeente behandelt uw klacht binnen 6 weken en kan u uitnodigen voor een gesprek. Wilt u iets kwijt over het Wijkteam, positief of negatief, mail dan naar de gemeente, ter attentie van het Wijkteam.",
       "url": "https://www.opmeer.nl/klacht-indienen",
       "email": "gemeente@opmeer.nl",
       "telefoon": "0226 36 33 33",
@@ -111,12 +111,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of schriftelijk. In het besluit staat waar u het bezwaarschrift naartoe stuurt. Meestal volgt een hoorzitting. Soms geeft een onafhankelijke bezwaarschriftencommissie advies. De gemeente beslist binnen 12 weken, of binnen 18 weken als de commissie advies geeft.",
+      "toelichting": "Maak bezwaar online met DigiD of schriftelijk; in het besluit staat waar u het naartoe stuurt. Meestal volgt een hoorzitting. De gemeente beslist binnen 12 weken, of binnen 18 weken als een onafhankelijke bezwaarschriftencommissie advies geeft.",
       "url": "https://www.opmeer.nl/bezwaar-maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -244,7 +243,7 @@
       {
         "soort": "rekenkamer",
         "titel": "Rekenkamer: toegankelijke hulp, korte wachttijd intake",
-        "samenvatting": "De Rekenkamer Medemblik-Opmeer onderzocht de jeugdhulp in zes Westfriese gemeenten. In Opmeer begeleidt één team u van intake tot besluit, vaak met dezelfde consulent, en zijn de wachttijden voor een intakegesprek kort. Wel is de grens tussen lichte en specialistische hulp onduidelijk en hangt veel af van individuele consulenten.",
+        "samenvatting": "De Rekenkamer Medemblik-Opmeer onderzocht de jeugdhulp in zes Westfriese gemeenten. In Opmeer begeleidt één team u van intake tot besluit, vaak met dezelfde medewerker jeugd, en zijn de wachttijden voor een intakegesprek kort. Wel is de grens tussen lichte en specialistische hulp onduidelijk en hangt veel af van individuele medewerkers jeugd.",
         "datum": "2026-01-29",
         "bron": {
           "titel": "Raadsvoorstel Rekenkameronderzoek jeugdhulp in zes Westfriese gemeenten",

@@ -5,16 +5,16 @@
   "jeugdzorgregio": "Centraal Gelderland",
   "websiteJeugd": "https://www.westervoort.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Westervoort meldt u zich bij het Sociaal loket van de gemeente. U belt of vult het aanmeldformulier in. Een verwijzing is niet nodig. Het loket kijkt eerst of lichte hulp genoeg is, zoals maatschappelijk werk, jongerenwerk of een steungezin. Is meer nodig, dan komt een jeugdconsulent van de gemeente meestal bij u thuis voor een gesprek. De consulent besluit over de hulp. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. Hoe lang u wacht op het gesprek met een consulent, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Westervoort meldt u zich bij het Sociaal loket van de gemeente. U belt of vult het aanmeldformulier in. Een verwijzing is niet nodig. Het loket kijkt eerst of lichte hulp genoeg is, zoals maatschappelijk werk, jongerenwerk of een steungezin. Is meer nodig, dan komt een medewerker jeugd van de gemeente meestal bij u thuis voor een gesprek. De medewerker jeugd besluit over de hulp. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. Hoe lang u wacht op het gesprek met een medewerker jeugd, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Sociaal loket en jeugdconsulenten van de gemeente",
-        "omschrijving": "Het Sociaal loket is de ingang voor jeugdhulp en andere ondersteuning van de gemeente. Een medewerker voert het eerste gesprek. Daarna zoekt een jeugdconsulent (medewerker van de gemeente) met u en uw kind uit welke hulp past. In het team werkt ook een specialist voor vragen over psychische problemen (jeugd-ggz). U kunt uzelf aanmelden.",
+        "naam": "Sociaal loket en medewerkers jeugd van de gemeente",
+        "omschrijving": "Het Sociaal loket is de ingang voor jeugdhulp en andere ondersteuning van de gemeente. Een medewerker voert het eerste gesprek. Daarna zoekt een medewerker jeugd (medewerker van de gemeente) met u en uw kind uit welke hulp past. In het team werkt ook een specialist voor vragen over psychische problemen (jeugd-ggz). U kunt uzelf aanmelden.",
         "stappen": [
           "Bel het Sociaal loket of vul het online aanmeldformulier in.",
-          "Beantwoord de vragen van de medewerker. Die kijkt of lichte hulp genoeg is, zoals maatschappelijk werk of jongerenwerk. Is dat niet zo, dan neemt een consulent contact met u op.",
-          "Bereid het gesprek met de consulent voor. Dat is meestal bij u thuis. Schrijf vooraf op wat u nodig vindt, en neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Beantwoord de vragen van de medewerker. Die kijkt of lichte hulp genoeg is, zoals maatschappelijk werk of jongerenwerk. Is dat niet zo, dan neemt een medewerker jeugd contact met u op.",
+          "Bereid het gesprek met de medewerker jeugd voor. Dat is meestal bij u thuis. Schrijf vooraf op wat u nodig vindt, en neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Vraag om het schriftelijke verslag van het gesprek. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit). De gemeente streeft naar een besluit binnen acht weken."
         ],
         "contact": {
@@ -92,12 +92,11 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Adviespunt Zorgbelang",
-      "toelichting": "De gemeente verwijst voor hulp bij een aanvraag naar Adviespunt Zorgbelang. Dat is gratis en onafhankelijk. De cliëntondersteuner gaat mee naar het gesprek met de consulent en helpt ook bij bezwaar. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
       "url": "https://adviespuntzorgbelang.nl/cli%C3%ABntondersteuning-sociaal-domein"
     },
     "klacht": {
       "naam": "Klacht over de gemeente en het Sociaal loket",
-      "toelichting": "Het Sociaal loket en de jeugdconsulenten werken voor de gemeente. Een klacht over hoe u bent behandeld, dient u daarom in bij de gemeente. Dat kan online (met DigiD of eHerkenning), per brief of via het Sociaal loket. Binnen 6 weken krijgt u een brief met de beslissing. Een klacht over een zorgaanbieder meldt u bij die aanbieder, of bij het Meldpunt signalen zorg van de regio. Een vertrouwenspersoon van Jeugdstem kan met u meedenken.",
+      "toelichting": "Het Sociaal loket en de medewerkers jeugd werken voor de gemeente. Een klacht over hoe u bent behandeld, dient u daarom in bij de gemeente: online (met DigiD of eHerkenning), per brief of via het Sociaal loket. Binnen 6 weken krijgt u een brief met de beslissing. Een klacht over een zorgaanbieder meldt u bij die aanbieder, of bij het Meldpunt signalen zorg van de regio.",
       "url": "https://www.westervoort.nl/klacht-over-behandeling-gemeente",
       "extern": {
         "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
@@ -105,23 +104,22 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maken kan online met DigiD, met een formulier of per post. Een onafhankelijke bezwaarschriftencommissie kan u uitnodigen om uw bezwaar toe te lichten (hoorzitting). De beslissing volgt meestal binnen 12 weken na het einde van de bezwaartermijn. Hulp bij bezwaar krijgt u van Sociaal Raadslieden of van de onafhankelijke cliëntondersteuner.",
+      "toelichting": "Maak bezwaar online met DigiD, met een formulier of per post. De beslissing volgt meestal binnen 12 weken na het einde van de bezwaartermijn. Hulp bij bezwaar krijgt u ook van Sociaal Raadslieden.",
       "url": "https://www.westervoort.nl/bezwaar-en-beroep"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als hulp van een aanbieder met een contract niet past. Leg uit waarom die aanbieders niet passen. U moet het budget zelf of met een beheerder kunnen beheren, en hulp kiezen van goede kwaliteit. Hulp van iemand uit uw netwerk, ook familie, kan onder voorwaarden. Bij spoed is een pgb niet mogelijk. De voorwaarden staan in de Verordening jeugdhulp.",
+      "toelichting": "Leg uit waarom hulp van aanbieders met een contract niet past. Hulp van iemand uit uw netwerk, ook familie, kan onder voorwaarden. Bij spoed is een pgb niet mogelijk.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR696843/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bijvoorbeeld maatschappelijk werk, jongerenwerk of een steungezin. Specialistische jeugdhulp koopt Westervoort samen met tien andere gemeenten in de regio Centraal Gelderland in. De regio heeft een eigen openbare zoektool met aanbieders die een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de consulent om hulp bij het kiezen.",
+    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente, bijvoorbeeld maatschappelijk werk, jongerenwerk of een steungezin. Specialistische jeugdhulp koopt Westervoort samen met tien andere gemeenten in de regio Centraal Gelderland in. De regio heeft een eigen openbare zoektool met aanbieders die een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de medewerker jeugd om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://www.inkoopsdcg.nl/home%2Binkoop/inkoop/zoektool%2Bgecontracteerd%2Baanbod%2Bsdcg/default.aspx",
     "categorieen": [
       {
@@ -299,7 +297,7 @@
     "opmerkingen": "Contactgegevens Adviespunt Zorgbelang (telefoon) niet gevonden; de contactpagina laadt via JavaScript. Doorlooptijden toegang en een klachtencommissie voor het Sociaal loket niet gevonden. Regionale journalistiek niet doorzocht."
   },
   "ervaringen": {
-    "samenvatting": "In het onderzoek van 2025 wisten minder ouders en jongeren waar ze terechtkunnen (61 procent, een jaar eerder 74 procent). Ook voelden minder zich goed geholpen (76 tegen 88 procent). De rekenkamer zag in 2024 dat jeugdconsulenten veel administratie en personeelswisselingen hebben. De gemeente heeft het team van consulenten in 2025 versterkt om wachtlijsten te verminderen.\n\nVraag bij uw aanmelding hoe lang het duurt tot het gesprek met een jeugdconsulent. Leg afspraken schriftelijk vast en vraag om het verslag. Neem een onafhankelijke cliëntondersteuner van Adviespunt Zorgbelang mee. Een klacht over het loket dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "In het onderzoek van 2025 wisten minder ouders en jongeren waar ze terechtkunnen (61 procent, een jaar eerder 74 procent). Ook voelden minder zich goed geholpen (76 tegen 88 procent). De rekenkamer zag in 2024 dat medewerkers jeugd veel administratie en personeelswisselingen hebben. De gemeente heeft het team van medewerkers jeugd in 2025 versterkt om wachtlijsten te verminderen.\n\nVraag bij uw aanmelding hoe lang het duurt tot het gesprek met een medewerker jeugd. Leg afspraken schriftelijk vast en vraag om het verslag. Neem een onafhankelijke cliëntondersteuner van Adviespunt Zorgbelang mee. Een klacht over het loket dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "clientervaringsonderzoek",
@@ -313,8 +311,8 @@
       },
       {
         "soort": "rekenkamer",
-        "titel": "Rekenkamer: consulenten onder druk, wachtlijsten bij aanbieders",
-        "samenvatting": "Jeugdconsulenten hebben veel administratie en door personeelswisselingen een vol takenpakket. Wachtlijsten bij zorgaanbieders zijn soms zo lang dat kinderen niet direct de juiste hulp krijgen. Kinderen in Westervoort krijgen relatief vaak specialistische jeugdhulp waarvoor een besluit of verwijzing nodig is.",
+        "titel": "Rekenkamer: medewerkers jeugd onder druk, wachtlijsten bij aanbieders",
+        "samenvatting": "Medewerkers jeugd hebben veel administratie en door personeelswisselingen een vol takenpakket. Wachtlijsten bij zorgaanbieders zijn soms zo lang dat kinderen niet direct de juiste hulp krijgen. Kinderen in Westervoort krijgen relatief vaak specialistische jeugdhulp waarvoor een besluit of verwijzing nodig is.",
         "datum": "2024-05-07",
         "bron": {
           "titel": "Rapport Rekenkamer: Jeugdzorgbeleid Westervoort (Regioplan)",
@@ -333,8 +331,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Meer consulenten, Veilig Thuis en jeugdbescherming schuiven aan",
-        "samenvatting": "In 2025 kreeg het team van consulenten extra mensen om wachtlijsten te verminderen. Medewerkers van Veilig Thuis en Jeugdbescherming Gelderland overleggen elke twee weken met de consulenten. Een jongerenwerker en een maatschappelijk werker van Santé Partners werken mee in het Sociaal loket.",
+        "titel": "Meer medewerkers jeugd, Veilig Thuis en jeugdbescherming schuiven aan",
+        "samenvatting": "In 2025 kreeg het team van medewerkers jeugd extra mensen om wachtlijsten te verminderen. Medewerkers van Veilig Thuis en Jeugdbescherming Gelderland overleggen elke twee weken met de medewerkers jeugd. Een jongerenwerker en een maatschappelijk werker van Santé Partners werken mee in het Sociaal loket.",
         "datum": "2026-06-29",
         "bron": {
           "titel": "Jaarrekening 2025 gemeente Westervoort",

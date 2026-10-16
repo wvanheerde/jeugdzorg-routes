@@ -101,18 +101,26 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Sterk Bloemendaal Heemstede en SYLTA",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner werkt niet voor de gemeente. De ondersteuner denkt met u mee, kan meegaan naar gesprekken en helpt met formulieren. De gemeente werkt hiervoor samen met deze twee organisaties. Vraag of zij ook meegaan bij jeugdhulp. Ook het CJG kan u onafhankelijke cliëntondersteuners noemen.",
+      "toelichting": "Vraag deze organisaties of zij ook meegaan bij jeugdhulp. Ook het CJG kan u cliëntondersteuners noemen.",
       "email": "info@sterkbloemendaalheemstede.nl",
-      "url": "https://www.bloemendaal.nl/zorg-en-hulp/wmo-loket"
+      "url": "https://www.bloemendaal.nl/zorg-en-hulp/wmo-loket",
+      "andere": [
+        {
+          "naam": "SYLTA",
+          "telefoon": "088 007 5000",
+          "email": "info@sylta.nl",
+          "url": "https://www.sylta.nl/contact/"
+        }
+      ]
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk, maar de gemeente stelt voorwaarden. U laat zien dat een pgb tot betere en doelmatiger hulp leidt. Ook legt u uit waarom zorg in natura (hulp van een aanbieder die de gemeente heeft ingekocht) niet past. De hulp moet bijdragen aan het doel in het plan. Hulp uit uw eigen netwerk kan alleen als de helper daardoor niet overbelast raakt. Een pgb is niet mogelijk voor pleegzorg, niet voor hulp van een ingekochte aanbieder en niet voor kosten die u al maakte voor de aanvraag. Begin dus niet met hulp voordat u de beschikking heeft.",
+      "toelichting": "U laat zien dat een pgb tot betere en doelmatiger hulp leidt, en waarom zorg in natura (hulp van een aanbieder die de gemeente heeft ingekocht) niet past. De hulp moet bijdragen aan het doel in het plan. Hulp uit uw eigen netwerk kan alleen als de helper daardoor niet overbelast raakt. Een pgb is niet mogelijk voor pleegzorg, niet voor hulp van een ingekochte aanbieder en niet met terugwerkende kracht, dus niet voor kosten van vóór de aanvraag. Begin dus niet met hulp voordat u de beschikking heeft.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR737452/2"
     },
     "klacht": {
       "naam": "Klacht over het CJG of de gemeente",
-      "toelichting": "Het CJG beslist namens de gemeente. Hebt u een klacht over uw CJG-coach? Bespreek die eerst met de coach, of gebruik het klachtenformulier op de site van het CJG. Een medewerker neemt dan contact op voor een gesprek. Komt u er niet uit, dan kunt u naar een onafhankelijke klachtencommissie. Een klacht over een medewerker van de gemeente dient u in bij de gemeente. U krijgt binnen 3 werkdagen een bevestiging en binnen 6 weken een antwoord. Daarna kunt u naar de Nationale ombudsman.",
+      "toelichting": "Het CJG beslist namens de gemeente. Hebt u een klacht over uw CJG-coach, bespreek die dan eerst met de coach of gebruik het klachtenformulier op de site van het CJG; een medewerker neemt dan contact met u op. Een klacht over een medewerker van de gemeente dient u in bij de gemeente. U krijgt binnen 3 werkdagen een bevestiging en binnen 6 weken antwoord. Daarna kunt u naar de Nationale ombudsman.",
       "url": "https://cjgkennemerland.nl/klachtenprocedure/",
       "extern": {
         "naam": "Onafhankelijke klachtencommissie van het CJG",
@@ -120,12 +128,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Een onafhankelijke bezwaarschriftencommissie nodigt u uit voor een hoorzitting en adviseert de gemeente. Hebt u geen beschikking, bijvoorbeeld omdat u zorg in natura kreeg? Vraag er dan een aan bij het CJG. Het besluit blijft in principe gelden totdat over uw bezwaar is beslist.",
+      "toelichting": "Hebt u geen beschikking, bijvoorbeeld omdat u zorg in natura kreeg? Vraag er dan een aan bij het CJG. Maak bezwaar online of per brief; het adres staat hieronder.",
       "url": "https://www.bloemendaal.nl/klacht-bezwaar-zienswijze-en-aansprakelijk-stellen/bezwaar-maken-tegen-besluit-gemeente"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -158,7 +165,7 @@
     {
       "naam": "Ouder- en jeugdsteunpunt passend onderwijs",
       "soort": "informatiepunt",
-      "omschrijving": "Consulenten van de samenwerkingsverbanden luisteren, geven informatie en gaan op verzoek mee naar gesprekken op school. U mag uw vraag ook anoniem stellen.",
+      "omschrijving": "Medewerkers jeugd van de samenwerkingsverbanden luisteren, geven informatie en gaan op verzoek mee naar gesprekken op school. U mag uw vraag ook anoniem stellen.",
       "themas": [
         "passend onderwijs",
         "school"
@@ -195,7 +202,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-14",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Bloemendaal: Hulp bij opvoeden en opgroeien",
@@ -306,6 +313,11 @@
         "titel": "GGD Kennemerland: Mijn kind (0-4 jaar alleen in Haarlemmermeer)",
         "url": "https://www.ggdkennemerland.nl/mijn-kind",
         "geraadpleegd": "2026-10-14"
+      },
+      {
+        "titel": "SYLTA: contact",
+        "url": "https://www.sylta.nl/contact/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek jeugd en doorlooptijden niet gevonden; het cliëntervaringsonderzoek Wmo en Jeugdwet over 2022 is te oud en niet gelezen. Raadsinformatie van Bloemendaal zit achter bot-controle (Anubis); de Bloemendaalse aanpak is gelezen via het Internet Archive. Regionale journalistiek beperkt doorzocht (WebSearch-limiet)."

@@ -83,20 +83,32 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Van Houten&co, MEE Dichtbij of Steunpunt GGz Utrecht",
-      "toelichting": "Gratis en onafhankelijk. De gemeente noemt drie organisaties die u zelf kunt benaderen: een welzijnsconsulent van Van Houten&co, een medewerker van MEE Dichtbij en een cliëntondersteuner van het Steunpunt GGz Utrecht. Zij bereiden het gesprek met het Sociaal Team met u voor en kunnen meegaan. Een cliëntondersteuner beslist niet over uw aanvraag. Vraag hulp bij voorkeur vóór het eerste gesprek.",
+      "naam": "Van Houten&co",
+      "toelichting": "U kunt zelf een van drie organisaties benaderen: Van Houten&co, MEE Dichtbij of het Steunpunt GGz Utrecht. Zij bereiden het gesprek met het Sociaal Team met u voor.",
       "telefoon": "030 70 01 500",
       "email": "info@vanhoutenenco.nl",
-      "url": "https://www.houten.nl/zorg-onderwijs-en-inkomen/zorg-en-gezondheid/clientondersteuning"
+      "url": "https://www.houten.nl/zorg-onderwijs-en-inkomen/zorg-en-gezondheid/clientondersteuning",
+      "andere": [
+        {
+          "naam": "MEE Dichtbij",
+          "telefoon": "030 26 42 255",
+          "email": "clientondersteuning@meedichtbij.nl"
+        },
+        {
+          "naam": "Steunpunt GGz Utrecht",
+          "telefoon": "030 23 69 320",
+          "email": "steunpunt@ggzutrecht.nl"
+        }
+      ]
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. Voor jeugdhulp moet u uitleggen waarom zorg in natura (hulp van een aanbieder met een contract van de gemeente) niet past. U levert een zorg- en budgetplan in, en laat zien dat u het aanbod van de gemeente kent. U moet het budget zelf kunnen beheren, of met hulp van uw netwerk. Een pgb voor jeugd-ggz dat een ouder of iemand uit het netwerk zelf levert, kan de gemeente weigeren. Het pgb mag niet hoger zijn dan de kosten van zorg in natura.",
+      "toelichting": "U levert een zorg- en budgetplan in en laat zien dat u het aanbod van de gemeente kent. Wil een ouder of iemand uit het netwerk zelf jeugd-ggz (psychische hulp) geven met een pgb, dan kan de gemeente dat weigeren. Het pgb mag niet hoger zijn dan de kosten van zorg in natura (hulp van een aanbieder met een contract van de gemeente).",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR713801/1"
     },
     "klacht": {
       "naam": "Klacht over het Sociaal Team Houten",
-      "toelichting": "Bespreek het eerst met uw zorgprofessional. Lukt dat niet, dan kijkt de teamleider mee. Wilt u een onafhankelijk gesprek, dan helpt de ombudsfunctionaris. Die hoort bij de gemeente. Een formele klacht dient u in per mail of per brief (Stichting Sociaal Team Houten, Postbus 30, 3990 DA Houten). Een klacht over de gemeente zelf gaat via de klachtenregeling van de gemeente. Daarna kunt u naar de Nationale ombudsman.",
+      "toelichting": "Bespreek het eerst met uw zorgprofessional. Lukt dat niet, dan kijkt de teamleider mee. Wilt u een onafhankelijk gesprek, dan helpt de ombudsfunctionaris van de gemeente. Een formele klacht dient u in per mail of per brief (Stichting Sociaal Team Houten, Postbus 30, 3990 DA Houten). Een klacht over de gemeente zelf gaat via de klachtenregeling van de gemeente.",
       "url": "https://www.sociaalteamhouten.nl/klachtenbehandeling/",
       "email": "secretariaat@sociaalteamhouten.nl",
       "extern": {
@@ -105,12 +117,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "U maakt bezwaar digitaal met DigiD, of per post (Postbus 30, 3990 DA Houten). Per e-mail kan het niet. Meestal is er een gesprek (hoorzitting). Daarna adviseert de bezwaarschriftencommissie of een onafhankelijk adviseur de gemeente.",
+      "toelichting": "U maakt bezwaar digitaal met DigiD, of per post. Per e-mail kan het niet.",
       "url": "https://www.houten.nl/gemeentelijke-organisatie/bezwaar-voorlopige-voorziening-en-beroep"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

@@ -98,12 +98,12 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Meedenkersnetwerk (cliëntondersteuning)",
-      "toelichting": "Gratis hulp van iemand die met u meedenkt en meegaat naar gesprekken, ook over jeugdhulp. Het Meedenkersnetwerk doet dit voor inwoners van Hillegom, Teylingen en Noordwijk. Meedenkers staan los van Voor ieder 1. Vraag ook of een vertrouwenspersoon van Jeugdstem u kan helpen.",
+      "toelichting": "Het Meedenkersnetwerk doet dit voor inwoners van Hillegom, Teylingen en Noordwijk, ook bij jeugdhulp. Meedenkers staan los van Voor ieder 1.",
       "url": "https://www.meedenkersnetwerk.nl/"
     },
     "klacht": {
       "naam": "Klacht over Voor ieder 1",
-      "toelichting": "Bespreek uw klacht eerst met de medewerker en daarna met de teammanager. Komt u er niet uit? Dien dan een officiële klacht in. Lukt het daarna nog niet, dan kunt u naar de onafhankelijke Klachtencommissie Jeugdhulp Zuid-Holland. Jeugdstem en het Juridisch Loket kunnen u helpen bij een klacht. Een klacht over de gemeente zelf dient u binnen 12 maanden in bij de gemeente, online of schriftelijk.",
+      "toelichting": "Bespreek uw klacht eerst met de medewerker en daarna met de teammanager. Komt u er niet uit, dien dan een officiële klacht in. Lukt het daarna nog niet, dan kunt u naar de Klachtencommissie Jeugdhulp Zuid-Holland. Het Juridisch Loket kan u bij een klacht helpen. Een klacht over de gemeente zelf dient u binnen 12 maanden online of schriftelijk in bij de gemeente.",
       "url": "https://www.voorieder1.nl/klachten-complimenten/",
       "email": "klachten@voorieder1.nl",
       "extern": {
@@ -112,17 +112,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bent u het niet eens met een besluit over jeugdhulp of een pgb? Dan kunt u bezwaar maken. Volgens Voor ieder 1 gaat dat via de ISD Bollenstreek (de sociale dienst van de Bollenstreekgemeenten). Op de bezwaarpagina van de gemeente staat hoe het gaat: schriftelijk of online. Per e-mail kan het niet.",
+      "toelichting": "De ISD Bollenstreek, de sociale dienst van de Bollenstreekgemeenten, beslist namens de gemeente over jeugdhulp en een pgb, ook over uw bezwaar. Maak bezwaar schriftelijk of online; per e-mail kan het niet.",
       "url": "https://hillegom.nl/diensten-en-informatie/zorg-ondersteuning/meldingen-of-klachten/bezwaar-maken-besluit-gemeente/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom de hulp van aanbieders met een contract niet past. U maakt een pgb-plan en laat zien dat u het budget kunt beheren. Het sociaal team beoordeelt dat. Het budget mag niet hoger zijn dan wat de regio betaalt voor dezelfde hulp van een aanbieder met een contract. Hulp van mensen uit uw netwerk kan alleen in uitzonderlijke situaties, bijvoorbeeld bij een ernstige meervoudige beperking. Bij een pgb krijgt u altijd een besluit (beschikking). Vraag Voor ieder 1 om uitleg.",
+      "toelichting": "U moet uitleggen waarom de hulp van aanbieders met een contract niet past. Het sociaal team beoordeelt uw pgb-plan en of u het budget kunt beheren. Het budget mag niet hoger zijn dan wat de regio betaalt voor dezelfde hulp van een aanbieder met een contract. Hulp van mensen uit uw netwerk kan alleen in uitzonderlijke situaties, bijvoorbeeld bij een ernstige meervoudige beperking. Vraag Voor ieder 1 om uitleg.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR755338/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -229,7 +228,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hillegom: Hulp en ondersteuning",
@@ -330,6 +329,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Ondermandaatbesluit Jeugdwet ISD Bollenstreek (CVDR679188)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR679188/1",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Programmabegroting 2027 nog niet verschenen. Raadsinformatie (gemeenteraad.hillegom.nl) staat achter bot-controle (Anubis); Rekenkamerrapport zelf niet gevonden, alleen het krantenbericht. Cliëntervaringsonderzoek en doorlooptijden niet gevonden. Bezwaarroute via ISD volgens Voor ieder 1; gemeentepagina noemt dat niet. Regionale journalistiek beperkt doorzocht (WebSearch-limiet)."

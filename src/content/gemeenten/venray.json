@@ -4,21 +4,21 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.venray.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Venray vraagt u jeugdhulp aan bij de jeugdconsulenten van de gemeente. Zij praten met u over wat er speelt, maken met u een plan (het leefzorgplan) en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Voor vragen over opvoeden en opgroeien kunt u ook gratis terecht bij de gezinscoach. Elke school heeft een vaste gezinscoach. Ook de huisarts mag rechtstreeks verwijzen. In 2025 waren de wachttijden bij de jeugdconsulenten langer dan de wettelijke norm van acht weken. Volgens de gemeente waren ze eind 2025 weer binnen de wettelijke termijnen. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Venray vraagt u jeugdhulp aan bij de medewerkers jeugd van de gemeente. Zij praten met u over wat er speelt, maken met u een plan (het leefzorgplan) en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Voor vragen over opvoeden en opgroeien kunt u ook gratis terecht bij de gezinscoach. Elke school heeft een vaste gezinscoach. Ook de huisarts mag rechtstreeks verwijzen. In 2025 waren de wachttijden bij de medewerkers jeugd langer dan de wettelijke norm van acht weken. Volgens de gemeente waren ze eind 2025 weer binnen de wettelijke termijnen. Vraag bij uw aanmelding hoe lang het nu duurt.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Jeugdconsulenten van de gemeente, met de gezinscoach",
-        "omschrijving": "De jeugdconsulenten werken voor de gemeente Venray. Zij voeren het gesprek met u (het keukentafelgesprek), maken met u een leefzorgplan en nemen het besluit over de hulp. De gezinscoach helpt gratis bij vragen over opvoeden, geld, werk of gezondheid. Daarvoor hebt u geen verwijzing van de gemeente nodig. Is specialistische hulp nodig, dan schakelt de gezinscoach in overleg met u de jeugdconsulent in.",
+        "naam": "Medewerkers jeugd van de gemeente, met de gezinscoach",
+        "omschrijving": "De medewerkers jeugd werken voor de gemeente Venray. Zij voeren het gesprek met u (het keukentafelgesprek), maken met u een leefzorgplan en nemen het besluit over de hulp. De gezinscoach helpt gratis bij vragen over opvoeden, geld, werk of gezondheid. Daarvoor hebt u geen verwijzing van de gemeente nodig. Is specialistische hulp nodig, dan schakelt de gezinscoach in overleg met u de medewerker jeugd in.",
         "stappen": [
           "Bel de gemeente en kies keuze 1, of mail of vul het contactformulier jeugd en Wmo in. De gemeente maakt een afspraak voor een gesprek.",
-          "Bespreek met een jeugdconsulent wat u en uw kind nodig hebben. U mag iemand meenemen, bijvoorbeeld uw partner of een onafhankelijke cliëntondersteuner.",
+          "Bespreek met een medewerker jeugd wat u en uw kind nodig hebben. U mag iemand meenemen, bijvoorbeeld uw partner of een onafhankelijke cliëntondersteuner.",
           "Maak samen een leefzorgplan. Vraag om een schriftelijk verslag. Vraag bij specialistische hulp ook om een schriftelijk besluit (beschikking).",
           "Wilt u liever eerst advies over opvoeden of opgroeien? Meld u aan bij de gezinscoach, of vraag de intern begeleider van school om contact te leggen."
         ],
         "contact": [
           {
-            "naam": "Jeugdconsulenten (gemeente Venray)",
+            "naam": "Medewerkers jeugd (gemeente Venray)",
             "telefoon": "0478 523333",
             "email": "sociaaldomein@venray.nl",
             "url": "https://www.venray.nl/jeugdhulp",
@@ -36,7 +36,7 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de jeugdconsulenten. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord. Die doet ook het consultatiebureau (0 tot 4 jaar) en de gezondheidszorg op school.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord. Die doet ook het consultatiebureau (0 tot 4 jaar) en de gezondheidszorg op school.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
           "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente.",
@@ -55,7 +55,7 @@
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag de intern begeleider om contact met de gezinscoach, of meld u zelf aan bij de gezinscoach.",
-          "Is meer hulp nodig? Dan schakelt de gezinscoach de jeugdconsulent in. U kunt zich ook zelf melden bij de jeugdconsulenten.",
+          "Is meer hulp nodig? Dan schakelt de gezinscoach de medewerker jeugd in. U kunt zich ook zelf melden bij de medewerkers jeugd.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -67,7 +67,7 @@
             "adres": "De Wieënhof 1, Venray"
           },
           {
-            "naam": "Jeugdconsulenten (gemeente Venray)",
+            "naam": "Medewerkers jeugd (gemeente Venray)",
             "telefoon": "0478 523333",
             "email": "sociaaldomein@venray.nl",
             "url": "https://www.venray.nl/jeugdhulp",
@@ -108,18 +108,17 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE De Meent Groep",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner van MEE kan bij het gesprek met de jeugdconsulent aanwezig zijn, meedenken en helpen bij een aanvraag. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
       "telefoon": "088 465 3555",
       "url": "https://www.meedemeentgroep.nl/mee-in-uw-gemeente/venray"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. De gemeente kiest wel bij voorkeur voor zorg in natura: hulp van een aanbieder met een contract. Ook past de gemeente de voorwaarden voor een pgb strenger toe. U bespreekt de mogelijkheden met de jeugdconsulent, in een apart gesprek over uw keuze (bewustkeuzegesprek). Leg uit waarom hulp van een aanbieder met een contract niet past. In een pgb-plan laat u zien dat u het budget kunt beheren en dat de hulp veilig en doeltreffend is. Is hulp via een pgb duurder dan zorg in natura, dan betaalt u het verschil zelf. Voor een hulpverlener uit uw netwerk geldt een lager tarief. Bemiddelingskosten en reiskosten van de zorgverlener betaalt u niet uit het pgb.",
+      "toelichting": "De gemeente kiest bij voorkeur voor hulp van een aanbieder met een contract (zorg in natura) en past de voorwaarden voor een pgb strenger toe. U bespreekt uw keuze met de medewerker jeugd in een apart gesprek (bewustkeuzegesprek). Leg daarin uit waarom hulp van een aanbieder met een contract niet past. Is hulp via een pgb duurder dan zorg in natura, dan betaalt u het verschil zelf. Voor een hulpverlener uit uw netwerk geldt een lager tarief.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR753414/1"
     },
     "klacht": {
-      "naam": "Klacht over de gemeente en de jeugdconsulenten",
-      "toelichting": "De jeugdconsulenten werken voor de gemeente. Een klacht over hoe u bent behandeld, gaat daarom via de klachtregeling van de gemeente. Dien de klacht online in, bel de gemeente of schrijf aan het college van burgemeester en wethouders. U krijgt binnen 5 werkdagen een ontvangstbevestiging. Vaak lost een gesprek de klacht op. Zo niet, dan kan een klachtbehandelaar u horen en een schriftelijk oordeel geven. Daarvoor moet de klacht ondertekend op papier of online zijn ingediend. Een klacht over de gezinscoach of een zorgaanbieder dient u eerst bij die organisatie in.",
+      "naam": "Klacht over de gemeente en de medewerkers jeugd",
+      "toelichting": "De medewerkers jeugd werken voor de gemeente. Een klacht over hoe zij u behandelden, gaat daarom via de klachtregeling van de gemeente. Dien de klacht online in, bel de gemeente of schrijf aan het college van burgemeester en wethouders. Lost een gesprek de klacht niet op, dan kan een klachtbehandelaar u horen en een schriftelijk oordeel geven; dat kan alleen bij een klacht die online of ondertekend op papier is ingediend. Een klacht over de gezinscoach of een zorgaanbieder dient u eerst bij die organisatie in.",
       "url": "https://www.venray.nl/klacht-over-de-gemeente",
       "telefoon": "0478 523333",
       "extern": {
@@ -128,18 +127,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maken kan online met DigiD of met een brief. Meestal adviseert een onafhankelijke bezwaarschriftcommissie de gemeente. Vaak is er eerst een hoorzitting waar u uw bezwaar uitlegt. U mag iemand meenemen. Daarna kunt u in beroep bij de rechtbank. Het besluit blijft gelden zolang het bezwaar loopt.",
+      "toelichting": "U maakt bezwaar online met DigiD of met een brief. Naar de hoorzitting mag u iemand meenemen. Het besluit blijft gelden zolang het bezwaar loopt.",
       "url": "https://www.venray.nl/bezwaarschrift-indienen"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u bij de gezinscoach, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Venray samen met de andere gemeenten in Noord-Limburg in via Sociaal Domein Limburg-Noord. Op de site van Sociaal Domein Limburg-Noord staat welke aanbieders een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de jeugdconsulent om een overzicht en om hulp bij het kiezen.",
+    "samenvatting": "Lichte hulp krijgt u bij de gezinscoach, zonder besluit van de gemeente. Specialistische jeugdhulp koopt Venray samen met de andere gemeenten in Noord-Limburg in via Sociaal Domein Limburg-Noord. Op de site van Sociaal Domein Limburg-Noord staat welke aanbieders een contract hebben. Wachttijden per aanbieder zijn niet openbaar te vinden. Vraag de medewerker jeugd om een overzicht en om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://sociaaldomein-limburgnoord.nl/informatie-voor-inwoners/domein-jeugdhulp",
     "categorieen": [
       {
@@ -341,7 +339,7 @@
   },
   "jeugdzorgregio": "Noord-Limburg",
   "ervaringen": {
-    "samenvatting": "In 2025 werden de wachtlijsten voor jeugdhulp bij de toegang langer, ook boven de norm van acht weken. De gemeente zette met spoed een extra team in. Volgens het jaarverslag waren de wachttijden eind 2025 weer binnen de wettelijke termijnen, en in 2026 start een nieuwe toegang. Een tevredenheidsonderzoek onder ouders is niet openbaar te vinden.\n\nVraag bij uw aanmelding bij de jeugdconsulenten hoe lang het nu duurt. Leg afspraken vast in het leefzorgplan en vraag om een schriftelijk verslag. Neem een onafhankelijke cliëntondersteuner van MEE mee naar het gesprek. Een klacht over de jeugdconsulenten dient u in via de klachtregeling van de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "In 2025 werden de wachtlijsten voor jeugdhulp bij de toegang langer, ook boven de norm van acht weken. De gemeente zette met spoed een extra team in. Volgens het jaarverslag waren de wachttijden eind 2025 weer binnen de wettelijke termijnen, en in 2026 start een nieuwe toegang. Een tevredenheidsonderzoek onder ouders is niet openbaar te vinden.\n\nVraag bij uw aanmelding bij de medewerkers jeugd hoe lang het nu duurt. Leg afspraken vast in het leefzorgplan en vraag om een schriftelijk verslag. Neem een onafhankelijke cliëntondersteuner van MEE mee naar het gesprek. Een klacht over de medewerkers jeugd dient u in via de klachtregeling van de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",

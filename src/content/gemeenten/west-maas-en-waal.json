@@ -4,15 +4,15 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.westmaasenwaal.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In West Maas en Waal is VraagWijzer de ingang voor vragen over opvoeden, opgroeien, zorg, werk en inkomen. VraagWijzer werkt in opdracht van de gemeente. U meldt zich zelf aan; een verwijzing is niet nodig. Een consulent komt meestal bij u thuis voor een gesprek (keukentafelgesprek) en legt dat vast in een verslag. Moet de gemeente de hulp regelen, dan geldt het ondertekende verslag meteen als aanvraag. Ook de huisarts mag rechtstreeks verwijzen. Volgens de website van de gemeente zijn er nu wachttijden en moet u langer wachten dan normaal. Vraag bij uw aanmelding hoe lang het duurt. De gemeente bereidt een nieuwe aanbesteding (inkoop) van VraagWijzer voor 2028 voor. Daardoor kan de toegang veranderen.",
+    "samenvatting": "In West Maas en Waal is VraagWijzer de ingang voor vragen over opvoeden, opgroeien, zorg, werk en inkomen. VraagWijzer werkt in opdracht van de gemeente. U meldt zich zelf aan; een verwijzing is niet nodig. Een medewerker jeugd komt meestal bij u thuis voor een gesprek (keukentafelgesprek) en legt dat vast in een verslag. Moet de gemeente de hulp regelen, dan geldt het ondertekende verslag meteen als aanvraag. Ook de huisarts mag rechtstreeks verwijzen. Volgens de website van de gemeente zijn er nu wachttijden en moet u langer wachten dan normaal. Vraag bij uw aanmelding hoe lang het duurt. De gemeente bereidt een nieuwe aanbesteding (inkoop) van VraagWijzer voor 2028 voor. Daardoor kan de toegang veranderen.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "VraagWijzer West Maas en Waal",
-        "omschrijving": "VraagWijzer is het toegangsteam van de gemeente. Een consulent bespreekt uw vraag, zoekt eerst naar lichte oplossingen en regelt zo nodig specialistische jeugdhulp. Bij vragen over opvoeden en opgroeien kunt u zich hier zelf melden. Is er geen directe oplossing, dan krijgt u een gesprek bij u thuis.",
+        "omschrijving": "VraagWijzer is het toegangsteam van de gemeente. Een medewerker jeugd bespreekt uw vraag, zoekt eerst naar lichte oplossingen en regelt zo nodig specialistische jeugdhulp. Bij vragen over opvoeden en opgroeien kunt u zich hier zelf melden. Is er geen directe oplossing, dan krijgt u een gesprek bij u thuis.",
         "stappen": [
           "Bel VraagWijzer of stuur een e-mail met uw vraag. Is er niemand bereikbaar, spreek dan de voicemail in; u wordt de volgende dag teruggebeld.",
-          "Bespreek uw vraag in het gesprek bij u thuis. De consulent zoekt samen met u naar een oplossing.",
+          "Bespreek uw vraag in het gesprek bij u thuis. De medewerker jeugd zoekt samen met u naar een oplossing.",
           "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Vraag er het liefst al om vóór het gesprek.",
           "Lees het verslag (persoonlijk ondersteuningsplan), zet er uw opmerkingen bij en stuur het ondertekend terug. Dat is meteen uw aanvraag als de gemeente de hulp moet regelen.",
           "Wacht op het besluit (beschikking) en vraag het schriftelijk als u het niet krijgt."
@@ -99,13 +99,13 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (MEE Gelderse Poort en Sociom)",
-      "toelichting": "Gratis en onafhankelijk van VraagWijzer en de gemeente. Een cliëntondersteuner mag mee naar het gesprek met VraagWijzer. Vraag er het liefst om vóór het gesprek, want dat wordt vaak snel gepland. U kiest zelf: MEE Gelderse Poort, een vrijwillige adviseur in uw dorp via welzijnsorganisatie Sociom, of de Stichting Platform Gehandicapten West Maas en Waal. Het telefoonnummer hieronder is van MEE Gelderse Poort.",
+      "toelichting": "U kiest zelf: MEE Gelderse Poort (telefoonnummer hieronder), een vrijwillige adviseur in uw dorp via welzijnsorganisatie Sociom, of de Stichting Platform Gehandicapten West Maas en Waal. Vraag er snel om, want het gesprek met VraagWijzer wordt vaak snel gepland.",
       "telefoon": "088 633 0000",
       "url": "https://www.westmaasenwaal.nl/clientondersteuning"
     },
     "klacht": {
       "naam": "Klacht over VraagWijzer (klachtenregeling van de gemeente)",
-      "toelichting": "VraagWijzer werkt in opdracht van de gemeente. Een klacht over hoe u bent behandeld, dient u in bij de gemeente: online, per brief, per e-mail, telefonisch of aan de balie. Eerst probeert de gemeente de klacht samen met u informeel op te lossen. Lukt dat niet, dan volgen een hoorzitting en een schriftelijk oordeel, binnen zes weken. Bent u niet tevreden over de afhandeling, dan kunt u naar de gemeentelijke ombudsman. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "VraagWijzer werkt in opdracht van de gemeente. Een klacht over hoe u bent behandeld, dient u daarom in bij de gemeente: online, per brief, per e-mail, telefonisch of aan de balie. Eerst probeert de gemeente de klacht samen met u informeel op te lossen. Lukt dat niet, dan volgen een hoorzitting en binnen zes weken een schriftelijk oordeel. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.westmaasenwaal.nl/klacht-indienen",
       "email": "info@westmaasenwaal.nl",
       "telefoon": "14 0487",
@@ -115,17 +115,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een besluit (beschikking) van de gemeente kunt u online bezwaar maken met DigiD of eHerkenning, of met een brief. Een onafhankelijke commissie bezwaarschriften adviseert de gemeente. De gemeente beslist binnen 12 weken. Die termijn kan met 6 weken worden verlengd.",
+      "toelichting": "Maak online bezwaar met DigiD of eHerkenning, of met een brief. De gemeente beslist binnen 12 weken na het einde van de bezwaartermijn, soms 6 weken later.",
       "url": "https://www.westmaasenwaal.nl/bezwaar"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. Geef het aan bij de consulent van VraagWijzer, ook als u wilt overstappen van hulp van een aanbieder met contract (zorg in natura). U maakt een pgb-plan: waarom hulp van een aanbieder met contract niet past, wat u inkoopt, bij wie en hoe u het beheert. U moet het budget kunnen beheren en de hulp moet van goede kwaliteit zijn. Het tarief is hooguit dat van de goedkoopste passende hulp bij een aanbieder met contract. Voor een zzp'er is dat hooguit 90 procent. Hulp van iemand uit uw netwerk wordt lager vergoed. Kosten voor bemiddeling en pgb-administratie worden niet vergoed.",
+      "toelichting": "Geef het aan bij de medewerker jeugd van VraagWijzer, ook als u wilt overstappen van hulp van een aanbieder met contract (zorg in natura). In uw pgb-plan legt u uit waarom hulp van een aanbieder met contract niet past, wat u inkoopt, bij wie en hoe u het beheert. Het tarief is hooguit dat van de goedkoopste passende hulp bij een aanbieder met contract; voor een zzp'er hooguit 90 procent daarvan. Hulp van iemand uit uw netwerk wordt lager vergoed. Kosten voor bemiddeling en pgb-administratie worden niet vergoed.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR746160/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

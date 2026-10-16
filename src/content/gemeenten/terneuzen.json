@@ -9,7 +9,7 @@
       {
         "type": "wijkteam",
         "naam": "Jeugd en Gezin van aan-z",
-        "omschrijving": "Jeugd en Gezin van aan-z geeft advies en lichte hulp bij opvoeden en opgroeien. Het regelt ook de toegang tot alle jeugdhulp in de gemeente. U kunt zich zelf aanmelden. De jeugdconsulenten van aan-z handelen aanvragen af namens de gemeente. Krijgt u hulp, dan ontvangt u een beschikking: een besluit van de gemeente waarin staat waar u terecht kunt.",
+        "omschrijving": "Jeugd en Gezin van aan-z geeft advies en lichte hulp bij opvoeden en opgroeien. Het regelt ook de toegang tot alle jeugdhulp in de gemeente. U kunt zich zelf aanmelden. De medewerkers jeugd van aan-z handelen aanvragen af namens de gemeente. Krijgt u hulp, dan ontvangt u een beschikking: een besluit van de gemeente waarin staat waar u terecht kunt.",
         "stappen": [
           "Meld u aan bij Jeugd en Gezin van aan-z. Dat kan telefonisch, per mail, met een bezoek of via het online formulier Jeugdmelding op de website van de gemeente.",
           "Bespreek tijdens het huisbezoek van een medewerker welke hulp nodig is. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
@@ -88,17 +88,17 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Cliëntondersteuning via aan-z, Jeugdstem en andere organisaties",
-      "toelichting": "Cliëntondersteuning is gratis en onafhankelijk van de gemeente en de zorgaanbieders. Een cliëntondersteuner gaat mee naar gesprekken en helpt u keuzes te maken. aan-z biedt dit zelf aan, en ouders met een vraag over jeugdzorg kunnen Jeugdstem inschakelen. Vraag er bij voorkeur naar vóór het eerste gesprek.",
+      "toelichting": "aan-z biedt cliëntondersteuning zelf aan. Ouders met een vraag over jeugdzorg kunnen ook Jeugdstem inschakelen.",
       "url": "https://aan-z.eu/volwassen/wonen-vervoer-en-ondersteuning/ik-wil-ondersteuning-bij-mijn-zorgvraag/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt uitleggen waarom het aanbod van de gemeente niet past. U of uw budgetbeheerder moet het budget goed kunnen beheren. U maakt een pgb-plan. De gemeente moet dat goedkeuren voordat u het budget krijgt. Voor crisishulp en pleegzorg is een pgb niet mogelijk. Hulp van iemand uit uw netwerk kan tegen een lager tarief, maar niet voor ggz-behandeling. De tarieven staan op de jeugdhulppagina van de gemeente.",
+      "toelichting": "Voor crisishulp en pleegzorg is een pgb niet mogelijk. Hulp van iemand uit uw netwerk kan tegen een lager tarief, maar niet voor ggz-behandeling. De tarieven staan op de jeugdhulppagina van de gemeente.",
       "url": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/jeugdhulp/"
     },
     "klacht": {
       "naam": "Klacht over Jeugd en Gezin van aan-z",
-      "toelichting": "Bespreek uw klacht eerst met uw contactpersoon bij aan-z, of met diens leidinggevende. Lukt dat niet? Dien dan een officiële klacht in bij de klachtenfunctionaris van aan-z, via het klachtenformulier. aan-z reageert binnen enkele weken en behandelt de klacht binnen 8 weken. Blijft u ontevreden, dan kan uw klacht naar een externe klachtencommissie en daarna naar de ombudsman. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "Bespreek uw klacht eerst met uw contactpersoon bij aan-z, of met diens leidinggevende. Lukt dat niet, dien dan een officiële klacht in bij de klachtenfunctionaris van aan-z, via het klachtenformulier. U krijgt binnen enkele weken een reactie en binnen 8 weken is de klacht behandeld. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://aan-z.eu/over-ons/geef-je-mening/",
       "extern": {
         "naam": "Externe klachtencommissie en daarna de ombudsman (zie het stappenplan van aan-z)",
@@ -106,12 +106,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maken tegen een besluit van de gemeente kan online met DigiD of per post. Een bezwarencommissie houdt een hoorzitting en geeft de gemeente advies. De gemeente beslist meestal binnen 12 weken na de bezwaartermijn. Dat kan met 6 weken worden verlengd.",
+      "toelichting": "Bezwaar maken kan online met DigiD of per post. De gemeente beslist meestal binnen 12 weken na het einde van de bezwaartermijn. Dat kan met 6 weken worden verlengd.",
       "url": "https://www.terneuzen.nl/direct-regelen/melding-klacht-en-bezwaar/bezwaar-tegen-gemeentelijke-besluiten/"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. Gratis.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

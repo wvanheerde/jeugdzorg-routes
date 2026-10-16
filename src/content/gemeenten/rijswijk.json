@@ -4,7 +4,7 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.rijswijk.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Rijswijk is het Jeugdteam van de gemeente de ingang voor jeugdhulp. De medewerkers (consulenten) werken voor de gemeente. Zij geven advies, onderzoeken uw vraag en nemen het besluit over specialistische hulp. U kunt zich zelf aanmelden; een verwijzing is niet nodig. Voor advies over opvoeden, geld of wonen kunt u ook terecht bij Steunpunt Rijswijk, zonder afspraak in het inloopspreekuur. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd van het Jeugdteam. De gemeente kijkt tegenwoordig strenger of specialistische hulp nodig is en of verlenging nodig blijft. Hoe lang het duurt voordat het Jeugdteam uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Rijswijk is het Jeugdteam van de gemeente de ingang voor jeugdhulp. De medewerkers (medewerkers jeugd) werken voor de gemeente. Zij geven advies, onderzoeken uw vraag en nemen het besluit over specialistische hulp. U kunt zich zelf aanmelden; een verwijzing is niet nodig. Voor advies over opvoeden, geld of wonen kunt u ook terecht bij Steunpunt Rijswijk, zonder afspraak in het inloopspreekuur. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd van het Jeugdteam. De gemeente kijkt tegenwoordig strenger of specialistische hulp nodig is en of verlenging nodig blijft. Hoe lang het duurt voordat het Jeugdteam uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
@@ -37,7 +37,7 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd. Dat is een consulent van het Jeugdteam die lichtere hulp kan bieden. De gemeente is van plan met huisartsen af te spreken wanneer doorverwijzen nodig is.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd. Dat is een medewerker jeugd van het Jeugdteam die lichtere hulp kan bieden. De gemeente is van plan met huisartsen af te spreken wanneer doorverwijzen nodig is.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg (JGZ).",
           "Laat u door de huisarts verwijzen: eerst naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
@@ -54,10 +54,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Veel problemen worden zichtbaar op school. Het Jeugdteam heeft consulenten die op scholen werken en samen met school kijken welke hulp past. Komt u er met school niet uit, dan geven de samenwerkingsverbanden passend onderwijs advies. Zij hebben een Ouder- en Jeugdsteunpunt.",
+        "omschrijving": "Veel problemen worden zichtbaar op school. Het Jeugdteam heeft medewerkers jeugd die op scholen werken en samen met school kijken welke hulp past. Komt u er met school niet uit, dan geven de samenwerkingsverbanden passend onderwijs advies. Zij hebben een Ouder- en Jeugdsteunpunt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de consulent van het Jeugdteam op school kan meekijken, of meld uw kind zelf aan bij het Jeugdteam.",
+          "Vraag of de medewerker jeugd van het Jeugdteam op school kan meekijken, of meld uw kind zelf aan bij het Jeugdteam.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband.",
           "Zit uw kind in het voortgezet onderwijs? Neem dan contact op met het samenwerkingsverband voor het voortgezet onderwijs."
         ],
@@ -102,19 +102,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Welzijn Rijswijk: onafhankelijke cliëntondersteuning",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en zorgaanbieders, ook bij vragen over jeugdhulp. De cliëntondersteuner helpt u het gesprek met het Jeugdteam voor te bereiden en gaat zo nodig mee. Ook denkt de ondersteuner mee als u het niet eens bent met een besluit. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "Welzijn Rijswijk helpt ook bij vragen over jeugdhulp. De cliëntondersteuner helpt u het gesprek met het Jeugdteam voor te bereiden.",
       "telefoon": "070 757 9200",
       "email": "clientondersteuning@welzijn-rijswijk.nl",
       "url": "https://welzijn-rijswijk.nl/clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u een voorziening van de gemeente krijgt. U dient dan een pgb-plan in. Daarin staat waarom hulp van een aanbieder met een contract niet past, welke hulp u zelf inkoopt en hoe u de kwaliteit bewaakt. U moet het budget en de administratie zelf kunnen beheren. De gemeente kan een pgb weigeren als het duurder is dan hulp van een aanbieder met een contract. Hulp van iemand uit uw netwerk is mogelijk, behalve voor ggz-behandeling. Crisishulp kunt u niet met een pgb inkopen. De pgb-pagina van de gemeente gaat over de Wmo; voor jeugd gelden de regels uit de Verordening Jeugdhulp.",
+      "toelichting": "De gemeente kan een pgb weigeren als het duurder is dan hulp van een aanbieder met een contract. Hulp van iemand uit uw netwerk is mogelijk, behalve voor ggz-behandeling. Crisishulp kunt u niet met een pgb inkopen. De pgb-pagina van de gemeente gaat over de Wmo. Voor jeugd gelden de regels uit de Verordening Jeugdhulp.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR753548/1"
     },
     "klacht": {
       "naam": "Klacht over het Jeugdteam (klachtenregeling van de gemeente)",
-      "toelichting": "Bent u niet tevreden over hoe het Jeugdteam met u omgaat? Dien dan een klacht in bij de gemeente, want het team werkt voor de gemeente. Dat kan via het formulier, per mail, per brief of telefonisch. De gemeente probeert de klacht binnen 6 weken af te handelen. Een klacht over een zorgaanbieder dient u eerst bij die organisatie in. Een vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Een klacht over hoe het Jeugdteam met u omgaat, dient u in bij de gemeente. Dat kan via het formulier, per mail, per brief of telefonisch. De gemeente probeert de klacht binnen 6 weken af te handelen. Een klacht over een zorgaanbieder dient u eerst bij die organisatie in.",
       "url": "https://www.rijswijk.nl/klacht-over-de-gemeente-indienen",
       "email": "stadhuis@rijswijk.nl",
       "telefoon": "14 070",
@@ -124,12 +124,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bel gerust eerst de gemeente als u een besluit niet begrijpt: zij kan het besluit toelichten. Bent u het er daarna nog niet mee eens, dien dan een bezwaarschrift in via de bezwaarpagina van de gemeente.",
+      "toelichting": "Bel gerust eerst de gemeente als u een besluit niet begrijpt: zij kan het besluit toelichten.",
       "url": "https://www.rijswijk.nl/bezwaarschrift-indienen"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -146,7 +145,7 @@
       },
       {
         "naam": "Praktijkondersteuner jeugd bij de huisarts",
-        "omschrijving": "Een consulent van het Jeugdteam die bij huisartsen kinderen en ouders ziet, vaak met psychische klachten. Zo is zwaardere hulp soms niet nodig.",
+        "omschrijving": "Een medewerker jeugd van het Jeugdteam die bij huisartsen kinderen en ouders ziet, vaak met psychische klachten. Zo is zwaardere hulp soms niet nodig.",
         "hulpsoorten": []
       },
       {
@@ -348,7 +347,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Jeugdteam werkt strenger en met meer vaste medewerkers",
-        "samenvatting": "In 2025 kwamen er vaste consulenten in plaats van externe, een wekelijks overleg over nieuwe aanmeldingen en strengere regels voor besluiten. Het aantal jeugdigen met jeugdhulp bleef volgens de gemeente gelijk (1691 tegenover 1690), terwijl het aantal jeugdigen in de stad groeide. De praktijkondersteuner jeugd zag in 2025 bij huisartsen 525 jeugdigen.",
+        "samenvatting": "In 2025 kwamen er vaste medewerkers jeugd in plaats van externe, een wekelijks overleg over nieuwe aanmeldingen en strengere regels voor besluiten. Het aantal jeugdigen met jeugdhulp bleef volgens de gemeente gelijk (1691 tegenover 1690), terwijl het aantal jeugdigen in de stad groeide. De praktijkondersteuner jeugd zag in 2025 bij huisartsen 525 jeugdigen.",
         "datum": "2026-05",
         "bron": {
           "titel": "RIB 26 047 Tussenstand Uitvoeringsprogramma Kostenbeheersing Jeugdhulp",

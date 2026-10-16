@@ -99,14 +99,20 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "MEE De Meent Groep of Seniorenbelang kring Maashorst",
-      "toelichting": "Gratis en onafhankelijk. Een cliëntondersteuner kan mee naar het gesprek, helpt bij uw vraag en bij een aanvraag. U mag ook altijd zelf iemand meenemen die u vertrouwt. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek. Seniorenbelang is bereikbaar via de pagina van de gemeente.",
+      "naam": "MEE De Meent Groep",
+      "toelichting": "Ook Seniorenbelang kring Maashorst geeft onafhankelijke cliëntondersteuning.",
       "telefoon": "088 465 3555",
-      "url": "https://www.gemeentemaashorst.nl/inwoners/hulp-en-ondersteuning/clientondersteuning/"
+      "url": "https://www.gemeentemaashorst.nl/inwoners/hulp-en-ondersteuning/clientondersteuning/",
+      "andere": [
+        {
+          "naam": "Seniorenbelang kring Maashorst",
+          "url": "https://www.seniorenbelang-uden.nl"
+        }
+      ]
     },
     "klacht": {
       "naam": "Klacht over een medewerker van de gemeente",
-      "toelichting": "De Centrale Toegang hoort bij de gemeente. Een klacht over hoe een medewerker u behandelde, gaat daarom via de klachtenregeling van de gemeente. Dat kan online, telefonisch of per brief. Belt u, vraag dan naar de leidinggevende van de medewerker. Bent u het oneens met een besluit, dan is dat geen klacht: dan maakt u bezwaar. Een vertrouwenspersoon van Jeugdstem kan u helpen. Twijfelt u aan de kwaliteit van een aanbieder? Meld dat bij het regionale Meldpunt Signalen.",
+      "toelichting": "Een klacht over een medewerker van de Centrale Toegang gaat via de klachtenregeling van de gemeente. Dat kan online, telefonisch of per brief. Belt u, vraag dan naar de leidinggevende van de medewerker. Twijfelt u aan de kwaliteit van een aanbieder? Meld dat bij het regionale Meldpunt Signalen.",
       "url": "https://www.gemeentemaashorst.nl/inwoners/meldingen-en-klachten/klacht-indienen",
       "telefoon": "0413 281911",
       "extern": {
@@ -115,17 +121,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maakt u online met DigiD of per brief (Gemeente Maashorst, Postbus 83, 5400 AB Uden). Een onafhankelijke bezwaarschriftencommissie adviseert de gemeente. De commissie kan u uitnodigen voor een hoorzitting: een gesprek waarin u uw bezwaar toelicht. Het besluit blijft gelden zolang u bezwaar maakt.",
+      "toelichting": "Bezwaar maakt u online met DigiD of per brief. Het besluit blijft gelden zolang u bezwaar maakt.",
       "url": "https://www.gemeentemaashorst.nl/inwoners/meldingen-en-klachten/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U dient een pgb-plan in; dat geldt als aanvraag. De gemeente kijkt of u het budget kunt beheren. U moet bijvoorbeeld een overzichtelijke administratie bijhouden en zorgverleners aansturen. Ook moet de hulp van goede kwaliteit zijn. Hulp van iemand uit uw eigen netwerk kan. U legt dan uit waarom dat minstens zo goed werkt en dat de helper niet overbelast raakt. Er is geen vrij besteedbaar bedrag. De gemeente kan een pgb weigeren, bijvoorbeeld bij schulden of ernstige verslaving.",
+      "toelichting": "U dient een pgb-plan in; dat geldt als aanvraag. Hulp van iemand uit uw eigen netwerk kan, als u uitlegt waarom dat minstens zo goed werkt en dat de helper niet overbelast raakt. Er is geen vrij besteedbaar bedrag. Volgens de regels kan de gemeente een pgb weigeren, bijvoorbeeld bij schulden of ernstige verslaving.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR754688/1"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -238,7 +243,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Maashorst: Jeugdhulp",
@@ -334,6 +339,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "MEE De Meent Groep: Contact",
+        "url": "https://www.meedemeentgroep.nl/contact",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Cliëntervaringsonderzoek is alleen voor de Wmo gevonden, geen doorlooptijden jeugd. Samenwerkingsverband voortgezet onderwijs en klachtenregeling van de Centrale Toegang los van de gemeente niet gevonden. Regionale journalistiek niet doorzocht."

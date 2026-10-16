@@ -4,16 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.denhelder.nl/Onderwerpen/Hulp_en_zorg/Jeugd_en_gezin/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Den Helder is Team Zorg van de gemeente de deur naar jeugdhulp. U belt zelf; een verwijzing is niet nodig. Een jeugdconsulent van de gemeente bespreekt met u wat nodig is. Bij eenvoudige vragen geeft de consulent zelf lichte hulp. Zwaardere hulp regelt de consulent bij een aanbieder met een contract. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. In huisartsenpraktijken werken ook jeugdconsulenten. Volgens de gemeente beslist Team Zorg binnen acht weken na uw aanvraag. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat als u belt.",
+    "samenvatting": "In Den Helder is Team Zorg van de gemeente de deur naar jeugdhulp. U belt zelf; een verwijzing is niet nodig. Een medewerker jeugd van de gemeente bespreekt met u wat nodig is. Bij eenvoudige vragen geeft de medewerker jeugd zelf lichte hulp. Zwaardere hulp regelt de medewerker jeugd bij een aanbieder met een contract. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. In huisartsenpraktijken werken ook medewerkers jeugd. Volgens de gemeente beslist Team Zorg binnen acht weken na uw aanvraag. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat als u belt.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Team Zorg van de gemeente, met een jeugdconsulent",
-        "omschrijving": "Team Zorg is een team van de gemeente. Een jeugdconsulent kijkt met u wat u zelf kunt doen en welke hulp nodig is. Bij eenvoudige vragen geeft de consulent zelf lichte hulp. Is meer nodig, dan maakt de consulent met u een plan en verwijst door naar een aanbieder met een contract bij de gemeente. U kunt zich zelf aanmelden; een verwijzing is niet nodig.",
+        "naam": "Team Zorg van de gemeente, met een medewerker jeugd",
+        "omschrijving": "Team Zorg is een team van de gemeente. Een medewerker jeugd kijkt met u wat u zelf kunt doen en welke hulp nodig is. Bij eenvoudige vragen geeft de medewerker jeugd zelf lichte hulp. Is meer nodig, dan maakt de medewerker jeugd met u een plan en verwijst door naar een aanbieder met een contract bij de gemeente. U kunt zich zelf aanmelden; een verwijzing is niet nodig.",
         "stappen": [
           "Bel Team Zorg van de gemeente en vertel kort waar u hulp bij zoekt.",
-          "Maak een afspraak voor een gesprek met een jeugdconsulent. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met de consulent een plan. Vraag om een schriftelijk verslag van het gesprek.",
+          "Maak een afspraak voor een gesprek met een medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Maak samen met de medewerker jeugd een plan. Vraag om een schriftelijk verslag van het gesprek.",
           "Heeft uw kind hulp van een aanbieder nodig? Vraag dan om een beschikking (schriftelijk besluit van de gemeente). De gemeente beslist binnen acht weken na uw aanvraag."
         ],
         "contact": {
@@ -26,10 +26,10 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via Team Zorg. In huisartsenpraktijken in Den Helder werken ook jeugdconsulenten van de gemeente en een praktijkondersteuner jeugd. Zij helpen eerst zelf met lichte hulp, voordat zwaardere hulp nodig is.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via Team Zorg. In huisartsenpraktijken in Den Helder werken ook medewerkers jeugd van de gemeente en een praktijkondersteuner jeugd. Zij helpen eerst zelf met lichte hulp, voordat zwaardere hulp nodig is.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of die u eerst verwijst naar de jeugdconsulent of de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
+          "Vraag de huisarts of die u eerst verwijst naar de medewerker jeugd of de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
           "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
         ],
         "contact": {
@@ -86,19 +86,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Sylta (of RCO De Hoofdzaak of het Mantelzorgcentrum)",
-      "toelichting": "Gratis en onafhankelijk. De gemeente werkt met drie organisaties en u kiest zelf. Sylta helpt bij vragen over opvoeden en als u vastloopt in de zorg. Weet u niet wie u moet bellen? Begin dan bij Sylta. Een cliëntondersteuner kan meegaan naar het gesprek met Team Zorg. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "De gemeente werkt met drie organisaties en u kiest zelf. Weet u niet wie u moet bellen, begin dan bij Sylta: die helpt ook bij vragen over opvoeden en als u vastloopt in de zorg.",
       "telefoon": "088 007 5000",
       "email": "info@sylta.nl",
       "url": "https://www.sylta.nl/contact"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u goed kunt uitleggen waarom het aanbod van de gemeente niet past. U maakt daarvoor een pgb-plan: welke hulp, wie die geeft, hoe de kwaliteit goed blijft en wat het kost. De gemeente kijkt ook of u het budget zelf kunt beheren. Zij kan een pgb weigeren, bijvoorbeeld bij twijfel over de aanbieder. Hulp van familie telt als informele hulp. De Sociale Verzekeringsbank betaalt de rekeningen; u krijgt zelf geen geld.",
+      "toelichting": "U moet goed kunnen uitleggen waarom het aanbod van de gemeente niet past. De gemeente kan een pgb weigeren, bijvoorbeeld als zij twijfelt aan de aanbieder. Hulp van familie telt als informele hulp.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR746769/1"
     },
     "klacht": {
       "naam": "Klacht over Team Zorg en de gemeente",
-      "toelichting": "Team Zorg werkt voor de gemeente. Een klacht over hoe iemand u behandelt, gaat daarom via de klachtenregeling van de gemeente. Bespreek het eerst met de medewerker. Komt u er niet uit? Dien de klacht dan online of schriftelijk in. Binnen zes weken hoort u de uitkomst van het onderzoek door de klachtenadviseur. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dien de klacht dan online of schriftelijk in. Een klachtenadviseur onderzoekt de klacht en binnen zes weken hoort u de uitkomst. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.denhelder.nl/Contact/Klacht_indienen",
       "extern": {
         "naam": "Nationale ombudsman (als u niet tevreden bent over de uitkomst)",
@@ -106,12 +106,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bent u het niet eens met een besluit over jeugdhulp? Bel dan eerst gerust Team Zorg: de consulent kan het besluit toelichten. Bezwaar maken kan online of per brief. De gemeente handelt een bezwaar meestal binnen 12 weken af.",
+      "toelichting": "Bel eerst gerust Team Zorg: de medewerker jeugd kan het besluit toelichten. Bezwaar maken kan online of per brief. De gemeente handelt een bezwaar meestal binnen 12 weken af.",
       "url": "https://www.denhelder.nl/Contact/Bezwaar_maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -122,7 +121,7 @@
     "categorieen": [
       {
         "naam": "Lichte hulp en advies",
-        "omschrijving": "Via de jeugdconsulenten van Team Zorg, de praktijkondersteuner jeugd bij de huisarts, de jeugdgezondheidszorg en lichte hulp in de buurt.",
+        "omschrijving": "Via de medewerkers jeugd van Team Zorg, de praktijkondersteuner jeugd bij de huisarts, de jeugdgezondheidszorg en lichte hulp in de buurt.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -306,12 +305,12 @@
   },
   "jeugdzorgregio": "Kop van Noord-Holland",
   "ervaringen": {
-    "samenvatting": "In Den Helder krijgt een groter deel van de jongeren jeugdhulp dan in de meeste gemeenten in Noord-Holland. Ouders zijn in het onderzoek van de gemeente meestal tevreden over de hulpverlener, maar minder dan de helft zegt snel geholpen te zijn. Door lange wachttijden bij zorgaanbieders start hulp soms later dan afgesproken. De gemeente probeert vragen daarom eerder en lichter op te pakken, met jeugdconsulenten in de huisartsenpraktijk en hulp op school.\n\nVraag als u Team Zorg belt hoe lang het duurt. Leg afspraken schriftelijk vast, bijvoorbeeld het plan en het besluit. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over Team Zorg dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "In Den Helder krijgt een groter deel van de jongeren jeugdhulp dan in de meeste gemeenten in Noord-Holland. Ouders zijn in het onderzoek van de gemeente meestal tevreden over de hulpverlener, maar minder dan de helft zegt snel geholpen te zijn. Door lange wachttijden bij zorgaanbieders start hulp soms later dan afgesproken. De gemeente probeert vragen daarom eerder en lichter op te pakken, met medewerkers jeugd in de huisartsenpraktijk en hulp op school.\n\nVraag als u Team Zorg belt hoe lang het duurt. Leg afspraken schriftelijk vast, bijvoorbeeld het plan en het besluit. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over Team Zorg dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "clientervaringsonderzoek",
         "titel": "Ouders overwegend tevreden, maar minder dan de helft snel geholpen",
-        "samenvatting": "In het onderzoek over hulp in 2024 (104 reacties) geven ouders de hulpverlener gemiddeld een 7,7, en ruim acht op de tien zeggen dat de hulpverlener hun kind begrijpt. Ongeveer een op de vijf ouders wist niet waar ze terechtkonden. 16% kon de jeugdconsulent niet spreken als dat nodig was.",
+        "samenvatting": "In het onderzoek over hulp in 2024 (104 reacties) geven ouders de hulpverlener gemiddeld een 7,7, en ruim acht op de tien zeggen dat de hulpverlener hun kind begrijpt. Ongeveer een op de vijf ouders wist niet waar ze terechtkonden. 16% kon de medewerker jeugd niet spreken als dat nodig was.",
         "datum": "2026-03-03",
         "bron": {
           "titel": "RIB clientervaringsonderzoeken Wmo en Jeugd 2024 (met rapportage CEO Jeugd)",
@@ -320,8 +319,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Jeugdconsulenten ook in de huisartsenpraktijk",
-        "samenvatting": "Team Zorg pakt eenvoudige jeugdvragen nu zelf op, ook via jeugdconsulenten in huisartsenpraktijken. Vragen worden eerst met lichte hulp aangepakt: via de consulent, de praktijkondersteuner jeugd of hulp in de buurt. Pas daarna volgt zo nodig zwaardere jeugdhulp.",
+        "titel": "Medewerkers jeugd ook in de huisartsenpraktijk",
+        "samenvatting": "Team Zorg pakt eenvoudige jeugdvragen nu zelf op, ook via medewerkers jeugd in huisartsenpraktijken. Vragen worden eerst met lichte hulp aangepakt: via de medewerker jeugd, de praktijkondersteuner jeugd of hulp in de buurt. Pas daarna volgt zo nodig zwaardere jeugdhulp.",
         "datum": "2026-06",
         "bron": {
           "titel": "Programmarekening 2025, programma Zorgzame gemeente",

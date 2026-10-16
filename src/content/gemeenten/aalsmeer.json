@@ -4,17 +4,17 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.aalsmeer.nl/hulp-bij-het-opgroeien-enof-opvoeden-van-uw-kinderen",
   "toegang": {
-    "samenvatting": "In Aalsmeer is het Sociaal loket van de gemeente het eerste aanspreekpunt. Het loket kent het aanbod en wijst u de weg. Voor lichte vragen over opvoeden en opgroeien heeft u geen verwijzing nodig. U kunt dan zelf terecht bij bijvoorbeeld de jeugdgezondheidszorg of de praktijkondersteuner jeugd bij de huisarts. Voor specialistische jeugdhulp doet u zelf een aanvraag bij het team jeugd van de gemeente. Een jeugdconsulent bespreekt met u wat er nodig is en kiest samen met u een aanbieder. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat een jeugdconsulent uw aanvraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanvraag.",
+    "samenvatting": "In Aalsmeer is het Sociaal loket van de gemeente het eerste aanspreekpunt. Het loket kent het aanbod en wijst u de weg. Voor lichte vragen over opvoeden en opgroeien heeft u geen verwijzing nodig. U kunt dan zelf terecht bij bijvoorbeeld de jeugdgezondheidszorg of de praktijkondersteuner jeugd bij de huisarts. Voor specialistische jeugdhulp doet u zelf een aanvraag bij het team jeugd van de gemeente. Een medewerker jeugd bespreekt met u wat er nodig is en kiest samen met u een aanbieder. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat een medewerker jeugd uw aanvraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanvraag.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Team jeugd van de gemeente (jeugdconsulenten), via het Sociaal loket",
-        "omschrijving": "De jeugdconsulenten werken voor de gemeente. Zij onderzoeken uw vraag, bepalen welke hulp nodig is en kiezen samen met u een aanbieder. Alleen ouders met gezag, voogden en jongeren vanaf 16 jaar kunnen een aanvraag doen. Een hulpverlener of school kan dat niet voor u doen. De gemeente kijkt eerst wat uw eigen omgeving en lichtere hulp kunnen bieden. Pas daarna komt specialistische hulp in beeld.",
+        "naam": "Team jeugd van de gemeente (medewerkers jeugd), via het Sociaal loket",
+        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken uw vraag, bepalen welke hulp nodig is en kiezen samen met u een aanbieder. Alleen ouders met gezag, voogden en jongeren vanaf 16 jaar kunnen een aanvraag doen. Een hulpverlener of school kan dat niet voor u doen. De gemeente kijkt eerst wat uw eigen omgeving en lichtere hulp kunnen bieden. Pas daarna komt specialistische hulp in beeld.",
         "stappen": [
           "Vul het online aanvraagformulier voor specialistische jeugdhulp in op de website van de gemeente. Lukt dat niet? Neem dan contact op met het Sociaal loket.",
           "Lees de bevestiging van uw aanvraag. Daarin staat welke stappen volgen. Soms vraagt de gemeente om extra informatie.",
-          "Bespreek met een jeugdconsulent wat er speelt, welke hulp er al is en wat u wilt bereiken. U mag familie, vrienden of een onafhankelijke cliëntondersteuner meenemen.",
-          "Kies samen met de jeugdconsulent een aanbieder als specialistische hulp nodig is. De jeugdconsulent geeft dan een verwijzing af.",
+          "Bespreek met een medewerker jeugd wat er speelt, welke hulp er al is en wat u wilt bereiken. U mag familie, vrienden of een onafhankelijke cliëntondersteuner meenemen.",
+          "Kies samen met de medewerker jeugd een aanbieder als specialistische hulp nodig is. De medewerker jeugd geeft dan een verwijzing af.",
           "Vraag na het gesprek om een schriftelijk verslag en om het besluit op papier."
         ],
         "contact": [
@@ -48,7 +48,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Intern begeleiders op de basisschool en zorgcoördinatoren op de middelbare school kunnen u zelf verder helpen. Ze kunnen u ook doorverwijzen, bijvoorbeeld naar een schoolmaatschappelijk werker of een jeugdconsulent van de gemeente. Komt u er met school niet uit? Dan helpt het Steunpunt Amstel & Meer van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Intern begeleiders op de basisschool en zorgcoördinatoren op de middelbare school kunnen u zelf verder helpen. Ze kunnen u ook doorverwijzen, bijvoorbeeld naar een schoolmaatschappelijk werker of een medewerker jeugd van de gemeente. Komt u er met school niet uit? Dan helpt het Steunpunt Amstel & Meer van het samenwerkingsverband passend onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht of mentor.",
           "Vraag de intern begeleider of zorgcoördinator van school om mee te denken of door te verwijzen.",
@@ -90,19 +90,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Dichtbij",
-      "toelichting": "Gratis en onafhankelijk. U heeft er geen verwijzing voor nodig. De cliëntondersteuner kan meegaan naar het gesprek met de jeugdconsulent en helpt bij vragen over passende hulp. U mag de jeugdconsulent ook vragen om iemand mee te nemen. Vraag de ondersteuner liefst vóór het eerste gesprek.",
+      "toelichting": "U mag naar een gesprek met een medewerker jeugd altijd familie of vrienden meenemen. Wilt u onafhankelijk advies, dan kunt u ook de cliëntondersteuners van MEE Dichtbij bellen; dat is gratis.",
       "telefoon": "020 512 72 72",
       "email": "info@meedichtbij.nl",
       "url": "https://www.mee-az.nl/gemeentes/aalsmeer/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als de gemeente heeft vastgesteld dat jeugdhulp nodig is. In een pgb-plan legt u uit waarom hulp van een aanbieder met een contract niet past. U beschrijft ook hoe u het budget zelf beheert. De hulpverlener moet aan de kwaliteitseisen voldoen. Hulp van familie of buren kan alleen als u uitlegt waarom die beter en doelmatiger is dan professionele hulp. De gemeente stelt elk jaar maximale tarieven vast. Is de hulp duurder, dan betaalt u het verschil zelf.",
+      "toelichting": "Een pgb kan als de gemeente heeft vastgesteld dat jeugdhulp nodig is. In een pgb-plan legt u uit waarom hulp van een aanbieder met een contract niet past. Hulp van familie of buren kan alleen als u uitlegt waarom die beter en doelmatiger is dan professionele hulp. De gemeente stelt elk jaar maximale tarieven vast; is de hulp duurder, dan betaalt u het verschil zelf.",
       "url": "https://www.aalsmeer.nl/uitgangspunten-en-aanpak-jeugdhulp"
     },
     "klacht": {
-      "naam": "Klacht over de gemeente en de jeugdconsulenten",
-      "toelichting": "De jeugdconsulenten werken voor de gemeente. Een klacht over hoe zij u behandelen, dient u in bij de klachtenfunctionarissen van de gemeente. Dat kan online, per e-mail of per post. Een eenvoudige klacht lost de gemeente snel en informeel op. Anders volgt een formele behandeling met een gesprek. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Komt u er niet uit, dan geeft de gemeente de klacht door. Een vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "naam": "Klacht over de gemeente en de medewerkers jeugd",
+      "toelichting": "De medewerkers jeugd werken voor de gemeente. Een klacht over hoe zij u behandelen, dient u in bij de klachtenfunctionarissen van de gemeente: online, per e-mail of per post. Een eenvoudige klacht lost de gemeente snel en informeel op; anders volgt een formele behandeling met een gesprek. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in. Dient u de klacht bij de gemeente in, dan stuurt de gemeente die door naar uw zorgaanbieder.",
       "url": "https://www.aalsmeer.nl/klacht-over-de-gemeente",
       "email": "klacht@aalsmeer.nl",
       "extern": {
@@ -111,12 +111,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een besluit over jeugdhulp maakt u online bezwaar met DigiD, of per brief. Per e-mail kan het niet. Vaak kijkt de gemeente eerst informeel of er een oplossing is. Een onafhankelijke bezwaarschriftencommissie houdt een hoorzitting. Bent u het niet eens met de beslissing op uw bezwaar, dan kunt u in beroep gaan bij de rechtbank Amsterdam.",
+      "toelichting": "Maak online bezwaar met DigiD, of per brief; per e-mail kan het niet. Vaak kijkt de gemeente eerst informeel of er een oplossing is.",
       "url": "https://www.aalsmeer.nl/bezwaar-maken-tegen-besluit"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -139,7 +138,7 @@
       },
       {
         "naam": "Specialistische jeugdhulp",
-        "omschrijving": "Na een verwijzing van de jeugdconsulent of de huisarts: ambulante hulp, behandeling, verblijf en pgb. Aanbieders staan in de Beschikbaarheidswijzer.",
+        "omschrijving": "Na een verwijzing van de medewerker jeugd of de huisarts: ambulante hulp, behandeling, verblijf en pgb. Aanbieders staan in de Beschikbaarheidswijzer.",
         "hulpsoorten": [
           "ambulante-begeleiding",
           "behandeling-jeugd-ggz",
@@ -333,7 +332,7 @@
   },
   "jeugdzorgregio": "Amsterdam-Amstelland",
   "ervaringen": {
-    "samenvatting": "De gemeente kijkt eerst naar lichtere hulp en de eigen omgeving, en wil zware hulp vooral inzetten voor gezinnen die die het meest nodig hebben. In 2025 was het aantal jeugdigen met jeugdhulp ongeveer 40 lager dan in 2024 (circa 5 procent minder). Volgens de gemeente komt dat door het programma Grip op Jeugdhulp, dat erop stuurt dat minder kinderen via huisarts of gemeente met jeugdhulp beginnen. Een onderzoek naar ervaringen van ouders met jeugdhulp en gemeten wachttijden voor de toegang zijn niet openbaar te vinden.\n\nUw aanspreekpunt is het Sociaal loket. Vraag bij uw aanvraag hoe lang het duurt, leg afspraken schriftelijk vast en kijk in de Beschikbaarheidswijzer naar wachttijden van aanbieders. Neem een onafhankelijke cliëntondersteuner van MEE Dichtbij mee naar het gesprek. Bent u ontevreden over de jeugdconsulent, dien dan een klacht in bij de gemeente en daarna eventueel bij de Nationale ombudsman.",
+    "samenvatting": "De gemeente kijkt eerst naar lichtere hulp en de eigen omgeving, en wil zware hulp vooral inzetten voor gezinnen die die het meest nodig hebben. In 2025 was het aantal jeugdigen met jeugdhulp ongeveer 40 lager dan in 2024 (circa 5 procent minder). Volgens de gemeente komt dat door het programma Grip op Jeugdhulp, dat erop stuurt dat minder kinderen via huisarts of gemeente met jeugdhulp beginnen. Een onderzoek naar ervaringen van ouders met jeugdhulp en gemeten wachttijden voor de toegang zijn niet openbaar te vinden.\n\nUw aanspreekpunt is het Sociaal loket. Vraag bij uw aanvraag hoe lang het duurt, leg afspraken schriftelijk vast en kijk in de Beschikbaarheidswijzer naar wachttijden van aanbieders. Neem een onafhankelijke cliëntondersteuner van MEE Dichtbij mee naar het gesprek. Bent u ontevreden over de medewerker jeugd, dien dan een klacht in bij de gemeente en daarna eventueel bij de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",

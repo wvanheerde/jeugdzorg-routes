@@ -13,7 +13,7 @@
         "omschrijving": "Het CMD is de afdeling van de gemeente voor vragen over zorg, jeugd en inkomen. Bij jeugdhulp beoordeelt het CMD uw vraag, maakt met u een plan en neemt het besluit (de beschikking). U meldt zich zelf aan, per telefoon, mail, website of in een afspraak. Heeft uw gezin meerdere zware problemen, dan kan het CMD u doorverwijzen naar het PlusTeam. Dat team biedt vrijwillige hulp en maakt één plan voor het hele huishouden.",
         "stappen": [
           "Bel het CMD of mail het team Toegang. Een medewerker denkt met u mee en bekijkt of advies of hulp uit uw eigen netwerk genoeg is.",
-          "Is er meer nodig, voer dan een gesprek met een klantadviseur of consulent. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Is er meer nodig, voer dan een gesprek met een klantadviseur of medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Maak samen een ondersteuningsplan. Volgens de regels van de gemeente (de verordening) beslist de gemeente uiterlijk twee weken nadat zij uw ondertekende plan heeft ontvangen.",
           "Vraag het besluit schriftelijk (beschikking) en leg afspraken vast.",
           "Heeft uw gezin meerdere zware problemen tegelijk? Vraag het CMD naar het PlusTeam."
@@ -95,18 +95,18 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Inwonersondersteuning Geldrop-Mierlo",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en van zorgaanbieders. Getrainde vrijwilligers helpen u met vragen over zorg, onderwijs of inkomen en kunnen meegaan naar het gesprek met het CMD. U maakt een afspraak per mail of bij de bibliotheek in Geldrop of Mierlo. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "Getrainde vrijwilligers helpen u met vragen over zorg, onderwijs of inkomen. U maakt een afspraak per mail of bij de bibliotheek in Geldrop of Mierlo.",
       "email": "info@inwonersondersteuninggeldrop-mierlo.nl",
       "url": "https://www.inwonersondersteuninggeldrop-mierlo.nl"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk onder drie voorwaarden. U kunt uitleggen waarom hulp van een aanbieder met een contract (hulp in natura) niet past. U kunt het budget zelf beheren. En de kwaliteit van de hulp is in orde. U dient een pgb-plan in. Hulp van iemand uit uw netwerk kan, maar niet als het om behandeling gaat. Het pgb mag niet hoger zijn dan wat de hulp in natura zou kosten. De Sociale Verzekeringsbank (SVB) betaalt de zorgverleners.",
+      "toelichting": "Leg uit waarom hulp van een aanbieder met een contract (hulp in natura) niet past. De kwaliteit van de hulp moet in orde zijn. Hulp van iemand uit uw netwerk kan, maar niet als het om behandeling gaat. Het pgb mag niet hoger zijn dan wat de hulp in natura zou kosten.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR733977/1"
     },
     "klacht": {
       "naam": "Klacht over het CMD of de gemeente",
-      "toelichting": "Het CMD is onderdeel van de gemeente. Bespreek uw klacht eerst met de medewerker of de teammanager. Komt u er niet uit, dien de klacht dan in bij het college van burgemeester en wethouders: online met DigiD, of per brief (Postbus 10101, 5660 GA Geldrop). De onafhankelijke Commissie voor Klachten kan u horen en adviseert het college. Bent u het daarna nog niet eens, dan kunt u terecht bij de Nationale ombudsman. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
+      "toelichting": "Het CMD is onderdeel van de gemeente. Bespreek uw klacht eerst met de medewerker of de teammanager. Komt u er niet uit, dien de klacht dan in bij het college van burgemeester en wethouders: online met DigiD, of per brief (Postbus 10101, 5660 GA Geldrop). De onafhankelijke Commissie voor Klachten kan u horen en adviseert het college. Een klacht over een zorgaanbieder dient u eerst bij die aanbieder in.",
       "url": "https://www.geldrop-mierlo.nl/klacht-indienen",
       "extern": {
         "naam": "Nationale ombudsman (als u niet tevreden bent over de afhandeling)",
@@ -114,12 +114,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bent u het niet eens met een besluit over jeugdhulp? Maak dan schriftelijk bezwaar bij de gemeente (Postbus 10101, 5660 GA Geldrop). Het besluit blijft gelden zolang uw bezwaar loopt. Is er haast, dan kunt u de voorzieningenrechter van de rechtbank vragen om een voorlopige voorziening (een snelle, tijdelijke beslissing). Een onafhankelijke commissie voor bezwaarschriften adviseert de gemeente.",
+      "toelichting": "Maak schriftelijk bezwaar bij de gemeente. Het besluit blijft gelden zolang uw bezwaar loopt. Is er haast, dan kunt u de voorzieningenrechter van de rechtbank vragen om een voorlopige voorziening (een snelle, tijdelijke beslissing).",
       "url": "https://www.geldrop-mierlo.nl/bezwaar-maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

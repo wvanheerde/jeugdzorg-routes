@@ -5,12 +5,12 @@
   "jeugdzorgregio": "Holland Rijnland",
   "websiteJeugd": "https://www.katwijk.nl/zorg-en-inkomen/wijkteam/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Katwijk vraagt u hulp bij het Sociaal Wijkteam van de gemeente. Het team is er voor alle leeftijden. Het deel voor jeugd heet Sociaal Wijkteam 18-. Daar werken jeugdconsulenten en jeugdhulpverleners. Voor vragen over opvoeden en opgroeien kunt u ook zonder verwijzing terecht bij het Centrum voor Jeugd en Gezin (CJG). Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar specialistische jeugdhulp. Sinds 1 september 2026 geldt een nieuwe Verordening Jeugdhulp. Daarin staat strenger dan eerst dat u en uw netwerk eerst zelf doen wat kan. Hulp via de gemeente komt pas als lichtere hulp niet genoeg is.",
+    "samenvatting": "In Katwijk vraagt u hulp bij het Sociaal Wijkteam van de gemeente. Het team is er voor alle leeftijden. Het deel voor jeugd heet Sociaal Wijkteam 18-. Daar werken medewerkers jeugd en jeugdhulpverleners. Voor vragen over opvoeden en opgroeien kunt u ook zonder verwijzing terecht bij het Centrum voor Jeugd en Gezin (CJG). Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar specialistische jeugdhulp. Sinds 1 september 2026 geldt een nieuwe Verordening Jeugdhulp. Daarin staat strenger dan eerst dat u en uw netwerk eerst zelf doen wat kan. Hulp via de gemeente komt pas als lichtere hulp niet genoeg is.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Wijkteam (jeugd: Sociaal Wijkteam 18-)",
-        "omschrijving": "Het Sociaal Wijkteam is het team van de gemeente voor hulp en ondersteuning. De jeugdconsulenten onderzoeken wat er speelt en verwijzen naar passende hulp. Ze regelen de hulp rond uw gezin en kijken of het kind veilig is. De jeugdhulpverleners geven zelf gezinsbegeleiding, opvoedondersteuning, coaching en groepstrainingen. Daarvoor is geen besluit van de gemeente nodig. Het team werkt volgens 'één huishouden, één plan, één regisseur'. Afspraken en doelen staan in een ondersteuningsplan, dat u mee ondertekent. U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "omschrijving": "Het Sociaal Wijkteam is het team van de gemeente voor hulp en ondersteuning. De medewerkers jeugd onderzoeken wat er speelt en verwijzen naar passende hulp. Ze regelen de hulp rond uw gezin en kijken of het kind veilig is. De jeugdhulpverleners geven zelf gezinsbegeleiding, opvoedondersteuning, coaching en groepstrainingen. Daarvoor is geen besluit van de gemeente nodig. Het team werkt volgens 'één huishouden, één plan, één regisseur'. Afspraken en doelen staan in een ondersteuningsplan, dat u mee ondertekent. U mag een onafhankelijke cliëntondersteuner meenemen.",
         "stappen": [
           "Stel uw hulpvraag via het formulier op de website van de gemeente. Of bel de gemeente (op werkdagen 8.30-17.00 uur) en kies 'Sociaal Wijkteam'. Mailen naar het team kan ook.",
           "Wacht op het telefoontje van het team: dat komt binnen 10 werkdagen. Bespreek in het gesprek wat er speelt en wat u en uw netwerk zelf kunnen. Neem gerust iemand mee.",
@@ -108,13 +108,12 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE (onafhankelijke cliëntondersteuning)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente en het Sociaal Wijkteam. Een cliëntondersteuner gaat mee naar gesprekken, helpt bij een aanvraag zoals een pgb en denkt mee als u het niet eens bent met een besluit. De gemeente moet u op deze mogelijkheid wijzen. Vraag MEE bij voorkeur vóór het eerste gesprek.",
       "telefoon": "0900 999 8888",
       "url": "https://www.mee.nl/clientondersteuning"
     },
     "klacht": {
       "naam": "Klacht over het Sociaal Wijkteam via de gemeente",
-      "toelichting": "Het Sociaal Wijkteam is een team van de gemeente. Bespreek uw klacht eerst met de medewerker. Komt u er niet uit? Dien dan een klacht in bij de gemeente, online met DigiD of schriftelijk. Bent u het niet eens met het ondersteuningsplan? Volgens de verordening kunt u dan een tweede oordeel vragen van een andere medewerker van het team (herbeoordeling). Gaat de klacht over een zorgaanbieder? Dien de klacht dan in bij de aanbieder zelf.",
+      "toelichting": "Het Sociaal Wijkteam hoort bij de gemeente. Een klacht dient u daarom in bij de gemeente, online met DigiD of schriftelijk. Bent u het niet eens met het ondersteuningsplan? Dan kunt u een andere medewerker van het team om een tweede oordeel vragen (herbeoordeling). Een klacht over een zorgaanbieder dient u in bij de aanbieder zelf.",
       "url": "https://loket.katwijk.nl/f/387",
       "telefoon": "071 406 50 00",
       "extern": {
@@ -123,17 +122,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking (het besluit van de gemeente) maakt u bij de gemeente Katwijk. Dat kan online met DigiD, of schriftelijk naar Postbus 589, 2220 AN Katwijk. Over veel bezwaren adviseert een commissie van externe deskundigen. Sommige bezwaren behandelt de gemeente zelf. Daarna kunt u in beroep bij de rechtbank.",
+      "toelichting": "Bezwaar maakt u online met DigiD of per brief. Over veel bezwaren adviseert een commissie van externe deskundigen. Sommige bezwaren behandelt de gemeente zelf.",
       "url": "https://www.katwijk.nl/gemeente-en-burgerzaken/compliment-klacht-bezwaar-of-zienswijze"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb is mogelijk als hulp van een aanbieder met contract (zorg in natura) volgens u niet past. U legt dat uit in een pgb-plan. U moet het budget zelf kunnen beheren, eventueel met hulp van een budgetbeheerder. Het team toetst dat. Voor hulp van een organisatie of zzp'er krijgt u maximaal het laagste tarief dat de gemeente zelf voor die hulp betaalt. Hulp van iemand uit uw netwerk krijgt minimaal het minimumloon. Het pgb vergoedt geen bemiddeling, pgb-administratie, vervoer en crisishulp. Kosten die u al maakte vóór de aanvraag vergoedt het pgb ook niet. Een uitzondering zijn kosten van maximaal drie maanden vóór de aanvraag, onder voorwaarden. Het geld loopt via de Sociale Verzekeringsbank (SVB). Een pgb voor een ouder als zorgverlener stopt als die ouder overbelast dreigt te raken.",
+      "toelichting": "Voor hulp van een organisatie of zzp'er krijgt u hooguit het laagste tarief dat de gemeente zelf voor die hulp betaalt. Voor hulp van iemand uit uw netwerk krijgt u minstens het minimumloon. Het pgb vergoedt geen bemiddeling, pgb-administratie, vervoer en crisishulp. Kosten van vóór de aanvraag vergoedt het pgb niet, behalve onder voorwaarden kosten van hooguit drie maanden ervoor. Een pgb voor een ouder als zorgverlener stopt als die ouder overbelast dreigt te raken.",
       "url": "https://www.katwijk.nl/zorg-en-inkomen/wijkteam/jeugd-en-gezin/specialistische-jeugdhulp"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

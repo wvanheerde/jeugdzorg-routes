@@ -5,15 +5,15 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.vaals.nl/inwoners/wijvaals/zorg-en-ondersteuning/wmo-loket",
   "toegang": {
-    "samenvatting": "In Vaals regelt de gemeente de toegang tot jeugdhulp zelf, via WijVaals. In dat team werken onder meer jeugdconsulenten, Wmo-consulenten en een maatschappelijk werker. U meldt zich zelf aan. Een verwijzing is niet nodig. Het team kijkt eerst wat u zelf kunt en wat mensen om u heen kunnen doen. Daarna kijkt het naar hulp via de gemeente. De huisarts mag ook rechtstreeks verwijzen. Met opvoedvragen kunt u zonder besluit terecht bij Kids en Koffie en online bij het CJG043. Sinds 2025 kan uw kind eerst bij een kinderpsycholoog terecht voor lichte hulp. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Vaals regelt de gemeente de toegang tot jeugdhulp zelf, via WijVaals. In dat team werken onder meer medewerkers jeugd, Wmo-consulenten en een maatschappelijk werker. U meldt zich zelf aan. Een verwijzing is niet nodig. Het team kijkt eerst wat u zelf kunt en wat mensen om u heen kunnen doen. Daarna kijkt het naar hulp via de gemeente. De huisarts mag ook rechtstreeks verwijzen. Met opvoedvragen kunt u zonder besluit terecht bij Kids en Koffie en online bij het CJG043. Sinds 2025 kan uw kind eerst bij een kinderpsycholoog terecht voor lichte hulp. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "WijVaals (Team Jeugd)",
-        "omschrijving": "WijVaals is het team van de gemeente Vaals voor ondersteuning en jeugdhulp. De jeugdconsulenten beslissen of uw kind jeugdhulp krijgt. Ze denken met u mee over wat u zelf kunt, wat mensen om u heen kunnen doen en wat de gemeente kan bieden. Voor opvoedvragen is er ook het CJG043, het online Centrum voor Jeugd en Gezin van de regio.",
+        "omschrijving": "WijVaals is het team van de gemeente Vaals voor ondersteuning en jeugdhulp. De medewerkers jeugd beslissen of uw kind jeugdhulp krijgt. Ze denken met u mee over wat u zelf kunt, wat mensen om u heen kunnen doen en wat de gemeente kan bieden. Voor opvoedvragen is er ook het CJG043, het online Centrum voor Jeugd en Gezin van de regio.",
         "stappen": [
           "Neem contact op met WijVaals, telefonisch of per e-mail.",
-          "Vertel uw vraag over opvoeden of opgroeien. De jeugdconsulent zoekt samen met u een oplossing.",
+          "Vertel uw vraag over opvoeden of opgroeien. De medewerker jeugd zoekt samen met u een oplossing.",
           "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE Zuid-Limburg.",
           "Wacht op de brief met het besluit (beschikking) als professionele hulp nodig is. Met dat besluit kiest u een zorgaanbieder.",
           "Heeft u alleen een vraag over opvoeden? Stel die online bij het CJG043."
@@ -101,7 +101,6 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "MEE Zuid-Limburg",
-      "toelichting": "Gratis en onafhankelijk. U kunt iemand van MEE meenemen naar het gesprek met WijVaals of de zorgaanbieder. Vraag het bij voorkeur vóór het eerste gesprek.",
       "telefoon": "088 010 2222",
       "email": "info@meezuidlimburg.nl",
       "url": "https://www.meezuidlimburg.nl/contact",
@@ -109,12 +108,12 @@
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk. U moet de gemeente laten zien dat u het budget zelf of met hulp kunt beheren. U legt uit waarom hulp van een aanbieder met een contract niet past. U maakt een pgb-plan, dat de gemeente goedkeurt. De gemeente mag een pgb weigeren bij spoed. Ook mag zij weigeren als de aanbieder zelf het budget beheert. Of als de budgetbeheerder en de hulpverlener geen Verklaring omtrent het gedrag (VOG) hebben. De tarieven staan in de verordening.",
+      "toelichting": "U legt uit waarom hulp van een aanbieder met een contract niet past, en maakt een pgb-plan dat de gemeente goedkeurt. De gemeente mag een pgb weigeren bij spoed, als de aanbieder zelf het budget beheert, of als de budgetbeheerder en de hulpverlener geen Verklaring omtrent het gedrag (VOG) hebben. De tarieven staan in de verordening.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR753667/1"
     },
     "klacht": {
       "naam": "Klacht over WijVaals of de gemeente",
-      "toelichting": "WijVaals is onderdeel van de gemeente. Bespreek het liefst eerst met de medewerker. Een klacht over hoe een medewerker u behandelde, dient u daarna in bij de gemeente, per brief of per e-mail. U krijgt binnen 6 weken een reactie. Die termijn kan met 4 weken worden verlengd. Een klacht over een zorgaanbieder bespreekt u eerst met die aanbieder. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook helpen.",
+      "toelichting": "WijVaals is onderdeel van de gemeente. Bespreek het liefst eerst met de medewerker. Een klacht over hoe een medewerker u behandelde, dient u daarna per brief of per e-mail in bij de gemeente. U krijgt binnen 6 weken een reactie; die termijn kan met 4 weken worden verlengd. Een klacht over een zorgaanbieder bespreekt u eerst met die aanbieder.",
       "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/klacht-indienen-tegen-medewerker-of-bestuurder",
       "email": "info@vaals.nl",
       "extern": {
@@ -123,12 +122,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u per brief. U kunt de brief opsturen of afgeven bij het Klantcontactcentrum. Meestal geeft een onafhankelijke commissie advies, na een hoorzitting. U krijgt meestal binnen 12 weken na het einde van de bezwaartermijn een beslissing. Bent u het niet eens met het plan van de jeugdconsulent? Dan kunt u één keer om een second opinion vragen. Een andere medewerker of een onafhankelijke deskundige kijkt dan opnieuw.",
+      "toelichting": "Maak bezwaar per brief; u kunt die opsturen of afgeven bij het Klantcontactcentrum. U krijgt meestal binnen 12 weken na het einde van de bezwaartermijn een beslissing. Bent u het niet eens met het plan van de medewerker jeugd, dan kunt u één keer een second opinion vragen bij een andere medewerker of een onafhankelijke deskundige.",
       "url": "https://www.vaals.nl/bestuur-en-organisatie/bezwaar-en-beroep/bezwaar-en-beroep"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -139,7 +137,7 @@
     "categorieen": [
       {
         "naam": "Opvoed- en opgroeiondersteuning",
-        "omschrijving": "Gesprekken met een jeugdconsulent van WijVaals, ontmoeting bij Kids en Koffie, en online informatie en cursussen via het CJG043. Het jongerenwerk organiseert activiteiten voor kinderen en jongeren.",
+        "omschrijving": "Gesprekken met een medewerker jeugd van WijVaals, ontmoeting bij Kids en Koffie, en online informatie en cursussen via het CJG043. Het jongerenwerk organiseert activiteiten voor kinderen en jongeren.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -224,7 +222,7 @@
     }
   ],
   "ervaringen": {
-    "samenvatting": "Vaals vraagt ouders en jongeren elk jaar naar hun ervaring met jeugdhulp. In 2025 gaven zij het contact met de gemeente gemiddeld een 6,7, tegen een 7,8 in 2024. Veel van hen zeggen snel en vriendelijk geholpen te zijn, maar maar 21 van de 82 uitgenodigden vulden de lijst in. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt en leg het antwoord vast. Een cliëntondersteuner van MEE Zuid-Limburg kan meegaan naar gesprekken. Bent u het niet eens met het plan van de jeugdconsulent, vraag dan om een second opinion. Heeft u een klacht over WijVaals? Dien die in bij de gemeente en vraag om een schriftelijke reactie.",
+    "samenvatting": "Vaals vraagt ouders en jongeren elk jaar naar hun ervaring met jeugdhulp. In 2025 gaven zij het contact met de gemeente gemiddeld een 6,7, tegen een 7,8 in 2024. Veel van hen zeggen snel en vriendelijk geholpen te zijn, maar maar 21 van de 82 uitgenodigden vulden de lijst in. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt en leg het antwoord vast. Een cliëntondersteuner van MEE Zuid-Limburg kan meegaan naar gesprekken. Bent u het niet eens met het plan van de medewerker jeugd, vraag dan om een second opinion. Heeft u een klacht over WijVaals? Dien die in bij de gemeente en vraag om een schriftelijke reactie.",
     "signalen": [
       {
         "soort": "clientervaringsonderzoek",

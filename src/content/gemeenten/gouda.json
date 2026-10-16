@@ -5,7 +5,7 @@
   "jeugdzorgregio": "Midden-Holland",
   "websiteJeugd": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden",
   "toegang": {
-    "samenvatting": "In Gouda zijn er twee deuren. Het Sociaal Team Gouda geeft lichte hulp bij opvoeden en opgroeien, zonder besluit van de gemeente. U kunt binnenlopen, bellen of mailen. Voor specialistische jeugdhulp doet u een melding bij de gemeente zelf. Een jeugdconsulent van de gemeente bekijkt dan wat nodig is en neemt het besluit. Het Centrum voor Jeugd en Gezin (CJG) geeft opvoedadvies en heeft de jeugdarts. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen naar een aanbieder met een contract. Sinds begin 2026 kijkt de gemeente eerst naar wat u en uw omgeving zelf kunnen en naar lichte hulp in de wijk.",
+    "samenvatting": "In Gouda zijn er twee deuren. Het Sociaal Team Gouda geeft lichte hulp bij opvoeden en opgroeien, zonder besluit van de gemeente. U kunt binnenlopen, bellen of mailen. Voor specialistische jeugdhulp doet u een melding bij de gemeente zelf. Een medewerker jeugd van de gemeente bekijkt dan wat nodig is en neemt het besluit. Het Centrum voor Jeugd en Gezin (CJG) geeft opvoedadvies en heeft de jeugdarts. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen naar een aanbieder met een contract. Sinds begin 2026 kijkt de gemeente eerst naar wat u en uw omgeving zelf kunnen en naar lichte hulp in de wijk.",
     "routes": [
       {
         "type": "wijkteam",
@@ -28,12 +28,12 @@
       },
       {
         "type": "overig",
-        "naam": "Melding jeugdhulp bij de gemeente (jeugdconsulent)",
-        "omschrijving": "Voor specialistische jeugdhulp meldt u zich bij de gemeente. Een toegangsmedewerker kijkt of het spoed heeft en welk team u helpt. Een jeugdconsulent bespreekt met u en anderen wat nodig is en neemt een besluit (beschikking). Jongeren mogen zelf een melding doen. Het eerste contact telt als aanvraag.",
+        "naam": "Melding jeugdhulp bij de gemeente (medewerker jeugd)",
+        "omschrijving": "Voor specialistische jeugdhulp meldt u zich bij de gemeente. Een toegangsmedewerker kijkt of het spoed heeft en welk team u helpt. Een medewerker jeugd bespreekt met u en anderen wat nodig is en neemt een besluit (beschikking). Jongeren mogen zelf een melding doen. Het eerste contact telt als aanvraag.",
         "stappen": [
           "Doe de melding online met DigiD, of zonder inloggen, via gouda.nl. U kunt de gemeente ook bellen.",
           "De gemeente bevestigt uw aanvraag binnen 5 werkdagen. U mag binnen 14 dagen een familiegroepsplan indienen: een plan dat u samen met familie en bekenden maakt.",
-          "Bespreek met de jeugdconsulent wat er speelt en welke hulp past. Kiest u liever een pgb? Zeg dat in dit gesprek.",
+          "Bespreek met de medewerker jeugd wat er speelt en welke hulp past. Kiest u liever een pgb? Zeg dat in dit gesprek.",
           "Vraag om een schriftelijk verslag. U krijgt een beschikking: het besluit met welke hulp, hoeveel en hoe lang. Zeg het als u een cliëntondersteuner wilt meenemen."
         ],
         "contact": {
@@ -133,14 +133,14 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "OCO Gouda (Onafhankelijke Cliëntondersteuning)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente. De cliëntondersteuner helpt u bij het vinden van hulp en gaat mee naar een lastig gesprek, bijvoorbeeld met de gemeente. De gemeente moet u bij een melding of aanvraag wijzen op deze mogelijkheid. Heeft u het idee dat de ondersteuner niet onafhankelijk is? Dan mag u een andere vragen.",
+      "toelichting": "Heeft u het idee dat de ondersteuner niet onafhankelijk is? Dan mag u een andere vragen.",
       "telefoon": "088 900 4888",
       "email": "info@ocogouda.nl",
       "url": "https://www.ocogouda.nl"
     },
     "klacht": {
       "naam": "Klachten over het Sociaal Team en over de gemeente",
-      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, vraag dan een gesprek met de teamcoördinator van het Sociaal Team. Daarna kunt u de kwaliteitsadviseur mailen of schrijven. Gaat de klacht over de jeugdconsulent van de gemeente? Dien die dan in bij de gemeente. U krijgt binnen 6 weken antwoord, soms 4 weken later. Telefonisch klagen bij de gemeente kan op woensdag van 10.00 tot 11.00 uur. Gaat de klacht over een aanbieder? Dien die dan bij de aanbieder zelf in.",
+      "toelichting": "Bespreek het eerst met de medewerker en daarna met de teamcoördinator van het Sociaal Team. Lost dat het niet op, mail of schrijf dan de kwaliteitsadviseur. Een klacht over de medewerker jeugd van de gemeente dient u in bij de gemeente; u krijgt binnen 6 weken antwoord, soms 4 weken later. Telefonisch klagen bij de gemeente kan op woensdag van 10.00 tot 11.00 uur. Een klacht over een aanbieder dient u bij de aanbieder zelf in.",
       "url": "https://sociaalteamgouda.nl/klachtenregeling/",
       "email": "kwaliteit@sociaalteamgouda.nl",
       "telefoon": "14 0182",
@@ -150,17 +150,17 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een beschikking maakt u bij de gemeente Gouda. De gemeente probeert het eerst samen met u op te lossen. Lukt dat niet, dan volgt een hoorzitting bij een onafhankelijke adviescommissie. De gemeente probeert binnen 12 weken te beslissen. Dat kan 6 weken langer duren.",
+      "toelichting": "De gemeente probeert het eerst samen met u op te lossen. Lukt dat niet, dan probeert ze binnen 12 weken te beslissen; dat kan 6 weken langer duren.",
       "url": "https://www.gouda.nl/direct-regelen/leven-en-wonen/u-en-de-gemeente/bezwaar/"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Kiest u voor een pgb, dan schrijft u een pgb-plan. Daarin legt u uit hoe u zelf de regie voert, waarom u een pgb wilt in plaats van zorg in natura en dat de hulp van goede kwaliteit is. De gemeente toetst of u of uw budgetbeheerder het budget kan beheren (de tien punten pgb-vaardigheid) en bespreekt het plan met u. Het budget is nooit meer dan de goedkoopste passende hulp in natura. Voor een zzp'er is het 80% van het laagste tarief van een aanbieder met contract. Het kan zijn dat u zelf bijbetaalt. Betalingen lopen via de Sociale Verzekeringsbank (SVB). De gemeente publiceert een tarievenlijst voor pgb.",
+      "toelichting": "In een pgb-plan legt u uit hoe u zelf de regie voert, waarom u een pgb wilt in plaats van zorg in natura en dat de hulp van goede kwaliteit is. De gemeente bespreekt het plan met u en toetst of u of uw budgetbeheerder het budget kan beheren (de tien punten pgb-vaardigheid). Een zzp'er krijgt 80% van het laagste tarief van een aanbieder met contract. Het kan zijn dat u zelf bijbetaalt. De pgb-tarieven staan in de Regeling maatschappelijke ondersteuning en jeugdhulp Gouda 2026.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR757204"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp. De gemeente Gouda heeft hierover afspraken gemaakt.",
+      "omschrijving": "De gemeente Gouda heeft hierover afspraken gemaakt met Jeugdstem.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -306,7 +306,7 @@
     },
     {
       "naam": "Klacht over de gemeente indienen",
-      "omschrijving": "Voor klachten over een medewerker van de gemeente, zoals een jeugdconsulent.",
+      "omschrijving": "Voor klachten over een medewerker van de gemeente, zoals een medewerker jeugd.",
       "url": "https://www.gouda.nl/direct-regelen/leven-en-wonen/u-en-de-gemeente/klacht-over-de-gemeente/",
       "nodig": "DigiD, of uw gegevens zonder inloggen"
     },
@@ -343,7 +343,7 @@
     }
   ],
   "ervaringen": {
-    "samenvatting": "Ouders en jongeren geven de dienstverlening van de gemeente bij jeugdhulp gemiddeld een 7,3, en zijn positief over het respect en de kwaliteit van de hulp. Verbeterpunten zijn wisselende medewerkers, geen vaste contactpersoon, lange wachttijden en de samenwerking tussen aanbieders. Sinds begin 2026 kijkt de gemeente eerst naar wat u en uw omgeving zelf kunnen en naar lichte hulp in de wijk. Voor behandeling geldt in beginsel een maximale duur, bijvoorbeeld 12 maanden, en de gemeente beoordeelt ook lopende jeugdhulp opnieuw.\n\nVraag bij de melding om een vaste consulent en een schriftelijk verslag. Neem een gratis cliëntondersteuner van OCO Gouda mee en dien zo nodig een familiegroepsplan in. Loopt de hulp af terwijl die nog nodig is, vraag dan op tijd om verlenging. Bent u ontevreden over het Sociaal Team, mail dan de kwaliteitsadviseur, en over de gemeente kunt u een klacht indienen of bezwaar maken.",
+    "samenvatting": "Ouders en jongeren geven de dienstverlening van de gemeente bij jeugdhulp gemiddeld een 7,3, en zijn positief over het respect en de kwaliteit van de hulp. Verbeterpunten zijn wisselende medewerkers, geen vaste contactpersoon, lange wachttijden en de samenwerking tussen aanbieders. Sinds begin 2026 kijkt de gemeente eerst naar wat u en uw omgeving zelf kunnen en naar lichte hulp in de wijk. Voor behandeling geldt in beginsel een maximale duur, bijvoorbeeld 12 maanden, en de gemeente beoordeelt ook lopende jeugdhulp opnieuw.\n\nVraag bij de melding om een vaste medewerker jeugd en een schriftelijk verslag. Neem een gratis cliëntondersteuner van OCO Gouda mee en dien zo nodig een familiegroepsplan in. Loopt de hulp af terwijl die nog nodig is, vraag dan op tijd om verlenging. Bent u ontevreden over het Sociaal Team, mail dan de kwaliteitsadviseur, en over de gemeente kunt u een klacht indienen of bezwaar maken.",
     "signalen": [
       {
         "soort": "clientervaringsonderzoek",
@@ -377,8 +377,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Jaarstukken 2025: minder kinderen met jeugdzorg, vaste consulent volgt de hulp",
-        "samenvatting": "Volgens de gemeente kreeg in 2025 nog 1 op 7,5 kinderen jeugdzorg. Bij jeugdhulp volgt een vaste consulent of de hulp blijft passen (casemanagement). Ervaringsdeskundigen denken mee bij de eerste beoordeling en in gesprekken met ouders en jongeren.",
+        "titel": "Jaarstukken 2025: minder kinderen met jeugdzorg, vaste medewerker jeugd volgt de hulp",
+        "samenvatting": "Volgens de gemeente kreeg in 2025 nog 1 op 7,5 kinderen jeugdzorg. Bij jeugdhulp volgt een vaste medewerker jeugd of de hulp blijft passen (casemanagement). Ervaringsdeskundigen denken mee bij de eerste beoordeling en in gesprekken met ouders en jongeren.",
         "datum": "2026-07-01",
         "bron": {
           "titel": "Gemeente Gouda - Jaarstukken 2025",
@@ -388,7 +388,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Proef: nieuwe jeugdaanmeldingen eerst beoordeeld door de Integrale Toegang",
-        "samenvatting": "Vanaf eind 2025 beoordeelt de Integrale Toegang, een team van de gemeente, nieuwe aanmeldingen voor jeugdhulp. Zo wil de gemeente eerder zien of specialistische hulp nodig is of dat lichtere hulp past. Meer huisartspraktijken hebben een jeugdconsulent gekregen.",
+        "samenvatting": "Vanaf eind 2025 beoordeelt de Integrale Toegang, een team van de gemeente, nieuwe aanmeldingen voor jeugdhulp. Zo wil de gemeente eerder zien of specialistische hulp nodig is of dat lichtere hulp past. Meer huisartspraktijken hebben een medewerker jeugd gekregen.",
         "datum": "2025-11-12",
         "bron": {
           "titel": "Gemeente Gouda - Rapportage sturen op het sociaal domein jan-jul 2025",
@@ -428,7 +428,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Gouda - Opgroeien en opvoeden",
@@ -619,6 +619,11 @@
         "titel": "SWV VO Midden-Holland & Rijnstreek – Contact",
         "url": "https://www.swv-vo-mhr.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Regeling maatschappelijke ondersteuning en jeugdhulp Gouda 2026",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR757210/1",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Gemeentesite verwijst nog naar de oude Verordening 2023 (CVDR711600); CVDR757204 is de geldende. Gemeten doorlooptijden, rapport van inspectie of rekenkamer en klachtencommissie van het Sociaal Team niet gevonden. Regionale journalistiek beperkt doorzocht; programmabegroting 2027 is nog een ontwerp."

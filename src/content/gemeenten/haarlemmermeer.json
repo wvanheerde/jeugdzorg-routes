@@ -10,7 +10,7 @@
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Haarlemmermeer",
-        "omschrijving": "Gratis advies en ondersteuning voor ouders, kinderen, jongeren tot 23 jaar en professionals over opvoeden en opgroeien, van pesten en scheiden tot gedrag en school. Consulenten denken mee, bieden zelf lichte ondersteuning en regelen waar nodig specialistische jeugdhulp. Als een pgb beter past, neemt een CJG-medewerker uw aanvraag over.",
+        "omschrijving": "Gratis advies en ondersteuning voor ouders, kinderen, jongeren tot 23 jaar en professionals over opvoeden en opgroeien, van pesten en scheiden tot gedrag en school. Medewerkers jeugd denken mee, bieden zelf lichte ondersteuning en regelen waar nodig specialistische jeugdhulp. Als een pgb beter past, neemt een CJG-medewerker uw aanvraag over.",
         "stappen": [
           "Vul op de gemeentesite de vragenlijst 'Jeugdhulp aanvragen' in, of bel het CJG (ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur). Buiten die tijden kunt u het contactformulier gebruiken of het CJG mailen.",
           "Een medewerker neemt contact met u op en bespreekt de situatie van uw kind; u mag een onafhankelijke cliëntondersteuner meenemen.",
@@ -25,7 +25,7 @@
           "adres": "Marktlaan 124, 2132 DM Hoofddorp",
           "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur (vanaf 1 september 2026)"
         },
-        "doorlooptijd": "Via het contactformulier van het CJG neemt een consulent binnen 2 werkdagen contact op."
+        "doorlooptijd": "Via het contactformulier van het CJG neemt een medewerker jeugd binnen 2 werkdagen contact op."
       },
       {
         "type": "huisarts",
@@ -124,13 +124,13 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning (Eigen Plan, MeerWaarde, MEE Dichtbij en anderen)",
-      "toelichting": "Gratis en onafhankelijk van de gemeente. De gemeente heeft geen vaste uitvoerder maar verwijst naar meerdere organisaties; u neemt zelf contact op. Voor jeugdhulp noemt de Sociale Kaart Haarlemmermeer onder meer Eigen Plan (een familiegroepsplan samen met de eigen kring), Humanitas en MeerWaarde PlusPunten; MEE Dichtbij helpt bij een beperking, autisme of chronische ziekte, en Jongeren Ervaringscoaches ondersteunen jongeren van 16 tot en met 26 jaar. Een cliëntondersteuner kan een gesprek voorbereiden, meegaan naar het CJG of school, helpen met formulieren en met bezwaar. Bel bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "De gemeente heeft geen vaste uitvoerder: u kiest zelf een organisatie en neemt zelf contact op. Voor jeugdhulp noemt de Sociale Kaart Haarlemmermeer onder meer Eigen Plan (een familiegroepsplan met uw eigen kring), Humanitas, MeerWaarde PlusPunten, MEE Dichtbij (bij een beperking, autisme of chronische ziekte) en Jongeren Ervaringscoaches (voor jongeren van 16 tot en met 26 jaar).",
       "telefoon": "023 569 8888",
       "url": "https://haarlemmermeergemeente.nl/clientondersteuning"
     },
     "klacht": {
       "naam": "Klachtenmeldpunt gemeente Haarlemmermeer",
-      "toelichting": "Bespreek het eerst met de medewerker over wie u niet tevreden bent. Komt u er niet uit, dan kunt u de klacht online (met DigiD), telefonisch, per e-mail (onderwerp 'Klachtenmeldpunt') of per brief indienen; anonieme klachten worden niet behandeld. Een klachtenadviseur onderzoekt de klacht en u krijgt uiterlijk binnen 6 weken een brief (met 4 weken te verlengen). Voor hulp bij het opschrijven kunt u terecht bij de Formulierenbrigade van MeerWaarde. Over een zorgaanbieder klaagt u eerst bij de aanbieder zelf; Jeugdstem helpt daarbij.",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, dien dan de klacht in: online met DigiD, telefonisch, per e-mail (onderwerp 'Klachtenmeldpunt') of per brief; anonieme klachten worden niet behandeld. Een klachtenadviseur onderzoekt de klacht en u krijgt binnen 6 weken een brief, soms 4 weken later. Hulp bij het opschrijven krijgt u bij de Formulierenbrigade van MeerWaarde. Over een zorgaanbieder klaagt u eerst bij de aanbieder zelf.",
       "url": "https://haarlemmermeergemeente.nl/ontevreden-over-hoe-u-bent-geholpen",
       "email": "info@haarlemmermeer.nl",
       "telefoon": "0900 1852",
@@ -140,17 +140,16 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Tegen een beschikking (besluit) van de gemeente kunt u gratis binnen 6 weken na verzending bezwaar maken, online met DigiD of per brief aan Gemeente Haarlemmermeer, Team Juridische Zaken, Postbus 250, 2130 AG Hoofddorp. De gemeente beslist binnen 6 weken (na een ambtelijke hoorzitting) of binnen 12 weken (bij de commissie bezwaarschriften), beide met maximaal 6 weken verlenging. Bent u het niet eens met de uitkomst, dan staat beroep open bij de rechtbank Noord-Holland in Haarlem.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief aan Gemeente Haarlemmermeer, Team Juridische Zaken (adres hieronder). De gemeente beslist binnen 6 weken na een ambtelijke hoorzitting, of binnen 12 weken als de commissie bezwaarschriften het behandelt; beide soms 6 weken later.",
       "url": "https://haarlemmermeergemeente.nl/bezwaar-maken"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb vraagt u niet los aan: het is een manier om zorg te betalen. U vraagt jeugdhulp aan; bespreekt u met de medewerker of zorg in natura of een pgb past, dan neemt een medewerker van het CJG de pgb-aanvraag over. De gemeente betaalt het budget aan de Sociale Verzekeringsbank (SVB), die uw zorgaanbieder betaalt zodra u opdracht geeft; daarvoor is een zorgovereenkomst nodig. De gemeente let op de gebruikelijke bedragen; de tarieven staan op de pgb-pagina. Een pgb beheren is niet voor iedereen geschikt; de zelftest van Per Saldo helpt bij de afweging.",
+      "toelichting": "U vraagt geen los pgb aan: u vraagt jeugdhulp aan en bespreekt met de medewerker of zorg in natura of een pgb past. Kiest u een pgb, dan neemt een medewerker van het CJG de aanvraag over. De gemeente let op de gebruikelijke bedragen; de tarieven staan op de pgb-pagina. De zelftest van Per Saldo helpt u kiezen of een pgb bij u past.",
       "url": "https://haarlemmermeergemeente.nl/persoonsgebonden-budget-pgb"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -209,7 +208,7 @@
     {
       "naam": "Centrum voor Jeugd en Gezin (CJG) Haarlemmermeer",
       "soort": "informatiepunt",
-      "omschrijving": "Gratis advies voor ouders, kinderen, jongeren en professionals over opvoeden en opgroeien. Een overzicht van gratis cursussen en trainingen van partners (zoals GGD, Prezens en MeerWaarde) staat op de website; consulenten helpen bij de keuze.",
+      "omschrijving": "Gratis advies voor ouders, kinderen, jongeren en professionals over opvoeden en opgroeien. Een overzicht van gratis cursussen en trainingen van partners (zoals GGD, Prezens en MeerWaarde) staat op de website; medewerkers jeugd helpen bij de keuze.",
       "themas": [
         "opvoeden",
         "gezin"
@@ -335,7 +334,7 @@
     },
     {
       "naam": "Contactformulier CJG Haarlemmermeer",
-      "omschrijving": "Stel uw vraag aan een consulent; het CJG neemt binnen 2 werkdagen contact op.",
+      "omschrijving": "Stel uw vraag aan een medewerker jeugd; het CJG neemt binnen 2 werkdagen contact op.",
       "url": "https://www.cjghaarlemmermeer.nl/ouders-opvoeders/raadpleeg-een-consulent/"
     },
     {

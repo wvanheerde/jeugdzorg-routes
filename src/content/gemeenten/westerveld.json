@@ -5,15 +5,15 @@
   "jeugdzorgregio": "Drenthe",
   "websiteJeugd": "https://www.gemeentewesterveld.nl/Alle_onderwerpen/Welzijn_ondersteuning_en_jeugd_hulp/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Westerveld kunt u op drie plekken terecht met vragen over kinderen en jongeren. Voor lichte vragen en advies gaat u naar Welzijn MensenWerk. Die organisatie heeft ook een schoolmaatschappelijk werker op elke school. Is meer nodig, dan neemt u contact op met Team Jeugd van de gemeente. Een jeugdconsulent praat met u en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Spelen er meerdere problemen in uw gezin, dan kan het Sociaal Team een procesregisseur inzetten die het overzicht houdt. U heeft geen verwijzing nodig. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Westerveld kunt u op drie plekken terecht met vragen over kinderen en jongeren. Voor lichte vragen en advies gaat u naar Welzijn MensenWerk. Die organisatie heeft ook een schoolmaatschappelijk werker op elke school. Is meer nodig, dan neemt u contact op met Team Jeugd van de gemeente. Een medewerker jeugd praat met u en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Spelen er meerdere problemen in uw gezin, dan kan het Sociaal Team een procesregisseur inzetten die het overzicht houdt. U heeft geen verwijzing nodig. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente Westerveld",
-        "omschrijving": "Team Jeugd werkt voor de gemeente. Een jeugdconsulent onderzoekt met u of specialistische hulp nodig is en zet die zo nodig in. U meldt zich zelf aan. Voor lichtere vragen over opvoeden en opgroeien kunt u terecht bij Welzijn MensenWerk, met gratis advies en maatschappelijk werk. Is er meer aan de hand in uw gezin, dan kan een procesregisseur van het Sociaal Team het overzicht houden en de hulp op elkaar afstemmen. U bereikt het Sociaal Team via dezelfde ingang van de gemeente.",
+        "omschrijving": "Team Jeugd werkt voor de gemeente. Een medewerker jeugd onderzoekt met u of specialistische hulp nodig is en zet die zo nodig in. U meldt zich zelf aan. Voor lichtere vragen over opvoeden en opgroeien kunt u terecht bij Welzijn MensenWerk, met gratis advies en maatschappelijk werk. Is er meer aan de hand in uw gezin, dan kan een procesregisseur van het Sociaal Team het overzicht houden en de hulp op elkaar afstemmen. U bereikt het Sociaal Team via dezelfde ingang van de gemeente.",
         "stappen": [
           "Neem contact op met Team Jeugd, of vraag via de website een contactmoment Jeugd aan.",
-          "Bespreek uw vraag met een jeugdconsulent. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Bespreek uw vraag met een medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Wilt u meteen jeugdhulp aanvragen? Gebruik dan het aanvraagformulier op de website van de gemeente, online met DigiD. Voor een jongere van 16 of 17 jaar of iemand zonder DigiD is er een formulier zonder DigiD.",
           "Vraag om een schriftelijk verslag van het gesprek. Op uw aanvraag krijgt u een schriftelijk besluit (beschikking).",
           "Wilt u eerst advies of lichte hulp? Neem dan contact op met Welzijn MensenWerk."
@@ -103,20 +103,28 @@
   },
   "rechten": {
     "onafhankelijkeClientondersteuning": {
-      "naam": "Welzijn MensenWerk en MEE Samen",
-      "toelichting": "Gratis en onafhankelijk. Welzijn MensenWerk biedt cliëntondersteuning aan iedere inwoner van Westerveld. MEE Samen (088 633 0633, info@meesamen.nl) helpt inwoners met een beperking, zoals een verstandelijke beperking of autisme, ook bij bezwaar en beroep. Een cliëntondersteuner gaat mee naar het gesprek met Team Jeugd en helpt bij een aanvraag. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "naam": "Welzijn MensenWerk",
+      "toelichting": "Welzijn MensenWerk helpt iedere inwoner van Westerveld. MEE Samen helpt inwoners met een beperking, zoals een verstandelijke beperking of autisme, ook bij bezwaar en beroep.",
       "telefoon": "085 273 14 44",
       "email": "info@welzijnmw.nl",
-      "url": "https://www.gemeentewesterveld.nl/Alle_onderwerpen/Welzijn_ondersteuning_en_jeugd_hulp/Cli_ntondersteuning/Onafhankelijke_clientondersteuning"
+      "url": "https://www.gemeentewesterveld.nl/Alle_onderwerpen/Welzijn_ondersteuning_en_jeugd_hulp/Cli_ntondersteuning/Onafhankelijke_clientondersteuning",
+      "andere": [
+        {
+          "naam": "MEE Samen",
+          "telefoon": "088 633 0633",
+          "email": "info@meesamen.nl",
+          "url": "https://www.gemeentewesterveld.nl/Alle_onderwerpen/Welzijn_ondersteuning_en_jeugd_hulp/Cli_ntondersteuning/Onafhankelijke_clientondersteuning"
+        }
+      ]
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als uw aanvraag voor jeugdhulp wordt toegekend. U dient dan een pgb-plan in. Daarin legt u uit waarom de hulp van de gemeente volgens u niet past en welke hulp u zelf wilt inkopen. U moet het budget kunnen beheren, alleen of met een budgetbeheerder. Hulp van iemand uit uw omgeving kan onder voorwaarden. Die persoon heeft onder meer een Verklaring omtrent gedrag (VOG) nodig, behalve ouders en grootouders, en mag niet overbelast raken. Vanaf 1 januari 2027 krijgt u voor een zzp'er 75% en voor iemand uit uw omgeving 45% van het laagste tarief dat de gemeente voor dezelfde hulp afspreekt. Hulp van een organisatie wordt volledig vergoed. Voor crisishulp kan geen pgb.",
+      "toelichting": "Is uw aanvraag voor jeugdhulp toegekend, dan legt u in een pgb-plan uit waarom de hulp van de gemeente volgens u niet past en welke hulp u zelf wilt inkopen. Hulp van iemand uit uw omgeving kan onder voorwaarden. Die persoon heeft onder meer een Verklaring omtrent gedrag (VOG) nodig, behalve ouders en grootouders, en mag niet overbelast raken. Vanaf 1 januari 2027 krijgt u voor een zzp'er 75% en voor iemand uit uw omgeving 45% van het laagste tarief dat de gemeente voor dezelfde hulp afspreekt; hulp van een organisatie wordt volledig vergoed. Voor crisishulp kan geen pgb.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR762829"
     },
     "klacht": {
       "naam": "Klacht over Team Jeugd of de gemeente",
-      "toelichting": "Team Jeugd werkt voor de gemeente. Een klacht over hoe u bent behandeld of hoe iets is afgehandeld, dient u daarom in bij de gemeente: online met DigiD, telefonisch of per brief. U krijgt een schriftelijke bevestiging. Neemt de gemeente de klacht niet in behandeling, dan hoort u dat binnen vier weken. De sociaal ombudsvrouw van de gemeente luistert gratis en vertrouwelijk, denkt mee en komt zo nodig bij u thuis. Een klacht over de schoolmaatschappelijk werker dient u eerst in bij Welzijn MensenWerk.",
+      "toelichting": "Team Jeugd werkt voor de gemeente. Een klacht over hoe u bent behandeld of hoe iets is afgehandeld, dient u daarom in bij de gemeente: online met DigiD, telefonisch of per brief. Neemt de gemeente de klacht niet in behandeling, dan hoort u dat binnen vier weken. De sociaal ombudsvrouw van de gemeente luistert vertrouwelijk, denkt mee en komt zo nodig bij u thuis. Een klacht over de schoolmaatschappelijk werker dient u eerst in bij Welzijn MensenWerk.",
       "url": "https://www.gemeentewesterveld.nl/Contact/Zienswijze_klachten_en_bezwaar/Klacht_indienen",
       "email": "ombudsvrouw@gemeentewesterveld.nl",
       "extern": {
@@ -125,12 +133,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar maakt u met een brief aan de gemeente. Een onafhankelijke bezwarencommissie geeft de gemeente advies. U krijgt een beslissing binnen 12 weken na afloop van de bezwaartermijn, soms 6 weken later. Bel gerust eerst de gemeente voor uitleg over het besluit.",
+      "toelichting": "Maak bezwaar met een brief aan de gemeente. Bel gerust eerst de gemeente voor uitleg over het besluit. U krijgt een beslissing binnen 12 weken na afloop van de bezwaartermijn, soms 6 weken later.",
       "url": "https://www.gemeentewesterveld.nl/Contact/Zienswijze_klachten_en_bezwaar/Bezwaar_maken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

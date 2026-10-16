@@ -9,7 +9,7 @@
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Dorpsteam Dongen en de jeugdconsulenten van de gemeente",
+        "naam": "Dorpsteam Dongen en de medewerkers jeugd van de gemeente",
         "omschrijving": "Het Dorpsteam is er voor alle inwoners van Dongen, ook voor gezinnen met vragen over opvoeden en opgroeien. Medewerkers van meerdere welzijnsorganisaties werken er samen, in opdracht van de gemeente. U meldt zich zelf aan. Is specialistische jeugdhulp nodig, dan loopt dat via de gemeente. Die onderzoekt eerst of u het zelf of met uw netwerk kunt oplossen. Daarna neemt de gemeente een besluit (beschikking).",
         "stappen": [
           "Bel of mail het Dorpsteam, of loop binnen tijdens een inloopmoment. Een medewerker belt u daarna terug.",
@@ -103,19 +103,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Onafhankelijke cliëntondersteuning via het Dorpsteam",
-      "toelichting": "Gratis en zonder verwijzing. Een cliëntondersteuner gaat mee naar gesprekken met de gemeente of een aanbieder, helpt bij een aanvraag en bij onvrede over een besluit. Vraag ernaar bij het Dorpsteam, bij voorkeur vóór het eerste gesprek. Ook bij een verwijzing van de huisarts kunt u erom vragen.",
+      "toelichting": "Vraag ernaar bij het Dorpsteam, ook als de huisarts u heeft verwezen.",
       "telefoon": "0162 31 93 31",
       "email": "info@dorpsteamdongen.nl",
       "url": "https://dorpsteamdongen.nl/alle-diensten/onafhankelijke-clientondersteuning-oco"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk voor maximaal één jaar. De gemeente kijkt eerst of hulp van een aanbieder met een contract past. U legt uit waarom een pgb nodig is, maakt een budgetplan en moet het budget zelf kunnen beheren. Hulp van mensen uit uw netwerk kan onder voorwaarden. Hulp van familie in de eerste of tweede graad geldt altijd als informele hulp. De Sociale Verzekeringsbank (SVB) betaalt de hulpverlener.",
+      "toelichting": "Een pgb geldt voor hooguit één jaar. De gemeente kijkt eerst of hulp van een aanbieder met een contract past, en u legt uit waarom een pgb nodig is. Hulp van mensen uit uw netwerk kan onder voorwaarden. Hulp van familie in de eerste of tweede graad geldt altijd als informele hulp.",
       "url": "https://www.dongen.nl/ondersteuning-zorg-jeugd-wmo/jeugd-en-gezin/persoonsgebonden-budget"
     },
     "klacht": {
       "naam": "Klacht over het Dorpsteam of de gemeente",
-      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, ga dan naar de manager van het Dorpsteam. Elke organisatie in het Dorpsteam heeft een eigen klachtenprocedure. Een klacht over een medewerker van de gemeente, zoals een jeugdconsulent, dient u online in bij de gemeente. U wordt gehoord en krijgt een besluit over de klacht. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan ook meedenken.",
+      "toelichting": "Bespreek het eerst met de medewerker. Komt u er niet uit, ga dan naar de manager van het Dorpsteam. Elke organisatie in het Dorpsteam heeft een eigen klachtenprocedure. Een klacht over een medewerker van de gemeente, zoals een medewerker jeugd, dient u online in bij de gemeente. U wordt gehoord en krijgt een besluit over de klacht.",
       "url": "https://dorpsteamdongen.nl/klachtenprocedure",
       "extern": {
         "naam": "Commissie Ombudsman van de gemeente Dongen (als de klacht onvoldoende is behandeld)",
@@ -123,12 +123,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of per brief. Een onafhankelijke commissie nodigt u uit voor een hoorzitting en geeft de gemeente advies. Bel gerust eerst de medewerker. Die kan het besluit toelichten.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief. Bel gerust eerst de medewerker; die kan het besluit toelichten.",
       "url": "https://www.dongen.nl/bezwaarmaken"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }

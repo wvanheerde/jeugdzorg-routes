@@ -46,5 +46,7 @@ export const woorden: { vormen: string[]; uitleg: string }[] = [
   { vormen: ['toevoeging'], uitleg: 'Bij een laag inkomen betaalt de Raad voor Rechtsbijstand een groot deel van de kosten van een advocaat of mediator. U betaalt zelf een eigen bijdrage.' },
   { vormen: ['ouderschapsbemiddeling', 'mediation', 'mediator'], uitleg: 'Een neutrale bemiddelaar helpt ouders om samen afspraken over hun kind te maken.' },
   { vormen: ['verwijzer', 'verwijzing', 'verwijsbrief'], uitleg: 'Wie de hulp in gang zet: het wijkteam van de gemeente, de huisarts, de jeugdarts of een medisch specialist.' },
+  { vormen: ['consulent', 'consulenten', 'jeugdconsulent', 'jeugdconsulenten', 'jeugdhulpconsulent', 'jeugdhulpconsulenten'], uitleg: 'Een medewerker jeugd van de gemeente. Bespreekt met u welke hulp uw kind nodig heeft. In brieven van de gemeente heet die vaak zo.' },
+  { vormen: ['onderwijsconsulent', 'onderwijsconsulenten'], uitleg: 'Een gratis en onafhankelijke adviseur als u en school er samen niet uitkomen, bijvoorbeeld als uw kind thuiszit.' },
   { vormen: ['dwangsom'], uitleg: 'Geld dat de gemeente u moet betalen als zij na uw ingebrekestelling nog steeds niet op tijd beslist.' },
 ];

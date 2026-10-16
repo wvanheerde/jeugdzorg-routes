@@ -4,7 +4,7 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.gemert-bakel.nl/jeugd",
   "toegang": {
-    "samenvatting": "In Gemert-Bakel is Team Jeugd uw eerste aanspreekpunt. U belt de gemeente en een consulent van Team Jeugd neemt contact met u op. Een verwijzing is niet nodig. Soms helpt Team Jeugd direct met advies of wijst het u de weg naar hulp in de buurt. Is er meer nodig, dan zoekt u samen naar passende jeugdhulp. Ook de huisarts mag rechtstreeks naar jeugdhulp verwijzen. Hoe lang het duurt voordat Team Jeugd contact opneemt, is niet openbaar te vinden. Is er een wachttijd, dan bespreekt u samen wat in de tussentijd kan. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Gemert-Bakel is Team Jeugd uw eerste aanspreekpunt. U belt de gemeente en een medewerker jeugd van Team Jeugd neemt contact met u op. Een verwijzing is niet nodig. Soms helpt Team Jeugd direct met advies of wijst het u de weg naar hulp in de buurt. Is er meer nodig, dan zoekt u samen naar passende jeugdhulp. Ook de huisarts mag rechtstreeks naar jeugdhulp verwijzen. Hoe lang het duurt voordat Team Jeugd contact opneemt, is niet openbaar te vinden. Is er een wachttijd, dan bespreekt u samen wat in de tussentijd kan. Vraag bij uw aanmelding hoe lang het duurt.",
     "routes": [
       {
         "type": "wijkteam",
@@ -12,7 +12,7 @@
         "omschrijving": "Team Jeugd helpt ouders, kinderen en jongeren tot 18 jaar bij vragen over opvoeden en opgroeien. U meldt u zelf aan, een verwijzing is niet nodig. Het team kijkt eerst naar wat dichtbij kan helpen, zoals familie, school, de vereniging of een organisatie in het dorp. Is meer nodig, dan zoekt Team Jeugd met u naar specialistische jeugdhulp.",
         "stappen": [
           "Bel de gemeente en vraag naar Team Jeugd. Een medewerker noteert uw vraag en geeft die door.",
-          "Een consulent van Team Jeugd neemt contact met u op voor een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Een medewerker jeugd van Team Jeugd neemt contact met u op voor een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
           "Is er meer ondersteuning nodig? Dan bespreekt u samen de vervolgstappen. Vraag om een schriftelijk verslag en, bij specialistische hulp, om een schriftelijk besluit.",
           "Is het gemeentehuis gesloten, bijvoorbeeld op vrijdagmiddag? Op de pagina Jeugd van de gemeente staat hoe u Team Jeugd dan bereikt."
         ],
@@ -85,19 +85,19 @@
   "rechten": {
     "onafhankelijkeClientondersteuning": {
       "naam": "Zorgbelang Brabant-Zeeland (en MEE De Meent Groep)",
-      "toelichting": "Gratis en onafhankelijk. De cliëntondersteuner gaat mee naar het gesprek met Team Jeugd en helpt u het gesprek voor te bereiden. Zorgbelang Brabant-Zeeland is er voor alle inwoners van Gemert-Bakel. MEE De Meent Groep is er vooral voor mensen met een beperking of chronische ziekte, bijvoorbeeld bij vragen over opvoeding, ontwikkeling en onderwijs. Vraag de ondersteuner bij voorkeur vóór het eerste gesprek.",
+      "toelichting": "Zorgbelang Brabant-Zeeland is er voor alle inwoners en helpt u het gesprek met Team Jeugd voor te bereiden. MEE De Meent Groep is er vooral voor mensen met een beperking of chronische ziekte.",
       "telefoon": "013 202 0054",
       "email": "clientondersteuner@zorgbelang-brabant.nl",
       "url": "https://www.gemert-bakel.nl/clientondersteuning"
     },
     "pgb": {
       "mogelijk": true,
-      "toelichting": "Een pgb (persoonsgebonden budget) is mogelijk als u kunt laten zien dat u het budget zelf kunt beheren. Ook moet u goed uitleggen waarom de hulp van een aanbieder met een contract niet past bij uw kind. De gemeente moet de kwaliteit van de hulp kunnen vertrouwen en vraagt u om een pgb-plan. Het pgb is nooit hoger dan wat de gemeente een aanbieder betaalt voor de goedkoopste passende hulp. Hulp van een bekende (familie, buren) kan, als u laat zien dat dit beter en doelmatiger is. Daarvoor geldt een lager tarief. Let op: de pgb-pagina van de gemeente gaat over de Wmo. Voor jeugd gelden de regels uit de Verordening Jeugdhulp.",
+      "toelichting": "Leg goed uit waarom de hulp van een aanbieder met een contract niet past bij uw kind. Het pgb is nooit hoger dan wat de gemeente een aanbieder betaalt voor de goedkoopste passende hulp. Hulp van een bekende (familie, buren) kan, als u laat zien dat dit beter en doelmatiger is. Daarvoor geldt een lager tarief. De pgb-pagina van de gemeente gaat over de Wmo; voor jeugd gelden de regels uit de Verordening Jeugdhulp.",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR620967/3"
     },
     "klacht": {
       "naam": "Klacht over Team Jeugd of de uitvoering van de Jeugdwet",
-      "toelichting": "Bent u niet tevreden over hoe de gemeente u heeft behandeld? Meld dit bij de klachtencoördinator van de gemeente, het liefst eerst telefonisch. U krijgt binnen 6 weken schriftelijk antwoord. Die termijn kan met vier weken worden verlengd. Voert de Gemeenschappelijke regeling Peelgemeenten (de gezamenlijke uitvoeringsorganisatie van de Peelgemeenten) uw dossier uit? Dan dient u de klacht daar in, via een online formulier of per brief. Een klacht gaat over gedrag, niet over een besluit. Tegen een besluit maakt u bezwaar. Een onafhankelijke vertrouwenspersoon van Jeugdstem kan meedenken.",
+      "toelichting": "Bent u niet tevreden over hoe de gemeente u heeft behandeld? Meld dit bij de klachtencoördinator, het liefst eerst telefonisch. U krijgt binnen 6 weken schriftelijk antwoord, soms 4 weken later. Voert de Gemeenschappelijke regeling Peelgemeenten (de gezamenlijke uitvoeringsorganisatie van de Peelgemeenten) uw dossier uit? Dan dient u de klacht daar in, online of per brief.",
       "url": "https://www.gemert-bakel.nl/klachtenregeling",
       "telefoon": "0492 37 85 00",
       "extern": {
@@ -106,12 +106,11 @@
       }
     },
     "bezwaar": {
-      "toelichting": "Bezwaar tegen een besluit over jeugdhulp maakt u online met DigiD of schriftelijk bij de gemeente. Vaak krijgt u een uitnodiging voor een hoorzitting. De gemeente beslist meestal binnen 6 weken na de bezwaartermijn, of binnen 12 weken als de commissie bezwaarschriften uw zaak behandelt. Daarna kunt u in beroep bij de rechtbank.",
+      "toelichting": "Maak bezwaar online met DigiD of per brief aan de gemeente. De gemeente beslist meestal binnen 6 weken na de bezwaartermijn, of binnen 12 weken als de commissie bezwaarschriften uw zaak behandelt.",
       "url": "https://www.gemert-bakel.nl/bezwaarschrift-indienen"
     },
     "vertrouwenspersoon": {
       "naam": "Jeugdstem (voorheen AKJ)",
-      "omschrijving": "Onafhankelijke vertrouwenspersoon voor ouders en jongeren in de jeugdhulp.",
       "telefoon": "088 555 1000",
       "url": "https://jeugdstem.nl/"
     }
@@ -297,7 +296,7 @@
   },
   "jeugdzorgregio": "Zuidoost-Brabant",
   "ervaringen": {
-    "samenvatting": "Gemert-Bakel heeft Team Jeugd als centrale ingang. Volgens de gemeente is er soms een wachttijd voor Team Jeugd of voor een aanbieder. Hoe lang het gemiddeld duurt en hoe tevreden ouders zijn, is niet openbaar te vinden. Voor ouders in Bakel zijn afspraken bij de jeugdgezondheidszorg sinds 1 juni 2026 in Gemert.\n\nBel Team Jeugd via de gemeente en vraag hoe lang het duurt voordat een consulent contact opneemt. Leg afspraken schriftelijk vast en neem een onafhankelijke cliëntondersteuner mee, bijvoorbeeld van Zorgbelang Brabant-Zeeland. Een klacht over Team Jeugd dient u in bij de klachtencoördinator van de gemeente. Is er een wachttijd bij een aanbieder, zoek dan naar alternatieven op de Beschikbaarheidswijzer.",
+    "samenvatting": "Gemert-Bakel heeft Team Jeugd als centrale ingang. Volgens de gemeente is er soms een wachttijd voor Team Jeugd of voor een aanbieder. Hoe lang het gemiddeld duurt en hoe tevreden ouders zijn, is niet openbaar te vinden. Voor ouders in Bakel zijn afspraken bij de jeugdgezondheidszorg sinds 1 juni 2026 in Gemert.\n\nBel Team Jeugd via de gemeente en vraag hoe lang het duurt voordat een medewerker jeugd contact opneemt. Leg afspraken schriftelijk vast en neem een onafhankelijke cliëntondersteuner mee, bijvoorbeeld van Zorgbelang Brabant-Zeeland. Een klacht over Team Jeugd dient u in bij de klachtencoördinator van de gemeente. Is er een wachttijd bij een aanbieder, zoek dan naar alternatieven op de Beschikbaarheidswijzer.",
     "signalen": [
       {
         "soort": "gemeenteraad",
