@@ -4,18 +4,16 @@
   "provincie": "Groningen",
   "websiteJeugd": "https://www.eemsdelta.nl/sociaalplein/jeugd-en-jongeren",
   "toegang": {
-    "samenvatting": "In Eemsdelta meldt u zich bij het Sociaal Plein van de gemeente. Daar werkt het team Jeugd en Jongeren. U belt of mailt zelf, een verwijzing is niet nodig. Het team bekijkt met u welke hulp past en maakt samen met u een plan. Voor advies, opvoedondersteuning en jeugdmaatschappelijk werk kunt u ook zonder besluit van de gemeente terecht bij Cadanz Welzijn en de GGD. De huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Hoe lang het duurt voor u wordt teruggebeld of een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Eemsdelta meldt u zich bij het team Jeugd en Jongeren van het Sociaal Plein; voor lichte hulp kunt u ook naar Cadanz Welzijn of de GGD. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Plein Eemsdelta (team Jeugd en Jongeren)",
-        "omschrijving": "Het team Jeugd en Jongeren van het Sociaal Plein werkt voor de gemeente. Het onderzoekt welke hulp bij uw kind en gezin past en regelt die. U kunt uw hulpvraag ook telefonisch doen. De gemeente zet uw vraag dan op papier. U ondertekent die en stuurt hem terug; dat geldt als aanvraag. Lichtere hulp zonder besluit krijgt u bij Cadanz Welzijn (jeugdmaatschappelijk werk, jongerenwerk, opvoedondersteuning) of bij de GGD.",
+        "omschrijving": "Het team Jeugd en Jongeren onderzoekt welke hulp bij uw kind en gezin past en regelt die. Doet u uw vraag telefonisch, dan zet de gemeente die op papier; u ondertekent en stuurt hem terug, en dat geldt als aanvraag. Lichtere hulp zonder besluit krijgt u bij Cadanz Welzijn (jeugdmaatschappelijk werk, jongerenwerk, opvoedondersteuning) of bij de GGD.",
         "stappen": [
-          "Bel of mail het Sociaal Plein, of meld uw hulpvraag via het formulier op de website van de gemeente.",
-          "Het team neemt contact met u op en bespreekt uw vraag. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Samen maakt u een plan. Daarin staat aan welke doelen u werkt en wat u zelf kunt doen.",
-          "Is specialistische hulp nodig? Vraag die dan aan. U krijgt een schriftelijk besluit van de gemeente.",
-          "Liever eerst advies of lichte hulp? Neem contact op met Cadanz Welzijn."
+          "Bel of mail het Sociaal Plein, of gebruik het formulier op de website van de gemeente.",
+          "Het team neemt contact met u op en bespreekt uw vraag. U mag iemand meenemen.",
+          "Maak samen een plan met doelen. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit van de gemeente."
         ],
         "contact": [
           {
@@ -33,16 +31,17 @@
             "url": "https://cadanzwelzijn.nl",
             "adres": "Burg. Klauckelaan 16, Appingedam"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u wordt teruggebeld of een gesprek krijgt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar aanbieders met een contract bij de gemeente. Dit is een gelijkwaardige route naast het Sociaal Plein. Bij de huisartsen werkt ook een praktijkondersteuner jeugd.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij de huisartsen werkt ook een praktijkondersteuner jeugd.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts verwijst naar een aanbieder met een contract bij de gemeente, of naar de praktijkondersteuner jeugd.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar de praktijkondersteuner jeugd of naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Groningen",
@@ -54,11 +53,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan u helpen bij het Sociaal Plein aan te melden. Komt u er met school niet uit over passend onderwijs, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Dat is een onafhankelijk adviespunt.",
+        "omschrijving": "School kan u helpen om u bij het Sociaal Plein aan te melden.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Meld uw kind aan bij het Sociaal Plein, bij voorkeur samen met school.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -84,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Wie u in Eemsdelta overdag en buiten kantooruren kunt bereiken bij een spoedsituatie met een kind, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina van de gemeente over een spoedsituatie met een kind tot 18 jaar wie u overdag en 's avonds kunt bellen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Eemsdelta: spoedsituatie met een kind tot 18 jaar",

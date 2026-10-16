@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.harlingen.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Harlingen is het Gebiedsteam de eerste deur voor jeugdhulp. Het bestaat uit een Jeugdteam en een Stadsteam en is er voor iedereen in Harlingen, Wijnaldum en Midlum. U meldt uw vraag zelf; een verwijzing is niet nodig. Het Gebiedsteam kijkt met u wat nodig is, geeft zelf lichte hulp en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat het Gebiedsteam een aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Harlingen meldt u zich bij het Gebiedsteam (Jeugdteam en Stadsteam), ook als u in Wijnaldum of Midlum woont. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam Harlingen (Jeugdteam en Stadsteam)",
-        "omschrijving": "Bij het Gebiedsteam van de gemeente meldt u uw vraag over opvoeden, opgroeien of hulp voor uw kind. Het team onderzoekt samen met u wat nodig is. Het hele gezin krijgt één plan en één vaste regisseur. Het team kan zelf lichte hulp geven, zonder beschikking (besluit van de gemeente). Voor specialistische hulp maakt het team een ondersteuningsplan en neemt de gemeente een besluit.",
+        "omschrijving": "Het Gebiedsteam onderzoekt met u wat nodig is en geeft zelf lichte hulp, zonder besluit van de gemeente. Het hele gezin krijgt één plan en één vaste regisseur. Voor specialistische hulp maakt het team een ondersteuningsplan en neemt de gemeente een besluit.",
         "stappen": [
-          "Bel het Gebiedsteam, loop binnen bij het inloopspreekuur of mail het team. Vertel waar u hulp bij zoekt.",
-          "Zeg of u een onafhankelijke cliëntondersteuner wilt; het team vraagt daarnaar. Dat is gratis. Regel het bij voorkeur vóór het eerste gesprek.",
-          "Bespreek met een medewerker van het Gebiedsteam wat er speelt. Daarna krijgt u een ondersteuningsplan voor uw gezin.",
-          "Is specialistische hulp nodig, vraag die dan aan met het formulier dat u krijgt. U krijgt een schriftelijk besluit.",
-          "Bent u het niet eens met het besluit? Maak dan bezwaar. In de brief staat hoe."
+          "Bel of mail het Gebiedsteam, of loop binnen bij het inloopspreekuur.",
+          "Bespreek met een medewerker wat er speelt. U mag iemand meenemen; het team vraagt of u een cliëntondersteuner wilt.",
+          "Is specialistische hulp nodig? Vraag die aan met het formulier dat u krijgt; u krijgt een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Gebiedsteam Harlingen",
@@ -25,16 +23,17 @@
           "url": "https://www.harlingen.nl/inloopspreekuur-en-openingstijden-gebiedsteam",
           "adres": "MFC het Vierkant, Harlingen",
           "openingstijden": "Telefonisch (keuze 2) ma, di en do 8.30–16.30 uur, wo en vr 8.30–12.30 uur. Inloopspreekuur ma 14.00–16.00 uur en do 10.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Gebiedsteam een aanmelding oppakt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Met zo'n verwijzing gaat u direct naar de aanbieder. Vragen over de ontwikkeling van uw kind kunt u ook stellen aan de jeugdgezondheidszorg van de GGD Fryslân.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Met vragen over de ontwikkeling van uw kind kunt u ook bij de jeugdgezondheidszorg van GGD Fryslân terecht.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Laat u verwijzen naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -45,11 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Het Gebiedsteam heeft contactpersonen op de scholen in Harlingen. Zij helpen bij zorgen over uw kind op school, zonder dat u eerst een aanvraag doet. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Dat steunpunt werkt voor heel Friesland, voor basis- en voortgezet onderwijs.",
+        "omschrijving": "Het Gebiedsteam heeft contactpersonen op de scholen in Harlingen; zij helpen zonder dat u eerst een aanvraag doet. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt advies, voor basis- en voortgezet onderwijs in heel Friesland.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de contactpersoon van het Gebiedsteam op school kan meedenken. U kunt zich ook zelf aanmelden bij het Gebiedsteam.",
-          "Is meer hulp nodig, dan schakelt het Gebiedsteam of de school specialistische hulp in.",
+          "Vraag of de contactpersoon van het Gebiedsteam kan meedenken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
@@ -72,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente staat meer over huiselijk geweld en kindermishandeling en hoe u dat meldt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina over mishandeling of huiselijk geweld van de gemeente waar u in Harlingen terecht kunt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Harlingen: mishandeling of huiselijk geweld",

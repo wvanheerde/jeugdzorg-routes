@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Centraal Gelderland",
   "websiteJeugd": "https://www.rheden.nl/product/opvoeden-en-opgroeien/",
   "toegang": {
-    "samenvatting": "In Rheden zijn er twee deuren. Incluzio Rheden helpt met vragen over opvoeden en opgroeien in de dorpsteams, zonder besluit van de gemeente. Is meer hulp nodig, dan meldt u zich bij het Sociaal Meldpunt van de gemeente. Daar werkt Team Toegang jeugd, dat beslist over jeugdhulp. U meldt zich zelf aan. Een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Dat gebeurt in Rheden vaker dan gemiddeld. Eind 2024 was er een lange wachtlijst bij Team Toegang jeugd. Volgens de gemeente komen ouders sinds 2025 weer binnen de termijn op gesprek. Vraag bij uw melding hoe lang het nu duurt.",
+    "samenvatting": "In Rheden kunt u voor advies en lichte hulp terecht bij het dorpsteam van Incluzio Rheden; voor jeugdhulp meldt u zich bij het Sociaal Meldpunt van de gemeente. U kunt ook via de huisarts, jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Incluzio Rheden en Team Toegang jeugd van de gemeente",
-        "omschrijving": "Incluzio Rheden is het welzijnsteam van de gemeente, met dorpsteams in Rheden, Velp en Dieren. Zij geven advies en lichte ondersteuning bij opvoeden en opgroeien, zonder besluit van de gemeente. Voor hulp van een jeugdhulpaanbieder beslist Team Toegang jeugd van de gemeente. U meldt zich via het Sociaal Meldpunt. Daarbij vult u een Persoonlijk Plan in: wat is er aan de hand, wat heeft u zelf al geprobeerd en wat heeft u nodig.",
+        "omschrijving": "Incluzio Rheden heeft dorpsteams in Rheden, Velp en Dieren en geeft advies en lichte ondersteuning, zonder besluit van de gemeente. Over hulp van een jeugdhulpaanbieder beslist Team Toegang jeugd van de gemeente. Bij uw melding vult u een Persoonlijk Plan in: wat is er aan de hand, wat heeft u zelf al geprobeerd en wat heeft u nodig.",
         "stappen": [
-          "Wilt u eerst advies of lichte hulp? Neem contact op met het dorpsteam van Incluzio Rheden in uw dorp, of loop binnen bij een informatiepunt.",
-          "Is meer hulp nodig? Doe een melding bij het Sociaal Meldpunt van de gemeente, online of telefonisch. Vul daarbij het Persoonlijk Plan in.",
-          "Team Toegang jeugd bespreekt uw vraag met u. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is specialistische hulp nodig, dan krijgt u een besluit van de gemeente. Daarna start een aanbieder met de hulp.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om het besluit op papier."
+          "Wilt u eerst advies of lichte hulp? Neem contact op met het dorpsteam in uw dorp, of loop binnen bij een informatiepunt.",
+          "Is meer hulp nodig? Doe online of telefonisch een melding bij het Sociaal Meldpunt en vul het Persoonlijk Plan in.",
+          "Team Toegang jeugd bespreekt uw vraag met u. U mag iemand meenemen. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit."
         ],
         "contact": [
           {
@@ -47,16 +45,17 @@
             "url": "https://www.incluziorheden.nl/contact/",
             "openingstijden": "Telefonisch werkdagen 9.30–12.30 en 13.00–16.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Eind 2024 was er een lange wachtlijst bij Team Toegang jeugd; volgens de gemeente komen ouders sinds 2025 weer binnen de termijn op gesprek. Vraag bij uw melding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Toegang jeugd. Voor vragen over kinderen van 0 tot 18 jaar verwijst de gemeente ook naar de jeugdgezondheidszorg (JGZ) van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Voor vragen over kinderen van 0 tot 18 jaar kunt u ook bij de jeugdgezondheidszorg (JGZ) van de GGD terecht.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "De arts verwijst u naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -68,11 +67,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school kunt u terecht bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland van de samenwerkingsverbanden passend onderwijs. Voor basisonderwijs is dat PassendWijs, voor voortgezet onderwijs meestal De Verbinding. Het Rhedens in Dieren en Rozendaal valt onder het Samenwerkingsverband Regio Zutphen. Voor hulp bij opvoeden of jeugdhulp meldt u zich bij Team Toegang jeugd.",
+        "omschrijving": "Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland: PassendWijs voor de basisschool, meestal De Verbinding voor het voortgezet onderwijs. Het Rhedens in Dieren en Rozendaal valt onder het Samenwerkingsverband Regio Zutphen.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Is er ook hulp buiten school nodig? Doe een melding bij het Sociaal Meldpunt van de gemeente."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -107,10 +105,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke hulp er verder is bij een crisis of onveiligheid van een kind, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisishulp aan kinderen en bij huiselijk geweld op de pagina van de gemeente Rheden."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Rheden: huiselijk geweld of kindermishandeling",

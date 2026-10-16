@@ -4,17 +4,16 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.eijsden-margraten.nl/nl/Jeugdonderwijsenkinderopvang/Jeugd/Jeugdhulp.html",
   "toegang": {
-    "samenvatting": "In Eijsden-Margraten vraagt u jeugdhulp aan bij het Sociaal Team van de gemeente. U meldt u zelf aan, een verwijzing is niet nodig. Een klantmanager jeugd neemt contact met u op om uw vraag te bespreken. Met vragen over opvoeden en opgroeien kunt u ook terecht bij CJG043, een digitaal adviespunt voor Maastricht en het Heuvelland. Ook de huisarts mag rechtstreeks verwijzen. Bij de huisarts werkt een praktijkondersteuner jeugd. Op elke basisschool is een knooppunt overleg: daar denken school, jeugdgezondheidszorg en een medewerker jeugd van team Jeugd en Ouders met u mee. Hoe lang het duurt voordat een klantmanager contact opneemt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Eijsden-Margraten vraagt u jeugdhulp aan bij het Sociaal Team van de gemeente; voor advies over opvoeden is er ook het digitale adviespunt CJG043. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van de gemeente (klantmanagers jeugd)",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente. De klantmanagers jeugd bespreken uw hulpvraag, beoordelen of uw kind jeugdhulp krijgt en regelen de hulp. U meldt u zelf aan, een verwijzing is niet nodig. Voor vragen over opvoeden en opgroeien is er CJG043; daarvoor is geen besluit van de gemeente nodig. Loopt een jongere tot 27 jaar vast bij school, werk, schulden of ruzie thuis? Dan kan hij of zij ook terecht bij de medewerker jeugd welzijn jeugd van de gemeente.",
+        "omschrijving": "Klantmanagers jeugd van de gemeente bespreken uw vraag, beoordelen of uw kind jeugdhulp krijgt en regelen de hulp. Voor advies over opvoeden en opgroeien is er CJG043, een digitaal adviespunt voor Maastricht en het Heuvelland; daarvoor is geen besluit nodig. Jongeren tot 27 jaar die vastlopen bij school, werk, schulden of ruzie thuis, kunnen ook terecht bij de medewerker welzijn jeugd van de gemeente (zelfde telefoonnummer als het Sociaal Team).",
         "stappen": [
-          "Meld uw kind aan bij het Sociaal Team: via het burgerportaal iParticipatie, per telefoon of per e-mail. Houd naam, burgerservicenummer (bsn) en adres van uw kind bij de hand.",
-          "Bespreek de hulpvraag met de klantmanager jeugd die contact met u opneemt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een gezinsplan. Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp om een beschikking (schriftelijk besluit van de gemeente).",
-          "Stel uw vraag bij CJG043 als u eerst advies wilt over opvoeden of opgroeien."
+          "Meld uw kind aan via het burgerportaal iParticipatie, telefonisch of per e-mail. Houd naam, burgerservicenummer (bsn) en adres van uw kind bij de hand.",
+          "Bespreek uw vraag met de klantmanager jeugd die contact met u opneemt. U mag iemand meenemen.",
+          "Maak samen een gezinsplan. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit van de gemeente)."
         ],
         "contact": [
           {
@@ -30,16 +29,17 @@
             "url": "https://www.cjg043.nl/over-cjg043/contact/",
             "openingstijden": "Alleen digitaal bereikbaar, per e-mail, chat of vragenformulier"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat een klantmanager contact opneemt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisarts werkt een praktijkondersteuner jeugd (POH Jeugd) voor kinderen tot 19 jaar. Die helpt uw hulpvraag helder te krijgen en legt contact met jeugdhulp en de gemeente.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisarts werkt een praktijkondersteuner jeugd voor kinderen tot 19 jaar, die uw vraag helder helpt krijgen en contact legt met jeugdhulp en de gemeente.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u doorverwijzen naar de praktijkondersteuner jeugd, of direct naar een aanbieder waar de gemeente een contract mee heeft.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -51,12 +51,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke basisschool in Eijsden-Margraten heeft een knooppunt overleg. Heeft u zorgen en weet u niet wat te doen? Dan kunt u samen met school besluiten uw kind daar te bespreken. Bij het overleg zitten onder meer de intern begeleider, het schoolmaatschappelijk werk, de jeugdgezondheidszorg en een medewerker jeugd van team Jeugd en Ouders. Komt u er met school niet uit? Dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs informatie.",
+        "omschrijving": "Elke basisschool in Eijsden-Margraten heeft een knooppunt overleg. Samen met school kunt u besluiten uw kind daar te bespreken, met onder meer de intern begeleider, het schoolmaatschappelijk werk, de jeugdgezondheidszorg en een medewerker jeugd van de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of uw kind kan worden besproken in het knooppunt overleg van de school. U mag zelf meepraten.",
-          "Meld u aan bij het Sociaal Team als uw kind meer hulp nodig heeft.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband voor basis- of voortgezet onderwijs."
+          "Vraag of uw kind besproken kan worden in het knooppunt overleg. U mag zelf meepraten.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband van uw school."
         ],
         "contact": [
           {
@@ -85,10 +84,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er buiten kantoortijd is voor jeugd in Zuid-Limburg, staat op de pagina Jeugdhulp van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisishulp voor jeugd buiten kantoortijd onder het kopje Spoed/Crisishulp op de pagina Jeugdhulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Eijsden-Margraten: Spoed/Crisishulp (op de pagina Jeugdhulp)",
@@ -185,7 +183,7 @@
     {
       "naam": "Ouder- en jeugdsteunpunt passend onderwijs Zuid-Limburg",
       "soort": "informatiepunt",
-      "omschrijving": "Informatie voor ouders en jongeren over passend onderwijs, per samenwerkingsverband, met een verwijzing naar onderwijsconsulenten.",
+      "omschrijving": "Informatie voor ouders en jongeren over passend onderwijs, per samenwerkingsverband, met een verwijzing naar Onderwijsconsulenten, onafhankelijke adviseurs van de overheid.",
       "themas": [
         "passend onderwijs",
         "school"
@@ -221,7 +219,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Eijsden-Margraten: Jeugdhulp",

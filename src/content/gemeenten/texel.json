@@ -5,34 +5,40 @@
   "jeugdzorgregio": "Kop van Noord-Holland",
   "websiteJeugd": "https://www.texel.nl/direct-regelen/sociaal-team-en-huis-van-ontwikkeling/jeugdhulp/jeugdhulp",
   "toegang": {
-    "samenvatting": "Op Texel is het Sociaal Team van de gemeente de ingang voor jeugdhulp. U belt zelf of vult een formulier in. Een verwijzing is niet nodig. Het team kijkt met u naar uw vraag en naar wat mensen om u heen kunnen doen. Is meer hulp nodig, dan regelt het team die en neemt de gemeente een besluit. Ook de huisarts mag rechtstreeks verwijzen. Lichtere hulp is er via het schoolmaatschappelijk werk en de jeugdgezondheidszorg. Hoe lang het duurt voordat het Sociaal Team uw aanvraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "Op Texel meldt u zich bij het Sociaal Team van de gemeente, telefonisch of met een formulier. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Texel",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente en is er voor alle vragen over zorg, opvoeden, geld en werk. Jongeren mogen zelf een vraag stellen. Heeft uw gezin meerdere hulpvragen, dan krijgt u één vaste klantmanager en één plan voor het hele gezin. Het team kijkt eerst wat u zelf en mensen om u heen kunnen doen. Is meer hulp nodig, dan regelt het team die en krijgt u een besluit van de gemeente (beschikking).",
+        "omschrijving": "Het Sociaal Team is er voor vragen over zorg, opvoeden, geld en werk; jongeren mogen zelf een vraag stellen. Heeft uw gezin meerdere hulpvragen, dan krijgt u één vaste klantmanager en één plan voor het hele gezin. Informatie over opvoeden en opgroeien vindt u ook op Kern Gezond Texel.",
         "stappen": [
-          "Bel het Sociaal Team, stel online een vraag of meld uw kind aan voor jeugdhulp met het formulier op de pagina Jeugdhulp van de gemeente.",
-          "Bespreek met een medewerker wat er speelt en wat u en uw omgeving zelf kunnen doen. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag specialistische hulp aan als dat nodig is. U krijgt dan een schriftelijk besluit. Vraag ook om een verslag van het gesprek.",
-          "Wilt u eerst informatie over opvoeden of opgroeien? Kijk dan op Kern Gezond Texel."
+          "Bel het Sociaal Team, stel online een vraag of meld uw kind aan met het formulier op de pagina Jeugdhulp van de gemeente.",
+          "Bespreek met een medewerker wat er speelt en wat u en uw omgeving zelf kunnen. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan regelt het team die en krijgt u een schriftelijk besluit (beschikking)."
         ],
-        "contact": {
-          "naam": "Sociaal Team Texel",
-          "telefoon": "14 0222",
-          "email": "gemeente@texel.nl",
-          "url": "https://www.texel.nl/direct-regelen/sociaal-team-en-huis-van-ontwikkeling/contact/sociaal-team",
-          "openingstijden": "Telefonisch werkdagen 8.30–16.30 uur"
-        }
+        "contact": [
+          {
+            "naam": "Sociaal Team Texel",
+            "telefoon": "14 0222",
+            "email": "gemeente@texel.nl",
+            "url": "https://www.texel.nl/direct-regelen/sociaal-team-en-huis-van-ontwikkeling/contact/sociaal-team",
+            "openingstijden": "Telefonisch werkdagen 8.30–16.30 uur"
+          },
+          {
+            "naam": "Kern Gezond Texel: Ouderkracht",
+            "url": "https://www.kerngezondtexel.nl/alles-over/ouderkracht"
+          }
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat het Sociaal Team uw aanvraag oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Voor kinderen tot 18 jaar is er ook de jeugdgezondheidszorg van GGD Hollands Noorden, met het consultatiebureau en de jeugdarts.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Voor kinderen tot 18 jaar is er de jeugdgezondheidszorg van GGD Hollands Noorden, met het consultatiebureau en de jeugdarts.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of maak een afspraak bij de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder die de gemeente heeft ingekocht.",
-          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder die de gemeente heeft ingekocht.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -44,11 +50,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op Texel is er schoolmaatschappelijk werk in de kinderopvang, op de basisschool en op de middelbare school. Het is er voor leerlingen, ouders en scholen, en helpt al bij kleine zorgen. Komt u er met school niet uit, dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat geeft onafhankelijk advies over passend onderwijs.",
+        "omschrijving": "Op Texel is er schoolmaatschappelijk werk in de kinderopvang, op de basisschool en op de middelbare school. Het is er voor leerlingen, ouders en scholen, ook bij kleine zorgen.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag school om een aanmelding bij het schoolmaatschappelijk werk.",
-          "Meld u aan bij het Sociaal Team als er meer hulp nodig is.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -74,10 +79,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten en meldpunten er verder zijn, staat op de pagina Crisissituatie Jeugd van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Crisissituatie Jeugd van de gemeente welke crisisdiensten er voor jeugd op Texel zijn."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Texel: Crisissituatie Jeugd",
@@ -208,7 +212,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Texel: Jeugdhulp",

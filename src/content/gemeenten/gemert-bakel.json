@@ -4,17 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.gemert-bakel.nl/jeugd",
   "toegang": {
-    "samenvatting": "In Gemert-Bakel is Team Jeugd uw eerste aanspreekpunt. U belt de gemeente en een medewerker jeugd van Team Jeugd neemt contact met u op. Een verwijzing is niet nodig. Soms helpt Team Jeugd direct met advies of wijst het u de weg naar hulp in de buurt. Is er meer nodig, dan zoekt u samen naar passende jeugdhulp. Ook de huisarts mag rechtstreeks naar jeugdhulp verwijzen. Hoe lang het duurt voordat Team Jeugd contact opneemt, is niet openbaar te vinden. Is er een wachttijd, dan bespreekt u samen wat in de tussentijd kan. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Gemert-Bakel belt u de gemeente en vraagt u naar Team Jeugd; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente",
-        "omschrijving": "Team Jeugd helpt ouders, kinderen en jongeren tot 18 jaar bij vragen over opvoeden en opgroeien. U meldt u zelf aan, een verwijzing is niet nodig. Het team kijkt eerst naar wat dichtbij kan helpen, zoals familie, school, de vereniging of een organisatie in het dorp. Is meer nodig, dan zoekt Team Jeugd met u naar specialistische jeugdhulp.",
+        "omschrijving": "Team Jeugd helpt ouders, kinderen en jongeren tot 18 jaar bij vragen over opvoeden en opgroeien. Het team geeft soms direct advies of wijst de weg naar hulp dichtbij, zoals familie, school, de vereniging of een organisatie in het dorp. Is meer nodig, dan zoekt u samen naar specialistische jeugdhulp.",
         "stappen": [
-          "Bel de gemeente en vraag naar Team Jeugd. Een medewerker noteert uw vraag en geeft die door.",
-          "Een medewerker jeugd van Team Jeugd neemt contact met u op voor een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is er meer ondersteuning nodig? Dan bespreekt u samen de vervolgstappen. Vraag om een schriftelijk verslag en, bij specialistische hulp, om een schriftelijk besluit.",
-          "Is het gemeentehuis gesloten, bijvoorbeeld op vrijdagmiddag? Op de pagina Jeugd van de gemeente staat hoe u Team Jeugd dan bereikt."
+          "Bel de gemeente en vraag naar Team Jeugd. Is het gemeentehuis dicht, bijvoorbeeld op vrijdagmiddag, kijk dan op de pagina Jeugd van de gemeente.",
+          "Een medewerker jeugd neemt contact met u op voor een gesprek. U mag iemand meenemen.",
+          "Bespreek samen de vervolgstappen. Bij specialistische hulp krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Team Jeugd (gemeente Gemert-Bakel)",
@@ -22,16 +21,17 @@
           "email": "gemeente@gemert-bakel.nl",
           "url": "https://www.gemert-bakel.nl/jeugd",
           "openingstijden": "Telefonisch ma t/m do 9.00–17.00 uur, vr 9.00–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat Team Jeugd contact opneemt, is niet openbaar. Is er een wachttijd, dan bespreekt u samen wat in de tussentijd kan."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Brabant-Zuidoost. Woont u in Bakel? Dan zijn afspraken en controles sinds 1 juni 2026 in het Kunstlokaal in Gemert. In Bakel is op donderdagochtend een inloopspreekuur zonder afspraak.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract in de regio. De jeugdarts werkt bij GGD Brabant-Zuidoost. Woont u in Bakel, dan zijn afspraken sinds 1 juni 2026 in het Kunstlokaal in Gemert; in Bakel is op donderdagochtend een inloopspreekuur.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de regio gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -43,10 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Merkt u of de school dat uw kind extra steun nodig heeft, dan begint u bij de school zelf. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het basisonderwijs en het voortgezet onderwijs zijn dat twee verschillende steunpunten.",
+        "omschrijving": "Heeft uw kind extra steun nodig op school, begin dan bij de school zelf. Komt u er niet uit, dan zijn er twee steunpunten: een voor het basisonderwijs en een voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of bij het Ouder- en jeugdsteunpunt (voortgezet onderwijs).",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of het Ouder- en jeugdsteunpunt (voortgezet onderwijs).",
           "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan aan bij Team Jeugd."
         ],
         "contact": [
@@ -70,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er zijn voor kinderen en jongeren in Gemert-Bakel, staat op de pagina Noodnummers van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Gemert-Bakel op de pagina Noodnummers van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Gemert-Bakel: noodnummers, ook bij een crisis met kinderen of jongeren",

@@ -4,17 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.wijdemeren.nl/hulpvoorjeugd",
   "toegang": {
-    "samenvatting": "In Wijdemeren is het sociaal wijkteam de toegang tot jeugdhulp. De medewerkers jeugd van dat team werken voor de gemeente. U kunt zich zelf melden, een verwijzing is niet nodig. De medewerkers jeugd onderzoeken uw vraag, maken met u een ondersteuningsplan en zoeken een zorgaanbieder. Ook de huisarts mag rechtstreeks verwijzen. Naast de praktijkondersteuner werkt er bij de huisartsen een gedragswetenschapper voor lichte psychische klachten (lichte ggz). Voor vragen over opvoeden en de gezondheid van uw kind kunt u terecht bij Jeugd en Gezin van de GGD. Let op: Wijdemeren gaat per 1 januari 2027 op in Hilversum. Hoe het team daarna werkt, is nog niet bekend. Hoe lang het duurt voordat u gesproken wordt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Wijdemeren meldt u zich zonder verwijzing bij de medewerkers jeugd van het sociaal wijkteam. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal wijkteam Wijdemeren (medewerkers jeugd)",
-        "omschrijving": "De medewerkers jeugd van het sociaal wijkteam zijn de toegang tot jeugdhulp voor alle inwoners van Wijdemeren tot 18 jaar en hun gezinnen. U meldt zich zelf aan. Ook leerkrachten, huisartsen en jongeren zelf kunnen een vraag stellen. Alles is vrijwillig. De medewerkers jeugd beoordelen of uw kind jeugdhulp krijgt en geven daarvoor een beschikking (besluit van de gemeente) af.",
+        "omschrijving": "De medewerkers jeugd zijn er voor inwoners tot 18 jaar en hun gezinnen; ook jongeren zelf kunnen een vraag stellen. Zij beoordelen of uw kind jeugdhulp krijgt, geven de beschikking (besluit van de gemeente) af en zoeken met u een zorgaanbieder. Wijdemeren gaat per 1 januari 2027 op in Hilversum, en hoe het team daarna werkt is nog niet bekend.",
         "stappen": [
           "Bel het sociaal wijkteam of vul het contactformulier jeugd van de gemeente in.",
-          "Ga met uw kind naar het intakegesprek. Het team bespreekt uw vraag eerst intern en nodigt u daarna uit. Het gesprek kan op het gemeentehuis, thuis of op school. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met de medewerker jeugd een ondersteuningsplan. Het team zoekt daarna met u een passende zorgaanbieder.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+          "Het team bespreekt uw vraag eerst intern en nodigt u daarna met uw kind uit voor een intakegesprek, op het gemeentehuis, thuis of op school. U mag iemand meenemen.",
+          "Maak samen met de medewerker jeugd een ondersteuningsplan. Het team zoekt daarna met u een passende zorgaanbieder."
         ],
         "contact": [
           {
@@ -26,16 +25,17 @@
             "naam": "Contactformulier jeugd (gemeente Wijdemeren)",
             "url": "https://formulieren.wijdemeren.nl/contactformulierjeugd"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u gesproken wordt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het sociaal wijkteam. Bij de huisartsen in Wijdemeren werken een praktijkondersteuner en een gedragswetenschapper. Zij helpen bij lichte psychische klachten (lichte ggz).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisartsen in Wijdemeren werken een praktijkondersteuner en een gedragswetenschapper. Zij helpen bij lichte psychische klachten (lichte ggz).",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van Jeugd en Gezin.",
-          "Ga zo nodig eerst naar de praktijkondersteuner. Of vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van Jeugd en Gezin van de GGD.",
+          "Ga zo nodig eerst naar de praktijkondersteuner, of vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugd en Gezin (GGD Gooi en Vechtstreek)",
@@ -48,10 +48,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan het sociaal wijkteam inschakelen. Een intakegesprek kan ook op school plaatsvinden. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Gooi en Vechtstreek. Dat steunpunt hoort bij de samenwerkingsverbanden Unita (basisonderwijs) en Qinas (voortgezet onderwijs).",
+        "omschrijving": "School kan het sociaal wijkteam inschakelen, en een intakegesprek kan ook op school. Het Ouder- en jeugdsteunpunt Gooi en Vechtstreek hoort bij de samenwerkingsverbanden Unita (basisonderwijs) en Qinas (voortgezet onderwijs).",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het sociaal wijkteam kan inschakelen, of meld u zelf aan bij het sociaal wijkteam.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of school het sociaal wijkteam kan inschakelen.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband van uw school."
         ],
         "contact": [
@@ -82,10 +81,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke meldpunten en hulp er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina Hulp voor jeugd van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor het melden van kindermishandeling en huiselijk geweld op de pagina Hulp voor jeugd van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Wijdemeren: Hulp voor jeugd (melden kindermishandeling)",
@@ -326,7 +324,7 @@
   },
   "jeugdzorgregio": "Gooi en Vechtstreek",
   "ervaringen": {
-    "samenvatting": "Wijdemeren gaat per 1 januari 2027 op in Hilversum, en de medewerkers werken nu al samen met die van Hilversum. In 2025 vertrokken meer medewerkers, ook jeugd- en Wmo-consulenten, en nieuwe plannen voor het wijkteam zijn uitgesteld door de fusie. Wel werkt de gemeente meer samen met de huisartsen, met een extra gedragswetenschapper voor lichte psychische klachten. Wat ouders van de hulp vinden en hoe lang het duurt voordat u gesproken wordt, is niet openbaar te vinden.\n\nUw eerste aanspreekpunt zijn de medewerkers jeugd van het sociaal wijkteam. Vraag bij uw melding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld het ondersteuningsplan. Neem een onafhankelijke cliëntondersteuner van MEE Dichtbij mee. Een klacht over de gemeente dient u in bij de klachtencoördinator, en daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "Wijdemeren gaat per 1 januari 2027 op in Hilversum, en de medewerkers werken nu al samen met die van Hilversum. In 2025 vertrokken meer medewerkers, ook medewerkers jeugd en Wmo, en nieuwe plannen voor het wijkteam zijn uitgesteld door de fusie. Wel werkt de gemeente meer samen met de huisartsen, met een extra gedragswetenschapper voor lichte psychische klachten. Wat ouders van de hulp vinden en hoe lang het duurt voordat u gesproken wordt, is niet openbaar te vinden.\n\nUw eerste aanspreekpunt zijn de medewerkers jeugd van het sociaal wijkteam. Vraag bij uw melding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld het ondersteuningsplan. Neem een onafhankelijke cliëntondersteuner van MEE Dichtbij mee. Een klacht over de gemeente dient u in bij de klachtencoördinator, en daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",
@@ -340,7 +338,7 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Meer wisselingen bij jeugd- en Wmo-consulenten",
+        "titel": "Meer wisselingen bij medewerkers jeugd en Wmo",
         "samenvatting": "De gemeente schrijft dat in 2025 meer medewerkers vertrokken, onder meer bij het team van de Wmo- en medewerkers jeugd. Daardoor werkten er ook meer ingehuurde krachten. De gemeente koppelt dit aan de fusie met Hilversum.",
         "datum": "2026-07-01",
         "bron": {

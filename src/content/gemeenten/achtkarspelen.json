@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.achtkarspelen.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Achtkarspelen vraagt u jeugdhulp aan bij Team Jeugd van de gemeente. U meldt u zelf aan, een verwijzing is niet nodig. Dat kan met DigiD via de website van de gemeente, of telefonisch. Daarna volgt een gesprek over wat uw kind en gezin nodig hebben. Ook de huisarts mag rechtstreeks verwijzen. Sinds juli 2025 werkt in alle huisartsenpraktijken een praktijkondersteuner jeugd. Op school helpt een medewerker van het gebiedsteam. Volgens haar regels besluit de gemeente binnen acht weken. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Achtkarspelen meldt u zich bij Team Jeugd van de gemeente, met DigiD via de website of telefonisch. U kunt ook via de huisarts (met een praktijkondersteuner jeugd), de jeugdarts of de medewerker van het gebiedsteam op school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente",
-        "omschrijving": "Team Jeugd werkt voor de gemeente. Het helpt uw vraag helder te krijgen en biedt lichte hulp zonder besluit. Is meer hulp nodig, dan beoordeelt het team of uw kind specialistische jeugdhulp krijgt en geeft het een beschikking (besluit van de gemeente) af. U meldt u zelf aan.",
+        "omschrijving": "Team Jeugd helpt uw vraag helder te krijgen en biedt lichte hulp zonder besluit. Is meer nodig, dan beoordeelt het team of uw kind specialistische jeugdhulp krijgt en geeft het een beschikking (besluit van de gemeente) af.",
         "stappen": [
-          "Vraag een gesprek aan met DigiD via de pagina Jeugdhulp van de gemeente. Heeft u samen met iemand anders het gezag over uw kind? Dan moet die ander het formulier ook ondertekenen.",
-          "Liever bellen of mailen? Neem dan contact op met Team Jeugd.",
-          "Maak een afspraak voor een gesprek met het team. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bekijk samen welke hulp past. Vraag om een schriftelijk verslag. Bij specialistische hulp vraagt u ook om een beschikking."
+          "Vraag een gesprek aan met DigiD via de pagina Jeugdhulp van de gemeente, of bel of mail Team Jeugd. Heeft u samen met iemand anders het gezag? Dan moet die ander het formulier ook ondertekenen.",
+          "Bespreek in het gesprek wat uw kind en gezin nodig hebben. U mag iemand meenemen.",
+          "Bekijk samen welke hulp past. Bij specialistische hulp krijgt u een beschikking."
         ],
         "contact": {
           "naam": "Team Jeugd van de gemeente Achtkarspelen",
@@ -23,17 +22,17 @@
           "email": "gemeente@achtkarspelen.nl",
           "url": "https://www.achtkarspelen.nl/jeugdhulp",
           "openingstijden": "Telefonisch maandag tot en met vrijdag 9.00–16.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar; vraag het bij uw aanmelding. Op een aanvraag besluit de gemeente volgens haar regels binnen acht weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. In alle huisartsenpraktijken in Achtkarspelen werkt een praktijkondersteuner jeugd voor vragen over opgroeien en opvoeden. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Fryslân.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Sinds juli 2025 werkt in alle huisartsenpraktijken in Achtkarspelen een praktijkondersteuner jeugd voor vragen over opgroeien en opvoeden. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Fryslân.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of bij de jeugdgezondheidszorg met de jeugdarts.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "Vraag de huisarts om een verwijzing naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
-          "Meld uw kind met de verwijzing aan bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen.",
-          "Wilt u eerst advies van de jeugdgezondheidszorg? Neem contact op met GGD Fryslân."
+          "Meld uw kind met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -44,10 +43,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de scholen in Achtkarspelen werkt een medewerker van het gebiedsteam in school. Op de scholen voor voortgezet onderwijs is ook jongerenwerk. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Daar werkt ook een ouder mee.",
+        "omschrijving": "Op de scholen in Achtkarspelen werkt een medewerker van het gebiedsteam. Op de scholen voor voortgezet onderwijs is ook jongerenwerk. Bij het Ouder- en jeugdsteunpunt werkt ook een ouder mee.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag of de medewerker van het gebiedsteam in school mee kan kijken.",
-          "Is meer hulp nodig? Meld uw kind aan bij Team Jeugd.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs."
         ],
         "contact": [
@@ -68,10 +66,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De landelijke nummers staan hieronder. Welke hulp er verder is bij huiselijk geweld en kindermishandeling, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij huiselijk geweld en kindermishandeling op de pagina van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Achtkarspelen: huiselijk geweld en (kinder)mishandeling",

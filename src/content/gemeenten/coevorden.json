@@ -4,18 +4,16 @@
   "provincie": "Drenthe",
   "websiteJeugd": "https://www.coevorden.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Coevorden vraagt u jeugdhulp aan bij de gemeente zelf. Er is geen apart wijkteam of Centrum voor Jeugd en Gezin. U belt of mailt de gemeente, of vraagt jeugdhulp online aan met DigiD. Daarna volgt een gesprek, en soms een afspraak met een medewerker jeugd. Dat is een medewerker van de gemeente die uw vraag onderzoekt en bepaalt welke hulp past. Voor lichtere vragen over opvoeden kunt u naar Maatschappelijk Welzijn Coevorden, dat ook op alle basisscholen werkt. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Coevorden vraagt u jeugdhulp aan bij de medewerkers jeugd van de gemeente; er is geen apart wijkteam. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente Coevorden",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken uw hulpvraag, kijken wat u zelf en uw omgeving kunnen doen en regelen specialistische jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. Tot 16 jaar vraagt de ouder of opvoeder de hulp aan; vanaf 16 jaar doet de jongere dat zelf. Voor lichtere hulp bij opvoeden en opgroeien kunt u ook terecht bij Maatschappelijk Welzijn Coevorden, zonder besluit van de gemeente.",
+        "omschrijving": "De medewerkers jeugd onderzoeken uw vraag en regelen specialistische jeugdhulp. Tot 16 jaar vraagt de ouder de hulp aan, vanaf 16 jaar de jongere zelf. Voor lichtere hulp bij opvoeden kunt u ook naar Maatschappelijk Welzijn Coevorden, zonder besluit van de gemeente.",
         "stappen": [
-          "Bel de gemeente of mail de afdeling Jeugd. U kunt jeugdhulp ook online aanvragen met DigiD.",
-          "Bespreek uw hulpvraag als de gemeente contact met u opneemt.",
-          "Maak zo nodig een afspraak met een medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Kijk samen wat u zelf kunt doen, wat mensen om u heen kunnen doen en welke hulp de gemeente kan bieden. Vraag om een verslag op papier, en bij specialistische hulp om een schriftelijk besluit (beschikking).",
-          "Wilt u liever eerst advies over opvoeden? Neem dan contact op met Maatschappelijk Welzijn Coevorden."
+          "Bel de gemeente, mail de afdeling Jeugd of vraag jeugdhulp online aan met DigiD.",
+          "Bespreek uw vraag als de gemeente contact opneemt, en maak zo nodig een afspraak met een medewerker jeugd. U mag iemand meenemen.",
+          "Kijk samen welke hulp past. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "email": "info@mwcoevorden.nl",
             "url": "https://www.mwcoevorden.nl/contact"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp waarvoor de gemeente een contract heeft. Dit is een gelijkwaardige route naast de medewerkers jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg (consultatiebureau en jeugdarts) van GGD Drenthe. Bij huisartsen werkt een praktijkondersteuner jeugd.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij huisartsen werkt een praktijkondersteuner jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Drenthe.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Laat u zo nodig verwijzen naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Drenthe",
@@ -52,12 +51,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle basisscholen in Coevorden werkt een preventief jeugdwerker van Maatschappelijk Welzijn Coevorden. Die is er voor kinderen van 4 tot en met 12 jaar en hun ouders. Op de middelbare school kunt u terecht bij een (school)maatschappelijk werker. Komt u er met school niet uit, dan helpt het Oudersteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op alle basisscholen werkt een preventief jeugdwerker van Maatschappelijk Welzijn Coevorden, voor kinderen van 4 tot en met 12 jaar en hun ouders. Op de middelbare school kunt u terecht bij een (school)maatschappelijk werker.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de preventief jeugdwerker of schoolmaatschappelijk werker kan meedenken, of neem zelf contact op met Maatschappelijk Welzijn Coevorden.",
-          "Vraag jeugdhulp aan bij de gemeente als meer hulp nodig is.",
-          "Vraag advies bij het Oudersteunpunt van het samenwerkingsverband passend onderwijs als u er met school niet uitkomt."
+          "Vraag of de preventief jeugdwerker of schoolmaatschappelijk werker kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het oudersteunpunt van het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
           {
@@ -79,7 +77,7 @@
             "url": "https://passendonderwijsnu.nl/oudersteunpunt/"
           },
           {
-            "naam": "Sterk VO Zuidoost Drenthe (voortgezet onderwijs)",
+            "naam": "Sterk VO Zuidoost Drenthe (voortgezet onderwijs, met oudersteunpunt)",
             "telefoon": "0591 612989",
             "email": "info@sterkvo-zodrenthe.nl",
             "url": "https://www.sterkvo-zodrenthe.nl/contact/"
@@ -89,10 +87,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina Jeugdhulp van de gemeente staat welke crisisdienst voor jeugd er buiten kantooruren is.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Jeugdhulp van de gemeente, onder Spoed, voor de crisisdienst voor jeugd buiten kantooruren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Coevorden: jeugdhulp (onder Spoed)",
@@ -230,7 +227,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Coevorden: Jeugdhulp",

@@ -4,18 +4,16 @@
   "provincie": "Drenthe",
   "websiteJeugd": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Meppel meldt u zich zelf aan bij de medewerkers jeugd van de gemeente. Zij bespreken uw vraag, onderzoeken samen met u wat nodig is en nemen het besluit over jeugdhulp. Met lichtere vragen over opvoeden en opgroeien kunt u terecht bij Welzijn MensenWerk, de schoolmaatschappelijk werker en de jeugdgezondheidszorg. Ook de huisarts mag rechtstreeks verwijzen. Bij de Meppelse huisartsen werken twee praktijkondersteuners jeugd: hulpverleners in de praktijk voor vragen over kinderen. Stuurt u een bericht via het contactformulier, dan belt de gemeente u binnen 5 werkdagen terug. Hoe lang het daarna duurt tot er hulp is, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Meppel meldt u zich zelf bij de medewerkers jeugd van de gemeente; voor lichtere vragen kunt u ook bij Welzijn MensenWerk terecht. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente Meppel",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken uw hulpvraag samen met u, kijken naar het hele gezin en leggen de hulp vast in een beschikking (officieel besluit). U meldt zich zelf aan, een verwijzing is niet nodig. Met lichtere vragen kunt u eerst bij Welzijn MensenWerk terecht. Maakt u zich zorgen over de veiligheid van uw kind? Dan kan een medewerker jeugd van het traject Veilig Opgroeien helpen.",
+        "omschrijving": "De medewerkers jeugd onderzoeken samen met u wat nodig is, kijken naar het hele gezin en nemen het besluit over jeugdhulp. Bij zorgen over de veiligheid van uw kind helpt een medewerker jeugd van het traject Veilig Opgroeien.",
         "stappen": [
-          "Bel de gemeente tijdens het telefonisch spreekuur jeugd of vul het contactformulier in. U hoort binnen 5 werkdagen van de gemeente.",
-          "Een medewerker jeugd bespreekt met u wat er speelt en welke hulp nodig is. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. U mag een familiegroepsplan indienen: een plan waarin u en uw netwerk zelf beschrijven wat helpt.",
-          "Is specialistische hulp nodig? Dan krijgt u een beschikking. Vraag een aanbieder of die een contract met de gemeente heeft.",
-          "Liever eerst advies of lichte hulp? Neem contact op met Welzijn MensenWerk."
+          "Bel tijdens het telefonisch spreekuur jeugd of vul het contactformulier in.",
+          "Bespreek met een medewerker jeugd wat er speelt en welke hulp nodig is. U mag iemand meenemen. U mag ook een familiegroepsplan indienen: een plan waarin u en uw netwerk zelf beschrijven wat helpt.",
+          "Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit). Vraag een aanbieder of die een contract met de gemeente heeft."
         ],
         "contact": [
           {
@@ -32,17 +30,17 @@
             "adres": "De Plataan, Vledderstraat 3, Meppel",
             "openingstijden": "Telefonisch maandag t/m donderdag 8.30–12.30 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Na het contactformulier belt de gemeente u binnen 5 werkdagen terug. Hoe lang het daarna duurt tot er hulp is, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. In de Meppelse huisartsenpraktijken werken twee praktijkondersteuners jeugd voor vragen over opvoeden, gedrag, stress en lichte psychische klachten. Voor kinderen tot 4 jaar is er het consultatiebureau van Icare. Vanaf 4 jaar is er de jeugdgezondheidszorg van GGD Drenthe.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In de Meppelse huisartsenpraktijken werken twee praktijkondersteuners jeugd voor vragen over opvoeden, gedrag, stress en lichte psychische klachten. Tot 4 jaar is er het consultatiebureau van Icare, vanaf 4 jaar de jeugdgezondheidszorg van GGD Drenthe.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Bespreek met de huisarts of u eerst naar de praktijkondersteuner jeugd gaat, of direct naar een aanbieder met een contract met de gemeente.",
-          "Krijgt u een verwijzing? Controleer dan of de aanbieder een contract met de gemeente heeft, anders wordt de zorg niet vergoed.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, de praktijkondersteuner jeugd of de jeugdarts.",
+          "Laat u zo nodig verwijzen. Controleer of de aanbieder een contract met de gemeente heeft, anders wordt de zorg niet vergoed.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -63,12 +61,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle scholen in Meppel werkt een schoolmaatschappelijk werker van Welzijn MensenWerk. Die helpt gratis bij vragen over bijvoorbeeld emoties, pesten of problemen thuis. Komt u er met school niet uit, dan geeft het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Is meer hulp nodig, dan schakelt u de medewerkers jeugd van de gemeente in.",
+        "omschrijving": "Op alle scholen in Meppel werkt een schoolmaatschappelijk werker van Welzijn MensenWerk. Die helpt gratis bij bijvoorbeeld emoties, pesten of problemen thuis.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag om de schoolmaatschappelijk werker, of neem zelf contact op met Welzijn MensenWerk.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Meld u aan bij de medewerkers jeugd van de gemeente als er meer hulp nodig is."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -96,10 +93,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat welke crisisdienst er voor jeugd in Drenthe is, ook buiten kantoortijden.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Jeugdhulp van de gemeente, onder het kopje Spoed, naar de crisisdienst voor jeugd in Drenthe."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Meppel: jeugdhulp (onder het kopje Spoed)",

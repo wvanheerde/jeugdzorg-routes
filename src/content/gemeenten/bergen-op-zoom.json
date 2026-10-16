@@ -5,17 +5,16 @@
   "jeugdzorgregio": "West-Brabant West",
   "websiteJeugd": "https://www.bergenopzoom.nl/ondersteuning-jeugd",
   "toegang": {
-    "samenvatting": "In Bergen op Zoom vraagt u jeugdhulp aan bij Team Jeugd van de gemeente. U meldt u zelf aan, een verwijzing is niet nodig. Dat kan met het online formulier \"melding sociaal domein\" of telefonisch. Ook de jeugdprofessional van uw school of huisarts kan u aanmelden. Een jeugdprofessional belt u daarna terug. Is meer hulp nodig, dan maakt u samen een gezinsplan. Gaat u akkoord met dat plan, dan geldt het als uw aanvraag. Sinds 2026 opent de gemeente stap voor stap vijf wijkteams voor inwoners van alle leeftijden. Het eerste, Wijkteam Oude Stad, is open. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen.",
+    "samenvatting": "In Bergen op Zoom meldt u zich bij Team Jeugd van de gemeente; in de wijk Oude Stad kunt u ook binnenlopen bij het nieuwe Wijkteam. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente",
-        "omschrijving": "Jeugdprofessionals van de gemeente beantwoorden vragen over opvoeden en opgroeien. Soms is advies genoeg. Is meer hulp nodig, dan maakt u samen een gezinsplan. Gaat u akkoord, dan is dat uw officiële aanvraag. Daarna kijkt de gemeente met u of hulp van een zorgaanbieder nodig is. De aanbieder spreekt met u af welke zorg u krijgt. Dat staat in een arrangement: een afspraak die de aanbieder en de gemeente tekenen voordat de hulp start.",
+        "omschrijving": "Jeugdprofessionals van de gemeente beantwoorden vragen over opvoeden en opgroeien; soms is advies genoeg. Is meer hulp nodig, dan maakt u samen een gezinsplan. Gaat u akkoord, dan is dat plan uw aanvraag; de aanbieder en de gemeente tekenen daarna een afspraak over de zorg (arrangement) voordat de hulp start.",
         "stappen": [
-          "Meld u aan met het online formulier \"melding sociaal domein\", of bel de gemeente en vraag naar Team Jeugd.",
-          "Wacht op het telefoontje van een jeugdprofessional. U kunt ook de jeugdprofessional van uw school of huisarts vragen om u door te verwijzen.",
-          "Bespreek in het gesprek wat u zelf kunt doen en welke hulp u nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om het gezinsplan op papier. Is specialistische hulp nodig, dan is dat plan uw aanvraag. Vraag ook om het besluit op papier (beschikking)."
+          "Meld u aan met het online formulier \"melding sociaal domein\", of bel de gemeente en vraag naar Team Jeugd. Een jeugdprofessional belt u terug.",
+          "Bespreek in het gesprek welke hulp u nodig heeft. U mag iemand meenemen.",
+          "Maak samen een gezinsplan. Is specialistische hulp nodig, dan krijgt u een besluit van de gemeente (beschikking)."
         ],
         "contact": {
           "naam": "Gemeente Bergen op Zoom (Team Jeugd)",
@@ -23,15 +22,15 @@
           "url": "https://www.bergenopzoom.nl/ondersteuning-jeugd",
           "adres": "Jacob Obrechtlaan 4, 4611 AR Bergen op Zoom"
         },
-        "doorlooptijd": "De gemeente beslist zo snel mogelijk, en uiterlijk 8 weken nadat uw aanvraag binnen is. Lukt dat niet, dan noemt de gemeente een nieuwe termijn. Dit staat in artikel 2.3.5 van de Integrale Verordening Sociaal Domein 2025."
+        "doorlooptijd": "De gemeente beslist zo snel mogelijk en uiterlijk 8 weken nadat uw aanvraag binnen is. Hoe lang het duurt tot het eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "wijkteam",
         "naam": "Wijkteam Bergen op Zoom (nieuw)",
-        "omschrijving": "Het Wijkteam helpt inwoners van alle leeftijden met vragen over opvoeding, zorg, geld, wonen en werk. U kunt zonder afspraak binnenlopen. Er werken professionals en vrijwilligers van onder andere de gemeente, WijZijn, MEE West-Brabant en Novadic Kentron. Wijkteam Oude Stad opende in februari 2026. In het najaar van 2026 volgen Halsteren & Lepelstraat en Oost, later Noord en West. Voor een aanvraag jeugdhulp noemt de gemeente nog Team Jeugd. Vraag daarom bij uw eerste contact wie uw vraag over jeugdhulp oppakt.",
+        "omschrijving": "Het Wijkteam helpt inwoners van alle leeftijden met vragen over opvoeding, zorg, geld, wonen en werk; u kunt zonder afspraak binnenlopen. Wijkteam Oude Stad opende in februari 2026; in het najaar van 2026 volgen Halsteren & Lepelstraat en Oost, later Noord en West. Voor een aanvraag jeugdhulp noemt de gemeente nog Team Jeugd, dus vraag wie uw vraag oppakt.",
         "stappen": [
-          "Loop binnen bij het spreekuur van Wijkteam Oude Stad (dinsdag 10.00-12.00 uur, Ontmoetingscentrum Het Fort, Bernadettestraat 4). Woont u in een andere wijk? Kijk dan op wijkteamboz.nl of ga naar een inloopspreekuur van WijZijn.",
-          "Vertel uw vraag in het kennismakingsgesprek. U mag iemand meenemen.",
+          "Loop binnen bij het spreekuur van Wijkteam Oude Stad (dinsdag 10.00-12.00 uur, Ontmoetingscentrum Het Fort, Bernadettestraat 4). Woont u in een andere wijk? Kijk op wijkteamboz.nl of ga naar een inloopspreekuur van WijZijn.",
+          "Vertel uw vraag in het kennismakingsgesprek.",
           "Vraag wat het team zelf kan doen en wanneer het u doorverwijst naar Team Jeugd of een zorgaanbieder."
         ],
         "contact": {
@@ -44,11 +43,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Aan elke huisarts in de gemeente is ook een jeugdprofessional gekoppeld. Die kan u doorverwijzen naar Team Jeugd.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Aan elke huisarts in de gemeente is een jeugdprofessional gekoppeld.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts (jeugdgezondheidszorg van TWB).",
-          "Vraag om een verwijzing naar een aanbieder met wie de regio een contract heeft, of om doorverwijzing naar de jeugdprofessional.",
-          "Ga met de verwijzing naar de aanbieder. De aanbieder geeft de start van de hulp door aan de gemeente."
+          "Vraag om een verwijzing naar een aanbieder met een contract in de regio, of naar de jeugdprofessional bij de huisarts.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "TWB jeugdgezondheidszorg",
@@ -61,12 +60,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Aan elke school in de gemeente is een jeugdprofessional gekoppeld. U kunt school vragen om contact met die professional. Ook kunt u zelf contact opnemen met Team Jeugd. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van samenwerkingsverband Brabantse Wal.",
+        "omschrijving": "Aan elke school in de gemeente is een jeugdprofessional gekoppeld.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag of de jeugdprofessional van school contact met u kan opnemen.",
-          "Komt u er niet uit? Meld u dan zelf aan bij Team Jeugd.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van samenwerkingsverband Brabantse Wal."
         ],
         "contact": [
           {
@@ -86,10 +84,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Bergen op Zoom op de pagina Ondersteuning jeugd van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Bergen op Zoom: Ondersteuning jeugd",

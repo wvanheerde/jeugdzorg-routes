@@ -4,18 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://wegwijsplus.vught.nl/opvoeden-en-opgroeien",
   "toegang": {
-    "samenvatting": "In Vught is Wegwijs+ de plek voor vragen over opvoeden en opgroeien en voor jeugdhulp. Wegwijs+ hoort bij de gemeente. In het team jeugd werken klantmanagers jeugd, praktijkondersteuners jeugd-ggz (geestelijke gezondheidszorg) en gedragswetenschappers. U meldt zich zelf aan. Een verwijzing is niet nodig. Samen met een klantmanager maakt u een plan van aanpak. Is specialistische hulp nodig, dan krijgt u een besluit (beschikking). Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Dat gebeurt in Vught vaak: bij twee op de drie nieuwe trajecten verwees de huisarts of jeugdarts. Hoe lang het duurt voor u een eerste gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Vught meldt u zich bij Wegwijs+ team jeugd van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wegwijs+ team jeugd",
-        "omschrijving": "Wegwijs+ beoordeelt of uw kind jeugdhulp krijgt en regelt die. U meldt zich zelf aan. Soms is een advies al genoeg, soms verwijst Wegwijs+ u naar een andere organisatie. Is meer onderzoek nodig, dan maakt een klantmanager jeugd met u een plan van aanpak. Volgens de regels van de gemeente telt uw eerste contact over uw hulpvraag al als aanvraag. De gemeente beslist daarna uiterlijk binnen acht weken.",
+        "omschrijving": "In het team werken klantmanagers jeugd, praktijkondersteuners jeugd-ggz en gedragswetenschappers. Soms is een advies genoeg, soms verwijst Wegwijs+ u naar een andere organisatie. Is meer nodig, dan beoordeelt Wegwijs+ of uw kind jeugdhulp krijgt en regelt die.",
         "stappen": [
           "Bel of mail Wegwijs+ team jeugd en vertel uw vraag.",
-          "Bespreek samen of een advies of lichte hulp genoeg is. Is meer nodig, dan doet Wegwijs+ een aanmelding.",
-          "Maak met een klantmanager jeugd een plan van aanpak. U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Ga naar het intakegesprek bij de aanbieder als specialistische jeugdhulp nodig is. U krijgt dan ook een schriftelijk besluit.",
-          "Vraag om het plan van aanpak en het besluit op papier."
+          "Maak met een klantmanager jeugd een plan van aanpak. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit) en een intakegesprek bij de aanbieder."
         ],
         "contact": {
           "naam": "Wegwijs+ team jeugd (gemeente Vught)",
@@ -23,16 +21,17 @@
           "email": "wegwijs.jeugd-amw@vught.nl",
           "url": "https://wegwijsplus.vught.nl/hulp-vanuit-wegwijs",
           "openingstijden": "Telefonisch ma t/m vr 9.00–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Uw eerste contact over uw hulpvraag telt al als aanvraag; de gemeente beslist daarna uiterlijk binnen acht weken. Hoe lang het duurt tot een eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. U kunt dus ook via hen gaan in plaats van via Wegwijs+. Bij de huisartsen werkt een praktijkondersteuner jeugd-ggz, voor vragen over opvoeden en opgroeien en voor psychische klachten. Een afspraak maakt u via de doktersassistent van uw eigen huisarts. De jeugdarts werkt bij de jeugdgezondheidszorg.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen; in Vught begon twee op de drie nieuwe trajecten zo. Bij de huisartsen werkt een praktijkondersteuner jeugd-ggz voor vragen over opvoeden en opgroeien en psychische klachten. Een afspraak maakt u via de doktersassistent van uw eigen huisarts.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een afspraak met de praktijkondersteuner jeugd-ggz, of om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een afspraak met de praktijkondersteuner jeugd-ggz, of om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -43,11 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen en middelbare scholen in Vught werken schoolmaatschappelijk werkers van Wegwijs+. Zij luisteren, denken mee en helpen u zo nodig aan specialistische hulp. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt de Meierij van de samenwerkingsverbanden passend onderwijs.",
+        "omschrijving": "Op de basisscholen en middelbare scholen in Vught werken schoolmaatschappelijk werkers van Wegwijs+. Zij denken mee en helpen u zo nodig aan specialistische hulp.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Neem contact op met de schoolmaatschappelijk werker van de school, of meld uw kind aan bij Wegwijs+ team jeugd.",
-          "Vraag de schoolmaatschappelijk werker of Wegwijs+ om specialistische hulp als er meer nodig is.",
+          "Neem contact op met de schoolmaatschappelijk werker van de school.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt de Meierij."
         ],
         "contact": [
@@ -67,10 +65,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis. U gaat dan buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder voor kinderen en jongeren in Vught zijn, staat op de pagina van Wegwijs+.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Opvoeden en opgroeien van Wegwijs+, onder Nood/crisissituatie. Daar staan de crisisdiensten in Vught, ook voor buiten kantooruren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Wegwijs+: nood/crisissituatie (opvoeden en opgroeien)",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Hart van Brabant",
   "websiteJeugd": "https://www.goirle.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Goirle en Riel is het dorpsteam de eerste stap. U belt of loopt binnen, zonder verwijzing. Binnen het dorpsteam werkt team STAP. Dat is het lokale team van de gemeente voor persoonlijke hulp, met professionals van onder meer MEE en Sterk Huis. Zij geven advies, bieden zelf lichte hulp en regelen zo nodig specialistische jeugdhulp. Voor die hulp krijgt u een beschikking (schriftelijk besluit) van de gemeente. U kunt ook via de huisarts gaan. Sinds september 2025 hebben huisartsen een vaste contactpersoon bij team STAP. Vult u het contactformulier van het dorpsteam in, dan hoort u binnen twee werkdagen iets. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Goirle en Riel meldt u zich bij het dorpsteam, met daarin team STAP voor persoonlijke hulp. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Dorpsteam Goirle met team STAP",
-        "omschrijving": "Het dorpsteam is het aanspreekpunt voor alle vragen over opvoeden en opgroeien in Goirle en Riel. Sinds 2026 zijn er twee teams: het dorpsteam in de wijk (activiteiten en vrijwilligers) en team STAP voor persoonlijke ondersteuning. U hoeft maar één nummer te bellen. De hulp is tijdelijk, en het team kijkt ook wie in uw omgeving kan helpen. Is specialistische jeugdhulp nodig, dan geeft de gemeente een beschikking (besluit) af. U meldt zich zelf aan; een verwijzing is niet nodig.",
+        "omschrijving": "Sinds 2026 zijn er twee teams achter één nummer: het dorpsteam in de wijk (activiteiten en vrijwilligers) en team STAP voor persoonlijke hulp, met onder meer mensen van MEE en Sterk Huis. Team STAP geeft advies en tijdelijke lichte hulp en regelt zo nodig specialistische jeugdhulp. Daarvoor krijgt u een beschikking (besluit) van de gemeente.",
         "stappen": [
-          "Bel het dorpsteam, loop binnen bij het Zorgcentrum of vul het contactformulier in op de website van het dorpsteam.",
-          "Vertel wat er speelt. Samen kijkt u naar lichte hulp, activiteiten of ondersteuning van team STAP.",
-          "Is specialistische hulp nodig? Dan regelt het team de aanvraag. U krijgt daarna een schriftelijk besluit (beschikking) van de gemeente.",
-          "Neem gerust iemand mee naar een gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Vraag na het gesprek om een schriftelijk verslag."
+          "Bel het dorpsteam, loop binnen bij het Zorgcentrum of vul het contactformulier in.",
+          "Vertel wat er speelt en kijk samen naar lichte hulp, activiteiten of hulp van team STAP. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan regelt het team de aanvraag en krijgt u een beschikking."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "telefoon": "013 531 0610",
             "url": "https://www.goirle.nl/contact"
           }
-        ]
+        ],
+        "doorlooptijd": "Na het contactformulier hoort u binnen twee werkdagen iets. Hoe lang het duurt tot een eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als die via het dorpsteam. Sinds september 2025 kunnen huisartsen met vragen over opvoeden en opgroeien terecht bij een vaste contactpersoon van team STAP. De jeugdarts en jeugdverpleegkundige van de GGD Hart voor Brabant zijn er voor kinderen van 0 tot 18 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Sinds september 2025 hebben huisartsen een vaste contactpersoon bij team STAP. De jeugdarts en jeugdverpleegkundige van GGD Hart voor Brabant zijn er voor kinderen van 0 tot 18 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om uw vraag voor te leggen aan team STAP, of om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag de huisarts uw vraag voor te leggen aan team STAP, of om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -61,12 +61,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met de leerkracht of intern begeleider. Als het nodig is, brengt de school u in contact met het dorpsteam of de jeugdverpleegkundige van de GGD. Jongerenwerkers en jeugdprofessionals van het dorpsteam zijn ook op scholen actief. Komt u er met school niet uit, dan helpt Ouderlicht, het ouder- en jeugdsteunpunt voor passend onderwijs in Tilburg en omgeving.",
+        "omschrijving": "Jongerenwerkers en jeugdprofessionals van het dorpsteam zijn ook op scholen actief. School kan u in contact brengen met het dorpsteam of de jeugdverpleegkundige van de GGD.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Raadt school u aan om over hulp te praten? Neem dan contact op met het dorpsteam.",
-          "Wilt u de jeugdverpleegkundige van de GGD spreken? Neem rechtstreeks contact op met de jeugdgezondheidszorg.",
-          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij Ouderlicht."
+          "Wilt u de jeugdverpleegkundige spreken? Neem dan zelf contact op met de jeugdgezondheidszorg.",
+          "Komt u er met school niet uit? Vraag advies bij Ouderlicht, het ouder- en jeugdsteunpunt passend onderwijs."
         ],
         "contact": [
           {
@@ -92,10 +91,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst er voor Goirle is, staat op de pagina Hulp bij een crisis van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst in Goirle op de pagina Hulp bij een crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Goirle: hulp bij een crisis",

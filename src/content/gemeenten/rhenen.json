@@ -4,17 +4,16 @@
   "provincie": "Utrecht",
   "websiteJeugd": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/jeugd",
   "toegang": {
-    "samenvatting": "In Rhenen heet het toegangsteam het Jeugdteam. Het hoort bij het Centrum voor Jeugd en Gezin (CJG) Rhenen, dat onderdeel is van de gemeente. U meldt uw kind zelf aan, een verwijzing is niet nodig. Met een vraag over opvoeden of opgroeien kunt u ook zonder aanmelding bij het CJG terecht. De huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Sinds 2025 is de gemeente strenger: zij kijkt eerst naar wat u zelf kunt, naar uw netwerk en naar lichte hulp. De gemeente zegt zelf dat er nu te weinig hulp beschikbaar is. Hoe lang het duurt voordat het Jeugdteam contact opneemt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Rhenen meldt u uw kind aan bij het Jeugdteam van het Centrum voor Jeugd en Gezin (CJG) Rhenen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugdteam Rhenen (onderdeel van het CJG)",
-        "omschrijving": "Het Jeugdteam bestaat uit jeugdhulpverleners die werken voor de gemeente. Zij onderzoeken met u wat uw kind en gezin nodig hebben. Ze kijken eerst naar wat u zelf kunt, naar uw netwerk en naar lichte hulp. Zo nodig regelen ze jeugdhulp. Voor specialistische hulp krijgt u een beschikking: een officieel besluit van de gemeente. U meldt zich zelf aan. Heeft u alleen een vraag over opvoeden of opgroeien, dan helpt het CJG zonder aanmelding.",
+        "omschrijving": "Het Jeugdteam hoort bij de gemeente en onderzoekt met u wat uw kind en gezin nodig hebben. Sinds 2025 kijkt het eerst naar wat u zelf en uw netwerk kunnen en naar lichte hulp. Met alleen een vraag over opvoeden of opgroeien kunt u zonder aanmelding bij het CJG terecht.",
         "stappen": [
-          "Bel het CJG of download het aanmeldformulier op de pagina van het Jeugdteam. Er is een formulier voor kinderen jonger dan 16 jaar en een voor kinderen van 16 jaar en ouder.",
-          "Vul het formulier in en stuur het naar het CJG. U kunt daarbij toestemming geven om de huisarts en de GGD te laten weten dat u bent aangemeld.",
-          "Maak een afspraak als een medewerker van het Jeugdteam u belt. Het gesprek is bij u thuis of in het Huis van de gemeente. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om een schriftelijk verslag van het gesprek. Is hulp nodig, dan krijgt u een schriftelijk besluit (beschikking) over welke hulp, hoe lang en door wie."
+          "Bel het CJG of download het aanmeldformulier op de pagina van het Jeugdteam. Er is een formulier voor kinderen jonger dan 16 en een voor 16 jaar en ouder.",
+          "Stuur het formulier naar het CJG. U kunt toestemming geven om de huisarts en de GGD te laten weten dat u bent aangemeld.",
+          "Een medewerker belt voor een gesprek, bij u thuis of in het Huis van de gemeente. U mag iemand meenemen. Is specialistische hulp nodig, dan krijgt u een besluit (beschikking)."
         ],
         "contact": {
           "naam": "Jeugdteam en Centrum voor Jeugd en Gezin (CJG) Rhenen",
@@ -23,16 +22,17 @@
           "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/jeugd/centrum-voor-jeugd-en-gezin",
           "adres": "Nieuwe Veenendaalseweg 75, Rhenen (Sociaal Plein in het Huis van de gemeente)",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Jeugdteam contact opneemt, is niet openbaar. De gemeente zegt zelf dat er nu te weinig hulp beschikbaar is."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast het Jeugdteam. In Rhenen doet de GGD regio Utrecht de jeugdgezondheidszorg voor kinderen van 0 tot 18 jaar: het consultatiebureau, de jeugdverpleegkundige en de jeugdarts.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Rhenen doet de GGD regio Utrecht de jeugdgezondheidszorg voor 0 tot 18 jaar: consultatiebureau, jeugdverpleegkundige en jeugdarts.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente. De arts kan u ook aanraden het Jeugdteam te bellen.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -44,11 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen in Rhenen werkt het Jeugdteam samen met school, zodat zorgen over een kind vroeg worden opgepakt. Vanaf schooljaar 2026-2027 wil de gemeente op alle scholen een medewerker van het Jeugdteam inzetten. Komt u er met school niet uit over de ondersteuning van uw kind, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat Rijn en Gelderse Vallei, voor de middelbare school SWV VO Gelderse Vallei.",
+        "omschrijving": "Op de basisscholen werkt het Jeugdteam samen met school, zodat zorgen vroeg worden opgepakt. Vanaf schooljaar 2026-2027 wil de gemeente op alle scholen een medewerker van het Jeugdteam inzetten.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld uw kind aan bij het Jeugdteam, zelf of samen met school.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. U kunt uw kind samen met school aanmelden bij het Jeugdteam.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -78,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente over huiselijk geweld en kindermishandeling staat waar u in Rhenen met zorgen over een kind terechtkunt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Huiselijk geweld van de gemeente Rhenen waar u zorgen over een kind kunt melden."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Rhenen: huiselijk geweld en kindermishandeling",

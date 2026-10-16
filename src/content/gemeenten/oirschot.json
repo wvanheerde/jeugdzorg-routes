@@ -4,18 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.oirschot.nl/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Oirschot loopt de toegang tot jeugdhulp via WIJzer, het sociaal team van de gemeente. WIJzer hoort bij welzijnsorganisatie LEVgroep. De jeugdhulpverleners van WIJzer beslissen namens de gemeente over jeugdhulp en geven zelf lichte hulp. Zo nodig regelen ze specialistische hulp via een zorgaanbieder of een pgb (persoonsgebonden budget). U meldt zich zelf aan, een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Oirschot meldt u zich bij WIJzer, het sociaal team van de gemeente, dat hoort bij welzijnsorganisatie LEVgroep. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "WIJzer Oirschot (jeugdhulpverleners)",
-        "omschrijving": "De jeugdhulpverleners van WIJzer beoordelen of uw kind jeugdhulp krijgt en regelen de hulp. Daarna blijven zij uw vaste aanspreekpunt (casusregisseur). U meldt zich zelf aan. WIJzer biedt ook zelf begeleiding, groepen en activiteiten voor kinderen, jongeren en ouders. Daarvoor heeft u geen besluit van de gemeente nodig.",
+        "omschrijving": "De jeugdhulpverleners van WIJzer beslissen namens de gemeente over jeugdhulp en blijven daarna uw vaste aanspreekpunt (casusregisseur). WIJzer biedt ook zelf begeleiding, groepen en cursussen zoals Positief Opvoeden, zonder besluit van de gemeente.",
         "stappen": [
-          "Bel WIJzer of kom langs op het kantoor in Oirschot en vertel uw vraag.",
-          "Zet samen met een jeugdhulpverlener uw gegevens op een rij. Volgens de verordening maakt de gemeente daarna binnen 2 weken een afspraak voor een gesprek.",
-          "Neem in het gesprek iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner. Vraag daarna om een schriftelijk verslag.",
-          "Kies samen met de jeugdhulpverlener tussen hulp van een zorgaanbieder en een pgb, als specialistische hulp nodig is. U krijgt dan een schriftelijk besluit (beschikking).",
-          "Wilt u eerst advies of lichte hulp? WIJzer helpt ook zonder besluit, bijvoorbeeld met een gesprek of een cursus Positief Opvoeden."
+          "Bel WIJzer of kom langs op het kantoor in Oirschot. Zet samen met een jeugdhulpverlener uw gegevens op een rij.",
+          "Bespreek in een gesprek wat er nodig is. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, kies dan samen tussen hulp van een zorgaanbieder en een pgb (persoonsgebonden budget). U krijgt een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "WIJzer Oirschot",
@@ -24,16 +22,17 @@
           "url": "https://www.wijzer-oirschot.nl/contact",
           "adres": "De Loop 67, 5688 EX Oirschot",
           "openingstijden": "Telefonisch ma t/m vr 9.00–17.00 uur. Kantoor ma t/m do 9.00–17.00 uur, vr 9.00–13.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de verordening maakt de gemeente binnen 2 weken na uw melding een afspraak voor een gesprek. Hoe lang het in de praktijk duurt, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast WIJzer. Bij de huisartsenpraktijken werkt een praktijkondersteuner jeugd-ggz (geestelijke gezondheidszorg) voor vragen over psychische klachten van kinderen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisartsenpraktijken werkt een praktijkondersteuner jeugd-ggz (geestelijke gezondheidszorg) voor psychische klachten van kinderen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder met een contract met de gemeente, of naar WIJzer.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente, of naar WIJzer.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -45,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De jeugdhulpverleners van WIJzer werken samen met de intern begeleiders en zorgcoördinatoren van de scholen. Ook het jongerenwerk is op scholen. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat PO De Kempen, voor de middelbare school het steunpunt van de regio Zuidoost-Brabant.",
+        "omschrijving": "De jeugdhulpverleners van WIJzer werken samen met de intern begeleiders en zorgcoördinatoren van de scholen. Ook het jongerenwerk is op scholen.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om WIJzer erbij te betrekken, of meld u zelf aan bij WIJzer.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag school om WIJzer erbij te betrekken.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt: PO De Kempen voor de basisschool, het steunpunt van de regio Zuidoost-Brabant voor de middelbare school."
         ],
         "contact": [
           {
@@ -75,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst er buiten kantoortijden is voor een kind of jongere, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst jeugd buiten kantoortijden op de pagina van de gemeente Oirschot."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Oirschot: crisiszorg jeugd buiten kantoortijden",

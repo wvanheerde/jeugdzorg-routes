@@ -4,17 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.landsmeer.nl/inwoners/zorg,_inkomen,_onderwijs_en_opvoeding/opvoeding/jeugdteam",
   "toegang": {
-    "samenvatting": "In Landsmeer kunt u met vragen over opvoeden en hulp voor uw kind terecht bij het Middelpunt. Het Middelpunt is het lokale team van de gemeente. Daarin werkt het kernteam jeugd: zorgregisseurs, praktijkondersteuners van huisartsen en schoolmaatschappelijk werkers. U meldt zich zelf aan, een verwijzing is niet nodig. Het Middelpunt is alleen telefonisch bereikbaar, van maandag tot en met donderdag 9.00 tot 12.00 uur. Voor een korte vraag over opvoeden is er het opvoedspreekuur van de GGD, ook bij het Middelpunt. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat een zorgregisseur uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Landsmeer meldt u zich bij het Middelpunt, het lokale team van de gemeente met het kernteam jeugd; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Het Middelpunt: kernteam jeugd van de gemeente",
-        "omschrijving": "Het Middelpunt is het lokale team van de gemeente Landsmeer, voor jeugd, Wmo, inkomen en schulden. Voor jeugd werkt daar het kernteam jeugd: zorgregisseurs, praktijkondersteuners van huisartsen en schoolmaatschappelijk werkers. De zorgregisseur jeugd bespreekt uw vraag en komt zo nodig bij u thuis. Daarna maakt de zorgregisseur een plan en regelt de hulp. Voor specialistische hulp krijgt u een beschikking (besluit van de gemeente). Voor een korte vraag over opvoeden kunt u ook terecht bij het opvoedspreekuur van de GGD.",
+        "omschrijving": "In het kernteam jeugd werken zorgregisseurs, praktijkondersteuners van huisartsen en schoolmaatschappelijk werkers. Het Middelpunt heeft een telefonisch spreekuur van maandag tot en met donderdag 9.00 tot 12.00 uur; een persoonlijk gesprek plant u telefonisch. Voor een korte vraag over opvoeden is er het opvoedspreekuur van de GGD bij het Middelpunt.",
         "stappen": [
-          "Bel het Middelpunt, of mail uw vraag en gegevens. De zorgregisseur jeugd neemt daarna contact met u op.",
-          "Spreek een huisbezoek af als u uw kind aanmeldt voor jeugdhulp. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bespreek met de zorgregisseur wat u zelf of met voorzieningen in de buurt kunt oplossen. Is meer hulp nodig, dan krijgt u een plan, en voor specialistische hulp een beschikking. Vraag om hulp bij het kiezen van een aanbieder als u die nodig heeft.",
-          "Heeft u alleen een vraag over opvoeden? Maak een afspraak voor het opvoedspreekuur van de GGD bij het Middelpunt, of vraag online advies."
+          "Bel of mail het Middelpunt. De zorgregisseur jeugd neemt daarna contact met u op.",
+          "Spreek een huisbezoek af. U mag iemand meenemen.",
+          "Maak samen een plan. Voor specialistische hulp krijgt u een beschikking (besluit van de gemeente). Vraag gerust om hulp bij het kiezen van een aanbieder."
         ],
         "contact": [
           {
@@ -23,7 +22,7 @@
             "email": "middelpunt@landsmeer.nl",
             "url": "https://www.landsmeer.nl/inwoners/zorg,_inkomen,_onderwijs_en_opvoeding/zorg/middelpunt",
             "adres": "Marktplein 10, Landsmeer",
-            "openingstijden": "Alleen telefonisch, ma t/m do 9.00–12.00 uur"
+            "openingstijden": "Telefonisch spreekuur ma t/m do 9.00–12.00 uur; een persoonlijk gesprek op afspraak"
           },
           {
             "naam": "Opvoedspreekuur GGD Zaanstreek/Waterland",
@@ -32,16 +31,17 @@
             "url": "https://www.opvoedspreekuur.nl",
             "openingstijden": "Telefonische pedagogische achterwacht elke middag"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat een zorgregisseur uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Middelpunt. Ook na een verwijzing krijgt u een beschikking van de gemeente. Bij het kernteam jeugd werken praktijkondersteuners van huisartsen. Vraag uw huisarts ernaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Ook dan krijgt u een beschikking van de gemeente. Bij het kernteam jeugd werken praktijkondersteuners van huisartsen; vraag uw huisarts ernaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "Doe zelf geen aanvraag. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zaanstreek/Waterland (regio Waterland)",
@@ -53,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Veel ouders komen via school bij hulp. De schoolmaatschappelijk werker hoort bij het kernteam jeugd van het Middelpunt en kan snel meedenken. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool en de middelbare school zijn dat twee verschillende samenwerkingsverbanden. Landsmeer heeft zelf geen middelbare school. Het steunpunt voor de middelbare school hoort bij de scholen in Purmerend.",
+        "omschrijving": "De schoolmaatschappelijk werker hoort bij het kernteam jeugd en kan snel meedenken. Basisschool en middelbare school hebben elk een eigen samenwerkingsverband. Landsmeer heeft geen middelbare school; dat steunpunt hoort bij de scholen in Purmerend.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school de schoolmaatschappelijk werker kan inschakelen, of meld u zelf aan bij het Middelpunt.",
-          "Vindt u dat school te lang wacht met actie? Zeg dat tegen de intern begeleider en vraag wanneer u een terugkoppeling krijgt.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar de schoolmaatschappelijk werker.",
+          "Wacht school te lang met actie? Zeg dat tegen de intern begeleider en vraag wanneer u een terugkoppeling krijgt.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor basisonderwijs of voor voortgezet onderwijs."
         ],
         "contact": [
@@ -87,10 +86,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Is een kind thuis niet veilig, dan verwijst de gemeente naar Veilig Thuis. Meer staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over hulp en advies bij huiselijk geweld en kindermishandeling."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Landsmeer: hulp en advies bij huiselijk geweld (Veilig Thuis)",
@@ -229,7 +227,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Landsmeer: Jeugd (kernteam jeugd)",

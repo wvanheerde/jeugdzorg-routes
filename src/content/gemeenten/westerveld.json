@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Drenthe",
   "websiteJeugd": "https://www.gemeentewesterveld.nl/Alle_onderwerpen/Welzijn_ondersteuning_en_jeugd_hulp/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Westerveld kunt u op drie plekken terecht met vragen over kinderen en jongeren. Voor lichte vragen en advies gaat u naar Welzijn MensenWerk. Die organisatie heeft ook een schoolmaatschappelijk werker op elke school. Is meer nodig, dan neemt u contact op met Team Jeugd van de gemeente. Een medewerker jeugd praat met u en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Spelen er meerdere problemen in uw gezin, dan kan het Sociaal Team een procesregisseur inzetten die het overzicht houdt. U heeft geen verwijzing nodig. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Westerveld gaat u voor lichte vragen en advies naar Welzijn MensenWerk en voor jeugdhulp naar Team Jeugd van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente Westerveld",
-        "omschrijving": "Team Jeugd werkt voor de gemeente. Een medewerker jeugd onderzoekt met u of specialistische hulp nodig is en zet die zo nodig in. U meldt zich zelf aan. Voor lichtere vragen over opvoeden en opgroeien kunt u terecht bij Welzijn MensenWerk, met gratis advies en maatschappelijk werk. Is er meer aan de hand in uw gezin, dan kan een procesregisseur van het Sociaal Team het overzicht houden en de hulp op elkaar afstemmen. U bereikt het Sociaal Team via dezelfde ingang van de gemeente.",
+        "omschrijving": "Een medewerker jeugd van Team Jeugd onderzoekt met u of specialistische hulp nodig is en zet die zo nodig in. Welzijn MensenWerk geeft gratis advies en maatschappelijk werk bij lichtere vragen. Spelen er meerdere problemen in uw gezin, dan kan een procesregisseur van het Sociaal Team het overzicht houden; dat bereikt u via dezelfde ingang van de gemeente.",
         "stappen": [
-          "Neem contact op met Team Jeugd, of vraag via de website een contactmoment Jeugd aan.",
-          "Bespreek uw vraag met een medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Wilt u meteen jeugdhulp aanvragen? Gebruik dan het aanvraagformulier op de website van de gemeente, online met DigiD. Voor een jongere van 16 of 17 jaar of iemand zonder DigiD is er een formulier zonder DigiD.",
-          "Vraag om een schriftelijk verslag van het gesprek. Op uw aanvraag krijgt u een schriftelijk besluit (beschikking).",
-          "Wilt u eerst advies of lichte hulp? Neem dan contact op met Welzijn MensenWerk."
+          "Neem contact op met Team Jeugd, of vraag via de website een contactmoment Jeugd aan. Voor eerst advies of lichte hulp kunt u ook naar Welzijn MensenWerk.",
+          "Bespreek uw vraag met een medewerker jeugd. U mag iemand meenemen.",
+          "Vraag jeugdhulp aan met het formulier op de website (met DigiD). Voor een jongere van 16 of 17 jaar of iemand zonder DigiD is er een formulier zonder DigiD. U krijgt een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -34,16 +32,17 @@
             "url": "https://www.welzijnmw.nl/contact",
             "openingstijden": "Telefonisch maandag tot en met donderdag 8.30–12.30 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast Team Jeugd. Met vragen over de ontwikkeling of het gezond opgroeien van uw kind kunt u ook terecht bij de jeugdarts en jeugdverpleegkundige van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Met vragen over de ontwikkeling van uw kind kunt u ook terecht bij de jeugdarts en jeugdverpleegkundige van de GGD.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Drenthe",
@@ -55,12 +54,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Aan elke school in Westerveld is een schoolmaatschappelijk werker van Welzijn MensenWerk verbonden. Die biedt lichte hulp aan kinderen en ouders, bijvoorbeeld bij pesten, emoties of problemen thuis. Komt u er met school niet uit over passend onderwijs, dan helpt het Ouder- en jeugdsteunpunt Hoogeveen, Meppel en Steenwijk. Dat werkt voor de basisscholen en middelbare scholen in deze regio, ook in Westerveld.",
+        "omschrijving": "Aan elke school in Westerveld is een schoolmaatschappelijk werker van Welzijn MensenWerk verbonden. Die biedt lichte hulp aan kinderen en ouders, bijvoorbeeld bij pesten, emoties of problemen thuis.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om u in contact te brengen met de schoolmaatschappelijk werker van uw school. U kunt ook zelf contact opnemen met Welzijn MensenWerk.",
-          "Is meer hulp nodig? Neem dan contact op met Team Jeugd van de gemeente.",
-          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt."
+          "Vraag school om contact met de schoolmaatschappelijk werker, of neem zelf contact op met Welzijn MensenWerk.",
+          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt Hoogeveen, Meppel en Steenwijk, dat ook voor scholen in Westerveld werkt."
         ],
         "contact": [
           {
@@ -89,10 +87,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke meldpunten en crisisdiensten er zijn, ook voor een kind in een onveilige situatie, staat op de pagina Meldpunten van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Meldpunten van de gemeente voor Spoed voor Jeugd Drenthe. Daar kunt u terecht als hulp niet kan wachten tot de volgende werkdag."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Westerveld: meldpunten (Spoed voor Jeugd Drenthe en Veilig Thuis Drenthe)",

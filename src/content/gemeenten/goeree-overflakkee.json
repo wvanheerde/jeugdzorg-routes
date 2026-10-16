@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.goeree-overflakkee.nl/jeugd-gezin-en-onderwijs",
   "toegang": {
-    "samenvatting": "Op Goeree-Overflakkee is het Team Jeugd en Gezin van de gemeente de ingang voor jeugdhulp. U kunt uw kind of gezin zelf aanmelden; een verwijzing is niet nodig. Het gebiedsteam doet de intake en maakt met u een ondersteuningsplan. Volgens de gemeente duurt dat hooguit acht weken. Met vragen over opvoeden en opgroeien kunt u ook terecht bij het Centrum voor Jeugd en Gezin (CJG) Rijnmond, dat vier locaties op het eiland heeft. De huisarts mag rechtstreeks verwijzen naar hulp die de gemeente heeft ingekocht. Sinds 1 juli 2026 gelden nieuwe lokale regels voor jeugdhulp (de Verordening jeugdhulp). Hoe lang het in de praktijk duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "Op Goeree-Overflakkee meldt u zich bij het Team Jeugd en Gezin van de gemeente; voor vragen over opvoeden en lichte hulp kunt u ook naar het CJG Rijnmond. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd en Gezin van de gemeente, met het CJG Rijnmond",
-        "omschrijving": "Het Team Jeugd en Gezin werkt voor de gemeente. Er werken procesregisseurs (zij houden overzicht als er meerdere problemen zijn) en senior medewerkers jeugd. Zij beoordelen of uw kind jeugdhulp krijgt, maken met u een ondersteuningsplan en geven een beschikking af: een schriftelijk besluit. U kunt zich zelf aanmelden. Voor advies en lichte hulp kunt u ook naar het CJG Rijnmond.",
+        "omschrijving": "In het Team Jeugd en Gezin werken procesregisseurs en medewerkers jeugd. Zij beoordelen of uw kind jeugdhulp krijgt en maken met u een ondersteuningsplan. Het CJG Rijnmond heeft vier locaties op het eiland.",
         "stappen": [
-          "Meld uw hulpvraag aan bij het Team Jeugd en Gezin. Bel daarvoor het Sociaalcontactpunt van de gemeente of vul het aanmeldformulier op de website in.",
-          "Maak een afspraak voor een intakegesprek als het gebiedsteam u belt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met een medewerker jeugd een ondersteuningsplan. Met uw handtekening onder dit plan doet u de aanvraag. U kunt ook eerst zelf met uw netwerk een familiegroepsplan maken.",
-          "U krijgt een schriftelijk besluit. De gemeente beslist uiterlijk 8 weken na uw aanvraag.",
-          "Liever eerst advies of lichte hulp? Neem dan contact op met het CJG Rijnmond."
+          "Bel het Sociaalcontactpunt van de gemeente of vul het aanmeldformulier in. Voor advies of lichte hulp kunt u ook naar het CJG.",
+          "Maak een afspraak voor een intakegesprek als het team u belt. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan, of eerst zelf een familiegroepsplan. Met uw handtekening onder het plan doet u de aanvraag."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "url": "https://www.cjgrijnmond.nl/contact",
             "openingstijden": "Telefonisch werkdagen 8.00–17.00 uur. WhatsApp 06 48349129, werkdagen 8.30–16.30 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "De gemeente beslist uiterlijk 8 weken na uw aanvraag. Hoe lang het duurt tot een eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via het Team Jeugd en Gezin. De aanbieder neemt contact op met de gemeente over de hulp. Verwijzen naar een aanbieder zonder contract kan niet zomaar: dan moet de gemeente vooraf toestemming geven.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract. Voor een aanbieder zonder contract moet de gemeente vooraf toestemming geven.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het CJG Rijnmond.",
-          "Vraag de arts om een verwijzing naar een aanbieder die een contract heeft met de gemeente.",
-          "U hoeft zelf geen aanvraag te doen. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG Rijnmond.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "CJG Rijnmond (locatie Goeree-Overflakkee)",
@@ -53,11 +52,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Scholen op Goeree-Overflakkee werken samen in het Samenwerkingsverband Passend Onderwijs. Daar werkt onder anderen de onderwijsconsulent, een onafhankelijk adviseur voor ouders. De school regelt extra ondersteuning op school. Heeft uw kind ook hulp buiten school nodig? Dan kunt u uw kind aanmelden bij het Team Jeugd en Gezin.",
+        "omschrijving": "De school regelt extra ondersteuning op school. Bij het Samenwerkingsverband Passend Onderwijs werkt een onafhankelijk adviseur voor ouders. Hulp bij ernstige dyslexie voor kinderen tot 13 jaar begint bij de specialist van het samenwerkingsverband.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraagt uw kind meer ondersteuning dan de school kan bieden? Dan zoekt de school samen met u naar extra ondersteuning.",
-          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband of bij de onderwijsconsulent.",
+          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband of de onafhankelijk adviseur.",
           "Is ook hulp buiten school nodig? Meld uw kind aan bij het Team Jeugd en Gezin."
         ],
         "contact": [
@@ -79,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn voor kinderen en jongeren, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor kinderen en jongeren op de pagina Jeugdhulp, crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Goeree-Overflakkee: jeugdhulp, crisis",
@@ -173,7 +170,7 @@
       "url": "https://www.goeree-overflakkee.nl/loketvoorschool"
     },
     {
-      "naam": "Onderwijsconsulent (Samenwerkingsverband GO)",
+      "naam": "Onafhankelijk adviseur voor ouders (Samenwerkingsverband GO)",
       "soort": "informatiepunt",
       "omschrijving": "Onafhankelijk meedenken met ouders, leerling en school over de beste oplossing voor extra ondersteuning op school.",
       "themas": [
@@ -206,7 +203,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Goeree-Overflakkee: Team Jeugd en Gezin",

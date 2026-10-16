@@ -4,18 +4,16 @@
   "provincie": "Fryslân",
   "websiteJeugd": "https://www.vlieland.nl/zorg-werk-en-inkomen",
   "toegang": {
-    "samenvatting": "Vlieland heeft geen eigen jeugdteam op het eiland. Voor hulp aan kinderen en gezinnen werkt de gemeente samen met Gebiedsteam Waadhoeke op het vasteland; voor Vlieland heet dat het Eilandteam. U meldt zich zelf aan; een verwijzing is niet nodig. Op het eiland houdt een buurtwelzijnswerker elke week een inloopspreekuur, en via die werker komt u ook bij het team. Ook de huisarts mag rechtstreeks verwijzen. Volgens de gemeente duurt een besluit over jeugdhulp nooit langer dan 8 weken. Specialistische hulp zit vaak op het vasteland, dus vraag bij uw aanmelding waar de hulp plaatsvindt en hoe lang het duurt.",
+    "samenvatting": "Vlieland heeft geen eigen jeugdteam: u meldt zich bij het Eilandteam, dat is Gebiedsteam Waadhoeke op het vasteland, of via de buurtwelzijnswerker op het eiland. U kunt ook via de huisarts, jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Eilandteam Vlieland (Gebiedsteam Waadhoeke)",
-        "omschrijving": "Het Gebiedsteam helpt bij vragen over opvoeden, jeugdhulp, zorg, werk en geld. Vlieland heeft geen eigen team: het Gebiedsteam Waadhoeke werkt voor Vlieland als Eilandteam. Het team beoordeelt of uw kind jeugdhulp krijgt en regelt die. De Dienst Noardwest Fryslân regelt voor de gemeente de administratie en de betaling. U meldt zich zelf aan.",
+        "omschrijving": "Het Eilandteam helpt bij vragen over opvoeden, jeugdhulp, zorg, werk en geld, en beslist of uw kind jeugdhulp krijgt. De buurtwelzijnswerker houdt elke week een inloopspreekuur op Vlieland. Specialistische hulp zit vaak op het vasteland.",
         "stappen": [
-          "Bel of mail het Eilandteam. U kunt ook naar de buurtwelzijnswerker op Vlieland gaan; die brengt u in contact met het team.",
-          "Bespreek uw vraag eerst telefonisch met het team. Eenvoudige vragen lost het direct op, of het wijst u de weg.",
-          "Is meer nodig? Dan volgt een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan van aanpak. Heeft uw kind specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking) van de gemeente.",
-          "Vraag na het gesprek om het plan en het besluit op papier."
+          "Bel of mail het Eilandteam, of ga naar de buurtwelzijnswerker; die brengt u in contact met het team.",
+          "Bespreek uw vraag eerst telefonisch. Eenvoudige vragen lost het team direct op; anders volgt een gesprek. U mag iemand meenemen.",
+          "Maak samen een plan van aanpak. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking) van de gemeente."
         ],
         "contact": [
           {
@@ -30,17 +28,17 @@
             "url": "https://www.vlieland.nl/buurtwelzijnswerker-1",
             "openingstijden": "Inloopspreekuur dinsdag 13.00–14.30 uur in de Vliestroom"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens de gemeente duurt een besluit over jeugdhulp nooit langer dan 8 weken. Vraag bij uw aanmelding hoe lang het duurt en waar de hulp plaatsvindt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Eilandteam. De jeugdgezondheidszorg (JGZ) van GGD Fryslân volgt de gezondheid en ontwikkeling van kinderen en kan meedenken.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdgezondheidszorg (JGZ) van GGD Fryslân volgt de ontwikkeling van kinderen en kan meedenken.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder waarmee de gemeente een contract heeft.",
-          "Vraag de aanbieder waar de hulp plaatsvindt: op Vlieland of op het vasteland.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, en vraag of de hulp op Vlieland of op het vasteland is.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -51,11 +49,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op Vlieland zitten basis- en voortgezet onderwijs samen op Eilandschool De Jutter. Volgens de gemeente werkt er schoolmaatschappelijk werk op het eiland, vanuit het Gebiedsteam. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op Vlieland zitten basis- en voortgezet onderwijs samen op Eilandschool De Jutter. School kan u wijzen op het Eilandteam.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om hulp van het schoolmaatschappelijk werk, of meld uw kind zelf aan bij het Eilandteam.",
-          "Vraag het team jeugdhulp in te schakelen als meer hulp nodig is.",
+          "Vraag school om contact met het Eilandteam, of neem zelf contact op.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs."
         ],
         "contact": [
@@ -77,11 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Hulp van het vasteland komt niet altijd direct het eiland op. Overleg daarom vroeg met uw huisarts.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kunt u niet wachten, maar is er geen direct gevaar? Neem op werkdagen contact op met het Eilandteam. De gegevens staan bij de eerste route.",
-          "Is het thuis acuut onveilig of is er een crisis met uw kind? Kijk op de spoedpagina van het Gebiedsteam Waadhoeke, dat ook het team voor Vlieland is."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gebiedsteam Waadhoeke (Eilandteam Vlieland): Spoed",
@@ -273,7 +268,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Vlieland: Gebiedsteam",

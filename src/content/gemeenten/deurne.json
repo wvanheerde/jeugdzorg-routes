@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Zuidoost-Brabant",
   "websiteJeugd": "https://www.zorgindeurne.nl/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Deurne is Zorg in Deurne de eerste plek voor vragen over opvoeden en opgroeien en voor jeugdhulp. Daar werken gezins- en jongerencoaches. Zij denken met u mee, geven advies en regelen zo nodig specialistische hulp. U kunt zich zelf aanmelden. Een verwijzing is niet nodig. De huisarts mag ook rechtstreeks verwijzen. De coaches werken ook in de wijk en op school. Hoe lang het duurt voor u een eerste gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Deurne meldt u zich bij de gezins- en jongerencoaches van Zorg in Deurne. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Zorg in Deurne: gezins- en jongerencoaches",
-        "omschrijving": "Zorg in Deurne is het toegangsteam voor jeugdhulp, Wmo en andere hulp. De gezins- en jongerencoaches zijn professionals in jeugdhulp. Ze kijken samen met u wat uw gezin zelf kan en waar hulp nodig is. Is specialistische hulp nodig, dan helpen zij daarbij. Zorg in Deurne valt onder de Peelgemeenten, een samenwerking van vijf gemeenten. U meldt zich zelf aan.",
+        "omschrijving": "Zorg in Deurne is het team voor jeugdhulp, Wmo en andere hulp, en valt onder de Peelgemeenten (vijf gemeenten). De coaches geven advies en regelen zo nodig specialistische hulp. Ze werken op kantoor, in de wijk, op school of bij u thuis.",
         "stappen": [
-          "Bel Zorg in Deurne of gebruik het contactformulier op de website. U kunt ook vragen of ze u terugbellen.",
-          "Bespreek uw vraag met een gezins- en jongerencoach. Dat kan op kantoor, in de wijk, op school of bij u thuis.",
-          "Neem iemand mee naar het gesprek als u dat wilt, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, dan regelt Zorg in Deurne dat met u. Vraag dan om een schriftelijk besluit."
+          "Bel Zorg in Deurne, gebruik het contactformulier, of vraag om teruggebeld te worden.",
+          "Bespreek uw vraag met een gezins- en jongerencoach. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan regelt de coach dat met u en krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Zorg in Deurne",
@@ -24,16 +23,17 @@
           "url": "https://www.zorgindeurne.nl/contact",
           "adres": "Markt 1, Deurne",
           "openingstijden": "Telefonisch ma t/m do 9.00–17.00 uur, vr 9.00–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeenten samen hebben ingekocht. U kunt dus ook via hen gaan in plaats van via Zorg in Deurne. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van GGD Brabant-Zuidoost, voor kinderen van 0 tot 19 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de Peelgemeenten. De jeugdarts werkt bij GGD Brabant-Zuidoost, voor kinderen van 0 tot 19 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeenten.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -45,10 +45,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De gezins- en jongerencoaches van Zorg in Deurne werken ook op scholen. Komt u er met school niet uit over passend onderwijs? Dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband. Basisonderwijs en voortgezet onderwijs hebben elk een eigen steunpunt.",
+        "omschrijving": "De gezins- en jongerencoaches van Zorg in Deurne werken ook op scholen. Basisonderwijs en voortgezet onderwijs hebben elk een eigen ouder- en jeugdsteunpunt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school een gezins- en jongerencoach van Zorg in Deurne kan betrekken, of meld u zelf aan bij Zorg in Deurne.",
+          "Vraag of school een gezins- en jongerencoach kan betrekken.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband van uw school."
         ],
         "contact": [
@@ -73,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis. U gaat dan buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, staat op de pagina van Zorg in Deurne.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor het meldpunt crisis en psychische nood in Deurne op de pagina van Zorg in Deurne."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Zorg in Deurne: meldpunt crisis en psychische nood",

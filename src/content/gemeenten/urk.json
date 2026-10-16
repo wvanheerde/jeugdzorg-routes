@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Flevoland",
   "websiteJeugd": "https://www.urk.nl/jeugdhulp-aanvragen",
   "toegang": {
-    "samenvatting": "Op Urk vraagt u jeugdhulp aan bij het Sociaal Team Urk van de gemeente. U meldt zich zelf aan met het aanmeldformulier op de website. Een verwijzing is niet nodig. De gespreksvoerders bespreken met u en uw kind wat er nodig is en leggen dat vast in een onderzoeksverslag. Is professionele hulp nodig, dan volgt een beschikking (besluit van de gemeente). Voor advies over opvoeden en opgroeien kunt u terecht bij het Centrum voor Jeugd en Gezin (CJG) van Stichting de Kern. Ook de huisarts of jeugdarts mag rechtstreeks verwijzen. Volgens de gemeente hoort u binnen 8 weken na uw melding of uw kind in aanmerking komt voor jeugd-ggz. Hoe lang het in de praktijk duurt, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "Op Urk meldt u zich voor jeugdhulp bij het Sociaal Team Urk van de gemeente; voor advies over opvoeden kunt u ook naar het CJG van Stichting de Kern. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Urk",
-        "omschrijving": "Het Sociaal Team Urk werkt voor de gemeente. De gespreksvoerders (klantmanagers) onderzoeken met u en uw kind wat er nodig is. Zij leggen dat vast in een onderzoeksverslag en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Het Centrum voor Jeugd en Gezin (CJG) geeft gratis advies over opvoeden en opgroeien, zonder besluit van de gemeente.",
+        "omschrijving": "Gespreksvoerders (klantmanagers) van het Sociaal Team onderzoeken met u en uw kind wat nodig is, leggen dat vast in een onderzoeksverslag en regelen de hulp. Het Centrum voor Jeugd en Gezin (CJG) geeft gratis advies over opvoeden en opgroeien, zonder besluit van de gemeente.",
         "stappen": [
-          "Vul het aanmeldformulier jeugdhulp van de gemeente in, met of zonder DigiD. Log met DigiD in als het kind zelf de aanvrager is.",
-          "Wacht tot het Sociaal Team contact opneemt. Bespreek dan samen met uw kind de situatie. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van Caritas.",
-          "Vraag om het onderzoeksverslag. Is professionele hulp nodig, dan krijgt u een beschikking (schriftelijk besluit van de gemeente).",
-          "Wilt u liever eerst advies of lichte hulp? Neem contact op met het CJG Urk van Stichting de Kern."
+          "Vul het aanmeldformulier jeugdhulp in, met of zonder DigiD. Is uw kind zelf de aanvrager, log dan in met DigiD.",
+          "Bespreek de situatie samen met uw kind als het Sociaal Team contact opneemt. U mag iemand meenemen.",
+          "Vraag om het onderzoeksverslag. Is professionele hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -32,16 +31,17 @@
             "url": "https://www.stdekern.nl/gemeentes/urk",
             "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens de gemeente hoort u binnen 8 weken na uw melding of uw kind in aanmerking komt voor jeugd-ggz. Hoe lang het in de praktijk duurt, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij veel huisartsen werkt een praktijkondersteuner voor jeugd-ggz (geestelijke gezondheidszorg voor kinderen en jongeren).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij veel huisartsen werkt een praktijkondersteuner voor jeugd-ggz (geestelijke gezondheidszorg voor kinderen en jongeren).",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg (GGD Flevoland).",
-          "Vraag of de praktijkondersteuner eerst kan kijken wat met lichtere hulp kan. Is meer nodig, dan verwijst de arts naar een aanbieder die de gemeente heeft ingekocht.",
-          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Flevoland.",
+          "Vraag of de praktijkondersteuner eerst kan kijken wat lichtere hulp kan doen. Is meer nodig, dan verwijst de arts naar een aanbieder.",
+          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -61,12 +61,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle basisscholen op Urk zijn Jeugd Hulp Teams actief. Daarin bespreken de intern begeleider van school, de coördinator van het CJG, de schoolmaatschappelijk werker en een jeugdarts of jeugdverpleegkundige zorgen over een kind. De schoolmaatschappelijk werker van Stichting de Kern is gratis voor ouders en leerlingen. Het Berechja College en de Pieter Zandt Scholengemeenschap hebben elk een zorgadviesteam. Komt u er met een basisschool niet uit, dan helpt het Oudersteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op alle basisscholen op Urk bespreekt een Jeugd Hulp Team zorgen over een kind, met onder meer de intern begeleider, het CJG en de schoolmaatschappelijk werker. Die schoolmaatschappelijk werker van Stichting de Kern is gratis. Het Berechja College en de Pieter Zandt Scholengemeenschap hebben elk een zorgadviesteam.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht of de intern begeleider van school.",
-          "Vraag of de schoolmaatschappelijk werker kan meedenken. U mag ook zelf contact opnemen met Stichting de Kern, zonder tussenkomst van school.",
-          "Is meer hulp nodig? Vraag school of de schoolmaatschappelijk werker om het Sociaal Team in te schakelen.",
-          "Komt u er met de basisschool niet uit over extra ondersteuning? Vraag advies bij het Oudersteunpunt van het samenwerkingsverband."
+          "Bespreek uw zorgen met de leerkracht of de intern begeleider.",
+          "Vraag of de schoolmaatschappelijk werker kan meedenken, of neem zelf contact op met Stichting de Kern.",
+          "Komt u er met de basisschool niet uit? Vraag advies bij het Oudersteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -93,10 +92,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Voor kindermishandeling en huiselijk geweld verwijst de gemeente naar een eigen pagina.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over mishandeling en huiselijk geweld waar u terechtkunt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Urk: mishandeling of huiselijk geweld",

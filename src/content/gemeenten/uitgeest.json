@@ -4,17 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.uitgeest.nl/aanvragen-en-regelen/onderwijs-en-jeugd",
   "toegang": {
-    "samenvatting": "In Uitgeest is het Sociaal Team de plek waar u hulp vraagt. Het team werkt voor de gemeente en helpt gratis, zonder verwijzing, ook bij vragen over opvoeden en opgroeien. Een jeugd- en gezinscoach kan kortdurend met uw gezin aan de slag, thuis, op school of elders. De gemeente vraagt u eerst te kijken wat uw eigen netwerk kan doen. Is specialistische hulp nodig, dan regelt het team dat. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat het Sociaal Team uw jeugdvraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Uitgeest meldt u zich bij het Sociaal Team van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Uitgeest",
-        "omschrijving": "Het Sociaal Team is een team van de gemeente. Het werkt samen met de andere BUCH-gemeenten (Bergen, Uitgeest, Castricum en Heiloo). Het helpt bij vragen over opvoeden en opgroeien, en ook bij vragen over zorg, wonen en geld. U meldt zich zelf aan, een verwijzing is niet nodig. Een jeugd- en gezinscoach (ervaren hulpverlener) helpt kortdurend, hooguit een keer per week. Dat kan thuis, op school of op een andere plek. De hulp is vrijwillig en gratis.",
+        "omschrijving": "Het Sociaal Team helpt gratis bij vragen over opvoeden en opgroeien, en ook bij zorg, wonen en geld. Een jeugd- en gezinscoach kan kortdurend met uw gezin aan de slag, hooguit een keer per week, thuis, op school of elders. Is specialistische hulp nodig, dan regelt het team dat.",
         "stappen": [
           "Loop binnen bij het inloopspreekuur van het Sociaal Team, of bel of mail het team.",
-          "Vertel wat er speelt. Samen kijkt u wat u en uw netwerk zelf kunnen en welke lichte hulp past.",
-          "Past een jeugd- en gezinscoach? Dan stelt u samen doelen op en bespreekt u regelmatig hoe het gaat.",
-          "Is specialistische hulp nodig? Vraag om een schriftelijk verslag van het gesprek en om een schriftelijk besluit (beschikking). U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner."
+          "Vertel wat er speelt. Samen kijkt u wat u en uw omgeving zelf kunnen en welke hulp past. U mag iemand meenemen.",
+          "Past een jeugd- en gezinscoach? Dan stelt u samen doelen op. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Sociaal Team Uitgeest (gemeente)",
@@ -23,16 +22,17 @@
           "url": "https://www.uitgeest.nl/aanvragen-en-regelen/sociaal-team/",
           "adres": "Gemeentehuis, Middelweg 28, Uitgeest",
           "openingstijden": "Inloopspreekuur donderdag 12.30–14.00 uur, zonder afspraak"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Sociaal Team uw jeugdvraag oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De gemeente zet ook een jeugdhulpmedewerker bij huisartsen in. Die pakt eenvoudige hulpvragen op en helpt de huisarts passend te verwijzen. Vraag uw huisarts of die voor uw praktijk al werkt. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van GGD Kennemerland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente zet bij huisartsen ook een jeugdhulpmedewerker in voor eenvoudige vragen; vraag uw huisarts of die al in uw praktijk werkt. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Kennemerland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Ga zo nodig eerst naar de jeugdhulpmedewerker of het Sociaal Team. Of vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Ga zo nodig eerst naar de jeugdhulpmedewerker, of vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Kennemerland",
@@ -45,12 +45,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op vier basisscholen in Uitgeest werkt een preventieconsulent van het Sociaal Team. Het Sociaal Team en de GGD houden ook inloopspreekuren voor ouders op basisscholen. Uitgeester leerlingen die naar een middelbare school in Castricum gaan, kunnen terecht bij het Jeugd en School-team. Dat is een vaste jeugd- en schoolcoach op school. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Het basisonderwijs valt onder SWV IJmond, het voortgezet onderwijs onder SWV VO Midden Kennemerland.",
+        "omschrijving": "Op vier basisscholen in Uitgeest werkt een preventiemedewerker van het Sociaal Team. Het Sociaal Team en de GGD houden ook inloopspreekuren voor ouders op basisscholen. Gaat uw kind naar een middelbare school in Castricum, dan is daar een vaste jeugd- en schoolcoach van het Jeugd en School-team.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school samen met u het Sociaal Team of de schoolcoach wil inschakelen, of meld u zelf aan bij het Sociaal Team.",
-          "Is meer hulp nodig? Bespreek de aanvraag dan verder met het Sociaal Team.",
-          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs van de school van uw kind."
+          "Vraag of school samen met u het Sociaal Team of de schoolcoach wil inschakelen.",
+          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband: SWV IJmond voor het basisonderwijs, SWV VO Midden Kennemerland voor het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -79,10 +78,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente over kindermishandeling en huiselijk geweld staat welke hulp er verder is.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor meer hulp bij onveiligheid in uw gezin op de pagina van de gemeente over kindermishandeling en huiselijk geweld."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Uitgeest: kindermishandeling en huiselijk geweld",
@@ -130,7 +128,7 @@
     "categorieen": [
       {
         "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het Sociaal Team: jeugd- en gezinscoach, preventieconsulenten op vier basisscholen, het Jeugd en School-team op de middelbare school in Castricum en een jeugdhulpmedewerker bij huisartsen. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Via het Sociaal Team: jeugd- en gezinscoach, preventiemedewerkers op vier basisscholen, het Jeugd en School-team op de middelbare school in Castricum en een jeugdhulpmedewerker bij huisartsen. Geen besluit van de gemeente nodig.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -323,7 +321,7 @@
   },
   "jeugdzorgregio": "Alkmaar",
   "ervaringen": {
-    "samenvatting": "Uitgeest wil hulp vroeg en dichtbij bieden. Daarom werkt er een jeugdhulpmedewerker bij de huisartsen, zijn er preventieconsulenten op vier basisscholen en is er een Jeugd en School-team op de middelbare scholen in Castricum. Volgens de gemeente lost de school nu de meeste vragen van leerlingen zelf op, en is het aantal jeugdigen met specialistische hulp 'vrij stabiel'. Gemeten wachttijden voor de toegang en een tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het Sociaal Team, en u kunt gratis een onafhankelijke cliëntondersteuner van Sylta meenemen. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld het verslag van het gesprek en het besluit. Een klacht over het Sociaal Team dient u in via het formulier Klacht jeugdhulpverlening. Daarna kunt u naar de Klachtencommissie Jeugd en de Nationale ombudsman.",
+    "samenvatting": "Uitgeest wil hulp vroeg en dichtbij bieden. Daarom werkt er een jeugdhulpmedewerker bij de huisartsen, zijn er preventiemedewerkers op vier basisscholen en is er een Jeugd en School-team op de middelbare scholen in Castricum. Volgens de gemeente lost de school nu de meeste vragen van leerlingen zelf op, en is het aantal jeugdigen met specialistische hulp 'vrij stabiel'. Gemeten wachttijden voor de toegang en een tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het Sociaal Team, en u kunt gratis een onafhankelijke cliëntondersteuner van Sylta meenemen. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld het verslag van het gesprek en het besluit. Een klacht over het Sociaal Team dient u in via het formulier Klacht jeugdhulpverlening. Daarna kunt u naar de Klachtencommissie Jeugd en de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",
@@ -337,8 +335,8 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Jeugdhulpmedewerker bij de huisarts, preventieconsulenten op scholen",
-        "samenvatting": "Volgens de gemeente leidt de jeugdhulpmedewerker bij de huisarts tot minder verwijzingen naar specialistische jeugdhulp. Op vier basisscholen in Uitgeest is een preventieconsulent laagdrempelig aanwezig. De gemeente noemt de samenwerking met huisartsen goed.",
+        "titel": "Jeugdhulpmedewerker bij de huisarts, preventiemedewerkers op scholen",
+        "samenvatting": "Volgens de gemeente leidt de jeugdhulpmedewerker bij de huisarts tot minder verwijzingen naar specialistische jeugdhulp. Op vier basisscholen in Uitgeest is een preventiemedewerker laagdrempelig aanwezig. De gemeente noemt de samenwerking met huisartsen goed.",
         "datum": "2025-11-20",
         "bron": {
           "titel": "Presentatie Cijfers Jeugd, Wmo en Preventie, sheet 'Wat doen we voor de inwoners'",

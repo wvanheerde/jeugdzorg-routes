@@ -5,19 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.heerenveen.nl/jeugd-en-onderwijs/team-jeugd-gezin/",
   "toegang": {
-    "samenvatting": "In Heerenveen is Team Jeugd en Gezin (TJG) de toegang tot jeugdhulp. Het team werkt voor de gemeente. U kunt zelf bellen of mailen, een verwijzing is niet nodig. Een gezinswerker adviseert, maakt met u een plan en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. In Heerenveen start de meeste jeugdhulp zo. Lichtere hulp is er via de jeugdverpleegkundige, het schoolmaatschappelijk werk en het jongerenwerk. In 2027 wil de gemeente een schoolconsulent jeugd op scholen en een praktijkondersteuner jeugd bij huisartsen inzetten. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Heerenveen meldt u zich bij Team Jeugd en Gezin (TJG) van de gemeente. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd en Gezin (TJG)",
-        "omschrijving": "TJG is het jeugdteam van de gemeente en de toegang tot specialistische jeugdhulp. Het helpt gezinnen voor wie lichtere hulp, zoals de jeugdverpleegkundige of het schoolmaatschappelijk werk, niet genoeg is. U meldt zich zelf aan, of een hulpverlener doet dat met u. Een gezinswerker brengt uw situatie met u in kaart en maakt een plan. Zijn er meer hulpverleners betrokken, dan kan TJG de regie nemen. TJG vraagt alleen hulp aan met uw instemming.",
+        "omschrijving": "TJG helpt gezinnen voor wie lichtere hulp niet genoeg is, zoals de jeugdverpleegkundige, het schoolmaatschappelijk werk of het jongerenwerk. Een gezinswerker brengt met u uw situatie in kaart, maakt een plan en regelt zo nodig specialistische hulp. Zijn er meer hulpverleners betrokken, dan kan TJG de regie nemen.",
         "stappen": [
-          "Bel of mail Team Jeugd en Gezin. Een gezinswerker spreekt u direct en adviseert wat past.",
-          "Liever dat een hulpverlener het doet? Vraag de huisarts of de schoolmaatschappelijk werker u aan te melden.",
-          "Spreek een huisbezoek af. De gezinswerker brengt de situatie in kaart, samen met u en de mensen om uw kind heen.",
-          "Maak samen een plan en vraag het op papier. Is specialistische hulp nodig, dan regelt TJG die en krijgt u een beschikking (schriftelijk besluit).",
-          "Is er een wachtlijst bij de aanbieder? Vraag TJG om wachtlijstbemiddeling of overbruggingszorg (hulp in de tussentijd).",
-          "Neem gerust iemand mee naar de gesprekken, bijvoorbeeld een onafhankelijke cliëntondersteuner."
+          "Bel of mail TJG. Een gezinswerker spreekt u direct en adviseert wat past. Ook de huisarts of schoolmaatschappelijk werker kan u aanmelden.",
+          "Spreek een huisbezoek af en maak samen een plan. U mag iemand meenemen. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit).",
+          "Is er een wachtlijst bij de aanbieder? Vraag TJG om wachtlijstbemiddeling of overbruggingszorg (hulp in de tussentijd)."
         ],
         "contact": {
           "naam": "Team Jeugd en Gezin (TJG) van de gemeente Heerenveen",
@@ -26,16 +23,17 @@
           "url": "https://www.heerenveen.nl/jeugd-en-onderwijs/team-jeugd-gezin/",
           "adres": "Crackstraat 2, Heerenveen",
           "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast TJG. In Heerenveen start de meeste jeugdhulp via deze route.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen; in Heerenveen start de meeste jeugdhulp zo.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg (JGZ).",
-          "Vraag om een verwijzing naar een aanbieder die de gemeente heeft ingekocht. U hoeft zelf geen aanvraag te doen.",
-          "Neem met de verwijzing contact op met de aanbieder. Die meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de jeugdgezondheidszorg (JGZ).",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Neem met de verwijzing contact op met de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -46,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is vaak de eerste plek waar zorgen zichtbaar worden. Heeft uw school een schoolmaatschappelijk werker, dan kan die meedenken en u aanmelden bij TJG. Komt u er met school niet uit over de ondersteuning van uw kind, dan helpt het Ouder- en jeugdsteunpunt passend onderwijs Friesland, ook in het voortgezet onderwijs. Voor het basisonderwijs is er ook het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Heeft uw school een schoolmaatschappelijk werker, dan kan die meedenken en u aanmelden bij TJG.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider (de zorgcoördinator van de school).",
-          "Vraag of de schoolmaatschappelijk werker kan meedenken of u kan aanmelden bij Team Jeugd en Gezin. U kunt zich ook zelf melden bij TJG.",
-          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland.",
-          "Heeft uw kind basisonderwijs? Dan kunt u ook het samenwerkingsverband passend onderwijs om advies vragen."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of de schoolmaatschappelijk werker kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland, of voor het basisonderwijs bij het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -77,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er buiten kantooruren is voor jeugdhulp in Heerenveen, staat op de pagina van de gemeente over Team Jeugd en Gezin.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk onder Spoed op de pagina van de gemeente over Team Jeugd en Gezin voor hulp buiten kantooruren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Heerenveen: Team Jeugd en Gezin, onderdeel Spoed",
@@ -251,7 +247,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Begroting 2027: plannen voor scholen, huisartsen en lokale teams",
-        "samenvatting": "De gemeente wil in 2027 op een aantal scholen een schoolconsulent jeugd en bij een aantal huisartsen een praktijkondersteuner jeugd laten starten. Ook onderzoekt zij hoe hulp dichter bij huis kan komen. Het gaat om plannen, dus wat het voor uw gezin betekent is nog niet bekend.",
+        "samenvatting": "De gemeente wil in 2027 op een aantal scholen een medewerker jeugd op school en bij een aantal huisartsen een praktijkondersteuner jeugd laten starten. Ook onderzoekt zij hoe hulp dichter bij huis kan komen. Het gaat om plannen, dus wat het voor uw gezin betekent is nog niet bekend.",
         "datum": "2026-10-06",
         "bron": {
           "titel": "Programmabegroting 2027 gemeente Heerenveen",
@@ -299,7 +295,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Heerenveen: Team Jeugd en Gezin (TJG)",

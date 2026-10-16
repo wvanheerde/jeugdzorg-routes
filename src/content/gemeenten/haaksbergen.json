@@ -4,18 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.noaberpoort.nl/Jeugdzorg.html",
   "toegang": {
-    "samenvatting": "In Haaksbergen vraagt u jeugdhulp aan bij de Noaberpoort. Dat is het toegangsteam van de gemeente. Daar werken jeugdregisseurs. Zij bespreken met u wat uw kind nodig heeft, regelen de hulp en blijven uw vaste aanspreekpunt. U meldt zich zelf aan, met een online formulier of telefonisch. Een verwijzing is niet nodig. Ook de huisarts, de jeugdarts en de medisch specialist kunnen verwijzen. De Noaberpoort is op werkdagen 's ochtends open. Hoe lang het duurt voor u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Haaksbergen meldt u zich bij de Noaberpoort, het toegangsteam van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Noaberpoort (jeugdregisseurs van de gemeente)",
-        "omschrijving": "De Noaberpoort is het gemeentelijke toegangsteam voor jeugdhulp, welzijn, zorg en werk en inkomen. De jeugdregisseurs onderzoeken wat uw kind en uw gezin nodig hebben. Ze regelen de hulp en houden contact over de voortgang. U meldt zich zelf aan. Voor advies over opvoeden en opgroeien tot 18 jaar kunt u ook bij de Noaberpoort terecht, en bij Loes, de opvoedondersteuning van GGD Twente.",
+        "omschrijving": "Jeugdregisseurs van de Noaberpoort bespreken met u wat uw kind en gezin nodig hebben, regelen de hulp en blijven uw vaste aanspreekpunt. Ze kijken eerst wat u zelf, uw omgeving of lichtere hulp kunnen doen. Voor advies over opvoeden en opgroeien tot 18 jaar kunt u ook bij Loes terecht, de opvoedondersteuning van GGD Twente.",
         "stappen": [
-          "Meld u aan met het aanmeldformulier jeugd van de Noaberpoort. Lukt dat niet digitaal, bel dan of loop binnen bij de Noaberpoort.",
-          "Bespreek met de jeugdregisseur wat er speelt en welke hulp past. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan. De jeugdregisseur kijkt eerst wat u zelf, uw netwerk of lichtere hulp kunnen doen. Daarna bekijkt u samen of specialistische hulp nodig is.",
-          "Vraag na het gesprek om een schriftelijk verslag. Bij specialistische hulp krijgt u een besluit (beschikking) van de gemeente.",
-          "Wilt u eerst advies over opvoeden? Vraag dat aan de Noaberpoort of aan Loes."
+          "Vul het aanmeldformulier jeugd van de Noaberpoort in. Lukt dat niet, bel dan of loop binnen; de Noaberpoort is op werkdagen 's ochtends open.",
+          "Bespreek met de jeugdregisseur wat er speelt en welke hulp past. U mag iemand meenemen.",
+          "Maak samen een plan. Bij specialistische hulp krijgt u een besluit (beschikking) van de gemeente."
         ],
         "contact": [
           {
@@ -29,16 +27,17 @@
             "naam": "Loes (opvoedondersteuning GGD Twente, Haaksbergen)",
             "url": "https://www.loes.nl/contact/haaksbergen"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voor u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dat is een gelijkwaardige route naast de Noaberpoort. Volgens de verordening vergoedt de gemeente de hulp alleen bij een aanbieder met een contract, als die aanbieder de hulp ook kan geven. Bij de huisarts werkt een praktijkondersteuner jeugd-ggz. De gemeente wil dat huisartsen en jeugdregisseurs beter samenwerken.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente betaalt de hulp alleen bij een aanbieder met een contract, als die de hulp ook kan geven. Bij de huisarts werkt een praktijkondersteuner jeugd-ggz.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder die een contract heeft met de gemeente.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -49,11 +48,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school is de intern begeleider het aanspreekpunt voor extra ondersteuning. Schoolmaatschappelijk werkers van de Noaberpoort zitten in de ondersteuningsteams van de scholen. Zij kunnen snel een jeugdregisseur inschakelen. Komt u er met school niet uit, vraag dan advies bij het samenwerkingsverband passend onderwijs. Voor de basisschool is dat Samenwerkingsverband Twente Oost PO, voor Het Assink Lyceum het samenwerkingsverband Slinge-Berkel.",
+        "omschrijving": "Op school is de intern begeleider het aanspreekpunt voor extra ondersteuning. Schoolmaatschappelijk werkers van de Noaberpoort zitten in de ondersteuningsteams van de scholen en kunnen snel een jeugdregisseur inschakelen.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er niet uit? Vraag advies bij het Oudersteunpunt van het samenwerkingsverband voor de basisschool, of bij het Ouder- en jeugdsteunpunt van samenwerkingsverband Slinge-Berkel voor de middelbare school.",
-          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u aan bij de Noaberpoort."
+          "Vraag of de schoolmaatschappelijk werker kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het Oudersteunpunt van Samenwerkingsverband Twente Oost PO voor de basisschool, of bij het Ouder- en jeugdsteunpunt van Slinge-Berkel voor Het Assink Lyceum."
         ],
         "contact": [
           {
@@ -77,10 +76,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er in Haaksbergen zijn, staat op de pagina Spoed of crisis van de Noaberpoort.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor jeugdhulp bij een crisis op de pagina Spoed of crisis van de Noaberpoort."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Noaberpoort: Spoed of crisis (jeugdhulp bij crisissituaties)",

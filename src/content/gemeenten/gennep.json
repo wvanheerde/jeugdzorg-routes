@@ -4,17 +4,16 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.gennep.nl/jeugdwet",
   "toegang": {
-    "samenvatting": "In Gennep is Team Toegang van de gemeente de ingang voor vragen over opvoeden, opgroeien en jeugdhulp. Een medewerker jeugd van het team bespreekt met u wat nodig is. Samen maakt u een leefzorgplan: een plan met uw situatie en de mogelijke oplossingen. U meldt u zelf aan. Een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding. De gemeente wil uiterlijk eind 2028 een nieuw lokaal team voor jeugd, Wmo (ondersteuning voor volwassenen) en andere vragen.",
+    "samenvatting": "In Gennep meldt u zich bij Team Toegang van de gemeente, waar u een medewerker jeugd spreekt. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Toegang van de gemeente Gennep",
-        "omschrijving": "Team Toegang werkt vanuit het gemeentekantoor en komt ook bij u thuis, in alle dorpen van de gemeente. Voor jeugd spreekt u een medewerker jeugd. U meldt u zelf aan. Eerst kijkt het team wat u zelf kunt doen, eventueel met familie of vrienden. Daarna volgt zo nodig hulp van een aanbieder met een beschikking (een schriftelijk besluit van de gemeente).",
+        "omschrijving": "Team Toegang werkt vanuit het gemeentekantoor en komt ook bij u thuis, in alle dorpen. Samen maakt u een leefzorgplan; zo nodig volgt hulp van een aanbieder met een beschikking (besluit).",
         "stappen": [
           "Bel Team Toegang en vraag naar een medewerker jeugd.",
-          "Maak een afspraak voor een gesprek, het keukentafelgesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE.",
-          "Maak samen een leefzorgplan. Op de website van de gemeente staat een leeg plan om het gesprek voor te bereiden.",
-          "Heeft uw kind specialistische hulp nodig? Vraag na het gesprek om het verslag en om een schriftelijk besluit."
+          "Maak een afspraak voor een keukentafelgesprek. U mag iemand meenemen.",
+          "Maak samen een leefzorgplan. Op de website van de gemeente staat een leeg plan om het gesprek voor te bereiden."
         ],
         "contact": {
           "naam": "Team Toegang (medewerkers jeugd, gemeente Gennep)",
@@ -22,16 +21,17 @@
           "email": "gemeente@gennep.nl",
           "url": "https://www.gennep.nl/team-toegang",
           "openingstijden": "Telefonisch maandag t/m donderdag 8.30–12.30 uur, vrijdag 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Toegang. Bij veel huisartsen werkt een praktijkondersteuner jeugd (POH Jeugd) voor opvoed- en opgroeivragen. De jeugdgezondheidszorg van de GGD geeft ook advies en kan doorverwijzen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd (POH Jeugd) voor opvoed- en opgroeivragen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de POH Jeugd sturen, of direct naar een aanbieder met een contract.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de GGD.",
+          "De huisarts stuurt u eerst naar de POH Jeugd, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -42,7 +42,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek uw zorgen eerst met school. Komt u er samen niet uit, dan kunt u terecht bij Team Toegang. Het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs geeft advies over onderwijsondersteuning. Voor basisonderwijs is dat SWV Primair Onderwijs Noord-Limburg, voor voortgezet onderwijs Nijmegen Stromenland.",
+        "omschrijving": "Het ouder- en jeugdsteunpunt geeft advies over ondersteuning op school: voor basisonderwijs SWV Primair Onderwijs Noord-Limburg, voor voortgezet onderwijs Nijmegen Stromenland.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Heeft uw kind ook hulp buiten school nodig? Meld u aan bij Team Toegang.",
@@ -71,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst voor jeugd er in Gennep is, ook buiten kantooruren, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst jeugd en de meldpunten op de pagina van de gemeente over kindermishandeling, huiselijk geweld en crisis."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Gennep: kindermishandeling, huiselijk geweld en crisis jeugd",
@@ -200,7 +199,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Gennep: Jeugdwet",

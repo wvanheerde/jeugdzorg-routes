@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.gemeentebeek.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Beek meldt u zich voor jeugdhulp bij Team Jeugd van de gemeente. Een verwijzing is niet nodig. U kunt bellen, mailen of online melden met DigiD. De gemeente zegt binnen drie weken contact met u op te nemen. Daarna maakt u met een casemanager een plan voor uw gezin. Met lichtere vragen over opvoeden kunt u ook naar het wijkteam, met spreekuren in Beek, Neerbeek en Spaubeek. Ook de huisarts kan rechtstreeks verwijzen. In de Carmelwijk loopt een proef met één loket voor alle vragen over zorg, wonen en geld.",
+    "samenvatting": "In Beek meldt u zich voor jeugdhulp bij Team Jeugd van de gemeente; met lichtere vragen kunt u ook naar het wijkteam. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd en het wijkteam van de gemeente Beek",
-        "omschrijving": "Team Jeugd werkt voor de gemeente. Het team bespreekt uw vraag en maakt met u een plan voor het hele gezin. Is jeugdhulp nodig, dan regelt het team die met een schriftelijk besluit. Het wijkteam is er voor kortere vragen en hulp dicht bij huis, voor alle leeftijden. Daar werken maatschappelijk werk van Partners in Welzijn en een wijkverpleegkundige van Zuyderland samen.",
+        "omschrijving": "Team Jeugd maakt met u een plan voor het hele gezin en regelt zo nodig jeugdhulp met een schriftelijk besluit. Het wijkteam is er voor kortere vragen dicht bij huis, voor alle leeftijden, met spreekuren in Beek, Neerbeek en Spaubeek; er werken maatschappelijk werk van Partners in Welzijn en een wijkverpleegkundige van Zuyderland. In de Carmelwijk loopt een proef met één loket voor vragen over zorg, wonen en geld.",
         "stappen": [
-          "Meld uw vraag bij Team Jeugd. Bel, mail of gebruik het meldingsformulier van de gemeente (met DigiD).",
-          "Wacht op het eerste gesprek. Volgens de gemeente neemt Team Jeugd binnen drie weken contact op. Neem gerust iemand mee, bijvoorbeeld een meedenker (onafhankelijke cliëntondersteuner).",
-          "Maak samen met een casemanager een plan voor uw gezin. Vraag om een schriftelijk verslag.",
-          "Vraag om een schriftelijk besluit als jeugdhulp nodig is. Volgens de gemeente krijgt u dat binnen acht weken na uw aanvraag.",
-          "Praat u liever eerst dicht bij huis? Ga dan naar een spreekuur van het wijkteam, of bel het wijkteam."
+          "Meld uw vraag bij Team Jeugd: bel, mail of gebruik het meldingsformulier (met DigiD). Praat u liever eerst dicht bij huis, ga dan naar een spreekuur van het wijkteam.",
+          "Maak in het gesprek met een casemanager een plan voor uw gezin. U mag iemand meenemen.",
+          "Is jeugdhulp nodig, dan krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": [
           {
@@ -32,16 +30,17 @@
             "url": "https://www.gemeentebeek.nl/wijkteam",
             "openingstijden": "Spreekuren in Beek, Neerbeek en Spaubeek, zie de pagina van de gemeente"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens de gemeente neemt Team Jeugd binnen drie weken contact op, en krijgt u binnen acht weken na uw aanvraag een besluit."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Zuid-Limburg.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De jeugdarts werkt bij GGD Zuid-Limburg.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. Soms raadt de arts aan om eerst contact op te nemen met Team Jeugd.",
-          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract. Soms raadt de arts aan eerst Team Jeugd te bellen.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -53,10 +52,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Die steunpunten geven onafhankelijk advies over passend onderwijs. Voor jeugdhulp meldt u zich bij Team Jeugd.",
+        "omschrijving": "Begin bij school. Heeft uw kind meer hulp nodig dan school kan bieden, dan meldt u zich bij Team Jeugd.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan bij Team Jeugd.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -81,11 +79,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst jeugd er in Zuid-Limburg is, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Neem bij een dreigende crisis tijdens kantooruren contact op met Team Jeugd.",
-          "Kijk voor de crisisdienst buiten kantooruren op de pagina Crisishulp Jeugd Zuid-Limburg van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Beek: Crisishulp Jeugd Zuid-Limburg",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Holland Zuid",
   "websiteJeugd": "https://bonkelaarhuis.nl/advies-en-hulp/jongeren/",
   "toegang": {
-    "samenvatting": "In Sliedrecht is Het Bonkelaarhuis het startpunt voor vragen over opvoeden en opgroeien. Het is een stichting waarin onder meer het sociaal team en de jeugdteams van de regio samenwerken. U meldt uw kind zelf aan, een verwijzing is niet nodig. Het Bonkelaarhuis belooft binnen twee weken contact op te nemen voor een kennismakingsgesprek. Voor specialistische hulp neemt de gemeente een besluit. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het in de praktijk duurt voordat hulp start, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Sliedrecht meldt u zich bij Het Bonkelaarhuis, waarin onder meer het sociaal team en de jeugdteams samenwerken. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Het Bonkelaarhuis",
-        "omschrijving": "Het Bonkelaarhuis is het toegangsteam voor jeugdhulp in Sliedrecht. Het is gratis en u hoeft niet eerst naar de huisarts. Medewerkers denken met u mee over opvoeden en opgroeien en regelen zo nodig jeugdhulp. Voor specialistische hulp krijgt u een beschikking (besluit van de gemeente).",
+        "omschrijving": "Medewerkers denken gratis met u mee over opvoeden en opgroeien en regelen zo nodig jeugdhulp. Heeft u alleen een vraag, dan kunt u binnenlopen op de inloopmomenten of een afspraak maken.",
         "stappen": [
-          "Meld uw kind aan met het aanmeldformulier jeugd van Het Bonkelaarhuis. U mag het formulier mailen of afgeven op Bonkelaarplein 7.",
-          "Reken op contact binnen twee weken. Dat belooft Het Bonkelaarhuis. U krijgt dan een kennismakingsgesprek.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Leg afspraken schriftelijk vast.",
-          "Vraag specialistische hulp aan als uw kind die nodig heeft. U krijgt dan een schriftelijk besluit van de gemeente, volgens de verordening uiterlijk tien weken na uw aanvraag.",
-          "Loop binnen op de inloopmomenten of maak een afspraak als u alleen een vraag heeft of eerst wilt praten."
+          "Meld uw kind aan met het aanmeldformulier jeugd. U mag het mailen of afgeven op Bonkelaarplein 7.",
+          "Binnen twee weken neemt Het Bonkelaarhuis contact op voor een kennismakingsgesprek. U mag iemand meenemen.",
+          "Heeft uw kind specialistische hulp nodig, dan vraagt u die aan. U krijgt een schriftelijk besluit (beschikking) van de gemeente."
         ],
         "contact": {
           "naam": "Het Bonkelaarhuis",
@@ -25,16 +23,17 @@
           "url": "https://bonkelaarhuis.nl/contact/",
           "adres": "Bonkelaarplein 7, Sliedrecht",
           "openingstijden": "Ma t/m vr 8.30–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Het Bonkelaarhuis belooft binnen twee weken contact. Volgens de verordening beslist de gemeente uiterlijk tien weken na uw aanvraag; hoe lang het in de praktijk duurt, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Het Bonkelaarhuis. De jeugdarts werkt bij Jong JGZ, de jeugdgezondheidszorg in Zuid-Holland Zuid.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. De jeugdarts werkt bij Jong JGZ, de jeugdgezondheidszorg in Zuid-Holland Zuid.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van Jong JGZ.",
-          "De arts verwijst naar een aanbieder waar de regio een contract mee heeft.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van Jong JGZ.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de regio.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jong JGZ (jeugdgezondheidszorg 0-18 jaar)",
@@ -46,11 +45,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Schoolmaatschappelijk werkers van Het Bonkelaarhuis luisteren naar uw zorgen over uw kind. Ze helpen kind, ouders en leerkracht en verwijzen zo nodig door. Hun hulp is makkelijk te krijgen en kort. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Schoolmaatschappelijk werkers van Het Bonkelaarhuis geven korte hulp aan kind, ouders en leerkracht en verwijzen zo nodig door. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om het schoolmaatschappelijk werk, of meld uw kind zelf aan bij Het Bonkelaarhuis.",
-          "Is meer hulp nodig? Dan verwijst het schoolmaatschappelijk werk door naar het toegangsteam van Het Bonkelaarhuis of naar andere hulp.",
+          "Vraag school om het schoolmaatschappelijk werk.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -73,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente staat wat u kunt doen bij geweld in huis of zorgen over een kind.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Veilig Thuis van de gemeente Sliedrecht wat u kunt doen bij zorgen over geweld of kindermishandeling."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Sliedrecht: Veilig Thuis (geweld in huis en kindermishandeling)",

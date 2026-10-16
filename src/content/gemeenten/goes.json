@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zeeland",
   "websiteJeugd": "https://www.cjggoes.nl",
   "toegang": {
-    "samenvatting": "In Goes is het Centrum voor Jeugd en Gezin (CJG) de toegang tot jeugdhulp. Het CJG is een team van de gemeente met medewerkers jeugd. U meldt zich zelf aan, een verwijzing is niet nodig. Het CJG geeft advies en lichte hulp en verwijst zo nodig door naar een aanbieder. Ook de huisarts mag rechtstreeks verwijzen. Bij huisartsen in Goes werkt een medewerker van het CJG als praktijkondersteuner jeugd. Vanaf 2028 wil de gemeente één team voor alle leeftijden: het Stevig Lokaal Team. Hoe lang het duurt voor u een gesprek hebt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Goes meldt u zich bij het Centrum voor Jeugd en Gezin (CJG), het team van de gemeente voor jeugdhulp. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Goes",
-        "omschrijving": "Het CJG is het toegangsteam jeugd van de gemeente Goes. De medewerkers jeugd bekijken uw hulpvraag, geven advies en regelen zo nodig hulp. Het CJG geeft zelf geen specialistische zorg, maar verwijst door naar aanbieders. U kunt zich zelf aanmelden, ook als u twijfelt of uw vraag ‘groot genoeg’ is. Jongeren vanaf 16 jaar mogen ook zelf contact opnemen.",
+        "omschrijving": "De medewerkers jeugd bekijken uw vraag, geven advies en lichte hulp, en verwijzen zo nodig door naar een aanbieder. Jongeren vanaf 16 jaar mogen zelf contact opnemen. Vanaf 2028 wil de gemeente één team voor alle leeftijden: het Stevig Lokaal Team.",
         "stappen": [
-          "Meld u aan bij het CJG: bel, vul het contactformulier in of loop binnen tijdens kantooruren.",
-          "Bespreek uw vraag telefonisch met een medewerker (screener). Soms krijgt u meteen advies. Het CJG belt dan na een aantal weken om te vragen of het beter gaat.",
-          "Is meer nodig, dan volgt een uitgebreider gesprek met een medewerker jeugd, op het stadskantoor of bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak als u wilt met familie en vrienden een familiegroepsplan: een plan voor wie wat doet. Het CJG helpt daarbij als u erom vraagt.",
-          "Vraag aan het eind van het gesprek om een schriftelijk verslag. Vraagt u jeugdhulp aan, dan krijgt u van de gemeente een bevestiging en later een schriftelijk besluit (beschikking)."
+          "Bel, vul het contactformulier in of loop binnen tijdens kantooruren. Een medewerker bespreekt uw vraag eerst telefonisch; soms krijgt u meteen advies.",
+          "Is meer nodig, dan volgt een gesprek met een medewerker jeugd, op het stadskantoor of bij u thuis. U mag iemand meenemen.",
+          "Maak als u wilt een familiegroepsplan met familie en vrienden. Vraagt u jeugdhulp aan, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Goes",
@@ -25,17 +23,17 @@
           "url": "https://www.cjggoes.nl/contact",
           "adres": "M.A. de Ruijterlaan 2, Goes",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voor u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij verschillende huisartsen in Goes werkt een praktijkondersteuner jeugd van het CJG (POH Jeugd en Gezin).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij verschillende huisartsen in Goes werkt een praktijkondersteuner jeugd van het CJG (POH Jeugd en Gezin), die u een paar keer spreekt en zo nodig doorverwijst.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg (GGD).",
-          "Ga zo nodig eerst naar de praktijkondersteuner jeugd van het CJG. De huisarts kan u daarheen sturen. De praktijkondersteuner spreekt u een paar keer en verwijst zo nodig door.",
-          "Vraag de huisarts naar een aanbieder met een contract van de gemeente. Alleen daarnaar mag de huisarts verwijzen.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
+          "Vraag of de praktijkondersteuner jeugd kan helpen, of laat u verwijzen naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -56,10 +54,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School ziet vaak als eerste dat het niet goed gaat. De gemeente biedt ook ondersteuning op school. Komt u er met school niet uit, dan kunt u advies vragen bij het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs in Zeeland.",
+        "omschrijving": "School ziet vaak als eerste dat het niet goed gaat. De gemeente biedt ook ondersteuning op school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u zo nodig aan bij het CJG. School kan dat ook met u samen doen.",
+          "Vraag of school samen met u een aanmelding bij het CJG wil doen.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland."
         ],
         "contact": [
@@ -80,10 +78,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst het CJG buiten kantoortijd inschakelt, staat op de contactpagina van het CJG.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de contactpagina van het CJG voor crisishulp buiten kantoortijd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG Goes: bereikbaarheid en crisis",

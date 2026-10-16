@@ -4,17 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.heumen.nl/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Heumen is het Sociaal Team het eerste aanspreekpunt. Daarin werken ook de medewerkers jeugd van de gemeente. U meldt zich zelf aan met het aanmeldformulier, per e-mail of telefonisch. Een verwijzing is niet nodig. Volgens de gemeente neemt de medewerker jeugd binnen 10 werkdagen contact met u op. Het eerste gesprek is meestal bij u thuis. Bij vragen over de psychische gezondheid van uw kind kunt u ook naar de specialist jeugd-ggz van het Sociaal Team, zonder beschikking (besluit van de gemeente). De huisarts mag rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Hoe lang het in de praktijk duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Heumen meldt u zich bij het Sociaal Team, waarin de medewerkers jeugd van de gemeente werken. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Heumen (medewerkers jeugd)",
-        "omschrijving": "Het Sociaal Team is er voor vragen over opvoeden, opgroeien, problemen op school, de Wmo (hulp voor volwassenen), werk en inkomen. De medewerkers jeugd van de gemeente kijken samen met u en uw kind welke hulp past. Ze kunnen ook doorverwijzen naar andere organisaties. Bij het team werkt ook een specialist jeugd-ggz (geestelijke gezondheidszorg). U kunt die zonder verwijzing en gratis vragen om mee te denken.",
+        "omschrijving": "Het Sociaal Team helpt bij opvoeden, opgroeien, problemen op school, Wmo (hulp voor volwassenen), werk en inkomen. In het team werkt een specialist jeugd-ggz (geestelijke gezondheidszorg); die denkt gratis mee, zonder besluit van de gemeente.",
         "stappen": [
-          "Vul het aanmeldformulier voor kind, jeugd en gezin in op de website van de gemeente. U kunt ook bellen of mailen met het Sociaal Team.",
-          "Wacht op contact van de medewerker jeugd. Volgens de gemeente gebeurt dat binnen 10 werkdagen. Vraag bij uw aanmelding hoe lang het in uw situatie duurt.",
-          "Bereid het gesprek voor; dat is meestal bij u thuis (keukentafelgesprek). U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Heeft uw kind specialistische hulp nodig? Vraag dan om een schriftelijk besluit (beschikking) en om een verslag van het gesprek."
+          "Vul het aanmeldformulier voor kind, jeugd en gezin in, of bel of mail het Sociaal Team.",
+          "Bespreek uw vraag met de medewerker jeugd, meestal bij u thuis. U mag iemand meenemen.",
+          "Heeft uw kind specialistische hulp nodig? Dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Sociaal Team Heumen (medewerkers jeugd)",
@@ -23,16 +22,17 @@
           "url": "https://www.heumen.nl/sociaalteam",
           "adres": "Gemeentehuis, Kerkplein 6, Malden (op afspraak)",
           "openingstijden": "Telefonisch ma, di, wo en vr 9.00–11.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de gemeente neemt de medewerker jeugd binnen 10 werkdagen contact met u op. Hoe lang het in de praktijk duurt tot het eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De jeugdarts en jeugdverpleegkundige van de jeugdgezondheidszorg (consultatiebureau en schoolgezondheidszorg) zijn er voor vragen over de gezondheid en ontwikkeling van uw kind.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De jeugdarts en jeugdverpleegkundige (consultatiebureau en schoolgezondheidszorg) helpen bij vragen over gezondheid en ontwikkeling.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder, of adviseert u om het Sociaal Team te bellen.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -45,12 +45,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek uw zorgen eerst met de school. Komt u er samen niet uit, of gaat het over passend onderwijs, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Ook het Sociaal Team denkt mee over problemen op school.",
+        "omschrijving": "Bespreek uw zorgen eerst met school. Het Sociaal Team denkt ook mee over problemen op school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school welke ondersteuning zij kan bieden en laat afspraken op papier zetten.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Heeft uw kind ook hulp buiten school nodig? Meld u dan aan bij het Sociaal Team."
+          "Vraag school welke ondersteuning zij kan bieden.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -71,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Voor een kind in een onveilige situatie of bij zorgen over huiselijk geweld staat op de pagina van de gemeente meer informatie.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Huiselijk geweld van de gemeente wat u kunt doen bij zorgen over de veiligheid van een kind."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Heumen: huiselijk geweld en Veilig Thuis",

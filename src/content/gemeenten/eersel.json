@@ -4,17 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.kempengemeenten.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Eersel is CJG+ de Kempen de toegang tot jeugdhulp. CJG+ staat voor Centrum Jeugd en Gezin plus. Het werkt voor Eersel, Bergeijk, Bladel en Reusel-De Mierden. U meldt zich zelf aan, een verwijzing is niet nodig. U begint met het telefonisch spreekuur. Daar kijkt men of een kort advies genoeg is of dat een intakegesprek volgt. Daarna maakt een jeugd- en gezinswerker met u een plan. Zware of onveilige situaties gaan naar het Kempenteam voor jeugdhulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt tot de eerste hulp, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Eersel meldt u zich zelf bij CJG+ de Kempen (Centrum Jeugd en Gezin plus), dat werkt voor Eersel, Bergeijk, Bladel en Reusel-De Mierden. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG+ de Kempen (team Toegang en Lokaal Ondersteuningsteam)",
-        "omschrijving": "Het CJG+ regelt in Eersel de jeugdhulp namens de gemeente. Jeugd- en gezinswerkers geven advies, bieden zelf lichte hulp en regelen zo nodig specialistische hulp. In uw gemeente werken zij in het Lokaal Ondersteuningsteam (LOT). Is de situatie ingewikkeld of onveilig, dan neemt het Kempenteam voor jeugdhulp het over. Over specialistische hulp beslist de gemeente binnen tien weken na het intakegesprek.",
+        "omschrijving": "Jeugd- en gezinswerkers van het CJG+ werken in uw gemeente in het Lokaal Ondersteuningsteam (LOT). Zij geven advies, bieden zelf lichte hulp en regelen zo nodig specialistische hulp. Is de situatie zwaar of onveilig, dan neemt het Kempenteam voor jeugdhulp het over.",
         "stappen": [
-          "Bel het telefonisch spreekuur van het CJG+ met uw eerste vragen, of gebruik het contactformulier.",
-          "Bespreek met een jeugd- en gezinswerker of een kort advies genoeg is. Zo niet, dan volgt een intakegesprek met u en uw kind. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een ondersteuningsplan. Een jeugd- en gezinswerker voert het plan met u uit. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking).",
-          "Vraag na het gesprek om het verslag en het plan op papier."
+          "Bel het telefonisch spreekuur van het CJG+ of gebruik het contactformulier.",
+          "Bespreek of een kort advies genoeg is. Zo niet, dan volgt een intakegesprek met u en uw kind. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan; een jeugd- en gezinswerker voert het met u uit. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "CJG+ de Kempen (Centrum Jeugd en Gezin, team Toegang)",
@@ -22,16 +21,17 @@
           "email": "info@cjgplusdekempen.nl",
           "url": "https://www.kempengemeenten.nl/contact-centrum-jeugd-en-gezin",
           "openingstijden": "Telefonisch op werkdagen 10.00–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Over specialistische hulp beslist de gemeente binnen tien weken na het intakegesprek. Hoe lang het tot de eerste hulp duurt, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast het CJG+. Er was een proef met CJG+-medewerkers in huisartsenpraktijken. Volgens de gemeente werkte die goed. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen. Kiest u een aanbieder zonder contract, dan kan de gemeente weigeren te betalen als een aanbieder met contract dezelfde hulp kan bieden. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van de GGD.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente. Kiest u een aanbieder zonder contract, dan kan de gemeente weigeren te betalen als een aanbieder met contract dezelfde hulp kan bieden.",
-          "De arts meldt de verwijzing bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente.",
+          "De arts meldt de verwijzing bij de gemeente; u hoeft zelf geen aanvraag te doen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -43,10 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Het CJG+ werkt met het team Samen Doen op basis- en middelbare scholen in de Kempen. Komt u er met school niet uit over passend onderwijs, dan helpen de ouder- en jeugdsteunpunten van de samenwerkingsverbanden. Voor de basisschool is dat Passend Onderwijs De Kempen, voor de middelbare school het steunpunt regio Zuidoost-Brabant.",
+        "omschrijving": "Het CJG+ werkt met het team Samen Doen op basis- en middelbare scholen in de Kempen. Voor de basisschool is het steunpunt van Passend Onderwijs De Kempen, voor de middelbare school het steunpunt regio Zuidoost-Brabant.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het CJG+ of het team Samen Doen kan betrekken, of meld u zelf aan bij het CJG+.",
+          "Vraag of school het CJG+ of het team Samen Doen kan betrekken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -72,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst voor jeugd er in de Kempen is en wanneer die bereikbaar is, staat op de pagina van de Kempengemeenten.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de jeugdcrisisdienst van de Kempen op de pagina Jeugdhulp Crisis Interventie Team."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Samenwerking Kempengemeenten: Jeugdhulp Crisis Interventie Team",

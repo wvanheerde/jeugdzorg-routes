@@ -5,17 +5,16 @@
   "jeugdzorgregio": "West-Friesland",
   "websiteJeugd": "https://www.hoorn.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Hoorn vraagt u jeugdhulp aan bij 1.Hoorn. Dat is het loket van de gemeente voor opvoeden, zorg, geldzaken en meedoen. Voor jeugdhulp werken drie gebiedsteams in de wijken. U meldt u zelf aan, via het formulier, telefonisch of op een inloopspreekuur. Ook huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Bij uw aanmelding krijgt u één vaste contactpersoon. Die maakt samen met u een perspectiefplan: wat is uw vraag, welke doelen zijn er en wat kunt u zelf doen. Voor specialistische hulp is dat plan de basis voor de verwijzing en het besluit van de gemeente.",
+    "samenvatting": "In Hoorn meldt u zich zonder verwijzing bij 1.Hoorn, het loket van de gemeente, met drie gebiedsteams voor jeugdhulp in de wijken. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "1.Hoorn (gebiedsteams)",
-        "omschrijving": "1.Hoorn is er voor inwoners van alle leeftijden. Eerst kijkt de medewerker wat u en uw omgeving zelf kunnen. Soms is een gesprek of advies genoeg, bijvoorbeeld van een opvoedadviseur. Is meer nodig, dan komt er meestal een huisbezoek en maakt u samen een perspectiefplan. Voor specialistische jeugdhulp neemt de gemeente een besluit (beschikking). U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "omschrijving": "Soms is een gesprek of advies genoeg, bijvoorbeeld van een opvoedadviseur. Is meer nodig, dan komt er meestal een huisbezoek en maakt u met een vaste contactpersoon een perspectiefplan: uw vraag, de doelen en wat u zelf kunt. Dat plan is de basis voor het besluit (beschikking) over specialistische jeugdhulp.",
         "stappen": [
-          "Meld u aan via het aanmeldformulier op hoorn.nl, bel 1.Hoorn (ma-vr 9.00-17.00 uur) of loop binnen bij een inloopspreekuur.",
-          "Wacht op de bevestiging per e-mail. Een medewerker belt u voor een afspraak, bij u thuis of op een andere plek.",
-          "Bespreek met uw vaste contactpersoon wat er speelt, wat u zelf kunt en welke hulp past. Maak samen een perspectiefplan.",
-          "Vraag om het perspectiefplan en een schriftelijk verslag. Bij specialistische hulp krijgt u een beschikking: het besluit met welke hulp, hoeveel en hoe lang."
+          "Meld u aan via het aanmeldformulier op hoorn.nl, bel 1.Hoorn of loop binnen bij een inloopspreekuur.",
+          "U krijgt een bevestiging per e-mail. Een medewerker belt u voor een afspraak, bij u thuis of op een andere plek. U mag iemand meenemen.",
+          "Maak samen met uw vaste contactpersoon een perspectiefplan."
         ],
         "contact": {
           "naam": "1.Hoorn",
@@ -25,16 +24,16 @@
           "adres": "Stadhuis, Nieuwe Steen 1, 1625 HV Hoorn (melden bij de balie)",
           "openingstijden": "Telefonisch ma-vr 9.00-17.00 uur. Inloopspreekuur jeugdhulp, Wmo en geld, zonder afspraak: dinsdag 15.00-17.00 uur, woensdag en donderdag 9.00-11.00 uur."
         },
-        "doorlooptijd": "De gemeente besluit uiterlijk binnen acht weken op een aanvraag (artikel 4.1 Verordening jeugdhulp). Het eerste contact telt al als aanvraag. Rond de zomervakantie en het einde van het jaar kan het langer duren voor u een intakegesprek krijgt, volgens de rekenkamer tot één à twee maanden."
+        "doorlooptijd": "Het eerste contact telt al als aanvraag, en de gemeente besluit uiterlijk binnen acht weken. Rond de zomervakantie en het einde van het jaar kan het volgens de rekenkamer één à twee maanden duren voor u een intakegesprek krijgt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd (POH-jeugd) die u eerst kan helpen. Bij een verwijzing door de huisarts maakt de zorgaanbieder zelf het perspectiefplan en vraagt de beschikking aan.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd (POH-jeugd) die u eerst kan helpen. Na een verwijzing maakt de zorgaanbieder zelf het perspectiefplan en vraagt de beschikking aan.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. In de Beschikbaarheidswijzer ziet u welke aanbieders dat zijn.",
-          "Laat de aanbieder het perspectiefplan maken en de start van de hulp aan de gemeente doorgeven. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente. Die staan in de Beschikbaarheidswijzer.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -46,11 +45,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over leren, gedrag of schoolgang? Dan kan school meedenken en contact leggen met 1.Hoorn. U mag zich ook zelf aanmelden bij 1.Hoorn.",
+        "omschrijving": "Bij zorgen over leren, gedrag of schoolgang kan school meedenken en contact leggen met 1.Hoorn.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om contact met 1.Hoorn, of meld u zelf aan via het aanmeldformulier.",
-          "Vraag aan school en 1.Hoorn om samen één plan te maken, zodat u niet bij elk gesprek opnieuw begint.",
+          "Vraag school en 1.Hoorn om samen één plan te maken, zodat u niet bij elk gesprek opnieuw begint.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -74,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Hoorn op de pagina Veilig thuis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Hoorn: Veilig thuis",

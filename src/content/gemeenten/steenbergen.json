@@ -5,17 +5,16 @@
   "jeugdzorgregio": "West-Brabant West",
   "websiteJeugd": "https://vraagwijzer.gemeente-steenbergen.nl/jeugd_en_gezin/hulp_bij_het_opvoeden",
   "toegang": {
-    "samenvatting": "In Steenbergen begint u bij Vraagwijzer, het loket van de gemeente voor vragen over opvoeden, gezondheid, zorg en werk. Voor opgroeien en opvoeden werkt Vraagwijzer samen met Team Jeugd: jeugdprofessionals, jongerenwerkers, jeugdverpleegkundigen en sportcoaches. U meldt zich zelf aan, een verwijzing is niet nodig. Na een intake krijgt u één vaste jeugdprofessional en maakt u samen één plan. Is meer hulp nodig, dan regelt de gemeente die of verwijst de professional naar specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een jeugdprofessional krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Steenbergen meldt u zich zonder verwijzing bij Vraagwijzer, het loket van de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Vraagwijzer en Team Jeugd",
-        "omschrijving": "Vraagwijzer is het loket van de gemeente. Team Jeugd helpt ouders, verzorgers en kinderen tot 18 jaar met vragen over opvoeden, opgroeien en gezondheid. Bij een vraag volgt een intake. Soms is één gesprek genoeg, soms volgen gesprekken thuis of een training voor uw kind. Is er meer nodig, dan beslist de gemeente over de hulp en krijgt u een beschikking (schriftelijk besluit).",
+        "omschrijving": "Voor opvoeden en opgroeien werkt Vraagwijzer samen met Team Jeugd: jeugdprofessionals, jongerenwerkers, jeugdverpleegkundigen en sportcoaches, voor kinderen tot 18 jaar. Soms is één gesprek genoeg, soms volgen gesprekken thuis of een training voor uw kind. Is er meer nodig, dan beslist de gemeente en krijgt u een beschikking (schriftelijk besluit).",
         "stappen": [
-          "Neem contact op met Vraagwijzer voor een intake. Bel, stuur een WhatsApp-bericht of vul het contactformulier in.",
-          "Bespreek uw vraag met de medewerker van Vraagwijzer. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Krijgt u hulp van Team Jeugd? Dan krijgt u één vaste jeugdprofessional. Maak samen één plan voor uw vragen.",
-          "Is specialistische hulp nodig? Vraag die dan aan, of laat de jeugdprofessional u doorverwijzen. Vraag om een schriftelijk besluit en om een kopie van het plan."
+          "Bel Vraagwijzer, stuur een WhatsApp-bericht of vul het contactformulier in voor een intake.",
+          "Bespreek uw vraag in de intake. U mag iemand meenemen.",
+          "Krijgt u hulp van Team Jeugd? Dan krijgt u één vaste jeugdprofessional en maakt u samen één plan. Die verwijst zo nodig door naar specialistische hulp."
         ],
         "contact": {
           "naam": "Vraagwijzer (gemeente Steenbergen)",
@@ -24,16 +23,17 @@
           "url": "https://vraagwijzer.gemeente-steenbergen.nl/contact/neem_contact_op/",
           "adres": "Fabrieksdijk 6, Steenbergen",
           "openingstijden": "Telefonisch maandag tot en met donderdag 8.30–17.00 uur, vrijdag 8.30–12.00 uur. WhatsApp kan ook, via het nummer op de website."
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een jeugdprofessional krijgt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Vraagwijzer. De huisarts kan u ook doorverwijzen naar Vraagwijzer, bijvoorbeeld voor begeleiding door een jeugdprofessional of een training.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De huisarts kan u ook naar Vraagwijzer sturen, bijvoorbeeld voor begeleiding of een training.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar Vraagwijzer.",
-          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract, of naar Vraagwijzer.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD West-Brabant",
@@ -45,12 +45,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft uw kind moeite op school? Begin bij de leerkracht of intern begeleider (basisschool) of de mentor (voortgezet onderwijs). Kan de school de hulp niet bieden, dan helpt het samenwerkingsverband passend onderwijs Brabantse Wal. Het Ouder- en jeugdsteunpunt van het samenwerkingsverband geeft ouders advies. Gaat het om meer dan school, dan kunt u terecht bij Vraagwijzer.",
+        "omschrijving": "Begin bij de leerkracht of intern begeleider (basisschool) of de mentor (voortgezet onderwijs). Kan de school de hulp niet bieden, dan helpt het samenwerkingsverband passend onderwijs Brabantse Wal. Gaat het om meer dan school, dan kunt u terecht bij Vraagwijzer.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, intern begeleider of mentor. Lees in de schoolgids welke hulp de school zelf biedt.",
-          "Kan de school de hulp niet bieden? Vraag de school om het samenwerkingsverband in te schakelen.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Gaat het ook over opvoeden of thuis? Meld u aan bij Vraagwijzer."
+          "Bespreek uw zorgen met school. In de schoolgids staat welke hulp de school zelf biedt.",
+          "Kan de school de hulp niet bieden? Vraag de school het samenwerkingsverband in te schakelen.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -72,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst er in West-Brabant is, staat op de pagina Crisis van Vraagwijzer.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst in West-Brabant op de pagina Crisis van Vraagwijzer."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Steenbergen (Vraagwijzer): crisis",

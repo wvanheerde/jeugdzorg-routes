@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Twente",
   "websiteJeugd": "https://www.twenterand.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Twenterand zijn er twee ingangen. Met vragen over opvoeden en opgroeien gaat u zonder verwijzing naar het CJG-loket Loes (Centrum voor Jeugd en Gezin). Dat zit in het Zorginformatiepunt van ZorgSaam Twenterand. Heeft uw kind meer hulp nodig, dan meldt u zich zelf bij het Team Jeugdhulpconsulenten van de gemeente. Zij zoeken met u naar een oplossing en regelen de hulp. Ook de huisarts mag rechtstreeks verwijzen. Bij bijna alle huisartsen werkt een praktijkondersteuner jeugd, voor kinderen en jongeren tot 23 jaar. Hoe lang het duurt voordat u hulp krijgt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Twenterand kunt u zonder verwijzing met opvoedvragen naar het CJG-loket Loes van ZorgSaam Twenterand, en voor meer hulp naar het Team Jeugdhulpconsulenten van de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugdhulpconsulenten van de gemeente, met het CJG-loket Loes",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. U kunt bij hen terecht met alle vragen over opvoeden en opgroeien. Zij werken samen met hulpverleners in uw kern. Zij beslissen of uw kind jeugdhulp krijgt en regelen die hulp met een beschikking (besluit van de gemeente). U meldt zich zelf aan, een verwijzing is niet nodig. Voor lichtere vragen kunt u naar het CJG-loket Loes van ZorgSaam Twenterand, tot 23 jaar.",
+        "omschrijving": "De medewerkers jeugd van de gemeente helpen bij alle vragen over opvoeden en opgroeien en werken samen met hulpverleners in uw kern. Zij beslissen of uw kind jeugdhulp krijgt en regelen die met een beschikking (besluit van de gemeente). Voor lichtere vragen, tot 23 jaar, kunt u naar het CJG-loket Loes in het Zorginformatiepunt van ZorgSaam Twenterand.",
         "stappen": [
           "Neem contact op met het Team Jeugdhulpconsulenten, of vul het meldformulier jeugdhulp van de gemeente in (met DigiD).",
-          "De medewerker jeugd bespreekt met u wat er speelt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "De medewerker jeugd kijkt eerst wat u zelf of uw netwerk kunt doen, en welke lichte hulp er in uw kern is. Daarna bekijkt de medewerker jeugd of specialistische hulp nodig is.",
-          "Is dat zo, dan krijgt u een schriftelijk besluit. Vraag ook om een schriftelijk verslag van het gesprek.",
-          "Wilt u liever eerst advies over opvoeden? Ga naar het CJG-loket Loes in het Zorginformatiepunt van ZorgSaam Twenterand."
+          "Bespreek met de medewerker jeugd wat er speelt en welke lichte hulp er in uw kern is. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit."
         ],
         "contact": [
           {
@@ -32,17 +30,17 @@
             "url": "https://www.zorgsaamtwenterand.nl/contact/",
             "adres": "Zorginformatiepunten in Vriezenveen, Vroomshoop, Westerhaar en Den Ham"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u hulp krijgt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio Twente heeft ingekocht. Dit is een gelijkwaardige route naast het Team Jeugdhulpconsulenten. Bij bijna alle huisartsen in Twenterand werkt een praktijkondersteuner jeugd. Die biedt kinderen en jongeren tot 23 jaar korte, lichte hulp en helpt bij het vinden van passende zorg.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract in Twente; alleen dan betaalt de gemeente. Bij bijna alle huisartsen werkt een praktijkondersteuner jeugd, die kinderen en jongeren tot 23 jaar korte, lichte hulp biedt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de huisarts naar de praktijkondersteuner jeugd, of om een verwijzing naar een aanbieder met een contract.",
-          "Vraag de huisarts of de aanbieder een contract heeft in Twente. Alleen dan betaalt de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag naar de praktijkondersteuner jeugd, of om een verwijzing naar een aanbieder met een contract in Twente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -53,12 +51,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Bij een vermoeden van dyslexie (7 tot 12 jaar, basisschool) regelt school de aanvraag. U hoeft uw kind dan niet bij de gemeente aan te melden. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Er is een steunpunt voor de basisschool en een voor de middelbare school.",
+        "omschrijving": "Bij een vermoeden van dyslexie (7 tot 12 jaar, basisschool) regelt school de aanvraag van onderzoek en behandeling. U hoeft uw kind dan niet bij de gemeente aan te melden. Er is een ouder- en jeugdsteunpunt voor de basisschool en een voor de middelbare school.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vermoedt u dyslexie? Bespreek dat met school. School regelt de aanvraag van onderzoek en behandeling.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Is er ook hulp thuis of buiten school nodig? Neem contact op met het Team Jeugdhulpconsulenten."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, ook als u dyslexie vermoedt.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -84,10 +80,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De gemeente heeft geen eigen crisispagina voor jeugd. Bij huiselijk geweld of kindermishandeling verwijst de gemeente naar Veilig Thuis Twente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Maakt u zich zorgen over de veiligheid van een kind? Kijk op de pagina Veilig Thuis Twente van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Twenterand: Veilig Thuis Twente",

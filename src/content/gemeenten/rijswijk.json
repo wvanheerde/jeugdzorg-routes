@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.rijswijk.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Rijswijk is het Jeugdteam van de gemeente de ingang voor jeugdhulp. De medewerkers (medewerkers jeugd) werken voor de gemeente. Zij geven advies, onderzoeken uw vraag en nemen het besluit over specialistische hulp. U kunt zich zelf aanmelden; een verwijzing is niet nodig. Voor advies over opvoeden, geld of wonen kunt u ook terecht bij Steunpunt Rijswijk, zonder afspraak in het inloopspreekuur. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd van het Jeugdteam. De gemeente kijkt tegenwoordig strenger of specialistische hulp nodig is en of verlenging nodig blijft. Hoe lang het duurt voordat het Jeugdteam uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Rijswijk meldt u zich zelf bij het Jeugdteam van de gemeente; een verwijzing is niet nodig. Voor advies kunt u ook zonder afspraak binnenlopen bij Steunpunt Rijswijk, of u gaat via de huisarts, jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugdteam van de gemeente, met Steunpunt Rijswijk",
-        "omschrijving": "Het Jeugdteam geeft advies over opgroeien en opvoeden, zoekt met u naar passende hulp en beoordeelt of uw kind jeugdhulp krijgt. Het team werkt voor de gemeente. U kunt zich zelf aanmelden; een verwijzing is niet nodig. Met vragen over opvoeden, geld, wonen of werk kunt u ook zonder afspraak binnenlopen bij Steunpunt Rijswijk. Dat steunpunt heette tot 2026 Centrum voor Jeugd en Gezin (CJG).",
+        "omschrijving": "Het Jeugdteam geeft advies, zoekt met u naar passende hulp en beslist over specialistische jeugdhulp. De gemeente kijkt strenger of die hulp nodig is en of verlenging nodig blijft. Bij Steunpunt Rijswijk (tot 2026 het CJG) loopt u zonder afspraak binnen met vragen over opvoeden, geld, wonen of werk.",
         "stappen": [
-          "Stel uw vraag aan het Jeugdteam via het contactformulier, per mail of telefonisch. Kies zelf hoe de medewerker contact met u opneemt.",
-          "Wilt u jeugdhulp aanvragen? Vul het aanvraagformulier in met uw DigiD. Een medewerker neemt contact met u op en adviseert wat het beste past.",
-          "Vraag de medewerker om een schriftelijk verslag van het gesprek. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking). U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Let op toestemming. Is uw kind 12 jaar of ouder, dan moet het zelf ook toestemming geven. Voor jeugdhulp waarover het Jeugdteam een besluit neemt, moeten beide ouders met gezag toestemming geven.",
-          "Liever eerst advies? Loop binnen bij Steunpunt Rijswijk of bel het Steunpunt."
+          "Stel uw vraag via het contactformulier, per mail of telefonisch, of vraag jeugdhulp aan met het aanvraagformulier en DigiD. Een medewerker neemt contact met u op.",
+          "Vertel in het gesprek wat er speelt. U mag iemand meenemen. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking).",
+          "Let op toestemming: een kind van 12 jaar of ouder moet zelf ook toestemming geven. Voor hulp waarover het Jeugdteam beslist, moeten beide ouders met gezag toestemming geven."
         ],
         "contact": [
           {
@@ -32,16 +30,17 @@
             "url": "https://www.steunpuntrijswijk.nl",
             "openingstijden": "Gratis inloopspreekuur ma en do 10.15–16.00 uur (Wijkcentrum Stervoorde) en di 9.00–12.00 uur (Huis van de stad, Bibliotheek). Zonder afspraak"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat het Jeugdteam uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd. Dat is een medewerker jeugd van het Jeugdteam die lichtere hulp kan bieden. De gemeente is van plan met huisartsen af te spreken wanneer doorverwijzen nodig is.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd van het Jeugdteam, die lichtere hulp geeft.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg (JGZ).",
-          "Laat u door de huisarts verwijzen: eerst naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "De huisarts verwijst u naar de praktijkondersteuner jeugd of naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "JGZ Zuid-Holland West (jeugdgezondheidszorg)",
@@ -54,12 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Veel problemen worden zichtbaar op school. Het Jeugdteam heeft medewerkers jeugd die op scholen werken en samen met school kijken welke hulp past. Komt u er met school niet uit, dan geven de samenwerkingsverbanden passend onderwijs advies. Zij hebben een Ouder- en Jeugdsteunpunt.",
+        "omschrijving": "Medewerkers jeugd van het Jeugdteam werken op scholen en kijken samen met school welke hulp past. Komt u er met school niet uit, dan geeft het Ouder- en Jeugdsteunpunt van het samenwerkingsverband advies.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de medewerker jeugd van het Jeugdteam op school kan meekijken, of meld uw kind zelf aan bij het Jeugdteam.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband.",
-          "Zit uw kind in het voortgezet onderwijs? Neem dan contact op met het samenwerkingsverband voor het voortgezet onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of de medewerker jeugd op school kan meekijken.",
+          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband: SPPOH voor de basisschool, SWV Zuid-Holland West voor het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -86,11 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Krijgt uw kind al hulp, dan weet de zorgaanbieder welke crisisdiensten er verder zijn.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Heeft u zorgen over een kind en weet u niet wat u kunt doen? Vraag advies bij het Jeugdteam of Steunpunt Rijswijk.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina over kindermishandeling van Veilig Thuis Haaglanden; daar staat ook wat u doet bij direct gevaar."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Haaglanden: kindermishandeling",

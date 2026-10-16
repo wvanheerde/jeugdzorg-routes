@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Midden-IJssel/Oost-Veluwe",
   "websiteJeugd": "https://www.voorst.nl/jeugd-onderwijs-gezin/centrum-voor-jeugd-gezin-cjg",
   "toegang": {
-    "samenvatting": "In Voorst loopt bijna alle jeugdhulp via het Centrum voor Jeugd en Gezin (CJG) in het gemeentehuis in Twello. De medewerkers jeugd van het CJG werken voor de gemeente. U meldt zich zelf aan; een verwijzing is niet nodig. Het CJG geeft eerst advies en lichte hulp zonder besluit, bijvoorbeeld via het Opvoedsteunpunt. Is meer hulp nodig, dan maakt het CJG met u een gezinsplan en vraagt het de hulp aan. U kunt ook via de huisarts, de jeugdarts of de medisch specialist gaan. Hoe lang het duurt voordat het CJG uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Voorst meldt u zich bij het Centrum voor Jeugd en Gezin (CJG) van de gemeente, in het gemeentehuis in Twello. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG Voorst (Centrum voor Jeugd en Gezin)",
-        "omschrijving": "Het CJG is het toegangsteam voor jeugdhulp in Voorst, voor kinderen en jongeren tot 23 jaar en hun ouders. De medewerkers jeugd werken voor de gemeente. Zij kijken eerst of lichte hulp genoeg is, zoals het Opvoedsteunpunt, schoolmaatschappelijk werk of vrijwilligers. Daarvoor is geen besluit (beschikking) nodig. Is meer nodig, dan maken zij één plan voor het hele gezin en regelen zij de jeugdhulp. In het CJG werken ook een jeugdarts en een gedragswetenschapper mee.",
+        "omschrijving": "Het CJG is er voor kinderen en jongeren tot 23 jaar en hun ouders. Medewerkers jeugd kijken eerst of lichte hulp genoeg is, zoals het Opvoedsteunpunt, schoolmaatschappelijk werk of vrijwilligers; daarvoor is geen besluit nodig. Is meer nodig, dan maken zij één plan voor het hele gezin; ook een jeugdarts en een gedragswetenschapper werken mee.",
         "stappen": [
-          "Bel of mail het CJG Voorst met uw vraag. U hoeft niet verwezen te zijn.",
-          "Laat het CJG met u meedenken. Soms is advies of een paar gesprekken bij het Opvoedsteunpunt genoeg.",
-          "Is meer hulp nodig? Bespreek uw vraag dan met een medewerker jeugd en maak samen een gezinsplan. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om het gezinsplan op papier. Voor specialistische hulp krijgt u een schriftelijk besluit van de gemeente."
+          "Bel of mail het CJG Voorst met uw vraag.",
+          "Laat het CJG meedenken. Soms zijn advies of een paar gesprekken bij het Opvoedsteunpunt genoeg.",
+          "Is meer hulp nodig? Maak met een medewerker jeugd een gezinsplan. U mag iemand meenemen. Voor specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Voorst",
@@ -24,16 +23,17 @@
           "url": "https://www.cjgvoorst.nl/pagina/contact/53908",
           "adres": "H.W. Iordensweg 17, Twello",
           "openingstijden": "Telefonisch werkdagen 8.30–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het CJG uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als die via het CJG. De jeugdgezondheidszorg (JGZ) geeft advies en kan doorverwijzen. Voor kinderen van 0 tot 4 jaar is dat Vérian (consultatiebureau), vanaf 4 jaar de GGD Noord- en Oost-Gelderland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De jeugdarts werkt voor kinderen tot 4 jaar bij Vérian (consultatiebureau), vanaf 4 jaar bij de GGD Noord- en Oost-Gelderland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder waar de gemeente een contract mee heeft.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -53,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de scholen in Voorst werkt schoolmaatschappelijk werk van Stimenz. Het is gratis, voor leerlingen van basisschool en middelbare school en hun ouders. Een afspraak maakt u via het CJG. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat IJssel/Berkel, voor de middelbare school SWV VO 2505.",
+        "omschrijving": "Op de scholen in Voorst werkt gratis schoolmaatschappelijk werk van Stimenz, voor basisschool en middelbare school. Een afspraak maakt u via het CJG. Het ouder- en jeugdsteunpunt is voor de basisschool van IJssel/Berkel, voor de middelbare school van SWV VO 2505.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag om schoolmaatschappelijk werk. U kunt ook zelf een afspraak maken via het CJG. Een verwijzing is niet nodig.",
-          "Is meer hulp nodig? Vraag dan het CJG om het over te nemen.",
+          "Vraag om schoolmaatschappelijk werk, of maak zelf een afspraak via het CJG.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -85,10 +84,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst er in Voorst is, ook voor een kind in een onveilige situatie, staat op de pagina Er is crisis van het CJG Voorst.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Er is crisis van het CJG Voorst welke crisisdienst u kunt bellen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG Voorst: Er is crisis",

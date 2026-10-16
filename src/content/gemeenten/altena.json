@@ -4,35 +4,33 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.gemeentealtena.nl/onsaltena/jeugd",
   "toegang": {
-    "samenvatting": "In Altena is OnS Altena de ingang voor vragen over jeugdhulp, zorg en geld. U meldt zich zelf aan; een verwijzing is niet nodig. Voor korte hulp bij opvoeden (4 tot 18 jaar) loopt de aanmelding via de huisarts, of u belt OnS Altena. Maakt school zich zorgen, dan loopt het via de verbindingsfunctionaris op school. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat OnS Altena uw aanmelding oppakt, is niet openbaar te vinden. De gemeente werkt aan kortere wachttijden. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Altena meldt u zich bij OnS Altena, het team van de gemeente voor jeugdhulp, zorg en geld. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "OnS Altena",
-        "omschrijving": "OnS Altena is het toegangsteam van de gemeente voor jeugdhulp, de Wmo (hulp bij zelfstandig leven) en geldzaken. De medewerkers jeugd geven korte hulp bij opvoeden en opgroeien, meestal 5 tot 8 gesprekken. Zijn de vragen ingewikkelder, dan helpt team Regie met overzicht en een vast aanspreekpunt. Krijgt uw kind al jeugdhulp, dan houden medewerkers contact en kijken ze of de hulp nog past. Is zwaardere hulp nodig, dan regelt OnS Altena die.",
+        "omschrijving": "Medewerkers jeugd geven zelf korte hulp bij opvoeden en opgroeien, meestal 5 tot 8 gesprekken. Is meer nodig, dan regelt OnS Altena zwaardere hulp. Bij ingewikkelde vragen krijgt u via team Regie een vast aanspreekpunt.",
         "stappen": [
-          "Stel uw hulpvraag online, vul het contactformulier in of bel OnS Altena. Een medewerker jeugd neemt daarna contact met u op.",
-          "Vertel waar u hulp bij nodig heeft. Vaak komt een medewerker bij u thuis. Een gesprek op school, bij de kinderopvang of in het dorpshuis kan ook.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een ondersteuningsplan. Is jeugdhulp nodig, dan krijgt u een schriftelijk besluit (beschikking).",
-          "Vraag bij uw aanmelding hoe lang het duurt, en leg afspraken schriftelijk vast."
+          "Stel uw vraag online, via het contactformulier of telefonisch. Een medewerker jeugd neemt contact met u op.",
+          "In een gesprek, vaak bij u thuis, vertelt u waar u hulp bij nodig heeft. U mag iemand meenemen.",
+          "U maakt samen een plan. Is jeugdhulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "OnS Altena (gemeente Altena)",
           "telefoon": "0183 516 060",
           "email": "ons@gemeentealtena.nl",
           "url": "https://www.gemeentealtena.nl/contact-en-openingstijden"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat OnS Altena uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast OnS Altena. Voor korte hulp bij opvoeden verloopt de aanmelding via de huisartsenpraktijk. Bij veel huisartsen houden medewerkers van OnS Altena spreekuur.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. U hoeft dan niet eerst naar OnS Altena. Bij veel huisartsen houdt OnS Altena spreekuur.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Laat u door de huisarts verwijzen naar de korte hulp van de medewerkers jeugd, of naar een aanbieder met een contract bij de gemeente.",
-          "Heeft uw huisarts geen spreekuur van OnS Altena? Meld u dan aan bij OnS Altena.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar de korte hulp van OnS Altena (4 tot 18 jaar) of naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -40,32 +38,18 @@
             "telefoon": "088 639 2051",
             "url": "https://www.ggdwestbrabant.nl/mijn-kind",
             "openingstijden": "Werkdagen 8.30–17.00 uur"
-          },
-          {
-            "naam": "OnS Altena (gemeente Altena)",
-            "telefoon": "0183 516 060",
-            "email": "ons@gemeentealtena.nl",
-            "url": "https://www.gemeentealtena.nl/contact-en-openingstijden"
           }
         ]
       },
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle scholen in Altena werkt een verbindingsfunctionaris onderwijs en jeugdhulp. Die geeft advies, denkt mee en zorgt voor een goede verbinding tussen school en jeugdhulp. Aanmelden voor deze hulp gaat altijd via de school. Heeft uw kind onderzoek naar dyslexie nodig, dan vraagt u dat via school of OnS Altena. Welk samenwerkingsverband bij uw kind hoort, hangt af van de school en de plaats waar die staat. Vraag het aan school.",
+        "omschrijving": "Op elke school in Altena werkt een verbindingsfunctionaris onderwijs en jeugdhulp. Die denkt mee en legt de lijn naar jeugdhulp. Onderzoek naar dyslexie vraagt u aan via school of OnS Altena.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school om de verbindingsfunctionaris onderwijs en jeugdhulp in te schakelen.",
-          "Schakel OnS Altena in als meer hulp nodig is. U kunt zich daar ook zelf aanmelden.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar de verbindingsfunctionaris.",
+          "Komt u er met school niet uit? Dan geeft het ouder- en jeugdsteunpunt van het samenwerkingsverband advies. School weet welk samenwerkingsverband bij uw kind hoort."
         ],
         "contact": [
-          {
-            "naam": "OnS Altena (gemeente Altena)",
-            "telefoon": "0183 516 060",
-            "email": "ons@gemeentealtena.nl",
-            "url": "https://www.gemeentealtena.nl/contact-en-openingstijden"
-          },
           {
             "naam": "Ouder- en jeugdsteunpunt SWV Driegang (basisonderwijs)",
             "telefoon": "0183 624915",
@@ -88,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten en meldpunten er verder zijn, staat op de pagina Hulp is dichtbij van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Altena op de pagina Hulp is dichtbij van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Altena: Hulp is dichtbij (spoed en crisis)",

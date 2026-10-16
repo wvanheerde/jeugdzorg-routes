@@ -5,33 +5,33 @@
   "jeugdzorgregio": "Noord-Limburg",
   "websiteJeugd": "https://www.horstaandemaas.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Horst aan de Maas stelt u uw hulpvraag rechtstreeks aan de gemeente, via een online formulier of telefonisch. Een verwijzing is niet nodig. De gemeente belooft u binnen 3 tot 5 werkdagen terug te bellen om uw vraag te bespreken. Soms lukt het met hulp van familie, vrienden of school. Is hulp via de gemeente nodig, dan maakt een medewerker jeugd een afspraak: op het gemeentehuis, bij u thuis of elders. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ), die meekijkt bij vragen over kinderen. Hoe lang het in de praktijk duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Horst aan de Maas stelt u uw hulpvraag rechtstreeks aan de medewerkers jeugd van de gemeente, online of telefonisch. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken met u wat nodig is en vragen samen met u hulp aan. U meldt zich zelf aan, een verwijzing is niet nodig. U kunt iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Brieven over de hulp krijgt u in MijnZorg, het online portaal van de gemeente.",
+        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken met u wat nodig is en vragen samen met u hulp aan. Brieven over de hulp krijgt u in MijnZorg, het online portaal van de gemeente.",
         "stappen": [
-          "Stel uw hulpvraag via het online formulier op de website van de gemeente. Lukt dat niet, bel dan de gemeente.",
-          "De gemeente belt u terug en bespreekt uw vraag in een telefoongesprek. Soms is hulp van familie, vrienden of school al genoeg.",
-          "Is hulp via de gemeente nodig, dan maakt de medewerker jeugd een afspraak met u. U mag iemand meenemen.",
-          "Vraag samen met de medewerker jeugd de hulp aan. Vraag om een schriftelijk verslag en, bij specialistische hulp, om een beschikking (besluit van de gemeente)."
+          "Stel uw hulpvraag via het online formulier van de gemeente, of bel als dat niet lukt.",
+          "De gemeente belt u terug en bespreekt uw vraag. Soms is hulp van familie, vrienden of school genoeg.",
+          "Is hulp via de gemeente nodig, dan maakt een medewerker jeugd een afspraak: op het gemeentehuis, bij u thuis of elders. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Gemeente Horst aan de Maas (medewerkers jeugd)",
           "telefoon": "077 477 9777",
           "email": "gemeente@horstaandemaas.nl",
           "url": "https://www.horstaandemaas.nl/jeugdhulp"
-        }
+        },
+        "doorlooptijd": "De gemeente belooft u binnen 3 tot 5 werkdagen terug te bellen. Hoe lang het daarna duurt tot het eerste gesprek, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ). Die onderzoekt samen met u wat er speelt en kan lichte behandeling geven. De gemeente wil dat elke praktijk een SOJ krijgt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij veel huisartspraktijken werkt een Specialist Ondersteuning Jeugd (SOJ), die met u onderzoekt wat er speelt en lichte behandeling kan geven. De gemeente wil dat elke praktijk een SOJ krijgt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Laat de huisarts u eerst doorverwijzen naar de SOJ, of direct naar een aanbieder met een contract bij de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar de SOJ, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -42,12 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin met de leerkracht, mentor of intern begeleider van de school. Komt u er met school niet uit, dan kunt u advies vragen bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat steunpunt denkt met u mee en geeft advies, onafhankelijk van de school. Heeft uw kind ook hulp buiten school nodig, dan stelt u een hulpvraag aan de gemeente.",
+        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider; de school moet zorgen voor passend onderwijs. Komt u er met school niet uit, dan geeft het ouder- en jeugdsteunpunt van het samenwerkingsverband onafhankelijk advies.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag welke ondersteuning de school kan geven. Een school moet zorgen voor passend onderwijs.",
-          "Komt u er niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor basisonderwijs of voortgezet onderwijs.",
-          "Heeft uw kind ook hulp buiten school nodig? Stel uw hulpvraag aan de gemeente."
+          "Bespreek uw zorgen met school en vraag welke ondersteuning de school kan geven.",
+          "Komt u er niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband voor basis- of voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -72,11 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder in Noord-Limburg zijn, kunt u navragen bij de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Wilt u weten welke crisishulp er verder is? Vraag het de gemeente of uw huisarts.",
-          "Is het thuis niet veilig voor uw kind? Kijk op de pagina Jeugdhulp van de gemeente, bij het kopje 'Geweld thuis'."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Horst aan de Maas: jeugdhulp (geweld thuis)",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Rijk van Nijmegen",
   "websiteJeugd": "https://www.mookenmiddelaar.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Mook en Middelaar vraagt u jeugdhulp aan bij het Sociaal Team van de gemeente. Dat team helpt ook volwassenen die ondersteuning nodig hebben (Wmo). U meldt uw vraag zelf. Een verwijzing is niet nodig. Een medewerker jeugd bespreekt de situatie met u en schrijft een onderzoeksverslag. Zet u daar uw handtekening onder, dan geldt het als aanvraag. De huisarts mag ook rechtstreeks verwijzen. Volgens de website is de wachttijd voor een aanvraag nu ongeveer twee maanden. Het team is maar op drie ochtenden per week telefonisch bereikbaar. Mailen kan altijd.",
+    "samenvatting": "In Mook en Middelaar meldt u zich bij het Sociaal Team van de gemeente, dat ook volwassenen helpt. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van de gemeente",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente. Medewerkers jeugd, Wmo-consulenten, een maatschappelijk werker en een wijkverpleegkundige werken er samen. Zij bepalen met u welke hulp past, ook voor jongeren tot 23 jaar. U meldt zich zelf aan. Jeugdhulp is gratis.",
+        "omschrijving": "In het Sociaal Team werken medewerkers jeugd, medewerkers Wmo, een maatschappelijk werker en een wijkverpleegkundige samen. Zij bepalen met u welke hulp past, ook voor jongeren tot 23 jaar. Het team is op drie ochtenden per week telefonisch bereikbaar; mailen kan altijd.",
         "stappen": [
-          "Bel het Sociaal Team of stuur een e-mail. Is het team niet bereikbaar? Dan belt de gemeente u terug.",
-          "Voer een gesprek met een medewerker jeugd over uw kind. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Lees het onderzoeksverslag dat u na het gesprek krijgt. Bent u het ermee eens? Stuur het dan ondertekend terug. Het verslag geldt dan als aanvraag.",
-          "Wacht op het besluit van de gemeente. Vraag bij specialistische hulp om een schriftelijk besluit (beschikking)."
+          "Bel of mail het Sociaal Team. Is het team niet bereikbaar? Dan belt de gemeente u terug.",
+          "Voer een gesprek met een medewerker jeugd over uw kind. U mag iemand meenemen.",
+          "Lees het onderzoeksverslag. Bent u het ermee eens, stuur het dan ondertekend terug; het geldt dan als aanvraag."
         ],
         "contact": {
           "naam": "Sociaal Team gemeente Mook en Middelaar",
@@ -24,16 +23,16 @@
           "url": "https://www.mookenmiddelaar.nl/het-sociaal-team",
           "openingstijden": "Telefonisch maandag, woensdag en donderdag 10.00–12.00 uur. Buiten die uren maakt de gemeente een terugbelnotitie."
         },
-        "doorlooptijd": "Het onderzoek duurt volgens de gemeente hooguit 6 weken. Daarna beslist de gemeente binnen 2 weken op uw aanvraag. Op de website staat dat de wachttijd nu ongeveer twee maanden is."
+        "doorlooptijd": "Volgens de website is de wachttijd nu ongeveer twee maanden. Het onderzoek duurt hooguit 6 weken; daarna beslist de gemeente binnen 2 weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz. Daar kan uw kind snel terecht met psychische klachten.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz, waar uw kind snel terecht kan met psychische klachten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of uw kind eerst naar de praktijkondersteuner jeugd-ggz kan, of direct naar een aanbieder met een contract.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst uw kind naar de praktijkondersteuner jeugd-ggz of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -45,10 +44,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek uw zorgen eerst met school. Heeft uw kind ook hulp buiten school nodig? Meld u dan bij het Sociaal Team. Het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs geeft advies over ondersteuning op school. Voor het basisonderwijs is dat SWV Primair Onderwijs Noord-Limburg, voor het voortgezet onderwijs Nijmegen Stromenland.",
+        "omschrijving": "Het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs geeft advies over ondersteuning op school. Voor het basisonderwijs is dat SWV Primair Onderwijs Noord-Limburg, voor het voortgezet onderwijs Nijmegen Stromenland.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Heeft uw kind ook hulp buiten school nodig? Meld u aan bij het Sociaal Team.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -74,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Het Sociaal Team is buiten kantooruren niet bereikbaar. Op de pagina Jeugdhulp van de gemeente staat bij wie u dan terechtkunt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Jeugdhulp van de gemeente, onder het kopje Spoed, wat u buiten kantooruren kunt doen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Mook en Middelaar: Jeugdhulp, kopje Spoed",

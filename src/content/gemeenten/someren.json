@@ -4,18 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.zosomeren.nl/jeugd-ouderschap",
   "toegang": {
-    "samenvatting": "In Someren gaat u met vragen over opvoeden en opgroeien naar ZO Someren, het team Zorg en Ondersteuning van de gemeente. U belt rechtstreeks met een gezins- en jongerencoach. Een verwijzing is niet nodig. De coach kan veel vragen zelf beantwoorden en komt zo nodig bij u thuis praten met het hele gezin. Is meer hulp nodig, dan maakt u samen een plan en vraagt u de hulp aan bij de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Het team is 's ochtends telefonisch bereikbaar. Hoe lang het duurt voordat u een coach spreekt of de hulp start, is niet openbaar te vinden. Vraag dat bij uw eerste gesprek.",
+    "samenvatting": "In Someren meldt u zich zonder verwijzing bij ZO Someren, het team Zorg en Ondersteuning van de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "ZO Someren (gezins- en jongerencoaches)",
-        "omschrijving": "ZO Someren is het team van de gemeente voor zorg, ondersteuning en jeugd. De gezins- en jongerencoaches helpen bij vragen over opvoeden en opgroeien tot 18 jaar. Zij werken voor de Peelgemeenten, de samenwerking van Asten, Deurne, Gemert-Bakel, Laarbeek en Someren. U meldt u zelf aan. Over specialistische hulp beslist de gemeente.",
+        "omschrijving": "De gezins- en jongerencoaches van ZO Someren helpen bij vragen over opvoeden en opgroeien tot 18 jaar, en kunnen veel vragen zelf beantwoorden. Het team is 's ochtends telefonisch bereikbaar. Over specialistische hulp beslist de gemeente.",
         "stappen": [
           "Bel ZO Someren en vraag naar een gezins- en jongerencoach, of mail het team.",
-          "Bespreek uw vraag met de coach. Zo nodig praat de coach met het hele gezin, op kantoor of bij u thuis.",
-          "Is meer hulp nodig? Maak dan met de gemeente een plan van aanpak. U mag ook zelf een plan inleveren.",
-          "Staat in het plan dat uw kind hulp nodig heeft waarover de gemeente beslist (een individuele voorziening)? Vraag die dan aan bij de gemeente. U krijgt een schriftelijk besluit.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner."
+          "Bespreek uw vraag met de coach, op kantoor of bij u thuis, zo nodig met het hele gezin. U mag iemand meenemen.",
+          "Is meer hulp nodig? Maak dan met de gemeente een plan van aanpak; u mag ook zelf een plan inleveren. Daarna vraagt u de hulp aan en krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "ZO Someren (team Zorg en Ondersteuning, gemeente Someren)",
@@ -23,16 +21,17 @@
           "email": "someren.jeugd@peelgemeenten.nl",
           "url": "https://www.zosomeren.nl/contact-met-ons-team",
           "openingstijden": "Telefonisch werkdagen 9.00–12.30 uur. 's Middags alleen bij een noodsituatie"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een coach spreekt of de hulp start, is niet openbaar. Vraag het bij uw eerste gesprek."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast ZO Someren. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Brabant-Zuidoost.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij GGD Brabant-Zuidoost.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -44,12 +43,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over uw kind op school, bespreek dat dan eerst met school. ZO Someren werkt samen met scholen in Someren. Komt u er met school niet uit, dan geven de ouder- en jeugdsteunpunten van de samenwerkingsverbanden passend onderwijs advies.",
+        "omschrijving": "Bespreek zorgen over uw kind op school eerst met school. ZO Someren werkt samen met de scholen in Someren.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Heeft uw kind meer hulp nodig dan school kan geven? Neem contact op met ZO Someren.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs).",
-          "Zit uw kind op de middelbare school? Vraag dan advies bij het Ouder- en jeugdsteunpunt voor het voortgezet onderwijs."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of het Ouder- en jeugdsteunpunt (voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -72,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke meldpunten en crisisdiensten er rond Someren zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten rond Someren op de pagina Onveiligheid en psychische nood van ZO Someren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "ZO Someren: onveiligheid en psychische nood (ook voor jeugd)",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Rijnmond",
   "websiteJeugd": "https://www.voorneaanzee.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Voorne aan Zee (Brielle, Hellevoetsluis en Westvoorne) vraagt u hulp bij opvoeden en opgroeien aan bij het Sociaal Gebiedsteam. Daarin werken onder anderen medewerkers jeugd, jeugd- en gezinscoaches en medewerkers van het Centrum voor Jeugd en Gezin (CJG Rijnmond). U belt daarvoor de gemeente. U kunt ook eerst langsgaan bij de schoolmaatschappelijk werker, het CJG of het inloopmoment van Fijn je te Zien. Of bij de praktijkondersteuner jeugd: een medewerker bij de huisarts die helpt bij vragen over opvoeden en psychische klachten. In Oostvoorne en Rockanje is er geen praktijkondersteuner jeugd. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. De gemeente wil later één loket voor alle hulpvragen: digitaal, telefonisch en op plekken in Brielle, Hellevoetsluis en Rockanje. Dat is nog een plan.",
+    "samenvatting": "In Voorne aan Zee (Brielle, Hellevoetsluis en Westvoorne) vraagt u hulp bij opvoeden en opgroeien aan bij het Sociaal Gebiedsteam; u belt daarvoor de gemeente. U kunt ook eerst naar CJG Rijnmond, de schoolmaatschappelijk werker of de huisarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Gebiedsteam Voorne aan Zee",
-        "omschrijving": "Het Sociaal Gebiedsteam beoordeelt aanvragen voor specialistische jeugdhulp. Het team geeft daarvoor een beschikking (een besluit van de gemeente). Lichte hulp krijgt u meestal meteen, zonder besluit. In het team werken onder meer een onafhankelijke cliëntondersteuner, jeugd- en gezinscoaches en medewerkers jeugd. U mag zelf een familiegroepsplan indienen: een plan dat u met familie en bekenden maakt. De gemeente moet u daarover informeren.",
+        "omschrijving": "In het Sociaal Gebiedsteam werken onder meer medewerkers jeugd, jeugd- en gezinscoaches en medewerkers van CJG Rijnmond. Lichte hulp krijgt u meestal meteen; voor specialistische jeugdhulp geeft het team een beschikking (besluit van de gemeente). De gemeente wil later één loket voor alle hulpvragen, digitaal, telefonisch en op plekken in Brielle, Hellevoetsluis en Rockanje; dat is nog een plan.",
         "stappen": [
-          "Bel de gemeente. Het Sociaal Gebiedsteam is op werkdagen bereikbaar van 9.00 tot 17.00 uur.",
-          "Vertel wat er speelt en vraag om een gesprek met een medewerker jeugd. Neem zo nodig een onafhankelijke cliëntondersteuner mee.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig? Vraag dan om een beschikking.",
-          "Neem rechtstreeks contact op met uw medewerker jeugd als u die al hebt."
+          "Bel de gemeente (werkdagen 9.00 tot 17.00 uur) en vraag om een gesprek met een medewerker jeugd. Heeft u al een medewerker jeugd, neem dan rechtstreeks contact op.",
+          "Vertel wat er speelt. U mag iemand meenemen. U mag ook zelf een familiegroepsplan indienen: een plan dat u met familie en bekenden maakt.",
+          "Is specialistische hulp nodig? Vraag dan om een beschikking."
         ],
         "contact": {
           "naam": "Gemeente Voorne aan Zee, Sociaal Gebiedsteam",
@@ -24,17 +23,16 @@
           "url": "https://www.voorneaanzee.nl/sociaal-gebiedsteam",
           "openingstijden": "Telefonisch maandag tot en met vrijdag 9.00 tot 17.00 uur"
         },
-        "doorlooptijd": "Bij een aanvraag voor jeugd-ggz laat de gemeente binnen 8 weken weten of u de hulp krijgt. Dat staat op de website van de gemeente."
+        "doorlooptijd": "Bij een aanvraag voor jeugd-ggz laat de gemeente binnen 8 weken weten of u de hulp krijgt."
       },
       {
         "type": "school",
         "naam": "Via de schoolmaatschappelijk werker",
         "omschrijving": "Elke basisschool en middelbare school heeft een schoolmaatschappelijk werker. Die helpt bij zorgen over uw kind en kan u doorverwijzen naar het Sociaal Gebiedsteam. Volgens de gemeente is er ook schoolmaatschappelijk werk bij kinderdagverblijven.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht of mentor.",
-          "Vraag om een gesprek met de schoolmaatschappelijk werker.",
+          "Vraag de leerkracht of mentor om een gesprek met de schoolmaatschappelijk werker.",
           "Vraag wat er na het gesprek gebeurt en wie contact met u opneemt.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -56,10 +54,9 @@
       {
         "type": "wijkteam",
         "naam": "CJG Rijnmond (Centrum voor Jeugd en Gezin)",
-        "omschrijving": "Het CJG doet de jeugdgezondheidszorg, met jeugdverpleegkundigen, jeugdartsen en pedagogen. U kunt er terecht met vragen over opvoeden, opgroeien en gezondheid, van de zwangerschap tot 18 jaar. Het CJG hoort bij het Sociaal Gebiedsteam.",
+        "omschrijving": "CJG Rijnmond doet de jeugdgezondheidszorg, met jeugdverpleegkundigen, jeugdartsen en pedagogen. U kunt er terecht met vragen over opvoeden, opgroeien en gezondheid, van de zwangerschap tot 18 jaar. Het CJG hoort bij het Sociaal Gebiedsteam.",
         "stappen": [
-          "Bel, mail of chat met CJG Rijnmond.",
-          "Stuur een WhatsApp-bericht als u liever appt.",
+          "Bel, mail, chat of app met CJG Rijnmond.",
           "Vraag om een gesprek als u zorgen hebt over de ontwikkeling of opvoeding van uw kind."
         ],
         "contact": {
@@ -73,11 +70,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, praktijkondersteuner jeugd of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd voor lichte hulp. Bij de praktijken in Oostvoorne en Rockanje is die er niet.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Veel praktijken hebben een praktijkondersteuner jeugd, voor lichte hulp bij opvoedvragen en psychische klachten. In Oostvoorne en Rockanje is die er niet.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de praktijkondersteuner jeugd.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. U ziet die aanbieders in de Beschikbaarheidswijzer.",
-          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract. Die aanbieders staan in de Beschikbaarheidswijzer.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "CJG Rijnmond",
@@ -90,10 +87,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Voorne aan Zee op de pagina Mishandeling of huiselijk geweld van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Voorne aan Zee: mishandeling of huiselijk geweld",
@@ -296,7 +292,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Voorne aan Zee - Jeugdhulp",

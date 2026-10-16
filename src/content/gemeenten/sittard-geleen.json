@@ -5,32 +5,32 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://sittard-geleen.nl/zorg/jeugd/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Sittard-Geleen loopt de toegang tot jeugdhulp via Team Jeugd van de gemeente zelf: een medewerker jeugd onderzoekt samen met u en uw kind wat er nodig is en maakt een hulpverleningsplan. Voor opvoed- en opgroeivragen en mentale gezondheid kunt u zonder beschikking terecht bij het Centrum voor Jeugd en Gezin Westelijke Mijnstreek (CJG) en bij de jeugd- en gezinswerkers van Partners in Welzijn. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Sittard-Geleen koopt jeugdhulp in met de andere 16 Zuid-Limburgse gemeenten (Jeugdregio Zuid-Limburg). Ouders noemen in het meest recente cliëntervaringsonderzoek lange wachttijden en wisselende medewerkers jeugd als verbeterpunt.",
+    "samenvatting": "In Sittard-Geleen meldt u zich voor jeugdhulp bij Team Jeugd van de gemeente; voor opvoedvragen kunt u zonder besluit naar het CJG Westelijke Mijnstreek. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd",
-        "omschrijving": "Gemeentelijk toegangsteam voor alle vormen van jeugdhulp, van licht tot zwaar, inclusief jeugd-ggz en zorg voor kinderen met een beperking. Een medewerker jeugd kijkt eerst wat het gezin zelf kan en welke lichte hulp past; is dat niet genoeg, dan beoordeelt de medewerker jeugd of een individuele voorziening nodig is en volgt een besluit van de gemeente.",
+        "omschrijving": "Team Jeugd is er voor alle jeugdhulp, van licht tot zwaar, ook jeugd-ggz en zorg voor kinderen met een beperking. Een medewerker jeugd onderzoekt met u en uw kind wat nodig is en maakt met u een hulpverleningsplan.",
         "stappen": [
           "Bel de gemeente of Team Jeugd, of mail Team Jeugd.",
-          "Een medewerker jeugd komt meestal bij u thuis langs voor een gesprek met u, uw kind en eventueel andere betrokkenen; u mag iemand meenemen, bijvoorbeeld een familielid of een onafhankelijke cliëntondersteuner.",
-          "Na het onderzoek maakt de medewerker jeugd samen met u een hulpverleningsplan met hulpvraag, doelen en gewenst resultaat.",
-          "U ontvangt een brief met het besluit: of u hulp krijgt, welke hulp, wanneer, hoe lang en hoeveel, en of dat via een aanbieder of met een pgb is. Vraag om een schriftelijk verslag van het gesprek."
+          "Praat met de medewerker jeugd, meestal bij u thuis, samen met uw kind. U mag iemand meenemen.",
+          "Maak samen een hulpverleningsplan. Daarna krijgt u een brief met het besluit: welke hulp, hoe lang en of dat via een aanbieder of met een pgb is."
         ],
         "contact": {
           "naam": "Team Jeugd, gemeente Sittard-Geleen",
           "telefoon": "14 046",
           "email": "jeugd@sittard-geleen.nl",
           "url": "https://sittard-geleen.nl/zorg/jeugd/jeugdhulp/"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt, is niet openbaar. Ouders noemen in het meest recente cliëntervaringsonderzoek lange wachttijden als verbeterpunt; vraag het bij uw aanmelding."
       },
       {
         "type": "overig",
         "naam": "Centrum voor Jeugd en Gezin Westelijke Mijnstreek (CJG)",
-        "omschrijving": "Voor alle vragen over opvoeden, opgroeien en mentale gezondheid, gratis en vrijblijvend, zonder beschikking. De psychologen en orthopedagoog van het CJG helpen kinderen en jongeren van 4 tot 23 jaar en hun ouders. U kunt zelf contact opnemen; een vraag kan ook via huisarts, jeugdarts, Team Jeugd of school binnenkomen.",
+        "omschrijving": "Het CJG helpt gratis bij vragen over opvoeden, opgroeien en mentale gezondheid, zonder besluit van de gemeente. Psychologen en een orthopedagoog helpen kinderen en jongeren van 4 tot 23 jaar en hun ouders.",
         "stappen": [
-          "Bel het CJG op werkdagen tussen 9.00 en 17.00 uur, stuur een WhatsApp-bericht of mail het CJG.",
-          "Een pedagoog of psycholoog denkt mee en geeft advies; indien nodig volgen gesprekken of een zorgvuldige overdracht naar de juiste zorgverlener."
+          "Bel het CJG op werkdagen tussen 9.00 en 17.00 uur, stuur een WhatsApp-bericht of mail.",
+          "Een pedagoog of psycholoog denkt mee. Zo nodig volgen gesprekken of draagt het CJG u zorgvuldig over."
         ],
         "contact": {
           "naam": "CJG Westelijke Mijnstreek",
@@ -44,11 +44,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Volgens de Jeugdwet mogen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Met de verwijsbrief meldt u zich bij een zorgaanbieder; die neemt contact op met de gemeente.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Met de verwijsbrief meldt u zich bij de aanbieder.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -60,11 +60,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op basisscholen werken schoolmaatschappelijk werkers van Partners in Welzijn. Zij begeleiden leerlingen en hun ouders bij problemen thuis of op school (bijvoorbeeld pesten, faalangst of een scheiding) en schakelen zo nodig het CJG of Team Jeugd in.",
+        "omschrijving": "Op basisscholen werken schoolmaatschappelijk werkers van Partners in Welzijn. Zij helpen leerlingen en ouders bij problemen thuis of op school, zoals pesten, faalangst of een scheiding, en schakelen zo nodig het CJG of Team Jeugd in.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht of intern begeleider en vraag om contact met de schoolmaatschappelijk werker.",
-          "U kunt Partners in Welzijn ook zelf bellen.",
-          "Bij zorgen over passend onderwijs verwijst de school naar het samenwerkingsverband. Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Bespreek uw zorgen met de leerkracht of intern begeleider en vraag naar de schoolmaatschappelijk werker. U kunt Partners in Welzijn ook zelf bellen.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -102,10 +101,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Sittard-Geleen op de pagina Jeugdhulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Sittard-Geleen: jeugdhulp",

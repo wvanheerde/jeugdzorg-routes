@@ -4,35 +4,41 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.maasdriel.nl/inwoner-en-ondernemer/jeugd-en-onderwijs/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Maasdriel is het gebiedsteam de eerste plek voor jeugdhulp. In dat team van de gemeente werken onder meer medewerkers jeugd en een gedragswetenschapper. U kunt zich zelf melden, een verwijzing is niet nodig. De gemeente beslist binnen acht weken op een aanvraag. Ook de huisarts mag rechtstreeks verwijzen. Veel huisartsen in Maasdriel hebben een praktijkondersteuner jeugd-ggz (voor psychische klachten bij kinderen). Met lichte vragen over opvoeden kunt u ook terecht bij het Adviesplein in Hedel, Kerkdriel, Heerewaarden en Ammerzoden.",
+    "samenvatting": "In Maasdriel meldt u zich bij het gebiedsteam van de gemeente; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam Maasdriel",
-        "omschrijving": "Het gebiedsteam geeft advies over opvoeden en opgroeien, zoekt samen met u naar oplossingen en begeleidt u. Het team beoordeelt ook aanvragen voor jeugdhulp. Voor specialistische hulp verwijst het team naar een aanbieder met een contract van de gemeente. De medewerker die u spreekt, blijft uw aanspreekpunt zolang uw melding loopt.",
+        "omschrijving": "In het gebiedsteam werken onder meer medewerkers jeugd en een gedragswetenschapper. Het team geeft advies en begeleiding, beoordeelt aanvragen voor jeugdhulp en verwijst voor specialistische hulp naar een aanbieder met een contract. Met lichte vragen over opvoeden kunt u ook naar het Adviesplein in Hedel, Kerkdriel, Heerewaarden en Ammerzoden.",
         "stappen": [
           "Bel het gebiedsteam of mail naar het adres voor de Jeugdwet.",
-          "Bespreek in een gesprek wat er speelt en wat u nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Zoek samen met het team naar een praktische oplossing. Soms is er meteen een antwoord, soms zijn er meer gesprekken nodig.",
-          "Vraag om een schriftelijk verslag van het gesprek. Heeft u specialistische hulp nodig, vraag dan om een beschikking (een besluit van de gemeente)."
+          "Bespreek in een gesprek wat er speelt; soms zijn meer gesprekken nodig. U mag iemand meenemen. De medewerker die u spreekt, blijft uw aanspreekpunt.",
+          "Is specialistische hulp nodig, vraag dan om een besluit van de gemeente (beschikking)."
         ],
-        "contact": {
-          "naam": "Gebiedsteam Maasdriel",
-          "telefoon": "0418 63 88 88",
-          "email": "bureaudienstjeugd@maasdriel.nl",
-          "url": "https://www.maasdriel.nl/inwoner-en-ondernemer/hulp-en-ondersteuning/gebiedsteam",
-          "openingstijden": "Telefonisch maandag, dinsdag en donderdag 9.00–12.30 uur"
-        },
+        "contact": [
+          {
+            "naam": "Gebiedsteam Maasdriel",
+            "telefoon": "0418 63 88 88",
+            "email": "bureaudienstjeugd@maasdriel.nl",
+            "url": "https://www.maasdriel.nl/inwoner-en-ondernemer/hulp-en-ondersteuning/gebiedsteam",
+            "openingstijden": "Telefonisch maandag, dinsdag en donderdag 9.00–12.30 uur"
+          },
+          {
+            "naam": "Adviesplein Maasdriel",
+            "url": "https://www.maasdriel.nl/inwoner-en-ondernemer/hulp-en-ondersteuning/adviesplein-maasdriel",
+            "openingstijden": "Inloop zonder afspraak in Hedel (woensdagmiddag, donderdagochtend) en Kerkdriel (dinsdagmiddag, donderdagochtend); online een vraag stellen kan ook"
+          }
+        ],
         "doorlooptijd": "De gemeente beslist uiterlijk binnen acht weken na uw aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het gebiedsteam. Volgens de gemeente verwijzen huisartsen in Maasdriel vooral naar lichte hulp, zoals begeleiding of korte psychologische hulp. Veel praktijken hebben een praktijkondersteuner jeugd-ggz.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Volgens de gemeente verwijzen huisartsen in Maasdriel vooral naar lichte hulp, zoals begeleiding of korte psychologische hulp. Veel praktijken hebben een praktijkondersteuner jeugd-ggz (voor psychische klachten bij kinderen).",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of er een praktijkondersteuner jeugd-ggz is die met uw kind kan praten.",
-          "Laat de huisarts zo nodig direct verwijzen naar een aanbieder met een contract van de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag of er een praktijkondersteuner jeugd-ggz is die met uw kind kan praten.",
+          "Laat de huisarts zo nodig verwijzen naar een aanbieder met een contract."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -45,10 +51,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan problemen vroeg zien en u wijzen op hulp. U kunt zich ook zelf melden bij het gebiedsteam. Komt u er met school niet uit? Dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies aan ouders en leerlingen.",
+        "omschrijving": "School kan problemen vroeg zien en u wijzen op hulp.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u zelf bij het gebiedsteam als u hulp wilt bij opvoeden of opgroeien.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -69,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor het meldpunt huiselijk geweld en de crisisdiensten op de pagina van de gemeente Maasdriel."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Maasdriel: meldpunt huiselijk geweld en crisissituaties",
@@ -219,7 +223,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Maasdriel: Jeugdhulp",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Kennemerland en IJmond",
   "websiteJeugd": "https://www.heemstede.nl/zorg-en-hulp/hulp-bij-opvoeden-en-opgroeien",
   "toegang": {
-    "samenvatting": "In Heemstede is het Centrum voor Jeugd en Gezin (CJG) Kennemerland uw eerste aanspreekpunt. Het CJG Heemstede is in 2026 opgegaan in dit CJG, dat ook voor Haarlem, Bloemendaal en Zandvoort werkt. U kunt zelf bellen of mailen, een verwijzing is niet nodig. Een CJG-coach praat met u, kijkt welke hulp past en regelt die namens de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een coach spreekt of hulp start, is niet openbaar te vinden. Vraag dat bij uw eerste gesprek.",
+    "samenvatting": "In Heemstede meldt u zich zonder verwijzing bij het Centrum voor Jeugd en Gezin (CJG) Kennemerland, waarin het CJG Heemstede in 2026 is opgegaan. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Kennemerland",
-        "omschrijving": "Het CJG helpt ouders, kinderen en jongeren tot 18 jaar met vragen over opvoeden en opgroeien. Een CJG-coach beslist namens de gemeente over jeugdhulp. Zorg in natura (hulp van een aanbieder met een contract van de gemeente) krijgt u zonder officiële beschikking (schriftelijk besluit van de gemeente). Wilt u er wel een, dan krijgt u die. Bij een persoonsgebonden budget (pgb) krijgt u altijd een beschikking.",
+        "omschrijving": "Het CJG Kennemerland werkt ook voor Haarlem, Bloemendaal en Zandvoort. Een CJG-coach beslist namens de gemeente over jeugdhulp. Bij hulp van een aanbieder met contract krijgt u alleen een beschikking (schriftelijk besluit) als u erom vraagt, bijvoorbeeld om bezwaar te kunnen maken; bij een pgb krijgt u er altijd een.",
         "stappen": [
-          "Bel of mail het Informatie & Adviesteam van het CJG Kennemerland. U mag uw vraag ook anoniem stellen.",
-          "Bespreek met een CJG-coach uw vraag, wat u wilt bereiken en welke hulp er in uw omgeving is. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is specialistische hulp nodig? Kijk dan samen of zorg in natura of een pgb past. Begin niet zelf met hulp: die wordt niet altijd achteraf vergoed.",
-          "Wacht tot het CJG de hulporganisatie laat weten dat de hulp mag starten.",
-          "Vraag om een beschikking als u bezwaar wilt kunnen maken."
+          "Bel of mail het Informatie & Adviesteam. U mag uw vraag ook anoniem stellen.",
+          "Bespreek met een CJG-coach wat u wilt bereiken en welke hulp past. U mag iemand meenemen.",
+          "Begin niet zelf met hulp, want die wordt niet altijd achteraf vergoed. Wacht tot het CJG de aanbieder laat weten dat de hulp mag starten."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Kennemerland, Informatie & Adviesteam",
@@ -24,16 +22,17 @@
           "email": "info@cjgkennemerland.nl",
           "url": "https://cjgkennemerland.nl/contact/",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 en 14.00–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een coach spreekt of de hulp start, is niet openbaar. Vraag het bij uw eerste gesprek."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Voor een jeugdarts gaat u naar de jeugdgezondheidszorg: tot 4 jaar naar het consultatiebureau van Jeugdgezondheidszorg Kennemerland, daarna naar de jeugdgezondheidszorg van GGD Kennemerland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Een jeugdarts vindt u tot 4 jaar bij het consultatiebureau van Jeugdgezondheidszorg Kennemerland, daarna bij GGD Kennemerland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -55,12 +54,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Het CJG heeft CJG-coaches die aan basisscholen verbonden zijn. Bij vragen over extra ondersteuning op school helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor basisonderwijs en voortgezet onderwijs zijn dat twee verschillende samenwerkingsverbanden.",
+        "omschrijving": "Aan de basisscholen zijn CJG-coaches verbonden. Bij vragen over extra ondersteuning op school helpt het steunpunt van het samenwerkingsverband; basis- en voortgezet onderwijs hebben elk een eigen samenwerkingsverband.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school of de CJG-coach van de school kan meedenken, of meld u zelf aan bij het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor het basisonderwijs.",
-          "Zit uw kind op het voortgezet onderwijs? Neem dan contact op met het samenwerkingsverband voortgezet onderwijs."
+          "Vraag of de CJG-coach van de school kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het steunpunt van het samenwerkingsverband voor basis- of voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -86,10 +84,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er buiten kantooruren is voor een kind of jongere, staat bij het CJG Kennemerland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk bij het CJG Kennemerland onder \"Met spoed hulp nodig?\" welke crisisdienst er buiten kantooruren is."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG Kennemerland: Met spoed hulp nodig?",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.beekdaelen.nl/beekdaelen-sociaal",
   "toegang": {
-    "samenvatting": "In Beekdaelen meldt u zich zelf bij Team Jeugd van de gemeente. Dat zijn medewerkers jeugd van de afdeling Sociaal. Zij bespreken uw vraag, komen vaak bij u thuis en nemen het besluit over de hulp. Een verwijzing is niet nodig. Een jeugdarts, huisarts of medisch specialist mag u ook rechtstreeks verwijzen. Met vragen over opvoeden en opgroeien kunt u terecht bij het Centrum voor Jeugd en Gezin (CJG) Westelijke Mijnstreek. De gemeente verandert de toegang: in Nuth en Schinveld werken al lokale teams, en later komt er één centrale plek om u te melden. Hoe lang het duurt voordat een medewerker jeugd uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Beekdaelen meldt u zich zonder verwijzing bij Team Jeugd van de gemeente; met opvoedvragen kunt u ook naar het Centrum voor Jeugd en Gezin (CJG) Westelijke Mijnstreek. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente, met het CJG Westelijke Mijnstreek",
-        "omschrijving": "Team Jeugd bestaat uit medewerkers jeugd van de gemeente. Zij beoordelen of uw kind jeugdhulp krijgt en leggen dat vast in een beschikking (schriftelijk besluit). U meldt zich zelf aan, en de gemeente bevestigt uw melding schriftelijk. In Nuth en Schinveld werken ook lokale teams in de wijk. Met lichtere vragen over opvoeden en opgroeien kunt u naar het CJG Westelijke Mijnstreek.",
+        "omschrijving": "Team Jeugd bestaat uit medewerkers jeugd van de afdeling Sociaal. Zij beoordelen of uw kind jeugdhulp krijgt en leggen dat vast in een beschikking. In Nuth en Schinveld werken al lokale teams in de wijk.",
         "stappen": [
-          "Bel de gemeente, mail de afdeling Sociaal of vul het contactformulier in. Beschrijf kort waar u hulp bij zoekt.",
-          "Maak telefonisch een afspraak. Meestal komt een medewerker jeugd bij u thuis.",
-          "Neem iemand mee naar het gesprek als u dat wilt, bijvoorbeeld een onafhankelijke cliëntondersteuner. In Beekdaelen heet die een Meedenker.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking.",
-          "Wilt u eerst advies over opvoeden? Neem contact op met het CJG Westelijke Mijnstreek."
+          "Bel de gemeente, mail de afdeling Sociaal of vul het contactformulier in. De gemeente bevestigt uw melding schriftelijk.",
+          "Maak telefonisch een afspraak; meestal komt een medewerker jeugd bij u thuis.",
+          "U mag iemand meenemen. De onafhankelijke cliëntondersteuner heet in Beekdaelen een Meedenker."
         ],
         "contact": [
           {
@@ -33,16 +31,17 @@
             "url": "https://www.cjg-wm.nl/contact",
             "openingstijden": "Telefonisch ma t/m vr 9.00–17.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat een medewerker jeugd uw aanmelding oppakt, is niet openbaar te vinden. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Een jeugdarts, huisarts of medisch specialist mag uw kind rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast Team Jeugd. De aanbieder moet wel een contract hebben met de gemeente. Bij de jeugdgezondheidszorg (JGZ) van de GGD Zuid-Limburg werken jeugdartsen en jeugdverpleegkundigen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Zuid-Limburg.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente. Met die verwijzing kunt u rechtstreeks bij de aanbieder terecht.",
-          "Wilt u hulp van een aanbieder zonder contract? Neem dan contact op met Team Jeugd van de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract. Daarmee kunt u rechtstreeks bij de aanbieder terecht.",
+          "Wilt u hulp van een aanbieder zonder contract? Neem dan contact op met Team Jeugd."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -54,12 +53,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek uw zorgen eerst met de school. Via school kunt u ook vragen naar schoolmaatschappelijk werk. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Welk samenwerkingsverband bij uw school hoort, verschilt per school.",
+        "omschrijving": "Via school kunt u vragen naar schoolmaatschappelijk werk: hulp op school voor kinderen en ouders. Welk samenwerkingsverband bij de school hoort, verschilt per school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school schoolmaatschappelijk werk heeft. Dat is hulp op school voor kinderen en ouders.",
-          "Is meer hulp nodig? Meld uw kind dan aan bij Team Jeugd van de gemeente of het CJG Westelijke Mijnstreek.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de school schoolmaatschappelijk werk heeft.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -90,10 +88,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat welke crisishulp er voor jeugd in Zuid-Limburg is.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina 'Spoed of crisis' van Beekdaelen Sociaal welke crisishulp er voor jeugd is."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Beekdaelen Sociaal: spoed of crisis, snel hulp voor kind en gezin",
@@ -287,7 +284,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Beekdaelen: Beekdaelen Sociaal (toegang, afspraak)",

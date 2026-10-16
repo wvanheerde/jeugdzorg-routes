@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Foodvalley",
   "websiteJeugd": "https://www.scherpenzeel.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Scherpenzeel zijn er twee deuren. Het Centrum voor Jeugd en Gezin (CJG) helpt gratis bij vragen over opvoeden en opgroeien, zonder verwijzing. Heeft uw kind meer hulp nodig, dan meldt u zich bij het Sociaal Team van de gemeente. De medewerkers jeugd van dat team bespreken met u wat nodig is. Zij houden het overzicht en beslissen over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Scherpenzeel helpt het Centrum voor Jeugd en Gezin (CJG) bij vragen over opvoeden en opgroeien; voor meer hulp meldt u zich bij het Sociaal Team van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van de gemeente (jeugdteam), met het CJG Scherpenzeel",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente. In het jeugdteam werken medewerkers jeugd, begeleiders die bij gezinnen thuis komen en een gedragswetenschapper. Zij beoordelen of uw kind jeugdhulp krijgt, regelen de hulp en houden overzicht. U meldt zich zelf aan, een verwijzing is niet nodig. Het CJG geeft advies en lichtere hulp zonder besluit van de gemeente.",
+        "omschrijving": "In het jeugdteam van het Sociaal Team werken medewerkers jeugd, begeleiders die bij gezinnen thuis komen en een gedragswetenschapper. Zij beoordelen of uw kind jeugdhulp krijgt, regelen de hulp en houden overzicht. Het CJG geeft advies en lichtere hulp zonder besluit van de gemeente, ook op een inloopspreekuur.",
         "stappen": [
           "Bel het Sociaal Team en kies optie 1, of vul het meldingsformulier Hulp, zorg en inkomen in. Heeft u al een contactpersoon? Bel dan die medewerker jeugd.",
-          "Maak een afspraak met een medewerker jeugd voor een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bekijk samen welke hulp past. Vraag na het gesprek om een schriftelijk verslag. Bij specialistische hulp vraagt u ook om een besluit (beschikking).",
-          "Liever eerst advies of lichte hulp? Loop binnen bij het inloopspreekuur van het CJG of neem contact op met het CJG."
+          "Maak een afspraak met een medewerker jeugd. U mag iemand meenemen.",
+          "Bekijk samen welke hulp past. Bij specialistische hulp krijgt u een besluit (beschikking)."
         ],
         "contact": [
           {
@@ -33,16 +32,17 @@
             "adres": "Het Foort, Vijverlaan 4M, Scherpenzeel",
             "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur. Gratis inloopspreekuur donderdag 13.30–15.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente via de regio heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract met de regio. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "Vraag de arts om een verwijzing naar een aanbieder met een contract met de regio.",
-          "Doe zelf geen aanvraag. De aanbieder meldt de start van de hulp bij de gemeente."
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -54,11 +54,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich op school zorgen om uw kind? Begin dan bij de leerkracht, mentor of intern begeleider. Op de basisscholen in Scherpenzeel is ook jeugdhulp, geregeld door de gemeente. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat is gratis en onafhankelijk van school.",
+        "omschrijving": "Op de basisscholen in Scherpenzeel is jeugdhulp, geregeld door de gemeente. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs, onafhankelijk van school.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag wat de school zelf kan doen en schrijf de afspraken op.",
-          "Wilt u ook hulp buiten school? Meld uw kind dan aan bij het Sociaal Team of het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Gaat uw kind naar de middelbare school, dan hoort u bij het steunpunt van de regio waar die school staat."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag wat de school zelf kan doen.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt. Voor de middelbare school is dat het steunpunt van de regio waar de school staat."
         ],
         "contact": [
           {
@@ -101,10 +100,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst voor jeugd er in Scherpenzeel is, staat op de spoedpagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor jeugd, ook buiten kantoortijden, op de pagina Spoed van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Scherpenzeel: spoed bij jeugd",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Haaglanden",
   "websiteJeugd": "https://www.leidschendam-voorburg.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Leidschendam-Voorburg vraagt u jeugdhulp aan bij team Jeugd van de gemeente. Een medewerker jeugd bekijkt samen met u wat er speelt en welke hulp past. Met lichtere vragen over opvoeden kunt u terecht bij het Sociaal Servicepunt. Dat is gratis en werkt samen met de gemeente. Jongeren vanaf 16 jaar mogen zelf een aanvraag doen. Sinds 2026 kijkt de gemeente eerst wat u en uw omgeving zelf kunnen, voordat zij specialistische hulp inzet. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. In 2027 wil de gemeente een proef starten met een nieuw lokaal team voor de toegang.",
+    "samenvatting": "In Leidschendam-Voorburg vraagt u jeugdhulp aan bij team Jeugd van de gemeente; met lichtere opvoedvragen kunt u gratis terecht bij het Sociaal Servicepunt. U kunt ook via de huisarts, de jeugdarts of school, en jongeren vanaf 16 jaar mogen zelf een aanvraag doen.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente (medewerkers jeugd)",
-        "omschrijving": "Team Jeugd onderzoekt in één of meer gesprekken welke hulp nodig en passend is. De medewerker jeugd vraagt met uw toestemming ook informatie op bij school, kinderopvang of een hulpverlener. U mag een familiegroepsplan indienen: een plan dat u samen met familie en bekenden maakt. Als u dat lastig vindt, helpt de gemeente u. U mag ook een onafhankelijke cliëntondersteuner meenemen. Bij specialistische hulp krijgt u een beschikking: het besluit van de gemeente over welke hulp u krijgt. Daarna is de aanbieder uw eerste aanspreekpunt.",
+        "omschrijving": "Een medewerker jeugd onderzoekt in één of meer gesprekken welke hulp past, en kijkt sinds 2026 eerst wat u en uw omgeving zelf kunnen. Met uw toestemming vraagt de medewerker ook informatie op bij school, kinderopvang of een hulpverlener. U mag een familiegroepsplan indienen, een plan dat u met familie en bekenden maakt; vindt u dat lastig, dan helpt de gemeente.",
         "stappen": [
-          "Weet u niet goed waar u moet beginnen? Vul het contactformulier voor een medewerker jeugd in of bel team Jeugd. Er is een telefonisch spreekuur Jeugd op werkdagen van 9.00 tot 11.00 uur. U kunt een terugbelverzoek achterlaten.",
-          "Wilt u onderzoek en advies van team Jeugd? Vul het aanvraagformulier jeugdhulp in. Hiervoor hebt u geen DigiD nodig.",
-          "Bespreek in het gesprek wat u en uw netwerk zelf kunnen en welke hulp nodig is. Neem gerust een eigen familiegroepsplan of een cliëntondersteuner mee.",
-          "Vraag om het schriftelijke onderzoeksverslag. De gemeente legt u een concept voor, zodat u kunt reageren. Daarna volgt de beschikking en regelt de gemeente de hulp.",
-          "Maakt de aanbieder geen afspraak over de wachttijd? Vraag er dan zelf naar bij het startgesprek. Verandert er iets in uw gezin of in de hulpvraag? Neem contact op met de medewerker jeugd."
+          "Bel het telefonisch spreekuur Jeugd (werkdagen 9.00 tot 11.00 uur), laat een terugbelverzoek achter of vul het contactformulier voor een medewerker jeugd in.",
+          "Wilt u onderzoek en advies? Vul het aanvraagformulier jeugdhulp in; DigiD is niet nodig. U mag iemand meenemen naar het gesprek.",
+          "Vraag om het onderzoeksverslag; u krijgt eerst een concept om op te reageren. Daarna volgt de beschikking en is de aanbieder uw eerste aanspreekpunt."
         ],
         "contact": {
           "naam": "Gemeente Leidschendam-Voorburg, team Jeugd",
@@ -25,16 +23,16 @@
           "adres": "Servicecentrum Leidschendam, Koningin Wilhelminalaan 2, 2264 BM Leidschendam",
           "openingstijden": "Telefonisch spreekuur Jeugd op werkdagen 9.00-11.00 uur"
         },
-        "doorlooptijd": "De gemeente beslist binnen 8 weken nadat uw aanvraag is ontvangen (artikel 6 Verordening Jeugdhulp 2026). In spoedeisende gevallen start de hulp zo snel mogelijk. De beschikking volgt dan uiterlijk 4 weken na de start."
+        "doorlooptijd": "De gemeente beslist binnen 8 weken na uw aanvraag; bij spoed start de hulp zo snel mogelijk en volgt de beschikking uiterlijk 4 weken na de start. Vraag de aanbieder bij het startgesprek naar de wachttijd."
       },
       {
         "type": "wijkteam",
         "naam": "Sociaal Servicepunt (lichte steun en opvoedvragen)",
-        "omschrijving": "Het Sociaal Servicepunt is een samenwerking van Woej, MEE Zuid-Holland Noord, Sport en Welzijn en Kwadraad. U kunt er terecht met vragen over onder meer opvoeden, school, geldzaken en leven met een beperking. U krijgt informatie, advies en kortdurende ondersteuning. Het is gratis en onafhankelijk. U hebt geen besluit van de gemeente nodig.",
+        "omschrijving": "Het Sociaal Servicepunt is een gratis, onafhankelijke samenwerking van Woej, MEE Zuid-Holland Noord, Sport en Welzijn en Kwadraad. U krijgt er informatie, advies en korte steun bij onder meer opvoeden, school, geldzaken en leven met een beperking. U hebt geen besluit van de gemeente nodig.",
         "stappen": [
-          "Zoek eerst op de Sociale Kaart LV welke vrij toegankelijke hulp er in de gemeente is.",
+          "Zoek op de Sociale Kaart LV welke vrij toegankelijke hulp er in de gemeente is.",
           "Stel uw vraag via het contactformulier op sociaalservicepunt.nl of bel het Sociaal Servicepunt.",
-          "Is er meer nodig dan lichte steun? Vraag het Sociaal Servicepunt om u door te verwijzen, of meld u rechtstreeks bij team Jeugd."
+          "Is meer nodig dan lichte steun? Vraag het Sociaal Servicepunt u door te verwijzen naar team Jeugd."
         ],
         "contact": {
           "naam": "Sociaal Servicepunt Leidschendam-Voorburg",
@@ -46,11 +44,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De gemeente betaalt in principe alleen hulp van aanbieders met wie zij een contract heeft. Sinds 2026 krijgt u na zo'n verwijzing ook een beschikking van de gemeente. Daarin staat welke hulp u krijgt en voor welke periode. Is de periode voorbij of verandert de hulpvraag? Dan kunt u zich melden bij de gemeente voor een nieuwe beoordeling. Tegen de beschikking kunt u bezwaar maken.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Sinds 2026 krijgt u daarna ook een beschikking van de gemeente, met welke hulp u krijgt en voor welke periode.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, de praktijkondersteuner of de jeugdarts.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. Controleer dat vooraf bij de aanbieder of de verwijzer.",
-          "Bewaar de beschikking die u van de gemeente krijgt. Vraag de gemeente om een nieuwe beoordeling als de periode afloopt of de hulpvraag verandert."
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente, en controleer dat vooraf.",
+          "Loopt de periode in de beschikking af of verandert de hulpvraag? Vraag de gemeente dan om een nieuwe beoordeling."
         ],
         "contact": [
           {
@@ -72,11 +70,10 @@
       {
         "type": "school",
         "naam": "Via school en leerplicht",
-        "omschrijving": "Heeft u zorgen over leren, gedrag of schoolgang? Dan kan school meedenken en contact leggen met team Jeugd of het Sociaal Servicepunt. De leerplichtambtenaar van de gemeente kan begeleiden naar hulp en bemiddelen bij problemen op school. Vragen over extra ondersteuning op school kunt u ook stellen aan de intern begeleider van de school.",
+        "omschrijving": "School kan meedenken over leren, gedrag of schoolgang en contact leggen met team Jeugd of het Sociaal Servicepunt. Loopt het vast, dan kan de leerplichtambtenaar van de gemeente bemiddelen en naar hulp begeleiden.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om contact met team Jeugd, of meld u zelf aan via het contactformulier of telefonisch.",
-          "Loopt het vast met school of schoolgang? Neem contact op met de leerplichtambtenaar via het contactformulier Leerplicht of telefonisch.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag school om contact met team Jeugd.",
+          "Loopt het vast met school of schoolgang? Neem contact op met de leerplichtambtenaar.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -110,10 +107,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Leidschendam-Voorburg op de pagina Huiselijk geweld melden van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Leidschendam-Voorburg: Huiselijk geweld melden",

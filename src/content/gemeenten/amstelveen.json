@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Amsterdam-Amstelland",
   "websiteJeugd": "https://www.amstelveen.nl/hulp-bij-het-opgroeien-enof-opvoeden-van-uw-kinderen",
   "toegang": {
-    "samenvatting": "In Amstelveen verloopt de toegang tot specialistische jeugdhulp via de medewerkers jeugd van de gemeente zelf; er is geen apart wijkteam of CJG. Het Sociaal loket is het eerste aanspreekpunt voor al uw vragen over opgroeien en opvoeden. Daarnaast mag de huisarts (ook via de praktijkondersteuner jeugd), jeugdarts of medisch specialist rechtstreeks verwijzen. De gemeente zet eerst in op hulp uit uw eigen omgeving en op het gratis, vrij toegankelijke aanbod, en kiest 'de lichtst mogelijke hulp'. Let op: voor gespecialiseerde jeugdhulp kan een wachttijd gelden. Een aanvraag kan alleen worden gedaan door een gezaghebbende ouder, voogd of jongere vanaf 16 jaar; professionals kunnen geen aanvraag doen.",
+    "samenvatting": "In Amstelveen meldt u zich bij het Sociaal loket van de gemeente; daar werken de medewerkers jeugd. U kunt ook via de huisarts, de praktijkondersteuner jeugd, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal loket en medewerkers jeugd van de gemeente",
-        "omschrijving": "Het Sociaal loket van de gemeente helpt alle Amstelveners, ook met vragen over jeugd. Voor specialistische jeugdhulp bespreekt een medewerker jeugd met u wat er speelt, welke hulp al is ingezet en wat u wilt bereiken. Een medewerker jeugd kiest samen met u een passende aanbieder en geeft de verwijzing af; soms blijkt het vrij toegankelijke aanbod voldoende. Spelen er naast zorgen om uw kind ook andere problemen (bijvoorbeeld geld, wonen of werk), dan kan het Sociaal loket beoordelen of het Sociaal team passend is. U kunt zich niet zelf melden bij het Sociaal team; dat gaat via het Sociaal loket, de huisarts, school of een andere deskundige.",
+        "omschrijving": "Er is geen apart wijkteam of CJG. Een medewerker jeugd bespreekt met u wat er speelt, kiest samen met u een aanbieder en geeft de verwijzing af; soms is het vrij toegankelijke aanbod genoeg. Alleen een ouder met gezag, een voogd of een jongere vanaf 16 jaar kan jeugdhulp aanvragen; spelen er ook problemen met geld, wonen of werk, dan kan het Sociaal loket u naar het Sociaal team sturen.",
         "stappen": [
-          "Bel het Sociaal loket (ma-do 8.30-17.00 uur, vr 8.30-12.30 uur), plan een belafspraak, loop binnen tijdens het inloopspreekuur in het raadhuis of stuur een bericht via het contactformulier.",
-          "Doe een aanvraag voor specialistische jeugdhulp via het online formulier van de gemeente. U ontvangt een bevestiging waarin staat welke stappen volgen.",
-          "Een medewerker jeugd voert een gesprek met u (en met uw kind, als die oud genoeg is). U mag altijd iemand meenemen, bijvoorbeeld een cliëntondersteuner van MEE Dichtbij.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij toegewezen hulp, om een beschikking of verwijzing. Controleer in de Beschikbaarheidswijzer welke aanbieders er zijn en wat de wachttijd is."
+          "Bel het Sociaal loket, plan een belafspraak, loop binnen bij het inloopspreekuur in het raadhuis of gebruik het contactformulier.",
+          "Vraag specialistische jeugdhulp aan met het online formulier. U krijgt een bevestiging met de volgende stappen.",
+          "Bespreek met een medewerker jeugd wat uw kind nodig heeft. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Sociaal loket Amstelveen",
@@ -24,16 +23,17 @@
           "url": "https://www.amstelveen.nl/sociaal-loket",
           "adres": "Raadhuis Amstelveen, Laan Nieuwer-Amstel 1, 1182 JR Amstelveen",
           "openingstijden": "Telefoon: ma-do 8.30-17.00 uur, vr 8.30-12.30 uur. Inloopspreekuur zonder afspraak: ma-do 9.00-11.00 en 13.30-15.30 uur, vr 9.00-11.00 uur."
-        }
+        },
+        "doorlooptijd": "Voor gespecialiseerde jeugdhulp kan een wachttijd gelden. In de Beschikbaarheidswijzer ziet u welke aanbieders er zijn en hoe lang u wacht."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Bij huisartsenpraktijken met een praktijkondersteuner jeugd (POH-Jeugd) kunt u daar eerst kortdurende ondersteuning krijgen. In Amstelveen start ongeveer 69% van de jeugdhulptrajecten via deze route; de gemeente werkt met huisartsen aan afspraken over de instroom (programma Grip op Jeugdhulp).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij praktijken met een praktijkondersteuner jeugd (POH-Jeugd) kunt u daar eerst korte hulp krijgen. Ongeveer 69% van de jeugdhulp in Amstelveen begint via deze route.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, de POH-Jeugd of de jeugdarts van de GGD.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder. Vraag naar de verwachte wachttijd en kijk zelf ook in de Beschikbaarheidswijzer.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "De arts verwijst naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Amsterdam (Amstelland)",
@@ -45,10 +45,10 @@
       {
         "type": "school",
         "naam": "Via school en zorgteams op school",
-        "omschrijving": "De intern begeleider van de basisschool of de zorgcoördinator van de middelbare school kan zelf helpen of doorverwijzen, bijvoorbeeld naar een schoolmaatschappelijk werker of medewerker jeugd. De gemeente versterkt de zorgteams op scholen waar daar behoefte aan is. Hulp bij ernstige dyslexie vraagt u niet zelf aan: de basisschool meldt uw kind aan bij de gemeente, samen met u als gezaghebbende ouder.",
+        "omschrijving": "De intern begeleider of zorgcoördinator kan zelf helpen of doorverwijzen, bijvoorbeeld naar een brugfunctionaris, schoolmaatschappelijk werker of medewerker jeugd. Hulp bij ernstige dyslexie vraagt u niet zelf aan: de basisschool meldt uw kind aan bij de gemeente, samen met u.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School kan doorverwijzen naar een brugfunctionaris, schoolmaatschappelijk werker of medewerker jeugd, of (bij ernstige leesproblemen) uw kind aanmelden voor jeugdhulp bij dyslexie.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of school kan doorverwijzen, of uw kind kan aanmelden voor hulp bij dyslexie.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -77,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Amstelveen op de pagina Hulp bij huiselijk geweld, kindermishandeling en seksueel geweld van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Amstelveen: Hulp bij huiselijk geweld, kindermishandeling en seksueel geweld",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Centraal Gelderland",
   "websiteJeugd": "https://www.arnhem.nl/alle-onderwerpen/zorg-en-welzijn/hulp-en-meldpunten/wijkteams-arnhem/",
   "toegang": {
-    "samenvatting": "In Arnhem zijn de acht sociale wijkteams (Stichting Wijkteams Arnhem) de toegang tot jeugdhulp, Wmo en hulp bij werk en inkomen. U krijgt één vaste wijkcoach die met u een plan maakt, zelf lichte hulp en opvoedondersteuning biedt en zo nodig specialistische jeugdhulp inzet. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar gecontracteerde aanbieders. Specialistische hulp wordt regionaal ingekocht via Inkoop Sociaal Domein Centraal Gelderland.",
+    "samenvatting": "In Arnhem meldt u zich bij het sociale wijkteam (Stichting Wijkteams Arnhem); u krijgt daar één vaste wijkcoach. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteams Arnhem",
-        "omschrijving": "Acht wijkteams (onder meer Noord-West, Noord-Oost, Presikhaaf, Malburgen, Centrum/Spijkerkwartier/Arnhemse Broek, Rijkerswoerd/Kronenburg/Vredenburg, Elden/De Laar en Schuytgraaf/Elderveld) met een centraal serviceteam. De wijkcoach voert een keukentafelgesprek, maakt samen met u een plan en regelt de toegang tot specialistische jeugdhulp, zorg in natura of pgb. Hulp van het wijkteam is gratis en zonder verwijsbrief.",
+        "omschrijving": "Arnhem heeft acht wijkteams met een centraal serviceteam: Noord-West, Noord-Oost, Presikhaaf, Malburgen, Centrum/Spijkerkwartier/Arnhemse Broek, Rijkerswoerd/Kronenburg/Vredenburg, Elden/De Laar en Schuytgraaf/Elderveld. De wijkcoach biedt zelf lichte hulp en opvoedondersteuning, en regelt zo nodig specialistische jeugdhulp, zorg in natura of een pgb. Hulp van het wijkteam is gratis.",
         "stappen": [
-          "Bel het serviceteam (werkdagen 9.00–17.00 uur) of vul het contactformulier in op wijkteamsarnhem.nl; op het formulier krijgt u binnen 5 werkdagen antwoord.",
-          "Er volgt een keukentafelgesprek, thuis of op een plek naar keuze, met twee coaches; één wordt uw vaste wijkcoach. U mag iemand meenemen, ook een onafhankelijke cliëntondersteuner.",
-          "De coach maakt met u een online plan dat u zelf kunt inzien en aanvullen.",
-          "Is specialistische jeugdhulp nodig, dan verwijst de coach naar een gecontracteerde aanbieder of kent een pgb toe; u ontvangt dan een beschikking van de gemeente."
+          "Bel het serviceteam (werkdagen 9.00–17.00 uur) of vul het contactformulier in op wijkteamsarnhem.nl.",
+          "Voer een keukentafelgesprek met twee coaches, thuis of op een plek naar keuze; één wordt uw vaste wijkcoach. U mag iemand meenemen.",
+          "Maak samen een online plan, dat u zelf kunt inzien en aanvullen. Bij specialistische jeugdhulp krijgt u een beschikking van de gemeente."
         ],
         "contact": {
           "naam": "Wijkteams Arnhem (serviceteam)",
@@ -23,16 +22,17 @@
           "url": "https://www.wijkteamsarnhem.nl/contact/",
           "adres": "Mr E.N. van Kleffensstraat 12, 6842 CV Arnhem",
           "openingstijden": "Werkdagen 9.00–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Op het contactformulier krijgt u binnen 5 werkdagen antwoord. Hoe lang het daarna duurt, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de regio Centraal Gelderland gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het wijkteam. Veel Arnhemse huisartsenpraktijken werken met een praktijkondersteuner jeugd (POH-Jeugd).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen, zonder tussenkomst van het wijkteam. Veel Arnhemse huisartsenpraktijken werken met een praktijkondersteuner jeugd (POH-Jeugd). Specialistische hulp wordt ingekocht door de regio Centraal Gelderland.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van de jeugdgezondheidszorg (VGGM).",
-          "De arts of POH-Jeugd kijkt mee en verwijst zo nodig naar een gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "De arts of POH-Jeugd kijkt mee en verwijst zo nodig naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -44,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Wijkcoaches zijn verbonden aan scholen en wijkcentra. Voor extra ondersteuning op school zijn de samenwerkingsverbanden PassendWijs (basisonderwijs) en De Verbinding (voortgezet onderwijs) verantwoordelijk.",
+        "omschrijving": "Wijkcoaches zijn verbonden aan scholen en wijkcentra. Extra ondersteuning op school regelen de samenwerkingsverbanden PassendWijs (basisonderwijs) en De Verbinding (voortgezet onderwijs).",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School kan de aan de school verbonden wijkcoach of de jeugdverpleegkundige inschakelen.",
-          "Onderwijsondersteuning (arrangementen, toelaatbaarheidsverklaring) loopt via het samenwerkingsverband passend onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of school de wijkcoach van de school of de jeugdverpleegkundige kan inschakelen.",
+          "Gaat het om extra ondersteuning in het onderwijs, zoals een arrangement of toelaatbaarheidsverklaring? Dat loopt via het samenwerkingsverband."
         ],
         "contact": {
           "naam": "SWV PassendWijs (po) en SWV De Verbinding (vo)",
@@ -58,10 +58,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis onveilig voor uw kind? Kijk op de pagina Veiligheid van Wijkteams Arnhem."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Wijkteams Arnhem: Veiligheid (huiselijk geweld en zorgen om een kind)",

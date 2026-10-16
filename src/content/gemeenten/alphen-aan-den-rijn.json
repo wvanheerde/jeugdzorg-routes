@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Holland Rijnland",
   "websiteJeugd": "https://www.alphenaandenrijn.nl/Jeugdhulp",
   "toegang": {
-    "samenvatting": "Sinds 1 januari 2024 verzorgt Oog voor Thuis (voorheen Jeugd- en Gezinsteams) de toegang tot jeugdhulp in Alphen aan den Rijn, Boskoop en Rijnwoude. Oog voor Thuis is een organisatie van de gemeente zelf en werkt vanuit de CJG-locaties. Daarnaast kunnen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen. Tot eind 2023 liep de toegang via GO! voor jeugd; oudere informatie op internet kan daardoor verouderd zijn.",
+    "samenvatting": "In Alphen aan den Rijn, Boskoop en Rijnwoude meldt u zich zelf aan bij Oog voor Thuis, het team van de gemeente op de CJG-locaties; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Oog voor Thuis (Jeugd- en Gezinsteams)",
-        "omschrijving": "Gemeentelijk toegangsteam voor kinderen en jongeren tot 18 jaar. Werkt volgens de aanpak 'Gezin Centraal': niet alleen het kind, maar het hele gezin en de omgeving worden betrokken. Biedt zelf laagdrempelige hulp en zet specialistische jeugdhulp in.",
+        "naam": "Oog voor Thuis",
+        "omschrijving": "Oog voor Thuis is er voor kinderen en jongeren tot 18 jaar en betrekt het hele gezin en de omgeving (aanpak 'Gezin Centraal'). Het team biedt zelf hulp en zet zo nodig specialistische jeugdhulp in. Het team heette eerst Jeugd- en Gezinsteams; tot eind 2023 liep de toegang via GO! voor jeugd, dus oudere informatie op internet kan verouderd zijn.",
         "stappen": [
-          "Meld uw kind aan via het online aanmeldformulier op oogvoorthuis.nl of bel voor een terugbelafspraak.",
-          "Een medewerker neemt contact op en plant een eerste gesprek, bijvoorbeeld op een CJG-locatie of thuis.",
-          "Samen maakt u een gezinsplan. Oog voor Thuis biedt zelf hulp of zet specialistische jeugdhulp in.",
-          "Bij specialistische hulp ontvangt u een beschikking van de gemeente."
+          "Meld uw kind aan via het formulier op oogvoorthuis.nl, of bel voor een terugbelafspraak.",
+          "Voer een eerste gesprek met een medewerker, op een CJG-locatie of thuis.",
+          "Maak samen een gezinsplan. Bij specialistische hulp krijgt u een beschikking van de gemeente."
         ],
         "contact": {
           "naam": "Oog voor Thuis",
@@ -29,11 +28,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de regio Holland Rijnland gecontracteerde jeugdhulp, zonder tussenkomst van Oog voor Thuis.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de regio Holland Rijnland heeft ingekocht, zonder tussenkomst van Oog voor Thuis.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
-          "De arts verwijst naar een gecontracteerde aanbieder, bijvoorbeeld voor jeugd-GGZ.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Vraag een verwijzing naar een aanbieder met een contract, bijvoorbeeld voor jeugd-ggz.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -55,11 +54,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Scholen in Alphen aan den Rijn werken samen met Oog voor Thuis. Bij zorgen rond leren of gedrag kan de school meedenken en contact leggen.",
+        "omschrijving": "Scholen werken samen met Oog voor Thuis. Bij zorgen over leren of gedrag denkt de school mee en legt zij contact.",
         "stappen": [
           "Bespreek zorgen met de leerkracht of intern begeleider.",
-          "School schakelt zo nodig de contactpersoon van Oog voor Thuis in.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs: SWV Rijnstreek voor het basisonderwijs en SWV VO Midden-Holland en Rijnstreek voor het voortgezet onderwijs."
+          "Vraag of school de contactpersoon van Oog voor Thuis inschakelt.",
+          "Gaat het om extra ondersteuning op school? Die loopt via SWV Rijnstreek (basisonderwijs) of SWV VO Midden-Holland en Rijnstreek (voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -87,10 +86,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Alphen aan den Rijn op de pagina Crisissituatie van Oog voor Thuis."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Oog voor Thuis (gemeente Alphen aan den Rijn): Crisissituatie",
@@ -411,7 +409,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Alphen aan den Rijn – Jeugdhulp",
@@ -597,6 +595,11 @@
         "titel": "SWV VO Midden-Holland & Rijnstreek – Contact",
         "url": "https://www.swv-vo-mhr.nl/contact",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Oog voor Thuis – Wie zijn wij?",
+        "url": "https://www.oogvoorthuis.nl/Wie_zijn_wij",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: cliëntervaringsonderzoek Jeugd en doorlooptijden niet gevonden (gemeentesite, iBabs, Adviesraad Samenleving); jaarstukken alleen via het JavaScript-raadsinformatiesysteem. Beschikbaarheidswijzer: eigen regio-slug 'alphen-aan-den-rijn', los van Holland Rijnland."

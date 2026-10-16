@@ -4,17 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.bernheze.org/inwoners-en-ondernemers/zorg-inkomen-en-sociale-ondersteuning/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Bernheze vraagt u jeugdhulp aan via Wegwijzer Bernheze. Dat is het toegangsteam van de gemeente, waarin gemeentemedewerkers samenwerken met jeugdprofessionals van welzijnsorganisatie ONS welzijn. U meldt zich zelf aan, een verwijzing is niet nodig. Voor vragen over opvoeden en opgroeien kunt u ook terecht bij het Centrum voor Jeugd en Gezin (CJG), zonder besluit van de gemeente. De huisarts mag ook rechtstreeks verwijzen naar specialistische jeugdhulp. Volgens de gemeente is er bij Wegwijzer een wachtlijst van ongeveer 3 maanden. Vraag bij uw aanmelding hoe lang het bij u duurt.",
+    "samenvatting": "In Bernheze meldt u zich bij Wegwijzer Bernheze, het toegangsteam van de gemeente en ONS welzijn, of voor opvoedvragen bij het CJG. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wegwijzer Bernheze, met ONS welzijn en het CJG",
-        "omschrijving": "Wegwijzer is de toegang tot hulp en ondersteuning van de gemeente. Jeugdprofessionals van ONS welzijn beoordelen samen met u welke hulp nodig is. Zij kunnen zelf lichte hulp bieden en zetten zo nodig specialistische jeugdhulp in. Het CJG geeft advies en ondersteuning bij opvoeden en opgroeien, ook zonder besluit van de gemeente.",
+        "omschrijving": "Jeugdprofessionals van ONS welzijn bekijken met u welke hulp nodig is. Zij bieden zelf lichte hulp en zetten zo nodig specialistische jeugdhulp in. Het CJG geeft advies en ondersteuning bij opvoeden, zonder besluit van de gemeente.",
         "stappen": [
-          "Neem contact op met Wegwijzer: bel, loop werkdagen binnen of gebruik het contactformulier van de gemeente.",
-          "Een medewerker bespreekt uw vraag. Is meer nodig, dan volgt een afspraak voor een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is specialistische hulp nodig, dan maakt u samen een plan van aanpak. Vraag om het verslag en om een schriftelijk besluit.",
-          "Liever eerst advies over opvoeden of opgroeien? Neem contact op met het CJG."
+          "Bel Wegwijzer, loop op werkdagen binnen of gebruik het contactformulier van de gemeente.",
+          "Een medewerker bespreekt uw vraag. Is meer nodig, dan volgt een gesprek; u mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan maakt u samen een plan van aanpak en krijgt u een schriftelijk besluit."
         ],
         "contact": [
           {
@@ -39,16 +38,17 @@
             "url": "https://www.ons-welzijn.nl/contact",
             "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens de gemeente is er bij Wegwijzer een wachtlijst van ongeveer 3 maanden. Vraag bij uw aanmelding hoe lang het bij u duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Wegwijzer. De jeugdarts en jeugdverpleegkundige van de jeugdgezondheidszorg zitten op het consultatiebureau.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts en jeugdverpleegkundige zitten op het consultatiebureau.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "De arts verwijst naar een aanbieder met een contract met de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -59,10 +59,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op scholen werkt schoolmaatschappelijk werk van ONS welzijn. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Het steunpunt geeft advies bij vragen over passend onderwijs.",
+        "omschrijving": "Op scholen werkt schoolmaatschappelijk werk van ONS welzijn.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of het schoolmaatschappelijk werk van ONS welzijn kan meekijken, of meld u zelf aan bij Wegwijzer.",
+          "Vraag of het schoolmaatschappelijk werk van ONS welzijn kan meekijken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -92,10 +92,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina Spoed en crisis van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten rond Bernheze op de pagina Spoed en crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Bernheze: spoed en crisis",

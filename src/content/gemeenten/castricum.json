@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Alkmaar",
   "websiteJeugd": "https://www.castricum.nl/aanvragen-en-regelen/onderwijs-en-jeugd",
   "toegang": {
-    "samenvatting": "In Castricum, Akersloot en Limmen is het Sociaal Team de plek waar u hulp vraagt. U hoeft niet eerst naar de huisarts. Het team is er voor alle inwoners en helpt ook bij vragen over opvoeden en opgroeien. Een jeugd- en gezinscoach kan u en uw kind gratis en vrijwillig helpen, thuis, op school of op een andere plek. Is er meer nodig, dan zorgt het team voor specialistische jeugdhulp. Die hulp kopen de gemeenten uit de regio Alkmaar samen in. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Castricum, Akersloot en Limmen meldt u zich bij het Sociaal Team van de gemeente, ook zonder afspraak op het inloopspreekuur. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Castricum",
-        "omschrijving": "Het Sociaal Team is onderdeel van de gemeente en werkt voor Castricum, Akersloot en Limmen. Het helpt met vragen over opvoeden, gezin, zorg en meer. Een jeugd- en gezinscoach praat met u en uw kind over wat er nodig is en maakt samen met u doelen. De gemeente vraagt u eerst te kijken wat familie, vrienden of buren kunnen doen. Lukt dat niet, dan helpt het team verder, ook met specialistische jeugdhulp. U kunt zich zelf melden, een verwijzing is niet nodig. U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "omschrijving": "Een jeugd- en gezinscoach van het Sociaal Team helpt u en uw kind gratis, thuis, op school of op een andere plek. U stelt samen doelen; de coach komt hoogstens één keer per week. Is meer nodig, dan regelt het team specialistische jeugdhulp, die de gemeenten in de regio Alkmaar samen inkopen.",
         "stappen": [
-          "Loop binnen bij een inloopspreekuur van het Sociaal Team in Castricum, Akersloot of Limmen. U kunt ook het Sociaal Team bellen of mailen.",
-          "Vertel wat er speelt. Een medewerker bespreekt met u en uw kind welke hulp past en wat u en uw omgeving zelf kunnen doen.",
-          "Past lichte hulp van een jeugd- en gezinscoach? Dan maakt u samen doelen en spreekt u af hoe vaak de coach langskomt. Dat is hoogstens één keer per week.",
-          "Is specialistische jeugdhulp nodig? Dan regelt het team dat met u. Vraag om een schriftelijk verslag van het gesprek en om een besluit (beschikking) over de hulp.",
-          "Wilt u hulp bij het gesprek? Vraag om een onafhankelijke cliëntondersteuner van Sylta."
+          "Loop binnen bij het inloopspreekuur in Castricum, Akersloot of Limmen, of bel of mail het Sociaal Team.",
+          "Vertel wat er speelt. U bespreekt samen welke hulp past en wat familie, vrienden of buren kunnen doen. U mag iemand meenemen.",
+          "Is specialistische jeugdhulp nodig, dan regelt het team dat. U krijgt een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -26,16 +24,17 @@
             "url": "https://www.castricum.nl/aanvragen-en-regelen/sociaal-team/",
             "openingstijden": "Inloopspreekuur zonder afspraak: Castricum maandag 11.30–13.30 uur, Akersloot woensdag 14.00–16.00 uur, Limmen donderdag 10.00–12.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van GGD Hollands Noorden, die ook het consultatiebureau doet.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Hollands Noorden, die ook het consultatiebureau doet.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract van de gemeente.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -47,10 +46,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over uw kind op school, begin dan met de leerkracht, mentor of intern begeleider. Het Sociaal Team kan ook op school met uw kind werken. Komt u er met school niet uit, dan kunt u terecht bij het samenwerkingsverband passend onderwijs. In Castricum zijn dat twee verbanden: IJmond voor het basisonderwijs en Midden Kennemerland voor het voortgezet onderwijs. Zij geven ouders en jongeren gratis informatie en steun.",
+        "omschrijving": "Het Sociaal Team kan ook op school met uw kind werken. Komt u er met school niet uit, dan geeft het samenwerkingsverband passend onderwijs gratis informatie en steun: IJmond voor het basisonderwijs, Midden Kennemerland voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school samen met u het Sociaal Team wil inschakelen, of meld u zelf aan bij het Sociaal Team.",
+          "Vraag of school samen met u het Sociaal Team wil inschakelen.",
           "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs van de school van uw kind."
         ],
         "contact": [
@@ -78,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis, buiten de gewone route om. De gemeente zet hulp bij kindermishandeling en huiselijk geweld op een eigen pagina.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina van de gemeente Castricum over kindermishandeling en huiselijk geweld voor hulp en organisaties."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Castricum: kindermishandeling en huiselijk geweld",

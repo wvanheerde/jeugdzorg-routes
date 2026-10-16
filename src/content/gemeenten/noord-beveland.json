@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Zeeland",
   "websiteJeugd": "https://www.noord-beveland.nl/centrum-voor-jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Noord-Beveland vraagt u hulp bij het Centrum voor Jeugd en Gezin (CJG) van de gemeente. Het CJG zit in het gemeentehuis in Wissenkerke. Het helpt kinderen en jongeren tot 23 jaar en hun ouders. U kunt zich zelf melden. Een verwijzing is niet nodig. Ook specialistische hulp vraagt u aan bij het CJG, zoals psychische hulp, begeleiding thuis of dagbehandeling. De gemeente beslist daarover met een beschikking (besluit). De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Noord-Beveland meldt u zich bij het Centrum voor Jeugd en Gezin (CJG) in het gemeentehuis in Wissenkerke, voor kinderen en jongeren tot 23 jaar en hun ouders. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Noord-Beveland",
-        "omschrijving": "Het CJG geeft advies over opvoeden en opgroeien. Het kijkt met u welke hulp past en regelt de toegang tot jeugdhulp. Een medewerker van het CJG voert het gesprek, op het gemeentehuis of bij u thuis. Jongeren kunnen zelf hulp aanvragen. Over specialistische hulp beslist de gemeente met een beschikking (besluit).",
+        "omschrijving": "Het CJG geeft advies over opvoeden en opgroeien en regelt ook specialistische hulp, zoals psychische hulp, begeleiding thuis of dagbehandeling. Jongeren kunnen zelf hulp aanvragen. Over specialistische hulp beslist de gemeente met een beschikking (besluit).",
         "stappen": [
-          "Neem contact op met het CJG. Dat kan met een telefoontje, een e-mail of het contactformulier op de website van het CJG.",
-          "Maak een afspraak met het CJG als advies niet genoeg is. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bedenkt u liever met familie en vrienden zelf een oplossing? Maak dan een familiegroepsplan. Het CJG kan u daarbij helpen.",
-          "Vraag om een schriftelijk ondersteuningsplan en een schriftelijk besluit. In het besluit staat welke hulp u krijgt en hoe u bezwaar maakt."
+          "Bel of mail het CJG, of vul het contactformulier op de website in.",
+          "Maak een afspraak als advies niet genoeg is, op het gemeentehuis of bij u thuis. U mag iemand meenemen.",
+          "Wilt u met familie en vrienden zelf een oplossing bedenken? Maak een familiegroepsplan; het CJG helpt daarbij."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Noord-Beveland",
@@ -24,16 +23,17 @@
           "url": "https://www.cjgnoord-beveland.nl/contact",
           "adres": "Gemeentehuis, Voorstraat 31, Wissenkerke (op afspraak)",
           "openingstijden": "Telefonisch ma t/m do 8.30–12.00 en 13.00–17.00 uur, vr 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. De jeugdarts voor kinderen in Noord-Beveland werkt bij de jeugdgezondheidszorg van GGD Zeeland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Zeeland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar het CJG.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar het CJG.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -44,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt school zich zorgen, of komt u er met school niet uit? Dan kunt u het CJG erbij halen. Het ouder- en jeugdsteunpunt Zeeland geeft onafhankelijk advies over passend onderwijs, voor basis- en voortgezet onderwijs. Noord-Beveland heeft zelf geen middelbare school. Leerlingen gaan naar scholen in de omgeving.",
+        "omschrijving": "Maakt school zich zorgen, of komt u er met school niet uit? Dan kunt u het CJG erbij halen. Noord-Beveland heeft geen middelbare school; leerlingen gaan naar scholen in de omgeving.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het CJG erbij kan halen, of meld u zelf aan bij het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland."
+          "Vraag of school het CJG erbij kan halen.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland, voor basis- en voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -68,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Op de contactpagina van het CJG staat welke crisisdienst voor jeugd er is, ook buiten kantooruren.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het CJG gesloten? Kijk op de contactpagina van het CJG voor de crisisdienst voor jeugd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG Noord-Beveland: bereikbaarheid en crisis buiten openingstijden",

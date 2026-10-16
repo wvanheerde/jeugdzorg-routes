@@ -5,33 +5,33 @@
   "jeugdzorgregio": "Hart van Brabant",
   "websiteJeugd": "https://www.oisterwijk.nl/zorg-en-ondersteuning/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Oisterwijk, Moergestel en Haaren is Loket Wegwijs Oisterwijk de eerste plek voor vragen over opvoeden, opgroeien en jeugdhulp. U kunt bellen, binnenlopen bij een inloopmoment of online hulp vragen. Een verwijzing is niet nodig. Het loket kijkt eerst met u wat u zelf of met mensen om u heen kunt doen, en welke hulp in de buurt past. Is meer nodig, dan zoekt het loket samen met u hulp die bij uw kind past. De huisarts mag nog steeds verwijzen. Wel hebben gemeente, huisartsen en jeugdartsen afgesproken dat vragen over opvoeding en ontwikkeling in principe eerst naar Loket Wegwijs gaan. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Oisterwijk, Moergestel en Haaren meldt u zich bij Loket Wegwijs Oisterwijk: bellen, binnenlopen of online. Een verwijzing is niet nodig; ook huisartsen en jeugdartsen sturen vragen over opvoeding en ontwikkeling in principe naar het loket.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Loket Wegwijs Oisterwijk",
-        "omschrijving": "Loket Wegwijs is de centrale ingang van de gemeente voor vragen over opvoeding, jeugd, zorg, welzijn, werk en inkomen. U meldt zich zelf aan. In het eerste gesprek kijkt het loket naar uw hele gezin, niet alleen naar uw eerste vraag. Soms helpt een groepstraining, een voorziening in de buurt of een vrijwilligersorganisatie. Is specialistische jeugdhulp nodig, dan bekijkt het loket samen met u welke hulp past.",
+        "omschrijving": "Loket Wegwijs is de ingang voor opvoeding, jeugd, zorg, welzijn, werk en inkomen. In het eerste gesprek kijkt het loket naar uw hele gezin; soms past een groepstraining, een voorziening in de buurt of een vrijwilligersorganisatie. Is specialistische jeugdhulp nodig, dan zoekt het loket samen met u hulp die bij uw kind past.",
         "stappen": [
           "Bel Loket Wegwijs, loop binnen bij een inloopmoment of vraag online hulp aan via de website van de gemeente.",
-          "Bespreek uw vraag. Het loket kijkt samen met u wat u zelf kunt doen en welke hulp in de buurt past. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag hoe lang het duurt als er meer hulp nodig is. Het loket zoekt dan samen met u hulp die bij uw kind past.",
-          "Vraag na het gesprek om een schriftelijk verslag. Bij specialistische hulp vraagt u ook om een beschikking (schriftelijk besluit van de gemeente)."
+          "Bespreek uw vraag. U mag iemand meenemen.",
+          "Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit van de gemeente)."
         ],
         "contact": {
           "naam": "Loket Wegwijs Oisterwijk",
           "telefoon": "013 303 0440",
           "url": "https://www.oisterwijk.nl/zorg-en-ondersteuning/loket-wegwijs/contact-en-inloopspreekuren",
           "openingstijden": "Telefonisch ma, di, do en vr 8.30–12.00 uur, wo 13.00–17.00 uur. Inloop zonder afspraak van 9.00 tot 10.30 uur: maandag in Haaren (Den Domp), dinsdag in Moergestel (Medisch Centrum) en dinsdag in Oisterwijk (Informatieplein in de bibliotheek, Tiliander)"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. In Oisterwijk is afgesproken dat vragen over opvoeding en ontwikkeling in principe eerst naar Loket Wegwijs gaan. De huisarts mag wel zelf verwijzen, bijvoorbeeld bij een acute situatie of bij psychiatrische problemen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u verwijzen. In Oisterwijk is afgesproken dat vragen over opvoeding en ontwikkeling in principe eerst naar Loket Wegwijs gaan. Bij een acute situatie, psychiatrische problemen of een medische vraag kan de huisarts direct naar een aanbieder verwijzen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing. Meestal verwijst die naar Loket Wegwijs. Bij een medische vraag kan de huisarts direct verwijzen naar een aanbieder die de gemeente heeft ingekocht.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst meestal naar Loket Wegwijs, of direct naar een aanbieder die de gemeente heeft ingekocht.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -42,10 +42,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Scholen in Oisterwijk verwijzen ouders steeds vaker rechtstreeks naar Loket Wegwijs. Het loket heeft ook medewerkers op basisscholen en middelbare scholen die de verbinding leggen tussen school en loket (schakelfunctionarissen). Komt u er met school niet uit? Dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Scholen in Oisterwijk verwijzen ouders steeds vaker rechtstreeks naar Loket Wegwijs. Het loket heeft schakelfunctionarissen op basisscholen en middelbare scholen, die de verbinding leggen tussen school en loket.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u aan bij Loket Wegwijs, zelf of via school.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar de schakelfunctionaris.",
           "Komt u er met school niet uit? Vraag advies bij Ouderlicht, het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -65,10 +64,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis. U gaat dan buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er voor Oisterwijk is en wanneer die helpt, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst in uw regio op de pagina Jeugdhulp van de gemeente, onder het kopje Noodsituatie."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Oisterwijk: Jeugdhulp, kopje Noodsituatie",

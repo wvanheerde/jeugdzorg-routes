@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.krimpenerwaard.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Krimpenerwaard vraagt u jeugdhulp aan bij de gemeente zelf, bij het Loket Samenleving en Zorg. U meldt zich zelf aan; een verwijzing is niet nodig. Dat kan online met DigiD of telefonisch. Een medewerker jeugd bespreekt met u wat nodig is. Die kijkt ook naar uw netwerk en naar hulp die voor iedereen openstaat. Het Centrum voor Jeugd en Gezin (CJG) geeft gratis advies over opvoeden en opgroeien. Bij de meeste huisartsenpraktijken werkt een jeugdondersteuner voor lichte hulp. Ook de huisarts mag rechtstreeks verwijzen. De gemeente vormt in 2026 lokale teams per gebied, dus de toegang kan nog veranderen. Hoe lang het duurt voordat een medewerker jeugd contact opneemt, is niet openbaar te vinden. Vraag dat bij uw aanmelding. De gemeente beslist op een aanvraag voor jeugdhulp binnen 8 weken.",
+    "samenvatting": "In Krimpenerwaard vraagt u jeugdhulp aan bij het Loket Samenleving en Zorg van de gemeente, online met DigiD of telefonisch. U kunt ook via de huisarts, de jeugdondersteuner bij de huisarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Loket Samenleving en Zorg, met het CJG Krimpenerwaard",
-        "omschrijving": "Het Loket Samenleving en Zorg is het toegangsteam van de gemeente voor jeugdhulp en Wmo (hulp bij zelfstandig leven). Medewerkers jeugd beoordelen of uw kind jeugdhulp krijgt en nemen daarover een besluit. U meldt zich zelf aan. De gemeente kijkt eerst naar wat u of uw netwerk zelf kunnen doen, en naar hulp die voor iedereen toegankelijk is, zoals het CJG. Het CJG Krimpenerwaard geeft gratis advies en lichte hulp, zonder besluit van de gemeente.",
+        "omschrijving": "Medewerkers jeugd van het loket bespreken met u wat nodig is en besluiten of uw kind jeugdhulp krijgt. Voor gratis advies en lichte hulp bij opvoeden en opgroeien kunt u ook bij het CJG Krimpenerwaard terecht, zonder besluit van de gemeente.",
         "stappen": [
-          "Vraag jeugdhulp online aan met DigiD, of neem contact op met het Loket Samenleving en Zorg. Na uw aanvraag neemt de gemeente contact met u op.",
-          "Bespreek met een medewerker jeugd uw situatie en wat u nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Wilt u dat de gemeente rekening houdt met uw eigen ideeën? Dien dan vooraf een persoonlijk plan of familiegroepsplan in. Dat hoeft niet.",
-          "Vraag om een schriftelijk besluit en een verslag van het gesprek. De gemeente beslist uiterlijk binnen 8 weken na uw aanvraag.",
-          "Liever eerst advies over opvoeden of opgroeien? Neem contact op met het CJG Krimpenerwaard."
+          "Vraag jeugdhulp online aan met DigiD of neem contact op met het loket. De gemeente neemt daarna contact met u op.",
+          "Bespreek met een medewerker jeugd wat u nodig heeft. U mag iemand meenemen. Wilt u, dan dient u vooraf een eigen plan of familiegroepsplan in.",
+          "Is jeugdhulp nodig, dan krijgt u een schriftelijk besluit."
         ],
         "contact": [
           {
@@ -32,17 +30,17 @@
             "url": "https://www.cjgkrimpenerwaard.nl/pagina/contact/741076",
             "openingstijden": "Telefonisch werkdagen 8.00–16.00 uur. Advies van een jeugdverpleegkundige werkdagen 8.30–12.30 uur (kies 1 in het keuzemenu)"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat een medewerker jeugd contact opneemt, is niet openbaar. De gemeente beslist binnen 8 weken na uw aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdondersteuner of jeugdarts",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Loket Samenleving en Zorg. Normaal werkt bij tien van de elf huisartsenpraktijken in de gemeente een jeugdondersteuner. Die biedt lichte, korte hulp van hooguit 8 gesprekken. Sinds augustus 2026 zijn twee van die praktijken tijdelijk zonder jeugdondersteuner. Vraag uw huisarts of die er nu is.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij tien van de elf huisartsenpraktijken werkt normaal een jeugdondersteuner, voor korte hulp van hooguit 8 gesprekken. Sinds augustus 2026 zijn twee praktijken tijdelijk zonder jeugdondersteuner; vraag uw huisarts of die er nu is.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het CJG Krimpenerwaard.",
-          "Laat u door de huisarts doorverwijzen naar de jeugdondersteuner. Die belt u volgens de gemeente binnen twee weken.",
-          "Is meer hulp nodig? Dan verwijst de jeugdondersteuner u naar het Loket Samenleving en Zorg. De huisarts kan ook direct verwijzen naar een aanbieder met een contract met de gemeente.",
-          "Wacht op het schriftelijke besluit van de gemeente over de hulp. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
+          "De huisarts verwijst u naar de jeugdondersteuner. Die belt u volgens de gemeente binnen twee weken.",
+          "Is meer hulp nodig, dan verwijst de jeugdondersteuner u naar het loket. De huisarts kan ook direct verwijzen naar een aanbieder met een contract."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Krimpenerwaard: jeugdgezondheidszorg",
@@ -54,13 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Kinderen in Krimpenerwaard gaan naar scholen die bij verschillende samenwerkingsverbanden passend onderwijs horen. Een samenwerkingsverband is een groep scholen die samen afspreekt hoe extra ondersteuning wordt geregeld. Begin bij school: die kent de ondersteuning op de eigen school en weet bij welk samenwerkingsverband zij hoort. Bij problemen met schoolbezoek is Bureau Leerlingzaken er voor kinderen van 5 tot 23 jaar.",
+        "omschrijving": "Begin bij school: die kent de eigen ondersteuning en weet bij welk samenwerkingsverband passend onderwijs de school hoort. Bij problemen met schoolbezoek helpt Bureau Leerlingzaken, voor kinderen van 5 tot 23 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school welke extra ondersteuning zij kan bieden en welk samenwerkingsverband passend onderwijs bij de school hoort.",
-          "Is er meer nodig dan school kan bieden, neem dan contact op met het Loket Samenleving en Zorg voor jeugdhulp.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag welke extra ondersteuning school kan bieden.",
           "Blijft uw kind vaak weg van school of zit het thuis? Neem contact op met Bureau Leerlingzaken Midden-Holland.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband van de school."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -104,10 +100,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke hulp er verder is, ook buiten kantooruren, staat op de crisispagina van het CJG Krimpenerwaard.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp die niet kan wachten op de pagina Nu hulp nodig? van het CJG Krimpenerwaard."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG Krimpenerwaard: Nu hulp nodig?",
@@ -257,7 +252,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Krimpenerwaard: Jeugdhulp",

@@ -4,33 +4,33 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.denhelder.nl/Onderwerpen/Hulp_en_zorg/Jeugd_en_gezin/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Den Helder is Team Zorg van de gemeente de deur naar jeugdhulp. U belt zelf; een verwijzing is niet nodig. Een medewerker jeugd van de gemeente bespreekt met u wat nodig is. Bij eenvoudige vragen geeft de medewerker jeugd zelf lichte hulp. Zwaardere hulp regelt de medewerker jeugd bij een aanbieder met een contract. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. In huisartsenpraktijken werken ook medewerkers jeugd. Volgens de gemeente beslist Team Zorg binnen acht weken na uw aanvraag. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat als u belt.",
+    "samenvatting": "In Den Helder belt u Team Zorg van de gemeente; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of de brugfunctionaris op school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Zorg van de gemeente, met een medewerker jeugd",
-        "omschrijving": "Team Zorg is een team van de gemeente. Een medewerker jeugd kijkt met u wat u zelf kunt doen en welke hulp nodig is. Bij eenvoudige vragen geeft de medewerker jeugd zelf lichte hulp. Is meer nodig, dan maakt de medewerker jeugd met u een plan en verwijst door naar een aanbieder met een contract bij de gemeente. U kunt zich zelf aanmelden; een verwijzing is niet nodig.",
+        "omschrijving": "Een medewerker jeugd van Team Zorg kijkt met u wat nodig is. Bij eenvoudige vragen geeft de medewerker jeugd zelf lichte hulp. Is meer nodig, dan maakt u samen een plan en verwijst de medewerker jeugd door naar een aanbieder met een contract.",
         "stappen": [
-          "Bel Team Zorg van de gemeente en vertel kort waar u hulp bij zoekt.",
-          "Maak een afspraak voor een gesprek met een medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met de medewerker jeugd een plan. Vraag om een schriftelijk verslag van het gesprek.",
-          "Heeft uw kind hulp van een aanbieder nodig? Vraag dan om een beschikking (schriftelijk besluit van de gemeente). De gemeente beslist binnen acht weken na uw aanvraag."
+          "Bel Team Zorg en vertel kort waar u hulp bij zoekt.",
+          "Maak een afspraak met een medewerker jeugd en maak samen een plan. U mag iemand meenemen.",
+          "Heeft uw kind hulp van een aanbieder nodig? Vraag dan om een beschikking (schriftelijk besluit van de gemeente)."
         ],
         "contact": {
           "naam": "Team Zorg van de gemeente Den Helder",
           "telefoon": "14 0223",
           "url": "https://www.denhelder.nl/Onderwerpen/Hulp_en_zorg/Jeugd_en_gezin/Jeugdhulp",
           "openingstijden": "Telefonisch ma t/m vr 9.00–14.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de gemeente beslist Team Zorg binnen acht weken na uw aanvraag. Hoe lang het duurt tot het eerste gesprek, is niet openbaar; vraag het als u belt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via Team Zorg. In huisartsenpraktijken in Den Helder werken ook medewerkers jeugd van de gemeente en een praktijkondersteuner jeugd. Zij helpen eerst zelf met lichte hulp, voordat zwaardere hulp nodig is.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. In huisartsenpraktijken in Den Helder werken ook medewerkers jeugd van de gemeente en een praktijkondersteuner jeugd, die eerst zelf lichte hulp geven.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of die u eerst verwijst naar de medewerker jeugd of de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag of de huisarts u eerst verwijst naar de medewerker jeugd of de praktijkondersteuner jeugd, of direct naar een aanbieder.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -42,12 +42,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Vaak ziet school als eerste dat er iets speelt. Op dertien scholen in Den Helder werkt een brugfunctionaris: een medewerker die school en hulp met elkaar verbindt. Komt u er met school niet uit? Dan kunt u gratis en onafhankelijk advies vragen bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor basisonderwijs en voortgezet onderwijs zijn er aparte contactpersonen.",
+        "omschrijving": "Op dertien scholen in Den Helder werkt een brugfunctionaris, die school en hulp met elkaar verbindt. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband gratis en onafhankelijk advies, met aparte contactpersonen voor basis- en voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school wat zij zelf kan doen en of zij Team Zorg erbij wil betrekken. U kunt Team Zorg ook zelf bellen.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Vraag school om afspraken schriftelijk te bevestigen."
+          "Vraag wat school zelf kan doen en of de brugfunctionaris of Team Zorg kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -71,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn voor jeugd en gezin, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Den Helder, ook buiten kantooruren, op de pagina Crisis, nummers voor noodsituaties van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Den Helder: crisis, nummers voor noodsituaties",

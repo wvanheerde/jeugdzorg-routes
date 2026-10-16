@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.ameland.nl/jeugdhulp-geestelijke-gezondheidszorg-ggz",
   "toegang": {
-    "samenvatting": "Op Ameland begint u bij het Gebiedsteam Ameland. Dat is één team voor het hele eiland, voor alle leeftijden en alle vragen: opvoeden, school, geld, zorg en werk. Het team hoort bij Sociaal Werk Ameland en werkt voor de gemeente. U meldt zich zelf aan; een verwijzing is niet nodig. Is meer nodig dan advies, dan maakt het team samen met u een plan en beslist de gemeente over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Specialistische hulp komt meestal naar het eiland toe. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden; vraag dat bij uw aanmelding.",
+    "samenvatting": "Op Ameland meldt u zich bij het Gebiedsteam Ameland van Sociaal Werk Ameland, één team voor het hele eiland en voor alle vragen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam Ameland",
-        "omschrijving": "Het Gebiedsteam is het toegangsteam voor jeugdhulp op Ameland. Het werkt voor de gemeente. In het team werken mensen uit zorg, welzijn, jeugd en werk en inkomen samen. U meldt zich zelf aan, mondeling, telefonisch of schriftelijk; een verwijzing is niet nodig. Het team zoekt samen met u uit wat nodig is en maakt een verslag. De gemeente neemt het besluit en legt dat vast in een beschikking (schriftelijk besluit).",
+        "omschrijving": "In het Gebiedsteam werken mensen uit zorg, welzijn, jeugd en werk en inkomen samen. Vaak is advies genoeg; is meer nodig, dan maakt het team met u een plan en beslist de gemeente in een beschikking (besluit). Specialistische hulp komt meestal naar het eiland toe.",
         "stappen": [
-          "Neem contact op met het Gebiedsteam en maak een afspraak, of meld uw vraag bij de gemeente.",
-          "Praat met het Gebiedsteam over wat er speelt. Het team kijkt eerst wat u zelf of met familie en buren kunt doen. Vaak is een zetje in de goede richting genoeg.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan als meer hulp nodig is. Lees het verslag en onderteken het.",
-          "Wacht op het schriftelijke besluit (beschikking) van de gemeente. Vraag erom als u het niet krijgt."
+          "Neem contact op met het Gebiedsteam, mondeling, telefonisch of schriftelijk, of meld uw vraag bij de gemeente.",
+          "Praat met het team over wat er speelt en wat u zelf of met familie en buren kunt doen. U mag iemand meenemen.",
+          "Lees het verslag en onderteken het. Krijgt u daarna geen schriftelijk besluit, vraag er dan om."
         ],
         "contact": [
           {
@@ -33,16 +31,16 @@
             "url": "https://www.ameland.nl/jeugdhulp-geestelijke-gezondheidszorg-ggz"
           }
         ],
-        "doorlooptijd": "Volgens de verordening is het onderzoek met u binnen 6 weken klaar en beslist de gemeente binnen 10 weken na uw aanvraag."
+        "doorlooptijd": "Volgens de verordening is het onderzoek binnen 6 weken klaar en beslist de gemeente binnen 10 weken na uw aanvraag. Hoe lang het duurt tot het eerste gesprek, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz (POH-Jeugd). Die brengt in vijf gesprekken de problemen in kaart en geeft advies, volgens de verordening zonder wachtlijst. De POH-Jeugd is de schakel tussen de huisarts en het Gebiedsteam.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisarts werkt een praktijkondersteuner jeugd-ggz (POH-Jeugd), die in vijf gesprekken de problemen in kaart brengt en advies geeft, volgens de verordening zonder wachtlijst.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of u eerst naar de POH-Jeugd kunt, of meteen een verwijzing krijgt naar een aanbieder met een contract bij de gemeente.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag of u eerst naar de POH-Jeugd kunt, of meteen een verwijzing krijgt naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -54,10 +52,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft uw kind problemen op school, bijvoorbeeld pesten of faalangst? Dan kunt u ook naar het Gebiedsteam, dat hierover meedenkt. De gemeente wil de hulp op basisscholen beter afstemmen met passend onderwijs. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt passend onderwijs Friesland, voor basis- en voortgezet onderwijs.",
+        "omschrijving": "Bij problemen op school, zoals pesten of faalangst, denkt ook het Gebiedsteam mee.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het Gebiedsteam kan betrekken, of neem zelf contact op met het Gebiedsteam.",
+          "Vraag of school het Gebiedsteam kan betrekken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland."
         ],
         "contact": [
@@ -78,10 +76,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is er thuis een crisis met uw kind en kan het niet wachten? Kijk op de website van Spoed4Jeugd, het meldpunt voor spoedhulp aan kinderen in heel Friesland."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Spoed4Jeugd Friesland",

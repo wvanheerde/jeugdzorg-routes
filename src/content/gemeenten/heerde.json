@@ -4,18 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.stipheerde.nl/Opvoeden_en_opgroeien/Groei_en_ontwikkeling/Ondersteuning_en_hulp_bij_opvoeding",
   "toegang": {
-    "samenvatting": "In Heerde loopt de hulp voor jeugd via Stip, het steun- en informatiepunt van de gemeente. Het team Stip Jeugd en Gezin helpt kinderen, jongeren tot 23 jaar en hun ouders met vragen over opvoeden en opgroeien. U meldt uw hulpvraag zelf aan, een verwijzing is niet nodig. Samen met een gezinscoach maakt u een gezinsplan. Het team kijkt eerst naar hulp uit het eigen netwerk of lichte hulp, en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Heerde meldt u zich bij Stip Jeugd en Gezin, het team van de gemeente voor kinderen, jongeren tot 23 jaar en hun ouders. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Stip Jeugd en Gezin",
-        "omschrijving": "Stip Jeugd en Gezin is een team van de gemeente met gezinscoaches. U meldt zich zelf aan. Het team helpt eerst met een gezinsplan en lichte hulp. Is meer nodig, dan verwijst een gezinscoach of gedragswetenschapper van het team naar een zorgaanbieder. Bij Stip kunt u ook binnenlopen of bellen.",
+        "omschrijving": "Stip Jeugd en Gezin is een team van gezinscoaches bij Stip, het steun- en informatiepunt van de gemeente. Het team helpt eerst met een gezinsplan en lichte hulp. Is meer nodig, dan verwijst een gezinscoach of gedragswetenschapper van het team naar een zorgaanbieder.",
         "stappen": [
-          "Meld uw hulpvraag bij Stip Jeugd en Gezin, online met DigiD. U kunt ook het meldformulier invullen en opsturen met de post of per beveiligde e-mail.",
-          "Hulp nodig bij het formulier? Maak een afspraak met het formulierenteam van Stip.",
-          "Maak samen met een medewerker een gezinsplan. Daarin staat wat u en uw gezinsleden kunnen doen, en wie uit uw netwerk kan helpen.",
-          "Helpt het plan niet genoeg? Dan kan de medewerker verwijzen naar specialistische hulp. U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om het gezinsplan en, bij specialistische hulp, om een schriftelijk besluit."
+          "Meld uw hulpvraag online met DigiD, of stuur het meldformulier per post of beveiligde e-mail. U kunt ook binnenlopen of bellen. Hulp nodig bij het formulier? Maak een afspraak met het formulierenteam van Stip.",
+          "Maak met een gezinscoach een gezinsplan: wat u en uw gezin kunnen doen en wie uit uw netwerk kan helpen. U mag iemand meenemen.",
+          "Helpt het plan niet genoeg? Dan kan de gezinscoach verwijzen naar specialistische hulp. U krijgt dan een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Stip Jeugd en Gezin (Stip Heerde)",
@@ -24,16 +22,17 @@
           "url": "https://www.stipheerde.nl/Zorg_en_ondersteuning/Contact",
           "adres": "Sportlaan 2, Heerde, en W.H. van der Pollstraat, Wapenveld (Wapenveld op afspraak)",
           "openingstijden": "Maandag tot en met donderdag 8.30–17.00 uur, vrijdag 8.30–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Stip Jeugd en Gezin. De jeugdarts van het consultatiebureau (0 tot 4 jaar) en van de GGD (4 tot 18 jaar) helpt ook met vragen over groei en opvoeden.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts van het consultatiebureau (0 tot 4 jaar) en van de GGD (4 tot 18 jaar) helpt ook met vragen over groei en opvoeden.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts of jeugdverpleegkundige.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, de jeugdarts of de jeugdverpleegkundige.",
+          "Vraag zo nodig om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -53,11 +52,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan kunt u advies vragen bij het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland. Gaat het om opvoeden of hulp voor uw kind, dan kunt u zich ook zelf melden bij Stip Jeugd en Gezin.",
+        "omschrijving": "Begin op school bij de leerkracht, mentor of intern begeleider. Komt u er niet uit, dan geeft het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland gratis advies.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u aan bij Stip Jeugd en Gezin als uw kind of gezin meer hulp nodig heeft.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Dat advies is gratis."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -78,10 +76,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke spoedhulp er buiten kantoortijd is voor jeugd en gezin in Heerde, staat op de contactpagina van Stip.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de contactpagina van Stip onder \"Spoedhulp buiten kantoortijd\" voor de spoedeisende zorg voor jeugd in Heerde."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Stip Heerde: contact en spoedhulp buiten kantoortijd",

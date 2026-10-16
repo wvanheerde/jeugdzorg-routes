@@ -33,6 +33,8 @@ const signalen = (d.ervaringen?.signalen ?? []).slice().sort((a, b) => b.datum.l
 // Vaste contactkaart bovenaan: het toegangsteam (persona-tests: ouders vonden het nummer niet op een lange pagina).
 const wijkteam = d.toegang.routes.find((r) => r.type === 'wijkteam');
 const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
+const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
+  !!toegangContact && (c.naam === toegangContact.naam || (!!c.telefoon && c.telefoon.replace(/\D/g, '') === toegangContact.telefoon?.replace(/\D/g, '')));
 ---
 <Base title={`Jeugdhulp in ${d.naam}`} description={d.toegang.samenvatting}>
   <div class="page-head">
@@ -74,17 +76,25 @@ const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
       <section class="section" id="toegang">
         <h2><span class="section-num">1</span>Hoe krijg ik hulp?</h2>
         <p>{d.toegang.samenvatting}</p>
-        {d.toegang.routes.map((r) => (
+        {d.toegang.routes.map((r) => r.type === 'spoed' ? (
+          /* Spoed is een vast blok: de landelijke nummers plus een link naar de crisispagina van de gemeente.
+             De eigen tekst per gemeente herhaalde wat het vaste blok al zegt en wordt niet getoond. */
+          <div class="route spoed">
+            <span class="badge">{routeLabel.spoed}</span>
+            <h3>Kan het niet wachten?</h3>
+            <SpoedNummers />
+            {contacten(r.contact).filter((c) => c.url).map((c) => <p class="meta">Meer crisisdiensten in {d.naam}: <a href={c.url} target="_blank" rel="noopener">{c.naam}<span aria-hidden="true"> ↗</span></a></p>)}
+          </div>
+        ) : (
           <div class={`route ${r.type}`}>
-            <span class="badge">{routeLabel[r.type]}</span>
+            {/* Bij huisarts en school begint de kop al met "Via …"; het label herhaalde dat. */}
+            {r.type !== 'huisarts' && r.type !== 'school' && <span class="badge">{routeLabel[r.type]}</span>}
             <h3>{r.naam}</h3>
             <p>{r.omschrijving}</p>
             <ol class="steps">{r.stappen.map((s) => <li>{s}</li>)}</ol>
             {r.doorlooptijd && <p class="meta"><em>{r.doorlooptijd}</em></p>}
-            {/* Spoed: vaste landelijke nummers, centraal beheerd. Lokaal alleen een link naar de crisispagina
-                 van de gemeente. Pagina's die nog oude spoednummers hebben, tonen het blok (nog) niet. */}
-            {r.type === 'spoed' && !contacten(r.contact).some((c) => c.telefoon) && <SpoedNummers />}
-            {contacten(r.contact).map((c) => <Contact contact={c} />)}
+            {/* Het contact van het wijkteam staat al in de kaart bovenaan en bij de wijkteamroute; bij de andere routes niet nog eens. */}
+            {contacten(r.contact).filter((c) => r.type === 'wijkteam' || !isWijkteamContact(c)).map((c) => <Contact contact={c} />)}
           </div>
         ))}
       </section>

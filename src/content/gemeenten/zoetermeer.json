@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Haaglanden",
   "websiteJeugd": "https://www.zoetermeer.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Zoetermeer heet het lokale toegangsteam voor jeugd het Meerpunt (team Jeugd- en Gezinshulp van de gemeente, het CJG van de stad). U kunt bellen of mailen met het Meerpunt van uw wijk of binnenlopen bij een van de inlooppunten, zonder afspraak. Het Meerpunt geeft advies en lichte hulp en regelt waar nodig specialistische jeugdhulp; daarvoor dient u, na een gesprek met een medewerker van het Meerpunt, met DigiD een aanvraag in op zoetermeer.nl. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; alle huisartspraktijken hebben een praktijkondersteuner jeugd. Let op: de gemeente bouwt de lokale teams nog op, en regionaal ingekochte specialistische jeugdhulp kent wachttijden.",
+    "samenvatting": "In Zoetermeer meldt u zich bij het Meerpunt van uw wijk, het team Jeugd- en Gezinshulp van de gemeente; bellen, mailen of zonder afspraak binnenlopen kan. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Meerpunt",
-        "omschrijving": "Gemeentelijk lokaal team voor opvoed- en opgroeivragen, van kleine vragen tot specialistische hulp. Werkt met een vast werkproces: inloop en contact, vraagverheldering, analyse door een gezinsregisseur, hulpverlening en zo nodig doorverwijzing naar specialistische hulp, die schriftelijk wordt vastgelegd. Bij signalen van onveiligheid schakelt het Meerpunt het team Veiligheid & Advies van de gemeente in. Bij de aanvraag van specialistische jeugdhulp moet een kind vanaf 12 jaar zelf toestemming geven.",
+        "omschrijving": "Het Meerpunt helpt bij kleine opvoedvragen en regelt ook specialistische hulp; bij signalen van onveiligheid schakelt het team Veiligheid & Advies van de gemeente in. Voor specialistische jeugdhulp dient u na een gesprek met het Meerpunt een aanvraag in met DigiD. Een kind vanaf 12 jaar moet daarvoor zelf toestemming geven.",
         "stappen": [
-          "Bel of mail het Meerpunt van uw wijk (werkdagen 11.00-12.30 en 13.00-15.00 uur). De nummers staan hieronder. Liever teruggebeld worden? Gebruik het contactformulier op meerpunt.nl.",
+          "Bel of mail het Meerpunt van uw wijk (werkdagen 11.00-12.30 en 13.00-15.00 uur). Liever teruggebeld worden? Gebruik het contactformulier op meerpunt.nl.",
           "Of loop binnen zonder afspraak (11.00-12.30 en 13.00-16.30 uur): maandag Seghwaert (Koeienweide 2), dinsdag Oosterheem (Oosterheemplein 198), woensdag Centrum (Stadhuisplein 1), donderdag Buytenwegh (Justus van Effenhove 37).",
-          "Is specialistische hulp nodig, dan krijgt u het advies een aanvraag in te vullen op zoetermeer.nl (DigiD). Binnen 8 weken na uw aanvraag belt een medewerker van Jeugd- en Gezinshulp u om de aanvraag samen met u en uw kind te bespreken.",
-          "Vraag om het verslag en het gezinsplan schriftelijk; u mag erop reageren en opmerkingen laten toevoegen. Bij specialistische hulp ontvangt u een beschikking van de gemeente, met uitleg over bezwaar."
+          "Is specialistische hulp nodig? Vul de aanvraag in op zoetermeer.nl (DigiD). Binnen 8 weken belt een medewerker van Jeugd- en Gezinshulp om die met u en uw kind te bespreken."
         ],
         "contact": [
           {
@@ -75,16 +74,16 @@
             "openingstijden": "Telefonisch werkdagen 11.00–12.30 en 13.00–15.00 uur"
           }
         ],
-        "doorlooptijd": "De gemeente heeft 8 weken voor het onderzoek na een aanvraag van specialistische jeugdhulp; bij spoed beoordeelt de gemeente eerst of u recht heeft op hulp en geeft zij snel toestemming."
+        "doorlooptijd": "De gemeente heeft 8 weken voor het onderzoek na een aanvraag van specialistische jeugdhulp; bij spoed geeft zij snel toestemming. Regionaal ingekochte specialistische jeugdhulp kent wachttijden; die staan op Startpunt Jeugd."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar specialistische jeugdhulp. Alle huisartspraktijken in Zoetermeer hebben een praktijkondersteuner huisarts jeugd (POH-jeugd), die zelf kortdurende begeleiding biedt of doorverwijst; ook jeugdverpleegkundigen en schoolmaatschappelijk werkers werken hierin samen met het Meerpunt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen. Alle huisartspraktijken in Zoetermeer hebben een praktijkondersteuner jeugd (POH-jeugd), die zelf kort begeleidt of doorverwijst.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, de POH-jeugd of de jeugdarts van de jeugdgezondheidszorg.",
-          "De verwijzer verwijst naar een aanbieder waarmee de regio Haaglanden afspraken heeft; de gemeente legt de hulp vast en betaalt.",
-          "Vraag de verwijzer na te gaan of de hulp past bij uw wens en hoe lang de wachttijd is; regionaal aanbod en wachttijden staan op Startpunt Jeugd."
+          "Vraag de verwijzer een aanbieder te kiezen die past bij uw wens en waarmee de regio Haaglanden afspraken heeft.",
+          "De gemeente legt de hulp vast en betaalt."
         ],
         "contact": [
           {
@@ -105,11 +104,10 @@
       {
         "type": "school",
         "naam": "Via school en schoolmaatschappelijk werk",
-        "omschrijving": "Op de basisscholen werkt schoolmaatschappelijk werk (SMW) dat kinderen en ouders kortdurend begeleidt of doorverwijst; het SMW werkt samen met het Meerpunt. Voor het speciaal (basis)onderwijs zet de gemeente een vaste Expertisepool van jeugdhulpprofessionals in. Ondersteuning bij leren valt onder passend onderwijs, niet onder de Jeugdwet.",
+        "omschrijving": "Op de basisscholen werkt schoolmaatschappelijk werk (SMW), dat kinderen en ouders kort begeleidt of doorverwijst en samenwerkt met het Meerpunt. Voor het speciaal (basis)onderwijs zet de gemeente een vaste Expertisepool van jeugdhulpprofessionals in. Ondersteuning bij leren valt onder passend onderwijs, niet onder de Jeugdwet.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht of intern begeleider en vraag naar het schoolmaatschappelijk werk.",
-          "Vraag school zo nodig contact te leggen met het Meerpunt, of neem zelf contact op.",
-          "Vraag school schriftelijk wat de school zelf biedt en wat via passend onderwijs loopt.",
+          "Bespreek uw zorgen met de leerkracht of intern begeleider en vraag naar het schoolmaatschappelijk werk.",
+          "Vraag school zo nodig contact te leggen met het Meerpunt.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -131,10 +129,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Zoetermeer op de pagina Crisisdienst Jeugd van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Zoetermeer: crisisdienst Jeugd",

@@ -5,33 +5,33 @@
   "jeugdzorgregio": "Midden-IJssel/Oost-Veluwe",
   "websiteJeugd": "https://www.brummen.nl/hulp-en-ondersteuning/team-voor-elkaar",
   "toegang": {
-    "samenvatting": "In Brummen is Team Voor Elkaar de toegang tot jeugdhulp. Het team werkt voor de gemeente en helpt ook bij vragen over opvoeden en opgroeien, Wmo, werk en inkomen. U belt of mailt zelf. Een verwijzing is niet nodig. Team Voor Elkaar begint altijd met een gesprek. Soms is advies of hulp in de buurt genoeg. Is meer nodig, dan regelt het team de hulp. U kunt ook via de huisarts, de jeugdarts of de medisch specialist gaan. Hoe lang het duurt voordat het team uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding. Vanaf 2027 wil de gemeente een Licht Lokaal Team starten, voor lichte hulp zonder besluit.",
+    "samenvatting": "In Brummen meldt u zich bij Team Voor Elkaar, het team van de gemeente voor jeugd, Wmo (Wet maatschappelijke ondersteuning), werk en inkomen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Voor Elkaar",
-        "omschrijving": "Team Voor Elkaar is het toegangsteam van de gemeente Brummen. U kunt er terecht met vragen over opvoeden en opgroeien en over jeugd- en gezinsondersteuning. Het team luistert eerst naar uw vraag en kijkt wat u zelf of met mensen om u heen al kunt doen. Soms is advies of een voorziening in de buurt genoeg. Is meer ondersteuning nodig, dan kijkt het team samen met u wat past.",
+        "omschrijving": "Het team begint altijd met een gesprek en kijkt wat u zelf of met mensen om u heen kunt doen. Soms is advies of hulp in de buurt genoeg; is meer nodig, dan regelt het team de hulp. Vanaf 2027 wil de gemeente een Licht Lokaal Team starten, voor lichte hulp zonder besluit.",
         "stappen": [
-          "Bel Team Voor Elkaar of vul het contactformulier op de website in. U hoeft niet verwezen te zijn.",
-          "Maak een afspraak voor een gesprek in Brummen of Eerbeek en vertel wat er speelt.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Voor specialistische hulp krijgt u een schriftelijk besluit (beschikking) van de gemeente."
+          "Bel Team Voor Elkaar of vul het contactformulier op de website in.",
+          "Maak een afspraak voor een gesprek in Brummen of Eerbeek en vertel wat er speelt. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking) van de gemeente."
         ],
         "contact": {
           "naam": "Team Voor Elkaar",
           "telefoon": "0575 568 568",
           "url": "https://www.brummen.nl/hulp-en-ondersteuning/team-voor-elkaar",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het team uw vraag oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als die via Team Voor Elkaar. De jeugdgezondheidszorg (consultatiebureau en jeugdarts) geeft advies en kan doorverwijzen. Voor kinderen van 0 tot 4 jaar is dat Vérian (consultatiebureau), vanaf 4 jaar de GGD Noord- en Oost-Gelderland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdgezondheidszorg is er tot 4 jaar bij Vérian (consultatiebureau) en vanaf 4 jaar bij de GGD Noord- en Oost-Gelderland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder waar de gemeente een contract mee heeft.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -50,10 +50,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt school zich zorgen, of maakt u zich zorgen over uw kind op school? Ga dan eerst naar de leerkracht of intern begeleider. U kunt ook zelf contact opnemen met Team Voor Elkaar. Komt u er met school niet uit, dan helpt het oudersteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisscholen in Brummen is dat IJssel/Berkel.",
+        "omschrijving": "Bij zorgen over uw kind op school gaat u eerst naar de leerkracht of intern begeleider. Voor de basisscholen in Brummen is het samenwerkingsverband passend onderwijs IJssel/Berkel.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school Team Voor Elkaar kan inschakelen, of neem zelf contact op. Een verwijzing is niet nodig.",
+          "Vraag of school Team Voor Elkaar kan inschakelen.",
           "Komt u er met school niet uit? Vraag advies bij het oudersteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -73,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Voor een kind in een onveilige situatie of bij kindermishandeling staat er meer op de pagina Veilig Thuis van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Veilig Thuis van de gemeente Brummen voor hulp bij huiselijk geweld en kindermishandeling."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Brummen: Veilig Thuis (huiselijk geweld en kindermishandeling)",

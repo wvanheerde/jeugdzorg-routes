@@ -4,17 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.oldenzaal.nl/jeugd-en-zorg",
   "toegang": {
-    "samenvatting": "In Oldenzaal meldt u zich bij het Sociaal Plein. Daar werken de gemeente en welzijns- en zorgorganisaties samen. U kunt er terecht met alle vragen over zorg, opvoeden, werk en geld. U loopt zonder afspraak binnen, belt of mailt. Een vraag over jeugdhulp gaat daarna naar team Jeugd van de gemeente. De medewerkers jeugd van dat team onderzoeken uw vraag en nemen het besluit over specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Een aantal huisartsen heeft een praktijkondersteuner jeugd. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Oldenzaal meldt u zich bij het Sociaal Plein, zonder afspraak, telefonisch of per mail. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Plein Oldenzaal en team Jeugd van de gemeente",
-        "omschrijving": "Het Sociaal Plein is de ingang voor alle hulpvragen. Medewerkers van de gemeente en van welzijns- en zorgorganisaties denken met u mee, geven advies en melden u aan voor hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Gaat het om jeugdhulp, dan pakt team Jeugd van de gemeente uw vraag op. U krijgt een bevestiging van uw melding, met informatie over gratis cliëntondersteuning. Team Jeugd neemt het besluit (beschikking) over specialistische hulp.",
+        "omschrijving": "Op het Sociaal Plein werken de gemeente en welzijns- en zorgorganisaties samen, voor vragen over zorg, opvoeden, werk en geld. Gaat het om jeugdhulp, dan pakt team Jeugd van de gemeente uw vraag op. Team Jeugd neemt het besluit (beschikking) over specialistische hulp.",
         "stappen": [
-          "Loop binnen bij het Sociaal Plein, bel of mail. U hoeft geen afspraak te maken.",
-          "Vertel uw hulpvraag. De medewerker geeft advies of meldt u aan bij team Jeugd.",
-          "Lees de bevestiging van uw melding. Daarin staat dat u een onafhankelijke cliëntondersteuner mag vragen. Neem die gerust mee naar het gesprek.",
-          "Onderzoek samen met team Jeugd welke hulp nodig is. Vraag daarna om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+          "Loop binnen bij het Sociaal Plein, bel of mail.",
+          "Vertel uw hulpvraag. De medewerker geeft advies of meldt u aan bij team Jeugd; u krijgt een bevestiging van uw melding.",
+          "Onderzoek samen met team Jeugd welke hulp nodig is. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Sociaal Plein Oldenzaal",
@@ -23,16 +22,17 @@
           "url": "https://sociaalpleinoldenzaal.nl/is/footer/contact-opnemen",
           "adres": "De Hooge Lucht 1, Oldenzaal (tijdelijke locatie)",
           "openingstijden": "Elke werkdag 9.00–12.00 uur, zonder afspraak"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Plein. De gemeente heeft samen met een aantal huisartsen in Oldenzaal en Mediant een praktijkondersteuner jeugd (POH Jeugd) geregeld, voor kinderen van 0 tot 18 jaar. Die helpt bij opvoedproblemen, psychische klachten, lichamelijke klachten door spanning en alcohol- of drugsgebruik.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Een aantal huisartsen in Oldenzaal heeft, samen met de gemeente en Mediant, een praktijkondersteuner jeugd (POH Jeugd) voor kinderen van 0 tot 18 jaar. Die helpt bij opvoedproblemen, psychische klachten, lichamelijke klachten door spanning en alcohol- of drugsgebruik.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een afspraak bij de praktijkondersteuner jeugd, als uw huisarts die heeft.",
-          "Laat de arts zo nodig verwijzen naar een aanbieder met een contract bij de gemeente. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een afspraak bij de praktijkondersteuner jeugd, als uw huisarts die heeft.",
+          "Laat de arts zo nodig verwijzen naar een aanbieder met een contract. De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -43,7 +43,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen om uw kind op school, begin dan bij de leerkracht of mentor. Komt u er samen niet uit, dan kunt u bij het samenwerkingsverband passend onderwijs terecht met vragen over ondersteuning op school. Het Sociaal Plein helpt bij vragen over opvoeden en hulp thuis.",
+        "omschrijving": "Begin bij de leerkracht of mentor. Voor vragen over ondersteuning op school is er het samenwerkingsverband passend onderwijs; voor opvoeden en hulp thuis het Sociaal Plein.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Heeft uw kind ook thuis hulp nodig, bijvoorbeeld bij gedrag? Meld u aan bij het Sociaal Plein.",
@@ -73,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat wat u kunt doen bij zorgen over geweld thuis of kindermishandeling.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Huiselijk geweld van de gemeente waar u terechtkunt bij geweld thuis."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Oldenzaal: huiselijk geweld en kindermishandeling",

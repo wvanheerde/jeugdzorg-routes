@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Utrecht West",
   "websiteJeugd": "https://stadsteamoudewater.nl/jeugd-en-gezin/",
   "toegang": {
-    "samenvatting": "In Oudewater kunt u met vragen over opvoeden, opgroeien en jeugdhulp eerst terecht bij het Stadsteam Oudewater. Het team werkt namens de gemeente en hoort bij Stichting De Thuisbasis. U belt of mailt zelf, een verwijsbrief is niet nodig. Ook kinderen en jongeren mogen zelf contact opnemen. Voor specialistische hulp neemt het Stadsteam een besluit namens de gemeente. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen. Hoe lang het duurt voordat het Stadsteam uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw eerste contact.",
+    "samenvatting": "In Oudewater meldt u zich bij het Stadsteam Oudewater van Stichting De Thuisbasis, dat namens de gemeente werkt; ook kinderen en jongeren mogen zelf contact opnemen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Stadsteam Oudewater",
-        "omschrijving": "Het Stadsteam helpt bij vragen over opvoeden en opgroeien, de ontwikkeling van uw kind, psychische problemen of een beperking. Ook bij problemen in het gezin, zoals een scheiding, kunt u er terecht. U meldt zich zelf aan, zonder verwijsbrief. Voor een kind jonger dan 16 jaar is meestal toestemming nodig van beide ouders met gezag. Het team geeft advies, begeleidt zelf en verwijst zo nodig naar specialistische jeugdhulp. Daarvoor geeft het Stadsteam namens de gemeente een beschikking (besluit) of een pgb (persoonsgebonden budget).",
+        "omschrijving": "Het Stadsteam helpt bij vragen over opvoeden en opgroeien, ontwikkeling, psychische problemen, een beperking of problemen in het gezin, zoals een scheiding. Voor een kind jonger dan 16 jaar is meestal toestemming nodig van beide ouders met gezag. Het team geeft advies, begeleidt zelf en geeft zo nodig namens de gemeente een beschikking (besluit) of pgb (persoonsgebonden budget) voor specialistische jeugdhulp.",
         "stappen": [
-          "Bel of mail het Stadsteam, of vraag een gesprek aan. Het gesprek kan op kantoor of bij u thuis.",
-          "Loop ook gerust binnen bij het inloopspreekuur Oudewater Wegwijs in het Cultuurhuis, elke donderdag.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit."
+          "Bel of mail het Stadsteam, of loop binnen bij het inloopspreekuur Oudewater Wegwijs in het Cultuurhuis, elke donderdag.",
+          "Bespreek uw vraag in een gesprek op kantoor of bij u thuis. U mag iemand meenemen.",
+          "Vraag om een verslag. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Stadsteam Oudewater",
@@ -23,16 +22,17 @@
           "email": "info@stadsteamoudewater.nl",
           "url": "https://stadsteamoudewater.nl/contact/",
           "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Stadsteam uw vraag oppakt, is niet openbaar. Vraag het bij uw eerste contact."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Stadsteam. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD regio Utrecht: het consultatiebureau voor 0 tot 4 jaar en de schoolarts vanaf 4 jaar.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD regio Utrecht: het consultatiebureau voor 0 tot 4 jaar en de schoolarts vanaf 4 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente. De arts kan u ook aanraden eerst naar het Stadsteam te gaan.",
-          "Doe zelf geen aanvraag. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. De arts kan u ook aanraden eerst naar het Stadsteam te gaan.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -44,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Vermoedt de school dat uw kind extra hulp nodig heeft, of komt u er met school niet uit? Dan kunt u bij het Stadsteam terecht. Over passend onderwijs (welke ondersteuning een school moet bieden) geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband gratis en onafhankelijk advies. Voor het basisonderwijs is dat Samenwijs van Passenderwijs, voor het voortgezet onderwijs Steunpunt RUW.",
+        "omschrijving": "Vermoedt de school dat uw kind extra hulp nodig heeft, dan kunt u bij het Stadsteam terecht. Over passend onderwijs geeft het ouder- en jeugdsteunpunt gratis advies: Samenwijs van Passenderwijs voor het basisonderwijs, Steunpunt RUW voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Heeft uw kind hulp nodig buiten school? Meld u dan aan bij het Stadsteam.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband van uw kind."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -74,11 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is er geen spoed maar maakt u zich wel zorgen? Neem dan contact op met het Stadsteam.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina Het gaat thuis niet goed van Veilig Thuis Utrecht."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Utrecht: Het gaat thuis niet goed",

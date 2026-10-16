@@ -5,19 +5,16 @@
   "jeugdzorgregio": "Drenthe",
   "websiteJeugd": "https://dewolden.nl/jeugd-en-onderwijs/jeugd-en-gezin/",
   "toegang": {
-    "samenvatting": "In De Wolden kunt u voor vragen over opvoeden en opgroeien terecht bij het Centrum voor Jeugd en Gezin (CJG) De Wolden. Daar vraagt u ook jeugdhulp aan. U belt of mailt zelf, een verwijzing is niet nodig. Het CJG stuurt u een aanvraagformulier en meestal volgt een huisbezoek. Het CJG werkt samen met de GGD Drenthe en Welzijn De Wolden. Voor lichtere vragen is er ook het Buurtteam, met inloopspreekuren in de dorpen. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u terechtkunt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In De Wolden meldt u zich zonder verwijzing bij het Centrum voor Jeugd en Gezin (CJG) De Wolden, ook om jeugdhulp aan te vragen. U kunt ook via de huisarts, de jeugdarts of school, en met lichtere vragen bij het Buurtteam.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG De Wolden en het Buurtteam",
-        "omschrijving": "Het CJG helpt kinderen en jongeren tot 18 jaar en hun ouders met advies en jeugdhulp. U meldt zich zelf aan. Het CJG kijkt samen met u welke hulp past. Soms kan het u meteen helpen, soms verwijst het door naar een andere organisatie. Het Buurtteam is er voor alle inwoners met vragen over zorg, welzijn en wonen, en voor lichtere vragen over opgroeien. Medewerkers van de gemeente, Welzijn De Wolden, de politie en woningstichting Actium werken daarin samen.",
+        "omschrijving": "Het CJG helpt kinderen tot 18 jaar en hun ouders met advies en jeugdhulp, samen met de GGD Drenthe en Welzijn De Wolden. Soms helpt het CJG meteen, soms verwijst het door. Het Buurtteam van gemeente, Welzijn De Wolden, politie en woningstichting Actium helpt bij lichtere vragen over opgroeien, ook op inloopspreekuren in de dorpen.",
         "stappen": [
-          "Bel of mail het CJG De Wolden en vertel kort wat er speelt.",
-          "Vul het aanvraagformulier in dat u van het CJG krijgt en stuur het terug.",
-          "Spreek het gesprek met het CJG af. Meestal komt het CJG bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een besluit van de gemeente.",
-          "Heeft uw kind al jeugdhulp en wilt u die verlengen? Vraag het aanvraagformulier voor verlenging ruim drie maanden van tevoren aan bij de gemeente.",
-          "Liever eerst een praatje zonder afspraak? Loop binnen bij een inloopspreekuur van het Buurtteam."
+          "Bel of mail het CJG en vertel kort wat er speelt. Vul het aanvraagformulier in dat u krijgt en stuur het terug.",
+          "Spreek een gesprek af, meestal bij u thuis. U mag iemand meenemen. Bij specialistische hulp krijgt u een besluit van de gemeente.",
+          "Wilt u bestaande jeugdhulp verlengen? Vraag het formulier voor verlenging ruim drie maanden van tevoren aan bij de gemeente."
         ],
         "contact": [
           {
@@ -33,16 +30,17 @@
             "email": "buurtteam@dewolden.nl",
             "url": "https://dewolden.nl/hulp-en-zorg/buurtteams/standaard-titel-2/"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u terechtkunt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij de huisarts werkt ook een praktijkondersteuner jeugd. De gemeente wil dat huisartsen vaker eerst lichte hulp in de buurt inzetten en minder vaak naar jeugdhulp verwijzen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisarts werkt ook een praktijkondersteuner jeugd. De gemeente wil dat huisartsen vaker eerst lichte hulp in de buurt inzetten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Ga zo nodig eerst naar de praktijkondersteuner jeugd. Of vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Ga zo nodig eerst naar de praktijkondersteuner jeugd, of vraag een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Meld u met de verwijzing bij de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Drenthe",
@@ -54,12 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Schoolmaatschappelijk werk van Welzijn De Wolden denkt mee over opgroei- en opvoedvragen. Het is verbonden aan het CJG. Komt u er met school niet uit bij een vraag over passend onderwijs, dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+        "omschrijving": "Schoolmaatschappelijk werk van Welzijn De Wolden denkt mee over opgroei- en opvoedvragen en is verbonden aan het CJG. Bij vragen over passend onderwijs helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag om hulp van het schoolmaatschappelijk werk, of meld u rechtstreeks aan.",
-          "Is meer hulp nodig? Meld u dan aan bij het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag om hulp van het schoolmaatschappelijk werk, via school of rechtstreeks.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -85,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke hulp er in Drenthe is buiten kantooruren, ook voor kinderen en jongeren, staat op de pagina Jeugd en gezin van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp buiten kantooruren en in het weekend op de pagina Jeugd en gezin van de gemeente, onder Spoed voor Jeugd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente De Wolden: Jeugd en gezin, met Spoed voor Jeugd buiten kantooruren",

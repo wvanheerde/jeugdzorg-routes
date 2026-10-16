@@ -4,16 +4,15 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.h-i-ambacht.nl/Inwoners/Alle_onderwerpen_Inwoners/Ambacht_Sociaal/Opgroeien_Relaties",
   "toegang": {
-    "samenvatting": "In Hendrik-Ido-Ambacht is het Sophia Sociaal Team de eerste stap. Het team helpt inwoners van alle leeftijden, ook kinderen en ouders. U kunt zelf contact opnemen, een verwijzing is niet nodig. Het team bekijkt of uw kind jeugdhulp nodig heeft en regelt die. Ook de huisarts mag rechtstreeks verwijzen. Bij alle huisartsen werkt een praktijkondersteuner jeugd-ggz (POH-ggz jeugd). Het team heeft sinds 2024 een wachtlijst voor jeugdhulp gehad. Hoe lang u nu moet wachten, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Hendrik-Ido-Ambacht meldt u zich bij het Sophia Sociaal Team, dat inwoners van alle leeftijden helpt. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sophia Sociaal Team",
-        "omschrijving": "Het Sophia Sociaal Team geeft gratis en onafhankelijk advies en ondersteuning bij vragen over opgroeien en opvoeden, en regelt zo nodig jeugdhulp. U meldt zich zelf aan. Het team kijkt eerst of lichtere hulp, uw eigen netwerk of een groepsaanbod genoeg is, en zet daarna pas specialistische hulp in. Bij de beoordeling kijken collega's met ervaring in jeugdhulp en in hulp aan volwassenen samen mee.",
+        "omschrijving": "Het Sophia Sociaal Team geeft gratis advies en ondersteuning bij opgroeien en opvoeden, en regelt zo nodig jeugdhulp. Het kijkt eerst of lichtere hulp, uw eigen netwerk of een groepsaanbod genoeg is. Bij de beoordeling kijken collega's met ervaring in jeugdhulp en in hulp aan volwassenen samen mee.",
         "stappen": [
-          "Bel het Sophia Sociaal Team of stuur een e-mail. U bespreekt uw vraag eerst kort met het aanmeldteam. Soms is daarna geen aanmelding meer nodig.",
-          "Is meer nodig? Dan volgt een intakegesprek (eerste gesprek), waarin jeugd- en volwassenenprofessionals meekijken. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag hoe lang het duurt voordat het gesprek plaatsvindt, en om een schriftelijk verslag na het gesprek.",
+          "Bel of mail het Sophia Sociaal Team. U bespreekt uw vraag eerst kort met het aanmeldteam; soms is daarna geen aanmelding meer nodig.",
+          "Is meer nodig? Dan volgt een intakegesprek (eerste gesprek). U mag iemand meenemen.",
           "Is specialistische hulp nodig, dan regelt het team die en krijgt u een schriftelijk besluit van de gemeente."
         ],
         "contact": {
@@ -21,16 +20,17 @@
           "telefoon": "078 682 2416",
           "email": "info@sophiasociaalteam.nl",
           "url": "https://sophiasociaalteam.nl/contact/"
-        }
+        },
+        "doorlooptijd": "Hoe lang u wacht voor een gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast het Sophia Sociaal Team. Bij de huisarts werkt een praktijkondersteuner jeugd-ggz (POH-ggz jeugd) die een deel van de kinderen zelf kan helpen, zodat een verwijzing niet nodig is. De jeugdgezondheidszorg in deze regio is Jong JGZ.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij alle huisartsen werkt een praktijkondersteuner jeugd-ggz (POH-ggz jeugd), die een deel van de kinderen zelf helpt. De jeugdgezondheidszorg in deze regio is Jong JGZ.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van Jong JGZ.",
-          "De huisarts kan u eerst naar de POH-ggz jeugd sturen, of direct naar een aanbieder met een contract.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van Jong JGZ.",
+          "De huisarts stuurt u eerst naar de POH-ggz jeugd, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jong JGZ (jeugdgezondheidszorg 0-18 jaar)",
@@ -42,11 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op enkele basisscholen werkt een begeleider Jeugdhulp op School (JHOS) van het Sophia Sociaal Team. Dat is een proef: kinderen met problemen thuis of op school kunnen daar tijdens schooltijd begeleiding krijgen. Wilt u als ouder iets met school bespreken over passend onderwijs en komt u er samen niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+        "omschrijving": "Op enkele basisscholen werkt als proef een begeleider Jeugdhulp op School (JHOS) van het Sophia Sociaal Team. Kinderen met problemen thuis of op school krijgen daar begeleiding onder schooltijd.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school de JHOS-begeleider kan inschakelen, of meld uw kind zelf aan bij het Sophia Sociaal Team.",
-          "Is meer hulp nodig? Dan regelt het Sophia Sociaal Team de volgende stap.",
+          "Vraag of school de JHOS-begeleider kan inschakelen.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -66,10 +65,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er verder is voor een gezin in een plotselinge onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisis thuis op de pagina van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Hendrik-Ido-Ambacht: Crisis thuis (Veilig Thuis Zuid-Holland Zuid)",
@@ -202,7 +200,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Hendrik-Ido-Ambacht: Opgroeien & Relaties",

@@ -4,18 +4,17 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.waddinxveen.nl/direct-regelen/zorg-en-ondersteuning/opgroeien-en-opvoeden/jeugdhulp-aanvragen",
   "toegang": {
-    "samenvatting": "In Waddinxveen is Wadwijzer de eerste deur. Wadwijzer is een samenwerking van organisaties die gratis informatie, advies en kortdurende hulp geven, ook bij opvoeden en opgroeien. U neemt zelf contact op; een verwijzing is niet nodig. Is specialistische jeugdhulp nodig, dan neemt het Sociaal Team van de gemeente het over. Dat team maakt met u een ondersteuningsplan en beslist over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Het Centrum voor Jeugd en Gezin (CJG) geeft advies over opvoeden en gezondheid. Hoe lang u moet wachten op een gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Waddinxveen meldt u zich zonder verwijzing bij Wadwijzer, voor gratis advies en kortdurende hulp bij opvoeden en opgroeien. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wadwijzer en het Sociaal Team",
-        "omschrijving": "Wadwijzer helpt bij vragen over opvoeden en opgroeien en geeft advies of kortdurende begeleiding. U meldt zich zelf aan; een verwijzing is niet nodig. Is de hulp van Wadwijzer niet genoeg, dan stuurt Wadwijzer u door naar het Sociaal Team van de gemeente. Het Sociaal Team beoordeelt of uw kind jeugdhulp krijgt en regelt de hulp, met een beschikking (een schriftelijk besluit van de gemeente).",
+        "omschrijving": "Wadwijzer is een samenwerking van organisaties die advies en kortdurende begeleiding geven. Is dat niet genoeg, dan stuurt Wadwijzer u door naar het Sociaal Team van de gemeente. Dat team maakt met u een ondersteuningsplan en beslist over de hulp (beschikking).",
         "stappen": [
           "Neem contact op met Wadwijzer. Wadwijzer bespreekt uw vraag en zoekt passende hulp.",
-          "Is specialistische hulp nodig? Dan verwijst Wadwijzer u door naar het Sociaal Team. Dat team maakt een afspraak, meestal bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een ondersteuningsplan. Volgens de gemeente krijgt u het plan binnen 6 weken. Gaat u akkoord, dan beslist de gemeente over de hulp. Het schriftelijke besluit komt binnen 2 weken nadat u het plan heeft ondertekend.",
-          "Bent u het niet eens met het plan? Schrijf op het plan wat u niet goed vindt. De contactpersoon van het Sociaal Team maakt dan nieuwe afspraken met u.",
-          "Krijgt uw kind al hulp en wilt u die verlengen of aanpassen? Gebruik het formulier op de pagina Jeugdhulp aanvragen van de gemeente, met DigiD."
+          "Is specialistische hulp nodig, dan maakt het Sociaal Team een afspraak, meestal bij u thuis. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan. Bent u het er niet mee eens, schrijf dan op het plan wat u niet goed vindt.",
+          "Wilt u bestaande hulp verlengen of aanpassen? Gebruik het formulier op de pagina Jeugdhulp aanvragen van de gemeente, met DigiD."
         ],
         "contact": [
           {
@@ -30,16 +29,17 @@
             "telefoon": "14 0182",
             "url": "https://www.waddinxveen.nl/direct-regelen/zorg-en-ondersteuning/opgroeien-en-opvoeden/jeugdhulp-aanvragen"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang u wacht op een gesprek, is niet openbaar te vinden. Volgens de gemeente krijgt u het ondersteuningsplan binnen 6 weken, en het besluit binnen 2 weken nadat u het plan heeft ondertekend."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De jeugdarts en jeugdverpleegkundige werken bij het CJG Waddinxveen en zijn er voor kinderen en jongeren tot 23 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts en jeugdverpleegkundige werken bij het CJG Waddinxveen, voor kinderen en jongeren tot 23 jaar.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het CJG Waddinxveen.",
           "De arts verwijst naar een aanbieder die de gemeente heeft ingekocht.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Waddinxveen: jeugdgezondheidszorg",
@@ -53,12 +53,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan u wijzen op schoolmaatschappelijk werk. Dat hoort bij Wadwijzer en is gratis. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Er is een steunpunt voor basisonderwijs en een voor voortgezet onderwijs.",
+        "omschrijving": "School kan u wijzen op schoolmaatschappelijk werk. Dat hoort bij Wadwijzer en is gratis. Er is een ouder- en jeugdsteunpunt voor het basisonderwijs en een voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om schoolmaatschappelijk werk, of meld uw kind aan bij Wadwijzer.",
-          "Is meer hulp nodig, dan verwijst Wadwijzer u door naar het Sociaal Team.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag school om schoolmaatschappelijk werk.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -91,10 +90,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn, ook buiten kantooruren, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Waddinxveen onder het kopje over crisis op de pagina Jeugdhulp aanvragen van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Waddinxveen: jeugdhulp aanvragen (onderdeel \"Er is een crisis\")",

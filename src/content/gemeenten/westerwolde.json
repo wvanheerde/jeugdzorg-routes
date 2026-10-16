@@ -4,17 +4,16 @@
   "provincie": "Groningen",
   "websiteJeugd": "https://www.westerwolde.nl/hulp-bij-opgroeien",
   "toegang": {
-    "samenvatting": "In Westerwolde meldt u zich voor jeugdhulp bij het Centrum Jeugd, Gezin en Veiligheid (CJGV) van de gemeente. U belt of mailt zelf; een verwijzing is niet nodig. Het CJGV geeft advies aan ouders en jongeren en reageert volgens de gemeente binnen 2 werkdagen. Het werkt samen met de gebiedsteams (Noord, Midden en Zuid) en het jeugdteam. U kunt ook via de huisarts gaan. Bij de meeste huisartspraktijken werkt een ondersteuner jeugd en gezin. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Westerwolde meldt u zich voor jeugdhulp bij het Centrum Jeugd, Gezin en Veiligheid (CJGV) van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum Jeugd, Gezin en Veiligheid (CJGV) en de gebiedsteams",
-        "omschrijving": "Het CJGV is het eerste aanspreekpunt van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp. Ouders en jongeren kunnen er zelf terecht. Het CJGV werkt met de gebiedsteams en het jeugdteam. Zij regelen de hulp en het besluit (beschikking) als zwaardere hulp nodig is. Voor lichte hulp is geen indicatie (formele beoordeling) nodig. Een casemanager regelt die hulp met u.",
+        "omschrijving": "Het CJGV geeft advies aan ouders en jongeren en werkt samen met de gebiedsteams (Noord, Midden en Zuid) en het jeugdteam. Zij regelen de hulp en het besluit (beschikking) als zwaardere hulp nodig is. Voor lichte hulp is geen formele beoordeling nodig; een casemanager regelt die met u.",
         "stappen": [
-          "Bel of mail het CJGV met uw vraag over opvoeden of opgroeien, of over hulp voor uw kind.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, vraag dan om een schriftelijk besluit.",
-          "Heeft uw kind direct hulp nodig? Vraag dan om tijdelijke hulp. Volgens de verordening beslist de gemeente daar snel over, terwijl het onderzoek nog loopt."
+          "Bel of mail het CJGV met uw vraag.",
+          "Bespreek wat er speelt. U mag iemand meenemen. Is specialistische hulp nodig, vraag dan om een schriftelijk besluit.",
+          "Heeft uw kind direct hulp nodig? Vraag om tijdelijke hulp; volgens de verordening beslist de gemeente daar snel over, terwijl het onderzoek nog loopt."
         ],
         "contact": {
           "naam": "Centrum Jeugd, Gezin en Veiligheid (CJGV) Westerwolde",
@@ -22,16 +21,17 @@
           "email": "cjgv@westerwolde.nl",
           "url": "https://www.westerwolde.nl/hulp-bij-opgroeien",
           "openingstijden": "Reactie binnen 2 werkdagen"
-        }
+        },
+        "doorlooptijd": "Het CJGV reageert volgens de gemeente binnen 2 werkdagen. Hoe lang het duurt tot een eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als die via het CJGV. Bij bijna alle huisartspraktijken werkt een ondersteuner jeugd en gezin. Die bekijkt uw vraag al vroeg. Hij of zij brengt u in contact met het juiste team of verwijst via de huisarts door.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij bijna alle huisartspraktijken werkt een ondersteuner jeugd en gezin. Die bekijkt uw vraag vroeg en brengt u in contact met het juiste team of verwijst via de huisarts door.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts naar de ondersteuner jeugd en gezin, of om een verwijzing naar een door de gemeente gecontracteerde aanbieder.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag naar de ondersteuner jeugd en gezin, of om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Groningen",
@@ -43,7 +43,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft uw kind op school extra hulp nodig, dan begint u bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, vraag dan advies bij het samenwerkingsverband passend onderwijs. Voor hulp bij opgroeien kunt u ook zelf bij het CJGV terecht.",
+        "omschrijving": "Heeft uw kind op school extra hulp nodig, dan begint u bij school. Voor hulp bij opgroeien kunnen school en het CJGV samen kijken.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag school of het CJGV om samen te kijken welke hulp past.",
@@ -73,11 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Westerwolde zijn, staat op de pagina Hulp bij opgroeien van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Neem op werkdagen overdag contact op met het CJGV.",
-          "Kijk buiten kantoortijd en in het weekend op de pagina van de gemeente welke crisisdienst voor jeugd u kunt bellen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Westerwolde: Hulp bij opgroeien (crisis buiten kantoortijd)",

@@ -4,35 +4,33 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.pijnacker-nootdorp.nl/direct-regelen/zorg-en-welzijn/jeugdzorg",
   "toegang": {
-    "samenvatting": "In Pijnacker-Nootdorp is het kernteam van de gemeente de eerste deur. Het team helpt gezinnen met vragen over opvoeden en opgroeien, en is er ook voor volwassenen. U belt het kernteam zelf of vult het formulier op de website in. Een verwijzing is niet nodig. In het kernteam werken onder meer schoolmaatschappelijk werkers en praktijkondersteuners jeugd, die ook bij huisartsen werken. Samen met u maakt het team een plan, met één vast aanspreekpunt. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen naar jeugdhulp. Hoe lang het duurt voordat u een eerste gesprek heeft, is niet openbaar te vinden. Vraag dat als u belt.",
+    "samenvatting": "In Pijnacker-Nootdorp meldt u zich bij het kernteam van de gemeente, ook voor specialistische jeugdhulp. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Kernteam van de gemeente",
-        "omschrijving": "Het kernteam bestaat uit professionals met kennis van jeugd en gezin, maatschappelijk werk en jeugdhulp. Het team kijkt met u wat u wilt veranderen, wat u zelf al heeft gedaan en welke hulp nodig is. Het kernteam beslist ook over specialistische jeugdhulp. U meldt zich zelf aan.",
+        "omschrijving": "In het kernteam werken onder meer schoolmaatschappelijk werkers en praktijkondersteuners jeugd. Het team kijkt met u wat u wilt veranderen en welke hulp nodig is, en beslist ook over specialistische jeugdhulp. U krijgt één vast aanspreekpunt.",
         "stappen": [
-          "Bel het kernteam op werkdagen of vul het formulier \"Vraag over jeugdhulp\" op de website van de gemeente in. Iemand anders mag ook namens u bellen.",
-          "Wacht op de reactie: u krijgt direct advies, of u wordt aangemeld voor een kennismakingsgesprek. Een medewerker belt u dan om een afspraak te maken, bij u thuis of op het gemeentekantoor.",
-          "Bekijk in een of meer gesprekken samen wat uw kind nodig heeft. Het kernteam vraagt alleen informatie bij anderen als u dat goed vindt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met de medewerker en uw kind een plan. De medewerker bespreekt het plan in het teamoverleg. Daarna hoort u welke hulp past en wie die gaat geven.",
-          "Loopt een bestaande indicatie (besluit over hulp) af? Neem dan acht weken van tevoren contact op met de gemeente.",
-          "Vraag na het gesprek om het plan en, bij specialistische hulp, om het schriftelijke besluit."
+          "Bel het kernteam op werkdagen of vul het formulier \"Vraag over jeugdhulp\" in. Iemand anders mag ook namens u bellen.",
+          "U krijgt direct advies of een kennismakingsgesprek, thuis of op het gemeentekantoor. U mag iemand meenemen.",
+          "Maak samen met de medewerker en uw kind een plan. Na het teamoverleg hoort u welke hulp past en wie die geeft."
         ],
         "contact": {
           "naam": "Kernteam Pijnacker-Nootdorp",
           "telefoon": "14 015",
           "url": "https://www.pijnacker-nootdorp.nl/direct-regelen/zorg-en-welzijn/kernteam",
           "openingstijden": "Telefonisch werkdagen 9.00–16.30 uur. Vraag naar het kernteam"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar. Vraag het als u belt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het kernteam. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd. Die kijkt eerst mee bij vragen over opvoeden en psychische klachten.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd, die eerst meekijkt bij vragen over opvoeden en psychische klachten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Laat u door de huisarts verwijzen: eerst naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar de praktijkondersteuner jeugd of direct naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "JGZ Zuid-Holland West (jeugdgezondheidszorg)",
@@ -45,12 +43,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de scholen werken schoolmaatschappelijk werkers van het kernteam. U en uw kind kunnen er makkelijk terecht met vragen over opvoeden en opgroeien. Komt u er met school niet uit, dan geeft het Ouder- en Jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Voor basisonderwijs en voortgezet onderwijs zijn dat verschillende organisaties.",
+        "omschrijving": "Op de scholen werken schoolmaatschappelijk werkers van het kernteam. U en uw kind kunnen er makkelijk terecht met vragen over opvoeden en opgroeien.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de schoolmaatschappelijk werker kan meedenken, of meld u aan bij het kernteam.",
-          "Laat het kernteam verder helpen als meer hulp nodig is. Het team neemt het dan over of schakelt hulp in.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband passend onderwijs voor het basisonderwijs of voor het voortgezet onderwijs."
+          "Vraag of de schoolmaatschappelijk werker kan meedenken. Is meer hulp nodig, dan neemt het kernteam het over.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt; basis- en voortgezet onderwijs hebben elk een eigen steunpunt."
         ],
         "contact": [
           {
@@ -75,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst voor jeugd er buiten kantoortijd is, staat op de pagina Jeugdzorg van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor kinderen onder de 18 jaar buiten kantoortijd op de pagina Jeugdzorg van de gemeente. Tijdens kantoortijd neemt u contact op met het kernteam."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Pijnacker-Nootdorp: jeugdzorg en crisis buiten kantoortijd",

@@ -5,17 +5,15 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.leeuwarden.nl/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Leeuwarden begint de meeste jeugdhulp bij de sociaal wijk- of dorpenteams van Amaryllis, die u vindt in de buurt- en dorpskamers, of bij het Opvoedpunt Leeuwarden voor opvoedvragen. Is specialistische jeugdhulp nodig, dan loopt dat via het Jeugdexpertteam van de gemeente: de medewerkers jeugd daar regelen de ingekochte hulp (zorg in natura). Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar specialistische jeugdhulp, zonder tussenkomst van het Jeugdexpertteam. De gemeenteraad nam in het najaar van 2025 een motie aan voor een externe evaluatie van het Jeugdexpertteam; de gemeente meldt dat het team aan het verkorten van de wachttijden werkt.",
+    "samenvatting": "In Leeuwarden begint u zonder verwijzing bij het sociaal wijk- of dorpenteam van Amaryllis, of bij het Opvoedpunt Leeuwarden voor opvoedvragen. Specialistische jeugdhulp loopt via het Jeugdexpertteam van de gemeente, of via de huisarts, jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal wijk- of dorpenteam van Amaryllis",
-        "omschrijving": "Eerste aanspreekpunt voor vragen en zorgen, ook over opvoeden. Amaryllis geeft tips, informatie of ondersteuning en verwijst door. Is meer specialistische jeugdhulp nodig, dan verwijst de sociaal werker u door naar het Jeugdexpertteam van de gemeente.",
+        "omschrijving": "Amaryllis is het eerste aanspreekpunt, ook voor vragen over opvoeden. De sociaal werker geeft tips en ondersteuning en kijkt met u wat uw netwerk kan doen. Is specialistische jeugdhulp nodig, dan verwijst de sociaal werker u naar het Jeugdexpertteam.",
         "stappen": [
-          "Ga langs bij de buurt- of dorpskamer in uw buurt, of bel of mail het sociaal wijk- of dorpenteam bij u in de buurt (adressen op de site van Amaryllis).",
-          "U mag iemand meenemen naar het gesprek, bijvoorbeeld een familielid of een onafhankelijke cliëntondersteuner.",
-          "De sociaal werker kijkt samen met u wat u zelf kunt, wat uw netwerk kan doen en welke ondersteuning verder past.",
-          "Is specialistische jeugdhulp nodig, dan verwijst de sociaal werker u door naar het Jeugdexpertteam. Vraag om een schriftelijke vastlegging van wat is afgesproken."
+          "Ga langs bij de buurt- of dorpskamer, of bel of mail het team bij u in de buurt (adressen op de site van Amaryllis).",
+          "Bespreek met de sociaal werker welke ondersteuning past. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Amaryllis",
@@ -29,28 +27,28 @@
       {
         "type": "wijkteam",
         "naam": "Jeugdexpertteam (gemeente Leeuwarden)",
-        "omschrijving": "Team van medewerkers jeugd van de gemeente dat de toegang tot specialistische jeugdhulp regelt. Het team heeft een overzicht van de door de gemeente ingekochte jeugdhulp (zorg in natura); de gemeente regelt dan de aanvraag en de administratie. Ouders komen er meestal via Amaryllis, maar u kunt ook contact opnemen met de gemeente.",
+        "omschrijving": "De medewerkers jeugd van het Jeugdexpertteam regelen de toegang tot specialistische jeugdhulp die de gemeente heeft ingekocht. U komt er meestal via Amaryllis, maar u kunt ook zelf contact opnemen met de gemeente.",
         "stappen": [
-          "Bel de gemeente of gebruik het contactformulier en vraag naar jeugdhulp en het Jeugdexpertteam.",
-          "In het gesprek met de medewerker jeugd bespreekt u de hulpvraag; de medewerker jeugd stelt samen met u een ondersteuningsplan op.",
-          "Vraag om een schriftelijk verslag en om een beschikking als specialistische hulp wordt toegekend.",
-          "Is er een wachttijd, vraag dan om de verwachte termijn en om overbruggende ondersteuning."
+          "Bel de gemeente of gebruik het contactformulier en vraag naar het Jeugdexpertteam.",
+          "Maak met de medewerker jeugd een ondersteuningsplan. Wordt specialistische hulp toegekend, dan krijgt u een beschikking.",
+          "Is er een wachttijd? Vraag naar de verwachte termijn en naar hulp in de tussentijd."
         ],
         "contact": {
           "naam": "Gemeente Leeuwarden",
           "telefoon": "14 058",
           "url": "https://www.leeuwarden.nl/jeugdhulp/hulp-bij-opgroeien-en-of-opvoeden/",
           "adres": "Oldehoofsterkerkhof 2, 8911 DH Leeuwarden"
-        }
+        },
+        "doorlooptijd": "De gemeente meldt dat het Jeugdexpertteam werkt aan kortere wachttijden. Vraag bij uw aanmelding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Medische verwijzers, bijvoorbeeld de jeugdarts van het consultatiebureau, mogen zonder tussenkomst van het Jeugdexpertteam doorverwijzen naar specialistische jeugdhulp. Bij ongeveer 85 procent van de huisartsenpraktijken in Leeuwarden werkt volgens de gemeente een praktijkondersteuner jeugd (POH Jeugd).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen naar specialistische jeugdhulp, zonder het Jeugdexpertteam. Bij ongeveer 85 procent van de huisartsenpraktijken werkt volgens de gemeente een praktijkondersteuner jeugd (POH Jeugd).",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts. Vraag of er een POH Jeugd in de praktijk is.",
-          "De arts verwijst zo nodig naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "De arts verwijst zo nodig naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -69,11 +67,10 @@
       {
         "type": "school",
         "naam": "Via school (jeugdondersteuner kindcentrum)",
-        "omschrijving": "In Leeuwarden werken jeugdondersteuners in kindcentra, als onderdeel van de toegang. Scholen en kindcentra kunnen zorgen met u bespreken en de verbinding leggen met Amaryllis of het Jeugdexpertteam.",
+        "omschrijving": "In kindcentra werken jeugdondersteuners, als onderdeel van de toegang. Zij leggen zo nodig de verbinding met Amaryllis of het Jeugdexpertteam.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, intern begeleider of de jeugdondersteuner van het kindcentrum.",
-          "School legt zo nodig contact met Amaryllis of het Jeugdexpertteam; u mag zelf ook contact opnemen.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs."
+          "Bespreek uw zorgen met de leerkracht, intern begeleider of de jeugdondersteuner van het kindcentrum.",
+          "Gaat het om extra ondersteuning op school? Vraag advies bij het Ouder- en jeugdsteunpunt Friesland, voor basis- en voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -94,16 +91,21 @@
             "naam": "Samenwerkingsverband PO Friesland",
             "email": "info@swvfriesland.nl",
             "url": "https://www.swvfriesland.nl/contact/"
+          },
+          {
+            "naam": "Ouder- en jeugdsteunpunt Friesland (basis- en voortgezet onderwijs)",
+            "email": "info@steunpuntfriesland.nl",
+            "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/contact/",
+            "openingstijden": "Telefonisch dinsdag 9.00–12.00 uur; op andere momenten belt het steunpunt terug na een contactverzoek"
           }
         ]
       },
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Leeuwarden op de pagina Hulp bij opgroeien en/of opvoeden van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Leeuwarden: Hulp bij opgroeien en/of opvoeden",
@@ -408,7 +410,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Leeuwarden – Jeugdhulp",
@@ -584,6 +586,11 @@
         "titel": "Passend Onderwijs Friesland: Contact",
         "url": "https://www.swvfriesland.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Ouder- en jeugdsteunpunt Friesland: Contact",
+        "url": "https://www.ouderenjeugdsteunpuntfriesland.nl/contact/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Nog open: begroting 2027 is nog niet gepubliceerd in het raadsinformatiesysteem (raadsdebat 28 oktober 2026); uit de jaarstukken is alleen een tabel per taakveld, geen totaaljeugdresultaat of wachttijd gehaald. Uitkomsten cliëntervaringsonderzoek Jeugd voor meetjaar 2024 en 2025 en wachttijden Jeugdexpertteam na september 2024 zijn niet openbaar gevonden. Klachtformulier en bezwaarloket (loket.leeuwarden.nl) gaven 401 en zijn niet gelinkt. Contactgegevens samenwerkingsverband VO niet gevonden."

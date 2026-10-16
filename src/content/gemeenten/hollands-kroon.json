@@ -4,19 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.hollandskroon.nl/direct-regelen/zorg-en-ondersteuning/jeugd/jeugdzorg/",
   "toegang": {
-    "samenvatting": "In Hollands Kroon loopt vrijwel alle jeugdhulp via één organisatie: Incluzio Hollands Kroon. Het wijkteam van Incluzio is de deur voor opvoedvragen en jeugdhulp voor kinderen van 0 tot 18 jaar. U meldt zich zelf aan, met het contactformulier van de gemeente of telefonisch. Een verwijzing is niet nodig. Het wijkteam kijkt eerst of een groep, uw eigen netwerk of een gratis voorziening genoeg helpt. Voor specialistische hulp is een besluit van de gemeente nodig. Ook de huisarts mag verwijzen. Op elke school werkt een schoolmaatschappelijk werker of jeugdondersteuner van Incluzio. Hoe lang het duurt voordat de hulp start, hangt af van het soort hulp. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Hollands Kroon meldt u zich bij het wijkteam van Incluzio Hollands Kroon, voor kinderen van 0 tot 18 jaar. U kunt ook via de huisarts, de jeugdarts of de schoolmaatschappelijk werker; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteam van Incluzio Hollands Kroon",
-        "omschrijving": "Het wijkteam werkt in opdracht van de gemeente. Het onderzoekt wat uw kind en gezin nodig hebben, biedt zelf begeleiding en regelt hulp bij zorgaanbieders met een contract. Het kijkt eerst naar hulp in een groep, uw eigen netwerk en gratis voorzieningen. U meldt zich zelf aan. Voor specialistische hulp krijgt u een besluit (beschikking) van de gemeente.",
+        "omschrijving": "Het wijkteam onderzoekt wat uw kind en gezin nodig hebben, biedt zelf begeleiding en regelt hulp bij aanbieders met een contract. Het kijkt eerst naar hulp in een groep, uw eigen netwerk en gratis voorzieningen. Voor specialistische hulp krijgt u een besluit (beschikking) van de gemeente.",
         "stappen": [
-          "Meld u aan bij het wijkteam met het contactformulier van de gemeente, of bel het wijkteam.",
-          "Bespreek uw hulpvraag met een medewerker. Die bepaalt de volgende stap. Volgens Incluzio komt er meestal binnen twee weken iemand bij u thuis.",
-          "Kom met het hele gezin naar het gesprek, ook met uw kinderen. Dat verwacht het wijkteam. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om het onderzoeksverslag op papier. Volgens Incluzio is het binnen 6 weken na uw aanmelding klaar.",
-          "Bespreek daarna het advies. Het wijkteam biedt zelf hulp, vaak eerst in een groep, of regelt hulp bij een aanbieder. Voor specialistische hulp krijgt u een schriftelijk besluit.",
-          "Zeg het meteen bij de aanmelding als u een pgb (persoonsgebonden budget) wilt. U maakt dan een persoonlijk plan en bespreekt dat in het eerste gesprek."
+          "Meld u aan met het contactformulier van de gemeente of bel het wijkteam. Wilt u een pgb (persoonsgebonden budget)? Zeg dat meteen; u maakt dan een persoonlijk plan voor het eerste gesprek.",
+          "Een medewerker komt bij u thuis. Het wijkteam verwacht het hele gezin bij het gesprek, ook de kinderen. U mag iemand meenemen.",
+          "Vraag het onderzoeksverslag op papier en bespreek het advies: hulp van het wijkteam, vaak eerst in een groep, of hulp bij een aanbieder."
         ],
         "contact": {
           "naam": "Wijkteam Incluzio Hollands Kroon",
@@ -24,16 +21,16 @@
           "url": "https://www.incluziohollandskroon.nl/contact",
           "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
         },
-        "doorlooptijd": "Onderzoeksverslag binnen 6 weken na aanmelding (toezegging van Incluzio). De gemeente beslist binnen 8 weken na een aanvraag (Verordening jeugdhulp)."
+        "doorlooptijd": "Volgens Incluzio komt er meestal binnen twee weken iemand bij u thuis en is het onderzoeksverslag binnen 6 weken na aanmelding klaar. De gemeente beslist binnen 8 weken na een aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het wijkteam. Incluzio vraagt huisartsen om veel hulpvragen eerst met het wijkteam te bespreken. Uw huisarts overlegt dus mogelijk eerst met het wijkteam voordat er een verwijzing komt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Incluzio vraagt huisartsen om veel hulpvragen eerst met het wijkteam te bespreken, dus uw huisarts overlegt mogelijk eerst.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder met een contract. De huisarts kan ook eerst advies vragen aan het wijkteam.",
-          "Ga naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar een aanbieder met een contract, soms na advies van het wijkteam.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -45,11 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Volgens de gemeente heeft elke basisschool, middelbare school en mbo-opleiding een schoolmaatschappelijk werker van Incluzio. Op kindcentra voor kinderen van 0 tot 12 jaar werkt ook een jeugdondersteuner. Zij helpen bij vragen over opvoeding, gedrag en welzijn en zoeken passende hulp. Gesprekken zijn vertrouwelijk. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Elke basisschool, middelbare school en mbo-opleiding heeft een schoolmaatschappelijk werker van Incluzio. Op kindcentra voor kinderen van 0 tot 12 jaar werkt ook een jeugdondersteuner. Zij helpen vertrouwelijk bij vragen over opvoeding, gedrag en welzijn.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag naar de schoolmaatschappelijk werker of jeugdondersteuner van uw school. Op de website van Incluzio staat wie dat is en hoe u die bereikt.",
-          "Laat de schoolmaatschappelijk werker het wijkteam inschakelen als meer hulp nodig is. U kunt zich ook zelf bij het wijkteam aanmelden.",
+          "Vraag naar de schoolmaatschappelijk werker of jeugdondersteuner; op de website van Incluzio staat wie dat is. Die kan zo nodig het wijkteam inschakelen.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -81,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Hollands Kroon zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Hollands Kroon op de pagina Crisissituaties jeugd, acute zorg, ggz van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Hollands Kroon: crisissituaties jeugd, acute zorg, ggz",

@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Ridderkerk vraagt u jeugdhulp aan bij de lokale teams van de gemeente (voorheen het wijkteam). Het team kijkt eerst wat u zelf of met uw netwerk kunt oplossen, en welke lichte hulp zonder besluit past. Is meer nodig, dan helpt het team u aan specialistische hulp. U meldt zich zelf aan met het online formulier. Een verwijzing is niet nodig. Sinds 1 januari 2026 is er één centrale aanmelding voor alle vragen. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Ridderkerk meldt u zich met het online formulier bij de lokale teams van de gemeente (voorheen het wijkteam); sinds 1 januari 2026 is er één centrale aanmelding. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Lokale teams ondersteuning jeugd en volwassenen",
-        "omschrijving": "De lokale teams van de gemeente helpen bij vragen over opvoeden en opgroeien, en ook over zorg, geld en werk. U meldt zich zelf aan, maar iemand anders mag dat ook voor u doen. Het team kijkt eerst wat u zelf of met familie, buren en vrienden kunt doen en welke lichte hulp zonder verwijzing past. Is specialistische hulp nodig, dan regelt de gemeente die met een beschikking (besluit).",
+        "omschrijving": "De lokale teams helpen bij opvoeden en opgroeien, en ook bij zorg, geld en werk. Het team kijkt eerst wat u met familie, buren en vrienden kunt doen en welke lichte hulp zonder besluit past. Is specialistische hulp nodig, dan regelt de gemeente die met een beschikking (besluit).",
         "stappen": [
-          "Meld u aan via het formulier Aanmelding lokale teams op de website van de gemeente. Beschrijf uw situatie zo compleet mogelijk en zeg wat uw belangrijkste hulpvraag is.",
-          "Wacht op bericht van het team. Het team bespreekt uw vraag en laat weten hoe het verder gaat.",
-          "Neem gerust iemand mee naar een gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Lees het verslag dat u enkele dagen na het gesprek krijgt. Hierin staat of u hulp kunt krijgen en welke.",
-          "Vraag bij specialistische hulp om een schriftelijke beschikking. Daar kunt u bezwaar tegen maken."
+          "Vul het formulier Aanmelding lokale teams in op de website van de gemeente. Beschrijf uw situatie en uw belangrijkste hulpvraag. Iemand anders mag u ook aanmelden.",
+          "Wacht op bericht van het team over hoe het verder gaat. U mag iemand meenemen naar een gesprek.",
+          "Lees het verslag dat u enkele dagen na het gesprek krijgt. Daarin staat of u hulp kunt krijgen en welke."
         ],
         "contact": {
           "naam": "Lokale teams ondersteuning jeugd en volwassenen (gemeente Ridderkerk)",
@@ -23,16 +21,17 @@
           "email": "lokaleteams@ridderkerk.nl",
           "url": "https://www.ridderkerk.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/lokaleteams/",
           "openingstijden": "Telefonisch werkdagen 8.30–17.00 uur (algemeen nummer gemeente)"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dit is een gelijkwaardige route naast de lokale teams. De gemeente betaalt de hulp alleen als de aanbieder een contract of subsidie van de gemeente heeft. Voor een andere aanbieder heeft u vooraf schriftelijke toestemming van de gemeente nodig.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente betaalt alleen als de aanbieder een contract of subsidie van de gemeente heeft. Voor een andere aanbieder heeft u vooraf schriftelijke toestemming van de gemeente nodig.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg (CJG Rijnmond).",
-          "Vraag de huisarts om te verwijzen naar een aanbieder die een contract met de gemeente Ridderkerk heeft.",
-          "Ga naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van CJG Rijnmond.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente Ridderkerk.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg: CJG Rijnmond",
@@ -45,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De school waar u uw kind aanmeldt, moet zorgen voor een passende plek en maakt met u een plan voor extra ondersteuning (zorgplicht). Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het basisonderwijs is dat RiBA (Ridderkerk, Albrandswaard en Barendrecht), voor het voortgezet onderwijs Koers VO. Vragen over jeugdhulp bij problemen op school kunt u ook aan de lokale teams stellen.",
+        "omschrijving": "De school maakt met u een plan voor extra ondersteuning. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband: RiBA voor de basisschool, Koers VO voor de middelbare school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school welke ondersteuning zij zelf biedt, en vraag om een schriftelijk plan.",
-          "Meld uw kind aan bij de lokale teams als meer hulp nodig is.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag welke ondersteuning school zelf biedt, en vraag om een schriftelijk plan.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -78,10 +76,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Ridderkerk zijn, ook als er kinderen bij betrokken zijn, staat op de pagina van de lokale teams van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Ridderkerk op de pagina van de lokale teams van de gemeente, onder het kopje over een crisissituatie."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Ridderkerk: lokale teams, bij een crisissituatie",

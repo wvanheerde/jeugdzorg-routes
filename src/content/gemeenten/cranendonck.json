@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuidoost-Brabant",
   "websiteJeugd": "https://www.cranendonck.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Cranendonck vraagt u jeugdhulp aan bij het Sociaal Team Cranendonck. Dat is een team van de gemeente in het gemeentehuis in Budel. U belt, of u stuurt online een vraag; het team belt u dan terug. Voor zwaardere hulp doet u een aanvraag en krijgt u een schriftelijk besluit. De huisarts, de jeugdarts en de medisch specialist mogen ook rechtstreeks naar jeugdhulp verwijzen. In 2024 kwam ruim de helft van de besluiten over jeugdhulp van zulke verwijzers, niet van het Sociaal Team. Hoe lang het duurt, leest u onder \"Hoe gaat het hier?\".",
+    "samenvatting": "In Cranendonck vraagt u jeugdhulp aan bij het Sociaal Team Cranendonck in het gemeentehuis in Budel. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Cranendonck",
-        "omschrijving": "Het Sociaal Team is het toegangsteam van de gemeente voor jeugdhulp en voor de Wmo (hulp voor volwassenen). Het kijkt eerst of lichte hulp, hulp uit uw eigen netwerk of een voorziening in de buurt genoeg is. Is meer nodig, dan beoordeelt het team uw aanvraag en neemt het een besluit. U meldt u zelf aan; een verwijzing is niet nodig.",
+        "omschrijving": "Het Sociaal Team is het toegangsteam van de gemeente voor jeugdhulp en de Wmo. Het kijkt eerst of lichte hulp, uw netwerk of een voorziening in de buurt genoeg is. Is meer nodig, dan doet u een aanvraag en krijgt u een schriftelijk besluit (beschikking).",
         "stappen": [
-          "Bel het Sociaal Team of stuur online een vraag in. U kunt vragen om teruggebeld te worden.",
-          "Vertel in het gesprek wat er speelt en waar u hulp bij nodig heeft.",
-          "Neem iemand mee naar het gesprek als u dat wilt, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Doe een aanvraag als specialistische hulp nodig is. U krijgt dan een schriftelijk besluit (beschikking).",
-          "Vraag na het gesprek om een schriftelijk verslag en vraag hoe lang het duurt."
+          "Bel het Sociaal Team of stuur online een vraag in; u wordt dan teruggebeld.",
+          "Vertel in het gesprek wat er speelt en waar u hulp bij nodig heeft. U mag iemand meenemen.",
+          "Doe een aanvraag als specialistische hulp nodig is."
         ],
         "contact": {
           "naam": "Sociaal Team Cranendonck",
@@ -25,16 +23,16 @@
           "url": "https://www.cranendonck.nl/jeugdhulp",
           "openingstijden": "Telefonisch werkdagen 9.00–12.30 uur"
         },
-        "doorlooptijd": "Gemeten in 2024: bij 71% van de aanvragen kwam het besluit binnen acht weken."
+        "doorlooptijd": "Gemeten in 2024: bij 71% van de aanvragen kwam het besluit binnen acht weken. Vraag na het gesprek hoe lang het bij u duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Alle huisartsen in Cranendonck kunnen via een eigen telefoonlijn direct overleggen met het Sociaal Team. De jeugdgezondheidszorg (consultatiebureau en jeugdarts) is in Cranendonck van de GGD Brabant-Zuidoost.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen; in 2024 kwam ruim de helft van de besluiten over jeugdhulp via zulke verwijzers. Alle huisartsen in Cranendonck kunnen via een eigen telefoonlijn direct overleggen met het Sociaal Team. De jeugdarts is van de GGD Brabant-Zuidoost.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts.",
           "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. Soms overlegt de huisarts eerst met het Sociaal Team.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -46,11 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is vaak de eerste die ziet dat het niet goed gaat. De school kan met u meedenken en u naar het Sociaal Team wijzen. Komt u er met school niet uit over de ondersteuning van uw kind, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat is gratis en onafhankelijk van de school.",
+        "omschrijving": "School kan met u meedenken en u naar het Sociaal Team wijzen. Het Ouder- en jeugdsteunpunt van het samenwerkingsverband is gratis en onafhankelijk van de school.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, de mentor of de intern begeleider.",
-          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan aan bij het Sociaal Team.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor het basisonderwijs of het voortgezet onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt voor het basisonderwijs of het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -75,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de crisispagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina \"Wat te doen bij een crisissituatie\" van de gemeente welke crisisdiensten er zijn voor jeugd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Cranendonck: wat te doen bij een crisissituatie",

@@ -5,32 +5,33 @@
   "jeugdzorgregio": "Foodvalley",
   "websiteJeugd": "https://www.renswoude.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Renswoude is het Dorpsteam het aanspreekpunt voor jeugdhulp. Het team werkt voor de gemeente en is er voor alle leeftijden. U meldt zich zelf aan, het liefst met het online formulier; een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Voor baby's en kleine kinderen is er het consultatiebureau van de GGD. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Renswoude meldt u zich bij het Dorpsteam van de gemeente, het liefst met het online formulier. U kunt ook via de huisarts of de jeugdarts van het consultatiebureau; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Dorpsteam Renswoude",
-        "omschrijving": "Het Dorpsteam werkt voor de gemeente. In het team zitten jeugdhulpspecialisten, Wmo-consulenten (voor hulp en zorg thuis) en maatschappelijk werkers. Zij beoordelen of uw kind jeugdhulp krijgt, regelen de hulp en houden overzicht. U meldt zich zelf aan. Een verwijzing is niet nodig. Het Dorpsteam is alleen op kantoortijden bereikbaar en biedt geen crisishulp.",
+        "omschrijving": "Het Dorpsteam is er voor alle leeftijden. Jeugdhulpspecialisten beoordelen of uw kind jeugdhulp krijgt, regelen de hulp en houden overzicht. Het team is alleen op kantoortijden bereikbaar en biedt geen crisishulp.",
         "stappen": [
-          "Vul het formulier Aanvraag of ondersteuning Jeugdhulp in op de website van de gemeente, of bel het Dorpsteam via het algemene nummer van de gemeente.",
-          "Maak een afspraak met de medewerker van het Dorpsteam die contact met u opneemt. Dat kan thuis, telefonisch of in het gemeentehuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bekijk samen welke hulp past. Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp ook om een besluit (beschikking)."
+          "Vul het formulier Aanvraag of ondersteuning Jeugdhulp in op de website van de gemeente, of bel het algemene nummer van de gemeente.",
+          "Maak een afspraak met de medewerker die contact met u opneemt: thuis, telefonisch of in het gemeentehuis. U mag iemand meenemen.",
+          "Bekijk samen welke hulp past. Bij specialistische hulp krijgt u een besluit (beschikking)."
         ],
         "contact": {
           "naam": "Dorpsteam Renswoude",
           "telefoon": "0318 57 81 50",
           "email": "dorpsteam@renswoude.nl",
           "url": "https://www.renswoude.nl/wat-kan-het-dorpsteam-voor-u-doen"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente via de regio heeft ingekocht. Dit is een gelijkwaardige route naast het Dorpsteam. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD regio Utrecht. Die GGD houdt ook het consultatiebureau in Renswoude.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD regio Utrecht, die ook het consultatiebureau in Renswoude houdt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder waarmee de regio een contract heeft.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder waarmee de regio een contract heeft.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -42,11 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen om uw kind op school, begin dan bij de leerkracht, mentor of intern begeleider. De gemeente en de samenwerkingsverbanden passend onderwijs maken afspraken over hulp van het Dorpsteam op school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Dat is gratis en onafhankelijk van school. Renswoude heeft twee basisscholen en geen middelbare school.",
+        "omschrijving": "Renswoude heeft twee basisscholen en geen middelbare school. De gemeente en de samenwerkingsverbanden maken afspraken over hulp van het Dorpsteam op school.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag wat de school zelf kan doen en schrijf de afspraken op.",
-          "Wilt u ook hulp buiten school, meld uw kind dan aan bij het Dorpsteam.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Voor de middelbare school is dat het steunpunt van de regio waar de school staat."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag wat de school zelf kan doen.",
+          "Komt u er met school niet uit? Vraag gratis advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Voor de middelbare school is dat het steunpunt van de regio waar de school staat."
         ],
         "contact": [
           {
@@ -79,10 +79,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Het Dorpsteam biedt geen crisishulp. Op de pagina van de gemeente staat waar u verder terechtkunt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij crisis of spoed op de pagina Persoonlijke noodsituatie van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Renswoude: persoonlijke noodsituatie",

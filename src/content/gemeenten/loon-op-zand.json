@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Hart van Brabant",
   "websiteJeugd": "https://www.loonopzand.nl/zorg-jeugdhulp-onderwijs/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Loon op Zand is het Zorgloket van de gemeente de eerste stap. U belt, mailt of vult het contactformulier in, zonder verwijzing. Het Zorgloket kijkt breed naar uw vraag en zet die zo nodig door. Dat kan naar het Sterk Lokaal Team, een team van de gemeente voor coaching en begeleiding thuis. Is specialistische jeugdhulp nodig, dan krijgt u een beschikking (schriftelijk besluit) van de gemeente. Wettelijk beslist de gemeente binnen 8 weken, maar in 2025 lukte dat bij een derde van de gewone aanvragen. U kunt ook via de huisarts gaan. Jongeren vanaf 12 jaar kunnen zich zelf melden. Tot 16 jaar is daarbij toestemming van de ouders nodig. Drie keer per week is er ook een adviesplein in de wijk, waar u zonder afspraak binnenloopt.",
+    "samenvatting": "In Loon op Zand meldt u zich bij het Zorgloket van de gemeente, of zonder afspraak op een adviesplein in de wijk. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Zorgloket met het Sterk Lokaal Team",
-        "omschrijving": "Het Zorgloket is het aanspreekpunt van de gemeente voor alle vragen over welzijn, wonen, zorg en jeugdhulp. Het kijkt eerst naar wat u zelf, uw netwerk en lichte hulp in de buurt kunnen doen. Is dat niet genoeg, dan kan het Sterk Lokaal Team helpen met coaching en begeleiding zonder indicatie (zonder formeel besluit). Voor specialistische hulp geeft de gemeente een beschikking af. U meldt zich zelf aan. Een verwijzing is niet nodig. Het team heet in de wijk ook wel wijkteam.",
+        "omschrijving": "Het Zorgloket helpt bij vragen over welzijn, wonen, zorg en jeugdhulp. Het Sterk Lokaal Team (in de wijk ook wijkteam genoemd) geeft coaching en begeleiding thuis, zonder formeel besluit. Jongeren vanaf 12 jaar kunnen zich zelf melden; tot 16 jaar is toestemming van de ouders nodig.",
         "stappen": [
-          "Bel het Zorgloket, mail of vul het contactformulier in. U kunt ook langskomen op een adviesplein in de wijk.",
-          "Vertel wat er speelt. Samen kijkt u naar oplossingen in uw eigen netwerk, in de buurt of bij het Sterk Lokaal Team.",
-          "Is specialistische hulp nodig? Dan volgt een gesprek en een aanvraag. U krijgt een schriftelijk besluit (beschikking).",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Vraag om een schriftelijk gespreksverslag."
+          "Bel of mail het Zorgloket, vul het contactformulier in, of loop binnen bij een adviesplein (drie keer per week).",
+          "Vertel wat er speelt en kijk samen naar hulp in uw omgeving, in de buurt of van het Sterk Lokaal Team. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan volgt een aanvraag en krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -30,16 +29,17 @@
             "naam": "Contactformulier Zorgloket",
             "url": "https://samenwerkendegemeenten.equalit.nl/formulier/nl-NL/Loonopzand/scZorgondersteuning.aspx"
           }
-        ]
+        ],
+        "doorlooptijd": "De gemeente moet binnen 8 weken beslissen, maar in 2025 lukte dat bij een derde van de gewone aanvragen. Vraag bij uw aanmelding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als die via het Zorgloket. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd, die kort kan helpen. De jeugdarts en jeugdverpleegkundige van de GGD Hart voor Brabant zijn er voor kinderen van 0 tot 18 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Veel huisartsenpraktijken hebben een praktijkondersteuner jeugd die kort kan helpen. De jeugdarts van GGD Hart voor Brabant is er voor kinderen van 0 tot 18 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente, of om de vraag voor te leggen aan het Zorgloket.",
-          "Meld u met de verwijzing aan bij de aanbieder. Met een verwijzing van de arts hoeft u zelf geen aanvraag bij de gemeente te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract, of vraag de huisarts uw vraag voor te leggen aan het Zorgloket.",
+          "Meld u met de verwijzing aan bij de aanbieder. U hoeft zelf geen aanvraag bij de gemeente te doen."
         ],
         "contact": [
           {
@@ -52,12 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met de leerkracht, mentor of intern begeleider. Op school is ook schoolmaatschappelijk werk. Dat is gratis hulp voor kinderen en ouders. Is meer hulp nodig, dan helpt het Zorgloket. Komt u er met school niet uit over passend onderwijs, dan kunt u terecht bij het ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+        "omschrijving": "Op school is schoolmaatschappelijk werk: gratis hulp voor kinderen en ouders. Is meer hulp nodig, dan helpt het Zorgloket.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school naar het schoolmaatschappelijk werk, of meld u aan bij het Zorgloket.",
-          "Wilt u de jeugdverpleegkundige van de GGD spreken? Neem rechtstreeks contact op met de jeugdgezondheidszorg.",
-          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar het schoolmaatschappelijk werk.",
+          "Wilt u de jeugdverpleegkundige spreken? Neem rechtstreeks contact op met de jeugdgezondheidszorg van de GGD.",
+          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -84,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Waar u in deze regio terechtkunt bij vermoeden van kindermishandeling of huiselijk geweld, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor meldpunten bij huiselijk geweld en kindermishandeling op de pagina van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Loon op Zand: huiselijk geweld en kindermishandeling",

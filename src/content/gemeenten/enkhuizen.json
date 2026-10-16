@@ -4,19 +4,17 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.enkhuizen.nl/direct-regelen/zorg-en-hulp/jeugdhulp/hulp-voor-ouders-en-opvoeders",
   "toegang": {
-    "samenvatting": "In Enkhuizen meldt u zich bij de medewerkers jeugd van de gemeente. Een verwijzing is niet nodig. Zij zoeken met u uit welke hulp past, bijvoorbeeld lichte hulp van het consultatiebureau, de GGD of het jongerenwerk. Bij problemen op meerdere gebieden tegelijk kan het Stadsteam helpen, het lokale team van de stichting Iedereen Telt Mee. Het Stadsteam kunt u niet zelf bellen. De medewerker jeugd, de huisarts, school of een andere hulpverlener meldt u aan. Ook de huisarts mag rechtstreeks verwijzen naar jeugdhulp. Volgens een rekenkamerrapport uit 2025 wacht u bij niet-acute vragen gemiddeld zes maanden op een intakegesprek. Bij acuut gevaar volgt een gesprek binnen 48 uur. Vraag bij uw melding hoe lang het nu duurt.",
+    "samenvatting": "In Enkhuizen meldt u zich bij de medewerkers jeugd van de gemeente; bij problemen op meerdere gebieden tegelijk kunnen zij u aanmelden bij het Stadsteam. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente en het Stadsteam",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij beantwoorden uw vraag, verwijzen u naar lichtere hulp of regelen specialistische hulp. Het Stadsteam is het lokale team van de stichting Iedereen Telt Mee. Het helpt inwoners van 0 tot 100 jaar met problemen op meerdere gebieden tegelijk, zoals opvoeding, schulden of psychische problemen. U kunt er alleen terecht als een verwijzer u aanmeldt, zoals de medewerker jeugd, huisarts, school of GGD.",
+        "omschrijving": "De medewerkers jeugd beantwoorden uw vraag, verwijzen u naar lichtere hulp (zoals het consultatiebureau, de GGD of het jongerenwerk) of regelen specialistische hulp. Het Stadsteam van de stichting Iedereen Telt Mee helpt inwoners van 0 tot 100 jaar met problemen op meerdere gebieden tegelijk, zoals opvoeding, schulden of psychische problemen. Het Stadsteam kunt u niet zelf bellen: de medewerker jeugd, huisarts, school of GGD meldt u aan.",
         "stappen": [
-          "Bel de medewerkers jeugd van de gemeente. U heeft geen verwijzing nodig.",
-          "Vertel uw vraag. Soms krijgt u meteen advies of een verwijzing naar lichtere hulp, zoals het consultatiebureau, de GGD of het jongerenwerk.",
-          "Vraag hoe lang het duurt tot een gesprek als specialistische hulp waarschijnlijk nodig is. Vraag ook wat u in de tussentijd kunt doen.",
-          "Vraag na het gesprek om een schriftelijk verslag. Het gesprek hoort bij uw aanvraag voor jeugdhulp.",
-          "Maak samen een perspectiefplan: wat is het probleem en wat wilt u bereiken. Daarna krijgt u een schriftelijk besluit over de hulp (beschikking).",
-          "Gaat het om problemen op meerdere gebieden tegelijk? Vraag de medewerker jeugd, uw huisarts of school om u aan te melden bij het Stadsteam."
+          "Bel de medewerkers jeugd van de gemeente en vertel uw vraag. Vraag ook wat u in de tussentijd kunt doen.",
+          "Bespreek wat er nodig is. Vraag na het gesprek om een schriftelijk verslag; het gesprek hoort bij uw aanvraag. U mag iemand meenemen.",
+          "Maak samen een perspectiefplan: wat is het probleem en wat wilt u bereiken. Daarna krijgt u een beschikking (schriftelijk besluit).",
+          "Spelen er problemen op meerdere gebieden? Vraag de medewerker jeugd, uw huisarts of school om u aan te melden bij het Stadsteam."
         ],
         "contact": [
           {
@@ -29,16 +27,17 @@
             "naam": "Stadsteam Enkhuizen",
             "url": "https://www.enkhuizen.nl/direct-regelen/zorg-en-hulp/hulp-en-ondersteuning/stadsteam"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens een rekenkamerrapport uit 2025 wacht u bij niet-acute vragen gemiddeld zes maanden op een intakegesprek; bij acuut gevaar volgt een gesprek binnen 48 uur. Vraag bij uw melding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. De verwijzing kan alleen naar een aanbieder met een contract met de gemeente. De huisarts kan u ook aanmelden bij het Stadsteam. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Hollands Noorden.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De huisarts kan u ook aanmelden bij het Stadsteam. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Hollands Noorden.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de GGD.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente, of om een aanmelding bij het Stadsteam.",
-          "Ga met de verwijzing naar de aanbieder. Die onderzoekt uw vraag en meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract, of om een aanmelding bij het Stadsteam.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -50,10 +49,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Uw eerste gesprek is met de leerkracht, mentor of intern begeleider. Op de basisscholen werkt schoolmaatschappelijk werk van de stichting Iedereen Telt Mee. Zo nodig schakelt school het Stadsteam in. Komt u er met school niet uit, dan kunt u advies vragen bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op de basisscholen werkt schoolmaatschappelijk werk van de stichting Iedereen Telt Mee. Zo nodig schakelt school het Stadsteam in.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school schoolmaatschappelijk werk of het Stadsteam kan inschakelen. Of bel zelf de medewerkers jeugd van de gemeente.",
+          "Vraag of school schoolmaatschappelijk werk of het Stadsteam kan inschakelen.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -79,10 +78,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er verder is voor kinderen en jongeren in deze regio, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor jeugd in deze regio op de pagina Hulp voor ouders en opvoeders van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Enkhuizen: hulp voor ouders en opvoeders (crisisdienst jeugd)",

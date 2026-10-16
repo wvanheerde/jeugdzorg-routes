@@ -4,18 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.wierden.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Wierden is de gemeente zelf de toegang tot jeugdhulp. U meldt uw hulpvraag bij het Zorgloket van de gemeente, online met DigiD of telefonisch. Een regisseur jeugd van de gemeente praat met u, onderzoekt wat nodig is en maakt een verslag. Is specialistische hulp nodig, dan doet u een aanvraag en krijgt u een schriftelijk besluit. U kunt ook via de huisarts, de jeugdarts of de medisch specialist gaan. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Wierden meldt u zich bij het Zorgloket van de gemeente; er is geen apart wijkteam. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Zorgloket en regisseurs jeugd van de gemeente",
-        "omschrijving": "Wierden heeft geen apart wijkteam. Het Zorgloket neemt uw melding aan en brengt u in contact met een regisseur jeugd van de gemeente. Die onderzoekt samen met u welke hulp nodig is. U meldt zich zelf aan; een verwijzing is niet nodig. Ook als school of een andere organisatie zich zorgen maakt, doet u zelf de melding. Lichte hulp, zoals advies, kunt u meestal direct krijgen. Voor specialistische hulp zijn een aanvraag en een besluit (beschikking) van de gemeente nodig.",
+        "omschrijving": "Het Zorgloket brengt u in contact met een regisseur jeugd van de gemeente, die met u onderzoekt welke hulp nodig is. Ook als school of een andere organisatie zich zorgen maakt, doet u zelf de melding. Lichte hulp, zoals advies, krijgt u meestal direct.",
         "stappen": [
           "Meld uw hulpvraag online met DigiD, of neem contact op met het Zorgloket.",
-          "Bespreek uw kind en uw vraag met een regisseur jeugd. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Lees het verslag dat u na het gesprek van de gemeente krijgt. Daarin staat welke hulp mogelijk is.",
-          "Is specialistische hulp nodig? Doe dan een aanvraag met een ondertekend formulier. De gemeente beslist binnen 8 weken en stuurt u een schriftelijk besluit.",
-          "Is er een crisis? Vraag de regisseur dan om direct tijdelijke hulp in te zetten."
+          "Bespreek uw vraag met een regisseur jeugd. U mag iemand meenemen. Daarna krijgt u een verslag.",
+          "Is specialistische hulp nodig? Doe een aanvraag met een ondertekend formulier. U krijgt een schriftelijk besluit (beschikking). Bij een crisis kan de regisseur direct tijdelijke hulp inzetten."
         ],
         "contact": {
           "naam": "Zorgloket gemeente Wierden",
@@ -23,16 +21,17 @@
           "email": "zorgloket@wierden.nl",
           "url": "https://www.wierden.nl/contact-en-openingstijden",
           "openingstijden": "Zonder afspraak"
-        }
+        },
+        "doorlooptijd": "De gemeente beslist binnen 8 weken na uw aanvraag. Hoe lang het duurt tot een eerste gesprek, is niet openbaar; vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp van een aanbieder met een contract met de gemeente. Deze route is net zo goed als die via het Zorgloket. Bij de huisartsen in Wierden werkt een praktijkondersteuner jeugd-ggz (geestelijke gezondheidszorg) voor lichte psychische vragen van jongeren.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. Bij de huisartsen in Wierden werkt een praktijkondersteuner jeugd-ggz voor lichte psychische vragen van jongeren.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts wat past: eerst de praktijkondersteuner jeugd-ggz, of direct een aanbieder met een contract.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar de praktijkondersteuner jeugd-ggz of naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -43,11 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan zorgen met u bespreken, maar de melding voor jeugdhulp doet u zelf bij het Zorgloket. Komt u er met school niet uit over extra ondersteuning, dan helpt het Ouder- en Jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "School kan zorgen met u bespreken, maar de melding voor jeugdhulp doet u zelf bij het Zorgloket. Komt u er met school niet uit over extra ondersteuning, dan helpt het Ouder- en Jeugdsteunpunt van het samenwerkingsverband.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld uw hulpvraag bij het Zorgloket van de gemeente, ook als de vraag van school komt. U kunt aangeven dat school meedenkt.",
-          "Komt u er met school niet uit over extra ondersteuning? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -68,10 +66,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Waar u terechtkunt bij kindermishandeling of huiselijk geweld, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over mishandeling en huiselijk geweld waar u hulp en advies vindt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Wierden: mishandeling of huiselijk geweld",

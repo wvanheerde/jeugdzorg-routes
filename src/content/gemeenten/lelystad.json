@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Flevoland",
   "websiteJeugd": "https://www.lelystad.nl/jeugdengezin",
   "toegang": {
-    "samenvatting": "In Lelystad vraagt u specialistische jeugdhulp aan bij Jeugd Lelystad (JEL). Dat is een bedrijf van de gemeente dat uw aanvraag onderzoekt en de gemeente adviseert over een besluit. JEL geeft zelf geen hulp. Voor vragen over opvoeden en opgroeien kunt u terecht bij Lisa, zonder besluit van de gemeente. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. School en Veilig Thuis mogen dat niet. Let op: in 2026 lag het werk van JEL enige tijd stil. Sinds de zomer is de dienstverlening hervat en zijn er nieuwe aanbieders voor lokale jeugdhulp, zoals jeugd-ggz. Wachtlijsten zijn er nog.",
+    "samenvatting": "In Lelystad gaat u met vragen over opvoeden en opgroeien naar Lisa, en vraagt u specialistische jeugdhulp aan bij Jeugd Lelystad (JEL). Ook de huisarts, jeugdarts of medisch specialist mag verwijzen; school en Veilig Thuis mogen dat niet.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugd Lelystad (JEL)",
-        "omschrijving": "JEL is de toegang tot specialistische jeugdhulp. Alleen ouders met gezag, voogden en jongeren vanaf 16 jaar kunnen een aanvraag doen. Professionals kunnen dat niet. Een medewerker van JEL bespreekt wat er speelt, komt vaak op huisbezoek en schrijft een rapport dat u mag aanvullen. Past specialistische hulp niet, dan verwijst JEL u naar school, het sociaal wijkteam, de Wmo of de zorgverzekeraar. Voor lichte opvoedvragen is JEL niet de eerste stap: ga dan naar Lisa. U mag familie of een onafhankelijke cliëntondersteuner meenemen naar de gesprekken.",
+        "omschrijving": "JEL is een bedrijf van de gemeente dat uw aanvraag onderzoekt en de gemeente adviseert; JEL geeft zelf geen hulp. Alleen ouders met gezag, voogden en jongeren vanaf 16 jaar kunnen een aanvraag doen, professionals niet. Past specialistische hulp niet, dan verwijst JEL u naar school, het sociaal wijkteam, de Wmo of de zorgverzekeraar.",
         "stappen": [
           "Download het aanvraagformulier op jeugdlelystad.nl, vul het volledig in en dien het in. Een onvolledige aanvraag wordt niet behandeld.",
-          "Wacht op de ontvangstbevestiging. Daarna neemt het team van JEL dat aanvragen beoordeelt (triageteam) contact met u op over uw hulpvraag.",
-          "Plan het huisbezoek. Bespreek het rapport van de jeugdprofessional en vul het aan waar u het er niet mee eens bent.",
-          "Vraag om de beschikking: het besluit van de gemeente met welke hulp u krijgt, hoeveel en hoe lang. U kiest samen met JEL een aanbieder met een contract.",
+          "Wacht op de ontvangstbevestiging. Daarna neemt JEL contact op, vaak voor een huisbezoek. U mag iemand meenemen.",
+          "Lees het rapport en vul het aan waar u het er niet mee eens bent. Daarna krijgt u de beschikking en kiest u samen met JEL een aanbieder met een contract.",
           "Staat uw kind op een wachtlijst, of is uw aanbieder gestopt? Neem dan contact op met JEL."
         ],
         "contact": {
@@ -25,17 +24,16 @@
           "url": "https://jeugdlelystad.nl/contact/",
           "adres": "Het Ravelijn 50, 8233 BR Lelystad"
         },
-        "doorlooptijd": "De gemeente besluit binnen acht weken na ontvangst van uw aanvraag (Verordening Jeugdhulp Lelystad 2025). Ontbreken er stukken, dan stopt de termijn tot u ze hebt aangeleverd. Bij spoed start de hulp zo snel mogelijk en volgt het besluit binnen vier weken na de start."
+        "doorlooptijd": "De gemeente besluit binnen acht weken na een volledige aanvraag; bij spoed start de hulp zo snel mogelijk en volgt het besluit binnen vier weken. Voor sommige hulp, zoals jeugd-ggz, zijn er wachtlijsten; vraag JEL hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist (alleen psychiater of klinisch psycholoog) mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Zij kunnen geen pgb toekennen. Bij een aantal huisartsen werkt een jeugdprofessional bij de huisarts (JPH). Die denkt mee en geeft kortdurende hulp. De aanbieder vraagt na de verwijzing een beschikking aan bij de gemeente.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist (alleen psychiater of klinisch psycholoog) mag rechtstreeks verwijzen, maar kan geen pgb toekennen. Bij een aantal huisartsen werkt een jeugdprofessional bij de huisarts (JPH), die meedenkt en kort hulp geeft. Na de verwijzing vraagt de aanbieder de beschikking aan bij de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, de jeugdarts van de GGD of de jeugdprofessional bij de huisarts.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. Zie de Beschikbaarheidswijzer of de lijst op lelystad.nl.",
-          "Controleer bij de aanbieder dat de gemeente de aanvraag voor een beschikking heeft ontvangen.",
-          "Is de aanbieder gestopt met zijn contract? Neem contact op met de huisarts voor een nieuwe verwijzing, of neem contact op met JEL."
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. Die vindt u in de Beschikbaarheidswijzer of op de lijst op lelystad.nl.",
+          "Controleer bij de aanbieder dat de gemeente de aanvraag heeft ontvangen. Is de aanbieder gestopt? Vraag de huisarts om een nieuwe verwijzing, of neem contact op met JEL."
         ],
         "contact": [
           {
@@ -56,12 +54,11 @@
       {
         "type": "school",
         "naam": "Via school en Lisa",
-        "omschrijving": "School kan niet naar jeugdhulp verwijzen. Wel kan school meedenken via het ondersteuningsteam, het schoolmaatschappelijk werk of de jeugdpreventiewerker. Voor vragen over opvoeden en opgroeien kunt u rechtstreeks bij Lisa terecht. Voor passend onderwijs is er het samenwerkingsverband Passend Onderwijs Lelystad Dronten.",
+        "omschrijving": "School kan niet naar jeugdhulp verwijzen, maar kan meedenken via het ondersteuningsteam, het schoolmaatschappelijk werk of de jeugdpreventiewerker. Voor vragen over opvoeden en opgroeien kunt u rechtstreeks bij Lisa terecht. Voor passend onderwijs is er het samenwerkingsverband Passend Onderwijs Lelystad Dronten.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, de mentor of de intern begeleider.",
-          "Vraag school naar het ondersteuningsteam of het schoolmaatschappelijk werk.",
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider, en vraag naar het ondersteuningsteam of het schoolmaatschappelijk werk.",
           "Bel of mail Lisa voor advies over opvoeden, gedrag of ontwikkeling.",
-          "Is er meer nodig? Vraag een verwijzing aan de huisarts of vraag zelf specialistische hulp aan bij JEL."
+          "Is er meer nodig? Vraag een verwijzing aan de huisarts, of vraag zelf hulp aan bij JEL."
         ],
         "contact": [
           {
@@ -86,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Lelystad op de pagina Hulp bij crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Lelystad: Hulp bij crisis",
@@ -373,7 +369,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Lelystad - Jeugd en gezin",

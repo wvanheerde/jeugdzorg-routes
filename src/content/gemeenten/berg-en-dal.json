@@ -4,18 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.bergendal.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Berg en Dal is het Sociaal Team de ingang voor jeugdhulp. Dat team werkt voor de gemeente en helpt ook volwassenen die ondersteuning nodig hebben (Wmo). U meldt zich zelf aan; een verwijzing is niet nodig. Een medewerker bespreekt uw vraag en maakt een verslag. Dat verslag is de basis voor een aanvraag voor specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Bij de huisartsen werkt een praktijkondersteuner jeugd, en op alle basisscholen werkt een schoolconsulent. Het Sociaal Team heeft een lange wachtlijst: volgens de gemeente wacht u gemiddeld een half jaar op het eerste gesprek. Urgente zaken, zoals onveiligheid, gaan voor. Vraag bij uw aanmelding hoe lang het in uw geval duurt.",
+    "samenvatting": "In Berg en Dal meldt u zich bij het Sociaal Team van de gemeente. U kunt ook via de huisarts, de jeugdarts of de medewerker jeugd op de basisschool; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Berg en Dal",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente en beoordeelt of uw kind jeugdhulp krijgt. U meldt zich zelf aan; een verwijzing is niet nodig. Algemene hulp kan volgens de gemeente meestal direct. Voor specifieke hulp doet u een aanvraag. Door de drukte zijn de wachttijden lang; urgente zaken gaan voor.",
+        "omschrijving": "Het Sociaal Team beoordeelt of uw kind jeugdhulp krijgt en helpt ook volwassenen (Wmo). Algemene hulp kan volgens de gemeente meestal direct; voor specifieke hulp doet u een aanvraag. Het verslag van uw gesprek is de basis voor die aanvraag.",
         "stappen": [
-          "Bel het Sociaal Team, mail of gebruik het contactformulier op de website van de gemeente.",
-          "Een medewerker maakt een afspraak, bij u thuis of op een andere plek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "U beschrijft uw hulpvraag. De medewerker maakt een verslag; vraag er een kopie van.",
-          "Heeft uw kind specifieke hulp nodig? Doe dan op basis van het verslag een aanvraag. De gemeente beslist en stuurt u een schriftelijk besluit.",
-          "Vraag bij uw aanmelding hoe lang het duurt voordat u een gesprek heeft, en wat u in de tussentijd kunt doen."
+          "Bel of mail het Sociaal Team, of gebruik het contactformulier van de gemeente.",
+          "Een medewerker maakt een afspraak, bij u thuis of ergens anders, en maakt een verslag van uw hulpvraag. U mag iemand meenemen.",
+          "Heeft uw kind specifieke hulp nodig? Doe dan op basis van het verslag een aanvraag. U krijgt een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Sociaal Team Berg en Dal",
@@ -24,16 +22,16 @@
           "url": "https://www.bergendal.nl/sociaal-team-berg-en-dal",
           "openingstijden": "Telefonisch maandag tot en met vrijdag 9.00–13.00 uur"
         },
-        "doorlooptijd": "Volgens de gemeente wacht u gemiddeld een half jaar op het eerste gesprek (september 2026). De gemeente wil uiterlijk eind 2027 binnen 6 weken een eerste contact bieden."
+        "doorlooptijd": "Volgens de gemeente wacht u gemiddeld een half jaar op het eerste gesprek (september 2026); urgente zaken, zoals onveiligheid, gaan voor. De gemeente wil uiterlijk eind 2027 binnen 6 weken een eerste contact bieden."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisartsen werkt een praktijkondersteuner jeugd (POH jeugd). Die geeft kortdurende hulp bij lichte psychische klachten en is in dienst van het Sociaal Team.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij de huisartsen werkt een praktijkondersteuner jeugd (POH jeugd) van het Sociaal Team, voor korte hulp bij lichte psychische klachten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de POH jeugd verwijzen, of direct naar een aanbieder met een contract bij de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar de POH jeugd, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -45,12 +43,11 @@
       },
       {
         "type": "school",
-        "naam": "Via school en schoolconsulent",
-        "omschrijving": "Op alle basisscholen werkt een schoolconsulent van het Sociaal Team. Die helpt kinderen en ouders kort, in hooguit 10 gesprekken, bijvoorbeeld bij faalangst, pesten of opvoedvragen. Of er ook op middelbare scholen een schoolconsulent werkt, is niet openbaar te vinden. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "naam": "Via school",
+        "omschrijving": "Op alle basisscholen werkt een medewerker jeugd van het Sociaal Team. Die helpt kinderen en ouders kort, in hooguit 10 gesprekken, bijvoorbeeld bij faalangst, pesten of opvoedvragen, en verwijst zo nodig door. Of er ook op middelbare scholen een medewerker jeugd op school werkt, is niet openbaar.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de intern begeleider om het aanmeldformulier van de schoolconsulent, of vraag het Sociaal Team om contact met de schoolconsulent. Noem de school van uw kind.",
-          "Heeft uw kind meer hulp nodig, dan verwijst de schoolconsulent door naar specialistische hulp.",
+          "Vraag de intern begeleider om het aanmeldformulier van de medewerker jeugd op school, of vraag het Sociaal Team om contact. Noem de school van uw kind.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -71,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Wat u bij spoed kunt doen en wie u kunt bellen, staat op de pagina van het Sociaal Team van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor wat u bij spoed rond jeugdzorg kunt doen op de pagina van het Sociaal Team van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Berg en Dal: Sociaal Team, wat te doen bij spoed",
@@ -119,12 +115,12 @@
     }
   },
   "aanbod": {
-    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente: via de schoolconsulent, de POH jeugd bij de huisarts en het aanbod in de buurt (zie Wegwijzer Berg en Dal). Specialistische jeugdhulp koopt Berg en Dal in met de andere gemeenten in Rijk van Nijmegen, via het Regionaal Ondersteuningsbureau (ROB). Daar vindt u de aanbieders met een contract. De Beschikbaarheidswijzer bevat deze regio niet, en een openbaar overzicht van wachttijden per aanbieder is niet te vinden. Volgens de gemeente zijn er ook bij aanbieders wachtlijsten. Vraag het Sociaal Team om hulp bij het kiezen.",
+    "samenvatting": "Lichte hulp krijgt u zonder besluit van de gemeente: via de medewerker jeugd op school, de POH jeugd bij de huisarts en het aanbod in de buurt (zie Wegwijzer Berg en Dal). Specialistische jeugdhulp koopt Berg en Dal in met de andere gemeenten in Rijk van Nijmegen, via het Regionaal Ondersteuningsbureau (ROB). Daar vindt u de aanbieders met een contract. De Beschikbaarheidswijzer bevat deze regio niet, en een openbaar overzicht van wachttijden per aanbieder is niet te vinden. Volgens de gemeente zijn er ook bij aanbieders wachtlijsten. Vraag het Sociaal Team om hulp bij het kiezen.",
     "gecontracteerdeAanbiedersUrl": "https://robregionijmegen.nl/gecontracteerde-aanbieders-productcodes/",
     "categorieen": [
       {
         "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Schoolconsulenten op alle basisscholen (hooguit 10 gesprekken), de POH jeugd bij de huisarts en groepsaanbod in de buurt. Hiervoor is geen besluit van de gemeente nodig.",
+        "omschrijving": "Medewerkers jeugd op alle basisscholen (hooguit 10 gesprekken), de POH jeugd bij de huisarts en groepsaanbod in de buurt. Hiervoor is geen besluit van de gemeente nodig.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -352,7 +348,7 @@
       },
       {
         "soort": "gemeenteraad",
-        "titel": "Meer lichte hulp: POH jeugd en schoolconsulenten",
+        "titel": "Meer lichte hulp: POH jeugd en medewerkers jeugd op school",
         "samenvatting": "Sinds oktober 2025 werkt een praktijkondersteuner jeugd (POH jeugd) bij de huisartsen, voor kortdurende hulp. In 2025 kreeg ongeveer 1 op de 10 kinderen jeugdhulp; eind 2028 wil de gemeente dat terugbrengen naar 1 op de 12. Daarom kijkt zij vaker eerst naar lichte hulp en naar hulp in de buurt waarvoor geen besluit nodig is.",
         "datum": "2026-06-11",
         "bron": {

@@ -4,18 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.renkum.nl/Inwoners/Jeugd_en_gezin/Groei_en_ontwikkeling/Jeugdhulp_en_opvoeden",
   "toegang": {
-    "samenvatting": "In Renkum is het Sociaal Team van de gemeente de toegang tot jeugdhulp. U belt of mailt zelf, een verwijzing is niet nodig. Het team beantwoordt vragen over opvoeden en opgroeien, kijkt eerst naar lichte hulp en regelt zo nodig specialistische hulp. In het team werkt ook een orthopedagoog (gedragsdeskundige) die gratis meedenkt over opvoeding en ontwikkeling. De huisarts, de jeugdarts en de medisch specialist mogen ook rechtstreeks naar jeugdhulp verwijzen. Bij minder dringende vragen kan het volgens de gemeente ongeveer een half jaar duren voordat het team uw vraag oppakt. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Renkum meldt u zich bij het Sociaal Team van de gemeente; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van de gemeente",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente en is er voor vragen over jeugd, zorg, werk en inkomen. Het team onderzoekt wat uw kind en uw gezin nodig hebben en zoekt eerst naar lichte hulp. Is specialistische jeugdhulp nodig, dan regelt het team een besluit (beschikking). U meldt zich zelf aan. Het team heeft ook een orthopedagoog voor vragen over opvoeding en ontwikkeling van kinderen van 0 tot 18 jaar. Die hulp is gratis.",
+        "omschrijving": "Het Sociaal Team helpt bij vragen over jeugd, zorg, werk en inkomen, zoekt eerst naar lichte hulp en regelt zo nodig specialistische hulp. In het team werkt een orthopedagoog (gedragsdeskundige) die gratis meedenkt over opvoeding en ontwikkeling van kinderen van 0 tot 18 jaar. Jongeren vanaf 16 jaar maken zelf een afspraak met de orthopedagoog.",
         "stappen": [
-          "Bel het Sociaal Team of stuur een e-mail. Wilt u liever langskomen, maak dan een afspraak of loop binnen bij een dorpsteam.",
-          "Denk vooraf na over uw vraag: waar heeft u moeite mee, wat heeft u nodig en wie in uw omgeving kan helpen?",
-          "Ga naar het eerste gesprek. Dat is bedoeld om u te informeren. Voor een aanvraag van hulp is meestal een tweede gesprek nodig. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking.",
-          "Wilt u met de orthopedagoog praten? Vraag er bij het Sociaal Team naar. Jongeren vanaf 16 jaar kunnen zelf een afspraak maken."
+          "Bel of mail het Sociaal Team, maak een afspraak of loop binnen bij een dorpsteam.",
+          "Ga naar het eerste gesprek; dat is om u te informeren. U mag iemand meenemen.",
+          "Voor een aanvraag van hulp is meestal een tweede gesprek nodig. Bij specialistische hulp krijgt u een besluit (beschikking)."
         ],
         "contact": {
           "naam": "Sociaal Team gemeente Renkum",
@@ -24,16 +22,16 @@
           "url": "https://www.renkum.nl/Contact/Openingstijden_en_contact",
           "openingstijden": "Telefonisch ma t/m vr 8.30–12.30 uur. Inloop zonder afspraak bij het dorpsteam in Doorwerth (vrijdag 9.00–12.00 uur) en in Renkum (maandag 13.00–16.00 uur)"
         },
-        "doorlooptijd": "Volgens de gemeente (september 2026) ongeveer een half jaar voor minder dringende vragen. Zaken waarbij de veiligheid in het geding is, gaan voor."
+        "doorlooptijd": "Volgens de gemeente (september 2026) duurt het bij minder dringende vragen ongeveer een half jaar voordat het team uw vraag oppakt; zaken waarbij de veiligheid in het geding is, gaan voor. Vraag bij uw aanmelding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De jeugdarts en jeugdverpleegkundige van de jeugdgezondheidszorg (JGZ) van GGD Gelderland-Midden zijn er voor kinderen van 0 tot 18 jaar: op het consultatiebureau, op school en in de wijk.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts en jeugdverpleegkundige van GGD Gelderland-Midden zijn er voor kinderen van 0 tot 18 jaar: op het consultatiebureau, op school en in de wijk.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of maak een afspraak met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of maak een afspraak met de jeugdarts of jeugdverpleegkundige.",
+          "De arts verwijst u naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -45,11 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle basisscholen werkt een schoolmaatschappelijk werker van Renkum voor Elkaar, de welzijnsorganisatie in de gemeente. Die helpt bij vragen over opvoeden. Komt u er met school niet uit? Dan geeft het Ouder- en jeugdsteunpunt Midden-Gelderland van de samenwerkingsverbanden passend onderwijs advies.",
+        "omschrijving": "Op alle basisscholen werkt een schoolmaatschappelijk werker van Renkum voor Elkaar, de welzijnsorganisatie in de gemeente. Die helpt bij vragen over opvoeden.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag school om schoolmaatschappelijk werk, of neem zelf contact op met Renkum voor Elkaar.",
-          "Is meer hulp nodig? Meld u dan aan bij het Sociaal Team.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Midden-Gelderland."
         ],
         "contact": [
@@ -90,10 +87,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Wat de gemeente adviseert bij een kind in crisis, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen hulpverlener.",
-          "Kijk op de pagina Kind in crisis: wie belt u? van de gemeente Renkum."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Renkum: Kind in crisis, wie belt u?",

@@ -5,7 +5,7 @@ aan: overig
 tips:
   - "Stuur de brief aan iedereen tegelijk. Dan weet iedereen dat de vraag ook bij hem of haar ligt."
   - "Vraag om één coördinator. Die is na het overleg uw vaste contactpersoon."
-  - "Komt er geen overleg? Gaat het om school? Dan kan de leerplichtambtenaar of een onderwijsconsulent het overleg afdwingen. Gaat het om zorg? Dan kan een cliëntondersteuner dat doen."
+  - "Komt er geen overleg? Gaat het om school? Dan kan de leerplichtambtenaar of een adviseur van Onderwijsconsulenten (onafhankelijk, van de overheid) het overleg afdwingen. Gaat het om zorg? Dan kan een cliëntondersteuner dat doen."
 bronnen:
   - titel: "Onderwijsconsulenten"
     url: https://www.onderwijsconsulenten.nl/
@@ -29,7 +29,7 @@ Daarom vraag ik u om één gezamenlijk overleg waarin wij samen afspreken:
 2. wie de coördinator is en het aanspreekpunt voor ons gezin;
 3. wanneer wij de afspraken samen evalueren.
 
-Ik stel voor het overleg binnen drie weken te houden. Ik neem [naam cliëntondersteuner, onderwijsconsulent of naaste] mee.
+Ik stel voor het overleg binnen drie weken te houden. Ik neem [naam cliëntondersteuner, adviseur van Onderwijsconsulenten of naaste] mee.
 
 Ik ontvang graag van ieder van u een reactie, zodat wij een datum kunnen vastleggen.
 

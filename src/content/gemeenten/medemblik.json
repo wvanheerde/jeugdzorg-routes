@@ -4,18 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://sociaalloket.medemblik.nl/opgroeien-en-opvoeden/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Medemblik vraagt u jeugdhulp aan bij het Team Jeugd van het Sociaal Loket. Dat zijn jeugdhulpverleners van de gemeente. U meldt zich zelf aan, online of per telefoon; een verwijzing is niet nodig. Het team bekijkt uw vraag en maakt met u een perspectiefplan: een plan met de hulp die nodig is en wat u zelf en uw omgeving kunnen doen. Het team geeft meestal zelf geen hulp, maar zoekt uit wat past. U kunt ook via de huisarts of via het schoolmaatschappelijk werk gaan. Het eerste uitgebreide gesprek (de intake) kan lang op zich laten wachten: volgens de rekenkamer in 2025 gemiddeld zeven maanden. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Medemblik meldt u zich zonder verwijzing bij het Team Jeugd van het Sociaal Loket, online of telefonisch. U kunt ook via de huisarts, de jeugdarts of het schoolmaatschappelijk werk.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van het Sociaal Loket Medemblik",
-        "omschrijving": "Het Team Jeugd werkt voor de gemeente. De jeugdhulpverleners kijken met u wat uw kind nodig heeft en wat u zelf kunt. Bij een lichte vraag krijgt u advies, of verwijst het team u naar school, het schoolmaatschappelijk werk of de jeugdgezondheidszorg. Is meer hulp nodig, dan maakt het team met u een perspectiefplan. De gemeente regelt de hulp dan met een beschikking (een besluit van de gemeente). Na uw aanmelding neemt de gemeente binnen drie werkdagen contact op. Het wachten op het eerste uitgebreide gesprek kan daarna lang duren.",
+        "omschrijving": "De jeugdhulpverleners van de gemeente kijken met u wat uw kind nodig heeft. Zelf geven ze meestal geen hulp; bij een lichte vraag krijgt u advies of verwijzen ze u naar school, het schoolmaatschappelijk werk of de jeugdgezondheidszorg. Is meer nodig, dan maakt u samen een perspectiefplan en regelt de gemeente de hulp met een beschikking (besluit).",
         "stappen": [
-          "Vul het online formulier Aanvraag jeugdhulp in. Of bel het Sociaal Loket en kies voor jeugdhulp.",
-          "Bespreek uw vraag met de jeugdhulpverlener die u terugbelt. Vraag hoe lang het duurt tot het eerste uitgebreide gesprek.",
-          "Maak een afspraak voor een huisbezoek als meer onderzoek nodig is. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen het perspectiefplan. Daarin staan uw hulpvraag, wat u wilt bereiken en wat u zelf kunt doen.",
-          "Vraag om een kopie van het verslag en het plan. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit en een verwijzing naar een aanbieder met een contract."
+          "Vul het online formulier Aanvraag jeugdhulp in, of bel het Sociaal Loket en kies voor jeugdhulp.",
+          "Een jeugdhulpverlener belt u terug. Is meer onderzoek nodig, dan volgt een huisbezoek. U mag iemand meenemen.",
+          "Maak samen het perspectiefplan: uw hulpvraag, wat u wilt bereiken en wat u zelf kunt doen. Bij specialistische hulp krijgt u een schriftelijk besluit en een verwijzing naar een aanbieder met een contract."
         ],
         "contact": {
           "naam": "Sociaal Loket Medemblik (Team Jeugd)",
@@ -26,16 +24,16 @@
           "adres": "Dick Ketlaan 21, Wognum",
           "openingstijden": "Telefonisch ma t/m do 8.30–17.00 uur, vr 8.30–14.00 uur. Berichten via WhatsApp 06 82 07 66 83 (niet bellen); antwoord binnen 1 werkdag"
         },
-        "doorlooptijd": "De gemeente neemt binnen drie werkdagen na uw aanmelding contact op. Op de intake wachtte u in 2025 gemiddeld zeven maanden, volgens de rekenkamer. Het besluit volgt uiterlijk acht weken na uw aanvraag."
+        "doorlooptijd": "De gemeente neemt binnen drie werkdagen contact op, maar op het eerste uitgebreide gesprek (intake) wachtte u in 2025 gemiddeld zeven maanden, volgens de rekenkamer. Het besluit volgt uiterlijk acht weken na uw aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks doorsturen naar jeugdhulp van de gemeente. Dat is een gelijkwaardige route naast het Team Jeugd. In Medemblik begint ruim de helft van de hulp via deze route.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Medemblik begint ruim de helft van de hulp via deze route.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg (JGZ).",
-          "Laat de arts verwijzen naar een aanbieder met een contract bij de gemeente.",
-          "Vraag de aanbieder naar het plan voor de hulp. De aanbieder meldt de hulp zelf bij de gemeente; u hoeft geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst naar een aanbieder met een contract bij de gemeente.",
+          "Vraag de aanbieder naar het plan voor de hulp. De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -47,12 +45,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke basisschool in Medemblik en SG De Dijk hebben een schoolmaatschappelijk werker van de gemeente. Die helpt gratis en kort, bijvoorbeeld bij somberheid, een scheiding of problemen met andere kinderen. Is meer nodig, dan regelt de werker andere hulp. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van Passend onderwijs West-Friesland.",
+        "omschrijving": "Elke basisschool in Medemblik en SG De Dijk heeft een schoolmaatschappelijk werker van de gemeente. Die helpt gratis en kort, bijvoorbeeld bij somberheid, een scheiding of problemen met andere kinderen, en regelt zo nodig andere hulp.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag via school om contact met de schoolmaatschappelijk werker. Of meld uw kind aan bij het Sociaal Loket.",
-          "Laat de schoolmaatschappelijk werker of het Team Jeugd andere hulp inschakelen als dat nodig is.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt als u er met school niet uitkomt."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar de schoolmaatschappelijk werker.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van Passend onderwijs West-Friesland."
         ],
         "contact": [
           {
@@ -75,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van het Sociaal Loket.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de meldpunten in Medemblik op de pagina Melden dat u zich zorgen maakt van het Sociaal Loket."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Sociaal Loket Medemblik: melden dat u zich zorgen maakt",

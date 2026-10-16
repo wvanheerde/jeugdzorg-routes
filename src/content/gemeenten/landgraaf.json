@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.landgraaf.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Landgraaf meldt u zich voor jeugdhulp bij Team Jeugd van de gemeente. U mag zelf bellen, een verwijzing is niet nodig. De hulp zelf geeft vaak JENS, een samenwerking van vijf zorgorganisaties voor Landgraaf, Heerlen en Voerendaal. Het eerste gesprek over uw vraag voert vaak ook JENS. Voor zwaardere hulp koopt Landgraaf in met de andere gemeenten in Zuid-Limburg. De huisarts, jeugdarts en medisch specialist mogen ook verwijzen. Volgens de gemeente heeft Team Jeugd nu geen wachtlijst. Bij JENS hoort een deel van de ouders pas na meer dan vier weken dat de hulp start. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Landgraaf meldt u zich voor jeugdhulp bij Team Jeugd van de gemeente; de hulp zelf geeft vaak JENS. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente, met JENS",
-        "omschrijving": "Team Jeugd is het toegangsteam van de gemeente Landgraaf voor jeugdhulp. U kunt zelf bellen of het meldformulier invullen, een verwijzing is niet nodig. JENS geeft voor Landgraaf, Heerlen en Voerendaal de lichte hulp en de hulp thuis, op school of in de wijk. Ook JENS praat met u over uw hulpvraag en kijkt welke hulp past. Voor hulp die JENS niet zelf biedt, zoals verblijf of crisishulp, werkt de gemeente samen met de andere gemeenten in Zuid-Limburg.",
+        "omschrijving": "Team Jeugd is het toegangsteam van de gemeente. JENS, een samenwerking van vijf zorgorganisaties voor Landgraaf, Heerlen en Voerendaal, geeft lichte hulp en hulp thuis, op school of in de wijk, en voert vaak ook het eerste gesprek. Zwaardere hulp, zoals verblijf of crisishulp, regelt de gemeente samen met de andere gemeenten in Zuid-Limburg.",
         "stappen": [
-          "Bel Team Jeugd, of vul het formulier Melding jeugdhulp van de gemeente in en stuur het op.",
-          "Vertel wat er speelt. Team Jeugd of JENS maakt een afspraak voor een gesprek over uw hulpvraag.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE Zuid-Limburg.",
-          "Vraag na het gesprek om een schriftelijk verslag. Volgens de regels van de gemeente krijgt u dat binnen vijf werkdagen.",
-          "Bespreek wat voor hulp past en vraag wanneer de hulp kan starten."
+          "Bel Team Jeugd, of vul het formulier Melding jeugdhulp in.",
+          "Vertel wat er speelt. Team Jeugd of JENS maakt een afspraak voor een gesprek. U mag iemand meenemen.",
+          "Vraag om het verslag van het gesprek (binnen vijf werkdagen) en wanneer de hulp kan starten."
         ],
         "contact": [
           {
@@ -35,16 +33,16 @@
             "openingstijden": "Telefonisch ma t/m vr 9.00–16.30 uur"
           }
         ],
-        "doorlooptijd": "Volgens de regels van de gemeente (Verordening jeugdhulp) onderzoekt de gemeente uw hulpvraag binnen zes weken na uw melding. Dat is een termijn, geen gemeten wachttijd."
+        "doorlooptijd": "De gemeente onderzoekt uw vraag binnen zes weken na uw melding. Hoe lang het daarna duurt voordat de hulp start, verschilt; vraag bij uw aanmelding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dat is een gelijkwaardige route naast Team Jeugd. Artsen kunnen ook rechtstreeks naar JENS verwijzen. In Landgraaf start maar een klein deel van de jeugdhulp via de huisarts.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar JENS of naar een aanbieder met een contract bij de gemeente. In Landgraaf start maar een klein deel van de jeugdhulp via de huisarts.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar JENS of naar een aanbieder met een contract bij de gemeente.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar JENS of naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -65,11 +63,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle scholen in Landgraaf is volgens de gemeente hulp van JENS, zonder aanvraag bij de gemeente. Komt u er met school niet uit over passend onderwijs? Dan kunt u terecht bij het ouder- en jeugdsteunpunt van het samenwerkingsverband. Voor basisonderwijs en voortgezet onderwijs zijn er twee verschillende steunpunten.",
+        "omschrijving": "Op alle scholen in Landgraaf is volgens de gemeente hulp van JENS, zonder aanvraag bij de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school naar de hulp van JENS op school, of meld u zelf aan bij Team Jeugd.",
-          "Vraag advies bij het ouder- en jeugdsteunpunt als u er met school niet uitkomt. Kies het steunpunt voor basisonderwijs of voortgezet onderwijs."
+          "Vraag school naar de hulp van JENS op school.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt; er is er een voor het basisonderwijs en een voor het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -101,10 +99,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis, buiten de gewone route om. Op de pagina Noodnummers van de gemeente staat welke crisisdiensten er zijn voor kinderen en jongeren, ook buiten kantooruren.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisishulp voor jeugd op de pagina Noodnummers van de gemeente Landgraaf."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Landgraaf: noodnummers",
@@ -333,7 +330,7 @@
     "laatstBijgewerkt": "2026-10-12"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Landgraaf: Jeugdhulp",

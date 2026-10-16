@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Holland Rijnland",
   "websiteJeugd": "https://www.kaagenbraassem.nl/Inwoners_en_ondernemers/Jeugd_en_onderwijs/Zorg_voor_jeugd/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Kaag en Braassem kunt u op twee plekken terecht. Heeft u een vraag over opvoeden of opgroeien, dan helpt het Centrum voor Jeugd en Gezin (CJG) u gratis en zonder verwijzing. Heeft uw kind meer hulp nodig, dan meldt u zich bij het Jeugd- en gezinsteam (JGT). Dat team werkt in opdracht van de gemeente. De medewerkers zijn in dienst van de organisatie Cardea. U kunt zich zelf aanmelden, bijvoorbeeld met het online aanmeldformulier. Het JGT beoordeelt aanvragen voor specialistische hulp en pgb (persoonsgebonden budget). Het biedt ook zelf hulp thuis en op basisscholen. Ook de huisarts mag rechtstreeks verwijzen. Er is soms een korte wachttijd voor een eerste gesprek en voor hulp. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Kaag en Braassem kunt u met vragen over opvoeden gratis terecht bij het Centrum voor Jeugd en Gezin (CJG). Heeft uw kind meer hulp nodig, dan meldt u zich zelf bij het Jeugd- en gezinsteam (JGT) of gaat u via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugd- en gezinsteam (JGT) en CJG Kaag en Braassem",
-        "omschrijving": "Het JGT is het toegangsteam van de gemeente voor jeugdhulp. Het beoordeelt of uw kind specialistische hulp krijgt, regelt pgb-aanvragen en biedt zelf hulp, ook op basisscholen. U meldt zich zelf aan, een verwijzing is niet nodig. Voor vragen over opvoeden en opgroeien en voor lichte hulp kunt u terecht bij het CJG. Het CJG geeft direct advies bij eenvoudige vragen.",
+        "omschrijving": "Het JGT werkt in opdracht van de gemeente; de medewerkers zijn in dienst van Cardea. Het biedt zelf hulp, thuis en op basisscholen, en beoordeelt aanvragen voor specialistische hulp en pgb (persoonsgebonden budget). Het CJG geeft direct advies bij eenvoudige vragen en lichte hulp.",
         "stappen": [
-          "Neem contact op met het JGT of meld uw kind aan met het online aanmeldformulier.",
-          "Wacht op contact van een medewerker voor een gesprek. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner of een Meedenker.",
-          "Bespreek of het JGT zelf hulp biedt of specialistische jeugdhulp regelt bij een aanbieder die de regio heeft ingekocht. Vraag om een schriftelijk verslag. Bij specialistische hulp of een pgb vraagt u ook om een beschikking (schriftelijk besluit).",
-          "Liever eerst advies over opvoeden of opgroeien? Bel het CJG."
+          "Neem contact op met het JGT of meld uw kind aan met het online formulier. Liever eerst advies? Bel het CJG.",
+          "Een medewerker neemt contact op voor een gesprek. U mag iemand meenemen.",
+          "Bespreek of het JGT zelf helpt of specialistische hulp regelt. Bij specialistische hulp of een pgb krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": [
           {
@@ -30,16 +29,16 @@
             "adres": "Schoolbaan 2b, 2371 VJ Roelofarendsveen",
             "openingstijden": "Telefonisch ma t/m vr 8.00–16.00 uur. Advies van een jeugdverpleegkundige: ma t/m vr 8.30–12.30 uur (kies 1 in het keuzemenu)"
           }
-        ]
+        ],
+        "doorlooptijd": "Er is soms een korte wachttijd voor een eerste gesprek en voor hulp. Vraag bij uw aanmelding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio Holland Rijnland heeft ingekocht. Dit is een gelijkwaardige route naast het JGT. De jeugdarts werkt bij de jeugdgezondheidszorg van het CJG.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de regio Holland Rijnland heeft ingekocht. De jeugdarts werkt bij de jeugdgezondheidszorg van het CJG.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het CJG.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de regio.",
-          "Meld uw kind met de verwijzing aan bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
+          "Meld uw kind met de verwijzing aan bij een aanbieder met een contract. De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Kaag en Braassem",
@@ -52,11 +51,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen biedt het JGT kortdurende hulp. Bij zorgen over leren of gedrag kan de school met u meedenken en het JGT inschakelen. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Vraag de school welk samenwerkingsverband bij uw school hoort.",
+        "omschrijving": "Op de basisscholen biedt het JGT kortdurende hulp. Bij zorgen over leren of gedrag kan school met u meedenken en het JGT inschakelen.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het JGT kan inschakelen. U kunt zich ook zelf aanmelden bij het JGT.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of school het JGT inschakelt.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband. School weet welk samenwerkingsverband erbij hoort."
         ],
         "contact": [
           {
@@ -81,10 +79,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De landelijke nummers staan hieronder. Bij kindermishandeling of huiselijk geweld staat meer informatie op de pagina Veilig Thuis van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor kindermishandeling en huiselijk geweld op de pagina Veilig Thuis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Kaag en Braassem: Veilig Thuis (kindermishandeling en huiselijk geweld)",

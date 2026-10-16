@@ -4,18 +4,16 @@
   "provincie": "Utrecht",
   "websiteJeugd": "https://www.bunnik.nl/zorg-onderwijs-en-inkomen/opvoeden-en-onderwijs/opvoedondersteuning-en-jeugdhulp",
   "toegang": {
-    "samenvatting": "In Bunnik is het Centrum voor Elkaar (CvE) de plek voor vragen over opvoeden en opgroeien. Het CvE is het team van de gemeente. U neemt zelf contact op; een verwijzing is niet nodig. De medewerkers jeugd geven eerst advies en wijzen op lichte hulp in uw omgeving. Is er meer nodig, dan onderzoekt een medewerker jeugd met u of zwaardere jeugdhulp past. Volgens de verordening rondt het CvE dat onderzoek af binnen zes weken. Ook de huisarts mag rechtstreeks verwijzen. Het CvE is op vier ochtenden twee uur telefonisch bereikbaar. Hoe lang het in de praktijk duurt voor u een afspraak krijgt, is niet openbaar te vinden. Vraag dat bij uw eerste contact.",
+    "samenvatting": "In Bunnik meldt u zich bij het Centrum voor Elkaar (CvE), het team van de gemeente voor Bunnik, Odijk en Werkhoven. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Elkaar (CvE) van de gemeente",
-        "omschrijving": "Het CvE is het lokale team van de gemeente Bunnik, voor Bunnik, Odijk en Werkhoven. De medewerkers jeugd geven tips en advies en wijzen op lichte hulp, bijvoorbeeld in uw eigen netwerk of bij lokale initiatieven. Is meer nodig, dan beoordeelt de medewerker jeugd of zwaardere jeugdhulp past. Het CvE regelt dan de beschikking (het besluit van de gemeente). U meldt zich zelf aan; een verwijzing is niet nodig.",
+        "omschrijving": "De medewerkers jeugd geven advies en wijzen op lichte hulp in uw omgeving. Is meer nodig, dan onderzoekt een medewerker jeugd met u of zwaardere jeugdhulp past. Het CvE regelt dan het besluit van de gemeente (beschikking).",
         "stappen": [
-          "Bel het Centrum voor Elkaar of stuur een e-mail en vertel waar u zich zorgen over maakt.",
-          "Bereid het gesprek voor, bijvoorbeeld met het persoonlijk plan dat de gemeente op de website aanbiedt. U mag iemand meenemen, zoals een onafhankelijke cliëntondersteuner.",
-          "Bespreek met de medewerker jeugd welke hulp past: in uw netwerk, lichte hulp in de buurt of specialistische jeugdhulp.",
-          "Vraag na het gesprek om het schriftelijke verslag. Dat krijgt u volgens de verordening binnen tien werkdagen.",
-          "Bewaar het schriftelijke besluit als u zwaardere hulp krijgt. U heeft het nodig als u bezwaar wilt maken."
+          "Bel of mail het CvE en vertel waar u zich zorgen over maakt. Telefonisch is het CvE op vier ochtenden twee uur bereikbaar.",
+          "Bereid het gesprek voor, bijvoorbeeld met het persoonlijk plan op de website van de gemeente. U mag iemand meenemen.",
+          "Bespreek met de medewerker jeugd welke hulp past. Het schriftelijke verslag krijgt u volgens de verordening binnen tien werkdagen."
         ],
         "contact": {
           "naam": "Centrum voor Elkaar (CvE) Bunnik",
@@ -23,17 +21,17 @@
           "email": "centrumvoorelkaar@bunnik.nl",
           "url": "https://www.bunnik.nl/zorg-onderwijs-en-inkomen/centrum-voor-elkaar",
           "openingstijden": "Telefonisch ma, wo, do en vr 9.00–11.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de verordening rondt het CvE het onderzoek af binnen zes weken. Hoe lang het in de praktijk duurt tot een afspraak, is niet openbaar; vraag het bij uw eerste contact."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CvE. De gemeente werkt aan een vaste schakel tussen het CvE en de huisartsen (de praktijkondersteuner jeugd).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Kiest u een aanbieder zonder contract met de gemeente, vraag dat dan vooraf aan het CvE; anders vergoedt de gemeente de hulp meestal niet.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder of vraagt het CvE mee te denken.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen.",
-          "Wilt u naar een aanbieder zonder contract met de gemeente? Vraag dat vooraf aan het CvE, anders vergoedt de gemeente de hulp meestal niet."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst u naar een aanbieder met een contract, of vraagt het CvE mee te denken.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -45,12 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft uw kind op school extra hulp nodig, begin dan bij de leerkracht of mentor en de intern begeleider. Komt u er met school niet uit, dan geeft het Ouder- en Jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs gratis advies. Voor hulp buiten school kunt u bij het CvE terecht.",
+        "omschrijving": "Heeft uw kind op school extra hulp nodig, begin dan bij de leerkracht of mentor en de intern begeleider.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school wat zij al doen en wat er in het ondersteuningsplan van uw kind staat.",
-          "Komt u er niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt Zuid-Oost Utrecht.",
-          "Is ook hulp buiten school nodig? Meld u aan bij het Centrum voor Elkaar."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag wat er in het ondersteuningsplan van uw kind staat.",
+          "Komt u er met school niet uit? Vraag gratis advies bij het Ouder- en Jeugdsteunpunt Zuid-Oost Utrecht."
         ],
         "contact": [
           {
@@ -70,10 +66,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de jeugdhulppagina van de gemeente staat informatie over Veilig Thuis Utrecht.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de jeugdhulppagina van de gemeente wat Veilig Thuis Utrecht voor u kan doen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": [
           {

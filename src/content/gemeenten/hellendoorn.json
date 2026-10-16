@@ -4,18 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.hellendoorn.nl/direct-regelen/zorg-en-welzijn/jeugd-en-gezin/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Hellendoorn kunt u op drie plekken beginnen. Voor advies over opvoeden en opgroeien gaat u zonder verwijzing naar Loes of het consultatiebureau. Is meer nodig, dan meldt u zich bij de gemeente. Een medewerker jeugd (medewerker van de gemeente) bespreekt met u wat er speelt. De medewerker jeugd maakt een ondersteuningsplan en neemt het besluit over de hulp. Jongeren mogen zich ook zelf melden. U kunt ook naar de huisarts: die mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd. In 2025 duurde het volgens de gemeente gemiddeld 62 dagen van melding tot besluit. Vraag bij uw melding hoe lang het bij u duurt.",
+    "samenvatting": "In Hellendoorn gaat u voor advies over opvoeden zonder verwijzing naar Loes of het consultatiebureau; is meer nodig, dan meldt u zich bij de medewerkers jeugd van de gemeente. U kunt ook via de huisarts of school, en jongeren mogen zich zelf melden.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente, met Loes",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij beoordelen of uw kind jeugdhulp krijgt, maken met u een ondersteuningsplan en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Heeft u alleen een vraag over opvoeden? Dan geeft Loes advies, zonder dat de gemeente erbij komt.",
+        "omschrijving": "Heeft u alleen een vraag over opvoeden, dan geeft Loes advies, zonder dat de gemeente erbij komt. Is meer nodig, dan beoordeelt een medewerker jeugd van de gemeente of uw kind jeugdhulp krijgt en maakt met u een ondersteuningsplan. De gemeente neemt alleen contact op met school of een zorgverlener als u toestemming geeft.",
         "stappen": [
-          "Bel Loes of stel uw vraag online als u een vraag over opvoeden heeft. Kan Loes u helpen, dan hoeft u niet naar de gemeente.",
-          "Meld u bij de gemeente als dat niet genoeg is. Gebruik het online formulier op de pagina Jeugdhulp, of bel de gemeente.",
-          "Ga in gesprek met de medewerker jeugd, die een afspraak met u maakt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Reken soms op meer dan één gesprek. De gemeente neemt alleen contact op met school of een zorgverlener als u daarvoor toestemming geeft.",
-          "Lees het ondersteuningsplan goed. U krijgt het samen met het schriftelijke besluit over uw aanvraag."
+          "Bel Loes of stel uw vraag online.",
+          "Is dat niet genoeg? Meld u bij de gemeente via het formulier op de pagina Jeugdhulp, of bel.",
+          "Ga in gesprek met de medewerker jeugd; soms zijn meer gesprekken nodig. U mag iemand meenemen. U krijgt het ondersteuningsplan met het schriftelijke besluit."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "url": "https://www.loes.nl/contact/hellendoorn",
             "openingstijden": "Telefonisch ma t/m vr 9.00–12.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "In 2025 duurde het volgens de gemeente gemiddeld 62 dagen van melding tot besluit. Vraag bij uw melding hoe lang het bij u duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp waarvoor de gemeente een contract heeft. Dit is een gelijkwaardige route naast de medewerkers jeugd. Bij veel huisartsen werkt een praktijkondersteuner jeugd voor lichtere vragen. Jeugdartsen werken bij de jeugdgezondheidszorg van de GGD Twente (het consultatiebureau).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd voor lichtere vragen. Jeugdartsen werken bij de jeugdgezondheidszorg van GGD Twente (het consultatiebureau).",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag wat de huisarts adviseert. De huisarts kan u eerst naar de praktijkondersteuner jeugd sturen, of direct verwijzen naar een aanbieder met een contract.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts stuurt u naar de praktijkondersteuner jeugd, of verwijst u naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -51,12 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft u zorgen over leren, gedrag of schoolgang? Begin bij de leerkracht, mentor of intern begeleider. Op basisscholen werkt een schoolzorgondersteuner, in het voortgezet onderwijs een schoolmaatschappelijk werker. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op basisscholen werkt een schoolzorgondersteuner, in het voortgezet onderwijs een schoolmaatschappelijk werker.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Bespreek zorgen over leren, gedrag of schoolgang met de leerkracht, mentor of intern begeleider.",
           "Vraag of de schoolzorgondersteuner of schoolmaatschappelijk werker kan meedenken.",
-          "Meld u bij de medewerkers jeugd van de gemeente als meer hulp nodig is.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt als u er met school niet uitkomt. Voor de basisschool is dat Twente Noord, voor het voortgezet onderwijs Twente West."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt: Twente Noord voor de basisschool, Twente West voor het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -83,10 +81,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat waar u een zorg over een onveilige situatie van een kind kunt melden.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over kindermishandeling en huiselijk geweld waar u een zorg kunt melden."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Hellendoorn: kindermishandeling, huiselijk geweld en mensenhandel",

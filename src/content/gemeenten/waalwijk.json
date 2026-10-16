@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Hart van Brabant",
   "websiteJeugd": "https://www.waalwijzer.nl/jeugd-en-jongeren",
   "toegang": {
-    "samenvatting": "In Waalwijk is Team WijZ de toegang tot jeugdhulp. WijZ staat voor Welzijn, Inkomen, Jeugd en Zorg. Het team hoort bij de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Eerst kijkt het team met u wat u zelf, met uw netwerk of met lichte hulp kunt oplossen. Is er meer nodig, dan komt een medewerker bij u thuis en maakt u samen een plan. Ook de huisarts mag rechtstreeks verwijzen, behalve naar hoog specialistische hulp. Op school helpt een schoolmaatschappelijk ondersteuner. Hoe lang het duurt voordat u een besluit hebt, is niet openbaar te vinden. Vraag dat bij uw eerste gesprek.",
+    "samenvatting": "In Waalwijk meldt u zich bij Team WijZ (Welzijn, Inkomen, Jeugd en Zorg) van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team WijZ (zorgloket van de gemeente)",
-        "omschrijving": "Team WijZ beoordeelt of uw kind jeugdhulp krijgt en regelt de hulp. De medewerkers geven ook informatie en advies. U meldt zich zelf aan. Kunt u zelf geen antwoord vinden, dan helpt het team. Lichte hulp krijgt u zonder besluit van de gemeente. Voor specialistische hulp krijgt u een schriftelijk besluit (beschikking).",
+        "omschrijving": "Team WijZ geeft informatie en advies, beoordeelt of uw kind jeugdhulp krijgt en regelt de hulp. Lichte hulp krijgt u zonder besluit; voor specialistische hulp krijgt u een schriftelijk besluit (beschikking). Antwoorden en lichte hulp vindt u ook op Waalwijzer.nl onder Jeugd en jongeren.",
         "stappen": [
-          "Zoek eerst op Waalwijzer.nl onder Jeugd en jongeren. Daar staan antwoorden en lichte hulp.",
-          "Komt u er niet uit? Vul het contactformulier van Team WijZ in of bel het team. Een medewerker belt u binnen twee werkdagen terug.",
-          "Is meer ondersteuning nodig? Dan komt een medewerker bij u thuis voor een keukentafelgesprek. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner van ContourdeTwern.",
-          "Maak na het gesprek samen een plan. Vraag om een schriftelijk verslag.",
-          "Vraagt u specialistische hulp aan? Dan beslist de gemeente binnen acht weken na uw aanvraag. Vraag om het besluit op papier."
+          "Vul het contactformulier van Team WijZ in of bel het team.",
+          "Is meer ondersteuning nodig, dan komt een medewerker bij u thuis voor een keukentafelgesprek. U mag iemand meenemen.",
+          "Maak samen een plan. Vraag zo nodig specialistische hulp aan; u krijgt het besluit op papier."
         ],
         "contact": [
           {
@@ -33,16 +31,17 @@
             "url": "https://www.waalwijzer.nl/onafhankelijke-clientondersteuning",
             "openingstijden": "Telefonisch ma t/m vr 9.00–12.00 uur, woensdag 9.00–20.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Een medewerker belt u binnen twee werkdagen terug. Vraagt u specialistische hulp aan, dan beslist de gemeente binnen acht weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Voor hoog specialistische hulp moeten zij u verwijzen naar Team WijZ. Ook een pgb (persoonsgebonden budget) kan de huisarts niet voor u regelen. Dat gaat via Team WijZ.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Voor hoog specialistische hulp en voor een pgb (persoonsgebonden budget) verwijzen zij u naar Team WijZ.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder met wie de gemeente een contract heeft. Is hoog specialistische hulp nodig, dan verwijst de arts u naar Team WijZ.",
-          "Wilt u een besluit van de gemeente op papier? Vraag dat bij Team WijZ."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -62,12 +61,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op basisscholen en middelbare scholen in Waalwijk werken schoolmaatschappelijk ondersteuners van de gemeente. Zij zijn op vaste dagen op school en voeren gesprekken met kind en ouders. Die hulp is gratis. Op de basisschool meldt u zich aan via school. Op de middelbare school meldt de mentor de leerling aan via de zorgcoördinator.",
+        "omschrijving": "Op basisscholen en middelbare scholen in Waalwijk werken schoolmaatschappelijk ondersteuners van de gemeente. Zij zijn op vaste dagen op school en voeren gratis gesprekken met kind en ouders.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of de begeleider op school.",
-          "Vraag om aanmelding bij de schoolmaatschappelijk ondersteuner. Op de middelbare school loopt dit via de mentor en de zorgcoördinator.",
-          "Is meer hulp nodig? Meld u dan bij Team WijZ. Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
-          "Wilt u iemand meenemen naar een gesprek op school? Vraag een onafhankelijke cliëntondersteuner van ContourdeTwern."
+          "Bespreek uw zorgen met de leerkracht, mentor of begeleider op school.",
+          "Vraag om aanmelding bij de schoolmaatschappelijk ondersteuner. Op de middelbare school loopt dat via de mentor en de zorgcoördinator.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
           {
@@ -95,10 +93,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder in Waalwijk zijn, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst in Waalwijk op de pagina Crisis interventieteam van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Waalwijk: crisis interventieteam (CIT)",

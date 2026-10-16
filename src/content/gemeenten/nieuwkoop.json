@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.nieuwkoop.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Nieuwkoop is het Centrum voor Jeugd en Gezin (CJG) het eerste aanspreekpunt. Voor vragen over opgroeien en opvoeden belt u het CJG, zonder verwijzing. Heeft uw kind meer hulp nodig, dan meldt u zich aan bij het Jeugd- en Gezinsteam (JGt) Nieuwkoop. Dat team werkt voor de gemeente, de medewerkers komen van jeugdhulporganisatie Cardea. U meldt zich zelf aan, online of telefonisch. Ook de huisarts mag rechtstreeks verwijzen. Volgens de gemeente is de wachttijd bij het JGt opgelopen. Hoe lang het nu duurt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Nieuwkoop belt u met vragen over opvoeden en opgroeien het Centrum voor Jeugd en Gezin (CJG); heeft uw kind meer hulp nodig, dan meldt u zich bij het Jeugd- en Gezinsteam (JGt). U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugd- en Gezinsteam (JGt) Nieuwkoop, met het CJG",
-        "omschrijving": "Het JGt is het lokale team voor jeugdhulp. Het zit bij het CJG en de medewerkers komen van Cardea. U meldt zich zelf aan, een verwijzing is niet nodig. Een jeugd- en gezinswerker bespreekt uw vraag met u. Samen maakt u een plan, en u krijgt een vaste contactpersoon. Sinds 1 september 2026 krijgt u bij elke aanvraag voor jeugdhulp een beschikking (een schriftelijk besluit van de gemeente). Het CJG geeft gratis advies over opvoeden en lichte hulp, zoals cursussen.",
+        "omschrijving": "Het JGt werkt voor de gemeente; de medewerkers komen van jeugdhulporganisatie Cardea. Een jeugd- en gezinswerker maakt samen met u een plan en is uw vaste contactpersoon. Sinds 1 september 2026 krijgt u bij elke aanvraag voor jeugdhulp een beschikking (schriftelijk besluit van de gemeente).",
         "stappen": [
-          "Meld u aan bij het JGt via de aanmeldwebsite, of bel het JGt.",
-          "Bespreek uw vraag met de jeugd- en gezinswerker. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag hoe lang het duurt voordat het team uw aanmelding oppakt. Volgens de gemeente is er een wachttijd.",
-          "Maak samen een plan. Vraag om een schriftelijk verslag, en om de beschikking als er jeugdhulp wordt aangevraagd.",
-          "Wilt u eerst advies over opvoeden of opgroeien? Bel dan het CJG."
+          "Wilt u eerst advies? Bel het CJG; dat geeft gratis advies over opvoeden en lichte hulp, zoals cursussen.",
+          "Meld u aan bij het JGt via de aanmeldwebsite of telefonisch.",
+          "Bespreek uw vraag met de jeugd- en gezinswerker en maak samen een plan. U mag iemand meenemen."
         ],
         "contact": [
           {
@@ -32,16 +30,17 @@
             "adres": "De Verbinding 1, Nieuwkoop, en Beverlanderhof 28, Ter Aar",
             "openingstijden": "Telefonisch ma t/m vr 8.00–16.00 uur. Advies van een jeugdverpleegkundige: ma t/m vr 8.30–12.30 uur (kies 1 in het keuzemenu)"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens de gemeente is de wachttijd bij het JGt opgelopen; hoe lang het nu duurt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het JGt. De huisartsen in Nieuwkoop werken met het JGt aan hulp in groepjes voor kinderen met druk gedrag en concentratieproblemen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De huisartsen in Nieuwkoop werken met het JGt aan hulp in groepjes voor kinderen met druk gedrag en concentratieproblemen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar het JGt.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar het JGt.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg (CJG Nieuwkoop, Hecht GGD Hollands Midden)",
@@ -53,12 +52,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Komt u er met school niet uit, dan kunt u terecht bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het basisonderwijs is dat samenwerkingsverband Rijnstreek, voor het voortgezet onderwijs Midden-Holland en Rijnstreek. Gaat het om meer dan school, dan helpt het JGt.",
+        "omschrijving": "Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband: Rijnstreek voor het basisonderwijs, Midden-Holland en Rijnstreek voor het voortgezet onderwijs. Gaat het om meer dan school, dan helpt het JGt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school wat zij zelf kan doen en schrijf de afspraken op.",
-          "Komt u er niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Is er ook hulp thuis of buiten school nodig? Meld u aan bij het JGt."
+          "Komt u er niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -86,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er verder zijn, staat op de pagina Jeugdhulp van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de lokale crisisdienst op de pagina Jeugdhulp van de gemeente, onder Dringend hulp nodig (crisis)."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Nieuwkoop: jeugdhulp, dringend hulp nodig (crisis)",

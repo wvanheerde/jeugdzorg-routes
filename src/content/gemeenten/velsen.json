@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Zuid-Kennemerland en IJmond",
   "websiteJeugd": "https://www.velsen.nl/centrum-voor-jeugd-en-gezin-cjg",
   "toegang": {
-    "samenvatting": "In Velsen vraagt u jeugdhulp aan bij het Centrum voor Jeugd en Gezin (CJG) Kennemerland. Velsen heeft daar een eigen team van CJG-coaches, met een kantoor in het gemeentehuis in IJmuiden. De CJG-coach bespreekt met u wat er speelt en wat u en uw netwerk zelf kunnen. Daarna beslist het CJG namens de gemeente of u specialistische hulp krijgt. Op elke school zit een CJG-coach in het kernteam van de school. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Het CJG meldt dat de wachttijd bij sommige teams is opgelopen, ook in Velsen. Voor vragen van volwassenen, zoals over geld, wonen of zorg, is er het Sociaal Wijkteam Velsen.",
+    "samenvatting": "In Velsen meldt u zich bij het team Velsen van het Centrum voor Jeugd en Gezin (CJG) Kennemerland, met een kantoor in het gemeentehuis in IJmuiden. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG Kennemerland, team Velsen",
-        "omschrijving": "Het CJG geeft informatie en advies en begeleidt gezinnen met coaching. Is specialistische jeugdhulp nodig, dan beslist het CJG namens de gemeente. Dat besluit heet een beschikking. U kunt zelf bellen, mailen of een vraag stellen via de website, ook anoniem. Soms kan het team niet meteen starten en komt uw gezin op een wachtlijst. Een medewerker van het CJG (de wachtlijstbeheerder) houdt dan contact met u.",
+        "omschrijving": "Een CJG-coach geeft informatie, advies en begeleiding. Is specialistische jeugdhulp nodig, dan beslist het CJG namens de gemeente; dat besluit heet een beschikking. Voor vragen van volwassenen, zoals over geld of wonen, is er het Sociaal Wijkteam Velsen.",
         "stappen": [
-          "Bel of mail het CJG IJmond. U kunt ook het formulier op cjgkennemerland.nl gebruiken.",
-          "Vertel wat er speelt en wat u wilt bereiken. Bekijk samen met de CJG-coach welke mensen en welke hulp in de buurt kunnen helpen.",
-          "Vraag om een beschikking als specialistische hulp nodig is. Daarin staat welke hulp u krijgt. Start niet met hulp voordat u dat besluit hebt: kosten van vóór het besluit worden niet vergoed.",
-          "Vraag om een schriftelijk verslag en om een datum waarop de hulp kan starten. Staat uw gezin op een wachtlijst, vraag dan wat het CJG in de tussentijd kan doen."
+          "Bel of mail het CJG, of gebruik het formulier op de website. Dat mag ook anoniem.",
+          "Vertel de CJG-coach wat er speelt en wat u wilt bereiken. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, vraag dan om een beschikking. Start niet met hulp voor u dat besluit heeft: kosten van daarvoor worden niet vergoed."
         ],
         "contact": {
           "naam": "CJG Kennemerland, gebiedsteam IJmond (team Velsen)",
@@ -23,16 +22,17 @@
           "email": "info@cjgijmond.nl",
           "url": "https://cjgkennemerland.nl/informatie-advies/",
           "adres": "Dudokplein 1 (gemeentehuis), 1971 EN IJmuiden"
-        }
+        },
+        "doorlooptijd": "Het CJG meldt dat de wachttijd bij sommige teams is opgelopen, ook in Velsen. Komt uw gezin op een wachtlijst, dan houdt een wachtlijstbeheerder contact met u; vraag wat het CJG in de tussentijd kan doen."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar een aanbieder waarmee de regio een contract heeft. Bij veel huisartsen in Velsen werkt een praktijkondersteuner jeugd-ggz (poh jeugd). Die geeft lichte hulp en kan sneller de juiste hulp zoeken. In Velsen start ruim de helft van de jeugdhulptrajecten via een arts. Voor een jeugdarts gaat u naar de jeugdgezondheidszorg: tot 4 jaar naar het consultatiebureau van Jeugdgezondheidszorg Kennemerland, daarna naar de jeugdgezondheidszorg van GGD Kennemerland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract met de regio. In Velsen start ruim de helft van de jeugdhulp via een arts. Bij veel huisartsen werkt een praktijkondersteuner jeugd (poh jeugd) die lichte hulp geeft.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of de jeugdarts van het consultatiebureau of de GGD. Vraag of de praktijk een poh jeugd heeft.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de regio. Het CJG kan helpen kiezen.",
-          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts: tot 4 jaar op het consultatiebureau, daarna bij de GGD.",
+          "Vraag of de praktijk een poh jeugd heeft, of om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -61,11 +61,11 @@
       {
         "type": "school",
         "naam": "Via school (kernteam)",
-        "omschrijving": "Elke basisschool en middelbare school in Velsen heeft een kernteam. Daarin zitten een CJG-coach, een jeugdmaatschappelijk werker van Socius, een jeugdarts of verpleegkundige van de GGD en een medewerker jeugd van het samenwerkingsverband passend onderwijs. Het team probeert problemen vroeg te zien en de hulp op elkaar af te stemmen. Ouders praten mee over wat het team doet. Voor het voortgezet onderwijs in IJmuiden is dat samenwerkingsverband VO Zuid-Kennemerland.",
+        "omschrijving": "Elke basisschool en middelbare school in Velsen heeft een kernteam. Daarin zitten een CJG-coach, een jeugdmaatschappelijk werker van Socius, een jeugdarts of verpleegkundige van de GGD en iemand van het samenwerkingsverband passend onderwijs. Ouders praten mee over wat het team doet.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of uw kind kan worden besproken in het kernteam van de school, of vraag om contact met de CJG-coach van de school.",
-          "Vraag het samenwerkingsverband passend onderwijs om hulp als school geen passend onderwijs kan bieden. School weet welk samenwerkingsverband dat is."
+          "Vraag of uw kind besproken kan worden in het kernteam, of om contact met de CJG-coach van de school.",
+          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs. School weet welk samenwerkingsverband bij uw kind hoort."
         ],
         "contact": [
           {
@@ -98,10 +98,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Velsen op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Velsen: huiselijk geweld en kindermishandeling",
@@ -373,7 +372,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-14",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Velsen - Centrum voor Jeugd en Gezin (CJG)",
@@ -408,11 +407,6 @@
       {
         "titel": "CJG Kennemerland - Informatie & Advies",
         "url": "https://cjgkennemerland.nl/informatie-advies/",
-        "geraadpleegd": "2026-10-11"
-      },
-      {
-        "titel": "CJG Kennemerland - Contact",
-        "url": "https://cjgkennemerland.nl/contact/",
         "geraadpleegd": "2026-10-11"
       },
       {

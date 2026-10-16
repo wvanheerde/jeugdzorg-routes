@@ -5,33 +5,33 @@
   "jeugdzorgregio": "Alkmaar",
   "websiteJeugd": "https://www.alkmaar.nl/direct-regelen/zorg-en-ondersteuning/opgroeien-en-opvoeden/hulp-bij-gezinsproblemen/",
   "toegang": {
-    "samenvatting": "In Alkmaar zijn de jeugd- en gezinscoaches van het Centrum Jeugd en Gezin (CJG) de gemeentelijke toegang tot jeugdhulp. Zij zijn in dienst van de gemeente en werken ook op scholen; u kunt een melding doen via het formulier \"melding Jeugd\", telefonisch of per e-mail. Sinds januari 2026 kunt u voor vragen en hulp ook zonder afspraak binnenlopen bij een wijkcontactpunt in uw wijk, en werkt het Gebiedsteam Sociaal aan ingewikkelde situaties. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Let op: de gemeente heeft de Verordening jeugdhulp in 2026 aangescherpt omdat de kosten blijven stijgen.",
+    "samenvatting": "In Alkmaar meldt u zich bij de jeugd- en gezinscoaches van het Centrum Jeugd en Gezin (CJG); met kleinere vragen kunt u ook binnenlopen bij een wijkcontactpunt. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG Alkmaar – jeugd- en gezinscoaches",
-        "omschrijving": "Het CJG is het centrale punt voor vragen over opvoeden en opgroeien, van zwangerschap tot 18 jaar (voor jongeren vanaf 16 jaar is er een apart team). De jeugd- en gezinscoaches bekijken samen met u wat nodig is: eerst wat uw eigen netwerk en de wijk kunnen doen, daarna zo nodig specialistische jeugdhulp. De ondersteuning door een coach is gratis, ook de doorverwijzing naar specialistische hulp. Bent u al in zorg via de gemeente en wilt u verlengen of wijzigen, dan doet u een aanvraag Jeugdhulp.",
+        "omschrijving": "Het CJG is er voor vragen over opvoeden en opgroeien, van zwangerschap tot 18 jaar; voor jongeren vanaf 16 jaar is er een apart team. De coaches zijn in dienst van de gemeente en kijken met u wat nodig is, zo nodig ook specialistische jeugdhulp. Bij ingewikkelde situaties helpt sinds januari 2026 het Gebiedsteam Sociaal.",
         "stappen": [
           "Doe een melding Jeugd via het formulier op mijnzorg.alkmaar.nl (met of zonder DigiD), of bel het CJG en vraag naar het Advies- en aanmeldteam.",
-          "Houd belangrijke documenten bij de hand, zoals een hulpverleningsplan, plan van aanpak of evaluatieverslag.",
-          "U heeft eerst een gesprek met een jeugd- en gezinscoach over de hulpvraag; de gemeente bevestigt uw hulpvraag schriftelijk.",
-          "Specialistische hulp krijgt u via een beschikking. De gemeente beslist volgens de verordening binnen 8 weken na het eerste contact; kan dat niet, dan hoort u dat schriftelijk."
+          "Bespreek met een jeugd- en gezinscoach wat er speelt. De gemeente bevestigt uw hulpvraag schriftelijk. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit). Wilt u lopende hulp verlengen of wijzigen, doe dan een aanvraag Jeugdhulp."
         ],
         "contact": {
           "naam": "CJG Alkmaar",
           "telefoon": "072 548 8081",
           "email": "cjg@alkmaar.nl",
           "url": "https://cjgalkmaar.nl/"
-        }
+        },
+        "doorlooptijd": "De gemeente beslist volgens de verordening binnen 8 weken na het eerste contact; lukt dat niet, dan hoort u dat schriftelijk. Hoe lang het duurt tot het eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Volgens de Jeugdwet en de Verordening jeugdhulp van Alkmaar mogen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht, zonder gesprek met het CJG. Veel huisartsen hebben een praktijkondersteuner jeugd-GGZ (POH-GGZ jeugd) voor lichte hulp en advies.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de regio, zonder gesprek met het CJG. Veel huisartsen hebben een praktijkondersteuner jeugd-ggz voor lichte hulp en advies.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de regio gecontracteerde aanbieder. De verwijzing moet datum, naam en AGB-code van de arts vermelden.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
+          "Laat u zo nodig verwijzen naar een aanbieder met een contract bij de regio.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -43,11 +43,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke basisschool en middelbare school in Alkmaar werkt samen met een jeugd- en gezinscoach van de gemeente. Heeft uw kind extra ondersteuning nodig in het onderwijs, dan onderzoekt de school wat zij zelf kan bieden en maakt zij samen met u een plan (zorgplicht). Bij vragen over jeugdhulp vraagt de school de jeugd- en gezinscoach om mee te kijken.",
+        "omschrijving": "Elke basisschool en middelbare school in Alkmaar werkt samen met een jeugd- en gezinscoach van de gemeente. Extra ondersteuning in het onderwijs regelt de school met u, via het samenwerkingsverband.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School vraagt zo nodig de jeugd- en gezinscoach van de gemeente om mee te denken over jeugdhulp.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband: Passend Primair Onderwijs Noord-Kennemerland (basisonderwijs) of Samenwerkingsverband VO Noord-Kennemerland (voortgezet onderwijs)."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of school de jeugd- en gezinscoach laat meedenken over jeugdhulp.",
+          "Gaat het om ondersteuning op school? Neem contact op met het samenwerkingsverband: Passend Primair Onderwijs of SWV VO Noord-Kennemerland."
         ],
         "contact": [
           {
@@ -73,11 +73,10 @@
       {
         "type": "overig",
         "naam": "Wijkcontactpunt",
-        "omschrijving": "In elke wijk van Alkmaar is een wijkcontactpunt waar u zonder afspraak en gratis binnenloopt met grote en kleine vragen. Vrijwilligers helpen u; bij een ingewikkelder vraag denkt een professional van Sylta (voorheen MEE & de Wering) mee.",
+        "omschrijving": "In elke wijk is een wijkcontactpunt waar u gratis en zonder afspraak binnenloopt. Vrijwilligers helpen u; bij een ingewikkelder vraag denkt een professional van Sylta (voorheen MEE & de Wering) mee.",
         "stappen": [
-          "Kijk op alkmaar.nl voor de locatie en openingstijden van het wijkcontactpunt in uw wijk.",
-          "Loop binnen met uw vraag, bijvoorbeeld over een brief, een formulier of welke hulp bij uw situatie past.",
-          "Is er meer nodig, dan verwijst het wijkcontactpunt u verder, bijvoorbeeld naar het CJG."
+          "Zoek het wijkcontactpunt in uw wijk op de website van de gemeente.",
+          "Loop binnen met uw vraag, bijvoorbeeld over een brief, een formulier of welke hulp past. Is meer nodig, dan verwijst het wijkcontactpunt u door, bijvoorbeeld naar het CJG."
         ],
         "contact": {
           "naam": "Wijkcontactpunten Alkmaar",
@@ -87,10 +86,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Alkmaar op de pagina Acute crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Alkmaar: Acute crisis",

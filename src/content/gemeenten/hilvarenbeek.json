@@ -4,17 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.hilvarenbeek.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Hilvarenbeek meldt u zich zelf aan bij het Team Wmo en Jeugd van de gemeente. U hoeft niet eerst naar de huisarts. Een medewerker belt u, bespreekt uw vraag en kijkt wat nodig is. Soms volgt een doorverwijzing, soms een huisbezoek. Op elke school werkt ook een Jeugd Ouder Opvoed Begeleider (JOOB) voor vragen over opvoeden en ontwikkeling. Ook de huisarts mag rechtstreeks verwijzen. In 2027 wil de gemeente een nieuw SamenZorgTeam inrichten. Hoe lang het duurt voordat het team contact opneemt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Hilvarenbeek meldt u zich zonder verwijzing bij het Team Wmo en Jeugd van de gemeente. U kunt ook via de huisarts, de jeugdarts of de JOOB op school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Wmo en Jeugd van de gemeente",
-        "omschrijving": "Dit team van de gemeente beoordeelt of uw kind hulp nodig heeft en regelt die. U meldt zich zelf aan; een verwijzing is niet nodig. Lichte hulp in de buurt is gratis, en daarvoor hebt u geen toestemming nodig van de gemeente of uw zorgverzekeraar. Is meer hulp nodig, dan kan de gemeente jeugdhulp inzetten die de regio Hart van Brabant heeft ingekocht.",
+        "omschrijving": "Dit team van de gemeente beoordeelt of uw kind hulp nodig heeft en regelt die. Lichte hulp in de buurt is gratis en vraagt geen toestemming van de gemeente. Is meer nodig, dan zet de gemeente jeugdhulp in die de regio Hart van Brabant heeft ingekocht. In 2027 wil de gemeente een nieuw SamenZorgTeam inrichten.",
         "stappen": [
-          "Meld u aan bij het Team Wmo en Jeugd. Vul het aanmeldformulier in en stuur het per e-mail of post, of bel het team.",
-          "Wacht op het telefoontje van een medewerker. Soms verwijst het team u meteen door. Anders maakt het een afspraak voor een huisbezoek.",
-          "Neem gerust een familielid of een onafhankelijke cliëntondersteuner mee naar het gesprek.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking (schriftelijk besluit)."
+          "Vul het aanmeldformulier in en stuur het per e-mail of post, of bel het team.",
+          "Een medewerker belt u. Soms verwijst het team u meteen door, anders volgt een huisbezoek. U mag iemand meenemen.",
+          "Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Team Wmo en Jeugd (gemeente Hilvarenbeek)",
@@ -22,16 +21,17 @@
           "email": "wmoenjeugd@hilvarenbeek.nl",
           "url": "https://www.hilvarenbeek.nl/jeugdhulp",
           "openingstijden": "Telefonisch op werkdagen 9.00–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het team contact opneemt, is niet openbaar te vinden. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Team Wmo en Jeugd. In Hilvarenbeek begint ruim de helft van de hulptrajecten via een van deze artsen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Hilvarenbeek begint ruim de helft van de hulptrajecten via een van deze artsen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "De arts verwijst naar een aanbieder die de regio heeft gecontracteerd.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -42,11 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op elke school in Hilvarenbeek werkt een Jeugd Ouder Opvoed Begeleider (JOOB). Bij de JOOB kunt u terecht met vragen over de ontwikkeling en opvoeding van uw kind. Komt u er met school niet uit over passend onderwijs, dan helpt het ouder- en jeugdsteunpunt Ouderlicht, gratis en onafhankelijk.",
+        "omschrijving": "Op elke school werkt een Jeugd Ouder Opvoed Begeleider (JOOB), voor vragen over de ontwikkeling en opvoeding van uw kind. Over passend onderwijs helpt het ouder- en jeugdsteunpunt Ouderlicht, gratis en onafhankelijk.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag hoe u de JOOB van de school bereikt.",
-          "Is meer hulp nodig, dan kunt u zich aanmelden bij het Team Wmo en Jeugd.",
-          "Komt u er met school niet uit? Vraag advies bij Ouderlicht, het ouder- en jeugdsteunpunt voor passend onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag hoe u de JOOB bereikt.",
+          "Komt u er met school niet uit? Vraag advies bij Ouderlicht."
         ],
         "contact": [
           {
@@ -66,10 +65,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er verder is, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst in Hilvarenbeek op de pagina Directe hulp bij een crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Hilvarenbeek: directe hulp bij een crisis (Crisis Interventie Team)",

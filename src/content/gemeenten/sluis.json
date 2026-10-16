@@ -4,18 +4,16 @@
   "provincie": "Zeeland",
   "websiteJeugd": "https://www.gemeentesluis.nl/direct-regelen/zorg-en-ondersteuning/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Sluis regelt de gemeente de toegang tot jeugdhulp zelf, via het cluster Jeugd & Gezin. U meldt zich zelf aan, een verwijzing is niet nodig. U kunt bellen of langskomen op het gemeentehuis in Oostburg. Wilt u hulp aanvragen? Dan vult u het aanvraagformulier in. Daarna volgen een gesprek en een verslag. De gemeente beslist binnen acht weken. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen.",
+    "samenvatting": "In Sluis meldt u zich zonder verwijzing bij het cluster Jeugd & Gezin van de gemeente, telefonisch of op het gemeentehuis in Oostburg. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Cluster Jeugd & Gezin van de gemeente Sluis",
-        "omschrijving": "In Sluis is er geen apart wijkteam. Medewerkers van de gemeente bekijken samen met u wat nodig is. Dat zijn medewerkers jeugd en casusregisseurs (zij houden het overzicht als er meer hulpverleners zijn). Vindt u dat uw kind jeugdhulp nodig heeft? Dan dient u zelf een aanvraag in. De gemeente beslist en legt de hulp vast in een beschikking (het besluit over de hulp).",
+        "omschrijving": "Sluis heeft geen apart wijkteam: medewerkers jeugd en casusregisseurs van de gemeente bekijken met u wat nodig is. Een casusregisseur houdt het overzicht als er meer hulpverleners zijn. Jeugdhulp vraagt u zelf aan, en de gemeente legt de hulp vast in een beschikking (het besluit over de hulp).",
         "stappen": [
-          "Bel het cluster Jeugd & Gezin of loop binnen op het gemeentehuis als u twijfelt of jeugdhulp nodig is.",
-          "Vraagt u jeugdhulp aan? Gebruik dan het aanvraagformulier Jeugdhulp van de gemeente.",
-          "Bespreek in het gesprek wat er speelt en wat u wilt bereiken. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Lees het verslag van het gesprek. Bent u het er niet mee eens? Zet dat dan in het verslag voordat u het terugstuurt.",
-          "Wacht op de beschikking. De gemeente beslist binnen acht weken na uw aanvraag. Bewaar de beschikking en het verslag."
+          "Bel het cluster Jeugd & Gezin of loop binnen op het gemeentehuis. Wilt u hulp aanvragen, gebruik dan het aanvraagformulier Jeugdhulp.",
+          "Bespreek in het gesprek wat er speelt en wat u wilt bereiken. U mag iemand meenemen.",
+          "Lees het verslag van het gesprek. Bent u het er niet mee eens? Zet dat in het verslag voordat u het terugstuurt."
         ],
         "contact": {
           "naam": "Cluster Jeugd & Gezin, gemeente Sluis",
@@ -24,16 +22,17 @@
           "url": "https://www.gemeentesluis.nl/contact/",
           "adres": "Gemeentehuis, Nieuwstraat 22, Oostburg",
           "openingstijden": "Telefonisch werkdagen 8.30–16.30 uur. Vrije inloop Jeugd, zorg en welzijn werkdagen 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "De gemeente beslist binnen acht weken na uw aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het cluster Jeugd & Gezin. De gemeente legt de hulp na een verwijzing vast in een beschikking.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Ook dan legt de gemeente de hulp vast in een beschikking.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -44,10 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school kunt u terecht bij de leerkracht, mentor of intern begeleider. De school kan de medewerker jeugd van de gemeente erbij halen. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van Passend Onderwijs Zeeuws-Vlaanderen. Dat steunpunt is er voor ouders en leerlingen in het basis- en voortgezet onderwijs.",
+        "omschrijving": "De school kan de medewerker jeugd van de gemeente erbij halen. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van Passend Onderwijs Zeeuws-Vlaanderen, voor basis- en voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het cluster Jeugd & Gezin van de gemeente erbij haalt. U kunt zich ook zelf melden.",
+          "Vraag of school het cluster Jeugd & Gezin erbij haalt.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeuws-Vlaanderen."
         ],
         "contact": [
@@ -68,10 +67,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis die niet kan wachten, buiten de gewone route om. Op de contactpagina van de gemeente staat hoe u het cluster Jeugd & Gezin buiten kantooruren bereikt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de bereikbaarheid van de gemeente 's avonds en in het weekend op de contactpagina van de gemeente Sluis."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Sluis: contact 's avonds en in het weekend (jeugdhulp tot 23 jaar)",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuidoost-Brabant",
   "websiteJeugd": "https://www.geldrop-mierlo.nl/CMD",
   "toegang": {
-    "samenvatting": "In Geldrop-Mierlo is het Centrum voor Maatschappelijke Deelname (CMD) van de gemeente de eerste stap voor jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. Een medewerker denkt eerst met u mee. Samen kijkt u of advies, uw eigen netwerk of een voorziening voor iedereen genoeg is. Is meer nodig, dan volgt een gesprek en een besluit van de gemeente. Voor gezinnen met meerdere zware problemen is er het PlusTeam. Ook de huisarts mag rechtstreeks verwijzen. Het CMD is nu telefonisch minder goed bereikbaar. U kunt ook mailen.",
+    "samenvatting": "In Geldrop-Mierlo meldt u zich bij het Centrum voor Maatschappelijke Deelname (CMD) van de gemeente; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CMD (Centrum voor Maatschappelijke Deelname) van de gemeente",
-        "omschrijving": "Het CMD is de afdeling van de gemeente voor vragen over zorg, jeugd en inkomen. Bij jeugdhulp beoordeelt het CMD uw vraag, maakt met u een plan en neemt het besluit (de beschikking). U meldt zich zelf aan, per telefoon, mail, website of in een afspraak. Heeft uw gezin meerdere zware problemen, dan kan het CMD u doorverwijzen naar het PlusTeam. Dat team biedt vrijwillige hulp en maakt één plan voor het hele huishouden.",
+        "omschrijving": "Het CMD is de afdeling van de gemeente voor zorg, jeugd en inkomen. Het beoordeelt uw vraag, maakt met u een plan en neemt het besluit (beschikking). Heeft uw gezin meerdere zware problemen tegelijk, dan kan het CMD u doorverwijzen naar het PlusTeam: vrijwillige hulp met één plan voor het hele huishouden.",
         "stappen": [
-          "Bel het CMD of mail het team Toegang. Een medewerker denkt met u mee en bekijkt of advies of hulp uit uw eigen netwerk genoeg is.",
-          "Is er meer nodig, voer dan een gesprek met een klantadviseur of medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een ondersteuningsplan. Volgens de regels van de gemeente (de verordening) beslist de gemeente uiterlijk twee weken nadat zij uw ondertekende plan heeft ontvangen.",
-          "Vraag het besluit schriftelijk (beschikking) en leg afspraken vast.",
-          "Heeft uw gezin meerdere zware problemen tegelijk? Vraag het CMD naar het PlusTeam."
+          "Bel het CMD of mail het team Toegang. Het CMD is nu telefonisch minder goed bereikbaar; mailen kan ook.",
+          "Een medewerker denkt met u mee. Is meer nodig dan advies, dan volgt een gesprek met een klantadviseur of medewerker jeugd. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan. Daarna krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "CMD Toegang (gemeente Geldrop-Mierlo)",
@@ -24,16 +22,17 @@
           "email": "cmdtoegang@geldrop-mierlo.nl",
           "url": "https://www.geldrop-mierlo.nl/CMD",
           "openingstijden": "Telefonisch ma t/m vr 9.00–12.30 uur. Het CMD is op dit moment minder goed bereikbaar. Houd rekening met een langere wachttijd"
-        }
+        },
+        "doorlooptijd": "Volgens de verordening beslist de gemeente uiterlijk twee weken nadat zij uw ondertekende plan heeft ontvangen."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CMD. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Brabant-Zuidoost.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Brabant-Zuidoost.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst u naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -45,12 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is vaak de plek waar zorgen als eerste opvallen. Met vragen over passend onderwijs kunt u terecht bij het samenwerkingsverband van de school. Voor hulp bij opgroeien en opvoeden meldt u zich bij het CMD.",
+        "omschrijving": "School is vaak de plek waar zorgen als eerste opvallen. Met vragen over passend onderwijs kunt u terecht bij het samenwerkingsverband van de school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Heeft uw kind ook hulp buiten school nodig? Meld u zelf aan bij het CMD.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of het Ouder- en jeugdsteunpunt (voortgezet onderwijs).",
-          "Stel vragen over de ondersteuning op school ook gerust aan het samenwerkingsverband passend onderwijs."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of het Ouder- en jeugdsteunpunt (voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -80,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat welke crisisdienst er is voor spoedeisende jeugdhulp, ook buiten kantoortijd.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Geldrop-Mierlo op de pagina Gezinsproblemen van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Geldrop-Mierlo: gezinsproblemen en spoedeisende jeugdhulp",

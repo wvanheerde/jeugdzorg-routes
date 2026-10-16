@@ -5,19 +5,16 @@
   "jeugdzorgregio": "West-Friesland",
   "websiteJeugd": "https://www.opmeer.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Opmeer is het Wijkteam de plek voor hulp aan uw kind. U meldt zich zelf aan, een verwijzing is niet nodig. Een medewerker jeugd (medewerker) van het Wijkteam brengt samen met u de vraag in kaart. Soms is advies genoeg. Is meer nodig, dan volgt een intakegesprek en soms een langer traject. Volgens de rekenkamer blijft in Opmeer dezelfde medewerker jeugd u meestal begeleiden van het eerste gesprek tot het besluit. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voor u een eerste gesprek hebt, is niet openbaar te vinden. In een onderzoek onder ouders kon de helft binnen twee weken in gesprek. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Opmeer meldt u zich bij het Wijkteam, op het gemeentehuis, op school of via de huisarts. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteam Opmeer",
-        "omschrijving": "Het Wijkteam werkt voor de gemeente. Er werken onder meer jeugd- en opgroeiconsulenten en maatschappelijk werkers. Zij onderzoeken uw hulpvraag, geven advies, bieden zelf lichtere hulp en regelen zo nodig specialistische jeugdhulp met een besluit van de gemeente (beschikking). U kunt zich zelf aanmelden. U vindt het team op het gemeentehuis, op de scholen en via de huisarts.",
+        "omschrijving": "Medewerkers jeugd en maatschappelijk werkers van het Wijkteam onderzoeken uw vraag, geven advies, bieden zelf lichtere hulp en regelen zo nodig specialistische jeugdhulp met een besluit van de gemeente (beschikking). Volgens de rekenkamer blijft meestal dezelfde medewerker jeugd u begeleiden van het eerste gesprek tot het besluit.",
         "stappen": [
-          "Bel het Wijkteam, mail het team of loop binnen tijdens het inloopspreekuur. U kunt ook het Aanmeldformulier Jeugd van de gemeente invullen.",
-          "Vertel uw vraag. Soms is een advies al genoeg. Soms volgt een intakegesprek, een beoordelingsgesprek of een langer traject.",
-          "Vraag hoe lang het duurt tot het eerste gesprek en wat u in de tussentijd kunt doen.",
-          "Neem zo nodig een onafhankelijke cliëntondersteuner mee naar het gesprek.",
-          "Vraag om een schriftelijk verslag van het gesprek. Ondertekent u het en schrijft u erbij dat het een aanvraag is, dan telt het als aanvraag. De gemeente beslist binnen acht weken.",
-          "Hebt u hulp nodig bij het formulier? De medewerker jeugd kan het in het eerste gesprek samen met u invullen."
+          "Bel of mail het Wijkteam, loop binnen tijdens het inloopspreekuur of vul het Aanmeldformulier Jeugd van de gemeente in. Hulp bij het formulier krijgt u in het eerste gesprek.",
+          "Vertel uw vraag. Soms is advies genoeg; soms volgt een intakegesprek, een beoordelingsgesprek of een langer traject. U mag iemand meenemen.",
+          "Vraag om een verslag van het gesprek. Ondertekent u het en schrijft u erbij dat het een aanvraag is, dan telt het als aanvraag."
         ],
         "contact": {
           "naam": "Wijkteam Opmeer",
@@ -26,16 +23,16 @@
           "url": "https://www.opmeer.nl/wijkteam",
           "openingstijden": "Telefonisch ma t/m do 9.00–17.00 uur, vr 9.00–12.00 uur. Inloopspreekuur zonder afspraak: dinsdag 11.00–12.00 uur in Opmeer en donderdag 11.00–12.00 uur in Hoogwoud"
         },
-        "doorlooptijd": "De gemeente beslist binnen acht weken na uw aanvraag (Verordening jeugdhulp). Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden."
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar; in een onderzoek onder ouders kon de helft binnen twee weken in gesprek. De gemeente beslist binnen acht weken na uw aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Wijkteam. De verwijzing kan alleen naar een aanbieder met een contract met de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Hollands Noorden. De rekenkamer zag dat na een verwijzing van de huisarts vrijwel automatisch een besluit van de gemeente (beschikking) volgt.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar een aanbieder met een contract met de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Hollands Noorden. De rekenkamer zag dat na een verwijzing van de huisarts vrijwel automatisch een beschikking volgt.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de GGD.",
-          "Vraag de huisarts te verwijzen naar een aanbieder met een contract met de gemeente.",
-          "Doe zelf geen aanvraag: de aanbieder onderzoekt de hulpvraag en meldt de start van de hulp bij de gemeente."
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -47,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Het Wijkteam werkt ook op de scholen, onder meer met schoolmaatschappelijk werk. De scholen in Opmeer horen bij samenwerkingsverband De Westfriese Knoop. Komt u er met school niet uit, dan kunt u advies vragen bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het voortgezet onderwijs geldt hetzelfde steunpunt.",
+        "omschrijving": "Het Wijkteam werkt ook op de scholen, onder meer met schoolmaatschappelijk werk. De scholen in Opmeer horen bij Passend Onderwijs West-Friesland: samenwerkingsverband De Westfriese Knoop (basisonderwijs) en SWV VO West-Friesland. Het ouder- en jeugdsteunpunt is er voor beide.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school om contact met het Wijkteam, of meld u zelf aan bij het Wijkteam.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Vraag afspraken met school schriftelijk te bevestigen."
+          "Vraag de school om contact met het Wijkteam of het schoolmaatschappelijk werk.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -74,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er verder zijn voor een kind of jongere in Opmeer, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten voor jeugd op de pagina Crisissituaties van de gemeente Opmeer."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Opmeer: crisissituaties",
@@ -326,7 +321,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Opmeer: Jeugdhulp",
@@ -457,6 +452,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "Passend Onderwijs West-Friesland",
+        "url": "https://www.passendonderwijswf.nl/",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Gemeten doorlooptijden toegang niet gevonden; rekenkamerrapport zelf en amendement (scan) niet gelezen, alleen het raadsvoorstel. Regionale journalistiek niet doorzocht (1 WebSearch zonder bruikbare resultaten); Beschikbaarheidswijzer-dekking beoordeeld in regiobestand. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

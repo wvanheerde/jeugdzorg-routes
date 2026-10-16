@@ -4,18 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.ommen.nl/direct-regelen/zorg-inkomen-en-ondersteuning/jeugd/hulp-bij-jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Ommen vraagt u hulp voor uw kind aan bij Samen Doen, het toegangsteam van de gemeente. U meldt u zelf aan, een verwijzing is niet nodig. Dat kan met het online meldingsformulier, per telefoon of op het inloopspreekuur. Een medewerker jeugd komt daarna bij u thuis voor een gesprek. De huisarts, de jeugdarts en de medisch specialist mogen ook rechtstreeks verwijzen. Sinds de tweede helft van 2025 werkt bij de huisarts ook een praktijkondersteuner jeugd. Samen Doen belooft binnen 5 werkdagen contact na een melding. Hoe lang het daarna duurt tot er hulp is, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Ommen meldt u zich bij Samen Doen, het toegangsteam van de gemeente, online, telefonisch of op het inloopspreekuur. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Samen Doen, het toegangsteam van de gemeente",
-        "omschrijving": "Samen Doen is het team van de gemeente voor jeugdhulp, Wmo (hulp voor volwassenen) en werk en inkomen. Sinds 2025 voert SDO Support het team uit, in opdracht van de gemeente. De medewerkers jeugd kijken eerst wat u zelf kunt doen, wie in uw omgeving kan helpen en welke lichtere hulp er is. Is meer nodig, dan regelen zij de jeugdhulp.",
+        "omschrijving": "Samen Doen is het team van de gemeente voor jeugdhulp, Wmo (hulp voor volwassenen) en werk en inkomen; sinds 2025 voert SDO Support het uit. Een medewerker jeugd komt bij u thuis en kijkt eerst naar lichtere hulp en wie in uw omgeving kan helpen. Is meer nodig, dan regelt Samen Doen de jeugdhulp.",
         "stappen": [
-          "Doe een melding bij Samen Doen: online met het meldingsformulier (met of zonder DigiD), per mail of telefonisch. U kunt ook langskomen op het inloopspreekuur.",
-          "Wacht op contact van een medewerker. Dat komt binnen 5 werkdagen. Belt u zelf en kan Samen Doen u niet direct te woord staan, dan belt het team binnen drie werkdagen terug.",
-          "Bespreek thuis met een medewerker jeugd wat er speelt. U mag iemand meenemen, bijvoorbeeld een familielid of een onafhankelijke cliëntondersteuner.",
-          "Bereid het gesprek voor met een persoonlijk plan of een familiegroepsplan (een plan dat u samen met familie en bekenden maakt). Daarin schrijft u op wat er speelt en welke hulp u nodig vindt.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking (besluit van de gemeente)."
+          "Doe een melding bij Samen Doen: online met het meldingsformulier (met of zonder DigiD), per mail of telefonisch, of kom langs op het inloopspreekuur.",
+          "Bespreek thuis met een medewerker jeugd wat er speelt. U mag iemand meenemen. U kunt het gesprek voorbereiden met een persoonlijk plan of een familiegroepsplan (een plan met familie en bekenden).",
+          "Vraag om een verslag en, bij specialistische hulp, om een beschikking (besluit van de gemeente)."
         ],
         "contact": {
           "naam": "Samen Doen (gemeente Ommen)",
@@ -24,16 +22,17 @@
           "url": "https://www.ommen.nl/direct-regelen/zorg-inkomen-en-ondersteuning/contact-spoed-crisis/toegangsteam-samen-doen",
           "adres": "Carrousel, van Reeuwijkstraat 5, Ommen",
           "openingstijden": "Telefonisch ma t/m vr 9.00–17.00 uur. Inloopspreekuur elke dinsdag- en donderdagochtend 9.00–11.00 uur"
-        }
+        },
+        "doorlooptijd": "Samen Doen neemt binnen 5 werkdagen na uw melding contact op; belt u en kan het team u niet direct helpen, dan belt het binnen drie werkdagen terug. Hoe lang het daarna duurt tot er hulp is, is niet openbaar; vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Samen Doen. Bij de huisarts werkt sinds de tweede helft van 2025 ook een praktijkondersteuner jeugd voor vragen over opvoeden, opgroeien en psychische klachten.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Sinds de tweede helft van 2025 werkt bij de huisarts ook een praktijkondersteuner jeugd voor vragen over opvoeden, opgroeien en psychische klachten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Bespreek met de huisarts of u eerst naar de praktijkondersteuner jeugd gaat, of direct een verwijzing krijgt naar een aanbieder met een contract.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek of u eerst naar de praktijkondersteuner jeugd gaat, of direct een verwijzing krijgt naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD IJsselland",
@@ -45,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school begint het meestal bij de leerkracht, mentor of intern begeleider (de collega die de zorg voor leerlingen coördineert). Komt u er met school niet uit, dan kunt u advies vragen bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor basisonderwijs is dat Veld, Vaart & Vecht, voor voortgezet onderwijs Klasse. Voor hulp buiten school meldt u zich bij Samen Doen.",
+        "omschrijving": "Op school begint het bij de leerkracht, mentor of intern begeleider. Het ouder- en jeugdsteunpunt is voor basisonderwijs van Veld, Vaart & Vecht, voor voortgezet onderwijs van Klasse.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Is er meer nodig dan school kan bieden, meld uw kind dan aan bij Samen Doen. Dat mag u zelf doen, met of zonder school.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband van uw school."
+          "Is er meer nodig dan school kan bieden? Meld uw kind dan aan bij Samen Doen, met of zonder school.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -75,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke instanties er verder zijn, staat op de pagina Spoed & crisis van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp en advies in Ommen op de pagina Spoed & crisis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Ommen: Spoed & crisis",

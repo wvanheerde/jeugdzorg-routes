@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Eemland",
   "websiteJeugd": "https://www.woudenberg.nl/zorg",
   "toegang": {
-    "samenvatting": "In Woudenberg regelt Coöperatie De Kleine Schans de toegang tot jeugdhulp. Het Sociaal Team van De Kleine Schans beoordeelt aanvragen en neemt namens de gemeente de besluiten. U meldt zich zelf aan, een verwijzing is niet nodig. Sinds 20 juli 2026 belt of mailt u eerst de balie. Daarna volgt op korte termijn een kennismakingsgesprek met twee medewerkers. Het Sociaal Team kijkt eerst wat het zelf kan doen. Specialistische jeugdhulp komt van één aanbieder voor de hele regio Amersfoort: MetMaya. Daarvoor is een besluit of een verwijzing van de huisarts nodig. Hoe lang het duurt voordat uw aanmelding wordt opgepakt, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Woudenberg meldt u zich bij het Sociaal Team van Coöperatie De Kleine Schans; dat neemt namens de gemeente de besluiten. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van Coöperatie De Kleine Schans",
-        "omschrijving": "De Kleine Schans is een samenwerking van de gemeente en lokale organisaties voor zorg, ondersteuning, gezondheid en leerplicht. Het Sociaal Team onderzoekt uw vraag en maakt met u een plan. Het geeft zelf lichte hulp, bijvoorbeeld bij opvoedvragen. Is meer nodig, dan regelt het specialistische hulp met een besluit (beschikking) van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig.",
+        "omschrijving": "De Kleine Schans is een samenwerking van de gemeente en lokale organisaties voor zorg, ondersteuning, gezondheid en leerplicht. Het Sociaal Team geeft zelf lichte hulp, bijvoorbeeld bij opvoedvragen, en kijkt wat organisaties in Woudenberg kunnen bieden. Is meer nodig, dan regelt het specialistische hulp bij MetMaya, de aanbieder voor de hele regio Amersfoort, met een besluit (beschikking) van de gemeente.",
         "stappen": [
-          "Bel of mail de balie van De Kleine Schans. Zeg kort waar u tegenaan loopt en laat uw naam, adres en telefoonnummer achter.",
-          "Ga naar het kennismakingsgesprek met twee medewerkers. Dat volgt op korte termijn. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bespreek samen uw situatie. Het Sociaal Team kijkt wat het zelf kan doen en wat andere organisaties in Woudenberg kunnen bieden.",
-          "Vraag specialistische hulp aan bij het Sociaal Team als dat nodig is. U krijgt dan een schriftelijk besluit.",
-          "Vraag om een schriftelijk verslag en leg afspraken vast."
+          "Bel of mail de balie van De Kleine Schans (zo werkt het sinds 20 juli 2026). Zeg kort waar u tegenaan loopt en laat uw naam, adres en telefoonnummer achter.",
+          "Ga naar het kennismakingsgesprek met twee medewerkers. U mag iemand meenemen.",
+          "Maak samen een plan. Is specialistische hulp nodig, dan vraagt u die aan bij het Sociaal Team en krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Coöperatie De Kleine Schans (Sociaal Team)",
@@ -25,32 +23,39 @@
           "url": "https://www.dekleineschans.nl/contact/",
           "adres": "Dorpsstraat 38, Woudenberg",
           "openingstijden": "Telefonisch ma t/m vr 8.30–12.00 uur. Zonder afspraak binnenlopen dagelijks 10.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Het kennismakingsgesprek volgt op korte termijn. Hoe lang het duurt voordat uw aanmelding wordt opgepakt, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Voor specialistische hulp in de regio Amersfoort is dat MetMaya. Een huisarts kan u ook naar De Kleine Schans sturen. Dan kijkt het Sociaal Team eerst wat het zelf kan doen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar MetMaya, voor specialistische hulp in de regio Amersfoort. De huisarts kan u ook naar het Sociaal Team van De Kleine Schans sturen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg (de zorg voor gezondheid en groei van kinderen van 0 tot 18 jaar).",
-          "Vraag de arts om een verwijzing naar MetMaya, of om advies om naar het Sociaal Team van De Kleine Schans te gaan.",
-          "Vul met een verwijzing zelf het aanmeldformulier van MetMaya in. De arts kan u daarbij helpen.",
-          "Vraag de arts en MetMaya wat u kunt doen zolang u op hulp wacht."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar MetMaya, of om advies om naar het Sociaal Team te gaan.",
+          "Vul met een verwijzing zelf het aanmeldformulier van MetMaya in; de arts kan u helpen. Vraag wat u kunt doen zolang u op hulp wacht."
         ],
-        "contact": {
-          "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
-          "telefoon": "030 608 60 86",
-          "url": "https://www.ggdru.nl/kind-en-opvoeden/mijn-jeugdgezondheidszorg/",
-          "openingstijden": "Telefonisch op werkdagen 8.00–12.00 en 13.00–16.30 uur"
-        }
+        "contact": [
+          {
+            "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
+            "telefoon": "030 608 60 86",
+            "url": "https://www.ggdru.nl/kind-en-opvoeden/mijn-jeugdgezondheidszorg/",
+            "openingstijden": "Telefonisch op werkdagen 8.00–12.00 en 13.00–16.30 uur"
+          },
+          {
+            "naam": "MetMaya (specialistische jeugdhulp regio Amersfoort)",
+            "telefoon": "085 486 6090",
+            "email": "vragen@metmaya.nl",
+            "url": "https://metmaya.nl/contact"
+          }
+        ]
       },
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met de school. Komt u er samen niet uit, dan kunt u terecht bij De Kleine Schans of bij JOSEE. Dat is het jeugd- en oudersteunpunt passend onderwijs voor Eemland. JOSEE geeft ouders en jongeren gratis advies over passend onderwijs, op de basisschool en de middelbare school.",
+        "omschrijving": "Bespreek zorgen eerst met de school. Komt u er samen niet uit, dan geeft JOSEE, het jeugd- en oudersteunpunt passend onderwijs voor Eemland, gratis advies over de basisschool en de middelbare school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u aan bij De Kleine Schans als u hulp voor uw kind of gezin wilt.",
           "Komt u er met school niet uit? Vraag advies bij JOSEE."
         ],
         "contact": [
@@ -75,10 +80,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Welke hulp er in acute situaties is, staat op de pagina Acute hulp van De Kleine Schans.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Acute hulp van De Kleine Schans welke hulp er in Woudenberg is."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "De Kleine Schans: acute hulp",
@@ -230,7 +234,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Woudenberg: Zorg, ondersteuning en gezondheid (jeugdhulp regio Amersfoort)",
@@ -321,6 +325,11 @@
         "titel": "CBS StatLine 85097NED Jeugdhulptrajecten in natura",
         "url": "https://opendata.cbs.nl/#/CBS/nl/dataset/85097NED/table",
         "geraadpleegd": "2026-10-13"
+      },
+      {
+        "titel": "MetMaya: contact",
+        "url": "https://metmaya.nl/contact",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Raadsinformatie (gemeentebestuur.woudenberg.nl) zit achter bot-controle (Anubis), dus raadsstukken over jeugd zijn niet gelezen. Doorlooptijden toegang en klachtencommissie voor De Kleine Schans niet gevonden; begroting 2027 nog niet verschenen. Gemeentelijke bezwaarpagina niet gevonden; bezwaarinformatie komt van De Kleine Schans. Aandeel via huisarts niet opgenomen: CBS houdt voor 2025 een deel van de verwijzercijfers (jeugdarts en/of specialist) geheim."

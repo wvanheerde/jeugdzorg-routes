@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Flevoland",
   "websiteJeugd": "https://www.almere.nl/zorg-en-welzijn/jeugd-en-gezin/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Almere is JGZ Almere (de jeugdgezondheidszorg van GGD Flevoland en Zorggroep Almere) de toegang tot jeugdhulp. U vraagt jeugdhulp aan met het digitale aanvraagformulier op jgzalmere.nl; een jeugd- en medewerker jeugd van uw stadsdeel neemt binnen ongeveer vijf werkdagen contact op en komt bij voorkeur bij u thuis. Is specialistische hulp nodig, dan verwijst JGZ Almere en ontvangt u een beschikking van de gemeente. De wijkteams van de gemeente helpen bij vragen over geld, wonen en gezin en werken samen met JGZ Almere. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in Almere start ruim de helft van de jeugdhulptrajecten via een arts. Vanaf 2026 bouwt de gemeente in twee wijkteamgebieden aan Stevige Lokale Teams, één team per wijk voor alle leeftijden.",
+    "samenvatting": "In Almere vraagt u jeugdhulp aan bij JGZ Almere (de jeugdgezondheidszorg van GGD Flevoland en Zorggroep Almere), met het digitale aanvraagformulier. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "JGZ Almere (jeugd- en medewerkers jeugd)",
-        "omschrijving": "De jeugd- en medewerkers jeugd van JGZ Almere onderzoeken ernstige of meerdere opgroei- en opvoedproblemen bij kinderen van 0 tot 18 jaar (soms tot 23 jaar). Zij kijken eerst wat u zelf en uw omgeving kunnen, bieden lichte hulp en verwijzen zo nodig naar specialistische jeugdhulp via een beschikking van de gemeente. Almere is verdeeld in vier stadsdelen (Stad West, Stad Oost, Buiten, Poort/Haven) met medewerkers jeugd per gebied.",
+        "naam": "JGZ Almere",
+        "omschrijving": "Medewerkers jeugd van JGZ Almere helpen bij ernstige of meerdere opgroei- en opvoedproblemen, bij kinderen van 0 tot 18 jaar (soms tot 23 jaar). Zij bieden lichte hulp en verwijzen zo nodig naar specialistische jeugdhulp; daarvoor krijgt u een beschikking van de gemeente voor maximaal één jaar.",
         "stappen": [
-          "Vul het digitale aanvraagformulier jeugdhulp in op jgzalmere.nl (alleen digitaal ingevulde formulieren worden in behandeling genomen).",
-          "JGZ Almere neemt binnen ongeveer vijf werkdagen contact op en plant een gesprek, bij voorkeur bij u thuis. U mag iemand meenemen, bijvoorbeeld een gratis meedenker van MEE Samen of OCO Almere.",
-          "Samen brengt u de situatie in kaart: wat kunt u zelf, wat kan uw omgeving, welke algemene voorzieningen zijn er?",
-          "Is specialistische jeugdhulp nodig, dan stelt JGZ Almere een passende aanbieder voor en ontvangt u een beschikking van de gemeente (maximaal één jaar, tussentijds geëvalueerd). De aanbieder neemt daarna contact met u op.",
-          "Hebt u ook vragen over geld, wonen of andere zaken, dan kunt u terecht bij het wijkteam van de gemeente; het wijkteam werkt samen met de jeugdhulpverlener."
+          "Vul het digitale aanvraagformulier jeugdhulp in op jgzalmere.nl. Alleen digitale aanvragen worden behandeld.",
+          "Een medewerker jeugd uit uw stadsdeel plant een gesprek, bij voorkeur bij u thuis. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan stelt JGZ Almere een aanbieder voor. Heeft u ook vragen over geld of wonen? Het wijkteam van de gemeente werkt daarvoor samen met JGZ Almere."
         ],
         "contact": [
           {
@@ -33,17 +31,16 @@
             "openingstijden": "Telefonisch ma t/m vr 8.30–17.00 uur"
           }
         ],
-        "doorlooptijd": "Contact binnen ongeveer vijf werkdagen na aanvraag (norm van de gemeente). De gemeente moet volgens de verordening binnen acht weken na de melding beslissen."
+        "doorlooptijd": "JGZ Almere neemt binnen ongeveer vijf werkdagen na uw aanvraag contact op. De gemeente beslist binnen acht weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de gemeente Almere gecontracteerde jeugdhulp, zonder tussenkomst van JGZ Almere. Een aantal Almeerse huisartsenpraktijken heeft een praktijkondersteuner ggz jeugd (POH-GGZ Jeugd) die eerst zelf enkele gesprekken kan voeren.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract, zonder JGZ Almere. In Almere start ruim de helft van de jeugdhulp via een arts. Een aantal praktijken heeft een praktijkondersteuner ggz jeugd (POH-GGZ Jeugd), die eerst zelf enkele gesprekken kan voeren.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van JGZ Almere.",
-          "Heeft de praktijk een POH-GGZ Jeugd, dan volgt eerst een intakegesprek; soms zijn enkele gesprekken genoeg.",
-          "Is meer nodig, dan verwijst de arts naar een door de gemeente gecontracteerde aanbieder; u hoeft zelf geen aanvraag te doen.",
-          "Vraag bij de verwijzing naar de actuele wachttijd van de aanbieder; de gemeente publiceert links naar de wachttijden van jeugd-ggz-aanbieders in Almere."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van JGZ Almere.",
+          "Is meer nodig, dan verwijst de arts naar een aanbieder met een contract. U hoeft zelf niets aan te vragen.",
+          "Vraag de aanbieder naar de wachttijd. De gemeente publiceert links naar de wachttijden van jeugd-ggz-aanbieders in Almere."
         ],
         "contact": {
           "naam": "JGZ Almere",
@@ -56,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school (Sterk in de wijk)",
-        "omschrijving": "Op Almeerse basisscholen werken onderwijs, JGZ Almere en ambulante jeugdhulp samen in de aanpak Sterk in de wijk, met onder meer de preventieve groepstraining Oké op school. De schoolmaatschappelijk werker en de jeugdverpleegkundige van JGZ Almere zijn op school aanspreekbaar. Voor vragen over onderwijsondersteuning is er het onafhankelijke Ouder- en Jeugdsteunpunt van Passend Onderwijs Almere.",
+        "omschrijving": "Op Almeerse basisscholen werken school, JGZ Almere en jeugdhulp samen in Sterk in de wijk, met onder meer de groepstraining Oké op school. De schoolmaatschappelijk werker en de jeugdverpleegkundige van JGZ Almere zijn op school aanspreekbaar en kunnen met u een aanvraag jeugdhulp voorbereiden.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School kan de schoolmaatschappelijk werker of de jeugdverpleegkundige van JGZ Almere inschakelen; zij kunnen een aanvraag jeugdhulp met u voorbereiden.",
-          "Gaat het om ondersteuning op school zelf, neem dan contact op met het Ouder- en Jeugdsteunpunt van Passend Onderwijs Almere."
+          "Bespreek zorgen met de leerkracht, mentor of intern begeleider, en vraag naar de schoolmaatschappelijk werker of de jeugdverpleegkundige.",
+          "Gaat het om ondersteuning op school zelf? Neem contact op met het onafhankelijke Ouder- en Jeugdsteunpunt van Passend Onderwijs Almere."
         ],
         "contact": [
           {
@@ -81,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Almere op de pagina Crisissituaties van Sociaal Domein Almere."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Sociaal Domein Almere (gemeente Almere): Crisissituaties",
@@ -363,7 +358,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Almere – Jeugdhulp",

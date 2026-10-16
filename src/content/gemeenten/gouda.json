@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Midden-Holland",
   "websiteJeugd": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden",
   "toegang": {
-    "samenvatting": "In Gouda zijn er twee deuren. Het Sociaal Team Gouda geeft lichte hulp bij opvoeden en opgroeien, zonder besluit van de gemeente. U kunt binnenlopen, bellen of mailen. Voor specialistische jeugdhulp doet u een melding bij de gemeente zelf. Een medewerker jeugd van de gemeente bekijkt dan wat nodig is en neemt het besluit. Het Centrum voor Jeugd en Gezin (CJG) geeft opvoedadvies en heeft de jeugdarts. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen naar een aanbieder met een contract. Sinds begin 2026 kijkt de gemeente eerst naar wat u en uw omgeving zelf kunnen en naar lichte hulp in de wijk.",
+    "samenvatting": "In Gouda helpt het Sociaal Team Gouda met lichte hulp bij opvoeden, en voor specialistische jeugdhulp meldt u zich bij de gemeente. Ook de huisarts, de jeugdarts of school kan helpen; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Gouda",
-        "omschrijving": "Het Sociaal Team helpt inwoners van alle leeftijden, ook bij vragen over opvoeden, scheiding, geld en stress. U heeft geen verwijzing nodig en krijgt geen besluit van de gemeente. Het team geeft zelf lichte hulp en verwijst door als er meer nodig is. Het Sociaal Team beslist niet over specialistische jeugdhulp: dat doet de gemeente.",
+        "omschrijving": "Het Sociaal Team helpt bij vragen over opvoeden, scheiding, geld en stress. Het geeft zelf lichte hulp, zonder verwijzing en zonder besluit van de gemeente. Over specialistische jeugdhulp beslist de gemeente.",
         "stappen": [
-          "Bel of mail het Sociaal Team (bellen op werkdagen 9.00-17.00 uur), of vul het aanmeldformulier in. U kunt ook laten terugbellen.",
-          "Of loop binnen bij een inloopspreekuur in Noord, West of Oost. De tijden staan op sociaalteamgouda.nl/contact.",
-          "Bespreek wat er speelt en wat u en uw omgeving zelf kunnen. Het team kijkt mee naar lichte hulp of een training.",
-          "Is er specialistische hulp nodig? Dan helpt het team u bij de melding bij de gemeente. U mag zelf ook altijd een melding doen."
+          "Bel of mail het Sociaal Team (werkdagen 9.00-17.00 uur), vul het aanmeldformulier in of loop binnen bij een inloopspreekuur in Noord, West of Oost.",
+          "Bespreek wat er speelt. Het team kijkt met u naar lichte hulp of een training.",
+          "Is specialistische hulp nodig? Dan helpt het team u met de melding bij de gemeente."
         ],
         "contact": {
           "naam": "Sociaal Team Gouda",
@@ -29,12 +28,11 @@
       {
         "type": "overig",
         "naam": "Melding jeugdhulp bij de gemeente (medewerker jeugd)",
-        "omschrijving": "Voor specialistische jeugdhulp meldt u zich bij de gemeente. Een toegangsmedewerker kijkt of het spoed heeft en welk team u helpt. Een medewerker jeugd bespreekt met u en anderen wat nodig is en neemt een besluit (beschikking). Jongeren mogen zelf een melding doen. Het eerste contact telt als aanvraag.",
+        "omschrijving": "Voor specialistische jeugdhulp doet u, of uw kind zelf, een melding bij de gemeente. Het eerste contact telt al als aanvraag. Een medewerker jeugd bespreekt met u wat nodig is en neemt een besluit (beschikking).",
         "stappen": [
-          "Doe de melding online met DigiD, of zonder inloggen, via gouda.nl. U kunt de gemeente ook bellen.",
-          "De gemeente bevestigt uw aanvraag binnen 5 werkdagen. U mag binnen 14 dagen een familiegroepsplan indienen: een plan dat u samen met familie en bekenden maakt.",
-          "Bespreek met de medewerker jeugd wat er speelt en welke hulp past. Kiest u liever een pgb? Zeg dat in dit gesprek.",
-          "Vraag om een schriftelijk verslag. U krijgt een beschikking: het besluit met welke hulp, hoeveel en hoe lang. Zeg het als u een cliëntondersteuner wilt meenemen."
+          "Doe de melding online via gouda.nl, met of zonder DigiD, of bel de gemeente. U krijgt binnen 5 werkdagen een bevestiging.",
+          "Wilt u een familiegroepsplan maken, een plan met familie en bekenden? Dat mag binnen 14 dagen.",
+          "Bespreek met de medewerker jeugd wat er speelt. Sinds begin 2026 kijkt de gemeente eerst wat u en uw omgeving zelf kunnen en welke lichte hulp er is. Wilt u een pgb? Zeg dat in dit gesprek."
         ],
         "contact": {
           "naam": "Gemeente Gouda",
@@ -42,16 +40,16 @@
           "email": "gemeente@gouda.nl",
           "url": "https://www.gouda.nl/direct-regelen/zorg-en-hulp/opgroeien-en-opvoeden/melding-jeugdhulp"
         },
-        "doorlooptijd": "De gemeente besluit uiterlijk binnen 8 weken na uw aanvraag (artikel 7 Verordening 2026). Bij een crisis regelt de gemeente zo snel mogelijk een tijdelijke voorziening."
+        "doorlooptijd": "De gemeente besluit binnen 8 weken na uw aanvraag. Bij een crisis regelt zij zo snel mogelijk tijdelijke hulp."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. De hulp wordt alleen vergoed als de aanbieder een contract met de gemeente heeft. Bij lichte psychische klachten kan de huisarts met de praktijkondersteuner of het Sociaal Team meedenken. Bij ernstige klachten verwijst de huisarts naar de specialistische jeugd-ggz.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De hulp wordt alleen vergoed als de aanbieder een contract met de gemeente heeft. Bij lichte psychische klachten kan de huisarts de praktijkondersteuner of het Sociaal Team laten meedenken.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met Gouda. Kijk samen op Startpunt, het overzicht van de regio Midden-Holland.",
-          "Neem zelf contact op met de aanbieder. Een aanbieder zonder contract wordt alleen vergoed als de gemeente vooraf schriftelijk akkoord geeft. Bel daarom eerst de gemeente."
+          "Zoek samen een aanbieder met een contract met Gouda op Startpunt, het overzicht van de regio Midden-Holland.",
+          "Wilt u naar een aanbieder zonder contract? Bel dan eerst de gemeente, want die moet vooraf schriftelijk akkoord geven."
         ],
         "contact": [
           {
@@ -79,10 +77,9 @@
       {
         "type": "school",
         "naam": "Via school en samenwerkingsverband",
-        "omschrijving": "Heeft u zorgen over leren, gedrag of schoolgang? Dan kan school meedenken en contact leggen met de gemeente of het Sociaal Team. Voor extra ondersteuning op school werkt de school samen met het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Bij zorgen over leren, gedrag of schoolgang kan school meedenken en contact leggen met het Sociaal Team of de gemeente. Voor extra ondersteuning werkt de school samen met het samenwerkingsverband passend onderwijs.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om contact met het Sociaal Team of de gemeente, of meld u zelf aan.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Gaat uw kind niet meer naar school? Vraag school en de leerplichtambtenaar om samen met u naar hulp te zoeken."
         ],
         "contact": [
@@ -118,10 +115,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Gouda op de pagina Spoednummers van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Gouda: Spoednummers",

@@ -4,18 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.maatschappelijkezaken.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Blaricum regelt Maatschappelijke Zaken de toegang tot jeugdhulp. Dit team van de gemeente werkt ook voor Huizen en Laren. U meldt zich zelf aan, een verwijzing is niet nodig. U belt, mailt of vult het formulier in. Of u loopt binnen bij het inloopspreekuur in Blaricum. Een medewerker jeugd bespreekt uw vraag en maakt met u een plan. De medewerker jeugd neemt ook het besluit over specialistische hulp. Voor vragen over opvoeden en opgroeien en voor het consultatiebureau kunt u ook terecht bij Jeugd en Gezin van de GGD. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek hebt, is niet openbaar te vinden. Vraag ernaar bij uw aanmelding.",
+    "samenvatting": "In Blaricum meldt u zich zelf bij Maatschappelijke Zaken, het team van de gemeente dat ook voor Huizen en Laren werkt; bellen, mailen, het formulier of het inloopspreekuur in Blaricum kan. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Maatschappelijke Zaken: medewerkers jeugd van de gemeente",
-        "omschrijving": "Maatschappelijke Zaken werkt voor de gemeenten Huizen, Blaricum en Laren. De medewerkers jeugd bespreken uw vraag en beoordelen of uw kind jeugdhulp krijgt. Zij geven ook het besluit af (beschikking). U meldt zich zelf aan. Ieder gezin krijgt één vast contactpersoon. Lichtere hulp bij opvoeden en opgroeien krijgt u bij Jeugd en Gezin, zonder besluit van de gemeente.",
+        "omschrijving": "Een medewerker jeugd bespreekt uw vraag, maakt met u een plan en beslist over specialistische hulp. Ieder gezin krijgt één vast contactpersoon. Lichtere hulp bij opvoeden en opgroeien, zoals een gesprek met een opvoedcoach, krijgt u zonder besluit bij Jeugd en Gezin van de GGD.",
         "stappen": [
-          "Bel Maatschappelijke Zaken, mail of vul het formulier voor jeugdhulp in. U kunt ook binnenlopen bij het inloopspreekuur in Blaricum.",
-          "Wacht op een telefoontje van het Informatiepunt. Samen maakt u uw vraag helder. Daarna krijgt u een medewerker jeugd.",
-          "Spreek af met de medewerker jeugd, zo nodig bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit.",
-          "Hebt u eerst lichtere hulp nodig, bijvoorbeeld een gesprek met een opvoedcoach? Meld u dan aan bij Jeugd en Gezin."
+          "Bel Maatschappelijke Zaken, mail of vul het formulier voor jeugdhulp in, of loop binnen bij het inloopspreekuur in Blaricum.",
+          "Het Informatiepunt belt u en maakt samen met u uw vraag helder. Daarna krijgt u een medewerker jeugd.",
+          "Spreek af met de medewerker jeugd, zo nodig bij u thuis, en maak samen een plan. U mag iemand meenemen."
         ],
         "contact": [
           {
@@ -33,16 +31,16 @@
             "openingstijden": "Telefonisch ma t/m vr 8.30–16.30 uur voor vragen over uw kind. Afspraak maken of wijzigen: ma t/m vr 8.00–13.00 uur"
           }
         ],
-        "doorlooptijd": "Na een telefonische aanmelding belt Maatschappelijke Zaken u binnen 2 werkdagen terug. Volgens de Verordening jeugdhulp neemt de gemeente binnen acht weken na uw aanvraag een besluit. Dat kan eenmalig verlengd worden als er meer tijd voor onderzoek nodig is."
+        "doorlooptijd": "Na een telefonische aanmelding belt Maatschappelijke Zaken binnen 2 werkdagen terug. De gemeente beslist binnen acht weken na uw aanvraag, eenmalig te verlengen als er meer onderzoek nodig is."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Maatschappelijke Zaken. Een pgb kan alleen de gemeente toekennen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen. Een pgb kan alleen de gemeente toekennen.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van Jeugd en Gezin.",
           "Vraag de huisarts om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Een aanvraag doet u niet zelf: de aanbieder meldt de start van de hulp bij de gemeente."
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
         ],
         "contact": {
           "naam": "Jeugd en Gezin (GGD Gooi en Vechtstreek)",
@@ -55,7 +53,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met school. Komt u er niet uit, dan helpt het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden Unita (basisonderwijs) en Qinas (voortgezet onderwijs). Bellen met het steunpunt kan anoniem. Blaricum heeft zelf geen middelbare school. Leerlingen gaan naar scholen in de regio.",
+        "omschrijving": "Het Ouder- en jeugdsteunpunt is van de samenwerkingsverbanden Unita (basisonderwijs) en Qinas (voortgezet onderwijs); bellen kan anoniem. Blaricum heeft zelf geen middelbare school; leerlingen gaan naar scholen in de regio.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan aan bij Maatschappelijke Zaken.",
@@ -92,10 +90,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Wat de gemeente Blaricum zelf zegt over kindermishandeling en huiselijk geweld, staat op haar eigen pagina.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor meer informatie over kindermishandeling en huiselijk geweld op de pagina van de gemeente Blaricum."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Blaricum: kindermishandeling of huiselijk geweld melden",

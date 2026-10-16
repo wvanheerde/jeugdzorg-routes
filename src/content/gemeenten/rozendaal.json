@@ -4,17 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.rozendaal.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/jeugd-3/jeugdhulp",
   "toegang": {
-    "samenvatting": "Rozendaal is een kleine gemeente en laat de jeugdhulp regelen door de gemeente Rheden. U meldt zich dus bij het Sociaal Meldpunt van Rheden. Daar werkt Team Toegang jeugd, dat beslist over jeugdhulp. Voor advies en lichte hulp bij opvoeden en opgroeien is er Incluzio Rheden, met een vast informatiepunt in Velp. U meldt zich zelf aan; een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Begin 2025 was er een lange wachtlijst, maar volgens de gemeente komen ouders nu weer binnen de termijn op gesprek. Vraag bij uw melding hoe lang het duurt.",
+    "samenvatting": "Rozendaal laat de jeugdhulp regelen door de gemeente Rheden: u meldt zich bij het Sociaal Meldpunt van Rheden, of voor lichte hulp bij Incluzio Rheden. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Toegang jeugd van gemeente Rheden en Incluzio Rheden",
-        "omschrijving": "De gemeente Rozendaal laat de toegang tot jeugdhulp uitvoeren door de gemeente Rheden. Team Toegang jeugd onderzoekt uw vraag en besluit over jeugdhulp. Incluzio Rheden is het welzijnsteam. Het geeft advies en lichte ondersteuning bij opvoeden en opgroeien, zonder besluit van de gemeente. De dorpsteams van Incluzio werken ook voor Rozendaal.",
+        "omschrijving": "Team Toegang jeugd van Rheden onderzoekt uw vraag en besluit over jeugdhulp. Het dorpsteam van Incluzio Rheden, ook voor Rozendaal, geeft advies en lichte hulp zonder besluit; er is een vast informatiepunt in Velp.",
         "stappen": [
-          "Wilt u eerst advies of lichte hulp? Neem contact op met het dorpsteam van Incluzio Rheden voor Velp en Rozendaal.",
-          "Is meer hulp nodig? Doe een melding bij het Sociaal Meldpunt van de gemeente Rheden, online, per mail of telefonisch.",
-          "Bespreek uw vraag met Team Toegang jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, vraag dan om de beschikking (schriftelijk besluit) van de gemeente. Daarna start een aanbieder met de hulp."
+          "Wilt u eerst advies of lichte hulp? Neem contact op met het dorpsteam van Incluzio voor Velp en Rozendaal.",
+          "Is meer hulp nodig? Meld u bij het Sociaal Meldpunt van Rheden, online, per mail of telefonisch.",
+          "Bespreek uw vraag met Team Toegang jeugd. U mag iemand meenemen. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "url": "https://www.incluziorheden.nl/contact/",
             "openingstijden": "Telefonisch werkdagen 9.30–12.30 en 13.00–16.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Begin 2025 was er een lange wachtlijst; volgens de gemeente komen ouders nu weer binnen de termijn op gesprek. Vraag bij uw melding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Toegang jeugd. Voor vragen over kinderen van 0 tot 18 jaar is er ook de jeugdgezondheidszorg (JGZ) van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder waarmee de gemeente een contract heeft.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de GGD.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -52,11 +52,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Rozendaal heeft een basisschool (IKC Dorpsschool) en een school voor voortgezet onderwijs (Het Rhedens, locatie Rozendaal). Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat PassendWijs. Voor het voortgezet onderwijs is dat De Verbinding (scholen in Arnhem) of Samenwerkingsverband Regio Zutphen (Het Rhedens). Voor hulp bij opvoeden of jeugdhulp meldt u zich bij Team Toegang jeugd.",
+        "omschrijving": "Rozendaal heeft één basisschool (IKC Dorpsschool) en een middelbare school (Het Rhedens, locatie Rozendaal). Het ouder- en jeugdsteunpunt is voor de basisschool van PassendWijs, voor de middelbare school van De Verbinding (scholen in Arnhem) of Samenwerkingsverband Regio Zutphen (Het Rhedens).",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Is er ook hulp buiten school nodig? Doe een melding bij het Sociaal Meldpunt van de gemeente Rheden."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -90,10 +89,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Wat de gemeente zelf over huiselijk geweld en kindermishandeling zegt, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Zorgen over de veiligheid van een kind? Kijk op de pagina Huiselijk geweld of kindermishandeling van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Rozendaal: huiselijk geweld of kindermishandeling",

@@ -4,18 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.kampen.nl/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Kampen vraagt u hulp bij het Centrum voor Jeugd en Gezin (CJG). Het CJG hoort bij de gemeente. Medewerkers jeugd en schoolmaatschappelijk werkers geven er advies en regelen hulp; samen heten zij het Lokaal Team. U kunt zich zelf aanmelden, of iemand anders doet het voor u. Een verwijzing is niet nodig. Na een eerste telefoongesprek kijkt het CJG met u of uw netwerk, school of voorzieningen in de buurt genoeg helpen. Is specialistische hulp nodig, dan maakt u samen een plan en volgt een schriftelijk besluit. Ook de huisarts mag rechtstreeks verwijzen. Elke school heeft een schoolmaatschappelijk werker. Hoe lang het duurt voordat het CJG uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Kampen meldt u zich bij het Centrum voor Jeugd en Gezin (CJG) van de gemeente; dat mag ook iemand anders voor u doen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Kampen",
-        "omschrijving": "Het CJG Kampen hoort bij de gemeente en werkt met medewerkers jeugd en schoolmaatschappelijk werkers. Samen heten zij het Lokaal Team. Het CJG geeft advies over opgroeien en opvoeden en regelt jeugdhulp. U kunt zich zelf aanmelden; een verwijzing is niet nodig.",
+        "omschrijving": "Medewerkers jeugd en schoolmaatschappelijk werkers van het CJG vormen samen het Lokaal Team. Zij geven advies over opgroeien en opvoeden en regelen jeugdhulp. Een familielid of mantelzorger mag u aanmelden.",
         "stappen": [
-          "Meld uw hulpvraag bij het CJG Kampen: bel, mail of vul het formulier op de website in. Een familielid of mantelzorger mag dit ook voor u doen.",
-          "Bespreek uw vraag en situatie met het CJG, meestal eerst telefonisch. Spreek daarna samen af of een uitgebreider gesprek nodig is, bij u thuis of in het stadhuis.",
-          "Kijk in het gesprek samen of uw netwerk of voorzieningen in de buurt kunnen helpen. Soms lost dat uw vraag al op.",
-          "Maak samen een plan van aanpak als specialistische jeugdhulp nodig is. U mag dit plan ook zelf of met anderen maken (een familiegroepsplan). Vraag om een schriftelijk verslag en een schriftelijk besluit (beschikking).",
-          "Vindt u het lastig om uw vraag te beschrijven? Vraag gratis hulp van een onafhankelijke cliëntondersteuner van MEE Samen. Die kan ook mee naar het gesprek."
+          "Bel of mail het CJG, of vul het formulier op de website in.",
+          "Bespreek uw vraag, meestal eerst telefonisch. Is een uitgebreider gesprek nodig, dan is dat bij u thuis of in het stadhuis. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, maak dan samen een plan van aanpak; dat mag ook een familiegroepsplan zijn. Daarna krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "email": "info@meesamen.nl",
             "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/kampen"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat het CJG uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via het CJG. Bij huisartsen in Kampen werken praktijkondersteuners jeugd. GGD IJsselland doet de jeugdgezondheidszorg: het consultatiebureau en de jeugdarts.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij huisartsen in Kampen werken praktijkondersteuners jeugd. GGD IJsselland doet het consultatiebureau en de jeugdarts.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg van GGD IJsselland.",
-          "Vraag de arts om een verwijzing naar een aanbieder die een contract heeft met de gemeente.",
-          "U hoeft zelf geen aanvraag te doen. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD IJsselland.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD IJsselland",
@@ -52,11 +51,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke school in Kampen heeft een schoolmaatschappelijk werker. Die werkt voor het CJG en kan u en uw kind vaak snel helpen. Is meer hulp nodig, dan schakelt de schoolmaatschappelijk werker het CJG in.",
+        "omschrijving": "Elke school in Kampen heeft een schoolmaatschappelijk werker van het CJG, die u en uw kind vaak snel kan helpen. Is meer hulp nodig, dan schakelt die het CJG in.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school hoe u de schoolmaatschappelijk werker kunt spreken, of neem zelf contact op met het CJG Kampen.",
-          "Is meer hulp nodig? Dan volgt een gesprek over jeugdhulp bij het CJG.",
+          "Vraag school hoe u de schoolmaatschappelijk werker kunt spreken.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -77,10 +75,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente staat meer over hulp bij onveiligheid thuis en kindermishandeling.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij onveiligheid thuis op de pagina Huiselijk geweld en kindermishandeling van de gemeente Kampen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Kampen: huiselijk geweld en kindermishandeling",

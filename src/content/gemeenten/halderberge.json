@@ -4,17 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.halderberge.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Halderberge is het wijkteam de eerste plek voor vragen over opvoeden, opgroeien en jeugdhulp. De jeugdprofessionals van het wijkteam werken voor de gemeente. Er zijn wijkteams in Oudenbosch, Hoeven, Oud Gastel en Stampersgat en Bosschenhoofd. U meldt zich zelf aan, een verwijzing is niet nodig. Dat kan telefonisch of met het contactformulier wijkteam jeugd (inloggen met DigiD). Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat het wijkteam uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Halderberge meldt u zich bij het wijkteam van de gemeente, met teams in Oudenbosch, Hoeven, Oud Gastel en Stampersgat en Bosschenhoofd; ook jongeren kunnen er zelf terecht. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteam Halderberge (jeugdprofessionals van de gemeente)",
-        "omschrijving": "De jeugdprofessionals van het wijkteam geven tips en informatie over opvoeden en opgroeien. Ze komen bij gezinnen thuis en zoeken samen met u en uw kind naar een oplossing. Is specialistische hulp nodig? Dan legt het wijkteam dat met u vast in een gezinsplan. De gemeente neemt daarna een besluit (beschikking). Ook jongeren zelf kunnen bij het wijkteam terecht.",
+        "omschrijving": "De jeugdprofessionals geven tips en informatie over opvoeden en opgroeien, komen bij gezinnen thuis en zoeken samen met u en uw kind naar een oplossing. Is specialistische hulp nodig, dan legt het wijkteam dat met u vast in een gezinsplan en neemt de gemeente een besluit (beschikking).",
         "stappen": [
-          "Bel het wijkteam of vul het contactformulier wijkteam jeugd in. Voor het formulier logt u in met DigiD.",
-          "Een jeugdprofessional bespreekt uw vraag met u. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is meer hulp nodig? Maak dan samen een gezinsplan. Daarin staan uw hulpvraag en de doelen die u wilt bereiken.",
-          "Vraag om het gezinsplan en het besluit over de hulp op papier."
+          "Bel het wijkteam of vul het contactformulier wijkteam jeugd in (inloggen met DigiD).",
+          "Bespreek uw vraag met een jeugdprofessional. U mag iemand meenemen.",
+          "Is meer hulp nodig? Maak samen een gezinsplan met uw hulpvraag en doelen, en vraag om het besluit op papier."
         ],
         "contact": {
           "naam": "Wijkteam Halderberge (jeugd)",
@@ -22,16 +21,17 @@
           "email": "gemeente@halderberge.nl",
           "url": "https://www.halderberge.nl/wijkteam",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het wijkteam uw vraag oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het wijkteam. Jeugdartsen werken bij de jeugdgezondheidszorg van de GGD West-Brabant.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Jeugdartsen werken bij de jeugdgezondheidszorg van GGD West-Brabant.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD West-Brabant",
@@ -43,11 +43,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Jongerenwerkers van de gemeente komen op alle basisscholen en middelbare scholen in Halderberge. Samen met school kunnen zij extra hulp opzetten voor leerlingen die dat nodig hebben. Komt u er met school niet uit? Dan kunt u advies vragen bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Jongerenwerkers van de gemeente komen op alle basisscholen en middelbare scholen in Halderberge. Samen met school kunnen zij extra hulp opzetten voor leerlingen die dat nodig hebben.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de jongerenwerker of het wijkteam kan meedenken. U kunt zich ook zelf aanmelden bij het wijkteam.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de jongerenwerker of het wijkteam kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -72,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina Jeugdhulp van de gemeente staat welke meldpunten en crisisdiensten er in uw regio zijn, ook voor een kind in een onveilige situatie.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in uw regio op de pagina Jeugdhulp van de gemeente, onder het kopje Met spoed hulp nodig."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Halderberge: jeugdhulp, met spoed hulp nodig",

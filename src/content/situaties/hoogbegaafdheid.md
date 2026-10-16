@@ -14,7 +14,7 @@ routes:
 landelijk: [04-onderwijs, 02-toegang, 03-rechten]
 regelingen:
   - naam: "School moet ook bij hoogbegaafdheid zorgen voor passend onderwijs"
-    toelichting: "School en samenwerkingsverband moeten een passende plek bieden. Dat geldt ook voor leerlingen die meer uitdaging nodig hebben. In het ontwikkelingsperspectief staat een deel over wat school gaat doen (het handelingsdeel). Voor dat deel heeft school uw instemming nodig. Komt u er samen niet uit? Dan helpen de onderwijsconsulenten gratis."
+    toelichting: "School en samenwerkingsverband moeten een passende plek bieden. Dat geldt ook voor leerlingen die meer uitdaging nodig hebben. In het ontwikkelingsperspectief staat een deel over wat school gaat doen (het handelingsdeel). Voor dat deel heeft school uw instemming nodig. Komt u er samen niet uit? Dan helpen Onderwijsconsulenten gratis: onafhankelijke adviseurs van de overheid."
     url: https://www.onderwijsconsulenten.nl/
   - naam: "Onderzoek naar hoogbegaafdheid"
     toelichting: "Is er alleen een vermoeden van hoogbegaafdheid? Dan wordt een intelligentieonderzoek niet vergoed. School of het samenwerkingsverband betaalt het soms wel. Heeft uw kind klachten, zoals angst of somberheid, of loopt het vast? Dan loopt het onderzoek via de jeugd-GGZ en betaalt de gemeente het."

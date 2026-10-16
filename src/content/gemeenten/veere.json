@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zeeland",
   "websiteJeugd": "https://www.veere.nl/toegang-wmo-en-jeugdwet",
   "toegang": {
-    "samenvatting": "In Veere regelt de gemeente de toegang zelf. Het team heet Toegang Wmo en Jeugdwet. U belt, mailt of vult het contactformulier in. Een verwijzing is niet nodig. De gemeente kijkt eerst of u verder kunt met advies, uw eigen netwerk of gratis hulp van een welzijnsorganisatie, zoals Welzijn Veere. Alleen als dat niet genoeg is, volgt een gesprek met een medewerker jeugd, meestal bij u thuis. Daarna maakt u samen een ondersteuningsplan en krijgt u een besluit (beschikking). Ook de huisarts mag rechtstreeks verwijzen. Volgens de regels beslist de gemeente binnen acht weken na de aanvraag. Ondertekent u zelf het ondersteuningsplan en dient u het in, dan is dat tien werkdagen. Hoe lang het duurt tot het eerste contact, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Veere meldt u zich bij het team Toegang Wmo en Jeugdwet van de gemeente. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Toegang Wmo en Jeugdwet van de gemeente Veere",
-        "omschrijving": "Dit team van de gemeente beoordeelt of uw kind jeugdhulp krijgt. U meldt zich zelf aan. Het team kijkt breed naar uw vraag. Soms wijst het u de weg naar hulp zonder beschikking (besluit van de gemeente), bijvoorbeeld bij een welzijnsorganisatie. Wilt u gespecialiseerde jeugdhulp, dan onderzoekt een medewerker jeugd uw situatie en krijgt u een schriftelijk besluit. De gemeente wil dat u eerst kijkt wat u zelf, met uw netwerk of met lichte hulp kunt doen. Hulp via de Jeugdwet ziet zij als laatste stap.",
+        "omschrijving": "Het team kijkt eerst of advies, uw eigen netwerk of gratis hulp van een welzijnsorganisatie zoals Welzijn Veere genoeg is. Is meer nodig, dan onderzoekt een medewerker jeugd uw situatie, meestal bij u thuis. Voor gespecialiseerde jeugdhulp krijgt u een schriftelijk besluit (beschikking).",
         "stappen": [
-          "Bel de Toegang Wmo en Jeugdwet of vul het contactformulier in. Houd uw burgerservicenummer (BSN) en een terugbelnummer bij de hand.",
-          "Vertel uw vraag. De gemeente adviseert soms een welzijnsorganisatie zoals Welzijn Veere, of uw eigen netwerk.",
-          "Is meer nodig? Dan komt een medewerker jeugd meestal bij u thuis. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een ondersteuningsplan. U mag het zelf schrijven of samen met de medewerker jeugd. U krijgt twee weken om te reageren op het verslag.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+          "Bel het team of vul het contactformulier in. Houd uw burgerservicenummer (BSN) en een terugbelnummer bij de hand.",
+          "Vertel uw vraag. Is meer nodig dan advies, dan komt een medewerker jeugd meestal bij u thuis. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan. U mag het zelf schrijven. U krijgt twee weken om op het verslag te reageren."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "url": "https://www.welzijnveere.nl/contact/",
             "openingstijden": "Telefonisch maandag tot en met donderdag 9.00–16.00 uur, vrijdag 9.00–12.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens de regels beslist de gemeente binnen acht weken na de aanvraag, of binnen tien werkdagen als u het ondersteuningsplan zelf ondertekent en indient. Hoe lang het duurt tot het eerste contact, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de Toegang Wmo en Jeugdwet. Heeft uw jonge kind een ontwikkelingsprobleem, dan kijken de jeugdgezondheidszorg, huisartsen en andere specialisten samen mee. Dat heet Integrale Vroeghulp.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. Heeft uw jonge kind een ontwikkelingsprobleem, dan kijken jeugdgezondheidszorg, huisartsen en specialisten samen mee. Dat heet Integrale Vroeghulp.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
           "Vraag zo nodig om een verwijzing naar een aanbieder met een contract bij de regio.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -51,13 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met school. Basisscholen op Walcheren hebben een intern begeleider die extra steun regelt. Is meer nodig, dan kan het samenwerkingsverband passend onderwijs Kind op 1 extra ondersteuning op school regelen. Heeft uw kind op school ook zorg nodig, bijvoorbeeld persoonlijke verzorging? Dan is dat jeugdhulp. De gemeente en Kind op 1 maken dan samen één plan. Meld uw kind liefst vóór half mei aan voor het nieuwe schooljaar. Het Ouder- en jeugdsteunpunt helpt ook bij vragen over het voortgezet onderwijs.",
+        "omschrijving": "Basisscholen op Walcheren hebben een intern begeleider die extra steun regelt. Is meer nodig, dan kan het samenwerkingsverband Kind op 1 extra ondersteuning regelen. Heeft uw kind op school ook zorg nodig, zoals persoonlijke verzorging, dan maken de gemeente en Kind op 1 samen één plan; meld dat liefst vóór half mei aan voor het nieuwe schooljaar.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht of de intern begeleider.",
-          "Vraag school welke extra ondersteuning mogelijk is en leg afspraken schriftelijk vast.",
           "Heeft uw kind ook zorg op school nodig? Vraag de intern begeleider om onderwijs en zorg samen aan te vragen bij Kind op 1 en de gemeente.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland of bij het samenwerkingsverband.",
-          "Heeft u een vraag over jeugdhulp zelf? Meld u dan aan bij de Toegang Wmo en Jeugdwet."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland, ook bij vragen over het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -80,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis die niet kan wachten, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn, ook voor een kind of jongere in crisis, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten op de pagina Crisissituatie van de gemeente Veere."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Veere: crisissituatie, onderneem actie",

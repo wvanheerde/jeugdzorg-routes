@@ -4,18 +4,16 @@
   "provincie": "Flevoland",
   "websiteJeugd": "https://www.dronten.nl/direct-regelen/gezondheid-en-inkomen/jeugdhulp/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Dronten vraagt u jeugdhulp aan bij een gids jeugd van de gemeente. U meldt zich zelf aan per e-mail. Een verwijzing is niet nodig. De gids zoekt samen met u naar passende hulp en regelt die. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks naar hulp verwijzen. Hoe lang het duurt voordat een gids uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Dronten meldt u zich per e-mail bij een gids jeugd van de gemeente; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gids jeugd van de gemeente Dronten",
-        "omschrijving": "De gidsen jeugd werken voor de gemeente. Zij onderzoeken wat uw kind en gezin nodig hebben, maken met u een plan en regelen de hulp. Dat plan heet in Dronten het routeplan. U meldt zich zelf aan. Een verwijzing is niet nodig. Start er jeugdhulp, dan meldt de gids uw kind aan in ESAR. Dat is een beveiligd systeem waarin hulpverleners zien wie er nog meer bij uw kind betrokken is.",
+        "omschrijving": "De gidsen jeugd onderzoeken wat uw kind en gezin nodig hebben, maken met u een plan en regelen de hulp. Dat plan heet in Dronten het routeplan. Start er jeugdhulp, dan meldt de gids uw kind aan in ESAR, een beveiligd systeem waarin hulpverleners zien wie er nog meer bij uw kind betrokken is.",
         "stappen": [
-          "Mail de gids jeugd met een korte omschrijving van uw hulpvraag en waar u concreet tegenaan loopt. Voeg het ingevulde vragenformulier Jeugd en uw contactgegevens toe.",
-          "Wacht tot een gids jeugd contact met u opneemt over uw hulpvraag.",
-          "Bespreek uw situatie in een gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om het routeplan, het verslag van het gesprek. Controleer of uw hulpvraag er goed in staat.",
-          "Krijgt uw kind specialistische hulp, vraag dan om een schriftelijk besluit."
+          "Mail de gids jeugd wat er speelt en waar u tegenaan loopt. Voeg het ingevulde vragenformulier Jeugd en uw contactgegevens toe.",
+          "Een gids jeugd neemt contact met u op voor een gesprek. U mag iemand meenemen.",
+          "Vraag om het routeplan en controleer of uw hulpvraag er goed in staat. Krijgt uw kind specialistische hulp, vraag dan om een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Gidsen jeugd (gemeente Dronten)",
@@ -23,16 +21,17 @@
           "email": "jeugd@dronten.nl",
           "url": "https://www.dronten.nl/direct-regelen/gezondheid-en-inkomen/jeugdhulp/jeugdhulp",
           "openingstijden": "Telefonisch via het algemene nummer van de gemeente: ma t/m do 9.00–12.30 en 13.30–17.00 uur, vr 9.00–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat een gids uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de gids jeugd. De jeugdgezondheidszorg doet het consultatiebureau en de gezondheidsonderzoeken op school. Voor kinderen van 0 tot 4 jaar is dat Icare Jeugdgezondheidszorg, voor kinderen van 4 tot 18 jaar GGD Flevoland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdgezondheidszorg doet het consultatiebureau en de gezondheidsonderzoeken op school: Icare voor kinderen van 0 tot 4 jaar, GGD Flevoland voor kinderen van 4 tot 18 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder. U kunt zich ook melden bij de gids jeugd.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -54,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op basisscholen werkt een ondersteuningsteam (basisteam) met onder meer de intern begeleider, een jeugdverpleegkundige en een schoolmaatschappelijk werker. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs: POLD voor de basisschool, Hanzeland voor het voortgezet onderwijs. Heeft uw kind meer hulp nodig dan school kan bieden, dan meldt u zich bij de gids jeugd.",
+        "omschrijving": "Op basisscholen werkt een ondersteuningsteam (basisteam) met onder meer de intern begeleider, een jeugdverpleegkundige en een schoolmaatschappelijk werker. Voor advies buiten school is er het Ouder- en jeugdsteunpunt: POLD voor de basisschool, Hanzeland voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om het ondersteuningsteam in te schakelen. U kunt bij het gesprek aansluiten.",
-          "Is meer hulp nodig dan school kan bieden? Meld u bij de gids jeugd.",
+          "Vraag school het ondersteuningsteam in te schakelen. U kunt bij het gesprek aansluiten.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -87,10 +85,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. De gemeente heeft een pagina over huiselijk geweld en het meldpunt Veilig Thuis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk bij onveiligheid thuis op de pagina Huiselijk geweld van de gemeente Dronten."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Dronten: huiselijk geweld en Veilig Thuis",

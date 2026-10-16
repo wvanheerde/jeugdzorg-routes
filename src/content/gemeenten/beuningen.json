@@ -4,34 +4,33 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.beuningen.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Beuningen is het Sociaal Team de voordeur voor jeugdhulp, hulp bij het huishouden en geldzorgen. U meldt zich zelf aan, een verwijzing is niet nodig. Het team heeft een ondersteuner jeugd en gezin die bij de huisartsen werkt, en schoolmaatschappelijk werkers op de basisscholen. Zij bieden lichte hulp zonder besluit van de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Dat gebeurt in Beuningen vaak. De gemeente zegt dat een melding binnen twee weken aan een medewerker jeugd (medewerker die uw vraag onderzoekt) wordt gegeven. Hoe lang het daarna duurt tot het eerste gesprek, wordt niet gemeten. Vraag dat bij uw melding.",
+    "samenvatting": "In Beuningen meldt u zich bij het Sociaal Team, de voordeur voor jeugdhulp, hulp bij het huishouden en geldzorgen; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school, waar medewerkers van het team werken.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Beuningen",
-        "omschrijving": "Het Sociaal Team is onderdeel van de gemeente. Het helpt bij vragen over opvoeden en jeugdhulp, over de Wmo (hulp voor volwassenen) en over geldzorgen. U meldt zich zelf aan. Een medewerker van het team komt bij u thuis voor een gesprek. Is er professionele hulp nodig, dan krijgt u een beschikking (besluit van de gemeente) en meldt het team u aan bij een zorgaanbieder.",
+        "omschrijving": "Het Sociaal Team is onderdeel van de gemeente. Lichte hulp regelt het team zonder besluit van de gemeente. Is professionele hulp nodig, dan krijgt u een beschikking (besluit van de gemeente) en meldt het team u aan bij een zorgaanbieder.",
         "stappen": [
           "Bel het Sociaal Team of vul het contactformulier op de website in.",
-          "Bespreek uw vraag met een medewerker. Is lichte hulp genoeg, dan kan het team die zonder besluit regelen.",
-          "Spreek een gesprek bij u thuis af met een medewerker. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om het onderzoeksverslag op papier. Daarin staat wat u zelf kunt, wie in uw netwerk kan helpen en welke professionele hulp nodig is.",
-          "Is hulp nodig? Dan krijgt u een beschikking en meldt het team u aan bij een zorgaanbieder. Vraag naar de wachttijd, want die kan er bij de aanbieder zijn."
+          "Een medewerker komt bij u thuis voor een gesprek. U mag iemand meenemen.",
+          "Vraag om het onderzoeksverslag op papier. Daarin staat welke hulp nodig is."
         ],
         "contact": {
           "naam": "Sociaal Team Beuningen",
           "telefoon": "14 024",
           "url": "https://www.beuningen.nl/sociaalteam",
           "openingstijden": "Telefonisch ma t/m vr 8.30–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de gemeente gaat een melding binnen twee weken naar een medewerker jeugd. Hoe lang het daarna duurt tot het eerste gesprek, wordt niet gemeten; ook bij de aanbieder kan een wachttijd zijn."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisartsen in Beuningen werkt een ondersteuner jeugd en gezin van het Sociaal Team. Die kan zelf met u een paar gesprekken voeren, of u sneller bij de juiste hulp brengen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen; in Beuningen gebeurt dat vaak. Bij de huisartsen werkt een ondersteuner jeugd en gezin van het Sociaal Team. Die kan zelf een paar gesprekken met u voeren, of u sneller bij de juiste hulp brengen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar de ondersteuner jeugd en gezin, of direct naar een aanbieder met een contract.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar de ondersteuner jeugd en gezin, of direct naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -44,10 +43,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen in Beuningen werkt schoolmaatschappelijk werk van het Sociaal Team. Dat werkt zonder beschikking en is laagdrempelig. Komt u er met school niet uit, dan kunt u advies vragen bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op de basisscholen werkt schoolmaatschappelijk werk van het Sociaal Team. Daar is geen beschikking voor nodig.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de schoolmaatschappelijk werker kan meedenken, of meld u aan bij het Sociaal Team.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of de schoolmaatschappelijk werker kan meedenken.",
           "Is meer hulp nodig? Bespreek dan met het Sociaal Team de vervolgstappen.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
@@ -68,10 +66,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er buiten kantooruren is voor jeugd in uw regio, staat op de pagina Jeugdhulp van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor jeugd onder het kopje Spoed op de pagina Jeugdhulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Beuningen: kopje Spoed op de pagina Jeugdhulp",

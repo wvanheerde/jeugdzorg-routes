@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Drenthe",
   "websiteJeugd": "https://socialeteamsborgerodoorn.nl/jouw-vraag/opvoeding/",
   "toegang": {
-    "samenvatting": "In Borger-Odoorn vraagt u jeugdhulp aan bij de Sociale Teams. Er zijn drie teams: Het Veenland in Nieuw-Buinen, De Monden in Valthermond en De Hondsrug in Borger. Samen zijn ze één stichting met één telefoonnummer. U meldt zich zelf aan, een verwijzing is niet nodig. Daarna volgt een gesprek, meestal bij u thuis (een keukentafelgesprek), en maakt u samen een plan. Is specialistische hulp nodig, dan neemt de gemeente het besluit. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd van de Sociale Teams. Soms moet u wachten op het eerste gesprek. Hoe lang, is niet openbaar te vinden: vraag het bij uw aanmelding.",
+    "samenvatting": "In Borger-Odoorn meldt u zich bij de Sociale Teams: Het Veenland in Nieuw-Buinen, De Monden in Valthermond en De Hondsrug in Borger, samen één stichting met één telefoonnummer. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociale Teams Borger-Odoorn",
-        "omschrijving": "De Sociale Teams zijn de ingang voor jeugdhulp, Wmo (hulp voor volwassenen), werk en inkomen. Voor jeugd bieden zij advies, opvoedondersteuning en gesprekken voor kinderen, zonder besluit van de gemeente. Is zwaardere hulp nodig? Dan maken zij met u een plan en adviseren zij de gemeente. De gemeente stuurt dan een beschikking (schriftelijk besluit). Het team werkt waar het kan met één plan en één vaste contactpersoon (regisseur).",
+        "omschrijving": "De Sociale Teams geven advies, opvoedondersteuning en gesprekken voor kinderen, zonder besluit van de gemeente. Is zwaardere hulp nodig, dan maken zij met u een plan en adviseren zij de gemeente, die een beschikking (schriftelijk besluit) stuurt. Waar het kan krijgt u één plan en één vaste contactpersoon (regisseur).",
         "stappen": [
           "Meld u aan bij de Sociale Teams, telefonisch of met het online formulier. Zeg het als u dringend hulp nodig heeft.",
-          "Wacht op de bevestiging per e-mail of post. Daarna plant het team een gesprek, vaak bij u thuis.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan. Is specialistische jeugdhulp nodig, dan vraagt het team die aan bij de gemeente.",
-          "Vraag om een schriftelijk verslag en, bij specialistische hulp, om de beschikking."
+          "Na de bevestiging per e-mail of post plant het team een gesprek, vaak bij u thuis (keukentafelgesprek). U mag iemand meenemen.",
+          "Maak samen een plan. Is specialistische jeugdhulp nodig, dan vraagt het team die aan bij de gemeente."
         ],
         "contact": {
           "naam": "Sociale Teams Borger-Odoorn",
@@ -25,16 +23,17 @@
           "url": "https://socialeteamsborgerodoorn.nl/contact/",
           "adres": "Bezoek alleen op afspraak: Noorderdiep 137, Nieuw-Buinen; Vrijheidslaan 11, Valthermond; Hoofdstraat 23, Borger",
           "openingstijden": "Telefonisch werkdagen 8.30–12.30 uur; daarna alleen in spoedsituaties"
-        }
+        },
+        "doorlooptijd": "Soms moet u wachten op het eerste gesprek. Hoe lang, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, praktijkondersteuner jeugd of jeugdarts",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de Sociale Teams. Bij huisartsen in Borger-Odoorn werkt een praktijkondersteuner jeugd van de Sociale Teams. Die heeft meer tijd voor een gesprek dan de huisarts en kent de lichtere hulp in de buurt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij huisartsen in Borger-Odoorn werkt een praktijkondersteuner jeugd van de Sociale Teams. Die heeft meer tijd voor een gesprek en kent de lichtere hulp in de buurt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "De huisarts verwijst u naar de praktijkondersteuner jeugd voor een of meer gesprekken, of direct naar een aanbieder met een contract.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Drenthe",
@@ -46,11 +45,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle basisscholen en op het Esdal College in Borger werkt een kansencoach. Die ziet problemen vroeg en helpt kinderen en ouders, bijvoorbeeld bij pesten, faalangst of een scheiding. Zo nodig verwijst de kansencoach door naar het Sociale Team of de GGD. Komt u er met school niet uit? Dan kunt u terecht bij het samenwerkingsverband passend onderwijs: 22.02 voor de basisschool, Sterk VO ZO-Drenthe voor de middelbare school.",
+        "omschrijving": "Op alle basisscholen en op het Esdal College in Borger werkt een kansencoach. Die helpt kinderen en ouders vroeg, bijvoorbeeld bij pesten, faalangst of een scheiding, en verwijst zo nodig door naar het Sociale Team of de GGD.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag naar de kansencoach van de school.",
-          "Meld u aan bij de Sociale Teams als u meer hulp nodig heeft, of laat school dat samen met u doen.",
-          "Komt u er met school niet uit? Stel uw vraag aan het samenwerkingsverband passend onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag naar de kansencoach.",
+          "Is meer hulp nodig? Vraag school om u samen aan te melden bij de Sociale Teams.",
+          "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs: 22.02 voor de basisschool, Sterk VO ZO-Drenthe voor de middelbare school."
         ],
         "contact": [
           {
@@ -75,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke hulp er buiten kantoortijd voor jeugd is, staat op de contactpagina van de Sociale Teams.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de contactpagina van de Sociale Teams als u na kantoortijd hulp voor jeugd nodig heeft."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Sociale Teams Borger-Odoorn: hulp voor jeugd na kantoortijd",

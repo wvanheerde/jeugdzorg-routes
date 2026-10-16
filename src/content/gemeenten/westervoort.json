@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Centraal Gelderland",
   "websiteJeugd": "https://www.westervoort.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Westervoort meldt u zich bij het Sociaal loket van de gemeente. U belt of vult het aanmeldformulier in. Een verwijzing is niet nodig. Het loket kijkt eerst of lichte hulp genoeg is, zoals maatschappelijk werk, jongerenwerk of een steungezin. Is meer nodig, dan komt een medewerker jeugd van de gemeente meestal bij u thuis voor een gesprek. De medewerker jeugd besluit over de hulp. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. Hoe lang u wacht op het gesprek met een medewerker jeugd, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Westervoort meldt u zich bij het Sociaal loket van de gemeente, telefonisch of met het aanmeldformulier. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal loket en medewerkers jeugd van de gemeente",
-        "omschrijving": "Het Sociaal loket is de ingang voor jeugdhulp en andere ondersteuning van de gemeente. Een medewerker voert het eerste gesprek. Daarna zoekt een medewerker jeugd (medewerker van de gemeente) met u en uw kind uit welke hulp past. In het team werkt ook een specialist voor vragen over psychische problemen (jeugd-ggz). U kunt uzelf aanmelden.",
+        "omschrijving": "Het loket kijkt eerst of lichte hulp genoeg is, zoals maatschappelijk werk, jongerenwerk of een steungezin. Is meer nodig, dan zoekt een medewerker jeugd met u en uw kind uit welke hulp past, en besluit daarover. In het team werkt ook een specialist voor psychische problemen (jeugd-ggz).",
         "stappen": [
           "Bel het Sociaal loket of vul het online aanmeldformulier in.",
-          "Beantwoord de vragen van de medewerker. Die kijkt of lichte hulp genoeg is, zoals maatschappelijk werk of jongerenwerk. Is dat niet zo, dan neemt een medewerker jeugd contact met u op.",
-          "Bereid het gesprek met de medewerker jeugd voor. Dat is meestal bij u thuis. Schrijf vooraf op wat u nodig vindt, en neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om het schriftelijke verslag van het gesprek. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit). De gemeente streeft naar een besluit binnen acht weken."
+          "Beantwoord de vragen van de medewerker. Is lichte hulp niet genoeg, dan neemt een medewerker jeugd contact met u op.",
+          "Bereid het gesprek met de medewerker jeugd voor, meestal bij u thuis: schrijf op wat u nodig vindt. U mag iemand meenemen. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Sociaal loket Westervoort",
@@ -23,16 +22,17 @@
           "email": "sociaalloket@westervoort.nl",
           "url": "https://www.westervoort.nl/jeugdhulp",
           "openingstijden": "Telefonisch op werkdagen 8.30–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang u wacht op het gesprek met een medewerker jeugd, is niet openbaar; vraag het bij uw aanmelding. De gemeente streeft naar een besluit binnen acht weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal loket. Sinds september 2026 werkt bij één huisartsenpraktijk een praktijkondersteuner jeugd, als proef van de gemeente. Die helpt bij vragen over opvoeden en opgroeien.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Sinds september 2026 werkt bij één huisartsenpraktijk een praktijkondersteuner jeugd, als proef van de gemeente. Vraag uw huisarts of die praktijk meedoet.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. Bij lichtere vragen verwijst de arts naar het Sociaal loket.",
-          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente. Bij lichtere vragen verwijst de arts naar het Sociaal loket.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -44,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft uw kind op school extra hulp nodig, begin dan bij de leerkracht of mentor. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat SWV De Liemers, voor de middelbare school SWV De Verbinding. Is meer hulp nodig dan school kan bieden, meld u dan bij het Sociaal loket.",
+        "omschrijving": "Begin bij de leerkracht of mentor. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland: van SWV De Liemers voor de basisschool, van SWV De Verbinding voor de middelbare school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Is meer hulp nodig dan de school kan bieden? Meld u dan aan bij het Sociaal loket."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt.",
+          "Is meer hulp nodig dan school kan bieden? Meld u bij het Sociaal loket."
         ],
         "contact": [
           {
@@ -77,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Wat u kunt doen bij huiselijk geweld of kindermishandeling, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Huiselijk geweld van de gemeente wat u kunt doen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Westervoort: huiselijk geweld en kindermishandeling",
@@ -191,7 +190,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)",

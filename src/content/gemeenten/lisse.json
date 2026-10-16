@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://lisse.nl/diensten-en-informatie/zorg-ondersteuning/zorg-en-welzijn/hulp-en-ondersteuning/",
   "toegang": {
-    "samenvatting": "In Lisse vraagt u hulp voor uw kind aan bij Voor ieder 1. Dat is het lokale team voor jeugd, gezin en maatschappelijk werk, ook voor Hillegom, Teylingen en Noordwijk. U meldt zich zelf aan: telefonisch, met het aanmeldformulier of bij het inloopspreekuur in Lisse. Een verwijzing is niet nodig. Voor ieder 1 zoekt met u uit welke hulp past, van advies tot specialistische hulp. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen. Het is bij Voor ieder 1 drukker dan normaal, dus u kunt moeten wachten. Na uw aanmelding hoort u hoe lang dat ongeveer duurt.",
+    "samenvatting": "In Lisse meldt u zich bij Voor ieder 1, het lokale team voor jeugd, gezin en maatschappelijk werk (ook voor Hillegom, Teylingen en Noordwijk). U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Voor ieder 1 (lokaal team)",
-        "omschrijving": "Voor ieder 1 is de stichting die namens de gemeente de toegang tot jeugdhulp regelt, samen met maatschappelijk werk en hulp voor volwassenen. Het team helpt met vragen over opvoeden en opgroeien en geeft advies. Het zet zo nodig hulp in, ook specialistische jeugdhulp. Ook geeft het gratis trainingen. U krijgt één plan en één vaste contactpersoon, ook als meer hulpverleners meedoen.",
+        "omschrijving": "Voor ieder 1 regelt namens de gemeente de toegang tot jeugdhulp. Het team geeft advies en gratis trainingen, en zet zo nodig hulp in, ook specialistische jeugdhulp. U krijgt één plan en één vaste contactpersoon, ook als meer hulpverleners meedoen.",
         "stappen": [
-          "Meld u aan bij Voor ieder 1: bel, vul het aanmeldformulier in of loop binnen bij het inloopspreekuur in Lisse.",
-          "Wacht op het telefoontje van de bureaudienst. Vraag of er een wachtlijst is en hoe lang de wachttijd ongeveer duurt.",
-          "Bespreek in het kennismakingsgesprek wat uw kind en uw gezin nodig hebben. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner.",
-          "Stel samen één plan op en leg vast wie wat doet.",
-          "Vraag bij specialistische hulp om een beschikking (schriftelijk besluit). In Lisse krijgt u die nu alleen bij een pgb of als u erom vraagt."
+          "Bel, vul het aanmeldformulier in of loop binnen bij het inloopspreekuur in Lisse. Daarna belt de bureaudienst u.",
+          "Bespreek in het kennismakingsgesprek wat uw kind en uw gezin nodig hebben. U mag iemand meenemen.",
+          "Stel samen één plan op. Een beschikking (schriftelijk besluit) voor specialistische hulp krijgt u in Lisse nu alleen bij een pgb of als u erom vraagt. Vraag er dus om."
         ],
         "contact": {
           "naam": "Voor ieder 1 Lisse (lokaal team van de gemeente)",
@@ -24,16 +22,17 @@
           "url": "https://www.voorieder1.nl/contact/",
           "adres": "De Bolster, Grachtweg 38, Lisse",
           "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur. Inloopspreekuur in Lisse ma, wo en vr 10.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Het is bij Voor ieder 1 drukker dan normaal, dus u kunt moeten wachten. Na uw aanmelding hoort u hoe lang dat ongeveer duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Voor ieder 1. Alle huisartsen in Lisse kunnen een praktijkondersteuner jeugd (POH jeugd) inschakelen voor opvoed- en opgroeivragen. De jeugdarts werkt bij het Centrum voor Jeugd en Gezin (CJG).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Alle huisartsen in Lisse kunnen een praktijkondersteuner jeugd (POH jeugd) inschakelen voor opvoed- en opgroeivragen. De jeugdarts werkt bij het Centrum voor Jeugd en Gezin (CJG).",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de praktijkondersteuner jeugd, of met de jeugdarts van het CJG.",
-          "Vraag de arts om een verwijzing naar een aanbieder waar de gemeente een contract mee heeft.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "Vraag om een verwijzing naar een aanbieder waar de gemeente een contract mee heeft.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -51,11 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school begint u bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Voor ieder 1 komt ook op de middelbare scholen in de Bollenstreek, vaak met een inloopspreekuur. Voor hulp buiten school meldt u uw kind aan bij Voor ieder 1.",
+        "omschrijving": "Voor ieder 1 komt ook op de middelbare scholen in de Bollenstreek, vaak met een inloopspreekuur.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor basis- of voortgezet onderwijs als u er met school niet uitkomt.",
-          "Meld uw kind aan bij Voor ieder 1 als hulp buiten school nodig is. Op een middelbare school kunt u ook vragen naar het inloopspreekuur van Voor ieder 1."
+          "Vraag op de middelbare school naar het inloopspreekuur van Voor ieder 1.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor basis- of voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -83,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Hulp en ondersteuning van de gemeente Lisse, onder het kopje Huiselijk geweld, als u zich zorgen maakt over de veiligheid van een kind."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Lisse: Hulp en ondersteuning (kopje Huiselijk geweld)",

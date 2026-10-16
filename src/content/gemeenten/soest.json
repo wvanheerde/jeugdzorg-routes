@@ -4,33 +4,33 @@
   "provincie": "Utrecht",
   "websiteJeugd": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/hulp-van-het-jeugdteam",
   "toegang": {
-    "samenvatting": "In Soest begint u bij het jeugdteam van Eemkracht. Eemkracht voert de hulp uit voor de gemeente. U meldt zich zelf aan, zonder verwijzing: online met het formulier Melding zorg, werk en inkomen, of bij het inloopspreekuur in het gemeentehuis. Na uw melding belt een gezinscoach u om uw vraag te bespreken. Specialistische jeugdhulp komt in de hele regio Amersfoort van één aanbieder: MetMaya. Daar kunt u zich niet zelf aanmelden. Het jeugdteam, de huisarts, het Spreekuur Jeugd GGZ of de jeugdarts verwijst u. De wachttijd voor specialistische hulp is lang: de gemeente noemt 10 maanden. Vraag bij uw aanmelding hoe lang u moet wachten en welke hulp er tussendoor is.",
+    "samenvatting": "In Soest meldt u zich bij het jeugdteam van Eemkracht, online of bij het inloopspreekuur in het gemeentehuis. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugdteam van Eemkracht",
-        "omschrijving": "Het jeugdteam helpt kinderen, jongeren en ouders met vragen over opvoeden en opgroeien. Een gezinscoach denkt mee, helpt zelf of regelt hulp van een andere organisatie. De hulp van het jeugdteam is gratis. U meldt zich zelf aan. Sinds eind 2025 test Soest één ingang voor zorg, werk en inkomen. Daarom kan ook iemand van een welzijnsorganisatie u na uw melding terugbellen.",
+        "omschrijving": "Een gezinscoach denkt mee, helpt zelf of regelt hulp van een andere organisatie; de hulp van het jeugdteam is gratis. Specialistische jeugdhulp komt in de hele regio Amersfoort van één aanbieder, MetMaya, waar u zich niet zelf kunt aanmelden: het jeugdteam, de huisarts, het Spreekuur Jeugd GGZ of de jeugdarts verwijst u. Soest test een gezamenlijke ingang voor zorg, werk en inkomen; daarom kan ook iemand van een welzijnsorganisatie u terugbellen.",
         "stappen": [
-          "Meld u aan met het online formulier Melding zorg, werk en inkomen (met of zonder DigiD). U kunt ook bellen, of langskomen bij het inloopspreekuur in het gemeentehuis of in De Basis in Soesterberg.",
-          "Bespreek uw vraag met de gezinscoach die u terugbelt. Daarna volgt een kennismakingsgesprek (intake), thuis, op school of in het gemeentehuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan van aanpak. Vraag om een kopie op papier of per mail, en om een datum waarop u meer hoort.",
-          "Is specialistische hulp nodig? Dan regelt het jeugdteam de verwijzing. Vraag hoe lang u moet wachten en wat er tot die tijd kan."
+          "Meld u aan met het online formulier Melding zorg, werk en inkomen (met of zonder DigiD), bel, of kom naar het inloopspreekuur in het gemeentehuis of in De Basis in Soesterberg.",
+          "Een gezinscoach belt u terug. Daarna volgt een kennismakingsgesprek, thuis, op school of in het gemeentehuis. U mag iemand meenemen.",
+          "Maak samen een plan van aanpak. Is specialistische hulp nodig, dan regelt het jeugdteam de verwijzing."
         ],
         "contact": {
           "naam": "Jeugdteam van Eemkracht (gemeente Soest)",
           "telefoon": "035 609 3411",
           "url": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/melding-zorg-werk-en-inkomen",
           "openingstijden": "Telefonisch werkdagen 8.30–12.30 uur. Inloop zonder afspraak bij het Sociaal Plein in het gemeentehuis, maandag, dinsdag en donderdag 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "De gemeente noemt een wachttijd van 10 maanden voor specialistische hulp. Vraag bij uw aanmelding hoe lang u moet wachten en welke hulp er tussendoor is."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het jeugdteam. Bij psychische klachten of gedragsproblemen kan de huisarts u ook naar het Spreekuur Jeugd GGZ sturen. Daar praat een praktijkondersteuner van de huisarts of een pedagogisch medewerker met u en uw kind. U krijgt advies, begeleiding of een verwijzing.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij psychische klachten of gedragsproblemen kan de huisarts u naar het Spreekuur Jeugd GGZ sturen, vaak binnen twee weken. Daar praat een praktijkondersteuner of pedagogisch medewerker met u en uw kind, en krijgt u advies, begeleiding of een verwijzing.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een afspraak bij het Spreekuur Jeugd GGZ. Dat is vaak binnen twee weken.",
-          "Is meer hulp nodig? Dan verwijst de huisarts naar specialistische jeugdhulp in de regio. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag de huisarts om een afspraak bij het Spreekuur Jeugd GGZ.",
+          "Is meer hulp nodig, dan verwijst de huisarts naar specialistische jeugdhulp in de regio. U hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -50,10 +50,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De intern begeleider (die op school de zorg voor leerlingen regelt) kan met u een melding doen bij de gemeente. Zo komt u bij het jeugdteam. Komt u er met school niet uit over passend onderwijs? Dan helpt JOSEE, het ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs in de regio.",
+        "omschrijving": "De intern begeleider kan samen met u een melding doen bij het jeugdteam. Komt u er met school niet uit over passend onderwijs, dan helpt JOSEE, het ouder- en jeugdsteunpunt van de samenwerkingsverbanden in de regio.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school u wil helpen bij een melding bij het jeugdteam, of meld u zelf aan.",
+          "Vraag of school u helpt bij een melding bij het jeugdteam.",
           "Komt u er met school niet uit over de ondersteuning van uw kind? Vraag advies bij JOSEE."
         ],
         "contact": [
@@ -75,10 +75,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de meldpunten in Soest op de pagina van de gemeente over verwarde personen en huiselijk geweld."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Soest: melden verwarde personen of huiselijk geweld",
@@ -207,7 +206,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Soest: Hulp van het jeugdteam",

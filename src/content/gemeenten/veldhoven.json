@@ -4,17 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.veldhoven.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Veldhoven zijn er twee deuren. Voor gratis advies over opvoeden en opgroeien gaat u naar het Centrum voor Jeugd en Gezin (CJG), zonder verwijzing. Heeft uw kind meer hulp nodig, dan meldt u zich zelf aan bij de klantmanagers Jeugd van de gemeente. Zij beoordelen uw vraag en beslissen over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Veldhoven meldt u zich bij de klantmanagers Jeugd van de gemeente; voor gratis opvoedadvies kunt u ook naar het Centrum voor Jeugd en Gezin (CJG). U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Klantmanagers Jeugd van de gemeente, met het CJG Veldhoven",
-        "omschrijving": "De klantmanagers Jeugd werken voor de gemeente. Zij bespreken uw vraag, geven advies en beslissen over jeugdhulp. Zo nodig vragen zij een generalist (een medewerker die de situatie verder uitzoekt) om te onderzoeken wat er nodig is. U meldt zich zelf aan, zonder verwijzing. Het CJG geeft advies en lichtere hulp, ook aan jongeren tot 23 jaar.",
+        "omschrijving": "De klantmanagers Jeugd bespreken uw vraag, geven advies en beslissen over jeugdhulp; ook als uw kind al hulp krijgt, kunt u bij hen terecht. Zo nodig zoekt een generalist (een medewerker die de situatie verder uitzoekt) uit wat er nodig is. Het CJG geeft advies en lichtere hulp, ook aan jongeren tot 23 jaar.",
         "stappen": [
-          "Bel of mail de klantmanagers Jeugd van de gemeente. Ook als uw kind al hulp krijgt, kunt u hier met vragen terecht.",
-          "Heeft u vooral een opvoedvraag? Bel dan het CJG. U krijgt direct advies en zo nodig hulp die past bij uw gezin.",
-          "Bespreek uw vraag met de klantmanager. U mag een familielid, vriend of onafhankelijke cliëntondersteuner meenemen.",
-          "Is meer hulp nodig? Dan onderzoekt een generalist wat u en uw kind nodig hebben. Vraag om een schriftelijk besluit over de hulp."
+          "Bel of mail de klantmanagers Jeugd. Heeft u vooral een opvoedvraag, bel dan het CJG.",
+          "Bespreek uw vraag met de klantmanager. U mag iemand meenemen.",
+          "Is meer hulp nodig, dan onderzoekt een generalist wat u en uw kind nodig hebben. U krijgt een schriftelijk besluit over de hulp."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "url": "https://www.cjgveldhoven.nl/pagina/contact/47705",
             "openingstijden": "Telefonisch maandag, woensdag, donderdag en vrijdag 9.00–12.00 uur, dinsdag 10.30–12.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de klantmanagers Jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD, bijvoorbeeld op het consultatiebureau.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD, bijvoorbeeld op het consultatiebureau.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -52,12 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Het CJG heeft contactpersonen op de basisscholen. Op het Sondervick College werkt jeugdmaatschappelijk werk. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat PO De Kempen, voor het voortgezet onderwijs ZOB.",
+        "omschrijving": "Het CJG heeft contactpersonen op de basisscholen. Op het Sondervick College werkt jeugdmaatschappelijk werk.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de contactpersoon van het CJG kan meedenken, of meld u aan bij het CJG.",
-          "Is meer hulp nodig? Meld u dan aan bij de klantmanagers Jeugd.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de contactpersoon van het CJG kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van PO De Kempen (basisschool) of ZOB (voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -88,10 +87,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst en welk meldpunt er verder zijn voor kinderen en jongeren in Veldhoven, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor kinderen en jongeren in de regio op de pagina van de gemeente over hulp bij opgroeien en opvoeden."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Veldhoven: hulp bij opgroeien en opvoeden (crisis en Veilig Thuis)",

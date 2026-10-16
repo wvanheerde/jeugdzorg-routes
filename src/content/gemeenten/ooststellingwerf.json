@@ -4,17 +4,16 @@
   "provincie": "Fryslân",
   "websiteJeugd": "https://www.ooststellingwerf.nl/gebiedsteam",
   "toegang": {
-    "samenvatting": "In Ooststellingwerf is het Gebiedsteam de eerste stap voor jeugdhulp. Dat team werkt voor de gemeente. U kunt zonder verwijzing binnenlopen in het gemeentehuis, bellen of mailen. Het Gebiedsteam kijkt eerst wat uw gezin zelf of met mensen om u heen kan, en wat lichte hulp kan doen. Is meer nodig, dan regelt het team specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Sinds de tweede helft van 2025 is er een wachtlijst bij het jeugdteam van het Gebiedsteam. De gemeente heeft daarom voor 2026 en 2027 extra medewerkers jeugd aangenomen. Hoe lang u moet wachten, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Ooststellingwerf meldt u zich bij het Gebiedsteam van de gemeente: loop binnen in het gemeentehuis, bel of mail. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam Ooststellingwerf",
-        "omschrijving": "Het Gebiedsteam is er voor vragen over opgroeien, opvoeden, zorg, werk en geld. Een medewerker bekijkt met u wat u zelf of met mensen om u heen kunt doen en welke hulp past. Het team beslist ook over specialistische jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. Er is een wachtlijst bij het jeugdteam.",
+        "omschrijving": "Het Gebiedsteam is er voor vragen over opgroeien, opvoeden, zorg, werk en geld. Een medewerker bekijkt met u wat u zelf of met mensen om u heen kunt doen en welke hulp past. Het team beslist ook over specialistische jeugdhulp.",
         "stappen": [
-          "Loop binnen bij het Gebiedsteam in het gemeentehuis, of bel of mail het Gebiedsteam.",
-          "Vraag hoe lang het duurt voor u een gesprek heeft. Bij het jeugdteam is een wachtlijst.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van OCO denkt mee.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, vraag dan om een beschikking (schriftelijk besluit)."
+          "Loop binnen bij het Gebiedsteam in het gemeentehuis, of bel of mail.",
+          "Bespreek in het gesprek wat er speelt. U mag iemand meenemen.",
+          "Is specialistische hulp nodig? Vraag dan om een beschikking (schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Gebiedsteam Ooststellingwerf",
@@ -22,16 +21,17 @@
           "email": "gbt@ooststellingwerf.nl",
           "url": "https://www.ooststellingwerf.nl/contact-met-het-gebiedsteam",
           "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur. Vrije inloop in het gemeentehuis ma en vr 9.00–12.30 uur, di, wo en do 9.00–13.00 uur"
-        }
+        },
+        "doorlooptijd": "Sinds de tweede helft van 2025 is er een wachtlijst bij het jeugdteam; de gemeente heeft voor 2026 en 2027 extra medewerkers jeugd aangenomen. Hoe lang u moet wachten, is niet openbaar; vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Bij de huisarts kunt u ook terecht met zorgen over de psychische gezondheid van uw kind.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen, ook bij zorgen over de psychische gezondheid van uw kind.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "De huisarts verwijst naar een aanbieder met een contract van de Friese gemeenten.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -42,12 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over uw kind op school? Begin bij de leerkracht, mentor of intern begeleider. Het Gebiedsteam kan meedenken over hulp. Komt u er met school niet uit? Dan geeft het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs in Friesland advies. Ervaringsdeskundige ouders denken daar met u mee.",
+        "omschrijving": "Het Gebiedsteam kan meedenken over hulp. Bij het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs in Friesland denken ervaringsdeskundige ouders met u mee.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, of met de directeur.",
-          "Vraag of de school kan meedenken over extra ondersteuning in de klas.",
-          "Meld u aan bij het Gebiedsteam als uw kind ook thuis hulp nodig heeft.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt als u er met school niet uitkomt. Vul het contactformulier in, dan belt het steunpunt u terug."
+          "Bespreek uw zorgen met de leerkracht, mentor, intern begeleider of directeur, en vraag naar extra ondersteuning in de klas.",
+          "Komt u er met school niet uit? Vul het contactformulier van het Ouder- en jeugdsteunpunt in; het steunpunt belt u terug."
         ],
         "contact": [
           {
@@ -67,10 +65,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Waar u in Ooststellingwerf verder terechtkunt bij huiselijk geweld of kindermishandeling, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij geweld en kindermishandeling op de pagina van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Ooststellingwerf: geweld, huiselijk geweld en mishandeling",

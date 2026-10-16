@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Rijnmond",
   "websiteJeugd": "https://www.schiedam.nl/a-tot-z/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Schiedam vraagt u jeugdhulp aan bij het Wijkondersteuningsteam (WOT). Er zijn zes teams, verspreid over de stad. De jeugdprofessionals in het WOT werken voor Mevis, de organisatie die voor Maassluis, Vlaardingen en Schiedam de jeugdhulp uitvoert, van lichte hulp tot specialistische zorg. U kunt bellen, online aanmelden of binnenlopen bij een spreekuur. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Let op: er is een wachtlijst bij het wijkteam. Vraag bij de aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Schiedam meldt u zich bij een van de zes Wijkondersteuningsteams (WOT), waar jeugdprofessionals van Mevis werken. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkondersteuningsteam (WOT) Schiedam, met Mevis",
-        "omschrijving": "Het WOT helpt bij vragen over opvoeden, opgroeien, geldzaken en meer. Voor kinderen tot 18 jaar en hun ouders zijn de jeugdprofessionals van Mevis er. Lichte hulp krijgt u zonder besluit van de gemeente. Voor specialistische jeugdhulp bekijkt het team met u wat nodig is. Daarna volgt een beschikking (het besluit over welke hulp u krijgt, hoeveel en hoe lang). U mag een familiegroepsplan maken: een plan met familie en bekenden. U mag ook iemand meenemen naar het gesprek.",
+        "omschrijving": "Mevis voert voor Maassluis, Vlaardingen en Schiedam de jeugdhulp uit, van lichte hulp tot specialistische zorg. Lichte hulp krijgt u zonder besluit; voor specialistische jeugdhulp volgt een beschikking. U mag een familiegroepsplan maken, een plan met familie en bekenden.",
         "stappen": [
-          "Bel het WOT (ma-vr 8.30-17.00 uur), of meld uw kind online aan via het formulier van Mevis. U kunt ook zonder afspraak naar een spreekuur of wijkinloop gaan.",
-          "Wacht op het terugbellen. Het WOT zegt u binnen 5 werkdagen te bellen. Is er meer hulp nodig, dan kan het volgens het WOT 4 tot 6 weken duren voordat een jeugdprofessional met u verder gaat.",
-          "Vraag bij het eerste contact of uw kind op de wachtlijst staat. Vraag ook wat u in de tussentijd kunt doen, bijvoorbeeld een online module of hulp van het Centrum voor Jeugd en Gezin.",
-          "Bespreek in het gesprek wat er speelt en welke hulp past. Vraag om een schriftelijk verslag en om een beschikking als het om specialistische hulp gaat."
+          "Bel het WOT (ma-vr 8.30-17.00 uur), meld uw kind online aan via het formulier van Mevis, of ga zonder afspraak naar een spreekuur of wijkinloop.",
+          "Vraag bij het eerste contact wat u in de tussentijd kunt doen, bijvoorbeeld een online module of hulp van het Centrum voor Jeugd en Gezin.",
+          "Bespreek in het gesprek wat er speelt en welke hulp past. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "WOT Schiedam (jeugdprofessionals van Mevis)",
@@ -25,15 +24,15 @@
           "adres": "Centrum-West: Sint Liduinastraat 58A. Oost: Boerhaavelaan 79. Noordrand: Malmö 84. Nieuwland: Dr. Willem Dreesplein 2. Groenoord: Laan van Bol'Es 17. Zuid: Leliestraat 10",
           "openingstijden": "Telefonisch ma-vr 8.30-17.00 uur. Spreekuur zonder afspraak per wijkteam; zie wotschiedam.nl/openingstijden"
         },
-        "doorlooptijd": "Terugbellen binnen 5 werkdagen (volgens het WOT). Gemeten: gemiddeld 11,1 weken van eerste contact tot ondersteuningsplan in de tweede helft van 2025. De norm is 6 weken."
+        "doorlooptijd": "Er is een wachtlijst. Het WOT belt binnen 5 werkdagen terug en noemt zelf 4 tot 6 weken tot een jeugdprofessional verder gaat. In de praktijk duurde het in de tweede helft van 2025 gemiddeld 11,1 weken van eerste contact tot ondersteuningsplan (norm 6 weken)."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeenten hebben ingekocht. In veel huisartsenpraktijken werkt een praktijkondersteuner jeugd (POH-jeugd) van Mevis. Dat is een jeugdprofessional die kinderen en ouders in de praktijk zelf helpt. Dit is een gelijkwaardige route naast het wijkteam.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen. In veel huisartsenpraktijken werkt een praktijkondersteuner jeugd (POH-jeugd) van Mevis, die kinderen en ouders in de praktijk zelf helpt.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van het Centrum voor Jeugd en Gezin (CJG).",
-          "Laat de verwijzer kiezen uit aanbieders met een contract in regio Rijnmond. Het Verwijzingsfilter van Jeugdhulp Rijnmond laat zien welke dat zijn.",
+          "Laat de verwijzer kiezen uit aanbieders met een contract in regio Rijnmond; het Verwijzingsfilter van Jeugdhulp Rijnmond laat zien welke dat zijn.",
           "Heeft u vragen over de verwijzing? Bel Verwijszorg van Mevis (9.00-12.00 uur). U hoeft zelf geen aanvraag te doen."
         ],
         "contact": {
@@ -47,11 +46,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Scholen voor basis- en voortgezet onderwijs hebben een eigen jeugdprofessional: Jeugdprofessional Op School (JOS). Die beantwoordt vragen over opvoeden en helpt bij gedrag, sociaal-emotionele problemen of zorgen thuis. De JOS zit in het wijkondersteuningsteam en in het ondersteuningsteam van school.",
+        "omschrijving": "Scholen voor basis- en voortgezet onderwijs hebben een eigen Jeugdprofessional Op School (JOS). Die helpt bij opvoedvragen, gedrag, sociaal-emotionele problemen of zorgen thuis, en zit ook in het wijkondersteuningsteam.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag wanneer de jeugdprofessional op school is en maak een afspraak.",
-          "Komt u er niet uit? Meld uw kind aan bij het WOT of vraag via Mevis om hulp via school.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag wanneer de jeugdprofessional op school is.",
+          "Is meer hulp nodig? Vraag via Mevis om hulp via school.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -74,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Schiedam op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Schiedam: huiselijk geweld en kindermishandeling",
@@ -367,7 +364,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Schiedam - Jeugd(hulp)",

@@ -4,18 +4,16 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.peelenmaas.nl/jeugd-en-onderwijs/gezinscoach",
   "toegang": {
-    "samenvatting": "In Peel en Maas is de gezinscoach uw eerste aanspreekpunt. De gezinscoaches werken voor de gemeente, in team WIJZ (Werk, Inkomen, Jeugdhulp, Zorg). U neemt zelf contact op, een verwijzing is niet nodig. Eenvoudige opvoedvragen beantwoordt de gezinscoach vaak al aan de telefoon. Heeft uw kind meer hulp nodig? Dan kiest u samen met de gezinscoach en de hulpverleners wat past. De gemeente noemt die werkwijze Hendig. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gezinscoach spreekt, is niet openbaar te vinden. Vraag dat bij uw eerste contact.",
+    "samenvatting": "In Peel en Maas is de gezinscoach van de gemeente (team WIJZ: Werk, Inkomen, Jeugdhulp, Zorg) uw eerste aanspreekpunt. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gezinscoach van de gemeente (team WIJZ)",
-        "omschrijving": "De gezinscoaches helpen bij vragen over opvoeden en opgroeien. Zo nodig regelen zij specialistische jeugdhulp. U meldt zich zelf aan en krijgt één vaste contactpersoon. De gezinscoach kijkt eerst wat er al goed gaat en wie uit uw omgeving kan helpen. Daarna kiest u samen met de gezinscoach en de hulpverleners de hulp die past.",
+        "omschrijving": "De gezinscoach helpt bij vragen over opvoeden en opgroeien en regelt zo nodig specialistische jeugdhulp. U krijgt één vaste contactpersoon. Heeft uw kind meer hulp nodig, dan kiest u samen met de gezinscoach en de hulpverleners wat past; de gemeente noemt die werkwijze Hendig.",
         "stappen": [
-          "Bel of mail de gezinscoaches van de gemeente en maak een afspraak. Zij werken op afspraak.",
-          "Bespreek uw vraag. Eenvoudige opvoedvragen beantwoordt de gezinscoach vaak al aan de telefoon.",
-          "Maak samen met de gezinscoach een gezinsplan als uw kind meer hulp nodig heeft. Kies samen een hulpverlener.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om het gezinsplan. Vraagt u specialistische hulp aan? Vraag dan ook om een schriftelijk besluit."
+          "Bel of mail de gezinscoaches. Eenvoudige opvoedvragen beantwoorden zij vaak al aan de telefoon; anders maakt u een afspraak.",
+          "Bespreek uw vraag. U mag iemand meenemen.",
+          "Maak samen een gezinsplan en kies een hulpverlener. Bij specialistische hulp krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Gezinscoaches van de gemeente Peel en Maas (team WIJZ)",
@@ -23,16 +21,16 @@
           "email": "vraag@peelenmaas.nl",
           "url": "https://www.peelenmaas.nl/jeugd-en-onderwijs/gezinscoach",
           "openingstijden": "Werkt op afspraak"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gezinscoach spreekt, is niet openbaar. Vraag het bij uw eerste contact."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Dat moet een aanbieder zijn met een contract of subsidie van de gemeente. Deze route is net zo goed als de route via de gezinscoach. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract of subsidie van de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder met een contract of subsidie van de gemeente.",
-          "Laat de aanbieder de hulp regelen. Die neemt zelf contact op met de gemeente, u hoeft geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract of subsidie. Die neemt zelf contact op met de gemeente; u hoeft niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -43,10 +41,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School merkt vaak als eerste dat er iets speelt. De gezinscoaches werken samen met de scholen en met de leerplichtconsulenten. Komt u er met school niet uit? Dan kunt u terecht bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor de basisschool is dat het samenwerkingsverband Primair Onderwijs Noord-Limburg, voor de middelbare school het samenwerkingsverband Voortgezet Onderwijs Noord-Limburg.",
+        "omschrijving": "School merkt vaak als eerste dat er iets speelt. De gezinscoaches werken samen met de scholen en met leerplicht. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband: Primair Onderwijs Noord-Limburg voor de basisschool, Voortgezet Onderwijs Noord-Limburg voor de middelbare school.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school de gezinscoach erbij haalt, of neem zelf contact op met de gezinscoach.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of school de gezinscoach erbij haalt.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -73,11 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn, hoort u bij de huisarts of bij de gezinscoaches van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is er geen direct gevaar, maar heeft u snel hulp nodig? Neem dan contact op met de gezinscoaches van de gemeente.",
-          "Is het thuis acuut onveilig of kan de hulp niet wachten tot de volgende werkdag? Kijk op de pagina Contact en openingstijden van de gemeente hoe u ook 's avonds en in het weekend spoedeisende jeugdhulp krijgt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Peel en Maas: contact buiten kantoortijden (spoedeisende jeugdhulp)",
@@ -374,7 +369,7 @@
       {
         "soort": "gemeenteraad",
         "titel": "Meer leerlingen op speciaal onderwijs",
-        "samenvatting": "In het schooljaar 2024-2025 gingen weer meer kinderen naar het speciaal onderwijs, in Peel en Maas en elders. In ongeveer de helft van de zaken over verzuim werkt de leerplichtconsulent samen met een gezinscoach.",
+        "samenvatting": "In het schooljaar 2024-2025 gingen weer meer kinderen naar het speciaal onderwijs, in Peel en Maas en elders. In ongeveer de helft van de zaken over verzuim werkt de leerplichtmedewerker samen met een gezinscoach.",
         "datum": "2026-02-10",
         "bron": {
           "titel": "Collegevoorstel Jaarverslag leerplicht Peel en Maas 2024-2025",

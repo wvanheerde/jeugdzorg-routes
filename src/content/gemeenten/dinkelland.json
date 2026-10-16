@@ -4,17 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://schakeldinkelland.nl/jeugd-gezin/",
   "toegang": {
-    "samenvatting": "In Dinkelland is Schakel de plek voor vragen over opvoeden, opgroeien en jeugdhulp. Schakel is een samenwerking van de gemeente en welzijnsorganisaties. U meldt zich zelf aan, een verwijzing is niet nodig. U kunt bellen, mailen of langskomen. Bij Schakel werkt de medewerker jeugd van de gemeente. Die beoordeelt of uw kind specialistische jeugdhulp krijgt en neemt het besluit. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Dinkelland meldt u zich bij Schakel, waar de gemeente en welzijnsorganisaties samenwerken. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Schakel Dinkelland",
-        "omschrijving": "Schakel geeft informatie, advies en ondersteuning bij vragen over opvoeden, school, scheiden, gezondheid en jeugdhulp. Sociaal werkers van welzijnsorganisaties helpen met lichtere ondersteuning, zoals schoolmaatschappelijk werk en opvoedvragen. De medewerker jeugd werkt voor de gemeente en beoordeelt of uw kind jeugdhulp krijgt. Specialistische jeugdhulp vraagt u aan bij de gemeente. Na uw aanvraag onderzoekt de gemeente uw hulpvraag en neemt zij een besluit (beschikking).",
+        "omschrijving": "Sociaal werkers geven lichtere ondersteuning, zoals opvoedadvies en schoolmaatschappelijk werk. De medewerker jeugd van de gemeente beoordeelt of uw kind specialistische jeugdhulp krijgt. Daarna neemt de gemeente een besluit (beschikking).",
         "stappen": [
-          "Bel of mail Schakel, of loop binnen bij het gemeentehuis in Denekamp. Vertel waar u zich zorgen over maakt.",
-          "Bespreek uw vraag met een sociaal werker of de medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is meer hulp nodig? Vraag dan jeugdhulp aan bij de gemeente. U kunt ook een familiegroepsplan maken: een eigen plan van uw gezin. Dat is niet verplicht.",
-          "Vraag na het gesprek om een schriftelijk verslag en om een schriftelijk besluit over de hulp."
+          "Bel of mail Schakel, of loop binnen bij het gemeentehuis in Denekamp.",
+          "Bespreek uw vraag met een sociaal werker of de medewerker jeugd. U mag iemand meenemen.",
+          "Is meer hulp nodig? Vraag jeugdhulp aan bij de gemeente. U mag ook een eigen familiegroepsplan maken; dat is niet verplicht."
         ],
         "contact": {
           "naam": "Schakel Dinkelland",
@@ -23,16 +22,17 @@
           "url": "https://schakeldinkelland.nl/contact/",
           "adres": "Nicolaasplein 5, Denekamp (gemeentehuis)",
           "openingstijden": "Werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Schakel. De gemeente vergoedt alleen hulp van een aanbieder met een contract.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -43,10 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht of mentor. Scholen in Dinkelland werken samen met Schakel, onder meer via schoolmaatschappelijk werk. Komt u er met school niet uit, dan geeft het samenwerkingsverband passend onderwijs advies. Voor de basisschool is dat Samenwerkingsverband Twente Oost PO, voor de middelbare school Samenwerkingsverband VO Twente Oost.",
+        "omschrijving": "Scholen in Dinkelland werken samen met Schakel, onder meer via schoolmaatschappelijk werk. Komt u er met school niet uit, dan geeft het samenwerkingsverband advies: Twente Oost PO voor de basisschool, VO Twente Oost voor de middelbare school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school Schakel of het schoolmaatschappelijk werk kan inschakelen. U kunt zich ook zelf aanmelden bij Schakel.",
+          "Vraag of de school Schakel of het schoolmaatschappelijk werk inschakelt.",
           "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -73,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Wat de gemeente zelf over kindermishandeling en huiselijk geweld meldt, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Huiselijk geweld van de gemeente Dinkelland wat u kunt doen bij zorgen over de veiligheid van een kind."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Dinkelland: huiselijk geweld en kindermishandeling",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Noordoost-Brabant",
   "websiteJeugd": "https://www.oss.nl/zorg/Opgroeien-en-opvoeden/jeugdhulp.htm",
   "toegang": {
-    "samenvatting": "In Oss is het Centrum Jeugd en Gezin (CJG) de plek voor vragen over opgroeien en opvoeden en voor de aanvraag van specialistische jeugdhulp. De gemeente heeft de toegang tot jeugdhulp neergelegd bij ONS welzijn, dat het CJG uitvoert (op de website van de gemeente en in de verordening heet het CJG Maasland, de eigen website heet nu CJG Bernheze en Oss). U kunt binnenlopen, bellen of mailen; bij specialistische hulp krijgt u een vaste contactpersoon, een plan en een beschikking van de gemeente. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar een door de regio gecontracteerde aanbieder. Let op: de gemeente wil minder jeugdigen in jeugdhulp en eerst meer kijken wat u zelf en uw omgeving kunnen, en onderzoekt of verwijzingen van huisartsen kunnen worden omgeleid naar de sociale teams.",
+    "samenvatting": "In Oss meldt u zich bij het Centrum Jeugd en Gezin (CJG), dat ONS welzijn uitvoert voor de gemeente. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
-        "naam": "Centrum Jeugd en Gezin (CJG) Maasland / CJG Bernheze en Oss",
-        "omschrijving": "Toegang voor jeugdigen van 0 tot 23 jaar en hun ouders, uitgevoerd door ONS welzijn in opdracht van de gemeente. Het CJG geeft gratis informatie, advies en korte hulp, organiseert cursussen en workshops en beoordeelt of specialistische jeugdhulp of een pgb nodig is. Bij specialistische hulp krijgt u één vaste contactpersoon die samen met u een plan van aanpak maakt en de aanvraag naar de gemeente stuurt; het CJG kan daarbij de expertise van het Sociaal Team gebruiken.",
+        "naam": "Centrum Jeugd en Gezin (CJG) Maasland",
+        "omschrijving": "Het CJG is er voor jongeren van 0 tot 23 jaar en hun ouders. Het geeft gratis advies, korte hulp en cursussen, en beoordeelt of specialistische jeugdhulp of een pgb (persoonsgebonden budget) nodig is. De gemeente noemt het CJG Maasland; de eigen website heet CJG Bernheze en Oss.",
         "stappen": [
-          "Loop binnen bij het CJG (Schadewijkstraat 6 in Oss), of bel of mail het CJG.",
-          "Bespreek uw vraag in een gratis infogesprek; zo nodig volgt een tweede gesprek. Veel vragen zijn hiermee opgelost.",
-          "Is meer nodig, dan krijgt u een vaste contactpersoon en maakt u samen een plan van aanpak. Bent u het niet eens met het plan, laat dan 'voor gezien' noteren in plaats van te ondertekenen.",
-          "De gemeente neemt volgens eigen informatie binnen 8 weken na de aanvraag een besluit en stuurt u een beschikking jeugdhulp; daarin staat welke hulp u krijgt, waarom en voor welke periode.",
-          "Loopt de indicatie af? Neem 6 tot 8 weken vóór de einddatum contact op met het CJG voor een nieuwe aanvraag."
+          "Loop binnen bij het CJG (Schadewijkstraat 6 in Oss), of bel of mail. U krijgt een gratis infogesprek; veel vragen zijn daarmee opgelost.",
+          "Is meer nodig, dan krijgt u een vaste contactpersoon en maakt u samen een plan van aanpak. U mag iemand meenemen.",
+          "U krijgt een beschikking (schriftelijk besluit) van de gemeente. Loopt die af? Neem 6 tot 8 weken vóór de einddatum contact op met het CJG."
         ],
         "contact": {
           "naam": "CJG Maasland (ONS welzijn)",
@@ -25,16 +23,17 @@
           "url": "https://www.cjgbernheze-oss.nl/",
           "adres": "Schadewijkstraat 6, 5348 BC Oss",
           "openingstijden": "Telefonisch op werkdagen 9.00 tot 17.00 uur"
-        }
+        },
+        "doorlooptijd": "De gemeente neemt volgens eigen informatie binnen 8 weken na de aanvraag een besluit. Hoe lang het duurt tot het eerste gesprek, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Volgens de Jeugdwet en artikel 5 van de Verordening jeugdhulp Oss 2026 mogen huisarts, medisch specialist en jeugdarts rechtstreeks verwijzen naar jeugdhulp. In principe moet dat een door de regio Noordoost-Brabant gecontracteerde aanbieder zijn; kiest u een niet-gecontracteerde aanbieder, dan vergoedt de gemeente dat niet, tenzij het college vooraf schriftelijk instemt. De gemeente heeft aangekondigd de samenwerking met huisartsen te versterken en te onderzoeken of de verwijsroute naar de sociale teams kan worden omgeleid (gepland voor 2027).",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de regio Noordoost-Brabant. Kiest u een aanbieder zonder contract, dan betaalt de gemeente niet, tenzij die vooraf schriftelijk instemt.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
-          "De arts verwijst naar een door de gemeente (via RIOZ) gecontracteerde aanbieder; de aanbieder bepaalt samen met u welke hulp precies nodig is.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Laat u zo nodig verwijzen naar een aanbieder met een contract (via RIOZ). De aanbieder bepaalt samen met u welke hulp nodig is.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -45,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De gemeente noemt school als eerste plek voor hulp en advies over een kind. Dyslexiezorg loopt alleen via een vaststelling van ernstige dyslexie via het samenwerkingsverband primair onderwijs. De gemeente wil in 2026 de ondersteuning op school versterken met brugfunctionarissen op de basisschool en jongerenwerk in het voortgezet onderwijs.",
+        "omschrijving": "De gemeente noemt school als eerste plek voor hulp en advies over uw kind. Onderzoek en behandeling van ernstige dyslexie lopen alleen via het samenwerkingsverband primair onderwijs. De gemeente wil in 2026 brugfunctionarissen op basisscholen en jongerenwerk op middelbare scholen inzetten.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht of intern begeleider.",
-          "School kan u naar het CJG verwijzen of met uw toestemming contact leggen.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs. Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Bespreek uw zorgen met de leerkracht of intern begeleider.",
+          "Vraag of school met uw toestemming contact legt met het CJG.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -71,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de website van Veilig Thuis Oost-Brabant, dat ook voor Oss werkt. Veilig Thuis is dag en nacht bereikbaar."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Oost-Brabant",
@@ -343,7 +341,7 @@
     "laatstBijgewerkt": "2026-10-11"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Oss – Hoe werkt jeugdhulp in Oss?",

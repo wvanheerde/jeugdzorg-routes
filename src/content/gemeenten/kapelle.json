@@ -4,17 +4,16 @@
   "provincie": "Zeeland",
   "websiteJeugd": "https://www.kapelle.nl/jeugd-jongvolwassen-en-onderwijs",
   "toegang": {
-    "samenvatting": "In Kapelle is LINK het lokale team van de gemeente voor vragen over zorg en welzijn. Voor jeugd werkt LINK samen met het Centrum voor Jeugd en Gezin (CJG), dat tot 23 jaar helpt bij opvoeden en opgroeien. U kunt zich zelf melden, een verwijzing is niet nodig. Voor jeugdhulp met een besluit van de gemeente doet u een aanvraag bij het toegangsteam jeugd. Een medewerker jeugd voert dan het gesprek met u. De gemeente is van plan het CJG in LINK op te nemen. De naam CJG verdwijnt dan. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Kapelle meldt u zich zonder verwijzing bij LINK, het lokale team van de gemeente, of bij het Centrum voor Jeugd en Gezin (CJG), dat helpt tot 23 jaar. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "LINK en het CJG Kapelle (toegangsteam jeugd)",
-        "omschrijving": "LINK en het CJG zitten in het gemeentehuis van Kapelle en werken voor de gemeente. Zij geven advies, bieden lichte hulp zonder besluit en beoordelen of uw kind jeugdhulp krijgt. U meldt zich zelf aan. Voor specialistische hulp doet u een aanvraag bij het toegangsteam jeugd (een 'individuele voorziening'). Een medewerker jeugd onderzoekt dan uw vraag. De gemeente beslist binnen acht weken met een beschikking (besluit van de gemeente).",
+        "omschrijving": "LINK en het CJG zitten in het gemeentehuis, geven advies en bieden lichte hulp zonder besluit. Voor specialistische hulp doet u een aanvraag bij het toegangsteam jeugd, waarna een medewerker jeugd uw vraag onderzoekt.",
         "stappen": [
-          "Neem contact op met LINK of het CJG. Dat kan met een telefoontje, via het contactformulier van het CJG of tijdens een inloopspreekuur van LINK.",
-          "Bespreek of advies genoeg is. Is meer nodig, dan maakt een medewerker jeugd een afspraak met u, op het gemeentehuis of bij u thuis. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag een aanvraagformulier voor specialistische hulp. U krijgt binnen vijf dagen een bevestiging van de gemeente. U mag zelf een familiegroepsplan maken. Daarin zoekt u met uw familie en netwerk naar oplossingen.",
-          "Vraag om een schriftelijk ondersteuningsplan en een schriftelijk besluit. In het besluit staat welke hulp u krijgt, van wie en hoe u bezwaar maakt."
+          "Bel LINK of het CJG, gebruik het contactformulier van het CJG of loop binnen bij een inloopspreekuur van LINK.",
+          "Is advies niet genoeg, dan maakt een medewerker jeugd een afspraak, op het gemeentehuis of bij u thuis. U mag iemand meenemen.",
+          "Vraag een aanvraagformulier voor specialistische hulp. U mag ook zelf een familiegroepsplan maken met uw familie en netwerk."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "adres": "Gemeentehuis, Kerkplein 1, Kapelle (op afspraak)",
             "openingstijden": "Telefonisch ma en di 10.00–12.00 en 15.30–17.00 uur, wo 10.00–12.00 uur, do 10.00–12.00 en 18.00–20.00 uur, vr 10.00–12.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Na een aanvraag krijgt u binnen vijf dagen een bevestiging en beslist de gemeente binnen acht weken. Hoe lang het duurt tot een eerste gesprek, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast LINK en het CJG. De jeugdgezondheidszorg van GGD Zeeland is de jeugdarts voor kinderen in Kapelle. De gemeente en de huisartsen willen meer samenwerken.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts voor kinderen in Kapelle werkt bij de jeugdgezondheidszorg van GGD Zeeland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "Vraag de arts te verwijzen naar een aanbieder met een contract bij de gemeente, of naar LINK en het CJG.",
-          "Doe zelf geen aanvraag: de aanbieder meldt de start van de hulp bij de gemeente."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -51,11 +51,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt school zich zorgen, of komt u er met school niet uit? Op basisscholen in de gemeente is een jeugdpsycholoog (jeugd-ggz) aanwezig. Het ouder- en jeugdsteunpunt Zeeland geeft onafhankelijk advies over passend onderwijs, voor basis- en voortgezet onderwijs. Kapelle heeft zelf geen middelbare school. Leerlingen gaan naar scholen in de omgeving.",
+        "omschrijving": "Kapelle heeft geen eigen middelbare school, leerlingen gaan naar scholen in de omgeving. School kan LINK of het CJG erbij betrekken.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school LINK of het CJG kan betrekken, of meld u zelf aan.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of school LINK of het CJG kan betrekken.",
+          "Komt u er met school niet uit? Het Ouder- en jeugdsteunpunt Zeeland geeft onafhankelijk advies over passend onderwijs."
         ],
         "contact": [
           {
@@ -74,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er verder zijn voor jeugd, vraagt u aan het CJG of LINK.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het CJG gesloten? Op de website van het CJG staat welke crisisdienst voor jeugd en opvoedhulp u dan kunt bellen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": [
           {
@@ -192,7 +190,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Kapelle: Jeugd, jongvolwassen en onderwijs",

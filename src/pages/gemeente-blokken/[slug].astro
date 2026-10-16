@@ -47,8 +47,8 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
 {routeTypes.map((type) => { const gr = d.toegang.routes.find((x) => x.type === type)!; return (
   <template data-slot={`route-${type}`}>
     <div class="route-gemeente gemeente-blok" data-gemeente={g.id} hidden>
-      <strong>In {d.naam}: {gr.naam}</strong>
-      {type === 'spoed' ? <ol class="steps">{gr.stappen.map((st) => <li>{st}</li>)}</ol> : <p class="meta" style="margin:.2rem 0 0">{gr.omschrijving}</p>}
+      {/* Spoed: de situatiepagina toont de landelijke nummers al; hier alleen de crisispagina van de gemeente. */}
+      {type === 'spoed' ? <strong>Meer crisisdiensten in {d.naam}</strong> : <><strong>In {d.naam}: {gr.naam}</strong><p class="meta" style="margin:.2rem 0 0">{gr.omschrijving}</p></>}
       {contacten(gr.contact).map((c) => <Contact contact={c} />)}
     </div>
   </template>

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.noardeast-fryslan.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Noardeast-Fryslân begint u bij het Gebiedsteam van de gemeente. U belt zelf, een verwijzing is niet nodig. Aan de telefoon krijgt u eerst het Klantcontactcentrum van de gemeente. Vaak is een tip of advies genoeg. Is meer hulp nodig, dan volgt een gesprek en een plan. U kunt ook via de huisarts, jeugdarts of medisch specialist gaan. Op alle basisscholen werkt een schoolmaatschappelijk werker. De gemeente rondt het onderzoek naar uw hulpvraag uiterlijk zes weken na uw melding af. Hoe lang het in de praktijk duurt, is niet openbaar te vinden; vraag het bij uw melding.",
+    "samenvatting": "In Noardeast-Fryslân meldt u zich bij het Gebiedsteam van de gemeente; aan de telefoon krijgt u eerst het Klantcontactcentrum. U kunt ook via de huisarts, de jeugdarts of de schoolmaatschappelijk werker; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam van de gemeente",
-        "omschrijving": "Het Gebiedsteam helpt kinderen tot 18 jaar en hun ouders bij vragen over opgroeien en opvoeden. Het team werkt voor de gemeente. U meldt zich zelf aan. Het Gebiedsteam geeft eerst tips en advies en kijkt wat u zelf kunt doen. Is meer nodig, dan regelt het team extra hulp of specialistische jeugdhulp. Hulp die al loopt, kan soms doorgaan tot uw kind 23 is.",
+        "omschrijving": "Het Gebiedsteam helpt kinderen tot 18 jaar en hun ouders. Vaak is een tip of advies genoeg; is meer nodig, dan regelt het team extra hulp of specialistische jeugdhulp. Hulp die al loopt, kan soms doorgaan tot uw kind 23 is.",
         "stappen": [
-          "Bel het Gebiedsteam of mail de gemeente. Vertel wat er speelt of stel uw vraag.",
-          "Vraag om advies. Vaak krijgt u dat meteen. Is meer hulp nodig, dan maakt het team een afspraak voor een gesprek.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een familielid of een gratis onafhankelijke cliëntondersteuner.",
-          "Maak eventueel zelf een plan met familie en bekenden (familiegroepsplan). Lever het binnen 7 dagen na uw melding in bij de gemeente. Dat hoeft niet.",
-          "Vraag na het gesprek om een schriftelijk verslag. Bij specialistische hulp vraagt u ook om een beschikking (een schriftelijk besluit)."
+          "Bel het Gebiedsteam of mail de gemeente, en vertel wat er speelt. Vaak krijgt u meteen advies.",
+          "Is meer hulp nodig, dan volgt een gesprek. U mag iemand meenemen. Wilt u, dan maakt u met familie en bekenden een familiegroepsplan en levert u dat binnen 7 dagen na uw melding in.",
+          "Is specialistische hulp nodig, dan krijgt u een beschikking (een schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Gebiedsteam (gemeente Noardeast-Fryslân)",
@@ -24,16 +22,17 @@
           "email": "info@noardeast-fryslan.nl",
           "url": "https://www.noardeast-fryslan.nl/werkwijze-gebiedsteam",
           "openingstijden": "Kies optie 1. Telefonisch maandag t/m donderdag 8.30–16.30 uur, vrijdag 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "De gemeente rondt het onderzoek naar uw hulpvraag uiterlijk zes weken na uw melding af. Hoe lang het in de praktijk duurt, is niet openbaar; vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks doorsturen naar jeugdhulp van de gemeente. Dat is een gelijkwaardige route naast het Gebiedsteam. In Noardeast-Fryslân begint ruim de helft van de jeugdhulp via deze route. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Fryslân.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen, maar alleen naar een aanbieder met een contract bij de gemeente. In Noardeast-Fryslân begint ruim de helft van de jeugdhulp zo. De jeugdarts werkt bij GGD Fryslân.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Laat de arts verwijzen naar een aanbieder met een contract bij de gemeente. Naar andere aanbieders mag de arts niet verwijzen.",
-          "Laat de aanbieder de hulp bij de gemeente melden; u hoeft zelf geen aanvraag te doen. Wilt u de hulp op papier, vraag dan om een beschikking."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst u naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen. Wilt u de hulp op papier, vraag dan om een beschikking."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -44,12 +43,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle basisscholen werkt een schoolmaatschappelijk werker. Zo krijgen kinderen sneller lichte hulp op school. Het Gebiedsteam werkt samen met de scholen. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op alle basisscholen werkt een schoolmaatschappelijk werker, zodat kinderen sneller lichte hulp krijgen. Het Gebiedsteam werkt samen met de scholen.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag op de basisschool naar de schoolmaatschappelijk werker.",
-          "Schakel het Gebiedsteam in als er meer hulp nodig is. Dat kan school ook doen.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland als u er met school niet uitkomt."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag op de basisschool naar de schoolmaatschappelijk werker.",
+          "Is meer hulp nodig? Dan kan school het Gebiedsteam inschakelen.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland."
         ],
         "contact": [
           {
@@ -70,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor spoedeisende jeugdhulp in Friesland, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de meldpunten en crisisdiensten in Noardeast-Fryslân op de pagina Zorgwekkend gedrag melden van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Noardeast-Fryslân: zorgwekkend gedrag melden",

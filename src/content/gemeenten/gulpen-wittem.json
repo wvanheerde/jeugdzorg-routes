@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.gulpen-wittem.nl/onderwerpen/zorg-ondersteuning-en-jeugdhulp/hulp-bij-opvoeden-en-opgroeien",
   "toegang": {
-    "samenvatting": "In Gulpen-Wittem is Team Jeugd van de gemeente de ingang voor jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. Het team geeft zelf lichte hulp, ook op alle basisscholen en de middelbare school in de gemeente. Voor opvoedvragen is er ook het online CJG043. De huisarts mag ook rechtstreeks verwijzen, maar Team Jeugd regelt steeds vaker zelf de hulp. Hoe lang het duurt voordat Team Jeugd uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Gulpen-Wittem meldt u zich bij Team Jeugd van de gemeente; voor opvoedvragen is er ook het online CJG043. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente",
-        "omschrijving": "Team Jeugd werkt voor de gemeente Gulpen-Wittem. Het luistert naar uw verhaal en kijkt met u wat nodig is. Soms zijn een paar gesprekken met Team Jeugd of het schoolmaatschappelijk werk genoeg. Is meer nodig, dan regelt Team Jeugd specialistische jeugdhulp bij een zorgaanbieder. U krijgt daarover een besluit (beschikking) van de gemeente. Voor informatie en advies over opvoeden kunt u ook terecht bij het online CJG043 (Centrum voor Jeugd en Gezin) van de zes gemeenten in Maastricht-Heuvelland.",
+        "omschrijving": "Team Jeugd luistert naar uw verhaal en kijkt met u wat nodig is; soms zijn een paar gesprekken genoeg. Is meer nodig, dan regelt Team Jeugd specialistische jeugdhulp en krijgt u een besluit (beschikking). Het CJG043 (Centrum voor Jeugd en Gezin) van de zes gemeenten in Maastricht-Heuvelland geeft gratis en anoniem online advies over opvoeden.",
         "stappen": [
-          "Bel of mail Team Jeugd. U hoeft niet eerst naar de huisarts.",
-          "Maak een afspraak voor een gesprek. Neem gerust iemand mee, bijvoorbeeld een familielid of een onafhankelijke cliëntondersteuner van MEE Zuid-Limburg.",
-          "Vraag om het verslag van het gesprek als u het niet krijgt.",
-          "Bepaal samen welke hulp nodig is. Is specialistische hulp nodig, vraag dan om een schriftelijk besluit.",
-          "Heeft u alleen een vraag over opvoeden of opgroeien? Stel die gratis en anoniem bij het CJG043."
+          "Bel of mail Team Jeugd.",
+          "Maak een afspraak voor een gesprek. U mag iemand meenemen.",
+          "Bepaal samen welke hulp nodig is. Bij specialistische hulp krijgt u een schriftelijk besluit."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "email": "info@cjg043.nl",
             "url": "https://www.cjg043.nl/contact"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat Team Jeugd uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. Moet de hulp na een verwijzing van de huisarts langer doorgaan, dan beoordeelt Team Jeugd dat.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Moet de hulp na een verwijzing van de huisarts langer doorgaan, dan beoordeelt Team Jeugd dat.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg (die volgt de gezondheid en groei van kinderen).",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -52,12 +51,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Aan alle basisscholen en aan het Sophianum in Gulpen is een vaste medewerker van Team Jeugd gekoppeld als schoolmaatschappelijk werker. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Er is een steunpunt voor de basisschool en een voor de middelbare school.",
+        "omschrijving": "Aan alle basisscholen en aan het Sophianum in Gulpen is een vaste medewerker van Team Jeugd gekoppeld als schoolmaatschappelijk werker.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de schoolmaatschappelijk werker van Team Jeugd mee kan kijken. U kunt Team Jeugd ook zelf bellen.",
-          "Laat Team Jeugd met u de hulp regelen als er meer nodig is.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de schoolmaatschappelijk werker van Team Jeugd mee kan kijken.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt; er is er een voor de basisschool en een voor de middelbare school."
         ],
         "contact": [
           {
@@ -84,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er verder zijn, ook buiten kantooruren, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Crisishulp van de gemeente welke crisishulp er voor kinderen is buiten kantooruren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Gulpen-Wittem: crisishulp",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.meerssen.nl/vragen-over-jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Meerssen is het Sociaal Team van de gemeente de toegang voor jeugdhulp en Wmo. Voor jeugd werkt daarin team jeugd met medewerkers jeugd. U meldt zich zelf aan, een verwijzing is niet nodig. Het team bespreekt met u wat u zelf kunt, wat uw omgeving kan doen en welke hulp nodig is. Daarna maakt u een plan van aanpak en volgt zo nodig een besluit. Voor alledaagse opvoedvragen is er het online CJG043. Ook de huisarts mag rechtstreeks verwijzen. Bij de huisartsen werkt een praktijkondersteuner jeugd. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Meerssen meldt u zich bij team jeugd van het Sociaal Team van de gemeente; voor alledaagse opvoedvragen is er het online CJG043. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Meerssen (team jeugd)",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente. Het beoordeelt of uw kind jeugdhulp krijgt en regelt die hulp. U meldt zich zelf aan, of iemand anders doet dat voor u. Voor gewone vragen over opvoeden en opgroeien kunt u terecht bij het CJG043, zonder besluit van de gemeente.",
+        "omschrijving": "Het Sociaal Team beoordeelt of uw kind jeugdhulp krijgt en regelt die. U meldt zich zelf aan, of iemand anders doet dat voor u. Voor gewone opvoedvragen kunt u online terecht bij het CJG043, zonder besluit van de gemeente.",
         "stappen": [
-          "Bel het Sociaal Team en kies optie 2. Belt u na 12.00 uur? Dan belt het team u terug.",
-          "Het team maakt een afspraak voor een gesprek. U mag iemand meenemen, bijvoorbeeld een familielid of een onafhankelijke cliëntondersteuner.",
-          "Samen kijkt u wat u zelf kunt, wat uw netwerk kan doen en welke hulp nodig is. Daarna volgt een plan van aanpak.",
-          "Heeft uw kind specialistische hulp nodig? Vraag die dan aan. U krijgt een schriftelijk besluit (beschikking).",
-          "Alleen een opvoedvraag? Stel die online bij het CJG043."
+          "Bel het Sociaal Team en kies optie 2. Belt u na 12.00 uur, dan belt het team u terug.",
+          "Bespreek in het gesprek wat u zelf kunt, wat uw omgeving kan doen en welke hulp nodig is. U mag iemand meenemen.",
+          "Maak samen een plan van aanpak. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "url": "https://www.cjg043.nl/over-cjg043/contact/",
             "openingstijden": "Alleen online: chat of formulier voor opvoedvragen, meestal binnen twee werkdagen antwoord"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisartsen in Meerssen werkt een praktijkondersteuner jeugd. Die helpt bij opvoed- en psychische vragen, vaak zonder dat verdere jeugdhulp nodig is.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisartsen in Meerssen werkt een praktijkondersteuner jeugd, voor opvoed- en psychische vragen; vaak is daarna geen verdere jeugdhulp nodig.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de praktijkondersteuner jeugd sturen, of direct naar een aanbieder die de regio heeft gecontracteerd.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Laat u verwijzen naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract in de regio.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -52,12 +51,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Scholen in Meerssen bespreken zorgen over leerlingen in een knooppunt. Dat is een overleg van de school met onder meer jeugdgezondheidszorg en het Sociaal Team. De leerling en de ouders mogen zelf aan tafel zitten. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies.",
+        "omschrijving": "Scholen in Meerssen bespreken zorgen over leerlingen in een knooppunt: een overleg van school met onder meer de jeugdgezondheidszorg en het Sociaal Team. U en uw kind mogen zelf aan tafel zitten.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of uw kind in het knooppunt van de school besproken kan worden. U mag zelf meepraten.",
-          "Heeft uw kind meer hulp nodig? Meld u aan bij het Sociaal Team.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband voor basis- of voortgezet onderwijs."
+          "Vraag of uw kind in het knooppunt besproken kan worden, en praat zelf mee.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -87,10 +85,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden in heel Nederland. Crisishulp voor jeugd in Zuid-Limburg staat op de pagina van het Sociaal Team.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisishulp voor jeugd en meldpunten op de pagina van het Sociaal Team van de gemeente, onder Spoed jeugdhulp."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Meerssen: Sociaal Team, Spoed jeugdhulp en Veilig Thuis",

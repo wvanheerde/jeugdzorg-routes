@@ -5,33 +5,32 @@
   "jeugdzorgregio": "Zeeland",
   "websiteJeugd": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/vragen-over-jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Tholen meldt u uw vraag over opgroeien of opvoeden bij de gemeente zelf. Er is geen apart wijkteam of Centrum voor Jeugd en Gezin meer. Bel de gemeente en vraag naar Inwonersondersteuning, of meld uw vraag online met DigiD. Een maatschappelijk werker van WijZijn kijkt dan met u mee. Is meer hulp nodig, dan beslist een consulent Wmo/Jeugd van de gemeente. Ook de huisarts mag verwijzen. Bij de huisartsen werkt een praktijkondersteuner jeugd. De gemeente wil per 1 januari 2028 een Stevig Lokaal Team hebben. In Sint-Maartensdijk wordt dat nu uitgeprobeerd. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Tholen meldt u zich bij Inwonersondersteuning van de gemeente; een apart wijkteam of Centrum voor Jeugd en Gezin is er niet meer. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Inwonersondersteuning Tholen (gemeente, met WijZijn)",
-        "omschrijving": "Inwonersondersteuning is het eerste aanspreekpunt van de gemeente voor vragen over jeugd, zorg, welzijn en werk en inkomen. U meldt zich zelf aan, een verwijzing is niet nodig. Een maatschappelijk werker van WijZijn (de welzijnsorganisatie) denkt met u mee. Is meer nodig, dan beslist de gemeente over jeugdhulp. Daarvoor vraagt u een besluit (beschikking) aan.",
+        "omschrijving": "Inwonersondersteuning helpt bij vragen over jeugd, zorg, welzijn en werk en inkomen. Een maatschappelijk werker van WijZijn (welzijnsorganisatie) denkt met u mee; is meer nodig, dan beslist een medewerker Wmo/jeugd van de gemeente.",
         "stappen": [
-          "Bel de gemeente en vraag naar Inwonersondersteuning Tholen, of vul online het meldformulier in (met DigiD).",
-          "Bespreek uw vraag met de maatschappelijk werker. Die geeft tips, denkt mee en plant zo nodig een uitgebreid gesprek.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Samen bekijkt u wat u zelf kunt doen, wat uw omgeving kan doen en welke voorzieningen helpen.",
-          "Is jeugdhulp nodig? Maak dan samen een plan van aanpak. De gemeente regelt de aanvraag met u.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+          "Bel de gemeente en vraag naar Inwonersondersteuning, of meld uw vraag online (met DigiD).",
+          "Bespreek uw vraag met de maatschappelijk werker. Die geeft tips en plant zo nodig een uitgebreid gesprek. U mag iemand meenemen.",
+          "Is jeugdhulp nodig, maak dan samen een plan van aanpak. Bij specialistische hulp krijgt u een besluit (beschikking)."
         ],
         "contact": {
           "naam": "Gemeente Tholen: Inwonersondersteuning (jeugd, Wmo, werk en inkomen)",
           "telefoon": "14 0166",
           "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/inwonersondersteuning-tholen"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Inwonersondersteuning. Bij de huisartsen in Tholen werkt een praktijkondersteuner jeugd, die kan helpen bij opvoed- en opgroeivragen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de regio. Bij de huisartsen in Tholen werkt een praktijkondersteuner jeugd voor opvoed- en opgroeivragen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de regio.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -42,12 +41,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met school. Komt u er niet uit, dan helpt het Zeeland ouder- en jeugdsteunpunt bij vragen over passend onderwijs op de basisschool. Het samenwerkingsverband passend primair onderwijs Kind op 1 regelt extra ondersteuning voor leerlingen. De gemeente werkt met scholen samen om problemen vroeg te zien, en aan onderwijs in combinatie met zorg.",
+        "omschrijving": "Het samenwerkingsverband passend primair onderwijs Kind op 1 regelt extra ondersteuning voor leerlingen op de basisschool. Is meer hulp nodig buiten school, dan helpt Inwonersondersteuning.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht of de intern begeleider.",
-          "Vraag school welke extra ondersteuning mogelijk is en leg afspraken schriftelijk vast.",
-          "Komt u er met school niet uit? Vraag advies bij het Zeeland ouder- en jeugdsteunpunt.",
-          "Is meer hulp nodig buiten school? Meld u dan aan bij Inwonersondersteuning van de gemeente."
+          "Vraag school welke extra ondersteuning mogelijk is.",
+          "Komt u er met school niet uit? Vraag advies bij het Zeeland ouder- en jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -70,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente over huiselijk geweld staat waar u verder terechtkunt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over hulp bij huiselijk geweld waar u terechtkunt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Tholen: hulp en advies bij huiselijk geweld",
@@ -275,7 +272,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Tholen: Vragen over jeugd en gezin",

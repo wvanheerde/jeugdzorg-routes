@@ -4,18 +4,16 @@
   "provincie": "Zeeland",
   "websiteJeugd": "https://www.gemeentehulst.nl/Inwoners/Kinderen_jeugd/Jeugdzorg",
   "toegang": {
-    "samenvatting": "In Hulst is Stichting Hulst voor Elkaar het loket voor alle vragen over opgroeien, opvoeden en jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. Medewerkers voeren het gesprek en onderzoeken uw vraag. Zij geven daarna advies aan de gemeente. De gemeente neemt zelf het besluit (de beschikking). Ook de huisarts mag rechtstreeks verwijzen. Volgens de gemeente wachtte in juli 2026 niemand op een uitgebreid intakegesprek over jeugdhulp. De tijd tussen aanmelding en dat gesprek is maximaal een week.",
+    "samenvatting": "In Hulst meldt u zich zelf bij Stichting Hulst voor Elkaar, het loket voor opgroeien, opvoeden en jeugdhulp. U kunt ook via de huisarts, jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Stichting Hulst voor Elkaar (loket jeugd en gezin)",
-        "omschrijving": "Hulst voor Elkaar is het centrale loket in de gemeente, ook voor jeugdhulp. Een medewerker bespreekt met u wat er speelt en kijkt of lichte hulp of ondersteuning in de buurt genoeg is. Is meer hulp nodig, dan onderzoekt de medewerker uw vraag en geeft advies aan de gemeente. De gemeente beslist en stuurt u de beschikking (het besluit over de hulp). U meldt zich zelf aan.",
+        "omschrijving": "Een medewerker bespreekt met u wat er speelt en kijkt of lichte hulp of steun in de buurt genoeg is. Is meer nodig, dan onderzoekt de medewerker uw vraag en adviseert de gemeente. De gemeente neemt het besluit (beschikking).",
         "stappen": [
-          "Neem contact op met Hulst voor Elkaar, telefonisch, per e-mail of schriftelijk.",
-          "Bespreek in een eerste gesprek met een medewerker wat er speelt en wat uw vraag is.",
-          "Is jeugdhulp nodig? Dan volgt een uitgebreider gesprek en onderzoek. Hulst voor Elkaar zegt daar zes weken voor te nemen.",
-          "Lees het gespreksverslag dat u per post krijgt. U mag het laten aanpassen. Keurt u het goed, dan gaat het met de aanvraag naar de gemeente.",
-          "Wacht op de beschikking van de gemeente. Bewaar die samen met het verslag."
+          "Neem telefonisch, per e-mail of per brief contact op met Hulst voor Elkaar.",
+          "Bespreek in een eerste gesprek wat er speelt. Is jeugdhulp nodig, dan volgt een uitgebreider gesprek en onderzoek.",
+          "U krijgt het gespreksverslag per post en mag het laten aanpassen. Keurt u het goed, dan gaat het met de aanvraag naar de gemeente."
         ],
         "contact": {
           "naam": "Stichting Hulst voor Elkaar",
@@ -24,16 +22,17 @@
           "url": "https://www.hulstvoorelkaar.nl/contact",
           "adres": "De Lieve, Broodmarkt 8, Hulst",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur en 13.00–16.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de gemeente wachtte in juli 2026 niemand op een uitgebreid intakegesprek; dat gesprek volgt binnen een week na aanmelding. Voor het onderzoek daarna neemt Hulst voor Elkaar zes weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Hulst voor Elkaar. De gemeente legt de hulp na een verwijzing vast in een beschikking.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente legt de hulp daarna vast in een beschikking.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -44,10 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op school kunt u terecht bij de leerkracht, mentor of intern begeleider. Hulst voor Elkaar heeft brugfunctionarissen onderwijs en adviseert ook op verzoek van school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Zeeland van de samenwerkingsverbanden passend onderwijs. Dat steunpunt is er voor ouders en leerlingen in het basis- en voortgezet onderwijs.",
+        "omschrijving": "Hulst voor Elkaar heeft brugfunctionarissen onderwijs en adviseert ook op verzoek van school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Zeeland, voor basis- en voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school Hulst voor Elkaar kan betrekken. U kunt zich ook zelf aanmelden bij Hulst voor Elkaar.",
+          "Vraag of school Hulst voor Elkaar kan betrekken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland."
         ],
         "contact": [
@@ -68,10 +67,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn voor kinderen en jongeren, staat op de pagina van Hulst voor Elkaar.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Hulst op de pagina Ik heb direct hulp nodig (crisis) van Hulst voor Elkaar."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Hulst voor Elkaar: ik heb direct hulp nodig (crisis)",

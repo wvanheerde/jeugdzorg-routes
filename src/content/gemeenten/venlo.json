@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Noord-Limburg",
   "websiteJeugd": "https://www.venlo.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Venlo is het Sociaal Wijkteam de toegang tot jeugdhulp en Wmo. U meldt zich via het formulier op venlo.nl of telefonisch via de gemeente; een medewerker belt u en komt langs voor een keukentafelgesprek. Is een voorziening nodig, dan legt het team dat vast in een leefzorgplan. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in Venlo helpen ook het Voor Elkaar Team en een specialistisch ondersteuner jeugd bij huisartsen. Let op: de gemeente noemt alleen een streeftermijn van 8 weken om uw vraag te beantwoorden en meldt dat het gecontracteerde aanbod niet altijd past bij de hulpvraag.",
+    "samenvatting": "In Venlo meldt u zich bij het Sociaal Wijkteam, via het formulier op venlo.nl of telefonisch via de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Wijkteam",
-        "omschrijving": "Team van professionals uit verschillende disciplines dat de toegang vormt tot jeugdhulp en Wmo; u kunt er terecht met vragen over opvoeden en opgroeien, en voor een aanvraag of wijziging van jeugdhulp. Het team coördineert de behandeling van uw vraag, in elk geval tot er een leefzorgplan is opgesteld, en regelt zo nodig de specialistische hulp.",
+        "omschrijving": "Het Sociaal Wijkteam helpt bij vragen over opvoeden en opgroeien en regelt zo nodig specialistische hulp. Het team begeleidt uw vraag in elk geval tot er een leefzorgplan is. Volgens de gemeente past het ingekochte aanbod niet altijd bij de hulpvraag.",
         "stappen": [
-          "Neem contact op via het online formulier op venlo.nl (met DigiD, met eHerkenning of zonder DigiD) of bel de gemeente.",
-          "Een medewerker van het Sociaal Wijkteam belt u om een afspraak te maken. De gemeente streeft ernaar uw vraag binnen 8 weken te beantwoorden.",
-          "Een medewerker komt bij u thuis voor het keukentafelgesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is jeugdhulp nodig, dan wordt dit vastgelegd in een leefzorgplan; volgens het Besluit jeugdhulp 2026 legt het team dat binnen zes weken na uw vraag aan u voor om te ondertekenen. Vraag ook om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+          "Vul het online formulier op venlo.nl in (met of zonder DigiD) of bel de gemeente.",
+          "Een medewerker belt u en komt bij u thuis voor een gesprek. U mag iemand meenemen.",
+          "Is jeugdhulp nodig, dan komt dat in een leefzorgplan, dat u binnen zes weken krijgt om te ondertekenen. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Gemeente Venlo (Sociaal Wijkteam)",
@@ -23,16 +22,16 @@
           "url": "https://www.venlo.nl/sociale-wijkteams",
           "adres": "Bezoekadres gemeente: Hanzeplaats 1, 5912 AT Venlo"
         },
-        "doorlooptijd": "Streeftermijn van de gemeente: uw vraag binnen 8 weken beantwoord. Gemeten doorlooptijden zijn niet gepubliceerd."
+        "doorlooptijd": "De gemeente streeft ernaar uw vraag binnen 8 weken te beantwoorden. Hoe lang het in de praktijk duurt, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. In Venlo zetten het Voor Elkaar Team en een specialistisch ondersteuner jeugd bij huisartsen jeugdigen vroeg in beeld, voordat jeugdhulp via het Sociaal Wijkteam nodig is.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. Bij huisartsen in Venlo helpen ook het Voor Elkaar Team en een specialistisch ondersteuner jeugd.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
-          "De arts verwijst naar een door de regio gecontracteerde aanbieder; de Zoektool van Sociaal Domein Limburg-Noord toont de aanbieders.",
-          "De aanbieder meldt de verwijzing binnen tien werkdagen bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de regio. De Zoektool van Sociaal Domein Limburg-Noord toont de aanbieders.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp binnen tien werkdagen bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -51,11 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Venlo zet in het programma Gelijke Kansen brugfunctionarissen en schoolcontactpersonen in, en professionals zijn geschoold in het afwegingskader Jeugdwet en Wet Passend Onderwijs. Vanaf schooljaar 2026-2027 geldt de subsidieregeling Collectieve Zorg in Onderwijstijd voor zorg- en onderwijsarrangementen op school.",
+        "omschrijving": "Op scholen in Venlo werken brugfunctionarissen en schoolcontactpersonen. Vanaf schooljaar 2026-2027 kan zorg ook onder schooltijd op school worden geregeld (regeling Collectieve Zorg in Onderwijstijd).",
         "stappen": [
-          "Bespreek zorgen met de leerkracht of intern begeleider.",
-          "School kan een schoolcontactpersoon of brugfunctionaris inschakelen of contact leggen met het Sociaal Wijkteam.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs van uw school; vraag school om de afspraken schriftelijk vast te leggen."
+          "Bespreek uw zorgen met de leerkracht of intern begeleider.",
+          "Vraag school om een schoolcontactpersoon of brugfunctionaris in te schakelen, of contact te leggen met het Sociaal Wijkteam.",
+          "Gaat het om extra ondersteuning in het onderwijs? Dat loopt via het samenwerkingsverband passend onderwijs van de school."
         ],
         "contact": [
           {
@@ -74,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Venlo op de pagina Meldpunten zorg en jeugd van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Venlo: meldpunten zorg en jeugd",

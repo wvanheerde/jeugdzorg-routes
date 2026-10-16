@@ -4,18 +4,16 @@
   "provincie": "Drenthe",
   "websiteJeugd": "https://www.aaenhunze.nl/Alle_onderwerpen/Opgroeien_en_onderwijs/Jeugdgezondheidszorg",
   "toegang": {
-    "samenvatting": "In Aa en Hunze is Stichting Attenta het sociaal team voor jeugd, zorg (Wmo) en welzijn. U meldt zich zelf aan, een verwijzing is niet nodig. Attenta praat met u over wat uw gezin nodig heeft en regelt zo nodig de jeugdhulp. Ook de huisarts mag rechtstreeks verwijzen. In Rolde en Gieten werkt sinds november 2025 als proef een praktijkondersteuner jeugd van Attenta bij de huisartsen. Attenta wil binnen 5 werkdagen een afspraak met u maken, en uiterlijk binnen 10 werkdagen. Hoe lang het in de praktijk duurt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Aa en Hunze meldt u zich bij Stichting Attenta, het sociaal team voor jeugd, zorg en welzijn. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Stichting Attenta (sociaal team)",
-        "omschrijving": "Attenta is het toegangsteam van de gemeente voor jeugdhulp. U belt, mailt of loopt zelf binnen. Soms is een advies genoeg. Is meer nodig? Dan voert Attenta een gesprek met u, bespreekt of mensen om u heen kunnen helpen en regelt de jeugdhulp. Voor lichte hulp, zoals opvoedondersteuning, is geen besluit van de gemeente nodig.",
+        "omschrijving": "Attenta is het toegangsteam van de gemeente voor jeugdhulp. Soms is advies genoeg; voor lichte hulp, zoals opvoedondersteuning, is geen besluit van de gemeente nodig. Is meer nodig, dan regelt Attenta de jeugdhulp bij een aanbieder met een contract.",
         "stappen": [
-          "Bel Attenta, mail of loop binnen. U mag uw vraag mondeling doen, een formulier is niet nodig.",
-          "Reken op een afspraak binnen 5 tot 10 werkdagen. Attenta probeert binnen 5 werkdagen een afspraak te maken.",
-          "Praat met een medewerker over uw vraag. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak als u wilt een familiegroepsplan: een eigen plan met mensen uit uw omgeving. Attenta helpt u daarbij.",
-          "Vraag om een schriftelijk besluit als specialistische hulp nodig is. De hulp komt dan van een aanbieder met een contract."
+          "Bel Attenta, mail of loop binnen. U mag uw vraag mondeling doen; een formulier is niet nodig.",
+          "Praat met een medewerker over uw vraag. U mag iemand meenemen.",
+          "Maak als u wilt een familiegroepsplan met mensen uit uw omgeving; Attenta helpt daarbij. Bij specialistische hulp krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Stichting Attenta (sociaal team Aa en Hunze)",
@@ -24,16 +22,17 @@
           "url": "https://stichtingattenta.nl/contact/",
           "adres": "Spiekersteeg 1, Gieten",
           "openingstijden": "Telefonisch werkdagen 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Attenta wil binnen 5 werkdagen een afspraak met u maken, en uiterlijk binnen 10 werkdagen. Hoe lang het in de praktijk duurt, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Attenta. Voor kinderen tot 4 jaar zit de jeugdarts bij Icare JGZ, voor kinderen van 4 tot 18 jaar bij de GGD Drenthe. In Rolde en Gieten werkt als proef een praktijkondersteuner jeugd van Attenta bij de huisartsen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Rolde en Gieten werkt sinds november 2025 als proef een praktijkondersteuner jeugd van Attenta bij de huisartsen. De jeugdarts zit tot 4 jaar bij Icare JGZ en van 4 tot 18 jaar bij de GGD Drenthe.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een aanbieder met een contract met de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -54,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek uw zorgen eerst op school. Het jeugd- en schoolmaatschappelijk werk van Impuls Welzijn helpt kort en dichtbij: op school, bij Impuls of thuis, als u dat goed vindt. Komt u er met school niet uit? Dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Het jeugd- en schoolmaatschappelijk werk van Impuls Welzijn helpt kort en dichtbij: op school, bij Impuls of thuis, als u dat goed vindt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school het jeugdmaatschappelijk werk van Impuls kan inschakelen, of meld u zelf aan bij Impuls.",
-          "Meld u aan bij Attenta als meer hulp nodig is.",
+          "Vraag of de school Impuls kan inschakelen, of meld u zelf aan bij Impuls. Is meer hulp nodig, dan gaat u naar Attenta.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -84,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er in Aa en Hunze zijn, ook buiten kantooruren voor een kind, staat op de spoedpagina van Attenta.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Aa en Hunze, ook buiten kantooruren, op de spoedpagina van Attenta."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Attenta: bereikbaarheid bij spoed, ook voor jeugd",

@@ -4,18 +4,16 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.voerendaal.nl/jeugd-wmo-werk-en-inkomen/jeugd/toegangsteam-jeugd",
   "toegang": {
-    "samenvatting": "In Voerendaal begint hulp bij het Toegangsteam Jeugd van de gemeente. De hulp zelf komt van JENS, een samenwerking van zorgorganisaties voor Heerlen, Landgraaf en Voerendaal. U meldt uw kind zelf aan, een verwijzing is niet nodig. Op school helpt de schoolmaatschappelijk werker. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt tot de hulp start, hangt vooral af van de wachttijd voor specialistische behandeling. Die wachttijd geldt voor heel Zuid-Limburg.",
+    "samenvatting": "In Voerendaal meldt u zich bij het Toegangsteam Jeugd van de gemeente; de hulp zelf komt van JENS, een samenwerking van zorgorganisaties voor Heerlen, Landgraaf en Voerendaal. U kunt ook via de huisarts, de jeugdarts of de schoolmaatschappelijk werker; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Toegangsteam Jeugd Voerendaal, met JENS",
-        "omschrijving": "Het Toegangsteam Jeugd geeft informatie, advies en begeleiding bij opvoeden en opgroeien. Is er op meer plekken hulp nodig? Dan maakt een teamlid samen met u één gezinsplan, met één vast aanspreekpunt. JENS biedt lichte hulp en begeleiding voor kinderen tot 18 jaar. Is specialistische hulp nodig, dan regelt JENS die bij een andere aanbieder. U meldt zich zelf aan.",
+        "omschrijving": "Het Toegangsteam Jeugd geeft informatie, advies en begeleiding bij opvoeden en opgroeien. Is op meer plekken hulp nodig, dan maakt een teamlid samen met u één gezinsplan, met één vast aanspreekpunt. JENS biedt lichte hulp en begeleiding voor kinderen tot 18 jaar en regelt zo nodig specialistische hulp bij een andere aanbieder.",
         "stappen": [
-          "Meld u aan bij het Toegangsteam Jeugd van de gemeente, het liefst telefonisch of per mail. U hoort uiterlijk de volgende werkdag van het team.",
-          "Vertel uw verhaal in een eerste gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met het team een gezinsplan. Het team of JENS bepaalt welke hulp past.",
-          "Vraag na het gesprek om een schriftelijk verslag en om de brief van aanbod van JENS.",
-          "Heeft u alleen een vraag over opvoeden? Dan kunt u ook terecht bij de schoolmaatschappelijk werker, JENS of de huisarts."
+          "Meld u aan bij het Toegangsteam Jeugd, het liefst telefonisch of per mail.",
+          "Vertel uw verhaal in een eerste gesprek. U mag iemand meenemen.",
+          "Maak samen een gezinsplan; het team of JENS bepaalt welke hulp past. Vraag om de brief van aanbod van JENS."
         ],
         "contact": [
           {
@@ -30,16 +28,17 @@
             "email": "info@jenshelpt.nl",
             "url": "https://jenshelpt.nl/jens-contact/"
           }
-        ]
+        ],
+        "doorlooptijd": "U hoort uiterlijk de volgende werkdag van het team. Hoe lang het duurt tot de hulp start, hangt vooral af van de wachttijd voor specialistische behandeling, die voor heel Zuid-Limburg geldt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Toegangsteam Jeugd. De jeugdarts werkt bij de Jeugdgezondheidszorg (JGZ) van de GGD Zuid-Limburg.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Zuid-Limburg.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de Jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar JENS of naar een aanbieder met een contract met de gemeente.",
-          "Doe zelf geen aanvraag. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts, de jeugdarts of de jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar JENS of naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -51,11 +50,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen en middelbare scholen werkt een schoolmaatschappelijk werker van JENS. Die adviseert ouders, leerkrachten en kinderen bij vragen over opvoeden en opgroeien. Komt u er met school niet uit over passend onderwijs? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Voor de basisschool is dat Heerlen e.o., voor de middelbare school Parkstad.",
+        "omschrijving": "Op de basisscholen en middelbare scholen werkt een schoolmaatschappelijk werker van JENS. Die adviseert ouders, leerkrachten en kinderen en kan uw kind aanmelden bij JENS of het Toegangsteam Jeugd als meer hulp nodig is.",
         "stappen": [
           "Vraag de leerkracht of intern begeleider om een gesprek met de schoolmaatschappelijk werker.",
-          "Vraag de schoolmaatschappelijk werker om u aan te melden bij JENS of het Toegangsteam Jeugd als meer hulp nodig is. U kunt zich ook zelf aanmelden.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband als school en u het niet eens worden over ondersteuning."
+          "Worden u en school het niet eens over ondersteuning? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband: Heerlen e.o. voor de basisschool, Parkstad voor de middelbare school."
         ],
         "contact": [
           {
@@ -85,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn, ook buiten kantooruren, staat op de pagina van het Toegangsteam Jeugd van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten voor jeugd op de pagina van het Toegangsteam Jeugd van de gemeente, onder het kopje Crisis."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Voerendaal: Toegangsteam Jeugd, kopje Crisis",

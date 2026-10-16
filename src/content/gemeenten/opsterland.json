@@ -4,17 +4,16 @@
   "provincie": "Fryslân",
   "websiteJeugd": "https://www.opsterland.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Opsterland is het Gebiedsteam van de gemeente de eerste deur voor jeugdhulp. Het team helpt bij vragen over opvoeden en opgroeien, geeft zelf lichte hulp en beslist over specialistische hulp. U meldt u zelf aan, een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd. Op de scholen werkt een medewerker jeugd van het Gebiedsteam. Vraagt u een terugbelverzoek aan, dan belt het team binnen twee werkdagen. Hoe lang het daarna duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Opsterland meldt u zich bij het Gebiedsteam van de gemeente; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of de medewerker jeugd op school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam Opsterland",
-        "omschrijving": "Het Gebiedsteam werkt voor de gemeente. De medewerkers jeugd bespreken uw vraag, geven zo nodig zelf lichte hulp en regelen zwaardere hulp, zoals jeugd-ggz, pleegzorg of jeugdbescherming. U meldt u zelf aan. Ook voor kindermishandeling en huiselijk geweld kunt u er terecht.",
+        "omschrijving": "De medewerkers jeugd van het Gebiedsteam bespreken uw vraag, geven zelf lichte hulp en regelen zwaardere hulp, zoals jeugd-ggz, pleegzorg of jeugdbescherming. Ook bij kindermishandeling en huiselijk geweld kunt u er terecht.",
         "stappen": [
-          "Bel het Gebiedsteam of vraag online een terugbelverzoek aan.",
-          "Loop eventueel zonder afspraak binnen bij een loket van het Gebiedsteam in Beetsterzwaag, Gorredijk of Ureterp.",
-          "Spreek een huisbezoek af met de medewerker jeugd om uw situatie te bespreken. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp ook om een schriftelijk besluit (beschikking)."
+          "Bel het Gebiedsteam, vraag online een terugbelverzoek aan, of loop zonder afspraak binnen bij een loket in Beetsterzwaag, Gorredijk of Ureterp.",
+          "Spreek een huisbezoek af met de medewerker jeugd. U mag iemand meenemen.",
+          "Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Gebiedsteam Opsterland",
@@ -22,16 +21,17 @@
           "url": "https://www.opsterland.nl/contact-gebiedsteam",
           "adres": "Loketten in Beetsterzwaag (Hoofdstraat 82), Gorredijk (Schansburg 1) en Ureterp (Lijteplein 9)",
           "openingstijden": "Telefonisch ma t/m vr 9.00–12.30 uur. U kunt ook een terugbelverzoek indienen; u wordt binnen twee werkdagen teruggebeld"
-        }
+        },
+        "doorlooptijd": "Vraagt u een terugbelverzoek aan, dan belt het Gebiedsteam binnen twee werkdagen. Hoe lang het daarna duurt tot een eerste gesprek, is niet openbaar."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Bij veel huisartsen werkt een praktijkondersteuner jeugd. Die kijkt eerst met u en uw kind wat nodig is. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Fryslân.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij veel huisartsen werkt een praktijkondersteuner jeugd, die eerst met u en uw kind kijkt wat nodig is. De jeugdarts werkt bij GGD Fryslân.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -42,10 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle basisscholen en op de Burgemeester Harmsma School werkt een medewerker jeugd van het Gebiedsteam. De medewerker jeugd helpt leerlingen, ouders en school bij vragen over opgroeien en opvoeden en kan lichte hulp geven. Komt u er met school niet uit, dan kunt u advies vragen bij het Ouder- en jeugdsteunpunt passend onderwijs.",
+        "omschrijving": "Op alle basisscholen en op de Burgemeester Harmsma School werkt een medewerker jeugd van het Gebiedsteam. Die helpt leerlingen, ouders en school bij vragen over opgroeien en opvoeden en kan lichte hulp geven.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de medewerker jeugd van het Gebiedsteam kan meedenken. U kunt ook zelf contact opnemen met het Gebiedsteam.",
+          "Vraag of de medewerker jeugd van het Gebiedsteam kan meedenken.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt passend onderwijs."
         ],
         "contact": [
@@ -67,10 +67,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Fryslân zijn, ook als een kind met spoed opgevangen moet worden, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina van de gemeente over mishandeling en zorgwekkend gedrag. Daar staan Spoed4Jeugd, de Friese spoeddienst voor jeugdhulp, en wat u buiten kantoortijd kunt doen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Opsterland: mishandeling en zorgwekkend gedrag",

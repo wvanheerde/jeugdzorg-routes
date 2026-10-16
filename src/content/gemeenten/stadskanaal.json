@@ -4,18 +4,16 @@
   "provincie": "Groningen",
   "websiteJeugd": "https://www.stadskanaal.nl/inwoners/jeugd-en-gezin/aanvragen-jeugdhulp",
   "toegang": {
-    "samenvatting": "In Stadskanaal vraagt u jeugdhulp aan bij het team CJGV (Centrum voor Jeugd, Gezin en Veiligheid) van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Een medewerker jeugd praat met u, maakt een ondersteuningsplan en neemt het besluit over de hulp. Het team geeft zelf geen hulp, dat doen aanbieders. Ook de huisarts mag rechtstreeks verwijzen. Bij alle huisartsen werkt een ondersteuner jeugd en gezin. Bij het team CJGV kan een wachtlijst zijn voordat een medewerker jeugd uw aanvraag oppakt. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Stadskanaal meldt u zich voor jeugdhulp bij het team CJGV (Centrum voor Jeugd, Gezin en Veiligheid) van de gemeente; voor lichte hulp kunt u ook naar Welstad. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team CJGV van de gemeente",
-        "omschrijving": "Het team CJGV werkt voor de gemeente. U meldt zich zelf aan. De medewerkers jeugd onderzoeken uw hulpvraag, maken met u een ondersteuningsplan en nemen een besluit (beschikking). Het team helpt ook bij zorgen over de veiligheid van een kind, bijvoorbeeld na een melding bij Veilig Thuis Groningen. Lichtere hulp zonder besluit krijgt u bij Welstad, het welzijnswerk in Stadskanaal.",
+        "omschrijving": "Medewerkers jeugd onderzoeken uw vraag, maken met u een ondersteuningsplan en nemen het besluit (beschikking). Het team geeft zelf geen hulp, dat doen aanbieders; het helpt ook bij zorgen over de veiligheid van een kind. Lichtere hulp zonder besluit krijgt u bij Welstad, het welzijnswerk.",
         "stappen": [
-          "Bel of mail de gemeente en vraag naar jeugdhulp. Er kan een wachtlijst zijn voordat een medewerker jeugd uw aanvraag oppakt.",
-          "Praat met de medewerker jeugd in een of meer gesprekken (het keukentafelgesprek). Waar het kan, praat de medewerker jeugd ook met uw kind. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner.",
-          "Lees het ondersteuningsplan en de beschikking. Daarin staat of u hulp krijgt en welke.",
-          "Vraag de aanbieder hoe lang het duurt voordat de hulp start. Ook na een besluit kan er nog een wachttijd zijn.",
-          "Liever eerst advies of lichte hulp zonder besluit? Vraag het aan Welstad."
+          "Bel of mail de gemeente en vraag naar jeugdhulp.",
+          "Praat met de medewerker jeugd in een of meer gesprekken; waar het kan, ook met uw kind. U mag iemand meenemen.",
+          "Lees het ondersteuningsplan en de beschikking. Daarin staat of u hulp krijgt en welke."
         ],
         "contact": [
           {
@@ -33,16 +31,17 @@
             "adres": "Gandhiplein 5, Stadskanaal",
             "openingstijden": "Telefonisch ma t/m vr 9.00–17.00 uur. Wekelijks inloopspreekuur per wijkteam, zonder afspraak"
           }
-        ]
+        ],
+        "doorlooptijd": "Er kan een wachtlijst zijn voordat een medewerker jeugd uw aanvraag oppakt, en ook na het besluit kan er een wachttijd bij de aanbieder zijn. Vraag bij uw aanmelding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het team CJGV. Bij alle huisartsen in Stadskanaal werkt een ondersteuner jeugd en gezin. Die geeft zelf kortdurende ondersteuning of verwijst door.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij alle huisartsen in Stadskanaal werkt een ondersteuner jeugd en gezin, die zelf korte hulp geeft of doorverwijst.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of u eerst naar de ondersteuner jeugd en gezin kunt, of dat een verwijzing naar een aanbieder met een contract nodig is.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag of u eerst naar de ondersteuner jeugd en gezin kunt, of dat een verwijzing naar een aanbieder nodig is.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Groningen",
@@ -54,11 +53,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Voor hulp rond leren en schoolgaan begint u bij de leerkracht, mentor of intern begeleider. Het team CJGV doet ook de leerplicht en helpt jongeren die dreigen uit te vallen op school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Welk samenwerkingsverband dat is, hangt af van de school.",
+        "omschrijving": "Het team CJGV doet ook de leerplicht en helpt jongeren die dreigen uit te vallen op school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan aan bij het team CJGV, of vraag de school om dat samen met u te doen.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband. Voor basisscholen is dat PO 20-01, voor het voortgezet onderwijs Groningen Ommelanden."
+          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u bij het team CJGV, eventueel samen met school.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt: PO 20-01 voor de basisschool, Groningen Ommelanden voor het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -83,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst er voor kinderen en jongeren is, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst voor jeugd op de pagina Crisis of spoed van de gemeente Stadskanaal."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Stadskanaal: crisis of spoed (jeugd)",

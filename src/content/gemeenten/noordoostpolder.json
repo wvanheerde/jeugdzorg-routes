@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Flevoland",
   "websiteJeugd": "https://www.noordoostpolder.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Noordoostpolder is het Sociaal Loket van de gemeente de eerste stap bij vragen over opvoeden en opgroeien en bij het aanvragen van jeugdhulp. U kunt zelf bellen, mailen of binnenlopen. Een verwijzing is niet nodig. Heeft uw kind meer hulp nodig, dan onderzoekt de gemeente uw vraag en neemt zij een besluit. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Volgens het CBS begon in 2025 ongeveer de helft van de jeugdhulp via een van hen (landelijk 43 procent). Specialistische hulp koopt de gemeente samen met andere Flevolandse gemeenten in. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Noordoostpolder meldt u zich bij het Sociaal Loket van de gemeente; u kunt bellen, mailen of binnenlopen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Loket van de gemeente",
-        "omschrijving": "Het Sociaal Loket helpt gratis bij vragen over opvoeden, gedrag, pesten, scheiden, verslaving of school, voor ouders en voor jongeren zelf. De medewerkers werken voor de gemeente. Zij onderzoeken of uw kind jeugdhulp nodig heeft en regelen die. U meldt zich zelf aan.",
+        "omschrijving": "Het Sociaal Loket helpt gratis bij vragen over opvoeden, gedrag, pesten, scheiden, verslaving of school, voor ouders en voor jongeren zelf. Heeft uw kind meer hulp nodig, dan onderzoekt de gemeente uw vraag en neemt zij een besluit.",
         "stappen": [
-          "Bel het Sociaal Loket, mail uw vraag of vraag een terugbelverzoek aan. U kunt ook binnenlopen op de inloopmomenten.",
-          "Wilt u zeker weten dat er tijd is voor een gesprek? Maak dan vooraf een afspraak.",
-          "Vertel wat er speelt. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Heeft uw kind meer hulp nodig? Dan nodigt de gemeente u uit voor een onderzoek naar uw hulpvraag.",
-          "Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp ook om een beschikking (schriftelijk besluit)."
+          "Bel of mail het Sociaal Loket, of vraag een terugbelverzoek aan. U kunt ook binnenlopen op de inloopmomenten; met een afspraak weet u zeker dat er tijd is.",
+          "Vertel wat er speelt. U mag iemand meenemen.",
+          "Heeft uw kind meer hulp nodig? Dan nodigt de gemeente u uit voor een onderzoek. Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Sociaal Loket (gemeente Noordoostpolder)",
@@ -25,16 +23,17 @@
           "url": "https://www.noordoostpolder.nl/sociaal-loket",
           "adres": "Werk- en Welzijnsplein, De Deel 2, Emmeloord",
           "openingstijden": "Inloop dinsdag en donderdag 9.00–12.00 uur. Zeker van een gesprek? Maak vooraf een afspraak"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Loket. De jeugdgezondheidszorg (JGZ) voor kinderen van 0 tot 18 jaar is in Noordoostpolder in handen van GGD Flevoland. Werkt bij uw huisarts een praktijkondersteuner jeugd, dan kan ook die u verder helpen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In 2025 begon ongeveer de helft van de jeugdhulp in Noordoostpolder zo (landelijk 43 procent). De jeugdarts werkt bij GGD Flevoland. Werkt bij uw huisarts een praktijkondersteuner jeugd, dan kan ook die helpen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg van GGD Flevoland.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Flevoland.",
           "Vraag om een verwijzing naar een aanbieder met een contract in de regio Flevoland.",
-          "Neem met de verwijzing contact op met de aanbieder. Die meldt de start van de hulp bij de gemeente, dus u hoeft zelf geen aanvraag te doen. Op verzoek legt de gemeente de hulp vast in een besluit."
+          "Neem contact op met de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -53,13 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisschool kijkt de school samen met u wat uw kind nodig heeft. Aan elke basisschool is een vaste orthopedagoog verbonden en er is een ondersteuningsteam. Komt u er met de school niet uit, dan kunt u advies vragen bij het Oudersteunpunt van het samenwerkingsverband passend onderwijs. Op de middelbare scholen zijn jongerenwerkers aanwezig.",
+        "omschrijving": "Aan elke basisschool is een vaste orthopedagoog verbonden en er is een ondersteuningsteam. Op de middelbare scholen zijn jongerenwerkers van Sociaal Werk Noordoostpolder aanwezig.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school de orthopedagoog of het ondersteuningsteam kan inschakelen. Dat gebeurt alleen met uw toestemming.",
-          "Speelt er ook iets thuis, of is meer hulp nodig? Meld u aan bij het Sociaal Loket.",
-          "Komt u er met de basisschool niet uit? Vraag advies bij het Oudersteunpunt van het samenwerkingsverband.",
-          "Zit uw kind op de middelbare school? Dan kan het ook terecht bij de jongerenwerkers van Sociaal Werk Noordoostpolder op school."
+          "Vraag of school de orthopedagoog of het ondersteuningsteam inschakelt; dat gebeurt alleen met uw toestemming.",
+          "Komt u er met de basisschool niet uit? Vraag advies bij het Oudersteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -89,10 +86,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. De regio Flevoland heeft crisishulp voor jeugd ingekocht. Die hulp vraagt een professional voor u aan.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis onveilig voor u of uw kind? Kijk op de pagina 'Het gaat niet goed thuis' van Veilig Thuis Flevoland."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Flevoland: Het gaat niet goed thuis",

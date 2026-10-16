@@ -155,10 +155,11 @@ li { margin-bottom: .3rem; }
 /* ---------- Routes (stappen) ---------- */
 .route { position: relative; background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: 1.25rem 1.4rem; margin: 1.25rem 0; }
 .route h3 { margin: .4rem 0 .3rem; }
+.route h3:first-child { margin-top: 0; }
 .route ol.steps { list-style: none; padding: 0; margin: .9rem 0; counter-reset: step; }
-.route ol.steps li { position: relative; padding-left: 2.4rem; margin-bottom: .6rem; counter-increment: step; }
+.route ol.steps li { position: relative; padding-left: 2.4rem; margin-bottom: 1.1rem; counter-increment: step; }
 .route ol.steps li::before { content: counter(step); position: absolute; left: 0; top: .05rem; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: #fff; border: 2px solid var(--c-primary); color: var(--c-primary); font-weight: 700; font-size: .85rem; display: grid; place-items: center; }
-.route ol.steps li:not(:last-child)::after { content: ""; position: absolute; left: .8rem; top: 1.85rem; bottom: -.6rem; width: 2px; background: var(--c-border); }
+.route ol.steps li:not(:last-child)::after { content: ""; position: absolute; left: .8rem; top: 1.85rem; bottom: -1.1rem; width: 2px; background: var(--c-border); }
 .route.spoed { border-color: #f3c2ab; background: #fff8f4; }
 .route.spoed .badge { background: var(--c-accent-soft); color: #a3400f; }
 .contact { font-size: .95rem; color: var(--c-muted); background: #fff; border: 1px dashed var(--c-border); border-radius: var(--radius-sm); padding: .75rem 1rem; margin: .75rem 0 0; }

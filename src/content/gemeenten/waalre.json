@@ -4,18 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.waalre.nl/inwoners-en-ondernemers/ouder-en-kind",
   "toegang": {
-    "samenvatting": "In Waalre is het Centrum voor Maatschappelijke Deelname (CMD) de plek voor al uw vragen over jeugdhulp. U meldt zich zelf aan. Een verwijzing is niet nodig. Een medewerker jeugd bespreekt met u wat er nodig is en wat u zelf of met uw netwerk kunt doen. Is er meer hulp nodig, dan volgt een besluit van de gemeente. Ook de huisarts mag rechtstreeks verwijzen. In 2025 waren er te weinig medewerkers bij team Jeugd en liep de wachtlijst op. Volgens de gemeente is dat eind 2025 verbeterd. Hoe lang u nu wacht, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Waalre meldt u zich bij het Centrum voor Maatschappelijke Deelname (CMD), team Jeugd, of op het inloopspreekuur SamenWijzer. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Maatschappelijke Deelname (CMD), team Jeugd",
-        "omschrijving": "Het CMD werkt voor de gemeente. De medewerkers jeugd bespreken uw vraag, kijken wat u zelf kunt doen en beslissen over jeugdhulp. U meldt zich zelf aan. Ook voor vragen over leerplicht is het CMD er. Spelen er meerdere ingewikkelde problemen tegelijk, dan schakelt het CMD het PlusTeam in. Het inloopspreekuur heet SamenWijzer.",
+        "omschrijving": "Medewerkers jeugd van het CMD bespreken uw vraag en beslissen over jeugdhulp; het CMD is er ook voor vragen over leerplicht. Spelen er meerdere ingewikkelde problemen tegelijk, dan schakelt het CMD het PlusTeam in.",
         "stappen": [
           "Meld u aan bij het CMD: online, telefonisch via de gemeente, of loop binnen bij het inloopspreekuur SamenWijzer.",
-          "Vraag bij uw aanmelding hoe lang het duurt voordat een medewerker jeugd met u in gesprek gaat.",
-          "Een medewerker jeugd neemt contact met u op en plant een gesprek. Dat kan bij u thuis, op kantoor, telefonisch of op een andere plek waar u zich op uw gemak voelt.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE. Meld dat vooraf.",
-          "Vraag na het gesprek om het gespreksverslag of ondersteuningsplan. Is er meer hulp nodig, dan krijgt u een brief met het besluit van de gemeente."
+          "Een medewerker jeugd plant een gesprek, thuis, op kantoor, telefonisch of op een andere plek. U mag iemand meenemen.",
+          "Vraag om het verslag of ondersteuningsplan. Is meer hulp nodig, dan krijgt u een brief met het besluit van de gemeente."
         ],
         "contact": [
           {
@@ -30,16 +28,17 @@
             "omschrijving": "U kunt zich niet zelf aanmelden. Het CMD of Veilig Thuis verwijst u door.",
             "url": "https://www.waalre.nl/inwoners-en-ondernemers/plusteam"
           }
-        ]
+        ],
+        "doorlooptijd": "In 2025 liep de wachtlijst bij team Jeugd op door te weinig medewerkers; volgens de gemeente is dat eind 2025 verbeterd. Hoe lang u nu wacht, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CMD. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD, bijvoorbeeld op het consultatiebureau (de plek voor gezondheidscontroles van jonge kinderen).",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD, bijvoorbeeld op het consultatiebureau.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -51,12 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle vijf de basisscholen in Waalre werkt een schoolmaatschappelijk werker van het CMD. Ook een leerplichtambtenaar is aan de basisscholen gekoppeld. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Waalre heeft zelf geen middelbare school. Voor het voortgezet onderwijs kunt u ook bij het CMD terecht.",
+        "omschrijving": "Op alle vijf de basisscholen in Waalre werken een schoolmaatschappelijk werker van het CMD en een leerplichtambtenaar. Waalre heeft geen middelbare school; voor het voortgezet onderwijs kunt u bij het CMD terecht.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de schoolmaatschappelijk werker van het CMD kan meedenken, of meld u zelf aan bij het CMD.",
-          "Is meer hulp nodig? Dan bespreekt het CMD met u de vervolgstappen.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de schoolmaatschappelijk werker van het CMD kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -80,10 +78,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Wie u in Waalre verder kunt bellen bij een crisis met een kind of jongere, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisishulp voor jeugd op de pagina van de gemeente. Daar staat ook wat u overdag en buiten kantooruren doet."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Waalre: crisishulp voor jeugd",

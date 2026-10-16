@@ -4,17 +4,16 @@
   "provincie": "Fryslân",
   "websiteJeugd": "https://www.dantumadiel.frl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Dantumadiel meldt u zich bij het Gebiedsteam van de gemeente. U belt de gemeente en kiest toets 1 voor jeugdhulp, of u mailt het team. Een verwijzing is niet nodig. Vaak krijgt u meteen advies. Is meer nodig, dan plant het team een gesprek met u. Ook de huisarts mag rechtstreeks verwijzen. Bij een deel van de huisartsen werkt een praktijkondersteuner voor jeugd. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw eerste telefoontje.",
+    "samenvatting": "In Dantumadiel meldt u zich bij het Gebiedsteam van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam van de gemeente",
-        "omschrijving": "Het Gebiedsteam werkt voor de gemeente Dantumadiel en is het loket voor jeugdhulp, Wmo (hulp voor volwassenen) en andere zorg en ondersteuning. U meldt u zelf aan. Het team beoordeelt uw vraag en regelt zo nodig de hulp. Jeugdhulp is bedoeld voor kinderen tot 18 jaar en hun ouders. In sommige situaties loopt de hulp door tot het 23e jaar.",
+        "omschrijving": "Het Gebiedsteam is het loket voor jeugdhulp, Wmo en andere ondersteuning. Het beoordeelt uw vraag en regelt zo nodig de hulp. Jeugdhulp is er tot 18 jaar, in sommige situaties tot 23 jaar.",
         "stappen": [
-          "Bel de gemeente en kies toets 1 voor jeugdhulp, of mail het Gebiedsteam. U spreekt eerst met een medewerker van het klantcontactcentrum sociaal domein.",
-          "Stel uw vraag. Vaak krijgt u meteen tips en advies. Is meer nodig, dan plant het team zo snel mogelijk een gesprek.",
-          "Neem desgewenst iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp om een schriftelijk besluit (beschikking)."
+          "Bel de gemeente en kies toets 1 voor jeugdhulp, of mail het Gebiedsteam. U spreekt eerst een medewerker van het klantcontactcentrum sociaal domein; vaak krijgt u meteen advies.",
+          "Is meer nodig, dan plant het team een gesprek. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": {
           "naam": "Gebiedsteam Dantumadiel (gemeente)",
@@ -22,16 +21,17 @@
           "email": "gebiedsteam@dantumadiel.frl",
           "url": "https://www.dantumadiel.frl/jeugdhulp",
           "openingstijden": "Telefonisch ma t/m do 8.30–16.30 uur, vr 8.30–12.00 uur. Kies toets 1 voor jeugdhulp"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een gesprek, is niet openbaar; vraag het bij uw eerste telefoontje."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. Bij een deel van de huisartsen werkt een praktijkondersteuner voor jeugd. Die helpt dicht bij huis bij psychische vragen en opvoedvragen. In Dantumadiel begint iets meer dan de helft van de nieuwe jeugdhulptrajecten met een verwijzing van huisarts, jeugdarts of medisch specialist.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen; iets meer dan de helft van de nieuwe trajecten begint zo. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd voor psychische vragen en opvoedvragen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Bespreek met de huisarts of u eerst naar de praktijkondersteuner voor jeugd gaat, of direct een verwijzing krijgt naar een aanbieder met een contract.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Laat u verwijzen naar de praktijkondersteuner jeugd of naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -42,10 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op een deel van de basisscholen werkt schoolmaatschappelijk werk: een hulpverlener op school voor kinderen en ouders. Op de andere scholen houdt de intern begeleider contact met het Gebiedsteam. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt passend onderwijs Friesland. Daar werken ook ouders met eigen ervaring.",
+        "omschrijving": "Op een deel van de basisscholen werkt schoolmaatschappelijk werk; op de andere scholen houdt de intern begeleider contact met het Gebiedsteam. Bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland werken ook ouders met eigen ervaring.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school schoolmaatschappelijk werk heeft. Zo niet, vraag de school om contact op te nemen met het Gebiedsteam, of meld uw kind zelf aan.",
+          "Vraag of de school schoolmaatschappelijk werk heeft, of vraag school contact op te nemen met het Gebiedsteam.",
           "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
@@ -67,10 +67,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisishulp voor jeugd er in Fryslân verder is, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisishulp voor jeugd en meldpunten op de pagina Zorgwekkend gedrag melden van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Dantumadiel: zorgwekkend gedrag, Veilig Thuis en spoedhulp voor jeugd",

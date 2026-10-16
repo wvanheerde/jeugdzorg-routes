@@ -4,18 +4,15 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.culemborg.nl/sociaal-team-culemborg",
   "toegang": {
-    "samenvatting": "In Culemborg is het Sociaal Team de eerste ingang voor vragen over opvoeden, jeugdhulp, zorg en geld. In het team werken medewerkers van de gemeente, ElkWelzijn en MEE Plus. U meldt zich zelf aan, een verwijzing is niet nodig. Het Sociaal Team helpt vaak zelf met korte hulp en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Heeft uw kind geen medische problemen? Dan vraagt de gemeente huisartsen om eerst te verwijzen naar een jeugdondersteuner van het Sociaal Team. Hoe lang u wacht op een eerste gesprek, is niet openbaar te vinden. Vraag er bij uw aanmelding naar.",
+    "samenvatting": "In Culemborg meldt u zich bij het Sociaal Team, met medewerkers van de gemeente, ElkWelzijn en MEE Plus. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Culemborg",
-        "omschrijving": "Het Sociaal Team is de ingang voor iedereen in Culemborg met vragen over opvoeden, zorg, welzijn en rondkomen. Medewerkers jeugd van de gemeente beoordelen of uw kind jeugdhulp krijgt en geven een beschikking (schriftelijk besluit). Jeugd- en gezinswerkers geven zelf korte hulp, zonder beschikking. De hulp van het Sociaal Team is gratis. U meldt zich zelf aan.",
+        "omschrijving": "Jeugd- en gezinswerkers van het Sociaal Team geven zelf korte hulp, zonder beschikking. Is meer nodig, dan beoordelen medewerkers jeugd van de gemeente of uw kind jeugdhulp krijgt en geven zij een beschikking (schriftelijk besluit). De hulp van het Sociaal Team is gratis.",
         "stappen": [
           "Bel het Sociaal Team, loop zonder afspraak binnen bij het Hulp & Adviespunt of laat uw gegevens achter via het formulier op de website.",
-          "Wacht op een telefoontje als u uw gegevens achterliet. Het team neemt binnen drie werkdagen contact op, meestal de volgende dag.",
-          "Bespreek uw vraag in een gesprek. Volgens de gemeente is dat gesprek het liefst binnen twee weken. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag hoe lang het duurt voor de hulp start en wat u in de tussentijd kunt doen. Er kan een wachtlijst zijn.",
-          "Vraag na het gesprek om een schriftelijk verslag. Bij specialistische hulp krijgt u een beschikking."
+          "Bespreek uw vraag in een gesprek. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Sociaal Team Culemborg",
@@ -24,16 +21,17 @@
           "url": "https://www.culemborg.nl/sociaal-team-culemborg",
           "adres": "Inloop zonder afspraak bij het Hulp & Adviespunt: De Salaamander, Heimanslaan 2 (Oost) en BonVie, Admiraalvlinderlaan 2 (West)",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur. Inloop dinsdag 9.30–11.30 uur (Oost) en donderdag 9.30–11.30 uur (West)"
-        }
+        },
+        "doorlooptijd": "Het team belt binnen drie werkdagen terug, meestal de volgende dag, en streeft ernaar het eerste gesprek binnen twee weken te voeren (zo staat het in de verordening). Voor de hulp zelf kan een wachtlijst zijn; vraag hoe lang het duurt en wat u in de tussentijd kunt doen."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Verwijst de arts naar een aanbieder zonder contract met de gemeente? Dan moet de gemeente vooraf toestemming geven. Culemborg en de huisartsen hebben afgesproken dat de huisarts kinderen zonder medische problemen naar het Sociaal Team verwijst. Daar zoekt een jeugdondersteuner (psycholoog) uit wat er speelt en geeft zelf korte hulp. Dit geldt niet bij een crisis, zelfmoordgedachten, eetstoornissen, middelengebruik of zelfbeschadiging.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Culemborg en de huisartsen hebben afgesproken dat de huisarts kinderen zonder medische problemen eerst naar een jeugdondersteuner (psycholoog) van het Sociaal Team stuurt, die uitzoekt wat er speelt en zelf korte hulp geeft. Dat geldt niet bij een crisis, zelfmoordgedachten, eetstoornissen, middelengebruik of zelfbeschadiging.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Laat de huisarts uw kind verwijzen naar de jeugdondersteuner van het Sociaal Team, of direct naar een aanbieder als dat nodig is.",
-          "Gaat de verwijzing naar een aanbieder met een contract? Dan meldt de aanbieder de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst uw kind naar de jeugdondersteuner van het Sociaal Team, of direct naar een aanbieder als dat nodig is.",
+          "Heeft de aanbieder een contract, dan meldt die de hulp bij de gemeente en hoeft u niets aan te vragen. Zonder contract moet de gemeente vooraf toestemming geven."
         ],
         "contact": [
           {
@@ -56,11 +54,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Scholen kunnen zorgen over een leerling bespreken met het Sociaal Team. Op de basisscholen en middelbare scholen in Culemborg zijn ook schoolmaatschappelijk werk en jongerenwerk, voor korte, lichte hulp. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Basisonderwijs en voortgezet onderwijs hebben elk een eigen samenwerkingsverband.",
+        "omschrijving": "Op de basisscholen en middelbare scholen in Culemborg werken schoolmaatschappelijk werk en jongerenwerk, voor korte, lichte hulp. Scholen kunnen zorgen ook bespreken met het Sociaal Team.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school het schoolmaatschappelijk werk of het Sociaal Team kan inschakelen. U kunt zich ook zelf melden bij het Sociaal Team.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband, voor basisonderwijs of voortgezet onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar het schoolmaatschappelijk werk.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband (basis- of voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -85,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdienst er is voor jeugd en gezinnen, staat op de pagina Spoed of crisis van Culemborg kan meer.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Spoed of crisis van Culemborg kan meer wat u bij een crisis met een kind of gezin kunt doen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Culemborg kan meer: spoed of crisis, snel hulp voor kind en gezin",
@@ -245,7 +241,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Culemborg: Sociaal Team Culemborg",

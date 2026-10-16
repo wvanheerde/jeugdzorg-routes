@@ -4,34 +4,33 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.staphorst.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Staphorst is Team Samenleving van de gemeente de toegang tot jeugdhulp. U meldt zich zelf aan door te bellen, te mailen of het contactformulier in te vullen. Een verwijzing is niet nodig. Een medewerker jeugd praat met u, bij u thuis of op een andere plek. U maakt samen een plan. Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit). De huisarts mag ook rechtstreeks verwijzen. De gemeente heeft wel met de huisartsen afgesproken dat zij zoveel mogelijk via het team verwijzen. Hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Staphorst meldt u zich bij Team Samenleving van de gemeente. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Samenleving (medewerkers jeugd van de gemeente)",
-        "omschrijving": "Team Samenleving is het team van de gemeente voor vragen over zorg, jeugd, onderwijs en werk en inkomen. De medewerkers jeugd onderzoeken uw vraag, maken met u een plan en nemen het besluit over specialistische hulp. U meldt zich zelf aan. De medewerker jeugd blijft tijdens de hulp bij uw gezin betrokken. Voor lichte hulp zonder besluit, zoals een opvoedtraining of thuisbegeleiding, meldt u zich ook via de medewerker jeugd.",
+        "omschrijving": "De medewerkers jeugd onderzoeken uw vraag, maken met u een plan en beslissen over specialistische hulp. Ook voor lichte hulp, zoals een opvoedtraining of thuisbegeleiding, gaat u via de medewerker jeugd. Die blijft tijdens de hulp bij uw gezin betrokken.",
         "stappen": [
-          "Bel Team Samenleving of mail het team. U kunt ook het contactformulier op de gemeentesite invullen.",
-          "Krijg soms direct tips van de medewerker jeugd. Is meer nodig, dan volgt een gesprek bij u thuis of op een andere plek.",
-          "U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE Samen.",
-          "Maak samen een plan. U krijgt daar een kopie van. Is specialistische hulp nodig, dan krijgt u een beschikking.",
-          "Vraag om een eindgesprek als de hulp bijna klaar is. Dan kijkt u samen of de hulp genoeg was."
+          "Bel of mail Team Samenleving, of vul het contactformulier op de gemeentesite in.",
+          "Soms krijgt u direct tips. Is meer nodig, dan volgt een gesprek bij u thuis of op een andere plek. U mag iemand meenemen.",
+          "Maak samen een plan; u krijgt er een kopie van. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Team Samenleving (medewerkers jeugd van de gemeente)",
           "telefoon": "0522 46 74 66",
           "email": "teamsamenleving@staphorst.nl",
           "url": "https://www.staphorst.nl/jeugdhulp"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Samenleving. De gemeente heeft met de huisartsen afgesproken dat zij zoveel mogelijk via het team verwijzen. Bespreek dus ook bij de huisarts hoe de aanmelding verloopt. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD IJsselland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. De gemeente heeft met de huisartsen afgesproken dat zij zoveel mogelijk via Team Samenleving verwijzen. De jeugdarts werkt bij GGD IJsselland.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. Of vraag of de arts u aanmeldt bij Team Samenleving.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, of om een aanmelding bij Team Samenleving.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD IJsselland",
@@ -43,10 +42,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is geen aparte toegang tot jeugdhulp. De school kan wel met u meedenken en u wijzen op Team Samenleving. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs. Dat steunpunt werkt voor Hoogeveen, Meppel en Steenwijk en de kernen daaromheen. Vraag bij uw school of het steunpunt ook voor uw school geldt.",
+        "omschrijving": "School is geen aparte toegang tot jeugdhulp, maar kan wel meedenken en u wijzen op Team Samenleving. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van de samenwerkingsverbanden Hoogeveen, Meppel en Steenwijk. Staphorst valt voor het basisonderwijs onder samenwerkingsverband PO 22.03.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school of zij met u willen meedenken. Meld u zelf aan bij Team Samenleving als meer hulp nodig is.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt of bij het samenwerkingsverband."
         ],
         "contact": [
@@ -73,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina van de gemeente staat waar u terecht kunt bij mishandeling, ook van kinderen.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Mishandeling of huiselijk geweld van de gemeente Staphorst waar u terecht kunt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Staphorst: mishandeling of huiselijk geweld (Veilig Thuis)",

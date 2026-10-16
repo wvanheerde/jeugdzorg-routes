@@ -4,17 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.zutphen.nl/jeugd-en-onderwijs/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Zutphen zijn er twee deuren naar hulp. Het Toegangsteam Jeugd van de gemeente beoordeelt uw vraag en regelt zo nodig jeugdhulp. Team Lichte Jeugdhulp is een samenwerking van 14 lokale zorgaanbieders. Zij bieden lichte hulp bij opvoeden en opgroeien zonder besluit van de gemeente. U mag zelf bellen, een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Op elke gewone basisschool werkt een jeugdhulpverlener. Hoe lang het duurt voordat u een besluit krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Zutphen meldt u zich bij het Toegangsteam Jeugd van de gemeente of bij Team Lichte Jeugdhulp, voor lichte hulp zonder besluit van de gemeente. U kunt ook via de huisarts, jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Toegangsteam Jeugd en Team Lichte Jeugdhulp",
-        "omschrijving": "Het Toegangsteam Jeugd werkt voor de gemeente. Een medewerker jeugd (medewerker van de gemeente) bespreekt uw vraag, kijkt ook naar wat uw netwerk kan doen en regelt zo nodig hulp. Zijn er meer hulpverleners, dan is de medewerker jeugd uw vaste aanspreekpunt en zorgt die voor één plan. Team Lichte Jeugdhulp biedt lichtere hulp, bijvoorbeeld bij opvoedvragen, autisme of sociale vaardigheden. Daarvoor is geen besluit van de gemeente nodig. Blijkt meer hulp nodig, dan neemt een medewerker jeugd het over.",
+        "omschrijving": "Een medewerker jeugd van het Toegangsteam bespreekt uw vraag, regelt zo nodig hulp en is uw vaste aanspreekpunt als er meer hulpverleners zijn. Team Lichte Jeugdhulp is een samenwerking van 14 lokale zorgaanbieders en helpt bijvoorbeeld bij opvoedvragen, autisme of sociale vaardigheden. Is meer nodig, dan neemt een medewerker jeugd het over.",
         "stappen": [
-          "Bel de gemeente en vraag naar het Toegangsteam Jeugd of naar team Lichte Jeugdhulp. U kunt ook mailen of het formulier op de site van Team Lichte Jeugdhulp invullen.",
-          "Beschrijf uw vraag, voor wie de hulp is en wat u denkt dat nodig is. Het team neemt daarna contact met u op.",
-          "Neem gerust iemand mee naar het gesprek met de medewerker jeugd, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, vraag dan om een schriftelijk besluit (beschikking)."
+          "Bel de gemeente en vraag naar het Toegangsteam Jeugd of Team Lichte Jeugdhulp. U kunt ook mailen of het formulier van Team Lichte Jeugdhulp invullen.",
+          "Beschrijf uw vraag, voor wie de hulp is en wat u denkt dat nodig is. Het team neemt contact met u op. U mag iemand meenemen naar het gesprek.",
+          "Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -31,17 +30,17 @@
             "url": "https://lichtejeugdhulpzutphen.nl/",
             "openingstijden": "Bel het nummer van de gemeente en vraag naar team Lichte Jeugdhulp. Telefonisch dagelijks 9.00–12.30 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een besluit krijgt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Toegangsteam Jeugd. Heeft uw kind al een verwijzing, dan kunt u bij het Toegangsteam Jeugd vragen om een medewerker jeugd. Die kan meekijken naar de meest passende hulp.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen, ook naar Team Lichte Jeugdhulp. Heeft uw kind al een verwijzing, dan kan een medewerker jeugd van het Toegangsteam meekijken naar de best passende hulp.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts.",
-          "Is uw kind jonger dan 4 jaar? Dan kunt u ook advies vragen bij het consultatiebureau van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar Team Lichte Jeugdhulp.",
-          "Ga naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts. Is uw kind jonger dan 4 jaar, dan kunt u ook terecht bij het consultatiebureau.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar Team Lichte Jeugdhulp.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Yunio jeugdgezondheidszorg (consultatiebureau Zutphen, kinderen 0 tot 4 jaar)",
@@ -54,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op alle gewone basisscholen in Zutphen werkt een vaste jeugdhulpverlener in de school. Die hoort bij Team Lichte Jeugdhulp en helpt kinderen, ouders en leerkrachten. Komt u er met school niet uit, dan helpt het Oudersteunpunt van het samenwerkingsverband passend onderwijs. Voor basisonderwijs is dat IJssel/Berkel, voor voortgezet onderwijs Regio Zutphen.",
+        "omschrijving": "Op alle gewone basisscholen in Zutphen werkt een vaste jeugdhulpverlener van Team Lichte Jeugdhulp, voor kinderen, ouders en leerkrachten. Komt u er met school niet uit, dan helpt het Oudersteunpunt van het samenwerkingsverband: IJssel/Berkel voor de basisschool, Regio Zutphen voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de jeugdhulpverlener in de school kan meedenken, of meld uw kind zelf aan bij Team Lichte Jeugdhulp.",
-          "Vraag om een medewerker jeugd van het Toegangsteam Jeugd als meer hulp nodig is.",
+          "Vraag of de jeugdhulpverlener in de school kan meedenken.",
           "Komt u er met school niet uit? Vraag advies bij het Oudersteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -92,11 +90,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke hulp er in Zutphen is bij huiselijk geweld en crisis, staat op Hulpwijzer Zutphen, de informatiesite van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Huiselijk geweld van Hulpwijzer Zutphen welke hulp er is bij huiselijk geweld en crisis. Daar staat ook de spoedhulp van Jeugdbescherming Gelderland.",
-          "Wilt u liever eerst praten met een medewerker jeugd? Neem dan contact op met het Toegangsteam Jeugd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Hulpwijzer Zutphen: huiselijk geweld en crisis",

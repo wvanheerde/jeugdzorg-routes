@@ -4,34 +4,33 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.zwartewaterland.nl/hulp-bij-opgroeien-en-opvoeden",
   "toegang": {
-    "samenvatting": "In Zwartewaterland loopt de toegang tot jeugdhulp via het team jeugd van de gemeente zelf. Er is geen apart wijkteam of Centrum voor Jeugd en Gezin. U meldt zich zelf aan, een verwijzing is niet nodig. Het team bespreekt nieuwe aanmeldingen elke maandagochtend. Uw contactpersoon neemt in dezelfde week contact met u op. Een medewerker jeugd kijkt met u of advies of lichte ondersteuning genoeg is. Is meer nodig, dan maakt u samen een gezinsplan en zoekt de gemeente een zorgaanbieder. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat uw aanmelding is opgepakt, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Zwartewaterland meldt u zich zonder verwijzing bij het team jeugd van de gemeente; er is geen apart wijkteam of Centrum voor Jeugd en Gezin. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team jeugd van de gemeente",
-        "omschrijving": "Het team jeugd werkt voor de gemeente en is uw eerste aanspreekpunt voor opvoed-, opgroei- en jeugdhulpvragen. U meldt zich zelf aan. Een medewerker jeugd bekijkt met u of advies of lichte ondersteuning voldoende is, ook met hulp uit uw eigen omgeving. Is meer nodig, dan maakt u samen een gezinsplan (wat is de vraag, wat wilt u bereiken, wie doet wat). Daarbij zoekt de gemeente een zorgaanbieder.",
+        "omschrijving": "Een medewerker jeugd bekijkt met u of advies of lichte ondersteuning genoeg is. Is meer nodig, dan maakt u samen een gezinsplan en zoekt de gemeente een zorgaanbieder. De hulp start na een intakegesprek bij die aanbieder.",
         "stappen": [
           "Bel de gemeente en vraag naar team jeugd, of vul het aanmeldformulier op de pagina Hulp bij opgroeien en opvoeden in.",
-          "Wacht op het contact van het team. Het team bespreekt uw aanmelding op maandagochtend. Uw contactpersoon maakt in dezelfde week een afspraak met u.",
-          "Neem iemand mee naar het gesprek als u dat wilt, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een gezinsplan als meer nodig is dan advies. De hulp start na een intakegesprek bij de zorgaanbieder.",
-          "Vraag om het gezinsplan en het besluit op papier."
+          "Het team bespreekt uw aanmelding op maandagochtend. Uw contactpersoon maakt in dezelfde week een afspraak met u.",
+          "Maak samen een gezinsplan als meer nodig is dan advies. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Team jeugd (gemeente Zwartewaterland)",
           "telefoon": "14 038",
           "email": "info@zwartewaterland.nl",
           "url": "https://www.zwartewaterland.nl/hulp-bij-opgroeien-en-opvoeden"
-        }
+        },
+        "doorlooptijd": "Uw contactpersoon neemt in de week van de maandagbespreking contact op. Hoe lang het daarna duurt, is niet openbaar te vinden; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het team jeugd. De gemeente wil dat huisartsen later vooral via het lokale team verwijzen. Dat is nog een plan.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente wil dat huisartsen later vooral via het lokale team verwijzen; dat is nog een plan.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD IJsselland",
@@ -43,11 +42,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over uw kind op school, begin dan bij de leerkracht of mentor. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland gratis en onafhankelijk bij vragen over passend onderwijs. Voor hulp bij opvoeden of opgroeien kunt u ook zelf bij het team jeugd van de gemeente terecht.",
+        "omschrijving": "Het ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland helpt gratis en onafhankelijk bij vragen over passend onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om het team jeugd van de gemeente te betrekken. U mag zich ook zelf aanmelden.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag school om het team jeugd van de gemeente te betrekken.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -67,10 +66,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Huiselijk geweld van de gemeente waar u advies kunt vragen of een melding kunt doen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Zwartewaterland: huiselijk geweld en kindermishandeling",

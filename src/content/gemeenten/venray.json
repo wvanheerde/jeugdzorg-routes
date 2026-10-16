@@ -4,17 +4,16 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.venray.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Venray vraagt u jeugdhulp aan bij de medewerkers jeugd van de gemeente. Zij praten met u over wat er speelt, maken met u een plan (het leefzorgplan) en regelen de hulp. U meldt zich zelf aan, een verwijzing is niet nodig. Voor vragen over opvoeden en opgroeien kunt u ook gratis terecht bij de gezinscoach. Elke school heeft een vaste gezinscoach. Ook de huisarts mag rechtstreeks verwijzen. In 2025 waren de wachttijden bij de medewerkers jeugd langer dan de wettelijke norm van acht weken. Volgens de gemeente waren ze eind 2025 weer binnen de wettelijke termijnen. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Venray vraagt u jeugdhulp aan bij de medewerkers jeugd van de gemeente; voor vragen over opvoeden en opgroeien kunt u ook gratis naar de gezinscoach. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente, met de gezinscoach",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente Venray. Zij voeren het gesprek met u (het keukentafelgesprek), maken met u een leefzorgplan en nemen het besluit over de hulp. De gezinscoach helpt gratis bij vragen over opvoeden, geld, werk of gezondheid. Daarvoor hebt u geen verwijzing van de gemeente nodig. Is specialistische hulp nodig, dan schakelt de gezinscoach in overleg met u de medewerker jeugd in.",
+        "omschrijving": "De medewerkers jeugd voeren het gesprek met u (het keukentafelgesprek), maken met u een leefzorgplan en nemen het besluit over de hulp. De gezinscoach helpt gratis bij vragen over opvoeden, geld, werk of gezondheid, zonder verwijzing. Is specialistische hulp nodig, dan schakelt de gezinscoach in overleg met u de medewerker jeugd in.",
         "stappen": [
-          "Bel de gemeente en kies keuze 1, of mail of vul het contactformulier jeugd en Wmo in. De gemeente maakt een afspraak voor een gesprek.",
-          "Bespreek met een medewerker jeugd wat u en uw kind nodig hebben. U mag iemand meenemen, bijvoorbeeld uw partner of een onafhankelijke cliëntondersteuner.",
-          "Maak samen een leefzorgplan. Vraag om een schriftelijk verslag. Vraag bij specialistische hulp ook om een schriftelijk besluit (beschikking).",
-          "Wilt u liever eerst advies over opvoeden of opgroeien? Meld u aan bij de gezinscoach, of vraag de intern begeleider van school om contact te leggen."
+          "Bel de gemeente en kies keuze 1, mail, of vul het contactformulier jeugd en Wmo in. Wilt u eerst advies, meld u dan bij de gezinscoach.",
+          "Bespreek met een medewerker jeugd wat u en uw kind nodig hebben. U mag iemand meenemen.",
+          "Maak samen een leefzorgplan. Is specialistische hulp nodig, dan krijgt u een beschikking (schriftelijk besluit)."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "url": "https://www.gezinscoachvenray.nl/contact/",
             "adres": "De Wieënhof 1, Venray"
           }
-        ]
+        ],
+        "doorlooptijd": "In 2025 waren de wachttijden bij de medewerkers jeugd langer dan de wettelijke norm van acht weken; volgens de gemeente zaten ze eind 2025 weer binnen de termijn. Vraag bij uw aanmelding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord. Die doet ook het consultatiebureau (0 tot 4 jaar) en de gezondheidszorg op school.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord, die ook het consultatiebureau (0 tot 4 jaar) en de zorg op school doet.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -51,11 +51,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke school in Venray heeft een vaste gezinscoach en een vaste contactpersoon van de jeugdgezondheidszorg. Vaak loopt het contact via de intern begeleider van school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor basisscholen is dat SWV Primair Onderwijs Noord-Limburg, voor middelbare scholen het Samenwerkingsverband Voortgezet Onderwijs.",
+        "omschrijving": "Elke school in Venray heeft een vaste gezinscoach en een vaste contactpersoon van de jeugdgezondheidszorg. Vaak loopt het contact via de intern begeleider.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de intern begeleider om contact met de gezinscoach, of meld u zelf aan bij de gezinscoach.",
-          "Is meer hulp nodig? Dan schakelt de gezinscoach de medewerker jeugd in. U kunt zich ook zelf melden bij de medewerkers jeugd.",
+          "Vraag de intern begeleider om contact met de gezinscoach. Is meer hulp nodig, dan schakelt de gezinscoach de medewerker jeugd in.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -93,10 +92,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst voor jeugd er in uw regio is en wanneer die bereikbaar is, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst jeugd in Venray op de pagina Spoedeisende hulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Venray: spoedeisende hulp",

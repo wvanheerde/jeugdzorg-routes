@@ -4,19 +4,17 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.raalte.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Raalte begint u bij het Centrum voor Jeugd en Gezin (CJG). U belt of mailt zelf, een verwijzing is niet nodig. Sinds 1 januari 2026 is het CJG onderdeel van de gemeente. Het CJG praat met u over uw vraag en biedt lichte hulp, zoals advies, een cursus of begeleiding. Is specialistische hulp nodig, dan maakt u met het CJG een ondersteuningsplan. Daarmee vraagt u hulp aan bij Team Jeugd van de gemeente. Een medewerker jeugd van de gemeente beslist dan over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Raalte begint u bij het Centrum voor Jeugd en Gezin (CJG), sinds 1 januari 2026 onderdeel van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) en Team Jeugd",
-        "omschrijving": "Bij het CJG Raalte kunt u terecht met vragen over opvoeden, opgroeien en gezondheid van kinderen van 0 tot 18 jaar. Medewerkers van het CJG, de jeugdgezondheidszorg, maatschappelijk werk en MEE werken er samen met de medewerkers jeugd van Team Jeugd. U meldt zich zelf aan. Specialistische jeugdhulp vraagt u aan met een ondersteuningsplan. De medewerker jeugd van de gemeente neemt het besluit (de beschikking).",
+        "omschrijving": "Het CJG helpt bij vragen over opvoeden, opgroeien en gezondheid van kinderen van 0 tot 18 jaar, met advies, een cursus of begeleiding. Medewerkers van het CJG, de jeugdgezondheidszorg, maatschappelijk werk en MEE werken er samen met Team Jeugd. Voor specialistische jeugdhulp maakt u met het CJG een ondersteuningsplan; een medewerker jeugd van Team Jeugd beslist daarover.",
         "stappen": [
-          "Bel of mail het CJG Raalte, of gebruik het vragenformulier op de website van het CJG. U krijgt een medewerker aan de telefoon.",
-          "Het CJG plant een kennismakingsgesprek om uw vraag helder te krijgen. Soms zijn meer gesprekken nodig.",
-          "Samen kijkt u welke hulp past, bijvoorbeeld een cursus, een training of begeleiding voor u of uw kind.",
-          "Is specialistische jeugdhulp nodig? Maak dan met het CJG een ondersteuningsplan. Onderteken het en stuur het naar Team Jeugd. Dan is het een officiële aanvraag.",
-          "De medewerker jeugd kijkt met u welke hulp past en geeft u een schriftelijk besluit. U kiest dan tussen hulp die de gemeente regelt en een pgb (persoonsgebonden budget).",
-          "Krijgt uw kind al jeugdhulp en wilt u die verlengen of wijzigen? Vul het aanvraagformulier in en mail het naar Team Jeugd."
+          "Bel of mail het CJG, of gebruik het vragenformulier op de website. Het CJG plant een kennismakingsgesprek.",
+          "Kijk samen welke hulp past. Is specialistische hulp nodig, maak dan met het CJG een ondersteuningsplan, onderteken het en stuur het naar Team Jeugd. Dan is het een officiële aanvraag.",
+          "De medewerker jeugd geeft u een schriftelijk besluit. U kiest dan tussen hulp die de gemeente regelt en een pgb (persoonsgebonden budget).",
+          "Wilt u lopende jeugdhulp verlengen of wijzigen? Mail het aanvraagformulier naar Team Jeugd."
         ],
         "contact": [
           {
@@ -33,17 +31,17 @@
             "email": "jeugd@raalte.nl",
             "url": "https://www.raalte.nl/jeugdhulp"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Het CJG houdt ook inloopspreekuren bij huisartsenpraktijken in Heeten en Heino.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Het CJG houdt inloopspreekuren bij huisartsenpraktijken in Heeten en Heino.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u verwijzen naar een aanbieder met een contract met de gemeente, of naar het CJG voor lichtere hulp en advies.",
-          "Wilt u eerst praten met het CJG? Meld u aan voor het inloopspreekuur bij uw huisartsenpraktijk in Heeten of Heino.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Laat u verwijzen naar een aanbieder met een contract met de gemeente, of ga voor lichtere hulp naar het CJG, bijvoorbeeld het inloopspreekuur in Heeten of Heino.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -65,12 +63,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de scholen en de kinderopvang in Raalte is een CJG-contactpersoon, ook in het voortgezet onderwijs. Op veel basisscholen houdt het CJG inloopspreekuren. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland.",
+        "omschrijving": "Op scholen en de kinderopvang in Raalte is een CJG-contactpersoon, ook in het voortgezet onderwijs. Op veel basisscholen houdt het CJG inloopspreekuren.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of zorgcoördinator.",
-          "Vraag school om u in contact te brengen met de CJG-contactpersoon, of meld u zelf aan bij het CJG.",
-          "Is meer hulp nodig, dan schakelt het CJG een medewerker jeugd van Team Jeugd in.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag school om u in contact te brengen met de CJG-contactpersoon.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland."
         ],
         "contact": [
           {
@@ -97,10 +94,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke hulplijnen en meldpunten er verder zijn, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulplijnen en meldpunten in Raalte op de pagina Hulplijnen en meldpunten van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Raalte: hulplijnen en meldpunten",

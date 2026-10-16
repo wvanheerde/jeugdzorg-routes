@@ -4,17 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.steenwijkerland.nl/Inwoners/Jeugd_zorg_en_werk/Jeugd",
   "toegang": {
-    "samenvatting": "In Steenwijkerland zijn er twee deuren. Met vragen over opvoeden en opgroeien kunt u terecht bij Sociaal Werk De Kop en bij de jeugdgezondheidszorg van de GGD. Heeft uw kind gespecialiseerde hulp nodig, neem dan contact op met een medewerker jeugd van de gemeente. De medewerker jeugd bespreekt uw vraag en maakt met u een ondersteuningsplan. U meldt zich zelf aan; een verwijzing is niet nodig. U kunt ook via de huisarts gaan. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Steenwijkerland gaat u voor lichte vragen naar Sociaal Werk De Kop of de jeugdgezondheidszorg, en voor gespecialiseerde hulp naar een medewerker jeugd van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente, met Sociaal Werk De Kop",
-        "omschrijving": "Een medewerker jeugd van de gemeente beslist of uw kind gespecialiseerde hulp krijgt, bijvoorbeeld bij autisme, psychische problemen of opvoedproblemen. U belt zelf; een verwijzing is niet nodig. Voor lichtere vragen over gezondheid, opvoeden en opgroeien gaat u naar Sociaal Werk De Kop. Die hulp is gratis en u heeft er geen besluit van de gemeente voor nodig.",
+        "omschrijving": "Een medewerker jeugd van de gemeente beslist of uw kind gespecialiseerde hulp krijgt, bijvoorbeeld bij autisme, psychische problemen of opvoedproblemen. Voor lichtere vragen over gezondheid, opvoeden en opgroeien gaat u naar Sociaal Werk De Kop. Die hulp is gratis en u heeft er geen besluit van de gemeente voor nodig.",
         "stappen": [
           "Bel of mail de medewerkers jeugd van de gemeente. Wilt u eerst advies of lichte hulp? Neem dan contact op met Sociaal Werk De Kop.",
-          "Spreek een gesprek af; meestal komt de medewerker jeugd bij u thuis. U mag iemand meenemen die u vertrouwt, of een onafhankelijke cliëntondersteuner.",
-          "Schrijf eventueel vooraf zelf een persoonlijk plan. In het gesprek maakt u samen een ondersteuningsplan: wat u zelf kunt doen en welke hulp past.",
-          "Dien een aanvraag in als hulp nodig is. Het onderzoek duurt hooguit 6 weken. Daarna krijgt u binnen 2 weken een schriftelijk besluit."
+          "Spreek een gesprek af; meestal komt de medewerker jeugd bij u thuis. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan. U mag vooraf zelf een persoonlijk plan schrijven. Is hulp nodig, dan dient u een aanvraag in."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "url": "https://www.sociaalwerkdekop.nl/contact",
             "openingstijden": "Telefonisch maandag tot en met vrijdag 8.30–17.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden; vraag het bij uw aanmelding. Na uw aanvraag duurt het onderzoek hooguit 6 weken, daarna krijgt u binnen 2 weken een schriftelijk besluit."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks doorsturen naar jeugdhulp van de gemeente. Dat is een gelijkwaardige route naast de medewerkers jeugd van de gemeente. Bij een aantal huisartsenpraktijken werkt ook een medewerker jeugd van de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD IJsselland, op het consultatiebureau bij u in de buurt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een aantal huisartsenpraktijken werkt een medewerker jeugd van de gemeente. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD IJsselland, op het consultatiebureau bij u in de buurt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Laat de arts verwijzen naar een aanbieder met een contract bij de gemeente, of naar de medewerker jeugd van de gemeente.",
-          "Laat de aanbieder de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar de medewerker jeugd.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD IJsselland",
@@ -52,12 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op basisscholen en middelbare scholen in Steenwijkerland is elke week een schoolmaatschappelijk werker van Sociaal Werk De Kop. Die helpt leerlingen en ouders kort en gratis, bijvoorbeeld bij pesten, faalangst of een scheiding. Komt u met school niet tot een oplossing over passend onderwijs, dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+        "omschrijving": "Op basisscholen en middelbare scholen in Steenwijkerland is elke week een schoolmaatschappelijk werker van Sociaal Werk De Kop. Die helpt leerlingen en ouders kort en gratis, bijvoorbeeld bij pesten, faalangst of een scheiding.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag via de mentor, intern begeleider of zorgcoördinator om een gesprek met de schoolmaatschappelijk werker. Voor hulp is uw toestemming nodig.",
-          "Neem contact op met de medewerkers jeugd van de gemeente als er meer hulp nodig is.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband als u er met school niet uitkomt."
+          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -84,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten er verder zijn voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor meldpunten en hulp bij onveiligheid thuis op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Steenwijkerland: huiselijk geweld en kindermishandeling",

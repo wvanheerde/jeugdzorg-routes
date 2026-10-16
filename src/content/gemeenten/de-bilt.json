@@ -4,18 +4,16 @@
   "provincie": "Utrecht",
   "websiteJeugd": "https://www.debilt.nl/zorg-inkomen-en-onderwijs/zorg/jeugdhulp",
   "toegang": {
-    "samenvatting": "In De Bilt loopt jeugdhulp via het Centrum voor Jeugd en Gezin (CJG) De Bilt. Het CJG is onderdeel van MENS, de welzijnsorganisatie die de gemeente hiervoor inzet. U meldt zich zelf aan. Het CJG is er voor kinderen en jongeren tot 18 jaar die in De Bilt wonen. Het toegangsteam van het CJG geeft advies, regelt kortdurende hulp en geeft bij specialistische hulp een beschikking (besluit) af. Ook de huisarts mag rechtstreeks verwijzen. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd van het CJG. Het CJG zegt binnen twee werkdagen contact op te nemen. Gemeten wachttijden zijn niet openbaar te vinden. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In De Bilt meldt u zich bij het Centrum voor Jeugd en Gezin (CJG) De Bilt, onderdeel van welzijnsorganisatie MENS, voor kinderen en jongeren tot 18 jaar. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Toegangsteam van het CJG De Bilt",
-        "omschrijving": "Het toegangsteam van het CJG is de voordeur voor jeugdhulp in De Bilt. U meldt zich zelf aan, een verwijzing is niet nodig. Het team kijkt samen met u wat u zelf kunt doen, wat mensen uit uw omgeving kunnen doen en waar u professionele hulp bij nodig hebt. Is specialistische hulp nodig, dan geeft het CJG een beschikking (besluit van de gemeente) af. Daarnaast heeft het CJG teams voor kortdurende ondersteuning, voor onderzoek (diagnostiek) en voor procesregie: het afstemmen van hulp als er meer hulpverleners zijn.",
+        "omschrijving": "Het toegangsteam van het CJG geeft advies, regelt kortdurende hulp en geeft bij specialistische hulp een beschikking (besluit van de gemeente) af. Het CJG heeft ook teams voor onderzoek (diagnostiek) en voor procesregie: het afstemmen van hulp als er meer hulpverleners zijn. U kunt zelf al een familiegroepsplan maken met uw gezin en uw netwerk.",
         "stappen": [
-          "Bel het CJG, mail het of vraag via de website om een terugbelverzoek. Soms krijgt u meteen advies.",
-          "Is meer uitleg nodig? Dan neemt iemand van het toegangsteam later contact met u op om uw hulpvraag helder te krijgen. U mag iemand meenemen naar een gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een ondersteuningsplan met doelen en afspraken. U kunt zelf al een familiegroepsplan maken: een plan van uw gezin en uw netwerk.",
-          "Is specialistische hulp nodig, dan geeft het CJG een verwijzing of beschikking af. Vraag het besluit schriftelijk.",
-          "Zijn er meer hulpverleners betrokken? Vraag dan of het team Procesregie van het CJG de hulp op elkaar afstemt."
+          "Bel of mail het CJG, of vraag via de website om terugbellen. Soms krijgt u meteen advies.",
+          "Is meer uitleg nodig, dan neemt iemand van het toegangsteam contact op voor een gesprek. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan. Zijn er meer hulpverleners, vraag dan of team Procesregie de hulp op elkaar afstemt."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) De Bilt",
@@ -24,17 +22,17 @@
           "url": "https://cjgdebilt.nl/contact/",
           "adres": "Planetenplein 2 (Lichtruim, 2e verdieping), Bilthoven",
           "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
-        }
+        },
+        "doorlooptijd": "Het CJG zegt binnen twee werkdagen contact op te nemen. Gemeten wachttijden zijn niet openbaar; vraag bij uw aanmelding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het toegangsteam van het CJG. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd van het CJG. Die helpt bij vragen over opvoeden en bij psychische klachten en kijkt samen met de huisarts naar passende hulp.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd van het CJG, die helpt bij opvoedvragen en psychische klachten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de praktijkondersteuner jeugd van het CJG sturen, of direct naar een gecontracteerde aanbieder.",
-          "De verwijzer en de aanbieder leggen het traject voor aan de gemeente. U hoeft zelf geen aanvraag te doen.",
-          "Wijst de gemeente een verwijzing af, dan kunt u bezwaar maken."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts stuurt u eerst naar de praktijkondersteuner jeugd van het CJG, of direct naar een aanbieder met een contract.",
+          "De verwijzer en de aanbieder leggen het traject voor aan de gemeente; u hoeft zelf niets aan te vragen. Wijst de gemeente de verwijzing af, dan kunt u bezwaar maken."
         ],
         "contact": [
           {
@@ -56,11 +54,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Aan de scholen in De Bilt is een contactpersoon van het CJG verbonden (SchoolCJG). School kan die om advies vragen of vragen om bij een gesprek op school aan te sluiten. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden passend onderwijs in Zuidoost-Utrecht. Dat steunpunt werkt onafhankelijk van de samenwerkingsverbanden.",
+        "omschrijving": "Aan de scholen in De Bilt is een contactpersoon van het CJG verbonden (SchoolCJG). Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van de samenwerkingsverbanden in Zuidoost-Utrecht, dat onafhankelijk werkt.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om de SchoolCJG-contactpersoon van het CJG om advies te vragen, of om bij een gesprek aan te sluiten.",
-          "Is meer hulp nodig? Meld uw kind dan aan bij het CJG.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of de SchoolCJG-contactpersoon kan meedenken of bij een gesprek kan aansluiten.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
@@ -82,10 +78,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van het CJG staat wat u doet bij direct gevaar of zorgen over veiligheid thuis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina van het CJG De Bilt wat u doet bij direct gevaar of zorgen over veiligheid thuis."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG De Bilt: veiligheid en huiselijk geweld",

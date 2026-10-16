@@ -5,35 +5,33 @@
   "jeugdzorgregio": "Zuidoost-Utrecht",
   "websiteJeugd": "https://www.socialedorpsteams.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Utrechtse Heuvelrug is de Stichting Sociale Dorpsteams de eerste plek voor vragen over opvoeden en jeugdhulp. Het team werkt in opdracht van de gemeente en heeft teams voor Doorn, Maarn en Maarsbergen, voor Driebergen en voor Amerongen, Leersum en Overberg. U meldt zich zelf aan, een verwijzing is niet nodig. Een medewerker jeugd komt meestal op huisbezoek, onderzoekt uw vraag en regelt zo nodig de hulp. Ook de huisarts mag rechtstreeks verwijzen. Bij veel huisartsen werkt een praktijkondersteuner jeugd van de dorpsteams. Hoe lang het duurt voordat een medewerker jeugd uw melding oppakt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Utrechtse Heuvelrug meldt u zich zonder verwijzing bij de Sociale Dorpsteams. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociale Dorpsteams",
-        "omschrijving": "De Sociale Dorpsteams voeren in opdracht van de gemeente de toegang tot jeugdhulp uit. Ze geven advies, bieden lichte opvoedondersteuning en onderzoeken of uw kind jeugdhulp nodig heeft. U meldt zich zelf aan. Ongeveer twee derde van de telefonische vragen is met een advies opgelost. Zwaardere hulp vraagt de medewerker jeugd samen met u aan bij de gemeente.",
+        "omschrijving": "De Sociale Dorpsteams geven advies en lichte opvoedondersteuning, en onderzoeken of uw kind jeugdhulp nodig heeft. Er zijn teams voor Doorn, Maarn en Maarsbergen, voor Driebergen en voor Amerongen, Leersum en Overberg. Wilt u zelf een familiegroepsplan maken, zeg dat dan bij uw melding en lever het plan binnen zeven dagen in.",
         "stappen": [
-          "Bel de Sociale Dorpsteams of vul het meldingsformulier op hun website in.",
-          "Bespreek uw vraag met een medewerker jeugd, meestal bij u thuis. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Wilt u zelf een familiegroepsplan maken? Daarin schrijft u wat er speelt, welke hulp u wilt en wie kan helpen. Zeg dat bij uw melding en lever het plan binnen zeven dagen in.",
-          "Maak samen met de medewerker jeugd een plan. Is jeugdhulp nodig, dan vraagt de medewerker jeugd die voor u aan en krijgt u een schriftelijk besluit (beschikking).",
-          "Liever eerst advies over opvoeden? Mail of bel de opvoedondersteuners van de Sociale Dorpsteams."
+          "Bel de Sociale Dorpsteams of vul het meldingsformulier op hun website in. Ongeveer twee derde van de telefonische vragen is met een advies opgelost. Voor alleen advies over opvoeden kunt u ook de opvoedondersteuners mailen of bellen.",
+          "Bespreek uw vraag met een medewerker jeugd, meestal bij u thuis. U mag iemand meenemen.",
+          "Maak samen een plan. Is jeugdhulp nodig, dan vraagt de medewerker jeugd die voor u aan en krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Sociale Dorpsteams Utrechtse Heuvelrug",
           "telefoon": "0343 56 58 00",
           "url": "https://www.socialedorpsteams.nl/contact",
           "openingstijden": "Telefonisch op werkdagen 9.00–13.00 uur. Algemene inloopspreekuren in Amerongen, Doorn, Driebergen-Rijsenburg, Leersum en Maarn"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat een medewerker jeugd uw melding oppakt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de Sociale Dorpsteams. In Utrechtse Heuvelrug doet de GGD regio Utrecht de jeugdgezondheidszorg. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd van de dorpsteams. Die biedt 5 tot 10 gesprekken bij psychische klachten van kinderen of vragen over opvoeden.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd van de dorpsteams, voor 5 tot 10 gesprekken bij psychische klachten of vragen over opvoeden. De jeugdarts werkt bij de GGD regio Utrecht.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag of de huisarts u kan doorverwijzen naar de praktijkondersteuner jeugd. Die streeft naar een kennismaking binnen vier weken.",
-          "Is meer hulp nodig? Vraag dan om een verwijzing naar een aanbieder met een contract met de gemeente.",
-          "Neem met de verwijzing contact op met de aanbieder. Die meldt de start van de hulp bij de gemeente, dus u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag of de huisarts u doorverwijst naar de praktijkondersteuner jeugd. Die streeft naar een kennismaking binnen vier weken.",
+          "Is meer hulp nodig? Vraag dan een verwijzing naar een aanbieder met een contract met de gemeente. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -45,12 +43,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke school heeft een schoolconsulent van de Sociale Dorpsteams. Die denkt mee over zorgen om een leerling en over verzuim, ook anoniem. Komt u er met school niet uit, dan kan het samenwerkingsverband passend onderwijs helpen. Het Ouder- en Jeugdsteunpunt Zuid-Oost Utrecht geeft ouders gratis informatie over passend onderwijs.",
+        "omschrijving": "Elke school heeft een medewerker jeugd op school van de Sociale Dorpsteams. Die denkt mee over zorgen om een leerling en over verzuim, ook anoniem. Het Ouder- en Jeugdsteunpunt Zuid-Oost Utrecht geeft ouders gratis informatie over passend onderwijs.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school om de schoolconsulent van de Sociale Dorpsteams in te schakelen, of meld u zelf aan bij de Sociale Dorpsteams.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar de medewerker jeugd op school.",
           "Is meer hulp nodig? Dan onderzoekt een medewerker jeugd uw vraag, met uw toestemming meestal samen met school.",
-          "Komt u er met school niet uit over de ondersteuning? Vraag advies bij het Ouder- en Jeugdsteunpunt of bij het samenwerkingsverband passend onderwijs van uw school."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt of bij het samenwerkingsverband passend onderwijs van uw school."
         ],
         "contact": [
           {
@@ -79,10 +76,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten en meldpunten er verder zijn, staat op de pagina van de Sociale Dorpsteams.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisisdiensten en meldpunten op de pagina Crisis of spoedeisende hulp van de Sociale Dorpsteams."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Sociale Dorpsteams: crisis of spoedeisende hulp",

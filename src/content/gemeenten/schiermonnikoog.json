@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.schiermonnikoog.nl/zorg-werk-en-inkomen",
   "toegang": {
-    "samenvatting": "Schiermonnikoog laat de jeugdhulp regelen door het Gebiedsteam van de gemeente Noardeast-Fryslân, op de vaste wal. U belt dat team zelf; een verwijzing is niet nodig. Het team bespreekt uw vraag, geeft advies of lichte hulp en regelt zo nodig specialistische jeugdhulp. Ook de huisarts mag rechtstreeks verwijzen. Hulp van aanbieders aan de wal betekent reistijd; daar is in de regionale afspraken rekening mee gehouden. Hoe lang het duurt voordat het team uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "Op Schiermonnikoog regelt het Gebiedsteam van de gemeente Noardeast-Fryslân, op de vaste wal, de jeugdhulp. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gebiedsteam van Noardeast-Fryslân",
-        "omschrijving": "Het Gebiedsteam helpt bij vragen over opgroeien en opvoeden en beoordeelt of uw kind jeugdhulp krijgt. De gemeente Schiermonnikoog heeft dit werk afgesproken met de gemeente Noardeast-Fryslân. U meldt zich zelf aan, mondeling, schriftelijk of digitaal; een verwijzing is niet nodig. De gemeente moet uw vraag binnen 6 weken onderzoeken. Is er haast, dan kan zij tijdelijk hulp regelen terwijl het onderzoek loopt.",
+        "omschrijving": "Het Gebiedsteam helpt bij vragen over opgroeien en opvoeden en beoordeelt of uw kind jeugdhulp krijgt. Schiermonnikoog heeft dit werk afgesproken met Noardeast-Fryslân; wilt u liever eerst de gemeente Schiermonnikoog zelf spreken, dan kan dat ook. Is er haast, dan kan de gemeente tijdelijk hulp regelen terwijl het onderzoek loopt.",
         "stappen": [
           "Bel of mail het Gebiedsteam en vertel wat er speelt. Vaak krijgt u meteen advies.",
-          "Is meer hulp nodig? Maak dan een afspraak voor een gesprek met het team. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak gerust zelf een familiegroepsplan: een plan van u en mensen uit uw omgeving. Dat kan tot 7 dagen na uw melding.",
-          "Vraag om een verslag van het gesprek. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking).",
-          "Wilt u liever eerst met de gemeente zelf spreken? Neem dan contact op met de gemeente Schiermonnikoog."
+          "Is meer hulp nodig? Maak een afspraak voor een gesprek. U mag iemand meenemen.",
+          "Wilt u zelf een familiegroepsplan maken met mensen uit uw omgeving? Dat kan tot 7 dagen na uw melding. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -32,16 +30,17 @@
             "email": "postbus20@schiermonnikoog.nl",
             "url": "https://www.schiermonnikoog.nl/contact-en-openingstijden"
           }
-        ]
+        ],
+        "doorlooptijd": "De gemeente moet uw vraag binnen 6 weken onderzoeken. Hoe lang het duurt voordat het team uw vraag oppakt, is niet openbaar te vinden; vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de Friese gemeenten samen hebben ingekocht. Dit is een gelijkwaardige route naast het Gebiedsteam. De gemeente betaalt alleen hulp van een aanbieder met een contract. Vraag de huisarts daarom om naar zo'n aanbieder te verwijzen. De jeugdgezondheidszorg (JGZ) is gratis: de jeugdarts of jeugdverpleegkundige kijkt mee naar groei en ontwikkeling.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente betaalt alleen hulp van een aanbieder met een contract. Hulp van aanbieders aan de wal betekent reistijd; daar is in de regionale afspraken rekening mee gehouden.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de JGZ.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract. Vraag ook of die aanbieder op het eiland werkt of dat u moet reizen.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract. Vraag ook of die aanbieder op het eiland werkt of dat u moet reizen.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -52,12 +51,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, vraag dan advies bij het Ouder- en jeugdsteunpunt passend onderwijs Friesland. Dat steunpunt is er voor ouders en leerlingen van basis- en voortgezet onderwijs. Voor jeugdhulp meldt u zich bij het Gebiedsteam.",
+        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Het Ouder- en jeugdsteunpunt passend onderwijs Friesland is er voor ouders en leerlingen van basis- en voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Vraag school welke ondersteuning zij zelf kan geven en wat zij heeft vastgelegd.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt.",
-          "Is er meer dan onderwijsondersteuning nodig? Meld u dan bij het Gebiedsteam."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -78,10 +76,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat hoe u een melding doet bij Veilig Thuis als een kind niet veilig is.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over mishandeling en huiselijk geweld wat Veilig Thuis doet."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Schiermonnikoog: mishandeling of huiselijk geweld",

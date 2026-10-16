@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Holland Rijnland",
   "websiteJeugd": "https://www.leiderdorp.nl/inwoner/zorg-ondersteuning-en-vrije-tijd/jeugd-en-opgroeien/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Leiderdorp is het Jeugdteam de plek om hulp te vragen. Het Jeugdteam hoort bij Jeugdteams Leidse Regio, een stichting die ook voor Leiden, Oegstgeest en Zoeterwoude werkt. U meldt zich zelf aan, een verwijzing is niet nodig. Het Jeugdteam bekijkt uw vraag en kan zelf hulp bieden. Het mag namens de gemeente specialistische hulp inzetten, ook via een pgb (persoonsgebonden budget). Ook de huisarts mag rechtstreeks verwijzen. Bij het Centrum voor Jeugd en Gezin (CJG) krijgt u gratis opvoedadvies, en daar zit ook de jeugdgezondheidszorg. Sinds 1 september 2026 gelden nieuwe regels. De gemeente kijkt eerst naar wat u en uw netwerk zelf kunnen en naar lichte hulp. Daarna besluit zij over specialistische hulp. Hoe lang het duurt voordat het Jeugdteam met u in gesprek gaat, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Leiderdorp meldt u zich bij het Jeugdteam, onderdeel van Jeugdteams Leidse Regio. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugdteam Leiderdorp (Jeugdteams Leidse Regio)",
-        "omschrijving": "Het Jeugdteam helpt bij zorgen over de ontwikkeling van uw kind, over opvoeden of over problemen thuis of op school. Elk gezin krijgt één vaste contactpersoon, die samen met u een plan maakt. Het team kan zelf hulp geven, doorverwijzen naar lichtere hulp of specialistische hulp inzetten. U kunt zich zelf aanmelden. Jongeren kunnen dat ook.",
+        "omschrijving": "Het Jeugdteam helpt bij zorgen over ontwikkeling, opvoeden of problemen thuis of op school; jongeren mogen zich ook zelf aanmelden. U krijgt één vaste contactpersoon, die zelf hulp kan geven of namens de gemeente specialistische hulp inzet, ook via een pgb (persoonsgebonden budget). Sinds 1 september 2026 kijkt de gemeente eerst naar wat u en uw netwerk kunnen en naar lichte hulp, en besluit dan over specialistische hulp.",
         "stappen": [
           "Meld u aan bij het Jeugdteam, online of per telefoon.",
-          "Bespreek in een gesprek met het Jeugdteam wat er speelt en wat u nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE.",
-          "Vraag na het gesprek om een schriftelijk verslag en een ondersteuningsplan.",
-          "Is specialistische hulp nodig? Dan legt de gemeente dat vast in een besluit (beschikking). Bent u het er niet mee eens, dan kunt u bezwaar maken."
+          "Bespreek wat er speelt en wat u nodig heeft. U mag iemand meenemen.",
+          "Maak samen een ondersteuningsplan. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Jeugdteam Leiderdorp en Zoeterwoude (Jeugdteams Leidse Regio)",
@@ -23,16 +22,17 @@
           "email": "contact@jeugdteamslr.nl",
           "url": "https://www.jeugdteamsleidseregio.nl/contact/gemeente-leiderdorp-en-zoeterwoude/",
           "adres": "Sterrentuin, Van Diepeningenlaan 110, Leiderdorp"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Jeugdteam met u in gesprek gaat, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. Het Jeugdteam heeft per team een vast aanspreekpunt voor huisartsen. De jeugdarts werkt bij de jeugdgezondheidszorg van het CJG.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Huisartsen hebben een vast aanspreekpunt bij het Jeugdteam. De jeugdarts werkt bij het Centrum voor Jeugd en Gezin (CJG), waar u ook gratis opvoedadvies krijgt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract, of vraag of het Jeugdteam kan meekijken.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van het CJG.",
+          "Vraag om een verwijzing naar een aanbieder met een contract, of vraag of het Jeugdteam kan meekijken.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Leiderdorp: jeugdgezondheidszorg",
@@ -44,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke basis- en middelbare school in de regio heeft een vaste contactpersoon van een Jeugdteam. Die denkt mee met school, uw kind en u en neemt deel aan het ondersteuningsteam van de school. Komt u er met school niet uit, dan geeft het steunpunt van het samenwerkingsverband passend onderwijs gratis advies. Voor basisonderwijs en voortgezet onderwijs zijn dat verschillende samenwerkingsverbanden.",
+        "omschrijving": "Elke basis- en middelbare school heeft een vaste contactpersoon van het Jeugdteam. Die denkt mee met school, uw kind en u, en zit in het ondersteuningsteam van de school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de contactpersoon van het Jeugdteam kan meekijken, of meld u zelf aan bij het Jeugdteam.",
-          "Komt u er met school niet uit? Vraag advies bij het steunpunt van het samenwerkingsverband passend onderwijs."
+          "Vraag of de contactpersoon van het Jeugdteam kan meekijken.",
+          "Komt u er met school niet uit? Vraag gratis advies bij het steunpunt van het samenwerkingsverband (apart voor basis- en voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -74,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Op de pagina Veiligheid van de gemeente staat wat u kunt doen bij vermoedens van huiselijk geweld, ook als het om kinderen gaat.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Veiligheid van de gemeente Leiderdorp onder Meld huiselijk geweld."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Leiderdorp: veiligheid, meld huiselijk geweld",

@@ -4,17 +4,16 @@
   "provincie": "Groningen",
   "websiteJeugd": "https://www.veendam.nl/Onderwerpen/Jeugd_onderwijs_en_ontwikkeling/Jeugd",
   "toegang": {
-    "samenvatting": "In Veendam zijn er twee deuren. Voor de meeste ambulante hulp (hulp thuis, op school of bij een aanbieder, zonder opname) meldt u uw kind aan bij JEP Veendam, het Jeugd Expertise Punt. U hebt daarvoor geen verwijzing en geen besluit van de gemeente nodig. Op school helpt een jeugdondersteuner (JOS-er), bij veel huisartsen een ondersteuner jeugd en gezin (OJG-er). Zwaardere of zeldzame hulp, zoals dagbehandeling, logeerzorg, pleegzorg of verblijf, vraagt u aan bij Team Jeugd van de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat uw aanmelding wordt opgepakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Veendam meldt u uw kind voor de meeste hulp thuis of bij een aanbieder zelf aan bij JEP Veendam, zonder verwijzing of besluit van de gemeente. Voor zwaardere hulp, zoals dagbehandeling, logeerzorg, pleegzorg of verblijf, gaat u naar Team Jeugd van de gemeente; ook de huisarts, de jeugdarts of school kan u verder helpen.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "JEP Veendam en Team Jeugd van de gemeente",
-        "omschrijving": "JEP Veendam is een samenwerking van zes organisaties. Samen bieden zij de meest voorkomende ambulante jeugdhulp: begeleiding en behandeling. U meldt uw kind zelf aan, zonder verwijzing en zonder beschikking (besluit van de gemeente). Team Jeugd werkt voor de gemeente. Het regelt de hulp die JEP niet biedt, zoals bij ernstige dyslexie, systeemtherapie, complex trauma, dagbehandeling, logeerzorg, kortdurend verblijf, pleegzorg en vervoer naar de hulp. Alleen Team Jeugd geeft daarvoor een beschikking. Team Jeugd is ook uw aanspreekpunt bij zorgen over de veiligheid van een kind.",
+        "omschrijving": "JEP Veendam (Jeugd Expertise Punt) is een samenwerking van zes organisaties voor de meest voorkomende begeleiding en behandeling. Team Jeugd van de gemeente regelt wat JEP niet biedt, zoals hulp bij ernstige dyslexie, systeemtherapie, complex trauma, dagbehandeling, logeerzorg, kortdurend verblijf, pleegzorg en vervoer; alleen Team Jeugd geeft daarvoor een beschikking (besluit van de gemeente). Team Jeugd is ook uw aanspreekpunt bij zorgen over de veiligheid van een kind.",
         "stappen": [
           "Meld uw kind aan bij JEP Veendam. Het aanmeldteam bespreekt uw vraag en zoekt passende hulp.",
-          "Is uw hulpvraag complexer dan JEP kan bieden? Neem dan contact op met Team Jeugd. Het team onderzoekt samen met u wat past.",
-          "Vraag Team Jeugd na het gesprek om een schriftelijk onderzoeksverslag en een beschikking. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Wilt u liever eerst advies? Vraag het aan de jeugdondersteuner op school of de ondersteuner jeugd en gezin bij de huisarts."
+          "Is meer nodig dan JEP kan bieden? Neem contact op met Team Jeugd; het team onderzoekt met u wat past. U mag iemand meenemen.",
+          "Vraag Team Jeugd om een onderzoeksverslag en een beschikking."
         ],
         "contact": [
           {
@@ -29,16 +28,17 @@
             "url": "https://www.veendam.nl/Onderwerpen/Jeugd_onderwijs_en_ontwikkeling/Jeugd",
             "openingstijden": "Telefonisch ma, di, do en vr 8.30–12.30 uur, wo 8.30–17.00 uur. Na 12.30 uur alleen voor crisis"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat uw aanmelding wordt opgepakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast JEP en Team Jeugd. Bij veel huisartsen in Veendam werkt een ondersteuner jeugd en gezin (OJG-er) van JEP, die direct met u en uw kind kan meekijken.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Bij veel huisartsen in Veendam werkt een ondersteuner jeugd en gezin (OJG-er) van JEP, die direct met u en uw kind kan meekijken.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar de ondersteuner jeugd en gezin of naar een aanbieder met een contract bij de regio.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van de jeugdgezondheidszorg.",
+          "Vraag om een verwijzing naar de ondersteuner jeugd en gezin of naar een aanbieder met een contract in de regio.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Groningen",
@@ -50,12 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de scholen in Veendam werkt een jeugdondersteuner (JOS-er) van JEP. Ook is er op alle scholen een schoolmaatschappelijk werker van deBasis Veendam voor vragen over opgroeien en opvoeden. Komt u er met school niet uit over passend onderwijs, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband.",
+        "omschrijving": "Op de scholen in Veendam werkt een jeugdondersteuner (JOS-er) van JEP. Op alle scholen is ook een schoolmaatschappelijk werker van deBasis Veendam voor vragen over opgroeien en opvoeden.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de jeugdondersteuner van JEP of de schoolmaatschappelijk werker kan meekijken. U kunt ook zelf contact opnemen.",
-          "Is meer hulp nodig? Vraag hen dan JEP of Team Jeugd in te schakelen.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
+          "Vraag of de jeugdondersteuner of de schoolmaatschappelijk werker kan meekijken; die kan zo nodig JEP of Team Jeugd inschakelen.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -91,10 +90,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke hulp er verder in Veendam is bij huiselijk geweld en kindermishandeling, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor lokale hulp bij onveiligheid thuis op de pagina Huiselijk geweld en kindermishandeling van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Veendam: huiselijk geweld en kindermishandeling",

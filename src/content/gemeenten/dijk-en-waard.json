@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Alkmaar",
   "websiteJeugd": "https://www.dijkenwaard.nl/zorg-werk-en-jeugd/jeugd/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Dijk en Waard vraagt u jeugdhulp aan bij Team Jeugd van de gemeente. Daar werken jeugd- en gezinscoaches in drie gebiedsteams: Langedijk, Heerhugowaard Noord en Heerhugowaard Zuid. U kunt zelf contact opnemen: bel, loop binnen bij het Sociaalplein of vul het contactformulier in met DigiD. De gemeente belt u binnen 5 werkdagen terug en plant een keukentafelgesprek. Daarin bespreekt u uw situatie en wensen. Een besluit volgt meestal binnen 8 weken. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. De gemeente werkt daarvoor samen met de praktijkondersteuners bij de huisarts. Jeugd- en gezinscoaches werken ook op scholen en in de kinderopvang. De gemeente wil Team Jeugd de komende jaren meer zelf laten helpen in de buurt (een 'Stevig Lokaal Team'). Daardoor kan de werkwijze nog veranderen.",
+    "samenvatting": "In Dijk en Waard meldt u zich zonder verwijzing bij Team Jeugd van de gemeente, met gebiedsteams in Langedijk, Heerhugowaard Noord en Heerhugowaard Zuid. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd (gebiedsteams, via het Sociaalplein)",
-        "omschrijving": "Team Jeugd van de gemeente bekijkt uw vraag over opvoeden, opgroeien of hulp voor uw kind. Een jeugd- en gezinscoach of procesregisseur neemt contact op en plant een keukentafelgesprek. Daarna neemt de gemeente een besluit (beschikking). Jeugdhulp is er voor kinderen en jongeren tot 18 jaar. Een jongere van 12 jaar of ouder mag ook zelf een aanvraag doen. Tussen 12 en 16 jaar is daarvoor toestemming van de ouders nodig. U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "omschrijving": "Een jeugd- en gezinscoach of procesregisseur bespreekt met u in een keukentafelgesprek wat er speelt en welke hulp past. Een jongere van 12 jaar of ouder mag zelf een aanvraag doen, tussen 12 en 16 jaar met toestemming van de ouders. De gemeente is van plan Team Jeugd meer zelf te laten helpen in de buurt (een 'Stevig Lokaal Team'), dus de werkwijze kan nog veranderen.",
         "stappen": [
-          "Bel de gemeente (ma-vr 9.00-12.00 uur), vul het contactformulier Jeugd in met DigiD of loop binnen bij het Sociaalplein.",
-          "Wacht op het telefoontje van Team Jeugd. De gemeente streeft ernaar binnen 5 werkdagen contact op te nemen.",
-          "Bespreek in het keukentafelgesprek wat er speelt, wat u zelf kunt en welke hulp past. Neem gerust een cliëntondersteuner mee.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking: het besluit van de gemeente, met welke hulp, hoeveel en hoe lang.",
-          "Loopt bestaande hulp bijna af? Neem op tijd contact op om te bespreken of verlenging nodig is."
+          "Bel de gemeente, vul het contactformulier Jeugd in met DigiD of loop binnen bij het Sociaalplein.",
+          "Team Jeugd belt u en plant een keukentafelgesprek. U mag iemand meenemen.",
+          "Bij specialistische hulp krijgt u een beschikking: welke hulp, hoeveel en hoe lang. Loopt de hulp bijna af? Neem dan op tijd contact op over verlenging."
         ],
         "contact": {
           "naam": "Sociaalplein, gemeente Dijk en Waard",
@@ -25,16 +23,16 @@
           "adres": "Gemeentehuis, Parelhof 1, Heerhugowaard. De Binding, Bosgroet 2, Zuid-Scharwoude",
           "openingstijden": "Telefonisch ma-vr 9.00-12.00 uur. Inloopspreekuur zonder afspraak: gemeentehuis ma-vr 14.00-17.00 uur, De Binding di 9.00-12.00 uur"
         },
-        "doorlooptijd": "De gemeente neemt meestal binnen 8 weken een besluit. Soms duurt het langer door wachtlijsten."
+        "doorlooptijd": "De gemeente streeft ernaar binnen 5 werkdagen contact op te nemen. Een besluit volgt meestal binnen 8 weken, soms later door wachtlijsten."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Bij veel huisartsen werkt een praktijkondersteuner (POH). Die kan lichte hulp bieden of meedenken met Team Jeugd. Sinds maart 2026 verwijzen huisartsen digitaal via Zorgdomein.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Sinds maart 2026 verwijzen huisartsen digitaal via Zorgdomein. Bij veel huisartsen werkt een praktijkondersteuner (POH) die lichte hulp biedt of meedenkt met Team Jeugd.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts.",
-          "Vraag om een verwijzing naar een aanbieder waarmee de gemeente een contract heeft. In de Beschikbaarheidswijzer ziet u welke aanbieders dat zijn.",
-          "Maak een afspraak bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente. Die staan in de Beschikbaarheidswijzer.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -55,11 +53,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft u zorgen over leren, gedrag of schoolgang? Bespreek dat met school. Jeugd- en gezinscoaches van de gemeente zijn ook op scholen en in de kinderopvang aanwezig. Op verschillende basisscholen werkt een SOOS-medewerker (sterke ondersteuning op school): die praat met ouders en kinderen en geeft lichte begeleiding. De gemeente heeft ook een leerplichtambtenaar voor vragen over schoolgang.",
+        "omschrijving": "Jeugd- en gezinscoaches van de gemeente zijn ook op scholen en in de kinderopvang. Op verschillende basisscholen werkt een SOOS-medewerker (sterke ondersteuning op school), die met ouders en kinderen praat en lichte begeleiding geeft. Voor vragen over leerplicht of schoolverzuim is er de leerplichtambtenaar van de gemeente.",
         "stappen": [
           "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om contact met Team Jeugd, of neem zelf contact op via het Sociaalplein.",
-          "Neem bij vragen over leerplicht of schoolverzuim contact op met de leerplichtambtenaar van de gemeente.",
+          "Vraag school om contact met Team Jeugd.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -80,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk bovenaan de pagina Jeugdhulp van de gemeente wie u overdag en buiten kantooruren kunt bellen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Dijk en Waard: jeugdhulp (direct gevaar en crisisdienst jeugd)",

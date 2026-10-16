@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Midden-Limburg West",
   "websiteJeugd": "https://www.nederweert.nl/jeugdzorg",
   "toegang": {
-    "samenvatting": "In Nederweert begint u bij het Centrum voor Jeugd en Gezin Midden-Limburg (CJG). Het CJG werkt voor zeven gemeenten en heeft een locatie in Nederweert. U meldt zich zelf aan. Een verwijzing is niet nodig. Het CJG geeft advies en lichte hulp. Is meer nodig, dan zoekt het CJG met u specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Bij de huisartsenpraktijken werkt een praktijkondersteuner jeugd van het CJG. Gemeten wachttijden voor Nederweert zijn niet openbaar te vinden. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Nederweert meldt u zich bij het Centrum voor Jeugd en Gezin Midden-Limburg (CJG), dat een locatie in Nederweert heeft. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin Midden-Limburg (CJG)",
-        "omschrijving": "Het CJG is het toegangsteam voor jeugdhulp in Nederweert. U meldt zich zelf aan, gratis en zonder verwijsbrief. Het CJG begint met advies en lichte hulp, zonder besluit van de gemeente. Is specialistische hulp nodig, dan dient u een schriftelijke aanvraag in en beslist de gemeente. Het CJG helpt u daarbij als u dat wilt.",
+        "omschrijving": "Het CJG werkt voor zeven gemeenten en begint met gratis advies en lichte hulp, zonder besluit van de gemeente. Is specialistische hulp nodig, dan dient u een schriftelijke aanvraag in en beslist de gemeente. Het CJG helpt u daarbij als u dat wilt.",
         "stappen": [
           "Bel of mail het CJG met uw vraag over opvoeden of opgroeien.",
-          "Ga naar het eerste gesprek (intake). U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen met het CJG een plan van aanpak. Kleine vragen lost het CJG vaak zelf op met advies of lichte hulp.",
-          "Is specialistische hulp nodig? Dien dan een schriftelijke aanvraag in. De gemeente beslist binnen acht weken, volgens de verordening.",
-          "Vraag na het gesprek om een schriftelijk verslag. De gemeente stuurt dat volgens de verordening binnen 14 werkdagen."
+          "Maak in het eerste gesprek samen een plan van aanpak. U mag iemand meenemen.",
+          "Is specialistische hulp nodig? Dien dan een schriftelijke aanvraag in bij de gemeente."
         ],
         "contact": [
           {
@@ -32,17 +30,17 @@
             "telefoon": "0495 67 71 11",
             "url": "https://www.nederweert.nl/jeugdzorg"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt tot het eerste gesprek, is niet openbaar; vraag het bij uw aanmelding. Volgens de verordening krijgt u binnen 14 werkdagen een verslag van het gesprek en beslist de gemeente binnen acht weken op een aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij de huisartsenpraktijken in Nederweert werkt een praktijkondersteuner jeugd van het CJG. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van GGD Limburg-Noord.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Bij de huisartsenpraktijken in Nederweert werkt een praktijkondersteuner jeugd van het CJG. Verwijst de arts naar een aanbieder zonder contract, dan vergoedt de gemeente dat niet; soms kan een pgb wel.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de praktijkondersteuner jeugd doorverwijzen, of direct naar een aanbieder met een contract met de gemeente.",
-          "Verwijst de arts naar een aanbieder zonder contract? Dan vergoedt de gemeente die hulp niet. Soms kan een pgb dan wel. Vraag er bij het CJG of de gemeente naar.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Limburg-Noord.",
+          "Laat u verwijzen naar de praktijkondersteuner jeugd of naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -54,12 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School en CJG werken samen. De school kan u doorverwijzen naar het CJG, en u kunt zich ook zelf aanmelden. Voor vragen over extra ondersteuning op school is er per samenwerkingsverband passend onderwijs een onafhankelijk Ouder- en Jeugdsteunpunt. Voor basisscholen en voor middelbare scholen zijn dat twee verschillende steunpunten.",
+        "omschrijving": "School en CJG werken samen; de school kan u doorverwijzen naar het CJG. Voor basisscholen en middelbare scholen is er elk een eigen Ouder- en Jeugdsteunpunt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school het CJG kan inschakelen. U kunt zich ook zelf melden bij het CJG.",
-          "Gaat het om extra ondersteuning op school? Vraag dan advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband.",
-          "Leg afspraken met school en CJG schriftelijk vast."
+          "Vraag of de school het CJG kan inschakelen.",
+          "Gaat het om extra ondersteuning op school? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -86,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Waar u in Nederweert nog meer terechtkunt bij zorgen om een kind, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Ik maak me zorgen om iemand van de gemeente voor hulp bij kindermishandeling en huiselijk geweld."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Nederweert: Ik maak me zorgen om iemand (kindermishandeling en huiselijk geweld)",

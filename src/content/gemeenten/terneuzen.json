@@ -4,17 +4,16 @@
   "provincie": "Zeeland",
   "websiteJeugd": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Terneuzen regelt Jeugd en Gezin van aan-z de toegang tot jeugdhulp. aan-z voert dit werk uit voor de gemeente. U kunt zich zelf melden; een verwijzing is niet nodig. Een medewerker komt bij u thuis om te bespreken welke hulp nodig is. Daarna beslist de gemeente of u jeugdhulp krijgt. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Terneuzen meldt u zich zonder verwijzing bij Jeugd en Gezin van aan-z, dat de toegang tot jeugdhulp regelt voor de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugd en Gezin van aan-z",
-        "omschrijving": "Jeugd en Gezin van aan-z geeft advies en lichte hulp bij opvoeden en opgroeien. Het regelt ook de toegang tot alle jeugdhulp in de gemeente. U kunt zich zelf aanmelden. De medewerkers jeugd van aan-z handelen aanvragen af namens de gemeente. Krijgt u hulp, dan ontvangt u een beschikking: een besluit van de gemeente waarin staat waar u terecht kunt.",
+        "omschrijving": "Jeugd en Gezin van aan-z geeft advies en lichte hulp bij opvoeden en opgroeien. De medewerkers jeugd handelen aanvragen af namens de gemeente. Krijgt u hulp, dan staat in het besluit (beschikking) waar u terechtkunt.",
         "stappen": [
-          "Meld u aan bij Jeugd en Gezin van aan-z. Dat kan telefonisch, per mail, met een bezoek of via het online formulier Jeugdmelding op de website van de gemeente.",
-          "Bespreek tijdens het huisbezoek van een medewerker welke hulp nodig is. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om het verslag. Lees het goed: u ondertekent het verslag en stuurt het terug.",
-          "Lees de brief met het besluit van de gemeente. Komt u in aanmerking voor hulp, dan staat daarin waar u terecht kunt."
+          "Meld u aan bij Jeugd en Gezin van aan-z: telefonisch, per mail, met een bezoek of via het online formulier Jeugdmelding op de website van de gemeente.",
+          "Bespreek tijdens het huisbezoek welke hulp nodig is. U mag iemand meenemen.",
+          "Lees het verslag goed, onderteken het en stuur het terug. Daarna krijgt u het besluit van de gemeente."
         ],
         "contact": {
           "naam": "Jeugd en Gezin van aan-z",
@@ -23,17 +22,17 @@
           "url": "https://aan-z.eu/volwassen/gezin/ik-wil-geindiceerde-jeugdhulp-aanvragen/",
           "adres": "Jacob Catsstraat 7, Terneuzen",
           "openingstijden": "Werkdagen 8.30–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via Jeugd en Gezin van aan-z. In Terneuzen werken vier praktijkondersteuners jeugd bij huisartsen; zij geven lichte hulp. De gemeente wil afspreken dat huisartsen eerst contact opnemen met aan-z voordat zij doorverwijzen naar specialistische hulp.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Terneuzen werken vier praktijkondersteuners jeugd bij huisartsen; zij geven lichte hulp.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of die u eerst verwijst naar de praktijkondersteuner jeugd of naar Jeugd en Gezin van aan-z.",
-          "Verwijst de arts naar specialistische hulp? Dan kan dat alleen naar een aanbieder met een contract met de gemeente.",
-          "U hoeft zelf geen aanvraag te doen. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "De huisarts verwijst u naar de praktijkondersteuner jeugd, naar aan-z of naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -46,11 +45,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen in de gemeente Terneuzen werken sociaal werkers van aan-z. Zij zien problemen vroeg en geven lichte hulp, zonder drempel. Heeft uw kind extra ondersteuning nodig op school? Dan kunt u terecht bij het samenwerkingsverband passend onderwijs, voor basis- en voortgezet onderwijs.",
+        "omschrijving": "Op de basisscholen werken sociaal werkers van aan-z. Zij zien problemen vroeg en geven lichte hulp. Voor extra ondersteuning op school is er het samenwerkingsverband passend onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag op de basisschool naar de sociaal werker van aan-z. U kunt zich ook zelf aanmelden bij Jeugd en Gezin van aan-z.",
-          "Is meer hulp nodig? Dan kan aan-z jeugdhulp aanvragen via de gewone route.",
+          "Vraag op de basisschool naar de sociaal werker van aan-z.",
           "Komt u er met school niet uit over extra ondersteuning? Neem contact op met het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -73,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er in Terneuzen zijn, staat bij aan-z onder Crisissituatie.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Zeeuws-Vlaanderen op de contactpagina van aan-z, onder Crisissituatie."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "aan-z: crisissituatie",
@@ -198,7 +195,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Terneuzen: Jeugdhulp",

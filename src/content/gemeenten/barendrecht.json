@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Rijnmond",
   "websiteJeugd": "https://www.barendrecht.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Barendrecht begint u bij de wijkteams van de gemeente. Het wijkteam helpt bij vragen over opvoeden en opgroeien, geeft zelf lichte hulp en regelt zo nodig specialistische jeugdhulp. U meldt zich zelf aan, een verwijzing is niet nodig. Dat kan met een online formulier, telefonisch of tijdens een inloopspreekuur. Ook de huisarts mag rechtstreeks verwijzen. Bij tien huisartsen werkt een praktijkondersteuner voor jeugd-ggz (geestelijke gezondheidszorg). De gemeente zegt zelf dat de wijkteams al langere tijd wachtlijsten hebben. Hoe lang u moet wachten, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Barendrecht meldt u zich bij de wijkteams van de gemeente, online, telefonisch of op een inloopspreekuur. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteams Barendrecht",
-        "omschrijving": "De wijkteams werken voor de gemeente. Zij luisteren naar uw vraag, bieden zelf lichte hulp en regelen zo nodig specialistische jeugdhulp. U meldt zich zelf aan. Er zijn twee online formulieren: een aanmelding bij het wijkteam, en een aanvraag jeugdhulp als u zeker weet dat uw kind specialistische hulp nodig heeft. Enkele dagen na het gesprek krijgt u een verslag. Hierin staat of u hulp krijgt en welke.",
+        "omschrijving": "De wijkteams luisteren naar uw vraag, bieden zelf lichte hulp en regelen zo nodig specialistische jeugdhulp. Er zijn twee online formulieren: een aanmelding bij het wijkteam, en een aanvraag jeugdhulp als u zeker weet dat uw kind specialistische hulp nodig heeft. Enkele dagen na het gesprek krijgt u een verslag waarin staat of u hulp krijgt en welke.",
         "stappen": [
-          "Meld u aan bij het wijkteam met het online formulier, of loop binnen tijdens een inloopspreekuur. U kunt ook bellen of mailen.",
-          "Weet u zeker dat uw kind specialistische hulp nodig heeft? Dien dan de aanvraag jeugdhulp in via het tweede formulier.",
-          "Bespreek de situatie van uw kind in een gesprek met het wijkteam. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag hoe lang het duurt voordat de hulp start. Bewaar het verslag en de beschikking (het besluit van de gemeente) die u daarna krijgt."
+          "Meld u aan met het online formulier, loop binnen tijdens een inloopspreekuur, of bel of mail. Weet u zeker dat specialistische hulp nodig is? Gebruik dan het formulier aanvraag jeugdhulp.",
+          "Bespreek de situatie van uw kind met het wijkteam. U mag iemand meenemen.",
+          "Bewaar het verslag en de beschikking (het besluit van de gemeente) die u daarna krijgt."
         ],
         "contact": {
           "naam": "Wijkteams Barendrecht (gemeente)",
@@ -24,16 +23,17 @@
           "url": "https://www.barendrecht.nl/direct-regelen/jeugd-onderwijs-opgroeien/opgroeien/wijkteams/",
           "adres": "Inloopspreekuur Kruidentuin 8a en Middeldijkerplein 248",
           "openingstijden": "Telefonisch ma t/m vr 9.00–12.00 uur. Inloopspreekuur Kruidentuin di 9.00–10.30 en do 14.00–15.30 uur; Middeldijkerplein di 13.00–15.00 uur"
-        }
+        },
+        "doorlooptijd": "De gemeente zegt zelf dat de wijkteams al langere tijd wachtlijsten hebben. Hoe lang u wacht, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het wijkteam. Bij tien huisartsen werkt een praktijkondersteuner jeugd-ggz voor een eerste gesprek over psychische klachten. De jeugdarts werkt bij CJG Rijnmond, het Centrum voor Jeugd en Gezin van de regio.",
+        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Bij tien huisartsen werkt een praktijkondersteuner jeugd-ggz (geestelijke gezondheidszorg) voor een eerste gesprek over psychische klachten. De jeugdarts werkt bij CJG Rijnmond.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het CJG.",
-          "Vraag de huisarts om een verwijzing. Dat kan eerst naar de praktijkondersteuner jeugd-ggz, of direct naar een aanbieder met een contract bij de gemeente.",
-          "Ga naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
+          "Vraag om een verwijzing, eerst naar de praktijkondersteuner jeugd-ggz of direct naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "CJG Rijnmond (jeugdgezondheidszorg)",
@@ -46,11 +46,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt school zich zorgen, dan kan de school met uw toestemming contact leggen met het wijkteam. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het basisonderwijs is dat RiBA, voor het voortgezet onderwijs Koers VO.",
+        "omschrijving": "Maakt school zich zorgen, dan kan de school met uw toestemming contact leggen met het wijkteam. Het ouder- en jeugdsteunpunt is voor het basisonderwijs van RiBA, voor het voortgezet onderwijs van Koers VO.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school contact legt met het wijkteam, of meld u zelf aan bij het wijkteam.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband van uw school."
+          "Vraag of school contact legt met het wijkteam.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -79,10 +79,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in de regio zijn, staat op de pagina van de gemeente over de wijkteams, onder het kopje over crisis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in de regio op de pagina Wijkteams van de gemeente, bij het kopje over een crisissituatie."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Barendrecht: wijkteams, met kopje over crisis",

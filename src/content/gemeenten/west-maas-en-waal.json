@@ -4,18 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.westmaasenwaal.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In West Maas en Waal is VraagWijzer de ingang voor vragen over opvoeden, opgroeien, zorg, werk en inkomen. VraagWijzer werkt in opdracht van de gemeente. U meldt zich zelf aan; een verwijzing is niet nodig. Een medewerker jeugd komt meestal bij u thuis voor een gesprek (keukentafelgesprek) en legt dat vast in een verslag. Moet de gemeente de hulp regelen, dan geldt het ondertekende verslag meteen als aanvraag. Ook de huisarts mag rechtstreeks verwijzen. Volgens de website van de gemeente zijn er nu wachttijden en moet u langer wachten dan normaal. Vraag bij uw aanmelding hoe lang het duurt. De gemeente bereidt een nieuwe aanbesteding (inkoop) van VraagWijzer voor 2028 voor. Daardoor kan de toegang veranderen.",
+    "samenvatting": "In West Maas en Waal meldt u zich bij VraagWijzer, de ingang van de gemeente voor opvoeden, opgroeien, zorg, werk en inkomen. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "VraagWijzer West Maas en Waal",
-        "omschrijving": "VraagWijzer is het toegangsteam van de gemeente. Een medewerker jeugd bespreekt uw vraag, zoekt eerst naar lichte oplossingen en regelt zo nodig specialistische jeugdhulp. Bij vragen over opvoeden en opgroeien kunt u zich hier zelf melden. Is er geen directe oplossing, dan krijgt u een gesprek bij u thuis.",
+        "omschrijving": "Een medewerker jeugd van VraagWijzer bespreekt uw vraag, zoekt eerst naar lichte oplossingen en regelt zo nodig specialistische jeugdhulp. Is er geen directe oplossing, dan krijgt u een gesprek bij u thuis (keukentafelgesprek).",
         "stappen": [
-          "Bel VraagWijzer of stuur een e-mail met uw vraag. Is er niemand bereikbaar, spreek dan de voicemail in; u wordt de volgende dag teruggebeld.",
-          "Bespreek uw vraag in het gesprek bij u thuis. De medewerker jeugd zoekt samen met u naar een oplossing.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner. Vraag er het liefst al om vóór het gesprek.",
-          "Lees het verslag (persoonlijk ondersteuningsplan), zet er uw opmerkingen bij en stuur het ondertekend terug. Dat is meteen uw aanvraag als de gemeente de hulp moet regelen.",
-          "Wacht op het besluit (beschikking) en vraag het schriftelijk als u het niet krijgt."
+          "Bel of mail VraagWijzer. Krijgt u de voicemail, dan wordt u de volgende dag teruggebeld.",
+          "Bespreek uw vraag in het gesprek bij u thuis. U mag iemand meenemen.",
+          "Lees het verslag (persoonlijk ondersteuningsplan), zet er uw opmerkingen bij en stuur het ondertekend terug. Dat is meteen uw aanvraag als de gemeente de hulp moet regelen."
         ],
         "contact": {
           "naam": "VraagWijzer West Maas en Waal (gemeente)",
@@ -25,17 +23,16 @@
           "adres": "Van Heemstraweg 50, Beneden-Leeuwen",
           "openingstijden": "Telefonisch ma t/m vr 9.00–12.30 uur; dinsdag en donderdag ook 13.00–16.00 uur"
         },
-        "doorlooptijd": "Volgens de website van de gemeente zijn er wachttijden en moet u langer wachten dan normaal. Een gemeten doorlooptijd is niet openbaar te vinden."
+        "doorlooptijd": "Volgens de gemeente zijn er nu wachttijden en moet u langer wachten dan normaal. Hoe lang precies, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast VraagWijzer. Bij de huisartsen werkt sinds 2025 een praktijkondersteuner jeugd-ggz (POH Jeugd). Die helpt bij psychische vragen en opvoedvragen en verwijst zo nodig door. De jeugdgezondheidszorg volgt de groei en ontwikkeling van kinderen van 0 tot 18 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisartsen werkt sinds 2025 een praktijkondersteuner jeugd-ggz (POH Jeugd), voor psychische vragen en opvoedvragen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder met een contract van de gemeente. De huisarts kan u ook eerst naar de praktijkondersteuner jeugd sturen.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen.",
-          "Kiest u een aanbieder zonder contract? Vraag dan vooraf bij VraagWijzer of de hulp wordt vergoed."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar de POH Jeugd of naar een aanbieder met een contract bij de gemeente. Kiest u een aanbieder zonder contract, vraag dan vooraf bij VraagWijzer of de hulp wordt vergoed.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -58,11 +55,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Elke school heeft een zorg- en adviesteam (ZAT), ook wel schoolmaatschappelijk werk genoemd. Daarin werken onder meer de schoolmaatschappelijk werker, de leerplichtambtenaar en een orthopedagoog samen met VraagWijzer. De school betrekt ouders daar zoveel mogelijk bij. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Elke school heeft een zorg- en adviesteam (ZAT). Daarin werken onder meer de schoolmaatschappelijk werker, de leerplichtambtenaar en een orthopedagoog samen met VraagWijzer.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of uw kind in het zorg- en adviesteam van de school besproken kan worden.",
-          "Meld u zelf bij VraagWijzer als er meer hulp nodig is.",
+          "Vraag of uw kind in het zorg- en adviesteam besproken kan worden.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -84,10 +80,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Waar u in West Maas en Waal terechtkunt bij mishandeling of huiselijk geweld, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over mishandeling en huiselijk geweld waar u terechtkunt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente West Maas en Waal: mishandeling of huiselijk geweld (Veilig Thuis)",
@@ -194,7 +189,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente West Maas en Waal: Jeugdhulp",

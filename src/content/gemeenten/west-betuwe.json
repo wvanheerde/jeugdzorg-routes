@@ -4,17 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.westbetuwe.nl/jeugd-en-gezinsvragen",
   "toegang": {
-    "samenvatting": "In West Betuwe is Team sociaal het toegangsteam van de gemeente. Het team helpt bij vragen over opvoeden en opgroeien en regelt jeugdhulp als uw kind meer nodig heeft. U kunt zich zelf aanmelden; een verwijzing is niet nodig. Dat kan telefonisch, per e-mail of met een online formulier. Ook de huisarts mag rechtstreeks verwijzen. De gemeente wil bij alle huisartsen een praktijkondersteuner jeugd. Op scholen werkt schoolmaatschappelijk werk, dat sinds kort bij Team sociaal hoort. Hoe lang het duurt voordat Team sociaal uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In West Betuwe meldt u zich bij Team sociaal, het toegangsteam van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team sociaal West Betuwe",
-        "omschrijving": "Team sociaal is een team van de gemeente met onder meer jeugdprofessionals. Zij kijken met u wat uw kind en gezin nodig hebben, geven tips en bieden zelf kortdurende hulp. Is meer nodig, dan regelen zij gespecialiseerde jeugdhulp. U kunt zich zelf aanmelden; een verwijzing is niet nodig.",
+        "omschrijving": "Jeugdprofessionals van Team sociaal kijken met u wat uw kind en gezin nodig hebben, geven tips en bieden zelf kortdurende hulp. Is meer nodig, dan regelen zij gespecialiseerde jeugdhulp.",
         "stappen": [
-          "Bel of mail Team sociaal. U kunt ook het online aanvraagformulier voor jeugdhulp invullen.",
-          "Bespreek met een jeugdprofessional wat er speelt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Kijk samen wat u zelf en met uw netwerk kunt doen en welke hulp nodig is. Is specialistische hulp nodig, dan regelt het team die.",
-          "Vraag na het gesprek om een schriftelijk verslag. Vraag bij specialistische hulp ook om een beschikking: een besluit van de gemeente."
+          "Bel of mail Team sociaal, of vul het online aanvraagformulier voor jeugdhulp in.",
+          "Bespreek met een jeugdprofessional wat er speelt en wat u zelf en met uw omgeving kunt doen. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan regelt het team die en krijgt u een beschikking: een besluit van de gemeente."
         ],
         "contact": {
           "naam": "Team sociaal West Betuwe",
@@ -22,16 +21,17 @@
           "email": "jeugd@westbetuwe.nl",
           "url": "https://www.westbetuwe.nl/jeugd-en-gezinsvragen",
           "openingstijden": "Telefonisch tot 12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat Team sociaal uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als de route via Team sociaal. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd, voor vragen over opvoeden en opgroeien en voor psychische klachten. De gemeente wil dit uitbreiden naar alle huisartsen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd, voor vragen over opvoeden en opgroeien en voor psychische klachten. De gemeente wil dit uitbreiden naar alle huisartsen.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of die u eerst doorverwijst naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
-          "U hoeft zelf geen aanvraag te doen. De aanbieder meldt de start van de hulp bij de gemeente."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag of u eerst naar de praktijkondersteuner jeugd kunt, of direct naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -44,12 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op scholen in West Betuwe werkt schoolmaatschappelijk werk. Het geeft tijdelijke, gratis hulp aan kinderen en jongeren die niet lekker in hun vel zitten, en aan hun ouders. Het hoort bij Team sociaal. Een school kan het inschakelen, maar u kunt uw kind ook zelf aanmelden.",
+        "omschrijving": "Op scholen in West Betuwe werkt schoolmaatschappelijk werk van Team sociaal. Het geeft tijdelijke, gratis hulp aan kinderen en jongeren die niet lekker in hun vel zitten, en aan hun ouders. U kunt uw kind ook zelf aanmelden.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of zorgcoördinator van school.",
-          "Meld uw kind aan voor een gesprek met het schoolmaatschappelijk werk, met het online formulier of telefonisch.",
+          "Bespreek uw zorgen met de leerkracht, mentor of zorgcoördinator, of meld uw kind online of telefonisch aan bij het schoolmaatschappelijk werk.",
           "Past een groepstraining bij uw kind? Schrijf uw kind dan in via Wegwijs in West Betuwe.",
-          "Is meer hulp nodig? Dan verwijst het schoolmaatschappelijk werk door, bijvoorbeeld naar Team sociaal.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -83,10 +81,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis onveilig voor uw kind? Kijk op de pagina Huiselijk geweld van de gemeente West Betuwe."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente West Betuwe: huiselijk geweld",

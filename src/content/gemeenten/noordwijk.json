@@ -4,18 +4,16 @@
   "provincie": "Zuid-Holland",
   "websiteJeugd": "https://www.noordwijk.nl/direct-regelen/hulp-en-advies-voor-jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Noordwijk en Noordwijkerhout gaat u voor hulp naar Voor ieder 1, het sociaal wijkteam met jeugd- en gezinswerkers. U meldt uzelf aan, zonder verwijzing. Voor advies over opvoeden en opgroeien kunt u ook naar het Centrum voor Jeugd en Gezin (CJG). Ook de huisarts mag rechtstreeks verwijzen. Sinds 1 juli 2026 gelden nieuwe regels voor jeugdhulp. Het team kijkt eerst wat u zelf en uw netwerk kunnen doen, en kiest de lichtste hulp die genoeg helpt. Voor ieder 1 meldt op de eigen website dat het drukker is dan normaal en dat u soms moet wachten. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Noordwijk en Noordwijkerhout meldt u zich zonder verwijzing bij Voor ieder 1, het sociaal wijkteam met jeugd- en gezinswerkers. Voor advies over opvoeden kunt u ook naar het Centrum voor Jeugd en Gezin (CJG), en ook de huisarts of school helpt u verder.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Voor ieder 1 (sociaal wijkteam)",
-        "omschrijving": "Voor ieder 1 is het sociaal wijkteam van Noordwijk en Noordwijkerhout, met onder meer jeugd- en gezinswerkers. Het team kijkt met u mee, maakt een ondersteuningsplan en regelt zo nodig specialistische jeugdhulp. Hulp van het team is gratis. U meldt zich zelf aan, zonder verwijzing. Besluiten over een pgb (persoonsgebonden budget) of specialistische hulp lopen via de ISD Bollenstreek. Dat is de organisatie die dit werk voor de gemeenten in de Bollenstreek samen uitvoert.",
+        "omschrijving": "Het team kijkt met u mee, maakt een ondersteuningsplan en regelt zo nodig specialistische jeugdhulp. Sinds 1 juli 2026 gelden nieuwe regels: het team kijkt eerst wat u en uw netwerk zelf kunnen, en kiest de lichtste hulp die genoeg helpt. Besluiten over een pgb (persoonsgebonden budget) of specialistische hulp lopen via de ISD Bollenstreek, die dit werk voor de gemeenten in de Bollenstreek doet.",
         "stappen": [
-          "Meld u aan bij Voor ieder 1: bel, mail, kom langs bij een inloopspreekuur of meld u online aan.",
-          "Bespreek in een gesprek wat er speelt en wat al goed gaat. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van het Meedenkersnetwerk.",
-          "Kijk samen met het team eerst wat u, uw netwerk, school en lichtere hulp kunnen doen. De afspraken komen in een ondersteuningsplan; vraag om een kopie.",
-          "Is meer hulp nodig? Dan regelt het team specialistische jeugdhulp. Vraag welk besluit u krijgt en wie dat besluit neemt.",
-          "Wilt u liever eerst advies over opvoeden en opgroeien? Neem dan contact op met het CJG."
+          "Meld u aan bij Voor ieder 1: bel, mail, meld u online aan of kom naar een inloopspreekuur.",
+          "Bespreek wat er speelt en wat al goed gaat. U mag iemand meenemen.",
+          "Leg de afspraken samen vast in een ondersteuningsplan. Is meer hulp nodig, vraag dan welk besluit u krijgt en wie dat neemt."
         ],
         "contact": [
           {
@@ -40,16 +38,16 @@
             "openingstijden": "Telefonisch ma t/m vr 8.00–16.00 uur"
           }
         ],
-        "doorlooptijd": "Voor ieder 1 meldt dat het drukker is dan normaal en dat de wachttijd per gemeente verschilt. Een vaste termijn is niet openbaar te vinden. Vraag ernaar bij uw aanmelding."
+        "doorlooptijd": "Voor ieder 1 meldt dat het drukker is dan normaal en dat de wachttijd per gemeente verschilt. Een vaste termijn is niet openbaar; vraag ernaar bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Voor ieder 1. De jeugdarts en de jeugdverpleegkundige werken bij het CJG Noordwijk (jeugdgezondheidszorg). Met uw toestemming kan de huisarts ook advies vragen aan Voor ieder 1.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts en jeugdverpleegkundige werken bij het CJG Noordwijk. Met uw toestemming kan de huisarts eerst advies vragen aan Voor ieder 1.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het CJG.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. De arts kan ook eerst advies vragen aan Voor ieder 1.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van het CJG.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Noordwijk: jeugdgezondheidszorg",
@@ -62,10 +60,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Jeugdwerkers van Voor ieder 1 werken op middelbare scholen in de Duin- en Bollenstreek en houden daar vaak een inloopspreekuur. Komt u er met school niet uit? Dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Er is een apart steunpunt voor basisonderwijs en voor voortgezet onderwijs.",
+        "omschrijving": "Jeugdwerkers van Voor ieder 1 werken op middelbare scholen in de Duin- en Bollenstreek en houden daar vaak een inloopspreekuur. Voor basisonderwijs en voortgezet onderwijs is er elk een eigen ouder- en jeugdsteunpunt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Heeft uw kind op een middelbare school hulp nodig? Vraag of de jeugdwerker van Voor ieder 1 op school een inloopspreekuur heeft, of meld u aan bij Voor ieder 1.",
+          "Zit uw kind op een middelbare school? Vraag of de jeugdwerker van Voor ieder 1 er een inloopspreekuur heeft.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -100,10 +98,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Hulp bij huiselijk geweld en kindermishandeling staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Zit uw kind in een onveilige situatie? Kijk dan op de pagina Hulp en advies bij huiselijk geweld van de gemeente Noordwijk."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Noordwijk: hulp en advies bij huiselijk geweld",

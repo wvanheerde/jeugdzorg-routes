@@ -5,19 +5,16 @@
   "jeugdzorgregio": "Midden-Limburg Oost",
   "websiteJeugd": "https://www.roerdalen.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Roerdalen loopt de toegang tot jeugdhulp via het Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML). Dat is één organisatie voor zeven gemeenten, met een eigen locatie in Sint Odiliënberg. U meldt zich zelf aan. Een verwijzing is niet nodig. Het CJG geeft gratis advies en lichte hulp en regelt ook de toegang tot specialistische jeugdhulp. Voor bredere vragen, bijvoorbeeld over geld, school of psychische hulp voor een jongere, is er het Sociaal Team Roerdalen. Daar werken ook een jongerenwerker en een jeugd- en gezinswerker. De huisarts mag ook rechtstreeks verwijzen. Bij huisartsen werkt een praktijkondersteuner jeugd van het CJG. Hoe lang het duurt voordat hulp start, is niet openbaar te vinden, maar cliënten van het CJG noemen lange wachttijden. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Roerdalen meldt u zich bij het Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML), met een locatie in Sint Odiliënberg. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML) en Sociaal Team Roerdalen",
-        "omschrijving": "Het CJG-ML is de plek voor vragen over opvoeden en opgroeien, van eenvoudig tot complex. Is hulp van een aanbieder nodig, dan zoekt het CJG samen met u de passende hulp. Het Sociaal Team Roerdalen is er voor alle inwoners, dus ook voor jongeren en gezinnen met vragen over geld, school, opvoeden of psychische hulp. Het team bestaat uit professionals van verschillende zorg- en welzijnsorganisaties en kan ook bij u thuis komen. Het team houdt open inloop in de dorpen.",
+        "omschrijving": "Het CJG-ML werkt voor zeven gemeenten en helpt bij alle vragen over opvoeden en opgroeien. Het geeft gratis advies en lichte hulp en regelt zo nodig hulp van een aanbieder. Voor bredere vragen, zoals over geld, school of psychische hulp voor een jongere, is er het Sociaal Team Roerdalen, met een jongerenwerker, een jeugd- en gezinswerker en open inloop in de dorpen.",
         "stappen": [
-          "Bel of mail het CJG-ML met uw vraag. U kunt ook een afspraak maken op de locatie in Sint Odiliënberg.",
-          "Bespreek met het CJG wat nodig is. Is lichte hulp genoeg, dan krijgt u die van het CJG zelf.",
-          "Is specialistische hulp nodig? Dan regelt het CJG dat de hulp van een aanbieder kan starten.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag en om het besluit over de hulp op papier.",
-          "Is uw vraag breder dan opvoeden, bijvoorbeeld geld, school of psychische hulp voor een jongere? Neem dan contact op met het Sociaal Team of loop binnen bij de open inloop."
+          "Bel of mail het CJG-ML, of maak een afspraak op de locatie in Sint Odiliënberg. Is uw vraag breder dan opvoeden? Neem dan contact op met het Sociaal Team of loop binnen bij de open inloop.",
+          "Bespreek wat nodig is. Is lichte hulp genoeg, dan krijgt u die van het CJG zelf. U mag iemand meenemen.",
+          "Is specialistische hulp nodig? Dan regelt het CJG dat de hulp van een aanbieder kan starten. U krijgt het besluit op papier."
         ],
         "contact": [
           {
@@ -35,16 +32,17 @@
             "url": "https://www.roerdalen.nl/sociaal-team-roerdalen",
             "openingstijden": "Telefonisch maandag t/m donderdag 9.00–17.00 uur, vrijdag 9.00–13.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat hulp start, is niet openbaar te vinden; cliënten van het CJG noemen lange wachttijden. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeenten hebben ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij huisartsen in Roerdalen werkt een praktijkondersteuner jeugd van het CJG. Daar kunt u vragen over opvoeden en klachten van uw kind eerder bespreken. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij huisartsen in Roerdalen werkt een praktijkondersteuner jeugd van het CJG, bij wie u vragen over opvoeden en klachten van uw kind vroeg kunt bespreken. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Limburg-Noord.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing. Dat kan naar de praktijkondersteuner jeugd, naar het CJG of direct naar een aanbieder met een contract.",
-          "Gaat u met de verwijzing naar een aanbieder? Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag de huisarts om een verwijzing: naar de praktijkondersteuner jeugd, naar het CJG of direct naar een aanbieder met een contract.",
+          "Gaat u naar een aanbieder? Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -64,12 +62,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Volgens het Nederlands Jeugdinstituut werken in Midden-Limburg jeugd- en gezinswerkers van het CJG op scholen. Die denken mee met ouders, leerlingen en leraren. De gemeente zet ook een gedragsdeskundige in op basisscholen en kinderopvang. Komt u er met school niet uit over de ondersteuning van uw kind, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat is er voor basisonderwijs en voortgezet onderwijs apart.",
+        "omschrijving": "Jeugd- en gezinswerkers van het CJG Midden-Limburg werken op scholen. Ze denken mee met ouders, leerlingen en leraren. De gemeente zet ook een gedragsdeskundige in op basisscholen en kinderopvang.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de jeugd- en gezinswerker van het CJG kan meedenken, of neem zelf contact op met het CJG.",
-          "Is meer hulp nodig? Vraag die dan aan via het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de jeugd- en gezinswerker van het CJG kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband, apart voor basis- en voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -96,10 +93,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is er buiten kantoortijd een crisis in het gezin? Op de contactpagina van het CJG Midden-Limburg staat waar u dan terechtkunt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": [
           {
@@ -221,7 +217,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Roerdalen: Jeugdhulp",

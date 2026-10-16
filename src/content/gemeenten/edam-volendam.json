@@ -4,18 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.edam-volendam.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "Sinds 1 juli 2026 zijn er in Edam-Volendam twee ingangen. De Toegang is een team van welzijnsorganisatie Civic. Daar kunt u zonder verwijzing terecht voor advies, opvoedondersteuning, jongerencoaching en lichte jeugdhulp. Het Centrum voor Jeugd en Gezin (CJG) blijft de plek voor opvoedvragen en de jeugdgezondheidszorg. Is specialistische hulp nodig, dan meldt u dat bij Team Jeugd van het Breed Sociaal Loket van de gemeente. Een medewerker jeugd maakt dan met u een perspectiefplan (plan van aanpak). Daarna beslist de gemeente over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat een medewerker jeugd uw melding oppakt, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Edam-Volendam kunt u sinds 1 juli 2026 zonder verwijzing naar De Toegang van Civic voor lichte hulp, of naar het CJG voor opvoedvragen. Voor specialistische hulp meldt u zich bij Team Jeugd van het Breed Sociaal Loket; ook de huisarts mag rechtstreeks verwijzen.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "De Toegang (Civic) en Team Jeugd van het Breed Sociaal Loket",
-        "omschrijving": "Voor lichte hulp gaat u naar De Toegang: gratis, zonder verwijzing en ook zonder afspraak. Voor specialistische jeugdhulp meldt u zich bij Team Jeugd van het Breed Sociaal Loket. Dat team werkt voor de gemeente en beslist over toegang tot die hulp. Na uw melding krijgt u een vaste medewerker jeugd. Het CJG geeft advies en opvoedondersteuning.",
+        "omschrijving": "De Toegang geeft gratis advies, opvoedondersteuning, jongerencoaching en lichte jeugdhulp, zonder verwijzing en zonder afspraak. Team Jeugd werkt voor de gemeente en beslist over specialistische jeugdhulp; u krijgt daar een vaste medewerker jeugd. Het CJG blijft de plek voor opvoedvragen en de jeugdgezondheidszorg.",
         "stappen": [
-          "Heeft u vragen over opvoeden of opgroeien? Meld u aan bij De Toegang, of vraag advies bij het CJG. U hoeft niet eerst naar de huisarts.",
-          "Is meer of specialistische hulp nodig? Meld uw hulpvraag bij Team Jeugd, online met de DigiD van uw kind, of bel eerst om de vraag te bespreken.",
-          "Na uw melding krijgt u een medewerker jeugd. Er kan een wachttijd zijn voordat die contact met u opneemt.",
-          "Samen met de medewerker jeugd maakt u een perspectiefplan. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "U krijgt een schriftelijk besluit over de hulp. Vraag ook om een verslag van het gesprek."
+          "Heeft u vragen over opvoeden of opgroeien? Ga naar De Toegang of vraag advies bij het CJG.",
+          "Is specialistische hulp nodig? Meld uw vraag bij Team Jeugd, online met de DigiD van uw kind, of bel eerst om de vraag te bespreken.",
+          "Met de medewerker jeugd maakt u een perspectiefplan (plan van aanpak). U mag iemand meenemen. Daarna krijgt u een schriftelijk besluit over de hulp."
         ],
         "contact": [
           {
@@ -43,16 +41,16 @@
             "omschrijving": "Het telefoonnummer is voor het consultatiebureau en de jeugdgezondheidszorg."
           }
         ],
-        "doorlooptijd": "Volgens de website van de gemeente krijgt u binnen 8 weken een besluit. De verordening noemt uiterlijk 10 weken."
+        "doorlooptijd": "Hoe lang het duurt voordat een medewerker jeugd contact opneemt, is niet openbaar; vraag het bij uw melding. Volgens de verordening beslist de gemeente uiterlijk binnen 10 weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast De Toegang en Team Jeugd. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD, in het CJG.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract. De jeugdarts van de GGD werkt in het CJG.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "De arts verwijst naar een aanbieder met een contract met de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zaanstreek/Waterland (regio Waterland)",
@@ -64,12 +62,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Alle scholen bieden schoolmaatschappelijk werk aan. Dat loopt via De Toegang. Soms is één gesprek of advies al genoeg. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor basisonderwijs en voortgezet onderwijs is dat een ander samenwerkingsverband.",
+        "omschrijving": "Alle scholen bieden schoolmaatschappelijk werk, via De Toegang. Soms is één gesprek of advies al genoeg.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school om het schoolmaatschappelijk werk, of meld u zelf aan bij De Toegang.",
-          "Is meer hulp nodig? Dan kunt u zich melden bij Team Jeugd van het Breed Sociaal Loket.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag naar het schoolmaatschappelijk werk.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt. Basis- en voortgezet onderwijs hebben elk een eigen samenwerkingsverband."
         ],
         "contact": [
           {
@@ -106,10 +102,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke noodnummers en hulplijnen er verder zijn, staat op de pagina van De Toegang, het toegangsteam van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Noodnummers en crisissituatie van De Toegang voor hulplijnen, ook buiten kantooruren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "De Toegang Edam-Volendam: noodnummers en crisissituatie",
@@ -251,7 +246,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Edam-Volendam: Jeugdhulp",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Zuidoost-Brabant",
   "websiteJeugd": "https://www.wijeindhoven.nl/",
   "toegang": {
-    "samenvatting": "In Eindhoven is WIJeindhoven de toegang tot jeugdhulp, Wmo en participatie. Generalisten van het WIJteam in uw buurt bieden zelf ondersteuning en zetten specialistische jeugdhulp in. Er zijn ruim dertig inlooppunten zonder afspraak. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen.",
+    "samenvatting": "In Eindhoven meldt u zich bij WIJeindhoven, het team van de gemeente in uw buurt, ook zonder afspraak op ruim dertig inlooppunten. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "WIJeindhoven (WIJteam in uw buurt)",
-        "omschrijving": "Gemeentelijke toegang voor alle leeftijden. Een generalist is uw vaste contactpersoon en kijkt naar het hele gezin.",
+        "omschrijving": "WIJeindhoven helpt mensen van alle leeftijden. Een generalist van het WIJteam is uw vaste contactpersoon en kijkt naar het hele gezin. De generalist biedt zelf hulp of zet specialistische jeugdhulp in.",
         "stappen": [
           "Bel WIJeindhoven, vul het contactformulier in of loop binnen bij een inlooppunt.",
-          "Een generalist van het WIJteam in uw buurt neemt contact op en plant een gesprek.",
-          "Samen maakt u een plan; de generalist biedt zelf hulp of zet specialistische jeugdhulp in.",
-          "Bij specialistische hulp ontvangt u een beschikking."
+          "Een generalist van het WIJteam neemt contact op en plant een gesprek. U mag iemand meenemen.",
+          "Maak samen een plan. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "WIJeindhoven",
@@ -26,11 +25,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks doorverwijzen naar gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het gemeentelijke team.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract, zonder tussenkomst van WIJeindhoven.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of jeugdarts.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Laat u verwijzen naar een aanbieder met een contract met de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -49,11 +48,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School werkt samen met WIJeindhoven en, bij blijvende extra ondersteuningsbehoefte op school zelf, met het samenwerkingsverband passend onderwijs. Bij zorgen rond leren of gedrag kan school meedenken en de verbinding met het WIJteam leggen.",
+        "omschrijving": "School kan meedenken bij zorgen over leren of gedrag en contact leggen met de generalist van het WIJteam. Extra ondersteuning op school zelf loopt via het samenwerkingsverband passend onderwijs: PO Eindhoven (basisonderwijs, ook Best en Son en Breugel) of Passend Voortgezet Onderwijs Eindhoven en Kempenland.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School kan contact leggen met de generalist van het WIJteam in de buurt van uw kind.",
-          "Voor extra ondersteuning op school zelf loopt de aanvraag via het samenwerkingsverband passend onderwijs: Samenwerkingsverband Passend Onderwijs PO Eindhoven (primair onderwijs, ook Best en Son en Breugel) of het Regionaal Samenwerkingsverband Passend Voortgezet Onderwijs Eindhoven en Kempenland (voortgezet onderwijs).",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om contact te leggen met het WIJteam in de buurt van uw kind.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -76,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Eindhoven op de pagina Minderjarig en niet veilig thuis van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Eindhoven: Minderjarig en niet veilig thuis",
@@ -338,7 +335,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "WIJeindhoven – Contact",

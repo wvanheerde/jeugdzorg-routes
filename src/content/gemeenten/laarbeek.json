@@ -4,32 +4,33 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.laarbeek.nl/centrum-voor-jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Laarbeek is het Sociaal Team Laarbeek uw eerste aanspreekpunt, ook voor jeugdhulp. Het team werkt voor de gemeente, via de Peelgemeenten: een samenwerking van vijf gemeenten. U meldt uw kind zelf aan, een verwijzing is niet nodig. Bel het team of vul het aanmeldformulier jeugd in. Een gezins- of jongerencoach kijkt dan met u wat er speelt en wat helpt. Ook de huisarts mag rechtstreeks verwijzen naar jeugdhulp. Hoe lang het duurt voordat het team contact opneemt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Laarbeek meldt u zich bij het Sociaal Team Laarbeek, dat via de Peelgemeenten (vijf samenwerkende gemeenten) voor de gemeente werkt. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Laarbeek (Centrum voor Jeugd en Gezin)",
-        "omschrijving": "Het Sociaal Team Laarbeek helpt ouders, kinderen en jongeren bij vragen over opvoeden, opgroeien en de ontwikkeling van uw kind. De gemeente noemt dit onderdeel het Centrum voor Jeugd en Gezin (CJG). U meldt zich zelf aan, een verwijzing is niet nodig. Het team denkt mee, geeft advies en zet waar nodig ondersteuning in. Zijn er meerdere problemen in het gezin? Dan zetten gezins- en jongerencoaches specialistische jeugdhulp in en begeleiden zij het gezin.",
+        "omschrijving": "Het team helpt bij vragen over opvoeden, opgroeien en de ontwikkeling van uw kind; de gemeente noemt dit deel het Centrum voor Jeugd en Gezin (CJG). Het denkt mee, geeft advies en zet waar nodig hulp in. Bij meerdere problemen in het gezin zetten gezins- en jongerencoaches specialistische jeugdhulp in en begeleiden zij het gezin.",
         "stappen": [
-          "Meld uw kind aan met het online aanmeldformulier jeugd of bel het Sociaal Team Laarbeek.",
-          "Bespreek bij het huisbezoek van het team hoe het gaat en wat u nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is meer hulp nodig? Dan bespreekt u samen welke ondersteuning past. Vraag om een schriftelijk verslag en, bij specialistische hulp, om een schriftelijk besluit (beschikking)."
+          "Meld uw kind aan met het online aanmeldformulier jeugd of bel het Sociaal Team.",
+          "Bespreek bij het huisbezoek hoe het gaat en wat u nodig heeft. U mag iemand meenemen.",
+          "Bespreek samen welke hulp past. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Sociaal Team Laarbeek",
           "telefoon": "0492 46 97 07",
           "email": "sociaalteam@laarbeek.nl",
           "url": "https://www.laarbeek.nl/sociaal-team-laarbeek"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het team contact opneemt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Brabant-Zuidoost.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Brabant-Zuidoost.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract in de regio.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Vraag om een verwijzing naar een aanbieder met een contract in de regio.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Brabant-Zuidoost",
@@ -41,11 +42,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Merkt u of de school dat uw kind extra steun nodig heeft? Begin dan bij de school zelf. Komt u er met school niet uit, dan helpt het steunpunt van het samenwerkingsverband passend onderwijs. Voor basisonderwijs en voortgezet onderwijs zijn dat twee verschillende steunpunten.",
+        "omschrijving": "Merkt u of de school dat uw kind extra steun nodig heeft, begin dan bij school. Basis- en voortgezet onderwijs hebben elk een eigen steunpunt.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of bij het Ouder- en jeugdsteunpunt (voortgezet onderwijs).",
-          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u dan aan bij het Sociaal Team Laarbeek."
+          "Heeft uw kind meer hulp nodig dan school kan bieden? Meld u bij het Sociaal Team Laarbeek.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en kindsteunpunt (basisonderwijs) of het Ouder- en jeugdsteunpunt (voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -67,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis die niet kan wachten, buiten de gewone route om. Welke crisisdiensten er verder zijn, ook voor een kind of jongere, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor spoed, crisis en zorgwekkend gedrag op de pagina van het Centrum voor Jeugd en Gezin van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Laarbeek: spoed, crisis of zorgwekkend gedrag (Centrum voor Jeugd en Gezin)",

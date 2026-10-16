@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Alkmaar",
   "websiteJeugd": "https://www.heiloo.nl/aanvragen-en-regelen/onderwijs-en-jeugd",
   "toegang": {
-    "samenvatting": "In Heiloo is het Sociaal Team uw eerste aanspreekpunt. Dit team van de gemeente helpt gratis bij vragen over opvoeden en opgroeien, zonder verwijzing. U kunt binnenlopen bij het inloopspreekuur, bellen of mailen. Een jeugd- en gezinscoach kan kortdurend met uw gezin aan de slag, thuis of op school. De gemeente kijkt eerst wat uw eigen netwerk en lichte hulp kunnen doen. Is specialistische hulp nodig, dan regelt het team dat, of de huisarts verwijst rechtstreeks. Hoe lang het duurt voordat het Sociaal Team uw jeugdvraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Heiloo meldt u zich bij het Sociaal Team van de gemeente, via het inloopspreekuur, telefonisch of per e-mail. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Heiloo",
-        "omschrijving": "Het Sociaal Team werkt voor de gemeente en helpt bij vragen over opvoeden en opgroeien, naast vragen over zorg, wonen en geld. U meldt zich zelf aan, een verwijzing is niet nodig. Een jeugd- en gezinscoach (ervaren hulpverlener) helpt kortdurend, hooguit een keer per week, thuis, op school of elders. De hulp is vrijwillig en gratis. De gemeente vraagt u eerst na te gaan wat familie, vrienden en buren kunnen doen.",
+        "omschrijving": "Het Sociaal Team helpt gratis bij vragen over opvoeden en opgroeien, en ook bij zorg, wonen en geld. Een jeugd- en gezinscoach kan kortdurend met uw gezin aan de slag, hooguit een keer per week, thuis, op school of elders. Is specialistische hulp nodig, dan regelt het team dat.",
         "stappen": [
           "Loop binnen bij het inloopspreekuur van het Sociaal Team, of bel of mail het team.",
-          "Vertel uw vraag. Samen kijkt u wat u en uw netwerk zelf kunnen en welke lichte hulp past.",
-          "Past een jeugd- en gezinscoach? Dan stelt u samen doelen op en bespreekt u regelmatig hoe het gaat.",
-          "Is specialistische hulp nodig? Vraag om een schriftelijk verslag en om een schriftelijk besluit (beschikking). U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner."
+          "Vertel uw vraag. Samen kijkt u wat u, familie, vrienden en buren kunnen doen en welke hulp past. U mag iemand meenemen.",
+          "Past een jeugd- en gezinscoach? Dan stelt u samen doelen op. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Sociaal Team Heiloo",
@@ -24,16 +23,17 @@
           "url": "https://www.heiloo.nl/aanvragen-en-regelen/sociaal-team/",
           "adres": "Gemeentehuis, Westerweg 252, Heiloo",
           "openingstijden": "Inloopspreekuur maandag 14.00–15.30 uur, zonder afspraak"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Sociaal Team uw jeugdvraag oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. De gemeente zet ook jeugdhulpmedewerkers in bij huisartsen. Zij pakken eenvoudige hulpvragen op en helpen de huisarts passend te verwijzen. Vraag uw huisarts of die voor uw praktijk al werkt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente zet bij huisartsen ook jeugdhulpmedewerkers in voor eenvoudige vragen; vraag uw huisarts of die al in uw praktijk werkt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Ga zo nodig eerst naar de jeugdhulpmedewerker of het Sociaal Team. Of vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Meld u met de verwijzing bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Ga zo nodig eerst naar de jeugdhulpmedewerker, of vraag om een verwijzing naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -45,12 +45,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de middelbare school in Heiloo werkt een vaste jeugd- en schoolcoach van het Sociaal Team. Op negen basisscholen is een preventieconsulent aanwezig. Komt u er met school niet uit, dan helpt het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs (JONK) met advies over passend onderwijs.",
+        "omschrijving": "Op de middelbare school in Heiloo werkt een vaste jeugd- en schoolcoach van het Sociaal Team. Op negen basisscholen is een preventiemedewerker van het Sociaal Team aanwezig.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school om het Sociaal Team of de schoolcoach in te schakelen, of meld u zelf aan bij het Sociaal Team.",
-          "Is meer hulp nodig? Bespreek de aanvraag dan verder met het Sociaal Team.",
-          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag de school om het Sociaal Team of de schoolcoach in te schakelen.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband (JONK)."
         ],
         "contact": [
           {
@@ -71,10 +70,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Waar u in Heiloo verder terechtkunt, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina van de gemeente over kindermishandeling en huiselijk geweld waar u hulp vindt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Heiloo: kindermishandeling en huiselijk geweld",
@@ -122,7 +120,7 @@
     "categorieen": [
       {
         "naam": "Lichte hulp en opvoedondersteuning",
-        "omschrijving": "Via het Sociaal Team: jeugd- en gezinscoach, preventieconsulenten op basisscholen, de jeugd- en schoolcoach op de middelbare school en jeugdhulpmedewerkers bij huisartsen. Geen besluit van de gemeente nodig.",
+        "omschrijving": "Via het Sociaal Team: jeugd- en gezinscoach, preventiemedewerkers op basisscholen, de jeugd- en schoolcoach op de middelbare school en jeugdhulpmedewerkers bij huisartsen. Geen besluit van de gemeente nodig.",
         "hulpsoorten": [
           "opvoedondersteuning"
         ]
@@ -201,12 +199,12 @@
     }
   ],
   "ervaringen": {
-    "samenvatting": "De gemeente biedt veel lichte hulp dichtbij: preventieconsulenten op negen basisscholen, een vaste coach op de middelbare school en jeugdhulpmedewerkers bij huisartsen. Volgens de gemeente voorkomt dat doorverwijzingen naar specialistische hulp. Wat ouders van de jeugdhulp vinden en hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het Sociaal Team. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over het team dient u in via het klachtenformulier jeugdhulpverlening van de gemeente, en daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "De gemeente biedt veel lichte hulp dichtbij: preventiemedewerkers op negen basisscholen, een vaste coach op de middelbare school en jeugdhulpmedewerkers bij huisartsen. Volgens de gemeente voorkomt dat doorverwijzingen naar specialistische hulp. Wat ouders van de jeugdhulp vinden en hoe lang het duurt tot het eerste gesprek, is niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het Sociaal Team. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over het team dient u in via het klachtenformulier jeugdhulpverlening van de gemeente, en daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",
         "titel": "Lichte hulp op school en bij de huisarts uitgebreid",
-        "samenvatting": "Op negen basisscholen is een preventieconsulent aanwezig bij wie ouders makkelijk terechtkunnen. Volgens de gemeente verwijzen huisartsen minder vaak naar specialistische jeugdhulp door de jeugdhulpmedewerker bij de huisarts. Hulpvragen die op school binnenkomen, worden niet geregistreerd, dus het echte aantal jeugdvragen ligt waarschijnlijk hoger.",
+        "samenvatting": "Op negen basisscholen is een preventiemedewerker aanwezig bij wie ouders makkelijk terechtkunnen. Volgens de gemeente verwijzen huisartsen minder vaak naar specialistische jeugdhulp door de jeugdhulpmedewerker bij de huisarts. Hulpvragen die op school binnenkomen, worden niet geregistreerd, dus het echte aantal jeugdvragen ligt waarschijnlijk hoger.",
         "datum": "2025-10-06",
         "bron": {
           "titel": "Presentatie Cijfers Jeugd, Wmo en Preventie (oktober 2025, dia 5 en 17)",

@@ -5,37 +5,43 @@
   "jeugdzorgregio": "West-Brabant Oost",
   "websiteJeugd": "https://www.breda.nl/ondersteuning-bij-opvoeden-en-opgroeien",
   "toegang": {
-    "samenvatting": "In Breda hangt de toegang tot jeugdhulp af van uw postcode. Woont u in Breda Noordwest of Zuidwest (postcodes 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841), dan is WIJS! Breda uw toegang: een Stevig Lokaal Team van zeven samenwerkende organisaties dat sinds januari 2025 (Noordwest) en januari 2026 (Zuidwest) de rol van het CJG heeft overgenomen en veel hulp zelf biedt. In de rest van Breda is het Centrum voor Jeugd en Gezin (CJG Breda) de toegang. Vanaf 2027 wil de gemeente WIJS! Breda in de hele stad inzetten. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in Breda start ruim de helft van de trajecten via een arts.",
+    "samenvatting": "In Breda hangt het van uw postcode af waar u zich meldt: bij WIJS! Breda in Noordwest en Zuidwest, en bij CJG Breda in de rest van de stad. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG Breda of WIJS! Breda (afhankelijk van uw postcode)",
-        "omschrijving": "Gemeentelijk toegangsteam voor kinderen en jongeren tot 23 jaar en hun ouders. Gratis, zonder verwijzing. Het team luistert, geeft tips en biedt zelf begeleiding; is specialistische jeugdhulp nodig, dan wordt die samen met u bij de gemeente aangevraagd en ontvangt u een beschikking. Bij WIJS! Breda krijgt u één vaste jeugdprofessional die betrokken blijft, ook als een specialistische aanbieder wordt ingeschakeld.",
+        "omschrijving": "Beide teams zijn er gratis voor kinderen en jongeren tot 23 jaar en hun ouders, en bieden zelf begeleiding. WIJS! Breda is een Stevig Lokaal Team met één vaste jeugdprofessional, ook als een andere aanbieder hulp geeft. Vanaf 2027 wil de gemeente WIJS! Breda in de hele stad inzetten.",
         "stappen": [
-          "Controleer uw postcode: 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841 vallen onder WIJS! Breda; alle andere Bredase postcodes onder CJG Breda.",
-          "Bel op werkdagen tussen 9.00 en 13.00 uur of vul het contactformulier op de website in. WIJS! Breda reageert binnen 5 werkdagen, CJG Breda binnen 10 werkdagen.",
-          "U krijgt een gesprek thuis of op een locatie in de wijk; u mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE West-Brabant.",
-          "Het team biedt zelf hulp of vraagt samen met u specialistische jeugdhulp aan bij de gemeente. De gemeente beslist uiterlijk binnen 8 weken na de ondertekende aanvraag en stuurt een beschikking."
+          "Controleer uw postcode: 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841 vallen onder WIJS! Breda, de rest onder CJG Breda.",
+          "Bel op werkdagen tussen 9.00 en 13.00 uur of vul het contactformulier in. U krijgt een gesprek thuis of in de wijk. U mag iemand meenemen.",
+          "Het team helpt zelf of vraagt samen met u specialistische jeugdhulp aan. U krijgt dan een schriftelijk besluit (beschikking)."
         ],
-        "contact": {
-          "naam": "CJG Breda",
-          "omschrijving": "Voor WIJS! Breda (Noordwest en Zuidwest): 076 206 5099, info@wijsbreda.nl, wijsbreda.nl, Paardeweide 5 (op afspraak).",
-          "telefoon": "0800 444 0003",
-          "email": "info@cjgbreda.nl",
-          "url": "https://www.cjgbreda.nl/contact/",
-          "adres": "Willemstraat 20, 4811 AL Breda (postadres)",
-          "openingstijden": "Werkdagen 9.00–13.00 uur (telefonisch); bezoek alleen op afspraak"
-        },
-        "doorlooptijd": "Reactie binnen 5 (WIJS!) tot 10 (CJG) werkdagen; WIJS! Breda meldt dat de wachttijd tot een gesprek kan oplopen tot enkele maanden. Beslissing op een aanvraag uiterlijk 8 weken na ontvangst."
+        "contact": [
+          {
+            "naam": "CJG Breda (rest van de stad)",
+            "telefoon": "0800 444 0003",
+            "email": "info@cjgbreda.nl",
+            "url": "https://www.cjgbreda.nl/contact/",
+            "adres": "Willemstraat 20, 4811 AL Breda (postadres)",
+            "openingstijden": "Werkdagen 9.00–13.00 uur (telefonisch); bezoek alleen op afspraak"
+          },
+          {
+            "naam": "WIJS! Breda (Noordwest en Zuidwest)",
+            "telefoon": "076 206 5099",
+            "url": "https://wijsbreda.nl/",
+            "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
+          }
+        ],
+        "doorlooptijd": "WIJS! Breda reageert binnen 5 werkdagen, CJG Breda binnen 10 werkdagen; bij WIJS! Breda kan de wachttijd tot een gesprek oplopen tot enkele maanden. De gemeente beslist uiterlijk 8 weken na de ondertekende aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar jeugdhulpaanbieders die door de regio West-Brabant Oost zijn gecontracteerd. Jeugdprofessionals van CJG en WIJS! Breda zijn ook aanwezig in huisartsenpraktijken. Sinds 16 februari 2026 beoordeelt de gemeente verwijzingen van artsen aan de hand van een afwegingskader met beoordelingsmatrix voordat de aanbieder mag starten.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen; in Breda start ruim de helft van de hulp zo. Jeugdprofessionals van CJG en WIJS! Breda werken ook in huisartsenpraktijken. Sinds 16 februari 2026 toetst de gemeente verwijzingen van artsen voordat de aanbieder mag starten.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD West-Brabant.",
-          "De arts verwijst naar een gecontracteerde aanbieder (overzicht op regiowbo.nl) of schakelt de jeugdprofessional in de praktijk in.",
-          "De aanbieder vraagt bij de gemeente toestemming om te starten; de gemeente toetst de verwijzing. Vraag de aanbieder naar de verwachte wachttijd."
+          "De arts verwijst naar een aanbieder met een contract (overzicht op regiowbo.nl) of schakelt de jeugdprofessional in de praktijk in.",
+          "De aanbieder vraagt de gemeente om te mogen starten; u hoeft zelf niets aan te vragen. Vraag de aanbieder naar de verwachte wachttijd."
         ],
         "contact": [
           {
@@ -45,30 +51,33 @@
             "openingstijden": "Werkdagen 8.30–17.00 uur"
           },
           {
-            "naam": "CJG Breda",
-            "omschrijving": "Voor WIJS! Breda (Noordwest en Zuidwest): 076 206 5099, info@wijsbreda.nl, wijsbreda.nl, Paardeweide 5 (op afspraak).",
+            "naam": "CJG Breda (rest van de stad)",
             "telefoon": "0800 444 0003",
             "email": "info@cjgbreda.nl",
             "url": "https://www.cjgbreda.nl/contact/",
             "adres": "Willemstraat 20, 4811 AL Breda (postadres)",
             "openingstijden": "Werkdagen 9.00–13.00 uur (telefonisch); bezoek alleen op afspraak"
+          },
+          {
+            "naam": "WIJS! Breda (Noordwest en Zuidwest)",
+            "telefoon": "076 206 5099",
+            "url": "https://wijsbreda.nl/",
+            "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
           }
         ]
       },
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Jeugdprofessionals van CJG Breda en WIJS! Breda zijn aanwezig op scholen en kinderopvang. Bij zorgen over leren of gedrag kan school de verbinding leggen. Onderwijsondersteuning loopt via het Regionaal Samenwerkingsverband Breda e.o. (RSV Breda, regio 30-03) voor basis- en voortgezet onderwijs.",
+        "omschrijving": "Jeugdprofessionals van CJG Breda en WIJS! Breda zijn aanwezig op scholen en in de kinderopvang. Extra ondersteuning op school vraagt school aan bij het samenwerkingsverband RSV Breda e.o.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School schakelt de jeugdprofessional van CJG of WIJS! Breda in, of de jeugdverpleegkundige van de GGD.",
-          "Extra ondersteuning op school vraagt de school aan bij RSV Breda e.o.; de gemeente gaat over jeugdhulp, het samenwerkingsverband over onderwijsondersteuning.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag of school de jeugdprofessional van CJG of WIJS! Breda, of de jeugdverpleegkundige van de GGD, inschakelt.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
-            "naam": "CJG Breda",
-            "omschrijving": "Voor WIJS! Breda (Noordwest en Zuidwest): 076 206 5099, info@wijsbreda.nl, wijsbreda.nl, Paardeweide 5 (op afspraak).",
+            "naam": "CJG Breda (rest van de stad)",
             "telefoon": "0800 444 0003",
             "email": "info@cjgbreda.nl",
             "url": "https://www.cjgbreda.nl/contact/",
@@ -86,16 +95,21 @@
             "email": "ouderjeugdsteunpuntvo@rsvbreda.nl",
             "url": "https://www.ouderjeugdsteunpuntrsvbreda.nl/contact",
             "openingstijden": "Telefonisch ma t/m do 8.30-16.30 uur, vr 8.30-12.30 uur, niet in de schoolvakanties. WhatsApp 06 2673 7713"
+          },
+          {
+            "naam": "WIJS! Breda (Noordwest en Zuidwest)",
+            "telefoon": "076 206 5099",
+            "url": "https://wijsbreda.nl/",
+            "openingstijden": "Telefonisch werkdagen 9.00–13.00 uur"
           }
         ]
       },
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Breda op de pagina Ondersteuning bij opvoeden en opgroeien van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Breda: Ondersteuning bij opvoeden en opgroeien",
@@ -239,7 +253,7 @@
     },
     {
       "naam": "Contact opnemen met WIJS! Breda",
-      "omschrijving": "Voor postcodes 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841. Bel 076 206 5099 of gebruik het contactformulier; reactie binnen 5 werkdagen.",
+      "omschrijving": "Voor postcodes 4811 t/m 4815, 4819, 4822 t/m 4824, 4836 t/m 4839 en 4841. Bel WIJS! Breda of gebruik het contactformulier; reactie binnen 5 werkdagen.",
       "url": "https://wijsbreda.nl/",
       "nodig": "Uw postcode en een korte omschrijving van uw vraag"
     },
@@ -345,7 +359,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Breda – Ondersteuning bij opvoeden en opgroeien",

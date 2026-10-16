@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.vaals.nl/inwoners/wijvaals/zorg-en-ondersteuning/wmo-loket",
   "toegang": {
-    "samenvatting": "In Vaals regelt de gemeente de toegang tot jeugdhulp zelf, via WijVaals. In dat team werken onder meer medewerkers jeugd, Wmo-consulenten en een maatschappelijk werker. U meldt zich zelf aan. Een verwijzing is niet nodig. Het team kijkt eerst wat u zelf kunt en wat mensen om u heen kunnen doen. Daarna kijkt het naar hulp via de gemeente. De huisarts mag ook rechtstreeks verwijzen. Met opvoedvragen kunt u zonder besluit terecht bij Kids en Koffie en online bij het CJG043. Sinds 2025 kan uw kind eerst bij een kinderpsycholoog terecht voor lichte hulp. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Vaals meldt u zich bij WijVaals, het team van de gemeente voor ondersteuning en jeugdhulp; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "WijVaals (Team Jeugd)",
-        "omschrijving": "WijVaals is het team van de gemeente Vaals voor ondersteuning en jeugdhulp. De medewerkers jeugd beslissen of uw kind jeugdhulp krijgt. Ze denken met u mee over wat u zelf kunt, wat mensen om u heen kunnen doen en wat de gemeente kan bieden. Voor opvoedvragen is er ook het CJG043, het online Centrum voor Jeugd en Gezin van de regio.",
+        "omschrijving": "De medewerkers jeugd van WijVaals denken met u mee en beslissen of uw kind jeugdhulp krijgt. Sinds 2025 kan uw kind eerst bij een kinderpsycholoog terecht voor lichte hulp. Met opvoedvragen kunt u zonder besluit online terecht bij het CJG043, het Centrum voor Jeugd en Gezin van de regio.",
         "stappen": [
-          "Neem contact op met WijVaals, telefonisch of per e-mail.",
-          "Vertel uw vraag over opvoeden of opgroeien. De medewerker jeugd zoekt samen met u een oplossing.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE Zuid-Limburg.",
-          "Wacht op de brief met het besluit (beschikking) als professionele hulp nodig is. Met dat besluit kiest u een zorgaanbieder.",
-          "Heeft u alleen een vraag over opvoeden? Stel die online bij het CJG043."
+          "Bel of mail WijVaals, of stel een vraag over opvoeden online bij het CJG043.",
+          "Vertel uw vraag aan de medewerker jeugd en zoek samen een oplossing. U mag iemand meenemen.",
+          "Is professionele hulp nodig, dan krijgt u een brief met het besluit (beschikking). Daarmee kiest u een zorgaanbieder."
         ],
         "contact": [
           {
@@ -31,16 +29,17 @@
             "url": "https://www.cjg043.nl/over-cjg043/contact/",
             "openingstijden": "Alleen online: chat of formulier voor opvoedvragen"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. Dit is een gelijkwaardige route naast WijVaals. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Zuid-Limburg.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de regio heeft ingekocht. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Zuid-Limburg.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder waar de regio een contract mee heeft.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst u naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -52,10 +51,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over uw kind op school? Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit? Dan geeft het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Heeft uw kind meer hulp nodig, dan kunt u zich aanmelden bij WijVaals.",
+        "omschrijving": "Maakt u zich zorgen over uw kind op school, begin dan bij de leerkracht, mentor of intern begeleider.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Heeft uw kind meer hulp nodig? Meld u aan bij WijVaals.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt of bij het samenwerkingsverband voor basis- of voortgezet onderwijs."
         ],
         "contact": [
@@ -86,10 +84,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat welke crisishulp er voor jeugd is in Zuid-Limburg.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisishulp voor jeugd, ook buiten kantooruren, op de crisispagina van de gemeente Vaals."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Vaals: Crisis, telefoonnummers voor noodsituaties",
@@ -279,7 +276,7 @@
     "laatstBijgewerkt": "2026-10-13"
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Vaals: Wmo-loket (Team Wmo en Team Jeugd, WijVaals)",

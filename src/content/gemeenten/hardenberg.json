@@ -5,18 +5,16 @@
   "jeugdzorgregio": "IJsselland",
   "websiteJeugd": "https://www.hardenberg.nl/samen-doen",
   "toegang": {
-    "samenvatting": "In Hardenberg meldt u zich bij Samen Doen, het sociale wijkteam van de gemeente. Er zijn vier teams: Noord, Kern (Hardenberg), Zuid en West. U kunt zelf contact opnemen, via het online formulier, telefonisch of bij een inloopuur. Voor lichte vragen over opvoeden is er ook hulp zonder besluit van de gemeente, bijvoorbeeld via de jeugdverpleegkundige, de jeugdarts van GGD IJsselland en Stichting de Kern. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Hardenberg hoort bij jeugdzorgregio IJsselland.",
+    "samenvatting": "In Hardenberg meldt u zich bij Samen Doen, het sociale wijkteam, met vier teams: Noord, Kern (Hardenberg), Zuid en West. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Samen Doen (sociaal wijkteam)",
-        "omschrijving": "Samen Doen helpt bij vragen over opvoeden, zorg, geldzaken en werk. Het team bekijkt eerst wat u en uw omgeving zelf kunnen en welke hulp er al in de buurt is. Is meer nodig, dan volgt een gesprek bij u thuis of op een andere plek. Voor specialistische jeugdhulp neemt de gemeente daarna een besluit (beschikking). U mag iemand meenemen naar het gesprek, ook een onafhankelijke cliëntondersteuner.",
+        "omschrijving": "Samen Doen helpt bij vragen over opvoeden, zorg, geldzaken en werk. Voor lichte opvoedvragen is er ook hulp zonder besluit, bijvoorbeeld via de jeugdverpleegkundige, de jeugdarts van GGD IJsselland en Stichting de Kern. Is meer nodig, dan volgt een gesprek bij u thuis of elders, en voor specialistische jeugdhulp een besluit (beschikking).",
         "stappen": [
-          "Vul het contactformulier van Samen Doen in op hardenberg.nl, of bel de gemeente. De gemeente helpt met invullen of maakt een terugbelverzoek voor Samen Doen.",
-          "Of loop zonder afspraak binnen bij het inloopuur van uw team, bijvoorbeeld in De Baron in Dedemsvaart of het Infohuis in de bibliotheek van Hardenberg.",
-          "Vul eventueel vooraf het persoonlijk plan in. Neem het mee naar het gesprek.",
-          "Vraag na het gesprek om het schriftelijke gespreksverslag. U kunt ook een familiegroepsplan indienen: een plan dat u samen met familie en bekenden maakt.",
-          "Heeft u specialistische hulp nodig? Vraag dan om een beschikking: het besluit van de gemeente met welke hulp, hoeveel en hoe lang."
+          "Vul het contactformulier van Samen Doen in, of bel de gemeente; die helpt met invullen of maakt een terugbelverzoek. U kunt ook zonder afspraak naar het inloopuur van uw team, bijvoorbeeld in De Baron in Dedemsvaart of het Infohuis in de bibliotheek van Hardenberg.",
+          "Vul eventueel vooraf het persoonlijk plan in en neem het mee. U mag iemand meenemen naar het gesprek.",
+          "U kunt ook een familiegroepsplan indienen: een plan dat u met familie en bekenden maakt."
         ],
         "contact": {
           "naam": "Samen Doen Hardenberg",
@@ -26,16 +24,16 @@
           "adres": "Noord: De Praam, Dokter Willemslaan 148 in Slagharen, en MFC De Binder in Gramsbergen. Kern: Infohuis in de bibliotheek (LOC), Parkweg 1a-5 in Hardenberg. Zuid: Buurthuis Veur Mekaar, Burgemeester Oprellaan 5 in Bergentheim. West: MFC De Baron, Julianastraat 54 in Dedemsvaart, en MFC 't Trefpunt, Meppelerweg 34 in Balkbrug",
           "openingstijden": "Inloopuren zonder afspraak, bijvoorbeeld Kern ma 10.00-12.00, wo 15.00-17.00 en vr 10.00-12.00 uur; West (Dedemsvaart) ma 14.00-16.00, wo 10.00-12.00 en do 14.00-16.00 uur. Zie hardenberg.nl/samendoen/teams voor alle locaties"
         },
-        "doorlooptijd": "Volgens de verordening besluit de gemeente uiterlijk binnen acht weken op een aanvraag voor specialistische hulp. Bij spoed start de hulp zo snel mogelijk en volgt het besluit binnen vier weken na de start."
+        "doorlooptijd": "Volgens de verordening besluit de gemeente binnen acht weken op een aanvraag voor specialistische hulp. Bij spoed start de hulp zo snel mogelijk en volgt het besluit binnen vier weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De gemeente betaalt alleen hulp van aanbieders met wie zij een contract heeft. Gaat u naar een andere aanbieder, dan betaalt de gemeente alleen als zij vooraf schriftelijk toestemming geeft, of als u een pgb krijgt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente betaalt alleen hulp van aanbieders met een contract. Bij een andere aanbieder betaalt ze alleen met vooraf schriftelijke toestemming of als u een pgb krijgt.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD IJsselland.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente. Kijk in de Beschikbaarheidswijzer welke aanbieders dat zijn.",
-          "Laat de aanbieder de start van de hulp aan de gemeente doorgeven. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract. Kijk in de Beschikbaarheidswijzer welke aanbieders dat zijn.",
+          "De aanbieder geeft de hulp door aan de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD IJsselland",
@@ -47,11 +45,10 @@
       {
         "type": "school",
         "naam": "Via school en leerplichtambtenaar",
-        "omschrijving": "Heeft u zorgen over leren, gedrag of schoolgang? Bespreek dat eerst met de leerkracht, mentor of intern begeleider (de collega op school die extra zorg voor leerlingen regelt). Op het voortgezet onderwijs in Hardenberg en Dedemsvaart werkt een Jongeren in Balans-medewerker die jongeren en ouders aandacht en steun geeft. Bij verzuim kan de leerplichtambtenaar van de gemeente meedenken.",
+        "omschrijving": "Op het voortgezet onderwijs in Hardenberg en Dedemsvaart werkt een Jongeren in Balans-medewerker die jongeren en ouders steunt. Bij verzuim kan de leerplichtambtenaar van de gemeente meedenken.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om contact met Samen Doen, of meld u zelf aan.",
-          "Heeft uw kind verzuim of komt het niet meer op school? Neem contact op met de leerplichtambtenaar via het contactformulier op hardenberg.nl/onderwijs/leerplicht.",
+          "Heeft uw kind verzuim of gaat het niet meer naar school? Neem contact op met de leerplichtambtenaar via het contactformulier van de gemeente.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -83,10 +80,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Hardenberg op de pagina Overzicht van telefoonnummers van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Hardenberg: Overzicht van telefoonnummers",

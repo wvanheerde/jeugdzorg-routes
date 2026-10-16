@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Friesland",
   "websiteJeugd": "https://www.terschelling.nl/eilandteam",
   "toegang": {
-    "samenvatting": "Op Terschelling is het Eilandteam van de gemeente de ingang voor jeugdhulp. U mailt of belt zelf; een verwijzing is niet nodig. Het team luistert, kijkt wat u en uw omgeving zelf kunnen en regelt zo nodig hulp. Over specialistische hulp beslist de gemeente. Ook de huisarts mag rechtstreeks verwijzen. Het Eilandteam belt binnen vier tot zes weken voor een gesprek; een gemeten wachttijd is niet openbaar te vinden. Specialistische hulp komt grotendeels van het vasteland, dus vraag bij uw aanmelding hoe dat voor u gaat.",
+    "samenvatting": "Op Terschelling meldt u zich bij het Eilandteam van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Eilandteam Terschelling",
-        "omschrijving": "Het Eilandteam werkt voor de gemeente en is er voor vragen over opvoeden, jeugdhulp, geld en zelfstandig wonen. U krijgt een keukentafelgesprek: een gesprek, vaak bij u thuis, waarin het team luistert en samen met u een plan maakt. Het team houdt rekening met het leven op het eiland en blijft betrokken zolang dat nodig is. Is specialistische hulp nodig, dan krijgt u daarover een besluit (beschikking) van de gemeente. Het Eilandteam is geen crisisteam.",
+        "omschrijving": "Het Eilandteam helpt bij vragen over opvoeden, jeugdhulp, geld en zelfstandig wonen. In een keukentafelgesprek, vaak bij u thuis, maakt het team met u een plan dat past bij het leven op het eiland. Specialistische hulp komt grotendeels van het vasteland, dus vraag hoe dat voor u gaat.",
         "stappen": [
-          "Mail het Eilandteam of bel op werkdagen in de ochtend. U krijgt een bevestiging met uitleg.",
-          "Wacht op een uitnodiging voor het keukentafelgesprek. Het team belt volgens eigen zeggen binnen vier tot zes weken. Is het dringend, vraag dan bij uw melding of het sneller kan.",
-          "Vertel in het gesprek wat er speelt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, vraag die dan aan. U krijgt een schriftelijk besluit."
+          "Mail het Eilandteam of bel op werkdagen in de ochtend. Is het dringend, vraag dan of het sneller kan.",
+          "Vertel in het keukentafelgesprek wat er speelt. U mag iemand meenemen.",
+          "Is specialistische hulp nodig? Vraag die dan aan. U krijgt een besluit (beschikking) van de gemeente."
         ],
         "contact": {
           "naam": "Eilandteam Terschelling",
@@ -24,16 +23,16 @@
           "url": "https://www.terschelling.nl/eilandteam",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur"
         },
-        "doorlooptijd": "Het Eilandteam belt binnen vier tot zes weken voor een gesprek. Een besluit over specialistische hulp volgt volgens de gemeente binnen 8 weken."
+        "doorlooptijd": "Het Eilandteam belt binnen vier tot zes weken voor een gesprek. Een besluit over specialistische hulp volgt binnen 8 weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Eilandteam. Voor kinderen van 0 tot 18 jaar is er ook de jeugdgezondheidszorg van GGD Fryslân (consultatiebureau en jeugdarts). Veel specialistische hulp zit op het vasteland. Hulpverleners komen soms naar het eiland. Vraag de aanbieder hoe het in uw geval gaat.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Voor kinderen van 0 tot 18 jaar is er de jeugdgezondheidszorg van GGD Fryslân. Hulpverleners van het vasteland komen soms naar het eiland: vraag de aanbieder hoe het voor u gaat.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of neem contact op met de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder die de gemeente heeft ingekocht.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdgezondheidszorg.",
+          "Vraag om een verwijzing naar een aanbieder die de gemeente heeft ingekocht.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Fryslân",
@@ -45,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Maakt u zich zorgen over uw kind op school, begin dan bij de leerkracht of mentor. School kan samen met het Eilandteam kijken naar hulp. Bij dyslexie verwijst de school zelf naar dyslexiezorg. Komt u er met school niet uit, dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat geeft onafhankelijk advies, voor basis- en voortgezet onderwijs.",
+        "omschrijving": "School kan samen met het Eilandteam kijken naar hulp. Bij dyslexie verwijst de school zelf naar dyslexiezorg.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om samen met het Eilandteam te kijken naar hulp, of meld u zelf aan bij het Eilandteam.",
           "Heeft uw kind mogelijk dyslexie? Vraag school om een verwijzing naar dyslexiezorg.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Komt u er met school niet uit? Vraag onafhankelijk advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -71,10 +69,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Het Eilandteam is geen crisisteam. Welke crisisdiensten er voor jeugd zijn, staat op de pagina van het Eilandteam onder het kopje Bij spoed.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten voor jeugd op Terschelling onder het kopje Bij spoed op de pagina van het Eilandteam."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Terschelling: Eilandteam, kopje Bij spoed",

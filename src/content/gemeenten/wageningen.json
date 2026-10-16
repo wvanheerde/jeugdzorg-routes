@@ -4,18 +4,17 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.wageningen.nl/direct-regelen/zorg-jeugd-inkomen/opgroeien-en-opvoeden/hulp-aan-kinderen-jongeren-en-gezinnen/",
   "toegang": {
-    "samenvatting": "In Wageningen is het Startpunt van de gemeente de eerste stap. U kunt zonder verwijzing binnenlopen, bellen, appen of mailen. Elke vrijdagochtend is er een gratis inloopspreekuur over opvoeden en opgroeien. Heeft uw kind jeugdhulp nodig, dan meldt u dat met een meldingsformulier. Daarna neemt een medewerker van het Startpunt of een medewerker jeugd contact met u op. De gemeente neemt het besluit. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag ernaar bij uw melding.",
+    "samenvatting": "In Wageningen meldt u zich bij het Startpunt van de gemeente: binnenlopen, bellen, appen of mailen kan. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Startpunt Wageningen en de medewerkers jeugd van de gemeente",
-        "omschrijving": "Het Startpunt is het loket van de gemeente voor vragen over opvoeden, zorg, werk, wonen en geld. De medewerkers geven advies en helpen hulp te regelen. Moet de gemeente over de hulp een besluit nemen, dan handelt een medewerker jeugd van de gemeente de aanvraag af. U meldt zich zelf aan. Een verwijzing is niet nodig. Voor kinderen van 0 tot 5 jaar met zorgen over hun ontwikkeling is er ook Team Vroeghulp.",
+        "omschrijving": "Het Startpunt is het loket voor vragen over opvoeden, zorg, werk, wonen en geld. Elke vrijdagochtend is er een gratis inloopspreekuur over opvoeden en opgroeien. Moet de gemeente een besluit nemen, dan handelt een medewerker jeugd de aanvraag af.",
         "stappen": [
-          "Loop binnen bij het Startpunt, bel, app of mail. Elke vrijdagochtend is er een inloopspreekuur voor vragen over opvoeden en opgroeien.",
-          "Vraagt u jeugdhulp aan? Vul het meldingsformulier jeugdhulp in en stuur het via het contactformulier, per post of lever het in bij het Startpunt.",
-          "Maak een afspraak voor een gesprek als een medewerker van het Startpunt of een medewerker jeugd contact met u opneemt. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om het schriftelijke verslag. Is hulp van de gemeente nodig, dan krijgt u een schriftelijk besluit (beschikking).",
-          "Hebt u zorgen over de ontwikkeling van uw kind van 0 tot 5 jaar? Bespreek het met de huisarts, de jeugdarts of de medewerker jeugd en meld uw kind aan bij Team Vroeghulp."
+          "Loop binnen bij het Startpunt, bel, app of mail. Voor jeugdhulp vult u het meldingsformulier jeugdhulp in en stuurt het via het contactformulier, per post of levert het in.",
+          "Maak een afspraak als een medewerker van het Startpunt of een medewerker jeugd contact met u opneemt. U mag iemand meenemen.",
+          "Is hulp van de gemeente nodig, dan krijgt u een schriftelijk besluit (beschikking).",
+          "Zorgen over de ontwikkeling van uw kind van 0 tot 5 jaar? Meld uw kind aan bij Team Vroeghulp."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "email": "vroeghulp@wageningen.nl",
             "url": "https://www.wageningen.nl/direct-regelen/zorg-jeugd-inkomen/opgroeien-en-opvoeden/hulp-aan-kinderen-jongeren-en-gezinnen/"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Startpunt. Bij psychische klachten kan de huisarts vaak hulp bieden via een eigen ondersteuner voor jeugd-ggz (geestelijke gezondheidszorg). Die is er voor kinderen en jongeren van 0 tot 18 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij psychische klachten kan de huisarts vaak helpen via een eigen ondersteuner jeugd-ggz (geestelijke gezondheidszorg), voor kinderen en jongeren van 0 tot 18 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder die een contract heeft met de gemeente.",
-          "Neem daarna zelf contact op met die aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente, en neem zelf contact op met die aanbieder.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -52,11 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op scholen in Wageningen werken jeugdmedewerkers van het Startpunt en overlegt een medewerker jeugd met school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat is gratis en onafhankelijk van de school. Voor basisonderwijs en voortgezet onderwijs zijn dat twee verschillende samenwerkingsverbanden.",
+        "omschrijving": "Op scholen in Wageningen werken jeugdmedewerkers van het Startpunt, en een medewerker jeugd van de gemeente overlegt met school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om het Startpunt in te schakelen, of meld u zelf aan bij het Startpunt.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor het basisonderwijs of het voortgezet onderwijs."
+          "Vraag school om het Startpunt in te schakelen.",
+          "Komt u er met school niet uit? Vraag gratis advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband voor het basisonderwijs of het voortgezet onderwijs."
         ],
         "contact": [
           {
@@ -86,10 +86,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staan de meldpunten en crisisdiensten, ook voor gezinnen en kinderen in crisis.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor crisisdiensten in en rond Wageningen op de pagina Belangrijke contacten hulpverlening (bij nood) van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Wageningen: belangrijke contacten hulpverlening (bij nood)",

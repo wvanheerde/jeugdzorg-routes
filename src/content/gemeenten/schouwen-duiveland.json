@@ -5,19 +5,16 @@
   "jeugdzorgregio": "Zeeland",
   "websiteJeugd": "https://www.schouwen-duiveland.nl/zorg-werk-en-jeugd/jeugd-en-onderwijs/jeugdhulp",
   "toegang": {
-    "samenvatting": "Op Schouwen-Duiveland begint jeugdhulp bij het Loket Samenleving en zorg van de gemeente. Dat is een telefonisch meldpunt voor jeugdhulp, Wmo (ondersteuning thuis) en werk en inkomen. U meldt zich zelf aan; een verwijzing is niet nodig. Een medewerker jeugd van de gemeente stelt vragen, komt zo nodig bij u thuis en beslist over specialistische hulp. Voor kinderen van 10 tot 18 jaar met lichtere zorgen is er het Jeugd Preventie Overleg (JPO). Daarin denken jongerenwerk, preventiewerkers en de jeugdverpleegkundige mee. Ook de huisarts mag rechtstreeks verwijzen. De gemeente werkt aan een nieuwe, duidelijkere ingang: een Stevig Lokaal Team. Het loket meldt dat het erg druk is, waardoor een aanmelding langer kan duren. Hoe lang precies, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "Op Schouwen-Duiveland meldt u zich bij het Loket Samenleving en zorg van de gemeente. U kunt ook via de huisarts of de jeugdarts; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Loket Samenleving en zorg met het Team Jeugd van de gemeente",
-        "omschrijving": "Het loket is het telefonische meldpunt van de gemeente. Medewerkers jeugd van de gemeente beoordelen of uw kind jeugdhulp krijgt en regelen die. U meldt zich zelf aan. Bij jongeren van 10 tot 18 jaar met lichte zorgen kijkt het Jeugd Preventie Overleg (JPO) mee, bijvoorbeeld bij eenzaamheid, gamen, middelengebruik of overlast. Dat is een vangnet van onder meer jongerenwerk, preventiewerkers en een jeugdverpleegkundige. Specialistische hulp krijgt u met een beschikking (een schriftelijk besluit van de gemeente).",
+        "omschrijving": "Het loket is het telefonische meldpunt van de gemeente. Medewerkers jeugd beoordelen of uw kind jeugdhulp krijgt en regelen die. Voor jongeren van 10 tot 18 jaar met lichtere zorgen, zoals eenzaamheid, gamen of middelengebruik, denkt het Jeugd Preventie Overleg (JPO) mee, met jongerenwerk, preventiewerkers en een jeugdverpleegkundige.",
         "stappen": [
-          "Bel het loket Samenleving en zorg, of meld u aan via het formulier op de website (met DigiD).",
-          "Gaat het om een jongere van 10 tot 18 jaar met lichtere zorgen? Zeg dan dat u belt voor het JPO.",
-          "Beantwoord eerst de vragen in het telefoongesprek. Soms krijgt u meteen antwoord, soms wordt u doorverwezen of belt een medewerker terug.",
-          "Is meer hulp nodig, dan volgt een afspraak voor een huisbezoek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van SMWO.",
-          "Bespreek samen wat u zelf kunt, wat uw netwerk kan doen en welke hulp nodig is. U maakt één plan voor het hele gezin.",
-          "Vraagt u specialistische hulp aan? Vraag dan om een schriftelijk verslag en om de beschikking."
+          "Bel het loket of meld u aan met het formulier op de website (met DigiD). Gaat het om een jongere van 10 tot 18 jaar met lichtere zorgen? Zeg dan dat u belt voor het JPO.",
+          "Beantwoord de vragen aan de telefoon. Is meer hulp nodig, dan volgt een huisbezoek. U mag iemand meenemen.",
+          "Maak samen één plan voor het hele gezin. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": [
           {
@@ -32,16 +29,17 @@
             "email": "info@smwosd.nl",
             "url": "https://www.schouwen-duiveland.nl/zorg-werk-en-jeugd/zorg-en-ondersteuning/clientondersteuning-door-smwo-schouwen-duiveland"
           }
-        ]
+        ],
+        "doorlooptijd": "Het loket meldt dat het erg druk is, waardoor een aanmelding langer kan duren. Hoe lang precies, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het loket. De jeugdgezondheidszorg (jeugdverpleegkundige en jeugdarts) van GGD Zeeland is er voor alle kinderen van 0 tot 18 jaar en kan ook meedenken over opvoedvragen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdverpleegkundige en jeugdarts van GGD Zeeland denken ook mee over opvoedvragen, voor kinderen van 0 tot 18 jaar.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van GGD Zeeland.",
-          "De huisarts of jeugdarts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Laat u zo nodig verwijzen naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zeeland",
@@ -52,13 +50,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Zeeland met vragen over passend onderwijs. Op het Pieter Zeeman Lyceum in Zierikzee spreekt een jeugdverpleegkundige van de GGD leerlingen. Zorgen over uw kind meldt u ook bij het loket van de gemeente.",
+        "omschrijving": "Op school begint u bij de leerkracht, mentor of intern begeleider. Op het Pieter Zeeman Lyceum in Zierikzee spreekt een jeugdverpleegkundige van de GGD leerlingen.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider van school.",
-          "Maakt u zich ook thuis zorgen? Meld dat bij het loket Samenleving en zorg van de gemeente.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland.",
-          "Zit uw kind op de basisschool? Dan kunt u ook terecht bij het samenwerkingsverband Kind op 1, dat passend onderwijs regelt.",
-          "Zit uw kind op het Pieter Zeeman Lyceum? Dan kan uw kind op school ook praten met de jeugdverpleegkundige van de GGD."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Zit uw kind op het Pieter Zeeman Lyceum? Dan kan het op school ook praten met de jeugdverpleegkundige.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt Zeeland, of voor de basisschool bij het samenwerkingsverband Kind op 1."
         ],
         "contact": [
           {
@@ -87,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er daarnaast zijn voor jongeren, ook buiten kantoortijd, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Jeugdhulp van de gemeente, onder Contact met het loket, voor de crisisdiensten buiten kantoortijd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Schouwen-Duiveland: jeugdhulp en crisis buiten kantoortijd",

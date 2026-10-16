@@ -4,19 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.nijkerk.eu/jeugd",
   "toegang": {
-    "samenvatting": "In Nijkerk vraagt u jeugdhulp aan bij het Sociaal Team. Dat zijn medewerkers van de gemeente; voor jeugd heten ze medewerkers jeugd. U meldt zich zelf aan: telefonisch, per e-mail, met een formulier of aan de balie van het gemeentehuis. Een verwijzing is niet nodig. Volgens de gemeente neemt het Sociaal Team binnen 14 dagen na uw aanvraag contact op. U kunt ook via de huisarts, jeugdarts of medisch specialist gaan. Lichte hulp, zoals opvoedspreekuren en cursussen, vindt u zonder aanvraag bij PIT Nijkerk.",
+    "samenvatting": "In Nijkerk vraagt u jeugdhulp aan bij het Sociaal Team van de gemeente; lichte hulp zoals opvoedspreekuren vindt u zonder aanvraag bij PIT Nijkerk. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van de gemeente (medewerkers jeugd)",
-        "omschrijving": "Het Sociaal Team beslist of uw kind jeugdhulp krijgt en regelt de hulp. De medewerkers werken voor de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Eerst bespreekt u uw vraag. Is meer hulp nodig, dan maakt u samen een plan en krijgt u een beschikking (een schriftelijk besluit). Gaat uw kind naar specialistische hulp, dan blijft een medewerker van het team betrokken.",
+        "omschrijving": "De medewerkers jeugd van het Sociaal Team beslissen of uw kind jeugdhulp krijgt en regelen de hulp. Is meer hulp nodig, dan maakt u samen een plan en krijgt u een beschikking (een schriftelijk besluit). Bij specialistische hulp blijft een medewerker van het team betrokken.",
         "stappen": [
           "Bel of mail het Sociaal Team, of ga langs bij het gemeentehuis. Houd uw burgerservicenummer (BSN) bij de hand.",
-          "Vul anders het formulier Aanvraag jeugdhulp in op de website. Beide ouders met gezag loggen in met DigiD. Is uw kind 12 jaar of ouder, dan geeft het ook toestemming met DigiD. Liever op papier? Vraag een formulier aan bij het Sociaal Team.",
-          "Maak eventueel vooraf een familiegroepsplan: een plan dat u samen met familie en bekenden opstelt. Dat is niet verplicht.",
-          "Bewaar de bevestiging van uw aanvraag. Het Sociaal Team neemt daarna contact op en legt het vervolg uit.",
-          "Neem iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag en om een schriftelijk besluit over de hulp."
+          "Of vul online het formulier Aanvraag jeugdhulp in: beide ouders met gezag loggen in met DigiD, en een kind van 12 jaar of ouder geeft ook toestemming met DigiD. Een papieren formulier kunt u aanvragen.",
+          "Bespreek uw vraag met de medewerker jeugd. U mag iemand meenemen, en vooraf een familiegroepsplan maken met familie en bekenden (niet verplicht)."
         ],
         "contact": {
           "naam": "Sociaal Team Nijkerk",
@@ -25,16 +22,17 @@
           "url": "https://www.nijkerk.eu/sociaal-team",
           "adres": "Gemeentehuis, Van 't Hoffstraat 24, Nijkerk",
           "openingstijden": "Binnenlopen in het gemeentehuis van 9.00 tot 13.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de gemeente neemt het Sociaal Team binnen 14 dagen na uw aanvraag contact op."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks doorsturen naar jeugdhulp van de gemeente. U hoeft dan zelf geen aanvraag te doen. Dat is een gelijkwaardige route naast het Sociaal Team. Wilt u een pgb (persoonsgebonden budget)? Dan moet u dat wel bij de gemeente aanvragen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente. Wilt u een pgb (persoonsgebonden budget), dan vraagt u dat wel zelf aan bij de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Laat de arts verwijzen naar een aanbieder met een contract bij de gemeente.",
-          "Spreek met de aanbieder af wanneer de hulp begint. De aanbieder meldt de hulp zelf bij de gemeente."
+          "Laat u verwijzen naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -46,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bij zorgen over leren of gedrag begint u bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs, gratis en onafhankelijk. Voor de basisschool is dat Zeeluwe, voor de middelbare school Stichting Leerlingenzorg NW-Veluwe.",
+        "omschrijving": "Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs, gratis en onafhankelijk. Voor de basisschool is dat Zeeluwe, voor de middelbare school Stichting Leerlingenzorg NW-Veluwe.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school u helpt met de aanmelding bij het Sociaal Team.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag of de school u helpt met de aanmelding bij het Sociaal Team.",
           "Denkt de school aan ernstige dyslexie? Geef dan uw akkoord, zodat de school een beoordeling bij de gemeente kan aanvragen.",
-          "Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband als u er met school niet uitkomt."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -81,10 +78,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Is iemand met psychische problemen een gevaar voor zichzelf of anderen? Op de website van de gemeente staat hoe u dat meldt.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Maakt u zich ernstig zorgen om iemand met psychische problemen die een gevaar is voor zichzelf of anderen? Lees op de pagina van de gemeente hoe u dat meldt."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Nijkerk: psychische hulp, melding",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Noordoost-Brabant",
   "websiteJeugd": "https://www.gemeentelandvancuijk.nl/jeugd",
   "toegang": {
-    "samenvatting": "In Land van Cuijk (Boxmeer, Cuijk, Grave, Mill en Sint Hubert en Sint Anthonis) is het Centrum voor Jeugd en Gezin (CJG) het gemeentelijke toegangsteam voor jeugdhulp, voor kinderen en jongeren tot 23 jaar en hun opvoeders. U hebt geen verwijzing nodig en de ondersteuning van het CJG is kosteloos. De medewerkers jeugd maken met u een klantplan en kunnen zelf lichte hulp geven of u doorverwijzen naar specialistische jeugdhulp, die de gemeente samen met negen andere gemeenten regionaal inkoopt via RIOZ. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. De gemeente werkt aan 'Stevige Lokale Teams': een sterker CJG met één herkenbare toegang voor jeugdhulp, Wmo en werk en inkomen.",
+    "samenvatting": "In Land van Cuijk meldt u zich bij het Centrum voor Jeugd en Gezin (CJG), voor kinderen en jongeren tot 23 jaar. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG Land van Cuijk",
-        "omschrijving": "Het basisteam van het CJG is onderdeel van de gemeente en de vaste plek voor vragen over opvoeden en opgroeien. Medewerkers jeugd (met SKJ-registratie) helpen zelf of regelen hulp van een aanbieder; bij meerdere hulpverleners blijft het CJG uw vaste aanspreekpunt ('één gezin, één plan'). Bent u het niet eens met de conclusie van een medewerker, dan kunt u een second opinion vragen bij een andere medewerker van het CJG.",
+        "omschrijving": "Het CJG hoort bij de gemeente. Medewerkers jeugd helpen zelf of regelen hulp van een aanbieder, en blijven uw vaste aanspreekpunt. Bent u het niet eens met hun conclusie, dan kunt u een second opinion vragen bij een andere medewerker van het CJG.",
         "stappen": [
-          "Bel of mail het CJG, of gebruik het vragenformulier op de website. Bellen kan op werkdagen tussen 9.00 en 17.00 uur. Op een mail zegt het CJG binnen 2 werkdagen te antwoorden. Houd het BSN van uw kind bij de hand.",
-          "Is uw vraag niet met een telefoontje of mail op te lossen, dan maakt een jeugdprofessional een afspraak, bij u thuis, op school, bij de kinderopvang, in het wijkcentrum of op een CJG-locatie.",
-          "Samen schrijft u een klantplan; u kunt iemand uit uw omgeving of een gratis onafhankelijke cliëntondersteuner meenemen.",
-          "Is specialistische hulp nodig, dan ontvangt u een beschikking van de gemeente. Vraag om het schriftelijke verslag van het gesprek; dat hoort u volgens de gemeentelijke verordening te krijgen."
+          "Bel (werkdagen 9.00-17.00 uur), mail of gebruik het vragenformulier op de website. Houd het BSN van uw kind bij de hand.",
+          "Is meer nodig, dan maakt een medewerker een afspraak: thuis, op school, bij de kinderopvang, in het wijkcentrum of bij het CJG. U mag iemand meenemen.",
+          "Samen schrijft u een klantplan. Is specialistische hulp nodig, dan krijgt u een besluit (beschikking) van de gemeente."
         ],
         "contact": {
           "naam": "CJG Land van Cuijk",
@@ -24,16 +23,17 @@
           "url": "https://www.cjglandvancuijk.nl/",
           "adres": "Raadhuisplein 1, 5831 JX Boxmeer (postadres: Postbus 177, 5830 AD Boxmeer)",
           "openingstijden": "Telefonisch op werkdagen 9.00-17.00 uur"
-        }
+        },
+        "doorlooptijd": "Op een mail antwoordt het CJG binnen 2 werkdagen."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp. Volgens de verordening betaalt de gemeente de hulp als de aanbieder vindt dat die nodig is; een aanbieder zonder contract met de gemeente wordt alleen vergoed als er geen vergelijkbare hulp bij een gecontracteerde aanbieder is, of als vooraf schriftelijk is ingestemd.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Een aanbieder zonder contract wordt alleen vergoed als er geen vergelijkbare hulp bij een aanbieder met contract is, of als de gemeente vooraf schriftelijk akkoord gaf.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD (GGD Hart voor Brabant).",
-          "Vraag de arts te verwijzen naar een aanbieder die de gemeente heeft gecontracteerd; het adresboek van RIOZ toont welke dat zijn.",
-          "Meld u binnen zes maanden na de begindatum bij de aanbieder; u hoeft zelf geen aanvraag bij de gemeente te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Hart voor Brabant.",
+          "Vraag om een verwijzing naar een aanbieder met een contract. Het adresboek van RIOZ laat zien welke dat zijn.",
+          "Meld u binnen zes maanden na de verwijzing bij de aanbieder. U hoeft zelf niets bij de gemeente aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -44,10 +44,9 @@
       {
         "type": "school",
         "naam": "Via school (CJG op school)",
-        "omschrijving": "Het CJG is aanwezig op scholen, onder meer op de twee scholen voor speciaal basisonderwijs, en samen met het jongerenwerk van Sociom op middelbare scholen. Zo kunnen vragen van ouders snel op school worden opgepakt.",
+        "omschrijving": "Het CJG is aanwezig op scholen, ook op de twee scholen voor speciaal basisonderwijs. Op middelbare scholen werkt het samen met het jongerenwerk van Sociom.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht of de intern begeleider en vraag of een CJG-consulent op de school aanwezig is.",
-          "Lukt dat niet, neem dan rechtstreeks contact op met het CJG; verwijzing door school is niet nodig.",
+          "Bespreek uw zorgen met de leerkracht of intern begeleider. Vraag of er een medewerker van het CJG op school is.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -69,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Land van Cuijk op de pagina Zorgwijzer van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Land van Cuijk: Zorgwijzer",
@@ -385,7 +383,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Land van Cuijk – Jeugd",
@@ -546,6 +544,11 @@
         "titel": "Ouder- en jeugdsteunpunt Nijmegen Stromenland - Contact",
         "url": "https://www.steunpuntnijmegenstromenland.nl/contact/",
         "geraadpleegd": "2026-10-11"
+      },
+      {
+        "titel": "Verordening jeugdhulp Land van Cuijk 2026, artikel 7 en toelichting (zes maanden melden)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR752422/1",
+        "geraadpleegd": "2026-10-16"
       }
     ],
     "opmerkingen": "Geen cliëntervaringsonderzoek Jeugd nieuwer dan 2023 en geen gemeten doorlooptijden voor de jeugdtoegang gevonden; de CJG-wachttijd van 2 tot 3 weken staat alleen als losse vermelding in een nieuwsbrief. Regio Noordoost-Brabant is niet aangesloten op de Beschikbaarheidswijzer, dus is het RIOZ-adresboek gebruikt. websiteJeugd is aangepast van landvancuijk.nl (regionale site) naar de gemeentesite."

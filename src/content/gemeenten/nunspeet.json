@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Noord-Veluwe",
   "websiteJeugd": "https://www.nunspeet.nl/jeugd-en-onderwijs/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Nunspeet kunt u met vragen over opvoeden en opgroeien terecht bij het Centrum voor Jeugd en Gezin (CJG). U belt of mailt zelf, of loopt binnen. Een verwijzing is niet nodig en het is gratis. Het CJG bekijkt met u wat uw gezin nodig heeft. Is specialistische hulp nodig, dan regelt het CJG die. Ook de huisarts mag rechtstreeks verwijzen. Volgens de eigen website belt of mailt het CJG u binnen één werkdag terug. Hoe lang het daarna duurt tot een gesprek en tot de hulp start, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Nunspeet meldt u zich bij het Centrum voor Jeugd en Gezin (CJG), gratis en zonder verwijzing. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Nunspeet",
-        "omschrijving": "Het CJG geeft advies en lichte hulp, bijvoorbeeld bij opvoedvragen. Het kijkt samen met u wat uw gezin zelf kan en wat er nog nodig is. Bij ingewikkelde problemen regelt het CJG ook specialistische jeugdhulp. In het CJG werken Stichting Jeugd Noord-Veluwe, Icare Jeugdgezondheidszorg en de GGD samen. U meldt u zelf aan. Een verwijzing is niet nodig.",
+        "omschrijving": "Het CJG geeft advies en lichte hulp, bijvoorbeeld bij opvoedvragen, en regelt specialistische jeugdhulp als dat nodig is. In het CJG werken Stichting Jeugd Noord-Veluwe, Icare Jeugdgezondheidszorg en de GGD samen.",
         "stappen": [
-          "Bel het CJG, mail, loop binnen of stel uw vraag via Mijn jeugddossier (met DigiD).",
-          "Vraag meteen hoe lang het duurt voordat u een gesprek krijgt.",
-          "Bespreek in het gesprek wat uw gezin nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om een schriftelijk verslag. Is specialistische hulp nodig, dan regelt het CJG die.",
-          "Hebt u een besluit gekregen waar u het niet mee eens bent? Maak dan bezwaar bij de gemeente."
+          "Bel of mail het CJG, loop binnen, of stel uw vraag via Mijn jeugddossier (met DigiD).",
+          "Bespreek in het gesprek wat uw gezin nodig heeft. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan regelt het CJG die."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Nunspeet",
@@ -25,16 +23,17 @@
           "url": "https://www.cjgnunspeet.nl/contact/",
           "adres": "Zorgplein De Enk, Stationsplein 18a, Nunspeet",
           "openingstijden": "Telefonisch werkdagen 9.00–12.00 uur. Mailen kan altijd. Inloop werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Volgens de eigen website belt of mailt het CJG u binnen één werkdag terug. Hoe lang het daarna duurt tot een gesprek en tot de hulp start, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. De jeugdarts werkt voor kinderen van 0 tot 4 jaar bij Icare en voor kinderen van 4 tot 18 jaar bij de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente, of naar het CJG. De jeugdarts vindt u bij Icare (0 tot 4 jaar) of de GGD (4 tot 18 jaar).",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar het CJG.",
-          "Meld uw kind met de verwijzing aan bij de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract, of naar het CJG.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -55,10 +54,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan met u meedenken over leren, gedrag of welzijn. U kunt zich ook zelf bij het CJG melden. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor het basisonderwijs is dat Zeeluwe, voor het voortgezet onderwijs Stichting Leerlingenzorg NW-Veluwe.",
+        "omschrijving": "School kan meedenken over leren, gedrag of welzijn. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband: Zeeluwe voor het basisonderwijs, Stichting Leerlingenzorg NW-Veluwe voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u bij het CJG als het om opvoeden, gedrag of welzijn gaat.",
+          "Gaat het om opvoeden, gedrag of welzijn? Vraag school om samen met u contact op te nemen met het CJG.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -89,10 +88,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De landelijke nummers staan hieronder. Welke crisisdiensten er verder zijn voor een kind of jongere, staat op de pagina Jeugdhulp van de gemeente, onder het kopje Spoed.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten voor jeugd tot 18 jaar op de pagina Jeugdhulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Nunspeet: Spoed bij jeugdhulp",

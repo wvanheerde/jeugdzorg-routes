@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Lekstroom",
   "websiteJeugd": "https://www.houten.nl/zorg-onderwijs-en-inkomen/onderwijs-en-kinderopvang/jeugd-en-jongerenhulp",
   "toegang": {
-    "samenvatting": "In Houten loopt bijna alles via het Sociaal Team Houten. Dat is een aparte stichting die voor de gemeente werkt, voor jeugd en volwassenen. Het team geeft lichte hulp en opvoedondersteuning, en beslist namens de gemeente over specialistische jeugdhulp. U kunt zich zelf aanmelden. Een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen, en op scholen werkt een Scholenteam. Het Sociaal Team meet de wachttijd: in 2025 was die gemiddeld 3,9 weken.",
+    "samenvatting": "In Houten meldt u zich bij het Sociaal Team Houten, een stichting die namens de gemeente lichte hulp geeft en over jeugdhulp beslist. U kunt ook via de huisarts, de jeugdarts of het Scholenteam op school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Houten",
-        "omschrijving": "Het Sociaal Team Houten helpt bij vragen over opvoeden en opgroeien, en beoordeelt of uw kind jeugdhulp krijgt. Het team werkt voor de gemeente en neemt de besluiten namens de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Het team kijkt eerst wat u zelf of met uw netwerk kunt, en zoekt dan samen met u naar passende hulp. Bij zwaardere hulp krijgt u een beschikking (besluit van de gemeente).",
+        "omschrijving": "Het Sociaal Team helpt bij opvoeden en opgroeien, voor jeugd en volwassenen. Het kijkt eerst wat u zelf of met mensen om u heen kunt, en zoekt dan samen met u passende hulp. Bij zwaardere hulp krijgt u een beschikking (besluit van de gemeente).",
         "stappen": [
-          "Bel het Sociaal Team of mail het. Vertel kort waar u zorgen over heeft.",
-          "Bespreek met het team wat er speelt en wat er nodig is. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan van aanpak. Daarin staat welke hulp past.",
-          "Vraag het plan en het besluit altijd op papier. Is specialistische hulp nodig, dan krijgt u een beschikking."
+          "Bel of mail het Sociaal Team en vertel kort waar u zorgen over heeft.",
+          "Bespreek met het team wat er speelt en wat nodig is. U mag iemand meenemen.",
+          "Maak samen een plan van aanpak. Daarin staat welke hulp past."
         ],
         "contact": {
           "naam": "Sociaal Team Houten",
@@ -23,16 +22,17 @@
           "email": "info@sociaalteamhouten.nl",
           "url": "https://www.sociaalteamhouten.nl/contact/",
           "openingstijden": "Telefonisch en per mail ma t/m do 9.00–12.00 en 13.00–15.00 uur, vr 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Het Sociaal Team meet de wachttijd: in 2025 was die gemiddeld 3,9 weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisarts werkt ook een praktijkondersteuner jeugd-ggz voor een luisterend oor en advies bij psychische klachten. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD, met een consultatiebureau in Houten.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisarts werkt een praktijkondersteuner jeugd-ggz, voor een luisterend oor en advies bij psychische klachten. De jeugdarts werkt bij de GGD, met een consultatiebureau in Houten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag om een verwijzing naar een aanbieder met een contract met de gemeente, of naar het Sociaal Team.",
-          "Neem met de verwijzing contact op met de aanbieder. Die meldt de start van de hulp bij de gemeente, dus u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente, of naar het Sociaal Team.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -44,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de scholen in Houten werkt het Scholenteam van het Sociaal Team. Het helpt leerlingen en ouders, en ook leerkrachten, met vragen over gedrag, school en thuis. Komt u er met school niet uit, dan geeft het Jeugd en Ouder Steunpunt (JOS) Lekstroom informatie en steun bij vragen over passend onderwijs.",
+        "omschrijving": "Op de scholen in Houten werkt het Scholenteam van het Sociaal Team. Het helpt leerlingen, ouders en leerkrachten bij vragen over gedrag, school en thuis.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of het Scholenteam kan meekijken. U kunt ook zelf contact opnemen met het Sociaal Team.",
-          "Is meer hulp nodig? Dan bespreekt het Sociaal Team de aanvraag verder met u.",
-          "Komt u er met school niet uit? Vraag advies bij het Jeugd en Ouder Steunpunt Lekstroom."
+          "Vraag of het Scholenteam kan meekijken.",
+          "Komt u er met school niet uit? Vraag advies bij het Jeugd en Ouder Steunpunt (JOS) Lekstroom."
         ],
         "contact": [
           {
@@ -68,11 +67,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Zit u in een gezinssituatie waar u niet uitkomt, maar is er geen direct gevaar? Neem dan contact op met het Sociaal Team.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina Het gaat thuis niet goed van Veilig Thuis Utrecht."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Utrecht: Het gaat thuis niet goed",

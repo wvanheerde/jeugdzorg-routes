@@ -4,18 +4,16 @@
   "provincie": "Noord-Holland",
   "websiteJeugd": "https://www.aalsmeer.nl/hulp-bij-het-opgroeien-enof-opvoeden-van-uw-kinderen",
   "toegang": {
-    "samenvatting": "In Aalsmeer is het Sociaal loket van de gemeente het eerste aanspreekpunt. Het loket kent het aanbod en wijst u de weg. Voor lichte vragen over opvoeden en opgroeien heeft u geen verwijzing nodig. U kunt dan zelf terecht bij bijvoorbeeld de jeugdgezondheidszorg of de praktijkondersteuner jeugd bij de huisarts. Voor specialistische jeugdhulp doet u zelf een aanvraag bij het team jeugd van de gemeente. Een medewerker jeugd bespreekt met u wat er nodig is en kiest samen met u een aanbieder. De huisarts mag ook rechtstreeks verwijzen. Hoe lang het duurt voordat een medewerker jeugd uw aanvraag oppakt, is niet openbaar te vinden. Vraag dat bij uw aanvraag.",
+    "samenvatting": "In Aalsmeer is het Sociaal loket van de gemeente het eerste aanspreekpunt; specialistische jeugdhulp vraagt u aan bij het team jeugd. U kunt ook via de huisarts, de jeugdarts of school; voor lichte vragen is geen verwijzing nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team jeugd van de gemeente (medewerkers jeugd), via het Sociaal loket",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken uw vraag, bepalen welke hulp nodig is en kiezen samen met u een aanbieder. Alleen ouders met gezag, voogden en jongeren vanaf 16 jaar kunnen een aanvraag doen. Een hulpverlener of school kan dat niet voor u doen. De gemeente kijkt eerst wat uw eigen omgeving en lichtere hulp kunnen bieden. Pas daarna komt specialistische hulp in beeld.",
+        "omschrijving": "Medewerkers jeugd van de gemeente onderzoeken uw vraag en kiezen samen met u een aanbieder. Alleen ouders met gezag, voogden en jongeren vanaf 16 jaar kunnen een aanvraag doen; een hulpverlener of school kan dat niet voor u doen. De gemeente kijkt eerst wat uw omgeving en lichtere hulp kunnen bieden.",
         "stappen": [
-          "Vul het online aanvraagformulier voor specialistische jeugdhulp in op de website van de gemeente. Lukt dat niet? Neem dan contact op met het Sociaal loket.",
-          "Lees de bevestiging van uw aanvraag. Daarin staat welke stappen volgen. Soms vraagt de gemeente om extra informatie.",
-          "Bespreek met een medewerker jeugd wat er speelt, welke hulp er al is en wat u wilt bereiken. U mag familie, vrienden of een onafhankelijke cliëntondersteuner meenemen.",
-          "Kies samen met de medewerker jeugd een aanbieder als specialistische hulp nodig is. De medewerker jeugd geeft dan een verwijzing af.",
-          "Vraag na het gesprek om een schriftelijk verslag en om het besluit op papier."
+          "Vul het online aanvraagformulier voor specialistische jeugdhulp in. Lukt dat niet? Neem contact op met het Sociaal loket.",
+          "Lees de bevestiging. Daarin staat wat er volgt; soms vraagt de gemeente extra informatie.",
+          "Bespreek met een medewerker jeugd wat er speelt en wat u wilt bereiken. U mag iemand meenemen. Is specialistische hulp nodig, dan kiest u samen een aanbieder en krijgt u een verwijzing."
         ],
         "contact": [
           {
@@ -26,17 +24,17 @@
             "adres": "Raadhuisplein 1, Aalsmeer",
             "openingstijden": "Telefonisch ma t/m do 8.30–17.00 uur, vr 8.30–12.30 uur. Inloopspreekuur ma, di, do en vr 9.00–11.00 uur, wo 13.30–15.30 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat een medewerker jeugd uw aanvraag oppakt, is niet openbaar. Vraag het bij uw aanvraag."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. U kunt dus ook via hen gaan in plaats van via het team jeugd. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd (POH-Jeugd). Dat is een jeugdhulpverlener van de gemeente. Die biedt kortdurende hulp, gratis en zonder verwijzing. U maakt een afspraak via de huisarts.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij een aantal huisartsen werkt een praktijkondersteuner jeugd (POH-Jeugd) van de gemeente. Die biedt korte hulp, gratis en zonder verwijzing; u maakt een afspraak via de huisarts.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
-          "Werkt er een POH-Jeugd bij uw huisarts? Vraag dan om een afspraak met die ondersteuner voor kortdurende hulp.",
-          "Vraag de huisarts om een verwijzing naar een aanbieder die de gemeente heeft ingekocht als er meer hulp nodig is.",
-          "Laat de aanbieder de start van de hulp bij de gemeente melden. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige.",
+          "Werkt er een POH-Jeugd bij uw huisarts? Vraag dan om een afspraak voor korte hulp.",
+          "Is meer nodig, dan verwijst de huisarts naar een aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Amsterdam (Amstelland)",
@@ -48,12 +46,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Intern begeleiders op de basisschool en zorgcoördinatoren op de middelbare school kunnen u zelf verder helpen. Ze kunnen u ook doorverwijzen, bijvoorbeeld naar een schoolmaatschappelijk werker of een medewerker jeugd van de gemeente. Komt u er met school niet uit? Dan helpt het Steunpunt Amstel & Meer van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Intern begeleiders op de basisschool en zorgcoördinatoren op de middelbare school kunnen zelf helpen of doorverwijzen, bijvoorbeeld naar een schoolmaatschappelijk werker of een medewerker jeugd van de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht of mentor.",
-          "Vraag de intern begeleider of zorgcoördinator van school om mee te denken of door te verwijzen.",
-          "Vraag hulp aan bij het team jeugd van de gemeente als er meer nodig is.",
-          "Komt u er met school niet uit? Vraag advies bij het Steunpunt Amstel & Meer."
+          "Vraag de intern begeleider of zorgcoördinator om mee te denken of door te verwijzen.",
+          "Komt u er met school niet uit? Vraag advies bij het Steunpunt Amstel & Meer van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -75,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis. U gaat dan buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke hulp er verder is voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij een onveilige thuissituatie op de pagina van de gemeente over huiselijk geweld, kindermishandeling en seksueel geweld."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Aalsmeer: hulp bij huiselijk geweld, kindermishandeling en seksueel geweld",

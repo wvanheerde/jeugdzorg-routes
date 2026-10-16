@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Haarlemmermeer",
   "websiteJeugd": "https://haarlemmermeergemeente.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Haarlemmermeer is er geen wijkteam: het Centrum voor Jeugd en Gezin (CJG) is het eerste aanspreekpunt voor vragen over opvoeden en opgroeien en kan ook (gespecialiseerde) jeugdhulp regelen. Op de gemeentesite vult u de vragenlijst 'Jeugdhulp aanvragen' in; die wijst u door naar de organisatie die u het beste kan helpen, zoals het CJG, de GGD (jeugdgezondheidszorg) of de school van uw kind. Professionals rond school en kinderopvang, zoals schoolcoaches, werken in het zogeheten Haarlemmermeers model met mandaat van de gemeente. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; die route wordt hier opvallend vaak gebruikt. De gemeente meldt dat de jeugdzorgkosten snel stijgen en werkt aan besparingen en aan het terugdringen van wachttijden.",
+    "samenvatting": "In Haarlemmermeer is het Centrum voor Jeugd en Gezin (CJG) de ingang voor jeugdhulp; een apart wijkteam is er niet. U kunt ook via de huisarts, de jeugdarts of de schoolcoach; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Haarlemmermeer",
-        "omschrijving": "Gratis advies en ondersteuning voor ouders, kinderen, jongeren tot 23 jaar en professionals over opvoeden en opgroeien, van pesten en scheiden tot gedrag en school. Medewerkers jeugd denken mee, bieden zelf lichte ondersteuning en regelen waar nodig specialistische jeugdhulp. Als een pgb beter past, neemt een CJG-medewerker uw aanvraag over.",
+        "omschrijving": "Het CJG geeft gratis advies over opvoeden en opgroeien, voor kinderen en jongeren tot 23 jaar. Medewerkers jeugd bieden zelf lichte ondersteuning en regelen zo nodig specialistische jeugdhulp. Past een pgb beter, dan neemt een CJG-medewerker uw aanvraag over.",
         "stappen": [
-          "Vul op de gemeentesite de vragenlijst 'Jeugdhulp aanvragen' in, of bel het CJG (ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur). Buiten die tijden kunt u het contactformulier gebruiken of het CJG mailen.",
-          "Een medewerker neemt contact met u op en bespreekt de situatie van uw kind; u mag een onafhankelijke cliëntondersteuner meenemen.",
-          "Samen bepaalt u welke hulp past: lichte ondersteuning, zorg in natura of een persoonsgebonden budget (pgb).",
-          "Vraag om een schriftelijk verslag en vraag hoe het besluit over de hulp wordt vastgelegd; tegen een beschikking kunt u bezwaar maken."
+          "Vul op de gemeentesite de vragenlijst 'Jeugdhulp aanvragen' in; die wijst u naar het CJG, de GGD of school. U kunt het CJG ook bellen (ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur), mailen of het contactformulier gebruiken.",
+          "Bespreek met de medewerker de situatie van uw kind. U mag iemand meenemen.",
+          "Bepaal samen welke hulp past: lichte ondersteuning, zorg in natura of een persoonsgebonden budget (pgb)."
         ],
         "contact": {
           "naam": "CJG Haarlemmermeer",
@@ -25,16 +24,16 @@
           "adres": "Marktlaan 124, 2132 DM Hoofddorp",
           "openingstijden": "Telefonisch ma, wo, do, vr 9.30–15.30 uur; di 12.30–15.30 uur (vanaf 1 september 2026)"
         },
-        "doorlooptijd": "Via het contactformulier van het CJG neemt een medewerker jeugd binnen 2 werkdagen contact op."
+        "doorlooptijd": "Via het contactformulier neemt een medewerker jeugd binnen 2 werkdagen contact op. De gemeente werkt aan kortere wachttijden."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Volgens de Jeugdwet mogen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. In Haarlemmermeer begon in 2025 ongeveer twee op de drie jeugdhulptrajecten via deze route, tegenover ruim vier op de tien landelijk. Bij huisartsen is een praktijkondersteuner jeugd (POH-Jeugd) beschikbaar voor lichtere vragen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Haarlemmermeer begon in 2025 ongeveer twee op de drie jeugdhulptrajecten zo. Bij huisartsen werkt een praktijkondersteuner jeugd (POH-Jeugd) voor lichtere vragen.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Kennemerland.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder; u kunt de Beschikbaarheidswijzer gebruiken om aanbieders en wachttijden te vergelijken.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Laat u verwijzen naar een aanbieder met een contract bij de gemeente. In de Beschikbaarheidswijzer vergelijkt u aanbieders en wachttijden.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "GGD Kennemerland Jeugdgezondheidszorg",
@@ -47,11 +46,11 @@
       {
         "type": "school",
         "naam": "Via school (schoolcoach, jeugdarts, jeugdverpleegkundige)",
-        "omschrijving": "Scholen werken samen met het CJG en met schoolcoaches en de jeugdgezondheidszorg. Volgens de gemeente kunt u via de intern begeleider of zorgcoördinator terechtkomen bij de schoolcoach, jeugdarts of jeugdverpleegkundige die u verder helpt. Sinds 2025 start ook Jeugdhulp op School en ontstaan onderwijs-zorgarrangementen.",
+        "omschrijving": "Schoolcoaches werken met mandaat van de gemeente (het Haarlemmermeers model) en kunnen zo hulp inzetten. Via de intern begeleider of zorgcoördinator komt u bij de schoolcoach, jeugdarts of jeugdverpleegkundige. Sinds 2025 kan jeugdhulp ook op school zelf worden gegeven (Jeugdhulp op School); het CJG of een medewerker met mandaat van de gemeente regelt dat.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, intern begeleider of zorgcoördinator.",
-          "Vraag wie voor uw kind de schoolcoach, jeugdarts of jeugdverpleegkundige is en vraag die om advies over jeugdhulp.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs; vraag de school om het ondersteuningsplan en schriftelijke afspraken."
+          "Bespreek uw zorgen met de leerkracht, intern begeleider of zorgcoördinator.",
+          "Vraag wie de schoolcoach, jeugdarts of jeugdverpleegkundige van uw kind is, en vraag die om advies.",
+          "Gaat het om extra ondersteuning in de klas? Dat loopt via het samenwerkingsverband passend onderwijs; vraag school naar het ondersteuningsplan."
         ],
         "contact": [
           {
@@ -79,11 +78,11 @@
       {
         "type": "overig",
         "naam": "Voor jongeren zelf",
-        "omschrijving": "Jongeren kunnen zelf vragen stellen, anoniem als ze dat willen. Het CJG adviseert gratis, het Jongeren Informatie Punt (JIP) is er voor jongeren van 12 tot en met 23 jaar en de Kindertelefoon is gratis en anoniem.",
+        "omschrijving": "Jongeren kunnen zelf vragen stellen, ook anoniem. Het CJG adviseert gratis, het Jongeren Informatie Punt (JIP) is er voor jongeren van 12 tot en met 23 jaar en de Kindertelefoon is gratis en anoniem.",
         "stappen": [
-          "Neem contact op met het CJG of gebruik het contactformulier; vragen kunnen anoniem.",
+          "Neem contact op met het CJG; vragen kunnen anoniem.",
           "Bel of app het JIP (ook via WhatsApp). Het JIP verwijst zo nodig door.",
-          "De Kindertelefoon is gratis en anoniem."
+          "Bel of chat met de Kindertelefoon."
         ],
         "contact": [
           {
@@ -109,10 +108,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Haarlemmermeer op de pagina U maakt zich zorgen om iemand van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Haarlemmermeer: U maakt zich zorgen om iemand",
@@ -466,7 +464,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Haarlemmermeer – Jeugdhulp",

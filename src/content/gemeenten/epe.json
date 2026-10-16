@@ -4,18 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.epe.nl/opvoeden-en-opgroeien",
   "toegang": {
-    "samenvatting": "In Epe is het Centrum voor Jeugd en Gezin (CJG) de ingang voor alles over opvoeden en opgroeien, van de zwangerschap tot 23 jaar. U meldt zich zelf aan, een verwijzing is niet nodig. In het CJG werken de gemeente, Vérian, Koppel-Swoe en de GGD samen. De medewerkers jeugd van het CJG bespreken uw vraag met u en regelen zo nodig specialistische jeugdhulp. Ook de huisarts mag rechtstreeks verwijzen; elke huisartsenpraktijk heeft een vaste medewerker jeugd om mee te overleggen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Epe meldt u zich bij het Centrum voor Jeugd en Gezin (CJG), voor alles over opvoeden en opgroeien tot 23 jaar. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "CJG Epe en de medewerkers jeugd (toegangsteam jeugdzorg)",
-        "omschrijving": "Bij het CJG kunt u terecht met vragen over opvoeden en opgroeien. Medewerkers geven advies en tips. Is meer nodig, dan krijgt u een gesprek met een medewerker jeugd (medewerker van Vérian). Die maakt met u een plan en regelt de jeugdhulp. Sommige hulp, zoals gezinsondersteuning (CJG4kracht), vraagt u aan met het aanvraagformulier van het CJG. De gemeente neemt de besluiten over jeugdhulp.",
+        "omschrijving": "In het CJG werken de gemeente, Vérian, Koppel-Swoe en de GGD samen. Is advies niet genoeg, dan maakt een medewerker jeugd met u een plan en regelt de jeugdhulp. Sommige hulp, zoals gezinsondersteuning (CJG4kracht), vraagt u aan met het aanvraagformulier van het CJG.",
         "stappen": [
-          "Bel het CJG of loop binnen bij het inloopspreekuur in Epe of Vaassen. U kunt ook mailen.",
-          "Heeft uw kind hulp nodig? Vul dan het aanvraagformulier van het CJG in en mail het naar het CJG.",
-          "Een medewerker jeugd bespreekt uw vraag met u. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan. Het CJG bespreekt uw aanvraag ook met een gedragsdeskundige.",
-          "Vraag na het gesprek om het plan of een verslag op papier. Bij specialistische hulp vraagt u om het schriftelijke besluit."
+          "Bel of mail het CJG, of loop binnen bij het inloopspreekuur in Epe of Vaassen.",
+          "Heeft uw kind hulp nodig? Vul het aanvraagformulier in en mail het naar het CJG.",
+          "Een medewerker jeugd maakt met u een plan en bespreekt uw aanvraag ook met een gedragsdeskundige. U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Centrum voor Jeugd en Gezin (CJG) Epe",
@@ -24,16 +22,17 @@
           "url": "https://www.cjgepe.nl/pagina/contact/70174",
           "adres": "Korte Veenteweg 9a, Epe (inloopspreekuur ook in Vaassen, Dorpsstraat 62)",
           "openingstijden": "Telefonisch ma, di, do en vr 8.30–12.30 uur, wo 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Elke huisartsenpraktijk in Epe heeft een vaste medewerker jeugd van het CJG om mee te overleggen. De jeugdarts werkt bij de jeugdgezondheidszorg: tot 4 jaar bij het consultatiebureau van Vérian, daarna bij de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Elke huisartsenpraktijk in Epe heeft een vaste medewerker jeugd van het CJG om mee te overleggen. De jeugdarts zit tot 4 jaar bij het consultatiebureau van Vérian, daarna bij de GGD.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het consultatiebureau of de GGD.",
-          "De huisarts verwijst naar een aanbieder met een contract bij de gemeente, of vraagt eerst de medewerker jeugd van het CJG om mee te denken.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst naar een aanbieder met een contract bij de gemeente, of laat eerst de medewerker jeugd van het CJG meedenken.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -53,12 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen en middelbare scholen in Epe werkt schoolmaatschappelijk werk van Vérian, als onderdeel van het CJG. Het is kort en makkelijk bereikbaar, voor kind, ouders en school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Voor basisscholen in Epe is dat Zeeluwe, voor middelbare scholen SWV VO 2505.",
+        "omschrijving": "Op de basisscholen en middelbare scholen werkt schoolmaatschappelijk werk van Vérian, als onderdeel van het CJG. Het is kort en makkelijk bereikbaar, voor kind, ouders en school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school naar het schoolmaatschappelijk werk, of meld uw kind aan bij het CJG. De school kan u in contact brengen met de maatschappelijk werker.",
-          "Is meer hulp nodig? Dan schakelt het CJG een medewerker jeugd in.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag school naar het schoolmaatschappelijk werk.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -87,10 +85,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisishulp er in Epe nog meer is, staat op de contactpagina van het CJG Epe.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de contactpagina van het CJG Epe bij de spoedeisende vragen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "CJG Epe: contact en spoedeisende vragen",

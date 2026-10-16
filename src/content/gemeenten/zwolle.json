@@ -5,17 +5,16 @@
   "jeugdzorgregio": "IJsselland",
   "websiteJeugd": "https://www.swtzwolle.nl/",
   "toegang": {
-    "samenvatting": "In Zwolle is het Sociaal wijkteam (SWT) van de gemeente de toegang tot jeugdhulp, Wmo en hulp bij geld en werk. Vijf wijkteams (Noord, Oost, Zuid, West en Midden) werken met jeugd- en gezinswerkers die zelf hulp bieden en zo nodig specialistische jeugdhulp inzetten. U meldt zich aan met het aanmeldformulier, telefonisch of op het inloopspreekuur van uw wijk. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen, maar in Zwolle start het grootste deel van de trajecten via het wijkteam.",
+    "samenvatting": "In Zwolle meldt u zich bij het Sociaal wijkteam (SWT) van uw wijk: Noord, Oost, Zuid, West of Midden. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal wijkteam Zwolle",
-        "omschrijving": "Gemeentelijk toegangsteam voor alle leeftijden, met een jeugd- en gezinswerker als vast aanspreekpunt. Het wijkteam biedt zelf begeleiding en trainingen en maakt samen met u een ondersteuningsplan; is specialistische jeugdhulp nodig, dan regelt het wijkteam die (zorg in natura of pgb) en ontvangt u een beschikking.",
+        "omschrijving": "Het wijkteam is er voor alle leeftijden, met een jeugd- en gezinswerker als vast aanspreekpunt. Het biedt zelf begeleiding en trainingen en regelt zo nodig specialistische jeugdhulp, als zorg in natura of pgb (persoonsgebonden budget). In Zwolle start het grootste deel van de trajecten via het wijkteam.",
         "stappen": [
           "Vul het aanmeldformulier in (met DigiD), bel op werkdagen tussen 9.00 en 17.00 uur, of kom naar het inloopspreekuur van uw wijkteam.",
-          "Een sociaal werker neemt contact op en plant een gesprek; u mag iemand meenemen.",
-          "Samen maakt u een ondersteuningsplan; het wijkteam biedt zelf hulp of zet specialistische jeugdhulp in.",
-          "Bij specialistische hulp ontvangt u een beschikking van de gemeente. Twijfelt u aan het advies, dan kunt u een second opinion vragen bij een ander wijkteam in de stad."
+          "Een sociaal werker plant een gesprek en maakt samen met u een ondersteuningsplan. U mag iemand meenemen.",
+          "Bij specialistische hulp krijgt u een beschikking (schriftelijk besluit). Twijfelt u aan het advies, dan kunt u een second opinion vragen bij een ander wijkteam in de stad."
         ],
         "contact": {
           "naam": "Sociaal wijkteam Zwolle",
@@ -28,11 +27,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de regio IJsselland gecontracteerde specialistische jeugdhulp, zonder tussenkomst van het Sociaal wijkteam.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de regio IJsselland, zonder tussenkomst van het wijkteam.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD IJsselland.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "Laat u zo nodig verwijzen naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -53,11 +52,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De jeugd- en gezinswerkers van het Sociaal wijkteam werken samen met scholen en de jeugdgezondheidszorg. Bij zorgen rond leren of gedrag kan school meedenken en de verbinding met het wijkteam leggen.",
+        "omschrijving": "De jeugd- en gezinswerkers van het wijkteam werken samen met scholen en de jeugdgezondheidszorg.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School legt contact met de jeugd- en gezinswerker van het wijkteam of de jeugdverpleegkundige van de GGD.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs."
+          "Bespreek zorgen over leren of gedrag met de leerkracht, mentor of intern begeleider.",
+          "Vraag school om contact te leggen met de jeugd- en gezinswerker van het wijkteam of de jeugdverpleegkundige van de GGD.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland."
         ],
         "contact": [
           {
@@ -83,10 +82,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Zwolle op de pagina Meldpunten onveilige situaties van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Zwolle: meldpunten onveilige situaties",

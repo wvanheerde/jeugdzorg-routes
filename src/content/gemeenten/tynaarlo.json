@@ -4,16 +4,15 @@
   "provincie": "Drenthe",
   "websiteJeugd": "https://www.tynaarlo.nl/sociaalteam/ik-heb-hulp-nodig/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Tynaarlo vraagt u jeugdhulp aan bij Team Jeugd van de gemeente. U meldt zich zelf aan, telefonisch of met het aanmeldformulier op de website van de gemeente. Een verwijzing is niet nodig. Het team bespreekt uw vraag, biedt ondersteuning en geeft zo nodig toegang tot specialistische hulp. Lichtere hulp is er via de maatschappelijk werker op school en via de praktijkondersteuner Jeugd bij de huisarts. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen. De gemeente heeft de toegang de afgelopen jaren opnieuw ingericht. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Tynaarlo meldt u zich bij Team Jeugd van de gemeente, telefonisch of met het aanmeldformulier; een verwijzing is niet nodig. U kunt ook via de huisarts, de jeugdarts of de maatschappelijk werker op school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente (Sociaal Team Toegang)",
-        "omschrijving": "Team Jeugd werkt voor de gemeente en hoort bij het Sociaal Team Toegang. Het team beoordeelt of uw kind jeugdhulp krijgt en geeft zo nodig toegang tot specialistische hulp, zoals opvoedhulp, jeugd-ggz (geestelijke gezondheidszorg) of zorg voor kinderen met een beperking. U meldt u zelf aan. Ook bij vragen over jongeren boven de 18 jaar kunt u contact opnemen.",
+        "omschrijving": "Team Jeugd hoort bij het Sociaal Team Toegang. Het team biedt zelf ondersteuning en geeft zo nodig toegang tot specialistische hulp, zoals opvoedhulp, jeugd-ggz (geestelijke gezondheidszorg) of zorg voor kinderen met een beperking. Ook met vragen over jongeren boven de 18 jaar kunt u er terecht.",
         "stappen": [
           "Bel Team Jeugd of vul het aanmeldformulier Jeugd van de gemeente in.",
-          "Een medewerker bespreekt uw vraag met u en biedt ondersteuning.",
-          "U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
+          "Bespreek uw vraag met een medewerker. U mag iemand meenemen.",
           "Is specialistische hulp nodig? Dan neemt het team een besluit. Vraag om een schriftelijk verslag en om het besluit op papier."
         ],
         "contact": {
@@ -21,17 +20,17 @@
           "telefoon": "0592 266 737",
           "url": "https://www.tynaarlo.nl/sociaalteam/ik-heb-hulp-nodig/jeugdhulp",
           "openingstijden": "Telefonisch werkdagen 8.30–12.30 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. In meerdere huisartsenpraktijken in Tynaarlo werkt een praktijkondersteuner Jeugd voor vragen over mentaal welzijn. De jeugdgezondheidszorg (JGZ) is er voor alle kinderen tot 19 jaar: tot 4 jaar bij Icare JGZ, vanaf 5 jaar bij de GGD Drenthe.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In meerdere huisartsenpraktijken werkt een praktijkondersteuner Jeugd voor vragen over mentaal welzijn. De jeugdgezondheidszorg voor jonge kinderen (consultatiebureau) is bij Icare JGZ, voor schoolgaande kinderen bij de GGD Drenthe.",
         "stappen": [
           "Bel de huisarts voor een afspraak, ook voor een gesprek met de praktijkondersteuner Jeugd.",
-          "Heeft uw kind nog geen 4 jaar? Bespreek uw zorgen met de jeugdarts van Icare JGZ.",
-          "Is uw kind 5 jaar of ouder? Neem contact op met de jeugdgezondheidszorg van de GGD Drenthe.",
-          "De arts verwijst naar een aanbieder met een contract bij de gemeente. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Of bespreek uw zorgen met de jeugdarts: van Icare JGZ voor jonge kinderen (consultatiebureau), van de GGD Drenthe voor schoolgaande kinderen.",
+          "De arts verwijst naar een aanbieder met een contract bij de gemeente. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -52,10 +51,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op veel scholen in Tynaarlo werkt een maatschappelijk werker voor leerlingen met extra zorgen, bijvoorbeeld bij een ontwikkelingsachterstand, ADHD, autisme of een onveilige thuissituatie. Komt u er met school niet uit, dan kunt u terecht bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op veel scholen werkt een maatschappelijk werker voor leerlingen met extra zorgen, bijvoorbeeld bij een ontwikkelingsachterstand, ADHD, autisme of een onveilige thuissituatie.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de maatschappelijk werker van school kan meekijken.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of de maatschappelijk werker van school kan meekijken.",
           "Is meer hulp nodig? Meld uw kind dan aan bij Team Jeugd, bij voorkeur samen met school.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
@@ -75,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Voor kinderen en jongeren in Drenthe is er daarnaast een regionale crisisdienst voor jeugdhulp buiten kantooruren. Het nummer staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst jeugdhulp in Drenthe op de pagina Jeugdhulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Tynaarlo: Jeugdhulp, ook bij spoed buiten kantooruren",
@@ -196,7 +193,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-12",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Tynaarlo: Jeugdhulp",

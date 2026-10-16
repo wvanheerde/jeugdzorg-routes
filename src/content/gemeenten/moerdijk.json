@@ -4,18 +4,16 @@
   "provincie": "Noord-Brabant",
   "websiteJeugd": "https://www.moerdijk.nl/direct-regelen/zorg-welzijn-cultuur/opgroeien-en-ouderschap/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In Moerdijk is het Centrum Jeugd en Gezin (CJG) de plek voor alle vragen over opvoeden en opgroeien. U meldt zich zelf aan, een verwijzing is niet nodig. Het CJG voert de jeugdhulp uit namens de gemeente. De jeugdprofessionals van het CJG beoordelen of uw kind specialistische hulp nodig heeft. Samen maakt u een gezinsplan. Op basis daarvan besluit de gemeente over de hulp. Ook de huisarts mag rechtstreeks verwijzen. Volgens het jaarverslag 2025 duurt het van aanmelding tot intake bij het CJG 6 tot 8 weken. Vraag bij uw aanmelding hoe lang het nu duurt.",
+    "samenvatting": "In Moerdijk meldt u zich zonder verwijzing bij het Centrum Jeugd en Gezin (CJG), dat de jeugdhulp uitvoert namens de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum Jeugd en Gezin (CJG) Moerdijk",
-        "omschrijving": "De jeugdprofessionals van het CJG geven advies en lichte hulp. Zij onderzoeken ook of uw kind specialistische jeugdhulp nodig heeft, maken met u een gezinsplan en regelen de hulp. U meldt u zelf aan, een verwijzing is niet nodig. Voor specialistische hulp kiest u een zorgaanbieder die een contract heeft met de gemeente.",
+        "omschrijving": "De jeugdprofessionals van het CJG geven advies en lichte hulp. Is specialistische jeugdhulp nodig, dan maken zij met u een gezinsplan; op basis daarvan besluit de gemeente. U kiest dan een zorgaanbieder met een contract, en de jeugdprofessional houdt contact als het niet goed gaat.",
         "stappen": [
           "Meld u aan bij het CJG: telefonisch, per e-mail of via het online formulier \"Mijn ondersteuning Moerdijk\".",
-          "Een jeugdprofessional nodigt u uit voor een intakegesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE West-Brabant.",
-          "Is specialistische hulp nodig? Dan maakt u samen een gezinsplan. Daarin staan de afspraken over de hulp.",
-          "Na het besluit van de gemeente kiest u een zorgaanbieder met een contract. De jeugdprofessional blijft contact houden als er iets niet goed gaat met de hulp.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een schriftelijk besluit."
+          "Een jeugdprofessional nodigt u uit voor een intakegesprek. U mag iemand meenemen, bijvoorbeeld een cliëntondersteuner van MEE West-Brabant.",
+          "Is specialistische hulp nodig, dan maakt u samen een gezinsplan en krijgt u een schriftelijk besluit van de gemeente."
         ],
         "contact": [
           {
@@ -32,16 +30,17 @@
             "url": "https://meewestbrabant.nl/voor-inwoners-clienten/onafhankelijke-clientondersteuning/",
             "openingstijden": "Werkdagen 9.00–13.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Volgens het jaarverslag 2025 duurt het van aanmelding tot intake bij het CJG 6 tot 8 weken. Vraag bij uw aanmelding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. De jeugdarts werkt voor TWB (kinderen van 0 tot 4 jaar) of de GGD West-Brabant (4 tot 19 jaar). Het CJG is aangesloten op het digitale verwijssysteem van de huisartsen (ZorgDomein). Zo kan de huisarts u makkelijker naar het CJG verwijzen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Via ZorgDomein, het digitale verwijssysteem, kan de huisarts u makkelijk naar het CJG verwijzen. De jeugdarts werkt voor TWB (0 tot 4 jaar) of de GGD West-Brabant (4 tot 19 jaar).",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts verwijst u naar het CJG of naar een aanbieder die een contract heeft met de gemeente.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar het CJG of naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -62,11 +61,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Heeft uw kind op school extra ondersteuning nodig? Begin dan bij de leerkracht, mentor of intern begeleider. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Via school kunt u ook de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg bereiken. Voor vragen over opvoeden en opgroeien kunt u ook rechtstreeks naar het CJG.",
+        "omschrijving": "Begin bij school als uw kind daar extra ondersteuning nodig heeft. Via school bereikt u ook de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om de naam van de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg, of neem zelf contact op.",
-          "Meld u aan bij het CJG als u hulp bij opvoeden of opgroeien wilt.",
+          "Vraag school naar de jeugdarts of jeugdverpleegkundige, of neem zelf contact op.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -94,10 +92,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in West-Brabant West zijn, staat op de crisispagina van de jeugdhulpregio.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in uw regio op de crisispagina van Jeugdhulp West-Brabant West."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Jeugdhulp West-Brabant West: crisis",

@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Zeeland",
   "websiteJeugd": "https://www.reimerswaal.nl/lokaal-team",
   "toegang": {
-    "samenvatting": "In Reimerswaal gaat u met vragen over opgroeien en opvoeden naar het Lokaal team. Sinds 1 oktober 2025 is het Centrum voor Jeugd en Gezin (CJG) daarin opgegaan. Het team is er voor alle leeftijden, met onder meer medewerkers jeugd, jongerenwerkers en buurtwerkers. U belt of mailt zelf, een verwijzing is niet nodig. Is specialistische hulp nodig? Dan neemt de gemeente een besluit (beschikking). Ook de huisarts, jeugdarts en medisch specialist mogen verwijzen, bij voorkeur via het Lokaal team. Hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden. Vraag dat bij uw melding.",
+    "samenvatting": "In Reimerswaal belt of mailt u zonder verwijzing het Lokaal team, waarin sinds 1 oktober 2025 ook het Centrum voor Jeugd en Gezin is opgegaan. Ook de huisarts, jeugdarts of medisch specialist mag verwijzen, bij voorkeur naar het Lokaal team.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Lokaal team Reimerswaal",
-        "omschrijving": "Het Lokaal team is het eerste aanspreekpunt van de gemeente voor vragen over opgroeien, opvoeden, zorg en welzijn. U meldt zich zelf aan. Het team kijkt breed naar uw vraag, geeft tips en denkt mee. Ook helpt het team met lichte hulp zonder besluit. Is jeugdhulp met een besluit nodig? Dan doet u of uw kind schriftelijk een aanvraag bij de gemeente. De gemeente kijkt dan eerst wat u zelf, uw netwerk of andere voorzieningen kunnen doen.",
+        "omschrijving": "Het Lokaal team is er voor alle leeftijden, met onder meer medewerkers jeugd, jongerenwerkers en buurtwerkers. Het team denkt mee, geeft tips en biedt lichte hulp zonder besluit. Voor jeugdhulp met een besluit (beschikking) doet u of uw kind schriftelijk een aanvraag bij de gemeente.",
         "stappen": [
-          "Neem contact op met het Lokaal team, bij voorkeur telefonisch of per e-mail.",
-          "Bespreek uw vraag met de medewerker jeugd. Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan. U mag zelf een familiegroepsplan schrijven: een plan waarin u met uw netwerk zelf oplossingen noemt.",
-          "Is specialistische jeugdhulp nodig? Vraag de gemeente dan schriftelijk om een besluit (beschikking).",
-          "Vraag na het gesprek om een schriftelijk verslag."
+          "Neem contact op met het Lokaal team, het liefst telefonisch of per e-mail.",
+          "Bespreek uw vraag met de medewerker jeugd. U mag iemand meenemen, en u mag met uw netwerk zelf een familiegroepsplan schrijven.",
+          "Is specialistische jeugdhulp nodig? Vraag de gemeente dan schriftelijk om een besluit (beschikking)."
         ],
         "contact": {
           "naam": "Lokaal team Reimerswaal",
@@ -24,16 +22,17 @@
           "email": "lokaalteam@reimerswaal.nl",
           "url": "https://www.reimerswaal.nl/lokaal-team",
           "openingstijden": "Telefonisch ma t/m do 8.30–16.30 uur, vr 8.30–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt tot een eerste gesprek, is niet openbaar. Vraag het bij uw melding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Lokaal team. Wel verwijzen zij bij voorkeur naar het Lokaal team, via hun verwijssysteem ZorgDomein. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD Zeeland.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag verwijzen naar het Lokaal team of naar een aanbieder met een contract bij de regio. Zij verwijzen bij voorkeur naar het Lokaal team, via hun verwijssysteem ZorgDomein.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar het Lokaal team of naar een aanbieder met een contract bij de regio.",
-          "Ga met de verwijzing naar het Lokaal team of de aanbieder. Een aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Zeeland.",
+          "Vraag om een verwijzing naar het Lokaal team of naar een aanbieder met een contract.",
+          "Gaat u naar een aanbieder, dan meldt die de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -53,12 +52,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met school. Medewerkers jeugd en jongerenwerkers van het Lokaal team werken samen met scholen. Komt u er met school niet uit? Dan helpt het Zeeland ouder- en jeugdsteunpunt bij vragen over passend onderwijs. Voor de basisschool is het samenwerkingsverband passend onderwijs Kind op 1.",
+        "omschrijving": "Medewerkers jeugd en jongerenwerkers van het Lokaal team werken samen met scholen. Voor de basisschool is het samenwerkingsverband passend onderwijs Kind op 1.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht of de intern begeleider.",
-          "Vraag school welke extra ondersteuning mogelijk is en leg afspraken schriftelijk vast.",
-          "Komt u er met school niet uit? Vraag advies bij het Zeeland ouder- en jeugdsteunpunt.",
-          "Is meer hulp nodig buiten school? Neem dan contact op met het Lokaal team."
+          "Bespreek uw zorgen met de leerkracht of intern begeleider, en vraag welke extra ondersteuning mogelijk is.",
+          "Komt u er met school niet uit? Vraag advies bij het Zeeland ouder- en jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -83,10 +80,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveilige situaties of een psychische crisis die niet kan wachten, buiten de gewone route om.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de website van Veilig Thuis Zeeland, dag en nacht bereikbaar."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Zeeland",

@@ -5,19 +5,17 @@
   "jeugdzorgregio": "Midden-Limburg Oost",
   "websiteJeugd": "https://www.gemeentemaasgouw.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Maasgouw loopt de toegang tot jeugdhulp via het Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML). Dat is één organisatie voor zeven gemeenten, met een eigen locatie in Maasbracht. U meldt zich zelf aan, een verwijzing is niet nodig. Het CJG geeft gratis advies en lichte hulp. Is meer hulp nodig, dan neemt het CJG ook het besluit (de beschikking) over specialistische jeugdhulp. Jongeren en jongvolwassenen kunnen ook terecht bij het Sociaal wijkteam van de gemeente. De huisarts mag ook rechtstreeks verwijzen. Bij huisartsen werkt een praktijkondersteuner jeugd van het CJG. Hoe lang het duurt voordat hulp start, is niet openbaar te vinden. Cliënten noemen lange wachttijden als aandachtspunt. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Maasgouw meldt u zich bij het Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML), met een locatie in Maasbracht; jongeren en jongvolwassenen kunnen ook naar het Sociaal wijkteam. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML) en Sociaal wijkteam",
-        "omschrijving": "Het CJG-ML is de plek voor alle vragen over opvoeden en opgroeien, van eenvoudig tot complex. Is hulp van een aanbieder nodig, dan zoekt het CJG samen met u de passende hulp en geeft het de beschikking (het besluit van de gemeente) af. Het Sociaal wijkteam is er voor alle inwoners, dus ook voor jongeren en jongvolwassenen met vragen over bijvoorbeeld geld, school of psychische hulp. Het team houdt ook spreekuur bij drie huisartsenpraktijken, alleen voor patiënten van die praktijk.",
+        "omschrijving": "Het CJG-ML werkt voor zeven gemeenten en helpt bij alle vragen over opvoeden en opgroeien. Het geeft zelf gratis advies en lichte hulp, en neemt het besluit (beschikking) over specialistische jeugdhulp. Het Sociaal wijkteam helpt ook jongeren en jongvolwassenen met bijvoorbeeld geld, school of psychische hulp, en houdt spreekuur bij drie huisartsenpraktijken (alleen voor eigen patiënten).",
         "stappen": [
-          "Bel of mail het CJG-ML met uw vraag. U kunt ook een afspraak maken op de locatie in Maasbracht.",
-          "Het CJG kijkt samen met u wat nodig is. Is lichte hulp genoeg, dan krijgt u die van het CJG zelf.",
-          "Is specialistische hulp nodig? Dan geeft het CJG een beschikking af. Met die beschikking kan de aanbieder starten.",
-          "U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag en om de beschikking.",
-          "Is uw vraag breder dan opvoeden, bijvoorbeeld geld, wonen of psychische hulp voor een jongere? Loop dan binnen bij het Sociaal wijkteam of neem contact op."
+          "Bel of mail het CJG-ML, of maak een afspraak op de locatie in Maasbracht.",
+          "Bespreek samen wat nodig is. U mag iemand meenemen. Lichte hulp krijgt u van het CJG zelf.",
+          "Is specialistische hulp nodig, dan krijgt u een beschikking. Daarmee kan de aanbieder starten.",
+          "Gaat uw vraag ook over geld, wonen of psychische hulp voor een jongere? Loop binnen bij het Sociaal wijkteam."
         ],
         "contact": [
           {
@@ -34,16 +32,17 @@
             "adres": "Inloopspreekuur in Sociaal Maatschappelijk Centrum De Spil, Suikerdoossingel 49, Maasbracht",
             "openingstijden": "Maandag t/m donderdag 9.00–12.00 uur, vrijdag gesloten"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat hulp start, is niet openbaar; cliënten noemen lange wachttijden als aandachtspunt. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeenten hebben ingekocht. Dit is een gelijkwaardige route naast het CJG. De gemeente zet bij huisartsen een praktijkondersteuner jeugd van het CJG in. Daar kunt u vragen over opvoeden en opgroeien en klachten van uw kind eerder bespreken.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp die de gemeenten hebben ingekocht. Bij huisartsen werkt een praktijkondersteuner jeugd van het CJG, bij wie u vragen over opvoeden, opgroeien en klachten van uw kind eerder kunt bespreken.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de praktijkondersteuner jeugd of het CJG doorverwijzen, of direct naar een aanbieder met een contract.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts kan u doorsturen naar de praktijkondersteuner jeugd of het CJG, of direct naar een aanbieder met een contract.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -63,12 +62,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Volgens het Nederlands Jeugdinstituut heeft elke school in Midden-Limburg een vaste contactpersoon van het CJG, een jeugd- en gezinswerker. Die denkt mee met ouders, leerlingen en leraren. Komt u er met school niet uit over de ondersteuning van uw kind, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat is er voor basisonderwijs en voortgezet onderwijs apart.",
+        "omschrijving": "Volgens het Nederlands Jeugdinstituut heeft elke school in Midden-Limburg een vaste contactpersoon van het CJG: een jeugd- en gezinswerker. Die denkt mee met ouders, leerlingen en leraren.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de jeugd- en gezinswerker van het CJG kan meedenken, of neem zelf contact op met het CJG.",
-          "Is meer hulp nodig, dan loopt de aanvraag via het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de jeugd- en gezinswerker van het CJG kan meedenken. Is meer hulp nodig, dan loopt de aanvraag via het CJG.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband (apart voor basis- en voortgezet onderwijs)."
         ],
         "contact": [
           {
@@ -95,10 +93,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst voor jeugd er in Midden-Limburg is, staat op de pagina Jeugdhulp van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst jeugd in Maasgouw bij het kopje Zorgelijke situatie of crisis op de pagina Jeugdhulp van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Maasgouw: Jeugdhulp, Zorgelijke situatie of crisis",

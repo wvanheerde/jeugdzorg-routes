@@ -5,34 +5,33 @@
   "jeugdzorgregio": "Noord-Limburg",
   "websiteJeugd": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/opvoeden-en-opgroeien",
   "toegang": {
-    "samenvatting": "In Beesel is de gezinscoach de eerste ingang. Gezinscoaches werken voor de gemeente. Zij helpen gratis bij vragen over opvoeden en opgroeien, en u hebt geen verwijzing nodig. U kunt zich zelf aanmelden, bijvoorbeeld online via MijnZorg Beesel. Samen met u maakt de gezinscoach een plan en regelt de hulp. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een eerste gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Beesel meldt u zich zelf bij de gezinscoaches van de gemeente, bijvoorbeeld online via MijnZorg Beesel. U kunt ook via de huisarts, jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Gezinscoaches van de gemeente Beesel",
-        "omschrijving": "De gezinscoaches werken bij de gemeente. Zij kijken samen met u welke hulp nodig is, maken een plan en verwijzen zo nodig naar een zorgorganisatie. Zij blijven dan op de achtergrond betrokken. U meldt zich zelf aan, een verwijzing is niet nodig. De hulp van de gezinscoach is gratis. De gezinscoach kan zelf advies, tips en begeleiding voor een bepaalde periode geven. Hulp van een zorgaanbieder vraagt u aan via een plan met de gezinscoach.",
+        "omschrijving": "De gezinscoach geeft zelf gratis advies en begeleiding voor een bepaalde periode. Is meer nodig, dan maakt u samen een plan en regelt de gezinscoach hulp bij een zorgaanbieder. De gezinscoach blijft dan op de achtergrond betrokken.",
         "stappen": [
           "Meld u aan via MijnZorg Beesel, of bel of mail de gezinscoaches. Een melding zonder DigiD kan ook.",
-          "Praat met de gezinscoach over uw vraag. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Maak samen een plan. Hierin staat welke hulp u nodig hebt. Vraag om een kopie van het plan.",
-          "Is specialistische hulp nodig? Dan regelt de gezinscoach de hulp bij een zorgaanbieder en krijgt u een schriftelijk besluit.",
-          "Komt u er niet uit met de gezinscoach? Neem dan contact op met Jeugdstem."
+          "Praat met de gezinscoach over uw vraag. U mag iemand meenemen.",
+          "Maak samen een plan en vraag om een kopie. Bij specialistische hulp krijgt u een schriftelijk besluit."
         ],
         "contact": {
           "naam": "Gezinscoaches gemeente Beesel",
           "telefoon": "077 474 9292",
           "email": "gezinscoach@beesel.nl",
           "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/gezinscoach"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een eerste gesprek krijgt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de gezinscoach.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de gemeente.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts te verwijzen naar een aanbieder met een contract bij de gemeente.",
-          "Doe zelf geen aanvraag: de aanbieder meldt de start van de hulp bij de gemeente."
+          "Vraag de arts u te verwijzen naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -43,11 +42,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is vaak de plek waar zorgen als eerste opvallen. De gezinscoaches werken samen met scholen. Komt u er met school niet uit over de ondersteuning van uw kind, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Welk samenwerkingsverband bij u hoort, hangt af van de school van uw kind.",
+        "omschrijving": "De gezinscoaches werken samen met scholen. Welk samenwerkingsverband bij u hoort, hangt af van de school van uw kind.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school de gezinscoach kan betrekken, of meld u zelf aan bij de gezinscoaches.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de school de gezinscoach kan betrekken.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -78,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er zijn voor een gezin in Beesel, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor Veilig opgroeien en Crisishulp Jeugd op de pagina Opvoeden en opgroeien van de gemeente Beesel."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Beesel: Opvoeden en opgroeien (veilig opgroeien en crisishulp jeugd)",

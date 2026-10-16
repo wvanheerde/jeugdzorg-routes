@@ -4,17 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.kernpuntnederbetuwe.nl/is/een-vraag-over/opvoeding-en-gezin/gezond-opgroeien/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Neder-Betuwe is het Kernpunt de ingang voor alle vragen over opvoeden en opgroeien, zorg, werk en wonen. Het Kernpunt is onderdeel van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Het Kernpunt kijkt eerst samen met u naar oplossingen dichtbij huis. Bij ingewikkelde vragen schakelt het het Sociaal Team in, met onder meer deskundigen op het gebied van opvoeding. Ook de huisarts mag rechtstreeks verwijzen. Sinds september 2026 werkt er een Ondersteuner Jeugd en Gezin bij de huisartsen. Uiterlijk 1 januari 2028 wil de gemeente één sterk lokaal team hebben; dat kan de toegang veranderen. Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Neder-Betuwe meldt u zich zonder verwijzing bij het Kernpunt van de gemeente, voor alle vragen over opvoeden en opgroeien. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Kernpunt Neder-Betuwe (met het Sociaal Team)",
-        "omschrijving": "Het Kernpunt is onderdeel van de gemeente. De medewerkers beoordelen of uw kind jeugdhulp nodig heeft en regelen de hulp. Bij lichte vragen krijgt u meteen antwoord of hoort u waar u terechtkunt. Ingewikkelde vragen en situaties met meerdere problemen pakt het Sociaal Team op. Gaat het ook om onveiligheid? Dan werkt het regieteam van de gemeente mee. U meldt zich zelf aan.",
+        "omschrijving": "Bij lichte vragen krijgt u bij het Kernpunt meteen antwoord of hoort u waar u terechtkunt. Ingewikkelde vragen pakt het Sociaal Team op, met deskundigen op het gebied van opvoeding; bij onveiligheid werkt het regieteam van de gemeente mee.",
         "stappen": [
-          "Bel het Kernpunt, stuur een e-mail of loop binnen op het spreekuur van het Kernpunt.",
-          "Zoek samen met het Kernpunt naar oplossingen dichtbij huis. Het gesprek is meestal bij u thuis (huisbezoek). Soms zijn meer gesprekken nodig.",
-          "Neem iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner. Vraag na het gesprek om het gespreksverslag. U mag erop reageren.",
-          "Vraag specialistische hulp aan met het aanvraagformulier van de gemeente als die nodig is. U krijgt een ontvangstbevestiging en daarna een schriftelijk besluit (beschikking)."
+          "Bel het Kernpunt, stuur een e-mail of loop binnen op het spreekuur.",
+          "Bespreek samen, meestal bij u thuis, welke oplossingen er dichtbij huis zijn. U mag iemand meenemen en op het gespreksverslag reageren.",
+          "Vraag specialistische hulp aan met het aanvraagformulier van de gemeente. U krijgt een ontvangstbevestiging en daarna een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Kernpunt Neder-Betuwe (gemeente)",
@@ -23,17 +22,17 @@
           "url": "https://www.kernpuntnederbetuwe.nl/is/kernpunten/contact",
           "adres": "Burgemeester Lodderstraat 20, Opheusden",
           "openingstijden": "Telefonisch ma t/m vr 9.00–12.00 uur. Spreekuur zonder afspraak donderdag 17.00–19.30 uur in het gemeentehuis van Opheusden"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek krijgt, is niet openbaar te vinden. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Kernpunt. Bij de huisartsen houdt een Ondersteuner Jeugd en Gezin spreekuur. Die hoort bij het lokale team van de gemeente en helpt bij vragen over opvoeden, opgroeien en psychische klachten.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Sinds september 2026 houdt een Ondersteuner Jeugd en Gezin van het lokale team spreekuur bij de huisartsen, voor vragen over opvoeden, opgroeien en psychische klachten. Kiest u een aanbieder zonder contract, dan wordt de hulp niet altijd vergoed; vraag dat vooraf na.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts verwijst u naar een aanbieder met een contract van de gemeente, of eerst naar de Ondersteuner Jeugd en Gezin voor een paar gesprekken en advies.",
-          "Vraag vooraf bij het Kernpunt of de huisarts na of de hulp wordt vergoed als u een aanbieder zonder contract kiest. Dat is niet altijd zo.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf niets aan te vragen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u naar een aanbieder met een contract, of eerst naar de Ondersteuner Jeugd en Gezin voor een paar gesprekken.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Zuid",
@@ -46,12 +45,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen werkt een Ondersteuningsteam met een medewerker van het Kernpunt, de intern begeleider van school en iemand van de jeugdgezondheidszorg. Samen met u maken zij een ondersteuningsplan. Komt u er met school niet uit? Dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs: BePO voor de basisschool, SWV Rivierenland voor de middelbare school.",
+        "omschrijving": "Op de basisscholen werkt een Ondersteuningsteam met een medewerker van het Kernpunt, de intern begeleider en iemand van de jeugdgezondheidszorg. Samen met u maken zij een ondersteuningsplan. Het ouder- en jeugdsteunpunt is van BePO voor de basisschool en van SWV Rivierenland voor de middelbare school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of het Ondersteuningsteam van de school uw kind kan bespreken. U doet daar zelf aan mee.",
-          "Meld u zelf bij het Kernpunt als meer hulp nodig is.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband van de school van uw kind."
+          "Vraag of het Ondersteuningsteam uw kind kan bespreken. U doet daar zelf aan mee.",
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -85,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdiensten er verder zijn, ook buiten kantoortijden, staat op de pagina Snel hulp nodig van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten voor jeugd op de pagina Snel hulp nodig van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Neder-Betuwe: Snel hulp nodig?",
@@ -207,7 +204,7 @@
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-13",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Kernpunt Neder-Betuwe: Contact",

@@ -4,18 +4,16 @@
   "provincie": "Gelderland",
   "websiteJeugd": "https://www.oldebroek.nl/Inwoners/Jeugd_en_onderwijs/Jeugdhulp",
   "toegang": {
-    "samenvatting": "In Oldebroek is het Centrum voor Jeugd en Gezin (CJG) in Wezep de eerste plek voor jeugdhulp. U meldt zich zelf aan en hebt geen verwijzing nodig. Het CJG geeft gratis advies over opvoeden en opgroeien. Is meer hulp nodig, dan regelt het CJG de specialistische jeugdhulp. U kunt ook via de huisarts, de jeugdarts of de medisch specialist gaan. Het Sociaal Team van de gemeente is er vooral voor volwassenen. Voor vragen over kinderen verwijst de gemeente naar het CJG. In 2025 liep de aanmeldlijst (wachtlijst) van het CJG op tot zes maanden. Volgens de gemeente is die sinds februari 2026 weer korter, maximaal drie maanden. Vraag bij uw melding hoe lang het nu duurt.",
+    "samenvatting": "In Oldebroek meldt u zich voor jeugdhulp bij het Centrum voor Jeugd en Gezin (CJG) in Wezep, niet bij het Sociaal Team. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin (CJG) Oldebroek",
-        "omschrijving": "Het CJG is de toegang tot jeugdhulp in Oldebroek. Jeugd- en gezinswerkers kijken met u wat uw gezin zelf kan en wat er nodig is. Voor lichte vragen geeft het CJG advies en cursussen. Specialistische of langdurige hulp, zoals therapie of hulp aan huis, regelt het CJG samen met u. Zonder toestemming van het CJG vergoedt de gemeente die hulp niet. In het CJG werken Stichting Jeugd Noord-Veluwe, Icare Jeugdgezondheidszorg en de GGD samen. Het CJG zit in De Brinkhof in Wezep en is er voor alle inwoners van de gemeente.",
+        "omschrijving": "In het CJG werken Stichting Jeugd Noord-Veluwe, Icare Jeugdgezondheidszorg en de GGD samen; het zit in De Brinkhof in Wezep. Voor lichte vragen geeft het CJG gratis advies en cursussen. Specialistische of langdurige hulp, zoals therapie of hulp aan huis, regelt het CJG met u; zonder toestemming van het CJG vergoedt de gemeente die niet.",
         "stappen": [
-          "Bel het CJG, mail, loop binnen of stel uw vraag via Mijn jeugddossier (met DigiD).",
-          "Vraag meteen hoe lang het duurt voordat u een gesprek hebt.",
-          "Bespreek in het gesprek wat uw gezin nodig heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag om een schriftelijk verslag. Is specialistische hulp nodig, dan regelt het CJG die.",
-          "Bent u het niet eens met een besluit over uw aanvraag? Maak dan bezwaar bij de gemeente."
+          "Bel of mail het CJG, loop binnen of stel uw vraag via Mijn jeugddossier (met DigiD).",
+          "Bespreek in het gesprek wat uw gezin nodig heeft. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan regelt het CJG die."
         ],
         "contact": [
           {
@@ -32,16 +30,17 @@
             "email": "info@meesamen.nl",
             "url": "https://www.meesamen.nl/mee-in-jouw-gemeente/oldebroek"
           }
-        ]
+        ],
+        "doorlooptijd": "In 2025 liep de aanmeldlijst van het CJG op tot zes maanden; volgens de gemeente is die sinds februari 2026 maximaal drie maanden. Vraag bij uw melding hoe lang het nu duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. De jeugdarts werkt voor kinderen van 0 tot 4 jaar bij Icare Jeugdgezondheidszorg (het consultatiebureau) en voor kinderen van 4 tot 18 jaar bij de GGD Noord- en Oost-Gelderland. Beide werken vanuit het CJG.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt voor 0 tot 4 jaar bij Icare Jeugdgezondheidszorg (consultatiebureau) en voor 4 tot 18 jaar bij de GGD Noord- en Oost-Gelderland, allebei vanuit het CJG.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van het consultatiebureau of de GGD.",
           "De arts verwijst naar een aanbieder met een contract bij de gemeente.",
-          "Neem met de verwijzing contact op met de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Neem met de verwijzing contact op met de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -62,11 +61,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan met u meedenken over leren, gedrag of welzijn. Het CJG denkt ook mee over vragen over passend onderwijs en verwijst door als dat nodig is. Alle scholen hebben een contactpersoon bij het CJG. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs Hanzeland.",
+        "omschrijving": "Alle scholen hebben een contactpersoon bij het CJG. Het CJG denkt ook mee over vragen over passend onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school het CJG kan betrekken, of meld u zelf bij het CJG.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
+          "Vraag of de school het CJG kan betrekken.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van samenwerkingsverband Hanzeland."
         ],
         "contact": [
           {
@@ -87,10 +86,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij huiselijk geweld en kindermishandeling op de pagina van de gemeente Oldebroek."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Oldebroek: huiselijk geweld en/of kindermishandeling",

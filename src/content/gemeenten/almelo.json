@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Twente",
   "websiteJeugd": "https://www.almelo.nl/jeugd-en-onderwijs/instanties-en-jeugdhulp",
   "toegang": {
-    "samenvatting": "In Almelo vraagt u hulp aan bij een van de vier wijkteams: Noord, Oost, Zuid en West. Welk team bij u hoort, hangt af van uw postcode. De wijkteams zijn van de gemeente. U kunt zonder afspraak naar het inloopspreekuur, of u belt de gemeente. Voor lichte opvoedvragen is er ook Loes, de vraagbaak voor ouders. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar een aanbieder met een contract. Gaat het om specialistische hulp zonder verwijzing van een arts? Dan neemt de gemeente een besluit.",
+    "samenvatting": "In Almelo meldt u zich bij het wijkteam van de gemeente voor uw postcode: Noord, Oost, Zuid of West. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteam (Noord, Oost, Zuid en West)",
-        "omschrijving": "Het wijkteam helpt bij vragen over opvoeden, opgroeien, zorg, geld en wonen. De hulp is gratis. Het team kijkt eerst samen met u wat u en uw netwerk zelf kunnen, en welke hulp er in de buurt is. Is specialistische jeugdhulp nodig, dan neemt de gemeente een besluit (beschikking). U mag een onafhankelijke cliëntondersteuner meenemen.",
+        "omschrijving": "Het wijkteam helpt gratis bij vragen over opvoeden, opgroeien, zorg, geld en wonen. Samen kijkt u wat u en uw netwerk zelf kunnen en welke hulp er in de buurt is. Voor lichte opvoedvragen is er ook Loes, de vraagbaak voor ouders.",
         "stappen": [
-          "Zoek op de wijkteampagina welk team bij uw postcode hoort. Loop binnen bij het inloopspreekuur (9.00-12.00 uur, zonder afspraak). Of bel de gemeente.",
-          "Vertel wat er speelt en wat u al heeft geprobeerd. Vraag wat het team zelf kan doen en welke hulp in de buurt past.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig? Vraag dan om een beschikking: het besluit van de gemeente over welke hulp u krijgt, hoeveel en hoe lang.",
-          "Bent u het niet eens met het besluit? Maak bezwaar. Bent u niet tevreden over hoe u bent behandeld? Dien een klacht in."
+          "Zoek op de wijkteampagina welk team bij uw postcode hoort. Loop binnen bij het inloopspreekuur (9.00-12.00 uur, zonder afspraak) of bel de gemeente.",
+          "Vertel wat er speelt en wat u al heeft geprobeerd. U mag iemand meenemen.",
+          "Is specialistische hulp nodig? Dan krijgt u een besluit (beschikking) van de gemeente over welke hulp, hoeveel en hoe lang."
         ],
         "contact": {
           "naam": "Gemeente Almelo (wijkteams)",
@@ -28,11 +27,11 @@
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. De gemeente betaalt alleen hulp van aanbieders met een contract. Wilt u naar een aanbieder zonder contract? Vraag dan eerst de gemeente om een besluit.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente betaalt alleen hulp van aanbieders met een contract. Voor een aanbieder zonder contract vraagt u eerst de gemeente om een besluit.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD Twente.",
-          "Vraag om een verwijzing naar een aanbieder met een contract. U vindt die aanbieders in de Beschikbaarheidswijzer.",
-          "Ga met de verwijzing naar de aanbieder. De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Twente.",
+          "Vraag om een verwijzing naar een aanbieder met een contract. Die vindt u in de Beschikbaarheidswijzer.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -43,11 +42,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Hebt u zorgen over leren, gedrag of schoolgang? Bespreek dat met de leerkracht, mentor of intern begeleider. Voor kinderen vanaf 5 jaar kunt u ook terecht bij de jeugdarts van de GGD Twente (de schoolarts). School kan u helpen om contact te leggen met het wijkteam.",
+        "omschrijving": "School kan helpen bij zorgen over leren, gedrag of schoolgang en contact leggen met het wijkteam. Voor kinderen vanaf 5 jaar is er ook de jeugdarts van GGD Twente (de schoolarts). Avedan heeft jeugdcoaches voor kinderen en jongeren van 6 tot 21 jaar.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school om contact met het wijkteam, of meld u zelf aan bij het inloopspreekuur.",
-          "Vraag naar een jeugdcoach als uw kind die nodig heeft. Avedan heeft jeugdcoaches voor kinderen en jongeren van 6 tot 21 jaar in Almelo.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Heeft uw kind een jeugdcoach nodig? Meld u zelf aan bij Avedan; school of een andere verwijzer kan dat ook.",
           "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
@@ -86,10 +84,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Almelo op de pagina Huiselijk geweld van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Almelo: Huiselijk geweld",
@@ -366,7 +363,7 @@
     }
   },
   "meta": {
-    "laatstGecontroleerd": "2026-10-11",
+    "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
       {
         "titel": "Gemeente Almelo - Instanties voor jeugd en jeugdhulp",

@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Twente",
   "websiteJeugd": "https://www.enschede.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Enschede zijn de Wijkteams Enschede (een samenwerking van de gemeente en Stichting Maatschappelijke Dienstverlening) de gemeentelijke toegang tot jeugdhulp. U bereikt het wijkteam via de Wijkwijzer: één telefoonnummer en tien inlooppunten verspreid over de stadsdelen. De Wijkwijzer maakt zo nodig een afspraak met een wijkteammedewerker, die met u onderzoekt wat nodig is en lichte hulp steeds vaker zelf biedt (Hulp om de Hoek). Huisarts, jeugdarts van GGD Twente en medisch specialist mogen rechtstreeks verwijzen naar gecontracteerde jeugdhulp; in 2025 startte 41 procent van de trajecten via een arts. Let op: bij een verwijzing door een arts stuurt de gemeente alleen een beschikking als u daarom vraagt.",
+    "samenvatting": "In Enschede meldt u zich bij de Wijkteams Enschede via de Wijkwijzer: één telefoonnummer en tien inlooppunten. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Wijkteams Enschede (via de Wijkwijzer)",
-        "omschrijving": "Gemeentelijk toegangsteam voor jeugdhulp en Wmo, zonder verwijzing en zonder kosten. Negen wijkteams in vijf stadsdelen; de Wijkwijzer is het eerste aanspreekpunt en plant de afspraak met het wijkteam. De wijkteammedewerker biedt zelf gesprekken, trainingen of groepsbegeleiding en zet zo nodig specialistische jeugdhulp in (zorg in natura of pgb). Als het wijkteam jeugdhulp inzet, ontvangt u altijd een beschikking.",
+        "omschrijving": "Er zijn negen wijkteams in vijf stadsdelen, van de gemeente en Stichting Maatschappelijke Dienstverlening. De wijkteammedewerker geeft steeds vaker zelf lichte hulp (Hulp om de Hoek), zoals gesprekken, trainingen of groepsbegeleiding. Is specialistische jeugdhulp nodig, dan regelt het wijkteam die en krijgt u altijd een beschikking.",
         "stappen": [
-          "Bel de Wijkwijzer (werkdagen 9.00–16.00 uur), loop binnen bij een van de tien Wijkwijzers of stel uw vraag via het contactformulier van de wijkteams.",
-          "De Wijkwijzer helpt u direct of maakt een afspraak met een wijkteammedewerker; u mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "In het gesprek onderzoekt de wijkteammedewerker samen met u wat er nodig is en wat u zelf of uw omgeving kan doen. Daarna volgt een ondersteuningsplan.",
-          "Dient u een aanvraag in, dan krijgt u een ontvangstbevestiging en beslist de gemeente binnen 8 weken (verordening 2026, artikel 7). Bij jeugdhulp via het wijkteam ontvangt u een beschikking waartegen u bezwaar kunt maken."
+          "Bel de Wijkwijzer (werkdagen 9.00–16.00 uur), loop binnen bij een van de tien Wijkwijzers of gebruik het contactformulier.",
+          "De Wijkwijzer helpt u direct of plant een afspraak met een wijkteammedewerker. U mag iemand meenemen.",
+          "Onderzoek samen wat nodig is en maak een ondersteuningsplan."
         ],
         "contact": {
           "naam": "Wijkwijzer Enschede",
@@ -25,16 +24,16 @@
           "adres": "Laaressingel 61, 7514 EL Enschede (hoofdlocatie wijkteams); tien Wijkwijzer-inlooppunten per stadsdeel",
           "openingstijden": "Telefonisch werkdagen 9.00–16.00 uur; inlooptijden per Wijkwijzer op wijkwijzerenschede.nl"
         },
-        "doorlooptijd": "Beslissing op een aanvraag binnen 8 weken (4 weken bij spoed). De gemeente meldt zelf dat de wacht- en doorlooptijd tot een gesprek en tot de start van hulp een aandachtspunt is."
+        "doorlooptijd": "Op een aanvraag beslist de gemeente binnen 8 weken (4 weken bij spoed). De gemeente noemt de wachttijd tot een gesprek en tot de start van hulp zelf een aandachtspunt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar jeugdhulp die de veertien Twentse gemeenten gezamenlijk hebben ingekocht (Twents Model, via OZJT/Samen14), zonder tussenkomst van het wijkteam. Veel huisartsenpraktijken in Enschede werken samen met een wijkteammedewerker in de praktijk.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar een aanbieder met een contract bij de Twentse gemeenten. Veel huisartsen in Enschede werken samen met een wijkteammedewerker in de praktijk. Let op: bij een verwijzing door een arts krijgt u alleen een beschikking als u erom vraagt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts of jeugdverpleegkundige van GGD Twente.",
-          "De arts verwijst naar een door de regio gecontracteerde aanbieder; de aanbieder meldt de start van de hulp bij de gemeente.",
-          "De gemeente stuurt bij een verwijzing door een arts geen beschikking, tenzij u daarom vraagt. Vraag er wel om als u wilt kunnen bezwaar maken tegen de soort of omvang van de hulp."
+          "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van GGD Twente.",
+          "Vraag om een verwijzing. De aanbieder meldt de hulp bij de gemeente.",
+          "Wilt u bezwaar kunnen maken tegen de soort of omvang van de hulp? Vraag dan de gemeente om een beschikking."
         ],
         "contact": [
           {
@@ -55,11 +54,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Wijkteammedewerkers zijn aanwezig op scholen in Enschede. Bij zorgen rond leren of gedrag kan school de verbinding leggen met het wijkteam of de jeugdgezondheidszorg. Extra onderwijsondersteuning loopt via de samenwerkingsverbanden passend onderwijs Twente Oost (primair en voortgezet onderwijs).",
+        "omschrijving": "Wijkteammedewerkers werken op scholen in Enschede. Extra ondersteuning in de klas loopt via de samenwerkingsverbanden passend onderwijs Twente Oost.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School schakelt de aan school verbonden wijkteammedewerker of de jeugdverpleegkundige van GGD Twente in.",
-          "Voor ondersteuning in de klas of een toelaatbaarheidsverklaring vraagt school het samenwerkingsverband om advies."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Vraag school de wijkteammedewerker van school of de jeugdverpleegkundige van GGD Twente erbij te halen."
         ],
         "contact": [
           {
@@ -90,10 +88,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Enschede op de pagina Huiselijk geweld, kindermishandeling en mensenhandel van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Enschede: Huiselijk geweld, kindermishandeling en mensenhandel",

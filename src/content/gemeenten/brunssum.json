@@ -5,16 +5,15 @@
   "jeugdzorgregio": "Zuid-Limburg",
   "websiteJeugd": "https://www.brunssum.nl/Jeugd_en_Onderwijs/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Brunssum vraagt u jeugdhulp aan bij Team Jeugd van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. Ook de huisarts, de jeugdarts en de medisch specialist mogen rechtstreeks verwijzen. Op 26 oktober 2026 start in Brunssum Noord een pilot (proef van een jaar) met een wijkteam, waar inwoners met alle vragen over zorg en ondersteuning terechtkunnen. Hoe lang het duurt voordat Team Jeugd uw aanmelding oppakt, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Brunssum meldt u zich zonder verwijzing bij Team Jeugd van de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team Jeugd van de gemeente Brunssum",
-        "omschrijving": "Team Jeugd werkt voor de gemeente en helpt gezinnen met vragen over opvoeden en opgroeien. Het team bekijkt de hele situatie van het gezin en regelt zo nodig jeugdhulp. Een procesregisseur (medewerker die de hulp bewaakt) houdt overzicht. Vanaf 26 oktober 2026 loopt in Brunssum Noord een pilot met een wijkteam als eerste aanspreekpunt voor alle vragen over ondersteuning.",
+        "omschrijving": "Team Jeugd bekijkt de hele situatie van uw gezin en regelt zo nodig jeugdhulp. Een procesregisseur (medewerker die de hulp bewaakt) houdt overzicht. Vanaf 26 oktober 2026 loopt in Brunssum Noord een proef van een jaar met een wijkteam als eerste aanspreekpunt voor alle vragen over zorg en ondersteuning.",
         "stappen": [
           "Bel Team Jeugd, of stel uw vraag via het contactformulier jeugd van de gemeente.",
-          "Team Jeugd onderzoekt samen met u wat nodig is. U mag iemand meenemen naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Lees het schriftelijke verslag van het gesprek. Krijgt u het niet, vraag er dan om.",
+          "Team Jeugd onderzoekt samen met u wat nodig is. U mag iemand meenemen. Daarna krijgt u een schriftelijk verslag.",
           "Is specialistische jeugdhulp nodig, dan krijgt u een schriftelijk besluit (beschikking) van de gemeente."
         ],
         "contact": {
@@ -22,16 +21,17 @@
           "telefoon": "045 527 8630",
           "url": "https://www.brunssum.nl/Jeugd_en_Onderwijs/jeugdhulp",
           "openingstijden": "Telefonisch maandag t/m donderdag 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat Team Jeugd uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Team Jeugd. Bij de huisarts werkt ook een praktijkondersteuner jeugd, die samen met Team Jeugd en het CMWW (maatschappelijk werk en welzijnswerk in Brunssum) naar uw vraag kijkt.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisarts werkt ook een praktijkondersteuner jeugd, die samen met Team Jeugd en het CMWW (maatschappelijk werk en welzijnswerk in Brunssum) naar uw vraag kijkt.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Zuid-Limburg",
@@ -43,11 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek zorgen eerst met school. Komt u er niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs Heerlen Parkstad. Is meer hulp nodig, dan kunt u zich aanmelden bij Team Jeugd.",
+        "omschrijving": "Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs Heerlen Parkstad.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband.",
-          "Is er meer hulp nodig dan school kan bieden? Meld u aan bij Team Jeugd."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -66,10 +65,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst er in Zuid-Limburg voor jeugd is, staat op de pagina Jeugdhulp van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk bij \"Vragen en contact\" op de pagina Jeugdhulp van de gemeente voor de crisisdienst voor jeugd."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Brunssum: jeugdhulp, contact bij een jeugdcrisis",

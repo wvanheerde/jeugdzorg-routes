@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Alkmaar",
   "websiteJeugd": "https://www.bergen-nh.nl/aanvragen-en-regelen/onderwijs-en-jeugd",
   "toegang": {
-    "samenvatting": "In Bergen (Bergen, Egmond en Schoorl) vraagt u hulp bij het Sociaal Team van de gemeente. U hoeft niet eerst naar de huisarts en u heeft geen verwijzing nodig. Het team helpt ook bij vragen over opvoeden en opgroeien. Een jeugd- en gezinscoach of jeugdhulpmedewerker kan u en uw kind gratis helpen, thuis, op school of op een andere plek. Is er meer nodig, dan zorgt het team voor specialistische jeugdhulp. Die kopen de gemeenten in de regio Alkmaar samen in. De huisarts, de jeugdarts en de medisch specialist mogen ook rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Bergen, Egmond en Schoorl meldt u zich zonder verwijzing bij het Sociaal Team van de gemeente. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team Bergen",
-        "omschrijving": "Het Sociaal Team werkt voor alle inwoners en alle leeftijden en hoort bij de gemeente. Een jeugd- en gezinscoach of jeugdhulpmedewerker bekijkt met u welke hulp nodig is. Zo nodig regelt die specialistische jeugdhulp, met een besluit (beschikking) van de gemeente. U meldt zich zelf aan, een verwijzing is niet nodig. De gemeente wil dat u eerst kijkt naar steun uit uw eigen netwerk. Lukt dat niet, dan helpt het team.",
+        "omschrijving": "Een jeugd- en gezinscoach of jeugdhulpmedewerker van het Sociaal Team helpt u en uw kind gratis, thuis, op school of op een andere plek. Is meer nodig, dan regelt het team specialistische jeugdhulp, met een besluit (beschikking) van de gemeente. De gemeente vraagt u eerst te kijken naar steun uit uw eigen netwerk.",
         "stappen": [
-          "Loop binnen bij het inloopspreekuur van het Sociaal Team, zonder afspraak. U kunt ook bellen of mailen.",
-          "Vertel waar u zorgen over heeft. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Bekijk samen welke hulp past. Bij lichte vragen kan een jeugd- en gezinscoach u gratis helpen, hooguit één keer per week.",
-          "Vraag om een schriftelijk verslag van het gesprek. Is specialistische jeugdhulp nodig, dan regelt het team die. Vraag dan ook om het besluit op papier."
+          "Loop zonder afspraak binnen bij het inloopspreekuur, of bel of mail het Sociaal Team.",
+          "Vertel waar u zorgen over heeft. U mag iemand meenemen.",
+          "Bekijk samen welke hulp past. Bij lichte vragen helpt een jeugd- en gezinscoach u gratis, hooguit één keer per week."
         ],
         "contact": {
           "naam": "Sociaal Team Bergen",
@@ -23,16 +22,17 @@
           "email": "sociaalteambergen@debuch.nl",
           "url": "https://www.bergen-nh.nl/aanvragen-en-regelen/sociaal-team",
           "openingstijden": "Inloopspreekuur zonder afspraak: maandag 11.00–12.30 uur in de bibliotheek in Bergen, dinsdag 15.00–16.30 uur in PostaanZee in Egmond aan Zee, dinsdag 9.00–10.30 uur in De Blinkerd in Schoorl"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Bij de huisartsen in Bergen werkt ook een jeugdhulpmedewerker van het Sociaal Team. De jeugdarts werkt bij de jeugdgezondheidszorg (JGZ) van GGD Hollands Noorden, die ook het consultatiebureau doet.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij de huisartsen in Bergen werkt ook een jeugdhulpmedewerker van het Sociaal Team. De jeugdarts werkt bij GGD Hollands Noorden, die ook het consultatiebureau doet.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract van de gemeente. De huisarts kan u ook naar de jeugdhulpmedewerker verwijzen.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag een verwijzing naar de jeugdhulpmedewerker of naar een aanbieder met een contract van de gemeente.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hollands Noorden",
@@ -44,12 +44,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen in Bergen werkt een preventieconsulent van het Sociaal Team. Op de middelbare scholen is een vaste Jeugd- en Schoolcoach van het Sociaal Team aanwezig. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt JONK van het samenwerkingsverband passend onderwijs.",
+        "omschrijving": "Op de basisscholen werkt een preventiemedewerker van het Sociaal Team, op de middelbare scholen een vaste Jeugd- en Schoolcoach. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt JONK van het samenwerkingsverband.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de preventieconsulent of de Jeugd- en Schoolcoach van het Sociaal Team kan meedenken. U kunt ook zelf contact opnemen met het Sociaal Team.",
-          "Is meer hulp nodig, dan schakelt het Sociaal Team specialistische jeugdhulp in.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt JONK."
+          "Vraag of de preventiemedewerker of de Jeugd- en Schoolcoach kan meedenken.",
+          "Komt u er met school niet uit? Vraag advies bij JONK."
         ],
         "contact": [
           {
@@ -69,10 +68,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De landelijke nummers staan hieronder. Welke hulp er verder is bij kindermishandeling of huiselijk geweld, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor hulp bij kindermishandeling en huiselijk geweld op de pagina van de gemeente Bergen."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Bergen: kindermishandeling en huiselijk geweld",
@@ -127,7 +125,7 @@
       },
       {
         "naam": "Hulp op school",
-        "omschrijving": "Preventieconsulenten op de basisscholen en een vaste Jeugd- en Schoolcoach op de middelbare scholen. Daarnaast is er jongerenwerk.",
+        "omschrijving": "Preventiemedewerkers op de basisscholen en een vaste Jeugd- en Schoolcoach op de middelbare scholen. Daarnaast is er jongerenwerk.",
         "hulpsoorten": []
       },
       {
@@ -194,12 +192,12 @@
     }
   ],
   "ervaringen": {
-    "samenvatting": "De gemeente wil lichte hulp dichtbij bieden, vooral op school en bij de huisarts. Volgens de gemeente werken er preventieconsulenten op alle twaalf basisscholen, een vaste Jeugd- en Schoolcoach op de middelbare scholen en een jeugdhulpmedewerker bij de huisartsen. Het aantal jeugdigen met specialistische jeugdhulp daalde in 2025. Wat ouders van de jeugdhulp vinden en hoe lang de toegang duurt, is niet openbaar te vinden.\n\nBegin bij het Sociaal Team, of vraag op school naar de preventieconsulent of de Jeugd- en Schoolcoach. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, zoals het verslag van het gesprek en het besluit over de hulp. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over het Sociaal Team dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
+    "samenvatting": "De gemeente wil lichte hulp dichtbij bieden, vooral op school en bij de huisarts. Volgens de gemeente werken er preventiemedewerkers op alle twaalf basisscholen, een vaste Jeugd- en Schoolcoach op de middelbare scholen en een jeugdhulpmedewerker bij de huisartsen. Het aantal jeugdigen met specialistische jeugdhulp daalde in 2025. Wat ouders van de jeugdhulp vinden en hoe lang de toegang duurt, is niet openbaar te vinden.\n\nBegin bij het Sociaal Team, of vraag op school naar de preventiemedewerker of de Jeugd- en Schoolcoach. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, zoals het verslag van het gesprek en het besluit over de hulp. Neem een onafhankelijke cliëntondersteuner van Sylta mee. Een klacht over het Sociaal Team dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [
       {
         "soort": "gemeenteraad",
         "titel": "Meer hulp op school en bij de huisarts",
-        "samenvatting": "De gemeente meldde de raad dat er preventieconsulenten zijn op alle twaalf basisscholen. Een jeugdhulpmedewerker bij de huisarts moet het aantal verwijzingen naar specialistische jeugdhulp verminderen. Het gemiddelde aantal jeugdigen in zorg per halfjaar daalde in 2025 met 7 procent ten opzichte van 2024.",
+        "samenvatting": "De gemeente meldde de raad dat er preventiemedewerkers zijn op alle twaalf basisscholen. Een jeugdhulpmedewerker bij de huisarts moet het aantal verwijzingen naar specialistische jeugdhulp verminderen. Het gemiddelde aantal jeugdigen in zorg per halfjaar daalde in 2025 met 7 procent ten opzichte van 2024.",
         "datum": "2025-11-13",
         "bron": {
           "titel": "Presentatie Sociaal Domein: cijfers jeugd, Wmo en preventie",

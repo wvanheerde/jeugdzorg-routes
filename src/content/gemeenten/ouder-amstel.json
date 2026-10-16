@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Amsterdam-Amstelland",
   "websiteJeugd": "https://www.ouder-amstel.nl/Home/Jeugd/Jeugdhulp_in_de_gemeente",
   "toegang": {
-    "samenvatting": "In Ouder-Amstel is het Sociaal Loket het eerste aanspreekpunt voor jeugdhulp. Het loket hoort bij Duo+, de organisatie die het werk doet voor Diemen, Ouder-Amstel en Uithoorn. U kunt zelf bellen, mailen of langskomen. Een verwijzing is niet nodig. Heeft uw kind specialistische hulp nodig, dan maakt een klantmanager met u een plan: het perspectiefplan. Met dat plan kiest u een aanbieder. Ook de huisarts mag rechtstreeks verwijzen. Op de basisscholen werken ouder-kindcoaches voor vragen over opvoeden. Hoe lang u wacht op een gesprek, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Ouder-Amstel meldt u zich bij het Sociaal Loket van Duo+, de organisatie die het werk doet voor Diemen, Ouder-Amstel en Uithoorn. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Loket Ouder-Amstel",
-        "omschrijving": "Het Sociaal Loket bespreekt uw vraag en kijkt eerst wat u zelf, met uw omgeving of met lichte hulp kunt doen. Is specialistische jeugdhulp nodig, dan maakt een klantmanager met u een perspectiefplan. Daarin staan uw situatie, uw vragen en wat u wilt bereiken. Het Sociaal Team helpt gezinnen met meerdere problemen tegelijk. Daar kunt u zich niet zelf aanmelden: dat loopt via het Sociaal Loket of een hulpverlener.",
+        "omschrijving": "Het Sociaal Loket bespreekt uw vraag en kijkt eerst of lichte hulp past. Is specialistische jeugdhulp nodig, dan maakt een klantmanager met u een perspectiefplan; daarmee kiest u een aanbieder. Bij meerdere problemen tegelijk schakelt het loket het Sociaal Team in; daar meldt u zich niet zelf aan.",
         "stappen": [
           "Bel of mail het Sociaal Loket, of ga naar het inloopspreekuur in Duivendrecht.",
-          "Bespreek uw vraag. Het loket kijkt welke hulp past en schakelt zo nodig het Sociaal Team in.",
-          "Maak met de klantmanager een perspectiefplan als uw kind specialistische jeugdhulp nodig heeft. Neem gerust iemand mee, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Kies met het plan een zorgaanbieder. Het overzicht van aanbieders staat op de Beschikbaarheidswijzer.",
-          "Vraag om het perspectiefplan en de afspraken op papier."
+          "Maak met de klantmanager een perspectiefplan als uw kind specialistische jeugdhulp nodig heeft. U mag iemand meenemen.",
+          "Kies met het plan een zorgaanbieder. Het overzicht staat op de Beschikbaarheidswijzer."
         ],
         "contact": {
           "naam": "Sociaal Loket Ouder-Amstel",
@@ -24,16 +22,17 @@
           "email": "sociaal.loket@ouder-amstel.nl",
           "url": "https://www.ouder-amstel.nl/Home/Hulp_zorg_en_ondersteuning/Sociaal_Loket_Ouder_Amstel",
           "openingstijden": "Telefonisch ma t/m vr 9.00–10.30 uur. Inloopspreekuur donderdag 15.00–16.00 uur in het Dorpshuis in Duivendrecht"
-        }
+        },
+        "doorlooptijd": "Hoe lang u wacht op een gesprek, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Loket. Bij de huisartsen werkt een praktijkondersteuner jeugd-ggz voor kinderen met psychische klachten. De jeugdgezondheidszorg van GGD Amsterdam is er voor kinderen van 0 tot 18 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. Bij de huisartsen werkt een praktijkondersteuner jeugd-ggz voor kinderen met psychische klachten.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts of u eerst naar de praktijkondersteuner jeugd-ggz kunt, of meteen naar een aanbieder met een contract.",
-          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts van GGD Amsterdam.",
+          "Vraag om een verwijzing naar de praktijkondersteuner jeugd-ggz of naar een aanbieder met een contract.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Amsterdam (Amstelland)",
@@ -45,11 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op de basisscholen en de kinderopvang in Duivendrecht en Ouderkerk aan de Amstel werken ouder-kindcoaches. Zij helpen bij vragen over opvoeden en opgroeien van kinderen tot 12 jaar en denken mee over passende hulp. Komt u er met school niet uit, dan helpt het Steunpunt Amstel & Meer van de samenwerkingsverbanden passend onderwijs. Dat steunpunt is er voor de basisschool en de middelbare school.",
+        "omschrijving": "Op de basisscholen en de kinderopvang in Duivendrecht en Ouderkerk aan de Amstel werken ouder-kindcoaches. Zij helpen bij vragen over opvoeden en opgroeien van kinderen tot 12 jaar. Komt u er met school niet uit, dan helpt het Steunpunt Amstel & Meer, voor basisschool en middelbare school.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag de school naar de ouder-kindcoach, of meld u bij het Sociaal Loket.",
-          "Meld u bij het Sociaal Loket als er meer hulp nodig is.",
+          "Vraag de school naar de ouder-kindcoach.",
           "Komt u er met school niet uit? Vraag advies bij het Steunpunt Amstel & Meer."
         ],
         "contact": [
@@ -71,11 +69,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Vraag uw huisarts welke crisisdiensten er in de regio zijn.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Heeft u geen zorgaanbieder? Bel uw eigen huisarts.",
-          "Is het thuis acuut onveilig voor u of uw kind? Kijk op de website van Veilig Thuis Amsterdam-Amstelland, dat ook voor Ouder-Amstel werkt. Veilig Thuis is dag en nacht bereikbaar."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Veilig Thuis Amsterdam-Amstelland",

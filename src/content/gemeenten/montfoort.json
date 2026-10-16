@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Utrecht West",
   "websiteJeugd": "https://www.montfoort.nl/Alle_onderwerpen/Zorg_en_hulp/Jeugdhulp_en_jongerenwerk",
   "toegang": {
-    "samenvatting": "In Montfoort en Linschoten gaat u met vragen over opvoeden, opgroeien en jeugdhulp naar het Jeugdteam Montfoort. Het team werkt namens de gemeente en hoort bij Stichting De Thuisbasis. U belt of mailt zelf, een verwijzing van de huisarts is niet nodig. Het team is er voor kinderen en jongeren tot 18 jaar en hun ouders. Bij zwaardere hulp geeft het Jeugdteam advies en neemt de gemeente het besluit. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen. Hoe lang het duurt voordat het Jeugdteam uw vraag oppakt, is niet openbaar te vinden. Vraag dat bij uw eerste contact.",
+    "samenvatting": "In Montfoort en Linschoten meldt u zich zelf bij het Jeugdteam Montfoort, dat namens de gemeente werkt en hoort bij Stichting De Thuisbasis. U kunt ook via de huisarts, jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Jeugdteam Montfoort",
-        "omschrijving": "Het Jeugdteam helpt bij vragen over opvoeden, problemen in het gezin, de ontwikkeling van kinderen en veiligheid. Ook voor kinderen met psychische problemen, een stoornis of een beperking. U meldt zich zelf aan. Is specialistische hulp van een aanbieder nodig, dan geeft het Jeugdteam advies en neemt de gemeente een besluit (beschikking).",
+        "omschrijving": "Het Jeugdteam is er voor kinderen tot 18 jaar en hun ouders, bij vragen over opvoeden, problemen in het gezin, ontwikkeling en veiligheid. Ook voor kinderen met psychische problemen, een stoornis of een beperking. Is specialistische hulp nodig, dan geeft het Jeugdteam advies en neemt de gemeente een besluit (beschikking).",
         "stappen": [
-          "Bel of mail het Jeugdteam, of vraag een gesprek aan via de website. Tijdens kantooruren krijgt u meteen een medewerker aan de lijn, of iemand die uw bericht doorgeeft.",
-          "Bespreek uw vraag met het Jeugdteam. Soms is één gesprek genoeg. Anders maakt u een afspraak bij u thuis, in het Huis van Montfoort of op het kantoor van het team.",
-          "Neem gerust iemand mee naar het gesprek, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit van de gemeente."
+          "Bel of mail het Jeugdteam, of vraag een gesprek aan via de website. Tijdens kantooruren krijgt u meteen iemand aan de lijn.",
+          "Bespreek uw vraag. Soms is één gesprek genoeg; anders maakt u een afspraak bij u thuis, in het Huis van Montfoort of op het kantoor van het team. U mag iemand meenemen.",
+          "Is specialistische hulp nodig, dan krijgt u een schriftelijk besluit van de gemeente."
         ],
         "contact": {
           "naam": "Jeugdteam Montfoort",
@@ -23,16 +22,17 @@
           "email": "info@jeugdteammontfoort.nl",
           "url": "https://www.montfoort.nl/Alle_onderwerpen/Zorg_en_hulp/Jeugdhulp_en_jongerenwerk",
           "openingstijden": "Telefonisch werkdagen 9.00–17.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het Jeugdteam uw vraag oppakt, is niet openbaar. Vraag het bij uw eerste contact."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD regio Utrecht: het consultatiebureau tot 4 jaar en de schoolarts vanaf 4 jaar.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van GGD regio Utrecht: het consultatiebureau tot 4 jaar en de schoolarts vanaf 4 jaar.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente. Soms raadt de arts aan om eerst naar het Jeugdteam te gaan.",
-          "Laat de aanbieder de start van de hulp regelen. Die meldt het bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente. Soms raadt de arts aan eerst naar het Jeugdteam te gaan.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -44,11 +44,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Vermoedt de school dat uw kind extra hulp nodig heeft, of komt u er met school niet uit? Dan kunt u bij het Jeugdteam terecht. Over passend onderwijs (welke ondersteuning een school moet bieden) geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband gratis en onafhankelijk advies. Voor het basisonderwijs is dat Samenwijs van Passenderwijs, voor het voortgezet onderwijs Steunpunt RUW.",
+        "omschrijving": "Over passend onderwijs geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband gratis en onafhankelijk advies: Samenwijs van Passenderwijs voor de basisschool, Steunpunt RUW voor het voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u aan bij het Jeugdteam als uw kind hulp nodig heeft buiten school.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband van uw kind."
+          "Komt u er met school niet uit? Vraag advies bij het ouder- en jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -74,10 +73,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Voor onveiligheid of een psychische crisis, buiten de gewone route om. Welke hulp en meldpunten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina Hulp nodig? van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina Hulp nodig? van de gemeente voor hulp bij kindermishandeling en huiselijk geweld."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Montfoort: Hulp nodig? (jeugdhulp, huiselijk geweld en kindermishandeling)",

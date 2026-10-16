@@ -4,17 +4,16 @@
   "provincie": "Limburg",
   "websiteJeugd": "https://www.bergen.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Bergen is het Sociaal Team van de gemeente de ingang voor jeugdhulp, Wmo (hulp voor volwassenen) en andere vragen over zorg. U meldt uw kind zelf aan, online of per telefoon. Een verwijzing is niet nodig. Ook de huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen. Voor vragen over opvoeden is er een preventiemedewerker Jeugd van het team. Voor kinderen van 0 tot 4 jaar is er het Zorg Advies Team. Daar meldt het consultatiebureau, kinderdagverblijf of gastouder uw kind aan. Hoe lang het duurt voor u een gesprek heeft, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Bergen meldt u uw kind zelf aan bij het Sociaal Team van de gemeente, online of telefonisch. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team van de gemeente Bergen",
-        "omschrijving": "Het Sociaal Team werkt vanuit het gemeentehuis in Nieuw-Bergen. U meldt zich zelf aan met het online formulier \"Melding voor jeugdhulp\" of door te bellen. Het team nodigt u uit voor een keukentafelgesprek. Daarin kijkt een medewerker wat u zelf kunt, wat uw omgeving kan doen en welke hulp nodig is. Alleen als het echt nodig is, schakelt het team professionele hulp in. De gemeente heeft zes weken om uw situatie te onderzoeken. Hebt u na zes weken nog geen gesprek gehad, neem dan contact op met het team.",
+        "omschrijving": "Het Sociaal Team werkt vanuit het gemeentehuis in Nieuw-Bergen. In een keukentafelgesprek kijkt een medewerker wat u en uw omgeving zelf kunnen en welke hulp nodig is. Voor kinderen van 0 tot 4 jaar is er het Zorg Advies Team; daar meldt het consultatiebureau, kinderdagverblijf of gastouder uw kind aan.",
         "stappen": [
-          "Meld uw kind aan bij het Sociaal Team, met het formulier op de website van de gemeente of telefonisch. Hebt u vragen over opvoeden, vraag dan naar de preventiemedewerker Jeugd.",
-          "Ga in gesprek met het team: het keukentafelgesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van MEE.",
-          "Schrijf eventueel vooraf een persoonlijk plan. Lever het uiterlijk 7 dagen na uw aanvraag in bij het team, dan wordt het meegenomen.",
-          "Vraag na het gesprek om het verslag en, bij specialistische hulp, om een schriftelijk besluit (beschikking)."
+          "Meld uw kind aan met het formulier \"Melding voor jeugdhulp\" op de website van de gemeente of telefonisch. Hebt u vragen over opvoeden, vraag dan naar de preventiemedewerker Jeugd.",
+          "Schrijf eventueel vooraf een persoonlijk plan en lever het uiterlijk 7 dagen na uw aanvraag in; dan wordt het meegenomen.",
+          "Ga in gesprek met het team (het keukentafelgesprek). U mag iemand meenemen."
         ],
         "contact": {
           "naam": "Sociaal Team gemeente Bergen (L)",
@@ -22,12 +21,13 @@
           "email": "sociaalteam@bergen.nl",
           "url": "https://www.bergen.nl/sociaal-team",
           "openingstijden": "Telefonisch maandag t/m donderdag 8.30–17.00 uur, vrijdag 8.30–12.30 uur"
-        }
+        },
+        "doorlooptijd": "De gemeente heeft zes weken om uw situatie te onderzoeken; hebt u na zes weken nog geen gesprek gehad, neem dan contact op met het team. Hoe lang het tot een gesprek duurt, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Sociaal Team. Heeft de aanbieder geen contract met de gemeente, neem dan contact op met het Sociaal Team. Bij de huisartsen werkt een praktijkondersteuner jeugd-ggz (POH Jeugd-ggz), mede betaald door de gemeente. Ook de jeugdgezondheidszorg van de GGD geeft advies en kan doorverwijzen.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen naar een aanbieder met een contract; heeft de aanbieder geen contract, neem dan contact op met het Sociaal Team. Bij de huisartsen werkt een praktijkondersteuner jeugd-ggz (POH Jeugd-ggz). Ook de jeugdgezondheidszorg van de GGD geeft advies en kan doorverwijzen.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts of jeugdverpleegkundige van de jeugdgezondheidszorg.",
           "Vraag of de huisarts u eerst naar de POH Jeugd-ggz stuurt, of direct naar een aanbieder met een contract.",
@@ -42,7 +42,7 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Bespreek uw zorgen eerst met school. Komt u er samen niet uit, dan kunt u terecht bij het Sociaal Team. Het ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs geeft advies over onderwijsondersteuning. Voor basisonderwijs is dat SWV Primair Onderwijs Noord-Limburg, voor voortgezet onderwijs Nijmegen Stromenland.",
+        "omschrijving": "Bespreek uw zorgen eerst met school. Het ouder- en jeugdsteunpunt van het samenwerkingsverband geeft advies over onderwijsondersteuning: SWV Primair Onderwijs Noord-Limburg voor basisonderwijs, Nijmegen Stromenland voor voortgezet onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
           "Heeft uw kind ook hulp buiten school nodig? Meld u aan bij het Sociaal Team.",
@@ -71,10 +71,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisishulp voor jeugd er in Bergen is, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisishulp voor jeugd op de pagina Crisishulp Jeugd van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Bergen (L): Crisishulp Jeugd",

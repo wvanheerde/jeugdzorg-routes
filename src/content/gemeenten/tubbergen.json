@@ -4,17 +4,16 @@
   "provincie": "Overijssel",
   "websiteJeugd": "https://www.tubbergen.nl/schakel",
   "toegang": {
-    "samenvatting": "In Tubbergen is Schakel de plek voor vragen over opvoeden, opgroeien en jeugdhulp. Schakel is een samenwerking van de gemeente en Stichting Welzijn Tubbergen Dinkelland. U meldt zich zelf aan. Een verwijzing is niet nodig. U kunt bellen, mailen of langskomen. Bij Schakel werkt ook de medewerker jeugd van de gemeente. Die bekijkt of uw kind specialistische jeugdhulp krijgt. Ook de huisarts mag rechtstreeks verwijzen. Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Tubbergen meldt u zich zonder verwijzing bij Schakel, een samenwerking van de gemeente en Stichting Welzijn Tubbergen Dinkelland. U kunt ook via de huisarts, de jeugdarts of school.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Schakel Tubbergen",
-        "omschrijving": "Schakel geeft informatie, advies en ondersteuning bij vragen over welzijn, inkomen, jeugd en zorg. Sociaal werkers van de welzijnsorganisaties helpen met lichtere ondersteuning, zoals opvoedvragen en schoolmaatschappelijk werk. De medewerker jeugd werkt voor de gemeente en onderzoekt uw hulpvraag. Specialistische jeugdhulp vraagt u aan bij de gemeente. De gemeente neemt daarover een schriftelijk besluit (beschikking).",
+        "omschrijving": "Bij Schakel helpen sociaal werkers met lichtere ondersteuning, zoals opvoedvragen en schoolmaatschappelijk werk. Ook de medewerker jeugd van de gemeente werkt er en onderzoekt uw hulpvraag. Specialistische jeugdhulp vraagt u aan bij de gemeente, die er een schriftelijk besluit (beschikking) over neemt.",
         "stappen": [
-          "Bel of mail Schakel, of loop binnen bij het gemeentehuis in Tubbergen. Vertel waar u zich zorgen over maakt.",
-          "Bespreek uw vraag met een sociaal werker of de medewerker jeugd. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Is meer hulp nodig? Vraag dan jeugdhulp aan bij de gemeente. U mag ook een familiegroepsplan maken: een plan dat uw gezin zelf opstelt, samen met familie of bekenden. Dat is niet verplicht.",
-          "Vraag na het gesprek om een schriftelijk verslag en om een schriftelijk besluit over de hulp."
+          "Bel of mail Schakel, of loop binnen bij het gemeentehuis in Tubbergen.",
+          "Bespreek uw vraag met een sociaal werker of de medewerker jeugd. U mag iemand meenemen.",
+          "Is meer hulp nodig? Vraag dan jeugdhulp aan bij de gemeente. U mag ook met familie of bekenden een familiegroepsplan maken; dat is niet verplicht."
         ],
         "contact": {
           "naam": "Schakel Tubbergen",
@@ -23,16 +22,17 @@
           "url": "https://schakeltubbergen.nl/contact/",
           "adres": "Raadhuisplein 1, Tubbergen (gemeentehuis)",
           "openingstijden": "Werkdagen 9.00–12.00 uur"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat u een gesprek heeft, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast Schakel. De gemeente vergoedt alleen hulp van een aanbieder met een contract.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De gemeente vergoedt alleen hulp van een aanbieder met een contract.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
           "Vraag de arts om een verwijzing naar een aanbieder met een contract bij de gemeente.",
-          "Ga met de verwijzing naar de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Twente",
@@ -43,10 +43,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Begin bij de leerkracht of mentor. Schakel helpt bij vragen over school en extra ondersteuning, onder meer met schoolmaatschappelijk werk. Komt u er met school niet uit, dan geeft het samenwerkingsverband passend onderwijs advies. Voor de basisschool is dat Samenwerkingsverband Twente Noord PO. Voor de middelbare school hangt het af van de school: Canisius valt onder Samenwerkingsverband VO Twente West, het Twents Carmel College onder Samenwerkingsverband VO Twente Oost.",
+        "omschrijving": "Schakel helpt bij vragen over school en extra ondersteuning, onder meer met schoolmaatschappelijk werk. Voor de basisschool geeft Samenwerkingsverband Twente Noord PO advies. Voor de middelbare school hangt het af van de school: Canisius valt onder Samenwerkingsverband VO Twente West, het Twents Carmel College onder Samenwerkingsverband VO Twente Oost.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of de school Schakel of het schoolmaatschappelijk werk kan inschakelen. U kunt zich ook zelf aanmelden bij Schakel.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of school Schakel inschakelt.",
           "Komt u er met school niet uit? Vraag advies bij het samenwerkingsverband passend onderwijs."
         ],
         "contact": [
@@ -78,10 +77,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Wat de gemeente zelf over kindermishandeling en huiselijk geweld meldt, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Lees op de pagina Huiselijk geweld van de gemeente Tubbergen wat u kunt doen bij zorgen over de veiligheid van een kind."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Tubbergen: huiselijk geweld en kindermishandeling",

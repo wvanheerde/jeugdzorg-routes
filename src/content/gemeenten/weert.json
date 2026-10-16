@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Midden-Limburg West",
   "websiteJeugd": "https://www.weert.nl/jeugdhulp-en-cjg",
   "toegang": {
-    "samenvatting": "In Weert is het Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML) de eerste stap naar jeugdhulp. U belt of mailt zelf. Een verwijzing is niet nodig en het is gratis. Het CJG geeft advies en lichte hulp. Is meer nodig, dan beslist het CJG namens de gemeente over specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Bij een paar huisartsen werkt een praktijkondersteuner jeugd. De wachttijd voor een eerste gesprek is niet openbaar te vinden. Het CJG noemt zelf lange wachttijden voordat hulp start. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Weert meldt u zich zelf, gratis, bij het Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML). U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Centrum voor Jeugd en Gezin Midden-Limburg (CJG-ML)",
-        "omschrijving": "Het CJG-ML werkt voor zeven gemeenten in Midden-Limburg, waaronder Weert. Het geeft advies, begeleiding en trainingen. Voor specialistische hulp geeft het CJG een beschikking (schriftelijk besluit van de gemeente). De gemeente hoort dat besluit binnen 8 weken na uw aanvraag te nemen. Voor algemene vragen over zorg en geld kunt u ook terecht bij De Vraagwijzer van de gemeente.",
+        "omschrijving": "Het CJG-ML werkt voor zeven gemeenten in Midden-Limburg, waaronder Weert. Het geeft advies, begeleiding en trainingen, en beslist namens de gemeente over specialistische hulp. Voor algemene vragen over zorg en geld kunt u binnenlopen bij De Vraagwijzer in het stadhuis.",
         "stappen": [
-          "Neem telefonisch of per mail contact op met het CJG-ML. Een afspraak in Weert kan via de algemene contactgegevens.",
-          "Vertel in het eerste gesprek (de intake) wat u zorgen baart. U krijgt tips of lichte hulp, of samen maakt u een plan van aanpak.",
-          "Is specialistische hulp nodig? Vraag het CJG de hulp aan te vragen. U krijgt een beschikking, voor zorg in natura (hulp via een aanbieder met contract) of voor een pgb.",
-          "Vraag om het plan en de beschikking op papier. Neem gerust iemand mee naar de gesprekken, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Weet u niet waar u moet beginnen? Loop binnen bij De Vraagwijzer in het stadhuis."
+          "Bel of mail het CJG-ML. Een afspraak in Weert maakt u via de algemene contactgegevens.",
+          "Vertel in het eerste gesprek (de intake) wat u zorgen baart. U krijgt tips of lichte hulp, of u maakt samen een plan van aanpak. U mag iemand meenemen.",
+          "Is specialistische hulp nodig? Het CJG vraagt die aan en u krijgt een beschikking (besluit), voor hulp via een aanbieder met contract of voor een pgb."
         ],
         "contact": [
           {
@@ -34,16 +32,17 @@
             "adres": "Stadhuis, Weert",
             "openingstijden": "Vrije inloop maandag en donderdag 9.00–12.00 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "De wachttijd voor een eerste gesprek is niet openbaar; het CJG noemt zelf lange wachttijden voordat hulp start. Over specialistische hulp hoort de gemeente binnen 8 weken na uw aanvraag te beslissen; vraag bij uw aanmelding hoe lang het duurt."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het CJG. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd voor vragen over opvoeden en opgroeien.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag rechtstreeks verwijzen. Bij een deel van de huisartsen werkt een praktijkondersteuner jeugd voor vragen over opvoeden en opgroeien.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts wat de beste stap is. Die kan u eerst naar de praktijkondersteuner jeugd sturen, of direct naar een aanbieder met een contract.",
-          "Neem met de verwijzing contact op met de aanbieder. Die meldt de start van de hulp bij de gemeente, dus u hoeft zelf geen aanvraag te doen."
+          "Vraag de huisarts wat de beste stap is: eerst de praktijkondersteuner jeugd, of direct een aanbieder met een contract.",
+          "Neem met de verwijzing contact op met de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Limburg-Noord",
@@ -54,11 +53,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is vaak de eerste die ziet dat een kind extra hulp nodig heeft. Komt u er met school niet uit over de ondersteuning op school, dan helpt het Ouder- en Jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat steunpunt is onafhankelijk, maar behandelt geen klachten. Voor jeugdhulp meldt u zich bij het CJG.",
+        "omschrijving": "School ziet vaak als eerste dat een kind extra hulp nodig heeft. Het Ouder- en Jeugdsteunpunt van het samenwerkingsverband is onafhankelijk, maar behandelt geen klachten.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Meld u aan bij het CJG als uw kind ook hulp buiten school nodig heeft.",
-          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband voor het basisonderwijs of voor het voortgezet onderwijs."
+          "Heeft uw kind ook hulp buiten school nodig? Meld u aan bij het CJG.",
+          "Komt u er met school niet uit over passend onderwijs? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband."
         ],
         "contact": [
           {
@@ -84,10 +83,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke crisisdienst voor jeugd er in Weert en omgeving is, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdienst jeugd in Noord- en Midden-Limburg op de pagina Jeugdhulp en CJG van de gemeente Weert."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Weert: jeugdhulp en CJG (crisisdienst jeugd)",

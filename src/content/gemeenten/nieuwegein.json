@@ -5,18 +5,16 @@
   "jeugdzorgregio": "Lekstroom",
   "websiteJeugd": "https://www.nieuwegein.nl/hulp-en-ondersteuning/geynwijs/jeugd-en-gezin",
   "toegang": {
-    "samenvatting": "In Nieuwegein vraagt u jeugdhulp aan bij Geynwijs. Dat is een afdeling van de gemeente, met een jeugdteam binnen de wijkteams. U meldt u zelf aan per e-mail of telefoon. Geynwijs belt u dan binnen 6 weken voor een afspraak, meestal bij u thuis. Voor opvoedvragen kunt u ook zonder aanmelding naar een spreekuur. Op school kunt u terecht bij Geynwijs op School. Bij de huisartsenpraktijk werkt een praktijkondersteuner jeugd. Huisarts, jeugdarts en medisch specialist mogen ook rechtstreeks verwijzen. Geynwijs kijkt eerst wat u en uw netwerk zelf kunnen en welke hulp er in de buurt is.",
+    "samenvatting": "In Nieuwegein meldt u zich bij Geynwijs, de afdeling van de gemeente met een jeugdteam in de wijkteams. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Geynwijs (jeugdteam)",
-        "omschrijving": "Geynwijs is de afdeling van de gemeente voor hulp en ondersteuning. Een medewerker van het jeugdteam bespreekt met u wat er speelt, wat u zelf kunt en welke hulp past. Daarna krijgt u een ondersteuningsplan met het verslag van het gesprek. Bij specialistische hulp krijgt u ook het besluit van de gemeente (de beschikking). U mag altijd iemand meenemen naar het gesprek.",
+        "omschrijving": "Voor opvoedvragen kunt u zonder aanmelding naar een spreekuur. Een medewerker van het jeugdteam bespreekt met u wat er speelt en welke hulp past. Daarna krijgt u een ondersteuningsplan met het verslag van het gesprek.",
         "stappen": [
-          "Kijk eerst op de pagina Ondersteuning voor elk kind of ga naar een spreekuur. Voor die hulp hebt u geen verwijzing nodig.",
-          "Komt u er niet uit? Mail of bel Geynwijs (werkdagen 9.00-12.30 en 14.00-17.00 uur). Bij een dringende vraag overlegt u met het contactteam.",
-          "Bespreek in het keukentafelgesprek wat u en uw netwerk zelf kunnen. U mag een bekende of een onafhankelijke cliëntondersteuner meenemen.",
-          "Lees het ondersteuningsplan. Bent u het eens met het advies? Teken dan de pagina Aanvraag en stuur die terug naar Geynwijs. Zo is uw aanvraag compleet.",
-          "Wilt u een persoonsgebonden budget (pgb)? Zorg dan dat u kunt uitleggen waarvoor u de hulp nodig hebt. U moet ook zelf de administratie kunnen doen."
+          "Kijk eerst op de pagina Ondersteuning voor elk kind of ga naar een spreekuur. Komt u er niet uit? Mail of bel Geynwijs.",
+          "Bespreek in een gesprek, meestal bij u thuis, wat er nodig is. U mag iemand meenemen.",
+          "Lees het ondersteuningsplan. Bent u het eens met het advies, teken dan de pagina Aanvraag en stuur die terug. Bij specialistische hulp krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Geynwijs",
@@ -25,16 +23,16 @@
           "url": "https://www.nieuwegein.nl/hulp-en-ondersteuning/geynwijs/contact-met-geynwijs",
           "openingstijden": "Telefonisch op werkdagen 9.00-12.30 en 14.00-17.00 uur"
         },
-        "doorlooptijd": "Volgens de verordening krijgt u het ondersteuningsplan uiterlijk 6 weken na uw melding. De website noemt een langere route: Geynwijs belt u binnen 6 weken voor een afspraak, en het onderzoek duurt daarna in principe nog 6 weken. Duurt het langer dan 6 weken na uw melding? Wijs dan op artikel 2.4 van de verordening."
+        "doorlooptijd": "Geynwijs belt u volgens de website binnen 6 weken voor een afspraak; het onderzoek duurt daarna in principe nog 6 weken. Volgens de verordening (artikel 2.4) krijgt u het ondersteuningsplan uiterlijk 6 weken na uw melding; daar mag u op wijzen."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Op alle gezondheidscentra in Nieuwegein werkt sinds 2025 een praktijkondersteuner jeugd (POH-jeugd). Die is in dienst bij Geynwijs, maar werkt op de huisartsenpraktijk.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen naar jeugdhulp. Op alle gezondheidscentra in Nieuwegein werkt sinds 2025 een praktijkondersteuner jeugd (POH-jeugd) van Geynwijs.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts, de POH-jeugd of de jeugdarts van de GGD.",
-          "Vraag om een verwijzing naar een aanbieder waarmee de gemeente een contract heeft. U vindt die in de Beschikbaarheidswijzer.",
-          "Vraag de aanbieder om de start van de hulp aan de gemeente door te geven. U hoeft zelf geen aanvraag te doen."
+          "Vraag om een verwijzing naar een aanbieder met een contract bij de gemeente. U vindt die in de Beschikbaarheidswijzer.",
+          "Ga met de verwijzing naar de aanbieder. Die meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD regio Utrecht (GGDrU)",
@@ -46,11 +44,11 @@
       {
         "type": "school",
         "naam": "Via school: Geynwijs op School",
-        "omschrijving": "Maakt de school of opvang zich zorgen over uw kind? Dan kan de intern begeleider of zorgcoördinator Geynwijs op School vragen mee te denken. Dat team is er voor alle Nieuwegeinse kinderen tot 18 jaar. De school heeft hiervoor altijd uw toestemming nodig. Samen met u bekijken school en Geynwijs welke hulp past.",
+        "omschrijving": "Maakt de school of opvang zich zorgen, dan kan de intern begeleider of zorgcoördinator Geynwijs op School vragen mee te denken, met uw toestemming. Dat team is er voor alle Nieuwegeinse kinderen tot 18 jaar.",
         "stappen": [
-          "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "Geef toestemming als de school Geynwijs op School wil betrekken. U kunt zich ook zelf melden bij Geynwijs.",
-          "Stel vragen over passend onderwijs aan het samenwerkingsverband: Profi Pendi voor de basisschool en SWV Zuid-Utrecht voor de middelbare school."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
+          "Geef toestemming als de school Geynwijs op School wil betrekken.",
+          "Heeft u vragen over passend onderwijs? Neem contact op met Profi Pendi (basisschool) of SWV Zuid-Utrecht (middelbare school)."
         ],
         "contact": [
           {
@@ -77,10 +75,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor de crisisdiensten in Nieuwegein op de pagina Zorgen over een ander van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Nieuwegein: Zorgen over een ander",

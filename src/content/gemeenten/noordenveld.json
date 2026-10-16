@@ -4,17 +4,16 @@
   "provincie": "Drenthe",
   "websiteJeugd": "https://www.noordenveld.nl/opvoeden-en-jeugdhulp",
   "toegang": {
-    "samenvatting": "In Noordenveld is team De Toegang van de gemeente de eerste plek voor vragen over opvoeden, opgroeien en jeugdhulp. Het team helpt kinderen en jongeren tot 23 jaar en hun ouders of verzorgers. U belt of loopt binnen bij het gemeentehuis in Roden. Een verwijzing is niet nodig. Soms kan het team u meteen helpen. Anders volgt een gesprek bij u thuis of op het gemeentehuis. Ook de huisarts en de jeugdarts mogen rechtstreeks verwijzen naar jeugdhulp. Hoe lang het duurt voordat het team uw aanmelding oppakt, is niet openbaar te vinden. Vraag het bij uw aanmelding.",
+    "samenvatting": "In Noordenveld meldt u zich bij team De Toegang van de gemeente, voor kinderen en jongeren tot 23 jaar en hun ouders of verzorgers. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Team De Toegang van de gemeente",
-        "omschrijving": "Team De Toegang werkt voor de gemeente Noordenveld. Het kijkt samen met u welke hulp nodig is en regelt die. U meldt zich zelf aan. Het team helpt jeugdigen tot 23 jaar en hun ouders of verzorgers. Ook professionals, zoals een leerkracht, kunnen er met vragen terecht.",
+        "omschrijving": "Team De Toegang werkt voor de gemeente: het kijkt samen met u welke hulp nodig is en regelt die. Ook professionals, zoals een leerkracht, kunnen er met vragen terecht.",
         "stappen": [
-          "Bel team De Toegang of loop binnen bij het gemeentehuis in Roden. Een verwijzing is niet nodig.",
-          "Vertel wat er speelt. Soms kan het team u meteen helpen. Anders maakt u een afspraak voor een gesprek bij u thuis of op het gemeentehuis.",
-          "Neem iemand mee naar het gesprek als u dat wilt, bijvoorbeeld een familielid of een onafhankelijke cliëntondersteuner. Dat is gratis.",
-          "Vraag na het gesprek om een schriftelijk verslag. Krijgt uw kind hulp van de gemeente, dan hoort u een schriftelijk besluit te krijgen (een beschikking)."
+          "Bel team De Toegang of loop binnen bij het gemeentehuis in Roden.",
+          "Vertel wat er speelt. Soms helpt het team u meteen; anders volgt een gesprek bij u thuis of op het gemeentehuis. U mag iemand meenemen.",
+          "Krijgt uw kind hulp van de gemeente, dan krijgt u een schriftelijk besluit (beschikking)."
         ],
         "contact": {
           "naam": "Team De Toegang (gemeente Noordenveld)",
@@ -22,16 +21,17 @@
           "url": "https://www.noordenveld.nl/opvoeden-en-jeugdhulp",
           "adres": "Raadhuisstraat 1, Roden",
           "openingstijden": "Gemeentehuis maandag tot en met donderdag 8.30–16.30 uur, vrijdag 8.30–12.00 uur; buiten deze tijden alleen op afspraak"
-        }
+        },
+        "doorlooptijd": "Hoe lang het duurt voordat het team uw aanmelding oppakt, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast team De Toegang. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Drenthe.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD Drenthe.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De arts verwijst naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Drenthe",
@@ -43,11 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kent uw kind en kan meedenken. Komt u er met school niet uit, dan kunt u ook terecht bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband passend onderwijs. Dat geeft onafhankelijk advies over passend onderwijs.",
+        "omschrijving": "School kent uw kind en kan samen met team De Toegang kijken welke hulp nodig is. Komt u er met school niet uit, dan geeft het Ouder- en Jeugdsteunpunt van het samenwerkingsverband onafhankelijk advies over passend onderwijs.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school en team De Toegang samen met u kunnen kijken welke hulp nodig is. U kunt zich ook zelf bij het team aanmelden.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt van het samenwerkingsverband."
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en Jeugdsteunpunt."
         ],
         "contact": [
           {
@@ -67,11 +66,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Een eigen pagina van de gemeente over crisis bij jeugd is niet openbaar te vinden. Vraag de huisarts of team De Toegang welke crisisdiensten er in uw regio zijn.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is de situatie niet acuut, maar maakt u zich ernstig zorgen? Neem overdag contact op met team De Toegang van de gemeente.",
-          "Is er buiten kantoortijd een crisis met uw kind? Kijk op de website van Spoed voor Jeugd Drenthe; overdag belt u team De Toegang van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Spoed voor Jeugd Drenthe (S4JD)",

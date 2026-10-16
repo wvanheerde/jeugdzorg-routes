@@ -8,6 +8,7 @@ description: Werkwijze voor de hoofdagent bij een onderzoeks- of redactieronde v
 Subagents doen het werk (`gemeente-onderzoeker`, `gemeente-redacteur`); de hoofdagent kiest gemeenten, controleert elk resultaat en houdt de gebruiker kort op de hoogte. Kwaliteit komt uit de controle, niet uit vertrouwen in het rapport.
 
 ## Voor de ronde
+- **Later nakijken**: kijk in `docs/onderzoek/later-nakijken.md` of er punten zijn waarvan de datum voorbij is, en neem die mee.
 - **Volgorde**: grootste gemeenten eerst. Haal inwonertallen op bij CBS (tabel 70072ned, `TotaleBevolking_1`, laatste jaar) en neem kale gemeenten: `meta.opmerkingen` begint met "Automatisch aangemaakt". Leg de volgorde vast in de scratchpad.
 - **Nieuwe sessie per ronde**: WebSearch heeft 200 zoekopdrachten per sessie, gedeeld door alle agents. Met hooguit 15 per gemeente zijn dat ongeveer 12 gemeenten per sessie. Zeg het de gebruiker als het budget opraakt.
 - **Reservekopie** van bestanden die een redacteur gaat bewerken (veel gemeentebestanden staan nog niet in git): kopieer de goedgekeurde conceptversie naar `<scratchpad>/voor/` vlak vóór je de redacteur start, niet de voorbeeldversie aan het begin van de ronde (anders zegt de feitencheck niets).
@@ -37,4 +38,5 @@ Subagents doen het werk (`gemeente-onderzoeker`, `gemeente-redacteur`); de hoofd
 ## Afronden
 - `node scripts/validate-content.mjs` en `npm run build` (bouwt naar `dist/`; naar een andere schijf faalt het).
 - Overzicht voor de gebruiker: per gemeente de transparantie-uitkomsten en het CBS-aandeel, wat is bijgestuurd, wat open staat.
+- Punten die pas na een datum of gebeurtenis na te kijken zijn: in `docs/onderzoek/later-nakijken.md` zetten.
 - Niet committen: dat doet de gebruiker zelf.

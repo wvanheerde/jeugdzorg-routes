@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Eemland",
   "websiteJeugd": "https://www.bunschoten.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Bunschoten is Sociaal Team De Lingt het toegangsteam. U kunt zich zelf aanmelden, met een formulier, telefonisch of tijdens de inloop in het gemeentehuis. Ook iemand anders mag u aanmelden, als u dat goed vindt. Sinds januari 2026 hoort het team bij Eemkracht, de uitvoeringsorganisatie van Baarn, Bunschoten en Soest. Voor lichte vragen over opvoeden en opgroeien kunt u terecht bij De Boei, het welzijnswerk in Bunschoten. Specialistische jeugdhulp komt voor Bunschoten en zes andere gemeenten vooral van één organisatie: MetMaya. Het Sociaal Team heeft een wachttijd, en die is in 2025 opgelopen. Hoeveel weken dat is, is niet openbaar te vinden. Vraag bij uw aanmelding hoe lang het duurt.",
+    "samenvatting": "In Bunschoten meldt u zich bij Sociaal Team De Lingt, dat sinds januari 2026 hoort bij Eemkracht (Baarn, Bunschoten en Soest). Voor lichte opvoedvragen kunt u ook naar De Boei, of via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Team De Lingt (Eemkracht)",
-        "omschrijving": "Het Sociaal Team helpt gezinnen met vragen over opvoeden, scheiding, geld, psychische problemen of een onveilige thuissituatie. Het team kijkt samen met u wat nodig is. Het geeft zelf begeleiding en regelt zo nodig specialistische jeugdhulp. U krijgt één vaste contactpersoon, en de hulp is zoveel mogelijk bij u thuis. Het team werkt samen met het Zorgloket en De Boei. De Boei geeft gratis advies, trainingen en groepen voor ouders en jongeren. De gemeente wil in 2026 bij De Boei één ingang maken voor alle vragen over zorg, welzijn en ondersteuning.",
+        "omschrijving": "Het Sociaal Team helpt bij opvoeden, scheiding, geld, psychische problemen of een onveilige thuissituatie. Het geeft zelf begeleiding, zoveel mogelijk thuis, met één vaste contactpersoon, en regelt zo nodig specialistische jeugdhulp, vooral bij MetMaya. De Boei (welzijnswerk) geeft gratis advies, trainingen en groepen; de gemeente wil daar in 2026 één ingang maken voor zorg en welzijn.",
         "stappen": [
-          "Meld u aan bij Sociaal Team De Lingt met het aanmeldformulier op de website van de gemeente. Bellen of langskomen in het gemeentehuis mag ook.",
-          "Wacht op het telefoontje van het team voor een afspraak. Het team bespreekt uw aanmelding eerst intern. Vraag hoe lang dat duurt.",
-          "Ga naar het gesprek. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner van De Boei.",
-          "Vraag na het gesprek om een schriftelijk verslag. Bij specialistische hulp vraagt u om een beschikking (een besluit van de gemeente)."
+          "Meld u aan met het formulier op de website van de gemeente, bel, of kom langs bij de inloop in het gemeentehuis. Iemand anders mag u ook aanmelden, als u dat goed vindt.",
+          "Wacht op het telefoontje voor een afspraak; het team bespreekt uw aanmelding eerst intern. U mag iemand meenemen naar het gesprek.",
+          "Maak samen een plan. Bij specialistische hulp krijgt u een beschikking (besluit van de gemeente)."
         ],
         "contact": [
           {
@@ -31,16 +30,17 @@
             "url": "https://deboeibunschoten.nl/contact",
             "adres": "Bikkersweg 30, Bunschoten-Spakenburg"
           }
-        ]
+        ],
+        "doorlooptijd": "Het Sociaal Team heeft een wachttijd, en die is in 2025 opgelopen. Hoeveel weken, is niet openbaar; vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Deze route is net zo goed als die via het Sociaal Team. In Bunschoten werken ook gedragsdeskundigen van de gemeente. Zij helpen huisartsen en jeugdartsen bij de keuze voor de juiste hulp, bijvoorbeeld bij angst, somberheid of gedragsproblemen. U kunt u ook zelf aanmelden bij een gedragsdeskundige, via het aanmeldformulier van het Sociaal Team. De jeugdarts vindt u bij de jeugdgezondheidszorg, bijvoorbeeld op het consultatiebureau.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. In Bunschoten helpen gedragsdeskundigen van de gemeente huisartsen en jeugdartsen kiezen, bijvoorbeeld bij angst, somberheid of gedrag. U kunt u ook zelf bij hen aanmelden, via het aanmeldformulier van het Sociaal Team.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts wat past: een gesprek met een gedragsdeskundige van de gemeente, het Sociaal Team of direct specialistische jeugdhulp.",
-          "Meld u met de verwijzing aan bij de aanbieder. Die meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts (bijvoorbeeld op het consultatiebureau).",
+          "Vraag wat past: een gesprek met een gedragsdeskundige, het Sociaal Team of direct specialistische jeugdhulp.",
+          "De aanbieder meldt de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": [
           {
@@ -58,10 +58,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School is vaak de eerste die iets merkt. De Boei werkt met Samen op de Bank op drie basisscholen: kleine vragen lost de Boei daar meteen op, grotere vragen gaan door naar het Sociaal Team. Op het Oostwende College is een huiskamerproject met een jeugdhulpverlener. Komt u er met school niet uit, dan helpt JOSEE, het ouder- en jeugdsteunpunt passend onderwijs.",
+        "omschrijving": "De Boei werkt met Samen op de Bank op drie basisscholen: kleine vragen lost De Boei daar op, grotere gaan naar het Sociaal Team. Op het Oostwende College is een huiskamerproject met een jeugdhulpverlener.",
         "stappen": [
           "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag school of De Boei kan meedenken, of meld u zelf aan bij het Sociaal Team.",
+          "Vraag of De Boei kan meedenken.",
           "Komt u er met school niet uit? Vraag advies bij JOSEE, het ouder- en jeugdsteunpunt passend onderwijs."
         ],
         "contact": [
@@ -90,10 +90,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina over Sociaal Team De Lingt van de gemeente Bunschoten."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Bunschoten: Sociaal Team De Lingt (acute hulp bij huiselijk geweld of kindermishandeling)",

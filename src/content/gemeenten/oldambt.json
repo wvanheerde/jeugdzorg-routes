@@ -5,17 +5,16 @@
   "jeugdzorgregio": "Groningen",
   "websiteJeugd": "https://www.gemeente-oldambt.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Oldambt zijn er twee deuren. Sociaal Werk Oldambt helpt gratis bij vragen over opvoeden en opgroeien, zonder verwijzing. Is er meer nodig, dan neemt u contact op met het Jeugdteam van de gemeente. Het Jeugdteam kijkt samen met u welke hulp past, maakt een plan en regelt zo nodig specialistische hulp. Ook de huisarts mag rechtstreeks verwijzen. Bij de huisarts werkt vaak een praktijkondersteuner jeugd. Hoe lang het duurt voordat het Jeugdteam met u in gesprek gaat, is niet openbaar te vinden. Vraag dat bij uw aanmelding.",
+    "samenvatting": "In Oldambt kunt u met vragen over opvoeden en opgroeien gratis terecht bij Sociaal Werk Oldambt; is meer nodig, dan meldt u zich bij het Jeugdteam van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Sociaal Werk Oldambt en het Jeugdteam van de gemeente",
-        "omschrijving": "Sociaal Werk Oldambt biedt gratis hulp bij opvoeden en opgroeien, zonder besluit van de gemeente. Het Jeugdteam werkt voor de gemeente. Het onderzoekt of uw kind jeugdhulp nodig heeft en regelt die hulp. Een casemanager, uw vaste contactpersoon, maakt dan samen met u en uw gezin een plan. U meldt zich zelf aan, een verwijzing is niet nodig.",
+        "omschrijving": "Sociaal Werk Oldambt helpt gratis bij opvoeden en opgroeien, zonder besluit van de gemeente. Het Jeugdteam van de gemeente onderzoekt of uw kind jeugdhulp nodig heeft en regelt die. Een casemanager is dan uw vaste contactpersoon en maakt samen met uw gezin een plan.",
         "stappen": [
-          "Heeft u een vraag over opvoeden of opgroeien? Bel de aanmelddienst van Sociaal Werk Oldambt, mail of gebruik het contactformulier op de website.",
-          "Is meer hulp nodig dan Sociaal Werk Oldambt kan bieden? Neem contact op met het Jeugdteam van de gemeente: telefonisch, per mail of met het contactformulier.",
-          "Bekijk samen met een casemanager van het Jeugdteam welke hulp past en maak een plan. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Vraag na het gesprek om een schriftelijk verslag. Gaat het om specialistische hulp, vraag dan ook om een besluit van de gemeente (beschikking)."
+          "Heeft u een vraag over opvoeden of opgroeien? Bel, mail of gebruik het contactformulier van Sociaal Werk Oldambt.",
+          "Is meer hulp nodig? Neem contact op met het Jeugdteam: telefonisch, per mail of met het contactformulier.",
+          "Bekijk samen met de casemanager welke hulp past en maak een plan. U mag iemand meenemen. Bij specialistische hulp krijgt u een besluit van de gemeente (beschikking)."
         ],
         "contact": [
           {
@@ -33,16 +32,17 @@
             "url": "https://www.gemeente-oldambt.nl/jeugdteam",
             "openingstijden": "Telefonisch werkdagen 9.00–12.30 uur"
           }
-        ]
+        ],
+        "doorlooptijd": "Hoe lang het duurt voordat het Jeugdteam met u in gesprek gaat, is niet openbaar. Vraag het bij uw aanmelding."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het Jeugdteam. De huisarts kan u ook doorverwijzen naar de praktijkondersteuner jeugd (POH Jeugd). Die heeft een paar gesprekken met uw kind en denkt mee over vervolgstappen. De jeugdarts werkt bij de jeugdgezondheidszorg van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. De huisarts kan u ook naar de praktijkondersteuner jeugd sturen, die een paar gesprekken met uw kind heeft en meedenkt over vervolgstappen. De jeugdarts werkt bij de GGD.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "Vraag de huisarts om een verwijzing: eerst naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract van de gemeente.",
-          "Wacht op de start van de hulp. De aanbieder meldt die bij de gemeente, u hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "Vraag om een verwijzing: eerst naar de praktijkondersteuner jeugd, of direct naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Groningen",
@@ -54,10 +54,9 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "Op een aantal basisscholen werkt een brugfunctionaris van Sociaal Werk Oldambt. Die helpt kinderen en ouders bij vragen over opvoeden en bij zaken buiten school. Komt u er met school niet uit, dan geeft het Ouder- en jeugdsteunpunt van het samenwerkingsverband passend onderwijs advies. Het basisonderwijs en het voortgezet onderwijs hebben elk een eigen samenwerkingsverband.",
+        "omschrijving": "Op een aantal basisscholen werkt een brugfunctionaris van Sociaal Werk Oldambt. Die helpt kinderen en ouders bij vragen over opvoeden en bij zaken buiten school.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider. Vraag of er een brugfunctionaris op school is.",
-          "Meld uw vraag aan bij Sociaal Werk Oldambt, of bij het Jeugdteam als meer hulp nodig lijkt.",
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of er een brugfunctionaris op school is.",
           "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt van het samenwerkingsverband van uw school."
         ],
         "contact": [
@@ -91,10 +90,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Welke crisisdiensten er in Oldambt zijn, ook buiten kantooruren, staat op de pagina van het Jeugdteam op de website van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk op de pagina van het Jeugdteam van de gemeente, onder Spoed, voor de crisisdiensten buiten kantooruren."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Oldambt: Jeugdteam, met spoed buiten kantooruren",

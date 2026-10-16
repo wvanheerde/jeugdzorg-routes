@@ -5,33 +5,33 @@
   "jeugdzorgregio": "Noordoost-Brabant",
   "websiteJeugd": "https://www.s-hertogenbosch.nl/product/jeugdhulp/",
   "toegang": {
-    "samenvatting": "In 's-Hertogenbosch (inclusief Rosmalen, Nuland, Vinkel en Engelen) is Koo het gemeentelijke informatie- en adviespunt voor alle vragen over opvoeden, zorg, welzijn, geld en werk. Koo geeft advies, verwijst naar het gebiedsteam van welzijnsorganisatie Farent voor vrij toegankelijke hulp en meldt u zo nodig aan bij de gemeente, waar een medewerker samen met u onderzoekt welke gespecialiseerde jeugdhulp nodig is. Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen; in 's-Hertogenbosch start het grootste deel van de trajecten via die medische route.",
+    "samenvatting": "In 's-Hertogenbosch (met Rosmalen, Nuland, Vinkel en Engelen) meldt u zich bij Koo, het informatie- en adviespunt van de gemeente. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Koo (gemeentelijk informatie- en adviespunt)",
-        "omschrijving": "Toegang voor alle leeftijden via een telefoonteam, de wijkpleinen en kijkopkoo.nl. Koo kijkt eerst mee of een klein advies of vrij toegankelijke hulp van het Farent-gebiedsteam volstaat. Is er meer nodig, dan meldt Koo u aan bij de gemeente; een gemeentelijke medewerker voert een of meer gesprekken, legt alles vast in een plan en de gemeente besluit over gespecialiseerde jeugdhulp (zorg in natura of pgb).",
+        "omschrijving": "Koo is er voor alle leeftijden, via een telefoonteam, de wijkpleinen en kijkopkoo.nl. Koo kijkt eerst of advies of vrij toegankelijke hulp van het gebiedsteam van welzijnsorganisatie Farent genoeg is. Is meer nodig, dan meldt Koo u aan bij de gemeente, die besluit over gespecialiseerde jeugdhulp (zorg in natura of pgb).",
         "stappen": [
-          "Bel Koo, stuur een WhatsApp-bericht of vul het contactformulier in; u hoort binnen 2 werkdagen iets terug. Binnenlopen kan ook bij een wijkplein.",
-          "Koo bespreekt uw vraag en kijkt of advies of hulp van het gebiedsteam genoeg is.",
-          "Zo niet, dan meldt Koo u aan bij de gemeente. Een medewerker onderzoekt samen met u wat nodig is en schrijft een plan.",
-          "Bij gespecialiseerde jeugdhulp ontvangt u een beschikking (brief) van de gemeente waarin staat welke hulp u krijgt."
+          "Bel Koo, stuur een WhatsApp-bericht of vul het contactformulier in. U kunt ook binnenlopen bij een wijkplein.",
+          "Bespreek uw vraag met Koo. Is advies of hulp van het gebiedsteam niet genoeg, dan meldt Koo u aan bij de gemeente.",
+          "Een medewerker van de gemeente onderzoekt met u wat nodig is en schrijft een plan. Bij gespecialiseerde jeugdhulp krijgt u een beschikking (brief) waarin staat welke hulp u krijgt."
         ],
         "contact": {
           "naam": "Koo",
           "telefoon": "073 615 3225",
           "url": "https://www.kijkopkoo.nl/is/footer/contact-opnemen",
           "openingstijden": "Maandag t/m vrijdag 8.30–17.00 uur; gratis nummer 0800 350 0012"
-        }
+        },
+        "doorlooptijd": "Na uw bericht of formulier hoort u binnen 2 werkdagen iets van Koo."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Wettelijke verwijzers mogen rechtstreeks verwijzen naar door de gemeente gecontracteerde jeugdhulp, zonder tussenkomst van Koo of de gemeente. In het cliëntervaringsonderzoek 2025 waardeerden ouders het contact met de huisarts met een 7,9 en met de gemeentelijke toegang met een 6,8.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen, zonder tussenkomst van Koo of de gemeente. In het cliëntervaringsonderzoek 2025 gaven ouders het contact met de huisarts een 7,9 en met de gemeentelijke toegang een 6,8.",
         "stappen": [
           "Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.",
-          "De arts verwijst naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf geen aanvraag te doen."
+          "De arts verwijst u naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Hart voor Brabant",
@@ -42,11 +42,11 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "De gemeente adviseert om te beginnen bij professionals die uw kind kennen, zoals de leerkracht, de intern begeleider of de jeugdverpleegkundige. School kan de verbinding leggen met Koo of de gemeente. Sinds 2025 loopt de pilot 'Vroeg erbij, samen vooruit' voor nauwere samenwerking tussen basisonderwijs en jeugdhulp.",
+        "omschrijving": "Begin bij wie uw kind kent, zoals de leerkracht, de intern begeleider of de jeugdverpleegkundige. School kan de verbinding leggen met Koo of de gemeente. Sinds 2025 loopt de proef 'Vroeg erbij, samen vooruit' voor betere samenwerking tussen basisonderwijs en jeugdhulp.",
         "stappen": [
           "Bespreek zorgen met de leerkracht, mentor of intern begeleider.",
-          "School schakelt zo nodig de schoolmaatschappelijk werker of jeugdarts in en legt contact met Koo.",
-          "Onderwijsondersteuning loopt via het samenwerkingsverband passend onderwijs De Meierij."
+          "Vraag school zo nodig de schoolmaatschappelijk werker of jeugdarts in te schakelen, of contact te leggen met Koo.",
+          "Extra ondersteuning op school loopt via het samenwerkingsverband passend onderwijs De Meierij."
         ],
         "contact": [
           {
@@ -72,10 +72,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. De nummers hieronder gelden overal in Nederland. Welke meldpunten en crisisdiensten er verder zijn, ook voor een kind in een onveilige situatie, staat op de pagina van de gemeente.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Is het thuis acuut onveilig voor uw kind? Kijk op de pagina 'Spoed of crisis' van Koo, het informatiepunt van de gemeente."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Koo (gemeente 's-Hertogenbosch): spoed of crisis, snel hulp voor kind en gezin",

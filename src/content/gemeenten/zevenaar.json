@@ -5,34 +5,33 @@
   "jeugdzorgregio": "Centraal Gelderland",
   "websiteJeugd": "https://www.zevenaar.nl/jeugdhulp",
   "toegang": {
-    "samenvatting": "In Zevenaar is de gemeente zelf de toegang tot jeugdhulp. Er is geen apart wijkteam of Centrum voor Jeugd en Gezin. Medewerkers jeugd van de gemeente bekijken uw vraag, maken met u een gezinsplan en nemen het besluit over de hulp. U meldt zich zelf aan, online of telefonisch. Een verwijzing is niet nodig. Ook de huisarts mag rechtstreeks verwijzen. Bij bijna alle huisartsen werkt een praktijkondersteuner jeugd-ggz. Na uw aanvraag hoort u binnen 1 à 2 weken van de gemeente. Daarna is er volgens de website van de gemeente (oktober 2026) een wachttijd van 11 weken. Vraag bij uw aanmelding wat dit voor u betekent.",
+    "samenvatting": "In Zevenaar meldt u zich online of telefonisch bij de medewerkers jeugd van de gemeente; er is geen apart wijkteam of Centrum voor Jeugd en Gezin. U kunt ook via de huisarts, de jeugdarts of school; een verwijzing is niet nodig.",
     "routes": [
       {
         "type": "wijkteam",
         "naam": "Medewerkers jeugd van de gemeente Zevenaar",
-        "omschrijving": "De medewerkers jeugd werken voor de gemeente. Zij onderzoeken of uw kind jeugdhulp krijgt, maken met u een gezinsplan en regelen de hulp. U houdt een vast aanspreekpunt. Lichte hulp krijgt u soms zonder beschikking (besluit van de gemeente) bij een organisatie in de buurt. Voor zwaardere hulp neemt de gemeente een besluit. Jongeren van 16 tot 18 jaar mogen zichzelf aanmelden.",
+        "omschrijving": "Medewerkers jeugd onderzoeken of uw kind jeugdhulp krijgt, maken met u een gezinsplan en regelen de hulp; u houdt een vast aanspreekpunt. Lichte hulp krijgt u soms zonder beschikking bij een organisatie in de buurt; voor zwaardere hulp neemt de gemeente een besluit. Jongeren van 16 tot 18 jaar mogen zichzelf aanmelden.",
         "stappen": [
-          "Vraag jeugdhulp aan met het online formulier van de gemeente, of bel de gemeente en kies zorg, jeugd en inkomen.",
-          "U krijgt direct een ontvangstbevestiging. De gemeente probeert binnen 1 à 2 weken te reageren. Daarna kan een wachttijd volgen.",
-          "Een medewerker jeugd bespreekt uw vraag met u. U mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.",
-          "Komt uw kind in aanmerking voor hulp? Dan kiest u samen met de medewerker jeugd een aanbieder en maakt u een gezinsplan.",
-          "Vraag na het gesprek om een schriftelijk verslag en, bij specialistische hulp, om een beschikking."
+          "Vraag jeugdhulp aan met het online formulier, of bel de gemeente en kies zorg, jeugd en inkomen. U krijgt direct een ontvangstbevestiging.",
+          "Bespreek uw vraag met een medewerker jeugd. U mag iemand meenemen.",
+          "Komt uw kind in aanmerking voor hulp? Kies dan samen met de medewerker jeugd een aanbieder en maak een gezinsplan."
         ],
         "contact": {
           "naam": "Gemeente Zevenaar: medewerkers jeugd",
           "telefoon": "0316 595 111",
           "url": "https://www.zevenaar.nl/contact",
           "openingstijden": "Telefonisch werkdagen 8.30–12.30 uur, kies optie 1 (zorg, jeugd en inkomen). Buiten die tijden kunt u het contactformulier gebruiken."
-        }
+        },
+        "doorlooptijd": "De gemeente probeert binnen 1 à 2 weken te reageren. Daarna is er volgens de website van de gemeente (oktober 2026) een wachttijd van 11 weken."
       },
       {
         "type": "huisarts",
         "naam": "Via huisarts, jeugdarts of medisch specialist",
-        "omschrijving": "Huisarts, jeugdarts en medisch specialist mogen rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast de medewerkers jeugd. Bij bijna alle huisartsen in Zevenaar werkt een praktijkondersteuner jeugd-ggz (POH Jeugd) voor lichte psychische klachten en opvoedvragen. De jeugdgezondheidszorg (consultatiebureau en jeugdarts op school) is in Zevenaar een taak van de GGD.",
+        "omschrijving": "De huisarts, jeugdarts of medisch specialist mag u rechtstreeks verwijzen. Bij bijna alle huisartsen in Zevenaar werkt een praktijkondersteuner jeugd-ggz voor lichte psychische klachten en opvoedvragen. De jeugdarts werkt bij de GGD.",
         "stappen": [
-          "Bespreek uw zorgen met de huisarts, of met de jeugdarts van de jeugdgezondheidszorg.",
-          "De huisarts kan u eerst naar de praktijkondersteuner jeugd-ggz verwijzen, of direct naar een door de gemeente gecontracteerde aanbieder.",
-          "De aanbieder meldt de start van de hulp bij de gemeente. U hoeft zelf geen aanvraag te doen."
+          "Bespreek uw zorgen met de huisarts of de jeugdarts.",
+          "De huisarts verwijst u eerst naar de praktijkondersteuner jeugd-ggz, of direct naar een aanbieder met een contract bij de gemeente.",
+          "De aanbieder meldt de start van de hulp bij de gemeente; u hoeft zelf niets aan te vragen."
         ],
         "contact": {
           "naam": "Jeugdgezondheidszorg GGD Gelderland-Midden",
@@ -44,11 +43,10 @@
       {
         "type": "school",
         "naam": "Via school",
-        "omschrijving": "School kan u helpen om hulp te vinden. De gemeente heeft afspraken met scholen over hulp op school, zoals maatschappelijk werk op school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland van de samenwerkingsverbanden passend onderwijs. Voor basisonderwijs en voortgezet onderwijs zijn dat twee verschillende samenwerkingsverbanden.",
+        "omschrijving": "De gemeente heeft afspraken met scholen over hulp op school, zoals maatschappelijk werk op school. Komt u er met school niet uit, dan helpt het Ouder- en jeugdsteunpunt Midden-Gelderland.",
         "stappen": [
-          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider.",
-          "Vraag of school hulp kan inschakelen, of meld uw kind zelf aan bij de medewerkers jeugd van de gemeente.",
-          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt. Voor de basisschool is dat samenwerkingsverband De Liemers, voor de middelbare school SWV De Verbinding."
+          "Bespreek uw zorgen met de leerkracht, mentor of intern begeleider, en vraag of school hulp kan inschakelen.",
+          "Komt u er met school niet uit? Vraag advies bij het Ouder- en jeugdsteunpunt, via samenwerkingsverband De Liemers (basisschool) of SWV De Verbinding (middelbare school)."
         ],
         "contact": [
           {
@@ -76,10 +74,9 @@
       {
         "type": "spoed",
         "naam": "Spoedeisende hulp",
-        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om. Op de pagina van de gemeente staat informatie over huiselijk geweld en kindermishandeling.",
+        "omschrijving": "Bij onveiligheid of een psychische crisis, buiten de gewone route om.",
         "stappen": [
-          "Krijgt uw kind al jeugdhulp? Bel dan eerst de eigen zorgaanbieder.",
-          "Kijk voor informatie over huiselijk geweld en kindermishandeling op de pagina van de gemeente Zevenaar."
+          "Kijk voor de crisisdiensten in deze gemeente op de spoed- of crisispagina van de gemeente."
         ],
         "contact": {
           "naam": "Gemeente Zevenaar: huiselijk geweld",
