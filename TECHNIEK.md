@@ -29,7 +29,7 @@ src/pages/                     routes: /, /gemeenten/, /situaties/, /landelijk/,
                                /therapievormen/, /brieven/, /overzicht/, /over/, robots.txt
 src/layouts, src/components    opmaak
 src/site.ts                    repository-link en GoatCounter-code
-scripts/                       validatie, linkcheck, sitemap, scaffold
+scripts/                       validatie, linkcheck, sitemap, scaffold, dagboek-docx (bouwt public/downloads/dagboek-zorg-twee-weken.docx)
 scripts/data/                  register van gemeenten en gedeelde regiogegevens (jeugdregio, GGD)
 scripts/onderzoek/             hulpscripts voor het onderzoek per gemeente (zie de README daar)
 tests/persona/                 persona-tests in een echte browser (zie de README daar)

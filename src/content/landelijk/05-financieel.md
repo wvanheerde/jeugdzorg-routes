@@ -2,7 +2,7 @@
 titel: Financiële regelingen
 samenvatting: Heeft uw kind veel extra zorg nodig? Dan krijgt u misschien dubbele kinderbijslag of ander geld. Dat gaat niet vanzelf.
 volgorde: 5
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-16"
 bronnen:
   - titel: SVB – Dubbele kinderbijslag bij intensieve zorg
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg
@@ -25,9 +25,15 @@ bronnen:
   - titel: SVB – Extra kinderbijslag bij intensieve zorg
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/extra-kinderbijslag-bij-intensieve-zorg
     geraadpleegd: "2026-10-12"
+  - titel: CIZ – Vragenformulier dubbele kinderbijslag bij intensieve zorg
+    url: https://www.ciz.nl/download-vragenformulier-dkiz
+    geraadpleegd: "2026-10-16"
+  - titel: CIZ – Machtigingsformulier dubbele kinderbijslag
+    url: https://www.ciz.nl/download-machtigingsformulier-dkiz
+    geraadpleegd: "2026-10-16"
   - titel: CIZ – Beoordelingskader dubbele kinderbijslag bij intensieve zorg
     url: https://ciz.nl/beoordelingskader-dubbele-kinderbijslag
-    geraadpleegd: "2026-10-12"
+    geraadpleegd: "2026-10-16"
 ---
 
 ## Dubbele kinderbijslag bij intensieve zorg
@@ -45,8 +51,8 @@ Of de zorg genoeg is, bepaalt het **CIZ**. Dat is een organisatie die voor de SV
 ### Hoe vraag ik het aan?
 
 1. Ga naar de website van de SVB: [dubbele kinderbijslag aanvragen](https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg). U logt in met DigiD.
-2. U krijgt vragen van het CIZ. Vul ze in en stuur ze op tijd terug.
-3. Stuur verslagen en brieven mee van de arts of behandelaar van uw kind, zoals een kinderarts of psychiater. Daarin staat wat uw kind heeft. Zonder zo'n verslag zegt het CIZ nee. Heeft u nog geen verslag? Vraag de arts die uw kind kent om een brief: de huisarts, kinderarts of jeugdarts. Ook een verslag van de behandelaar of begeleider van uw kind helpt.
+2. U krijgt vragen van het CIZ in een [vragenformulier](https://www.ciz.nl/download-vragenformulier-dkiz). Vul het in en stuur het op tijd terug. Bij elk onderdeel kunt u een uitleg schrijven.
+3. Het CIZ moet kunnen zien welke ziekte of stoornis uw kind heeft. Dat moet een arts of behandelaar hebben vastgesteld, zoals een kinderarts of psychiater. Stuur die brief of dat verslag mee. Ontbreekt het? Dan geeft het CIZ een negatief advies. Met het [machtigingsformulier](https://www.ciz.nl/download-machtigingsformulier-dkiz) kan het CIZ ook zelf gegevens opvragen bij de artsen en behandelaars die u noemt. Heeft u nog geen verslag? Vraag de arts die uw kind kent om een brief: de huisarts, kinderarts of jeugdarts. Ook een verslag van de behandelaar of begeleider van uw kind helpt.
 
 U kunt het geld tot een half jaar terug krijgen.
 
@@ -54,18 +60,20 @@ Heeft uw kind al een **Wlz-indicatie**? Dat is een besluit dat uw kind zorg krij
 
 ### Dit schrijft u op
 
-Het CIZ kijkt naar zorg die uw kind altijd nodig heeft, vaak langer dan een jaar. Een korte moeilijke periode telt niet mee. Schrijf op wat u **extra** doet, vergeleken met een kind van dezelfde leeftijd:
+Het CIZ kijkt naar zorg die uw kind altijd nodig heeft, vaak langer dan een jaar. Een korte moeilijke periode telt niet mee. Schrijf op wat u **extra** doet, vergeleken met een kind van dezelfde leeftijd. Het vragenformulier van het CIZ vraagt dit per onderdeel:
 
-- **Verzorging:** wassen, naar de wc gaan, eten en drinken, bewegen en lopen, medicijnen of medische zorg.
-- **Toezicht:** gedrag, praten en begrijpen, alleen thuis zijn, mee naar buiten gaan, en uw kind bezighouden.
-- **Hoe vaak en hoe lang:** hoeveel tijd kost het per dag? En 's nachts?
+- **Verzorging:** lichaamshygiëne (wassen, aankleden, tanden poetsen), zindelijkheid (plassen en poepen), eten en drinken, mobiliteit (lopen) en medische verzorging.
+- **Oppassing (toezicht):** gedrag, communicatie (praten en begrijpen), alleen thuis zijn, begeleiding buitenshuis, en bezighouden en de dag indelen.
+- **Hoe vaak:** elke dag, of een paar keer per week? En 's nachts: hoe vaak en hoe lang bent u wakker?
 - **De slechte dagen:** wat gebeurt er dan, en hoe vaak komt dat voor?
 
-Hoe jonger uw kind, hoe meer van deze onderdelen moeten tellen.
+Bij elk onderdeel beslist het CIZ of het meetelt. Hoe jonger uw kind, hoe meer onderdelen moeten tellen: **5** bij 3 tot en met 5 jaar, **4** bij 6 tot en met 9 jaar en **3** bij 10 tot en met 17 jaar. Bij heel intensieve medische zorg kan medische verzorging alleen al genoeg zijn.
+
+Het verschil zit vaak in één vraag: **moet u erbij blijven, of is af en toe kijken genoeg?** Schrijf dat daarom steeds op. Het gaat om wat uw kind kán, niet om wat u uw kind (nog) niet laat doen.
 
 Tips:
 
-- **Houd twee weken een dagboek bij.** Schrijf elke dag op wat u doet, hoe de nacht ging en wanneer het moeilijk werd.
+- **Houd twee weken een dagboek bij.** Schrijf elke dag op wat u doet, hoe de nacht ging en wanneer het moeilijk werd. Als hulpmiddel kunt u [ons dagboek downloaden (Word)](../downloads/dagboek-zorg-twee-weken.docx). Het is geen formulier van het CIZ, maar het heeft dezelfde onderdelen. Per onderdeel staat erin wat het CIZ meetelt, in gewone woorden. U kunt het op de computer invullen of uitprinten.
 - **Schrijf op wat u echt doet.** Ook wat voor u gewoon is geworden. Maak het niet kleiner dan het is.
 - **Vraag de behandelaar hetzelfde te beschrijven.** Dan passen de papieren bij elkaar.
 - **Laat iemand meelezen voordat u het verstuurt.** Dat kan een cliëntondersteuner (iemand die gratis met u meedenkt), Balans of Per Saldo.

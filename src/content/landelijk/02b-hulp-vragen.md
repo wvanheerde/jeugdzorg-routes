@@ -39,7 +39,7 @@ Ouders raken gewend aan wat thuis gebeurt. Wat voor u gewoon is geworden, is voo
 - **Vertel over de slechte dagen.** Wat gebeurt er dan, hoe lang duurt het, wat moet u doen?
 - **Zeg hoe vaak dat voorkomt.** Bijvoorbeeld: drie of vier keer per week, of bijna elke nacht.
 - **Vertel ook over de betere dagen.** Schrijf "betere dag", niet "normale dag". Ook op een betere dag doet u vaak meer dan andere ouders.
-- **Houd een paar weken een dagboek bij.** Schrijf elke dag kort op wat er gebeurde en hoeveel tijd het u kostte. Dan hoeft u in het gesprek niet uit uw geheugen te putten.
+- **Houd een paar weken een dagboek bij.** Schrijf elke dag kort op wat er gebeurde en hoeveel tijd het u kostte. Dan hoeft u in het gesprek niet uit uw geheugen te putten. Als hulpmiddel kunt u [ons dagboek downloaden (Word)](../downloads/dagboek-zorg-twee-weken.docx).
 
 Een beoordelaar kijkt naar wat uw kind structureel nodig heeft. Daarom werkt het zo goed om naast de slechte dagen ook te zeggen hoe vaak ze voorkomen. Dan ziet de beoordelaar het hele beeld en dat maakt uw verhaal sterk. Verslagen van behandelaars of school die hetzelfde laten zien helpen daarbij.
 
