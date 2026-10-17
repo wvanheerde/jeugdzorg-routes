@@ -37,6 +37,7 @@ const postadressen = metPostadres
   ? Object.fromEntries((await getCollection('gemeenten')).map((g) => [g.id, [g.data.naam, register.gemeenten.find((x: { cbsCode: string; postadres?: string }) => x.cbsCode === g.data.cbsCode)?.postadres ?? '']]))
   : {};
 const titelVan = (id: string) => alleSituaties.find((x) => x.id === id)?.data.titel ?? id;
+import TermijnenHulp from '../../components/TermijnenHulp.astro';
 const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de gemeente', wijkteam: 'Aan het wijkteam', huisarts: 'Aan de huisarts of jeugdarts', aanbieder: 'Aan de hulpverlener', overig: 'Aan meerdere partijen' };
 ---
 <Base title={d.titel} description={d.wanneer}>
@@ -58,6 +59,8 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
         <button type="button" class="btn primary" data-kopieer><Icon name="file" class="inline-icon" /> Kopieer de brief</button>
         <span class="meta" data-kopieer-status aria-live="polite"></span>
       </div>
+      {b.id === 'bezwaar-beschikking' && <TermijnenHulp soort="bezwaar" inBrief />}
+      {b.id === 'ingebrekestelling' && <TermijnenHulp soort="besluit" inBrief />}
       {metPostadres && <p class="meta" data-postadres-uitleg hidden></p>}
       <article class="brief" data-brief><Content /></article>
       <p class="meta" style="margin-top:1rem">Vul de velden tussen [haken] in en verwijder wat niet van toepassing is. Dit is een voorbeeld, geen juridisch advies.</p>
@@ -126,6 +129,24 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       const uitleg = document.querySelector<HTMLElement>('[data-postadres-uitleg]');
       if (uitleg) { uitleg.textContent = `Naam en postadres van de gemeente ${naam} staan al in de brief. U koos die gemeente eerder op deze site.`; uitleg.hidden = false; }
     }
+  }
+
+  // Datums uit de rekenhulp (TermijnenHulp) in de brief: de invulvelden worden een plek die meeverandert, en terug als het veld leeg is.
+  {
+    const VELDEN: Record<string, string[]> = { besluit: ['[datum besluit]', '[datum]'], aanvraag: ['[datum aanvraag]'] };
+    const kort = (d: Date) => d.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
+    document.querySelectorAll<HTMLElement>('[data-brief] p').forEach((p) => {
+      for (const [veld, vormen] of Object.entries(VELDEN)) for (const v of vormen) {
+        if (p.innerHTML.includes(v)) p.innerHTML = p.innerHTML.split(v).join(`<span data-brief-veld="${veld}" data-leeg="${v}">${v}</span>`);
+      }
+      // Ingebrekestelling: de datum waarop de beslistermijn verliep, in de zin over die termijn.
+      if (p.textContent?.includes('moet beslissen, is verstreken')) p.innerHTML = p.innerHTML.replace('is verstreken', 'is<span data-brief-veld="termijn" data-leeg=""></span> verstreken');
+    });
+    document.addEventListener('jr:termijn', (e) => {
+      const { veld, d, termijn } = (e as CustomEvent).detail as { veld: string; d: Date | null; termijn?: Date };
+      document.querySelectorAll<HTMLElement>(`[data-brief-veld="${veld}"]`).forEach((s) => (s.textContent = d ? kort(d) : s.dataset.leeg ?? ''));
+      if (veld === 'aanvraag') document.querySelectorAll<HTMLElement>('[data-brief-veld="termijn"]').forEach((s) => (s.textContent = d && termijn ? ` op ${kort(termijn)}` : ''));
+    });
   }
 
   // Soorten hulp en therapievormen. Hulp kiest u eerst; de therapievormen verschijnen pas bij een gekozen hulp waar ze onder vallen

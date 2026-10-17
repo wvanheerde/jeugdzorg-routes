@@ -415,14 +415,27 @@ const knelpunten = defineCollection({
     titel: z.string(),
     herkenning: z.string(),
     samenvatting: z.string(),
-    /** Concrete stappen, in volgorde. Kort. */
-    stappen: z.array(z.string()).min(1),
+    /**
+     * Concrete stappen, in volgorde. Kort. Een stap mag vervolgstappen hebben die er direct onder horen (A, B),
+     * bijvoorbeeld de ingebrekestelling na "wacht u op een besluit": `{ stap: "…", daarna: ["…", "…"] }`.
+     */
+    stappen: z.array(z.union([z.string(), z.object({ stap: z.string(), daarna: z.array(z.string()).min(1) })])).min(1),
     /** Welke onderdelen van de gemeentepagina relevant zijn, in volgorde van belang. */
     gemeenteOnderdelen: z.array(z.enum(['toegang', 'clientondersteuning', 'klacht', 'bezwaar', 'spoed', 'aanbieders', 'vertrouwenspersoon', 'pgb', 'postadres'])).default([]),
     brieven: z.array(z.string()).default([]),
     landelijk: z.array(z.string()).default([]),
     /** Landelijke vraag (zoals kinderbijslag): het overzicht toont dan geen gegevens van de gemeente. */
     zonderGemeente: z.boolean().default(false),
+    /**
+     * Het wijkteam als groot contactblok bovenaan Mijn overzicht. Uit (false) als de ouder het wijkteam al kent of er niet als eerste
+     * heen hoeft (zoals bij wachten): dan staat het contact als regel onder de eerste stap die het wijkteam noemt.
+     */
+    wijkteamBovenaan: z.boolean().default(true),
+    /**
+     * Hoe het in de gemeente gaat, direct onder stap 1, bij vragen waar dat de ouder raakt (persona-tests ronde 23).
+     * 'doorlooptijd': "Hoe lang duurt het in …?" (uitklapper) en "Hoe gaat het met de jeugdhulp in …?"; 'ervaringen': alleen die link.
+     */
+    standInGemeente: z.enum(['doorlooptijd', 'ervaringen']).optional(),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

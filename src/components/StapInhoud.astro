@@ -1,0 +1,27 @@
+---
+/**
+ * De inhoud van één stap in Mijn overzicht (ook een vervolgstap A, B): vet begin, de brief, het contactregeltje van genoemde
+ * organisaties, de plekken voor gemeentegegevens (cliëntondersteuner, aanbieders), de rekenhulp en de tips-link.
+ * De keuze wat bij een stap hoort, staat in src/pages/overzicht.astro (stapProps).
+ */
+import OrgRegel from './OrgRegel.astro';
+import TermijnenHulp from './TermijnenHulp.astro';
+interface Props {
+  tekst: string;
+  orgs?: { data: { naam: string; telefoon?: string; url: string } }[];
+  brief?: { id: string; label: string };
+  co?: boolean;
+  aanbieders?: boolean;
+  wijkteam?: boolean;
+  stand?: 'doorlooptijd' | 'ervaringen';
+  termijn?: 'bezwaar' | 'besluit';
+  tips?: boolean;
+}
+const { tekst, orgs = [], brief, co = false, aanbieders = false, wijkteam = false, stand, termijn, tips = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+// Begint een stap met een vraag of een moment ("Wacht u op een besluit?", "Rond de verjaardag:"), dan staat dat begin vet,
+// zodat een scannende ouder ziet welke stap voor hem geldt (persona-tests ronde 21).
+const m = tekst.match(/^([^.?!:]{2,110}[?:])\s+([\s\S]+)$/);
+const [lead, rest] = m ? [m[1], m[2]] : [null, tekst];
+---
+{lead && <><strong class="stap-lead">{lead}</strong> </>}{rest}{brief && <><a class="stap-brief" href={`${base}/brieven/${brief.id}/`}>Voorbeeldbrief {brief.label} →</a></>}<OrgRegel orgs={orgs} />{stand && <div data-stand-stap data-gemeente-slot={`overzicht-stand-${stand}`}></div>}{wijkteam && <span data-wijkteam-stap data-gemeente-slot="overzicht-wijkteam-stap"></span>}{co && <span data-co-stap data-gemeente-slot="overzicht-co-stap"></span>}{aanbieders && <span data-aanbieders-stap data-gemeente-slot="overzicht-aanbieders-stap"></span>}{termijn && <TermijnenHulp soort={termijn} brief={`${base}/brieven/ingebrekestelling/`} />}{tips && <a class="stap-tips" href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a>}

@@ -1,5 +1,5 @@
 ---
-titel: "Klacht bij het wijkteam, jeugdteam of de hulpverlener"
+titel: "Klacht bij het wijkteam of jeugdteam"
 wanneer: "Als er niets gebeurt. Of als u geen verslag of plan krijgt, afspraken niet worden nagekomen of u slecht wordt behandeld. Voor een klacht geldt geen termijn. Een klacht is vaak sneller dan bezwaar."
 aan: wijkteam
 tips:
@@ -13,7 +13,7 @@ bronnen:
     geraadpleegd: "2026-10-10"
 situaties: [autisme, trauma, eetstoornis, dwang-en-tics, verslaving-en-gamen, leerstoornissen, tos, adhd, gedragsproblemen, langdurig-ziek, verstandelijke-beperking, zindelijkheid, mantelzorg, angst-of-somberheid, school-loopt-vast]
 volgorde: 5
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-17"
 ---
 
 Aan: [naam organisatie], t.a.v. de klachtenfunctionaris

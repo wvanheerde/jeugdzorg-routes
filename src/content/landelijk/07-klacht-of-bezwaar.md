@@ -2,7 +2,7 @@
 titel: "Klacht of bezwaar: wat werkt wanneer?"
 samenvatting: "Loopt de hulp vast? Dan kunt u meer doen dan alleen bezwaar maken. Een klacht is meestal sneller. Komt er geen besluit? Dan is een ingebrekestelling het sterkste middel."
 volgorde: 7
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-17"
 bronnen:
   - titel: "NJi – Wat als ik problemen heb met het wijkteam?"
     url: https://www.nji.nl/wijkteams/wat-als-ik-problemen-heb-met-het-wijkteam
@@ -34,8 +34,8 @@ Bezwaar en klacht zijn twee verschillende dingen. Vaak loopt de hulp vast zonder
 ## De ladder, van makkelijk naar formeel
 
 1. **Vertrouwenspersoon van Jeugdstem.** Gratis en onafhankelijk. De vertrouwenspersoon kent de klachtenregelingen. Alleen al als de vertrouwenspersoon erbij is, verandert vaak de toon van een gesprek.
-2. **Klacht bij de organisatie zelf.** Doe dit schriftelijk. Elke jeugdhulporganisatie en elk toegangsteam van de gemeente moet een klachtenregeling hebben. Lukt het niet binnen de organisatie? Dan is er een onafhankelijke klachtencommissie. De contactgegevens staan op de pagina van uw gemeente. Gebruik de [voorbeeldbrief klacht](../brieven/klacht-toegangsteam/).
-3. **Ingebrekestelling als er geen besluit komt.** Beslist de gemeente niet op tijd? Meestal is dat acht weken na de aanvraag. Stel de gemeente dan schriftelijk in gebreke. Beslist de gemeente daarna niet binnen twee weken? Dan moet de gemeente u een dwangsom betalen. En dan kunt u direct beroep instellen bij de rechter. Weinig ouders gebruiken dit middel, maar het werkt goed. Gebruik de [voorbeeldbrief ingebrekestelling](../brieven/ingebrekestelling/).
+2. **Klacht bij de organisatie zelf.** Doe dit schriftelijk. Elke jeugdhulporganisatie en elk toegangsteam van de gemeente moet een klachtenregeling hebben. Lukt het niet binnen de organisatie? Dan is er een onafhankelijke klachtencommissie. Het klachtadres van het wijkteam staat op de pagina van uw gemeente. Dat van een aanbieder staat op de website van de aanbieder. Gebruik de voorbeeldbrief [klacht bij het wijkteam](../brieven/klacht-toegangsteam/) of [klacht over de hulpverlener of aanbieder](../brieven/klacht-aanbieder/).
+3. **Ingebrekestelling als er geen besluit komt.** Beslist de gemeente niet op tijd? Meestal is dat acht weken na de aanvraag. Stel de gemeente dan schriftelijk in gebreke. Beslist de gemeente daarna niet binnen twee weken? Dan moet de gemeente u een dwangsom betalen. Blijft het besluit uit, dan kunt u de rechter vragen om de gemeente te laten beslissen. Weinig ouders gebruiken dit middel, maar het werkt goed. Gebruik de [voorbeeldbrief ingebrekestelling](../brieven/ingebrekestelling/).
 4. **Ombudsman.** Heeft u een klacht over de gemeente zelf? Ga dan naar de ombudsman van de gemeente, als die er is. Den Haag heeft een eigen Jeugdombudsman. Rotterdam heeft een kinderombudsman. Heeft uw gemeente geen ombudsman? Ga dan naar de Nationale ombudsman.
 5. **Bezwaar.** Alleen als er een besluit is waar u het niet mee eens bent. Gebruik de [voorbeeldbrief bezwaar](../brieven/bezwaar-beschikking/).
 6. **Meldpunt van de inspectie (IGJ).** Voor ernstige problemen bij een organisatie die steeds terugkomen. Niet voor een conflict over uw eigen situatie. De inspectie lost uw situatie niet op. Maar de inspectie gebruikt uw melding wel bij het toezicht.

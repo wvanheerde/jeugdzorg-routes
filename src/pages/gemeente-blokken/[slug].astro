@@ -66,7 +66,7 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
   {t0 && (() => { const c = contacten(t0.contact)[0]; return (
     <div class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>
       <p><span class="wt-alt">Liever eerst het wijkteam? Dat mag ook:</span><span class="wt-gelijk">Het wijkteam in {d.naam}:</span><br /><strong>{t0.naam}</strong>{c?.telefoon && <> <span class="wt-tel"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span><a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a></span></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}</p>
-      <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {d.naam}?</a></div>
+      <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het met de jeugdhulp in {d.naam}?</a></div>
     </div>
   ); })()}
 </template>
@@ -89,11 +89,11 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
         {jgz.map((c) => <Contact contact={c} />)}
       </div>
     )}
-    <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span>{jgz.length > 0 && <span data-kop-jgz hidden>Of bij het wijkteam</span>}<span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span>: {t?.naam}</h3>
+    <h3><span class="kop-standaard" data-kop-standaard>Hier meldt u zich in {d.naam}</span><span data-kop-licht hidden>{cjg ? 'Of bij het wijkteam' : `Hier kunt u terecht in ${d.naam}`}</span>{jgz.length > 0 && <span data-kop-jgz hidden>Of bij het wijkteam</span>}<span class="kop-verhuizing">Nieuwe gemeente {d.naam}</span><span class="kop-wijkteam">Het wijkteam in {d.naam}</span>: {t?.naam}</h3>
     {t?.naam && !/wijkteam/i.test(t.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
     {t?.contact?.telefoon && <a class="btn primary bel" href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{t.contact.telefoon}</a>}
     {t?.contact && <Contact contact={t.contact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />}
-    <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het in {d.naam}?</a></div>
+    <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het met de jeugdhulp in {d.naam}?</a></div>
     </div>
     <div class="ec-bezwaar">
       <h3>Bezwaar maken in {d.naam}</h3>
@@ -134,6 +134,30 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
   {(() => { const c = r.onafhankelijkeClientondersteuning; return (c.telefoon || c.url || c.email) && (
     <span class="stap-contact"><span class="stap-org"><strong>{c.naam}</strong>{c.telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a></span>}{!c.telefoon && c.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${c.email}`}>{c.email}</a></span>}{c.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={c.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}</span></span>
   ); })()}
+</template>
+
+<!-- Mijn overzicht: hoe het in de gemeente gaat, onder stap 1 bij vragen waar dat de ouder raakt (knelpunt.standInGemeente). -->
+<template data-slot="overzicht-stand-doorlooptijd">
+  <div class="ec-wacht-rij stap-stand"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het met de jeugdhulp in {d.naam}?</a></div>
+</template>
+<template data-slot="overzicht-stand-ervaringen">
+  <div class="ec-wacht-rij stap-stand"><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het met de jeugdhulp in {d.naam}?</a></div>
+</template>
+
+<!-- Mijn overzicht: het wijkteam als regel onder de eerste stap die het noemt, als het niet bovenaan staat (zoals bij wachten). -->
+<template data-slot="overzicht-wijkteam-stap">
+  {t?.naam && t.contact && (t.contact.telefoon || t.contact.url || t.contact.email) && (
+    <span class="stap-contact"><span class="stap-org"><strong>{t.naam}</strong>{t.contact.telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}>{t.contact.telefoon}</a></span>}{!t.contact.telefoon && t.contact.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${t.contact.email}`}>{t.contact.email}</a></span>}{t.contact.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={t.contact.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}</span></span>
+  )}
+</template>
+
+<!-- Mijn overzicht: de aanbieders (en wachttijden) direct onder de stap over een andere aanbieder kiezen. -->
+<template data-slot="overzicht-aanbieders-stap">
+  {d.aanbod.gecontracteerdeAanbiedersUrl && (
+    <span class="stap-contact"><span class="stap-org">{d.aanbod.gecontracteerdeAanbiedersUrl.includes('beschikbaarheidswijzer')
+      ? <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders en wachttijden bekijken<span aria-hidden="true"> ↗</span></a></span>
+      : <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders in {d.naam} bekijken<span aria-hidden="true"> ↗</span></a></span>}</span></span>
+  )}
 </template>
 
 <!-- Mijn overzicht, blok 2: de andere ingangen, lokale steun en direct regelen. -->

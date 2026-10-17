@@ -162,6 +162,12 @@ li { margin-bottom: .3rem; }
 .route ol.steps li:not(:last-child)::after, #nu-doen ol.steps li:not(:last-child)::after { content: ""; position: absolute; left: .8rem; top: 1.85rem; bottom: -1.1rem; width: 2px; background: var(--c-border); }
 /* Op Mijn overzicht loopt de lijst door na stap 1 (start="2"); stap 1 staat los, met het contact eronder, dus zonder verbindingslijn. */
 #nu-doen ol.steps[start="2"] { counter-reset: step 1; }
+/* Vervolgstappen (A, B) onder een stap, zoals de ingebrekestelling na "wacht u op een besluit". */
+#nu-doen ol.steps-sub { list-style: none; padding: 0; margin: .8rem 0 0; counter-reset: sub; }
+#nu-doen ol.steps ol.steps-sub > li { counter-increment: sub; padding-left: 2.1rem; margin-bottom: .9rem; font-size: 1rem; }
+#nu-doen ol.steps ol.steps-sub > li:last-child { margin-bottom: 0; }
+#nu-doen ol.steps ol.steps-sub > li::before { content: counter(sub, upper-alpha); width: 1.45rem; height: 1.45rem; font-size: .8rem; border-width: 1.5px; top: .1rem; }
+#nu-doen ol.steps ol.steps-sub > li::after { display: none; }
 #nu-doen ol.stap-een li::after { display: none; }
 .route.spoed { border-color: #f3c2ab; background: #fff8f4; }
 .route.spoed .badge { background: var(--c-accent-soft); color: #a3400f; }
@@ -383,15 +389,17 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .cta-balk { padding-left: max(1.5rem, calc((100vw - var(--maxw)) / 2 + 1.5rem)); padding-right: max(1.5rem, calc((100vw - var(--maxw)) / 2 + 1.5rem)); }
 
 /* Mijn overzicht: blok 1 (stap 1, contact, overige stappen, handig, brieven); volgorde wordt in de HTML gezet */
-#nu-doen .stap-een li { font-size: 1.08rem; font-weight: 500; }
-/* Vet begin van een stap (vraag of moment). In stap 1 dan de rest normaal, anders valt het begin niet op. */
+#nu-doen .stap-een li { font-size: 1.08rem; font-weight: 400; }
+/* Vet begin van een stap (vraag of moment). Stap 1 is iets groter, maar net zo vet als de andere stappen. */
 #nu-doen .stap-lead { font-weight: 700; }
-#nu-doen .stap-een li:has(.stap-lead) { font-weight: 400; }
 #nu-doen .o4 { margin-top: 0; }
 #nu-doen .lead-klein { margin: 0 0 .75rem; }
 /* Ruimte tussen het blok "Hier meldt u zich" en de tekst eronder. */
 #nu-doen .eerste-contact { margin-bottom: 1rem; }
 .eerste-contact .kop-verhuizing { display: none; }
+.eerste-contact .kop-wijkteam { display: none; }
+[data-kop="wijkteam"] .eerste-contact .kop-standaard { display: none; }
+[data-kop="wijkteam"] .eerste-contact .kop-wijkteam { display: inline; }
 [data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
 [data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
 .contact[hidden] { display: none; }
@@ -455,7 +463,8 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .woonplaats-zoek .linkknop { background: none; border: 0; padding-left: 0; padding-right: 0; padding-top: 0; font: inherit; font-size: .9rem; color: inherit; text-decoration: underline; cursor: pointer; text-align: left; }
 .woonplaats-zoek .meta { margin: 0; color: inherit; }
 .woonplaats-zoek .meta:empty { display: none; }
-#nu-doen .stap-brief { white-space: nowrap; font-weight: 600; }
+/* Brieflink op een eigen regel onder de stap, niet vet: achter de zin maakte het geheel druk. */
+#nu-doen .stap-brief { display: block; width: fit-content; margin-top: .4rem; font-size: .95rem; font-weight: 400; }
 #nu-doen .wijkteam-regel { margin: .25rem 0 1rem; padding: .6rem .8rem; background: var(--c-primary-soft); border-radius: 8px; }
 
 /* Kaarten met een knop onderaan (hulpvorm in de brief): knop en link onderaan de kaart, per rij op gelijke hoogte */
@@ -551,6 +560,7 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .ico-globe { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22/%3E%3Cpath d=%22M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20%22/%3E%3Cpath d=%22M2 12h20%22/%3E%3C/svg%3E"); }
 .ico-pin { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0%22/%3E%3Ccircle cx=%2212%22 cy=%2210%22 r=%223%22/%3E%3C/svg%3E"); }
 .ico-clock { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22/%3E%3Cpolyline points=%2212 6 12 12 16 14%22/%3E%3C/svg%3E"); }
+.ico-calendar { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Crect width=%2218%22 height=%2218%22 x=%223%22 y=%224%22 rx=%222%22/%3E%3Cpath d=%22M16 2v4M8 2v4M3 10h18%22/%3E%3C/svg%3E"); }
 
 /* Regel "Liever eerst het wijkteam?": telefoonnummer met icoon, niet afbreken. */
 .wijkteam-regel .wt-tel { white-space: nowrap; margin-left: .3rem; }
@@ -561,3 +571,27 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .card.brief-keuze.gekozen { border-color: var(--c-primary); box-shadow: 0 0 0 1px var(--c-primary) inset; }
 /* Knop en link onder elkaar, zodat de link niet verspringt als de knoptekst verandert. */
 .brief-keuze .kaart-acties { flex-direction: column; align-items: flex-start; }
+
+/* Termijnenhulp (bezwaar, beslistermijn): ingeklapt onder de stap of boven de brief */
+.termijnhulp { margin: .6rem 0 .25rem; padding: .5rem .85rem; border: 1px solid var(--c-border, #e2ddd3); border-radius: 10px; background: var(--c-surface, #fff); font-size: .97rem; font-weight: 400; }
+.termijnhulp > summary { cursor: pointer; color: var(--c-primary-dark); font-weight: 600; padding: .2rem 0; }
+.termijnhulp[open] > summary { margin-bottom: .5rem; }
+.brief-acties + .termijnhulp { margin: 0 0 1.25rem; }
+.termijnhulp .th-blok + .th-blok { margin-top: .9rem; padding-top: .9rem; border-top: 1px solid var(--c-border, #e2ddd3); }
+.termijnhulp .th-label { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; }
+.termijnhulp .th-label > label { font-weight: 600; }
+.termijnhulp .th-veld { position: relative; display: inline-flex; align-items: stretch; max-width: 14rem; }
+.termijnhulp input[data-th-invoer] { font: inherit; font-weight: 400; padding: .45rem .6rem; border: 1px solid var(--c-border, #cfc8bb); border-radius: 8px 0 0 8px; width: 100%; min-width: 0; }
+.termijnhulp .th-kalender { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 2.75rem; border: 1px solid var(--c-border, #cfc8bb); border-left: 0; border-radius: 0 8px 8px 0; background: var(--c-surface-2, #fdfcfa); color: var(--c-primary); cursor: pointer; }
+.termijnhulp .th-kalender .ico { width: 1.15em; height: 1.15em; }
+/* De echte datumkiezer: onzichtbaar onder het veld, zodat de kalender van het toestel daar opent. */
+.termijnhulp .th-datum { position: absolute; left: 0; bottom: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
+.termijnhulp .th-uitkomst { margin-top: .6rem; }
+.termijnhulp .th-uitkomst p { margin: 0; }
+.termijnhulp .th-uitkomst p + p { margin-top: .4rem; }
+.termijnhulp .th-brief { margin: .5rem 0 0; }
+.termijnhulp .th-noot { margin: .8rem 0 .2rem; font-size: .8rem; color: var(--c-muted); }
+.eerste-contact .ec-bezwaar .btn + .meta, .eerste-contact .ec-bezwaar .btn + p { margin-top: .9rem; }
+/* "Hoe lang duurt het / Hoe gaat het in …" onder stap 1 (standInGemeente). */
+#nu-doen .stap-stand { margin-top: .5rem; font-size: .95rem; font-weight: 400; }
+#nu-doen .stap-stand details.ec-wachten summary { cursor: pointer; }

@@ -1,13 +1,13 @@
 ---
 titel: "Ingebrekestelling: de gemeente beslist niet op tijd"
-wanneer: "Als u jeugdhulp of een pgb heeft aangevraagd, en de gemeente niet op tijd beslist. Meestal moet de gemeente binnen acht weken beslissen. Na deze brief heeft de gemeente nog twee weken. Beslist de gemeente dan nog niet? Dan moet zij een dwangsom betalen. En dan kunt u direct naar de rechter."
+wanneer: "Als u jeugdhulp of een pgb heeft aangevraagd en de gemeente niet op tijd beslist (meestal binnen acht weken). Na deze brief heeft de gemeente nog twee weken. Daarna moet zij u een bedrag per dag betalen (een dwangsom)."
 aan: gemeente
 tips:
   - "Dit werkt alleen als u een aanvraag heeft gedaan. Heeft u alleen een gesprek gehad? Vraag dan eerst schriftelijk om een beschikking. Noem dat een aanvraag."
   - "Stuur de brief aangetekend naar het postadres. Of stuur hem per e-mail naar het adres waar u ook de aanvraag heen stuurde, en vraag om een ontvangstbevestiging. De twee weken beginnen als de gemeente de brief ontvangt."
   - "Noem de datum van uw aanvraag. Noem ook het kenmerk of de ontvangstbevestiging, als u die heeft."
   - "Het gaat om het besluit, niet om de dwangsom. Maar de brief zorgt er wel voor dat de gemeente gaat beslissen. Daar is hij voor bedoeld."
-  - "Beslist de gemeente twee weken na uw brief nog niet? Dan betaalt zij u een dwangsom: € 23 per dag de eerste twee weken, € 35 per dag de twee weken daarna en € 45 per dag daarna. Samen hooguit € 1.442, in 42 dagen. U kunt dan ook direct beroep instellen bij de rechtbank, zonder eerst bezwaar te maken. Daarvoor betaalt u griffierecht. Krijgt u gelijk, dan betaalt de gemeente dat terug. Het Juridisch Loket geeft gratis advies."
+  - "Beslist de gemeente twee weken na uw brief nog niet? Dan betaalt zij u een dwangsom: € 23 per dag de eerste twee weken, € 35 per dag de twee weken daarna en € 45 per dag daarna. Samen hooguit € 1.442, in 42 dagen. Blijft het besluit uit, dan kunt u de rechter vragen om de gemeente te laten beslissen. U hoeft dan niet eerst bezwaar te maken. Daarvoor betaalt u griffierecht. Krijgt u gelijk, dan betaalt de gemeente dat terug. Het Juridisch Loket geeft gratis advies."
 bronnen:
   - titel: "Rijksoverheid – Wat kan ik doen als de overheid te laat beslist?"
     url: https://www.rijksoverheid.nl/onderwerpen/bezwaar-en-beroep/vraag-en-antwoord/beslissing-aanvraag-bezwaar-te-laat
@@ -17,7 +17,7 @@ bronnen:
     geraadpleegd: "2026-10-10"
 situaties: [autisme, adhd, gedragsproblemen, langdurig-ziek, verstandelijke-beperking, zindelijkheid, mantelzorg]
 volgorde: 6
-laatstGecontroleerd: "2026-10-14"
+laatstGecontroleerd: "2026-10-17"
 ---
 
 Aan het college van burgemeester en wethouders van de gemeente [naam gemeente]\

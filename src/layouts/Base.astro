@@ -147,7 +147,8 @@ const nav = [
       const re = new RegExp(`(?<![\\p{L}\\d-])(${vormen.join('|')})(?![\\p{L}\\d-])`, 'giu');
       // Eén keer per hoofdstuk (section/article), anders per pagina: op lange pagina's staat de uitleg dan bij wat de ouder leest.
       const gebruikt = new Map<Element, Set<number>>();
-      const overslaan = 'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable]';
+      // .sr-only: tekst alleen voor schermlezers; daar geen (onzichtbare) uitlegknop, anders krijgt het zichtbare woord in die sectie geen uitleg.
+      const overslaan = 'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable], .sr-only';
       let n = 0;
       const zichtbaar = (el: Element) => (el as HTMLElement).checkVisibility ? (el as HTMLElement).checkVisibility() : !!(el as HTMLElement).offsetParent;
       const markeer = () => {
