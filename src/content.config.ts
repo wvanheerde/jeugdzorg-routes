@@ -218,6 +218,8 @@ const organisaties = defineCollection({
     telefoon: z.string().optional(),
     email: z.email().optional(),
     landelijk: z.boolean().default(true),
+    /** Andere woorden waarmee stappen deze organisatie noemen (bv. "kantonrechter"); de naam zelf telt altijd. */
+    genoemdAls: z.array(z.string()).default([]),
     meta: z.object({
       laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     }),

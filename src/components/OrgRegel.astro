@@ -1,0 +1,17 @@
+---
+/** Contactregeltje onder een stap of route: per genoemde organisatie de naam, het nummer en de website, met iconen. */
+import { korteNaam } from '../lib/genoemd';
+interface Props { orgs: { data: { naam: string; telefoon?: string; url: string } }[] }
+const { orgs } = Astro.props;
+---
+{orgs.length > 0 && (
+  <span class="stap-contact">
+    {orgs.map((o) => (
+      <span class="stap-org">
+        <strong>{korteNaam(o.data.naam)}</strong>
+        {o.data.telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></span>}
+        <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={o.data.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>
+      </span>
+    ))}
+  </span>
+)}

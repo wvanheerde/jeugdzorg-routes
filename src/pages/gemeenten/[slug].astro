@@ -182,7 +182,7 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
           {d.ervaringen.transparantie && (() => { const t = d.ervaringen.transparantie; const lbl: Record<string, string> = { ja: 'Ja', nee: 'Nee', onbekend: 'Niet nagezocht' }; return (
             <div class="transparantie">
               <strong>Wat de gemeente zelf openbaar maakt</strong>
-              <p class="meta" style="margin:.2rem 0 .6rem">Dit zegt alleen óf de gemeente deze informatie publiceert, niet hoe goed de hulp is. Wachttijden bij aanbieders en aantallen klachten publiceert geen enkele gemeente.</p>
+              <p class="meta" style="margin:.2rem 0 .6rem">Dit zegt alleen óf de gemeente deze informatie publiceert, niet hoe goed de hulp is. Wachttijden bij aanbieders en aantallen klachten maken de meeste gemeenten niet openbaar; daarom staan ze hier niet.</p>
               <table class="tp-tabel">
                 <tbody>
                   <tr><th scope="row">Cliëntervaringsonderzoek Jeugd</th><td><span class={`tp-status s-${t.clientervaringsonderzoek.status}`}>{lbl[t.clientervaringsonderzoek.status]}</span>{t.clientervaringsonderzoek.jaar && <span class="meta"> {t.clientervaringsonderzoek.jaar}</span>}</td><td>{t.clientervaringsonderzoek.samenvatting}{t.clientervaringsonderzoek.url && <> <a href={t.clientervaringsonderzoek.url} target="_blank" rel="noopener">bron<span aria-hidden="true"> ↗</span></a></>}</td></tr>

@@ -7,7 +7,7 @@ stappen:
   - "Vraag vóór het eerste gesprek een cliëntondersteuner. Dat is gratis. Een cliëntondersteuner helpt u uw vraag op papier te zetten en gaat mee naar het gesprek."
   - "Zet uw vraag op papier: wat er speelt, wat u al heeft geprobeerd en wat u wilt bereiken. Stuur dat vóór het gesprek op."
   - "Vertel eerlijk en volledig, ook over de slechte dagen en hoe vaak die voorkomen. Vertel wat uw kind nodig heeft en wat u al extra doet. Veel ouders vertellen het lichter dan het is."
-  - "Vindt u de stap spannend? Dat is begrijpelijk. Een cliëntondersteuner helpt u het gesprek voor te bereiden en kan meegaan."
+  - "Vindt u de stap spannend? Dat is begrijpelijk, veel ouders vinden dat."
   - "Vraag na het gesprek om een verslag op papier. Vraag ook om het besluit van de gemeente op papier (de beschikking). Zonder dat besluit heeft u later niets in handen."
 gemeenteOnderdelen: [toegang, clientondersteuning, aanbieders]
 brieven: [aanvraag-jeugdhulp, verzoek-verwijzing-huisarts]
@@ -23,5 +23,5 @@ bronnen:
   - titel: "Algemene wet bestuursrecht: beslistermijn en bezwaar (wetten.overheid.nl)"
     url: https://wetten.overheid.nl/BWBR0005537/
     geraadpleegd: "2026-10-15"
-laatstGecontroleerd: "2026-10-15"
+laatstGecontroleerd: "2026-10-17"
 ---

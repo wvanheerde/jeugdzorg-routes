@@ -54,15 +54,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     if (tekst) tekst.textContent = mistGemeente ? 'Kies eerst uw gemeente. Dan ziet u wie u daar kunt bellen.' : (delen.length ? `Gekozen: ${delen.join(' · ')}` : '');
     toon();
   };
-  // Na een vraagknop de rij "Wat speelt er bij uw kind?" in beeld brengen: die rij werd vaak gemist.
+  // Na een vraagknop de rijen "Hoe oud is uw kind?" en "Wat speelt er bij uw kind?" in beeld brengen: die werden vaak gemist.
+  // Scroll naar de leeftijdsrij (die staat erboven), anders valt die onder de vaste kop en raakt wie een leeftijd kiest
+  // de situatierij weer kwijt (persona-tests ronde 21).
   const sitRij = document.querySelector<HTMLElement>('.wegwijzer .situatie-keuze');
+  // Staat de herkenningszin van de gekozen vraag erboven, dan die bovenaan, zodat de bevestiging in beeld blijft.
+  const herkenning = document.querySelector<HTMLElement>('.wegwijzer [data-knelpunt-herkenning]');
+  const leeftijdRij = document.querySelector<HTMLElement>('.wegwijzer .leeftijd-keuze');
   document.querySelectorAll<HTMLButtonElement>('.wegwijzer [data-knelpunt]').forEach((b) => b.addEventListener('click', () => setTimeout(() => {
     if (!sitRij || b.getAttribute('aria-pressed') !== 'true' || b.dataset.gemeenteOptioneel === 'true') return;
     if (sitRij.querySelector('[data-situatie][aria-pressed="true"]')) return;
     // Zonder gemeente vraagt de balk eerst om de gemeente; dan niet wegscrollen van de gemeentekeuze.
     if (mistGemeente) return;
     const r = sitRij.getBoundingClientRect();
-    if (r.top > window.innerHeight * 0.6) sitRij.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    const doelRij = herkenning && !herkenning.hidden ? herkenning : leeftijdRij ?? sitRij;
+    if (r.top > window.innerHeight * 0.6) doelRij.scrollIntoView({ block: 'start', behavior: 'smooth' });
   })));
   for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd']) document.addEventListener(ev, () => setTimeout(update));
   // Een vraag of situatie gekozen zonder gemeente: meteen naar de gemeentekeuze (persona-tests: de knop leek niets te doen).

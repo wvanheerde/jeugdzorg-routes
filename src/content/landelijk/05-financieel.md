@@ -2,7 +2,7 @@
 titel: Financiële regelingen
 samenvatting: Heeft uw kind veel extra zorg nodig? Dan krijgt u misschien dubbele kinderbijslag of ander geld. Dat gaat niet vanzelf.
 volgorde: 5
-laatstGecontroleerd: "2026-10-16"
+laatstGecontroleerd: "2026-10-17"
 bronnen:
   - titel: SVB – Dubbele kinderbijslag bij intensieve zorg
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg
@@ -44,7 +44,7 @@ Woont uw kind thuis? En heeft het veel meer zorg nodig dan andere kinderen van d
 
 - Uw kind is **3 tot 18 jaar**.
 - Uw kind slaapt **minstens vier nachten per week** thuis.
-- Uw kind heeft **veel meer zorg** nodig dan andere kinderen. Dat kan ook bij **autisme, ADHD, een chronische ziekte of gedragsproblemen**. Een Wlz-indicatie (zie hieronder) is niet nodig.
+- Uw kind heeft **veel meer zorg** nodig dan andere kinderen. Dat kan ook bij **autisme, ADHD, een chronische ziekte of gedragsproblemen**. U hoeft geen indicatie voor de Wet langdurige zorg (Wlz) te hebben.
 
 Of de zorg genoeg is, bepaalt het **CIZ**. Dat is een organisatie die voor de SVB bekijkt hoeveel zorg uw kind nodig heeft.
 

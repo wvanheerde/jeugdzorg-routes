@@ -384,6 +384,9 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 
 /* Mijn overzicht: blok 1 (stap 1, contact, overige stappen, handig, brieven); volgorde wordt in de HTML gezet */
 #nu-doen .stap-een li { font-size: 1.08rem; font-weight: 500; }
+/* Vet begin van een stap (vraag of moment). In stap 1 dan de rest normaal, anders valt het begin niet op. */
+#nu-doen .stap-lead { font-weight: 700; }
+#nu-doen .stap-een li:has(.stap-lead) { font-weight: 400; }
 #nu-doen .o4 { margin-top: 0; }
 #nu-doen .lead-klein { margin: 0 0 .75rem; }
 /* Ruimte tussen het blok "Hier meldt u zich" en de tekst eronder. */
@@ -411,11 +414,20 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 [data-modus="bezwaar"] .eerste-contact .ec-bezwaar, [data-modus="klacht"] .eerste-contact .ec-klacht, [data-modus="wachten"] .eerste-contact .ec-wachten { display: block; }
 [data-modus="bezwaar"] [data-onderdeel="bezwaar"], [data-modus="bezwaar"] [data-onderdeel="postadres"], [data-modus="klacht"] [data-onderdeel="klacht"] { display: none !important; }
 
-/* Startpagina: na een vraagknop scrolt de situatierij in beeld, net onder de vaste kop */
-.situatie-keuze { scroll-margin-top: calc(var(--kop-hoogte, 4rem) + 1.25rem); }
+/* Startpagina: na een vraagknop scrollen de leeftijds- en situatierij in beeld, net onder de vaste kop */
+.knelpunt-herkenning { margin: .6rem 0 0; font-style: italic; color: inherit; opacity: .9; }
+.knelpunt-herkenning, .leeftijd-keuze, .situatie-keuze { scroll-margin-top: calc(var(--kop-hoogte, 4rem) + 1.25rem); }
 /* Mijn overzicht: vaste regel bij wachten en contact van genoemde organisaties */
 #nu-doen .wacht-erger { background: var(--c-warn-bg); border-left: 3px solid var(--c-warn-border); padding: .5rem .75rem; border-radius: 6px; margin: 0 0 .75rem; }
-#nu-doen .genoemd { margin-top: .25rem; }
+.stap-contact { display: block; margin-top: 0; font-size: .95rem; font-weight: 400; color: var(--c-muted, inherit); }
+.stap-org { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1.1rem; }
+.stap-org { margin-top: .6rem; }
+#nu-doen .stap-tips { display: block; margin-top: .4rem; font-size: .95rem; font-weight: 400; }
+.stap-org strong { font-weight: 600; flex-basis: 100%; }
+.stap-org .ci { display: inline-flex; align-items: baseline; gap: .4rem; }
+.stap-org .ico { align-self: center; color: var(--c-primary); }
+/* Mijn overzicht: witregel tussen de lokale initiatieven */
+.lokale-steun > li + li { margin-top: 1rem; }
 .eerste-contact details.ec-wachten summary, .wijkteam-regel details.ec-wachten summary { cursor: pointer; font-weight: 600; }
 .wijkteam-regel > p { margin: 0; }
 

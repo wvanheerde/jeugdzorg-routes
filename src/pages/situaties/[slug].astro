@@ -13,6 +13,8 @@ import { routeLabel, koppelThemas, datum } from '../../lib/routes';
 import HulpsoortKaart from '../../components/HulpsoortKaart.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
+import { genoemdIn } from '../../lib/genoemd';
+import OrgRegel from '../../components/OrgRegel.astro';
 
 export async function getStaticPaths() {
   const situaties = await getCollection('situaties');
@@ -22,6 +24,7 @@ const { s } = Astro.props;
 const d = s.data;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const { Content } = await render(s);
+const alleOrganisaties = await getCollection('organisaties');
 
 
 const landelijk = (await Promise.all(d.landelijk.map((id) => getEntry('landelijk', id)))).filter(Boolean);
@@ -78,6 +81,8 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
           <div class={`route ${r.type}`}>
             {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>
             <p style="margin:.5rem 0 0">{r.waarom}</p>
+            {/* Bij spoed niet de nummers die het vaste spoedblok al noemt. */}
+            <OrgRegel orgs={genoemdIn(r.waarom, alleOrganisaties).filter((o) => r.type !== 'spoed' || !['veilig-thuis', '113'].includes(o.id))} />
             {r.type === 'spoed' && <SpoedNummers />}
             <div data-gemeente-slot={`route-${r.type}`}></div>
           </div>

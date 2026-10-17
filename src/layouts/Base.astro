@@ -189,7 +189,8 @@ const nav = [
       };
       // Na de eerste weergave (het overzicht toont pas na het lezen van de keuzes wat zichtbaar is), en opnieuw na elke keuze.
       setTimeout(() => { markeer(); markeer(); markeer(); });
-      for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd']) document.addEventListener(ev, () => setTimeout(() => { markeer(); markeer(); }));
+      // jr:getekend: Mijn overzicht is klaar met tekenen (ook na het ophalen van de gemeente).
+      for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd', 'jr:getekend']) document.addEventListener(ev, () => setTimeout(() => { markeer(); markeer(); }));
       // Ook na het uitklappen van een inklapblok (details): die tekst was eerst niet zichtbaar.
       document.addEventListener('toggle', (e) => { if ((e.target as HTMLDetailsElement).open) setTimeout(() => { markeer(); markeer(); }); }, true);
     </script>

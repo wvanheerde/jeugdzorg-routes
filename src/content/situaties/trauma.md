@@ -10,7 +10,7 @@ routes:
   - type: wijkteam
     waarom: "Als wat er gebeurde in het gezin speelt, zoals geweld of een scheiding. Of als het gezin steun nodig heeft naast de behandeling van het kind. Het wijkteam kan ook letten op de veiligheid thuis."
   - type: spoed
-    waarom: "Bij recent seksueel geweld: het Centrum Seksueel Geweld (0800-0188) biedt binnen zeven dagen medische, psychische en forensische hulp op één plek. Bij acute onveiligheid: Veilig Thuis 0800-2000."
+    waarom: "Bij recent seksueel geweld: het Centrum Seksueel Geweld biedt binnen zeven dagen medische, psychische en forensische hulp op één plek. Bij acute onveiligheid: bel Veilig Thuis."
 landelijk: [02-toegang, 03-rechten]
 regelingen:
   - naam: "Slachtofferhulp en aangifte"
@@ -37,7 +37,7 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/traumagerelateerde-problemen/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 volgorde: 19
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-17"
 bronnen:
   - titel: "Zorgstandaard Psychotrauma- en stressorgerelateerde stoornissen"
     url: https://www.ggzstandaarden.nl/zorgstandaarden/psychotrauma-en-stressorgerelateerde-stoornissen/

@@ -7,7 +7,7 @@ stappen:
   - "Klacht of bezwaar? Bezwaar maakt u tegen het besluit zelf, bijvoorbeeld te weinig uren hulp. Een klacht gaat over hoe u bent behandeld. Bij een afwijzing is bezwaar de juiste weg, en de termijn van zes weken loopt."
   - "Stuur binnen zes weken na de datum op het besluit een brief waarin u bezwaar maakt. Kort mag: uw redenen kunt u later aanvullen."
   - "Verzamel wat uw verhaal steunt, bijvoorbeeld een brief van de huisarts, behandelaar of school. Vraag of u uw bezwaar mag komen toelichten (hoorzitting)."
-  - "Vraag hulp. Het Juridisch Loket geeft gratis advies als u een laag inkomen en weinig spaargeld heeft: 0800 8020, maandag tot en met vrijdag 9.00 tot 17.00 uur. Jeugdstem en de cliëntondersteuner helpen met schrijven, ook bij een hoger inkomen."
+  - "Vraag hulp. Het Juridisch Loket geeft gratis advies als u een laag inkomen en weinig spaargeld heeft. Bellen kan op werkdagen van 9.00 tot 17.00 uur. Jeugdstem en de cliëntondersteuner helpen met schrijven, ook bij een hoger inkomen."
   - "Is er wel hulp toegekend, maar past die niet? Dan kunt u vragen om een persoonsgebonden budget (pgb). Daarmee kiest u zelf de hulp. Een pgb geeft wel veel administratie en de gemeente toetst of u dat kunt. Het is geen snelle oplossing."
 gemeenteOnderdelen: [bezwaar, postadres, clientondersteuning, vertrouwenspersoon]
 brieven: [bezwaar-beschikking]
@@ -17,5 +17,5 @@ bronnen:
   - titel: Het Juridisch Loket
     url: https://www.juridischloket.nl/
     geraadpleegd: "2026-10-13"
-laatstGecontroleerd: "2026-10-13"
+laatstGecontroleerd: "2026-10-17"
 ---

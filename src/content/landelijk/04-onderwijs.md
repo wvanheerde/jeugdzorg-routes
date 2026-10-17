@@ -51,7 +51,7 @@ Wanneer is het tijd om dit te starten? Let op deze signalen:
 - de cijfers worden slechter, ook al doet uw kind zijn best;
 - u hoort steeds "het komt wel".
 
-Vraag dan schriftelijk om een gesprek en om het OPP. Een voorbeeldbrief vindt u bij de situatie [School loopt vast](../situaties/school-loopt-vast/).
+Vraag dan schriftelijk om een gesprek en om het OPP. Een voorbeeldbrief vindt u bij de situatie [School loopt vast of kind zit thuis](../situaties/school-loopt-vast/).
 
 ## Waar onderwijs en jeugdhulp elkaar raken
 

@@ -21,12 +21,21 @@ import HulpsoortKaart from '../components/HulpsoortKaart.astro';
 import Sources from '../components/Sources.astro';
 import ToegangLegenda from '../components/ToegangLegenda.astro';
 import { afbreken } from '../lib/afbreken';
+import { genoemdIn } from '../lib/genoemd';
+import OrgRegel from '../components/OrgRegel.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-/** Landelijke organisaties die in de stappen van een knelpunt bij naam worden genoemd: hun nummer en website direct onder de stappen. */
-const genoemd = (k: (typeof knelpunten)[number]) => {
-  const tekst = k.data.stappen.join(' ');
-  return organisaties.filter((o) => tekst.includes(o.data.naam.replace(/^Het /, '').replace(/ \(.*\)$/, '')));
+/**
+ * Landelijke organisaties die in de stappen van een knelpunt worden genoemd: per stap de organisaties die daar voor het eerst
+ * genoemd worden. Hun nummer en website staan direct onder die stap, niet in de zin zelf (persona-tests ronde 21).
+ */
+const genoemdPerStap = (k: (typeof knelpunten)[number]) => {
+  const gehad = new Set<string>();
+  return k.data.stappen.map((st) => genoemdIn(st, organisaties, gehad));
 };
+/** De eerste stap die de cliëntondersteuner noemt: daaronder komt het contact van de gemeente (niet bij een landelijke vraag). */
+const coStap = (k: (typeof knelpunten)[number], i: number) => !k.data.zonderGemeente && k.data.stappen.findIndex((st) => st.includes('cliëntondersteuner')) === i;
+/** Bij "Vindt u de stap spannend?" de link naar de tips over hulp vragen, direct onder die stap. */
+const tipsStap = (k: (typeof knelpunten)[number], i: number) => k.id === 'beginnen' && k.data.stappen[i].startsWith('Vindt u de stap spannend');
 /** Per stap de voorbeeldbrief die erbij hoort (alleen brieven van dit knelpunt, elke brief één keer): een link direct achter de stap. */
 const STAP_BRIEF: [RegExp, string][] = [
   [/ingebrekestelling/i, 'ingebrekestelling'],
@@ -46,6 +55,14 @@ const briefBij = (k: (typeof knelpunten)[number]) => {
     gebruikt.add(hit[1]);
     return brieven.find((b) => b.id === hit[1]);
   });
+};
+/**
+ * Begint een stap met een vraag of een moment ("Wacht u op een besluit?", "Rond de verjaardag:"), dan staat dat begin vet,
+ * zodat een scannende ouder ziet welke stap voor hem geldt (persona-tests ronde 21). Alleen weergave; de tekst blijft gelijk.
+ */
+const stapDelen = (st: string): [string | null, string] => {
+  const m = st.match(/^([^.?!:]{2,110}[?:])\s+([\s\S]+)$/);
+  return m ? [m[1], m[2]] : [null, st];
 };
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -133,20 +150,19 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'spoed' ? <div class="o2"><SpoedNummers /></div> : (<>
             <ol class="steps stap-een o2">
               {k.id === 'beginnen' ? (<>
-                <li data-generieke-stap>{k.data.stappen[0]}</li>
-                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden>Begin bij <strong>{r0.beginBij ?? (sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type])}</strong>. {r0.waarom}</li>; })}
-              </>) : <li>{k.data.stappen[0]}{briefBij(k)[0] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[0]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[0]!.id]} →</a></>}</li>}
+                <li data-generieke-stap>{(([l, r]) => <>{l && <><strong class="stap-lead">{l}</strong> </>}{r}</>)(stapDelen(k.data.stappen[0]))}</li>
+                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden><strong class="stap-lead">Begin bij {r0.beginBij ?? (sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type])}.</strong> {r0.waarom}<OrgRegel orgs={genoemdIn(r0.waarom, organisaties)} /></li>; })}
+              </>) : <li>{(([l, r]) => <>{l && <><strong class="stap-lead">{l}</strong> </>}{r}</>)(stapDelen(k.data.stappen[0]))}{briefBij(k)[0] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[0]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[0]!.id]} →</a></>}<OrgRegel orgs={genoemdPerStap(k)[0] ?? []} />{coStap(k, 0) && <span data-co-stap data-gemeente-slot="overzicht-co-stap"></span>}</li>}
             </ol>
             {k.id === 'beginnen' && (
               <details class="o4 meer-brieven" data-aanvraag-inklap hidden>
                 <summary>Is er toch jeugdhulp nodig? Zo vraagt u die aan</summary>
-                <ol class="steps" start="2">{k.data.stappen.slice(1).map((st) => <li>{st}</li>)}</ol>
+                <ol class="steps" start="2">{k.data.stappen.slice(1).map((st, i) => <li>{(([l, r]) => <>{l && <><strong class="stap-lead">{l}</strong> </>}{r}</>)(stapDelen(st))}<OrgRegel orgs={genoemdPerStap(k)[i + 1] ?? []} />{coStap(k, i + 1) && <span data-co-stap data-gemeente-slot="overzicht-co-stap"></span>}{tipsStap(k, i + 1) && <a class="stap-tips" href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a>}</li>)}</ol>
               </details>
             )}
-            {k.data.stappen.length > 1 && <ol class="steps o4" data-aanvraag-stappen start="2">{k.data.stappen.slice(1).map((st, i) => <li>{st}{briefBij(k)[i + 1] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[i + 1]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[i + 1]!.id]} →</a></>}</li>)}</ol>}
+            {k.data.stappen.length > 1 && <ol class="steps o4" data-aanvraag-stappen start="2">{k.data.stappen.slice(1).map((st, i) => <li>{(([l, r]) => <>{l && <><strong class="stap-lead">{l}</strong> </>}{r}</>)(stapDelen(st))}{briefBij(k)[i + 1] && <> <a class="stap-brief" href={`${base}/brieven/${briefBij(k)[i + 1]!.id}/`}>Voorbeeldbrief {BRIEF_LABEL[briefBij(k)[i + 1]!.id]} →</a></>}<OrgRegel orgs={genoemdPerStap(k)[i + 1] ?? []} />{coStap(k, i + 1) && <span data-co-stap data-gemeente-slot="overzicht-co-stap"></span>}{tipsStap(k, i + 1) && <a class="stap-tips" href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a>}</li>)}</ol>}
           </>)}
-          {k.id === 'beginnen' && <p class="meta o5" data-aanvraag-stappen><a href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a></p>}
-          {k.id !== 'spoed' && genoemd(k).length > 0 && <p class="meta o5 genoemd">{genoemd(k).map((o, i) => <>{i > 0 && ' · '}<strong>{o.data.naam.replace(/^Het /, '').replace(/ \(.*\)$/, '')}</strong>{o.data.telefoon && <> <a href={`tel:${o.data.telefoon.replace(/\s/g, '')}`}>{o.data.telefoon}</a></>} <a href={o.data.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>)}</p>}
+          
           {k.id === 'verkeerde-hulp' && (<>
             <p class="meta o5" data-tips-link hidden><a href="#tips">Welke andere vormen van hulp passen bij uw kind? Bekijk de therapievormen hieronder ↓</a></p>
             <p class="meta o5" data-tips-link-alg><a href={`${base}/therapievormen/`}>Welke andere vormen van hulp zijn er? Bekijk de therapievormen →</a></p>
@@ -335,9 +351,13 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     const licht = kpActive === 'beginnen' && !!active[0] && data[active[0]].licht;
     // Ingeklapte aanvraag zonder lichte start (zoals onveilig thuis): eigen inleiding en de aanvraagstappen ingeklapt, het wijkteam blijft voorop.
     const inklap = kpActive === 'beginnen' && !!active[0] && data[active[0]].inklap;
-    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen;
+    // Begint de situatie bij school (zoals thuiszitten), dan is "welke aanbieders kunt u kiezen" bij de start nog niet aan de orde.
+    const schoolEerst = kpActive === 'beginnen' && !!active[0] && data[active[0]].routes[0] === 'school';
+    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen.filter((o) => !(schoolEerst && o === 'aanbieders'));
     q('[data-eerste-contact], [data-knelpunt-gemeente]').forEach((e) => (e.hidden = zonderGemeente));
-    q('[data-knelpunt-gemeente] .onderdeel').forEach((e) => (e.hidden = !onderdelen.includes(e.dataset.onderdeel!)));
+    // Staat de cliëntondersteuner al onder een stap, dan niet nog eens in "Hierbij handig".
+    const coBijStap = !!kpActive && !!document.querySelector(`[data-knelpunt-blok="${kpActive}"] [data-co-stap] [data-geladen]`);
+    q('[data-knelpunt-gemeente] .onderdeel').forEach((e) => (e.hidden = !onderdelen.includes(e.dataset.onderdeel!) || (coBijStap && e.dataset.onderdeel === 'clientondersteuning')));
     q('[data-knelpunt-gemeente] .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== (q('[data-knelpunt-gemeente] .gemeente-blok').some((x) => x.dataset.gemeente === gem && gem) ? gem : '')));
     // Spoed zonder gemeente: geen melding "Kies uw gemeente" (bij nood moet niemand eerst een gemeente zoeken).
     if (kpActive === 'spoed' && (!gem || gem === '_overig')) q('[data-knelpunt-gemeente] .gemeente-blok[data-gemeente=""]').forEach((b) => (b.hidden = true));
@@ -466,10 +486,12 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       // Begint de situatie bij huisarts of school, dan staat het wijkteam direct onder stap 1 (persona-tests: stond onder de brieven).
       const wr = document.querySelector('[data-wijkteam-regel]');
       if (na1 && wr) na1.after(wr);
-      const na2 = blok.querySelector('.o5') ?? blok.querySelector('.o4') ?? na1;
+      // Na het laatste blok met stappen of links onder de stappen (bij "hulp aanvragen" staat de ingeklapte versie vóór de gewone lijst).
+      const na2 = Array.from(blok.querySelectorAll('.o4, .o5')).pop() ?? na1;
       const hd = document.querySelector('[data-knelpunt-gemeente]');
       const lft = document.querySelector('.o5b');
-      if (na2 && hd) { na2.after(hd); if (lft) hd.after(lft); }
+      // Eerst de tip bij de leeftijd (hoort bij de stappen), dan "Hierbij handig".
+      if (na2 && hd) { na2.after(hd); if (lft) hd.before(lft); }
     }
     // Blok 2 op volgorde zetten, en elk contact maar één keer tonen (ook niet als het al onder stap 1 staat).
     const gezien = new Set<string>();
@@ -486,6 +508,8 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
         if (sleutel) gezien.add(sleutel);
       }));
     });
+    // Klaar met tekenen: de uitleg bij moeilijke woorden (Base.astro) kan nu de zichtbare tekst nalopen.
+    document.dispatchEvent(new CustomEvent('jr:getekend'));
   };
   document.addEventListener('jr:situaties', (e) => { sel = (e as CustomEvent).detail; render(); });
   // Pas tekenen als de blokken van de gemeente er zijn; is er intussen een andere gekozen, dan tekent die.

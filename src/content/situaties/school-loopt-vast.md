@@ -1,12 +1,12 @@
 ---
-titel: School loopt vast
+titel: School loopt vast of kind zit thuis
 herkenning: Mijn kind gaat niet of nauwelijks meer naar school, of het gaat op school steeds slechter.
 samenvatting: "Zit uw kind thuis of dreigt het uit te vallen? Dan gaat het om onderwijs én jeugdhulp. School en samenwerkingsverband moeten zorgen voor onderwijs dat past. De gemeente moet zorgen voor hulp bij de oorzaak. U heeft als ouder meer te zeggen dan vaak wordt verteld."
 themas: [onderwijs, passend onderwijs, thuiszitters, leerproblemen, school, kinderrechten, bezwaar]
 hulpsoorten: [behandeling-jeugd-ggz, ambulante-begeleiding, dagbesteding, dyslexiezorg, opvoedondersteuning]
 routes:
   - type: school
-    waarom: "Ga eerst naar de intern begeleider of zorgcoördinator. School moet een ontwikkelingsperspectief opstellen en kan het samenwerkingsverband vragen om extra steun of een andere school. Zegt school dat het niet lukt? Dan begint juist de zorgplicht: school moet zelf een passende plek zoeken, ook op een andere school. Komt u er samen niet uit, of zit uw kind al thuis? Meld u dan gratis bij Onderwijsconsulenten, onafhankelijke adviseurs van de overheid (070 312 28 87), en vraag de leerplichtambtenaar van de gemeente om iedereen om tafel te brengen."
+    waarom: "Ga eerst naar de intern begeleider of zorgcoördinator. School moet een ontwikkelingsperspectief opstellen en kan het samenwerkingsverband vragen om extra steun of een andere school. Zegt school dat het niet lukt? Dan begint juist de zorgplicht: school moet zelf een passende plek zoeken, ook op een andere school. Komt u er samen niet uit, of zit uw kind al thuis? Meld u dan gratis bij Onderwijsconsulenten, onafhankelijke adviseurs van de overheid. Vraag ook de leerplichtambtenaar van de gemeente om iedereen om tafel te brengen."
   - type: wijkteam
     waarom: "Speelt er thuis of bij uw kind meer, zoals angst, somberheid of moeilijke dingen in het gezin? Dan kan het wijkteam jeugdhulp inzetten. Ook op school."
   - type: huisarts
@@ -23,7 +23,7 @@ regelingen:
   - naam: "Leerplichtambtenaar"
     toelichting: "Elke gemeente heeft een leerplichtambtenaar. Gaat uw kind niet naar school, of wijzen school, samenwerkingsverband en gemeente naar elkaar? Bel dan de gemeente en vraag naar leerplicht. De leerplichtambtenaar kan iedereen om tafel brengen."
 volgorde: 3
-laatstGecontroleerd: "2026-10-13"
+laatstGecontroleerd: "2026-10-17"
 bronnen:
   - titel: Onderwijsconsulenten – Contact
     url: https://www.onderwijsconsulenten.nl/contact

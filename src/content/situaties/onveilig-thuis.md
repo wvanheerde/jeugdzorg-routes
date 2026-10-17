@@ -7,7 +7,7 @@ hulpsoorten: [crisishulp, ambulante-begeleiding, opvoedondersteuning, verblijf-p
 routes:
   - type: wijkteam
     beginBij: "het wijkteam van uw gemeente of bij Veilig Thuis"
-    waarom: "Merkt u dat het thuis uit de hand loopt? Dan kunt u bij het wijkteam snel hulp krijgen. Daar is het wijkteam voor. Wilt u eerst advies, ook anoniem en ook over uw eigen gezin? Bel dan Veilig Thuis: 0800-2000, gratis en 24 uur per dag."
+    waarom: "Merkt u dat het thuis uit de hand loopt? Dan kunt u bij het wijkteam snel hulp krijgen. Daar is het wijkteam voor. Wilt u eerst advies, ook anoniem en ook over uw eigen gezin? Bel dan Veilig Thuis: gratis en 24 uur per dag."
   - type: spoed
     waarom: "Is uw kind nu niet veilig? Dan wacht u niet op een afspraak."
 landelijk: [02-toegang, 03-rechten]
@@ -42,7 +42,7 @@ therapievormen:
       geraadpleegd: "2026-10-14"
 aanvraagIngeklapt: true
 volgorde: 15
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-17"
 bronnen:
   - titel: NJi – Kindermishandeling
     url: https://www.nji.nl/kindermishandeling

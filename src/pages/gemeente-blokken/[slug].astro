@@ -129,6 +129,13 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
   </div>
 </template>
 
+<!-- Mijn overzicht: de cliëntondersteuner van de gemeente direct onder de stap die hem noemt (persona-tests ronde 21). -->
+<template data-slot="overzicht-co-stap">
+  {(() => { const c = r.onafhankelijkeClientondersteuning; return (c.telefoon || c.url || c.email) && (
+    <span class="stap-contact"><span class="stap-org"><strong>{c.naam}</strong>{c.telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a></span>}{!c.telefoon && c.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${c.email}`}>{c.email}</a></span>}{c.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={c.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}</span></span>
+  ); })()}
+</template>
+
 <!-- Mijn overzicht, blok 2: de andere ingangen, lokale steun en direct regelen. -->
 <template data-slot="overzicht-routes">
   <div class="gemeente-blok routes-lijst" data-gemeente={g.id} hidden>
@@ -144,7 +151,7 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
       <h3>Lokale steun in {d.naam}</h3>
       {/* Gelabeld (situaties/voorIedereen/verbergen, zie content.config.ts): koppeling per situatie; anders via themas. Het CJG-initiatief
            vervalt als het CJG-blok al bovenaan staat (lichte start). */}
-      <ul>{(d.lokaleInitiatieven ?? []).filter((i) => !i.verbergen).map((i) => (
+      <ul class="lokale-steun">{(d.lokaleInitiatieven ?? []).filter((i) => !i.verbergen).map((i) => (
         <li data-li data-themas={j(i.themas ?? [])} data-li-sits={j(i.situaties ?? [])} data-li-gelabeld={i.situaties || i.voorIedereen ? '1' : undefined} data-li-iedereen={i.voorIedereen ? '1' : undefined} data-li-cjg={cjg && /\bCJG\b|Centrum voor Jeugd|JGZ|jeugdgezondheid|consultatiebureau|Centrum Jong|Opvoedpunt|Loes\b/i.test(i.naam) ? '1' : undefined} hidden><strong>{i.naam}</strong> – {i.omschrijving}{(i.url || i.contact) && <Contact contact={{ ...i.contact, naam: i.contact?.naam ?? i.naam, url: i.contact?.url ?? i.url }} zonder={!i.contact?.naam || i.contact.naam === i.naam ? ['naam'] : []} class="kaal" />}</li>
       ))}</ul>
     </div>

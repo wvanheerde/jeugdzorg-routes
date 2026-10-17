@@ -13,6 +13,8 @@ const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.vol
   <div class="chips-select" role="group" aria-label="Waar gaat uw vraag over">
     {knelpunten.map((k) => <button type="button" class="chip-btn" data-knelpunt={k.id} data-gemeente-optioneel={k.data.zonderGemeente || k.id === 'spoed' ? 'true' : undefined} aria-pressed="false" title={k.data.herkenning}>{k.data.titel}</button>)}
   </div>
+  <!-- De herkenningszin van de gekozen knop: bevestigt de keuze en laat zien of die past (persona-tests ronde 21). -->
+  <p class="meta knelpunt-herkenning" data-knelpunt-herkenning aria-live="polite" hidden></p>
 </div>
 <script>
   const KEY = 'jr.knelpunt';
@@ -24,6 +26,11 @@ const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.vol
   const sync = () => {
     localStorage.setItem(KEY, current);
     btns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.knelpunt === current)));
+    document.querySelectorAll<HTMLElement>('[data-knelpunt-herkenning]').forEach((p) => {
+      const tekst = btns.find((b) => b.dataset.knelpunt === current)?.title ?? '';
+      p.textContent = tekst;
+      p.hidden = !tekst;
+    });
     updateLink();
     document.dispatchEvent(new CustomEvent('jr:knelpunt', { detail: current }));
   };
