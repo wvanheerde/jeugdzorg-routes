@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import GemeenteZoeker from '../components/GemeenteZoeker.astro';
+import { woorden } from '../lib/woorden';
+/**
+ * Alle woorden uit de centrale begrippenlijst (src/lib/woorden.ts) op één pagina, van A tot Z. Dezelfde lijst geeft op elke
+ * andere pagina uitleg bij het eerste gebruik van een woord; hier staat alles bij elkaar, om een woord uit een brief op te zoeken.
+ */
+// Kop met een hoofdletter; afkortingen (CIZ, OPP) staan al in hoofdletters en blijven gelijk.
+const kop = (w: (typeof woorden)[number]) => { const t = w.titel ?? w.vormen[0]; return t[0].toUpperCase() + t.slice(1); };
+const slug = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const lijst = woorden.map((w) => ({ ...w, kop: kop(w), id: slug(kop(w)) })).sort((a, b) => a.kop.localeCompare(b.kop, 'nl', { sensitivity: 'base' }));
+const letters = [...new Set(lijst.map((w) => w.kop[0].toUpperCase()))];
+const zoektekst = (w: (typeof lijst)[number]) => [w.kop, ...w.vormen, w.uitleg].join(' ').toLowerCase();
+---
+<Base title="Moeilijke woorden uitgelegd" description="Woorden die ouders tegenkomen in brieven van de gemeente, school of hulpverlening, in gewone taal uitgelegd. Van beschikking tot zorg in natura.">
+  <div class="page-head">
+    <span class="eyebrow">Begrippen</span>
+    <h1>Moeilijke woorden uitgelegd</h1>
+    <p class="lead">Woorden die u tegenkomt in brieven en gesprekken met de gemeente, school of hulpverleners. Op de andere pagina's van deze site staat zo'n woord onderstreept: tik erop voor de uitleg.</p>
+    <div style="max-width:34rem;margin-top:1.25rem"><GemeenteZoeker target="#begrippen-lijst" placeholder="Zoek een woord, bv. beschikking…" label="Zoek een woord" /></div>
+  </div>
+  <nav class="toc" aria-label="Naar letter">{letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}</nav>
+  <div id="begrippen-lijst" data-geen-uitleg>
+    {letters.map((l) => (
+      <section id={`letter-${l}`} style="scroll-margin-top:5.5rem">
+        <div class="kicker"><h2>{l}</h2><span class="line"></span></div>
+        <dl class="begrippen">
+          {lijst.filter((w) => w.kop[0].toUpperCase() === l).map((w) => (
+            <div id={w.id} data-zoek={zoektekst(w)}>
+              <dt>{w.kop}</dt>
+              <dd>{w.uitleg}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    ))}
+  </div>
+  <p class="empty empty-result" hidden style="margin-top:1rem">Dit woord staat er (nog) niet bij. Vraag de gemeente of hulpverlener wat het betekent; dat mag altijd.</p>
+</Base>

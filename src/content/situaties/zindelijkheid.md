@@ -12,7 +12,7 @@ routes:
 landelijk: [02-toegang, 03-rechten]
 regelingen:
   - naam: "Incontinentiemateriaal"
-    toelichting: "Vanaf ongeveer 3 tot 4 jaar kan incontinentiemateriaal vergoed worden uit de basisverzekering. Daarvoor is een verklaring van de arts nodig. De precieze voorwaarden verschillen per verzekeraar. Vraag ze na."
+    toelichting: "De basisverzekering vergoedt incontinentiemateriaal vanaf 5 jaar. Komt het niet zindelijk zijn door een aandoening, dan al vanaf 3 jaar. Niet als uw kind alleen 's nachts in bed plast, of als het kort duurt. Daarvoor is een verklaring van de arts nodig. Vraag de zorgverzekeraar naar de precieze voorwaarden."
   - naam: "Pgb voor gespecialiseerde begeleiding"
     toelichting: "Heeft de gemeente geen afspraken met een aanbieder die deze begeleiding geeft? Dan is dat een argument voor een pgb. U sluit dan een zorgovereenkomst met de zorgverlener, en de SVB betaalt uit het budget. Hoeveel papierwerk de aanvraag is, verschilt per gemeente. Vaak vult u samen met het wijkteam een plan in. Zie de landelijke uitleg."
 volgorde: 4
@@ -24,6 +24,9 @@ bronnen:
   - titel: GGD – Folder Zindelijkheid
     url: https://www.ggdhvb.nl/app/uploads/2023/04/Folder-Zindelijkheid.pdf
     geraadpleegd: "2026-10-10"
+  - titel: Regeling zorgverzekering (hulpmiddelen bij incontinentie)
+    url: https://wetten.overheid.nl/BWBR0018715
+    geraadpleegd: "2026-10-17"
 ---
 
 ## Wat helpt vaak

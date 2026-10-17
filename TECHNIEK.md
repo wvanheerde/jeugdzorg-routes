@@ -8,7 +8,7 @@ Hoe de site gebouwd, gecontroleerd en gepubliceerd wordt. Over de inhoud zelf: z
 ```bash
 npm install
 npm run dev        # http://localhost:4321
-npm run validate   # snelle contentcheck (schema, 112, 06-nummers, contactblokken)
+npm run validate   # snelle contentcheck (schema, 112, 06-nummers, contactblokken, jargon)
 npm run build      # volledige build + sitemap -> dist/
 npm run links      # alle URL's in de content op bereikbaarheid controleren
 ```

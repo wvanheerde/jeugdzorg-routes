@@ -55,6 +55,9 @@ bronnen:
   - titel: KansPlus
     url: https://www.kansplus.nl/
     geraadpleegd: "2026-10-10"
+  - titel: UWV – Wajong aanvragen
+    url: https://www.uwv.nl/nl/wajong/wajong-aanvragen
+    geraadpleegd: "2026-10-17"
 ---
 
 ## Wat helpt vaak
@@ -66,5 +69,5 @@ bronnen:
 ## Waar het vaak misgaat
 
 - **Elk jaar opnieuw aanvragen.** Is de beperking blijvend? Dan mag u om een beschikking voor lange tijd vragen. De gemeente hoeft niet elk jaar opnieuw te beoordelen welke hulp uw kind nodig heeft.
-- **De overgang naar 18.** De Jeugdwet stopt en de Wmo of Wlz begint. Het onderwijs eindigt en Wajong of dagbesteding start. Begin twee jaar van tevoren.
+- **De overgang naar 18.** De Jeugdwet stopt en de Wmo of Wlz begint. Na school volgt werk, dagbesteding of een uitkering. Een Wajong-uitkering kunt u vanaf een half jaar voor de 18e verjaardag bij UWV aanvragen. Begin twee jaar van tevoren met regelen.
 - **Jeugdwet of Wlz?** Gemeenten verwijzen soms te snel naar de Wlz om kosten te vermijden, of juist niet. Een cliëntondersteuner van MEE weet goed wat onder welke wet valt.

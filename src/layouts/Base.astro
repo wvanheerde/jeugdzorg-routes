@@ -88,7 +88,11 @@ const nav = [
           <div>
             <p class="footer-kop">Jeugdzorg Routes</p>
             <p>Onafhankelijke wegwijzer voor ouders. Geen hulpverlening, geen onderdeel van een gemeente of zorgaanbieder.</p>
-            <p>Gebouwd en samengesteld met hulp van AI, onder redactie van de beheerder. Elk kwartaal bijgewerkt; bronnen staan bij de inhoud. <a href={`${base}/over/`}>Over deze site</a>.</p>
+            <p>Gebouwd en samengesteld met hulp van AI, onder redactie van de beheerder. Elk kwartaal bijgewerkt; bronnen staan bij de inhoud.</p>
+            <ul>
+              <li><a href={`${base}/over/`}>Over deze site</a></li>
+              <li><a href={`${base}/begrippen/`}>Moeilijke woorden uitgelegd</a></li>
+            </ul>
           </div>
           <div>
             <p class="footer-kop">Hulplijnen</p>
@@ -100,7 +104,8 @@ const nav = [
           </div>
           <div>
             <p class="footer-kop">Navigatie</p>
-            <ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+            {/* "Over deze site" staat al in de eerste kolom. */}
+            <ul>{nav.filter((n) => n.href !== `${base}/over/`).map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
           </div>
         </div>
         <div class="bottom">Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of jeugdarts. Geen cookies, geen persoonsgegevens. Fout gezien of iets gemist? <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">Stel een wijziging voor via GitHub</a>.</div>
@@ -147,8 +152,9 @@ const nav = [
       const re = new RegExp(`(?<![\\p{L}\\d-])(${vormen.join('|')})(?![\\p{L}\\d-])`, 'giu');
       // Eén keer per hoofdstuk (section/article), anders per pagina: op lange pagina's staat de uitleg dan bij wat de ouder leest.
       const gebruikt = new Map<Element, Set<number>>();
+      // [data-geen-uitleg]: de begrippenpagina zelf.
       // .sr-only: tekst alleen voor schermlezers; daar geen (onzichtbare) uitlegknop, anders krijgt het zichtbare woord in die sectie geen uitleg.
-      const overslaan = 'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable], .sr-only';
+      const overslaan = 'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable], .sr-only, [data-geen-uitleg]';
       let n = 0;
       const zichtbaar = (el: Element) => (el as HTMLElement).checkVisibility ? (el as HTMLElement).checkVisibility() : !!(el as HTMLElement).offsetParent;
       const markeer = () => {

@@ -1,7 +1,8 @@
 // Snelle controle van de content zonder volledige build: JSON-syntax, verplichte velden,
-// datumvolgorde, dubbele CBS-codes, het verbod op 112 en 06-nummers en contactgegevens (waarschuwing). Het volledige schema wordt afgedwongen door `astro build`.
+// datumvolgorde, dubbele CBS-codes, het verbod op 112 en 06-nummers, contactgegevens en jargon (waarschuwing). Het volledige schema wordt afgedwongen door `astro build`.
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { jargonCheck } from './jargon.mjs';
 
 const dir = 'src/content/gemeenten';
 const files = (await readdir(dir)).filter((f) => f.endsWith('.json'));
@@ -70,5 +71,7 @@ for (const f of files) {
   const scheef = (JSON.stringify(publiek).match(/"telefoon":"0\d\d \d{3} \d{4}"/g) ?? []).map((t) => t.slice(12, -1)).filter((t) => !tweeCijferig.test(t.replace(/\s/g, '')));
   if (scheef.length) console.warn(`! ${path}: telefoonnummer met netnummer van vier cijfers verkeerd gegroepeerd (bv. 0543 49 33 33): ${scheef.join('; ')}`);
 }
+// Jargon in alle content (ook situaties, landelijk, brieven): waarschuwing, zie scripts/jargon.mjs.
+for (const m of jargonCheck()) console.warn(`! ${m}`);
 console.log(errors ? `${errors} fout(en)` : `✓ ${files.length} gemeente(n) gecontroleerd`);
 process.exit(errors ? 1 : 0);

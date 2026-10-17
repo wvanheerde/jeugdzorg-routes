@@ -5,15 +5,18 @@ aan: wijkteam
 tips:
   - "Stuur de brief aan beide gemeenten tegelijk, met de andere gemeente in de cc. Dan weet iedereen dat de overdracht loopt. En niemand hoeft op de ander te wachten."
   - "Stuur de huidige beschikking en het gezinsplan mee. Heeft u die niet? Vraag ze dan eerst op. U heeft er recht op."
-  - "Vraag duidelijk of de hulp doorloopt tot de overdracht rond is. Een beschikking blijft meestal geldig tot de einddatum, ook na een verhuizing."
+  - "Vraag duidelijk of de hulp doorloopt tot de overdracht rond is. Gemeenten hebben afgesproken dat de nieuwe gemeente lopende hulp overneemt, bij dezelfde aanbieder en zonder nieuw onderzoek. Dat is geen wet, maar u kunt er wel naar verwijzen."
   - "Kijk op de pagina van de nieuwe gemeente wie daar het toegangsteam is. Kijk ook of uw huidige aanbieder daar een contract heeft. Dat staat in de Beschikbaarheidswijzer of het aanbiedersoverzicht."
 bronnen:
   - titel: "NVP – Hoe zit dat: het nieuwe woonplaatsbeginsel"
     url: https://www.denvp.nl/berichten/detail/2022/08/11/Hoe-zit-dat-het-nieuwe-woonplaatsbeginsel
     geraadpleegd: "2026-10-10"
+  - titel: "VNG – Convenant uitvoering woonplaatsbeginsel Jeugdwet (2017), afspraak 1: verhuizing gezin/jeugdige"
+    url: https://vng.nl/sites/default/files/2019-11/201706_convenant_woonplaatsbeginsel_jeugd_vng.pdf
+    geraadpleegd: "2026-10-17"
 situaties: [autisme, adhd, gedragsproblemen, langdurig-ziek, verstandelijke-beperking, mantelzorg, angst-of-somberheid]
 volgorde: 7
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-17"
 ---
 
 Aan: [naam huidig toegangsteam], t.a.v. [naam contactpersoon]
@@ -37,7 +40,7 @@ Ik wil dat deze hulp zonder onderbreking doorloopt. Daarom vraag ik u:
 Aan het toegangsteam van [nieuwe gemeente] vraag ik:
 
 4. een kennismakingsgesprek kort na [verhuisdatum];
-5. te laten weten of [naam aanbieder] in [nieuwe gemeente] gecontracteerd is. Zo niet, dan vraag ik om voortzetting bij deze aanbieder tot een passend alternatief is gevonden, of om een persoonsgebonden budget, zodat [naam kind] niet van hulpverlener hoeft te wisselen op een moment dat er al veel verandert.
+5. te laten weten of [naam aanbieder] in [nieuwe gemeente] gecontracteerd is. Zo niet, dan vraag ik om voortzetting bij deze aanbieder tot een passend alternatief is gevonden, of om een persoonsgebonden budget, zodat [naam kind] niet van hulpverlener hoeft te wisselen op een moment dat er al veel verandert. Gemeenten hebben in het Convenant uitvoering woonplaatsbeginsel Jeugdwet afgesproken dat de nieuwe gemeente lopende jeugdhulp overneemt bij de huidige aanbieder, zonder nieuw onderzoek.
 
 Ik ontvang graag binnen twee weken een reactie van beide teams. Bij de gesprekken is [naam cliëntondersteuner of naaste] aanwezig.
 

@@ -313,8 +313,9 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .site-footer h4 { margin: 0 0 .6rem; color: var(--c-text); font-size: .95rem; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: .35rem; }
-.site-footer a { color: var(--c-muted); text-decoration: none; }
-.site-footer a:hover { color: var(--c-primary); }
+/* Links in de footer zien eruit als links (kleur en onderstreping), net als in de lopende tekst. */
+.site-footer a { color: var(--c-primary); text-decoration: underline; }
+.site-footer a:hover { color: var(--c-primary-dark); }
 .site-footer .bottom { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--c-border); font-size: .85rem; }
 
 @media (max-width: 640px) {
@@ -374,6 +375,13 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .woord[aria-expanded="true"] { color: var(--c-primary-dark); }
 .woord-uitleg { display: block; margin: .3rem 0 .5rem; padding: .5rem .7rem; font-size: .92rem; background: var(--c-primary-soft); border-left: 3px solid var(--c-primary); border-radius: 6px; }
 .woord-uitleg[hidden] { display: none; }
+/* Begrippenpagina */
+.begrippen { margin: 1rem 0 2rem; max-width: 46rem; }
+.begrippen > div { padding: .7rem 0; border-bottom: 1px solid var(--c-border); scroll-margin-top: 5.5rem; }
+.begrippen > div[hidden] { display: none; }
+.begrippen dt { font-weight: 700; }
+.begrippen dd { margin: .2rem 0 0; }
+.begrippen > div:target { background: var(--c-primary-soft); border-radius: 6px; padding-inline: .6rem; }
 /* Vast spoedblok: nood (één zin) en spoed (wat kan) */
 .spoed-nummers { margin: 1rem 0; padding: .9rem 1.1rem; background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); }
 .spoed-nummers p { margin: 0 0 .5rem; }

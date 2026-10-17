@@ -6,7 +6,7 @@ laatstGecontroleerd: "2026-10-12"
 bronnen:
   - titel: Jeugdwet (wetten.overheid.nl)
     url: https://wetten.overheid.nl/BWBR0034925/
-    geraadpleegd: "2026-10-10"
+    geraadpleegd: "2026-10-17"
   - titel: Rijksoverheid – Jeugdhulp
     url: https://www.rijksoverheid.nl/onderwerpen/jeugdhulp
     geraadpleegd: "2026-10-10"
@@ -28,7 +28,7 @@ De gemeente heeft een **jeugdhulpplicht**. Dat betekent: heeft uw kind hulp nodi
 
 ## Welke gemeente?
 
-Dat hangt af van waar de ouder met gezag staat ingeschreven. Die gemeente is verantwoordelijk. Dit heet het **woonplaatsbeginsel**. Woont uw kind buiten het gezin? Dan is de gemeente verantwoordelijk waar uw kind woonde vlak voordat het ergens anders ging wonen.
+De gemeente waar uw kind zelf staat ingeschreven, is verantwoordelijk. Dit heet het **woonplaatsbeginsel**. Woont uw kind ergens anders, bijvoorbeeld in een pleeggezin, gezinshuis of instelling? Dan is de gemeente verantwoordelijk waar uw kind stond ingeschreven vlak voordat het daar ging wonen.
 
 ## Eigen bijdrage
 
