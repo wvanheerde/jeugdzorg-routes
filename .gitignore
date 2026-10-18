@@ -6,3 +6,8 @@ tests/persona/runs/**/screens/
 __pycache__/
 core
 core.[0-9]*
+tests/e2e/node_modules/
+tests/e2e/.features-gen/
+tests/e2e/test-results/
+tests/e2e/playwright-report/
+tests/e2e/dekking-rapport/

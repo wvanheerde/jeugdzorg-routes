@@ -8,4 +8,7 @@ export default defineConfig({
   base: process.env.BASE_PATH ?? '/',
   output: 'static',
   trailingSlash: 'always',
+  // Alleen voor de dekkingsmeting (npm run dekking): sourcemaps, zodat uitgevoerde code terug te vinden is in src/,
+  // en geen scripts in de HTML (Astro zet kleine scripts anders inline; die zijn dan niet te meten).
+  vite: { build: process.env.DEKKING ? { sourcemap: true, assetsInlineLimit: 0 } : {} },
 });

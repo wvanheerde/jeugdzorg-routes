@@ -2,6 +2,8 @@
 
 De informatiestructuur is vastgelegd in `src/content.config.ts` (Zod-schema). `npm run build` faalt als content niet voldoet.
 
+Afspraken over **gedrag** in deze handleiding (verdiepingen, datumveld, suggestielijst, leeftijd …) liggen ook vast in gedragstests (`tests/e2e/features/`, zie TECHNIEK.md, "Tests"). Verandert u zo'n afspraak, pas dan in dezelfde wijziging het scenario aan; komt er een afspraak bij, schrijf er een scenario bij.
+
 ## Bronnen
 
 - Elke pagina toont haar bronnen op dezelfde manier: één blok helemaal onderaan (`<Sources>`, id `bronnen`), met "Bijgewerkt …" en de bronnen ingeklapt onder "Bronnen (n)". Geen losse bronregels of -lijsten elders op de pagina; een korte `<sup>bron</sup>`-link in lopende tekst mag wel.
@@ -100,7 +102,7 @@ Bovenaan "Wat kunt u doen" kan een vraag een **verdieping** hebben: een of twee 
 1. Schrijf de stappen zo dat elke stap die van een antwoord afhangt met een herkenbaar begin start ("Stopt de aanbieder …", "Loopt het besluit af? …").
 2. Zet in `overzicht.astro` de koppeling (begin → antwoord) met de build-controle, het blok `<Verdieping>` met de vragen, en de functie die tekent (zoals `tekenVerhuizing`, `tekenHulpStopt`); roep die aan in `render()`.
 3. Url-parameter, localStorage-sleutel en "Keuzes wissen".
-4. Persona-scenario dat de verdieping raakt (zie `tests/persona/scenarios/07-joyce-verhuizen.md`, `16-bas-aanbieder-stopt.md`, `04-peter-wordt-18.md`), en draai het voor en na.
+4. Een gedragsscenario in `tests/e2e/features/verdieping-<vraag>.feature` voor elke afspraak hierboven (zie TECHNIEK.md, "Tests"), en een persona-scenario dat de verdieping raakt (zie `tests/persona/scenarios/07-joyce-verhuizen.md`, `16-bas-aanbieder-stopt.md`, `04-peter-wordt-18.md`), en draai het voor en na.
 
 **Verwijzen naar een andere vraag**
 Noemt een stap een andere vraag tussen aanhalingstekens, precies met de titel (Lees daarover bij "Ik wil hulp uitbreiden"), dan wordt dat in Mijn overzicht vanzelf een link naar die vraag. Zo kan een vraag als "De hulp stopt" de weg wijzen zonder de stappen van andere vragen te herhalen.

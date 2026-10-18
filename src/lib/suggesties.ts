@@ -54,14 +54,17 @@ export const koppelSuggesties = (invoer: HTMLInputElement, labels: () => string[
       else if (e.woorden.some((w) => w.startsWith(q))) woord.push(e.label);
       else if (q.length > 3 && e.n.includes(q)) ergens.push(e.label);
     }
+    // Blijft de gemarkeerde keuze in de lijst (bijvoorbeeld als de woonplaatsen later binnenkomen), dan blijft die gemarkeerd.
+    const gemarkeerd = actief >= 0 ? treffers[actief] : null;
     treffers = [...begin, ...woord, ...ergens].slice(0, MAX);
     if (!treffers.length || (treffers.length === 1 && norm(treffers[0]) === q)) return sluit();
-    actief = -1;
+    actief = gemarkeerd ? treffers.indexOf(gemarkeerd) : -1;
     lijst.replaceChildren(...treffers.map((t, i) => {
       const li = Object.assign(document.createElement('li'), { id: `${id}-${i}`, textContent: t });
       li.setAttribute('role', 'option');
       return li;
     }));
+    if (actief >= 0) markeer();
     const r = invoer.getBoundingClientRect(), p = (lijst.offsetParent ?? anker.parentElement!).getBoundingClientRect();
     Object.assign(lijst.style, { left: `${r.left - p.left}px`, top: `${r.bottom - p.top + 2}px`, width: `${r.width}px` });
     lijst.hidden = false;

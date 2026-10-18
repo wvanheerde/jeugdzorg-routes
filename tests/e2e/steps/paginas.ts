@@ -1,0 +1,171 @@
+/**
+ * Stappen voor pagina's en onderdelen: koppen, secties, menu, moeilijke woorden, gemeentekeuze, zoeken, brieven.
+ * Koppen kunnen zachte afbreekstreepjes bevatten (lib/afbreken.ts); die worden bij het vergelijken weggelaten.
+ */
+import { expect, type Page } from '@playwright/test';
+import type { DataTable } from 'playwright-bdd';
+import { Given, When, Then } from './fixtures';
+import { gemeenteSlug, situatieId } from './inhoud';
+import { noteerBezoek } from '../dekking/opties';
+
+const schoon = (s: string) => s.replace(/\u00ad/g, '').replace(/\s+/g, ' ').trim();
+/** Zichtbare koppen, zonder sectienummer (span.section-num, zoals "1" of "→") en zonder zachte afbreekstreepjes. */
+const koppen = (page: Page, niveau?: number) => page.locator(niveau ? `h${niveau}` : 'h1, h2, h3, h4').evaluateAll((hs) =>
+  hs.filter((h) => (h as HTMLElement).offsetParent !== null).map((h) => {
+    const c = h.cloneNode(true) as HTMLElement;
+    c.querySelectorAll('.section-num').forEach((n) => n.remove());
+    return (c.textContent ?? '').replace(/\u00ad/g, '').replace(/\s+/g, ' ').trim();
+  }));
+
+// ---------- bewaarde keuzes ----------
+Given('ik heb eerder gekozen voor de gemeente {string}', async ({ page }, gemeente: string) => {
+  await page.goto('./');
+  await page.evaluate((g) => localStorage.setItem('jr.gemeente', g), gemeenteSlug(gemeente));
+});
+Given('ik heb eerder de situatie {string} gekozen', async ({ page }, situatie: string) => {
+  await page.goto('./');
+  await page.evaluate((s) => localStorage.setItem('jr.situaties', s), situatieId(situatie));
+});
+
+// ---------- koppen, titels, secties ----------
+Then('is de hoofdkop {string}', async ({ page }, tekst: string) => {
+  await expect.poll(async () => (await koppen(page, 1))[0]).toBe(tekst);
+});
+Then('zie ik de kop {string}', async ({ page }, tekst: string) => {
+  await expect.poll(async () => (await koppen(page)).some((k) => k === tekst || k.startsWith(tekst)) ? 'ja' : (await koppen(page)).join(' | ')).toBe('ja');
+});
+Then('zie ik de kop {string} niet', async ({ page }, tekst: string) => {
+  await expect.poll(async () => (await koppen(page)).some((k) => k === tekst || k.startsWith(tekst))).toBe(false);
+});
+Then('heeft de pagina de titel {string}', async ({ page }, titel: string) => {
+  await expect(page).toHaveTitle(titel);
+});
+Then('zie ik de koppen:', async ({ page }, tabel: DataTable) => {
+  const echt = await koppen(page);
+  for (const [k] of tabel.raw()) expect(echt.some((x) => x === k || x.startsWith(k)), `kop "${k}" in ${echt.join(' | ')}`).toBe(true);
+});
+
+// ---------- links en knoppen ----------
+Then('gaat de link {string} naar {string}', async ({ page }, naam: string, doel: string) => {
+  const link = page.getByRole('link', { name: naam }).locator('visible=true').first();
+  await expect(link).toHaveAttribute('href', new RegExp(doel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+});
+Then('zie ik een belknop', async ({ page }) => {
+  await expect(page.locator('a.btn.bel[href^="tel:"], a[href^="tel:"].btn').locator('visible=true').first()).toBeVisible();
+});
+Then('zie ik een link om {string} te bellen', async ({ page }, nummer: string) => {
+  await expect(page.locator(`a[href="tel:${nummer.replace(/\s/g, '')}"]`).locator('visible=true').first()).toBeVisible();
+});
+Then('zie ik de knop {string}', async ({ page }, naam: string) => {
+  await expect(page.getByRole('button', { name: naam }).locator('visible=true').first()).toBeVisible();
+});
+Then('zie ik de knop {string} niet', async ({ page }, naam: string) => {
+  await expect(page.getByRole('button', { name: naam }).locator('visible=true')).toHaveCount(0);
+});
+
+// ---------- menu ----------
+When('ik het menu open', async ({ page }) => {
+  await page.locator('[data-menu-knop]').click();
+});
+Then('staat in het hoofdmenu:', async ({ page }, tabel: DataTable) => {
+  const nav = page.locator('#hoofdnavigatie');
+  for (const [naam] of tabel.raw()) await expect(nav.getByRole('link', { name: naam, exact: true })).toBeVisible();
+});
+Then('is {string} in het hoofdmenu de huidige pagina', async ({ page }, naam: string) => {
+  await expect(page.locator('#hoofdnavigatie').getByRole('link', { name: naam, exact: true })).toHaveAttribute('aria-current', 'page');
+});
+Then('is het menu dicht', async ({ page }) => {
+  await expect(page.locator('[data-menu-knop]')).toHaveAttribute('aria-expanded', 'false');
+  await expect(page.locator('#hoofdnavigatie')).toBeHidden();
+});
+
+// ---------- moeilijke woorden ----------
+const woord = (page: Page, w: string) => page.locator('main span.woord[role="button"]').filter({ hasText: new RegExp(`^${w}$`, 'i') }).locator('visible=true').first();
+When('ik op het moeilijke woord {string} klik', async ({ page }, w: string) => {
+  await woord(page, w).click();
+});
+Then('zie ik bij {string} de uitleg {string}', async ({ page }, w: string, uitleg: string) => {
+  const id = await woord(page, w).getAttribute('aria-controls');
+  await expect(page.locator(`#${id}`)).toBeVisible();
+  await expect(page.locator(`#${id}`)).toContainText(uitleg);
+  await expect(woord(page, w)).toHaveAttribute('aria-expanded', 'true');
+});
+Then('is de uitleg bij {string} dicht', async ({ page }, w: string) => {
+  const id = await woord(page, w).getAttribute('aria-controls');
+  await expect(page.locator(`#${id}`)).toBeHidden();
+  await expect(woord(page, w)).toHaveAttribute('aria-expanded', 'false');
+});
+Then('is {string} een moeilijk woord met uitleg', async ({ page }, w: string) => {
+  await expect(woord(page, w)).toBeVisible();
+});
+Then('staan er geen uitlegknoppen in de lijst met begrippen', async ({ page }) => {
+  await expect(page.locator('#begrippen-lijst span.woord[role="button"]')).toHaveCount(0);
+});
+
+// ---------- gemeentekeuze en zoeken ----------
+When('ik als gemeente {string} kies', async ({ page }, naam: string) => {
+  await page.locator('select[data-gemeente-keuze]').locator('visible=true').first().selectOption({ label: naam });
+});
+Then('is als gemeente {string} gekozen', async ({ page }, naam: string) => {
+  const sel = page.locator('select[data-gemeente-keuze]').locator('visible=true').first();
+  await expect.poll(() => sel.evaluate((s: HTMLSelectElement) => s.selectedOptions[0]?.text)).toBe(naam);
+});
+When('ik zoek op woonplaats {string}', async ({ page }, plaats: string) => {
+  await page.getByRole('button', { name: 'Weet u uw gemeente niet? Zoek op woonplaats' }).locator('visible=true').first().click();
+  const veld = page.locator('[data-woonplaats-invoer]').locator('visible=true').first();
+  await veld.pressSequentially(plaats, { delay: 20 });
+});
+When('ik {string} zoek in {string}', async ({ page }, tekst: string, veld: string) => {
+  await page.getByLabel(veld, { exact: true }).locator('visible=true').first().fill(tekst);
+});
+Then('zie ik {int} kaarten met {string}', async ({ page }, n: number, selector: string) => {
+  await expect(page.locator(selector).locator('visible=true')).toHaveCount(n);
+});
+Then('zie ik alleen de gemeente {string}', async ({ page }, naam: string) => {
+  const kaarten = page.locator('a.card[data-naam]').locator('visible=true');
+  await expect(kaarten).toHaveCount(1);
+  await expect(kaarten.first()).toContainText(naam);
+});
+
+// ---------- klembord (brieven) ----------
+Given('de site mag het klembord gebruiken', async ({ context, browserName }) => {
+  if (browserName === 'chromium') await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+});
+Then('staat op het klembord een tekst met {string}', async ({ page }, tekst: string) => {
+  await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toContain(tekst);
+});
+Then('staat op het klembord geen {string}', async ({ page }, tekst: string) => {
+  expect(await page.evaluate(() => navigator.clipboard.readText())).not.toContain(tekst);
+});
+
+// ---------- tekst op een plek ----------
+Then('staat in {string} de tekst {string} te lezen', async ({ page }, selector: string, tekst: string) => {
+  await expect.poll(async () => schoon((await page.locator(selector).locator('visible=true').first().textContent()) ?? '')).toContain(tekst);
+});
+
+// ---------- inklapbare onderdelen ----------
+When('ik het onderdeel {string} open', async ({ page }, tekst: string) => {
+  await page.locator('summary', { hasText: tekst }).locator('visible=true').first().click();
+});
+Then('staat het onderdeel {string} open', async ({ page }, tekst: string) => {
+  await expect(page.locator('details', { has: page.locator('summary', { hasText: tekst }) }).first()).toHaveAttribute('open', '');
+});
+
+// ---------- bestanden voor zoekmachines ----------
+const haal = async (page: Page, baseURL: string | undefined, bestand: string) => {
+  const url = new URL(bestand, baseURL);
+  noteerBezoek(`bestand › ${bestand}`, [url.pathname]);
+  return (await page.request.get(url.toString())).text();
+};
+Then('bevat {string} de regel {string}', async ({ page, baseURL }, bestand: string, regel: string) => {
+  expect((await haal(page, baseURL, bestand)).split('\n').map((r) => r.trim())).toContain(regel);
+});
+Then('bevat {string} de tekst {string}', async ({ page, baseURL }, bestand: string, stuk: string) => {
+  expect(await haal(page, baseURL, bestand)).toContain(stuk);
+});
+Then('bevat {string} niet de tekst {string}', async ({ page, baseURL }, bestand: string, stuk: string) => {
+  expect(await haal(page, baseURL, bestand)).not.toContain(stuk);
+});
+Then('mag de pagina niet in zoekmachines', async ({ page }) => {
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);
+});

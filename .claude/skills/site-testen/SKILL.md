@@ -36,6 +36,8 @@ Lees `verslag.md` en `log.jsonl`, bekijk een paar foto's. Schrijf `<run>/<id>/be
 
 Meld de gebruiker kort: tabel, top 3 problemen, wat beter of slechter is dan de vorige run. **Pas de site niet aan zonder akkoord**; dat is een aparte stap.
 
+**Van bevinding naar afspraak.** Gaat de gebruiker akkoord met een verbetering, leg het nieuwe gedrag dan eerst vast als gedragsscenario in `tests/e2e/features/` (Nederlands, Gherkin; zie TECHNIEK.md, "Tests" en CLAUDE.md), en pas daarna de site aan. Zo blijft een verbetering uit een persona-test behouden, ook als niemand die persona opnieuw draait.
+
 ## Herhaalbaarheid
 - Scenario's en persona's wijzigen alleen bewust, met een regel in `tests/persona/README.md` onder "Wijzigingen". Anders zijn runs niet vergelijkbaar.
 - LLM-gedrag varieert. Draai bij twijfel een scenario twee keer; een probleem dat bij beide runs of bij meerdere persona's terugkomt is betrouwbaar.

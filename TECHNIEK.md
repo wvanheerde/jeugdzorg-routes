@@ -11,6 +11,7 @@ npm run dev        # http://localhost:4321
 npm run validate   # snelle contentcheck (schema, 112, 06-nummers, contactblokken, jargon)
 npm run build      # volledige build + sitemap -> dist/
 npm run links      # alle URL's in de content op bereikbaarheid controleren
+npm test           # gedragstests tegen dist/ (eerst npm run build), zie "Tests"
 ```
 
 ## Structuur
@@ -32,9 +33,56 @@ src/site.ts                    repository-link en GoatCounter-code
 scripts/                       validatie, linkcheck, sitemap, scaffold, dagboek-docx (bouwt public/downloads/dagboek-zorg-twee-weken.docx)
 scripts/data/                  register van gemeenten en gedeelde regiogegevens (jeugdregio, GGD)
 scripts/onderzoek/             hulpscripts voor het onderzoek per gemeente (zie de README daar)
+tests/e2e/                     gedragstests: scenario's in het Nederlands (Gherkin) en unit-tests, zie "Tests"
 tests/persona/                 persona-tests in een echte browser (zie de README daar)
 .claude/                       instructies voor de AI-agents die onderzoek en redactie doen
 ```
+
+## Tests
+
+Het gedrag van de site ligt vast in scenario's in het Nederlands. Ze draaien snel en geven elke keer dezelfde uitkomst, lokaal en in GitHub Actions. Faalt er één, dan gaat er niets live.
+
+```bash
+npm run build                 # de tests draaien tegen dist/
+cd tests/e2e
+npm ci                        # eenmalig (eigen package.json, los van de site)
+npx playwright install chromium   # eenmalig
+npm test                      # alles: unit, laptop, telefoon
+npx playwright test --project=desktop -g "datumveld"   # een deel
+npm run test:ui               # stap voor stap meekijken
+npm run rapport               # het rapport van de laatste run
+```
+
+**Opbouw (`tests/e2e/`)**
+- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, elke verdieping, datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
+- `steps/*.ts`: de stappen achter de zinnen (Playwright via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)). Hergebruik een bestaande zin waar dat kan; een nieuwe zin hoort in het bestand van het onderwerp (`algemeen`, `verdieping`, `velden`, `paginas`).
+- `steps/inhoud.ts`: scenario's gebruiken gewone namen ("Mijn kind wordt 18", "ADHD en ADD", "Apeldoorn", "12 tot 18"); de bijbehorende id's komen uit `src/content`.
+- `unit/*.spec.ts`: losse functies uit `src/lib` (termijnen en feestdagen, datums lezen, afbreken, organisaties herkennen, de woordenlijst), zonder browser.
+- `server.mjs`: serveert `dist/`, ook onder het subpad van GitHub Pages (`BASE_PATH`).
+
+**Altijd dezelfde uitkomst** (`steps/fixtures.ts`, `playwright.config.ts`)
+- De datum staat vast op 18 oktober 2026, 10.00 uur, tijdzone Amsterdam, taal nl-NL. "Gegeven het is 1 maart 2027" zet een andere datum. Timers lopen gewoon (wachten op een vertraging werkt).
+- Geen verkeer naar buiten; elke test begint met een lege browser (geen bewaarde keuzes).
+- Elk scenario draait op laptop (Desktop Chrome) en telefoon (iPhone 13-scherm, Chromium). `@desktop` of `@mobiel` boven een scenario beperkt het tot één van beide.
+- Geen herhaalpogingen: een test die soms faalt is een fout (in de site of in de test), geen pech. Wacht in een scenario op wat een gebruiker ziet ("Dan zie ik de suggestie …") voordat je verder klikt.
+
+**Werkwijze: eerst het scenario**
+Beschrijf nieuw of gewijzigd gedrag eerst als scenario, draai het (het moet falen om de goede reden), en schrijf dan de code tot het slaagt. Het scenario is de afspraak; de code voert hem uit. Een wijziging is pas klaar als `validate`, `check`, `build` en `npm test` slagen. Zie ook CLAUDE.md.
+
+**Wanneer een scenario toevoegen**
+Bij nieuw gedrag of een nieuwe afspraak over gedrag (zoals in CONTENT.md) hoort een scenario, in dezelfde wijziging. Verandert bewust gedrag, pas dan het scenario aan. Inhoud zelf (teksten van gemeenten, bronnen) controleert `npm run validate`; die controles herhalen de scenario's niet. Schrijf verwachtingen op wat vastligt (koppen, gedrag, datums die de site uitrekent), niet op inhoud die bij een onderzoeksronde verandert, zoals telefoonnummers van een gemeente.
+
+**In GitHub Actions** (`.github/workflows/test.yml`)
+Bij elke pull request en push buiten `main`: `validate`, `astro check`, `build` (met hetzelfde subpad als de echte site) en de gedragstests. `deploy.yml` roept deze workflow eerst aan; pas als alles slaagt wordt er gebouwd en gepubliceerd. Faalt er iets, dan staat het rapport als download (`testrapport`) bij de run.
+
+**Dekking** (`npm run dekking` in de hoofdmap)
+Bouwt de site apart met sourcemaps (en zonder scripts in de HTML), draait alle tests en meet daarbij:
+- welke regels, functies en takken van de browserscripts in `src/` uitgevoerd zijn (`tests/e2e/dekking-rapport/code/index.html`, per bronbestand met de regels die niet draaien);
+- welke paginasoorten (`src/pages`) door scenario's bezocht of opgehaald worden (`dekking-rapport/paginas.md`).
+
+Alleen de scripts in de browser worden gemeten; wat Astro bij het bouwen al als HTML neerzet, valt erbuiten (dat toetsen de scenario's wel, maar het telt niet mee in het percentage). Door het terugvertalen van verkleinde code wijzen enkele regels naar commentaar of imports; kijk per bestand naar het geheel. In GitHub Actions draait de meting na de tests, met een ondergrens van 85% van de regels (gemeten op 18 oktober 2026: 86,5%) (`DEKKING_MINIMUM`) en elke paginasoort minstens één keer bezocht; het rapport staat als download (`dekkingsrapport`) en de samenvatting bij de run. Zakt de dekking door nieuw gedrag zonder scenario, dan faalt de run.
+
+**Persona-tests zijn iets anders.** Die (in `tests/persona/`) laten een AI-agent als ouder de site gebruiken en beoordelen of iemand het juiste vindt en hoe het voelt. Ze zijn nuttig voor ontwerpvragen, maar niet herhaalbaar. Wat daaruit als afspraak overblijft, leg je vast in een scenario.
 
 ## Hoe de inhoud wordt onderzocht
 

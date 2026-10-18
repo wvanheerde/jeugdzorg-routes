@@ -27,8 +27,11 @@ export const koppelDatumvelden = () => document.querySelectorAll<HTMLElement>('.
     datum.value = d ? iso(d) : grens(veld.dataset.startJaren);
   };
   // Typen: na de dag en de maand komt vanzelf een streepje (1402 → 14-02-). Alleen bij typen, niet bij wissen of plakken.
+  // Typt de ouder zelf ook een streepje (of punt, schuine streep, spatie), dan telt dat niet dubbel: 01-10-2026 blijft 01-10-2026.
   tekst.addEventListener('input', (e) => {
-    if ((e as InputEvent).inputType === 'insertText' && /^\d{2}$|^\d{2}-\d{2}$/.test(tekst.value)) tekst.value += '-';
+    if ((e as InputEvent).inputType !== 'insertText') return;
+    if (/^(\d{2}-|\d{2}-\d{2}-)[-./ ]$/.test(tekst.value)) tekst.value = tekst.value.slice(0, -1);
+    else if (/^\d{2}$|^\d{2}-\d{2}$/.test(tekst.value)) tekst.value += '-';
   });
   if (matchMedia('(pointer: coarse)').matches) {
     veld.classList.add('th-aanraak');

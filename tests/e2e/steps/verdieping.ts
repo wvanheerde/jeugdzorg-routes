@@ -1,0 +1,108 @@
+/**
+ * Stappen voor de verdiepingen in Mijn overzicht ("Meer passend advies") en de stappenlijst eronder.
+ * Het zichtbare verdiepingsblok en de zichtbare stappenlijst horen bij de gekozen vraag.
+ */
+import { expect, type Page } from '@playwright/test';
+import type { DataTable } from 'playwright-bdd';
+import { When, Then } from './fixtures';
+
+const blok = (page: Page) => page.locator('[data-verdieping]').locator('visible=true').first();
+const vraagBlok = (page: Page) => page.locator('[data-knelpunt-blok]').locator('visible=true').first();
+
+/** De vetgedrukte begintekst van elke zichtbare hoofdstap (stap 1 en de genummerde lijst), zonder de ingeklapte "andere stappen". */
+const stappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis) =>
+  lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null)
+    .map((li) => {
+      // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst.
+      const lead = Array.from(li.querySelectorAll<HTMLElement>(':scope > .stap-lead')).find((e) => !e.hidden && e.textContent!.trim());
+      return ((lead ?? li).textContent ?? '').replace(/\s+/g, ' ').trim();
+    }));
+
+When('ik als geboortedatum {string} invul', async ({ page }, datum: string) => {
+  await page.getByLabel('Wanneer is uw kind geboren?').fill(datum);
+});
+
+When('ik als verhuisdatum {string} invul', async ({ page }, datum: string) => {
+  await page.getByLabel('Wanneer verhuist u ongeveer?').fill(datum);
+});
+
+When('ik als nieuwe woonplaats {string} kies', async ({ page }, plaats: string) => {
+  const veld = page.getByLabel('Naar welke plaats of gemeente verhuist u?');
+  await veld.click();
+  await veld.pressSequentially(plaats.slice(0, 4), { delay: 20 });
+  await page.locator('.suggesties li').locator('visible=true').filter({ hasText: plaats }).first().click();
+});
+
+Then('is de samenvatting {string}', async ({ page }, tekst: string) => {
+  await expect(blok(page).locator('[data-vd-samenvatting]')).toHaveText(tekst);
+});
+
+Then('is er geen samenvatting', async ({ page }) => {
+  await expect(blok(page).locator('[data-vd-samenvatting]')).toBeEmpty();
+});
+
+Then('staan de stappen in deze volgorde:', async ({ page }, tabel: DataTable) => {
+  const verwacht = tabel.raw().map((r) => r[0]);
+  await expect.poll(async () => {
+    const echt = await stappen(page);
+    return echt.length === verwacht.length && verwacht.every((v, i) => echt[i].startsWith(v)) ? 'ok' : echt;
+  }).toBe('ok');
+});
+
+Then('begint stap {int} met {string}', async ({ page }, nr: number, tekst: string) => {
+  await expect.poll(async () => (await stappen(page))[nr - 1] ?? '').toMatch(new RegExp(`^${tekst.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
+});
+
+Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: DataTable) => {
+  const anders = vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) });
+  await expect(anders).toBeVisible();
+  const echt = await anders.locator('[data-w18-anders-lijst] > li').evaluateAll((lis) =>
+    lis.filter((li) => !(li as HTMLElement).hidden).map((li) => (li.querySelector(':scope > .stap-lead')?.textContent ?? '').replace(/\s+/g, ' ').trim()));
+  const verwacht = tabel.raw().map((r) => r[0]);
+  expect(echt.length, `ingeklapte stappen: ${echt.join(' | ')}`).toBe(verwacht.length);
+  verwacht.forEach((v, i) => expect(echt[i]).toContain(v));
+});
+
+Then('is er geen blok {string}', async ({ page }, kop: string) => {
+  await expect(vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) }).locator('visible=true')).toHaveCount(0);
+});
+
+Then('staat de link {string} naast {string}', async ({ page }, link: string, naast: string) => {
+  const rij = blok(page).locator('.vd-acties');
+  const a = rij.getByRole('link', { name: link }), b = rij.getByRole('button', { name: naast, exact: true });
+  await expect(a).toBeVisible();
+  await expect(b).toBeVisible();
+  const [ra, rb] = [await a.boundingBox(), await b.boundingBox()];
+  expect(ra!.y < rb!.y + rb!.height && rb!.y < ra!.y + ra!.height, 'op dezelfde regel').toBe(true);
+  expect(ra!.x, 'link links van de knop').toBeLessThan(rb!.x);
+});
+
+Then('zie ik de link {string} niet', async ({ page }, link: string) => {
+  await expect(page.getByRole('link', { name: link }).locator('visible=true')).toHaveCount(0);
+});
+
+Then('staat het begin van de stappen bovenaan in beeld', async ({ page }) => {
+  const doel = vraagBlok(page).locator('[id^="stappen-"]');
+  await expect.poll(async () => Math.round((await doel.boundingBox())!.y)).toBeLessThan(160);
+});
+
+Then('is het verdiepingsblok ingeklapt', async ({ page }) => {
+  await expect(blok(page)).toHaveAttribute('data-vd-ingeklapt', '');
+  await expect(blok(page).getByRole('button', { name: 'Aanpassen', exact: true })).toBeVisible();
+});
+
+Then('staan de vragen van het verdiepingsblok open', async ({ page }) => {
+  await expect(blok(page)).not.toHaveAttribute('data-vd-ingeklapt', '');
+  await expect(blok(page).locator('[data-vd-vragen]')).toBeVisible();
+});
+
+Then('staat het label {string} rechts naast de kop', async ({ page }, label: string) => {
+  const kop = blok(page).locator('h3'), lab = kop.locator('.vd-optioneel');
+  await expect(lab).toHaveText(label);
+  const [rk, rl] = [await kop.boundingBox(), await lab.boundingBox()];
+  expect(rl!.x + rl!.width, 'tegen de rechterkant').toBeGreaterThan(rk!.x + rk!.width - 4);
+});
+
+Then('zie ik bij het verdiepingsblok de melding {string}', async ({ page }, tekst: string) => {
+  await expect(blok(page).locator('.vd-melding').locator('visible=true')).toHaveText(tekst);
+});

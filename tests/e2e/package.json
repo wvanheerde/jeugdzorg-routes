@@ -1,0 +1,17 @@
+{
+  "name": "jeugdzorg-routes-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Gedragstests (BDD, Nederlands) voor Jeugdzorg Routes. Los van de site-dependencies, zie TECHNIEK.md.",
+  "scripts": {
+    "test": "bddgen && playwright test",
+    "test:ui": "bddgen && playwright test --ui",
+    "rapport": "playwright show-report",
+    "dekking": "bddgen && DEKKING=1 playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "monocart-coverage-reports": "2.13.2",
+    "playwright-bdd": "9.2.1"
+  }
+}
