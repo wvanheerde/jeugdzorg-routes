@@ -10,17 +10,19 @@ permissions: { contents: read }
 concurrency: { group: "tests-${{ github.ref }}", cancel-in-progress: true }
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # Vaste versie: ubuntu-latest schuift mee (vanaf 19 oktober 2026 Ubuntu 26) en dan kan de browser anders draaien.
+    # Overstappen doe je bewust, met een testrun.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       # Dezelfde vorm als de echte site (zie deploy.yml), zodat ook het subpad van GitHub Pages getest wordt.
       SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
       BASE_PATH: ${{ vars.SITE_URL && '/' || format('/{0}', github.event.repository.name) }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
           cache-dependency-path: |
             package-lock.json
@@ -30,14 +32,12 @@ jobs:
         run: npm run validate
       - name: Types controleren
         run: npm run check
-      - name: Site bouwen
-        run: npm run build
       - name: Testgereedschap installeren
         working-directory: tests/e2e
         run: npm ci
       - name: Browser ophalen (uit de cache als die er is)
         id: browsers
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('tests/e2e/package-lock.json') }}
@@ -47,22 +47,22 @@ jobs:
       - if: steps.browsers.outputs.cache-hit == 'true'
         working-directory: tests/e2e
         run: npx playwright install-deps chromium
-      - name: Gedragstests (unit, laptop, telefoon)
-        working-directory: tests/e2e
-        run: npm test
-      - name: Dekking meten (aparte build met sourcemaps)
+      # Eén build en één testronde: de meetbuild (sourcemaps, scripts als apart bestand) met alle tests (unit, laptop,
+      # telefoon) en daarbij de dekking. Faalt een test, zakt de dekking onder de ondergrens of heeft een paginasoort geen
+      # scenario, dan faalt deze stap. Lokaal draait npm test tegen de gewone build. Zie TECHNIEK.md, "Tests" en "Dekking".
+      - name: Bouwen, gedragstests en dekking
         env: { DEKKING_MINIMUM: "85" }
         run: npm run dekking
       - name: Dekkingsrapport bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: dekkingsrapport
           path: tests/e2e/dekking-rapport
           retention-days: 14
       - name: Rapport bewaren als er iets faalt
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: testrapport
           path: tests/e2e/playwright-report

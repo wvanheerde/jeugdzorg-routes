@@ -75,11 +75,27 @@ Functionaliteit: Verdieping bij "Mijn kind wordt 18"
 
   Scenario: Een kind dat begeleid gaat wonen: wat een wachtlijst heeft, staat vooraan
     Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"
-    Als ik als geboortedatum "01-06-2012" invul
+    Als ik als geboortedatum "01-03-2011" invul
     En ik kies "Gaat begeleid wonen"
     Dan begint stap 1 met "Nu: bel het wijkteam"
     En begint stap 2 met "Nu, zo vroeg mogelijk: meld begeleiding"
     En begint stap 3 met "Nu, zo vroeg mogelijk: vraag bij blijvend veel zorg"
+
+  # Eigen vuistregel (geen bron met een leeftijd): wachtlijsten duren "één tot een paar jaar", dus bij veel zorg of
+  # begeleid wonen beginnen vanaf drie jaar voor de verjaardag, niet jaren eerder.
+  Scenario: Bij veel zorg of begeleid wonen begint het drie jaar voor de verjaardag, niet eerder
+    Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"
+    Als ik als geboortedatum "01-06-2014" invul
+    En ik kies "Veel zorg of toezicht"
+    Dan begint stap 1 met "Vanaf 1 juni 2029 (drie jaar voor de verjaardag): bel het wijkteam"
+    En begint stap 2 met "Vanaf 1 juni 2029 (drie jaar voor de verjaardag): vraag bij blijvend veel zorg"
+
+  Scenario: Een kind van 14 dat begeleid gaat wonen: ook vanaf drie jaar voor de verjaardag
+    Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"
+    Als ik als geboortedatum "01-06-2012" invul
+    En ik kies "Gaat begeleid wonen"
+    Dan begint stap 1 met "Vanaf 1 juni 2027 (drie jaar voor de verjaardag): bel het wijkteam"
+    En begint stap 2 met "Vanaf 1 juni 2027 (drie jaar voor de verjaardag): meld begeleiding"
 
   Scenario: Voor een kind jonger dan 16 begint het rond de 16e verjaardag
     Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"

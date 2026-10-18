@@ -674,11 +674,14 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     w18Keuzes.forEach((b) => b.setAttribute('aria-pressed', String(na18.includes(b.value))));
     const d = geboren ? new Date(+geboren.slice(0, 4), +geboren.slice(5, 7) - 1, +geboren.slice(8, 10)) : null;
     const op = (jaar: number) => (d ? new Date(d.getFullYear() + jaar, d.getMonth(), d.getDate()) : null);
-    const b16 = op(16), b18 = op(18), b23 = op(23);
+    const b15 = op(15), b16 = op(16), b18 = op(18), b23 = op(23);
     const dagen = b18 ? dagenTot(b18) : null;
     const al18 = dagen !== null && dagen <= 0;
     const al23 = !!b23 && dagenTot(b23) <= 0;
     const voor16 = !!b16 && dagenTot(b16) > 0;
+    // Bij een wachtlijst (veel zorg, begeleid wonen) eerder beginnen dan 16, maar niet jaren eerder: vanaf drie jaar voor de
+    // verjaardag. Eigen vuistregel: de bron zegt alleen "nog eerder" en "wachtlijsten duren vaak één tot een paar jaar".
+    const voor15 = !!b15 && dagenTot(b15) > 0;
     const veelZorg = na18.includes('wlz');
     const wonen = na18.includes('wonen');
     // Stappen bij een soort hulp: alleen zichtbaar als die bij een gekozen hulp hoort. Verlengde jeugdhulp kan tot 23 (Jeugdwet art. 1.1).
@@ -706,7 +709,8 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     if (andersBlok && andersLijst) andersBlok.hidden = !Array.from(andersLijst.children).some((li) => !(li as HTMLElement).hidden);
     // Het moment van elke stap als datum, gemarkeerd zodat te zien is wat de geboortedatum doet. Waarom die datum staat in de stap zelf.
     // "Ruim vóór": uiterlijk zo lang vóór de verjaardag als een besluit mag duren (zes of acht weken, zie WORDT_18); met een wachtlijst
-    // (Wlz bij blijvend veel zorg, Wmo en Wlz bij ergens anders gaan wonen) zo vroeg mogelijk. Het liefst beginnen rond 16 (stap 1, Regelhulp).
+    // (Wlz bij blijvend veel zorg, Wmo en Wlz bij ergens anders gaan wonen) vanaf drie jaar voor de verjaardag (voor15, eigen vuistregel),
+    // daarna zo vroeg mogelijk. Anders het liefst beginnen rond 16 (stap 1, Regelhulp).
     blok.querySelectorAll<HTMLElement>('[data-wanneer]').forEach((e) => {
       const m = e.dataset.wanneer, weken = +(e.dataset.weken || 8);
       const soort = e.closest('li')?.querySelector('[data-soort]')?.getAttribute('data-soort');
@@ -715,8 +719,10 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       const uiterlijk = b18 && new Date(b18.getFullYear(), b18.getMonth(), b18.getDate() - 7 * weken);
       const [datum, uitleg] = !b18 ? [null, '']
         : al18 ? ['Nu', '']
-        : m === 'nu' ? (later ? [`Vanaf ${datumKort(b16!)}`, ' (de 16e verjaardag)'] : dagen! < 183 ? ['Nu, deze week', ''] : ['Nu', ''])
-        : m === 'ruim' && wachtlijst ? ['Nu, zo vroeg mogelijk', '']
+        : m === 'nu' ? (later ? [`Vanaf ${datumKort(b16!)}`, ' (de 16e verjaardag)']
+          : (veelZorg || wonen) && voor15 ? [`Vanaf ${datumKort(b15!)}`, ' (drie jaar voor de verjaardag)']
+          : dagen! < 183 ? ['Nu, deze week', ''] : ['Nu', ''])
+        : m === 'ruim' && wachtlijst ? (voor15 ? [`Vanaf ${datumKort(b15!)}`, ' (drie jaar voor de verjaardag)'] : ['Nu, zo vroeg mogelijk', ''])
         : m === 'ruim' ? (dagenTot(uiterlijk!) <= 0 ? ['Zo snel mogelijk', ''] : [later ? `Tussen ${datumKort(b16!)} en ${datumKort(uiterlijk!)}` : `Nu, uiterlijk ${datumKort(uiterlijk!)}`, ''])
         : m === 'voor' ? [`Vóór ${datumKort(b18)}`, '']
         : [`Rond ${datumKort(b18)}`, ''];
