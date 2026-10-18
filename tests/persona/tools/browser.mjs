@@ -115,7 +115,6 @@ async function serve(sessie, device, logDir) {
     async scroll([w = 'omlaag']) {
       if (/^\d+$/.test(w)) await page.locator(`[data-jr-ref="${w}"]`).first().scrollIntoViewIfNeeded();
       else await page.evaluate((d) => window.scrollBy(0, d * window.innerHeight * 0.9), w === 'omhoog' ? -1 : 1);
-      const pos = await page.evaluate(() => ({ y: Math.round(window.scrollY), h: document.documentElement.scrollHeight, v: window.innerHeight }));
       return await snapshot(page);
     },
     async terug() { await page.goBack(); await settle(); return `Terug naar ${page.url()}`; },
@@ -124,7 +123,7 @@ async function serve(sessie, device, logDir) {
       await page.screenshot({ path: f });
       return `Schermafbeelding: ${f}`;
     },
-    async notitie(t) { return 'Notitie opgeslagen.'; },
+    async notitie() { return 'Notitie opgeslagen.'; },
   };
 
   async function settle() { await page.waitForLoadState('domcontentloaded').catch(() => {}); await page.waitForTimeout(300); }

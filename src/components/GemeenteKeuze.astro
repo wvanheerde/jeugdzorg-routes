@@ -17,19 +17,19 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     <option value="_overig">Mijn gemeente staat er niet bij</option>
   </select>
 </label>
-<!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent. -->
+<!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent; treffers via lib/suggesties.ts. -->
 <!-- Opengeklapt is het een veld zoals de keuzelijst (eigen kop, zelfde hoogte); de link verdwijnt zodra er een gemeente gekozen is. -->
 <div class="woonplaats-zoek" data-woonplaats-zoek>
   <button type="button" class="linkknop" data-woonplaats-open>Weet u uw gemeente niet? Zoek op woonplaats</button>
   <label class="field" data-woonplaats-veld hidden>
     <span>Of typ uw woonplaats</span>
-    <input type="search" class="gemeente-keuze" list={`${id}-woonplaatsen`} placeholder="Bijvoorbeeld Roden" autocomplete="off" data-woonplaats-invoer />
-    <datalist id={`${id}-woonplaatsen`}></datalist>
+    <input type="search" class="gemeente-keuze" placeholder="Bijvoorbeeld Roden" autocomplete="off" enterkeyhint="done" data-woonplaats-invoer />
   </label>
   <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
 </div>
 </div>
 <script>
+  import { koppelSuggesties } from '../lib/suggesties';
   const KEY = 'jr.gemeente';
   const fromUrl = new URLSearchParams(location.search).get('gemeente');
   if (fromUrl) localStorage.setItem(KEY, fromUrl);
@@ -57,12 +57,13 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     const sel = blok.previousElementSibling?.querySelector<HTMLSelectElement>('[data-gemeente-keuze]');
     const veld = blok.querySelector<HTMLElement>('[data-woonplaats-veld]')!;
     const invoer = blok.querySelector<HTMLInputElement>('[data-woonplaats-invoer]')!;
-    const dl = blok.querySelector<HTMLDataListElement>('datalist')!;
     const uitkomst = blok.querySelector<HTMLElement>('[data-woonplaats-uitkomst]')!;
     if (!sel) return;
     const gemNaam = (slug: string) => Array.from(sel.options).find((o) => o.value === slug)?.text ?? slug;
     const label = (plaats: string, slug: string) => `${plaats} (gemeente ${gemNaam(slug)})`;
     let opties = new Map<string, string>();
+    let labels: string[] = [];
+    const suggesties = koppelSuggesties(invoer, () => labels);
     const open = blok.querySelector<HTMLElement>('[data-woonplaats-open]')!;
     // Is er al een gemeente gekozen, dan is zoeken op woonplaats niet nodig (persona-tests: de link werd aangezien voor de bevestigknop).
     // Onzichtbaar maar met behoud van ruimte, anders verspringen de knoppen eronder op de telefoon (persona-tests ronde 19).
@@ -76,7 +77,8 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
       lijst ??= fetch(`${base}/woonplaatsen.json`).then((r) => r.json());
       const paren = await lijst;
       opties = new Map(paren.map(([plaats, slug]) => [label(plaats, slug), slug]));
-      dl.replaceChildren(...Array.from(opties.keys(), (t) => Object.assign(document.createElement('option'), { value: t })));
+      labels = [...opties.keys()];
+      suggesties.ververs();
     });
     invoer.addEventListener('input', () => {
       const slug = opties.get(invoer.value);

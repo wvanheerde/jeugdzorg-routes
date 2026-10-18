@@ -18,8 +18,6 @@ const situaties = (await getCollection('situaties')).filter((s) => d.situaties.i
 const metTherapie = ['aanvraag-jeugdhulp', 'verzoek-meer-hulp', 'bezwaar-beschikking'].includes(b.id);
 // Medicatie hoort niet in een brief aan het wijkteam of de gemeente: daarover beslist een arts.
 const therapie = metTherapie ? (await getCollection('therapievormen')).filter((t) => t.id !== 'medicatie-als-aanvulling').sort((a, c) => a.data.naam.localeCompare(c.data.naam)) : [];
-/** Naam midden in een zin: kleine beginletter, behalve bij afkortingen (EMDR, CGT, MST). */
-const inZin = (naam: string) => { const n = naam.replace(/ \(.*\)$/, ''); return /^[A-Z][a-zà-ÿ]/.test(n) ? n[0].toLowerCase() + n.slice(1) : n; };
 const alleSituaties = await getCollection('situaties');
 // Soorten hulp die u in een brief aan wijkteam of gemeente kunt noemen (niet: crisishulp, jeugdbescherming, dyslexiezorg via school).
 const HULP_IN_BRIEF = ['opvoedondersteuning', 'ambulante-begeleiding', 'behandeling-jeugd-ggz', 'dagbesteding', 'logeren-respijt', 'persoonlijke-verzorging', 'verblijf-pleegzorg'];

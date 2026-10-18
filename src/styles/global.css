@@ -630,6 +630,12 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 :is(.termijnhulp, .verdieping) .th-kalender .ico { width: 1.15em; height: 1.15em; }
 /* De echte datumkiezer: onzichtbaar onder het veld, zodat de kalender van het toestel daar opent. */
 :is(.termijnhulp, .verdieping) .th-datum { position: absolute; left: 0; bottom: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
+/* Op een aanraakscherm ligt het datumveld bovenop: een tik opent dan zelf de kalender, ook waar showPicker() niets doet (iOS). */
+:is(.termijnhulp, .verdieping) .th-aanraak .th-datum { pointer-events: auto; z-index: 1; font-size: 16px; -webkit-appearance: none; appearance: none; cursor: pointer; }
+/* Suggestielijst onder een plaatsveld (lib/suggesties.ts), in plaats van een datalist. */
+.suggesties { position: absolute; z-index: 30; margin: 0; padding: .25rem 0; list-style: none; max-height: min(18rem, 45vh); overflow-y: auto; background: var(--c-surface); border: 1px solid var(--c-border, #cfc8bb); border-radius: 8px; box-shadow: var(--shadow-md); font-size: 1rem; font-weight: 400; text-align: left; }
+.suggesties li { padding: .6rem .8rem; cursor: pointer; line-height: 1.3; }
+.suggesties li:hover, .suggesties li[aria-selected="true"] { background: var(--c-primary-soft); }
 .termijnhulp .th-uitkomst { margin-top: .6rem; }
 .termijnhulp .th-uitkomst p { margin: 0; }
 .termijnhulp .th-uitkomst p + p { margin-top: .4rem; }

@@ -360,7 +360,7 @@ const therapievormen = defineCollection({
     /** Hoe een sessie eruitziet: wat er in de kamer gebeurt. */
     sessie: z.string().optional(),
     /** Varianten of bekende programma's, bv. per leeftijd. Geen aanbieders. */
-    programmas: z.array(z.object({ naam: z.string(), omschrijving: z.string(), url: z.string().url().optional() })).default([]),
+    programmas: z.array(z.object({ naam: z.string(), omschrijving: z.string(), url: z.url().optional() })).default([]),
     /** Wat het van het kind en het gezin vraagt, inclusief wat er tussen de sessies kan gebeuren. */
     vraagt: z.string().optional(),
     /** Wanneer u verschil kunt merken, en wat u doet als dat uitblijft. */

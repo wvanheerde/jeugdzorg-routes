@@ -23,6 +23,7 @@ import ToegangLegenda from '../components/ToegangLegenda.astro';
 import { afbreken } from '../lib/afbreken';
 import { genoemdIn } from '../lib/genoemd';
 import OrgRegel from '../components/OrgRegel.astro';
+import type { ComponentProps } from 'astro/types';
 import StapInhoud from '../components/StapInhoud.astro';
 import Verdieping from '../components/Verdieping.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -68,7 +69,7 @@ const HULP_STOPT_REDEN: { id: string; begin: string; label: string }[] = [
   { id: 'achttien', begin: 'Wordt uw kind 18', label: 'Mijn kind wordt 18' },
 ];
 const hulpStoptReden = (x: string) => HULP_STOPT_REDEN.find((r) => x.startsWith(r.begin))?.id;
-const stapPropsPer = new Map<string, (st: string) => Record<string, unknown>>();
+const stapPropsPer = new Map<string, (st: string) => ComponentProps<typeof StapInhoud>>();
 const stapProps = (k: Knelpunt, st: string) => {
   if (!stapPropsPer.has(k.id)) {
     const alle = alleStappen(k);
@@ -189,8 +190,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           <h2 class="o1"><span class="section-num">→</span>{k.id === 'beginnen' ? 'Wat kunt u doen' : `Wat kunt u doen: ${k.data.titel.toLowerCase()}`}</h2>
           {k.id === 'verhuizing' && (<>
             <Verdieping id="verhuizing" titel="Meer passend advies bij verhuizen" uitleg="Vult u in naar welke gemeente u gaat en wanneer, dan passen de stappen hieronder zich daarop aan: met het wijkteam van uw nieuwe gemeente en wat u wanneer regelt.">
-              <label class="field"><span>Naar welke plaats of gemeente verhuist u?</span><input type="search" class="gemeente-keuze" list="vh-plaatsen" placeholder="Bijvoorbeeld Almere" autocomplete="off" enterkeyhint="done" data-vh-naar /></label>
-              <datalist id="vh-plaatsen">{gemeenten.map((g) => <option value={g.data.naam} />)}</datalist>
+              <label class="field"><span>Naar welke plaats of gemeente verhuist u?</span><input type="search" class="gemeente-keuze" placeholder="Bijvoorbeeld Almere" autocomplete="off" enterkeyhint="done" data-vh-naar /></label>
               <div class="field vd-datum"><label for="vh-datum">Wanneer verhuist u ongeveer?</label><span class="th-veld"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id="vh-datum" data-th-invoer data-vh-datum /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span><span class="meta vd-hint">Weet u de dag nog niet? Kies ongeveer de week.</span></div>
               <p class="meta vd-melding" data-vh-melding hidden></p>
             </Verdieping>
@@ -357,6 +357,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   import { laadGemeente, laadNieuweGemeente } from '../lib/gemeente-blokken';
   import { dagenTot, leesDatum } from '../lib/termijnen';
   import { koppelDatumvelden } from '../lib/datumveld';
+  import { koppelSuggesties } from '../lib/suggesties';
   type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
   const data = (window as any).__jrSituaties as Record<string, Sit>;
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean; wijkteamBovenaan: boolean }>;
@@ -397,6 +398,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   // Plaatsnaam → gemeente: eerst de gemeenten zelf; bij het eerste gebruik ook de woonplaatsen (zoals bij de gemeentekeuze).
   // Een woonplaats in twee gemeenten alleen met de gemeente erbij ("Plaats (gemeente X)").
   const plaatsen = new Map(Object.entries(namen.g).map(([slug, naam]) => [naam.toLowerCase(), slug]));
+  // Keuzes voor de suggestielijst (lib/suggesties.ts): eerst de gemeenten, na het laden ook de woonplaatsen.
+  const plaatsLabels = Object.values(namen.g);
+  const vhSuggesties = naarVeld ? koppelSuggesties(naarVeld, () => plaatsLabels) : null;
   let woonplaatsen: Promise<void> | null = null;
   const laadWoonplaatsen = () => (woonplaatsen ??= fetch(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/woonplaatsen.json`).then((r) => r.json()).then((paren: [string, string][]) => {
     const per = new Map<string, Set<string>>();
@@ -405,9 +409,11 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       const label = `${plaats} (gemeente ${namen.g[slug]})`;
       plaatsen.set(label.toLowerCase(), slug);
       if (per.get(plaats.toLowerCase())!.size === 1 && !plaatsen.has(plaats.toLowerCase())) plaatsen.set(plaats.toLowerCase(), slug);
-      return Object.assign(document.createElement('option'), { value: label });
-    });
-    document.getElementById('vh-plaatsen')?.append(...opties);
+      // "Almere (gemeente Almere)" niet naast "Almere": dat is dezelfde keuze.
+      return plaats === namen.g[slug] ? '' : label;
+    }).filter(Boolean);
+    plaatsLabels.push(...opties);
+    vhSuggesties?.ververs();
   }).catch(() => { woonplaatsen = null; }));
   const bewaarVerhuizing = () => {
     if (naar || verhuisdatum) localStorage.setItem(VH_KEY, JSON.stringify({ naar, datum: verhuisdatum })); else localStorage.removeItem(VH_KEY);
@@ -551,7 +557,6 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     const active = sel.filter((id) => data[id]);
     const themas = new Set(active.flatMap((id) => data[id].themas));
     const hulp = new Set(active.flatMap((id) => data[id].hulpsoorten));
-    const routes = new Set(active.flatMap((id) => data[id].routes));
     const land = new Set(active.flatMap((id) => data[id].landelijk));
     const hasThema = (el: HTMLElement) => (el.dataset.themas ?? '').split(' ').some((t) => themas.has(t));
 

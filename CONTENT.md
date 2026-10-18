@@ -84,7 +84,7 @@ Bovenaan "Wat kunt u doen" kan een vraag een **verdieping** hebben: een of twee 
 **Hoe het eruitziet (vast, voor elke verdieping gelijk)**
 - Blok `Verdieping.astro`: kop "Meer passend advies" (of "… bij verhuizen") met het label *niet verplicht*, één zin die zegt wat invullen oplevert, dan de vragen.
 - Zonder antwoord ziet de ouder gewoon alle stappen. Het blok mag niets blokkeren.
-- Eén keuze uit een paar opties: knoppen naast elkaar (`chip-btn`, zoals de andere keuzes; nog eens klikken haalt de keuze weg). Een gemeente: tekstveld met de gemeenten en woonplaatsen als lijst. Een datum: het veld dd-mm-jjjj met kalenderknop (`src/lib/datumveld.ts`). Velden naast elkaar even hoog en uitgelijnd.
+- Eén keuze uit een paar opties: knoppen naast elkaar (`chip-btn`, zoals de andere keuzes; nog eens klikken haalt de keuze weg). Een gemeente: tekstveld met een korte suggestielijst van gemeenten en woonplaatsen (`src/lib/suggesties.ts`; geen `<datalist>`, die maakte de telefoon traag). Een datum: het veld dd-mm-jjjj met kalenderknop (`src/lib/datumveld.ts`; op een aanraakscherm ligt het echte datumveld erbovenop, zodat een tik de kalender van het toestel opent). Velden naast elkaar even hoog en uitgelijnd.
 - Na een antwoord: korte samenvatting in gewone letters (niet vet, iets kleiner), met *Wissen*. Herhaal geen keuze die de ouder al ziet staan.
 - Zijn alle vragen beantwoord (bij een tekstveld: na het verlaten van het veld), dan klapt het blok in tot de samenvatting met *Aanpassen* en *Wissen*, zodat de stappen hoger in beeld komen. Ook bij een volgend bezoek staat het ingeklapt.
 - Laat ook de rest van het overzicht meebewegen: wat niet bij het antwoord past (zoals het bezwaarblok als de aanbieder stopt) verdwijnt.
