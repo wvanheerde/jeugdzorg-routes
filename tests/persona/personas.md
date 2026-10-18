@@ -125,3 +125,11 @@ Scenario's (in `scenarios/`) verwijzen naar een persona met haar of zijn id.
 - **Ervaring:** geen; is bang de band met haar zus kwijt te raken.
 - **Gemoed:** bezorgd en schuldig. Het is geen acuut gevaar.
 - **Gedrag:** zoekt of ze advies kan vragen zonder dat haar zus het weet.
+
+## bas — vader, de aanbieder stopt
+- **Wie:** Bas, 39, woont in Zwolle. Zoon Daan (11) heeft autisme en krijgt al een jaar thuisbegeleiding van een kleine zorgaanbieder, via de gemeente. Dat helpt goed. Vandaag kreeg hij een brief: de aanbieder stopt over vier weken met thuisbegeleiding.
+- **Apparaat:** telefoon.
+- **Lezen:** mbo, leest snel en zoekt vooral wat hij moet doen.
+- **Ervaring:** kent het wijkteam van de aanvraag een jaar geleden, maar weet niet wie hij nu moet bellen.
+- **Gemoed:** boos en ongerust; Daan heeft veel moeite met veranderingen.
+- **Gedrag:** wil weten of de hulp gewoon doorgaat en wie daarvoor moet zorgen.

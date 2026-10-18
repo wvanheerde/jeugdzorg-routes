@@ -183,12 +183,15 @@ const nav = [
             const voor = node.splitText(m.index);
             voor.splitText(m[1].length);
             const id = `woord-${++n}`;
-            const knop = document.createElement('button');
-            knop.type = 'button'; knop.className = 'woord'; knop.textContent = m[1];
+            // Een span met role="button" in plaats van <button>: tekst in een knop valt weg bij kopiëren (de ouder kopieert een stap met gaten erin).
+            const knop = document.createElement('span');
+            knop.setAttribute('role', 'button'); knop.tabIndex = 0; knop.className = 'woord'; knop.textContent = m[1];
             knop.setAttribute('aria-expanded', 'false'); knop.setAttribute('aria-controls', id);
             const uitleg = document.createElement('span');
             uitleg.className = 'woord-uitleg'; uitleg.id = id; uitleg.hidden = true; uitleg.textContent = lijst[i].uitleg;
-            knop.addEventListener('click', () => { const open = uitleg.hidden; uitleg.hidden = !open; knop.setAttribute('aria-expanded', String(open)); });
+            const wissel = () => { const open = uitleg.hidden; uitleg.hidden = !open; knop.setAttribute('aria-expanded', String(open)); };
+            knop.addEventListener('click', wissel);
+            knop.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); wissel(); } });
             voor.replaceWith(knop, uitleg);
             break; // één woord per tekstknoop; de rest van die knoop staat nu in een nieuwe knoop en komt bij de volgende ronde aan bod
           }

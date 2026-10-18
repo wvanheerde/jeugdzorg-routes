@@ -1,0 +1,34 @@
+{"stap":1,"tijd":"2026-10-18T07:22:32.784Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-18T07:22:33.349Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-18T07:22:33.408Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1463}
+{"stap":4,"tijd":"2026-10-18T07:22:37.526Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Ik woon nu in Amsterdam, dus kies dat en dan 'Wij verhuizen'. stap 1-2"],"tekst":"Ik woon nu in Amsterdam, dus kies dat en dan 'Wij verhuizen'. stap 1-2"}
+{"stap":5,"tijd":"2026-10-18T07:22:37.881Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["4","Amsterdam"]}
+{"stap":6,"tijd":"2026-10-18T07:22:37.937Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1400}
+{"stap":7,"tijd":"2026-10-18T07:22:42.921Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["14"]}
+{"stap":8,"tijd":"2026-10-18T07:22:42.983Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1632}
+{"stap":9,"tijd":"2026-10-18T07:22:43.219Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["eerste"]}
+{"stap":10,"tijd":"2026-10-18T07:22:46.335Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Leeftijd is optioneel, ga direct door. stap 3"],"tekst":"Leeftijd is optioneel, ga direct door. stap 3"}
+{"stap":11,"tijd":"2026-10-18T07:22:48.187Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing","cmd":"klik","args":["44"]}
+{"stap":12,"tijd":"2026-10-18T07:22:48.247Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing","cmd":"kijk","args":[],"lengte":728}
+{"stap":13,"tijd":"2026-10-18T07:22:51.469Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing","cmd":"scroll","args":[]}
+{"stap":14,"tijd":"2026-10-18T07:22:54.653Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere","cmd":"typ","args":["7","Almere"]}
+{"stap":15,"tijd":"2026-10-18T07:22:54.719Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere","cmd":"typ","args":["8","over 6 weken"],"fout":"Fout: locator.fill: Error: Malformed value"}
+{"stap":16,"tijd":"2026-10-18T07:22:54.755Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere","cmd":"kijk","args":[],"lengte":1054}
+{"stap":17,"tijd":"2026-10-18T07:22:59.059Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere","cmd":"notitie","args":["Datumveld wil geen tekst; ik probeer een datum. stap 5-6"],"tekst":"Datumveld wil geen tekst; ik probeer een datum. stap 5-6"}
+{"stap":18,"tijd":"2026-10-18T07:22:59.411Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"typ","args":["8","2026-11-29"]}
+{"stap":19,"tijd":"2026-10-18T07:22:59.454Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"kijk","args":[],"lengte":1079}
+{"stap":20,"tijd":"2026-10-18T07:23:02.731Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":21,"tijd":"2026-10-18T07:23:03.234Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":22,"tijd":"2026-10-18T07:23:06.802Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"notitie","args":["Goed: 'Nu' stap duidelijk, hulp mag niet zomaar stoppen. Nu nog wijkteam Almere. stap 8"],"tekst":"Goed: 'Nu' stap duidelijk, hulp mag niet zomaar stoppen. Nu nog wijkteam Almere. stap 8"}
+{"stap":23,"tijd":"2026-10-18T07:23:07.268Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":24,"tijd":"2026-10-18T07:23:07.760Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":25,"tijd":"2026-10-18T07:23:08.236Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":26,"tijd":"2026-10-18T07:23:13.653Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"notitie","args":["In Almere staat 'JGZ Almere' 088 002 9990 - is dat het wijkteam? Weet ik niet, JGZ ken ik niet. stap 11"],"tekst":"In Almere staat 'JGZ Almere' 088 002 9990 - is dat het wijkteam? Weet ik niet, JGZ ken ik niet. stap 11"}
+{"stap":27,"tijd":"2026-10-18T07:23:13.771Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"foto","args":["jgz"]}
+{"stap":28,"tijd":"2026-10-18T07:23:15.613Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"klik","args":["17"]}
+{"stap":29,"tijd":"2026-10-18T07:23:23.027Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"notitie","args":["In Almere staat 'JGZ Almere' - weet niet of dat het wijkteam is. Zoek verder. stap 13"],"tekst":"In Almere staat 'JGZ Almere' - weet niet of dat het wijkteam is. Zoek verder. stap 13"}
+{"stap":30,"tijd":"2026-10-18T07:23:23.495Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":31,"tijd":"2026-10-18T07:23:23.965Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":32,"tijd":"2026-10-18T07:23:24.464Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":33,"tijd":"2026-10-18T07:23:24.972Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"scroll","args":[]}
+{"stap":34,"tijd":"2026-10-18T07:23:41.626Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&naar=almere&datum=2026-11-29","cmd":"stop"}

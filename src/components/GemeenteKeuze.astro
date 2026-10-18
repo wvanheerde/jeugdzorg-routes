@@ -10,7 +10,7 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
 ---
 <div class="gemeente-rij">
 <label class="field" for={id}>
-  <span>{label}</span>
+  <span data-gemeente-label={label}>{label}</span>
   <select id={id} class="gemeente-keuze" data-gemeente-keuze>
     <option value="">Kies uw gemeente…</option>
     {gemeenten.map((g) => <option value={g.id}>{g.data.naam}</option>)}
@@ -42,6 +42,13 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     });
   });
   document.dispatchEvent(new CustomEvent('jr:gemeente', { detail: current }));
+
+  // Bij een verhuizing gaat het om de gemeente waar u nu woont; de nieuwe gemeente vraagt het overzicht apart.
+  const zetLabel = (kp: string) => document.querySelectorAll<HTMLElement>('[data-gemeente-label]').forEach((e) => {
+    e.textContent = kp === 'verhuizing' && e.dataset.gemeenteLabel === 'Waar woont u?' ? 'Waar woont u nu?' : e.dataset.gemeenteLabel!;
+  });
+  zetLabel(new URLSearchParams(location.search).get('k') ?? localStorage.getItem('jr.knelpunt') ?? '');
+  document.addEventListener('jr:knelpunt', (e) => zetLabel((e as CustomEvent).detail));
 
   // Woonplaats → gemeente. Ligt een woonplaats in twee gemeenten, dan staan beide in de lijst.
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');

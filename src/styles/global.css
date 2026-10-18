@@ -371,6 +371,7 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .geld-hint { margin-top: 1rem; }
 /* Uitleg bij officiële woorden */
+.woord:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; border-radius: 2px; }
 .woord { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help; text-decoration: underline dotted var(--c-primary); text-underline-offset: .2em; text-decoration-thickness: 2px; }
 .woord[aria-expanded="true"] { color: var(--c-primary-dark); }
 .woord-uitleg { display: block; margin: .3rem 0 .5rem; padding: .5rem .7rem; font-size: .92rem; background: var(--c-primary-soft); border-left: 3px solid var(--c-primary); border-radius: 6px; }
@@ -397,14 +398,49 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .cta-balk { padding-left: max(1.5rem, calc((100vw - var(--maxw)) / 2 + 1.5rem)); padding-right: max(1.5rem, calc((100vw - var(--maxw)) / 2 + 1.5rem)); }
 
 /* Mijn overzicht: blok 1 (stap 1, contact, overige stappen, handig, brieven); volgorde wordt in de HTML gezet */
-#nu-doen .stap-een li { font-size: 1.08rem; font-weight: 400; }
-/* Vet begin van een stap (vraag of moment). Stap 1 is iets groter, maar net zo vet als de andere stappen. */
+#nu-doen .stap-een li { font-weight: 400; }
+/* Vet begin van een stap (vraag of moment). Alle stappen even groot als de inleiding erboven. */
 #nu-doen .stap-lead { font-weight: 700; }
 #nu-doen .o4 { margin-top: 0; }
 #nu-doen .lead-klein { margin: 0 0 .75rem; }
 /* Ruimte tussen het blok "Hier meldt u zich" en de tekst eronder. */
 #nu-doen .eerste-contact { margin-bottom: 1rem; }
 .eerste-contact .kop-verhuizing { display: none; }
+/* Verdieping in "Wat kunt u doen": optionele vragen die de stappen passend maken (Verdieping.astro). */
+.verdieping { margin: 0 0 1.1rem; padding: .9rem 1.1rem 1rem; background: var(--c-primary-soft); border-radius: var(--radius); }
+.verdieping h3 { margin: 0 0 .25rem; font-size: 1.02rem; }
+.verdieping .vd-optioneel { margin-left: .35rem; padding: .05rem .5rem; font-size: .78rem; font-weight: 600; color: var(--c-primary-dark); background: #fff; border-radius: 999px; vertical-align: .1em; }
+.verdieping .vd-uitleg { margin: 0 0 .8rem; }
+.verdieping .vd-velden { display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; align-items: start; }
+.verdieping .vd-velden > .field { flex: 1 1 15rem; max-width: 22rem; }
+.verdieping .vd-velden > .vd-datum { flex: 0 1 auto; max-width: none; }
+.verdieping .vd-velden .vd-datum .th-veld { max-width: 11.5rem; }
+.verdieping .vd-velden .gemeente-keuze { height: 2.8rem; margin: 0; box-sizing: border-box; }
+.verdieping .vd-velden .th-veld { width: 100%; max-width: none; height: 2.8rem; box-sizing: border-box; }
+.verdieping .vd-velden > .vd-keuze { flex-basis: 100%; max-width: none; }
+.verdieping .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
+.verdieping .chip-btn:hover { border-color: var(--c-primary); }
+.verdieping .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
+.verdieping .vd-melding { flex-basis: 100%; margin: 0; color: var(--c-accent); }
+.verdieping .vd-samenvatting { margin: .8rem 0 0; font-size: .92rem; }
+.verdieping .vd-samenvatting:has([data-vd-samenvatting]:empty) { display: none; }
+.verdieping[data-vd-ingeklapt] .vd-samenvatting { margin-top: 0; }
+/* "Waarom stopt de hulp?": met de vragen open is de gekozen optie zelf de samenvatting. */
+[data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) [data-vd-samenvatting] { display: none; }
+[data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) .vd-acties { margin-top: 0; }
+.verdieping .vd-acties { display: flex; gap: 1.2rem; margin-top: .3rem; }
+.verdieping .vd-acties:not(:has(button:not([hidden]))) { display: none; }
+.verdieping .linkknop { background: none; border: 0; padding: 0; font: inherit; font-weight: 400; font-size: .92rem; color: var(--c-primary-dark); text-decoration: underline; cursor: pointer; }
+#nu-doen .stap-nieuw { display: block; }
+/* Verhuizing: twee wijkteams bij de stappen, dus de gemeente erboven (ook voor de huidige gemeente onder stap 1). */
+.stap-wt-gemeente { display: none; }
+[data-modus="verhuizing"] .stap-wt-gemeente { display: block; margin-top: .6rem; font-weight: 600; color: var(--c-text); }
+[data-modus="verhuizing"] .stap-wt-gemeente + .stap-org { margin-top: .2rem; }
+.stap-wt-uitleg { display: none; }
+[data-modus="verhuizing"] .stap-wt-uitleg { display: block; margin-top: .2rem; font-size: .9rem; }
+.verdieping .field > label { font-weight: 600; font-size: .95rem; }
+.verdieping .field > .vd-hint { margin: 0; font-size: .88rem; font-weight: 400; }
+.verdieping input[data-th-invoer] { height: 100%; box-sizing: border-box; padding: .65rem .9rem; background: #fff; font-size: 1.02rem; }
 .eerste-contact .kop-wijkteam { display: none; }
 [data-kop="wijkteam"] .eerste-contact .kop-standaard { display: none; }
 [data-kop="wijkteam"] .eerste-contact .kop-wijkteam { display: inline; }
@@ -588,12 +624,12 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .termijnhulp .th-blok + .th-blok { margin-top: .9rem; padding-top: .9rem; border-top: 1px solid var(--c-border, #e2ddd3); }
 .termijnhulp .th-label { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; }
 .termijnhulp .th-label > label { font-weight: 600; }
-.termijnhulp .th-veld { position: relative; display: inline-flex; align-items: stretch; max-width: 14rem; }
-.termijnhulp input[data-th-invoer] { font: inherit; font-weight: 400; padding: .45rem .6rem; border: 1px solid var(--c-border, #cfc8bb); border-radius: 8px 0 0 8px; width: 100%; min-width: 0; }
-.termijnhulp .th-kalender { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 2.75rem; border: 1px solid var(--c-border, #cfc8bb); border-left: 0; border-radius: 0 8px 8px 0; background: var(--c-surface-2, #fdfcfa); color: var(--c-primary); cursor: pointer; }
-.termijnhulp .th-kalender .ico { width: 1.15em; height: 1.15em; }
+:is(.termijnhulp, .verdieping) .th-veld { position: relative; display: inline-flex; align-items: stretch; max-width: 14rem; }
+:is(.termijnhulp, .verdieping) input[data-th-invoer] { font: inherit; font-weight: 400; padding: .45rem .6rem; border: 1px solid var(--c-border, #cfc8bb); border-radius: 8px 0 0 8px; width: 100%; min-width: 0; }
+:is(.termijnhulp, .verdieping) .th-kalender { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 2.75rem; border: 1px solid var(--c-border, #cfc8bb); border-left: 0; border-radius: 0 8px 8px 0; background: var(--c-surface-2, #fdfcfa); color: var(--c-primary); cursor: pointer; }
+:is(.termijnhulp, .verdieping) .th-kalender .ico { width: 1.15em; height: 1.15em; }
 /* De echte datumkiezer: onzichtbaar onder het veld, zodat de kalender van het toestel daar opent. */
-.termijnhulp .th-datum { position: absolute; left: 0; bottom: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
+:is(.termijnhulp, .verdieping) .th-datum { position: absolute; left: 0; bottom: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
 .termijnhulp .th-uitkomst { margin-top: .6rem; }
 .termijnhulp .th-uitkomst p { margin: 0; }
 .termijnhulp .th-uitkomst p + p { margin-top: .4rem; }

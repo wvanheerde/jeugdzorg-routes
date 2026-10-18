@@ -60,4 +60,6 @@ Maak een gratis account op [goatcounter.com](https://www.goatcounter.com) (voor 
 
 ## Uitbreiden met interactie
 
+Mijn overzicht heeft al een eigen vorm van interactie: de **verdieping** (optionele vragen die de stappen aanpassen, zonder framework). Werkwijze en regels: [CONTENT.md, "Knelpunten: verdieping in Mijn overzicht"](CONTENT.md#knelpunten-verdieping-in-mijn-overzicht).
+
 Astro ondersteunt "islands": voeg bijvoorbeeld `@astrojs/react` of `@astrojs/svelte` toe en plaats een component met `client:load` op een pagina. De JSON-data per gemeente is daarbij direct bruikbaar als input.

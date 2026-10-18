@@ -16,7 +16,7 @@ De informatiestructuur is vastgelegd in `src/content.config.ts` (Zod-schema). `n
 | `src/content/landelijk/NN-<slug>.md` | Markdown + frontmatter | Landelijke rechten en uitleg |
 | `src/content/situaties/<slug>.md` | Markdown + frontmatter | Ingang voor ouders: "wat speelt er?". Koppelt via `themas` en `hulpsoorten` |
 | `src/content/hulpsoorten/<id>.json` | JSON | Soorten jeugdhulp; gemeenten en situaties verwijzen via het id |
-| `src/content/knelpunten/<slug>.md` | Markdown-frontmatter | Tweede as: waar gaat de vraag over (beginnen, wachten, vastgelopen, afgewezen, verkeerde hulp, spoed, 18 worden, verhuizen, geld). Stuurt stappen, brieven en welke gemeente-onderdelen vooraan komen. `zonderGemeente: true` voor een landelijke vraag (zoals geld): het overzicht toont dan niets van de gemeente |
+| `src/content/knelpunten/<slug>.md` | Markdown-frontmatter | Tweede as: waar gaat de vraag over (beginnen, wachten, vastgelopen, afgewezen, hulp stopt, verkeerde hulp, spoed, 18 worden, verhuizen, geld). Stuurt stappen, brieven en welke gemeente-onderdelen vooraan komen. `zonderGemeente: true` voor een landelijke vraag (zoals geld): het overzicht toont dan niets van de gemeente |
 | `src/content/brieven/<slug>.md` | Markdown + frontmatter | Voorbeeldbrieven in gewone taal, invulvelden tussen [haken], gekoppeld aan `situaties` |
 | `src/content/therapievormen/<slug>.json` | JSON | Gangbare therapie- en begeleidingsvormen per situatie, neutraal beschreven, met onderbouwing, vergoeding en hoe aan te vragen. Geen behandelaars of praktijken |
 
@@ -72,6 +72,38 @@ De lezer is een ouder van een kind dat hulp nodig heeft: vaak gestrest, zonder k
   - Voorwaarden die ouders kunnen stigmatiseren (bij een pgb: schulden, verslaving, fraude, taal) niet in één opsomming. Eerst wat de gemeente wil weten en welke oplossing er is ("Lukt dat niet zelf? Dan mag iemand anders het budget beheren"), dan in een aparte, zakelijke zin de uitsluitingsgronden die de regels noemen.
   - Geen schrikbeelden als argument ("wijs op gesloten plaatsing"). Een ouder onderbouwt een aanvraag met wat al geprobeerd is en wat het kind nodig heeft.
   - Woorden die nodig zijn om iets te kunnen regelen (Veilig Thuis, melding, jeugdbescherming, crisis) blijven, zakelijk en zonder dreiging.
+
+## Knelpunten: verdieping in Mijn overzicht
+
+Bovenaan "Wat kunt u doen" kan een vraag een **verdieping** hebben: een of twee optionele vragen waarmee de stappen eronder beter passen. Voorbeelden: bij "Wij verhuizen" de nieuwe gemeente en de verhuisdatum, bij "De hulp stopt" de reden. Aanleiding: persona-tests waarin één antwoord voor iedereen te algemeen was (Joyce: twee gemeenten; Bas: vijf oorzaken waarvan er één de zijne was).
+
+**Wanneer wel**
+- Het antwoord verandert echt wat de ouder doet: andere stappen, een tweede gemeente, een tijdlijn. Alleen "meer uitleg" is geen reden.
+- Kandidaten die nog open staan: "Mijn kind wordt 18" (geboortedatum → tijdlijn), "Wij wachten te lang" (verwezen door de huisarts of aanvraag bij de gemeente).
+
+**Hoe het eruitziet (vast, voor elke verdieping gelijk)**
+- Blok `Verdieping.astro`: kop "Meer passend advies" (of "… bij verhuizen") met het label *niet verplicht*, één zin die zegt wat invullen oplevert, dan de vragen.
+- Zonder antwoord ziet de ouder gewoon alle stappen. Het blok mag niets blokkeren.
+- Eén keuze uit een paar opties: knoppen naast elkaar (`chip-btn`, zoals de andere keuzes; nog eens klikken haalt de keuze weg). Een gemeente: tekstveld met de gemeenten en woonplaatsen als lijst. Een datum: het veld dd-mm-jjjj met kalenderknop (`src/lib/datumveld.ts`). Velden naast elkaar even hoog en uitgelijnd.
+- Na een antwoord: korte samenvatting in gewone letters (niet vet, iets kleiner), met *Wissen*. Herhaal geen keuze die de ouder al ziet staan.
+- Zijn alle vragen beantwoord (bij een tekstveld: na het verlaten van het veld), dan klapt het blok in tot de samenvatting met *Aanpassen* en *Wissen*, zodat de stappen hoger in beeld komen. Ook bij een volgend bezoek staat het ingeklapt.
+- Laat ook de rest van het overzicht meebewegen: wat niet bij het antwoord past (zoals het bezwaarblok als de aanbieder stopt) verdwijnt.
+- Antwoorden gaan in de url (bijvoorbeeld `?naar=almere&datum=2026-11-29`, `?reden=aanbieder`) en in localStorage (`jr.verhuizing`, `jr.hulpstopt`). Voeg een nieuwe sleutel toe aan "Keuzes wissen" (`SituatieKeuze.astro`).
+
+**Hoe de stappen meebewegen**
+- De stappen blijven gewone tekst in `src/content/knelpunten/<slug>.md`. De koppeling tussen een stap en een antwoord gaat via het begin van de stap (`VERHUIS_MOMENT`, `HULP_STOPT_REDEN` in `src/pages/overzicht.astro`). Verandert dat begin, dan faalt de build met een melding; pas dan beide aan.
+- Mogelijke effecten: stappen verbergen die niet passen (de nummering telt dan door vanaf 1), een kop per stap (tijdlijn), een contactregel van een tweede gemeente onder een stap (`laadNieuweGemeente` in `src/lib/gemeente-blokken.ts`, met `data-nieuwe-gemeente-slot`).
+- Contact staat als regel onder de stap waar het hoort (`wijkteamBovenaan: false`), niet als tweede grote kaart bovenaan. Heet het team geen "wijkteam", dan zegt een zin eronder wat het is.
+- Termijnen en tijdsgrenzen alleen met een bron. Is iets een eigen vuistregel (zoals "meer dan drie maanden vooruit: nu nog niets doen" bij verhuizen), zeg dat in de code en meld het bij de redactie.
+
+**Een nieuwe verdieping toevoegen**
+1. Schrijf de stappen zo dat elke stap die van een antwoord afhangt met een herkenbaar begin start ("Stopt de aanbieder …", "Loopt het besluit af? …").
+2. Zet in `overzicht.astro` de koppeling (begin → antwoord) met de build-controle, het blok `<Verdieping>` met de vragen, en de functie die tekent (zoals `tekenVerhuizing`, `tekenHulpStopt`); roep die aan in `render()`.
+3. Url-parameter, localStorage-sleutel en "Keuzes wissen".
+4. Persona-scenario dat de verdieping raakt (zie `tests/persona/scenarios/07-joyce-verhuizen.md`, `16-bas-aanbieder-stopt.md`), en draai het voor en na.
+
+**Verwijzen naar een andere vraag**
+Noemt een stap een andere vraag tussen aanhalingstekens, precies met de titel (Lees daarover bij "Ik wil hulp uitbreiden"), dan wordt dat in Mijn overzicht vanzelf een link naar die vraag. Zo kan een vraag als "De hulp stopt" de weg wijzen zonder de stappen van andere vragen te herhalen.
 
 ## Grenzen van de inhoud (voor mens én agent)
 

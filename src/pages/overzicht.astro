@@ -24,6 +24,7 @@ import { afbreken } from '../lib/afbreken';
 import { genoemdIn } from '../lib/genoemd';
 import OrgRegel from '../components/OrgRegel.astro';
 import StapInhoud from '../components/StapInhoud.astro';
+import Verdieping from '../components/Verdieping.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 type Knelpunt = (typeof knelpunten)[number];
 /** Een stap is tekst, of tekst met vervolgstappen (A, B) die er direct onder horen, zoals de ingebrekestelling na "wacht u op een besluit". */
@@ -52,8 +53,21 @@ const BRIEF_LABEL: Record<string, string> = { ingebrekestelling: 'ingebrekestell
  * - het wijkteam onder de eerste stap die het noemt, als het niet bovenaan staat (wijkteamBovenaan: false);
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
  * - de rekenhulp onder de stap over bezwaar (afgewezen) of de ingebrekestelling (wachten);
- * - bij "Vindt u de stap spannend?" de tips over hulp vragen.
+ * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
+ * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie de verdieping hieronder).
  */
+/** Verhuizing: welke stap wanneer hoort. De kop ("Nu", "Vóór de verhuizing" …) komt pas als de ouder een datum invult. */
+const VERHUIS_MOMENT: [string, 'nu' | 'voor' | 'na' | 'pleeg'][] = [['Meld de verhuizing', 'nu'], ['Vraag het huidige besluit', 'voor'], ['Neem vóór de verhuizing al contact op', 'na'], ['Woont uw kind in een pleeggezin', 'pleeg']];
+const verhuisMoment = (x: string) => VERHUIS_MOMENT.find(([begin]) => x.startsWith(begin))?.[1];
+/** "De hulp stopt": per stap de reden waar die bij hoort (verdieping "Waarom stopt de hulp?"). Stappen zonder reden gelden altijd. */
+const HULP_STOPT_REDEN: { id: string; begin: string; label: string }[] = [
+  { id: 'aanbieder', begin: 'Stopt de aanbieder', label: 'De aanbieder stopt' },
+  { id: 'klaar', begin: 'Vindt de aanbieder', label: 'De aanbieder vindt de hulp klaar' },
+  { id: 'gemeente', begin: 'Heeft de gemeente besloten', label: 'De gemeente stopt de hulp' },
+  { id: 'besluit', begin: 'Loopt het besluit af', label: 'Het besluit loopt af' },
+  { id: 'achttien', begin: 'Wordt uw kind 18', label: 'Mijn kind wordt 18' },
+];
+const hulpStoptReden = (x: string) => HULP_STOPT_REDEN.find((r) => x.startsWith(r.begin))?.id;
 const stapPropsPer = new Map<string, (st: string) => Record<string, unknown>>();
 const stapProps = (k: Knelpunt, st: string) => {
   if (!stapPropsPer.has(k.id)) {
@@ -81,6 +95,9 @@ const stapProps = (k: Knelpunt, st: string) => {
       termijn: k.id === 'afgewezen' && x.startsWith('Stuur binnen zes weken') ? 'bezwaar'
         : k.id === 'wachten' && x.startsWith('Zijn de acht weken') ? 'besluit' : undefined,
       tips: k.id === 'beginnen' && x.startsWith('Vindt u de stap spannend'),
+      moment: k.id === 'verhuizing' ? verhuisMoment(x) : undefined,
+      nieuw: k.id === 'verhuizing' && verhuisMoment(x) === 'na',
+      reden: k.id === 'hulp-stopt' ? hulpStoptReden(x) : undefined,
     }));
   }
   return stapPropsPer.get(k.id)!(st);
@@ -96,6 +113,11 @@ const veelVormen = (id: string) => therapie.filter((t) => t.data.hulpsoorten.inc
 situaties.forEach((s) => therapieVolgorde(s, therapie));
 const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
 const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+// Veranderen de stappen van de verhuizing, dan moet de tijdlijn mee; anders valt de verdieping stil zonder dat iemand het ziet.
+const verhuisStappen = alleStappen(knelpunten.find((k) => k.id === 'verhuizing')!);
+VERHUIS_MOMENT.forEach(([begin]) => { if (!verhuisStappen.some((x) => x.startsWith(begin))) throw new Error(`verhuizing.md: geen stap begint met "${begin}" (zie VERHUIS_MOMENT in overzicht.astro)`); });
+const hulpStoptStappen = hoofdStappen(knelpunten.find((k) => k.id === 'hulp-stopt')!);
+HULP_STOPT_REDEN.forEach((r) => { if (!hulpStoptStappen.some((x) => x.startsWith(r.begin))) throw new Error(`hulp-stopt.md: geen stap begint met "${r.begin}" (zie HULP_STOPT_REDEN in overzicht.astro)`); });
 const brieven = (await getCollection('brieven'));
 const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente, wijkteamBovenaan: k.data.wijkteamBovenaan }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -165,6 +187,24 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       {knelpunten.map((k) => (
         <div data-knelpunt-blok={k.id} hidden>
           <h2 class="o1"><span class="section-num">→</span>{k.id === 'beginnen' ? 'Wat kunt u doen' : `Wat kunt u doen: ${k.data.titel.toLowerCase()}`}</h2>
+          {k.id === 'verhuizing' && (<>
+            <Verdieping id="verhuizing" titel="Meer passend advies bij verhuizen" uitleg="Vult u in naar welke gemeente u gaat en wanneer, dan passen de stappen hieronder zich daarop aan: met het wijkteam van uw nieuwe gemeente en wat u wanneer regelt.">
+              <label class="field"><span>Naar welke plaats of gemeente verhuist u?</span><input type="search" class="gemeente-keuze" list="vh-plaatsen" placeholder="Bijvoorbeeld Almere" autocomplete="off" enterkeyhint="done" data-vh-naar /></label>
+              <datalist id="vh-plaatsen">{gemeenten.map((g) => <option value={g.data.naam} />)}</datalist>
+              <div class="field vd-datum"><label for="vh-datum">Wanneer verhuist u ongeveer?</label><span class="th-veld"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id="vh-datum" data-th-invoer data-vh-datum /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span><span class="meta vd-hint">Weet u de dag nog niet? Kies ongeveer de week.</span></div>
+              <p class="meta vd-melding" data-vh-melding hidden></p>
+            </Verdieping>
+          </>)}
+          {k.id === 'hulp-stopt' && (
+            <Verdieping id="hulp-stopt" uitleg="Kies waarom de hulp stopt. Dan ziet u alleen de stappen die daarbij horen.">
+              {/* Knoppen zoals bij de andere keuzes (KnelpuntKeuze): één keuze, nog eens klikken haalt hem weg. */}
+              <div class="field vd-keuze"><span id="hs-reden-kop">Waarom stopt de hulp?</span>
+                <div class="chips-select" role="group" aria-labelledby="hs-reden-kop">
+                  {HULP_STOPT_REDEN.map((r) => <button type="button" class="chip-btn" aria-pressed="false" value={r.id} data-hs-reden data-label={r.label}>{r.label}</button>)}
+                </div>
+              </div>
+            </Verdieping>
+          )}
           <p class="o1 lead-klein" data-generieke-lead>{k.data.samenvatting}</p>
           {k.id === 'beginnen' && situaties.filter((sit) => sit.data.lichteStart || sit.data.aanvraagIngeklapt).map((sit) => <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>{sit.data.samenvatting}</p>)}
           {k.id === 'wachten' && <p class="o1 meta wacht-erger"><strong>Wordt het erger terwijl u wacht?</strong> Bel de huisarts. 's Avonds en in het weekend hoort u via hetzelfde nummer hoe u de huisartsenpost bereikt. <a href={`${base}/overzicht/?k=spoed`}>Het kan niet wachten →</a></p>}
@@ -173,7 +213,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               {k.id === 'beginnen' ? (<>
                 <li data-generieke-stap><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} /></li>
                 {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden><strong class="stap-lead">Begin bij {r0.beginBij ?? (sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type])}.</strong> {r0.waarom}<OrgRegel orgs={genoemdIn(r0.waarom, organisaties)} /></li>; })}
-              </>) : <li><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />{vervolg(k, 0).length > 0 && <ol class="steps-sub">{vervolg(k, 0).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li>}
+              </>) : <>{k.id === 'verhuizing' && <li data-vh-binnen hidden></li>}<li><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />{vervolg(k, 0).length > 0 && <ol class="steps-sub">{vervolg(k, 0).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li></>}
             </ol>
             {k.id === 'beginnen' && (
               <details class="o4 meer-brieven" data-aanvraag-inklap hidden>
@@ -314,7 +354,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
 </Base>
 <script is:inline set:html={`window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
 <script>
-  import { laadGemeente } from '../lib/gemeente-blokken';
+  import { laadGemeente, laadNieuweGemeente } from '../lib/gemeente-blokken';
+  import { dagenTot, leesDatum } from '../lib/termijnen';
+  import { koppelDatumvelden } from '../lib/datumveld';
   type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
   const data = (window as any).__jrSituaties as Record<string, Sit>;
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean; wijkteamBovenaan: boolean }>;
@@ -340,6 +382,170 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   // Knop rechtsonder (alleen telefoon, zie CSS): pas tonen als het keuzeblok uit beeld is en er iets gekozen is.
   const knop = document.querySelector<HTMLElement>('[data-keuzes-knop]');
   if (keuzes && knop && 'IntersectionObserver' in window) new IntersectionObserver(([e]) => { knop.hidden = e.isIntersecting || !!document.querySelector('[data-inhoud][hidden]'); }).observe(keuzes);
+  // Verdieping bij de verhuizing: naar welke gemeente en wanneer (beide optioneel). Uit de URL (?naar=, ?datum=) of van een
+  // eerder bezoek; bij een wijziging gaan ze in de URL, zodat het overzicht te bewaren en te delen is.
+  const VH_KEY = 'jr.verhuizing';
+  const vhBewaard = (() => { try { return JSON.parse(localStorage.getItem(VH_KEY) ?? '{}'); } catch { return {}; } })();
+  let naar: string = params.get('naar') ?? vhBewaard.naar ?? '';
+  let verhuisdatum: string = params.get('datum') ?? vhBewaard.datum ?? '';
+  if (!namen.g[naar]) naar = '';
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(verhuisdatum)) verhuisdatum = '';
+  const vhBlok = document.querySelector<HTMLElement>('[data-verdieping="verhuizing"]');
+  const naarVeld = vhBlok?.querySelector<HTMLInputElement>('[data-vh-naar]');
+  const datumVeld = vhBlok?.querySelector<HTMLInputElement>('[data-vh-datum]');
+  const vhMelding = vhBlok?.querySelector<HTMLElement>('[data-vh-melding]');
+  // Plaatsnaam → gemeente: eerst de gemeenten zelf; bij het eerste gebruik ook de woonplaatsen (zoals bij de gemeentekeuze).
+  // Een woonplaats in twee gemeenten alleen met de gemeente erbij ("Plaats (gemeente X)").
+  const plaatsen = new Map(Object.entries(namen.g).map(([slug, naam]) => [naam.toLowerCase(), slug]));
+  let woonplaatsen: Promise<void> | null = null;
+  const laadWoonplaatsen = () => (woonplaatsen ??= fetch(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/woonplaatsen.json`).then((r) => r.json()).then((paren: [string, string][]) => {
+    const per = new Map<string, Set<string>>();
+    paren.forEach(([plaats, slug]) => per.set(plaats.toLowerCase(), (per.get(plaats.toLowerCase()) ?? new Set()).add(slug)));
+    const opties = paren.filter(([, slug]) => namen.g[slug]).map(([plaats, slug]) => {
+      const label = `${plaats} (gemeente ${namen.g[slug]})`;
+      plaatsen.set(label.toLowerCase(), slug);
+      if (per.get(plaats.toLowerCase())!.size === 1 && !plaatsen.has(plaats.toLowerCase())) plaatsen.set(plaats.toLowerCase(), slug);
+      return Object.assign(document.createElement('option'), { value: label });
+    });
+    document.getElementById('vh-plaatsen')?.append(...opties);
+  }).catch(() => { woonplaatsen = null; }));
+  const bewaarVerhuizing = () => {
+    if (naar || verhuisdatum) localStorage.setItem(VH_KEY, JSON.stringify({ naar, datum: verhuisdatum })); else localStorage.removeItem(VH_KEY);
+    const u = new URL(location.href);
+    if (naar) u.searchParams.set('naar', naar); else u.searchParams.delete('naar');
+    if (verhuisdatum) u.searchParams.set('datum', verhuisdatum); else u.searchParams.delete('datum');
+    history.replaceState(history.state, '', u);
+  };
+  const verhuizingGewijzigd = () => { bewaarVerhuizing(); laadNieuweGemeente(naar).then((ok) => ok && render()); };
+  // Beide vragen beantwoord: inklappen tot de samenvatting, zodat de stappen hoger in beeld komen. Niet tijdens het typen van de plaats.
+  const klapIn = () => { if (naar && verhuisdatum) vhBlok?.setAttribute('data-vd-ingeklapt', ''); };
+  if (naarVeld && datumVeld) {
+    naarVeld.value = namen.g[naar] ?? '';
+    datumVeld.value = verhuisdatum ? verhuisdatum.split('-').reverse().join('-') : '';
+    koppelDatumvelden();
+    // Bij een tweede bezoek staat het antwoord voorop, niet de vragen.
+    if (naar || verhuisdatum) vhBlok!.setAttribute('data-vd-ingeklapt', '');
+    naarVeld.addEventListener('focus', laadWoonplaatsen);
+    naarVeld.addEventListener('input', () => {
+      const slug = plaatsen.get(naarVeld.value.trim().toLowerCase());
+      if (vhMelding) vhMelding.hidden = true;
+      if (slug && slug !== naar) { naar = slug; verhuizingGewijzigd(); }
+    });
+    // Pas bij verlaten van het veld (of Enter) melden dat een plaats onbekend is; tijdens het typen niet.
+    naarVeld.addEventListener('change', async () => {
+      const tekst = naarVeld.value.trim().toLowerCase();
+      if (tekst) await laadWoonplaatsen();
+      const slug = plaatsen.get(tekst) ?? '';
+      if (vhMelding) {
+        vhMelding.hidden = !tekst || !!slug;
+        vhMelding.textContent = 'Deze plaats kennen we niet. Typ de eerste letters en kies uit de lijst die verschijnt.';
+      }
+      if (slug !== naar) { naar = slug; verhuizingGewijzigd(); }
+      klapIn();
+    });
+    // dd-mm-jjjj (getypt of uit de kalender, zie lib/datumveld.ts); bewaard als jjjj-mm-dd.
+    datumVeld.addEventListener('input', () => {
+      const d = leesDatum(datumVeld.value);
+      const iso = d ? `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}` : '';
+      const fout = !d && datumVeld.value.replace(/\D/g, '').length >= 8;
+      if (vhMelding) { vhMelding.hidden = !fout; if (fout) vhMelding.textContent = 'Vul de datum in als dd-mm-jjjj, bijvoorbeeld 01-12-2026.'; }
+      // Leeg gemaakt: datum weg. Halverwege getypt: niets veranderen.
+      if (iso !== verhuisdatum && (d || !datumVeld.value.trim())) { verhuisdatum = iso; verhuizingGewijzigd(); if (d) klapIn(); }
+    });
+    vhBlok!.querySelector('[data-vd-wissen]')?.addEventListener('click', () => {
+      naar = ''; verhuisdatum = ''; naarVeld.value = ''; datumVeld.value = '';
+      if (vhMelding) vhMelding.hidden = true;
+      vhBlok!.removeAttribute('data-vd-ingeklapt');
+      verhuizingGewijzigd();
+    });
+  }
+  const VER_WEG = 91; // dagen; zie tekenVerhuizing
+  const datumKort = (d: Date) => d.toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' });
+  const over = (n: number) => (n === 0 ? 'vandaag' : n === 1 ? 'morgen' : n < 14 ? `over ${n} dagen` : n < 120 ? `over ongeveer ${Math.round(n / 7)} weken` : `over ongeveer ${Math.round(n / 30)} maanden`);
+  /** Tekent wat de antwoorden van de verdieping met de stappen doen. Alleen zichtbaar bij "Wij verhuizen". */
+  const tekenVerhuizing = () => {
+    const blok = document.querySelector<HTMLElement>('[data-knelpunt-blok="verhuizing"]');
+    if (!vhBlok || !blok) return;
+    const huidig = namen.g[gem] ?? '';
+    const nieuweNaam = namen.g[naar] ?? '';
+    const binnen = !!naar && naar === gem;
+    const nieuw = !!naar && !binnen;
+    const datum = verhuisdatum ? new Date(+verhuisdatum.slice(0, 4), +verhuisdatum.slice(5, 7) - 1, +verhuisdatum.slice(8, 10)) : null;
+    const dagen = datum ? dagenTot(datum) : null;
+    const verhuisd = dagen !== null && dagen < 0;
+    // Nog ver weg: dan hoeft de ouder nu nog niets te doen. Drie maanden is een praktische vuistregel (geen wettelijke termijn):
+    // genoeg tijd voor het overdragen, en dicht genoeg bij de verhuizing dat het besluit dan nog loopt.
+    const verWeg = dagen !== null && dagen > VER_WEG;
+    const beginOp = datum && new Date(datum.getFullYear(), datum.getMonth(), datum.getDate() - VER_WEG);
+    const nogNiets = verWeg && beginOp ? ` U hoeft nu nog niets te regelen: begin rond ${datumKort(beginOp)}. Loopt het huidige besluit voor die tijd af? Vraag dan gewoon een nieuw besluit aan bij ${huidig || 'uw gemeente'}.` : '';
+    const ingevuld = !!naar || !!datum;
+    // Samenvatting boven de vragen (en ingeklapt in plaats van de vragen).
+    const van = huidig && nieuw ? ` van ${huidig}` : '';
+    const samenvatting = !ingevuld ? ''
+      : binnen ? `U verhuist binnen ${huidig}. De gemeente blijft dezelfde, dus er hoeft niets overgedragen te worden.`
+      : nieuw && datum && verhuisd ? `U bent op ${datumKort(datum)} verhuisd${van} naar ${nieuweNaam}. De stappen hieronder zijn daarop aangepast: meld u nu bij het wijkteam van ${nieuweNaam} (stap 3).`
+      : nieuw && datum ? `U verhuist ${over(dagen!)}${van} naar ${nieuweNaam} (${datumKort(datum)}). De stappen hieronder zijn daarop aangepast.${nogNiets}`
+      : nieuw ? `U verhuist${van} naar ${nieuweNaam}. Het wijkteam daar staat nu bij stap 3. Vul ook de datum in, dan ziet u wat u wanneer regelt.`
+      : `${verhuisd ? `U bent op ${datumKort(datum!)} verhuisd` : `U verhuist ${over(dagen!)} (${datumKort(datum!)})`}.${nogNiets} Vul ook de nieuwe gemeente in, dan ziet u daar het wijkteam.`;
+    const sv = vhBlok.querySelector<HTMLElement>('[data-vd-samenvatting]');
+    if (sv) sv.textContent = samenvatting;
+    vhBlok.querySelector<HTMLElement>('[data-vd-wissen]')!.hidden = !ingevuld;
+    if (!ingevuld) vhBlok.removeAttribute('data-vd-ingeklapt');
+    // Tijdlijn: alleen met een datum een kop per stap.
+    const label: Record<string, string> = !datum ? {} : verhuisd
+      ? { nu: `Nog niet gedaan? Doe het alsnog${huidig && nieuw ? ` bij ${huidig}` : ''}:`, voor: 'Nog niet gedaan? Doe het alsnog:', na: 'Doe dit nu:' }
+      : { nu: verWeg ? `Vanaf ${datumKort(beginOp!)}, ongeveer drie maanden voor de verhuizing:` : `Nu, u verhuist ${over(dagen!)}:`, voor: 'Vóór de verhuizing:', na: `Rond de verhuizing (${datumKort(datum)}):` };
+    blok.querySelectorAll<HTMLElement>('[data-moment]').forEach((e) => { const t = label[e.dataset.moment!]; e.hidden = !t; e.textContent = t ?? ''; });
+    // Binnen dezelfde gemeente: geen overdracht en geen andere gemeente die verantwoordelijk kan worden, dus één stap.
+    blok.querySelectorAll<HTMLElement>('[data-moment="nu"], [data-moment="voor"], [data-moment="na"], [data-moment="pleeg"]').forEach((e) => { e.closest('li')!.hidden = binnen; });
+    blok.querySelectorAll<HTMLElement>('[data-vh-binnen]').forEach((li) => {
+      li.hidden = !binnen;
+      li.replaceChildren(Object.assign(document.createElement('strong'), { className: 'stap-lead', textContent: `U verhuist binnen ${huidig}.` }), ' Dan blijft de gemeente dezelfde en loopt de hulp gewoon door. Geef uw nieuwe adres door aan het wijkteam en aan de aanbieder van de hulp.');
+    });
+    // De nieuwe gemeente onder de stap "Meld u na uw inschrijving"; het huidige wijkteam staat onder stap 1.
+    blok.querySelectorAll<HTMLElement>('[data-nieuw-stap]').forEach((e) => (e.hidden = !nieuw || !e.querySelector('[data-geladen]')));
+  };
+  // Verdieping bij "De hulp stopt": waarom stopt de hulp? Dan alleen de stappen bij die reden (?reden=, of van een eerder bezoek).
+  const HS_KEY = 'jr.hulpstopt';
+  const hsBlok = document.querySelector<HTMLElement>('[data-verdieping="hulp-stopt"]');
+  const hsKeuzes = Array.from(hsBlok?.querySelectorAll<HTMLButtonElement>('[data-hs-reden]') ?? []);
+  let reden = params.get('reden') ?? localStorage.getItem(HS_KEY) ?? '';
+  if (!hsKeuzes.some((r) => r.value === reden)) reden = '';
+  const redenGewijzigd = () => {
+    hsKeuzes.forEach((r) => r.setAttribute('aria-pressed', String(r.value === reden)));
+    if (reden) localStorage.setItem(HS_KEY, reden); else localStorage.removeItem(HS_KEY);
+    const u = new URL(location.href);
+    if (reden) u.searchParams.set('reden', reden); else u.searchParams.delete('reden');
+    history.replaceState(history.state, '', u);
+    render();
+  };
+  if (hsBlok) {
+    hsKeuzes.forEach((r) => { r.setAttribute('aria-pressed', String(r.value === reden)); r.addEventListener('click', () => {
+      reden = reden === r.value ? '' : r.value;
+      // Na een keuze meteen inklappen tot de samenvatting, zodat de stappen hoger in beeld komen (persona-tests: Bas moest twee keer scrollen).
+      if (reden) hsBlok.setAttribute('data-vd-ingeklapt', '');
+      redenGewijzigd();
+    }); });
+    if (reden) hsBlok.setAttribute('data-vd-ingeklapt', '');
+    hsBlok.querySelector('[data-vd-wissen]')?.addEventListener('click', () => {
+      reden = '';
+      hsBlok.removeAttribute('data-vd-ingeklapt');
+      redenGewijzigd();
+    });
+  }
+  const tekenHulpStopt = () => {
+    const blok = document.querySelector<HTMLElement>('[data-knelpunt-blok="hulp-stopt"]');
+    if (!hsBlok || !blok) return;
+    const label = hsKeuzes.find((r) => r.value === reden)?.dataset.label ?? '';
+    const sv = hsBlok.querySelector<HTMLElement>('[data-vd-samenvatting]');
+    if (sv) sv.textContent = reden ? `U koos: ${label.toLowerCase()}.` : ''; // alleen ingeklapt zichtbaar (zie CSS); open ziet u de keuze zelf
+    hsBlok.querySelector<HTMLElement>('[data-vd-wissen]')!.hidden = !reden;
+    if (!reden) hsBlok.removeAttribute('data-vd-ingeklapt');
+    blok.querySelectorAll<HTMLElement>('[data-reden]').forEach((e) => { e.closest('li')!.hidden = !!reden && e.dataset.reden !== reden; });
+    // Valt stap 1 weg, dan begint de nummering van de overige stappen bij 1 (de lijst begint anders bij 2).
+    const zonderEen = !!blok.querySelector('.stap-een') && Array.from(blok.querySelectorAll<HTMLElement>('.stap-een > li')).every((li) => li.hidden);
+    blok.querySelectorAll<HTMLElement>('ol.o4[data-aanvraag-stappen]').forEach((ol) => (ol.style.counterReset = zonderEen ? 'step 0' : ''));
+  };
   if (keuzes && (sel.length || kp || gem)) { keuzes.open = false; document.querySelectorAll<HTMLElement>('[data-intro]').forEach((e) => (e.hidden = true)); }
   const render = () => {
     const active = sel.filter((id) => data[id]);
@@ -374,7 +580,9 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     const inklap = kpActive === 'beginnen' && !!active[0] && data[active[0]].inklap;
     // Begint de situatie bij school (zoals thuiszitten), dan is "welke aanbieders kunt u kiezen" bij de start nog niet aan de orde.
     const schoolEerst = kpActive === 'beginnen' && !!active[0] && data[active[0]].routes[0] === 'school';
-    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen.filter((o) => !(schoolEerst && o === 'aanbieders'));
+    // "De hulp stopt" met een andere reden dan een besluit van de gemeente: bezwaar (blok en brief) hoort er dan niet bij.
+    const geenBezwaar = kpActive === 'hulp-stopt' && !!reden && reden !== 'gemeente';
+    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen.filter((o) => !(schoolEerst && o === 'aanbieders') && !(geenBezwaar && o === 'bezwaar'));
     q('[data-eerste-contact], [data-knelpunt-gemeente]').forEach((e) => (e.hidden = zonderGemeente));
     // Staat de cliëntondersteuner al onder een stap, dan niet nog eens in "Hierbij handig".
     const coBijStap = !!kpActive && !!document.querySelector(`[data-knelpunt-blok="${kpActive}"] [data-co-stap] [data-geladen]`);
@@ -406,7 +614,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     q('[data-situatie-brieven]').forEach((e) => (e.hidden = !eigenBrieven || e.dataset.situatieBrieven !== active[0]));
     q('[data-generieke-brieven]').forEach((e) => (e.hidden = eigenBrieven));
     // Bij een lichte start geen aanvraagbrieven; wel brieven die bij de situatie zelf horen (zoals aan school).
-    q('[data-brieven-blok]').forEach((e) => (e.hidden = licht && !eigenBrieven));
+    q('[data-brieven-blok]').forEach((e) => (e.hidden = (licht && !eigenBrieven) || (geenBezwaar && !!e.closest('[data-knelpunt-blok="hulp-stopt"]'))));
     // Eerste ingang: het wijkteam, tenzij de situatie bij de huisarts of school begint. Die staat dan alleen in blok 2.
     const eersteRoute = situatieWint ? data[active[0]].routes[0] : 'wijkteam';
     // Bij spoed en bij zorgen om een kind van een ander is het wijkteam niet de eerste plek om te bellen.
@@ -499,6 +707,8 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       tonen.forEach((i) => lijst?.appendChild(i));
       w.hidden = tonen.length === 0;
     });
+    tekenVerhuizing();
+    tekenHulpStopt();
     // Pas aan het eind: hieronder hangt af van wat hierboven zichtbaar is gemaakt.
     // Echte volgorde in de HTML (ook voor schermlezers): contact direct onder de kop, vóór de uitleg en de stappen
     // (persona-tests: ouders zoeken eerst wie ze moeten bellen); "hierbij handig" na de overige stappen.
@@ -541,7 +751,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   document.addEventListener('jr:gemeente', (e) => { gem = (e as CustomEvent).detail; laadGemeente(gem).then((ok) => ok && render()); });
   document.addEventListener('jr:knelpunt', (e) => { kp = (e as CustomEvent).detail; render(); });
   document.addEventListener('jr:leeftijd', (e) => { lf = (e as CustomEvent).detail; render(); });
-  laadGemeente(gem).then(() => {
+  Promise.all([laadGemeente(gem), laadNieuweGemeente(naar)]).then(() => {
     render();
     document.documentElement.classList.remove('jr-laden');
   });

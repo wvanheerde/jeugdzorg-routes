@@ -1,0 +1,36 @@
+---
+/**
+ * Verdieping in "Wat kunt u doen" (Mijn overzicht): een paar vragen die de stappen eronder passend maken. Altijd optioneel.
+ * Het blok zelf doet niets met de antwoorden; dat doet de pagina (zie de verhuizing in overzicht.astro). De pagina zet
+ * de samenvatting in [data-vd-samenvatting] en roept bij een bewaard antwoord inklappen aan via data-vd-ingeklapt.
+ * Ingeklapt staat alleen de samenvatting met "Aanpassen"; zo staat bij een tweede bezoek het antwoord voorop.
+ */
+interface Props { id: string; titel?: string; uitleg: string }
+const { id, titel = 'Meer passend advies', uitleg } = Astro.props;
+---
+<section class="verdieping o1" data-verdieping={id} aria-labelledby={`vd-kop-${id}`}>
+  <div data-vd-vragen>
+    <h3 id={`vd-kop-${id}`}>{titel} <span class="vd-optioneel">niet verplicht</span></h3>
+    <p class="meta vd-uitleg">{uitleg}</p>
+    <div class="vd-velden"><slot /></div>
+  </div>
+  <p class="vd-samenvatting" aria-live="polite"><span data-vd-samenvatting></span><span class="vd-acties"><button type="button" class="linkknop" data-vd-aanpassen hidden>Aanpassen</button><button type="button" class="linkknop" data-vd-wissen hidden>Wissen</button></span></p>
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-verdieping]').forEach((blok) => {
+    const vragen = blok.querySelector<HTMLElement>('[data-vd-vragen]')!;
+    const aanpassen = blok.querySelector<HTMLButtonElement>('[data-vd-aanpassen]')!;
+    // De pagina zet data-vd-ingeklapt; hier alleen tonen wat daarbij hoort.
+    const toon = () => {
+      const dicht = blok.hasAttribute('data-vd-ingeklapt');
+      vragen.hidden = dicht;
+      aanpassen.hidden = !dicht;
+    };
+    new MutationObserver(toon).observe(blok, { attributes: true, attributeFilter: ['data-vd-ingeklapt'] });
+    aanpassen.addEventListener('click', () => {
+      blok.removeAttribute('data-vd-ingeklapt');
+      blok.querySelector<HTMLElement>('input, select, [data-vd-vragen] button')?.focus();
+    });
+    toon();
+  });
+</script>

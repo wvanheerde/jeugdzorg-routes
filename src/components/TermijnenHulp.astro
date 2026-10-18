@@ -36,6 +36,7 @@ const uid = Math.random().toString(36).slice(2, 8);
 
 <script>
   import { bezwaarTot, beslissenTot, naIngebrekestelling, volgendeDag, dagenTot, leesDatum, schrijf } from '../lib/termijnen';
+  import { koppelDatumvelden } from '../lib/datumveld';
 
   const zet = (el: HTMLElement | null, html: string | null) => { if (!el) return; el.hidden = !html; el.innerHTML = html ?? ''; };
   // Pas een melding als er genoeg getypt is om een datum te zijn; tijdens het typen niets.
@@ -46,32 +47,8 @@ const uid = Math.random().toString(36).slice(2, 8);
   const inBriefNoot = (blok: HTMLElement) => (blok.hasAttribute('data-in-brief') ? '<p class="meta">De datum staat nu ook in de brief hieronder.</p>' : '');
   const nog = (d: Date) => { const n = dagenTot(d); return n > 1 ? `Dat is over ${n} dagen.` : n === 1 ? 'Dat is morgen.' : n === 0 ? 'Dat is vandaag.' : ''; };
 
-  // Kalenderknop: opent de datumkiezer van het toestel en zet de keuze als dd-mm-jjjj in het tekstveld.
-  document.querySelectorAll<HTMLElement>('.th-veld').forEach((veld) => {
-    const tekst = veld.querySelector<HTMLInputElement>('[data-th-invoer]')!;
-    const datum = veld.querySelector<HTMLInputElement>('[data-th-datum]')!;
-    const kanKiezen = 'showPicker' in HTMLInputElement.prototype;
-    const open = () => {
-      const d = leesDatum(tekst.value);
-      if (d) datum.value = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-      try { (datum as any).showPicker(); } catch { /* geen kalender: dan typt de ouder de datum */ }
-    };
-    veld.querySelector('[data-th-kalender]')?.addEventListener('click', open);
-    // Klik in het veld opent ook de kalender. Op de telefoon dan geen toetsenbord erbij; typen blijft kunnen op de computer.
-    if (kanKiezen) {
-      // Alleen een klik direct op het veld; een klik op het label wordt door de browser doorgegeven aan het veld en telt niet.
-      let opVeld = false;
-      tekst.addEventListener('pointerdown', () => (opVeld = true));
-      tekst.addEventListener('click', () => { if (opVeld) open(); opVeld = false; });
-      if (matchMedia('(pointer: coarse)').matches) tekst.inputMode = 'none';
-    }
-    datum.addEventListener('change', () => {
-      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(datum.value);
-      if (!m) return;
-      tekst.value = `${m[3]}-${m[2]}-${m[1]}`;
-      tekst.dispatchEvent(new Event('input', { bubbles: true }));
-    });
-  });
+  // Kalenderknop en dd-mm-jjjj: zie lib/datumveld.ts.
+  koppelDatumvelden();
 
   document.querySelectorAll<HTMLElement>('[data-termijnhulp]').forEach((blok) => {
     const invoer = (n: string) => blok.querySelector<HTMLInputElement>(`[data-th-invoer="${n}"]`);

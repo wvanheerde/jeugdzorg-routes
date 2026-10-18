@@ -22,4 +22,4 @@ Over zes weken verhuis je van Amsterdam naar Almere. Noor (8) krijgt nu begeleid
 - Voorbeeldbrief verhuizing/overdracht.
 
 **Ervaring**
-- Beide gemeenten te vinden zonder steeds opnieuw te zoeken; het knelpunt "Wij verhuizen of de hulp stopt" binnen 3 klikken.
+- Beide gemeenten te vinden zonder steeds opnieuw te zoeken; het knelpunt "Wij verhuizen" binnen 3 klikken.
