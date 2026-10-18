@@ -336,6 +336,11 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
   .search { flex-wrap: wrap; }
   .search .btn { width: 100%; justify-content: center; }
   .chip-btn { font-size: .84rem; padding: .38rem .75rem; }
+  /* Verdieping: iets smallere knoppen, zodat korte labels per twee op een regel passen (blok is ±263 px breed). */
+  .verdieping .chip-btn { padding-left: .55rem; padding-right: .55rem; }
+  /* "De stappen zijn aangepast" en "Wissen" samen op een regel. */
+  .verdieping .vd-samenvatting .vd-acties { gap: .3rem 1rem; }
+  .verdieping .vd-samenvatting .vd-acties > * { font-size: .86rem; }
   .section { padding: 1.4rem 1.2rem; }
   .search { border-radius: var(--radius); }
   .search .btn { padding: .55rem .9rem; }
@@ -348,6 +353,11 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .meer-brieven > summary::-webkit-details-marker { display: none; }
 .meer-brieven > summary::before { content: ''; width: .5rem; height: .5rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s; flex: none; }
 .meer-brieven[open] > summary::before { transform: rotate(45deg); }
+/* "Mijn kind wordt 18": stappen die niet bij de keuzes passen, ingeklapt onder de stappen (zonder nummers: het zijn geen stappen in de volgorde). */
+.meer-stappen > .meta { margin: 0 0 .6rem; }
+.meer-stappen .steps-anders { margin: 0; padding-left: 1.2rem; list-style: disc; }
+.meer-stappen .steps-anders > li { margin: 0 0 .9rem; }
+.meer-stappen .steps-anders .steps-sub { margin-top: .4rem; }
 .meer-brieven > .grid { margin-top: .5rem; }
 
 /* ---------- Overzicht: antwoord eerst ---------- */
@@ -408,8 +418,9 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .eerste-contact .kop-verhuizing { display: none; }
 /* Verdieping in "Wat kunt u doen": optionele vragen die de stappen passend maken (Verdieping.astro). */
 .verdieping { margin: 0 0 1.1rem; padding: .9rem 1.1rem 1rem; background: var(--c-primary-soft); border-radius: var(--radius); }
-.verdieping h3 { margin: 0 0 .25rem; font-size: 1.02rem; }
-.verdieping .vd-optioneel { margin-left: .35rem; padding: .05rem .5rem; font-size: .78rem; font-weight: 600; color: var(--c-primary-dark); background: #fff; border-radius: 999px; vertical-align: .1em; }
+/* Label "niet verplicht" rechts naast de kop, anders leest het als deel van de kop (persona-tests). */
+.verdieping h3 { margin: 0 0 .25rem; font-size: 1.02rem; display: flex; align-items: flex-start; gap: .6rem; }
+.verdieping .vd-optioneel { margin-left: auto; flex: none; margin-top: .1rem; padding: .05rem .5rem; font-size: .78rem; font-weight: 600; color: var(--c-primary-dark); background: #fff; border-radius: 999px; vertical-align: .1em; }
 .verdieping .vd-uitleg { margin: 0 0 .8rem; }
 .verdieping .vd-velden { display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; align-items: start; }
 .verdieping .vd-velden > .field { flex: 1 1 15rem; max-width: 22rem; }
@@ -422,13 +433,17 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .verdieping .chip-btn:hover { border-color: var(--c-primary); }
 .verdieping .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
 .verdieping .vd-melding { flex-basis: 100%; margin: 0; color: var(--c-accent); }
+.verdieping .vd-gevolg { font-size: inherit; }
+.verdieping[data-vd-ingeklapt] .vd-gevolg { display: none; }
+[id^="stappen-"] { scroll-margin-top: 6rem; }
 .verdieping .vd-samenvatting { margin: .8rem 0 0; font-size: .92rem; }
-.verdieping .vd-samenvatting:has([data-vd-samenvatting]:empty) { display: none; }
+/* Lege samenvatting weg, maar niet als het blok ingeklapt is: dan moet "Aanpassen" zichtbaar blijven. */
+.verdieping:not([data-vd-ingeklapt]) .vd-samenvatting:has([data-vd-samenvatting]:empty) { display: none; }
 .verdieping[data-vd-ingeklapt] .vd-samenvatting { margin-top: 0; }
 /* "Waarom stopt de hulp?": met de vragen open is de gekozen optie zelf de samenvatting. */
 [data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) [data-vd-samenvatting] { display: none; }
 [data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) .vd-acties { margin-top: 0; }
-.verdieping .vd-acties { display: flex; gap: 1.2rem; margin-top: .3rem; }
+.verdieping .vd-acties { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; margin-top: .3rem; }
 .verdieping .vd-acties:not(:has(button:not([hidden]))) { display: none; }
 .verdieping .linkknop { background: none; border: 0; padding: 0; font: inherit; font-weight: 400; font-size: .92rem; color: var(--c-primary-dark); text-decoration: underline; cursor: pointer; }
 #nu-doen .stap-nieuw { display: block; }
@@ -630,8 +645,9 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 :is(.termijnhulp, .verdieping) .th-kalender .ico { width: 1.15em; height: 1.15em; }
 /* De echte datumkiezer: onzichtbaar onder het veld, zodat de kalender van het toestel daar opent. */
 :is(.termijnhulp, .verdieping) .th-datum { position: absolute; left: 0; bottom: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
-/* Op een aanraakscherm ligt het datumveld bovenop: een tik opent dan zelf de kalender, ook waar showPicker() niets doet (iOS). */
-:is(.termijnhulp, .verdieping) .th-aanraak .th-datum { pointer-events: auto; z-index: 1; font-size: 16px; -webkit-appearance: none; appearance: none; cursor: pointer; }
+/* Op een aanraakscherm ligt het datumveld op de kalenderknop: een tik daar opent zelf de kalender, ook waar showPicker() niets doet
+   (iOS). Het tekstveld blijft vrij om te typen. */
+:is(.termijnhulp, .verdieping) .th-aanraak .th-datum { left: auto; right: 0; width: 2.75rem; pointer-events: auto; z-index: 1; font-size: 16px; -webkit-appearance: none; appearance: none; cursor: pointer; }
 /* Suggestielijst onder een plaatsveld (lib/suggesties.ts), in plaats van een datalist. */
 .suggesties { position: absolute; z-index: 30; margin: 0; padding: .25rem 0; list-style: none; max-height: min(18rem, 45vh); overflow-y: auto; background: var(--c-surface); border: 1px solid var(--c-border, #cfc8bb); border-radius: 8px; box-shadow: var(--shadow-md); font-size: 1rem; font-weight: 400; text-align: left; }
 .suggesties li { padding: .6rem .8rem; cursor: pointer; line-height: 1.3; }
@@ -643,5 +659,8 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .termijnhulp .th-noot { margin: .8rem 0 .2rem; font-size: .8rem; color: var(--c-muted); }
 .eerste-contact .ec-bezwaar .btn + .meta, .eerste-contact .ec-bezwaar .btn + p { margin-top: .9rem; }
 /* "Hoe lang duurt het / Hoe gaat het in …" onder stap 1 (standInGemeente). */
+/* "Mijn kind wordt 18": de datum die de geboortedatum oplevert, gemarkeerd; de uitleg erachter in gewone letters. */
+#nu-doen mark.stap-datum { background: var(--c-primary-soft); color: var(--c-primary-dark); padding: .05em .35em; border-radius: 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+#nu-doen .stap-datum-uitleg { font-weight: 400; }
 #nu-doen .stap-stand { margin-top: .5rem; font-size: .95rem; font-weight: 400; }
 #nu-doen .stap-stand details.ec-wachten summary { cursor: pointer; }

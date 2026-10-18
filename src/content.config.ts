@@ -252,6 +252,8 @@ const hulpsoorten = defineCollection({
     beschikkingNodig: z.enum(['ja', 'nee', 'soms', 'spoed', 'rechter']),
     toegangVia: z.array(z.enum(['wijkteam', 'huisarts', 'school', 'gecertificeerde-instelling', 'spoed'])).default([]),
     volgorde: z.number(),
+    /** Leeftijdsgrenzen in jaren (tot = exclusief), zoals bij therapievormen. Weglaten als het voor alle leeftijden geldt. */
+    leeftijd: z.object({ van: z.number().optional(), tot: z.number().optional() }).optional(),
     /**
      * Uitwerking op een eigen pagina (/hulpsoorten/<id>/); alleen hulpsoorten met `inDePraktijk` krijgen er een.
      * Elk veld twee tot vier zinnen, met bronnen. Zie CONTENT.md, "Hulpsoorten".

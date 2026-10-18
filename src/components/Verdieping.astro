@@ -5,16 +5,18 @@
  * de samenvatting in [data-vd-samenvatting] en roept bij een bewaard antwoord inklappen aan via data-vd-ingeklapt.
  * Ingeklapt staat alleen de samenvatting met "Aanpassen"; zo staat bij een tweede bezoek het antwoord voorop.
  */
-interface Props { id: string; titel?: string; uitleg: string }
-const { id, titel = 'Meer passend advies', uitleg } = Astro.props;
+/** naarStappen: id van het begin van de stappen (overzicht.astro: stappen-<vraag>). Elke verdieping heeft hem, voor een gelijk gedrag. Dan staat na een antwoord links van "Wissen" een link "De stappen zijn aangepast ↓" (de pagina
+ *  toont hem via data-vd-gevolg), want de stappen veranderen buiten beeld (persona-test Peter r6). */
+interface Props { id: string; titel?: string; uitleg?: string; naarStappen?: string }
+const { id, titel = 'Meer passend advies', uitleg, naarStappen } = Astro.props;
 ---
 <section class="verdieping o1" data-verdieping={id} aria-labelledby={`vd-kop-${id}`}>
   <div data-vd-vragen>
     <h3 id={`vd-kop-${id}`}>{titel} <span class="vd-optioneel">niet verplicht</span></h3>
-    <p class="meta vd-uitleg">{uitleg}</p>
+    {uitleg && <p class="meta vd-uitleg">{uitleg}</p>}
     <div class="vd-velden"><slot /></div>
   </div>
-  <p class="vd-samenvatting" aria-live="polite"><span data-vd-samenvatting></span><span class="vd-acties"><button type="button" class="linkknop" data-vd-aanpassen hidden>Aanpassen</button><button type="button" class="linkknop" data-vd-wissen hidden>Wissen</button></span></p>
+  <p class="vd-samenvatting" aria-live="polite"><span data-vd-samenvatting></span><span class="vd-acties">{naarStappen && <a class="vd-gevolg" href={`#${naarStappen}`} data-vd-gevolg hidden>De stappen zijn aangepast&nbsp;↓</a>}<button type="button" class="linkknop" data-vd-aanpassen hidden>Aanpassen</button><button type="button" class="linkknop" data-vd-wissen hidden>Wissen</button></span></p>
 </section>
 <script>
   document.querySelectorAll<HTMLElement>('[data-verdieping]').forEach((blok) => {

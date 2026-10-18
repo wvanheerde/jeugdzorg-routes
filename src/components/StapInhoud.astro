@@ -22,15 +22,21 @@ interface Props {
   nieuw?: boolean;
   /** "De hulp stopt": bij welke reden de stap hoort (verdieping "Waarom stopt de hulp?", zie overzicht.astro). */
   reden?: string;
+  /** "Mijn kind wordt 18": het begin van de stap (woorden) wordt in de verdieping een datum; soort = bij welke hulp na 18 de stap hoort. */
+  wanneer?: { woorden: string; moment: string; soort?: string; weken?: number };
 }
-const { tekst, orgs = [], brief, co = false, aanbieders = false, wijkteam = false, stand, termijn, tips = false, moment, nieuw = false, reden } = Astro.props;
+const { tekst, orgs = [], brief, co = false, aanbieders = false, wijkteam = false, stand, termijn, tips = false, moment, nieuw = false, reden, wanneer } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 // Begint een stap met een vraag of een moment ("Wacht u op een besluit?", "Rond de verjaardag:"), dan staat dat begin vet,
 // zodat een scannende ouder ziet welke stap voor hem geldt (persona-tests ronde 21).
 const m = tekst.match(/^([^.?!:]{2,110}[?:])\s+([\s\S]+)$/);
-const [lead, rest] = m ? [m[1], m[2]] : [null, tekst];
+// "Mijn kind wordt 18" (wanneer): de hele eerste zin is het begin, want die zegt wanneer, wat en bij wie.
+const m1 = wanneer ? tekst.match(/^(.+?[.?!])\s+([\s\S]+)$/) : null;
+const [lead, rest] = m1 ? [m1[1], m1[2]] : m ? [m[1], m[2]] : [null, tekst];
+// Het moment ("Ruim vóór de verjaardag") apart, zodat de verdieping er een datum van kan maken; de rest van het begin blijft staan.
+const momentWoorden = wanneer && lead?.startsWith(wanneer.woorden) ? wanneer.woorden : null;
 // Noemt de stap een andere vraag tussen aanhalingstekens ("Lees daarover bij "Ik wil hulp uitbreiden""), dan is dat een link naar die vraag.
 const vragen = new Map((await getCollection('knelpunten')).map((k) => [k.data.titel, k.id]));
 const delen = rest.split(/"([^"]+)"/).map((t, i) => (i % 2 === 1 && vragen.has(t) ? { titel: t, id: vragen.get(t)! } : i % 2 === 1 ? `"${t}"` : t));
 ---
-{reden && <span data-reden={reden} hidden></span>}{moment && <><strong class="stap-lead" data-moment={moment} hidden></strong> </>}{lead && <><strong class="stap-lead">{lead}</strong> </>}{delen.map((d) => (typeof d === 'string' ? d : <a href={`${base}/overzicht/?k=${d.id}`}>"{d.titel}"</a>))}{brief && <><a class="stap-brief" href={`${base}/brieven/${brief.id}/`}>Voorbeeldbrief {brief.label} →</a></>}<OrgRegel orgs={orgs} />{stand && <div data-stand-stap data-gemeente-slot={`overzicht-stand-${stand}`}></div>}{wijkteam && <span data-wijkteam-stap data-gemeente-slot="overzicht-wijkteam-stap"></span>}{co && <span data-co-stap data-gemeente-slot="overzicht-co-stap"></span>}{aanbieders && <span data-aanbieders-stap data-gemeente-slot="overzicht-aanbieders-stap"></span>}{termijn && <TermijnenHulp soort={termijn} brief={`${base}/brieven/ingebrekestelling/`} />}{nieuw && <span class="stap-nieuw" data-nieuw-stap hidden><span data-nieuwe-gemeente-slot="overzicht-wijkteam-stap"></span><span data-nieuwe-gemeente-slot="overzicht-aanbieders-stap"></span></span>}{tips && <a class="stap-tips" href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a>}
+{reden && <span data-reden={reden} hidden></span>}{moment && <><strong class="stap-lead" data-moment={moment} hidden></strong> </>}{wanneer?.soort && <span data-soort={wanneer.soort} hidden></span>}{lead && <><strong class="stap-lead">{momentWoorden ? <><span data-wanneer={wanneer!.moment} data-weken={wanneer!.weken} data-woorden={momentWoorden}>{momentWoorden}</span>{lead.slice(momentWoorden.length)}</> : lead}</strong> </>}{delen.map((d) => (typeof d === 'string' ? d : <a href={`${base}/overzicht/?k=${d.id}`}>"{d.titel}"</a>))}{brief && <><a class="stap-brief" href={`${base}/brieven/${brief.id}/`}>Voorbeeldbrief {brief.label} →</a></>}<OrgRegel orgs={orgs} />{stand && <div data-stand-stap data-gemeente-slot={`overzicht-stand-${stand}`}></div>}{wijkteam && <span data-wijkteam-stap data-gemeente-slot="overzicht-wijkteam-stap"></span>}{co && <span data-co-stap data-gemeente-slot="overzicht-co-stap"></span>}{aanbieders && <span data-aanbieders-stap data-gemeente-slot="overzicht-aanbieders-stap"></span>}{termijn && <TermijnenHulp soort={termijn} brief={`${base}/brieven/ingebrekestelling/`} />}{nieuw && <span class="stap-nieuw" data-nieuw-stap hidden><span data-nieuwe-gemeente-slot="overzicht-wijkteam-stap"></span><span data-nieuwe-gemeente-slot="overzicht-aanbieders-stap"></span></span>}{tips && <a class="stap-tips" href={`${base}/landelijk/#02b-hulp-vragen`}>Tips om uw vraag eerlijk en volledig te vertellen →</a>}

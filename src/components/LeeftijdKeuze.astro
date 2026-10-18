@@ -1,7 +1,7 @@
 ---
 /**
  * Optionele leeftijdsband. Enkele keuze. Bewaard als "jr.leeftijd" en ?l= in de URL. Event "jr:leeftijd".
- * Banden: 0-4, 4-12, 12-18, 18+ (bovengrens exclusief).
+ * Banden: 0-4, 4-12, 12-18, 18+ (bovengrens exclusief). Bij het kiezen van "Mijn kind wordt 18" gaat 12-18 vanzelf aan.
  */
 interface Props { label?: string }
 const { label = 'Hoe oud is uw kind? (optioneel)' } = Astro.props;
@@ -32,6 +32,15 @@ export const BANDEN = [
     document.dispatchEvent(new CustomEvent('jr:leeftijd', { detail: current }));
   };
   btns.forEach((b) => b.addEventListener('click', () => { current = current === b.dataset.leeftijd ? '' : b.dataset.leeftijd!; sync(); }));
+  // Kiest de ouder "Mijn kind wordt 18" en staat er nog geen leeftijd, dan gaat "12 tot 18" aan: dan valt hulp voor jonge
+  // kinderen (zoals vergoede dyslexiezorg tot 13) weg uit het overzicht, en de ouder ziet waarom. Alleen bij het kiezen zelf,
+  // niet bij het laden van de pagina: wie de leeftijd daarna uitzet, houdt hem uit.
+  let vorigeVraag = new URLSearchParams(location.search).get('k') ?? localStorage.getItem('jr.knelpunt') ?? '';
+  document.addEventListener('jr:knelpunt', (e) => {
+    const vraag = (e as CustomEvent).detail as string;
+    if (vraag === 'wordt-18' && vorigeVraag !== 'wordt-18' && !current) { current = '12-18'; sync(); }
+    vorigeVraag = vraag;
+  });
   // Andere keuzes herschrijven de link; de eigen parameter moet daarna opnieuw gezet worden.
   for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd']) if (ev !== 'jr:leeftijd') document.addEventListener(ev, updateLink);
   sync();
