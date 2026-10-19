@@ -7,7 +7,7 @@ stappen:
     daarna:
       - "Schrijf op wat er veranderd is sinds het vorige besluit. Beschrijf ook de slechte dagen en hoe vaak die voorkomen. Zo kunt u het zeggen: \"De begeleiding helpt, maar mijn kind heeft nu [bijvoorbeeld drie keer per week] een slechte dag. Wij komen thuis niet meer op adem. Daarom vraag ik om [meer uren / logeren erbij].\""
       - "Vraag de hulpverlener om het plan en de laatste evaluatie op papier. Daarin staat wat de hulp heeft opgeleverd en wat nog nodig is. Stuur dat mee met uw verzoek."
-  - "Loopt het besluit bijna af? Kijk op de beschikking wat de einddatum is. Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente heeft in de regel tot acht weken om te beslissen. Vraag ook wat er gebeurt als het nieuwe besluit er op de einddatum nog niet is. Heeft uw kind langdurig hulp nodig? Vraag dan om een besluit voor een langere periode."
+  - "Loopt het besluit bijna af? Kijk op de beschikking wat de einddatum is. Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente heeft in de regel tot acht weken om te beslissen. Vraag ook of de hulp kan doorlopen tot het nieuwe besluit er is. Heeft uw kind langdurig hulp nodig? Vraag dan om een besluit voor een langere periode."
   - "Vraag een cliëntondersteuner om mee te denken en mee te gaan naar het gesprek. Dat is gratis, ook als de hulp al loopt."
   - "Vraag om het nieuwe besluit op papier. Wijst de gemeente uw verzoek af, of krijgt u minder dan u vroeg? Dan kunt u binnen zes weken bezwaar maken. Lees daarover bij \"Hulp is afgewezen of te weinig\"."
 gemeenteOnderdelen: [toegang, clientondersteuning, bezwaar]
@@ -33,5 +33,5 @@ bronnen:
   - titel: "Ketenbureau i-Sociaal Domein – Standaard administratieprotocol Inspanningsgericht 3.2.b (verzoek om wijziging)"
     url: https://i-sociaaldomein.nl/wp-content/uploads/2025/08/1.-SAP-Inspanningsgericht-Versie-3.2.b.pdf
     geraadpleegd: "2026-10-15"
-laatstGecontroleerd: "2026-10-17"
+laatstGecontroleerd: "2026-10-19"
 ---

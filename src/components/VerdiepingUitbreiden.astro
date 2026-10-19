@@ -1,0 +1,17 @@
+---
+/** Verdieping bij "Ik wil hulp uitbreiden": wat speelt er, en wanneer loopt het besluit af? Script: src/scripts/overzicht/uitbreiden.ts. */
+import Verdieping from './Verdieping.astro';
+import DatumVeld from './DatumVeld.astro';
+import { NODIG_KEUZE } from '../lib/verdiepingen';
+---
+<Verdieping id="uitbreiden" naarStappen="stappen-uitbreiden" uitleg="Dan ziet u de stappen die nu het eerst nodig zijn. Loopt het besluit af, dan ziet u met de einddatum tot wanneer u het moet melden.">
+  {/* Meer keuzes tegelijk: vaak loopt het besluit af en is er intussen meer nodig. */}
+  <div class="field vd-keuze"><span id="ub-kop">Wat speelt er? Kies alles wat past.</span>
+    <div class="chips-select" role="group" aria-labelledby="ub-kop">
+      {NODIG_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-ub-nodig>{o.label}</button>)}
+    </div>
+  </div>
+  {/* Alleen als het besluit afloopt. */}
+  <div class="field vd-datum" data-ub-datum-vraag hidden><label for="ub-einde">Wanneer loopt het besluit af?</label><DatumVeld id="ub-einde" minJaren={-2} maxJaren={3} veld="ub-einde" /><span class="meta vd-hint">Staat op de beschikking.</span></div>
+  <p class="meta vd-melding" data-ub-melding hidden></p>
+</Verdieping>

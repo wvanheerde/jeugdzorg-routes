@@ -118,6 +118,17 @@ export const KIES_ZIN_BIJ: Record<string, string> = {
   ander: 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt toestemming van de ouder met gezag: dat is de andere ouder.',
 };
 
+/**
+ * "Ik wil hulp uitbreiden": wat speelt er (meer of andere hulp nodig, het besluit loopt af, of allebei) en wanneer loopt het besluit af?
+ * De stap over het aflopen (rol afloop) staat bij "loopt af" bovenaan; bij alleen "meer" ingeklapt onder "Andere stappen die soms nodig
+ * zijn". Met de einddatum vervangt de verdieping AFLOOP_ZIN door de dag waarop de ouder het uiterlijk meldt: acht weken vóór de einddatum,
+ * want zo lang mag de gemeente in de regel over een besluit doen (Awb 4:13). Terugrekenen vanaf de einddatum is een eigen vuistregel.
+ */
+export const UITBREIDEN_STAP: { begin: string; rol: 'afloop' }[] = [{ begin: 'Loopt het besluit bijna af', rol: 'afloop' }];
+export const uitbreidenRol = (x: string) => UITBREIDEN_STAP.find((u) => x.startsWith(u.begin))?.rol;
+export const NODIG_KEUZE = [{ id: 'meer', label: 'Er is meer of andere hulp nodig' }, { id: 'afloop', label: 'Het besluit loopt af' }];
+export const AFLOOP_ZIN = 'Kijk op de beschikking wat de einddatum is. Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente heeft in de regel tot acht weken om te beslissen.';
+
 /** Bij de build: begint geen stap meer met een begin hierboven, dan faalt de build (anders valt de verdieping stil weg). */
 export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   // Veranderen de stappen van de verhuizing, dan moet de tijdlijn mee; anders valt de verdieping stil zonder dat iemand het ziet.
@@ -134,6 +145,9 @@ export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   GEZAG_STAP.forEach((g) => { if (!gescheidenStappen.some((x) => x.startsWith(g.begin))) throw new Error(`gescheiden.md: geen stap begint met "${g.begin}" (zie GEZAG_STAP in src/lib/verdiepingen.ts)`); });
   if (!knelpunten.find((k) => k.id === 'gescheiden')!.data.samenvatting.includes(GEZAG_LEAD)) throw new Error(`gescheiden.md: de samenvatting bevat niet "${GEZAG_LEAD}" (zie GEZAG_LEAD in src/lib/verdiepingen.ts)`);
   if (!gescheidenStappen.some((x) => x.includes(KIES_ZIN))) throw new Error(`gescheiden.md: geen stap bevat "${KIES_ZIN}" (zie KIES_ZIN in src/lib/verdiepingen.ts)`);
+  const uitbreidenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'uitbreiden')!);
+  UITBREIDEN_STAP.forEach((u) => { if (!uitbreidenStappen.some((x) => x.startsWith(u.begin))) throw new Error(`uitbreiden.md: geen stap begint met "${u.begin}" (zie UITBREIDEN_STAP in src/lib/verdiepingen.ts)`); });
+  if (!uitbreidenStappen.some((x) => x.includes(AFLOOP_ZIN))) throw new Error(`uitbreiden.md: geen stap bevat "${AFLOOP_ZIN}" (zie AFLOOP_ZIN in src/lib/verdiepingen.ts)`);
   const afgewezenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'afgewezen')!);
   AFGEWEZEN_STAP.forEach((a) => { if (!afgewezenStappen.some((x) => x.startsWith(a.begin))) throw new Error(`afgewezen.md: geen stap begint met "${a.begin}" (zie AFGEWEZEN_STAP in src/lib/verdiepingen.ts)`); });
   if (!afgewezenStappen.some((x) => x.startsWith(BEZWAAR_ZIN))) throw new Error(`afgewezen.md: geen stap begint met "${BEZWAAR_ZIN}" (zie BEZWAAR_ZIN in src/lib/verdiepingen.ts)`);

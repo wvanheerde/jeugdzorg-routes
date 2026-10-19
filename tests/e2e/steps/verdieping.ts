@@ -28,6 +28,10 @@ When('ik als datum van de ingebrekestelling {string} invul', async ({ page }, da
   await page.getByLabel('Al een ingebrekestelling gestuurd? Wanneer kreeg de gemeente die?').fill(datum);
 });
 
+When('ik als einddatum van het besluit {string} invul', async ({ page }, datum: string) => {
+  await page.getByLabel('Wanneer loopt het besluit af?').fill(datum);
+});
+
 When('ik als datum op het besluit {string} invul', async ({ page }, datum: string) => {
   await page.getByLabel('Welke datum staat op het besluit?').fill(datum);
 });
@@ -91,8 +95,8 @@ Then('begint stap {int} met {string}', async ({ page }, nr: number, tekst: strin
 Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: DataTable) => {
   const anders = vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) });
   await expect(anders).toBeVisible();
-  // De ingeklapte lijst: bij 18 worden de andere stappen, bij afgewezen de stappen voor later (de hele genummerde lijst).
-  const echt = await anders.locator('[data-w18-anders-lijst] > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis) =>
+  // De ingeklapte lijst: bij 18 worden en uitbreiden de andere stappen (steps-anders), bij afgewezen de stappen voor later (de hele genummerde lijst).
+  const echt = await anders.locator('ol.steps-anders > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis) =>
     lis.filter((li) => !(li as HTMLElement).hidden).map((li) => (li.querySelector(':scope > .stap-lead')?.textContent || li.textContent || '').replace(/\s+/g, ' ').trim()));
   const verwacht = tabel.raw().map((r) => r[0]);
   expect(echt.length, `ingeklapte stappen: ${echt.join(' | ')}`).toBe(verwacht.length);

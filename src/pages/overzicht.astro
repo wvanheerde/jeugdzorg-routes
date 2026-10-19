@@ -30,6 +30,7 @@ import VerdiepingWachten from '../components/VerdiepingWachten.astro';
 import VerdiepingWordt18 from '../components/VerdiepingWordt18.astro';
 import VerdiepingAfgewezen from '../components/VerdiepingAfgewezen.astro';
 import VerdiepingGescheiden from '../components/VerdiepingGescheiden.astro';
+import VerdiepingUitbreiden from '../components/VerdiepingUitbreiden.astro';
 import { hoofdStappen, vervolg } from '../lib/stappen';
 import { maakStapProps, situatieStapProps } from '../lib/stap-props';
 import { controleerVerdiepingen, gezagStap, GEZAG_LEAD, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
@@ -126,6 +127,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'wordt-18' && <VerdiepingWordt18 />}
           {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
           {k.id === 'gescheiden' && <VerdiepingGescheiden id="gescheiden" naarStappen="stappen-gescheiden" uitleg="Kies wie het gezag over uw kind heeft. Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp." />}
+          {k.id === 'uitbreiden' && <VerdiepingUitbreiden />}
           {k.id === 'beginnen' && <VerdiepingGescheiden id="gezag-beginnen" naarStappen="stappen-beginnen" uitleg="Mag u hulp regelen zonder de andere ouder? Dat hangt af van wie het gezag heeft. Kies het hieronder, dan ziet u wie toestemming geeft." />}
           {/* Doel van de link "De stappen zijn aangepast" in de verdieping: het begin van de stappen (stap 1 kan verborgen zijn). */}
           {/* Bij gescheiden staat het deel over gezamenlijk gezag apart, zodat de verdieping het kan weghalen (GEZAG_LEAD). */}
@@ -157,6 +159,15 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
                 <summary>Andere stappen die soms nodig zijn</summary>
                 <p class="meta">Deze passen niet bij wat u hierboven koos, maar kunnen toch gelden. Twijfelt u, vraag het dan aan het wijkteam.</p>
                 <ol class="steps-anders" data-w18-anders-lijst></ol>
+              </details>
+            )}
+            {/* "Ik wil hulp uitbreiden" met alleen meer hulp nodig: de stap over het aflopen ingeklapt (zoals bij 18 worden). Het script
+                (scripts/overzicht/uitbreiden.ts) verplaatst hem hierheen en terug. */}
+            {k.id === 'uitbreiden' && (
+              <details class="o4 meer-brieven meer-stappen" data-ub-anders hidden>
+                <summary>Andere stappen die soms nodig zijn</summary>
+                <p class="meta">Deze past niet bij wat u hierboven koos, maar kan toch gelden.</p>
+                <ol class="steps-anders" data-ub-anders-lijst></ol>
               </details>
             )}
             {/* "Hulp is afgewezen of te weinig" zonder besluit op papier: alleen stap 1 is nu nodig. Het script (scripts/overzicht/afgewezen.ts)

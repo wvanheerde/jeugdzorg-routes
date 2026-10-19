@@ -141,3 +141,11 @@ Scenario's (in `scenarios/`) verwijzen naar een persona met haar of zijn id.
 - **Ervaring:** heeft nooit iets laten vastleggen over het gezag en weet niet of Kevin moet meetekenen.
 - **Gemoed:** onzeker en een beetje bang voor ruzie.
 - **Gedrag:** wil eerst weten wat ze mag, voordat ze iets aanvraagt.
+
+## yvonne — moeder, het besluit loopt af en er is meer nodig
+- **Wie:** Yvonne, 46, woont in Haarlem. Zoon Tim (13) heeft autisme en krijgt via de gemeente drie uur ambulante begeleiding per week. Dat helpt, maar sinds hij naar de middelbare school gaat, loopt het thuis en op school vaker vast.
+- **Apparaat:** laptop.
+- **Lezen:** hbo, leest zorgvuldig.
+- **Ervaring:** heeft de hulp twee jaar geleden zelf aangevraagd; de beschikking ligt in een map. De begeleider zei laatst dat er "binnenkort een verlenging moet komen".
+- **Gemoed:** gehaast; bang dat de hulp straks stopt terwijl er juist meer nodig is.
+- **Gedrag:** wil een lijstje met wat ze moet doen en vóór wanneer.

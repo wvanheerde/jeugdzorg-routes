@@ -52,7 +52,7 @@ const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgo
   sync();
 
   // "Keuzes wissen": alleen zichtbaar als er iets gekozen is. Wist gemeente, vraag, leeftijd en situaties en laadt de pagina schoon.
-  const KEYS = ['jr.gemeente', 'jr.knelpunt', 'jr.leeftijd', 'jr.situaties', 'jr.verhuizing', 'jr.hulpstopt', 'jr.wordt18', 'jr.wachten', 'jr.afgewezen', 'jr.gezag'];
+  const KEYS = ['jr.gemeente', 'jr.knelpunt', 'jr.leeftijd', 'jr.situaties', 'jr.verhuizing', 'jr.hulpstopt', 'jr.wordt18', 'jr.wachten', 'jr.afgewezen', 'jr.gezag', 'jr.uitbreiden'];
   const wissen = document.querySelector<HTMLButtonElement>('[data-keuzes-wissen]');
   const toonWissen = () => { if (wissen) wissen.hidden = !KEYS.some((k) => localStorage.getItem(k)); };
   for (const ev of ['jr:gemeente', 'jr:knelpunt', 'jr:leeftijd', 'jr:situaties']) document.addEventListener(ev, () => setTimeout(toonWissen));

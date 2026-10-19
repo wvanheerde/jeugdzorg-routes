@@ -41,6 +41,11 @@ export const naIngebrekestelling = (ontvangen: Date) => ({ laatsteDag: dag(ontva
 
 export const volgendeDag = (d: Date) => dag(d, 1);
 
+/** Uiterlijk melden dat de hulp nog nodig is: acht weken vóór de einddatum van het besluit, want zo lang mag de gemeente in de regel
+ *  over een besluit doen (Awb 4:13). Valt die dag in het weekend of op een feestdag, dan de werkdag ervoor. Eigen vuistregel: de wet
+ *  telt vooruit vanaf de aanvraag, niet terug vanaf de einddatum. */
+export const meldenVoor = (einde: Date) => { let x = dag(einde, -56); while (vrij(x)) x = dag(x, -1); return x; };
+
 /** Hele dagen van vandaag tot d (negatief als d voorbij is). */
 export const dagenTot = (d: Date, vandaag = new Date()) => {
   const v = new Date(vandaag.getFullYear(), vandaag.getMonth(), vandaag.getDate());

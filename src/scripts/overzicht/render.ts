@@ -9,9 +9,10 @@ import type { wordt18 } from './wordt-18';
 import type { wachten } from './wachten';
 import type { afgewezen } from './afgewezen';
 import type { gescheiden } from './gescheiden';
+import type { uitbreiden } from './uitbreiden';
 
 type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
-type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen>; gescheiden: ReturnType<typeof gescheiden> };
+type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen>; gescheiden: ReturnType<typeof gescheiden>; uitbreiden: ReturnType<typeof uitbreiden> };
 
 // Gegevens uit de pagina (zie het inline-script in overzicht.astro).
 const data = (window as any).__jrSituaties as Record<string, Sit>;
@@ -195,6 +196,7 @@ export const maakRender = (v: Verdiepingen) => () => {
   v.wachten.teken();
   v.afgewezen.teken();
   v.gescheiden.teken();
+  v.uitbreiden.teken();
   // Nummering: de lijsten na stap 1 (start="2") tellen verder vanaf het aantal zichtbare stappen in de eerste lijst. Die kan leeg zijn
   // (stap 1 valt weg bij "De hulp stopt", wachten of afgewezen) of een stap extra hebben (gezag bij hulp aanvragen).
   q('[data-knelpunt-blok]').forEach((b) => {
