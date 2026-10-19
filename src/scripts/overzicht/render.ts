@@ -7,9 +7,10 @@ import type { verhuizing } from './verhuizing';
 import type { hulpStopt } from './hulp-stopt';
 import type { wordt18 } from './wordt-18';
 import type { wachten } from './wachten';
+import type { afgewezen } from './afgewezen';
 
 type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
-type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten> };
+type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen> };
 
 // Gegevens uit de pagina (zie het inline-script in overzicht.astro).
 const data = (window as any).__jrSituaties as Record<string, Sit>;
@@ -191,6 +192,7 @@ export const maakRender = (v: Verdiepingen) => () => {
   v.hulpStopt.teken();
   v.wordt18.teken();
   v.wachten.teken();
+  v.afgewezen.teken();
   // Een link naar een klachtbrief in "Hierbij handig" alleen als die brief niet al bij de stappen of de voorbeeldbrieven staat.
   const opPagina = (pad: string) => !!q(`[data-knelpunt-blok="${kpActive}"] a.stap-brief, [data-knelpunt-blok="${kpActive}"] a[data-brief-kaart]`).find((x) => !x.closest('[hidden]') && new URL((x as HTMLAnchorElement).href).pathname === pad);
   (q('a[data-klachtbrief]') as HTMLAnchorElement[]).forEach((a) => { a.parentElement!.hidden = opPagina(new URL(a.href).pathname); });
@@ -207,7 +209,8 @@ export const maakRender = (v: Verdiepingen) => () => {
     const wr = document.querySelector('[data-wijkteam-regel]');
     if (na1 && wr) na1.after(wr);
     // Na het laatste blok met stappen of links onder de stappen (bij "hulp aanvragen" staat de ingeklapte versie vóór de gewone lijst).
-    const na2 = Array.from(blok.querySelectorAll('.o4, .o5')).pop() ?? na1;
+    // Alleen blokken direct in de vraag: bij afgewezen kan de lijst met stappen in een ingeklapt blok staan.
+    const na2 = Array.from(blok.querySelectorAll(':scope > .o4, :scope > .o5')).pop() ?? na1;
     const hd = document.querySelector('[data-knelpunt-gemeente]');
     const lft = document.querySelector('.o5b');
     // Eerst de tip bij de leeftijd (hoort bij de stappen), dan "Hierbij handig".

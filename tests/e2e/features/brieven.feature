@@ -74,6 +74,17 @@ Functionaliteit: Voorbeeldbrieven
     Dan zie ik "De gemeente moet in de regel uiterlijk maandag 28 september 2026 beslissen."
     En zie ik "Is er nog geen besluit? Dan kunt u de gemeente nu in gebreke stellen."
 
+  Scenario: De datum op het besluit uit Mijn overzicht staat al in de rekenhulp en in de brief
+    Gegeven het is 18 oktober 2026
+    En ik open het overzicht voor "Hulp is afgewezen of te weinig" in "Utrecht"
+    Als ik kies "Ja"
+    En ik als datum op het besluit "16-10-2026" invul
+    En ik open de pagina "brieven/bezwaar-beschikking/"
+    Dan staat het onderdeel "Reken uit tot wanneer u bezwaar kunt maken" open
+    En staat in "Datum op het besluit" de tekst "16-10-2026"
+    En zie ik "Uw bezwaar moet uiterlijk vrijdag 27 november 2026 binnen zijn."
+    En staat in de brief "16 oktober 2026"
+
   Scenario: De datum van de aanvraag uit Mijn overzicht staat al in de rekenhulp en in de brief
     Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"
     Als ik kies "Een gesprek of besluit van de gemeente"

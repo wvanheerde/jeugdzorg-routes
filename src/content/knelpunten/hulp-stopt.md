@@ -9,7 +9,7 @@ stappen:
       - "Vraag om een warme overdracht: een kennismaking met de nieuwe begeleider voordat de oude stopt, en dezelfde aanpak in het plan. Kan uw kind slecht tegen veranderingen? Zeg dat er meteen bij. Gemeenten proberen bij zo'n overstap de vaste begeleider te houden. Vraag of dat kan."
       - "Heeft u een voorkeur voor een andere aanbieder? Dat mag u zeggen. Vraag ook of het besluit (de beschikking) aangepast moet worden."
   - "Vindt de aanbieder dat de hulp klaar is, maar ziet u dat anders? Vraag om een gesprek met de aanbieder en het wijkteam samen. Vertel wat u thuis ziet en wat er nog nodig is. Vraag daarna wat er besloten is, op papier."
-  - "Heeft de gemeente besloten de hulp te stoppen of af te bouwen? Vraag dat besluit op papier. Bent u het er niet mee eens, dan kunt u binnen zes weken bezwaar maken. Lees daarover bij \"Hulp is afgewezen of te weinig\"."
+  - "Heeft de gemeente besloten de hulp te stoppen of af te bouwen? Vraag dat besluit op papier. Bent u het er niet mee eens, dan kunt u binnen zes weken bezwaar maken. Een bezwaar zet het besluit niet stil; kan het niet wachten, dan kunt u de rechter om een voorlopige voorziening vragen. Lees daarover bij \"Hulp is afgewezen of te weinig\"."
   - "Loopt het besluit af? Meld ruim op tijd dat de hulp nog nodig is en vraag om een nieuw besluit. Lees daarover bij \"Ik wil hulp uitbreiden\"."
   - "Wordt uw kind 18? Dan stopt de jeugdhulp in de regel, maar soms kan die doorlopen of is er andere hulp. Lees daarover bij \"Mijn kind wordt 18\"."
   - "Vraag een cliëntondersteuner om mee te denken en mee te gaan naar het gesprek. Dat is gratis, ook als de hulp al loopt."
@@ -28,5 +28,8 @@ bronnen:
   - titel: "Jeugdwet, artikelen 2.3 en 2.6 (wetten.overheid.nl)"
     url: https://wetten.overheid.nl/BWBR0034925/
     geraadpleegd: "2026-10-18"
-laatstGecontroleerd: "2026-10-18"
+  - titel: "Algemene wet bestuursrecht, art. 6:16 en 8:81 (wetten.overheid.nl)"
+    url: https://wetten.overheid.nl/BWBR0005537/
+    geraadpleegd: "2026-10-19"
+laatstGecontroleerd: "2026-10-19"
 ---

@@ -5,7 +5,8 @@
  * soort="besluit": wanneer de gemeente moet beslissen, vanaf wanneer een ingebrekestelling kan, en wat daarna gebeurt.
  * brief: link naar de voorbeeldbrief (weglaten op de briefpagina zelf).
  * inBrief: op de briefpagina; de gekozen datum gaat dan ook de brief in (event jr:termijn, zie brieven/[slug].astro). Heeft de ouder
- *   in Mijn overzicht bij "Wij wachten te lang" al datums ingevuld (jr.wachten), dan staan die er meteen in en is de rekenhulp open.
+ *   in Mijn overzicht bij "Wij wachten te lang" al datums ingevuld (jr.wachten), of bij "Hulp is afgewezen of te weinig" de datum op
+ *   het besluit (jr.afgewezen), dan staan die er meteen in en is de rekenhulp open.
  */
 import DatumVeld from './DatumVeld.astro';
 interface Props { soort: 'bezwaar' | 'besluit'; brief?: string; inBrief?: boolean }
@@ -90,14 +91,18 @@ const uid = Math.random().toString(36).slice(2, 8);
     });
   });
 
-  // Datums uit de verdieping "Wij wachten te lang" (Mijn overzicht), zodat de ouder ze niet twee keer invult. Pas na het laden van
-  // alle scripts: dan luistert de briefpagina al naar jr:termijn.
+  // Datums uit de verdiepingen "Wij wachten te lang" en "Hulp is afgewezen of te weinig" (Mijn overzicht), zodat de ouder ze niet
+  // twee keer invult. Pas na het laden van alle scripts: dan luistert de briefpagina al naar jr:termijn.
   const uitOverzicht = () => {
-    const w = (() => { try { return JSON.parse(localStorage.getItem('jr.wachten') ?? '{}'); } catch { return {}; } })();
-    if (w.op !== 'gemeente') return;
-    document.querySelectorAll<HTMLDetailsElement>('[data-termijnhulp="besluit"][data-in-brief]').forEach((blok) => {
+    const lees = (key: string) => { try { return JSON.parse(localStorage.getItem(key) ?? '{}'); } catch { return {}; } };
+    const w = lees('jr.wachten'), a = lees('jr.afgewezen');
+    const datums: Record<string, [string, unknown][]> = {
+      besluit: w.op === 'gemeente' ? [['aanvraag', w.aanvraag], ['ingebreke', w.ingebreke]] : [],
+      bezwaar: [['besluit', a.datum]],
+    };
+    document.querySelectorAll<HTMLDetailsElement>('[data-termijnhulp][data-in-brief]').forEach((blok) => {
       let gevuld = false;
-      for (const [veld, iso] of [['aanvraag', w.aanvraag], ['ingebreke', w.ingebreke]] as const) {
+      for (const [veld, iso] of datums[blok.dataset.termijnhulp!] ?? []) {
         const invoer = blok.querySelector<HTMLInputElement>(`[data-th-invoer="${veld}"]`);
         if (!invoer || invoer.value || typeof iso !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) continue;
         invoer.value = iso.split('-').reverse().join('-');

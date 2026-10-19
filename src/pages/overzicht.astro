@@ -28,6 +28,7 @@ import VerdiepingVerhuizing from '../components/VerdiepingVerhuizing.astro';
 import VerdiepingHulpStopt from '../components/VerdiepingHulpStopt.astro';
 import VerdiepingWachten from '../components/VerdiepingWachten.astro';
 import VerdiepingWordt18 from '../components/VerdiepingWordt18.astro';
+import VerdiepingAfgewezen from '../components/VerdiepingAfgewezen.astro';
 import { hoofdStappen, vervolg } from '../lib/stappen';
 import { maakStapProps, situatieStapProps } from '../lib/stap-props';
 import { controleerVerdiepingen, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
@@ -119,6 +120,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'hulp-stopt' && <VerdiepingHulpStopt />}
           {k.id === 'wachten' && <VerdiepingWachten />}
           {k.id === 'wordt-18' && <VerdiepingWordt18 />}
+          {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
           {/* Doel van de link "De stappen zijn aangepast" in de verdieping: het begin van de stappen (stap 1 kan verborgen zijn). */}
           <p class="o1 lead-klein" data-generieke-lead id={`stappen-${k.id}`}>{k.data.samenvatting}</p>
           {k.id === 'beginnen' && situaties.filter((sit) => sit.data.lichteStart || sit.data.aanvraagIngeklapt || sit.data.stappen).map((sit) => <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>{sit.data.samenvatting}</p>)}
@@ -146,6 +148,13 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
                 <summary>Andere stappen die soms nodig zijn</summary>
                 <p class="meta">Deze passen niet bij wat u hierboven koos, maar kunnen toch gelden. Twijfelt u, vraag het dan aan het wijkteam.</p>
                 <ol class="steps-anders" data-w18-anders-lijst></ol>
+              </details>
+            )}
+            {/* "Hulp is afgewezen of te weinig" zonder besluit op papier: alleen stap 1 is nu nodig. Het script (scripts/overzicht/afgewezen.ts)
+                verplaatst de genummerde stappen hierheen en terug. */}
+            {k.id === 'afgewezen' && (
+              <details class="o4 meer-brieven meer-stappen" data-af-later hidden>
+                <summary>Daarna: als u het besluit op papier heeft</summary>
               </details>
             )}
           </>)}

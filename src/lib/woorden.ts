@@ -18,6 +18,7 @@ export const woorden: { vormen: string[]; uitleg: string; /** Kop op de begrippe
   { vormen: ['indicatie'], uitleg: 'Een besluit dat iemand recht heeft op een bepaalde zorg.' },
   { vormen: ['ingebrekestelling', 'in gebreke stellen'], uitleg: 'Een brief waarin u de gemeente laat weten dat ze te laat is met beslissen. Daarna moet ze binnen twee weken beslissen.' },
   { vormen: ['hoorzitting'], uitleg: 'Een gesprek waarin u uw bezwaar mag toelichten.' },
+  { vormen: ['voorlopige voorziening'], uitleg: 'Een snelle tijdelijke beslissing van de rechter, zolang uw bezwaar loopt. Alleen als het echt niet kan wachten.' },
   { vormen: ['jeugd-GGZ', 'GGZ'], titel: 'jeugd-GGZ', uitleg: 'Geestelijke gezondheidszorg, bijvoorbeeld hulp van een psycholoog of psychiater.' },
   { vormen: ['diagnostiek'], uitleg: 'Onderzoek naar wat er met uw kind aan de hand is.' },
   { vormen: ['overbruggingshulp', 'overbrugging'], uitleg: 'Tijdelijke hulp terwijl u op de echte hulp wacht.' },

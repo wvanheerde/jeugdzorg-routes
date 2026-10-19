@@ -75,6 +75,21 @@ export const WACHT_ZIN = 'De gemeente moet in de regel binnen acht weken besliss
 export const WACHT_LEAD = { ingebrekestelling: 'Zijn de acht weken na uw aanvraag voorbij?', daarna: 'Komt er twee weken na uw ingebrekestelling nog steeds geen besluit?' } as const;
 export const wachtLead = (x: string) => (Object.keys(WACHT_LEAD) as (keyof typeof WACHT_LEAD)[]).find((id) => x.startsWith(WACHT_LEAD[id]));
 export const wordt18 = (x: string) => WORDT_18.find((w) => x.startsWith(w.begin));
+/**
+ * "Hulp is afgewezen of te weinig": wat de gemeente besloot, of het besluit op papier staat, en de datum erop. De stap om het besluit
+ * op papier te vragen (rol papier) vervalt als de ouder het heeft; heeft die het niet, dan is alleen die stap nu nodig en staan de
+ * andere ingeklapt. De stap over het pgb (rol pgb) hoort bij "past niet": dan direct na het bezwaar, bij een afwijzing weg.
+ * Met de datum op het besluit vervangt de verdieping BEZWAAR_ZIN door de laatste dag voor bezwaar (zes weken, Awb 6:7 en 6:8;
+ * lib/termijnen.ts). Daarom geen rekenhulp onder deze stappen; die staat alleen bij de voorbeeldbrief.
+ */
+export const AFGEWEZEN_STAP: { begin: string; rol: 'papier' | 'pgb' }[] = [
+  { begin: 'Heeft de gemeente het alleen gezegd', rol: 'papier' },
+  { begin: 'Is er wel hulp toegekend, maar past die niet', rol: 'pgb' },
+];
+export const afgewezenRol = (x: string) => AFGEWEZEN_STAP.find((a) => x.startsWith(a.begin))?.rol;
+export const BESLUIT_KEUZE = [{ id: 'afgewezen', label: 'Geen of te weinig hulp' }, { id: 'past-niet', label: 'De hulp past niet' }];
+export const PAPIER_KEUZE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee, alleen gezegd' }];
+export const BEZWAAR_ZIN = 'Stuur binnen zes weken na de datum op het besluit een brief waarin u bezwaar maakt.';
 
 /** Bij de build: begint geen stap meer met een begin hierboven, dan faalt de build (anders valt de verdieping stil weg). */
 export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
@@ -88,5 +103,8 @@ export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   const wachtStappen = alleStappen(knelpunten.find((k) => k.id === 'wachten')!);
   WACHT_OP.forEach((w) => { if (!wachtStappen.some((x) => x.startsWith(w.begin))) throw new Error(`wachten.md: geen stap begint met "${w.begin}" (zie WACHT_OP in src/lib/verdiepingen.ts)`); });
   if (!wachtStappen.some((x) => x.includes(WACHT_ZIN))) throw new Error(`wachten.md: geen stap bevat "${WACHT_ZIN}" (zie WACHT_ZIN in src/lib/verdiepingen.ts)`);
+  const afgewezenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'afgewezen')!);
+  AFGEWEZEN_STAP.forEach((a) => { if (!afgewezenStappen.some((x) => x.startsWith(a.begin))) throw new Error(`afgewezen.md: geen stap begint met "${a.begin}" (zie AFGEWEZEN_STAP in src/lib/verdiepingen.ts)`); });
+  if (!afgewezenStappen.some((x) => x.startsWith(BEZWAAR_ZIN))) throw new Error(`afgewezen.md: geen stap begint met "${BEZWAAR_ZIN}" (zie BEZWAAR_ZIN in src/lib/verdiepingen.ts)`);
   Object.values(WACHT_LEAD).forEach((begin) => { if (!wachtStappen.some((x) => x.startsWith(begin))) throw new Error(`wachten.md: geen stap begint met "${begin}" (zie WACHT_LEAD in src/lib/verdiepingen.ts)`); });
 };

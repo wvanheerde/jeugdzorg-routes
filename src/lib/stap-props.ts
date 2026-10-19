@@ -4,7 +4,7 @@ import type { ComponentProps } from 'astro/types';
 import type StapInhoud from '../components/StapInhoud.astro';
 import { genoemdIn } from './genoemd';
 import { alleStappen, hoofdStappen, type Knelpunt } from './stappen';
-import { KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, hulpStoptReden, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
+import { BEZWAAR_ZIN, KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, afgewezenRol, hulpStoptReden, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
 
 type Organisatie = CollectionEntry<'organisaties'>;
 type Situatie = CollectionEntry<'situaties'>;
@@ -28,9 +28,10 @@ const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met
  * - de aanbieders (Beschikbaarheidswijzer of gemeentepagina) onder de eerste stap over een andere aanbieder;
  * - het wijkteam onder de eerste stap die het noemt, als het niet bovenaan staat (wijkteamBovenaan: false);
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
- * - de rekenhulp onder de stap over bezwaar (afgewezen); bij wachten rekent de verdieping;
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
- * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts).
+ * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts);
+ * - bij wachten en afgewezen: de route of rol van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
+ *   onder de stappen (die staat bij de voorbeeldbrief): de verdieping rekent zelf.
  */
 export const maakStapProps = (organisaties: Organisatie[]) => {
   const stapPropsPer = new Map<string, (st: string) => ComponentProps<typeof StapInhoud>>();
@@ -60,12 +61,12 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         aanbieders: x === aanb,
         wijkteam: x === wt,
         stand: metGemeente && x === alle[0] ? k.data.standInGemeente : undefined,
-        termijn: k.id === 'afgewezen' && x.startsWith('Stuur binnen zes weken') ? 'bezwaar' : undefined,
         tips: k.id === 'beginnen' && x.startsWith('Vindt u de stap spannend'),
         moment: k.id === 'verhuizing' ? verhuisMoment(x) : undefined,
         nieuw: k.id === 'verhuizing' && verhuisMoment(x) === 'na',
         reden: k.id === 'hulp-stopt' ? hulpStoptReden(x) : undefined,
         wanneer: k.id === 'wordt-18' ? wordt18(x) : undefined,
+        afgewezen: k.id === 'afgewezen' ? { rol: afgewezenRol(x), zin: x.startsWith(BEZWAAR_ZIN) ? BEZWAAR_ZIN : undefined } : undefined,
         wacht: k.id === 'wachten' ? { op: WACHT_OP.find((w) => x.startsWith(w.begin))?.op, zin: x.includes(WACHT_ZIN) ? WACHT_ZIN : undefined, lead: wachtLead(x) } : undefined,
       }));
     }

@@ -12,7 +12,8 @@ const vraagBlok = (page: Page) => page.locator('[data-knelpunt-blok]').locator('
 /** De vetgedrukte begintekst van elke zichtbare hoofdstap (stap 1, de genummerde lijst of de eigen stappen van de situatie),
  *  zonder de ingeklapte "andere stappen". */
 const stappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').evaluateAll((lis) =>
-  lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null)
+  // Niet in een dicht <details>: daar heeft een element in Chromium wel een offsetParent (zoals de stappen voor later bij afgewezen).
+  lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null && !li.closest('details:not([open])'))
     .map((li) => {
       // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst.
       const lead = Array.from(li.querySelectorAll<HTMLElement>(':scope > .stap-lead')).find((e) => !e.hidden && e.textContent!.trim());
@@ -25,6 +26,10 @@ When('ik als geboortedatum {string} invul', async ({ page }, datum: string) => {
 
 When('ik als datum van de ingebrekestelling {string} invul', async ({ page }, datum: string) => {
   await page.getByLabel('Al een ingebrekestelling gestuurd? Wanneer kreeg de gemeente die?').fill(datum);
+});
+
+When('ik als datum op het besluit {string} invul', async ({ page }, datum: string) => {
+  await page.getByLabel('Welke datum staat op het besluit?').fill(datum);
 });
 
 When('ik als datum van de aanvraag {string} invul', async ({ page }, datum: string) => {
@@ -86,8 +91,9 @@ Then('begint stap {int} met {string}', async ({ page }, nr: number, tekst: strin
 Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: DataTable) => {
   const anders = vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) });
   await expect(anders).toBeVisible();
-  const echt = await anders.locator('[data-w18-anders-lijst] > li').evaluateAll((lis) =>
-    lis.filter((li) => !(li as HTMLElement).hidden).map((li) => (li.querySelector(':scope > .stap-lead')?.textContent ?? '').replace(/\s+/g, ' ').trim()));
+  // De ingeklapte lijst: bij 18 worden de andere stappen, bij afgewezen de stappen voor later (de hele genummerde lijst).
+  const echt = await anders.locator('[data-w18-anders-lijst] > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis) =>
+    lis.filter((li) => !(li as HTMLElement).hidden).map((li) => (li.querySelector(':scope > .stap-lead')?.textContent || li.textContent || '').replace(/\s+/g, ' ').trim()));
   const verwacht = tabel.raw().map((r) => r[0]);
   expect(echt.length, `ingeklapte stappen: ${echt.join(' | ')}`).toBe(verwacht.length);
   verwacht.forEach((v, i) => expect(echt[i]).toContain(v));
@@ -118,6 +124,12 @@ Then('zie ik de link {string} niet', async ({ page }, link: string) => {
 Then('staat het begin van de stappen bovenaan in beeld', async ({ page }) => {
   const doel = vraagBlok(page).locator('[id^="stappen-"]');
   await expect.poll(async () => Math.round((await doel.boundingBox())!.y)).toBeLessThan(160);
+});
+
+/** De zichtbare vragen (labels) van het verdiepingsblok, van boven naar beneden. */
+Then('staan de vragen van het verdiepingsblok in deze volgorde:', async ({ page }, tabel: DataTable) => {
+  const echt = await blok(page).locator('.vd-velden > .field:visible > :first-child').allTextContents();
+  expect(echt.map((t) => t.trim())).toEqual(tabel.raw().map((r) => r[0]));
 });
 
 Then('is het verdiepingsblok ingeklapt', async ({ page }) => {
