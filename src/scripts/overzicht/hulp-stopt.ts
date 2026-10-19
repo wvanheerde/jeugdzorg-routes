@@ -38,9 +38,6 @@ export const hulpStopt = (opnieuw: () => void) => {
     hsBlok.querySelector<HTMLElement>('[data-vd-gevolg]')!.hidden = !reden;
     if (!reden) hsBlok.removeAttribute('data-vd-ingeklapt');
     blok.querySelectorAll<HTMLElement>('[data-reden]').forEach((e) => { e.closest('li')!.hidden = !!reden && e.dataset.reden !== reden; });
-    // Valt stap 1 weg, dan begint de nummering van de overige stappen bij 1 (de lijst begint anders bij 2).
-    const zonderEen = !!blok.querySelector('.stap-een') && Array.from(blok.querySelectorAll<HTMLElement>('.stap-een > li')).every((li) => li.hidden);
-    blok.querySelectorAll<HTMLElement>('ol.o4[data-aanvraag-stappen]').forEach((ol) => (ol.style.counterReset = zonderEen ? 'step 0' : ''));
   };
   return { teken, reden: () => reden };
 };

@@ -8,9 +8,10 @@ import type { hulpStopt } from './hulp-stopt';
 import type { wordt18 } from './wordt-18';
 import type { wachten } from './wachten';
 import type { afgewezen } from './afgewezen';
+import type { gescheiden } from './gescheiden';
 
 type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
-type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen> };
+type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen>; gescheiden: ReturnType<typeof gescheiden> };
 
 // Gegevens uit de pagina (zie het inline-script in overzicht.astro).
 const data = (window as any).__jrSituaties as Record<string, Sit>;
@@ -193,6 +194,13 @@ export const maakRender = (v: Verdiepingen) => () => {
   v.wordt18.teken();
   v.wachten.teken();
   v.afgewezen.teken();
+  v.gescheiden.teken();
+  // Nummering: de lijsten na stap 1 (start="2") tellen verder vanaf het aantal zichtbare stappen in de eerste lijst. Die kan leeg zijn
+  // (stap 1 valt weg bij "De hulp stopt", wachten of afgewezen) of een stap extra hebben (gezag bij hulp aanvragen).
+  q('[data-knelpunt-blok]').forEach((b) => {
+    const n = Array.from(b.querySelectorAll<HTMLElement>('.stap-een > li')).filter((li) => !li.hidden).length;
+    b.querySelectorAll<HTMLElement>('ol.steps[start="2"]').forEach((ol) => (ol.style.counterReset = `step ${n}`));
+  });
   // Een link naar een klachtbrief in "Hierbij handig" alleen als die brief niet al bij de stappen of de voorbeeldbrieven staat.
   const opPagina = (pad: string) => !!q(`[data-knelpunt-blok="${kpActive}"] a.stap-brief, [data-knelpunt-blok="${kpActive}"] a[data-brief-kaart]`).find((x) => !x.closest('[hidden]') && new URL((x as HTMLAnchorElement).href).pathname === pad);
   (q('a[data-klachtbrief]') as HTMLAnchorElement[]).forEach((a) => { a.parentElement!.hidden = opPagina(new URL(a.href).pathname); });

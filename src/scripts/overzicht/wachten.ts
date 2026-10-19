@@ -104,9 +104,6 @@ export const wachten = (opnieuw: () => void) => {
     wtBlok.querySelector<HTMLElement>('[data-vd-gevolg]')!.hidden = !wachtOp;
     if (!wachtOp) wtBlok.removeAttribute('data-vd-ingeklapt');
     blok.querySelectorAll<HTMLElement>('[data-wacht-op]').forEach((e) => { e.closest('li')!.hidden = !!wachtOp && e.dataset.wachtOp !== wachtOp; });
-    // Valt stap 1 weg, dan begint de nummering van de overige stappen bij 1 (zoals bij "De hulp stopt").
-    const zonderEen = Array.from(blok.querySelectorAll<HTMLElement>('.stap-een > li')).every((li) => li.hidden);
-    blok.querySelectorAll<HTMLElement>('ol.o4[data-aanvraag-stappen]').forEach((ol) => (ol.style.counterReset = zonderEen ? 'step 0' : ''));
     // Brieven aan de gemeente of het wijkteam (ingebrekestelling, klacht over het wijkteam) of aan de aanbieder (klacht) alleen bij die route.
     blok.querySelectorAll<HTMLElement>('[data-brief-kaart]').forEach((a) => { const aan = a.dataset.aan === 'wijkteam' ? 'gemeente' : a.dataset.aan; a.hidden = !!wachtOp && (aan === 'gemeente' || aan === 'aanbieder') && aan !== wachtOp; });
     // De termijnen als datum, gemarkeerd zodat te zien is wat de datum doet.

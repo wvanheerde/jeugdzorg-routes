@@ -91,6 +91,33 @@ export const BESLUIT_KEUZE = [{ id: 'afgewezen', label: 'Geen of te weinig hulp'
 export const PAPIER_KEUZE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee, alleen gezegd' }];
 export const BEZWAAR_ZIN = 'Stuur binnen zes weken na de datum op het besluit een brief waarin u bezwaar maakt.';
 
+/**
+ * "Wij zijn uit elkaar": wie heeft het gezag? Toestemming van beide ouders en de rechter (vervangende toestemming,
+ * BW 1:253a) horen bij gezamenlijk gezag. De stappen voor alleen ik, alleen de ander en weet ik niet staan er alleen bij die keuze
+ * (zonder antwoord blijft de pagina zoals hij was); de stap over gezamenlijk gezag valt weg bij alleen ik of alleen de ander.
+ * KIES_ZIN (toestemming bij KIES) zegt dan wie toestemming geeft.
+ */
+export const GEZAG_STAP: { begin: string; gezag: 'samen' | 'ik' | 'ander' | 'onbekend' }[] = [
+  { begin: 'Weet u niet wie het gezag heeft', gezag: 'onbekend' },
+  { begin: 'Hebben jullie samen het gezag', gezag: 'samen' },
+  { begin: 'Heeft u alleen het gezag', gezag: 'ik' },
+  { begin: 'Heeft alleen de andere ouder het gezag', gezag: 'ander' },
+];
+export const gezagStap = (x: string) => GEZAG_STAP.find((g) => x.startsWith(g.begin))?.gezag;
+export const GEZAG_KEUZE = [
+  { id: 'samen', label: 'Wij samen', samenvatting: 'Jullie hebben samen het gezag.' },
+  { id: 'ik', label: 'Alleen ik', samenvatting: 'U heeft alleen het gezag.' },
+  { id: 'ander', label: 'Alleen de andere ouder', samenvatting: 'Alleen de andere ouder heeft het gezag.' },
+  { id: 'onbekend', label: 'Weet ik niet', samenvatting: 'U weet niet wie het gezag heeft.' },
+];
+/** Het deel van de inleiding (samenvatting in gescheiden.md) dat alleen bij gezamenlijk gezag geldt: weg bij alleen ik of alleen de ander. */
+export const GEZAG_LEAD = 'Voor behandeling of hulp aan uw kind is bij gezamenlijk gezag wel toestemming van beide ouders nodig. Weigert de andere ouder? Dan kan de rechter toestemming geven.';
+export const KIES_ZIN = 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt wel toestemming van beide ouders.';
+export const KIES_ZIN_BIJ: Record<string, string> = {
+  ik: 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt toestemming van de ouder met gezag: dat bent u.',
+  ander: 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt toestemming van de ouder met gezag: dat is de andere ouder.',
+};
+
 /** Bij de build: begint geen stap meer met een begin hierboven, dan faalt de build (anders valt de verdieping stil weg). */
 export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   // Veranderen de stappen van de verhuizing, dan moet de tijdlijn mee; anders valt de verdieping stil zonder dat iemand het ziet.
@@ -103,6 +130,10 @@ export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   const wachtStappen = alleStappen(knelpunten.find((k) => k.id === 'wachten')!);
   WACHT_OP.forEach((w) => { if (!wachtStappen.some((x) => x.startsWith(w.begin))) throw new Error(`wachten.md: geen stap begint met "${w.begin}" (zie WACHT_OP in src/lib/verdiepingen.ts)`); });
   if (!wachtStappen.some((x) => x.includes(WACHT_ZIN))) throw new Error(`wachten.md: geen stap bevat "${WACHT_ZIN}" (zie WACHT_ZIN in src/lib/verdiepingen.ts)`);
+  const gescheidenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'gescheiden')!);
+  GEZAG_STAP.forEach((g) => { if (!gescheidenStappen.some((x) => x.startsWith(g.begin))) throw new Error(`gescheiden.md: geen stap begint met "${g.begin}" (zie GEZAG_STAP in src/lib/verdiepingen.ts)`); });
+  if (!knelpunten.find((k) => k.id === 'gescheiden')!.data.samenvatting.includes(GEZAG_LEAD)) throw new Error(`gescheiden.md: de samenvatting bevat niet "${GEZAG_LEAD}" (zie GEZAG_LEAD in src/lib/verdiepingen.ts)`);
+  if (!gescheidenStappen.some((x) => x.includes(KIES_ZIN))) throw new Error(`gescheiden.md: geen stap bevat "${KIES_ZIN}" (zie KIES_ZIN in src/lib/verdiepingen.ts)`);
   const afgewezenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'afgewezen')!);
   AFGEWEZEN_STAP.forEach((a) => { if (!afgewezenStappen.some((x) => x.startsWith(a.begin))) throw new Error(`afgewezen.md: geen stap begint met "${a.begin}" (zie AFGEWEZEN_STAP in src/lib/verdiepingen.ts)`); });
   if (!afgewezenStappen.some((x) => x.startsWith(BEZWAAR_ZIN))) throw new Error(`afgewezen.md: geen stap begint met "${BEZWAAR_ZIN}" (zie BEZWAAR_ZIN in src/lib/verdiepingen.ts)`);

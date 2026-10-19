@@ -9,6 +9,7 @@ import { hulpStopt } from './hulp-stopt';
 import { wordt18 } from './wordt-18';
 import { wachten } from './wachten';
 import { afgewezen } from './afgewezen';
+import { gescheiden } from './gescheiden';
 import { maakRender } from './render';
 
 const keuzes = document.querySelector<HTMLDetailsElement>('[data-keuzes]');
@@ -27,7 +28,7 @@ if (keuzes && knop && 'IntersectionObserver' in window) new IntersectionObserver
 
 // De verdiepingen tekenen na een antwoord de hele pagina opnieuw (render staat hieronder, pas na de verdiepingen).
 const opnieuw = () => render();
-const v = { verhuizing: verhuizing(opnieuw), hulpStopt: hulpStopt(opnieuw), wordt18: wordt18(opnieuw), wachten: wachten(opnieuw), afgewezen: afgewezen(opnieuw) };
+const v = { verhuizing: verhuizing(opnieuw), hulpStopt: hulpStopt(opnieuw), wordt18: wordt18(opnieuw), wachten: wachten(opnieuw), afgewezen: afgewezen(opnieuw), gescheiden: gescheiden(opnieuw) };
 const render = maakRender(v);
 
 if (keuzes && (keuze.sel.length || keuze.kp || keuze.gem)) { keuzes.open = false; document.querySelectorAll<HTMLElement>('[data-intro]').forEach((e) => (e.hidden = true)); }

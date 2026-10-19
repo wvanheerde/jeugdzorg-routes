@@ -99,9 +99,6 @@ export const afgewezen = (opnieuw: () => void) => {
         if (papier === 'nee') later.append(lijst); else later.before(lijst);
         later.hidden = papier !== 'nee';
       }
-      // Valt stap 1 weg, dan begint de nummering van de overige stappen bij 1 (zoals bij "De hulp stopt").
-      const zonderEen = Array.from(blok.querySelectorAll<HTMLElement>('.stap-een > li')).every((li) => li.hidden);
-      lijst.style.counterReset = zonderEen ? 'step 0' : '';
     }
 
     // De zes weken als datum (Awb 6:7, 6:8; naar de eerstvolgende werkdag), gemarkeerd zodat te zien is wat de datum doet.

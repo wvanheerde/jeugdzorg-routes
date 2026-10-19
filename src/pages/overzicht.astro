@@ -29,9 +29,10 @@ import VerdiepingHulpStopt from '../components/VerdiepingHulpStopt.astro';
 import VerdiepingWachten from '../components/VerdiepingWachten.astro';
 import VerdiepingWordt18 from '../components/VerdiepingWordt18.astro';
 import VerdiepingAfgewezen from '../components/VerdiepingAfgewezen.astro';
+import VerdiepingGescheiden from '../components/VerdiepingGescheiden.astro';
 import { hoofdStappen, vervolg } from '../lib/stappen';
 import { maakStapProps, situatieStapProps } from '../lib/stap-props';
-import { controleerVerdiepingen, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
+import { controleerVerdiepingen, gezagStap, GEZAG_LEAD, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -47,6 +48,9 @@ situaties.forEach((s) => therapieVolgorde(s, therapie));
 const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
 const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 controleerVerdiepingen(knelpunten);
+/** De stappen over gezag ("Wij zijn uit elkaar"), ook bij "Ik wil hulp aanvragen" met de situatie Scheiding. */
+const gescheidenVraag = knelpunten.find((k) => k.id === 'gescheiden')!;
+const gezagStappen = hoofdStappen(gescheidenVraag).filter((x) => gezagStap(x));
 const brieven = (await getCollection('brieven'));
 const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente, wijkteamBovenaan: k.data.wijkteamBovenaan }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -121,8 +125,11 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'wachten' && <VerdiepingWachten />}
           {k.id === 'wordt-18' && <VerdiepingWordt18 />}
           {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
+          {k.id === 'gescheiden' && <VerdiepingGescheiden id="gescheiden" naarStappen="stappen-gescheiden" uitleg="Kies wie het gezag over uw kind heeft. Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp." />}
+          {k.id === 'beginnen' && <VerdiepingGescheiden id="gezag-beginnen" naarStappen="stappen-beginnen" uitleg="Mag u hulp regelen zonder de andere ouder? Dat hangt af van wie het gezag heeft. Kies het hieronder, dan ziet u wie toestemming geeft." />}
           {/* Doel van de link "De stappen zijn aangepast" in de verdieping: het begin van de stappen (stap 1 kan verborgen zijn). */}
-          <p class="o1 lead-klein" data-generieke-lead id={`stappen-${k.id}`}>{k.data.samenvatting}</p>
+          {/* Bij gescheiden staat het deel over gezamenlijk gezag apart, zodat de verdieping het kan weghalen (GEZAG_LEAD). */}
+          <p class="o1 lead-klein" data-generieke-lead id={`stappen-${k.id}`}>{k.id === 'gescheiden' ? k.data.samenvatting.split(GEZAG_LEAD).flatMap((t, i) => (i ? [<span data-gezag-lead>{GEZAG_LEAD}</span>, t] : [t])) : k.data.samenvatting}</p>
           {k.id === 'beginnen' && situaties.filter((sit) => sit.data.lichteStart || sit.data.aanvraagIngeklapt || sit.data.stappen).map((sit) => <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>{sit.data.samenvatting}</p>)}
           {k.id === 'wachten' && <p class="o1 meta wacht-erger"><strong>Wordt het erger terwijl u wacht?</strong> Bel de huisarts. 's Avonds en in het weekend hoort u via hetzelfde nummer hoe u de huisartsenpost bereikt. <a href={`${base}/overzicht/?k=spoed`}>Het kan niet wachten →</a></p>}
           {k.id === 'spoed' ? <div class="o2"><SpoedNummers /></div> : (<>
@@ -130,6 +137,8 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               {k.id === 'beginnen' ? (<>
                 <li data-generieke-stap><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} /></li>
                 {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden><strong class="stap-lead">Begin bij {r0.beginBij ?? (sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type])}.</strong> {r0.waarom}<OrgRegel orgs={genoemdIn(r0.waarom, organisaties)} /></li>; })}
+                {/* Met de situatie Scheiding: de stap die bij het gezag hoort, uit gescheiden.md (verdieping gezag-beginnen). */}
+                {gezagStappen.map((x) => { const i = hoofdStappen(gescheidenVraag).indexOf(x); return <li data-gezag-bij-aanvraag hidden><StapInhoud {...stapProps(gescheidenVraag, x)} />{vervolg(gescheidenVraag, i).length > 0 && <ol class="steps-sub">{vervolg(gescheidenVraag, i).map((v) => <li><StapInhoud {...stapProps(gescheidenVraag, v)} /></li>)}</ol>}</li>; })}
               </>) : <>{k.id === 'verhuizing' && <li data-vh-binnen hidden></li>}<li><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />{vervolg(k, 0).length > 0 && <ol class="steps-sub">{vervolg(k, 0).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li></>}
             </ol>
             {/* Eigen stappen van de situatie (zoals school loopt vast), vóór de ingeklapte aanvraag. */}

@@ -169,3 +169,34 @@ Then('bevat {string} niet de tekst {string}', async ({ page, baseURL }, bestand:
 Then('mag de pagina niet in zoekmachines', async ({ page }) => {
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);
 });
+
+// Opmaak van genummerde stappen (Mijn overzicht): lijn tussen de stappen, geen verbindingslijn, geen lijn tussen vervolgstappen.
+const stapStijl = (page: Page, selector: string) => page.locator(selector).evaluateAll((lis) => lis
+  .filter((li) => (li as HTMLElement).offsetParent !== null)
+  .map((li) => ({ boven: getComputedStyle(li).borderTopStyle, lijn: getComputedStyle(li, '::after').content })));
+
+Then('staat tussen de genummerde stappen een lichte lijn', async ({ page }) => {
+  // Alle stappen na stap 1, ook stap 2 (die staat in een eigen lijst, onder het contact).
+  const s = await stapStijl(page, '[data-knelpunt-blok]:not([hidden]) ol[data-aanvraag-stappen] > li');
+  expect(s.length).toBeGreaterThan(0);
+  s.forEach((x) => expect(x.boven).toBe('solid'));
+});
+
+Then('staat er geen verticale lijn tussen de genummerde stappen', async ({ page }) => {
+  const s = await stapStijl(page, '[data-knelpunt-blok]:not([hidden]) ol[data-aanvraag-stappen] > li');
+  s.forEach((x) => expect(x.lijn).toBe('none'));
+});
+
+Then('heeft de eerste zichtbare stap geen lijn erboven', async ({ page }) => {
+  const s = await page.locator('[data-knelpunt-blok]:not([hidden]) ol.steps > li').evaluateAll((lis) => {
+    const li = lis.find((l) => (l as HTMLElement).offsetParent !== null);
+    return li ? getComputedStyle(li).borderTopStyle : 'geen stap';
+  });
+  expect(s).toBe('none');
+});
+
+Then('staat tussen de vervolgstappen geen lijn', async ({ page }) => {
+  const s = await stapStijl(page, '[data-knelpunt-blok]:not([hidden]) ol.steps-sub > li + li');
+  expect(s.length).toBeGreaterThan(0);
+  s.forEach((x) => expect(x.boven).toBe('none'));
+});

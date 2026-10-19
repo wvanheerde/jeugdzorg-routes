@@ -33,3 +33,16 @@ Functionaliteit: Opmaak, menu en voettekst
     Dan gaat de link "Moeilijke woorden uitgelegd" naar "begrippen/"
     En zie ik een link om "0800 2000" te bellen
     En zie ik een link om "0800 0113" te bellen
+
+  Scenario: Tussen genummerde stappen staat een lichte lijn, zonder verticale verbindingslijn
+    Lijnen tussen de stappen lezen rustiger als er contactregels of vervolgstappen onder een stap staan (19-10).
+    Vervolgstappen (A, B) horen bij hun stap en krijgen geen lijn.
+    Gegeven ik open het overzicht voor "Hulp is afgewezen of te weinig" in "Utrecht"
+    Dan staat tussen de genummerde stappen een lichte lijn
+    En staat er geen verticale lijn tussen de genummerde stappen
+    En staat tussen de vervolgstappen geen lijn
+
+  Scenario: Staan er alleen verborgen stappen boven een stap, dan staat er geen lijn boven
+    Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"
+    Als ik kies "Een plek bij een aanbieder"
+    Dan heeft de eerste zichtbare stap geen lijn erboven

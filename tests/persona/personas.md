@@ -133,3 +133,11 @@ Scenario's (in `scenarios/`) verwijzen naar een persona met haar of zijn id.
 - **Ervaring:** kent het wijkteam van de aanvraag een jaar geleden, maar weet niet wie hij nu moet bellen.
 - **Gemoed:** boos en ongerust; Daan heeft veel moeite met veranderingen.
 - **Gedrag:** wil weten of de hulp gewoon doorgaat en wie daarvoor moet zorgen.
+
+## linda — moeder, weet niet wie het gezag heeft
+- **Wie:** Linda, 34, woont in Amersfoort. Dochter Noor (8) is sinds de breuk met haar vader angstig en wil 's avonds niet alleen slapen. Linda en Kevin waren nooit getrouwd; Kevin heeft Noor erkend toen ze werd geboren (2018). Kevin vindt hulp onzin.
+- **Apparaat:** telefoon.
+- **Lezen:** havo, leest goed maar heeft weinig tijd.
+- **Ervaring:** heeft nooit iets laten vastleggen over het gezag en weet niet of Kevin moet meetekenen.
+- **Gemoed:** onzeker en een beetje bang voor ruzie.
+- **Gedrag:** wil eerst weten wat ze mag, voordat ze iets aanvraagt.

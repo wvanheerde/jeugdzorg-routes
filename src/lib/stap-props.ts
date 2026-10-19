@@ -4,7 +4,7 @@ import type { ComponentProps } from 'astro/types';
 import type StapInhoud from '../components/StapInhoud.astro';
 import { genoemdIn } from './genoemd';
 import { alleStappen, hoofdStappen, type Knelpunt } from './stappen';
-import { BEZWAAR_ZIN, KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, afgewezenRol, hulpStoptReden, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
+import { BEZWAAR_ZIN, KIES_ZIN, KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, afgewezenRol, gezagStap, hulpStoptReden, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
 
 type Organisatie = CollectionEntry<'organisaties'>;
 type Situatie = CollectionEntry<'situaties'>;
@@ -30,7 +30,7 @@ const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
  * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts);
- * - bij wachten en afgewezen: de route of rol van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
+ * - bij wachten, afgewezen en gescheiden: de route, rol of het gezag van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
  *   onder de stappen (die staat bij de voorbeeldbrief): de verdieping rekent zelf.
  */
 export const maakStapProps = (organisaties: Organisatie[]) => {
@@ -67,6 +67,7 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         reden: k.id === 'hulp-stopt' ? hulpStoptReden(x) : undefined,
         wanneer: k.id === 'wordt-18' ? wordt18(x) : undefined,
         afgewezen: k.id === 'afgewezen' ? { rol: afgewezenRol(x), zin: x.startsWith(BEZWAAR_ZIN) ? BEZWAAR_ZIN : undefined } : undefined,
+        gescheiden: k.id === 'gescheiden' ? { gezag: gezagStap(x), zin: x.includes(KIES_ZIN) ? KIES_ZIN : undefined } : undefined,
         wacht: k.id === 'wachten' ? { op: WACHT_OP.find((w) => x.startsWith(w.begin))?.op, zin: x.includes(WACHT_ZIN) ? WACHT_ZIN : undefined, lead: wachtLead(x) } : undefined,
       }));
     }

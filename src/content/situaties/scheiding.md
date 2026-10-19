@@ -51,4 +51,4 @@ bronnen:
 
 ## Waar het vaak misgaat
 
-- **Hulp voor het kind wordt gebruikt in de strijd.** Jeugdhulpverleners mogen niet de kant van één ouder kiezen. Hebben jullie samen het gezag? Dan moeten jullie allebei instemmen met behandeling. Wat u zonder de andere ouder kunt doen, leest u bij [Wij zijn gescheiden en lopen vast](../../overzicht/?k=gescheiden).
+- **Hulp voor het kind wordt gebruikt in de strijd.** Jeugdhulpverleners mogen niet de kant van één ouder kiezen. Hebben jullie samen het gezag? Dan moeten jullie allebei instemmen met behandeling. Wat u zonder de andere ouder kunt doen, leest u bij [Wij zijn uit elkaar](../../overzicht/?k=gescheiden).

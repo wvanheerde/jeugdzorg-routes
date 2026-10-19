@@ -99,6 +99,32 @@ Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: Da
   verwacht.forEach((v, i) => expect(echt[i]).toContain(v));
 });
 
+/** De eerste lijst na stap 1 (start="2", ook als die ingeklapt staat) telt verder vanaf het aantal zichtbare stappen erboven. */
+Then('loopt de nummering van de stappen daarna door bij {int}', async ({ page }, nr: number) => {
+  await expect.poll(() => vraagBlok(page).locator('ol.steps[start="2"]').evaluateAll((ols) => {
+    const ol = ols.find((o) => !o.closest('[hidden]'));
+    return ol ? getComputedStyle(ol).counterReset : 'geen lijst';
+  })).toBe(`step ${nr - 1}`);
+});
+
+/** De vette begintekst van de vervolgstappen (A, B …) onder de zichtbare stap die met deze tekst begint. */
+Then('staan onder stap {string} de vervolgstappen:', async ({ page }, stap: string, tabel: DataTable) => {
+  const verwacht = tabel.raw().map((r) => r[0]);
+  await expect.poll(() => vraagBlok(page).locator('ol.steps > li').evaluateAll((lis, begin) => {
+    const li = lis.find((l) => (l as HTMLElement).offsetParent !== null && (l.querySelector(':scope > .stap-lead')?.textContent ?? '').trim().startsWith(begin));
+    if (!li) return 'stap niet gevonden';
+    return Array.from(li.querySelectorAll(':scope > ol.steps-sub > li > .stap-lead')).map((e) => (e.textContent ?? '').replace(/\s+/g, ' ').trim());
+  }, stap)).toEqual(verwacht);
+});
+
+/** Het contactregeltje van een organisatie (naam en website, OrgRegel) staat onder deze vervolgstap, en nergens anders in de vraag. */
+Then('staat de link naar {string} onder de vervolgstap {string}', async ({ page }, org: string, stap: string) => {
+  const regels = vraagBlok(page).locator('.stap-org', { has: page.locator('strong', { hasText: org }) }).locator('visible=true');
+  await expect(regels).toHaveCount(1);
+  const lead = await regels.first().evaluate((e) => e.closest('ol.steps-sub > li')?.querySelector(':scope > .stap-lead')?.textContent?.trim() ?? 'niet onder een vervolgstap');
+  expect(lead.startsWith(stap), lead).toBe(true);
+});
+
 Then('is er geen blok {string}', async ({ page }, kop: string) => {
   await expect(vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) }).locator('visible=true')).toHaveCount(0);
 });

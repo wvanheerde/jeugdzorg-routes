@@ -1,0 +1,16 @@
+---
+/** Verdieping "Wie heeft het gezag?": bij "Wij zijn uit elkaar", en bij "Ik wil hulp aanvragen" als de situatie Scheiding gekozen is
+ *  (id gezag-beginnen; persona-test Linda, 19-10). Eén antwoord voor beide. Script: src/scripts/overzicht/gescheiden.ts. */
+import Verdieping from './Verdieping.astro';
+import { GEZAG_KEUZE } from '../lib/verdiepingen';
+interface Props { id: string; naarStappen: string; uitleg: string }
+const { id, naarStappen, uitleg } = Astro.props;
+---
+<Verdieping id={id} naarStappen={naarStappen} uitleg={uitleg}>
+  {/* Knoppen zoals bij de andere keuzes (KnelpuntKeuze): één keuze, nog eens klikken haalt hem weg. */}
+  <div class="field vd-keuze"><span id={`gz-kop-${id}`}>Wie heeft het gezag over uw kind?</span>
+    <div class="chips-select" role="group" aria-labelledby={`gz-kop-${id}`}>
+      {GEZAG_KEUZE.map((g) => <button type="button" class="chip-btn" aria-pressed="false" value={g.id} data-gezag-keuze data-samenvatting={g.samenvatting}>{g.label}</button>)}
+    </div>
+  </div>
+</Verdieping>
