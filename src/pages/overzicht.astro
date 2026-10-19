@@ -6,6 +6,8 @@
  */
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
+import AfdrukKnop from '../components/AfdrukKnop.astro';
+import AfdrukKop from '../components/AfdrukKop.astro';
 import Contact from '../components/Contact.astro';
 import GemeenteKeuze from '../components/GemeenteKeuze.astro';
 import SituatieKeuze from '../components/SituatieKeuze.astro';
@@ -66,6 +68,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     <span class="eyebrow">Op maat</span>
     <h1>Mijn overzicht</h1>
     <p class="lead" data-intro>Kies uw gemeente en wat er speelt. U ziet dan alleen wat voor u van toepassing is.</p>
+    <AfdrukKop wat="dit overzicht" />
   </div>
 
   <details class="section regelen keuzes" id="top" data-keuzes>
@@ -117,6 +120,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
       (meestal het wijkteam), daarna de overige stappen, wat er in de gemeente bij die stappen hoort, en de brieven.
       De volgorde komt uit CSS (order), zodat de per-knelpunt- en per-gemeenteblokken los van elkaar kunnen blijven.
     -->
+    <AfdrukKnop />
     <section class="section regelen antwoord" id="nu-doen" data-knelpunt-wrap hidden>
       {knelpunten.map((k) => (
         <div data-knelpunt-blok={k.id} hidden>

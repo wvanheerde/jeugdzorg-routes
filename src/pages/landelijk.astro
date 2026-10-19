@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import AfdrukKnop from '../components/AfdrukKnop.astro';
+import AfdrukKop from '../components/AfdrukKop.astro';
 import Sources from '../components/Sources.astro';
 import { getCollection, render } from 'astro:content';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -13,9 +15,11 @@ const laatste = items.map((i) => i.data.laatstGecontroleerd).sort().at(-1) ?? ''
   <div class="page-head">
     <span class="eyebrow">Geldt overal</span>
     <h1>Waar u landelijk recht op heeft</h1>
+    <AfdrukKop />
     <p class="lead">Dit is wettelijk geregeld en geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's.</p>
   </div>
   <nav class="toc" aria-label="Snel naar">{items.map((i) => <a href={`#${i.id}`}>{i.data.titel}</a>)}</nav>
+  <AfdrukKnop />
   {rendered.map(({ i, Content }, idx) => (
     <section class="section prose" id={i.id}>
       <h2><span class="section-num">{idx + 1}</span>{i.data.titel}</h2>

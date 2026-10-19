@@ -4,7 +4,8 @@
  *   timers lopen gewoon door, alleen de datum staat stil;
  * - geen verkeer naar buiten (alleen de lokale testserver), zodat externe diensten de uitkomst niet beïnvloeden;
  * - elke test een nieuwe browsercontext, dus lege localStorage (dat doet Playwright zelf);
- * - showPicker() (de kalender van het toestel) wordt geteld in window.__kalender, zodat een scenario kan zien of die opende.
+ * - showPicker() (de kalender van het toestel) wordt geteld in window.__kalender, zodat een scenario kan zien of die opende;
+ * - window.print() (het afdrukvenster) wordt geteld in window.__afdrukken, want een echt afdrukvenster blokkeert de test.
  */
 import { test as base, createBdd } from 'playwright-bdd';
 import { CoverageReport } from 'monocart-coverage-reports';
@@ -35,6 +36,8 @@ export const test = base.extend<{ vasteOmgeving: void; dekking: void }>({
     await page.addInitScript(() => {
       (window as any).__kalender = 0;
       HTMLInputElement.prototype.showPicker = function () { (window as any).__kalender++; };
+      (window as any).__afdrukken = 0;
+      window.print = () => { (window as any).__afdrukken++; };
     });
     await use();
   }, { auto: true }],

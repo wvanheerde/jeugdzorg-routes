@@ -10,6 +10,7 @@ import type { wachten } from './wachten';
 import type { afgewezen } from './afgewezen';
 import type { gescheiden } from './gescheiden';
 import type { uitbreiden } from './uitbreiden';
+import { afdrukken } from './afdrukken';
 
 type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
 type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen>; gescheiden: ReturnType<typeof gescheiden>; uitbreiden: ReturnType<typeof uitbreiden> };
@@ -241,6 +242,8 @@ export const maakRender = (v: Verdiepingen) => () => {
       if (sleutel) gezien.add(sleutel);
     }));
   });
+  // Voor op papier: datum, adres van het overzicht en het adres bij elke website.
+  afdrukken(kpGekozen);
   // Klaar met tekenen: de uitleg bij moeilijke woorden (Base.astro) kan nu de zichtbare tekst nalopen.
   document.dispatchEvent(new CustomEvent('jr:getekend'));
 };

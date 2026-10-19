@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import AfdrukKnop from '../../components/AfdrukKnop.astro';
+import AfdrukKop from '../../components/AfdrukKop.astro';
 import Contact from '../../components/Contact.astro';
 import SpoedNummers from '../../components/SpoedNummers.astro';
 import Sources from '../../components/Sources.astro';
@@ -40,6 +42,7 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
   <div class="page-head">
     <span class="eyebrow">Gemeente</span>
     <h1>Jeugdhulp in {d.naam}</h1>
+    <AfdrukKop />
     <div class="chips">
       <span class="chip">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</span>
       <span class="chip"><Icon name="map" />{d.provincie}</span>
@@ -48,6 +51,7 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
     </div>
   </div>
 
+  <AfdrukKnop />
   {wijkteam && toegangContact && (
     <div class="eerste-contact kaart-boven">
       <h2 class="h3-maat">Hier meldt u zich in {d.naam}: {wijkteam.naam}</h2>
@@ -68,7 +72,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
       <div class="status-card">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</div>
     </aside>
 
-    <div>
+    {/* secties-tellen: op papier opnieuw genummerd, want "Direct regelen" valt daar weg (global.css, @media print). */}
+    <div class="secties-tellen">
       <nav class="toc" aria-label="Snel naar">
         {secties.map((s) => <a href={`#${s.id}`}>{s.n}. {s.t}</a>)}
       </nav>
@@ -176,7 +181,7 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
 
       <section class="section" id="ervaringen">
         <h2><span class="section-num">6</span>Hoe gaat het met de jeugdhulp in {d.naam}?</h2>
-        {!d.ervaringen ? <p class="empty">Nog geen beeld opgenomen. Deze sectie wordt gevuld met openbare bronnen zoals inspectierapporten, cliëntervaringsonderzoek en regionale journalistiek.</p> : (<details class="inklapper" id="ervaringen-inhoud">
+        {!d.ervaringen ? <p class="empty">Nog geen beeld opgenomen. Deze sectie wordt gevuld met openbare bronnen zoals inspectierapporten, cliëntervaringsonderzoek en regionale journalistiek.</p> : (<details class="inklapper" id="ervaringen-inhoud" data-op-papier-open>
           <summary>Lees wat we vonden{signalen.length > 0 && <> ({signalen.length} {signalen.length === 1 ? 'bericht' : 'berichten'} uit openbare bronnen)</>}</summary>
           {d.ervaringen.samenvatting.split(/\n\s*\n/).map((al) => <p>{al}</p>)}
           {d.ervaringen.transparantie && (() => { const t = d.ervaringen.transparantie; const lbl: Record<string, string> = { ja: 'Ja', nee: 'Nee', onbekend: 'Niet nagezocht' }; return (

@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import AfdrukKnop from '../../components/AfdrukKnop.astro';
+import AfdrukKop from '../../components/AfdrukKop.astro';
 import Sources from '../../components/Sources.astro';
 import TherapieToelichting from '../../components/TherapieToelichting.astro';
 import { getCollection } from 'astro:content';
@@ -24,6 +26,7 @@ const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard
     <p class="meta terug" style="margin-bottom:.5rem"><a href={`${base}/situaties/`} data-terug data-anchor="#therapie" data-anchor-overzicht="#tips" data-situaties={situaties.map((s) => `${s.id}|${s.data.titel}`).join(';')}>← Terug naar situaties</a></p>
     <span class="eyebrow">Therapievorm · {ob[d.onderbouwing.label]}</span>
     <h1>{afbreken(d.naam)}</h1>
+    <AfdrukKop />
     <p class="lead">{d.kort}</p>
   </div>
   <div class="page-with-side">
@@ -38,6 +41,7 @@ const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard
       </nav>
     </aside>
     <div>
+      <AfdrukKnop />
       <TherapieToelichting />
       <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het en hoe werkt het?</h2><p>{d.watIsHet}</p><p>{d.hoeWerktHet}</p>
         {d.sessie && <><h3>Zo gaat een sessie</h3><p>{d.sessie}</p></>}

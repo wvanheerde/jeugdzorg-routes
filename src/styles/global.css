@@ -677,3 +677,106 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 #nu-doen .stap-datum-uitleg { font-weight: 400; }
 #nu-doen .stap-stand { margin-top: .5rem; font-size: .95rem; font-weight: 400; }
 #nu-doen .stap-stand details.ec-wachten summary { cursor: pointer; }
+
+/* ---------- Afdrukken (Mijn overzicht, en elke andere pagina) ---------- */
+/* Knop op het scherm: rechts boven het eerste blok, in de witruimte erboven (neemt zelf geen ruimte in, duwt het blok niet omlaag). */
+.afdruk-rij { position: relative; height: 0; margin: 0; }
+.afdruk-rij .afdruk-knop { position: absolute; right: 0; bottom: .3rem; }
+/* Direct onder de kop (gemeentepagina, met labels onderaan): iets meer ruimte, anders zit de knop tegen de labels. */
+.page-head:has(+ .afdruk-rij) { margin-bottom: 2.6rem; }
+/* Telefoon: de dichte keuzebalk staat erboven; iets meer ruimte zodat de knop er los van staat. */
+@media (max-width: 959px) { .keuzes:not([open]) { margin-bottom: 2.4rem; } }
+.afdruk-knop { display: inline-flex; align-items: center; gap: .45rem; background: none; border: 0; padding: .25rem 0; font: inherit; font-size: .82rem; font-weight: 400; color: var(--c-primary); cursor: pointer; }
+.afdruk-knop:hover { color: var(--c-primary-dark); text-decoration: underline; }
+.afdruk-knop .ico { width: 1.1em; height: 1.1em; }
+.ico-printer { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M6 9V2h12v7%22/%3E%3Cpath d=%22M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2%22/%3E%3Crect width=%2212%22 height=%228%22 x=%226%22 y=%2214%22/%3E%3C/svg%3E"); }
+.alleen-print { display: none; }
+@media print {
+  @page { margin: 15mm 14mm; }
+  html { font-size: 10.5pt; background: #fff; scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
+  /* Geen flex of raster om de hele pagina: Safari en Firefox schuiven zo'n blok in zijn geheel naar de volgende pagina
+     (dan bleef de eerste pagina bijna leeg). */
+  body, .page-with-side { display: block; min-height: 0; }
+  main { padding: 0; }
+  .container { max-width: none; padding: 0; }
+  .alleen-print { display: block; }
+  /* Weg: menu, knoppen, keuzevelden, wat alleen op het scherm iets doet, en wat u online doet (voorbeeldbrieven, "Direct regelen"). */
+  .skip, .nav, .menu-knop, .side, .niet-printen, .keuzes-knop, .afdruk-rij, .keuzes-actie, .keuzes .wegwijzer, [data-leeg],
+  .vd-acties, [data-vd-vragen], .verdieping:not([data-vd-ingeklapt]), .card .arrow, .card .icon,
+  [data-brieven-blok], .direct-regelen, [data-klachtbrief], .section#regelen, .toc, .terug, .kaart-nl { display: none !important; }
+  /* Dichtgeklapt blijft van papier; wat de ouder openklapte, komt mee (zonder het pijltje). Het keuzeblok staat er als één regel. */
+  details:not([open]):not(.keuzes) { display: none; }
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  .keuzes:not([open]) { display: block !important; }
+  /* De kanttekening bij therapievormen ("Niet volledig en geen behandeladvies") hoort ook dicht op papier: alleen de zin zelf. */
+  details.tips-disclaimer:not([open]) { display: block; }
+  /* Blokken die op papier altijd open horen (zoals "Hoe gaat het met de jeugdhulp"), opengeklapt door scripts/afdrukken.ts: zonder de knop. */
+  details[data-op-papier-open] > summary { display: none; }
+  .keuzes > summary { cursor: auto; }
+  .keuzes:not([open]) [data-keuzes-samenvatting] { white-space: normal; overflow: visible; }
+  /* Kop van de site: alleen de naam, niet vast bovenaan. Onderaan alleen de voorwaarden. */
+  .site-header { position: static; background: none; backdrop-filter: none; border-bottom: 1px solid #999; margin-bottom: .8rem; }
+  .site-header .container { height: auto; padding-bottom: .4rem; }
+  .brand { font-size: 1.1rem; }
+  .brand svg { width: 28px; height: 28px; }
+  .site-footer { background: none; border-top: 1px solid #999; margin-top: 1.5rem; padding: .6rem 0 0; color: #333; font-size: .85rem; }
+  .site-footer .cols { display: none; }
+  .site-footer .bottom { border: 0; padding: 0; margin: 0; }
+  .site-footer .bottom a { color: inherit; text-decoration: none; }
+  .page-head { margin-bottom: .3rem; }
+  .page-head h1 { margin-bottom: .3rem; }
+  .eyebrow { display: none; }
+  .afdruk-kop { font-size: .9rem; color: #333; margin: 0 0 .5rem; }
+  .afdruk-adres { overflow-wrap: anywhere; }
+  .keuzes, .keuzes:not([open]) { margin-bottom: .6rem; padding: .4rem 0; }
+  /* Kaders, kleurvlakken en schaduwen weg. */
+  .section, .card, .route, .linklist li, .onderdeel, .eerste-contact, .contact, .route-gemeente { box-shadow: none !important; background: none !important; }
+  .section { border: 0; border-top: 1.5px solid #999; border-radius: 0; padding: .8rem 0 0; margin: 0 0 1rem; }
+  .section.antwoord, .regelen { border-left: 0; }
+  .route, .eerste-contact { border-color: #bbb; }
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.35rem; margin-top: 1.2rem; }
+  h3 { font-size: 1.08rem; }
+  h1, h2, h3, summary { break-after: avoid; page-break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  .section-num { width: 1.5rem; height: 1.5rem; font-size: .8rem; background: none; color: var(--c-text); border: 1.5px solid var(--c-text); }
+  /* Kaarten en blokken naast elkaar worden een lijst: onder elkaar, met een stip, zonder kader. Titel vet, het soort er klein achter. */
+  .grid, .linklist, .onderdelen { display: block; margin: .3rem 0 .8rem; padding: 0; }
+  .grid > *, .linklist > li, .onderdelen > .onderdeel { display: block; position: relative; border: 0 !important; border-radius: 0; padding: 0 0 0 1.1rem !important; margin: 0 0 .65rem; break-inside: avoid; page-break-inside: avoid; }
+  .grid > *::before, .linklist > li::before, .onderdelen > .onderdeel::before { content: "•"; position: absolute; left: .2rem; top: -.1em; font-size: 1.15em; }
+  .grid .card { display: flex; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 0 .5rem; height: auto; border: 0; padding: 0; }
+  .grid .card > * { flex-basis: 100%; order: 2; margin: .1rem 0 0; }
+  .grid .card > h3 { flex-basis: auto; order: 0; margin: 0 !important; font-family: var(--font-body); font-size: 1rem; color: var(--c-text); }
+  .grid .card > .badge { flex-basis: auto; order: 1; margin: 0; padding: 0; background: none; font-size: .7rem; color: var(--c-muted); }
+  .grid .card p { margin: .1rem 0 0; }
+  .kaart-voet { margin: .1rem 0 0; }
+  .toegang { border: 0; padding: 0; margin: 0; font-size: .8rem; }
+  /* Iconen en stipjes zijn een kleurvlak; zonder dit laat de browser ze bij het afdrukken weg. */
+  .ico, .toegang .dot, .toegang-legenda .dot { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .card .contact.org-voet { margin: .1rem 0 0; padding: 0; }
+  .linklist li > a { font-size: 1rem; }
+  .linklist li > a svg { display: none; }
+  .linklist li p, .onderdeel p.meta { margin: .1rem 0 0; }
+  /* Kleine onderdelen heel houden; grote blokken (zoals een route met contacten) mogen over de pagina doorlopen. */
+  .contact, .eerste-contact, #nu-doen ol.steps > li, .vs-leeftijd { break-inside: avoid; page-break-inside: avoid; }
+  /* De belknop wordt een gewoon nummer, vet. */
+  .btn.bel { background: none; color: var(--c-text); padding: 0; border: 0; font-size: 1.15rem; }
+  .btn.bel .ico { color: var(--c-text); }
+  /* Links: niet onderstreept; bij een link naar een andere site het adres (data-adres, scripts/overzicht/afdrukken.ts). */
+  a { color: inherit; text-decoration: none; }
+  a[data-adres]::after { content: " (" attr(data-adres) ")"; font-weight: 400; overflow-wrap: anywhere; }
+  a[data-adres] > [aria-hidden="true"] { display: none; }
+  a[data-website]::after { content: ": " attr(data-adres); }
+  .chip[data-website] { gap: 0; }
+  .woord { text-decoration: none; }
+  /* Bronnen in de tijdlijn ("Hoe gaat het"): gewone kleine tekst op de regel, zonder kader. */
+  .tijdlijn sup { vertical-align: baseline; font-size: .8rem; }
+  .tijdlijn a.bron { border: 0; padding: 0; margin: 0; background: none; color: var(--c-muted); font-size: inherit; font-weight: 400; vertical-align: baseline; }
+  /* Opnieuw nummeren als er een blok wegvalt (gemeentepagina zonder "Direct regelen"); verborgen blokken tellen niet mee. */
+  .secties-tellen { counter-reset: sectie; }
+  .secties-tellen > .section { counter-increment: sectie; }
+  .secties-tellen > .section .section-num { font-size: 0; }
+  .secties-tellen > .section .section-num::before { content: counter(sectie); font-size: .8rem; }
+}

@@ -29,7 +29,8 @@ src/content/organisaties/      landelijke organisaties (JSON)
 src/pages/                     routes: /, /gemeenten/, /situaties/, /landelijk/, /organisaties/,
                                /therapievormen/, /brieven/, /overzicht/, /over/, robots.txt
 src/layouts, src/components    opmaak
-src/scripts/overzicht/         browserscript van Mijn overzicht: keuzes, verdiepingen (één bestand per vraag), render
+src/scripts/overzicht/         browserscript van Mijn overzicht: keuzes, verdiepingen (één bestand per vraag), render, afdrukken
+src/scripts/afdrukken.ts       afdrukken of bewaren als PDF (knop: components/AfdrukKnop.astro, opmaak: @media print in global.css)
 src/site.ts                    repository-link en GoatCounter-code
 scripts/                       validatie, linkcheck, sitemap, scaffold, dagboek-docx (bouwt public/downloads/dagboek-zorg-twee-weken.docx)
 scripts/data/                  register van gemeenten en gedeelde regiogegevens (jeugdregio, GGD)
@@ -55,7 +56,7 @@ npm run rapport               # het rapport van de laatste run
 ```
 
 **Opbouw (`tests/e2e/`)**
-- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, elke verdieping, datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
+- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, afdrukken, elke verdieping, datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
 - `steps/*.ts`: de stappen achter de zinnen (Playwright via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)). Hergebruik een bestaande zin waar dat kan; een nieuwe zin hoort in het bestand van het onderwerp (`algemeen`, `verdieping`, `velden`, `paginas`).
 - `steps/inhoud.ts`: scenario's gebruiken gewone namen ("Mijn kind wordt 18", "ADHD en ADD", "Apeldoorn", "12 tot 18"); de bijbehorende id's komen uit `src/content`.
 - `unit/*.spec.ts`: losse functies uit `src/lib` (termijnen en feestdagen, datums lezen, afbreken, organisaties herkennen, de woordenlijst), zonder browser.
@@ -106,6 +107,22 @@ Maak een gratis account op [goatcounter.com](https://www.goatcounter.com) (voor 
 - `npm run build` schrijft ook `dist/sitemap.xml` (`scripts/sitemap.mjs`); pagina's met `noindex` (zoals *Mijn overzicht*) staan er niet in.
 - `src/pages/robots.txt.ts`: zoekmachines en live AI-zoekfuncties die met een link citeren zijn welkom; crawlers die verzamelen voor AI-training worden geweigerd (lijst bovenin het bestand). Dit is een verzoek; niet iedere scraper houdt zich eraan. robots.txt werkt alleen in de hoofdmap van een domein, dus pas met een eigen domein.
 - Voorbehoud tekst- en datamining (art. 15o Auteurswet): `public/.well-known/tdmrep.json` en de metatag `tdm-reservation` in `src/layouts/Base.astro`. Zie ook [LICENSE-INHOUD.md](LICENSE-INHOUD.md).
+
+## Afdrukken of bewaren als PDF
+
+Mijn overzicht, de gemeentepagina's, de therapievormen en de landelijke rechten hebben een link "Afdrukken of bewaren als PDF" (printer-icoon, rechts boven het eerste blok). Het gedrag ligt vast in `tests/e2e/features/afdrukken.feature`.
+
+**Een pagina toevoegen** (twee regels):
+1. `<AfdrukKop />` in de `page-head`, onder de `h1`: alleen op papier, met datum en adres van de pagina (`wat="dit overzicht"` voor een andere omschrijving).
+2. `<AfdrukKnop />` direct vóór het eerste blok. De knop staat in de witruimte erboven en duwt het blok niet omlaag; is die witruimte te krap (zoals direct onder de kop), geef dan de kop meer marge in `global.css`.
+3. Voeg de pagina toe aan de voorbeelden van het scenario "Ook <pagina> kan op papier" in `afdrukken.feature`.
+
+**Wat er op papier staat** (`@media print` onderaan `src/styles/global.css`, voor de hele site):
+- Geen menu, knoppen, keuzevelden, zijbalk, knoppen naar onderdelen (`.toc`) of terug-link. Geen raster om de pagina (Safari en Firefox schoven dat in zijn geheel naar pagina 2).
+- Wat dichtgeklapt is, blijft van papier; wat de ouder openklapt, komt mee. Uitzonderingen: de kanttekening bij therapievormen (alleen de zin), en blokken met `data-op-papier-open` (zoals "Hoe gaat het met de jeugdhulp" op een gemeentepagina): die klapt `src/scripts/afdrukken.ts` vlak voor het afdrukken open (`beforeprint`) en daarna weer dicht.
+- Kaarten en blokken naast elkaar (`.grid`, `.linklist`, `.onderdelen`) worden een lijst onder elkaar.
+- Weg: voorbeeldbrieven en "Direct regelen" (online doen, niet op papier).
+- Bij een link naar een andere site staat het korte adres (`data-adres`, gezet door `src/scripts/afdrukken.ts`); Mijn overzicht zet dat na elke keer tekenen opnieuw, met de keuzes in het adres van de pagina.
 
 ## Uitbreiden met interactie
 

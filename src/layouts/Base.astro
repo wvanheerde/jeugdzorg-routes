@@ -108,7 +108,7 @@ const nav = [
             <ul>{nav.filter((n) => n.href !== `${base}/over/`).map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
           </div>
         </div>
-        <div class="bottom">Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of jeugdarts. Geen cookies, geen persoonsgegevens. Fout gezien of iets gemist? <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">Stel een wijziging voor via GitHub</a>.</div>
+        <div class="bottom">Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of jeugdarts. Geen cookies, geen persoonsgegevens. <span class="niet-printen">Fout gezien of iets gemist? <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">Stel een wijziging voor via GitHub</a>.</span></div>
       </div>
     </footer>
     <script is:inline>
