@@ -22,6 +22,35 @@ When('ik als geboortedatum {string} invul', async ({ page }, datum: string) => {
   await page.getByLabel('Wanneer is uw kind geboren?').fill(datum);
 });
 
+When('ik als datum van de ingebrekestelling {string} invul', async ({ page }, datum: string) => {
+  await page.getByLabel('Al een ingebrekestelling gestuurd? Wanneer kreeg de gemeente die?').fill(datum);
+});
+
+When('ik als datum van de aanvraag {string} invul', async ({ page }, datum: string) => {
+  await page.getByLabel('Wanneer kreeg de gemeente uw aanvraag?').fill(datum);
+});
+
+Then('zie ik het veld {string}', async ({ page }, label: string) => {
+  await expect(page.getByLabel(label, { exact: true })).toBeVisible();
+});
+
+Then('zie ik het veld {string} niet', async ({ page }, label: string) => {
+  await expect(page.getByLabel(label, { exact: true }).locator('visible=true')).toHaveCount(0);
+});
+
+/** Een kaart bij "Voorbeeldbrieven" onder de stappen van de gekozen vraag. */
+Then('zie ik de voorbeeldbrief {string}', async ({ page }, titel: string) => {
+  await expect(vraagBlok(page).locator('[data-brief-kaart]', { hasText: titel }).locator('visible=true')).toHaveCount(1);
+});
+
+When('ik open de voorbeeldbrief {string}', async ({ page }, titel: string) => {
+  await vraagBlok(page).locator('[data-brief-kaart]', { hasText: titel }).locator('visible=true').first().click();
+});
+
+Then('zie ik de voorbeeldbrief {string} niet', async ({ page }, titel: string) => {
+  await expect(vraagBlok(page).locator('[data-brief-kaart]', { hasText: titel }).locator('visible=true')).toHaveCount(0);
+});
+
 When('ik als verhuisdatum {string} invul', async ({ page }, datum: string) => {
   await page.getByLabel('Wanneer verhuist u ongeveer?').fill(datum);
 });
@@ -77,6 +106,10 @@ Then('staat de link {string} naast {string}', async ({ page }, link: string, naa
   expect(ra!.x, 'link links van de knop').toBeLessThan(rb!.x);
 });
 
+Then('zie ik de link {string}', async ({ page }, link: string) => {
+  await expect(page.getByRole('link', { name: link }).locator('visible=true').first()).toBeVisible();
+});
+
 Then('zie ik de link {string} niet', async ({ page }, link: string) => {
   await expect(page.getByRole('link', { name: link }).locator('visible=true')).toHaveCount(0);
 });
@@ -105,4 +138,12 @@ Then('staat het label {string} rechts naast de kop', async ({ page }, label: str
 
 Then('zie ik bij het verdiepingsblok de melding {string}', async ({ page }, tekst: string) => {
   await expect(blok(page).locator('.vd-melding').locator('visible=true')).toHaveText(tekst);
+});
+
+/** De contactregel van het wijkteam (uit de blokken van de gemeente) staat zichtbaar onder deze zichtbare hoofdstap. */
+Then('staat het contact van het wijkteam onder stap {int}', async ({ page }, nr: number) => {
+  await expect.poll(() => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis, nr) => {
+    const zichtbaar = lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null);
+    return !!zichtbaar[nr - 1]?.querySelector(':scope > [data-wijkteam-stap] [data-geladen]');
+  }, nr)).toBe(true);
 });

@@ -44,4 +44,4 @@ Meld de gebruiker kort: tabel, top 3 problemen, wat beter of slechter is dan de 
 - Nieuwe valkuil in de werkwijze van de tester gevonden: zet hem in `.claude/agents/persona-tester.md`.
 
 ## Afronden
-Stop alle browsers (`node tests/persona/tools/browser.mjs <sessie> stop`, sessies staan in `$TMPDIR/jr-browser/`) en de preview (`npx astro preview stop` of het proces beëindigen). Niet committen: dat doet de gebruiker zelf.
+Stop alle browsers (`node tests/persona/tools/browser.mjs <sessie> stop`, sessies staan in `$TMPDIR/jr-browser/`) en de preview. Stop de preview op proces-id, niet met `pkill -f "astro preview"`: dat treft ook de shell die het commando uitvoert, en dan blijft de server draaien. Bijvoorbeeld: `for p in $(ps -eo pid,args | grep "astro.mjs preview --port 4329" | grep -v grep | awk '{print $1}'); do kill $p; done`. Controleer daarna met `ps` dat er geen preview meer draait: achtergebleven servers (13 stuks op 19-10) vraten het geheugen van de container op, waarna gedragstests willekeurig faalden en Chromium crashte. Niet committen: dat doet de gebruiker zelf.

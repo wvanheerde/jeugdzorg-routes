@@ -187,8 +187,8 @@ li { margin-bottom: .3rem; }
   .page-with-side { grid-template-columns: 15rem minmax(0, 1fr); }
   .side { display: block; position: sticky; top: 6rem; }
 }
-.side nav { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; box-shadow: var(--shadow-sm); }
-.side nav strong { display: block; font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--c-muted); margin-bottom: .6rem; }
+.side nav, .side .side-blok { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; box-shadow: var(--shadow-sm); }
+.side nav strong, .side .side-kop { display: block; font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--c-muted); margin-bottom: .6rem; }
 .side nav a { display: flex; gap: .55rem; align-items: baseline; text-decoration: none; color: var(--c-text); padding: .4rem .35rem; border-radius: 6px; font-size: .93rem; }
 .side nav a:hover { background: var(--c-primary-soft); color: var(--c-primary-dark); }
 .side nav a .n { color: var(--c-primary); font-weight: 700; font-size: .8rem; min-width: 1rem; }
@@ -429,9 +429,14 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .verdieping .vd-velden .gemeente-keuze { height: 2.8rem; margin: 0; box-sizing: border-box; }
 .verdieping .vd-velden .th-veld { width: 100%; max-width: none; height: 2.8rem; box-sizing: border-box; }
 .verdieping .vd-velden > .vd-keuze { flex-basis: 100%; max-width: none; }
-.verdieping .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
-.verdieping .chip-btn:hover { border-color: var(--c-primary); }
-.verdieping .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
+.klacht-keuze { margin: 0 0 1.2rem; }
+.klacht-keuze h2 { margin: 0 0 .3rem; font-size: 1.15rem; }
+.klacht-keuze .meta { margin: 0 0 .6rem; }
+.klacht-keuze .klacht-gevolg { margin: .5rem 0 0; font-size: .9rem; }
+#brief-tekst { scroll-margin-top: 6rem; }
+.klacht-keuze .chip-btn, .verdieping .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
+.klacht-keuze .chip-btn:hover, .verdieping .chip-btn:hover { border-color: var(--c-primary); }
+.klacht-keuze .chip-btn[aria-pressed="true"], .verdieping .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
 .verdieping .vd-melding { flex-basis: 100%; margin: 0; color: var(--c-accent); }
 .verdieping .vd-gevolg { font-size: inherit; }
 .verdieping[data-vd-ingeklapt] .vd-gevolg { display: none; }
@@ -443,6 +448,9 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 /* "Waarom stopt de hulp?": met de vragen open is de gekozen optie zelf de samenvatting. */
 [data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) [data-vd-samenvatting] { display: none; }
 [data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) .vd-acties { margin-top: 0; }
+/* "Waarop wacht u?": zonder datum herhaalt de samenvatting alleen de keuze; dan ook alleen ingeklapt (data-alleen-ingeklapt, overzicht.astro). */
+.verdieping:not([data-vd-ingeklapt]) [data-vd-samenvatting][data-alleen-ingeklapt] { display: none; }
+.verdieping:not([data-vd-ingeklapt]) .vd-samenvatting:has([data-alleen-ingeklapt]) .vd-acties { margin-top: 0; }
 .verdieping .vd-acties { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; margin-top: .3rem; }
 .verdieping .vd-acties:not(:has(button:not([hidden]))) { display: none; }
 .verdieping .linkknop { background: none; border: 0; padding: 0; font: inherit; font-weight: 400; font-size: .92rem; color: var(--c-primary-dark); text-decoration: underline; cursor: pointer; }

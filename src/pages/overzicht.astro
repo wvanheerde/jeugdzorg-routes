@@ -53,7 +53,7 @@ const BRIEF_LABEL: Record<string, string> = { ingebrekestelling: 'ingebrekestell
  * - de aanbieders (Beschikbaarheidswijzer of gemeentepagina) onder de eerste stap over een andere aanbieder;
  * - het wijkteam onder de eerste stap die het noemt, als het niet bovenaan staat (wijkteamBovenaan: false);
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
- * - de rekenhulp onder de stap over bezwaar (afgewezen) of de ingebrekestelling (wachten);
+ * - de rekenhulp onder de stap over bezwaar (afgewezen); bij wachten rekent de verdieping;
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
  * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie de verdieping hieronder).
  */
@@ -107,6 +107,25 @@ const NA_18: { id: string; label: string; toont: string[] }[] = [
   { id: 'wonen', label: 'Gaat begeleid wonen', toont: ['wmo', 'wlz'] },
   { id: 'onbekend', label: 'Weet ik niet', toont: ['wlz', 'wmo', 'verlengd', 'zvw', 'vertegenwoordiging', 'pleeg'] },
 ];
+/**
+ * "Wij wachten te lang": per stap de route waar die bij hoort (verdieping "Waarop wacht u?"). Stappen zonder route gelden altijd (school).
+ * Met de datum waarop de gemeente de aanvraag kreeg, vervangt de verdieping de zin over de acht weken (Awb 4:13) en het begin van de
+ * stap over de ingebrekestelling (Awb 4:17) door datums (lib/termijnen.ts). Met de datum waarop de gemeente de ingebrekestelling
+ * kreeg, is die stap gedaan en krijgt de stap daarna een datum (twee weken, Awb 4:17 lid 3 en 6:12 lid 2). Daarom geen rekenhulp
+ * onder deze stappen; die staat alleen bij de voorbeeldbrief.
+ */
+const WACHT_OP: { begin: string; op: 'gemeente' | 'aanbieder' }[] = [
+  { begin: 'Wacht u op een gesprek of een besluit van de gemeente', op: 'gemeente' },
+  { begin: 'Wacht u op de aanbieder', op: 'aanbieder' },
+  { begin: 'Vraag de huisarts of het wijkteam naar een andere aanbieder', op: 'aanbieder' },
+  { begin: 'Helpen bellen en melden niet', op: 'aanbieder' },
+];
+const WACHT_KEUZE = [{ id: 'gemeente', label: 'Een gesprek of besluit van de gemeente' }, { id: 'aanbieder', label: 'Een plek bij een aanbieder' }];
+/** Bij wachten staat in de klachtbrieven de klacht over de wachttijd al aan (veld klachten in src/content/brieven). */
+const KLACHT_BIJ_WACHTEN: Record<string, string> = { 'klacht-aanbieder': '?klacht=wachten', 'klacht-toegangsteam': '?klacht=duurt-lang' };
+const WACHT_ZIN = 'De gemeente moet in de regel binnen acht weken beslissen.';
+const WACHT_LEAD = { ingebrekestelling: 'Zijn de acht weken na uw aanvraag voorbij?', daarna: 'Komt er twee weken na uw ingebrekestelling nog steeds geen besluit?' } as const;
+const wachtLead = (x: string) => (Object.keys(WACHT_LEAD) as (keyof typeof WACHT_LEAD)[]).find((id) => x.startsWith(WACHT_LEAD[id]));
 const wordt18 = (x: string) => WORDT_18.find((w) => x.startsWith(w.begin));
 const stapPropsPer = new Map<string, (st: string) => ComponentProps<typeof StapInhoud>>();
 const stapProps = (k: Knelpunt, st: string) => {
@@ -118,12 +137,15 @@ const stapProps = (k: Knelpunt, st: string) => {
     const brief = new Map(alle.map((x) => {
       const hit = STAP_BRIEF.find(([re, id]) => re.test(x) && k.data.brieven.includes(id) && !gebruikt.has(id));
       if (hit) gebruikt.add(hit[1]);
-      return [x, hit ? { id: hit[1], label: BRIEF_LABEL[hit[1]] } : undefined];
+      // Bij wachten gaat een klacht over de wachttijd: die klacht staat in de brief dan al aan (KLACHT_BIJ_WACHTEN).
+      return [x, hit ? { id: hit[1], label: BRIEF_LABEL[hit[1]], zoek: k.id === 'wachten' ? KLACHT_BIJ_WACHTEN[hit[1]] : undefined } : undefined];
     }));
     const metGemeente = !k.data.zonderGemeente;
     const co = metGemeente ? alle.find((x) => x.includes('cliëntondersteuner')) : undefined;
     const aanb = metGemeente && k.data.gemeenteOnderdelen.includes('aanbieders') ? alle.find((x) => x.includes('andere aanbieder')) : undefined;
-    const wt = metGemeente && !k.data.wijkteamBovenaan ? alle.find((x) => x.includes('wijkteam')) : undefined;
+    // Liever onder een hoofdstap dan onder een vervolgstap: bij wachten noemt de klachtstap (1A, alleen route gemeente) het wijkteam eerder
+    // dan de stap over de aanbieder, en dan verdween het contact bij wachten op een aanbieder.
+    const wt = metGemeente && !k.data.wijkteamBovenaan ? hoofdStappen(k).find((x) => x.includes('wijkteam')) ?? alle.find((x) => x.includes('wijkteam')) : undefined;
     stapPropsPer.set(k.id, (x: string) => ({
       tekst: x,
       orgs: orgs.get(x) ?? [],
@@ -132,13 +154,13 @@ const stapProps = (k: Knelpunt, st: string) => {
       aanbieders: x === aanb,
       wijkteam: x === wt,
       stand: metGemeente && x === alle[0] ? k.data.standInGemeente : undefined,
-      termijn: k.id === 'afgewezen' && x.startsWith('Stuur binnen zes weken') ? 'bezwaar'
-        : k.id === 'wachten' && x.startsWith('Zijn de acht weken') ? 'besluit' : undefined,
+      termijn: k.id === 'afgewezen' && x.startsWith('Stuur binnen zes weken') ? 'bezwaar' : undefined,
       tips: k.id === 'beginnen' && x.startsWith('Vindt u de stap spannend'),
       moment: k.id === 'verhuizing' ? verhuisMoment(x) : undefined,
       nieuw: k.id === 'verhuizing' && verhuisMoment(x) === 'na',
       reden: k.id === 'hulp-stopt' ? hulpStoptReden(x) : undefined,
       wanneer: k.id === 'wordt-18' ? wordt18(x) : undefined,
+      wacht: k.id === 'wachten' ? { op: WACHT_OP.find((w) => x.startsWith(w.begin))?.op, zin: x.includes(WACHT_ZIN) ? WACHT_ZIN : undefined, lead: wachtLead(x) } : undefined,
     }));
   }
   return stapPropsPer.get(k.id)!(st);
@@ -161,6 +183,10 @@ const hulpStoptStappen = hoofdStappen(knelpunten.find((k) => k.id === 'hulp-stop
 HULP_STOPT_REDEN.forEach((r) => { if (!hulpStoptStappen.some((x) => x.startsWith(r.begin))) throw new Error(`hulp-stopt.md: geen stap begint met "${r.begin}" (zie HULP_STOPT_REDEN in overzicht.astro)`); });
 const wordt18Stappen = alleStappen(knelpunten.find((k) => k.id === 'wordt-18')!);
 WORDT_18.forEach((w) => { if (!wordt18Stappen.some((x) => x.startsWith(w.begin))) throw new Error(`wordt-18.md: geen stap begint met "${w.begin}" (zie WORDT_18 in overzicht.astro)`); });
+const wachtStappen = alleStappen(knelpunten.find((k) => k.id === 'wachten')!);
+WACHT_OP.forEach((w) => { if (!wachtStappen.some((x) => x.startsWith(w.begin))) throw new Error(`wachten.md: geen stap begint met "${w.begin}" (zie WACHT_OP in overzicht.astro)`); });
+if (!wachtStappen.some((x) => x.includes(WACHT_ZIN))) throw new Error(`wachten.md: geen stap bevat "${WACHT_ZIN}" (zie WACHT_ZIN in overzicht.astro)`);
+Object.values(WACHT_LEAD).forEach((begin) => { if (!wachtStappen.some((x) => x.startsWith(begin))) throw new Error(`wachten.md: geen stap begint met "${begin}" (zie WACHT_LEAD in overzicht.astro)`); });
 const brieven = (await getCollection('brieven'));
 const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente, wijkteamBovenaan: k.data.wijkteamBovenaan }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -247,6 +273,20 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
               </div>
             </Verdieping>
           )}
+          {k.id === 'wachten' && (
+            <Verdieping id="wachten" naarStappen="stappen-wachten" uitleg="Kies waarop u wacht, dan ziet u alleen de stappen die daarbij horen. Wacht u op de gemeente, dan ziet u met de datum van uw aanvraag ook tot wanneer de gemeente heeft.">
+              <div class="field vd-keuze"><span id="wt-op-kop">Waarop wacht u?</span>
+                <div class="chips-select" role="group" aria-labelledby="wt-op-kop">
+                  {WACHT_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-wt-op>{o.label}</button>)}
+                </div>
+              </div>
+              {/* Alleen bij wachten op de gemeente: de termijn van acht weken loopt vanaf de dag dat de gemeente de aanvraag kreeg. */}
+              <div class="field vd-datum" data-wt-datum-vraag hidden><label for="wt-datum">Wanneer kreeg de gemeente uw aanvraag?</label><span class="th-veld" data-min-jaren="-3" data-max-jaren="0"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id="wt-datum" data-th-invoer data-wt-datum /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span><span class="meta vd-hint">Staat meestal in de ontvangstbevestiging.</span></div>
+              {/* Pas als de acht weken voorbij zijn: eerder kan een ingebrekestelling niet. */}
+              <div class="field vd-datum" data-wt-ingebreke-vraag hidden><label for="wt-ingebreke">Al een ingebrekestelling gestuurd? Wanneer kreeg de gemeente die?</label><span class="th-veld" data-min-jaren="-3" data-max-jaren="0"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id="wt-ingebreke" data-th-invoer data-wt-ingebreke /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span><span class="meta vd-hint">Nog niet gestuurd? Laat dit dan leeg.</span></div>
+              <p class="meta vd-melding" data-wt-melding hidden></p>
+            </Verdieping>
+          )}
           {k.id === 'wordt-18' && (
             <Verdieping id="wordt-18" titel="Meer passend advies bij de overgang naar 18" naarStappen="stappen-wordt-18">
               {/* Geen uitleg: de vragen spreken voor zich en het blok moet kort blijven, anders staan de stappen ver weg (op de telefoon 1042 px tot stap 1). */}
@@ -296,7 +336,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'geld' && <p class="meta o5"><a href={`${base}/landelijk/#05-financieel`}>Dubbele kinderbijslag en andere regelingen: wat u opschrijft en hoe u aanvraagt →</a></p>}
           {k.data.brieven.length > 0 && (<div class="o7" data-brieven-blok>
             <h3>Voorbeeldbrieven</h3>
-            <div class="grid" data-generieke-brieven>{k.data.brieven.map((id) => { const b = brieven.find((x) => x.id === id); return b && <BriefKaart b={b} />; })}</div>
+            <div class="grid" data-generieke-brieven>{k.data.brieven.map((id) => { const b = brieven.find((x) => x.id === id); return b && <BriefKaart b={b} zoek={k.id === 'wachten' ? KLACHT_BIJ_WACHTEN[id] : undefined} />; })}</div>
             {k.id === 'beginnen' && situaties.map((sit) => {
               // Per situatie: de brieven die bij de routes van die situatie horen, in volgorde van de routes. Lege lijst = generieke brieven tonen.
               const types = sit.data.routes.map((r) => r.type as string);
@@ -417,10 +457,10 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
    </div>
   </div>
 </Base>
-<script is:inline set:html={`window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
+<script is:inline set:html={`window.__jrKlachtWachten = ${JSON.stringify(KLACHT_BIJ_WACHTEN)}; window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
 <script>
   import { laadGemeente, laadNieuweGemeente } from '../lib/gemeente-blokken';
-  import { dagenTot, leesDatum } from '../lib/termijnen';
+  import { dagenTot, leesDatum, beslissenTot, volgendeDag, naIngebrekestelling, schrijf } from '../lib/termijnen';
   import { koppelDatumvelden } from '../lib/datumveld';
   import { koppelSuggesties } from '../lib/suggesties';
   type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
@@ -428,6 +468,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean; wijkteamBovenaan: boolean }>;
   // Beginstand uit URL of localStorage; de keuzecomponenten sturen daarna events bij wijziging.
   const params = new URLSearchParams(location.search);
+  const KLACHT_WACHTEN = (window as any).__jrKlachtWachten as Record<string, string>;
   let sel: string[] = (params.get('s') ?? localStorage.getItem('jr.situaties') ?? '').split(',').filter(Boolean);
   let gem = params.get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '';
   let kp = params.get('k') ?? localStorage.getItem('jr.knelpunt') ?? '';
@@ -751,6 +792,134 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     w18Blok.querySelector<HTMLElement>('[data-vd-gevolg]')!.hidden = !ingevuld;
     if (!ingevuld || !samenvatting) w18Blok.removeAttribute('data-vd-ingeklapt');
   };
+  // Verdieping bij "Wij wachten te lang": waarop wacht u (?wacht=gemeente|aanbieder); bij de gemeente wanneer die de aanvraag kreeg
+  // (?aanvraag=jjjj-mm-dd) en, als de acht weken voorbij zijn, wanneer die de ingebrekestelling kreeg (?ingebreke=jjjj-mm-dd).
+  // Uit de URL of van een eerder bezoek.
+  const WT_KEY = 'jr.wachten';
+  const wtBewaard = (() => { try { return JSON.parse(localStorage.getItem(WT_KEY) ?? '{}'); } catch { return {}; } })();
+  const wtBlok = document.querySelector<HTMLElement>('[data-verdieping="wachten"]');
+  const wtKeuzes = Array.from(wtBlok?.querySelectorAll<HTMLButtonElement>('[data-wt-op]') ?? []);
+  const wtVeld = wtBlok?.querySelector<HTMLInputElement>('[data-wt-datum]');
+  const wtIbVeld = wtBlok?.querySelector<HTMLInputElement>('[data-wt-ingebreke]');
+  const wtMelding = wtBlok?.querySelector<HTMLElement>('[data-wt-melding]');
+  const isoDatum = (s: unknown) => (typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s) ? s : '');
+  const alsDatum = (s: string) => (s ? new Date(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)) : null);
+  let aanvraag = isoDatum(params.get('aanvraag') ?? wtBewaard.aanvraag);
+  let ingebreke = isoDatum(params.get('ingebreke') ?? wtBewaard.ingebreke);
+  // Een datum van de aanvraag hoort altijd bij wachten op de gemeente.
+  let wachtOp: string = params.get('wacht') ?? wtBewaard.op ?? (aanvraag ? 'gemeente' : '');
+  if (!wtKeuzes.some((b) => b.value === wachtOp)) wachtOp = '';
+  /** De termijnen bij de antwoorden. Acht weken na ontvangst van de aanvraag (Awb 4:13, naar de eerstvolgende werkdag); de dag erna is
+   *  de gemeente te laat en kan de ingebrekestelling (4:17). Een ingebrekestelling van vóór die dag telt niet mee. */
+  const wtTermijn = () => {
+    const d = wachtOp === 'gemeente' ? alsDatum(aanvraag) : null;
+    const tot = d && beslissenTot(d);
+    const vanaf = tot && volgendeDag(tot);
+    const voorbij = !!vanaf && dagenTot(vanaf) <= 0;
+    const i = alsDatum(ingebreke);
+    const ib = voorbij && i && i >= vanaf! && dagenTot(i) <= 0 ? i : null;
+    return { d, tot, vanaf, voorbij, ib };
+  };
+  const wtGewijzigd = () => {
+    const { d, ib } = wtTermijn();
+    const datum = d ? aanvraag : '', ibDatum = ib ? ingebreke : '';
+    if (wachtOp) localStorage.setItem(WT_KEY, JSON.stringify({ op: wachtOp, aanvraag: datum, ingebreke: ibDatum })); else localStorage.removeItem(WT_KEY);
+    const u = new URL(location.href);
+    if (wachtOp) u.searchParams.set('wacht', wachtOp); else u.searchParams.delete('wacht');
+    if (datum) u.searchParams.set('aanvraag', datum); else u.searchParams.delete('aanvraag');
+    if (ibDatum) u.searchParams.set('ingebreke', ibDatum); else u.searchParams.delete('ingebreke');
+    history.replaceState(history.state, '', u);
+    render();
+  };
+  // Alles beantwoord, dan inklappen: bij de aanbieder meteen; bij de gemeente na de datum van de aanvraag, maar zijn de acht weken
+  // voorbij, dan pas na de ingebrekestelling (die vraag komt er dan bij; leeg laten mag).
+  const wtKlapIn = () => {
+    const { d, voorbij, ib } = wtTermijn();
+    if (wachtOp === 'aanbieder' || (d && (!voorbij || ib))) wtBlok?.setAttribute('data-vd-ingeklapt', '');
+  };
+  /** Een getypte datum lezen: null als hij (nog) niet klopt, met een melding als er genoeg getypt is. */
+  const wtLees = (veld: HTMLInputElement, voorbeeld: string, wat: string, vroegst?: Date | null) => {
+    const d = leesDatum(veld.value);
+    const toekomst = !!d && dagenTot(d) > 0;
+    const teVroeg = !!d && !!vroegst && d < vroegst;
+    const melding = toekomst ? `Deze datum ligt in de toekomst. Vul de datum in waarop de gemeente ${wat} kreeg.`
+      : teVroeg ? `Deze datum ligt vóór ${schrijf(vroegst!)}, toen de acht weken nog niet voorbij waren. Een te vroege ingebrekestelling telt meestal niet; stuur er zo nodig een nieuwe.`
+      : !d && veld.value.replace(/\D/g, '').length >= 8 ? `Vul de datum in als dd-mm-jjjj, bijvoorbeeld ${voorbeeld}.` : '';
+    if (wtMelding) { wtMelding.hidden = !melding; wtMelding.textContent = melding; }
+    return { iso: d && !toekomst && !teVroeg ? iso(d) : '', leeg: !veld.value.trim() };
+  };
+  if (wtBlok && wtVeld && wtIbVeld) {
+    wtVeld.value = aanvraag ? aanvraag.split('-').reverse().join('-') : '';
+    wtIbVeld.value = ingebreke ? ingebreke.split('-').reverse().join('-') : '';
+    koppelDatumvelden();
+    // Bij een tweede bezoek staat het antwoord voorop, niet de vragen.
+    if (wachtOp) wtBlok.setAttribute('data-vd-ingeklapt', '');
+    // Eén keuze; nog eens klikken haalt hem weg.
+    wtKeuzes.forEach((b) => b.addEventListener('click', () => {
+      wachtOp = wachtOp === b.value ? '' : b.value;
+      wtKlapIn();
+      wtGewijzigd();
+    }));
+    wtVeld.addEventListener('input', () => {
+      const { iso: nieuw, leeg } = wtLees(wtVeld, '15-09-2026', 'uw aanvraag');
+      if (nieuw !== aanvraag && (nieuw || leeg)) { aanvraag = nieuw; if (nieuw) wtKlapIn(); wtGewijzigd(); }
+    });
+    wtIbVeld.addEventListener('input', () => {
+      const { iso: nieuw, leeg } = wtLees(wtIbVeld, '05-10-2026', 'uw ingebrekestelling', wtTermijn().vanaf);
+      if (nieuw !== ingebreke && (nieuw || leeg)) { ingebreke = nieuw; if (nieuw) wtKlapIn(); wtGewijzigd(); }
+    });
+    wtBlok.querySelector('[data-vd-wissen]')?.addEventListener('click', () => {
+      wachtOp = ''; aanvraag = ''; ingebreke = ''; wtVeld.value = ''; wtIbVeld.value = '';
+      if (wtMelding) wtMelding.hidden = true;
+      wtBlok.removeAttribute('data-vd-ingeklapt');
+      wtGewijzigd();
+    });
+  }
+  /** Tekent wat de antwoorden doen: alleen de stappen en brieven van de gekozen route, en met de datums de termijnen bij de stappen. */
+  const tekenWachten = () => {
+    const blok = document.querySelector<HTMLElement>('[data-knelpunt-blok="wachten"]');
+    if (!wtBlok || !blok) return;
+    wtKeuzes.forEach((b) => b.setAttribute('aria-pressed', String(b.value === wachtOp)));
+    const gemeente = wachtOp === 'gemeente';
+    const { d, tot, vanaf, voorbij, ib } = wtTermijn();
+    wtBlok.querySelector<HTMLElement>('[data-wt-datum-vraag]')!.hidden = !gemeente;
+    wtBlok.querySelector<HTMLElement>('[data-wt-ingebreke-vraag]')!.hidden = !voorbij;
+    const n = d ? -dagenTot(d) : 0;
+    const samenvatting = !wachtOp ? ''
+      : !d ? (gemeente ? 'U wacht op een gesprek of besluit van de gemeente.' : 'U wacht op een plek bij een aanbieder.')
+      : n === 0 ? 'De gemeente kreeg uw aanvraag vandaag.'
+      : `U wacht sinds ${datumKort(d)} op de gemeente (${n < 14 ? `${n} ${n === 1 ? 'dag' : 'dagen'}` : `${Math.floor(n / 7)} weken`})${ib ? `; uw ingebrekestelling kwam aan op ${datumKort(ib)}` : ''}.`;
+    const sv = wtBlok.querySelector<HTMLElement>('[data-vd-samenvatting]');
+    // Zonder datum herhaalt de samenvatting alleen de keuze: dan alleen ingeklapt zichtbaar (zie CSS).
+    if (sv) { sv.textContent = samenvatting; sv.toggleAttribute('data-alleen-ingeklapt', !d); }
+    wtBlok.querySelector<HTMLElement>('[data-vd-wissen]')!.hidden = !wachtOp;
+    wtBlok.querySelector<HTMLElement>('[data-vd-gevolg]')!.hidden = !wachtOp;
+    if (!wachtOp) wtBlok.removeAttribute('data-vd-ingeklapt');
+    blok.querySelectorAll<HTMLElement>('[data-wacht-op]').forEach((e) => { e.closest('li')!.hidden = !!wachtOp && e.dataset.wachtOp !== wachtOp; });
+    // Valt stap 1 weg, dan begint de nummering van de overige stappen bij 1 (zoals bij "De hulp stopt").
+    const zonderEen = Array.from(blok.querySelectorAll<HTMLElement>('.stap-een > li')).every((li) => li.hidden);
+    blok.querySelectorAll<HTMLElement>('ol.o4[data-aanvraag-stappen]').forEach((ol) => (ol.style.counterReset = zonderEen ? 'step 0' : ''));
+    // Brieven aan de gemeente of het wijkteam (ingebrekestelling, klacht over het wijkteam) of aan de aanbieder (klacht) alleen bij die route.
+    blok.querySelectorAll<HTMLElement>('[data-brief-kaart]').forEach((a) => { const aan = a.dataset.aan === 'wijkteam' ? 'gemeente' : a.dataset.aan; a.hidden = !!wachtOp && (aan === 'gemeente' || aan === 'aanbieder') && aan !== wachtOp; });
+    // De termijnen als datum, gemarkeerd zodat te zien is wat de datum doet.
+    const mark = (t: string) => Object.assign(document.createElement('mark'), { className: 'stap-datum', textContent: t });
+    blok.querySelectorAll<HTMLElement>('[data-wacht-zin]').forEach((e) => {
+      if (!tot) { e.textContent = e.dataset.wachtZin!; return; }
+      e.replaceChildren(`De gemeente ${voorbij ? 'had' : 'moet'} in de regel uiterlijk `, mark(schrijf(tot)), `${voorbij ? ' moeten' : ''} beslissen (acht weken na uw aanvraag). Heeft de gemeente u laten weten dat het langer duurt? Dan geldt die datum.`);
+    });
+    // Twee weken na ontvangst van de ingebrekestelling: dwangsom en rechter (Awb 4:17 lid 3, 6:12 lid 2).
+    const rechter = ib && naIngebrekestelling(ib).vanaf;
+    blok.querySelectorAll<HTMLElement>('[data-wacht-lead]').forEach((e) => {
+      const ingebrekestelling = e.dataset.wachtLead === 'ingebrekestelling';
+      const rest = e.parentElement?.querySelector<HTMLElement>(`[data-wacht-rest="${e.dataset.wachtLead}"]`);
+      // De ingebrekestelling is al verstuurd: dan is die stap gedaan en hoeft de uitleg om hem te sturen er niet meer bij.
+      if (rest) rest.hidden = ingebrekestelling && !!ib;
+      if (ingebrekestelling && ib) e.replaceChildren('Gedaan: de gemeente kreeg uw ingebrekestelling op ', mark(schrijf(ib)), '.');
+      else if (ingebrekestelling && vanaf) e.replaceChildren(...(voorbij ? [mark('Nu'), ': is er nog geen besluit?'] : ['Is er op ', mark(schrijf(vanaf)), ' nog geen besluit?']));
+      else if (!ingebrekestelling && rechter) e.replaceChildren(...(dagenTot(rechter) <= 0 ? [mark('Nu'), ': is er nog steeds geen besluit?'] : ['Is er op ', mark(schrijf(rechter)), ' nog geen besluit?']));
+      else e.textContent = e.dataset.origineel!;
+    });
+  };
   if (keuzes && (sel.length || kp || gem)) { keuzes.open = false; document.querySelectorAll<HTMLElement>('[data-intro]').forEach((e) => (e.hidden = true)); }
   const render = () => {
     const active = sel.filter((id) => data[id]);
@@ -786,7 +955,11 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     const schoolEerst = kpActive === 'beginnen' && !!active[0] && data[active[0]].routes[0] === 'school';
     // "De hulp stopt" met een andere reden dan een besluit van de gemeente: bezwaar (blok en brief) hoort er dan niet bij.
     const geenBezwaar = kpActive === 'hulp-stopt' && !!reden && reden !== 'gemeente';
-    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen.filter((o) => !(schoolEerst && o === 'aanbieders') && !(geenBezwaar && o === 'bezwaar'));
+    // "Wij wachten te lang": wie op de gemeente wacht, kiest nog geen aanbieder; wie op een aanbieder wacht, stuurt geen ingebrekestelling (postadres).
+    const wachtNiet = kpActive === 'wachten' ? ({ gemeente: ['aanbieders'], aanbieder: ['postadres', 'klacht'] } as Record<string, string[]>)[wachtOp] ?? [] : [];
+    const onderdelen = !kpActive ? [] : licht ? ['toegang'] : knel[kpActive].onderdelen.filter((o) => !(schoolEerst && o === 'aanbieders') && !(geenBezwaar && o === 'bezwaar') && !wachtNiet.includes(o));
+    // De link naar de klachtbrief in het klachtblok van de gemeente: bij wachten met de klacht over de wachttijd al aan.
+    (q('a[data-klachtbrief]') as HTMLAnchorElement[]).forEach((a) => { const u = new URL(a.href); u.search = kpActive === 'wachten' ? KLACHT_WACHTEN['klacht-toegangsteam'] : ''; a.href = u.toString(); });
     q('[data-eerste-contact], [data-knelpunt-gemeente]').forEach((e) => (e.hidden = zonderGemeente));
     // Staat de cliëntondersteuner al onder een stap, dan niet nog eens in "Hierbij handig".
     const coBijStap = !!kpActive && !!document.querySelector(`[data-knelpunt-blok="${kpActive}"] [data-co-stap] [data-geladen]`);
@@ -916,6 +1089,10 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     tekenVerhuizing();
     tekenHulpStopt();
     tekenWordt18();
+    tekenWachten();
+    // Een link naar een klachtbrief in "Hierbij handig" alleen als die brief niet al bij de stappen of de voorbeeldbrieven staat.
+    const opPagina = (pad: string) => !!q(`[data-knelpunt-blok="${kpActive}"] a.stap-brief, [data-knelpunt-blok="${kpActive}"] a[data-brief-kaart]`).find((x) => !x.closest('[hidden]') && new URL((x as HTMLAnchorElement).href).pathname === pad);
+    (q('a[data-klachtbrief]') as HTMLAnchorElement[]).forEach((a) => { a.parentElement!.hidden = opPagina(new URL(a.href).pathname); });
     // Pas aan het eind: hieronder hangt af van wat hierboven zichtbaar is gemaakt.
     // Echte volgorde in de HTML (ook voor schermlezers): contact direct onder de kop, vóór de uitleg en de stappen
     // (persona-tests: ouders zoeken eerst wie ze moeten bellen); "hierbij handig" na de overige stappen.

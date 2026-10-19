@@ -34,6 +34,14 @@ const metPostadres = ['ingebrekestelling', 'bezwaar-beschikking'].includes(b.id)
 const postadressen = metPostadres
   ? Object.fromEntries((await getCollection('gemeenten')).map((g) => [g.id, [g.data.naam, register.gemeenten.find((x: { cbsCode: string; postadres?: string }) => x.cbsCode === g.data.cbsCode)?.postadres ?? '']]))
   : {};
+// Klachtbrieven: de brief moet de tussenkoppen hebben waaronder de gekozen klachten komen (zie het veld klachten in content.config.ts).
+if (d.klachten.length) ['**Wat er is gebeurd.**', '**Wat ik vraag.**'].forEach((kop) => { if (!b.body?.includes(kop)) throw new Error(`brieven/${b.id}.md: klachten zonder de tussenkop ${kop}`); });
+// Klacht bij het wijkteam: het klachtadres (e-mail, anders post) van de gekozen gemeente in de brief; zonder adres een link naar de regeling.
+// De naam in de gegevens is een omschrijving ("Klacht over het Lokaal Team"), geen geadresseerde; die staat daarom alleen in de uitleg.
+const metKlachtadres = b.id === 'klacht-toegangsteam';
+const klachtadressen = metKlachtadres
+  ? Object.fromEntries((await getCollection('gemeenten')).map((g) => { const k = g.data.rechten.klacht; return [g.id, [g.data.naam, k.naam, k.email ?? k.adres ?? '', k.url ?? '']]; }))
+  : {};
 const titelVan = (id: string) => alleSituaties.find((x) => x.id === id)?.data.titel ?? id;
 import TermijnenHulp from '../../components/TermijnenHulp.astro';
 const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de gemeente', wijkteam: 'Aan het wijkteam', huisarts: 'Aan de huisarts of jeugdarts', aanbieder: 'Aan de hulpverlener', overig: 'Aan meerdere partijen' };
@@ -47,12 +55,24 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
   </div>
   <div class="page-with-side">
     <aside class="side">
-      <nav aria-label="Tips">
-        <strong>Voor u verstuurt</strong>
+      {/* Geen <nav>: tips zijn geen navigatie, en in een nav krijgen moeilijke woorden (griffierecht, kenmerk) geen uitleg (Base.astro). */}
+      <section class="side-blok" aria-label="Tips">
+        <strong class="side-kop">Voor u verstuurt</strong>
         <ul class="tips-lijst">{d.tips.map((t) => <li>{t}</li>)}</ul>
-      </nav>
+      </section>
     </aside>
     <div>
+      {d.klachten.length > 0 && (
+        <section class="klacht-keuze" aria-labelledby="klacht-kop">
+          <h2 id="klacht-kop">Waarover gaat uw klacht?</h2>
+          <p class="meta">Kies alles wat past. Dan staat in de brief alleen wat bij uw klacht hoort, met plekken om in te vullen. Nog eens klikken haalt het weer weg.</p>
+          <div class="chips-select" role="group" aria-labelledby="klacht-kop">
+            {d.klachten.map((k) => <button type="button" class="chip-btn" aria-pressed="false" value={k.id} data-klacht data-gebeurd={k.gebeurd} data-vraag={k.vraag}>{k.label}</button>)}
+          </div>
+          {/* De brief verandert lager op de pagina, op de telefoon buiten beeld (persona-test Sanne). Zoals "De stappen zijn aangepast" bij de verdiepingen. */}
+          <p class="klacht-gevolg"><a href="#brief-tekst" data-klacht-gevolg hidden></a></p>
+        </section>
+      )}
       <div class="brief-acties">
         <button type="button" class="btn primary" data-kopieer><Icon name="file" class="inline-icon" /> Kopieer de brief</button>
         <span class="meta" data-kopieer-status aria-live="polite"></span>
@@ -60,7 +80,8 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       {b.id === 'bezwaar-beschikking' && <TermijnenHulp soort="bezwaar" inBrief />}
       {b.id === 'ingebrekestelling' && <TermijnenHulp soort="besluit" inBrief />}
       {metPostadres && <p class="meta" data-postadres-uitleg hidden></p>}
-      <article class="brief" data-brief><Content /></article>
+      {metKlachtadres && <p class="meta" data-klachtadres-uitleg hidden></p>}
+      <article class="brief" id="brief-tekst" data-brief><Content /></article>
       <p class="meta" style="margin-top:1rem">Vul de velden tussen [haken] in en verwijder wat niet van toepassing is. Dit is een voorbeeld, geen juridisch advies.</p>
       {metTherapie && (
         <section class="section" id="therapie-in-brief" data-alleen-met-situatie={b.id === 'bezwaar-beschikking' ? '' : undefined}>
@@ -106,6 +127,7 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
   </div>
 </Base>
 {metPostadres && <script is:inline set:html={`window.__jrPostadres = ${JSON.stringify(postadressen)};`} />}
+{metKlachtadres && <script is:inline set:html={`window.__jrKlachtadres = ${JSON.stringify(klachtadressen)};`} />}
 <script>
   import { zetTerugLink } from '../../lib/terug';
   // Gemeente gekozen? Dan staan naam en postadres al in de brief. Het adres in het besluit gaat voor; dat staat er bij bezwaar bij.
@@ -126,6 +148,28 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       });
       const uitleg = document.querySelector<HTMLElement>('[data-postadres-uitleg]');
       if (uitleg) { uitleg.textContent = `Naam en postadres van de gemeente ${naam} staan al in de brief. U koos die gemeente eerder op deze site.`; uitleg.hidden = false; }
+    }
+  }
+
+  // Klacht bij het wijkteam: het klachtadres van de gekozen gemeente in de brief (persona-test Sanne: ze moest het zelf opzoeken).
+  {
+    const ka = (window as any).__jrKlachtadres as Record<string, [string, string, string, string]> | undefined;
+    const hit = ka?.[localStorage.getItem('jr.gemeente') ?? ''];
+    const uitleg = document.querySelector<HTMLElement>('[data-klachtadres-uitleg]');
+    if (hit && uitleg) {
+      const [naam, wat, adres, url] = hit;
+      const plek = '[e-mailadres voor klachten, zie de gemeentepagina]';
+      if (adres) {
+        // Het adres bepaalt waar de brief heen gaat; dan is "de klachtenfunctionaris" genoeg als geadresseerde. Een naam van de organisatie
+        // kennen we niet betrouwbaar (de gegevens hebben een omschrijving van de klachtroute, geen geadresseerde).
+        document.querySelectorAll<HTMLElement>('[data-brief] p').forEach((p) => { if (p.textContent?.includes(plek)) p.innerHTML = p.innerHTML.replace('[naam organisatie], t.a.v. de klachtenfunctionaris', 'de klachtenfunctionaris').replace(plek, adres.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]!)); });
+        uitleg.textContent = `Het klachtadres in ${naam} staat al in de brief (${wat}). U koos die gemeente eerder op deze site.`;
+        // De tip verwijst dan niet meer naar de gemeentepagina.
+        document.querySelectorAll<HTMLElement>('.tips-lijst li, .tips-mobiel li').forEach((li) => { if (li.textContent?.includes('Dat adres staat op de pagina van uw gemeente.')) li.textContent = "Stuur de klacht per e-mail naar het klachtadres dat in de brief staat. Zet 'klacht' in het onderwerp."; });
+      } else if (url) {
+        uitleg.append(`Waar u in ${naam} een klacht indient (${wat}), staat in de `, Object.assign(document.createElement('a'), { href: url, target: '_blank', rel: 'noopener', textContent: 'klachtenregeling ↗' }), '.');
+      }
+      uitleg.hidden = !uitleg.textContent;
     }
   }
 
@@ -232,6 +276,43 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
     zetInBrief();
   }));
   document.querySelector('[data-toon-alles]')?.addEventListener('click', () => { alles = true; toon(); });
+  // Klachtbrieven: de gekozen klachten (?klacht=a,b) vervangen de voorbeeldregels onder "Wat er is gebeurd" en de verzoeken na het
+  // eerste onder "Wat ik vraag". Zonder keuze staat de brief zoals hij is.
+  {
+    const knoppen = qa('[data-klacht]') as HTMLButtonElement[];
+    const lijstNa = (kop: string) => {
+      const p = qa('[data-brief] p').find((x) => x.querySelector('strong')?.textContent?.trim() === kop);
+      const l = p?.nextElementSibling;
+      return l && /^(UL|OL)$/.test(l.tagName) ? (l as HTMLElement) : null;
+    };
+    const gebeurd = lijstNa('Wat er is gebeurd.'), vraag = lijstNa('Wat ik vraag.');
+    const orig = [gebeurd?.innerHTML ?? '', vraag?.innerHTML ?? ''];
+    const eerste = vraag?.firstElementChild?.outerHTML ?? '';
+    const li = (t: string) => Object.assign(document.createElement('li'), { textContent: t });
+    let keuze = (new URLSearchParams(location.search).get('klacht') ?? '').split(',').filter((id) => knoppen.some((b) => b.value === id));
+    const teken = () => {
+      knoppen.forEach((b) => b.setAttribute('aria-pressed', String(keuze.includes(b.value))));
+      const gekozenKnoppen = knoppen.filter((b) => keuze.includes(b.value));
+      if (gebeurd && vraag) {
+        if (!gekozenKnoppen.length) { gebeurd.innerHTML = orig[0]; vraag.innerHTML = orig[1]; }
+        else {
+          gebeurd.replaceChildren(...gekozenKnoppen.map((b) => li(b.dataset.gebeurd!)));
+          vraag.innerHTML = eerste;
+          vraag.append(...gekozenKnoppen.map((b) => li(b.dataset.vraag!)));
+        }
+      }
+      // Hoeveel klachten er in de brief staan: zo is ook te zien dat er al een aanstaat (via een link, zoals ?klacht=duurt-lang).
+      document.querySelectorAll<HTMLElement>('[data-klacht-gevolg]').forEach((a) => { a.hidden = !keuze.length; a.textContent = `${keuze.length} ${keuze.length === 1 ? 'klacht' : 'klachten'} toegevoegd ↓`; });
+      const u = new URL(location.href);
+      if (keuze.length) u.searchParams.set('klacht', keuze.join(',')); else u.searchParams.delete('klacht');
+      history.replaceState(history.state, '', u);
+    };
+    knoppen.forEach((b) => b.addEventListener('click', () => {
+      keuze = keuze.includes(b.value) ? keuze.filter((x) => x !== b.value) : [...keuze, b.value];
+      teken();
+    }));
+    if (knoppen.length) teken();
+  }
   toon();
   const btn = document.querySelector<HTMLButtonElement>('[data-kopieer]');
   const status = document.querySelector<HTMLElement>('[data-kopieer-status]');
@@ -264,7 +345,16 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       }
       status!.textContent = 'Gekopieerd. Plak de tekst in een e-mail of document.';
     }
-    catch { status!.textContent = 'Kopiëren lukte niet; selecteer de tekst en kopieer handmatig.'; }
+    catch {
+      // Geen toegang tot het klembord (sommige browsers en telefoons): de brief selecteren en de oude manier van kopiëren proberen.
+      // Lukt ook dat niet, dan blijft de brief geselecteerd, zodat de ouder alleen nog "Kopiëren" hoeft te kiezen (persona-tests Mark, Sanne).
+      const sel = window.getSelection();
+      if (brief && sel) { const r = document.createRange(); r.selectNodeContents(brief); sel.removeAllRanges(); sel.addRange(r); }
+      let gelukt = false;
+      try { gelukt = document.execCommand('copy'); } catch { gelukt = false; }
+      status!.textContent = gelukt ? 'Gekopieerd. Plak de tekst in een e-mail of document.' : 'De brief is geselecteerd. Kies Kopiëren (of Ctrl+C) en plak hem in een e-mail.';
+      if (!gelukt) brief?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }
   });
   zetTerugLink();
 </script>

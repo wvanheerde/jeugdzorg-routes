@@ -40,3 +40,4 @@ Kopieer een bestaand scenario. Houd "Voor de tester" in de taal en kennis van de
 - 2026-10-13: 7 persona's en scenario's toegevoegd (09 Lisa thuiszitter, 10 Ahmed scheiding, 11 Ingrid pgb, 12 Kees geen besluit, 13 Naima hulp werkt niet/EMDR, 14 Rob "Hoe gaat het hier?", 15 Monique zorgen om kinderen van haar zus). Totaal 15.
 - 2026-10-13 (na ronde 16): `kijk` toont een regelovergang (`<br>`) als " / ". Daarvoor plakten regels aan elkaar ("Postbus 901505600 RB"); runs tot en met ronde 16 lazen adressen in brieven zo.
 - 2026-10-18: knelpunt "Wij verhuizen of de hulp stopt" gesplitst in "Wij verhuizen" en "De hulp stopt". Persona Bas en scenario 16 (aanbieder stopt, Zwolle) toegevoegd. Totaal 16.
+- 2026-10-18: scenario's 17 (Mark, klacht aan de aanbieder) en 18 (Sanne, klacht bij het wijkteam, telefoon) toegevoegd voor de klachtbrieven met keuzes. Totaal 18.

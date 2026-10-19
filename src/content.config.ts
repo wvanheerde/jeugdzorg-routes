@@ -402,6 +402,12 @@ const brieven = defineCollection({
     /** Externe voorbeelden of achtergrond, met officiële bron. */
     bronnen: z.array(bron).default([]),
     situaties: z.array(z.string()).default([]),
+    /**
+     * Klachtbrieven: waarover de klacht kan gaan. De ouder kiest er een of meer; dan komt `gebeurd` als regel onder
+     * "**Wat er is gebeurd.**" en `vraag` onder "**Wat ik vraag.**" (na het eerste verzoek), in plaats van de voorbeeldregels.
+     * De brief moet die twee tussenkoppen hebben, met direct daaronder een lijst (controle bij het bouwen, brieven/[slug].astro).
+     */
+    klachten: z.array(z.object({ id: z.string().regex(/^[a-z-]+$/), label: z.string(), gebeurd: z.string(), vraag: z.string() })).default([]),
     volgorde: z.number(),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   }),

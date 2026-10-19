@@ -20,3 +20,7 @@ Functionaliteit: Moeilijke woorden
     Gegeven ik open de pagina "begrippen/"
     Als ik "xyzzy" zoek in "Zoek een woord"
     Dan zie ik "Dit woord staat er (nog) niet bij."
+
+  Scenario: Griffierecht heeft uitleg, want ouders betalen het als ze naar de rechter gaan
+    Gegeven ik open de pagina "brieven/ingebrekestelling/"
+    Dan is "griffierecht" een moeilijk woord met uitleg

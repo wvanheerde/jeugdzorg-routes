@@ -1,6 +1,6 @@
 /** Stappen voor de briefbouwer, de terug-link, scrollen, de balk onderaan, de zijnavigatie en de inhoudsopgave. */
 import { expect, type Page } from '@playwright/test';
-import { When, Then } from './fixtures';
+import { Given, When, Then } from './fixtures';
 
 const schoon = (s: string) => s.replace(/­/g, '').replace(/\s+/g, ' ').trim();
 
@@ -26,6 +26,15 @@ Then('staat in de brief {string}', async ({ page }, tekst: string) => {
 });
 Then('staat in de brief niet {string}', async ({ page }, tekst: string) => {
   await expect.poll(async () => schoon((await page.locator('[data-brief]').textContent()) ?? '')).not.toContain(tekst);
+});
+/** Aantal punten in de lijst direct onder een tussenkop van de brief ("Wat er is gebeurd", "Wat ik vraag"). Het laatste woord
+ *  (regels, verzoeken) is alleen voor de leesbaarheid. */
+Then('staan in de brief bij {string} {int} {word}', async ({ page }, kop: string, n: number, _soort: string) => {
+  await expect.poll(() => page.locator('[data-brief]').evaluate((brief, kop) => {
+    const p = Array.from(brief.querySelectorAll('p')).find((x) => x.querySelector('strong')?.textContent?.startsWith(kop));
+    const lijst = p?.nextElementSibling;
+    return lijst && /^(UL|OL)$/.test(lijst.tagName) ? lijst.children.length : -1;
+  }, kop)).toBe(n);
 });
 Then('staat de eerste therapievorm in de brief', async ({ page }) => {
   const zin = await page.locator('.therapie-keuze').locator('visible=true').first().locator('[data-zin]').getAttribute('data-zin');
@@ -111,4 +120,17 @@ When('de kalender bij {string} de datum {string} doorgeeft en sluit', async ({ p
 Then('staat {string} meteen in de url', async ({ page }, stuk: string) => {
   // Sneller dan de wachttijd van 800 ms: bij het sluiten van de kalender geeft het veld de datum direct door.
   await expect.poll(() => decodeURIComponent(page.url()), { timeout: 400 }).toContain(stuk);
+});
+
+// ---------- kopiëren zonder klembord ----------
+/** Zoals op een toestel of in een browser waar de site niet op het klembord mag schrijven. Vóór het openen van de pagina. */
+Given('het klembord werkt niet', async ({ page }) => {
+  await page.addInitScript(() => {
+    const nee = () => Promise.reject(new Error('geen toegang'));
+    Object.defineProperty(navigator, 'clipboard', { value: { write: nee, writeText: nee }, configurable: true });
+    document.execCommand = () => false;
+  });
+});
+Then('is de tekst van de brief geselecteerd', async ({ page }) => {
+  await expect.poll(() => page.evaluate(() => String(window.getSelection() ?? ''))).toContain('Wat er is gebeurd');
 });

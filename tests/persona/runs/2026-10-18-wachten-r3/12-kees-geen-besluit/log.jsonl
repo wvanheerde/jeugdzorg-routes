@@ -1,0 +1,35 @@
+{"stap":1,"tijd":"2026-10-18T17:40:18.521Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-18T17:40:19.057Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-18T17:40:19.107Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1702}
+{"stap":4,"tijd":"2026-10-18T17:40:23.214Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":["eerste.png"]}
+{"stap":5,"tijd":"2026-10-18T17:40:23.250Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 0/20. Ik zoek wat ik formeel kan doen. Eerst gemeente kiezen, dan 'Wij wachten te lang'."],"tekst":"Stap 0/20. Ik zoek wat ik formeel kan doen. Eerst gemeente kiezen, dan 'Wij wachten te lang'."}
+{"stap":6,"tijd":"2026-10-18T17:40:23.601Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["9","Eindhoven"]}
+{"stap":7,"tijd":"2026-10-18T17:40:23.639Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1639}
+{"stap":8,"tijd":"2026-10-18T17:40:28.411Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["12"]}
+{"stap":9,"tijd":"2026-10-18T17:40:28.465Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1825}
+{"stap":10,"tijd":"2026-10-18T17:40:33.955Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["27"]}
+{"stap":11,"tijd":"2026-10-18T17:40:35.807Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["44"]}
+{"stap":12,"tijd":"2026-10-18T17:40:35.870Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1825}
+{"stap":13,"tijd":"2026-10-18T17:40:39.000Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 4/20. Gemeente, 'wachten te lang', 12-18, eetstoornis gekozen. Nu 'Toon mijn overzicht'."],"tekst":"Stap 4/20. Gemeente, 'wachten te lang', 12-18, eetstoornis gekozen. Nu 'Toon mijn overzicht'."}
+{"stap":14,"tijd":"2026-10-18T17:40:40.849Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18","cmd":"klik","args":["49"]}
+{"stap":15,"tijd":"2026-10-18T17:40:40.887Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18","cmd":"kijk","args":[],"lengte":1804}
+{"stap":16,"tijd":"2026-10-18T17:40:44.339Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18","cmd":"foto","args":["overzicht.png"]}
+{"stap":17,"tijd":"2026-10-18T17:40:44.374Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18","cmd":"notitie","args":["Stap 5/20. Acht weken, ik zit op tien. Ik kies 'Een gesprek of besluit van de gemeente' en vul datum in."],"tekst":"Stap 5/20. Acht weken, ik zit op tien. Ik kies 'Een gesprek of besluit van de gemeente' en vul datum in."}
+{"stap":18,"tijd":"2026-10-18T17:40:46.230Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente","cmd":"klik","args":["17"]}
+{"stap":19,"tijd":"2026-10-18T17:40:46.271Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente","cmd":"kijk","args":[],"lengte":1668}
+{"stap":20,"tijd":"2026-10-18T17:40:49.964Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente","cmd":"typ","args":["19","2026-08-09"]}
+{"stap":21,"tijd":"2026-10-18T17:40:50.025Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente","cmd":"kijk","args":[],"lengte":1745}
+{"stap":22,"tijd":"2026-10-18T17:40:54.352Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente","cmd":"notitie","args":["Stap 7/20. ISO-datum werd niet geaccepteerd, hint zegt dd-mm-jjjj. Opnieuw."],"tekst":"Stap 7/20. ISO-datum werd niet geaccepteerd, hint zegt dd-mm-jjjj. Opnieuw."}
+{"stap":23,"tijd":"2026-10-18T17:40:54.708Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente&aanvraag=2026-08-09","cmd":"typ","args":["19","09-08-2026"]}
+{"stap":24,"tijd":"2026-10-18T17:40:54.747Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente&aanvraag=2026-08-09","cmd":"kijk","args":[],"lengte":1700}
+{"stap":25,"tijd":"2026-10-18T17:40:55.321Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente&aanvraag=2026-08-09","cmd":"scroll","args":[]}
+{"stap":26,"tijd":"2026-10-18T17:40:58.660Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente&aanvraag=2026-08-09","cmd":"kijk","args":[],"lengte":2706}
+{"stap":27,"tijd":"2026-10-18T17:41:02.708Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente&aanvraag=2026-08-09","cmd":"foto","args":["stappen.png"]}
+{"stap":28,"tijd":"2026-10-18T17:41:02.739Z","url":"http://127.0.0.1:4329/overzicht/?s=eetstoornis&gemeente=eindhoven&k=wachten&l=12-18&wacht=gemeente&aanvraag=2026-08-09","cmd":"notitie","args":["Stap 8/20. Mooi: 5 oktober had besluit moeten komen, ik ben te laat. Stap: ingebrekestelling sturen, dan twee weken, dan rechter + dwangsom. Ik open de voorbeeldbrief."],"tekst":"Stap 8/20. Mooi: 5 oktober had besluit moeten komen, ik ben te laat. Stap: ingebrekestelling sturen, dan twee weken, dan rechter + dwangsom. Ik open de voorbeeldbrief."}
+{"stap":29,"tijd":"2026-10-18T17:41:04.597Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"klik","args":["32"]}
+{"stap":30,"tijd":"2026-10-18T17:41:04.638Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"kijk","args":[],"lengte":1827}
+{"stap":31,"tijd":"2026-10-18T17:41:08.135Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"scroll","args":[]}
+{"stap":32,"tijd":"2026-10-18T17:41:08.635Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"scroll","args":[]}
+{"stap":33,"tijd":"2026-10-18T17:41:08.677Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"kijk","args":[],"lengte":1794}
+{"stap":34,"tijd":"2026-10-18T17:41:26.729Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"notitie","args":["Stap 12/20. Brief gelezen: aangetekend of per mail naar zelfde adres, twee weken, dan rechter, dwangsom max 1442. Ik weet wat ik doe. Klaar."],"tekst":"Stap 12/20. Brief gelezen: aangetekend of per mail naar zelfde adres, twee weken, dan rechter, dwangsom max 1442. Ik weet wat ik doe. Klaar."}
+{"stap":35,"tijd":"2026-10-18T17:41:26.766Z","url":"http://127.0.0.1:4329/brieven/ingebrekestelling/","cmd":"stop"}

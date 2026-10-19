@@ -42,6 +42,9 @@ const t = t0 && { naam: t0.naam, contact: contacten(t0.contact)[0] };
 const r = d.rechten;
 const spoed = d.toegang.routes.find((x) => x.type === 'spoed');
 const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
+// Het register schrijft sommige nummers met haakjes: "(014) 030" is 14 030 (het verkorte nummer van de gemeente), "(0800) 1809"
+// is 0800 1809. Zo staan ze er zoals u ze intoetst, en werkt de belknop.
+const regTel = reg?.telefoon?.replace(/^\(014\)\s*0?/, '14 0').replace(/^\((0[89]00)\)\s*/, '$1 ');
 ---
 <meta name="robots" content="noindex" />
 
@@ -117,7 +120,7 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
     <div class="onderdelen">
       <div class="onderdeel" data-onderdeel="pgb" hidden><strong>Pgb in {d.naam}</strong><p class="meta">{r.pgb.mogelijk ? '' : 'Een pgb wordt in deze gemeente niet of beperkt verstrekt. '}{r.pgb.toelichting}{r.pgb.url && <> <a href={r.pgb.url} target="_blank" rel="noopener">Meer informatie<span aria-hidden="true"> ↗</span></a></>}</p></div>
       <div class="onderdeel" data-onderdeel="clientondersteuning" hidden><strong>Gratis hulp bij het gesprek</strong><p class="meta">Een cliëntondersteuner denkt met u mee en gaat mee naar het gesprek.</p><Contact contact={r.onafhankelijkeClientondersteuning} /></div>
-      <div class="onderdeel" data-onderdeel="klacht" hidden><strong>Klacht indienen</strong><p class="meta">{r.klacht.toelichting}</p><Contact contact={{ naam: r.klacht.naam, email: r.klacht.email, telefoon: r.klacht.telefoon, url: r.klacht.url }} />{r.klacht.extern && <p class="meta">Extern: {r.klacht.extern.naam}{r.klacht.extern.url && <> · <a href={r.klacht.extern.url} target="_blank" rel="noopener">meer<span aria-hidden="true"> ↗</span></a></>}</p>}</div>
+      <div class="onderdeel" data-onderdeel="klacht" hidden><strong>Klacht over het wijkteam</strong><p class="meta">{r.klacht.toelichting}</p><Contact contact={{ naam: r.klacht.naam, email: r.klacht.email, telefoon: r.klacht.telefoon, url: r.klacht.url }} />{r.klacht.extern && <p class="meta">Extern: {r.klacht.extern.naam}{r.klacht.extern.url && <> · <a href={r.klacht.extern.url} target="_blank" rel="noopener">meer<span aria-hidden="true"> ↗</span></a></>}</p>}<p><a href={`${base}/brieven/klacht-toegangsteam/`} data-klachtbrief="wijkteam">Voorbeeldbrief klacht over het wijkteam →</a></p></div>
       <div class="onderdeel" data-onderdeel="bezwaar" hidden><strong>Bezwaar (binnen 6 weken)</strong><p class="meta">{r.bezwaar.toelichting}{r.bezwaar.url && <> <a href={r.bezwaar.url} target="_blank" rel="noopener">Bezwaar maken<span aria-hidden="true"> ↗</span></a></>}</p></div>
       {postadres && <div class="onderdeel" data-onderdeel="postadres" hidden><strong>Postadres van de gemeente</strong><p class="meta">Hierheen stuurt u een bezwaar of ingebrekestelling, tenzij het besluit een ander adres noemt. Bewaar een kopie. Stuur de brief aangetekend, of per e-mail met een ontvangstbevestiging.</p><p>Gemeente {d.naam}<br />{postadres.split(', ').map((regel, i) => <>{i > 0 && <br />}{regel}</>)}</p></div>}
       {r.vertrouwenspersoon && <div class="onderdeel" data-onderdeel="vertrouwenspersoon" hidden><strong>Vertrouwenspersoon</strong><Contact contact={r.vertrouwenspersoon} /></div>}
@@ -186,5 +189,5 @@ const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
 
 <!-- Mijn overzicht, rechten en regelingen: leerplicht bij "school loopt vast". -->
 <template data-slot="overzicht-leerplicht">
-  {reg?.telefoon && <li data-leerplicht={g.id} hidden><strong>Leerplicht in {d.naam}</strong><p>Bel de gemeente op <a href={`tel:${reg.telefoon.replace(/\s/g, '')}`}>{reg.telefoon}</a> en vraag naar de leerplichtambtenaar.</p></li>}
+  {regTel && <li data-leerplicht={g.id} hidden><strong>Leerplicht in {d.naam}</strong><p>Bel de gemeente op <a href={`tel:${regTel.replace(/\s/g, '')}`}>{regTel}</a> en vraag naar de leerplichtambtenaar.</p></li>}
 </template>

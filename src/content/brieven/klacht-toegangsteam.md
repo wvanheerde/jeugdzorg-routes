@@ -11,12 +11,41 @@ bronnen:
   - titel: "Jeugdstem – Ik heb een klacht over jeugdzorg"
     url: https://jeugdstem.nl/contact/ik-heb-een-klacht
     geraadpleegd: "2026-10-10"
+klachten:
+  - id: duurt-lang
+    label: "Het duurt te lang"
+    gebeurd: "Op [datum] heb ik [naam kind] aangemeld. Daarna heb ik niets meer gehoord."
+    vraag: "Een datum voor het volgende gesprek, en wanneer ik een besluit krijg."
+  - id: bereikbaar
+    label: "Slecht bereikbaar"
+    gebeurd: "Ik heb [aantal] keer gebeld en [aantal] e-mails gestuurd. Ik kreeg geen antwoord."
+    vraag: "Eén vaste contactpersoon, en antwoord op mijn berichten binnen een week."
+  - id: beloften
+    label: "Beloften worden niet nagekomen"
+    gebeurd: "Op [datum] is beloofd dat [wat er beloofd is]. Dat is niet gebeurd."
+    vraag: "Dat wat is afgesproken binnen twee weken gebeurt, en dat ik hoor wie het doet."
+  - id: verslag
+    label: "Geen verslag of plan op papier"
+    gebeurd: "Na het gesprek op [datum] heb ik geen verslag gekregen."
+    vraag: "Het verslag van het gesprek op papier, zodat ik kan nalezen wat er is opgeschreven."
+  - id: kastje-muur
+    label: "Van het kastje naar de muur"
+    gebeurd: "Ik ben [aantal] keer doorgestuurd, zonder dat iemand mijn vraag oppakte."
+    vraag: "Dat mijn vraag wordt opgepakt en ik binnen twee weken antwoord krijg."
+  - id: wisselen
+    label: "Steeds een andere medewerker"
+    gebeurd: "In [aantal] maanden heb ik [aantal] verschillende medewerkers jeugd gesproken. Elke keer moest ik mijn verhaal opnieuw doen."
+    vraag: "Een vaste medewerker jeugd."
+  - id: serieus
+    label: "Niet serieus genomen"
+    gebeurd: "Tijdens het gesprek op [datum] voelde ik mij niet serieus genomen, omdat [wat er gebeurde]."
+    vraag: "Een gesprek met de medewerker jeugd en diens leidinggevende."
 situaties: [autisme, trauma, eetstoornis, dwang-en-tics, verslaving-en-gamen, leerstoornissen, tos, adhd, gedragsproblemen, langdurig-ziek, verstandelijke-beperking, zindelijkheid, mantelzorg, angst-of-somberheid, school-loopt-vast]
 volgorde: 5
-laatstGecontroleerd: "2026-10-17"
+laatstGecontroleerd: "2026-10-18"
 ---
 
-Aan: [naam organisatie], t.a.v. de klachtenfunctionaris
+Aan: [naam organisatie], t.a.v. de klachtenfunctionaris\
 [e-mailadres voor klachten, zie de gemeentepagina]
 
 Betreft: klacht over de hulp aan [naam kind]
@@ -40,7 +69,7 @@ Ik dien hierbij een klacht in over de manier waarop de hulpvraag voor mijn kind 
 2. [Bijvoorbeeld: een gesprek op korte termijn met een vaste contactpersoon.]
 3. [Bijvoorbeeld: een schriftelijk gezinsplan / een schriftelijke beschikking over de aangevraagde hulp.]
 
-Als wij er samen niet uitkomen, leg ik de klacht voor aan de onafhankelijke klachtencommissie. Ik heb de vertrouwenspersoon van Jeugdstem gevraagd mij hierbij te ondersteunen.
+Als wij er samen niet uitkomen, leg ik de klacht voor aan de onafhankelijke klachtencommissie. Ik kan de vertrouwenspersoon van Jeugdstem vragen mij hierbij te ondersteunen.
 
 Met vriendelijke groet,
 

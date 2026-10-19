@@ -27,3 +27,9 @@ Functionaliteit: Gemeenten
   Scenario: Een link naar de ervaringen klapt die open
     Gegeven ik open de pagina "gemeenten/utrecht/#ervaringen"
     Dan staat het onderdeel "Lees wat we vonden" open
+
+  # Het register schrijft verkorte nummers als "(014) 030"; op de site staat het zoals u het intoetst.
+  Scenario: Een verkort nummer van de gemeente staat er zoals u het belt
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situatie "School loopt vast of kind zit thuis"
+    Dan zie ik "Bel de gemeente op 14 030"
+    En zie ik een link om "14030" te bellen

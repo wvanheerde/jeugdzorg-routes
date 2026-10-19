@@ -72,7 +72,7 @@ When('ik de pagina opnieuw open', async ({ page }) => {
 /** Opnieuw openen zonder de antwoorden van de verdieping in de url: dan gelden de bewaarde antwoorden (localStorage). */
 When('ik het overzicht later opnieuw open', async ({ page }) => {
   const u = new URL(page.url());
-  for (const p of ['geboren', 'na18', 'naar', 'datum', 'reden']) u.searchParams.delete(p);
+  for (const p of ['geboren', 'na18', 'naar', 'datum', 'reden', 'wacht', 'aanvraag', 'ingebreke']) u.searchParams.delete(p);
   await page.goto(u.toString());
 });
 

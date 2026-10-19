@@ -34,6 +34,8 @@ Lokale steun bij slaapproblemen, zelfde werkwijze:
 
 ## Na 1 januari 2027
 
+- brieven/ingebrekestelling (tip over de rechter): griffierecht € 200 is het tarief van 2026 voor een natuurlijk persoon (Jeugdwet staat niet in de Regeling verlaagd griffierecht, Awb bijlage 3). Nieuw tarief invullen. (https://www.rechtspraak.nl/naar-de-rechter/kosten-rechtszaak/griffierecht/griffierecht-bestuursrecht)
+
 - wijdemeren: gaat op in de gemeente Hilversum. Hele pagina herzien of samenvoegen met hilversum.
 - stichtse-vecht: toegang gaat van TIM SV naar de gemeente. Naam, contact en routes van het nieuwe team invullen; TIM SV-route weghalen.
 - oosterhout: het Stevig Lokaal Team wordt het startpunt voor hulpvragen. Aanmelding en contactgegevens nakijken. (https://regiowbo.nl/veranderopgaven/stevige-lokale-teams/)
