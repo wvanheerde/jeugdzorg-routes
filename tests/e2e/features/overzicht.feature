@@ -46,6 +46,19 @@ Functionaliteit: Mijn overzicht
       | Rechten en regelingen                 |
       | Organisaties die hierbij passen       |
 
+  Scenario: Begint de situatie op school, dan eerst de stappen met school en de aanvraag van jeugdhulp ingeklapt
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Alphen aan den Rijn" met de situatie "School loopt vast of kind zit thuis"
+    Dan staan de stappen in deze volgorde:
+      | Begin bij school.                                   |
+      | Vraag school schriftelijk om een gesprek            |
+      | Komt u er met school niet uit                       |
+      | Speelt er thuis of bij uw kind meer                 |
+      | Vraag na elk gesprek om de afspraken op papier      |
+    En zie ik "Voorbeeldbrief gesprek met school"
+    En zie ik "Is er toch jeugdhulp nodig? Zo vraagt u die aan"
+    En zie ik "Vraag vóór het eerste gesprek een cliëntondersteuner" niet
+    En zie ik "Vraag ook om het besluit van de gemeente op papier" niet
+
   Scenario: Bij "Extra kosten of kinderbijslag" blijven alleen de rechten en regelingen
     Gegeven ik open de pagina "overzicht/?k=geld&s=adhd"
     Dan zie ik de kop "Rechten en regelingen"

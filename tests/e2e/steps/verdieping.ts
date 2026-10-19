@@ -9,8 +9,9 @@ import { When, Then } from './fixtures';
 const blok = (page: Page) => page.locator('[data-verdieping]').locator('visible=true').first();
 const vraagBlok = (page: Page) => page.locator('[data-knelpunt-blok]').locator('visible=true').first();
 
-/** De vetgedrukte begintekst van elke zichtbare hoofdstap (stap 1 en de genummerde lijst), zonder de ingeklapte "andere stappen". */
-const stappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis) =>
+/** De vetgedrukte begintekst van elke zichtbare hoofdstap (stap 1, de genummerde lijst of de eigen stappen van de situatie),
+ *  zonder de ingeklapte "andere stappen". */
+const stappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').evaluateAll((lis) =>
   lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null)
     .map((li) => {
       // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst.

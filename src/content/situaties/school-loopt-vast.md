@@ -22,6 +22,13 @@ regelingen:
     url: https://www.onderwijsconsulenten.nl/
   - naam: "Leerplichtambtenaar"
     toelichting: "Elke gemeente heeft een leerplichtambtenaar. Gaat uw kind niet naar school, of wijzen school, samenwerkingsverband en gemeente naar elkaar? Bel dan de gemeente en vraag naar leerplicht. De leerplichtambtenaar kan iedereen om tafel brengen."
+stappen:
+  - stap: "Vraag school schriftelijk om een gesprek en om het ontwikkelingsperspectief (OPP). Voor het handelingsdeel van het OPP is uw instemming nodig."
+    brief: gesprek-school-opp
+  - stap: "Komt u er met school niet uit, of wijzen school, samenwerkingsverband en gemeente naar elkaar? Vraag dan één overleg met iedereen samen: school, samenwerkingsverband en wijkteam. Neem iemand mee die met u meedenkt: een adviseur van Ouders & Onderwijs of een cliëntondersteuner van de gemeente. Beide zijn gratis."
+    brief: gezamenlijk-overleg
+  - "Speelt er thuis of bij uw kind meer, zoals angst, somberheid of problemen in het gezin? Vraag dan ook jeugdhulp aan, bij het wijkteam of via de huisarts. Hoe dat gaat, leest u hieronder."
+  - "Vraag na elk gesprek om de afspraken op papier. Houd zelf een logboek bij van afspraken en gebeurtenissen. Dat helpt bij elke volgende stap."
 volgorde: 3
 laatstGecontroleerd: "2026-10-17"
 bronnen:

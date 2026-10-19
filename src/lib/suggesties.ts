@@ -2,7 +2,7 @@
  * Suggestielijst onder een tekstveld, in plaats van een <datalist>. Een datalist met alle woonplaatsen (ruim 2000) maakte
  * de telefoon traag: het leek alsof de browser vastliep. Deze lijst toont hooguit een paar treffers voor wat er getypt is.
  * Kiezen zet de tekst in het veld en geeft een input- en change-event, zodat de pagina dezelfde code houdt als bij typen.
- * Gebruikt door de gemeentekeuze (zoeken op woonplaats) en de verdieping bij de verhuizing (overzicht.astro).
+ * Gebruikt door de gemeentekeuze (zoeken op woonplaats) en de verdieping bij de verhuizing (src/scripts/overzicht/verhuizing.ts).
  */
 const MAX = 8;
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();

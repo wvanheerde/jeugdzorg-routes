@@ -448,7 +448,7 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 /* "Waarom stopt de hulp?": met de vragen open is de gekozen optie zelf de samenvatting. */
 [data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) [data-vd-samenvatting] { display: none; }
 [data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) .vd-acties { margin-top: 0; }
-/* "Waarop wacht u?": zonder datum herhaalt de samenvatting alleen de keuze; dan ook alleen ingeklapt (data-alleen-ingeklapt, overzicht.astro). */
+/* "Waarop wacht u?": zonder datum herhaalt de samenvatting alleen de keuze; dan ook alleen ingeklapt (data-alleen-ingeklapt, src/scripts/overzicht/wachten.ts). */
 .verdieping:not([data-vd-ingeklapt]) [data-vd-samenvatting][data-alleen-ingeklapt] { display: none; }
 .verdieping:not([data-vd-ingeklapt]) .vd-samenvatting:has([data-alleen-ingeklapt]) .vd-acties { margin-top: 0; }
 .verdieping .vd-acties { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; margin-top: .3rem; }

@@ -7,6 +7,7 @@
  * inBrief: op de briefpagina; de gekozen datum gaat dan ook de brief in (event jr:termijn, zie brieven/[slug].astro). Heeft de ouder
  *   in Mijn overzicht bij "Wij wachten te lang" al datums ingevuld (jr.wachten), dan staan die er meteen in en is de rekenhulp open.
  */
+import DatumVeld from './DatumVeld.astro';
 interface Props { soort: 'bezwaar' | 'besluit'; brief?: string; inBrief?: boolean }
 const { soort, brief, inBrief = false } = Astro.props;
 // Eigen id per veld, zodat alleen het label en het veld zelf de kalender openen (niet de ruimte ernaast).
@@ -18,17 +19,17 @@ const uid = Math.random().toString(36).slice(2, 8);
     : <summary>Reken uit wanneer de gemeente moet beslissen</summary>}
   {soort === 'bezwaar' ? (
     <div class="th-blok">
-      <div class="th-label"><label for={`th-besluit-${uid}`}>Datum op het besluit</label><span class="th-veld"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id={`th-besluit-${uid}`} data-th-invoer="besluit" /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span></div>
+      <div class="th-label"><label for={`th-besluit-${uid}`}>Datum op het besluit</label><DatumVeld id={`th-besluit-${uid}`} invoer="besluit" /></div>
       <div class="th-uitkomst" data-th-uitkomst="besluit" aria-live="polite" hidden></div>
     </div>
   ) : (<>
     <div class="th-blok">
-      <div class="th-label"><label for={`th-aanvraag-${uid}`}>Datum waarop de gemeente uw aanvraag kreeg</label><span class="th-veld"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id={`th-aanvraag-${uid}`} data-th-invoer="aanvraag" /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span></div>
+      <div class="th-label"><label for={`th-aanvraag-${uid}`}>Datum waarop de gemeente uw aanvraag kreeg</label><DatumVeld id={`th-aanvraag-${uid}`} invoer="aanvraag" /></div>
       <div class="th-uitkomst" data-th-uitkomst="aanvraag" aria-live="polite" hidden></div>
       {brief && <p class="th-brief" data-th-brief hidden><a href={brief}>Voorbeeldbrief ingebrekestelling →</a></p>}
     </div>
     <div class="th-blok">
-      <div class="th-label"><label for={`th-ingebreke-${uid}`}>Al een ingebrekestelling gestuurd? Datum waarop de gemeente die kreeg</label><span class="th-veld"><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id={`th-ingebreke-${uid}`} data-th-invoer="ingebreke" /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span></div>
+      <div class="th-label"><label for={`th-ingebreke-${uid}`}>Al een ingebrekestelling gestuurd? Datum waarop de gemeente die kreeg</label><DatumVeld id={`th-ingebreke-${uid}`} invoer="ingebreke" /></div>
       <div class="th-uitkomst" data-th-uitkomst="ingebreke" aria-live="polite" hidden></div>
     </div>
   </>)}

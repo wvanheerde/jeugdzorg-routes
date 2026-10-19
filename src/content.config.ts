@@ -320,6 +320,12 @@ const situaties = defineCollection({
     jgzVoorop: z.boolean().default(false),
     /** Wel het wijkteam voorop, maar de aanvraagstappen ingeklapt en de eigen samenvatting als inleiding (zoals onveilig thuis). */
     aanvraagIngeklapt: z.boolean().default(false),
+    /**
+     * Eigen stappen bij "Ik wil hulp aanvragen", na stap 1 (Begin bij …), voor een situatie die niet met een aanvraag bij de gemeente
+     * begint (zoals school loopt vast). Dan staan de aanvraagstappen ingeklapt en is de samenvatting de inleiding, zoals bij
+     * aanvraagIngeklapt. Een stap is tekst, of tekst met een voorbeeldbrief (id uit src/content/brieven) als link achter de stap.
+     */
+    stappen: z.array(z.union([z.string(), z.object({ stap: z.string(), brief: z.string() })])).optional(),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

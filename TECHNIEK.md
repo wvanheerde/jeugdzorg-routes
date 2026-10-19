@@ -29,6 +29,7 @@ src/content/organisaties/      landelijke organisaties (JSON)
 src/pages/                     routes: /, /gemeenten/, /situaties/, /landelijk/, /organisaties/,
                                /therapievormen/, /brieven/, /overzicht/, /over/, robots.txt
 src/layouts, src/components    opmaak
+src/scripts/overzicht/         browserscript van Mijn overzicht: keuzes, verdiepingen (één bestand per vraag), render
 src/site.ts                    repository-link en GoatCounter-code
 scripts/                       validatie, linkcheck, sitemap, scaffold, dagboek-docx (bouwt public/downloads/dagboek-zorg-twee-weken.docx)
 scripts/data/                  register van gemeenten en gedeelde regiogegevens (jeugdregio, GGD)

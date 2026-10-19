@@ -1,0 +1,18 @@
+---
+/** Verdieping bij "Wij wachten te lang": waarop wacht u, en de datums voor de termijnen. Script: src/scripts/overzicht/wachten.ts. */
+import Verdieping from './Verdieping.astro';
+import DatumVeld from './DatumVeld.astro';
+import { WACHT_KEUZE } from '../lib/verdiepingen';
+---
+<Verdieping id="wachten" naarStappen="stappen-wachten" uitleg="Kies waarop u wacht, dan ziet u alleen de stappen die daarbij horen. Wacht u op de gemeente, dan ziet u met de datum van uw aanvraag ook tot wanneer de gemeente heeft.">
+  <div class="field vd-keuze"><span id="wt-op-kop">Waarop wacht u?</span>
+    <div class="chips-select" role="group" aria-labelledby="wt-op-kop">
+      {WACHT_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-wt-op>{o.label}</button>)}
+    </div>
+  </div>
+  {/* Alleen bij wachten op de gemeente: de termijn van acht weken loopt vanaf de dag dat de gemeente de aanvraag kreeg. */}
+  <div class="field vd-datum" data-wt-datum-vraag hidden><label for="wt-datum">Wanneer kreeg de gemeente uw aanvraag?</label><DatumVeld id="wt-datum" minJaren={-3} maxJaren={0} veld="wt-datum" /><span class="meta vd-hint">Staat meestal in de ontvangstbevestiging.</span></div>
+  {/* Pas als de acht weken voorbij zijn: eerder kan een ingebrekestelling niet. */}
+  <div class="field vd-datum" data-wt-ingebreke-vraag hidden><label for="wt-ingebreke">Al een ingebrekestelling gestuurd? Wanneer kreeg de gemeente die?</label><DatumVeld id="wt-ingebreke" minJaren={-3} maxJaren={0} veld="wt-ingebreke" /><span class="meta vd-hint">Nog niet gestuurd? Laat dit dan leeg.</span></div>
+  <p class="meta vd-melding" data-wt-melding hidden></p>
+</Verdieping>

@@ -2,7 +2,7 @@
 /**
  * De inhoud van één stap in Mijn overzicht (ook een vervolgstap A, B): vet begin, de brief, het contactregeltje van genoemde
  * organisaties, de plekken voor gemeentegegevens (cliëntondersteuner, aanbieders), de rekenhulp en de tips-link.
- * De keuze wat bij een stap hoort, staat in src/pages/overzicht.astro (stapProps).
+ * De keuze wat bij een stap hoort, staat in src/lib/stap-props.ts.
  */
 import OrgRegel from './OrgRegel.astro';
 import TermijnenHulp from './TermijnenHulp.astro';
@@ -18,10 +18,10 @@ interface Props {
   stand?: 'doorlooptijd' | 'ervaringen';
   termijn?: 'bezwaar' | 'besluit';
   tips?: boolean;
-  /** Verhuizing: plek in de tijdlijn (de kop komt uit de verdieping, zie overzicht.astro) en of hier de nieuwe gemeente komt. */
+  /** Verhuizing: plek in de tijdlijn (de kop komt uit de verdieping, zie src/scripts/overzicht/verhuizing.ts) en of hier de nieuwe gemeente komt. */
   moment?: 'nu' | 'voor' | 'na' | 'pleeg';
   nieuw?: boolean;
-  /** "De hulp stopt": bij welke reden de stap hoort (verdieping "Waarom stopt de hulp?", zie overzicht.astro). */
+  /** "De hulp stopt": bij welke reden de stap hoort (verdieping "Waarom stopt de hulp?", zie src/lib/verdiepingen.ts). */
   reden?: string;
   /** "Mijn kind wordt 18": het begin van de stap (woorden) wordt in de verdieping een datum; soort = bij welke hulp na 18 de stap hoort. */
   wanneer?: { woorden: string; moment: string; soort?: string; weken?: number };

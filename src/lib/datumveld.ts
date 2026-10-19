@@ -5,7 +5,7 @@
  * dan kan de ouder gewoon typen.
  * Een datum uit de kalender staat meteen in het tekstveld, maar het input-event (waarop de pagina rekent) komt pas als de ouder
  * even stilstaat of de kalender sluit. Sommige kalenders geven elke datum door waar de ouder langs gaat; dan rekende de pagina
- * bij elke stap opnieuw. Gebruikt door de rekenhulp (TermijnenHulp.astro) en de verdiepingen in overzicht.astro.
+ * bij elke stap opnieuw. Gebruikt door de rekenhulp (TermijnenHulp.astro) en de verdiepingen van Mijn overzicht (src/scripts/overzicht/).
  * Markup: <span class="th-veld"><input data-th-invoer> <button data-th-kalender> <input type="date" data-th-datum></span>.
  * Grenzen voor de kalender: data-min-jaren / data-max-jaren op .th-veld, in jaren vanaf vandaag (negatief = terug), bijvoorbeeld
  * data-min-jaren="-23" data-max-jaren="0" voor een geboortedatum. Typen buiten de grenzen kan nog; de pagina beslist wat dat betekent.
