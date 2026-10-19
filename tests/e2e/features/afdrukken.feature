@@ -84,6 +84,7 @@ Functionaliteit: Afdrukken of bewaren als PDF
       | een gemeentepagina             | gemeenten/utrecht/            | Hier meldt u zich in Utrecht      |
       | een therapievorm               | therapievormen/cgt-insomnie/  | Wat is het en hoe werkt het?      |
       | de pagina met landelijke rechten | landelijk/                  | De Jeugdwet in het kort           |
+      | het vel om een gesprek voor te bereiden | gesprek/             | Uw contacten                      |
 
   Scenario: Een gemeentepagina op papier: lijsten, adressen, zonder "Direct regelen" en de knoppen naar de onderdelen
     Gegeven ik open de pagina "gemeenten/utrecht/"

@@ -122,6 +122,14 @@ Then('staan onder stap {string} de vervolgstappen:', async ({ page }, stap: stri
 });
 
 /** Het contactregeltje van een organisatie (naam en website, OrgRegel) staat onder deze vervolgstap, en nergens anders in de vraag. */
+// Een link bij een stap (zoals naar het vel om het gesprek voor te bereiden): onder welke genummerde stap staat hij?
+Then('staat de link {string} onder de stap {string}', async ({ page }, naam: string, stap: string) => {
+  const link = page.getByRole('link', { name: naam }).locator('visible=true');
+  await expect(link).toHaveCount(1);
+  const tekst = await link.evaluate((a) => a.closest('ol.steps > li')?.textContent?.trim() ?? 'niet onder een stap');
+  expect(tekst.startsWith(stap), tekst.slice(0, 80)).toBe(true);
+});
+
 Then('staat de link naar {string} onder de vervolgstap {string}', async ({ page }, org: string, stap: string) => {
   const regels = vraagBlok(page).locator('.stap-org', { has: page.locator('strong', { hasText: org }) }).locator('visible=true');
   await expect(regels).toHaveCount(1);

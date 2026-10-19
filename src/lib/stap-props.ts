@@ -28,6 +28,7 @@ const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met
  * - de aanbieders (Beschikbaarheidswijzer of gemeentepagina) onder de eerste stap over een andere aanbieder;
  * - het wijkteam onder de eerste stap die het noemt, als het niet bovenaan staat (wijkteamBovenaan: false);
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
+ * - bij "Zet uw vraag op papier" het vel om het gesprek voor te bereiden (/gesprek/);
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
  * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts);
  * - bij wachten, afgewezen, gescheiden en uitbreiden: de route, rol of het gezag van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
@@ -61,6 +62,7 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         aanbieders: x === aanb,
         wijkteam: x === wt,
         stand: metGemeente && x === alle[0] ? k.data.standInGemeente : undefined,
+        gesprek: k.id === 'beginnen' && x.startsWith('Zet uw vraag op papier'),
         tips: k.id === 'beginnen' && x.startsWith('Vindt u de stap spannend'),
         moment: k.id === 'verhuizing' ? verhuisMoment(x) : undefined,
         nieuw: k.id === 'verhuizing' && verhuisMoment(x) === 'na',

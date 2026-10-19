@@ -7,6 +7,7 @@
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { deflateRawSync, crc32 } from 'node:zlib';
+import dagboek from './data/dagboek.json' with { type: 'json' };
 
 const UIT = 'public/downloads/dagboek-zorg-twee-weken.docx';
 const DAGEN = 14;
@@ -171,7 +172,7 @@ function dagpagina(n) {
         { kop: 'Datum', breedte: 0.3 },
         { kop: 'Wat voor dag was het?', breedte: 0.7 },
       ],
-      [['', '☐ betere dag     ☐ gemiddelde dag     ☐ zware dag']],
+      [['', dagboek.soortenDag.map((d) => `☐ ${d}`).join('     ')]],
       { hoogte: 480, eersteKolomGrijs: false },
     ),
     h2('Verzorging'),
@@ -303,7 +304,7 @@ const samenvatting = [
       { kop: 'Antwoord', breedte: 0.45 },
     ],
     [
-      ['Hoeveel zware dagen waren er?', ''],
+      ['Hoeveel slechte dagen waren er?', ''],
       ['Hoeveel nachten was uw kind wakker en had het u nodig?', ''],
       ['Hoe lang was u in die nachten bij elkaar wakker?', ''],
       ['Hoeveel moeilijke momenten waren er?', ''],

@@ -107,6 +107,22 @@ Then('staat bij elke website het adres', async ({ page }) => {
   }
 });
 
+// ---------- gespreksvoorbereiding (gesprek/) ----------
+When('ik naar de pagina {string} ga', async ({ page }, pad: string) => {
+  await page.goto(pad.replace(/^\//, ''));
+});
+Then('heeft het dagboek {int} dagen om in te vullen', async ({ page }, n: number) => {
+  await expect(page.locator('[data-dagboek] tbody tr').locator('visible=true')).toHaveCount(n);
+});
+// De contacten komen uit de gemeenteblokken (zoals in Mijn overzicht): wijkteam en cliëntondersteuner.
+const contactenOpVel = (page: Page) => page.locator('[data-vel-contacten] .stap-contact').locator('visible=true');
+Then('staan er geen contacten van een gemeente op het vel', async ({ page }) => {
+  await expect(contactenOpVel(page)).toHaveCount(0);
+});
+Then('staan het wijkteam en de cliëntondersteuner van de gemeente op het vel', async ({ page }) => {
+  await expect(contactenOpVel(page)).toHaveCount(2);
+});
+
 // ---------- menu ----------
 When('ik het menu open', async ({ page }) => {
   await page.locator('[data-menu-knop]').click();

@@ -1,0 +1,112 @@
+---
+/**
+ * Uw gesprek met het wijkteam voorbereiden: een vel om af te drukken en met de hand in te vullen. De site bewaart niets van
+ * wat de ouder invult. Teksten komen uit bestaande bronnen (src/lib/gesprek.ts): de invulvakken uit de voorbeeldbrief
+ * "Hulpvraag aan het wijkteam", de zinnen en het verslag uit de landelijke uitleg "Hulp vragen", de soorten dagen uit
+ * scripts/data/dagboek.json (ook voor het Word-dagboek), de contacten uit de gemeenteblokken (zoals in Mijn overzicht).
+ */
+import Base from '../layouts/Base.astro';
+import AfdrukKnop from '../components/AfdrukKnop.astro';
+import AfdrukKop from '../components/AfdrukKop.astro';
+import GemeenteKeuze from '../components/GemeenteKeuze.astro';
+import Sources from '../components/Sources.astro';
+import { getEntry } from 'astro:content';
+import dagboek from '../../scripts/data/dagboek.json';
+import { VRAGEN, sectie, alinea, briefKopjes, blokken, vet } from '../lib/gesprek';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const hulpVragen = await getEntry('landelijk', '02b-hulp-vragen');
+const brief = await getEntry('brieven', 'aanvraag-jeugdhulp');
+const toegang = await getEntry('landelijk', '02-toegang');
+const beginnen = await getEntry('knelpunten', 'beginnen');
+if (!hulpVragen || !brief || !toegang || !beginnen) throw new Error('Vel gespreksvoorbereiding: een bronbestand ontbreekt (02b-hulp-vragen, aanvraag-jeugdhulp, 02-toegang of beginnen).');
+const waarHulp = 'src/content/landelijk/02b-hulp-vragen.md';
+const zinnen = blokken(sectie(hulpVragen.body ?? '', 'Vertel wat uw kind nodig heeft', waarHulp));
+const verslag = alinea(hulpVragen.body ?? '', 'Na het gesprek krijgt u', waarHulp);
+const kopjes = briefKopjes(brief.body ?? '', ['Wat er speelt', 'Wat wij al geprobeerd hebben', 'Wat het betekent voor ons gezin', 'Wat wij willen bereiken'], 'src/content/brieven/aanvraag-jeugdhulp.md');
+const DAGEN = 7;
+// Bronnen van de teksten waar het vel op steunt, één keer per adres.
+const bronnen = [hulpVragen, toegang, beginnen].flatMap((e) => e.data.bronnen).filter((b, n, a) => a.findIndex((x) => x.url === b.url) === n);
+const laatste = [hulpVragen.data.laatstGecontroleerd, toegang.data.laatstGecontroleerd, beginnen.data.laatstGecontroleerd].sort().at(-1) ?? '';
+/** Aantal lege schrijfregels. */
+const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
+---
+<Base title="Uw gesprek voorbereiden" description="Een vel om af te drukken en mee te nemen naar het gesprek met het wijkteam: wat er speelt, een dagboek van een week, zinnen die helpen en vragen om te stellen.">
+  <div class="page-head">
+    <span class="eyebrow">Om af te drukken</span>
+    <h1>Uw gesprek met het wijkteam voorbereiden</h1>
+    <AfdrukKop />
+    <p class="lead">Druk dit vel af en vul het met de hand in. U hoeft niet alles in te vullen. Neem het mee naar het gesprek; dan hoeft u niets uit uw geheugen te halen.</p>
+  </div>
+  <AfdrukKnop />
+
+  <section class="section vel" id="contacten">
+    <h2>Uw contacten</h2>
+    <div class="alleen-scherm vel-gemeente"><GemeenteKeuze /></div>
+    <div class="vel-velden" data-vel-contacten>
+      <div class="vel-veld"><span class="vel-label">Wijkteam</span><div class="vel-waarde" data-gemeente-slot="overzicht-wijkteam-stap">{rij(1).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</div></div>
+      <div class="vel-veld"><span class="vel-label">Cliëntondersteuner</span><div class="vel-waarde" data-gemeente-slot="overzicht-co-stap">{rij(1).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</div></div>
+      <div class="vel-veld"><span class="vel-label">Datum en tijd van het gesprek</span><div class="vel-waarde">{rij(1).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</div></div>
+      <div class="vel-veld"><span class="vel-label">Wie gaat er mee?</span><div class="vel-waarde">{rij(1).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</div></div>
+    </div>
+  </section>
+
+  <section class="section vel" id="wat-er-speelt">
+    <h2>Uw vraag op papier</h2>
+    {kopjes.map((k) => (
+      <div class="vel-blok">
+        <h3>{k.kop}</h3>
+        <p class="meta">{k.uitleg}</p>
+        {rij(4).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}
+      </div>
+    ))}
+  </section>
+
+  <section class="section vel" id="dagboek">
+    <h2>Slechte en betere dagen</h2>
+    <p>Schrijf een week lang elke dag kort op wat er gebeurde en wat u extra deed. Vul ook de betere dagen in. Dan kunt u in het gesprek zeggen hoe vaak de slechte dagen voorkomen.</p>
+    <div class="tabel-scroll">
+      <table class="vel-dagboek" data-dagboek>
+        <thead><tr><th scope="col">Datum</th><th scope="col">Wat voor dag?</th><th scope="col">Wat gebeurde er?</th><th scope="col">Wat deed u extra, en hoe lang?</th></tr></thead>
+        <tbody>{Array.from({ length: DAGEN }, () => <tr><td></td><td>{dagboek.soortenDag.map((d) => <span class="vel-vakje">☐ {d}</span>)}</td><td></td><td></td></tr>)}</tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section vel" id="zinnen">
+    <h2>Zinnen die kunnen helpen</h2>
+    {zinnen.map((b) => b.soort === 'ul'
+      ? <ul>{b.items.map((i) => <li>{vet(i).map((d) => (d.vet ? <strong>{d.tekst}</strong> : d.tekst))}</li>)}</ul>
+      : <p>{vet(b.tekst).map((d) => (d.vet ? <strong>{d.tekst}</strong> : d.tekst))}</p>)}
+    <p class="meta alleen-scherm">Meer uitleg: <a href={`${base}/landelijk/#02b-hulp-vragen`}>Hulp vragen: eerlijk, volledig en zonder schaamte</a>.</p>
+  </section>
+
+  <section class="section vel" id="vragen">
+    <h2>Vragen die u kunt stellen</h2>
+    <p>Kruis aan wat u wilt vragen. Schrijf het antwoord eronder.</p>
+    {VRAGEN.map((g) => (
+      <div class="vel-blok">
+        <h3>{g.moment}</h3>
+        <ul class="vel-vragen">{g.vragen.map((v) => <li><span class="vel-vakje" aria-hidden="true">☐</span> {v}{rij(2).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</li>)}</ul>
+      </div>
+    ))}
+  </section>
+
+  <section class="section vel" id="na-het-gesprek">
+    <h2>Na het gesprek</h2>
+    <div class="vel-blok"><h3>Wat is er afgesproken?</h3>{rij(4).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</div>
+    <div class="vel-blok"><h3>Wie doet wat, en wanneer?</h3>{rij(3).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</div>
+    <p>{verslag}</p>
+  </section>
+
+  <Sources bronnen={bronnen} laatstGecontroleerd={laatste} />
+</Base>
+<script>
+  import { laadGemeente } from '../lib/gemeente-blokken';
+  import { bijwerken } from '../scripts/afdrukken';
+  // De contacten van de gekozen gemeente (zelfde blokken als in Mijn overzicht); zonder gemeente blijven de lege regels staan.
+  // Daarna de adressen bij de websites opnieuw zetten voor op papier.
+  const laad = (slug: string) => laadGemeente(slug).then((ok) => ok && bijwerken());
+  laad(new URLSearchParams(location.search).get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '');
+  document.addEventListener('jr:gemeente', (e) => laad((e as CustomEvent).detail));
+</script>

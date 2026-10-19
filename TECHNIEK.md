@@ -110,7 +110,7 @@ Maak een gratis account op [goatcounter.com](https://www.goatcounter.com) (voor 
 
 ## Afdrukken of bewaren als PDF
 
-Mijn overzicht, de gemeentepagina's, de therapievormen en de landelijke rechten hebben een link "Afdrukken of bewaren als PDF" (printer-icoon, rechts boven het eerste blok). Het gedrag ligt vast in `tests/e2e/features/afdrukken.feature`.
+Mijn overzicht, de gemeentepagina's, de therapievormen, de landelijke rechten en het vel om een gesprek voor te bereiden (`/gesprek/`) hebben een link "Afdrukken of bewaren als PDF" (printer-icoon, rechts boven het eerste blok). Het gedrag ligt vast in `tests/e2e/features/afdrukken.feature`.
 
 **Een pagina toevoegen** (twee regels):
 1. `<AfdrukKop />` in de `page-head`, onder de `h1`: alleen op papier, met datum en adres van de pagina (`wat="dit overzicht"` voor een andere omschrijving).
@@ -123,6 +123,12 @@ Mijn overzicht, de gemeentepagina's, de therapievormen en de landelijke rechten 
 - Kaarten en blokken naast elkaar (`.grid`, `.linklist`, `.onderdelen`) worden een lijst onder elkaar.
 - Weg: voorbeeldbrieven en "Direct regelen" (online doen, niet op papier).
 - Bij een link naar een andere site staat het korte adres (`data-adres`, gezet door `src/scripts/afdrukken.ts`); Mijn overzicht zet dat na elke keer tekenen opnieuw, met de keuzes in het adres van de pagina.
+
+**Vel "Uw gesprek met het wijkteam voorbereiden"** (`src/pages/gesprek.astro`, scenario's in `gesprek.feature`): om af te drukken en met de hand in te vullen; de site bewaart niets. Alleen de vragen staan op het vel zelf (`src/lib/gesprek.ts`; bronnen per vraag in `docs/onderzoek/concept-gespreksvragen-2026-10-19.md`). De rest komt uit bestaande bronnen, zodat het niet uit elkaar loopt; verdwijnt een kop of zin die het vel nodig heeft, dan faalt de build:
+- invulvakken: de vetgedrukte kopjes met uitleg uit de voorbeeldbrief `brieven/aanvraag-jeugdhulp.md`;
+- zinnen die helpen en de alinea over het verslag: `landelijk/02b-hulp-vragen.md` (kop "Vertel wat uw kind nodig heeft", alinea "Na het gesprek krijgt u …");
+- soorten dagen in het dagboek: `scripts/data/dagboek.json`, ook gebruikt door `scripts/dagboek-docx.mjs` (Word-dagboek; draai dat script opnieuw na een wijziging);
+- wijkteam en cliëntondersteuner: de gemeenteblokken van Mijn overzicht (`overzicht-wijkteam-stap`, `overzicht-co-stap`).
 
 ## Uitbreiden met interactie
 
