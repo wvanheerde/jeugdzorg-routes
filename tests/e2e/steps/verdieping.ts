@@ -5,6 +5,7 @@
 import { expect, type Page } from '@playwright/test';
 import type { DataTable } from 'playwright-bdd';
 import { When, Then } from './fixtures';
+import { stapContacten, gemeenteSlug } from './inhoud';
 
 const blok = (page: Page) => page.locator('[data-verdieping]').locator('visible=true').first();
 const vraagBlok = (page: Page) => page.locator('[data-knelpunt-blok]').locator('visible=true').first();
@@ -122,6 +123,26 @@ Then('staan onder stap {string} de vervolgstappen:', async ({ page }, stap: stri
 });
 
 /** Het contactregeltje van een organisatie (naam en website, OrgRegel) staat onder deze vervolgstap, en nergens anders in de vraag. */
+// Contactregels onder de stappen (wijkteam, cliëntondersteuner): telefoon, e-mail en website, voor zover de gemeente die heeft.
+Then('staan bij de contacten onder de stappen telefoon, e-mail en website zoals {string} ze heeft', async ({ page }, gemeente: string) => {
+  const bekend = stapContacten(gemeenteSlug(gemeente));
+  const regels = page.locator('#nu-doen .stap-org').locator('visible=true');
+  await expect.poll(() => regels.count()).toBeGreaterThan(0);
+  let getoetst = 0;
+  for (const r of await regels.all()) {
+    // Zonder naam (zoals de link naar de aanbieders) is het geen contact.
+    if (!(await r.locator('strong').count())) continue;
+    const naam = (await r.locator('strong').first().textContent())?.trim();
+    const c = bekend.find((x) => x.naam === naam);
+    if (!c) continue;
+    getoetst++;
+    if (c.telefoon) await expect(r.locator('a[href^="tel:"]'), `telefoon bij ${naam}`).toHaveCount(1);
+    if (c.email) await expect(r.locator('a[href^="mailto:"]'), `e-mail bij ${naam}`).toHaveCount(1);
+    if (c.url) await expect(r.locator('a[href^="http"]'), `website bij ${naam}`).toHaveCount(1);
+  }
+  expect(getoetst, 'contactregels van de gemeente onder de stappen').toBeGreaterThan(0);
+});
+
 // Een link bij een stap (zoals naar het vel om het gesprek voor te bereiden): onder welke genummerde stap staat hij?
 Then('staat de link {string} onder de stap {string}', async ({ page }, naam: string, stap: string) => {
   const link = page.getByRole('link', { name: naam }).locator('visible=true');

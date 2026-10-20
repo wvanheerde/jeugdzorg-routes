@@ -84,3 +84,16 @@ Functionaliteit: Mijn overzicht
     Als ik een stuk naar beneden scroll
     En ik op de zwevende knop "Keuzes aanpassen" druk
     Dan staan de keuzes open
+
+  Scenario: Bij een contact onder een stap staan telefoon, e-mail en website
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situatie "ADHD en ADD"
+    Dan staan bij de contacten onder de stappen telefoon, e-mail en website zoals "Utrecht" ze heeft
+
+  Scenario: Ook in de regel "Liever eerst het wijkteam?" staan telefoon, e-mail en website
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Haarlem" met de situatie "Angst of somberheid"
+    Dan zie ik "Dat mag ook:"
+    En staan bij de contacten onder de stappen telefoon, e-mail en website zoals "Haarlem" ze heeft
+
+  Scenario: Ook bij het wijkteam onder een latere stap staan telefoon, e-mail en website
+    Gegeven ik open het overzicht voor "Wij wachten te lang" in "Haarlem"
+    Dan staan bij de contacten onder de stappen telefoon, e-mail en website zoals "Haarlem" ze heeft

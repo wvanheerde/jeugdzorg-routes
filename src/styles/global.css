@@ -502,9 +502,9 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .stap-contact { display: block; margin-top: 0; font-size: .95rem; font-weight: 400; color: var(--c-muted, inherit); }
 .stap-org { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1.1rem; }
 .stap-org { margin-top: .6rem; }
-#nu-doen .stap-tips { display: block; margin-top: .4rem; font-size: .95rem; font-weight: 400; }
+#nu-doen .stap-tips { display: block; margin-top: .4rem; font-size: .9rem; font-weight: 400; }
 .stap-org strong { font-weight: 600; flex-basis: 100%; }
-.stap-org .ci { display: inline-flex; align-items: baseline; gap: .4rem; }
+.stap-org .ci { display: inline-flex; align-items: baseline; gap: .4rem; font-size: .85rem; } /* telefoon, e-mail en website kleiner dan de naam */
 .stap-org .ico { align-self: center; color: var(--c-primary); }
 /* Mijn overzicht: witregel tussen de lokale initiatieven */
 .lokale-steun > li + li { margin-top: 1rem; }
@@ -536,7 +536,7 @@ body:has(.cta-balk:not([hidden])) { padding-bottom: 6rem; }
 .woonplaats-zoek .meta { margin: 0; color: inherit; }
 .woonplaats-zoek .meta:empty { display: none; }
 /* Brieflink op een eigen regel onder de stap, niet vet: achter de zin maakte het geheel druk. */
-#nu-doen .stap-brief { display: block; width: fit-content; margin-top: .4rem; font-size: .95rem; font-weight: 400; }
+#nu-doen .stap-brief { display: block; width: fit-content; margin-top: .4rem; font-size: .9rem; font-weight: 400; }
 #nu-doen .wijkteam-regel { margin: .25rem 0 1rem; padding: .6rem .8rem; background: var(--c-primary-soft); border-radius: 8px; }
 
 /* Kaarten met een knop onderaan (hulpvorm in de brief): knop en link onderaan de kaart, per rij op gelijke hoogte */
@@ -635,8 +635,7 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .ico-calendar { --ico: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Crect width=%2218%22 height=%2218%22 x=%223%22 y=%224%22 rx=%222%22/%3E%3Cpath d=%22M16 2v4M8 2v4M3 10h18%22/%3E%3C/svg%3E"); }
 
 /* Regel "Liever eerst het wijkteam?": telefoonnummer met icoon, niet afbreken. */
-.wijkteam-regel .wt-tel { white-space: nowrap; margin-left: .3rem; }
-.wijkteam-regel .wt-tel .ico { margin-right: .3rem; color: var(--c-primary); vertical-align: -.12em; }
+.wijkteam-regel > .stap-org { margin-top: .2rem; }
 .wijkteam-regel .wt-gelijk, [data-gelijk] .wijkteam-regel .wt-alt { display: none; }
 [data-gelijk] .wijkteam-regel .wt-gelijk { display: inline; }
 /* Gekozen hulp of therapievorm in een brief. */

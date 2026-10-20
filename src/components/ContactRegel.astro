@@ -1,0 +1,10 @@
+---
+/**
+ * Eén contact als regel onder een stap of route: de naam en daarachter telefoon, e-mail en website, met iconen. Altijd alles
+ * wat bekend is; eerder toonden sommige regels alleen het telefoonnummer. Gebruikt door OrgRegel en de gemeenteblokken
+ * (wijkteam en cliëntondersteuner onder een stap, de regel "Liever eerst het wijkteam?").
+ */
+interface Props { naam: string; telefoon?: string; email?: string; url?: string }
+const { naam, telefoon, email, url } = Astro.props;
+---
+<span class="stap-org"><strong>{naam}</strong>{telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${telefoon.replace(/\s/g, '')}`}>{telefoon}</a></span>}{email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${email}`}>{email}</a></span>}{url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}</span>

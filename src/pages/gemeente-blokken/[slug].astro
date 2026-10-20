@@ -6,6 +6,7 @@
  */
 import Icon from '../../components/Icon.astro';
 import Contact from '../../components/Contact.astro';
+import ContactRegel from '../../components/ContactRegel.astro';
 import register from '../../../scripts/data/gemeenten-register.json';
 import { getCollection } from 'astro:content';
 import { routeLabel, contacten, regelSoort } from '../../lib/routes';
@@ -68,7 +69,8 @@ const regTel = reg?.telefoon?.replace(/^\(014\)\s*0?/, '14 0').replace(/^\((0[89
 <template data-slot="overzicht-wijkteam-regel">
   {t0 && (() => { const c = contacten(t0.contact)[0]; return (
     <div class="gemeente-blok wijkteam-regel" data-gemeente={g.id} hidden>
-      <p><span class="wt-alt">Liever eerst het wijkteam? Dat mag ook:</span><span class="wt-gelijk">Het wijkteam in {d.naam}:</span><br /><strong>{t0.naam}</strong>{c?.telefoon && <> <span class="wt-tel"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span><a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a></span></>}{!c?.telefoon && c?.url && <>, <a href={c.url} target="_blank" rel="noopener">website<span aria-hidden="true"> ↗</span></a></>}</p>
+      <p><span class="wt-alt">Liever eerst het wijkteam? Dat mag ook:</span><span class="wt-gelijk">Het wijkteam in {d.naam}:</span></p>
+      <ContactRegel naam={t0.naam} telefoon={c?.telefoon} email={c?.email} url={c?.url} />
       <div class="ec-wacht-rij"><details class="meta ec-wachten"><summary>Hoe lang duurt het in {d.naam}?</summary><p>{doorloop}</p></details><a class="ec-hoe" href={`${base}/gemeenten/${g.id}/#ervaringen`}>Hoe gaat het met de jeugdhulp in {d.naam}?</a></div>
     </div>
   ); })()}
@@ -135,7 +137,7 @@ const regTel = reg?.telefoon?.replace(/^\(014\)\s*0?/, '14 0').replace(/^\((0[89
 <!-- Mijn overzicht: de cliëntondersteuner van de gemeente direct onder de stap die hem noemt (persona-tests ronde 21). -->
 <template data-slot="overzicht-co-stap">
   {(() => { const c = r.onafhankelijkeClientondersteuning; return (c.telefoon || c.url || c.email) && (
-    <span class="stap-contact"><span class="stap-org"><strong>{c.naam}</strong>{c.telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${c.telefoon.replace(/\s/g, '')}`}>{c.telefoon}</a></span>}{!c.telefoon && c.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${c.email}`}>{c.email}</a></span>}{c.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={c.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}</span></span>
+    <span class="stap-contact"><ContactRegel naam={c.naam} telefoon={c.telefoon} email={c.email} url={c.url} /></span>
   ); })()}
 </template>
 
@@ -150,7 +152,7 @@ const regTel = reg?.telefoon?.replace(/^\(014\)\s*0?/, '14 0').replace(/^\((0[89
 <!-- Mijn overzicht: het wijkteam als regel onder de eerste stap die het noemt, als het niet bovenaan staat (zoals bij wachten). -->
 <template data-slot="overzicht-wijkteam-stap">
   {t?.naam && t.contact && (t.contact.telefoon || t.contact.url || t.contact.email) && (
-    <span class="stap-contact"><span class="stap-wt-gemeente">Het wijkteam in {d.naam}:</span><span class="stap-org"><strong>{t.naam}</strong>{t.contact.telefoon && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${t.contact.telefoon.replace(/\s/g, '')}`}>{t.contact.telefoon}</a></span>}{!t.contact.telefoon && t.contact.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${t.contact.email}`}>{t.contact.email}</a></span>}{t.contact.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={t.contact.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}</span>{/* Heet het team geen wijkteam (zoals JGZ Almere), dan zeggen wat het is (persona-tests: leek het consultatiebureau). */}{!/wijkteam/i.test(t.naam) && <span class="stap-wt-uitleg">{t.naam} is in {d.naam} het team waar u zich meldt voor jeugdhulp.</span>}</span>
+    <span class="stap-contact"><span class="stap-wt-gemeente">Het wijkteam in {d.naam}:</span><ContactRegel naam={t.naam} telefoon={t.contact.telefoon} email={t.contact.email} url={t.contact.url} />{/* Heet het team geen wijkteam (zoals JGZ Almere), dan zeggen wat het is (persona-tests: leek het consultatiebureau). */}{!/wijkteam/i.test(t.naam) && <span class="stap-wt-uitleg">{t.naam} is in {d.naam} het team waar u zich meldt voor jeugdhulp.</span>}</span>
   )}
 </template>
 

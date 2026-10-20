@@ -27,3 +27,13 @@ const LEEFTIJDEN: Record<string, string> = { 'Jonger dan 4': '0-4', '4 tot 12': 
 export const leeftijdId = (titel: string) => zoek(new Map(Object.entries(LEEFTIJDEN)), 'leeftijd', titel);
 /** "Apeldoorn" → apeldoorn, "Bergen op Zoom" → bergen-op-zoom (zoals de bestandsnamen in src/content/gemeenten). */
 export const gemeenteSlug = (naam: string) => naam.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+type Contact = { naam?: string; telefoon?: string; email?: string; url?: string };
+const lijst = (c: Contact | Contact[] | undefined): Contact[] => (c ? ([] as Contact[]).concat(c) : []);
+/** Wijkteam en cliëntondersteuner van een gemeente zoals ze onder de stappen staan: de naam in de regel en wat er bekend is. */
+export const stapContacten = (slug: string) => {
+  const d = JSON.parse(fs.readFileSync(path.join(CONTENT, 'gemeenten', `${slug}.json`), 'utf8'));
+  const wt = d.toegang.routes.find((r: { type: string }) => r.type === 'wijkteam');
+  const co = d.rechten.onafhankelijkeClientondersteuning as Contact;
+  return [...(wt ? [{ ...lijst(wt.contact)[0], naam: wt.naam as string }] : []), co].filter((c) => c?.naam) as Contact[];
+};
