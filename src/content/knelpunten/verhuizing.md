@@ -11,6 +11,8 @@ gemeenteOnderdelen: [toegang, clientondersteuning, aanbieders]
 wijkteamBovenaan: false
 brieven: [verhuizing-overdracht, klacht-toegangsteam]
 landelijk: [01-jeugdwet, 02-toegang, 07-klacht-of-bezwaar]
+startgroepen: [verandert]
+startSituaties: false
 volgorde: 8
 bronnen:
   - titel: "NVP – Hoe zit dat: het nieuwe woonplaatsbeginsel"

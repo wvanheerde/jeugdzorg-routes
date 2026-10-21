@@ -28,6 +28,7 @@ therapievormen:
     - id: systeemtherapie
     - id: speltherapie-beeldend
   toelichting: "Geen richtlijn. ACT voor jongeren die leren leven met ziekte of pijn; groepen voor broers en zussen; daarna gezinsgerichte en speltherapie."
+vaakBij: ["18-99"]
 volgorde: 2
 laatstGecontroleerd: "2026-10-12"
 bronnen:

@@ -17,6 +17,7 @@ wijkteamBovenaan: false
 gemeenteOnderdelen: [toegang, aanbieders, clientondersteuning, bezwaar]
 brieven: [bezwaar-beschikking]
 landelijk: [03-rechten, 07-klacht-of-bezwaar]
+startgroepen: [al]
 volgorde: 4.5
 bronnen:
   - titel: "VNG – Handreiking continuïteit van jeugdhulp bij faillissement"

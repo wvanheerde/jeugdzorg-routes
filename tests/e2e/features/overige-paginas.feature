@@ -6,6 +6,12 @@ Functionaliteit: Landelijk, organisaties en over deze site
     Dan is de hoofdkop "Waar u landelijk recht op heeft"
     En zie ik de kop "De Jeugdwet in het kort"
 
+  Scenario: Bij de rechten als ouder staat wie toestemming geeft voor hulp
+    Ook wie niet via "Wij zijn uit elkaar" komt, vindt daar of de andere ouder moet meebeslissen (Linda, ronde 25).
+    Gegeven ik open de pagina "landelijk/"
+    Dan zie ik de kop "Wie geeft toestemming voor hulp? (gezag)"
+    En zie ik "vraag dan een gratis uittreksel aan uit het gezagsregister"
+
   @mobiel
   Scenario: Op de telefoon schuift de inhoudsopgave met pijlknoppen
     Gegeven ik open de pagina "landelijk/"

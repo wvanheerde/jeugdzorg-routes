@@ -2,6 +2,11 @@
 Functionaliteit: Verdieping bij "De hulp stopt"
   De ouder kiest waarom de hulp stopt. Dan blijven alleen de stappen bij die reden over.
 
+  Scenario: De vraag staat als kop
+    Gegeven ik open het overzicht voor "De hulp stopt" in "Zwolle"
+    Dan zie ik de kop "Waarom stopt de hulp?"
+    En zie ik de kop "Meer passend advies" niet
+
   Scenario: Zonder reden staan alle stappen er
     Gegeven ik open het overzicht voor "De hulp stopt" in "Utrecht"
     Dan begint stap 1 met "Stopt de aanbieder"

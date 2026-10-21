@@ -20,6 +20,8 @@ const zoek = (map: Map<string, string>, soort: string, naam: string) => {
   if (!id) throw new Error(`Onbekende ${soort} "${naam}". Bekend: ${[...map.keys()].join(', ')}`);
   return id;
 };
+/** Id's van alle voorbeeldbrieven (src/content/brieven). */
+export const brieven = () => fs.readdirSync(path.join(CONTENT, 'brieven')).filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, ''));
 export const vraagId = (titel: string) => zoek(VRAGEN, 'vraag', titel);
 export const situatieId = (titel: string) => zoek(SITUATIES, 'situatie', titel);
 /** Leeftijdsknoppen zoals op de site ("12 tot 18") → waarde in de url (l=12-18). */

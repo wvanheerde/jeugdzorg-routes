@@ -1,0 +1,29 @@
+{"stap":1,"tijd":"2026-10-20T12:37:18.807Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-20T12:37:19.526Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-20T12:37:19.580Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1457}
+{"stap":4,"tijd":"2026-10-20T12:37:23.168Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-20T12:37:23.224Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Ik zie een lijst met gemeenten en knoppen. 'Wij verhuizen' is er. Eerst gemeente kiezen: Amsterdam, daar woon ik nu."],"tekst":"Ik zie een lijst met gemeenten en knoppen. 'Wij verhuizen' is er. Eerst gemeente kiezen: Amsterdam, daar woon ik nu."}
+{"stap":6,"tijd":"2026-10-20T12:37:23.604Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["4","Amsterdam"]}
+{"stap":7,"tijd":"2026-10-20T12:37:23.657Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1394}
+{"stap":8,"tijd":"2026-10-20T12:37:28.121Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["15"]}
+{"stap":9,"tijd":"2026-10-20T12:37:28.169Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1592}
+{"stap":10,"tijd":"2026-10-20T12:37:31.052Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 2: Wij verhuizen aangeklikt. Leeftijd 4-12 kies ik, dan Toon mijn overzicht."],"tekst":"Stap 2: Wij verhuizen aangeklikt. Leeftijd 4-12 kies ik, dan Toon mijn overzicht."}
+{"stap":11,"tijd":"2026-10-20T12:37:32.896Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["20"]}
+{"stap":12,"tijd":"2026-10-20T12:37:32.943Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1603}
+{"stap":13,"tijd":"2026-10-20T12:37:37.255Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12","cmd":"klik","args":["45"]}
+{"stap":14,"tijd":"2026-10-20T12:37:37.316Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12","cmd":"kijk","args":[],"lengte":791}
+{"stap":15,"tijd":"2026-10-20T12:37:40.350Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12","cmd":"foto","args":[]}
+{"stap":16,"tijd":"2026-10-20T12:37:40.394Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12","cmd":"notitie","args":["Stap 4. Ze vragen waarheen ik verhuis, handig. Typ Almere."],"tekst":"Stap 4. Ze vragen waarheen ik verhuis, handig. Typ Almere."}
+{"stap":17,"tijd":"2026-10-20T12:37:40.764Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"typ","args":["7","Almere"]}
+{"stap":18,"tijd":"2026-10-20T12:37:40.803Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"kijk","args":[],"lengte":819}
+{"stap":19,"tijd":"2026-10-20T12:37:43.733Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"scroll","args":["omlaag"]}
+{"stap":20,"tijd":"2026-10-20T12:37:47.377Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"foto","args":[]}
+{"stap":21,"tijd":"2026-10-20T12:37:47.432Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"notitie","args":["Stap 5 (scroll 1). Goed: wijkteam Amsterdam met nummer, hulp mag niet zomaar stoppen. Nu nog: wie in Almere?"],"tekst":"Stap 5 (scroll 1). Goed: wijkteam Amsterdam met nummer, hulp mag niet zomaar stoppen. Nu nog: wie in Almere?"}
+{"stap":22,"tijd":"2026-10-20T12:37:47.916Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"scroll","args":["omlaag"]}
+{"stap":23,"tijd":"2026-10-20T12:37:53.719Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"notitie","args":["Stap 6. 'Wijkteam in Almere: JGZ Almere' - JGZ ken ik als consultatiebureau/GGD, is dat echt waar ik me meld? Verwarrend."],"tekst":"Stap 6. 'Wijkteam in Almere: JGZ Almere' - JGZ ken ik als consultatiebureau/GGD, is dat echt waar ik me meld? Verwarrend."}
+{"stap":24,"tijd":"2026-10-20T12:37:54.183Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"scroll","args":["omlaag"]}
+{"stap":25,"tijd":"2026-10-20T12:37:58.135Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"foto","args":[]}
+{"stap":26,"tijd":"2026-10-20T12:37:58.616Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"scroll","args":["omhoog"]}
+{"stap":27,"tijd":"2026-10-20T12:37:59.084Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"scroll","args":["omhoog"]}
+{"stap":28,"tijd":"2026-10-20T12:38:12.255Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"notitie","args":["Klaar, ik weet genoeg: brief + beschikking vragen, vooraf Almere bellen 088 002 9990."],"tekst":"Klaar, ik weet genoeg: brief + beschikking vragen, vooraf Almere bellen 088 002 9990."}
+{"stap":29,"tijd":"2026-10-20T12:38:12.291Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=amsterdam&k=verhuizing&l=4-12&naar=almere","cmd":"stop"}

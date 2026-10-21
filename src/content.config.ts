@@ -215,6 +215,8 @@ const organisaties = defineCollection({
     omschrijving: z.string(),
     watBiedenZij: z.array(z.string()).default([]),
     url: z.url(),
+    /** Tekst van de link als "Website" niet zegt wat je daar doet (gezagsregister: "Uittreksel aanvragen"). */
+    linktekst: z.string().optional(),
     telefoon: z.string().optional(),
     email: z.email().optional(),
     landelijk: z.boolean().default(true),
@@ -326,6 +328,12 @@ const situaties = defineCollection({
      * aanvraagIngeklapt. Een stap is tekst, of tekst met een voorbeeldbrief (id uit src/content/brieven) als link achter de stap.
      */
     stappen: z.array(z.union([z.string(), z.object({ stap: z.string(), brief: z.string() })])).optional(),
+    /**
+     * Voorpagina (startvragen, src/lib/startvragen.ts): bij welke leeftijden de situatie bovenaan staat onder "Vaak bij deze
+     * leeftijd"; de rest staat op alfabet onder "Andere situaties". Dat is een volgorde om sneller te vinden, geen grens: de
+     * situatie staat er bij elke leeftijd. Per leeftijd 3 tot 7 situaties (controle bij het bouwen).
+     */
+    vaakBij: z.array(z.enum(['0-4', '4-12', '12-18', '18-99'])).default([]),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
@@ -450,6 +458,25 @@ const knelpunten = defineCollection({
      * 'doorlooptijd': "Hoe lang duurt het in …?" (uitklapper) en "Hoe gaat het met de jeugdhulp in …?"; 'ervaringen': alleen die link.
      */
     standInGemeente: z.enum(['doorlooptijd', 'ervaringen']).optional(),
+    /**
+     * Voorpagina (startvragen, src/lib/startvragen.ts): onder welk vlak of welke vlakken de vraag staat. Een vraag mag onder meer
+     * vlakken staan (zoals "Wij zijn uit elkaar" onder "Ik zoek hulp" en "Er verandert iets"). Heeft een vlak één vraag, dan is
+     * het vlak die vraag ('ander'); 'spoed' staat apart bovenaan ("Kan het niet wachten?").
+     */
+    startgroepen: z.array(z.enum(['hulp', 'al', 'verandert', 'geld', 'ander', 'spoed'])).min(1),
+    /**
+     * Vraagt de voorpagina na deze vraag wat er speelt (en daarvoor de leeftijd)? Alleen waar dat het overzicht verandert: bij
+     * vragen over de hulp zelf (welke hulp, welke therapie, gefilterd op leeftijd). Niet bij vragen over de gang van zaken,
+     * regels of geld; daar toont het overzicht ook niet de algemene leeftijdstip, zodat een bewaarde leeftijd niets verandert.
+     */
+    startSituaties: z.boolean().default(true),
+    /**
+     * Een stap die zich aan de leeftijd aanpast, zoals bij kinderbijslag (dubbele kinderbijslag 3 tot 18 jaar): `begin` is het begin
+     * van de stap (koppeling, zoals bij de verdiepingen), per leeftijdsband de tekst die de stap dan vervangt. Zonder tekst voor een
+     * band blijft de stap zoals hij is. Met zo'n stap vraagt de voorpagina ook de leeftijd. Alleen met een bron in `bronnen`;
+     * de build faalt als het begin niet bij precies één stap past.
+     */
+    leeftijdsstappen: z.array(z.object({ begin: z.string(), '0-4': z.string().optional(), '4-12': z.string().optional(), '12-18': z.string().optional(), '18-99': z.string().optional() })).default([]),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

@@ -12,6 +12,7 @@ stappen:
 gemeenteOnderdelen: [toegang, aanbieders, klacht, vertrouwenspersoon]
 brieven: [klacht-aanbieder, klacht-toegangsteam, aanvraag-jeugdhulp]
 landelijk: [07-klacht-of-bezwaar, 03-rechten]
+startgroepen: [al]
 volgorde: 5
 laatstGecontroleerd: "2026-10-17"
 ---

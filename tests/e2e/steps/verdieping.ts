@@ -93,6 +93,12 @@ Then('begint stap {int} met {string}', async ({ page }, nr: number, tekst: strin
   await expect.poll(async () => (await stappen(page))[nr - 1] ?? '').toMatch(new RegExp(`^${tekst.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
 });
 
+/** Een link binnen een stap zelf (niet ergens onder de lijst): Fatima (ronde 27) moest daarvoor ver omlaag. */
+Then('staat in stap {int} de link {string}', async ({ page }, nr: number, naam: string) => {
+  const lis = vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').locator('visible=true');
+  await expect(lis.nth(nr - 1).getByRole('link', { name: naam })).toBeVisible();
+});
+
 Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: DataTable) => {
   const anders = vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) });
   await expect(anders).toBeVisible();
@@ -201,11 +207,9 @@ Then('staan de vragen van het verdiepingsblok open', async ({ page }) => {
   await expect(blok(page).locator('[data-vd-vragen]')).toBeVisible();
 });
 
-Then('staat het label {string} rechts naast de kop', async ({ page }, label: string) => {
-  const kop = blok(page).locator('h3'), lab = kop.locator('.vd-optioneel');
-  await expect(lab).toHaveText(label);
-  const [rk, rl] = [await kop.boundingBox(), await lab.boundingBox()];
-  expect(rl!.x + rl!.width, 'tegen de rechterkant').toBeGreaterThan(rk!.x + rk!.width - 4);
+Then('staat er geen label bij de kop', async ({ page }) => {
+  await expect(blok(page).locator('h3')).toBeVisible();
+  await expect(blok(page).locator('h3 .vd-optioneel')).toHaveCount(0);
 });
 
 Then('zie ik bij het verdiepingsblok de melding {string}', async ({ page }, tekst: string) => {

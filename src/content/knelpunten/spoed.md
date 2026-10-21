@@ -10,6 +10,8 @@ stappen:
 gemeenteOnderdelen: [spoed, toegang]
 brieven: []
 landelijk: [02-toegang]
+startgroepen: [spoed]
+startSituaties: false
 volgorde: 6
 laatstGecontroleerd: "2026-10-12"
 ---

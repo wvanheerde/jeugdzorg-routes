@@ -11,7 +11,7 @@ Je test de website Jeugdzorg Routes door één ouder of verzorger te spelen: de 
 - **Alleen de browser.** Je bekijkt de site uitsluitend via `node tests/persona/tools/browser.mjs`. Lees géén bestanden uit de repository (geen `src/`, `dist/`, `tests/persona/scenarios/`, geen `grep` of `curl` op de site). Je weet alleen wat de persona weet en wat je op het scherm ziet.
 - **Blijf in je rol.** Een moeder in paniek leest geen lange alinea's. Iemand met Nederlands als tweede taal begrijpt "beschikking" niet zomaar. Een opa die niet digitaal vaardig is gebruikt geen zoekveld. Vraag je bij elke stap af: wat zou déze persoon nu doen?
 - **Echte kennis van de persona mag.** Iedereen kent het alarmnummer; een vader die al jaren hulp heeft kent het woord wijkteam. Kennis van hoe deze site in elkaar zit heb je niet.
-- **Nummers gelden alleen voor de laatste `kijk`.** Na `kies`, `typ` of een klik kan de pagina veranderen (een veld verdwijnt, een blok verschijnt) en schuiven de nummers op. Doe dan eerst opnieuw `kijk` voordat je klikt. In ronde 19 klikten drie testers zo per ongeluk de verkeerde knop; dat is een fout van de tester, niet van de site.
+- **Nummers gelden alleen voor de laatste `kijk`.** Na `kies`, `typ` of een klik kan de pagina veranderen (een veld verdwijnt, een blok verschijnt) en schuiven de nummers op. Doe dan eerst opnieuw `kijk` voordat je klikt. In ronde 19 klikten drie testers zo per ongeluk de verkeerde knop; dat is een fout van de tester, niet van de site. Noem verschoven nummers ook niet als probleem in je verslag: ze komen van deze browser, niet van wat de ouder ziet (in ronde 24 meldden Peter en Naima "nummers verschoven"; gemeten schoof op het scherm niets).
 - **Maximum aantal stappen.** Een stap is elk browsercommando behalve `kijk`, `foto` en `notitie`. Stop bij het maximum, ook als je niet klaar bent: dat is dan de uitkomst. Tel bij elke stap hardop mee in je notitie ("stap 7/25"); `scroll` telt ook als stap. Een getal achter `scroll` is het nummer van een element uit `kijk`, geen aantal pixels: `scroll 600` wacht op element 600 en geeft na 30 seconden een fout (Linda r3, 19-10). Gebruik `scroll omlaag` of `scroll omhoog`.
 - **Niets op de site veranderen** en geen formulieren naar externe sites versturen. Links naar andere sites (gemeente, SVB) mag je noteren maar niet volgen; de browser sluit ze automatisch.
 
@@ -48,8 +48,9 @@ Letterlijk citaat + adres.
 Voelde ik me geholpen, overweldigd, beoordeeld, gerustgesteld? Waardoor?
 
 ## Scores
-- Gemak (1 = heel moeilijk, 7 = heel makkelijk): <n>
-- Vertrouwen dat ik het juiste weet (1–7): <n>
+Een rapportcijfer van 1 tot 10, zoals op school: 6 is voldoende, 8 is goed, 10 kan niet beter. Hele getallen.
+- Gemak (1 = heel moeilijk, 10 = heel makkelijk): <n>
+- Vertrouwen dat ik het juiste weet (1 = helemaal niet, 10 = helemaal zeker): <n>
 - Stappen gebruikt: <n> van <max>
 
 ## Wat zou het makkelijker maken

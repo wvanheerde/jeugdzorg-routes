@@ -21,6 +21,7 @@ wijkteamBovenaan: false
 gemeenteOnderdelen: [toegang, clientondersteuning, bezwaar]
 brieven: [aanvraag-jeugdhulp]
 landelijk: [03-rechten, 05-financieel, 06-aanvragen]
+startgroepen: [verandert]
 volgorde: 7
 bronnen:
   - titel: "Regelhulp – Overgang van Jeugdwet naar Wmo, Zvw of Wlz"

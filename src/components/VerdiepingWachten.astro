@@ -4,9 +4,9 @@ import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 import { WACHT_KEUZE } from '../lib/verdiepingen';
 ---
-<Verdieping id="wachten" naarStappen="stappen-wachten" uitleg="Kies waarop u wacht, dan ziet u alleen de stappen die daarbij horen. Wacht u op de gemeente, dan ziet u met de datum van uw aanvraag ook tot wanneer de gemeente heeft.">
-  <div class="field vd-keuze"><span id="wt-op-kop">Waarop wacht u?</span>
-    <div class="chips-select" role="group" aria-labelledby="wt-op-kop">
+<Verdieping id="wachten" titel="Waarop wacht u?" naarStappen="stappen-wachten" uitleg="Dan ziet u alleen de stappen die daarbij horen. Wacht u op de gemeente, dan ziet u met de datum van uw aanvraag ook tot wanneer de gemeente heeft.">
+  <div class="field vd-keuze">
+    <div class="chips-select" role="group" aria-labelledby="vd-vraag-wachten">
       {WACHT_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-wt-op>{o.label}</button>)}
     </div>
   </div>

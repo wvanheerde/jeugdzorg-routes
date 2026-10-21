@@ -1,10 +1,11 @@
 ---
 titel: "Verzoek aan school om een gesprek en het ontwikkelingsperspectief"
-wanneer: "Als het op school niet goed gaat met uw kind. En u wilt dat school de ondersteuning op papier zet. Heeft uw kind extra ondersteuning nodig? Dan moet school binnen zes weken een ontwikkelingsperspectief (OPP) maken."
+wanneer: "Als het op school niet goed gaat met uw kind, ook als uw kind niet meer naar school gaat. En u wilt dat school de ondersteuning op papier zet. Heeft uw kind extra ondersteuning nodig? Dan moet school binnen zes weken een ontwikkelingsperspectief (OPP) maken."
 aan: school
 tips:
   - "Stuur de brief per e-mail aan de intern begeleider of zorgcoördinator. Zet de directeur in de cc. Dan staat uw vraag op papier."
   - "Schrijf precies op wat u ziet: sinds wanneer, hoe vaak en wat het met uw kind doet. Dat helpt meer dan een diagnose."
+  - "Belt de leerplichtambtenaar u? Vertel dan dat u school om een gesprek heeft gevraagd. Teken geen vrijstelling van de leerplicht onder druk: dan heeft uw kind geen recht meer op onderwijs. Vraag eerst naar andere mogelijkheden."
   - "Vraag een cliëntondersteuner of iemand van Ouders & Onderwijs om mee te gaan naar het gesprek."
 bronnen:
   - titel: "Ouders & Onderwijs – Afspraken over begeleiding van uw kind"
@@ -13,14 +14,19 @@ bronnen:
   - titel: "Onderwijsgeschillen – Ontwikkelingsperspectief"
     url: https://www.onderwijsgeschillen.nl/thema/ontwikkelingsperspectief/
     geraadpleegd: "2026-10-10"
+  - titel: "Leerplichtwet 1969, artikel 5 (vrijstelling)"
+    url: https://wetten.overheid.nl/BWBR0002628/
+    geraadpleegd: "2026-10-21"
 situaties: [school-loopt-vast, leerstoornissen, tos, dwang-en-tics, hoogbegaafdheid, adhd, autisme, angst-of-somberheid]
 volgorde: 1
-laatstGecontroleerd: "2026-10-12"
+laatstGecontroleerd: "2026-10-21"
 ---
 
 Geachte [naam intern begeleider / directeur],
 
 Ik ben de ouder van [naam kind], leerling in groep/klas [groep of klas]. Ik maak mij zorgen over hoe het op school gaat. Sinds [periode] zie ik dat [beschrijf kort wat u ziet, bijvoorbeeld: mijn kind elke ochtend huilt en niet naar school wil / de cijfers sterk dalen / mijn kind vaak naar huis wordt gestuurd].
+
+[Gaat uw kind niet meer naar school? Schrijf dan:] [Naam kind] gaat sinds [datum] niet meer naar school. Ik wil graag met u bespreken hoe [naam kind] weer onderwijs kan volgen, ook als dat eerst een paar uur per week is of op een andere plek.
 
 Ik wil graag snel een gesprek met u. Dan kunnen we samen bekijken welke ondersteuning [naam kind] nodig heeft. Daarbij vraag ik u om:
 

@@ -40,6 +40,7 @@ therapievormen:
     - titel: "Werkgroep Melatonine (NSWO, SVNL, Vereniging Kind & Slaap, NVN) – Aanbevelingen voor het juiste gebruik van melatonine in de klinische praktijk (2023)"
       url: https://www.nswo.nl/wp-content/uploads/Expert_opinion_melatonine_06052023.pdf
       geraadpleegd: "2026-10-16"
+vaakBij: ["0-4"]
 volgorde: 5
 laatstGecontroleerd: "2026-10-16"
 bronnen:

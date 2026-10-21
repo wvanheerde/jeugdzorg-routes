@@ -2,9 +2,9 @@
  * Officiële woorden die ouders tegenkomen in brieven van de gemeente of instanties.
  * De site legt ze één keer per pagina uit (eerste keer dat het woord voorkomt).
  * Eerst de tekst zelf in gewone taal schrijven; deze lijst is voor woorden die ouders tóch moeten herkennen.
- * Elke vorm in `vormen` is een woord of woordgroep zoals die in de tekst staat (hoofdletters maken niet uit).
+ * Elke vorm in `vormen` is een woord of woordgroep zoals die in de tekst staat (hoofdletters maken niet uit, behalve bij `hoofdletters: true`).
  */
-export const woorden: { vormen: string[]; uitleg: string; /** Kop op de begrippenpagina als die anders is dan de eerste vorm (bv. afkorting voluit). */ titel?: string }[] = [
+export const woorden: { vormen: string[]; uitleg: string; /** Kop op de begrippenpagina als die anders is dan de eerste vorm (bv. afkorting voluit). */ titel?: string; /** Alleen precies zo geschreven (KIES, niet het werkwoord kies). */ hoofdletters?: boolean }[] = [
   { vormen: ['beschikking', 'beschikkingen'], uitleg: 'Het besluit van de gemeente over welke hulp uw kind krijgt, op papier. Tegen dit besluit kunt u bezwaar maken.' },
   { vormen: ['bezwaarschrift', 'bezwaar maken'], uitleg: 'De gemeente vragen een besluit opnieuw te bekijken. Dat moet binnen zes weken na de datum op het besluit.' },
   { vormen: ['cliëntondersteuner', 'cliëntondersteuning', 'onafhankelijke cliëntondersteuner', 'onafhankelijke cliëntondersteuning'], uitleg: 'Iemand die gratis met u meedenkt en meegaat naar gesprekken. Beslist zelf niet over uw hulp.' },
@@ -37,6 +37,7 @@ export const woorden: { vormen: string[]; uitleg: string; /** Kop op de begrippe
   { vormen: ['curatele'], uitleg: 'Iemand beslist over zowel zorg als geld voor een volwassene die dat niet zelf kan. De kantonrechter beslist hierover.' },
   { vormen: ['Wajong'], uitleg: 'Uitkering van UWV voor jongeren die door ziekte of een beperking nu en later niet kunnen werken. Kan uw kind met begeleiding of aanpassingen wel werken, dan is er geen Wajong maar soms andere steun.' },
   { vormen: ['systemisch werken', 'systemisch'], uitleg: 'Hulp waarbij het hele gezin wordt betrokken, niet alleen het kind.' },
+  { vormen: ['KIES'], hoofdletters: true, uitleg: 'Een aanpak voor kinderen van gescheiden ouders. Een getrainde begeleider helpt het kind de scheiding te begrijpen en erover te praten, vaak in een groep met andere kinderen. Via school, het wijkteam of de gemeente.' },
   { vormen: ['vertrouwenspersoon'], uitleg: 'Iemand van Jeugdstem die u gratis en onafhankelijk helpt als u vastloopt met de hulp.' },
   { vormen: ['warme overdracht'], uitleg: 'De oude en de nieuwe hulpverlener of gemeente dragen samen over, met u erbij, zodat er niets verloren gaat.' },
   { vormen: ['ambulante begeleiding', 'ambulante hulp', 'ambulant'], uitleg: 'Hulp bij u thuis of op afspraak, zonder dat uw kind ergens blijft slapen.' },

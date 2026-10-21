@@ -1,0 +1,18 @@
+---
+/** /brieven/ zelf heeft geen pagina: de voorbeeldbrieven staan bij elkaar op de pagina Hulpmiddelen. */
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const doel = `${base}/hulpmiddelen/#brieven`;
+---
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Voorbeeldbrieven · Jeugdzorg Routes</title>
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${doel}`} />
+    <link rel="canonical" href={new URL(doel, Astro.site).href} />
+  </head>
+  <body>
+    <p>De voorbeeldbrieven staan op de pagina <a href={doel}>Hulpmiddelen</a>.</p>
+  </body>
+</html>

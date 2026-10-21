@@ -1,0 +1,54 @@
+---
+/**
+ * Alle hulpmiddelen van de site bij elkaar: het vel voor het gesprek, het dagboek in Word, de moeilijke woorden en de
+ * voorbeeldbrieven. Elders staan ze bij de stap waar ze horen; hier vindt een ouder ze terug zonder de route opnieuw te lopen.
+ * De moeilijke woorden zijn te lang voor deze pagina; daar gaat een kaart heen. /brieven/ verwijst naar #brieven.
+ */
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import BriefKaart from '../components/BriefKaart.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde - c.data.volgorde);
+---
+<Base title="Hulpmiddelen" description="Hulpmiddelen voor ouders bij jeugdhulp: een vel om het gesprek met het wijkteam voor te bereiden, een dagboek in Word, moeilijke woorden uitgelegd en voorbeeldbrieven.">
+  <div class="page-head">
+    <span class="eyebrow">Om te gebruiken</span>
+    <h1>Hulpmiddelen</h1>
+    <p class="lead">Alles om zelf mee aan de slag te gaan: om een gesprek voor te bereiden en om iets op papier te vragen. U vindt ze ook bij de stappen in Mijn overzicht, op de plek waar u ze nodig heeft.</p>
+  </div>
+
+  <section class="section" id="voorbereiden">
+    <h2>Voorbereiden</h2>
+    <div class="grid">
+      <a class="card link" href={`${base}/gesprek/`}>
+        <div class="icon"><Icon name="users" /></div>
+        <span class="badge">Om af te drukken</span>
+        <h3 style="margin-top:.6rem">Uw gesprek voorbereiden</h3>
+        <p class="meta">Voor het gesprek met het wijkteam. Druk het vel af, vul het met de hand in en neem het mee. Met een dagboek van een week, zinnen die helpen en vragen om te stellen.</p>
+        <span class="arrow">Bekijk en druk af →</span>
+      </a>
+      <a class="card link" href={`${base}/downloads/dagboek-zorg-twee-weken.docx`} download>
+        <div class="icon"><Icon name="clock" /></div>
+        <span class="badge">Word-bestand</span>
+        <h3 style="margin-top:.6rem">Dagboek van twee weken</h3>
+        <p class="meta">Voor de aanvraag van dubbele kinderbijslag. Schrijf twee weken op welke extra zorg uw kind elke dag nodig heeft. Het dagboek heeft dezelfde onderdelen als het formulier van het CIZ, en zegt per onderdeel wat meetelt. Invullen op de computer of uitprinten.</p>
+        <span class="arrow">Download (Word) →</span>
+      </a>
+      <a class="card link" href={`${base}/begrippen/`}>
+        <div class="icon"><Icon name="book" /></div>
+        <span class="badge">Om op te zoeken</span>
+        <h3 style="margin-top:.6rem">Moeilijke woorden uitgelegd</h3>
+        <p class="meta">Een woord uit een brief of gesprek dat u niet kent? Hier staat het in gewone taal, van A tot Z.</p>
+        <span class="arrow">Zoek een woord →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="brieven" style="scroll-margin-top:5.5rem">
+    <h2>Voorbeeldbrieven</h2>
+    <p class="meta">Kant-en-klare teksten om een gesprek, hulp of bezwaar op papier te vragen. Bij elke brief staat wanneer u hem gebruikt en waar u op let. Invullen, kopiëren, versturen. De brieven zijn voorbeelden, geen juridisch advies.</p>
+    <div class="grid">{brieven.map((b) => <BriefKaart b={b} />)}</div>
+  </section>
+</Base>

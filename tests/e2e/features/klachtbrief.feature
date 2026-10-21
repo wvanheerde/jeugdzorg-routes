@@ -115,6 +115,7 @@ Functionaliteit: Klachtbrief samenstellen
   Scenario: Staat het klachtadres al in de brief, dan verwijst de tip niet naar de gemeentepagina
     Gegeven ik heb eerder gekozen voor de gemeente "Emmen"
     En ik open de pagina "brieven/klacht-toegangsteam/"
+    Als ik de tips "Voor u verstuurt" bekijk
     Dan zie ik "Stuur de klacht per e-mail naar het klachtadres dat in de brief staat."
     En zie ik "Dat adres staat op de pagina van uw gemeente." niet
 

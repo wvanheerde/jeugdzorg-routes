@@ -70,22 +70,12 @@ When('ik een stuk naar beneden scroll', async ({ page }) => {
   await page.evaluate(() => window.scrollBy(0, 900));
   await page.waitForTimeout(150);
 });
-Then('zie ik onderaan de balk {string}', async ({ page }, tekst: string) => {
-  await expect(page.locator('[data-cta-balk]')).toBeVisible();
-  await expect(page.locator('[data-cta-tekst]')).toContainText(tekst);
-});
 Then('zie ik de hint {string}', async ({ page }, tekst: string) => {
   await expect(page.locator('[data-meer-hint]')).toBeVisible();
   await expect(page.locator('[data-meer-hint]')).toContainText(tekst);
 });
 Then('zie ik de hint niet meer', async ({ page }) => {
   await expect(page.locator('[data-meer-hint]')).toBeHidden();
-});
-Then('staan de keuzes open', async ({ page }) => {
-  await expect(page.locator('details[data-keuzes]')).toHaveAttribute('open', '');
-});
-When('ik op de zwevende knop {string} druk', async ({ page }, naam: string) => {
-  await page.locator('[data-keuzes-knop]').filter({ hasText: naam }).click();
 });
 Then('staat in de zijnavigatie {string}', async ({ page }, naam: string) => {
   await expect(page.locator('nav[data-zijnav]').getByRole('link', { name: naam }).locator('visible=true').first()).toBeVisible();

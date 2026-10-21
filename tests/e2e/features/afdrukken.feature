@@ -23,9 +23,8 @@ Functionaliteit: Afdrukken of bewaren als PDF
     Als ik het afdrukvoorbeeld bekijk
     Dan zie ik het hoofdmenu niet
     En zie ik de knop "Afdrukken of bewaren als PDF" niet
-    En zie ik de link "Keuzes aanpassen" niet
-    En zie ik de knop "Keuzes aanpassen" niet
-    Maar zie ik "Utrecht · Ik wil hulp aanvragen · ADHD en ADD"
+    En zie ik de link "← Terug naar de voorpagina" niet
+    Maar zie ik "Utrecht · Ik heb nog geen hulp · ADHD en ADD"
     En zie ik de kop "Wat kunt u doen"
     En zie ik de kop "Welke hulp bestaat er?"
 
@@ -60,7 +59,7 @@ Functionaliteit: Afdrukken of bewaren als PDF
   Scenario: Van de verdieping staat het antwoord op papier, niet de vragen
     Gegeven ik open het overzicht voor "Wij zijn uit elkaar" in "Tilburg"
     Als ik het afdrukvoorbeeld bekijk
-    Dan zie ik de kop "Meer passend advies" niet
+    Dan zie ik de kop "Wie heeft het gezag over uw kind?" niet
     Als ik het scherm weer gewoon bekijk
     En ik kies "Wij samen"
     En ik het afdrukvoorbeeld bekijk
@@ -109,3 +108,4 @@ Functionaliteit: Afdrukken of bewaren als PDF
     Als ik het afdrukvoorbeeld bekijk
     Dan zie ik "Niet volledig en geen behandeladvies"
     En zie ik de link "← Terug naar situaties" niet
+

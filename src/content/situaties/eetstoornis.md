@@ -30,6 +30,7 @@ therapievormen:
     - titel: "Kenniscentrum KJP: Boulimia nervosa, behandeling"
       url: https://kenniscentrum-kjp.nl/professionals/boulimia-nervosa/
       geraadpleegd: "2026-10-14"
+vaakBij: ["12-18"]
 volgorde: 20
 laatstGecontroleerd: "2026-10-12"
 bronnen:

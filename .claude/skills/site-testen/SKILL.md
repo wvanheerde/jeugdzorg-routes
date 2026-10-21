@@ -29,7 +29,7 @@ Lees `verslag.md` en `log.jsonl`, bekijk een paar foto's. Schrijf `<run>/<id>/be
 
 ## Samenvatten
 `<run>/samenvatting.md`:
-1. Tabel per scenario: uitkomst, moet-vinden (x van y), stappen, gemak, vertrouwen.
+1. Tabel per scenario: uitkomst, moet-vinden (x van y), stappen, gemak, vertrouwen (rapportcijfers 1–10; tot en met ronde 24 was het 1–7, zie "Herhaalbaarheid").
 2. **Terugkerende problemen** over persona's heen, geordend op ernst en aantal persona's dat erop stuit. Dat zijn de belangrijkste verbeterpunten.
 3. **Vergelijking met de vorige run** (zelfde scenario's): wat is beter of slechter geworden, met de commit ertussen.
 4. Concrete verbetervoorstellen, per voorstel welk bestand of component.
@@ -40,6 +40,7 @@ Meld de gebruiker kort: tabel, top 3 problemen, wat beter of slechter is dan de 
 
 ## Herhaalbaarheid
 - Scenario's en persona's wijzigen alleen bewust, met een regel in `tests/persona/README.md` onder "Wijzigingen". Anders zijn runs niet vergelijkbaar.
+- Scores: sinds 2026-10-20 (na ronde 24) een rapportcijfer van 1 tot 10, daarvoor 1 tot 7. Vergelijk je met een oudere run, reken de oude score dan om met `1 + (x − 1) × 1,5` (7 → 10, 5 → 7, 4 → 5,5) en zeg erbij dat het een omrekening is: een persona geeft op een andere schaal niet precies hetzelfde.
 - LLM-gedrag varieert. Draai bij twijfel een scenario twee keer; een probleem dat bij beide runs of bij meerdere persona's terugkomt is betrouwbaar.
 - Nieuwe valkuil in de werkwijze van de tester gevonden: zet hem in `.claude/agents/persona-tester.md`.
 

@@ -13,6 +13,7 @@ stappen:
 gemeenteOnderdelen: [toegang, clientondersteuning, bezwaar]
 brieven: [verzoek-meer-hulp, bezwaar-beschikking]
 landelijk: [03-rechten, 02-toegang, 07-klacht-of-bezwaar]
+startgroepen: [al]
 volgorde: 1.5
 bronnen:
   - titel: "Regelhulp (Ministerie van VWS) – Jeugdhulp aanvragen"

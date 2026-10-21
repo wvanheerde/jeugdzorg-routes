@@ -33,6 +33,7 @@ therapievormen:
     - titel: "Richtlijn ADHD (Richtlijnen Jeugdhulp en Jeugdbescherming)"
       url: https://richtlijnenjeugdhulp.nl/uploads/2025-04/Richtlijn-ADHD.pdf
       geraadpleegd: "2026-10-14"
+vaakBij: ["4-12"]
 volgorde: 10
 laatstGecontroleerd: "2026-10-12"
 bronnen:

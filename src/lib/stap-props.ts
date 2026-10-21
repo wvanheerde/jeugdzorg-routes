@@ -30,6 +30,7 @@ const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
  * - bij "Zet uw vraag op papier" het vel om het gesprek voor te bereiden (/gesprek/);
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
+ * - bij dubbele kinderbijslag de landelijke uitleg (wat u opschrijft, terugbetalen) in de stap zelf (Fatima, ronde 27);
  * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts);
  * - bij wachten, afgewezen, gescheiden en uitbreiden: de route, rol of het gezag van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
  *   onder de stappen (die staat bij de voorbeeldbrief): de verdieping rekent zelf.
@@ -64,6 +65,7 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         stand: metGemeente && x === alle[0] ? k.data.standInGemeente : undefined,
         gesprek: k.id === 'beginnen' && x.startsWith('Zet uw vraag op papier'),
         tips: k.id === 'beginnen' && x.startsWith('Vindt u de stap spannend'),
+        kinderbijslag: k.id === 'geld' && x.includes('Vraag dan dubbele kinderbijslag aan'),
         moment: k.id === 'verhuizing' ? verhuisMoment(x) : undefined,
         nieuw: k.id === 'verhuizing' && verhuisMoment(x) === 'na',
         reden: k.id === 'hulp-stopt' ? hulpStoptReden(x) : undefined,

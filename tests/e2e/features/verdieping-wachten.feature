@@ -17,9 +17,18 @@ Functionaliteit: Verdieping bij "Wij wachten te lang"
     En is er geen samenvatting
     En zie ik het veld "Wanneer kreeg de gemeente uw aanvraag?" niet
 
-  Scenario: Het label "niet verplicht" staat rechts naast de kop
+  Scenario: De vraag staat als kop, zonder label erbij
+    De kop zegt waar het over gaat; "Meer passend advies" en "niet verplicht" werden gemist of overgeslagen (persona-tests ronde 24).
+    Ook "u kunt dit overslaan" is weg: de stappen staan er zonder antwoord ook, en het label trok de aandacht van de vraag af.
     Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"
-    Dan staat het label "niet verplicht" rechts naast de kop
+    Dan zie ik de kop "Waarop wacht u?"
+    En zie ik de kop "Meer passend advies" niet
+    En staat er geen label bij de kop
+
+  Scenario: Na "Een gesprek of besluit van de gemeente" staat de cursor in het datumveld
+    Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"
+    Als ik kies "Een gesprek of besluit van de gemeente"
+    Dan staat de cursor in "Wanneer kreeg de gemeente uw aanvraag?"
 
   Scenario: Wie op een aanbieder wacht, ziet alleen de stappen daarvoor
     Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"

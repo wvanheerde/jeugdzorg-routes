@@ -62,6 +62,8 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       </section>
     </aside>
     <div>
+      {/* Op de telefoon (geen zijkolom) de tips boven de brief, ingeklapt: ze gaan over het versturen (persona-tests Kees en Sanne, ronde 24). */}
+      <details class="tips-mobiel"><summary>Voor u verstuurt</summary><ul>{d.tips.map((t) => <li>{t}</li>)}</ul></details>
       {d.klachten.length > 0 && (
         <section class="klacht-keuze" aria-labelledby="klacht-kop">
           <h2 id="klacht-kop">Waarover gaat uw klacht?</h2>
@@ -82,6 +84,11 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       {metPostadres && <p class="meta" data-postadres-uitleg hidden></p>}
       {metKlachtadres && <p class="meta" data-klachtadres-uitleg hidden></p>}
       <article class="brief" id="brief-tekst" data-brief><Content /></article>
+      {/* Ook onder de brief: op de telefoon is de brief een paar schermen lang en is de knop erboven uit beeld. */}
+      <div class="brief-acties brief-acties-onder">
+        <button type="button" class="btn primary" data-kopieer><Icon name="file" class="inline-icon" /> Kopieer de brief</button>
+        <span class="meta" data-kopieer-status aria-live="polite"></span>
+      </div>
       <p class="meta" style="margin-top:1rem">Vul de velden tussen [haken] in en verwijder wat niet van toepassing is. Dit is een voorbeeld, geen juridisch advies.</p>
       {metTherapie && (
         <section class="section" id="therapie-in-brief" data-alleen-met-situatie={b.id === 'bezwaar-beschikking' ? '' : undefined}>
@@ -121,7 +128,6 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
           <p class="meta" data-therapie-leeg hidden>Kies eerst een situatie op de <a href={`${base}/`}>hoofdpagina</a> of het <a href={`${base}/overzicht/`}>overzicht</a>; dan verschijnt hier de hulp die past. <button type="button" class="btn secondary" data-toon-alles>Of toon alles</button></p>
         </section>
       )}
-      <div class="tips-mobiel"><h3>Voor u verstuurt</h3><ul>{d.tips.map((t) => <li>{t}</li>)}</ul></div>
       <Sources bronnen={d.bronnen} laatstGecontroleerd={d.laatstGecontroleerd} />
     </div>
   </div>
@@ -314,10 +320,10 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
     if (knoppen.length) teken();
   }
   toon();
-  const btn = document.querySelector<HTMLButtonElement>('[data-kopieer]');
-  const status = document.querySelector<HTMLElement>('[data-kopieer-status]');
   const brief = document.querySelector<HTMLElement>('[data-brief]');
-  btn?.addEventListener('click', async () => {
+  // Twee knoppen (boven en onder de brief); de melding staat naast de knop die de ouder gebruikte.
+  document.querySelectorAll<HTMLButtonElement>('[data-kopieer]').forEach((btn) => btn.addEventListener('click', async () => {
+    const status = btn.parentElement!.querySelector<HTMLElement>('[data-kopieer-status]');
     // Platte tekst: alinea's met een witregel, lijstjes met een streepje of nummer en inspringing, zodat het ook in een e-mail leesbaar is.
     // De verborgen uitleg bij moeilijke woorden (.woord-uitleg) hoort niet in de kopie.
     const eigenTekst = (li: Element) => Array.from(li.childNodes).filter((n) => !(n instanceof HTMLElement && (/^(UL|OL)$/.test(n.tagName) || n.matches('.woord-uitleg')))).map((n) => (n instanceof HTMLElement ? n.innerText : n.textContent ?? '')).join('').trim();
@@ -355,6 +361,6 @@ const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de ge
       status!.textContent = gelukt ? 'Gekopieerd. Plak de tekst in een e-mail of document.' : 'De brief is geselecteerd. Kies Kopiëren (of Ctrl+C) en plak hem in een e-mail.';
       if (!gelukt) brief?.scrollIntoView({ block: 'start', behavior: 'smooth' });
     }
-  });
+  }));
   zetTerugLink();
 </script>

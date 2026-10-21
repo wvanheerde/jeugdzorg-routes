@@ -12,6 +12,7 @@ stappen:
 gemeenteOnderdelen: [toegang, clientondersteuning, aanbieders]
 brieven: [aanvraag-jeugdhulp, verzoek-verwijzing-huisarts]
 landelijk: [02-toegang, 02b-hulp-vragen, 03-rechten]
+startgroepen: [hulp]
 volgorde: 1
 bronnen:
   - titel: "Regelhulp (Ministerie van VWS) – Jeugdhulp aanvragen"

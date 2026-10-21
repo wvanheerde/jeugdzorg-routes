@@ -111,3 +111,27 @@ Functionaliteit: Voorbeeldbrieven
     Dan zie ik "De gemeente heeft tot en met maandag 16 november 2026 om alsnog te beslissen."
     En zie ik "vanaf dinsdag 17 november 2026 de rechter vragen"
     En zie ik "U heeft dan ook recht op een dwangsom van hooguit € 1.442. Gemeenten betalen die niet altijd uit zichzelf; vraag er dan schriftelijk om."
+
+  Scenario: Ook onder de brief staat een knop om te kopiëren
+    Een brief is op de telefoon drie tot vier schermen lang; wie hem gelezen heeft, zag de knop erboven niet meer (Kees en Sanne, ronde 24).
+    Gegeven de site mag het klembord gebruiken
+    En ik open de pagina "brieven/klacht-toegangsteam/"
+    Dan staat onder de brief de knop "Kopieer de brief"
+    Als ik onder de brief op "Kopieer de brief" druk
+    Dan zie ik "Gekopieerd. Plak de tekst in een e-mail of document."
+    En staat op het klembord een tekst met "klacht"
+
+  @mobiel
+  Scenario: Op de telefoon staan de tips voor het versturen ingeklapt boven de brief
+    Gegeven ik open de pagina "brieven/ingebrekestelling/"
+    Dan staat "Voor u verstuurt" boven de brief
+    En is het onderdeel "Voor u verstuurt" dicht
+    Als ik het onderdeel "Voor u verstuurt" open
+    Dan zie ik "Stuur de brief aangetekend naar het postadres."
+
+  Scenario: De brief aan school past ook als het kind thuiszit
+    Lisa (ronde 27) vond in de brief niets voor een kind dat niet meer naar school gaat.
+    Gegeven ik open de pagina "brieven/gesprek-school-opp/"
+    Dan zie ik "gaat sinds [datum] niet meer naar school"
+    Als ik de tips "Voor u verstuurt" bekijk
+    Dan zie ik "Vertel dan dat u school om een gesprek heeft gevraagd."

@@ -4,7 +4,7 @@ import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 import { NA_18 } from '../lib/verdiepingen';
 ---
-<Verdieping id="wordt-18" titel="Meer passend advies bij de overgang naar 18" naarStappen="stappen-wordt-18">
+<Verdieping id="wordt-18" titel="Wanneer wordt uw kind 18, en wat is daarna nodig?" naarStappen="stappen-wordt-18">
   {/* Geen uitleg: de vragen spreken voor zich en het blok moet kort blijven, anders staan de stappen ver weg (op de telefoon 1042 px tot stap 1). */}
   <div class="field vd-datum"><label for="w18-datum">Wanneer is uw kind geboren?</label><DatumVeld id="w18-datum" minJaren={-23} maxJaren={0} startJaren={-16} veld="w18-datum" /></div>
   {/* Meer keuzes tegelijk: veel kinderen hebben na 18 zowel behandeling als begeleiding nodig. */}

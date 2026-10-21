@@ -29,6 +29,7 @@ stappen:
     brief: gezamenlijk-overleg
   - "Speelt er thuis of bij uw kind meer, zoals angst, somberheid of problemen in het gezin? Vraag dan ook jeugdhulp aan, bij het wijkteam of via de huisarts. Hoe dat gaat, leest u hieronder."
   - "Vraag na elk gesprek om de afspraken op papier. Houd zelf een logboek bij van afspraken en gebeurtenissen. Dat helpt bij elke volgende stap."
+vaakBij: ["4-12", "12-18"]
 volgorde: 3
 laatstGecontroleerd: "2026-10-17"
 bronnen:

@@ -6,7 +6,7 @@ import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 import { BESLUIT_KEUZE, PAPIER_KEUZE } from '../lib/verdiepingen';
 ---
-<Verdieping id="afgewezen" naarStappen="stappen-afgewezen" uitleg="Vul de datum op het besluit in, dan ziet u tot wanneer u bezwaar kunt maken. Met de andere vragen ziet u alleen de stappen die nu nodig zijn.">
+<Verdieping id="afgewezen" titel="Tot wanneer kunt u bezwaar maken?" naarStappen="stappen-afgewezen" uitleg="Vul de datum op het besluit in, dan ziet u tot wanneer u bezwaar kunt maken. Met de andere vragen ziet u alleen de stappen die nu nodig zijn.">
   <div class="field vd-keuze"><span id="af-papier-kop">Heeft u het besluit op papier?</span>
     <div class="chips-select" role="group" aria-labelledby="af-papier-kop">
       {PAPIER_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-af-papier>{o.label}</button>)}

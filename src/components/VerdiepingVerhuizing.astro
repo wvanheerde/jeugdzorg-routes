@@ -3,7 +3,7 @@
 import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 ---
-<Verdieping id="verhuizing" titel="Meer passend advies bij verhuizen" naarStappen="stappen-verhuizing" uitleg="Vult u in naar welke gemeente u gaat en wanneer, dan passen de stappen hieronder zich daarop aan: met het wijkteam van uw nieuwe gemeente en wat u wanneer regelt.">
+<Verdieping id="verhuizing" titel="Waar en wanneer verhuist u?" naarStappen="stappen-verhuizing" uitleg="Vult u in naar welke gemeente u gaat en wanneer, dan passen de stappen hieronder zich daarop aan: met het wijkteam van uw nieuwe gemeente en wat u wanneer regelt.">
   <label class="field"><span>Naar welke plaats of gemeente verhuist u?</span><input type="search" class="gemeente-keuze" placeholder="Bijvoorbeeld Almere" autocomplete="off" enterkeyhint="done" data-vh-naar /></label>
   <div class="field vd-datum"><label for="vh-datum">Wanneer verhuist u ongeveer?</label><DatumVeld id="vh-datum" minJaren={-1} maxJaren={2} veld="vh-datum" /><span class="meta vd-hint">Weet u de dag nog niet? Kies ongeveer de week.</span></div>
   <p class="meta vd-melding" data-vh-melding hidden></p>

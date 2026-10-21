@@ -63,6 +63,7 @@ therapievormen:
     - titel: "Richtlijn Autismespectrumstoornis bij kinderen/jeugd: Comorbide psychische stoornissen"
       url: https://richtlijnendatabase.nl/richtlijn/autismespectrumstoornis_bij_kinderen_jeugd/comorbide_psychische_stoornissen.html
       geraadpleegd: "2026-10-14"
+vaakBij: ["0-4", "4-12", "18-99"]
 volgorde: 1
 laatstGecontroleerd: "2026-10-12"
 bronnen:

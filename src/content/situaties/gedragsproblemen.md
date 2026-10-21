@@ -32,6 +32,7 @@ therapievormen:
     - titel: "Richtlijn Ernstige gedragsproblemen: kernaanbevelingen"
       url: https://richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/kernaanbevelingen
       geraadpleegd: "2026-10-14"
+vaakBij: ["0-4", "4-12", "12-18"]
 volgorde: 11
 laatstGecontroleerd: "2026-10-12"
 bronnen:

@@ -13,6 +13,8 @@ standInGemeente: ervaringen
 gemeenteOnderdelen: [klacht, vertrouwenspersoon, clientondersteuning, toegang]
 brieven: [klacht-toegangsteam, klacht-aanbieder, gezamenlijk-overleg]
 landelijk: [07-klacht-of-bezwaar]
+startgroepen: [al]
+startSituaties: false
 volgorde: 3
 laatstGecontroleerd: "2026-10-17"
 ---

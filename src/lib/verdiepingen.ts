@@ -110,6 +110,30 @@ export const GEZAG_KEUZE = [
   { id: 'ander', label: 'Alleen de andere ouder', samenvatting: 'Alleen de andere ouder heeft het gezag.' },
   { id: 'onbekend', label: 'Weet ik niet', samenvatting: 'U weet niet wie het gezag heeft.' },
 ];
+/** Bij "Weet ik niet": twee korte vragen en de waarschijnlijke uitkomst (persona-test Linda, ronde 27 en 28: ze moest haar eigen geval
+ *  uit een lijst halen). Wie het kind erkende, zegt wie de moeder is. Zelfde regels als de stap "Weet u niet wie het gezag heeft?"
+ *  in gescheiden.md (BW 1:251, 1:252, 1:253b; erkenning vanaf 2023). Het uittreksel blijft de manier om het zeker te weten. */
+export const GETROUWD_KEUZE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee' }];
+export const ERKEND_KEUZE = [
+  { id: 'ander', label: 'Vóór 2023, door de andere ouder' },
+  { id: 'ik', label: 'Vóór 2023, door mij' },
+  { id: '2023', label: 'In 2023 of later' },
+  { id: 'onbekend', label: 'Dat weet ik niet' },
+];
+type Gezag = 'samen' | 'ik' | 'ander';
+/** De uitkomst per antwoord: welk gezag waarschijnlijk geldt (de stappen volgen dat), de samenvatting en de uitleg. */
+export const GEZAG_UITKOMST: Record<string, { gezag: Gezag; samenvatting: string; uitleg: string }> = {
+  getrouwd: { gezag: 'samen', samenvatting: 'Waarschijnlijk hebben jullie samen het gezag.', uitleg: 'U was getrouwd of geregistreerd partner, bij de geboorte of later. Dan hebben jullie samen het gezag, ook na de scheiding.' },
+  ander: { gezag: 'ik', samenvatting: 'Waarschijnlijk heeft u alleen het gezag.', uitleg: 'U was niet getrouwd en de andere ouder heeft uw kind vóór 2023 erkend. Dan heeft alleen de moeder het gezag: dat bent u. Tenzij jullie samen gezag hebben laten vastleggen.' },
+  ik: { gezag: 'ander', samenvatting: 'Waarschijnlijk heeft alleen de andere ouder het gezag.', uitleg: 'U was niet getrouwd en u heeft uw kind vóór 2023 erkend. Dan heeft alleen de moeder het gezag. Tenzij jullie samen gezag hebben laten vastleggen.' },
+  '2023': { gezag: 'samen', samenvatting: 'Waarschijnlijk hebben jullie samen het gezag.', uitleg: 'U was niet getrouwd en uw kind is in 2023 of later erkend. Dan hebben jullie samen het gezag, tenzij bij de erkenning iets anders is vastgelegd.' },
+};
+/** Achter elke uitkomst: de rechter gaat voor, en het uittreksel maakt het zeker (de link staat in VerdiepingGescheiden.astro). */
+export const GEZAG_UITKOMST_SLOT = 'Heeft de rechter iets over het gezag beslist, dan geldt dat. Zeker weten?';
+/** Welke uitkomst bij de antwoorden hoort; zonder (volledig) antwoord geen. */
+export const gezagUitkomst = (getrouwd: string, erkend: string) =>
+  getrouwd === 'ja' ? GEZAG_UITKOMST.getrouwd : getrouwd === 'nee' && erkend !== 'onbekend' ? GEZAG_UITKOMST[erkend] : undefined;
+
 /** Het deel van de inleiding (samenvatting in gescheiden.md) dat alleen bij gezamenlijk gezag geldt: weg bij alleen ik of alleen de ander. */
 export const GEZAG_LEAD = 'Voor behandeling of hulp aan uw kind is bij gezamenlijk gezag wel toestemming van beide ouders nodig. Weigert de andere ouder? Dan kan de rechter toestemming geven.';
 export const KIES_ZIN = 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt wel toestemming van beide ouders.';

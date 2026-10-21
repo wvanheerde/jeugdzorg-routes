@@ -15,6 +15,7 @@ regelingen:
     toelichting: "De basisverzekering vergoedt incontinentiemateriaal vanaf 5 jaar. Komt het niet zindelijk zijn door een aandoening, dan al vanaf 3 jaar. Niet als uw kind alleen 's nachts in bed plast, of als het kort duurt. Daarvoor is een verklaring van de arts nodig. Vraag de zorgverzekeraar naar de precieze voorwaarden."
   - naam: "Pgb voor gespecialiseerde begeleiding"
     toelichting: "Heeft de gemeente geen afspraken met een aanbieder die deze begeleiding geeft? Dan is dat een argument voor een pgb. U sluit dan een zorgovereenkomst met de zorgverlener, en de SVB betaalt uit het budget. Hoeveel papierwerk de aanvraag is, verschilt per gemeente. Vaak vult u samen met het wijkteam een plan in. Zie de landelijke uitleg."
+vaakBij: ["0-4"]
 volgorde: 4
 laatstGecontroleerd: "2026-10-12"
 bronnen:

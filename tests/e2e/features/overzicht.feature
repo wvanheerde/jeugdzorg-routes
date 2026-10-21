@@ -1,12 +1,38 @@
 # language: nl
 Functionaliteit: Mijn overzicht
   Mijn overzicht toont bij de keuzes wat de ouder kan doen, bij wie in de gemeente, welke hulp bestaat en welke rechten gelden.
-  Keuzes komen uit de url (?k, ?s, ?gemeente, ?l) of uit eerdere bezoeken.
+  Keuzes komen uit de url (?k, ?s, ?gemeente, ?l) of uit eerdere bezoeken. De ouder kiest ze op de voorpagina; in het
+  overzicht staan ze alleen als samenvatting, met een link terug naar de voorpagina (20-10: de keuzes op twee plekken
+  bijhouden voegde weinig toe).
 
-  Scenario: Zonder keuzes vraagt het overzicht om een keuze
+  Scenario: Bovenaan staat een link terug naar de voorpagina
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht"
+    Dan zie ik de link "← Terug naar de voorpagina"
+
+  Scenario: De keuzes zijn in het overzicht niet aan te passen
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situatie "ADHD en ADD"
+    Dan zie ik "Utrecht · Ik heb nog geen hulp · ADHD en ADD"
+    En zie ik de link "Keuzes aanpassen" niet
+    En zie ik de knop "Keuzes aanpassen" niet
+    En zie ik "Waar woont u?" niet
+    En zie ik de knop "ADHD en ADD" niet
+
+  Abstract Scenario: "Uw keuzes" noemt de keuze met de woorden van de voorpagina
+    Henk en Lisa kozen "Ik zoek hulp voor mijn kind" en lazen hier "Ik wil hulp aanvragen" (ronde 27).
+    Gegeven ik open het overzicht voor "<vraag>" in "Utrecht"
+    Dan zie ik "Utrecht · <keuze>"
+
+    Voorbeelden:
+      | vraag                                       | keuze                                   |
+      | Ik wil hulp aanvragen                       | Ik heb nog geen hulp                    |
+      | Ik maak me zorgen om een kind van een ander | Ik heb zorgen om een kind van een ander |
+      | Wij wachten te lang                         | Wij wachten te lang                     |
+
+  Scenario: Zonder keuzes wijst het overzicht naar de voorpagina
     Gegeven ik open de pagina "overzicht/"
     Dan is de hoofdkop "Mijn overzicht"
-    En zie ik "nog niets gekozen"
+    En zie ik "Kies op de voorpagina uw gemeente en uw situatie. Dan ziet u hier wat u kunt doen."
+    En zie ik de link "← Terug naar de voorpagina"
     En zie ik de kop "Wat kunt u doen" niet
 
   Scenario: Het overzicht mag niet in zoekmachines
@@ -77,13 +103,6 @@ Functionaliteit: Mijn overzicht
     Als ik open de pagina "overzicht/?k=geld&s=adhd"
     Dan staat in de zijnavigatie niet "Welke hulp"
     En staat in de zijnavigatie "Rechten en regelingen"
-
-  @mobiel
-  Scenario: Verder op de pagina opent een zwevende knop de keuzes
-    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situatie "ADHD en ADD"
-    Als ik een stuk naar beneden scroll
-    En ik op de zwevende knop "Keuzes aanpassen" druk
-    Dan staan de keuzes open
 
   Scenario: Bij een contact onder een stap staan telefoon, e-mail en website
     Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situatie "ADHD en ADD"

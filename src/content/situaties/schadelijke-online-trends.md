@@ -30,6 +30,7 @@ therapievormen:
   bijkomend:
     - id: mindfulness-kinderen
   toelichting: "Geen richtlijn. De vorm hangt af van het gevolg: CGT bij angst of somberheid, EMDR na een schokkende gebeurtenis (zoals sextortion), DGT bij zelfbeschadiging, verslavingsbehandeling bij gamen, sociale vaardigheden bij pesten."
+vaakBij: ["12-18"]
 volgorde: 16
 laatstGecontroleerd: "2026-10-12"
 bronnen:

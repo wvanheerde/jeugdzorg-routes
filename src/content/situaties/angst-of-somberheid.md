@@ -40,6 +40,7 @@ therapievormen:
     - titel: "Kenniscentrum KJP: Depressie, behandeling"
       url: https://kenniscentrum-kjp.nl/professionals/depressie/
       geraadpleegd: "2026-10-14"
+vaakBij: ["4-12", "12-18", "18-99"]
 volgorde: 12
 laatstGecontroleerd: "2026-10-12"
 bronnen:

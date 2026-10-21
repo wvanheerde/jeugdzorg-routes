@@ -3,10 +3,10 @@
 import Verdieping from './Verdieping.astro';
 import { HULP_STOPT_REDEN } from '../lib/verdiepingen';
 ---
-<Verdieping id="hulp-stopt" naarStappen="stappen-hulp-stopt" uitleg="Kies waarom de hulp stopt. Dan ziet u alleen de stappen die daarbij horen.">
-  {/* Knoppen zoals bij de andere keuzes (KnelpuntKeuze): één keuze, nog eens klikken haalt hem weg. */}
-  <div class="field vd-keuze"><span id="hs-reden-kop">Waarom stopt de hulp?</span>
-    <div class="chips-select" role="group" aria-labelledby="hs-reden-kop">
+<Verdieping id="hulp-stopt" titel="Waarom stopt de hulp?" naarStappen="stappen-hulp-stopt" uitleg="Dan ziet u alleen de stappen die daarbij horen.">
+  {/* Knoppen zoals bij de andere keuzes (startvragen op de voorpagina): één keuze, nog eens klikken haalt hem weg. */}
+  <div class="field vd-keuze">
+    <div class="chips-select" role="group" aria-labelledby="vd-vraag-hulp-stopt">
       {HULP_STOPT_REDEN.map((r) => <button type="button" class="chip-btn" aria-pressed="false" value={r.id} data-hs-reden data-label={r.label}>{r.label}</button>)}
     </div>
   </div>

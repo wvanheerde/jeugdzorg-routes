@@ -5,8 +5,9 @@
 import { expect, type Page } from '@playwright/test';
 import type { DataTable } from 'playwright-bdd';
 import { Given, When, Then } from './fixtures';
-import { gemeenteSlug, situatieId } from './inhoud';
+import { gemeenteSlug, situatieId, brieven } from './inhoud';
 import { noteerBezoek } from '../dekking/opties';
+import { knop } from './algemeen';
 
 const schoon = (s: string) => s.replace(/\u00ad/g, '').replace(/\s+/g, ' ').trim();
 /** Zichtbare koppen, zonder sectienummer (span.section-num, zoals "1" of "→") en zonder zachte afbreekstreepjes. */
@@ -49,6 +50,17 @@ Then('zie ik de koppen:', async ({ page }, tabel: DataTable) => {
 Then('gaat de link {string} naar {string}', async ({ page }, naam: string, doel: string) => {
   const link = page.getByRole('link', { name: naam }).locator('visible=true').first();
   await expect(link).toHaveAttribute('href', new RegExp(doel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+});
+// Het menu heeft ook een link "Hulpmiddelen"; deze stap kijkt alleen in het bovenste blok van de voorpagina.
+Then('gaat de link {string} in de hero naar {string}', async ({ page }, naam: string, doel: string) => {
+  const link = page.locator('.hero').getByRole('link', { name: naam, exact: true }).locator('visible=true').first();
+  await expect(link).toHaveAttribute('href', new RegExp(`${doel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`));
+});
+When('ik met de muis op de link {string} ga', async ({ page }, naam: string) => {
+  await page.getByRole('link', { name: naam }).locator('visible=true').first().hover();
+});
+Then('is de tekst van de link {string} wit', async ({ page }, naam: string) => {
+  await expect.poll(() => page.getByRole('link', { name: naam }).locator('visible=true').first().evaluate((a) => getComputedStyle(a).color)).toBe('rgb(255, 255, 255)');
 });
 Then('zie ik een belknop', async ({ page }) => {
   await expect(page.locator('a.btn.bel[href^="tel:"], a[href^="tel:"].btn').locator('visible=true').first()).toBeVisible();
@@ -131,6 +143,9 @@ Then('staat in het hoofdmenu:', async ({ page }, tabel: DataTable) => {
   const nav = page.locator('#hoofdnavigatie');
   for (const [naam] of tabel.raw()) await expect(nav.getByRole('link', { name: naam, exact: true })).toBeVisible();
 });
+Then('staat {string} niet in het hoofdmenu', async ({ page }, naam: string) => {
+  await expect(page.locator('#hoofdnavigatie').getByRole('link', { name: naam, exact: true })).toHaveCount(0);
+});
 Then('is {string} in het hoofdmenu de huidige pagina', async ({ page }, naam: string) => {
   await expect(page.locator('#hoofdnavigatie').getByRole('link', { name: naam, exact: true })).toHaveAttribute('aria-current', 'page');
 });
@@ -154,6 +169,9 @@ Then('is de uitleg bij {string} dicht', async ({ page }, w: string) => {
   const id = await woord(page, w).getAttribute('aria-controls');
   await expect(page.locator(`#${id}`)).toBeHidden();
   await expect(woord(page, w)).toHaveAttribute('aria-expanded', 'false');
+});
+Then('is {string} met precies deze letters geen moeilijk woord', async ({ page }, w: string) => {
+  await expect(page.locator('main span.woord[role="button"]').filter({ hasText: new RegExp(`^${w}$`) })).toHaveCount(0);
 });
 Then('is {string} een moeilijk woord met uitleg', async ({ page }, w: string) => {
   await expect(woord(page, w)).toBeVisible();
@@ -187,6 +205,100 @@ Then('zie ik alleen de gemeente {string}', async ({ page }, naam: string) => {
   await expect(kaarten.first()).toContainText(naam);
 });
 
+// ---------- startvragen (voorpagina) ----------
+// Eén vraag tegelijk: eerdere antwoorden staan als regel (data-antwoord) met "wijzigen".
+const antwoordRegel = (page: Page, tekst: string) => page.locator('[data-antwoord]').filter({ has: page.getByText(tekst, { exact: true }) }).locator('visible=true').first();
+Then('zie ik de knoppen:', async ({ page }, tabel: DataTable) => {
+  for (const [naam] of tabel.raw()) await expect(knop(page, naam), naam).toBeVisible();
+});
+Then('zie ik het antwoord {string}', async ({ page }, tekst: string) => {
+  await expect(antwoordRegel(page, tekst)).toBeVisible();
+});
+Then('zie ik het antwoord {string} niet', async ({ page }, tekst: string) => {
+  await expect(page.locator('[data-antwoord]').filter({ has: page.getByText(tekst, { exact: true }) }).locator('visible=true')).toHaveCount(0);
+});
+When('ik bij {string} op {string} druk', async ({ page }, tekst: string, naam: string) => {
+  await antwoordRegel(page, tekst).getByRole('button', { name: naam }).click();
+});
+/** De knop staat zichtbaar in het groepje met deze kop (data-groep-kop), zoals "Vaak bij deze leeftijd" of "Gevoel en gedrag". */
+Then('staat de knop {string} onder {string}', async ({ page }, naam: string, kop: string) => {
+  const groep = page.locator(`[data-groep-kop="${kop}"]`).locator('visible=true');
+  await expect(groep).toHaveCount(1);
+  await expect(groep.getByRole('button', { name: new RegExp(`^(✓ )?${naam.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) })).toBeVisible();
+});
+Then('staat de knop {string} één keer op de pagina', async ({ page }, naam: string) => {
+  await expect(page.getByRole('button', { name: new RegExp(`^(✓ )?${naam.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) }).locator('visible=true')).toHaveCount(1);
+});
+Then('zie ik {int} situaties om te kiezen', async ({ page }, n: number) => {
+  await expect(page.locator('[data-startsituatie]').locator('visible=true')).toHaveCount(n);
+});
+/** Na het schuiven staat de tekst in de bovenste 40% van het scherm (op de telefoon schuift de volgende vraag in beeld). */
+Then('staat {string} bovenaan in beeld', async ({ page }, tekst: string) => {
+  const el = page.getByText(tekst, { exact: true }).locator('visible=true').first();
+  const hoogte = page.viewportSize()!.height;
+  await expect.poll(async () => { const b = await el.boundingBox(); return b ? b.y >= 0 && b.y < hoogte * 0.4 : false; }).toBe(true);
+});
+/** Weinig ruimte tussen een keuzelijst en de tekst eronder (hooguit 40 px). */
+Then('staat {string} vlak onder de keuzelijst {string}', async ({ page }, tekst: string, lijst: string) => {
+  const onder = (await page.getByLabel(lijst).locator('visible=true').first().boundingBox())!;
+  const el = page.getByText(tekst, { exact: true }).locator('visible=true').first();
+  await expect.poll(async () => { const b = (await el.boundingBox())!; return Math.round(b.y - (onder.y + onder.height)); }).toBeLessThanOrEqual(40);
+});
+
+/** De link staat helemaal in beeld, met de onderkant in het onderste stukje van het scherm (de pagina schoof net genoeg). */
+Then('staat de link {string} onderaan in beeld', async ({ page }, naam: string) => {
+  const link = page.getByRole('link', { name: naam }).locator('visible=true').first();
+  const hoogte = page.viewportSize()!.height;
+  await expect.poll(async () => { const b = (await link.boundingBox())!; return b.y >= 0 && b.y + b.height <= hoogte && b.y + b.height > hoogte - 60; }).toBe(true);
+});
+/** De link staat in beeld en niet onder de vaste kop: het midden van de link is wat je daar ziet. */
+Then('staat de link {string} helemaal in beeld', async ({ page }, naam: string) => {
+  const link = page.getByRole('link', { name: naam }).locator('visible=true').first();
+  await expect.poll(() => link.evaluate((a) => {
+    const r = a.getBoundingClientRect();
+    const op = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+    return r.top >= 0 && r.bottom <= innerHeight && !!op && a.contains(op);
+  })).toBe(true);
+});
+/** De knop eerst in beeld, dan kiezen: daarna staat de pagina nog op dezelfde plek (op de laptop schuift de site niet). */
+When('ik kies {string} en de pagina blijft staan', async ({ page }, naam: string) => {
+  const k = knop(page, naam);
+  await k.scrollIntoViewIfNeeded();
+  const voor = await page.evaluate(() => scrollY);
+  // Klikken in het bovenste stukje van de knop, zoals een ouder op het zichtbare deel tikt: onderaan kan het zwevende
+  // "Meer op deze pagina" over de knop liggen, en dan schuift Playwright bij een gewone klik zelf de pagina.
+  const b = (await k.boundingBox())!;
+  await page.mouse.click(b.x + 20, b.y + 8);
+  await page.waitForTimeout(700);
+  expect(await page.evaluate(() => scrollY), 'schuifpositie na de keuze').toBe(voor);
+});
+
+// ---------- hulpmiddelen (hulpmiddelen/) ----------
+Then('staan alle voorbeeldbrieven op de pagina', async ({ page }) => {
+  await expect(page.locator('[data-brief-kaart]').locator('visible=true')).toHaveCount(brieven().length);
+});
+
+// ---------- briefpagina ----------
+const briefTekst = (page: Page) => page.locator('#brief-tekst');
+const knopOnderBrief = (page: Page, naam: string) => page.getByRole('button', { name: naam }).locator('visible=true').last();
+Then('staat onder de brief de knop {string}', async ({ page }, naam: string) => {
+  const [brief, knop] = [await briefTekst(page).boundingBox(), await knopOnderBrief(page, naam).boundingBox()];
+  expect(knop!.y, 'knop onder de brief').toBeGreaterThan(brief!.y + brief!.height);
+});
+When('ik onder de brief op {string} druk', async ({ page }, naam: string) => {
+  await knopOnderBrief(page, naam).click();
+});
+Then('staat {string} boven de brief', async ({ page }, tekst: string) => {
+  const [el, brief] = [await page.getByText(tekst, { exact: true }).locator('visible=true').first().boundingBox(), await briefTekst(page).boundingBox()];
+  expect(el!.y + el!.height, `"${tekst}" boven de brief`).toBeLessThan(brief!.y);
+});
+
+/** Op de laptop staan de tips in de zijkolom; op de telefoon staan ze ingeklapt boven de brief en klapt de ouder ze open. */
+When('ik de tips {string} bekijk', async ({ page }, kop: string) => {
+  const summary = page.locator('summary', { hasText: kop }).locator('visible=true');
+  if (await summary.count()) await summary.first().click();
+});
+
 // ---------- klembord (brieven) ----------
 Given('de site mag het klembord gebruiken', async ({ context, browserName }) => {
   if (browserName === 'chromium') await context.grantPermissions(['clipboard-read', 'clipboard-write']);
@@ -209,6 +321,10 @@ When('ik het onderdeel {string} open', async ({ page }, tekst: string) => {
 });
 Then('staat het onderdeel {string} open', async ({ page }, tekst: string) => {
   await expect(page.locator('details', { has: page.locator('summary', { hasText: tekst }) }).first()).toHaveAttribute('open', '');
+});
+
+Then('is het onderdeel {string} dicht', async ({ page }, tekst: string) => {
+  await expect(page.locator('details', { has: page.locator('summary', { hasText: tekst }) }).locator('visible=true').first()).not.toHaveAttribute('open', '');
 });
 
 // ---------- bestanden voor zoekmachines ----------

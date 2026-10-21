@@ -15,6 +15,7 @@ standInGemeente: ervaringen
 gemeenteOnderdelen: [bezwaar, postadres, clientondersteuning, vertrouwenspersoon]
 brieven: [bezwaar-beschikking]
 landelijk: [03-rechten, 07-klacht-of-bezwaar, 06-aanvragen]
+startgroepen: [al]
 volgorde: 4
 bronnen:
   - titel: Algemene wet bestuursrecht, art. 1:3, 3:41, 4:6, 6:7, 6:8, 6:9, 6:11, 6:16 en 8:81 (wetten.overheid.nl)

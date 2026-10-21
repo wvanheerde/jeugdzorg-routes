@@ -15,6 +15,8 @@ gemeenteOnderdelen: []
 zonderGemeente: true
 brieven: []
 landelijk: []
+startgroepen: [ander]
+startSituaties: false
 volgorde: 6.5
 bronnen:
   - titel: Veilig Thuis – De adviesfunctie van Veilig Thuis

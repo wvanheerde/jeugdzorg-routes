@@ -15,7 +15,8 @@ Functionaliteit: Opmaak, menu en voettekst
       | Landelijk       |
       | Organisaties    |
       | Therapievormen  |
-      | Over deze site  |
+      | Hulpmiddelen    |
+    En staat "Over deze site" niet in het hoofdmenu
     En is "Gemeenten" in het hoofdmenu de huidige pagina
 
   @mobiel
@@ -26,11 +27,13 @@ Functionaliteit: Opmaak, menu en voettekst
     Dan staat in het hoofdmenu:
       | Situaties      |
       | Gemeenten      |
-      | Over deze site |
+      | Hulpmiddelen   |
 
-  Scenario: De voettekst wijst naar de moeilijke woorden en de hulplijnen
+  Scenario: De voettekst wijst naar over deze site, de moeilijke woorden en de hulplijnen
+    "Over deze site" staat alleen in de voettekst, niet in het hoofdmenu (20-10).
     Gegeven ik open de voorpagina
-    Dan gaat de link "Moeilijke woorden uitgelegd" naar "begrippen/"
+    Dan gaat de link "Over deze site" naar "over/"
+    En gaat de link "Moeilijke woorden uitgelegd" naar "begrippen/"
     En zie ik een link om "0800 2000" te bellen
     En zie ik een link om "0800 0113" te bellen
 

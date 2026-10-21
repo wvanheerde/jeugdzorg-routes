@@ -6,7 +6,7 @@ stappen:
   - "Dit kunt u zelf doen: vraag het wijkteam om een gesprek voor uzelf als ouder. Het wijkteam denkt mee over hulp voor uw kind en over hoe u met de andere ouder in gesprek komt."
   - "Dit kunt u ook zelf doen: vertel het aan school. School ziet hoe het met uw kind gaat en kan u laten weten als het niet goed gaat. Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt wel toestemming van beide ouders."
   - "Dit kunt u ook zelf doen: maak een afspraak met de huisarts als uw kind slecht slaapt, angstig of somber is. Dan bespreekt u samen wat nodig is."
-  - stap: "Weet u niet wie het gezag heeft? Zo gaat het meestal:"
+  - stap: "Weet u niet wie het gezag heeft? Wie het gezag heeft, geeft toestemming voor hulp: heeft u alleen het gezag, dan beslist u zelf; hebben jullie het samen, dan moeten jullie allebei instemmen. Zo gaat het meestal:"
     daarna:
       - "Getrouwd of geregistreerd partner, bij de geboorte of later? Dan hebben jullie samen het gezag, ook na de scheiding."
       - "Niet getrouwd, en uw kind erkend vóór 2023? Dan heeft alleen de moeder het gezag, tenzij jullie samen gezag hebben laten vastleggen."
@@ -20,6 +20,8 @@ stappen:
 gemeenteOnderdelen: [toegang, clientondersteuning]
 brieven: [aanvraag-jeugdhulp]
 landelijk: [03-rechten]
+startgroepen: [verandert]
+startSituaties: false
 volgorde: 10
 bronnen:
   - titel: "Burgerlijk Wetboek Boek 1, art. 251, 251b, 252, 253a, 253aa, 253b, 253c, 377b en 377c (wetten.overheid.nl)"

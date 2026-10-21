@@ -4,20 +4,25 @@
  * Het blok zelf doet niets met de antwoorden; dat doet het script van de pagina (zie src/scripts/overzicht/verhuizing.ts). De pagina zet
  * de samenvatting in [data-vd-samenvatting] en roept bij een bewaard antwoord inklappen aan via data-vd-ingeklapt.
  * Ingeklapt staat alleen de samenvatting met "Aanpassen"; zo staat bij een tweede bezoek het antwoord voorop.
+ * Geen label "niet verplicht" of "u kunt dit overslaan": de stappen staan er ook zonder antwoord, en het label trok de aandacht van de vraag af.
  * Geen uitleg bij moeilijke woorden in de samenvatting (data-geen-uitleg): de pagina schrijft die bij elk antwoord opnieuw, en de uitleg hoort bij de stappen.
  */
 /** naarStappen: id van het begin van de stappen (overzicht.astro: stappen-<vraag>). Elke verdieping heeft hem, voor een gelijk gedrag. Dan staat na een antwoord links van "Wissen" een link "De stappen zijn aangepast ↓" (de pagina
  *  toont hem via data-vd-gevolg), want de stappen veranderen buiten beeld (persona-test Peter r6). */
-interface Props { id: string; titel?: string; uitleg?: string; naarStappen?: string }
-const { id, titel = 'Meer passend advies', uitleg, naarStappen } = Astro.props;
+/** titel: de vraag zelf ("Waarop wacht u?"). "Meer passend advies" zei niet waar het over ging en werd gemist (persona-tests ronde 24).
+ *  Een vraag in het blok die gelijk is aan de titel valt weg; de knoppen verwijzen dan naar vd-vraag-<id>. */
+interface Props { id: string; titel: string; uitleg?: string; naarStappen?: string }
+const { id, titel, uitleg, naarStappen } = Astro.props;
 ---
 <section class="verdieping o1" data-verdieping={id} aria-labelledby={`vd-kop-${id}`}>
   <div data-vd-vragen>
-    <h3 id={`vd-kop-${id}`}>{titel} <span class="vd-optioneel">niet verplicht</span></h3>
+    <h3 id={`vd-kop-${id}`}><span id={`vd-vraag-${id}`}>{titel}</span></h3>
     {uitleg && <p class="meta vd-uitleg">{uitleg}</p>}
     <div class="vd-velden"><slot /></div>
   </div>
   <p class="vd-samenvatting" aria-live="polite"><span data-vd-samenvatting data-geen-uitleg></span><span class="vd-acties">{naarStappen && <a class="vd-gevolg" href={`#${naarStappen}`} data-vd-gevolg hidden>De stappen zijn aangepast&nbsp;↓</a>}<button type="button" class="linkknop" data-vd-aanpassen hidden>Aanpassen</button><button type="button" class="linkknop" data-vd-wissen hidden>Wissen</button></span></p>
+  {/* Wat bij het antwoord hoort en ook ingeklapt zichtbaar blijft (zoals de waarschijnlijke uitkomst bij het gezag). */}
+  <slot name="na" />
 </section>
 <script>
   document.querySelectorAll<HTMLElement>('[data-verdieping]').forEach((blok) => {
@@ -30,6 +35,20 @@ const { id, titel = 'Meer passend advies', uitleg, naarStappen } = Astro.props;
       aanpassen.hidden = !dicht;
     };
     new MutationObserver(toon).observe(blok, { attributes: true, attributeFilter: ['data-vd-ingeklapt'] });
+    // Opent een antwoord een nieuw veld (een datum), dan staat de cursor erin: anders lijkt er niets te gebeuren, want het veld
+    // komt lager op de pagina (persona-test Erik, ronde 24). Alleen na een klik; bij een bewaard antwoord springt de pagina niet.
+    let geklikt = 0;
+    // Capture: vóór het script van de pagina het veld toont (de MutationObserver komt direct na dat script).
+    vragen.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('button')) geklikt = Date.now(); }, true);
+    new MutationObserver((wijzigingen) => {
+      if (Date.now() - geklikt > 1000) return;
+      const veld = wijzigingen.map((w) => w.target as HTMLElement).find((el) => !el.hidden && el.matches('.vd-datum'));
+      const invoer = veld?.querySelector<HTMLInputElement>('input[type="text"]');
+      if (!invoer) return;
+      geklikt = 0;
+      invoer.focus({ preventScroll: true });
+      veld!.scrollIntoView({ block: 'center' });
+    }).observe(vragen, { attributes: true, attributeFilter: ['hidden'], subtree: true });
     aanpassen.addEventListener('click', () => {
       blok.removeAttribute('data-vd-ingeklapt');
       blok.querySelector<HTMLElement>('input, select, [data-vd-vragen] button')?.focus();

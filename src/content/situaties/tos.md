@@ -1,5 +1,5 @@
 ---
-titel: "Taalontwikkelingsstoornis (TOS)"
+titel: "Moeite met taal en praten (TOS)"
 herkenning: "Mijn kind praat weinig of onduidelijk, begrijpt instructies slecht of vindt moeilijk woorden, terwijl het goed hoort en zich verder normaal ontwikkelt."
 samenvatting: "Ongeveer één op de twintig kinderen heeft een taalontwikkelingsstoornis. Die wordt vaak gemist. Of hij wordt aangezien voor autisme, verlegenheid of een gedragsprobleem. De weg naar hulp is anders dan bij gewone jeugdhulp. U gaat via de jeugdarts of huisarts naar een audiologisch centrum. Behandeling en onderwijs lopen via gespecialiseerde organisaties zoals Kentalis en Auris. Dat wordt betaald uit de zorgverzekering en het onderwijs."
 themas: [tos, taal, spraak]
@@ -27,6 +27,7 @@ therapievormen:
   bijkomend:
     - id: sensorische-informatieverwerking
   toelichting: "Geen richtlijn die de vormen rangschikt. Logopedie is de kern van TOS-behandeling; speltherapie voor kinderen met weinig taal; sensorische informatieverwerking alleen bij veel last van prikkels."
+vaakBij: ["0-4"]
 volgorde: 24
 laatstGecontroleerd: "2026-10-12"
 bronnen:

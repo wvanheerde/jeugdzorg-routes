@@ -9,10 +9,6 @@ import Icon from '../components/Icon.astro';
 import AfdrukKnop from '../components/AfdrukKnop.astro';
 import AfdrukKop from '../components/AfdrukKop.astro';
 import Contact from '../components/Contact.astro';
-import GemeenteKeuze from '../components/GemeenteKeuze.astro';
-import SituatieKeuze from '../components/SituatieKeuze.astro';
-import KnelpuntKeuze from '../components/KnelpuntKeuze.astro';
-import LeeftijdKeuze from '../components/LeeftijdKeuze.astro';
 import BriefKaart from '../components/BriefKaart.astro';
 import SpoedNummers from '../components/SpoedNummers.astro';
 import TherapieKaart from '../components/TherapieKaart.astro';
@@ -24,6 +20,7 @@ import Sources from '../components/Sources.astro';
 import ToegangLegenda from '../components/ToegangLegenda.astro';
 import { afbreken } from '../lib/afbreken';
 import { genoemdIn } from '../lib/genoemd';
+import { startNaam } from '../lib/startvragen';
 import OrgRegel from '../components/OrgRegel.astro';
 import StapInhoud from '../components/StapInhoud.astro';
 import VerdiepingVerhuizing from '../components/VerdiepingVerhuizing.astro';
@@ -51,39 +48,51 @@ situaties.forEach((s) => therapieVolgorde(s, therapie));
 const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
 const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 controleerVerdiepingen(knelpunten);
+/** Een stap die zich aan de leeftijd aanpast (leeftijdsstappen, zoals bij kinderbijslag): per band de vervangende tekst. Het script
+ *  (render.ts) toont per groep de variant van de gekozen leeftijd, anders de gewone stap. De build faalt als een begin niet bij precies één stap past. */
+const leeftijdsVarianten = (k: (typeof knelpunten)[number], st: string) => {
+  const ls = k.data.leeftijdsstappen.find((l) => st.startsWith(l.begin));
+  return ls ? (['0-4', '4-12', '12-18', '18-99'] as const).filter((b) => ls[b]).map((b) => ({ band: b, tekst: ls[b]! })) : [];
+};
+knelpunten.forEach((k) => k.data.leeftijdsstappen.forEach((l) => {
+  const n = hoofdStappen(k).filter((st) => st.startsWith(l.begin)).length;
+  if (n !== 1) throw new Error(`knelpunten/${k.id}.md: leeftijdsstap "${l.begin}" past bij ${n} stappen; dat moet er precies één zijn.`);
+}));
 /** De stappen over gezag ("Wij zijn uit elkaar"), ook bij "Ik wil hulp aanvragen" met de situatie Scheiding. */
 const gescheidenVraag = knelpunten.find((k) => k.id === 'gescheiden')!;
 const gezagStappen = hoofdStappen(gescheidenVraag).filter((x) => gezagStap(x));
 const brieven = (await getCollection('brieven'));
-const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente, wijkteamBovenaan: k.data.wijkteamBovenaan }]));
+const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente, wijkteamBovenaan: k.data.wijkteamBovenaan, situaties: k.data.startSituaties }]));
 const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 /** Compacte data voor de browser: per situatie de koppelsleutels. */
 const sitData = Object.fromEntries(situaties.map((s) => [s.id, { themas: koppelThemas(s.data.themas), hulpsoorten: hulpsoortenVoor(s, therapie), routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, jgz: s.data.jgzVoorop, inklap: s.data.lichteStart || s.data.aanvraagIngeklapt || !!s.data.stappen, rang: !!s.data.therapievormen, gelijk: !!s.data.routes[0].beginBij }]));
 const j = (a: string[]) => a.join(' ');
 /** Namen voor de samenvatting van de keuzes. */
-const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])), k: Object.fromEntries(knelpunten.map((x) => [x.id, x.data.titel])), g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])), l: { '0-4': 'jonger dan 4', '4-12': '4 tot 12 jaar', '12-18': '12 tot 18 jaar', '18-99': '18 of ouder' } as Record<string, string> };
+const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])), k: Object.fromEntries(knelpunten.map((x) => [x.id, startNaam(x)])), g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])), l: { '0-4': 'jonger dan 4', '4-12': '4 tot 12 jaar', '12-18': '12 tot 18 jaar', '18-99': '18 of ouder' } as Record<string, string> };
 ---
 <Base title="Mijn overzicht" noindex>
   <div class="page-head">
+    {/* De keuzes maakt de ouder op de voorpagina; hier staan ze alleen als samenvatting (20-10: op twee plekken bijhouden voegde weinig toe). */}
+    <p class="meta terug" style="margin-bottom:.5rem"><a href={`${base}/`}>← Terug naar de voorpagina</a></p>
     <span class="eyebrow">Op maat</span>
     <h1>Mijn overzicht</h1>
-    <p class="lead" data-intro>Kies uw gemeente en wat er speelt. U ziet dan alleen wat voor u van toepassing is.</p>
+    <p class="lead" data-intro>Kies op de voorpagina uw gemeente en uw situatie. Dan ziet u hier wat u kunt doen.</p>
     <AfdrukKop wat="dit overzicht" />
   </div>
 
-  <details class="section regelen keuzes" id="top" data-keuzes>
-    <summary><strong>Uw keuzes</strong> <span class="meta" data-keuzes-samenvatting>nog niets gekozen</span> <span class="keuzes-actie">aanpassen</span></summary>
-    <div class="wegwijzer light"><GemeenteKeuze /><KnelpuntKeuze /><LeeftijdKeuze /><SituatieKeuze mode="inline" /></div>
-    <p class="empty" data-leeg style="margin:1rem 0 0">Kies hierboven een situatie, of waar u staat met de gemeente.</p>
-  </details>
-  <!-- Meteen (niet pas na het laden van de scripts): open of dicht, en de samenvatting. Anders klapte het blok zichtbaar dicht en versprong de pagina. -->
+  {/* De keuzes als samenvatting (op de telefoon en op papier; op de laptop staan ze in de zijkolom). Zonder keuzes verborgen. */}
+  <div class="section regelen keuzes" id="top" data-keuzes hidden>
+    <p><strong>Uw keuzes</strong> <span class="meta" data-keuzes-samenvatting></span></p>
+  </div>
+  <!-- Meteen (niet pas na het laden van de scripts): de samenvatting, en de inleiding weg. Anders versprong de pagina. -->
   <script is:inline define:vars={{ namen }}>
     (() => {
       const p = new URLSearchParams(location.search);
       const v = (k, key) => p.get(k) ?? localStorage.getItem(key) ?? '';
       const s = v('s', 'jr.situaties').split(',').filter(Boolean), k = v('k', 'jr.knelpunt'), g = v('gemeente', 'jr.gemeente'), l = v('l', 'jr.leeftijd');
       const d = document.querySelector('[data-keuzes]');
-      if (!(s.length || k || g)) { d.open = true; return; }
+      if (!(s.length || k || g)) return;
+      d.hidden = false;
       document.querySelectorAll('[data-intro]').forEach((e) => (e.hidden = true));
       // Tot de inhoud getekend is de voettekst verbergen: anders staat die even in beeld en schuift dan weg.
       document.documentElement.classList.add('jr-laden');
@@ -93,14 +102,12 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
     })();
   </script>
 
-  <button type="button" class="keuzes-knop" data-keuzes-aanpassen data-keuzes-knop hidden>Keuzes aanpassen</button>
   <div data-inhoud hidden class="page-with-side">
    <aside class="side">
     <nav aria-label="Inhoud" data-zijnav>
       <div class="side-keuzes">
         <strong>Uw keuzes</strong>
         <p data-keuzes-samenvatting></p>
-        <a href="#top" class="side-aanpassen" data-keuzes-aanpassen>Keuzes aanpassen</a>
       </div>
       <!-- Samenvatting meteen overnemen uit het keuzeblok (gevuld door het vroege script hierboven), zodat de zijnavigatie niet verspringt. -->
       <script is:inline>document.currentScript.previousElementSibling.querySelector('[data-keuzes-samenvatting]').textContent = document.querySelector('[data-keuzes] [data-keuzes-samenvatting]').textContent;</script>
@@ -130,9 +137,16 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'wachten' && <VerdiepingWachten />}
           {k.id === 'wordt-18' && <VerdiepingWordt18 />}
           {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
-          {k.id === 'gescheiden' && <VerdiepingGescheiden id="gescheiden" naarStappen="stappen-gescheiden" uitleg="Kies wie het gezag over uw kind heeft. Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp." />}
+          {k.id === 'gescheiden' && <VerdiepingGescheiden id="gescheiden" naarStappen="stappen-gescheiden" uitleg="Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp." />}
           {k.id === 'uitbreiden' && <VerdiepingUitbreiden />}
-          {k.id === 'beginnen' && <VerdiepingGescheiden id="gezag-beginnen" naarStappen="stappen-beginnen" uitleg="Mag u hulp regelen zonder de andere ouder? Dat hangt af van wie het gezag heeft. Kies het hieronder, dan ziet u wie toestemming geeft." />}
+          {/* Gezag bij hulp aanvragen: ingeklapt, want het geldt alleen voor wie niet samenwoont met de andere ouder; met de situatie
+              Scheiding of een antwoord staat het open (scripts/overzicht/gescheiden.ts). Persona-test Linda, ronde 25. */}
+          {k.id === 'beginnen' && (
+            <details class="o1 gezag-inklap" data-gezag-inklap>
+              <summary>Woont u niet samen met de andere ouder? Kijk dan of die moet meebeslissen.</summary>
+              <VerdiepingGescheiden id="gezag-beginnen" naarStappen="stappen-beginnen" uitleg="Mag u hulp regelen zonder de andere ouder? Dat hangt af van wie het gezag heeft. Kies het hieronder, dan ziet u wie toestemming geeft." />
+            </details>
+          )}
           {/* Doel van de link "De stappen zijn aangepast" in de verdieping: het begin van de stappen (stap 1 kan verborgen zijn). */}
           {/* Bij gescheiden staat het deel over gezamenlijk gezag apart, zodat de verdieping het kan weghalen (GEZAG_LEAD). */}
           <p class="o1 lead-klein" data-generieke-lead id={`stappen-${k.id}`}>{k.id === 'gescheiden' ? k.data.samenvatting.split(GEZAG_LEAD).flatMap((t, i) => (i ? [<span data-gezag-lead>{GEZAG_LEAD}</span>, t] : [t])) : k.data.samenvatting}</p>
@@ -145,7 +159,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
                 {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden><strong class="stap-lead">Begin bij {r0.beginBij ?? (sit.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type])}.</strong> {r0.waarom}<OrgRegel orgs={genoemdIn(r0.waarom, organisaties)} /></li>; })}
                 {/* Met de situatie Scheiding: de stap die bij het gezag hoort, uit gescheiden.md (verdieping gezag-beginnen). */}
                 {gezagStappen.map((x) => { const i = hoofdStappen(gescheidenVraag).indexOf(x); return <li data-gezag-bij-aanvraag hidden><StapInhoud {...stapProps(gescheidenVraag, x)} />{vervolg(gescheidenVraag, i).length > 0 && <ol class="steps-sub">{vervolg(gescheidenVraag, i).map((v) => <li><StapInhoud {...stapProps(gescheidenVraag, v)} /></li>)}</ol>}</li>; })}
-              </>) : <>{k.id === 'verhuizing' && <li data-vh-binnen hidden></li>}<li><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />{vervolg(k, 0).length > 0 && <ol class="steps-sub">{vervolg(k, 0).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li></>}
+              </>) : <>{k.id === 'verhuizing' && <li data-vh-binnen hidden></li>}<li data-lf-groep={leeftijdsVarianten(k, hoofdStappen(k)[0]).length ? `${k.id}:0` : undefined}><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />{vervolg(k, 0).length > 0 && <ol class="steps-sub">{vervolg(k, 0).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li>{leeftijdsVarianten(k, hoofdStappen(k)[0]).map((v) => <li data-lf-groep={`${k.id}:0`} data-lf-band={v.band} hidden><StapInhoud {...stapProps(k, v.tekst)} /></li>)}</>}
             </ol>
             {/* Eigen stappen van de situatie (zoals school loopt vast), vóór de ingeklapte aanvraag. */}
             {k.id === 'beginnen' && situaties.filter((sit) => sit.data.stappen).map((sit) => <ol class="steps o4" data-situatie-stappen={sit.id} start="2" hidden>{situatieStapProps(organisaties, sit).map((p) => <li><StapInhoud {...p} /></li>)}</ol>)}

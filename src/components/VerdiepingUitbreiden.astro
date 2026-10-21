@@ -4,10 +4,10 @@ import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 import { NODIG_KEUZE } from '../lib/verdiepingen';
 ---
-<Verdieping id="uitbreiden" naarStappen="stappen-uitbreiden" uitleg="Dan ziet u de stappen die nu het eerst nodig zijn. Loopt het besluit af, dan ziet u met de einddatum tot wanneer u het moet melden.">
+<Verdieping id="uitbreiden" titel="Wat speelt er bij de hulp?" naarStappen="stappen-uitbreiden" uitleg="Dan ziet u de stappen die nu het eerst nodig zijn. Loopt het besluit af, dan ziet u met de einddatum tot wanneer u het moet melden.">
   {/* Meer keuzes tegelijk: vaak loopt het besluit af en is er intussen meer nodig. */}
-  <div class="field vd-keuze"><span id="ub-kop">Wat speelt er? Kies alles wat past.</span>
-    <div class="chips-select" role="group" aria-labelledby="ub-kop">
+  <div class="field vd-keuze"><span id="ub-kop">Kies alles wat past.</span>
+    <div class="chips-select" role="group" aria-labelledby="vd-vraag-uitbreiden ub-kop">
       {NODIG_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-ub-nodig>{o.label}</button>)}
     </div>
   </div>

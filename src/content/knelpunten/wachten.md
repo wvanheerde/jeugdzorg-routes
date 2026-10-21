@@ -17,6 +17,8 @@ standInGemeente: doorlooptijd
 gemeenteOnderdelen: [toegang, aanbieders, postadres, klacht, clientondersteuning]
 brieven: [ingebrekestelling, klacht-aanbieder, klacht-toegangsteam]
 landelijk: [07-klacht-of-bezwaar, 03-rechten]
+startgroepen: [hulp, al]
+startSituaties: false
 volgorde: 2
 bronnen:
   - titel: Jeugdwet (wetten.overheid.nl)

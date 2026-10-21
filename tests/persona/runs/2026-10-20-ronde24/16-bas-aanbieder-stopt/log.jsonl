@@ -1,0 +1,21 @@
+{"stap":1,"tijd":"2026-10-20T12:40:09.031Z","url":"about:blank","cmd":"start","device":"mobiel"}
+{"stap":2,"tijd":"2026-10-20T12:40:09.576Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-20T12:40:09.634Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1457}
+{"stap":4,"tijd":"2026-10-20T12:40:12.770Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 1/20: Zwolle kiezen, dan 'De hulp stopt'."],"tekst":"Stap 1/20: Zwolle kiezen, dan 'De hulp stopt'."}
+{"stap":5,"tijd":"2026-10-20T12:40:13.136Z","url":"http://127.0.0.1:4329/","cmd":"kies","args":["4","Zwolle"]}
+{"stap":6,"tijd":"2026-10-20T12:40:13.184Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1391}
+{"stap":7,"tijd":"2026-10-20T12:40:16.134Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":8,"tijd":"2026-10-20T12:40:17.977Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["10"]}
+{"stap":9,"tijd":"2026-10-20T12:40:18.022Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1641}
+{"stap":10,"tijd":"2026-10-20T12:40:22.612Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["Stap 3/20: 'De hulp stopt' gekozen. Ik toon direct mijn overzicht."],"tekst":"Stap 3/20: 'De hulp stopt' gekozen. Ik toon direct mijn overzicht."}
+{"stap":11,"tijd":"2026-10-20T12:40:24.457Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt","cmd":"klik","args":["46"]}
+{"stap":12,"tijd":"2026-10-20T12:40:24.498Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt","cmd":"kijk","args":[],"lengte":740}
+{"stap":13,"tijd":"2026-10-20T12:40:29.558Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"klik","args":["6"]}
+{"stap":14,"tijd":"2026-10-20T12:40:29.598Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"kijk","args":[],"lengte":992}
+{"stap":15,"tijd":"2026-10-20T12:40:32.998Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"notitie","args":["Stap 4-5/20: 'De aanbieder stopt' gekozen; duidelijk: bel meteen wijkteam, vraag op papier andere aanbieder. Dit is mijn antwoord. Scroll voor nummer."],"tekst":"Stap 4-5/20: 'De aanbieder stopt' gekozen; duidelijk: bel meteen wijkteam, vraag op papier andere aanbieder. Dit is mijn antwoord. Scroll voor nummer."}
+{"stap":16,"tijd":"2026-10-20T12:40:33.105Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"foto","args":[]}
+{"stap":17,"tijd":"2026-10-20T12:40:33.576Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"scroll","args":["omlaag"]}
+{"stap":18,"tijd":"2026-10-20T12:40:36.841Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"scroll","args":["omlaag"]}
+{"stap":19,"tijd":"2026-10-20T12:40:37.343Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"scroll","args":["omlaag"]}
+{"stap":20,"tijd":"2026-10-20T12:40:48.823Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"notitie","args":["Klaar na 7 stappen: bel wijkteam 038 498 9980, vraag op papier andere aanbieder, doorloop tot nieuwe aanbieder, warme overdracht met vaste begeleider."],"tekst":"Klaar na 7 stappen: bel wijkteam 038 498 9980, vraag op papier andere aanbieder, doorloop tot nieuwe aanbieder, warme overdracht met vaste begeleider."}
+{"stap":21,"tijd":"2026-10-20T12:40:48.864Z","url":"http://127.0.0.1:4329/overzicht/?s=&gemeente=zwolle&k=hulp-stopt&reden=aanbieder","cmd":"stop"}

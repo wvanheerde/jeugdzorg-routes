@@ -29,6 +29,7 @@ therapievormen:
     - titel: "Richtlijn Middelengebruik: kernaanbevelingen"
       url: https://richtlijnenjeugdhulp.nl/middelengebruik/kernaanbevelingen
       geraadpleegd: "2026-10-14"
+vaakBij: ["12-18", "18-99"]
 volgorde: 22
 laatstGecontroleerd: "2026-10-12"
 bronnen:

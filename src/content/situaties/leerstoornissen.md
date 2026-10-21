@@ -21,6 +21,7 @@ regelingen:
     url: https://dyslexiecentraal.nl/doen/samenwerken-bij-ernstige-dyslexie
   - naam: "Dyscalculie: geen vergoede zorg, wel rechten op school"
     toelichting: "De gemeente betaalt geen onderzoek naar dyscalculie. Soms betaalt school of het samenwerkingsverband het. Met een dyscalculieverklaring heeft uw kind recht op hulpmiddelen en extra tijd bij toetsen en examens."
+vaakBij: ["4-12"]
 volgorde: 23
 laatstGecontroleerd: "2026-10-12"
 bronnen:

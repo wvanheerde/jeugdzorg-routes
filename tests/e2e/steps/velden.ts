@@ -70,3 +70,12 @@ When('ik de suggestie {string} kies', async ({ page }, tekst: string) => {
 Then('is de suggestie {string} gemarkeerd', async ({ page }, tekst: string) => {
   await expect(page.locator('.suggesties li[aria-selected="true"]')).toHaveText(tekst);
 });
+
+// ---------- cursor ----------
+/** Het zichtbare veld met dit label heeft de focus (bijvoorbeeld een datumveld dat na een antwoord opengaat). */
+Then('staat de cursor in {string}', async ({ page }, label: string) => {
+  await expect(page.getByLabel(label, { exact: true }).locator('visible=true').first()).toBeFocused();
+});
+Then('staat de cursor niet in {string}', async ({ page }, label: string) => {
+  await expect(page.getByLabel(label, { exact: true }).locator('visible=true').first()).not.toBeFocused();
+});

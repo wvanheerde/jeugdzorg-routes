@@ -12,6 +12,8 @@ stappen:
 gemeenteOnderdelen: [pgb, toegang, clientondersteuning, bezwaar]
 brieven: [aanvraag-jeugdhulp, bezwaar-beschikking]
 landelijk: [03-rechten]
+startgroepen: [geld, al]
+startSituaties: false
 volgorde: 9.5
 bronnen:
   - titel: Jeugdwet, artikel 8.1.1 (persoonsgebonden budget)

@@ -20,9 +20,18 @@ Functionaliteit: Verdieping bij "Ik wil hulp uitbreiden"
     En is er geen samenvatting
     En zie ik het veld "Wanneer loopt het besluit af?" niet
 
-  Scenario: Het label "niet verplicht" staat rechts naast de kop
+  Scenario: De vraag staat als kop, zonder label erbij
+    De kop zegt waar het over gaat; "Meer passend advies" en "niet verplicht" werden gemist of overgeslagen (persona-tests ronde 24).
+    Ook "u kunt dit overslaan" is weg: de stappen staan er zonder antwoord ook, en het label trok de aandacht van de vraag af.
     Gegeven ik open het overzicht voor "Ik wil hulp uitbreiden" in "Haarlem"
-    Dan staat het label "niet verplicht" rechts naast de kop
+    Dan zie ik de kop "Wat speelt er bij de hulp?"
+    En zie ik de kop "Meer passend advies" niet
+    En staat er geen label bij de kop
+
+  Scenario: Na "Het besluit loopt af" staat de cursor in het datumveld
+    Gegeven ik open het overzicht voor "Ik wil hulp uitbreiden" in "Haarlem"
+    Als ik kies "Het besluit loopt af"
+    Dan staat de cursor in "Wanneer loopt het besluit af?"
 
   Scenario: Is er alleen meer hulp nodig, dan staat de stap over het aflopen ingeklapt
     Gegeven ik open het overzicht voor "Ik wil hulp uitbreiden" in "Haarlem"

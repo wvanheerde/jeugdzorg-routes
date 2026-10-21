@@ -6,6 +6,11 @@ Functionaliteit: Verdieping bij "Wij verhuizen"
   Achtergrond:
     Gegeven het is 18 oktober 2026
 
+  Scenario: De vraag staat als kop
+    Gegeven ik open het overzicht voor "Wij verhuizen" in "Amsterdam"
+    Dan zie ik de kop "Waar en wanneer verhuist u?"
+    En zie ik de kop "Meer passend advies" niet
+
   Scenario: Zonder antwoorden staan de gewone stappen er
     Gegeven ik open het overzicht voor "Wij verhuizen" in "Utrecht"
     Dan begint stap 1 met "Meld de verhuizing"

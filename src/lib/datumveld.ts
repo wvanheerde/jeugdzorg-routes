@@ -22,9 +22,11 @@ export const koppelDatumvelden = () => document.querySelectorAll<HTMLElement>('.
   const grens = (jaren?: string) => { if (!jaren) return ''; const d = new Date(); d.setFullYear(d.getFullYear() + +jaren); return iso(d); };
   datum.min = grens(veld.dataset.minJaren);
   datum.max = grens(veld.dataset.maxJaren);
+  // Alleen als de waarde anders is: een kalender die al opengaat, kan sluiten als het veld eronder verandert (Firefox).
   const neemOver = () => {
     const d = leesDatum(tekst.value);
-    datum.value = d ? iso(d) : grens(veld.dataset.startJaren);
+    const nieuw = d ? iso(d) : grens(veld.dataset.startJaren);
+    if (datum.value !== nieuw) datum.value = nieuw;
   };
   // Typen: na de dag en de maand komt vanzelf een streepje (1402 → 14-02-). Alleen bij typen, niet bij wissen of plakken.
   // Typt de ouder zelf ook een streepje (of punt, schuine streep, spatie), dan telt dat niet dubbel: 01-10-2026 blijft 01-10-2026.

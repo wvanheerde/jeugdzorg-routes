@@ -1,8 +1,8 @@
 ---
 titel: Uw rechten als ouder
-samenvatting: Cliëntondersteuning, pgb, uw dossier inzien, bezwaar en een vertrouwenspersoon. Dit is in heel Nederland hetzelfde geregeld, in elke gemeente.
+samenvatting: Cliëntondersteuning, pgb, uw dossier inzien, bezwaar, een vertrouwenspersoon en wie toestemming geeft voor hulp. Dit is in heel Nederland hetzelfde geregeld, in elke gemeente.
 volgorde: 3
-laatstGecontroleerd: "2026-10-16"
+laatstGecontroleerd: "2026-10-21"
 bronnen:
   - titel: Jeugdstem – Rechten in de jeugdhulp
     url: https://jeugdstem.nl/
@@ -13,6 +13,12 @@ bronnen:
   - titel: Jeugdwet, artikel 8.1.1 (persoonsgebonden budget)
     url: https://wetten.overheid.nl/BWBR0034925/2025-01-01/#Hoofdstuk8_Paragraaf8.1_Artikel8.1.1
     geraadpleegd: "2026-10-16"
+  - titel: "Burgerlijk Wetboek Boek 1, art. 251, 251b, 252, 253a, 253b, 377b en 377c (gezag, toestemming, informatie)"
+    url: https://wetten.overheid.nl/BWBR0002656/
+    geraadpleegd: "2026-10-19"
+  - titel: Rechtspraak – Uittreksel gezagsregister opvragen
+    url: https://www.rechtspraak.nl/zelf-regelen/uittreksel-gezagsregister
+    geraadpleegd: "2026-10-19"
 ---
 
 ## Onafhankelijke cliëntondersteuning
@@ -63,6 +69,16 @@ Bent u niet tevreden over hoe het wijkteam of een zorgaanbieder werkt of met u o
 ## Vertrouwenspersoon
 
 Heeft u met jeugdhulp te maken? Dan kunt u gratis terecht bij een onafhankelijke **vertrouwenspersoon van Jeugdstem**. Jeugdstem heette vroeger AKJ. Dit recht staat in de wet.
+
+## Wie geeft toestemming voor hulp? (gezag)
+
+Voor hulp aan uw kind geeft de ouder met **gezag** toestemming. Wonen u en de andere ouder niet samen? Dan hangt het van het gezag af of u alleen mag beslissen:
+
+- **Samen gezag:** jullie moeten allebei instemmen met behandeling of hulp. Weigert de andere ouder? Dan kan de rechter toestemming geven, zodat de hulp toch kan beginnen.
+- **Alleen u heeft het gezag:** u geeft zelf toestemming. Houd de andere ouder wel op de hoogte van belangrijke beslissingen.
+- **Alleen de andere ouder heeft het gezag:** die ouder beslist. Op uw vraag vertellen school, huisarts en hulpverleners u hoe het met uw kind gaat, tenzij dat niet in het belang van uw kind is.
+
+Weet u niet wie het gezag heeft? Was u getrouwd of geregistreerd partner, bij de geboorte of later, dan hebben jullie samen het gezag, ook na de scheiding. Niet getrouwd en uw kind erkend vóór 2023? Dan heeft alleen de moeder het gezag, tenzij jullie samen gezag hebben laten vastleggen. Erkend vanaf 2023? Dan hebben jullie samen het gezag, tenzij jullie bij de erkenning iets anders hebben laten vastleggen. Wilt u het zeker weten, vraag dan een gratis uittreksel aan uit het gezagsregister. Meer stappen staan bij ["Wij zijn uit elkaar"](../overzicht/?k=gescheiden).
 
 ## Inzage en privacy
 

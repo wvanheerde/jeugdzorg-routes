@@ -24,9 +24,13 @@ Functionaliteit: Verdieping bij "Mijn kind wordt 18"
     En is er geen blok "Andere stappen die soms nodig zijn"
     En is er geen samenvatting
 
-  Scenario: Het label "niet verplicht" staat rechts naast de kop
+  Scenario: De vraag staat als kop, zonder label erbij
+    De kop zegt waar het over gaat; "Meer passend advies" en "niet verplicht" werden gemist of overgeslagen (persona-tests ronde 24).
+    Ook "u kunt dit overslaan" is weg: de stappen staan er zonder antwoord ook, en het label trok de aandacht van de vraag af.
     Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"
-    Dan staat het label "niet verplicht" rechts naast de kop
+    Dan zie ik de kop "Wanneer wordt uw kind 18, en wat is daarna nodig?"
+    En zie ik de kop "Meer passend advies" niet
+    En staat er geen label bij de kop
 
   Scenario: Met een geboortedatum krijgt elke stap een datum
     Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"

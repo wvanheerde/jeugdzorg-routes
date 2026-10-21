@@ -3,21 +3,24 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import GemeenteCard from '../components/GemeenteCard.astro';
 import GemeenteZoeker from '../components/GemeenteZoeker.astro';
-import Wegwijzer from '../components/Wegwijzer.astro';
+import Startvragen from '../components/Startvragen.astro';
 import { getCollection } from 'astro:content';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 ---
 <Base title="Wegwijs in de jeugdzorg" description="Waar begint u als uw kind hulp nodig heeft? Per gemeente: waar u zich meldt, wat uw rechten zijn en waar u steun vindt. Onafhankelijk en gratis.">
   <section class="hero">
-    <span class="eyebrow">Voor ouders en verzorgers</span>
+    <div class="hero-boven">
+      <span class="eyebrow">Voor ouders en verzorgers</span>
+      {/* Spoed apart bovenaan, zonder gemeente: wie in paniek is, hoeft niet door de vragen (persona-test Anouk; schets 3, 20-10). */}
+      <a class="spoed-link" href={`${base}/overzicht/?k=spoed`}><span class="spoed-ico"><Icon name="phone" /></span>Kan het niet wachten? <span class="spoed-pijl" aria-hidden="true">→</span></a>
+    </div>
     <h1>Wegwijs in de jeugdzorg, per gemeente</h1>
-    <p class="lead">
-      <span class="alleen-breed">Jeugdhulp wordt door uw gemeente geregeld, en elke gemeente doet dat anders.</span>{" "}
-      Kies hieronder uw gemeente en wat er speelt.
-    </p>
-    <Wegwijzer />
+    <p class="lead">Uw gemeente regelt jeugdhulp, en iedere gemeente doet dat anders.<br />Kies hieronder de situatie die bij u past.</p>
+    <Startvragen />
     <p class="hint">Of lees eerst <a href={`${base}/landelijk/`} style="color:#fff">wat landelijk voor iedereen geldt</a>.</p>
+    {/* Voor een klacht is er geen eigen vraag; de brieven (ook de klachtbrieven), het gespreksvel en het dagboek staan bij de hulpmiddelen (persona-tests Mark en Sanne, ronde 24). */}
+    <p class="hint">Ook handig: <a href={`${base}/hulpmiddelen/`} style="color:#fff">hulpmiddelen</a> om zelf mee aan de slag te gaan, en <a href={`${base}/gemeenten/`} style="color:#fff">alle gemeenten op een rij</a>.</p>
   </section>
 
   <!-- Het keuzeblok is hoger dan het scherm: deze knop laat zien dat er onder nog informatie staat (verdwijnt na scrollen). -->
@@ -76,16 +79,13 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
   {
     const hint = document.querySelector<HTMLElement>('[data-meer-hint]');
     const doel = document.getElementById('meer');
-    const balk = document.querySelector<HTMLElement>('[data-cta-balk]');
     if (hint && doel) {
       let weg = false;
       const bij = () => {
         if (scrollY > 120) weg = true; // eenmaal gescrold: niet meer tonen
         hint.hidden = weg || doel.getBoundingClientRect().top < innerHeight - 40;
-        hint.style.bottom = balk && !balk.hidden ? `calc(${balk.offsetHeight}px + .75rem)` : '';
       };
       addEventListener('scroll', bij, { passive: true }); addEventListener('resize', bij);
-      if (balk) new MutationObserver(bij).observe(balk, { attributes: true, attributeFilter: ['hidden'] });
       bij();
     }
   }

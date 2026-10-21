@@ -33,8 +33,10 @@ const nav = [
   { href: `${base}/landelijk/`, label: 'Landelijk' },
   { href: `${base}/organisaties/`, label: 'Organisaties' },
   { href: `${base}/therapievormen/`, label: 'Therapievormen' },
-  { href: `${base}/over/`, label: 'Over deze site' },
+  // De brieven, het gespreksvel en de moeilijke woorden zijn onderdeel van de hulpmiddelen: daar wijst het menu dan ook "Hulpmiddelen" aan.
+  { href: `${base}/hulpmiddelen/`, label: 'Hulpmiddelen', ook: [`${base}/brieven/`, `${base}/gesprek/`, `${base}/begrippen/`] },
 ];
+// "Over deze site" staat alleen in de voettekst.
 ---
 <!doctype html>
 <html lang="nl">
@@ -77,7 +79,7 @@ const nav = [
         </a>
         <button type="button" class="menu-knop" aria-expanded="false" aria-controls="hoofdnavigatie" data-menu-knop>Menu</button>
         <nav class="nav" id="hoofdnavigatie" aria-label="Hoofdnavigatie">
-          {nav.map((n) => <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>)}
+          {nav.map((n) => <a href={n.href} aria-current={[n.href, ...(n.ook ?? [])].some((h) => path.startsWith(h)) ? 'page' : undefined}>{n.label}</a>)}
         </nav>
       </div>
     </header>
@@ -104,8 +106,7 @@ const nav = [
           </div>
           <div>
             <p class="footer-kop">Navigatie</p>
-            {/* "Over deze site" staat al in de eerste kolom. */}
-            <ul>{nav.filter((n) => n.href !== `${base}/over/`).map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+            <ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
           </div>
         </div>
         <div class="bottom">Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of jeugdarts. Geen cookies, geen persoonsgegevens. <span class="niet-printen">Fout gezien of iets gemist? <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">Stel een wijziging voor via GitHub</a>.</span></div>
@@ -145,7 +146,7 @@ const nav = [
     <script is:inline set:html={`window.__jrWoorden = ${JSON.stringify(woorden)};`} />
     <script>
       // Leg officiële woorden één keer per pagina uit: eerste keer onderstreept, uitleg na een tik.
-      const lijst = (window as any).__jrWoorden as { vormen: string[]; uitleg: string }[];
+      const lijst = (window as any).__jrWoorden as { vormen: string[]; uitleg: string; hoofdletters?: boolean }[];
       const vormNaar = new Map<string, number>();
       lijst.forEach((w, i) => w.vormen.forEach((v) => vormNaar.set(v.toLowerCase(), i)));
       const vormen = [...vormNaar.keys()].sort((a, b) => b.length - a.length).map((v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
@@ -175,6 +176,8 @@ const nav = [
           let m: RegExpExecArray | null;
           while ((m = re.exec(tekst))) {
             const i = vormNaar.get(m[1].toLowerCase());
+            // Woorden met hoofdletters: alleen precies zo (KIES, niet het werkwoord "kies").
+            if (i !== undefined && lijst[i].hoofdletters && !lijst[i].vormen.includes(m[1])) continue;
             const deel = node.parentElement?.closest('section, article') ?? main;
             if (!gebruikt.has(deel)) gebruikt.set(deel, new Set());
             const set = gebruikt.get(deel)!;

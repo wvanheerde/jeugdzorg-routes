@@ -46,6 +46,7 @@ therapievormen:
     - titel: "Richtlijn Ernstige gedragsproblemen: lvb bij het kind en/of de ouders"
       url: https://www.richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/aanpak-en-interventies/lvb-bij-het-kind-en-of-de-ouders
       geraadpleegd: "2026-10-15"
+vaakBij: ["18-99"]
 volgorde: 14
 laatstGecontroleerd: "2026-10-12"
 bronnen:

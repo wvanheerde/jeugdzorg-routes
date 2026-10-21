@@ -38,9 +38,26 @@ Functionaliteit: Verdieping bij "Hulp is afgewezen of te weinig"
     En zie ik "Bezwaar kan tot en met vrijdag 27 november 2026 (zes weken na de datum op het besluit)."
     En staat de link "De stappen zijn aangepast ↓" naast "Wissen"
 
-  Scenario: Het label "niet verplicht" staat rechts naast de kop
+  Scenario: De vraag staat als kop, zonder label erbij
+    De kop zegt waar het over gaat; "Meer passend advies" en "niet verplicht" werden gemist of overgeslagen (persona-tests ronde 24).
+    Ook "u kunt dit overslaan" is weg: de stappen staan er zonder antwoord ook, en het label trok de aandacht van de vraag af.
     Gegeven ik open het overzicht voor "Hulp is afgewezen of te weinig" in "Utrecht"
-    Dan staat het label "niet verplicht" rechts naast de kop
+    Dan zie ik de kop "Tot wanneer kunt u bezwaar maken?"
+    En zie ik de kop "Meer passend advies" niet
+    En staat er geen label bij de kop
+
+  Scenario: Na "Ja" staat de cursor in het datumveld
+    Erik (ronde 24) zag na "Ja" niets gebeuren: het datumveld kwam lager op de pagina.
+    Gegeven ik open het overzicht voor "Hulp is afgewezen of te weinig" in "Utrecht"
+    Als ik kies "Ja"
+    Dan staat de cursor in "Welke datum staat op het besluit?"
+
+  Scenario: Bij een volgend bezoek springt de cursor niet naar het datumveld
+    Gegeven ik open het overzicht voor "Hulp is afgewezen of te weinig" in "Utrecht"
+    Als ik kies "Ja"
+    En ik het overzicht later opnieuw open
+    En ik kies "Aanpassen"
+    Dan staat de cursor niet in "Welke datum staat op het besluit?"
 
   Scenario: Er staat geen rekenhulp onder de stappen: dat doet de verdieping
     Gegeven ik open het overzicht voor "Hulp is afgewezen of te weinig" in "Utrecht"

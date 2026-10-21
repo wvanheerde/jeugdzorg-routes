@@ -27,7 +27,8 @@ src/content/brieven/           voorbeeldbrieven (markdown)
 src/content/landelijk/         landelijke rechten (markdown)
 src/content/organisaties/      landelijke organisaties (JSON)
 src/pages/                     routes: /, /gemeenten/, /situaties/, /landelijk/, /organisaties/,
-                               /therapievormen/, /brieven/, /overzicht/, /over/, robots.txt
+                               /therapievormen/, /hulpmiddelen/ (brieven, gesprek, dagboek, begrippen),
+                               /brieven/ (verwijst naar /hulpmiddelen/#brieven), /overzicht/, /over/, robots.txt
 src/layouts, src/components    opmaak
 src/scripts/overzicht/         browserscript van Mijn overzicht: keuzes, verdiepingen (één bestand per vraag), render, afdrukken
 src/scripts/afdrukken.ts       afdrukken of bewaren als PDF (knop: components/AfdrukKnop.astro, opmaak: @media print in global.css)
@@ -56,7 +57,7 @@ npm run rapport               # het rapport van de laatste run
 ```
 
 **Opbouw (`tests/e2e/`)**
-- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, afdrukken, elke verdieping, datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
+- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, afdrukken, hulpmiddelen, elke verdieping, datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
 - `steps/*.ts`: de stappen achter de zinnen (Playwright via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)). Hergebruik een bestaande zin waar dat kan; een nieuwe zin hoort in het bestand van het onderwerp (`algemeen`, `verdieping`, `velden`, `paginas`).
 - `steps/inhoud.ts`: scenario's gebruiken gewone namen ("Mijn kind wordt 18", "ADHD en ADD", "Apeldoorn", "12 tot 18"); de bijbehorende id's komen uit `src/content`.
 - `unit/*.spec.ts`: losse functies uit `src/lib` (termijnen en feestdagen, datums lezen, afbreken, organisaties herkennen, de woordenlijst), zonder browser.

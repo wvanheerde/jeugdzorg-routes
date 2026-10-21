@@ -17,7 +17,7 @@ type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: Retu
 
 // Gegevens uit de pagina (zie het inline-script in overzicht.astro).
 const data = (window as any).__jrSituaties as Record<string, Sit>;
-const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean; wijkteamBovenaan: boolean }>;
+const knel = (window as any).__jrKnelpunten as Record<string, { onderdelen: string[]; landelijk: string[]; zonderGemeente: boolean; wijkteamBovenaan: boolean; situaties: boolean }>;
 const KLACHT_WACHTEN = (window as any).__jrKlachtWachten as Record<string, string>;
 const BAND: Record<string, [number, number]> = { '0-4': [0, 4], '4-12': [4, 12], '12-18': [12, 18], '18-99': [18, 99] };
 
@@ -36,9 +36,8 @@ export const maakRender = (v: Verdiepingen) => () => {
   const iets = active.length > 0 || (!!gem && gem !== '_overig');
   const kpActive = kpGekozen || (iets ? 'beginnen' : '');
   const delen = [namen.g[gem], namen.k[kpGekozen], ...active.map((id) => namen.s[id]), namen.l[lf]].filter(Boolean);
-  q('[data-keuzes-samenvatting]').forEach((e) => (e.textContent = delen.length ? delen.join(' · ') : 'nog niets gekozen'));
+  q('[data-keuzes-samenvatting]').forEach((e) => (e.textContent = delen.join(' · ')));
   if (kpActive) knel[kpActive].landelijk.forEach((l) => land.add(l));
-  q('[data-leeg]').forEach((e) => (e.hidden = !!kpActive));
   q('[data-inhoud]').forEach((e) => (e.hidden = !kpActive));
   q('[data-knelpunt-wrap]').forEach((e) => (e.hidden = !kpActive));
   q('[data-knelpunt-blok]').forEach((e) => (e.hidden = e.dataset.knelpuntBlok !== kpActive));
@@ -108,13 +107,20 @@ export const maakRender = (v: Verdiepingen) => () => {
   // Noemt stap 1 het wijkteam al als gelijkwaardige ingang (bv. ADHD), dan niet "Liever eerst het wijkteam?" maar gewoon de contactgegevens.
   q('[data-wijkteam-regel]').forEach((e) => e.toggleAttribute('data-gelijk', situatieWint && !!data[active[0]]?.gelijk));
   // De leeftijdstip ("Bij deze leeftijd") niet bij "Mijn kind wordt 18": die verwijst daar zelf naartoe, en wat erin staat staat in de stappen.
+  // Ook niet bij vragen waar de voorpagina niet vraagt wat er speelt (startSituaties uit, zoals wachten): daar verandert de leeftijd niets.
+  const geenLeeftijdstip = andermansKind || kpActive === 'wordt-18' || (!!kpActive && knel[kpActive].situaties === false);
+  // Een stap die zich aan de leeftijd aanpast (zoals bij kinderbijslag): de variant van de gekozen leeftijd, anders de gewone stap.
+  q('[data-lf-groep]').forEach((e) => {
+    const variant = q(`[data-lf-groep="${e.dataset.lfGroep}"][data-lf-band="${lf}"]`).length > 0;
+    e.hidden = e.dataset.lfBand ? e.dataset.lfBand !== lf : variant;
+  });
   // Modus van de contactkaart bovenaan: per vraag de juiste ingang (wijkteam, bezwaar of klacht).
   const MODUS: Record<string, string> = { verhuizing: 'verhuizing', afgewezen: 'bezwaar', vastgelopen: 'klacht', wachten: 'wachten' };
   q('#nu-doen').forEach((e) => (e.dataset.modus = MODUS[kpActive] ?? ''));
   // "Hier meldt u zich" alleen bij hulp aanvragen (of zonder vraag). Bij andere vragen kent de ouder het wijkteam al (wachten, uitbreiden, 18 worden …).
   const eigenKop = ['verhuizing', 'bezwaar', 'klacht'].includes(MODUS[kpActive] ?? '');
   q('#nu-doen').forEach((e) => (e.dataset.kop = kpActive && kpActive !== 'beginnen' && !eigenKop ? 'wijkteam' : ''));
-  q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || andermansKind || kpActive === 'wordt-18'));
+  q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || geenLeeftijdstip));
 
   // Blok 2: alle ingangen behalve de eerste; bij een situatie in de volgorde van die situatie. Niet bij spoed.
   const volgorde = active[0] ? data[active[0]].routes : ['wijkteam', 'huisarts', 'school'];
@@ -129,7 +135,7 @@ export const maakRender = (v: Verdiepingen) => () => {
   // Zijnavigatie volgt zichtbare secties
   q('[data-nav]').forEach((a) => { const t = document.getElementById(a.dataset.nav!); a.hidden = !t || t.hidden; });
   q('[data-inhoud] [data-situatie]').forEach((e) => (e.hidden = !active.includes(e.dataset.situatie!)));
-  // Leeftijd voor het filteren (bij "Mijn kind wordt 18" zet LeeftijdKeuze vanzelf 12-18 aan).
+  // Leeftijd voor het filteren (bij "Mijn kind wordt 18" zet de voorpagina vanzelf 12-18, VASTE_LEEFTIJD in lib/startvragen.ts).
   const band = BAND[lf];
   // Zichtbaar als de leeftijdsrange van de vorm of hulpsoort meer dan één jaar overlapt met de gekozen band.
   const inBand = (e: HTMLElement) => !band || (Number(e.dataset.van) < band[1] - 1 && Number(e.dataset.tot) > band[0] + 1);
@@ -137,7 +143,7 @@ export const maakRender = (v: Verdiepingen) => () => {
   q('[data-landelijk]').forEach((e) => (e.hidden = !land.has(e.dataset.landelijk!)));
   q('#organisaties [data-themas]').forEach((e) => (e.hidden = !hasThema(e)));
   q('[data-tip-situaties]').forEach((e) => (e.hidden = !(e.dataset.tipSituaties ?? '').split(' ').some((id) => active.includes(id)) || !inBand(e)));
-  q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || andermansKind || kpActive === 'wordt-18'));
+  q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || geenLeeftijdstip));
   // Therapievormen op volgorde van toepasbaarheid: per kaart de beste plek over de gekozen situaties met een volgorde
   // (zie lib/therapie.ts). Hoort de kaart bij een gekozen situatie zonder volgorde, dan na de eerste stappen; verder op alfabet.
   const NA_EERST = 100; // = begin van de groep "kan ook helpen" in rangVan
