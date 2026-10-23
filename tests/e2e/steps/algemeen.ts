@@ -34,6 +34,13 @@ Given('ik open het overzicht voor {string} in {string}', async ({ page }, vraag:
 Given('ik open het overzicht voor {string} in {string} met de situatie {string}', async ({ page }, vraag: string, gemeente: string, situatie: string) => {
   await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: situatieId(situatie) });
 });
+/** Twee situaties, in de volgorde waarin de ouder ze koos (die volgorde mag het overzicht niet veranderen). */
+Given('ik open het overzicht voor {string} in {string} met de situaties {string} en {string}', async ({ page }, vraag: string, gemeente: string, s1: string, s2: string) => {
+  await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: [s1, s2].map(situatieId).join(',') });
+});
+Given('ik open het overzicht voor {string} in {string} met de situaties {string} en {string} en leeftijd {string}', async ({ page }, vraag: string, gemeente: string, s1: string, s2: string, leeftijd: string) => {
+  await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: [s1, s2].map(situatieId).join(','), l: leeftijdId(leeftijd) });
+});
 /** Zonder gemeente: voor vragen die ook zonder gemeente iets tonen (zoals extra kosten), als het gedrag niet van de gemeente mag afhangen. */
 Given('ik open het overzicht voor {string} zonder gemeente', async ({ page }, vraag: string) => {
   await openOverzicht(page, { k: vraagId(vraag) });

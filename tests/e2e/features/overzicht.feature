@@ -85,6 +85,54 @@ Functionaliteit: Mijn overzicht
     En zie ik "Vraag vóór het eerste gesprek een cliëntondersteuner" niet
     En zie ik "Vraag ook om het besluit van de gemeente op papier" niet
 
+  Abstract Scenario: Bij twee situaties maakt de volgorde van kiezen niet uit, en stap 1 noemt beide ingangen
+    Eerst bepaalde de eerst gekozen situatie het hele advies (23-10). Nu gaat de situatie voor die het meest bepaalt waar u
+    begint: onveiligheid thuis, dan wat niet kan wachten (een route met spoed), dan wat geen lichte start heeft, dan de volgorde
+    op de voorpagina. Begint de andere situatie ergens anders, dan staat die ingang ook in stap 1. Eigen stappen van een situatie
+    (zoals school loopt vast) blijven staan, en de aanvraag van jeugdhulp is alleen ingeklapt als geen enkele situatie erom vraagt.
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Alphen aan den Rijn" met de situaties "<eerst>" en "<daarna>"
+    Dan staan de stappen in deze volgorde:
+      | Begin bij school.                              |
+      | Vraag school schriftelijk om een gesprek       |
+      | Komt u er met school niet uit                  |
+      | Speelt er thuis of bij uw kind meer            |
+      | Vraag na elk gesprek om de afspraken op papier |
+      | Vraag vóór het eerste gesprek een cliëntondersteuner |
+      | Zet uw vraag op papier                         |
+      | Vertel eerlijk en volledig                     |
+      | Vindt u de stap spannend?                      |
+      | Vraag na het gesprek om een verslag op papier  |
+    En zie ik "Gedragsproblemen? Ga daarvoor ook naar het wijkteam van uw gemeente."
+    En zie ik "Het wijkteam in Alphen aan den Rijn:"
+    En zie ik "Is er toch jeugdhulp nodig? Zo vraagt u die aan" niet
+
+    Voorbeelden:
+      | eerst                              | daarna                             |
+      | School loopt vast of kind zit thuis | Gedragsproblemen                   |
+      | Gedragsproblemen                   | School loopt vast of kind zit thuis |
+
+  Abstract Scenario: Een lichte start gaat niet voor een situatie die om jeugdhulp vraagt
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situaties "<eerst>" en "<daarna>"
+    Dan begint stap 1 met "Begin bij het wijkteam van uw gemeente."
+    En zie ik "Vraag vóór het eerste gesprek een cliëntondersteuner"
+    En zie ik "Is er toch jeugdhulp nodig? Zo vraagt u die aan" niet
+
+    Voorbeelden:
+      | eerst            | daarna           |
+      | Scheiding        | Gedragsproblemen |
+      | Gedragsproblemen | Scheiding        |
+
+  Abstract Scenario: Wat niet kan wachten gaat voor, de eigen stappen van de andere situatie blijven
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situaties "<eerst>" en "<daarna>"
+    Dan begint stap 1 met "Begin bij de huisarts of jeugdarts."
+    En zie ik "School loopt vast of kind zit thuis? Ga daarvoor ook naar school."
+    En begint stap 2 met "Vraag school schriftelijk om een gesprek"
+
+    Voorbeelden:
+      | eerst                               | daarna                              |
+      | School loopt vast of kind zit thuis | Eetstoornis                         |
+      | Eetstoornis                         | School loopt vast of kind zit thuis |
+
   Scenario: Bij "Extra kosten of kinderbijslag" blijven alleen de rechten en regelingen
     Gegeven ik open de pagina "overzicht/?k=geld&s=adhd"
     Dan zie ik de kop "Rechten en regelingen"

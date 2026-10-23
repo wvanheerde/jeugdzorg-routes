@@ -453,6 +453,8 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 #nu-doen .stap-een li { font-weight: 400; }
 /* Vet begin van een stap (vraag of moment). Alle stappen even groot als de inleiding erboven. */
 #nu-doen .stap-lead { font-weight: 700; }
+/* Stap 1 bij meer situaties: de ingang van een andere gekozen situatie die ergens anders begint. */
+#nu-doen .stap-ook { margin: .6rem 0 0; }
 #nu-doen .o4 { margin-top: 0; }
 #nu-doen .lead-klein { margin: 0 0 .75rem; }
 /* Ruimte tussen het blok "Hier meldt u zich" en de tekst eronder. */

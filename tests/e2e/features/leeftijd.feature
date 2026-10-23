@@ -29,6 +29,16 @@ Functionaliteit: Leeftijd van het kind
     Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Apeldoorn" met leeftijd "12 tot 18"
     Dan zie ik "Bij deze leeftijd:"
 
+  Scenario: Bij 4 tot 12 noemt de leeftijdstip school
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Alphen aan den Rijn" met de situatie "Gedragsproblemen" en leeftijd "4 tot 12"
+    Dan zie ik "informeer ook school"
+
+  Scenario: Wijst stap 1 al naar school, dan zegt de leeftijdstip niet nog eens "informeer ook school"
+    Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Alphen aan den Rijn" met de situaties "School loopt vast of kind zit thuis" en "Gedragsproblemen" en leeftijd "4 tot 12"
+    Dan zie ik "Bij deze leeftijd:"
+    En zie ik "vergoed dyslexieonderzoek tot 13 jaar"
+    En zie ik "informeer ook school" niet
+
   # Bij vragen over de gang van zaken, regels of geld vraagt de voorpagina niet naar de leeftijd. Dan verandert die het
   # overzicht ook niet, ook niet als hij van een eerder bezoek nog bewaard is (startVervolgvragen in src/content/knelpunten).
   Scenario: Bij wachten staat geen leeftijdstip

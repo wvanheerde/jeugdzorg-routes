@@ -13,7 +13,7 @@ import type { uitbreiden } from './uitbreiden';
 import type { geld } from './geld';
 import { afdrukken } from './afdrukken';
 
-type Sit = { themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
+type Sit = { voorrang: number; start: string; themas: string[]; hulpsoorten: string[]; routes: string[]; landelijk: string[]; licht: boolean; jgz: boolean; inklap: boolean; rang: boolean; gelijk: boolean };
 type Verdiepingen = { verhuizing: ReturnType<typeof verhuizing>; hulpStopt: ReturnType<typeof hulpStopt>; wordt18: ReturnType<typeof wordt18>; wachten: ReturnType<typeof wachten>; afgewezen: ReturnType<typeof afgewezen>; gescheiden: ReturnType<typeof gescheiden>; uitbreiden: ReturnType<typeof uitbreiden>; geld: ReturnType<typeof geld> };
 
 // Gegevens uit de pagina (zie het inline-script in overzicht.astro).
@@ -27,6 +27,10 @@ export const maakRender = (v: Verdiepingen) => () => {
   const reden = v.hulpStopt.reden();
   const wachtOp = v.wachten.wachtOp();
   const active = sel.filter((id) => data[id]);
+  // Bij meer situaties gaat de situatie voor die het meest bepaalt waar u begint (voorrang, overzicht.astro), niet de eerst gekozen:
+  // de volgorde van kiezen verandert het overzicht niet.
+  const opVoorrang = [...active].sort((a, b) => data[a].voorrang - data[b].voorrang);
+  const voorop = opVoorrang[0];
   const themas = new Set(active.flatMap((id) => data[id].themas));
   const hulp = new Set(active.flatMap((id) => data[id].hulpsoorten));
   const land = new Set(active.flatMap((id) => data[id].landelijk));
@@ -51,12 +55,13 @@ export const maakRender = (v: Verdiepingen) => () => {
   const andermansKind = kpActive === 'zorgen-om-kind';
   q('#hulp, #situaties, #regelingen, #organisaties, #tips').forEach((e) => (e.hidden = active.length === 0 || andermansKind || (zonderGemeente && e.id !== 'regelingen')));
   // Lichte start (zoals scheiding): op zich geen reden voor jeugdhulp. Uitleg en CJG voorop, de aanvraag ingeklapt.
-  const licht = kpActive === 'beginnen' && !!active[0] && data[active[0]].licht;
+  const licht = kpActive === 'beginnen' && !!voorop && data[voorop].licht;
   // Ingeklapte aanvraag zonder lichte start (zoals onveilig thuis): eigen inleiding en de aanvraagstappen ingeklapt, het wijkteam blijft voorop.
-  // Heeft de situatie eigen stappen (zoals school loopt vast), dan staan die vóór de ingeklapte aanvraag.
-  const inklap = kpActive === 'beginnen' && !!active[0] && data[active[0]].inklap;
+  // Heeft de situatie eigen stappen (zoals school loopt vast), dan staan die vóór de ingeklapte aanvraag. Vraagt een andere gekozen
+  // situatie wel om een aanvraag (zoals gedragsproblemen), dan staat de aanvraag open.
+  const inklap = kpActive === 'beginnen' && !!voorop && active.every((id) => data[id].inklap);
   // Begint de situatie bij school (zoals thuiszitten), dan is "welke aanbieders kunt u kiezen" bij de start nog niet aan de orde.
-  const schoolEerst = kpActive === 'beginnen' && !!active[0] && data[active[0]].routes[0] === 'school';
+  const schoolEerst = inklap && data[voorop].routes[0] === 'school';
   // "De hulp stopt" met een andere reden dan een besluit van de gemeente: bezwaar (blok en brief) hoort er dan niet bij.
   const geenBezwaar = kpActive === 'hulp-stopt' && !!reden && reden !== 'gemeente';
   // "Wij wachten te lang": wie op de gemeente wacht, kiest nog geen aanbieder; wie op een aanbieder wacht, stuurt geen ingebrekestelling (postadres).
@@ -74,15 +79,16 @@ export const maakRender = (v: Verdiepingen) => () => {
   if (kpActive === 'spoed' && (!gem || gem === '_overig')) q('[data-knelpunt-gemeente] .gemeente-blok[data-gemeente=""]').forEach((b) => (b.hidden = true));
   // Lege "Hierbij handig"-blokken verbergen.
   q('[data-knelpunt-gemeente] .gemeente-blok[data-gemeente]:not([data-gemeente=""])').forEach((b) => { if (!b.hidden) b.hidden = !Array.from(b.querySelectorAll<HTMLElement>('.onderdeel')).some((o) => !o.hidden); });
-  const situatieWint = kpActive === 'beginnen' && !!active[0];
+  const situatieWint = kpActive === 'beginnen' && !!voorop;
   q('[data-generieke-lead]').forEach((e) => (e.hidden = inklap));
-  q('[data-situatie-lead]').forEach((e) => (e.hidden = !inklap || e.dataset.situatieLead !== active[0]));
+  q('[data-situatie-lead]').forEach((e) => (e.hidden = !inklap || e.dataset.situatieLead !== voorop));
   q('[data-aanvraag-stappen]').forEach((e) => (e.hidden = inklap));
   q('[data-aanvraag-inklap]').forEach((e) => (e.hidden = !inklap));
-  q('[data-situatie-stappen]').forEach((e) => (e.hidden = !inklap || e.dataset.situatieStappen !== active[0]));
+  // Eigen stappen van elke gekozen situatie, ook als een andere situatie voorgaat (school loopt vast bij een eetstoornis).
+  q('[data-situatie-stappen]').forEach((e) => (e.hidden = !situatieWint || !active.includes(e.dataset.situatieStappen!)));
   q('[data-ec-cjg]').forEach((e) => (e.hidden = !licht));
   // Begint de situatie bij het consultatiebureau of de jeugdarts (zoals slaap) en heeft de gemeente geen CJG-blok: dan de JGZ boven het wijkteam.
-  const jgzVoorop = licht && data[active[0]].jgz;
+  const jgzVoorop = licht && data[voorop].jgz;
   q('[data-ec-jgz], [data-kop-jgz]').forEach((e) => (e.hidden = !jgzVoorop));
   q('[data-kop-standaard]').forEach((e) => (e.hidden = licht));
   q('[data-kop-licht]').forEach((e) => (e.hidden = !licht || (jgzVoorop && !!e.parentElement?.querySelector('[data-kop-jgz]'))));
@@ -91,22 +97,32 @@ export const maakRender = (v: Verdiepingen) => () => {
   q('[data-direct-regelen]').forEach((e) => (e.hidden = !e.querySelector('[data-regel-soort]:not([hidden])')));
   q('[data-meer-op-pagina]').forEach((e) => (e.hidden = onderdelen.includes('klacht') || onderdelen.includes('bezwaar')));
   q('[data-generieke-stap]').forEach((e) => (e.hidden = situatieWint));
-  q('[data-situatie-stap]').forEach((e) => (e.hidden = !situatieWint || e.dataset.situatieStap !== active[0]));
-  const eigenBrieven = situatieWint && q('[data-situatie-brieven]').some((e) => e.dataset.situatieBrieven === active[0]);
-  q('[data-situatie-brieven]').forEach((e) => (e.hidden = !eigenBrieven || e.dataset.situatieBrieven !== active[0]));
+  q('[data-situatie-stap]').forEach((e) => (e.hidden = !situatieWint || e.dataset.situatieStap !== voorop));
+  // Begint een andere gekozen situatie ergens anders (gedragsproblemen bij het wijkteam, naast school loopt vast), dan noemt stap 1 die ingang ook.
+  const ook = situatieWint ? opVoorrang.slice(1).filter((id) => data[id].start !== data[voorop].start) : [];
+  const ookHouder = document.querySelector('[data-ook-houder]');
+  q('[data-situatie-ook]').forEach((e) => ookHouder?.appendChild(e));
+  const stap1 = q('[data-situatie-stap]').find((e) => !e.hidden);
+  ook.forEach((id) => { const e = ookHouder?.querySelector(`[data-situatie-ook="${id}"]`); if (e && stap1) stap1.appendChild(e); });
+  // Waar stap 1 naartoe wijst (alle ingangen): wijst die al naar school, dan zegt de leeftijdstip niet nog eens "informeer ook school".
+  const startTypes = situatieWint ? [voorop, ...ook].map((id) => data[id].routes[0]) : [];
+  q('[data-tip-school]').forEach((e) => (e.hidden = startTypes.includes('school')));
+  const eigenBrieven = situatieWint && q('[data-situatie-brieven]').some((e) => e.dataset.situatieBrieven === voorop);
+  q('[data-situatie-brieven]').forEach((e) => (e.hidden = !eigenBrieven || e.dataset.situatieBrieven !== voorop));
   q('[data-generieke-brieven]').forEach((e) => (e.hidden = eigenBrieven));
   // Bij een lichte start geen aanvraagbrieven; wel brieven die bij de situatie zelf horen (zoals aan school).
   q('[data-brieven-blok]').forEach((e) => (e.hidden = (licht && !eigenBrieven) || (geenBezwaar && !!e.closest('[data-knelpunt-blok="hulp-stopt"]'))));
   // Eerste ingang: het wijkteam, tenzij de situatie bij de huisarts of school begint. Die staat dan alleen in blok 2.
-  const eersteRoute = situatieWint ? data[active[0]].routes[0] : 'wijkteam';
+  const eersteRoute = situatieWint ? data[voorop].routes[0] : 'wijkteam';
   // Bij spoed en bij zorgen om een kind van een ander is het wijkteam niet de eerste plek om te bellen.
   const nietVoorEigenKind = kpActive === 'spoed' || kpActive === 'zorgen-om-kind';
   const wijkteamBovenaan = !nietVoorEigenKind && eersteRoute === 'wijkteam' && (!kpActive || knel[kpActive].wijkteamBovenaan);
   q('[data-eerste-contact] .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== gem || !wijkteamBovenaan));
   q('[data-leerplicht]').forEach((e) => (e.hidden = e.dataset.leerplicht !== gem || !active.includes('school-loopt-vast')));
   q('[data-wijkteam-regel] .gemeente-blok').forEach((b) => (b.hidden = b.dataset.gemeente !== gem || wijkteamBovenaan || nietVoorEigenKind || !situatieWint));
-  // Noemt stap 1 het wijkteam al als gelijkwaardige ingang (bv. ADHD), dan niet "Liever eerst het wijkteam?" maar gewoon de contactgegevens.
-  q('[data-wijkteam-regel]').forEach((e) => e.toggleAttribute('data-gelijk', situatieWint && !!data[active[0]]?.gelijk));
+  // Noemt stap 1 het wijkteam al als gelijkwaardige ingang (bv. ADHD, of een tweede situatie die bij het wijkteam begint), dan niet
+  // "Liever eerst het wijkteam?" maar gewoon de contactgegevens.
+  q('[data-wijkteam-regel]').forEach((e) => e.toggleAttribute('data-gelijk', situatieWint && (data[voorop].gelijk || startTypes.includes('wijkteam'))));
   // De leeftijdstip ("Bij deze leeftijd") niet bij "Mijn kind wordt 18": die verwijst daar zelf naartoe, en wat erin staat staat in de stappen.
   // Ook niet bij vragen waar de voorpagina niet vraagt wat er speelt (startSituaties uit, zoals wachten): daar verandert de leeftijd niets.
   const geenLeeftijdstip = andermansKind || kpActive === 'wordt-18' || (!!kpActive && knel[kpActive].situaties === false);
@@ -123,8 +139,8 @@ export const maakRender = (v: Verdiepingen) => () => {
   q('#nu-doen').forEach((e) => (e.dataset.kop = kpActive && kpActive !== 'beginnen' && !eigenKop ? 'wijkteam' : ''));
   q('[data-vs-leeftijd]').forEach((e) => (e.hidden = e.dataset.vsLeeftijd !== lf || geenLeeftijdstip));
 
-  // Blok 2: alle ingangen behalve de eerste; bij een situatie in de volgorde van die situatie. Niet bij spoed.
-  const volgorde = active[0] ? data[active[0]].routes : ['wijkteam', 'huisarts', 'school'];
+  // Blok 2: alle ingangen behalve de eerste; bij situaties in hun volgorde (de situatie met voorrang eerst). Niet bij spoed.
+  const volgorde = voorop ? [...new Set(opVoorrang.flatMap((id) => data[id].routes))] : ['wijkteam', 'huisarts', 'school'];
   q('#gemeente').forEach((e) => (e.hidden = nietVoorEigenKind || zonderGemeente));
   q('[data-kop-gemeente]').forEach((e) => (e.textContent = namen.g[gem] ? (wijkteamBovenaan ? `Andere ingangen in ${namen.g[gem]}` : `Waar u terechtkunt in ${namen.g[gem]}`) : 'Waar u terechtkunt'));
   q('.routes-lijst [data-route]').forEach((e) => {
@@ -207,10 +223,17 @@ export const maakRender = (v: Verdiepingen) => () => {
   v.uitbreiden.teken();
   v.geld.teken();
   // Nummering: de lijsten na stap 1 (start="2") tellen verder vanaf het aantal zichtbare stappen in de eerste lijst. Die kan leeg zijn
-  // (stap 1 valt weg bij "De hulp stopt", wachten of afgewezen) of een stap extra hebben (gezag bij hulp aanvragen).
+  // (stap 1 valt weg bij "De hulp stopt", wachten of afgewezen) of een stap extra hebben (gezag bij hulp aanvragen). Staan er twee
+  // zichtbare lijsten onder elkaar (eigen stappen van een situatie en de aanvraag), dan telt de tweede door na de eerste. Een lijst
+  // in een ingeklapt blok is een andere weg en telt vanaf stap 1.
   q('[data-knelpunt-blok]').forEach((b) => {
-    const n = Array.from(b.querySelectorAll<HTMLElement>('.stap-een > li')).filter((li) => !li.hidden).length;
-    b.querySelectorAll<HTMLElement>('ol.steps[start="2"]').forEach((ol) => (ol.style.counterReset = `step ${n}`));
+    const n1 = Array.from(b.querySelectorAll<HTMLElement>('.stap-een > li')).filter((li) => !li.hidden).length;
+    let n = n1;
+    b.querySelectorAll<HTMLElement>('ol.steps[start="2"]').forEach((ol) => {
+      const apart = !!ol.closest('details');
+      ol.style.counterReset = `step ${apart ? n1 : n}`;
+      if (!apart && !ol.hidden) n += Array.from(ol.children).filter((li) => !(li as HTMLElement).hidden).length;
+    });
   });
   // Een link naar een klachtbrief in "Hierbij handig" alleen als die brief niet al bij de stappen of de voorbeeldbrieven staat.
   const opPagina = (pad: string) => !!q(`[data-knelpunt-blok="${kpActive}"] a.stap-brief, [data-knelpunt-blok="${kpActive}"] a[data-brief-kaart]`).find((x) => !x.closest('[hidden]') && new URL((x as HTMLAnchorElement).href).pathname === pad);
