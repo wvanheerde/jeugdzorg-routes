@@ -1,0 +1,33 @@
+---
+/** Regelingencheck bij "Extra kosten of kinderbijslag": een paar vragen, dan staan de regelingen die waarschijnlijk passen bovenaan.
+ *  De vragen over dubbele kinderbijslag komen pas als ze ertoe doen (eerst veel zorg, dan of de ouder die al krijgt).
+ *  Script: src/scripts/overzicht/geld.ts. */
+import Verdieping from './Verdieping.astro';
+import { JA_NEE, JA_NEE_WEET, KOSTEN_KEUZE } from '../lib/verdiepingen';
+const vragen = [
+  { id: 'zorg', vraag: 'Heeft uw kind veel meer zorg of toezicht nodig dan andere kinderen van die leeftijd?', keuzes: JA_NEE_WEET, verborgen: false },
+  { id: 'dkb', vraag: 'Krijgt u al dubbele kinderbijslag?', keuzes: JA_NEE, verborgen: true },
+  { id: 'alleen', vraag: 'Bent u alleenstaande ouder, of heeft uw partner weinig of geen inkomen?', keuzes: JA_NEE, verborgen: true },
+];
+---
+<Verdieping id="geld" titel="Welke regelingen passen bij u?" naarStappen="stappen-geld" uitleg="Beantwoord een paar vragen. Dan staan de regelingen die waarschijnlijk passen bovenaan.">
+  {vragen.map((v) => (
+    <div class="field vd-keuze" data-rg-vraag={v.id} hidden={v.verborgen}><span id={`rg-${v.id}-kop`}>{v.vraag}</span>
+      <div class="chips-select" role="group" aria-labelledby={`rg-${v.id}-kop`}>
+        {v.keuzes.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-rg-keuze={v.id}>{o.label}</button>)}
+      </div>
+    </div>
+  ))}
+  {/* Meer keuzes tegelijk; "Geen van deze" zet de andere uit. */}
+  <div class="field vd-keuze" data-rg-vraag="kosten"><span id="rg-kosten-kop">Welke kosten heeft u? Kies alles wat past.</span>
+    <div class="chips-select" role="group" aria-labelledby="rg-kosten-kop">
+      {KOSTEN_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-rg-kosten>{o.label}</button>)}
+    </div>
+  </div>
+  <div class="field vd-keuze" data-rg-vraag="inkomen"><span id="rg-inkomen-kop">Is het met uw inkomen soms krap?</span>
+    <div class="chips-select" role="group" aria-labelledby="rg-inkomen-kop">
+      {JA_NEE_WEET.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-rg-keuze="inkomen">{o.label}</button>)}
+    </div>
+    <span class="meta vd-hint">Bijvoorbeeld met een uitkering of een klein inkomen. Elke gemeente heeft een eigen grens. Twijfelt u? Kies dan "Weet ik niet".</span>
+  </div>
+</Verdieping>

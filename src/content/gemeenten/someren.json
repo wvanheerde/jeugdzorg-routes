@@ -221,6 +221,128 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Werk en inkomen",
+      "url": "https://www.zosomeren.nl/werk-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Bijzondere bijstand bij handicap of chronische ziekte",
+        "omschrijving": "Hebt u door een handicap of chronische ziekte extra kosten die niets anders vergoedt, en zijn ze te hoog voor uw inkomen? Vraag na of het ook voor uw kind kan.",
+        "aanvragen": "Bij Senzer, vóórdat u de kosten maakt.",
+        "url": "https://www.zosomeren.nl/werk-inkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Bijzondere bijstand",
+            "url": "https://www.zosomeren.nl/werk-inkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Bijdrage voor kinderopvang (sociaal-medische indicatie)",
+        "omschrijving": "Kunt u door een beperking of sociale problemen niet voor uw kind (tot 12 jaar) zorgen, en hebt u weinig of geen kinderopvangtoeslag? Dan kunt u een tegemoetkoming krijgen",
+        "aanvragen": "Met het aanvraagformulier van de gemeente; de gemeente besluit binnen 8 weken.",
+        "url": "https://www.someren.nl/overig/mo/bijdrage-voor-kinderopvang-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Bijdrage voor kinderopvang aanvragen",
+            "url": "https://www.someren.nl/overig/mo/bijdrage-voor-kinderopvang-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Verordening Sociaal Medische Indicatie Kinderopvang Someren 2020",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR649301/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een zorgverzekering met korting op de premie en een uitgebreider aanvullend pakket, voor inwoners met een laag inkomen. Uw kind is gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Overstappen kan elk jaar; zeg uw huidige verzekering voor 1 januari op.",
+        "url": "https://www.someren.nl/overig/mo/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Collectieve zorgverzekering",
+            "url": "https://www.someren.nl/overig/mo/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en onverwachte, hoge kosten, bijvoorbeeld zorgkosten die uw verzekering niet betaalt of schoolkosten van uw kind? Dan kunt u bijzondere bijstand aanvragen.",
+        "inkomensgrens": 110,
+        "aanvragen": "Bij Senzer, vóórdat u de kosten maakt.",
+        "url": "https://www.someren.nl/overig/mo/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Bijzondere bijstand aanvragen",
+            "url": "https://www.someren.nl/overig/mo/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Asten-Someren",
+        "omschrijving": "Een bijdrage voor kinderen uit gezinnen met een laag inkomen, bijvoorbeeld voor zwemles, muziekles, sportkleding of een fiets.",
+        "inkomensgrens": 120,
+        "aanvragen": "Bel het telefonische spreekuur van Leergeld, op donderdagochtend.",
+        "url": "https://www.zosomeren.nl/sociale-kaart/bericht/stichting-leergeld-asten-someren",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Stichting Leergeld Asten-Someren",
+            "url": "https://www.zosomeren.nl/sociale-kaart/bericht/stichting-leergeld-asten-someren",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking of door de afstand niet zelf naar school? Dan krijgt u een vergoeding of vervoer met een bus of taxi.",
+        "aanvragen": "Aanvragen bij de gemeente; de gemeente beslist binnen 8 weken.",
+        "url": "https://www.someren.nl/overig/mo/leerlingenvervoer-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Leerlingenvervoer aanvragen",
+            "url": "https://www.someren.nl/overig/mo/leerlingenvervoer-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een jaarlijks bedankje voor wie minstens 8 uur per week zorgt: in 2026 € 70 per zorgvrager. Wie de zorg krijgt, vraagt het samen met de mantelzorger aan.",
+        "ouders": "ja",
+        "aanvragen": "Online met DigiD of op papier, tussen 1 september en 1 december.",
+        "url": "https://www.zosomeren.nl/vrijwilligerswerk-mantelzorg/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Gemeente Someren: Mantelzorgcompliment",
+            "url": "https://www.zosomeren.nl/vrijwilligerswerk-mantelzorg/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Nadere regels mantelzorgwaardering gemeente Someren 2022-2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR676323/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

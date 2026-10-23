@@ -246,7 +246,7 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
 
   // "Keuzes wissen": wist de vragen en de antwoorden in Mijn overzicht, en laadt de pagina schoon. De gemeente blijft staan:
   // die verandert zelden, en dan hoeft de ouder hem niet opnieuw te zoeken.
-  const ALLE = ['jr.knelpunt', 'jr.startvlak', 'jr.leeftijd', 'jr.situaties', 'jr.verhuizing', 'jr.hulpstopt', 'jr.wordt18', 'jr.wachten', 'jr.afgewezen', 'jr.gezag', 'jr.gezagweg', 'jr.uitbreiden'];
+  const ALLE = ['jr.knelpunt', 'jr.startvlak', 'jr.leeftijd', 'jr.situaties', 'jr.verhuizing', 'jr.hulpstopt', 'jr.wordt18', 'jr.wachten', 'jr.afgewezen', 'jr.gezag', 'jr.gezagweg', 'jr.uitbreiden', 'jr.regelingen'];
   $('[data-keuzes-wissen]').addEventListener('click', () => {
     ALLE.forEach((k) => localStorage.removeItem(k));
     location.replace(location.pathname);

@@ -239,6 +239,116 @@
       "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Extra's bij laag inkomen",
+      "url": "https://www.horstaandemaas.nl/extras-bij-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kosten kinderopvang (sociaal-medische indicatie)",
+        "omschrijving": "Hebt u om medische of sociale redenen kinderopvang nodig en kan de opvang niet via familie of kennissen? Dan kan de gemeente meebetalen aan de kosten.",
+        "aanvragen": "Vraag het bij de gemeente; de gemeente beoordeelt of de indicatie klopt.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR730889/1",
+        "bronnen": [
+          {
+            "titel": "Verordening sociaal domein gemeente Horst aan de Maas (artikel 5.5.13)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR730889/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Zorgverzekering bij laag inkomen (gemeentepolis bij VGZ)",
+        "omschrijving": "Korting op de aanvullende verzekering van VGZ en keuze voor € 0 eigen risico. U kunt altijd meedoen; uw gezondheid maakt niet uit.",
+        "inkomensgrens": 150,
+        "aanvragen": "Doe eerst de keuzehulp; aanmelden gaat online via de website van de verzekeraar.",
+        "url": "https://www.horstaandemaas.nl/zorgverzekering-bij-laag-inkomen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Horst aan de Maas: Zorgverzekering bij laag inkomen",
+            "url": "https://www.horstaandemaas.nl/zorgverzekering-bij-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Extra geld voor noodzakelijke kosten die u niet kunt betalen en nergens anders vergoed krijgt. Vraag het aan voordat u de kosten maakt.",
+        "inkomensgrens": 130,
+        "aanvragen": "Vraag online of de gemeente u terugbelt; binnen 8 weken krijgt u een besluit.",
+        "url": "https://www.horstaandemaas.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Horst aan de Maas: Bijzondere bijstand",
+            "url": "https://www.horstaandemaas.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Horst aan de Maas",
+        "omschrijving": "Te weinig geld voor sport, muziek, een schoolreisje, fiets of computer voor uw kind? Leergeld geeft een bijdrage, en een verjaardagsbox voor kinderen van 4 tot en met 17 jaar.",
+        "aanvragen": "Neem contact op met Stichting Leergeld; zie de link.",
+        "url": "https://www.leergeldhorstaandemaas.nl/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Horst aan de Maas: Extra's bij laag inkomen",
+            "url": "https://www.horstaandemaas.nl/extras-bij-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelfstandig naar school? Dan kunt u aangepast vervoer of een bijdrage in de reiskosten aanvragen. De afstand naar school is meestal meer dan 5 kilometer.",
+        "aanvragen": "Online; elk schooljaar opnieuw, vóór 1 juni voor het nieuwe schooljaar. Schooladvies meesturen.",
+        "url": "https://www.horstaandemaas.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Horst aan de Maas: Leerlingenvervoer",
+            "url": "https://www.horstaandemaas.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels bekostiging leerlingenvervoer (aanvraag vóór 1 juni)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR744943/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "ouders": "ja",
+        "omschrijving": "Een persoonlijk compliment, bijvoorbeeld een cadeaubon, 1 keer per jaar. Ook als u zorgt voor uw kind telt u als mantelzorger.",
+        "aanvragen": "Wie de zorg krijgt, vraagt het aan; voor een kind doet u dat namens uw kind. Of vraag het zelf aan.",
+        "url": "https://www.horstaandemaas.nl/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Gemeente Horst aan de Maas: Mantelzorgcompliment",
+            "url": "https://www.horstaandemaas.nl/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "IN! Horst aan de Maas: Ondersteuning voor mantelzorgers",
+            "url": "https://www.horstaandemaas.nl/inhorstaandemaas/ondersteuning-voor-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Over de ervaringen van ouders met de toegang in Horst aan de Maas is weinig openbaar te vinden. Volgens een overzicht voor de gemeenteraad (juni 2026) daalt het aantal jeugdigen met specialistische hulp van de gemeente, van 1.091 in 2021 naar 933 in 2025. Volgens de gemeente zijn hulpvragen wel complexer geworden, waardoor zwaardere hulp langer nodig is. In 2025 begon 33 procent van de trajecten via de huisarts, landelijk was dat 43 procent.\n\nVraag bij uw hulpvraag hoe lang het duurt tot het eerste gesprek en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE de Meentgroep mee. Bent u ontevreden over de kwaliteit van hulp, dan kunt u een zorgsignaal melden. Over hoe de medewerker jeugd u behandelde, klaagt u bij de gemeente.",
     "signalen": [

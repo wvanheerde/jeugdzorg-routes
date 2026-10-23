@@ -274,6 +274,144 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Hulp bij een laag inkomen",
+      "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand: medische kosten",
+        "omschrijving": "Hebt u zelf medische kosten die uw zorgverzekering niet vergoedt, zoals aangepaste schoenen of extra kleding? Dan kunt u bijzondere bijstand vragen. Alleen voor 18+.",
+        "aanvragen": "Vraag aan voordat u de kosten maakt; kosten onder € 50 worden niet vergoed.",
+        "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/medische-kosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Medische kosten",
+            "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/medische-kosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand: reiskosten",
+        "omschrijving": "Moet u extra reizen, bijvoorbeeld voor een ziekenhuisbezoek of een medische behandeling? Dan kunt u bijzondere bijstand vragen. Alleen voor 18 jaar en ouder.",
+        "alleenOuder": true,
+        "aanvragen": "Vraag aan voordat u de kosten maakt; kosten onder € 50 worden niet vergoed.",
+        "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/reiskosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Reiskosten",
+            "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/reiskosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang Sociaal Medische Indicatie",
+        "omschrijving": "Heeft een ouder of kind een beperking en adviseert een hulpverlener tijdelijke kinderopvang? Zonder recht op kinderopvangtoeslag betaalt de gemeente mee, via de Jeugdwet.",
+        "aanvragen": "Neem contact op met de gemeente; een hulpverlener adviseert de opvang.",
+        "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/kinderopvang-sociaal-medische-indicatie",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Kinderopvang Sociaal Medische Indicatie",
+            "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/kinderopvang-sociaal-medische-indicatie",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Oosterhout: Kinderopvang",
+            "url": "https://www.oosterhout.nl/jeugd-en-onderwijs/jeugd/kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een collectieve zorgverzekering van CZ of VGZ voor inwoners met een laag inkomen. De gemeente betaalt mee aan de premie. U moet zelf 18 jaar of ouder zijn.",
+        "inkomensgrens": 125,
+        "aanvragen": "Online via de website voor collectieve verzekeringen; er geldt ook een vermogensgrens.",
+        "url": "https://www.oosterhout.nl/zorg-en-ondersteuning/verzekeringen/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Collectieve zorgverzekering",
+            "url": "https://www.oosterhout.nl/zorg-en-ondersteuning/verzekeringen/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en noodzakelijke bijzondere kosten die niets anders vergoedt? Dan kunt u bijzondere bijstand vragen.",
+        "aanvragen": "Online met DigiD, voordat u de kosten maakt.",
+        "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Bijzondere bijstand",
+            "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld (kindregelingen)",
+        "omschrijving": "Voor kinderen van 4 tot 18 jaar in een gezin met weinig geld: sport, hobby, zwemles, schoolspullen, laptop of fiets. Ook pakketten zoals een winterpakket.",
+        "inkomensgrens": 130,
+        "aanvragen": "Via Stichting Leergeld West-Brabant Oost.",
+        "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/indirecte-schoolkosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Indirecte schoolkosten",
+            "url": "https://www.oosterhout.nl/hulp-bij-geldzaken/inkomensondersteuning/hulp-bij-een-laag-inkomen/bijzondere-bijstand/indirecte-schoolkosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking of een speciale school ver weg niet zelf naar school? Dan regelt of vergoedt de gemeente vervoer. Voor speciaal onderwijs geldt: meer dan 2 km.",
+        "aanvragen": "Online met DigiD. Voor het nieuwe schooljaar: voor 1 juli.",
+        "url": "https://www.oosterhout.nl/jeugd-en-onderwijs/onderwijs/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Oosterhout: Leerlingenvervoer",
+            "url": "https://www.oosterhout.nl/jeugd-en-onderwijs/onderwijs/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijkse cadeaubon voor wie minstens 8 uur per week voor een naaste zorgt, ook voor een kind met bijvoorbeeld autisme. U moet 18 jaar of ouder zijn.",
+        "ouders": "ja",
+        "aanvragen": "Elk jaar opnieuw, van 1 oktober tot en met 31 december, via het formulier op de pagina.",
+        "url": "https://mantelzorgoosterhout.nl/mantelzorgwaardering/",
+        "bronnen": [
+          {
+            "titel": "Mantelzorg Oosterhout: Mantelzorgwaardering",
+            "url": "https://mantelzorgoosterhout.nl/mantelzorgwaardering/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Oosterhout: Mantelzorgwaardering",
+            "url": "https://www.oosterhout.nl/zorg-en-ondersteuning/wonen-huishouden-en-dagbesteding/hulp-in-en-om-het-huis/mantelzorg/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

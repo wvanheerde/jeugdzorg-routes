@@ -296,6 +296,128 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomen",
+      "url": "https://www.woerden.nl/Inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Tegemoetkoming meerkosten zorg (TMZ)",
+        "omschrijving": "Extra kosten door een chronische ziekte of handicap en een laag inkomen? In 2026 € 260, als uw eigen risico van vorig jaar op is. Vraag na of het ook voor uw kind kan.",
+        "inkomensgrens": 140,
+        "aanvragen": "Met het aanvraagformulier bij Ferm Werk, tot en met 31 december van het lopende jaar.",
+        "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/extra-tegemoetkoming-voor-chronisch-zieken-en-gehandicapten",
+        "bronnen": [
+          {
+            "titel": "Ferm Werk: Extra tegemoetkoming voor chronisch zieken en gehandicapten",
+            "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/extra-tegemoetkoming-voor-chronisch-zieken-en-gehandicapten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Bijzondere bijstand voor kinderopvang met sociaal-medische indicatie",
+        "omschrijving": "Hebt u geen kinderopvangtoeslag, maar is opvang medisch of sociaal nodig? Dan kunt u bijzondere bijstand krijgen, met een verklaring van het sociaal team, een arts of de GGD.",
+        "aanvragen": "Via Ferm Werk, met de verklaring, het contract en de rekening van de opvang.",
+        "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Ferm Werk: Bijzondere bijstand",
+            "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering Ferm Werk",
+        "omschrijving": "Een zorgverzekering met aanvullend pakket bij VGZ of Zorg en Zekerheid, waar Ferm Werk aan meebetaalt. Kinderen zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via de website voor gemeentepolissen; overstappen kan elk jaar per 1 januari.",
+        "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Ferm Werk: Collectieve zorgverzekering",
+            "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en weinig spaargeld, en noodzakelijke kosten die niets anders vergoedt? Dan kan Ferm Werk helpen, ook bij medische kosten die de verzekering niet betaalt.",
+        "aanvragen": "Online met DigiD, bij voorkeur voordat u de kosten maakt; uiterlijk binnen 3 maanden erna.",
+        "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Ferm Werk: Bijzondere bijstand",
+            "url": "https://www.fermwerk.nl/inkomen/extras-bij-laag-inkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Groene Hart Pas",
+        "omschrijving": "Hebt u een laag inkomen? Dan krijgt u en uw kind een tegoed voor sport, cultuur en school. U kunt het op de pas besteden.",
+        "inkomensgrens": 120,
+        "aanvragen": "Op de website van de pas ziet u of u in aanmerking komt en vraagt u de pas online aan.",
+        "url": "https://www.woerden.nl/Inkomen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Woerden: Inkomen (Groene Hart Pas)",
+            "url": "https://www.woerden.nl/Inkomen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Verordening Groene Hart Pas maatschappelijke participatie voor minima gemeente Woerden 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR731926/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelf naar school door een beperking, of is de dichtstbijzijnde toegankelijke school 6 kilometer of verder? Dan kunt u passend vervoer of een vergoeding krijgen.",
+        "aanvragen": "Vóór 1 juni voor het nieuwe schooljaar; geen vergoeding met terugwerkende kracht.",
+        "url": "https://www.woerden.nl/Zorg_en_onderwijs/Onderwijs/Leerlingenvervoer_aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Woerden: Leerlingenvervoer aanvragen",
+            "url": "https://www.woerden.nl/Zorg_en_onderwijs/Onderwijs/Leerlingenvervoer_aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Waardering voor mantelzorgers (Hart voor Woerden)",
+        "omschrijving": "Mantelzorgers, ook ouders van een ziek kind, kunnen meedoen aan gratis activiteiten rond de Dag van de Mantelzorger (geen geldbedrag). Ook jonge mantelzorgers van 10 tot 18 jaar.",
+        "ouders": "ja",
+        "aanvragen": "Aanmelden voor de activiteit die u kiest; zie het overzicht op de pagina.",
+        "url": "https://www.hartvoorwoerden.nl/mantelzorg/waardering",
+        "bronnen": [
+          {
+            "titel": "Hart voor Woerden: Mantelzorg",
+            "url": "https://www.hartvoorwoerden.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Hart voor Woerden: Mantelzorg waardering",
+            "url": "https://www.hartvoorwoerden.nl/mantelzorg/waardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "De gemeente wil dat gezinnen eerder hulp krijgen, dichtbij en zonder besluit van de gemeente, bijvoorbeeld via organisaties in de buurt. Volgens de jaarstukken 2025 wordt hulp van zorgaanbieders eerder afgebouwd, duren trajecten korter en krijgen mensen vaker hulp in een groep; de gemeente zegt dat de kwaliteit niet is aangetast. Het klachtenverslag van de gemeente noemt over 2025 twee klachten over het team Jeugd en Gezin. Wachttijden voor de toegang en een recent tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nVraag bij uw aanmelding bij WoerdenWijzer hoe lang het duurt. Leg afspraken en het besluit schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van Kwadraad mee. Een klacht over WoerdenWijzer dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
     "signalen": [

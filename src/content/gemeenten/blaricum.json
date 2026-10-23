@@ -252,6 +252,129 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Geldzaken",
+      "url": "https://www.maatschappelijkezaken.nl/geldzaken"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Medische kosten en reiskosten (bijzondere bijstand)",
+        "omschrijving": "Hebt u medische kosten die de gemeentepolis niet vergoedt, of reiskosten voor bezoek aan iemand in een ziekenhuis of zorginstelling? Dan kunt u bijzondere bijstand krijgen.",
+        "aanvragen": "Neem contact op met uw contactpersoon bij de gemeente; neem bewijs van de kosten mee.",
+        "url": "https://www.maatschappelijkezaken.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Bijzondere bijstand",
+            "url": "https://www.maatschappelijkezaken.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang vanwege thuissituatie (sociaal-medische indicatie)",
+        "omschrijving": "Kunt u door ziekte, een beperking of ernstige problemen thuis tijdelijk niet goed voor uw kind (tot 13 jaar) zorgen? Dan helpt de gemeente met de kosten van kinderopvang.",
+        "aanvragen": "Neem contact op met Maatschappelijke Zaken en noem dat het om een sociaal-medische indicatie gaat.",
+        "url": "https://www.maatschappelijkezaken.nl/kinderopvang-vanwege-thuissituatie",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Kinderopvang vanwege thuissituatie",
+            "url": "https://www.maatschappelijkezaken.nl/kinderopvang-vanwege-thuissituatie",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepolis (collectieve zorgverzekering)",
+        "omschrijving": "Een zorgverzekering van Univé met korting op de premie en extra vergoedingen. Het eigen risico is meeverzekerd bij het pakket Compleet met € 0 eigen risico.",
+        "inkomensgrens": 120,
+        "aanvragen": "Aanmelden of overstappen kan vóór 1 januari van elk jaar.",
+        "url": "https://www.maatschappelijkezaken.nl/gemeentepolis",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Gemeentepolis",
+            "url": "https://www.maatschappelijkezaken.nl/gemeentepolis",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gezondverzekerd.nl: gemeente Blaricum",
+            "url": "https://www.gezondverzekerd.nl/gemeente/blaricum",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Regeling voor lage inkomens (bijzondere bijstand)",
+        "omschrijving": "Hebt u noodzakelijke kosten door een bijzondere medische of sociale situatie die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u bijzondere bijstand krijgen.",
+        "aanvragen": "Meestal achteraf, binnen 1 jaar na de kosten. Grotere kosten vraagt u vooraf aan.",
+        "url": "https://www.maatschappelijkezaken.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Bijzondere bijstand",
+            "url": "https://www.maatschappelijkezaken.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindarrangement",
+        "omschrijving": "Pakket voor kinderen van 4 tot en met 17 jaar in gezinnen met een laag inkomen, onder meer fiets, computer, schoolkosten, zwemabonnement en sport of cultuur.",
+        "inkomensgrens": 120,
+        "aanvragen": "Eerste keer met het formulier van de gemeente; daarna besteedt u het tegoed online.",
+        "url": "https://www.maatschappelijkezaken.nl/kindarrangement-meedoen-hbel",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Kindarrangement (Meedoen HBEL)",
+            "url": "https://www.maatschappelijkezaken.nl/kindarrangement-meedoen-hbel",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Kindarrangement van de gemeente Blaricum",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR725606/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Is een passende school ver weg, of kan uw kind niet zelf reizen? Dan kunt u een vergoeding krijgen, zoals een ov-abonnement, voor zelf brengen of voor een fiets.",
+        "aanvragen": "U hebt toestemming van de gemeente nodig; vraag het zelf aan via het verzoek op de pagina.",
+        "url": "https://www.maatschappelijkezaken.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Leerlingenvervoer",
+            "url": "https://www.maatschappelijkezaken.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een geldbedrag om uw mantelzorger te bedanken, tot € 150 in 2026. Zorgt u voor uw kind, dan geldt dat ook voor u.",
+        "ouders": "ja",
+        "aanvragen": "Wie de zorg krijgt, vraagt het aan; voor een kind doet u dat namens uw kind.",
+        "url": "https://www.maatschappelijkezaken.nl/waardering-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Maatschappelijke Zaken: Waardering mantelzorgers",
+            "url": "https://www.maatschappelijkezaken.nl/waardering-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

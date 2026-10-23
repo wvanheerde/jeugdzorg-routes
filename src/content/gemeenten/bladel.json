@@ -201,6 +201,132 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Meer mogelijk met een laag inkomen",
+      "url": "https://www.bladel.nl/meer-mogelijk-met-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor reiskosten naar het ziekenhuis",
+        "omschrijving": "Hebt u extra reiskosten voor een behandeling in het ziekenhuis of bij een medisch specialist? Dan kunt u bijzondere bijstand aanvragen.",
+        "aanvragen": "Vraag aan voordat u de kosten maakt; bewaar de rekeningen",
+        "url": "https://www.kempenplus.com/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand | KempenPlus",
+            "url": "https://www.kempenplus.com/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij een sociaal-medische indicatie",
+        "omschrijving": "Tijdelijke tegemoetkoming als uw kind tot 12 jaar opvang nodig heeft door een beperking of problemen van uw kind of van uzelf. U hebt een verklaring van een deskundige nodig.",
+        "aanvragen": "Met het aanvraagformulier van de gemeente en een verklaring van een deskundige",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR675919/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels tegemoetkoming kinderopvang SMI 2022",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR675919/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve ziektekostenverzekering (Gemeentepolis)",
+        "omschrijving": "Een zorgverzekering met korting op de premie voor inwoners met een laag inkomen en weinig vermogen. Uw kind is gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online aanmelden; overstappen naar de collectieve polis kan meestal per 1 januari",
+        "url": "https://www.kempenplus.com/collectieve-ziektekostenverzekering",
+        "bronnen": [
+          {
+            "titel": "Collectieve ziektekostenverzekering | KempenPlus",
+            "url": "https://www.kempenplus.com/collectieve-ziektekostenverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Het betalen van de zorgverzekering | Gemeente Bladel",
+            "url": "https://www.bladel.nl/het-betalen-van-de-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hulp bij noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt, bijvoorbeeld door ziekte of een beperking.",
+        "aanvragen": "Online aanvragen, liefst voordat u de kosten maakt",
+        "url": "https://www.kempenplus.com/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand | KempenPlus",
+            "url": "https://www.kempenplus.com/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Bijzondere bijstand | Gemeente Bladel",
+            "url": "https://www.bladel.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Veldhoven en de Kempen",
+        "omschrijving": "Leergeld betaalt voor kinderen van 0 tot 18 jaar bijvoorbeeld sport, muziekles, een fiets, een computer of schoolspullen als er thuis geen geld voor is.",
+        "aanvragen": "Via de website van Stichting Leergeld",
+        "url": "https://www.bladel.nl/stichting-leergeld",
+        "bronnen": [
+          {
+            "titel": "Stichting Leergeld | Gemeente Bladel",
+            "url": "https://www.bladel.nl/stichting-leergeld",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Stichting Leergeld | KempenPlus",
+            "url": "https://www.kempenplus.com/stichting-leergeld",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Een vergoeding van de reiskosten of aangepast vervoer, zoals een taxi, als uw kind door een beperking niet zelf naar school kan reizen of de school te ver weg is.",
+        "aanvragen": "Vóór 1 juni voor het nieuwe schooljaar, online met DigiD",
+        "url": "https://www.bladel.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer | Gemeente Bladel",
+            "url": "https://www.bladel.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijkse cadeaukaart als dank voor wie langdurig en onbetaald zorgt voor een inwoner van Bladel. U meldt u aan met een formulier.",
+        "aanvragen": "Met het aanmeldformulier op de pagina",
+        "url": "https://www.bladel.nl/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Mantelzorgwaardering | Gemeente Bladel",
+            "url": "https://www.bladel.nl/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

@@ -248,6 +248,144 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomensondersteuning (minimaregeling via Avres)",
+      "url": "https://www.molenlanden.nl/inkomensondersteuning"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Bijdrage bij extra kosten door ziekte of beperking",
+        "omschrijving": "Een vaste bijdrage per jaar voor extra kosten door een chronische ziekte of beperking. U kunt hem ook voor uw kind met een chronische ziekte of beperking aanvragen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, via Avres. Bewijs van de ziekte of beperking meesturen.",
+        "url": "https://www.avres.nl/bij-extra-kosten-door-ziekte-of-beperking",
+        "bronnen": [
+          {
+            "titel": "Bij extra kosten door ziekte of beperking (Avres)",
+            "url": "https://www.avres.nl/bij-extra-kosten-door-ziekte-of-beperking",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Inkomensondersteuning",
+            "url": "https://www.molenlanden.nl/inkomensondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Vergoeding kinderopvang op grond van sociaal-medische indicatie",
+        "omschrijving": "Kunt u tijdelijk om sociaal-medische redenen niet voor uw kinderen zorgen, en heeft u geen recht op kinderopvangtoeslag? Dan kunt u de kosten van opvang mogelijk vergoed krijgen.",
+        "aanvragen": "Neem contact op met Avres; zij beoordelen of u in aanmerking komt.",
+        "url": "https://www.avres.nl/voor-kinderen",
+        "bronnen": [
+          {
+            "titel": "Voor kinderen (Avres)",
+            "url": "https://www.avres.nl/voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering van Avres (VGZ)",
+        "omschrijving": "Lagere premie voor de basis- en aanvullende verzekering, met de mogelijkheid het eigen risico mee te verzekeren. Kinderen onder 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Overstappen kan elk jaar vanaf half november tot uiterlijk 31 december.",
+        "url": "https://www.avres.nl/zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Zorgverzekering (Avres)",
+            "url": "https://www.avres.nl/zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Inkomensondersteuning",
+            "url": "https://www.molenlanden.nl/inkomensondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Geld voor noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt, bijvoorbeeld dieetkosten bij medische noodzaak of waskosten en extra kleding.",
+        "aanvragen": "Online met DigiD, via Avres. Vraag aan voordat u de kosten betaalt.",
+        "url": "https://www.molenlanden.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand",
+            "url": "https://www.molenlanden.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Bijzondere bijstand (Avres)",
+            "url": "https://www.avres.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Alblasserwaard Vijfheerenlanden",
+        "omschrijving": "Betaalt sport, cultuur en schoolkosten voor kinderen van 0 tot 18 jaar in gezinnen met een laag inkomen, zoals schoolreis, muziekles, zwemles of een fiets.",
+        "aanvragen": "Vraag de bijdrage aan via de website van Leergeld.",
+        "url": "https://leergeldav.nl/",
+        "bronnen": [
+          {
+            "titel": "Voor kinderen (Avres)",
+            "url": "https://www.avres.nl/voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Stichting Leergeld Alblasserwaard Vijfheerenlanden",
+            "url": "https://leergeldav.nl/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Hulp bij geldzorgen",
+            "url": "https://www.molenlanden.nl/hulp-bij-geldzorgen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of vergoeding naar school bij speciaal onderwijs, een school van uw levensovertuiging die te ver weg is, of als uw kind door een handicap niet zelf kan reizen.",
+        "aanvragen": "Online of met het papieren formulier op de pagina.",
+        "url": "https://www.molenlanden.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer",
+            "url": "https://www.molenlanden.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een geldbedrag als bedankje voor mantelzorgers van 18 jaar of ouder die geregistreerd staan. Jonge mantelzorgers tot en met 17 jaar krijgen een cadeaubon.",
+        "ouders": "ja",
+        "aanvragen": "Laat u registreren als mantelzorger bij het Steunpunt Mantelzorg.",
+        "url": "https://www.molenlanden.nl/mantelzorg",
+        "bronnen": [
+          {
+            "titel": "Mantelzorg",
+            "url": "https://www.molenlanden.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

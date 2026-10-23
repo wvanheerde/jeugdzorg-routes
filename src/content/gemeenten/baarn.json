@@ -246,6 +246,135 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Hulp bij werk en inkomen",
+      "url": "https://www.baarn.nl/hulp-bij-werk-en-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Vergoeding eigen risico zorgverzekering",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Met een laag inkomen krijgt u het eigen risico van uw zorgverzekering één keer per jaar vergoed.",
+        "alleenOuder": true,
+        "aanvragen": "Met het formulier op de pagina, één keer per jaar",
+        "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+        "bronnen": [
+          {
+            "titel": "Eemkracht: Minimaregelingen",
+            "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Zorgverzekering op maat)",
+        "omschrijving": "Een aanvullende zorgverzekering van Zilveren Kruis waar de gemeente aan meebetaalt. U kiest uit drie pakketten, met onder meer fysiotherapie, tandarts en hulpmiddelen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online afsluiten; vermogensgrens geldt ook",
+        "url": "https://www.gezondverzekerd.nl/gemeente/baarn/zorgverzekeringen",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: collectieve verzekering Baarn",
+            "url": "https://www.gezondverzekerd.nl/gemeente/baarn/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Baarn: Zorgverzekering op maat",
+            "url": "https://www.baarn.nl/zorgverzekering-op-maat",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Een vergoeding voor noodzakelijke extra kosten die u niet zelf kunt betalen en die niets anders vergoedt.",
+        "aanvragen": "Met het formulier op de pagina, vóórdat u de kosten betaalt",
+        "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+        "bronnen": [
+          {
+            "titel": "Eemkracht: Minimaregelingen",
+            "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels bijzondere bijstand 2026 gemeente Baarn",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR756263/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kidskaarten",
+        "omschrijving": "€ 100 per kind in 2026, in twee VVV-bonnen van € 50, voor kinderen van 0 tot en met 17 jaar. U kunt er kleding, boeken en speelgoed mee kopen in Baarn.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, in de aanvraagperiode op de pagina",
+        "url": "https://www.baarn.nl/kidskaarten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Baarn: Kidskaarten",
+            "url": "https://www.baarn.nl/kidskaarten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Declaratiefonds Meedoen",
+        "omschrijving": "Een bijdrage voor activiteiten en abonnementen, zoals bibliotheek, museum of cursus. Kinderen vanaf 11 jaar kunnen ook een bijdrage voor internet of telefoon krijgen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, in de aanvraagperiode op de pagina",
+        "url": "https://www.baarn.nl/declaratiefonds-meedoen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Baarn: Declaratiefonds Meedoen",
+            "url": "https://www.baarn.nl/declaratiefonds-meedoen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Woont uw kind op meer dan 6 kilometer van de dichtstbijzijnde passende school, ook speciaal onderwijs? Dan krijgt u een vergoeding of vervoer met een taxibusje.",
+        "aanvragen": "Online met DigiD, vóór 1 juni",
+        "url": "https://www.baarn.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Baarn: Leerlingenvervoer",
+            "url": "https://www.baarn.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Mantelzorgers in Baarn krijgen in 2026 een waardebon tot € 125, jonge mantelzorgers (8 tot en met 23 jaar) ook. Niet bij zorg voor iemand in een instelling met Wlz.",
+        "aanvragen": "Aanmelden als mantelzorger via het registratieformulier van het steunpunt",
+        "url": "https://www.pitbaarn.nl/is/product/132208/189707/mantelzorg-waardering",
+        "bronnen": [
+          {
+            "titel": "Pit Baarn: Mantelzorg Waardering",
+            "url": "https://www.pitbaarn.nl/is/product/132208/189707/mantelzorg-waardering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Baarn: Mantelzorg(woning)",
+            "url": "https://www.baarn.nl/mantelzorgwoning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Baarn kiest voor lichte hulp dichtbij. Het Lokaal Team heeft brugfunctionarissen op school gekregen, en er zijn meer praktijkondersteuners jeugd bij de huisarts. Volgens de gemeente komen daardoor minder gezinnen bij specialistische hulp terecht, maar wachtlijsten bij het Lokaal Team en bij MetMaya blijven een aandachtspunt. Een tevredenheidsonderzoek onder ouders en gemeten wachttijden zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is Pit Baarn of het Lokaal Team. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld in het plan van aanpak. Neem een cliëntondersteuner van Pit Baarn mee. Een klacht over het Lokaal Team gaat naar de gemeente; een klacht over MetMaya eerst naar MetMaya en daarna naar de klachtencommissie.",
     "signalen": [

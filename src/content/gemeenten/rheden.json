@@ -282,6 +282,99 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen bij een laag inkomen",
+      "url": "https://www.rheden.nl/inwoners/geld-en-belastingen/geldzorgen-en-schulden/hulp-en-regelingen-voorzieningenwijzer/"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming chronisch zieken en gehandicapten",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Bij een chronische ziekte of handicap en een laag inkomen krijgt u € 227 in 2026.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Eén keer per kalenderjaar aanvragen, met het aanvraagformulier op de pagina.",
+        "url": "https://www.rheden.nl/product/tegemoetkoming-chronisch-zieken-en-gehandicapten/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rheden: Tegemoetkoming chronisch zieken en gehandicapten",
+            "url": "https://www.rheden.nl/product/tegemoetkoming-chronisch-zieken-en-gehandicapten/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke kosten die u niet uit uw inkomen kunt betalen en die niets anders vergoedt, zoals extra kosten door een ziekte? Vraag het aan vóór u de kosten maakt.",
+        "aanvragen": "Met het aanvraagformulier, per post of af te geven bij het gemeentehuis.",
+        "url": "https://www.rheden.nl/product/bijzondere-bijstand/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rheden: Bijzondere bijstand",
+            "url": "https://www.rheden.nl/product/bijzondere-bijstand/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Gelrepas",
+        "omschrijving": "Gratis pas met tegoed voor sport, cultuur en schoolspullen en kledingtegoed voor kinderen van 4 tot en met 17 jaar. Gezinnen met kinderen krijgen hem tot 150% van de bijstandsnorm.",
+        "inkomensgrens": 150,
+        "aanvragen": "Krijgt u bijstand, dan komt de pas vanzelf. Anders vraagt u hem zelf aan via de website van de pas.",
+        "url": "https://www.rheden.nl/product/de-gelrepas/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rheden: De Gelrepas",
+            "url": "https://www.rheden.nl/product/de-gelrepas/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking of de afstand niet zelf naar school reizen? Dan kunt u vervoer aanvragen. Kiest u een school 20 km of verder weg, dan betaalt u een eigen bijdrage.",
+        "aanvragen": "Online met DigiD, met een medische verklaring of een vervoersverklaring van school.",
+        "url": "https://www.rheden.nl/product/leerlingenvervoer/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rheden: Leerlingenvervoer",
+            "url": "https://www.rheden.nl/product/leerlingenvervoer/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Jaarlijkse waardering voor mantelzorgers in Rheden en Rozendaal. Zorgt u voor uw kind met een chronische ziekte of beperking, dan telt dat als mantelzorg.",
+        "ouders": "ja",
+        "aanvragen": "Via de organisatie voor mantelzorg en vrijwillige thuishulp in de gemeente.",
+        "url": "https://www.rheden.nl/product/ondersteuning-voor-mantelzorgers/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rheden: Ondersteuning voor mantelzorgers",
+            "url": "https://www.rheden.nl/product/ondersteuning-voor-mantelzorgers/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Mantelzorg en Vrijwillige Thuishulp Rheden en Rozendaal: Mantelzorger?",
+            "url": "https://www.mvtrheden.nl/mantelzorger.html",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "kinderopvang",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

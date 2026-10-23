@@ -9,6 +9,8 @@ import Icon from '../../components/Icon.astro';
 import register from '../../../scripts/data/gemeenten-register.json';
 import { getCollection } from 'astro:content';
 import { contacten, routeLabel, datum } from '../../lib/routes';
+import { GELD_SOORTEN, GEEN_REGELING, ZORGKOSTEN_OUDER } from '../../lib/regelingen';
+import GeldRegeling from '../../components/GeldRegeling.astro';
 
 export async function getStaticPaths() {
   const gemeenten = await getCollection('gemeenten');
@@ -27,10 +29,20 @@ const secties = [
   { id: 'rechten', n: 2, t: 'Waar heb ik recht op?' },
   { id: 'aanbod', n: 3, t: 'Welke hulp is er?' },
   { id: 'lokaal', n: 4, t: 'Lokale steun' },
-  { id: 'regelen', n: 5, t: 'Direct regelen' },
-  { id: 'ervaringen', n: 6, t: 'Hoe gaat het hier?' },
+  { id: 'geld', n: 5, t: 'Geld en regelingen' },
+  { id: 'regelen', n: 6, t: 'Direct regelen' },
+  { id: 'ervaringen', n: 7, t: 'Hoe gaat het hier?' },
 ];
 const soortLabel: Record<string, string> = { inspectie: 'Inspectie', clientervaringsonderzoek: 'Cliëntervaringsonderzoek', rekenkamer: 'Rekenkamer', ombudsman: 'Ombudsman', rechtspraak: 'Rechtspraak', gemeenteraad: 'Gemeenteraad', nieuws: 'Nieuws' };
+/** Geld en regelingen: per soort de regelingen van de gemeente, in de vaste volgorde (lib/regelingen.ts). */
+const geld = d.geldregelingen;
+// Zorgkosten alleen voor de ouder zelf (alleenOuder) staan bij de regelingen voor een laag inkomen, direct na de zorgverzekering.
+const geldGroepen = GELD_SOORTEN.map((s) => ({ ...s, lijst: geld.regelingen.filter((r) => r.soort === s.id && !r.alleenOuder) })).filter((s) => s.lijst.length > 0);
+const zorgkostenOuder = { id: 'zorgkosten-ouder', label: ZORGKOSTEN_OUDER, inkomen: true as const, lijst: geld.regelingen.filter((r) => r.alleenOuder) };
+const geldZorg = geldGroepen.filter((s) => !s.inkomen);
+const geldKrap = geldGroepen.filter((s) => s.inkomen);
+if (zorgkostenOuder.lijst.length) geldKrap.splice(geldKrap.some((s) => s.id === 'zorgverzekering') ? 1 : 0, 0, zorgkostenOuder);
+const geenRegeling = (inkomen: boolean) => geld.nietGevonden.filter((x) => GEEN_REGELING[x] && !!GELD_SOORTEN.find((s) => s.id === x)?.inkomen === inkomen);
 const signalen = (d.ervaringen?.signalen ?? []).slice().sort((a, b) => b.datum.localeCompare(a.datum));
 // Vaste contactkaart bovenaan: het toegangsteam (persona-tests: ouders vonden het nummer niet op een lange pagina).
 const wijkteam = d.toegang.routes.find((r) => r.type === 'wijkteam');
@@ -163,8 +175,37 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
         <p class="meta" style="margin-top:1.25rem">Zie ook de <a href={`${base}/organisaties/`}>landelijke organisaties</a>.</p>
       </section>
 
+      {/* Geld en regelingen (veld geldregelingen, verplicht: alle gemeenten zijn onderzocht): per soort onder een eigen kop. Eerst wat met
+          de zorg voor het kind te maken heeft, daaronder de regelingen voor een laag inkomen onder een eigen kopje (lib/regelingen.ts). */}
+      <section class="section" id="geld">
+        <h2><span class="section-num">5</span>Geld en regelingen</h2>
+        <p>Regelingen van {d.naam} voor gezinnen met een kind dat extra zorg nodig heeft. De meeste gaan niet vanzelf: u vraagt ze zelf aan. <a href={`${base}/overzicht/?k=geld&gemeente=${g.id}`}>Welke regelingen passen bij u?</a></p>
+        {geldZorg.map((s) => (
+          <div class="geld-soort" data-geld-soort={s.id}>
+            <h3>{s.label}</h3>
+            <ul class="geld-lijst">{s.lijst.map((r) => <GeldRegeling r={r} gemeente={d.naam} />)}</ul>
+          </div>
+        ))}
+        {geenRegeling(false).map((x) => <p class="meta">{d.naam} {GEEN_REGELING[x]}</p>)}
+        {(geldKrap.length > 0 || geenRegeling(true).length > 0) && (
+          <div class="geld-krap" data-geld-krap>
+            <h3>Regelingen bij een laag inkomen</h3>
+            <p>Zorg voor een kind kost vaak tijd en geld, en leidt soms tot minder inkomen. Deze regelingen zijn er voor iedereen met een laag inkomen; ze kunnen extra kosten helpen dragen.</p>
+            {geldKrap.map((s) => (
+              <div class="geld-soort" data-geld-soort={s.id}>
+                <h4>{s.label}</h4>
+                <ul class="geld-lijst">{s.lijst.map((r) => <GeldRegeling r={r} gemeente={d.naam} />)}</ul>
+              </div>
+            ))}
+            {geenRegeling(true).map((x) => <p class="meta">{d.naam} {GEEN_REGELING[x]}</p>)}
+          </div>
+        )}
+        {geld.overzicht && <p>Alle regelingen in {d.naam}: <a href={geld.overzicht.url} target="_blank" rel="noopener">{geld.overzicht.naam}<span aria-hidden="true"> ↗</span></a></p>}
+        <p class="meta">Landelijke regelingen, zoals dubbele kinderbijslag: <a href={`${base}/landelijk/#05-financieel`}>Financiële regelingen</a>.</p>
+      </section>
+
       <section class="section regelen" id="regelen">
-        <h2><span class="section-num">5</span>Direct regelen</h2>
+        <h2><span class="section-num">6</span>Direct regelen</h2>
         {directRegelen.length === 0 ? <p class="empty">Nog geen directe links opgenomen. Kijk op de <a href={d.websiteJeugd} target="_blank" rel="noopener">website van de gemeente</a>.</p> : (
           <ul class="linklist">
             {directRegelen.map((r) => (
@@ -180,7 +221,7 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
       </section>
 
       <section class="section" id="ervaringen">
-        <h2><span class="section-num">6</span>Hoe gaat het met de jeugdhulp in {d.naam}?</h2>
+        <h2><span class="section-num">7</span>Hoe gaat het met de jeugdhulp in {d.naam}?</h2>
         {!d.ervaringen ? <p class="empty">Nog geen beeld opgenomen. Deze sectie wordt gevuld met openbare bronnen zoals inspectierapporten, cliëntervaringsonderzoek en regionale journalistiek.</p> : (<details class="inklapper" id="ervaringen-inhoud" data-op-papier-open>
           <summary>Lees wat we vonden{signalen.length > 0 && <> ({signalen.length} {signalen.length === 1 ? 'bericht' : 'berichten'} uit openbare bronnen)</>}</summary>
           {d.ervaringen.samenvatting.split(/\n\s*\n/).map((al) => <p>{al}</p>)}

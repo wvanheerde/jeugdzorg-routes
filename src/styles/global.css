@@ -474,9 +474,9 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .klacht-keuze .meta { margin: 0 0 .6rem; }
 .klacht-keuze .klacht-gevolg { margin: .5rem 0 0; font-size: .9rem; }
 #brief-tekst { scroll-margin-top: 6rem; }
-.klacht-keuze .chip-btn, .verdieping .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
-.klacht-keuze .chip-btn:hover, .verdieping .chip-btn:hover { border-color: var(--c-primary); }
-.klacht-keuze .chip-btn[aria-pressed="true"], .verdieping .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
+.klacht-keuze .chip-btn, .verdieping .chip-btn, .geld-filter .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
+.klacht-keuze .chip-btn:hover, .verdieping .chip-btn:hover, .geld-filter .chip-btn:hover { border-color: var(--c-primary); }
+.klacht-keuze .chip-btn[aria-pressed="true"], .verdieping .chip-btn[aria-pressed="true"], .geld-filter .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
 .verdieping .vd-melding { flex-basis: 100%; margin: 0; color: var(--c-accent); }
 .verdieping .vd-gevolg { font-size: inherit; }
 .verdieping[data-vd-ingeklapt] .vd-gevolg { display: none; }
@@ -698,6 +698,29 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 /* "Mijn kind wordt 18": de datum die de geboortedatum oplevert, gemarkeerd; de uitleg erachter in gewone letters. */
 #nu-doen mark.stap-datum { background: var(--c-primary-soft); color: var(--c-primary-dark); padding: .05em .35em; border-radius: 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 #nu-doen .stap-datum-uitleg { font-weight: 400; }
+/* Lijst met gemeenten: filter op regelingen. */
+.geld-filter { margin-top: 1.1rem; }
+.geld-filter-kop { margin: 0 0 .4rem; font-weight: 600; }
+.geld-filter .meta { max-width: 46rem; }
+.geld-filter [data-geld-uitleg] { margin-top: .2rem; }
+.geld-filter .geld-aantal { margin: .6rem 0 0; font-weight: 600; }
+/* Gemeentepagina, Geld en regelingen: per soort een kop en een opsomming. */
+.geld-soort h3, .geld-soort h4 { margin-bottom: .35rem; }
+.geld-krap { margin-top: 1.6rem; padding-top: 1.1rem; border-top: 1px solid var(--c-border); }
+.geld-krap > h3 { margin: 0 0 .3rem; color: var(--c-text); }
+.geld-krap > p { margin: 0 0 .4rem; max-width: 46rem; }
+.geld-soort h4 { font-family: var(--font-head); font-size: 1.2rem; font-weight: 600; line-height: 1.2; margin: 1.2rem 0 .35rem; color: var(--c-primary-dark); }
+.geld-lijst { margin: 0 0 1rem; padding-left: 1.2rem; }
+.geld-lijst li { margin: 0 0 .5rem; }
+/* Regelingencheck ("Extra kosten of kinderbijslag"): label bij een regeling die waarschijnlijk past, en de regelingen van de gemeente onder de stap. */
+#nu-doen .stap-past { display: inline-block; margin: 0 .45rem .15rem 0; padding: .05em .45em; border-radius: 4px; background: var(--c-ok-soft); color: var(--c-ok); font-size: .8rem; font-weight: 600; vertical-align: .08em; }
+#nu-doen .stap-regelingen { margin-top: .55rem; font-size: .92rem; font-weight: 400; }
+#nu-doen .stap-regelingen-kop { margin: 0 0 .25rem; font-weight: 600; }
+#nu-doen .stap-regelingen ul { margin: 0; padding-left: 1.2rem; list-style: disc; }
+/* Gewone opsomming, ook binnen de genummerde stappen: geen stapnummer en geen tellen (anders liep de nummering van de stappen door). */
+#nu-doen ol.steps .stap-regelingen li { margin: 0 0 .35rem; padding-left: 0; counter-increment: none; }
+#nu-doen ol.steps .stap-regelingen li::before { content: none; }
+#nu-doen .stap-regeling { margin: .35rem 0 0; }
 #nu-doen .stap-stand { margin-top: .5rem; font-size: .95rem; font-weight: 400; }
 #nu-doen .stap-stand details.ec-wachten summary { cursor: pointer; }
 

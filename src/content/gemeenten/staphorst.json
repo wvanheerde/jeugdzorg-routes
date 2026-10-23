@@ -233,6 +233,144 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Extra regelingen voor mensen met weinig inkomen",
+      "url": "https://www.staphorst.nl/extra-regelingen-voor-mensen-met-weinig-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatie eigen risico zorgverzekering",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Hebt u uw hele eigen risico gebruikt en een laag inkomen? Dan krijgt u er compensatie voor.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier op de pagina, nadat u uw eigen risico helemaal hebt gebruikt.",
+        "url": "https://www.staphorst.nl/compensatie-eigen-risico-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Compensatie eigen risico zorgverzekering",
+            "url": "https://www.staphorst.nl/compensatie-eigen-risico-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor brillen en tandartskosten",
+        "omschrijving": "Kosten voor een bril of de tandarts die u niet zelf kunt betalen en die uw zorgverzekering niet vergoedt, kunt u aanvragen als bijzondere bijstand.",
+        "aanvragen": "Vraag het aan vóór u de kosten maakt, met het formulier op de pagina.",
+        "url": "https://www.staphorst.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Bijzondere bijstand",
+            "url": "https://www.staphorst.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociaal-medische indicatie",
+        "omschrijving": "Kunt u door een beperking of ziekte niet werken en hebt u geen kinderopvangtoeslag? Dan kunt u tijdelijk een tegemoetkoming krijgen, tot uw kind naar de middelbare school gaat.",
+        "aanvragen": "Bij de gemeente, met een offerte van de opvang en zo nodig een advies van de huisarts.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR700123",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Beleidsregels tegemoetkoming kosten kinderopvang op grond van een sociaal medische indicatie 2019",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR700123",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepolis: zorgverzekering voor inwoners met laag inkomen",
+        "omschrijving": "Een collectieve zorgverzekering van Zilveren Kruis waar de gemeente aan meebetaalt, met extra aanvullende pakketten.",
+        "inkomensgrens": 120,
+        "aanvragen": "Aanmelden via de website van de verzekeraar.",
+        "url": "https://www.staphorst.nl/zorgverzekering-voor-inwoners-met-laag-inkomen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Zorgverzekering voor inwoners met laag inkomen",
+            "url": "https://www.staphorst.nl/zorgverzekering-voor-inwoners-met-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Extra kosten bij ziekte, een beperking of een andere reden, zoals een bril of tandartskosten, die u niet zelf kunt betalen en niet vergoed krijgt.",
+        "aanvragen": "Vraag het aan vóór u de kosten maakt, met het formulier op de pagina.",
+        "url": "https://www.staphorst.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Bijzondere bijstand",
+            "url": "https://www.staphorst.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoen-regeling voor kinderen (Sam& Overijssel)",
+        "omschrijving": "Hulp bij schoolspullen, een fiets of laptop, een sport- of cultuurabonnement of zwemles voor uw kind, via Stichting Sam& Overijssel.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via de website van Sam& voor alle kinderen; leg bij uw aanvraag uit wat u nodig hebt.",
+        "url": "https://www.staphorst.nl/meedoen-regeling",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Meedoen-regeling",
+            "url": "https://www.staphorst.nl/meedoen-regeling",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Richtlijnen Meedoen-regeling kinderen (Sam& voorzieningen Staphorst)",
+            "url": "https://cuatro.sim-cdn.nl/staphorst/uploads/richtlijnen_meedoen-regeling_kinderen.pdf",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vergoeding of vervoer naar school als die ver weg is (basisonderwijs: vanaf 6 kilometer) of uw kind door een beperking niet zelf kan reizen. Soms betaalt u een eigen bijdrage.",
+        "aanvragen": "Online met DigiD, met het vervoersadvies voor het schooljaar.",
+        "url": "https://www.staphorst.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Leerlingenvervoer",
+            "url": "https://www.staphorst.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een bedrag van € 100 per zorgvrager in 2026, als blijk van waardering voor mantelzorgers. Wie de zorg krijgt, vraagt het aan voor de mantelzorger.",
+        "aanvragen": "Met het formulier op de pagina, in oktober; Steunpunt Mantelzorg beoordeelt de aanvragen.",
+        "url": "https://www.staphorst.nl/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Gemeente Staphorst: Mantelzorgcompliment",
+            "url": "https://www.staphorst.nl/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Staphorst: Een mantelzorgcompliment aanvragen (nieuwsbericht 7 oktober 2026)",
+            "url": "https://www.staphorst.nl/een-mantelzorgcompliment-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

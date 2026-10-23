@@ -217,6 +217,170 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Uitkeringen, regelingen en hulp bij laag inkomen",
+      "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/uitkeringen-en-regelingen-bij-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Meerkosten chronisch zieken en gehandicapten",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Hebt u een chronische ziekte of beperking en een laag inkomen, dan krijgt u een bijdrage in de extra kosten.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Vraag eerst de Cunerapas aan; u hebt een bewijs nodig, zoals een Wmo-indicatie.",
+        "url": "https://www.cunerapas.nl/alle-regelingen/meerkosten-chronisch-zieken-en-gehandicapten",
+        "bronnen": [
+          {
+            "titel": "Cunerapas: Meerkosten chronisch zieken en gehandicapten",
+            "url": "https://www.cunerapas.nl/alle-regelingen/meerkosten-chronisch-zieken-en-gehandicapten",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Rhenen: Verordening minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR743431/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Regeling kinderopvang op basis van sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u door ziekte, een beperking of de thuissituatie tijdelijk niet voor uw kind tot 13 jaar zorgen en hebt u weinig kinderopvangtoeslag? Dan helpt de gemeente met de kosten.",
+        "aanvragen": "Eerst in gesprek met het jeugdteam of het sociaal team; zij stellen met u een plan op.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR720736/1",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rhenen: Regeling Kinderopvang op basis van Sociaal Medische Indicatie (SMI) 2024",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR720736/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering van Menzis (Gemeentepolis)",
+        "omschrijving": "Een zorgverzekering met korting voor inwoners met een laag inkomen; de gemeente betaalt een deel van de premie. Kinderen zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online, via de website van de verzekeraar.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/rhenen/zorgverzekeringen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rhenen: Uitkeringen, regelingen en hulp bij laag inkomen",
+            "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/uitkeringen-en-regelingen-bij-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gezondverzekerd.nl: Zorgverzekeringen gemeente Rhenen",
+            "url": "https://www.gezondverzekerd.nl/gemeente/rhenen/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en onverwacht hoge kosten die u niet kunt betalen en die niets anders vergoedt? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Via het aanvraagformulier op de pagina; de gemeente Veenendaal voert het uit.",
+        "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rhenen: Bijzondere bijstand",
+            "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Doe mee-budget Kinderen",
+        "omschrijving": "Voor kinderen tot en met 11 jaar in een gezin met weinig geld: tegoed voor sport, schoolspullen, kleding, een fiets of een uitstapje. Het bedrag hangt af van het inkomen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Vraag eerst de Cunerapas aan; het tegoed komt er daarna op.",
+        "url": "https://www.cunerapas.nl/alle-regelingen/doe-mee-budget-kinderen",
+        "bronnen": [
+          {
+            "titel": "Cunerapas: Doe mee-budget Kinderen",
+            "url": "https://www.cunerapas.nl/alle-regelingen/doe-mee-budget-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Rhenen: Verordening minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR743431/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Doe mee-budget Jongeren",
+        "omschrijving": "Voor jongeren van 12 tot en met 17 jaar in een gezin met weinig geld: tegoed voor sport, schoolspullen, kleding, een fiets of een telefoon. Het bedrag hangt af van het inkomen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Vraag eerst de Cunerapas aan; het tegoed komt er daarna op.",
+        "url": "https://www.cunerapas.nl/alle-regelingen/doe-mee-budget-jongeren",
+        "bronnen": [
+          {
+            "titel": "Cunerapas: Doe mee-budget Jongeren",
+            "url": "https://www.cunerapas.nl/alle-regelingen/doe-mee-budget-jongeren",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Rhenen: Verordening minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR743431/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Is er thuis te weinig geld voor zwemles, sport of muziekles voor uw kind tot en met 17 jaar? Dan betaalt het fonds de contributie of het lesgeld.",
+        "aanvragen": "Online via Mijn Pas, één aanvraag per kind per pasjaar.",
+        "url": "https://www.cunerapas.nl/alle-regelingen/sport-en-cultuur-kinderen",
+        "bronnen": [
+          {
+            "titel": "Cunerapas: Jeugdfonds Sport & Cultuur",
+            "url": "https://www.cunerapas.nl/alle-regelingen/sport-en-cultuur-kinderen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een handicap, beperking of ziekte niet zelf naar school? Dan krijgt u een vergoeding of vervoer met een taxibusje. Bij een school ver weg betaalt u soms mee.",
+        "aanvragen": "Elk schooljaar opnieuw, online met DigiD.",
+        "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/leerlingenvervoer-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rhenen: Leerlingenvervoer aanvragen",
+            "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/leerlingenvervoer-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgondersteuning en Dag van de Mantelzorg",
+        "omschrijving": "Activiteiten en een jaarlijkse Dag van de Mantelzorg voor wie zorgt voor partner, kind of ouder; geen geldbedrag. Ook jonge mantelzorgers kunnen meedoen.",
+        "ouders": "ja",
+        "aanvragen": "Meld u aan bij Welzijn Rivierstroom; zie de pagina",
+        "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/mantelzorg",
+        "bronnen": [
+          {
+            "titel": "Gemeente Rhenen: Mantelzorg",
+            "url": "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

@@ -226,6 +226,127 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Regeling voor chronisch zieken en gehandicapten vanaf 18 jaar",
+        "omschrijving": "Geld voor extra kosten door een ziekte of handicap. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Voor mensen met een laag inkomen.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier op de pagina.",
+        "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/hulp-en-ondersteuning/tegemoetkoming-chronisch-zieken-en-gehandicapten/",
+        "bronnen": [
+          {
+            "titel": "Regeling voor chronisch zieken en gehandicapten vanaf 18 jaar - Gemeente Buren",
+            "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/hulp-en-ondersteuning/tegemoetkoming-chronisch-zieken-en-gehandicapten/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Verordening tegemoetkoming chronisch zieken en gehandicapten gemeente Buren",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR342675/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderdagverblijf Plus en Buitenschoolse Opvang Plus",
+        "omschrijving": "Extra begeleiding voor een kind met een zorgbehoefte op een gewoon kinderdagverblijf (0 tot 4 jaar) of buitenschoolse opvang (basisschoolleeftijd). De gemeente beoordeelt dit.",
+        "aanvragen": "Via de opvang, daarna beoordeelt de gemeente.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR733479/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels Kinderdagverblijf Plus en Buitenschoolse Opvang Plus gemeente Buren 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733479/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Geld voor noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt, bijvoorbeeld een bril. Boven de bijstandsnorm betaalt u vaak een deel zelf.",
+        "aanvragen": "Met het aanvraagformulier op de pagina. Vraag het aan binnen 3 maanden.",
+        "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/werk-en-inkomen/bijzondere-bijstand-aanvragen/",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand - Gemeente Buren",
+            "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/werk-en-inkomen/bijzondere-bijstand-aanvragen/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Betaalt lesgeld, contributie en soms materialen voor sport of cultuur, en eenmalig zwemles, voor kinderen van 0 tot 18 jaar uit gezinnen met weinig geld.",
+        "aanvragen": "Via iemand die uw gezin kent, zoals een juf of meester, of via de pagina.",
+        "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/werk-en-inkomen/elk-kind-gelijke-kans-in-sport-en-spel/",
+        "bronnen": [
+          {
+            "titel": "Bijdrage voor kinderen - Gemeente Buren",
+            "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/werk-en-inkomen/elk-kind-gelijke-kans-in-sport-en-spel/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld West Betuwe",
+        "omschrijving": "Hulp met schoolspullen, sport, een tweedehands fiets of laptop voor kinderen uit gezinnen met geldzorgen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Met het digitale formulier van de stichting.",
+        "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/werk-en-inkomen/elk-kind-gelijke-kans-in-sport-en-spel/",
+        "bronnen": [
+          {
+            "titel": "Bijdrage voor kinderen - Gemeente Buren",
+            "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/werk-en-inkomen/elk-kind-gelijke-kans-in-sport-en-spel/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding voor een kind met een structurele beperking, of naar een speciale school. U komt in aanmerking als de school meer dan 6 kilometer van huis ligt.",
+        "aanvragen": "Online formulier. Vóór 1 juli voor het nieuwe schooljaar.",
+        "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/leerlingenvervoer/leerlingenvervoer/",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer - Gemeente Buren",
+            "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/leerlingenvervoer/leerlingenvervoer/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering en Mantelzorgsteunpunt Buren",
+        "ouders": "ja",
+        "omschrijving": "Elke mantelzorger die ingeschreven staat krijgt rond de Dag van de Mantelzorg een VVV-bon en een uitnodiging voor een activiteit. U zorgt bijvoorbeeld voor uw kind.",
+        "aanvragen": "Schrijf u in bij het steunpunt via het aanmeldformulier.",
+        "url": "https://welzijnrivierstroom.nl/ik-wil-hulp/mantelzorgondersteuning-gemeente-buren/",
+        "bronnen": [
+          {
+            "titel": "Mantelzorgondersteuning - Gemeente Buren",
+            "url": "https://www.buren.nl/direct-regelen/zorg-jeugd-werk-en-onderwijs/hulp-en-ondersteuning/mantelzorgondersteuning/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Mantelzorgondersteuning gemeente Buren - Welzijn Rivierstroom",
+            "url": "https://welzijnrivierstroom.nl/ik-wil-hulp/mantelzorgondersteuning-gemeente-buren/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "De gemeente ziet meer en zwaardere jeugdhulp dan voorheen, en wil daarom beter sturen op welke hulp er komt. Hulp die langer dan 9 maanden loopt, wordt opnieuw bekeken. Een kind krijgt in principe niet meer dan twee aanbieders tegelijk, en de gemeente kijkt eerst wat school of het eigen netwerk kan doen. Wat ouders van de hulp vinden en hoe lang de toegang duurt, is niet openbaar te vinden.\n\nUw aanspreekpunt is het Sociaal Team. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast. Wordt de hulp van uw kind opnieuw bekeken of verlengd, vraag dan om de reden en om een schriftelijk besluit. Neem een onafhankelijke cliëntondersteuner mee, en dien een klacht over het team in bij de klachtcoördinator van de gemeente.",
     "signalen": [

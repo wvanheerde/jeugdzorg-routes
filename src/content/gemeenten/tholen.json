@@ -234,6 +234,130 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Laag inkomen en schulden",
+      "url": "https://www.tholen.nl/inkomen-en-bijstand/laag-inkomen-en-schulden"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Met een laag inkomen betaalt de gemeente mee aan uw basisverzekering en aanvullende verzekering bij VGZ. VGZ accepteert u zonder medische keuring.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD. Wisselen naar VGZ kan alleen per 1 januari.",
+        "url": "https://www.tholen.nl/inkomen-en-bijstand/laag-inkomen-en-schulden/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Collectieve zorgverzekering",
+            "url": "https://www.tholen.nl/inkomen-en-bijstand/laag-inkomen-en-schulden/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en onverwachte, noodzakelijke kosten die niets anders vergoedt? Dan kunt u bijzondere bijstand aanvragen. De gemeente beslist.",
+        "aanvragen": "Online met DigiD. Vraag elke vergoeding apart aan.",
+        "url": "https://www.tholen.nl/inkomen-en-bijstand/bijstand/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Bijzondere bijstand aanvragen",
+            "url": "https://www.tholen.nl/inkomen-en-bijstand/bijstand/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Sport of muziek via het Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Een lidmaatschap van een sport- of muziekvereniging voor kinderen van 4 tot en met 18 jaar, ook voor (sport)kleding. Voor gezinnen met een laag inkomen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, via bijzondere bijstand.",
+        "url": "https://www.tholen.nl/inkomen-en-bijstand/bijstand/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Bijzondere bijstand aanvragen",
+            "url": "https://www.tholen.nl/inkomen-en-bijstand/bijstand/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels bijzondere bijstand en activeringsregeling Tholen 2023",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR692935/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Gratis zwemlessen in de gemeentelijke buitenbaden",
+        "omschrijving": "Zwemlessen voor het A- of B-diploma voor kinderen vanaf 6 jaar in zwembad De Spetter of Haestinge. Voor gezinnen met een laag inkomen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, voor de start van het zwemseizoen.",
+        "url": "https://www.tholen.nl/sport-recreatie-en-cultuur/zwembaden/vergoeding-voor-zwemlessen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Vergoeding voor zwemlessen",
+            "url": "https://www.tholen.nl/sport-recreatie-en-cultuur/zwembaden/vergoeding-voor-zwemlessen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels bijzondere bijstand en activeringsregeling Tholen 2023",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR692935/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Tweedehands fiets voor de brugklas",
+        "omschrijving": "Een tweedehands fiets voor een kind dat voor het eerst naar de middelbare school gaat. Voor gezinnen met een laag inkomen.",
+        "aanvragen": "Online met DigiD, via bijzondere bijstand.",
+        "url": "https://www.tholen.nl/inkomen-en-bijstand/bijstand/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Bijzondere bijstand aanvragen",
+            "url": "https://www.tholen.nl/inkomen-en-bijstand/bijstand/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding als uw kind door een beperking niet zelf naar school kan, of naar speciaal onderwijs gaat. Mogelijk betaalt u een eigen bijdrage naar inkomen.",
+        "aanvragen": "Online met DigiD, of via het loket leerlingenvervoer.",
+        "url": "https://www.tholen.nl/onderwijs-en-kinderopvang/leerlingenvervoer-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Leerlingenvervoer aanvragen",
+            "url": "https://www.tholen.nl/onderwijs-en-kinderopvang/leerlingenvervoer-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgattentie",
+        "omschrijving": "Mantelzorgers die zich hebben ingeschreven, krijgen op de Dag van de Mantelzorg (10 november) een attentie van de gemeente. U zorgt dan al drie maanden of langer.",
+        "aanvragen": "Inschrijven via het formulier op de pagina.",
+        "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/mantelzorg-ondersteuning",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tholen: Ondersteuning voor mantelzorger aanvragen",
+            "url": "https://www.tholen.nl/zorg-en-ondersteuning-wmo/mantelzorg-ondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Tholen bouwt de toegang tot jeugdhulp om. Sinds april 2025 is Inwonersondersteuning het eerste aanspreekpunt, en sinds januari 2026 probeert de gemeente in Sint-Maartensdijk een Stevig Lokaal Team uit, dat per 2028 in de hele gemeente moet werken. Volgens de gemeente werkt de nieuwe aanpak vooral goed voor Wmo-vragen en is die voor jeugd nog in ontwikkeling. Door de praktijkondersteuner jeugd verwijzen huisartsen minder door, maar voor maatschappelijk werk is er een wachttijd van 8 tot 10 weken.\n\nVraag bij uw melding hoe lang het duurt tot een eerste gesprek en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van SMWO mee. Bent u ontevreden, gebruik dan het klachtenformulier sociaal domein: de klachtencoördinator werkt los van de gemeente. Woont u in Sint-Maartensdijk, dan kan de werkwijze tijdens de proef anders zijn dan in de andere kernen.",
     "signalen": [

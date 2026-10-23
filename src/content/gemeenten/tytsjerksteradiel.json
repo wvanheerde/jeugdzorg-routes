@@ -242,6 +242,124 @@
       "url": "https://beschikbaarheidswijzer.nl/jeugdhulp/friesland"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen en toeslagen",
+      "url": "https://www.t-diel.nl/regelingen-en-toeslagen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatie eigen risico",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Hebt u een chronische ziekte of beperking en het hele eigen risico betaald, dan krijgt u in 2026 € 158 terug.",
+        "alleenOuder": true,
+        "aanvragen": "Met het formulier op de pagina, vóór 1 april van het jaar erna.",
+        "url": "https://www.t-diel.nl/compensatie-eigen-risico",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tytsjerksteradiel: Compensatie eigen risico",
+            "url": "https://www.t-diel.nl/compensatie-eigen-risico",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociale of medische indicatie",
+        "omschrijving": "Voor ouders met een lichamelijke, zintuiglijke, verstandelijke of psychische beperking, of als kinderopvang om sociale redenen nodig is voor uw kind.",
+        "aanvragen": "Als aanvraag bijzondere bijstand; de gemeente vraagt advies van betrokken instanties.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR661547/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels tegemoetkomingen kosten kinderopvang 2021 gemeente Tytsjerksteradiel",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR661547/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "AV Frieso (collectieve zorgverzekering)",
+        "omschrijving": "Een zorgverzekering voor inwoners van 18 jaar of ouder met een laag inkomen, met extra vergoedingen voor chronisch zieken. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 110,
+        "aanvragen": "Online aanvragen; overstappen kan meestal per 1 januari.",
+        "url": "https://www.t-diel.nl/zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tytsjerksteradiel: Zorgverzekering",
+            "url": "https://www.t-diel.nl/zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en onverwachte, noodzakelijke kosten die u nergens anders vergoed krijgt? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Online met DigiD, of met het papieren formulier onderaan de pagina.",
+        "url": "https://www.t-diel.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tytsjerksteradiel: Bijzondere bijstand",
+            "url": "https://www.t-diel.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Samen voor alle Kinderen",
+        "omschrijving": "Voor kinderen van 0 tot en met 18 jaar in een gezin met een laag inkomen: een vergoeding of hulp bij bijvoorbeeld schoolreisje, sport, muziekles of zwemles.",
+        "aanvragen": "Via de aanvraag bij Samen voor alle Kinderen.",
+        "url": "https://www.t-diel.nl/meedoen-op-school-sport-en-andere-activiteiten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tytsjerksteradiel: Meedoen op school, sport en andere activiteiten",
+            "url": "https://www.t-diel.nl/meedoen-op-school-sport-en-andere-activiteiten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking niet zelf naar school reizen, of is de school 6 kilometer of verder? Dan kunt u een vergoeding of aangepast vervoer krijgen.",
+        "aanvragen": "Elk schooljaar opnieuw, online met DigiD. De gemeente besluit binnen 8 weken.",
+        "url": "https://www.t-diel.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Tytsjerksteradiel: Leerlingenvervoer",
+            "url": "https://www.t-diel.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een jaarlijks compliment van de gemeente voor mantelzorgers. Ook ouders van een kind dat veel zorg nodig heeft kunnen mantelzorger zijn.",
+        "ouders": "ja",
+        "aanvragen": "U moet ingeschreven staan bij het Steunpunt Mantelzorg.",
+        "url": "https://www.mantelzorg-kearn.nl/steunpunt-mantelzorg/ondersteuning/mantelzorgwaardering/",
+        "bronnen": [
+          {
+            "titel": "KEaRN Steunpunt Mantelzorg: Mantelzorgondersteuning en -waardering",
+            "url": "https://www.mantelzorg-kearn.nl/steunpunt-mantelzorg/ondersteuning/mantelzorgwaardering/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "KEaRN Steunpunt Mantelzorg: Home",
+            "url": "https://www.mantelzorg-kearn.nl/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

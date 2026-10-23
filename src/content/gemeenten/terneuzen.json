@@ -228,6 +228,108 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Soorten bijzondere bijstand",
+      "url": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/soorten-bijzondere-bijstand/"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve ziektekostenverzekering",
+        "omschrijving": "Met een laag inkomen kunt u via de gemeente een goedkopere zorgverzekering bij CZ afsluiten. De gemeente betaalt mee aan de aanvullende verzekering. Kinderen tot 18 jaar gratis.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online aanmelden. Al ergens anders verzekerd? Meld u vóór 1 november aan voor het jaar erna.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/terneuzen/",
+        "bronnen": [
+          {
+            "titel": "Collectieve ziektekostenverzekering (gemeente Terneuzen)",
+            "url": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/collectieve-ziektekostenverzekering/",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Een bijdrage in noodzakelijke kosten die u zelf niet kunt betalen en die niets anders vergoedt, zoals schoolkosten van uw kinderen.",
+        "aanvragen": "Online met DigiD, vóórdat u de kosten betaalt.",
+        "url": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/bijzondere-bijstand/",
+        "bronnen": [
+          {
+            "titel": "Verordening sociaal domein gemeente Terneuzen 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR752748/1",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoenbudget",
+        "omschrijving": "Geld om mee te doen aan sport, cultuur, les of andere activiteiten: € 165 per persoon per jaar (in 2026), in één keer uitbetaald.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD, via de pagina Soorten bijzondere bijstand.",
+        "url": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/soorten-bijzondere-bijstand/",
+        "bronnen": [
+          {
+            "titel": "Verordening sociaal domein gemeente Terneuzen 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR752748/1",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket (Stichting Leergeld en Jeugdfonds Sport & Cultuur)",
+        "omschrijving": "Hulp zodat uw kind kan sporten of op muziekles kan, of schoolspullen, een laptop of een fiets krijgt.",
+        "inkomensgrens": 120,
+        "aanvragen": "Bij Stichting Leergeld Zeeuws-Vlaanderen of het Jeugdfonds Sport & Cultuur.",
+        "url": "https://www.terneuzen.nl/direct-regelen/zorg-werk-en-inkomen/geld-voor-sport/",
+        "bronnen": [
+          {
+            "titel": "Verordening sociaal domein gemeente Terneuzen 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR752748/1",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Bijdrage kosten leerlingenvervoer",
+        "omschrijving": "Vergoeding voor vervoer naar de dichtstbijzijnde passende school, als uw kind een langdurige ziekte of beperking heeft. De school is verder dan 6 km, of speciaal onderwijs.",
+        "aanvragen": "Online bij het Regionaal Bureau Leerlingzaken Zeeuws-Vlaanderen, elk schooljaar opnieuw.",
+        "url": "https://www.lereninzeeland.nl/ouders-en-verzorgers/leerlingenvervoer-zeeuws-vlaanderen",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer Zeeuws Vlaanderen (Leren in Zeeland)",
+            "url": "https://www.lereninzeeland.nl/ouders-en-verzorgers/leerlingenvervoer-zeeuws-vlaanderen",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een jaarlijkse attentie van de gemeente rond de Dag van de Mantelzorg (10 november) voor wie zorgt voor iemand met een beperking.",
+        "ouders": "ja",
+        "aanvragen": "Bij aan-z, elk jaar in september en oktober.",
+        "url": "https://aan-z.eu/volwassen/wonen-vervoer-en-ondersteuning/mantelzorg-ik-zorg-voor-een-ander/",
+        "bronnen": [
+          {
+            "titel": "Ik zorg voor een ander: mantelzorg (aan-z)",
+            "url": "https://aan-z.eu/volwassen/wonen-vervoer-en-ondersteuning/mantelzorg-ik-zorg-voor-een-ander/",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgkosten",
+      "kinderopvang"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

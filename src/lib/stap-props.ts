@@ -4,7 +4,7 @@ import type { ComponentProps } from 'astro/types';
 import type StapInhoud from '../components/StapInhoud.astro';
 import { genoemdIn } from './genoemd';
 import { alleStappen, hoofdStappen, type Knelpunt } from './stappen';
-import { AFLOOP_ZIN, BEZWAAR_ZIN, KIES_ZIN, KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, afgewezenRol, gezagStap, hulpStoptReden, uitbreidenRol, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
+import { AFLOOP_ZIN, BEZWAAR_ZIN, KIES_ZIN, KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, afgewezenRol, gezagStap, hulpStoptReden, regelingStap, uitbreidenRol, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
 
 type Organisatie = CollectionEntry<'organisaties'>;
 type Situatie = CollectionEntry<'situaties'>;
@@ -32,6 +32,7 @@ const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
  * - bij dubbele kinderbijslag de landelijke uitleg (wat u opschrijft, terugbetalen) in de stap zelf (Fatima, ronde 27);
  * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts);
+ * - bij extra kosten (regelingencheck): de rol van de stap en de soorten regelingen van de gemeente die eronder komen;
  * - bij wachten, afgewezen, gescheiden en uitbreiden: de route, rol of het gezag van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
  *   onder de stappen (die staat bij de voorbeeldbrief): de verdieping rekent zelf.
  */
@@ -71,6 +72,7 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         reden: k.id === 'hulp-stopt' ? hulpStoptReden(x) : undefined,
         wanneer: k.id === 'wordt-18' ? wordt18(x) : undefined,
         afgewezen: k.id === 'afgewezen' ? { rol: afgewezenRol(x), zin: x.startsWith(BEZWAAR_ZIN) ? BEZWAAR_ZIN : undefined } : undefined,
+        regeling: k.id === 'geld' ? regelingStap(x) : undefined,
         uitbreiden: k.id === 'uitbreiden' ? { rol: uitbreidenRol(x), zin: x.includes(AFLOOP_ZIN) ? AFLOOP_ZIN : undefined } : undefined,
         gescheiden: k.id === 'gescheiden' ? { gezag: gezagStap(x), zin: x.includes(KIES_ZIN) ? KIES_ZIN : undefined } : undefined,
         wacht: k.id === 'wachten' ? { op: WACHT_OP.find((w) => x.startsWith(w.begin))?.op, zin: x.includes(WACHT_ZIN) ? WACHT_ZIN : undefined, lead: wachtLead(x) } : undefined,

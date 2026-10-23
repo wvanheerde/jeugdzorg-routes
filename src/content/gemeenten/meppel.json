@@ -271,6 +271,131 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Ondersteuning, jeugd en inkomen",
+      "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Reiskosten ziekenhuisbezoek (bijzondere bijstand)",
+        "omschrijving": "Reist u als volwassene (18 jaar of ouder) meer dan 10 kilometer enkele reis naar het ziekenhuis voor een noodzakelijke behandeling? Dan kunt u een reiskostenvergoeding krijgen.",
+        "alleenOuder": true,
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR754771/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels sociaal domein gemeente Meppel 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR754771/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tijdelijke kinderopvang op grond van sociaal-medische indicatie",
+        "omschrijving": "Kunt u tijdelijk niet zelf voor uw kind zorgen en is opvang nodig voor zijn of haar ontwikkeling? Dan kan bijzondere bijstand voor kinderopvang, maximaal zes maanden.",
+        "aanvragen": "Via bijzondere bijstand; een deskundige moet advies geven.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR754771/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels sociaal domein gemeente Meppel 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR754771/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Korting van de gemeente op een zorgverzekering voor inwoners met een laag inkomen. Er zijn drie pakketten met aanvullende dekking.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD via de website van de verzekeraar.",
+        "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/collectieve-zorgverzekering/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Meppel: Collectieve zorgverzekering",
+            "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/collectieve-zorgverzekering/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en weinig spaargeld, en noodzakelijke kosten die niets anders vergoedt? Dan kan de gemeente bijspringen. Voor medische kosten kan het maar zelden.",
+        "aanvragen": "Vraag het aan voordat u de kosten maakt; een formulier is op te vragen bij de gemeente.",
+        "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/bijzondere-bijstand/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Meppel: Bijzondere bijstand",
+            "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/bijzondere-bijstand/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindsupport Meppel",
+        "omschrijving": "Hulp bij kosten voor school, hobby's, een laptop, fiets of verjaardagsfeest voor kinderen in een gezin met weinig geld. Vrijwilligers van Kindsupport handelen de aanvraag af.",
+        "aanvragen": "Digitaal aanvraagformulier; daarna neemt een vrijwilliger contact op.",
+        "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/kindsupport-meppel/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Meppel: Kindsupport Meppel",
+            "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/kindsupport-meppel/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Fonds deelname maatschappelijke activiteiten (FDMA)",
+        "omschrijving": "Geld voor sport, zwembad, bibliotheek, museum of theater voor volwassenen en voor kinderen tot 18 jaar met een laag inkomen. Voor kinderen is het bedrag lager dan voor volwassenen.",
+        "inkomensgrens": 110,
+        "aanvragen": "Online met DigiD, of met een papieren formulier.",
+        "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/fonds-deelname-maatschappelijke-activiteiten/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Meppel: FDMA",
+            "url": "https://www.meppel.nl/direct-regelen/ondersteuning-jeugd-en-inkomen/fonds-deelname-maatschappelijke-activiteiten/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Volgt uw kind speciaal onderwijs en is de school meer dan 5 km van huis, of kan het door een handicap niet zelf reizen? Dan krijgt u een vergoeding of vervoer, soms met bijdrage.",
+        "aanvragen": "Elk jaar opnieuw tussen 1 mei en 30 juni, met de DigiD van uw kind.",
+        "url": "https://www.meppel.nl/direct-regelen/onderwijs-sport-en-vrije-tijd/leerlingenvervoer/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Meppel: Leerlingenvervoer",
+            "url": "https://www.meppel.nl/direct-regelen/onderwijs-sport-en-vrije-tijd/leerlingenvervoer/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "ouders": "ja",
+        "omschrijving": "Een VVV-bon als bedankje voor wie meer dan 8 uur per week mantelzorg geeft, ook voor uw kind. U moet 18 jaar of ouder zijn en al langer dan 3 maanden zorgen.",
+        "aanvragen": "Online aanvragen, elk jaar binnen de termijn op de pagina.",
+        "url": "https://www.meppel.nl/direct-regelen/mantelzorgwaardering-aanvragen/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Meppel: Mantelzorgwaardering aanvragen",
+            "url": "https://www.meppel.nl/direct-regelen/mantelzorgwaardering-aanvragen/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

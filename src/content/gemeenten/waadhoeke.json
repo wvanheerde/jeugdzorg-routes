@@ -246,6 +246,114 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Vergoedingen: financiële regelingen voor inwoners met een laag inkomen",
+      "url": "https://www.dedienst.nl/vergoedingen/"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Vergoeding voor medische kosten",
+        "omschrijving": "Voor medische kosten die uw zorgverzekering niet vergoedt, zoals bril, tandarts, orthodontie en fysiotherapie. U bent 18 jaar of ouder en hebt een laag inkomen.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD of met een papieren formulier; eerst bij de zorgverzekering declareren.",
+        "url": "https://www.dedienst.nl/vergoedingen/medischekosten/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Vergoeding medische kosten",
+            "url": "https://www.dedienst.nl/vergoedingen/medischekosten/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatieregeling Eigen Risico (CER)",
+        "omschrijving": "Hebt u uw eigen risico helemaal verbruikt en een inkomen tot de bijstandsnorm? Dan krijgt u een tegemoetkoming. Alleen voor u zelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 100,
+        "aanvragen": "Aanvragen kan tot en met 30 juni van het jaar erna, met het bericht van de zorgverzekeraar.",
+        "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Compensatieregeling Eigen Risico",
+            "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke extra kosten die u niet zelf kunt betalen en die niets anders vergoedt, zoals reiskosten naar een medisch specialist of naar school voor uw kinderen.",
+        "aanvragen": "Online met DigiD, binnen 3 maanden na het maken van de kosten.",
+        "url": "https://www.dedienst.nl/vergoedingen/bijzondere-bijstand/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Bijzondere bijstand",
+            "url": "https://www.dedienst.nl/vergoedingen/bijzondere-bijstand/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Sam& voor alle kinderen",
+        "omschrijving": "Hebt u een laag inkomen en kinderen onder 18? Dan kunt u een vergoeding krijgen voor sport, muziekles, schoolspullen, laptop, fiets, bril of winterjas.",
+        "aanvragen": "Online bij Sam&; vul de postcode van uw kind in.",
+        "url": "https://www.dedienst.nl/vergoedingen/regelingen-voor-kinderen/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Regelingen voor kinderen",
+            "url": "https://www.dedienst.nl/vergoedingen/regelingen-voor-kinderen/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Waadhoeke: Werk en inkomen",
+            "url": "https://www.waadhoeke.nl/werk-en-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Voor kinderen die niet zelf naar school kunnen, door een beperking of speciaal onderwijs. Meestal vanaf 6 kilometer: een OV-vergoeding, eigen-vervoervergoeding of taxi.",
+        "aanvragen": "Online, het hele jaar door. U hoort binnen acht weken.",
+        "url": "https://www.waadhoeke.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Waadhoeke: Leerlingenvervoer aanvragen",
+            "url": "https://www.waadhoeke.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een jaarlijks bedankje voor mantelzorgers vanaf 18 jaar, ook als u zorgt voor uw zieke of gehandicapte kind. Jonge mantelzorgers onder 18 krijgen een bon voor twee bioscooptickets.",
+        "ouders": "ja",
+        "aanvragen": "Online met DigiD, één keer per jaar; jonge mantelzorgers melden zich bij het mantelzorgcentrum.",
+        "url": "https://www.waadhoeke.nl/het-gebiedsteam/mantelzorg",
+        "bronnen": [
+          {
+            "titel": "Gemeente Waadhoeke: Mantelzorg",
+            "url": "https://www.waadhoeke.nl/het-gebiedsteam/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "kinderopvang",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

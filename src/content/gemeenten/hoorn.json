@@ -262,6 +262,121 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Hulp bij laag inkomen",
+      "url": "https://www.hoorn.nl/laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang om sociale of medische redenen",
+        "omschrijving": "Hebt u om sociale of medische redenen problemen met de opvang van uw kind? Soms betaalt de gemeente mee aan de kinderopvang.",
+        "aanvragen": "Neem contact op met 1.Hoorn; zij kijken wat mogelijk is.",
+        "url": "https://www.hoorn.nl/kinderopvang-ouders",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hoorn: Kinderopvang voor ouders",
+            "url": "https://www.hoorn.nl/kinderopvang-ouders",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Zorgverzekering van de gemeente (Univé GemeentePakket)",
+        "omschrijving": "Een aanvullende verzekering voor u met een laag inkomen; de gemeente betaalt mee. Kinderen onder 18 jaar zijn gratis meeverzekerd. U moet bij Univé verzekerd zijn.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online, via de website van de verzekeraar. Overstappen kan voor 1 januari.",
+        "url": "https://www.hoorn.nl/gemeentepakket",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hoorn: Zorgverzekering van de gemeente",
+            "url": "https://www.hoorn.nl/gemeentepakket",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Gemeente Hoorn: Inkomensgrenzen voor hulp bij laag inkomen",
+            "url": "https://www.hoorn.nl/inkomensgrenzen-laag-inkomen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Een vergoeding voor noodzakelijke, bijzondere kosten die niets anders vergoedt. Voor medische kosten alleen in heel uitzonderlijke situaties.",
+        "aanvragen": "Met het aanvraagformulier op de pagina, vóór u de kosten maakt. Reactie binnen 8 weken.",
+        "url": "https://www.hoorn.nl/bijzonderebijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hoorn: Bijzondere bijstand",
+            "url": "https://www.hoorn.nl/bijzonderebijstand",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket",
+        "omschrijving": "Voor kinderen van 0 tot en met 17 jaar in een gezin met een laag inkomen en weinig vermogen: budget voor sport en cultuur, kermis, zwemles en een laptop (4 tot 18 jaar).",
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier op de pagina, voor elk kind. Reactie binnen 8 weken.",
+        "url": "https://www.hoorn.nl/laag-inkomen/kindpakket",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hoorn: Kindpakket",
+            "url": "https://www.hoorn.nl/laag-inkomen/kindpakket",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Gemeente Hoorn: Inkomensgrenzen voor hulp bij laag inkomen",
+            "url": "https://www.hoorn.nl/inkomensgrenzen-laag-inkomen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een structurele beperking niet zelfstandig naar school reizen? Dan kunt u vervoer of een vergoeding krijgen, bij een school op 6 kilometer of meer.",
+        "aanvragen": "Online met uw eigen DigiD, vanaf 1 maart. Voor het nieuwe schooljaar jaarlijks vóór 1 juni.",
+        "url": "https://www.hoorn.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hoorn: Leerlingenvervoer",
+            "url": "https://www.hoorn.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Jaarlijks cadeaus of waardebonnen voor een mantelzorger die minstens 8 uur per week zorgt. Wie de zorg krijgt, vraagt aan; voor een kind doet u dat namens uw kind.",
+        "ouders": "ja",
+        "aanvragen": "Online via Omring, ieder jaar opnieuw.",
+        "url": "https://www.hoorn.nl/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hoorn: Mantelzorgwaardering",
+            "url": "https://www.hoorn.nl/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Gemeente Hoorn: Mantelzorg",
+            "url": "https://www.hoorn.nl/mantelzorg",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-22"
+  },
   "ervaringen": {
     "samenvatting": "In 2025 onderzochten de rekenkamers van zes Westfriese gemeenten de jeugdhulp, en het beeld voor Hoorn is positief. Gezinnen hebben een vaste regisseur bij 1.Hoorn en vinden dat waardevol, en de samenwerking met huisartsen is goed. Bij drukte kan een intakegesprek wel één à twee maanden duren, en bij sommige aanbieders loopt de wachttijd op tot een jaar. Hoe lang het gemiddeld duurt van aanmelding tot besluit, wordt niet bijgehouden.\n\nVraag bij aanmelding wie uw vaste contactpersoon is, en vraag om het perspectiefplan en een schriftelijk verslag. Neem een gratis cliëntondersteuner van de SMD mee. Wacht u lang op een aanbieder, vraag 1.Hoorn dan om overbruggingshulp en kijk in de Beschikbaarheidswijzer naar andere aanbieders. Hoort u niets terug, dien dan een klacht in bij 1.Hoorn.",
     "signalen": [

@@ -254,6 +254,115 @@
       "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen als u weinig geld heeft",
+      "url": "https://www.beesel.nl/inwoners/werk-en-inkomen/regelingen-weinig-geld"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u door een beperking of sociale problemen tijdelijk niet werken en krijgt u geen kinderopvangtoeslag? Dan kan de gemeente de opvang van uw kind (tot en met 12 jaar) betalen.",
+        "aanvragen": "Het hele jaar, in persoon. Een gezinscoach van de gemeente stelt eerst de indicatie vast.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR753983/1",
+        "bronnen": [
+          {
+            "titel": "Subsidieregeling tegemoetkoming kosten kinderopvang op grond van een sociaal-medische indicatie",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR753983/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een voordelige zorgverzekering van VGZ of CZ met extra vergoedingen, bijvoorbeeld voor fysiotherapie en tandarts. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via de website van de verzekeraar, kies zelf het pakket dat past.",
+        "url": "https://www.beesel.nl/inwoners/verzekeringen/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Beesel: Collectieve zorgverzekering",
+            "url": "https://www.beesel.nl/inwoners/verzekeringen/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gezondverzekerd.nl: gemeente Beesel",
+            "url": "https://www.gezondverzekerd.nl/gemeente/beesel",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u extra of hoge kosten die u niet kunt betalen? Dan kunt u bijzondere bijstand aanvragen bij de gemeente.",
+        "aanvragen": "Online met DigiD in het burgerportaal, of met het papieren formulier.",
+        "url": "https://www.beesel.nl/inwoners/werk-en-inkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Beesel: Bijzondere bijstand",
+            "url": "https://www.beesel.nl/inwoners/werk-en-inkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Beesel",
+        "omschrijving": "Kan uw kind niet meedoen aan schoolse of buitenschoolse activiteiten omdat het geld ontbreekt? Dan kan Stichting Leergeld helpen met geld of advies.",
+        "aanvragen": "Neem contact op met Stichting Leergeld; een medewerker komt op huisbezoek.",
+        "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/stichting-leergeld",
+        "bronnen": [
+          {
+            "titel": "Gemeente Beesel: Stichting Leergeld",
+            "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/stichting-leergeld",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport en Cultuur",
+        "omschrijving": "Voor kinderen die willen sporten of aan cultuur willen meedoen, maar waarvan de contributie te hoog is. Ook voor kleding en materialen.",
+        "aanvragen": "Via Stichting Leergeld Beesel, die uw kind aanmeldt.",
+        "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/jeugdfonds-sport-en-cultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Beesel: Jeugdfonds Sport en Cultuur",
+            "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/jeugdfonds-sport-en-cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelf naar school reizen door een beperking, of is de school 6 kilometer of verder? Dan krijgt u een vergoeding of aangepast vervoer.",
+        "aanvragen": "Online met DigiD of met het papieren formulier. Bij een andere school opnieuw aanvragen.",
+        "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/aanvragen-leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Beesel: Leerlingenvervoer",
+            "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Beesel: Aanvragen leerlingenvervoer",
+            "url": "https://www.beesel.nl/inwoners/jeugd-en-onderwijs/aanvragen-leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgkosten",
+      "mantelzorg"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "In Beesel krijgen relatief veel jongeren jeugdhulp: 16,8 procent van de jongeren tot 18 jaar in 2024, tegenover 14 procent landelijk. Vooral lichtere hulp loopt via de gezinscoaches van de gemeente. Die gaven in 2025 bij 35 jeugdigen zelf hulp. Een cliëntervaringsonderzoek jeugd en gemeten wachttijden van de toegang zijn niet openbaar te vinden.\n\nVraag bij uw aanmelding hoe lang het duurt en laat afspraken per mail bevestigen. Volg de voortgang van uw melding in MijnZorg Beesel. Een cliëntondersteuner van Synthese kan meegaan naar gesprekken, en een vertrouwenspersoon van Jeugdstem helpt als u vastloopt. Over de gezinscoach dient u een klacht in bij de gemeente, tegen een besluit maakt u bezwaar.",
     "signalen": [

@@ -11,7 +11,7 @@ const OVERSLAAN = new Set(['meta', 'bron', 'bronnen', 'url', 'email', 'telefoon'
 // Afkortingen die ouders kennen, namen van therapieën (met eigen pagina) en partijen.
 const BEKEND = new Set(['ADHD', 'GGD', 'DUO', 'UWV', 'CBS', 'EMDR', 'CGT', 'ACT', 'MST', 'MDFT', 'FFT', 'IPT', 'PMT', 'DGT', 'VVD', 'CDA', 'PVV', 'PVDA', 'PDF', 'ID', 'VWS', 'IGJ', 'ICD', 'DSM']);
 // Namen van regionale organisaties, teams en samenwerkingsverbanden die vaak terugkomen; de tekst zegt er zelf bij wat ze doen.
-const NAMEN = new Set(['SAVE', 'XONAR', 'KIES', 'RSV', 'OCRN', 'RID', 'OCO', 'RIOZ', 'ABC', 'RIGG', 'BMC', 'PPO', 'ZIEN', 'WBO', 'JOSEE', 'MAGIS', 'PRO', 'ISD', 'ONS', 'SMWO', 'VIA', 'WIJ', 'JONK']);
+const NAMEN = new Set(['SAVE', 'XONAR', 'KIES', 'RSV', 'OCRN', 'RID', 'OCO', 'RIOZ', 'ABC', 'RIGG', 'BMC', 'PPO', 'ZIEN', 'WBO', 'JOSEE', 'MAGIS', 'PRO', 'ISD', 'ONS', 'SMWO', 'VIA', 'WIJ', 'JONK', 'WIL']);
 // Namen van teams en overleggen met een beleidswoord erin; de naam blijft, de tekst zegt erbij wat het team doet.
 const EIGENNAMEN = ['Regionale Toeleidings Tafel', 'Triageteam', 'Triagetafel Jeugd'];
 

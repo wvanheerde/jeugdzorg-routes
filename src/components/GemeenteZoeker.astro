@@ -3,6 +3,7 @@
  * Filtert kaarten op de pagina: gemeenten (op naam en provincie) of andere kaarten met `data-zoek`.
  * Secties zonder zichtbare kaart verdwijnen mee.
  * Werkt zonder JavaScript (alle kaarten zichtbaar) en met een paar regels vanilla JS.
+ * Een ander filter op de pagina (zoals regelingen op de lijst met gemeenten) zet data-filter-uit op een kaart en stuurt jr:filter.
  */
 import Icon from './Icon.astro';
 interface Props { placeholder?: string; label?: string; target: string }
@@ -26,13 +27,14 @@ const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } =
       let n = 0;
       for (const c of cards) {
         const tekst = c.dataset.zoek ?? `${c.dataset.naam} ${c.dataset.provincie}`;
-        const hit = !q || tekst.includes(q);
+        const hit = (!q || tekst.includes(q)) && !c.hasAttribute('data-filter-uit');
         c.hidden = !hit; if (hit) n++;
       }
       for (const s of sections) s.hidden = !s.querySelector('[data-zoek]:not([hidden]), [data-naam]:not([hidden])');
       if (empty) empty.hidden = n > 0;
     };
     input.addEventListener('input', apply);
+    document.addEventListener('jr:filter', apply);
     form.addEventListener('submit', () => { apply(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });
 </script>

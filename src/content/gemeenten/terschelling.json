@@ -225,6 +225,132 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor mensen met een laag inkomen",
+      "url": "https://www.terschelling.nl/regelingen-voor-mensen-met-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Vergoeding medische kosten (Tegemoetkoming in de Medische Kosten)",
+        "omschrijving": "Voor medische kosten die uw zorgverzekering niet vergoedt, zoals bril, tandarts en fysiotherapie. U bent 18 jaar of ouder en hebt een laag inkomen.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD of met een papieren formulier; eerst bij de zorgverzekering declareren.",
+        "url": "https://www.terschelling.nl/vergoedingen-medische-kosten-naast-je-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Terschelling: Vergoedingen medische kosten naast je zorgverzekering",
+            "url": "https://www.terschelling.nl/vergoedingen-medische-kosten-naast-je-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "De Dienst Noardwest Fryslân: Vergoeding medische kosten",
+            "url": "https://www.dedienst.nl/vergoedingen/medischekosten/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatieregeling Eigen Risico (CER)",
+        "omschrijving": "Hebt u uw eigen risico helemaal verbruikt en een inkomen tot de bijstandsnorm? Dan krijgt u een tegemoetkoming. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 100,
+        "aanvragen": "Aanvragen kan tot en met 30 juni van het jaar erna, met het bericht van de zorgverzekeraar.",
+        "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Compensatieregeling Eigen Risico",
+            "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang met een sociaal-medische indicatie",
+        "omschrijving": "Kinderopvang vergoed als u door ernstige lichamelijke, psychische of sociale problemen tijdelijk niet voor uw kind kunt zorgen. Voor kinderen tot het einde van de basisschool.",
+        "aanvragen": "Met het aanvraagformulier en een verklaring van een onafhankelijk hulpverlener; maximaal 6 maanden.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR649771/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels tegemoetkoming kinderopvang Sociaal Medische Indicatie Terschelling 2021",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR649771/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke extra kosten bij ziekte, een beperking of een andere reden, die u niet zelf kunt betalen en die niets anders vergoedt, zoals een bril of tandartskosten.",
+        "aanvragen": "Vraag het aan vóór u de kosten maakt.",
+        "url": "https://www.terschelling.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Terschelling: Bijzondere bijstand",
+            "url": "https://www.terschelling.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket (Jeugdsportfonds, Jeugdcultuurfonds en Stichting Leergeld)",
+        "omschrijving": "Hebt u een laag inkomen? Dan betaalt het fonds voor kinderen van 4 tot 18 jaar sport, cultuur, schoolbenodigdheden of schoolreisjes.",
+        "aanvragen": "Meld uw kind online aan via de link op de pagina.",
+        "url": "https://www.terschelling.nl/kindpakket",
+        "bronnen": [
+          {
+            "titel": "Gemeente Terschelling: Kindpakket",
+            "url": "https://www.terschelling.nl/kindpakket",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Vergoeding leerlingenvervoer",
+        "omschrijving": "Voor kinderen op een school voor (speciaal) onderwijs op 6 kilometer of meer, of met een handicap. Havo- en vwo-leerlingen op de wal kunnen een vergoeding voor de veerboot krijgen.",
+        "aanvragen": "Vóór 1 juni voor het nieuwe schooljaar, online.",
+        "url": "https://www.terschelling.nl/vergoeding-leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Terschelling: Vergoeding leerlingenvervoer",
+            "url": "https://www.terschelling.nl/vergoeding-leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "ouders": "ja",
+        "omschrijving": "€ 100 in 2026 voor wie langer dan drie maanden gemiddeld vier uur per week extra zorgt, ook voor een zoon of dochter met een beperking. Mantelzorger is 18 jaar of ouder.",
+        "aanvragen": "Met het aanvraagformulier. Wie de zorg krijgt, moet in de gemeente wonen.",
+        "url": "https://www.terschelling.nl/mantelzorg",
+        "bronnen": [
+          {
+            "titel": "Gemeente Terschelling: Mantelzorg",
+            "url": "https://www.terschelling.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Terschelling: Een compliment voor mantelzorgers",
+            "url": "https://www.terschelling.nl/een-compliment-voor-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Over de jeugdhulp op Terschelling is weinig gemeten informatie openbaar. Een cliëntervaringsonderzoek Jeugd en gemeten wachttijden van het Eilandteam zijn niet openbaar te vinden. Volgens de jaarstukken kregen minder kinderen jeugdhulp: 10,1 procent in 2024 tegen 13,5 procent in 2023. De gemeente schrijft ook dat de mentale gezondheid van jongeren op het eiland onder druk staat.\n\nVraag bij uw melding bij het Eilandteam of het eerder kan als het dringend is, en leg afspraken schriftelijk vast. Vraag om een onafhankelijke cliëntondersteuner als u hulp wilt bij het gesprek. Bent u niet tevreden, dien dan een klacht in bij de gemeente; daarna kunt u naar de Nationale ombudsman. Een vertrouwenspersoon van Jeugdstem kan meedenken.",
     "signalen": [

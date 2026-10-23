@@ -282,6 +282,126 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Financiële regelingen",
+      "url": "https://www.alphen-chaam.nl/financiele-regelingen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor zorgkosten, zoals de tandarts",
+        "omschrijving": "Hebt u een laag inkomen en kunt u de eigen bijdrage voor de tandarts niet betalen? Dan kunt u bijzondere bijstand krijgen. Welke kosten, hangt af van uw situatie.",
+        "aanvragen": "Online, en vraag aan voordat u de kosten maakt.",
+        "url": "https://www.alphen-chaam.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen Chaam: Bijzondere bijstand",
+            "url": "https://www.alphen-chaam.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Hulp bij zorgverzekering (collectieve zorgverzekering)",
+        "omschrijving": "Hebt u een laag inkomen en hoge medische kosten, bijvoorbeeld door een chronische ziekte? De gemeente betaalt mee aan de premie van een aanvullende verzekering van CZ of VGZ.",
+        "inkomensgrens": 110,
+        "aanvragen": "Online aanmelden of overstappen via de website van de verzekeraar.",
+        "url": "https://www.alphen-chaam.nl/zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen-Chaam: Hulp bij zorgverzekering",
+            "url": "https://www.alphen-chaam.nl/zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en kosten die u niet zelf kunt betalen, zoals de eigen bijdrage voor de tandarts? Dan kunt u misschien geld krijgen van de gemeente.",
+        "aanvragen": "Online, en vraag aan voordat u de kosten maakt. U hoort binnen 8 weken of u het krijgt.",
+        "url": "https://www.alphen-chaam.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen-Chaam: Bijzondere bijstand",
+            "url": "https://www.alphen-chaam.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoenregeling voor volwassenen en kinderen",
+        "omschrijving": "Wilt u of uw kind sporten, muziek maken of een andere activiteit volgen, maar is het geld krap? U krijgt het geld direct op uw rekening, zonder bonnetjes.",
+        "inkomensgrens": 130,
+        "aanvragen": "Formulier op de pagina invullen en opsturen.",
+        "url": "https://www.alphen-chaam.nl/meedoenregeling",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen-Chaam: Meedoenregeling",
+            "url": "https://www.alphen-chaam.nl/meedoenregeling",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Vergoeding sport, cultuur, school en verjaardagen voor kinderen",
+        "omschrijving": "Voor kinderen van 4 tot 18 jaar in een gezin met een laag inkomen: sport, zwemles, muziekles en schoolspullen zoals een laptop of fiets, via het Jeugdfonds Sport en Cultuur.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via het Jeugdfonds Sport en Cultuur; het Budgetcafé helpt zonder afspraak.",
+        "url": "https://www.alphen-chaam.nl/vergoeding-sport-cultuur-school-en-verjaardagen-voor-kinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen-Chaam: Vergoeding sport, cultuur, school en verjaardagen voor kinderen",
+            "url": "https://www.alphen-chaam.nl/vergoeding-sport-cultuur-school-en-verjaardagen-voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een blijvende beperking niet alleen naar school reizen? Dan kunt u een vergoeding voor begeleiding krijgen of, zelden, vervoer door de gemeente.",
+        "aanvragen": "Online met het DigiD van uw kind, vóór 1 mei voor het nieuwe schooljaar.",
+        "url": "https://www.alphen-chaam.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen-Chaam: Leerlingenvervoer",
+            "url": "https://www.alphen-chaam.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Zorgt u minstens 3 maanden en 8 uur per week onbetaald voor iemand, ook voor een kind? Dan kunt u een waardering aanvragen. Van 6 tot 24 jaar is er een jongerenwaardering.",
+        "ouders": "ja",
+        "aanvragen": "Online of met een papieren formulier; de zorgontvanger moet in de gemeente wonen.",
+        "url": "https://www.alphen-chaam.nl/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Alphen-Chaam: Mantelzorg",
+            "url": "https://www.alphen-chaam.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Alphen-Chaam: Mantelzorgwaardering",
+            "url": "https://www.alphen-chaam.nl/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "kinderopvang"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "In 2024 kreeg 12,4% van de jongeren in Alphen-Chaam jeugdhulp, tegen 14,0% in heel Nederland. De gemeente werkt in 2026 aan een nieuwe inrichting van de toegang, met een sterker lokaal team. Wat dat voor ouders verandert, is nog niet duidelijk. Hoe ouders de hulp ervaren en hoe lang het duurt voordat u terecht kunt, is niet openbaar te vinden.\n\nBegin gerust bij het Dorpsteam, en vraag bij het eerste gesprek hoe lang het duurt en wie uw vaste aanspreekpunt is. Neem een gratis cliëntondersteuner van MEE West-Brabant mee en leg afspraken schriftelijk vast. Bent u niet tevreden over het Sociaal Team, dien dan een klacht in bij de gemeente. Maak bezwaar als u het niet eens bent met een besluit.",
     "signalen": [

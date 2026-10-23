@@ -233,6 +233,113 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Er is financiële hulp, ontdek waar u recht op heeft",
+      "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Sociaal medische kosten (bijzondere bijstand)",
+        "omschrijving": "Bijzondere bijstand voor extra kosten door ziekte of handicap, zoals een dieet of extra wassen en kledingslijtage.",
+        "aanvragen": "Online met DigiD, binnen 6 maanden nadat u de kosten maakte",
+        "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/bijzondere_bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere kosten (Bijzondere bijstand)",
+            "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/bijzondere_bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Sociaal-medische indicatie kinderopvang",
+        "omschrijving": "Vergoeding voor kinderopvang als u of uw kind (0 tot en met 12 jaar) een beperking of medische of sociale problemen heeft. Meestal is een indicatie nodig.",
+        "aanvragen": "Via het aanvraagformulier van de ISD Brabantse Wal op de pagina",
+        "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/tegemoetkoming_kosten_kinderopvang_",
+        "bronnen": [
+          {
+            "titel": "Sociaal-medische indicatie kinderopvang",
+            "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/tegemoetkoming_kosten_kinderopvang_",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels tegemoetkoming kosten kinderopvang Sociaal Medische Indicatie Steenbergen 2021",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR693977/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Zorgverzekering via de gemeente met extra vergoedingen, zoals fysiotherapie en tandarts, en de keuze voor € 0 eigen risico. Kinderen zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online aanmelden via de website van de verzekeraar",
+        "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/collectieve_zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Collectieve zorgverzekering",
+            "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/collectieve_zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere kosten (bijzondere bijstand)",
+        "omschrijving": "Hulp bij noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt. Het kan zijn dat u een deel zelf betaalt.",
+        "aanvragen": "Online met DigiD, kies de soort kosten",
+        "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/bijzondere_bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere kosten (Bijzondere bijstand)",
+            "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/bijzondere_bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoenregeling",
+        "omschrijving": "Tegoed voor sport, cultuur en uitjes. In 2026 € 150 per volwassene en per kind één lidmaatschap plus € 50, en een bijdrage voor fiets, laptop en zwemles.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD; u krijgt daarna inloggegevens voor de webshop",
+        "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/meedoen-regeling",
+        "bronnen": [
+          {
+            "titel": "Meedoenregeling",
+            "url": "https://vraagwijzer.gemeente-steenbergen.nl/werk_en_inkomen/financiele_hulp/meedoen-regeling",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding naar school voor een kind dat niet zelf kan reizen of dat naar speciaal onderwijs gaat.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR677430/1",
+        "bronnen": [
+          {
+            "titel": "Verordening bekostiging leerlingenvervoer gemeente Steenbergen 2022",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR677430/1",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels leerlingenvervoer 2022",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR677437/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Steenbergen wil problemen vroeg aanpakken, zodat minder kinderen zware hulp nodig hebben. In 2024 kreeg 15,7 procent van de jongeren tot 18 jaar jeugdhulp. Bij gemeenten van vergelijkbare grootte is dat 13,3 procent. Hoe lang het duurt voordat u bij Vraagwijzer een jeugdprofessional krijgt en wat ouders van de hulp vinden, is niet openbaar te vinden.\n\nUw eerste aanspreekpunt is Vraagwijzer met Team Jeugd. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld het plan met uw jeugdprofessional. Neem een onafhankelijke cliëntondersteuner mee, bijvoorbeeld van MEE West-Brabant. Een klacht bespreekt u eerst met de coördinator Vraagwijzer Sociaal Domein, en daarna kan de regionale Klachtencommissie Jeugd uw klacht beoordelen.",
     "signalen": [

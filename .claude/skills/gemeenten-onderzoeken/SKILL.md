@@ -40,3 +40,12 @@ Subagents doen het werk (`gemeente-onderzoeker`, `gemeente-redacteur`); de hoofd
 - Overzicht voor de gebruiker: per gemeente de transparantie-uitkomsten en het CBS-aandeel, wat is bijgestuurd, wat open staat.
 - Punten die pas na een datum of gebeurtenis na te kijken zijn: in `docs/onderzoek/later-nakijken.md` zetten.
 - Niet committen: dat doet de gebruiker zelf.
+
+## Geldregelingen-ronde (veld `geldregelingen`, regelingencheck)
+- **Stand 23-10-2026:** alle 342 gemeenten zijn onderzocht en het veld is verplicht in het schema. Een nieuwe gemeente (bv. na een herindeling) krijgt het meteen; de build faalt anders.
+- Agent `regelingen-onderzoeker`, één per gemeente, hooguit 5 tegelijk (tel de lopende agents vóór je een nieuwe start). Gemeenten met dezelfde uitvoerder (sociale dienst, ISD, werkplein) samen of na elkaar, met een tip in de prompt welke buurgemeente al klaar is; dan blijven ze gelijk. Aanvullende afspraken voor een ronde in één bestand in de scratchpad zetten en de agents dat laten lezen.
+- WebSearch is vaak op (sessiebudget); agents kunnen zonder (curl, sitemap, SRU, gezondverzekerd.nl).
+- **De afspraken** staan in CONTENT.md ("Gemeenten: geldregelingen") en in `.claude/agents/regelingen-onderzoeker.md` ("Afspraken van 23-10-2026"); de besluiten met toelichting bovenaan `docs/onderzoek/twijfels-geldregelingen.md`.
+- **Controle per gemeente:** één inkomensgrens en (als die er is) de aanvraagtermijn van leerlingenvervoer letterlijk terugzoeken op de bron; `ouders` bij mantelzorg nagaan tegen de afspraken; `nietGevonden` kritisch bekijken (zoek zelf op de gemeentesite naar "mantelzorg" of "collectieve zorgverzekering"); bedragen alleen met jaartal; geen Wmo- of Jeugdwet-voorzieningen; afkortingen voluit (validate waarschuwt bij 3+ bestanden). `node scripts/validate-content.mjs` moet slagen. Wijzig bestanden met `json.dumps(d, ensure_ascii=False, indent=2) + "\n"` na een roundtrip-controle.
+- **Gelijktrekken na een besluit:** maak een werklijst per gemeente (deels automatisch uit de gegevens, bv. jaartal van een regel via de SRU: `query=dcterms.identifier="CVDR123456_1"`), verdeel in groepjes van ±5 gemeenten (zelfde uitvoerder bij elkaar) en laat agents alleen die punten nakijken. Verslag per gemeente onderaan de twijfellijst.
+- Twijfels in `docs/onderzoek/twijfels-geldregelingen.md`; de gebruiker beslist. Inkomensgrenzen en bedragen veranderen per 1 januari: herinneringen in `docs/onderzoek/later-nakijken.md` (controleronde in januari).

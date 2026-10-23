@@ -8,6 +8,11 @@ Functionaliteit: Gemeenten
     Als ik "Noordenveld" zoek in "Zoek gemeente"
     Dan zie ik alleen de gemeente "Noordenveld"
 
+  Scenario: De tegels in de lijst noemen geen datum
+    De datum van bijwerken helpt ouders niet bij het kiezen; de datum staat op de pagina van de gemeente zelf (21-10).
+    Gegeven ik open de pagina "gemeenten/"
+    Dan noemen de tegels van de gemeenten geen datum
+
   Scenario: Geen gemeente gevonden
     Gegeven ik open de pagina "gemeenten/"
     Als ik "Atlantis" zoek in "Zoek gemeente"

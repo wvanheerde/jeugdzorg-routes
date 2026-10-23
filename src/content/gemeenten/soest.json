@@ -235,6 +235,125 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Laag inkomen",
+      "url": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Vergoeding eigen risico zorgverzekering",
+        "omschrijving": "Hebt u een laag inkomen? Dan krijgt u uw eigen risico van de zorgverzekering één keer per jaar terug, tot het wettelijk maximum (€ 385 in 2026). Dit geldt voor 18 jaar en ouder.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Met het formulier op de pagina, één keer per jaar.",
+        "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+        "bronnen": [
+          {
+            "titel": "Eemkracht: Minimaregelingen",
+            "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Verordening Beleidsregels bijzondere bijstand 2026 gemeente Soest",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR756521/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een zorgverzekering van Zilveren Kruis waar de gemeente aan meebetaalt, met drie aanvullende pakketten. Kinderen zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online; overstappen naar het collectief kan binnen Zilveren Kruis het hele jaar.",
+        "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/collectieve-zorgverzekering-afsluiten",
+        "bronnen": [
+          {
+            "titel": "Eemkracht: Collectieve zorgverzekering afsluiten",
+            "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/collectieve-zorgverzekering-afsluiten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u weinig geld en moet u noodzakelijke kosten betalen die niets anders vergoedt, zoals medische kosten of hulpmiddelen? Dan kan de gemeente bijspringen, als gift of lening.",
+        "aanvragen": "Vraag aan voordat u de kosten betaalt, met het formulier van de uitvoerder.",
+        "url": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/laag-inkomen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Soest: Laag inkomen",
+            "url": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Eemkracht: Minimaregelingen",
+            "url": "https://www.eemkracht.nl/inkomen/laag-inkomen/minimaregelingen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Soest-Baarn",
+        "omschrijving": "Voor kinderen van 4 tot 18 jaar in een gezin met een laag inkomen: schoolspullen, schoolreisjes, sport, cultuur, en vanaf 12 jaar een fiets of laptop.",
+        "aanvragen": "Via de stichting; vrijwilligers komen op huisbezoek.",
+        "url": "https://www.leergeldsoestbaarn.nl/",
+        "bronnen": [
+          {
+            "titel": "Verordening Beleidsregels bijzondere bijstand 2026 gemeente Soest",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR756521/1",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Leergeld Soest-Baarn: Mogelijkheden",
+            "url": "https://www.leergeldsoestbaarn.nl/mogelijkheden",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Voor leerlingen met een structurele beperking naar speciaal onderwijs, of naar een school met bijzondere richting ver weg (vanaf 6 km). Vergoeding of taxi. Soms een eigen bijdrage.",
+        "aanvragen": "Vóór 1 juni voor het nieuwe schooljaar.",
+        "url": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Soest: Leerlingenvervoer",
+            "url": "https://www.soest.nl/hulp-zorg-werk-en-inkomen/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Verordening leerlingenvervoer gemeente Soest 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR759092/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment (Knollenbon)",
+        "omschrijving": "Elk voorjaar bedankt de gemeente mantelzorgers van een chronisch zieke of gehandicapte naaste met de Knollenbon. Jonge mantelzorgers krijgen een waardebon.",
+        "aanvragen": "In het voorjaar aanvragen.",
+        "url": "https://zorgzaam.soest.nl/mantelzorg/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Zorgzaam Soest: Mantelzorgcompliment",
+            "url": "https://zorgzaam.soest.nl/mantelzorg/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

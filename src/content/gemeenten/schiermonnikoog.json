@@ -211,6 +211,130 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor mensen met een laag inkomen",
+      "url": "https://www.schiermonnikoog.nl/regelingen-voor-mensen-met-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming meerkosten chronisch zieken en gehandicapten (alleen 18 jaar of ouder)",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. U krijgt een vast bedrag per jaar als u een Wmo-indicatie hebt en de laagste eigen bijdrage betaalt.",
+        "alleenOuder": true,
+        "aanvragen": "Aanvragen van 1 maart tot en met 31 mei, over het jaar ervoor.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR431316/1",
+        "bronnen": [
+          {
+            "titel": "Nadere regels Wmo Tegemoetkoming meerkosten chronisch zieken en gehandicapten 2016",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR431316/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor kosten bij ziekte of beperking",
+        "omschrijving": "De gemeente kan extra kosten bij ziekte of een beperking vergoeden, zoals een bril, tandartskosten of reiskosten naar het ziekenhuis, als de zorgverzekering ze niet betaalt.",
+        "aanvragen": "Vraag aan vóór u de kosten maakt; bewaar alle bonnen.",
+        "url": "https://www.schiermonnikoog.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schiermonnikoog: Bijzondere bijstand",
+            "url": "https://www.schiermonnikoog.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Gemeentepolis)",
+        "omschrijving": "Korting op een zorgverzekering van De Friesland met extra vergoedingen, bijvoorbeeld voor een bril, fysiotherapie en tandarts. De gemeente betaalt mee aan de premie.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via de website van de verzekeraar; de bibliotheek helpt bij het aanvragen.",
+        "url": "https://www.schiermonnikoog.nl/collectieve-zorgverzekering-gemeentepolis",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schiermonnikoog: Collectieve zorgverzekering",
+            "url": "https://www.schiermonnikoog.nl/collectieve-zorgverzekering-gemeentepolis",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gezondverzekerd: Schiermonnikoog",
+            "url": "https://www.gezondverzekerd.nl/gemeente/schiermonnikoog/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Geld van de gemeente voor noodzakelijke bijzondere kosten die u niet zelf kunt betalen en die niets anders vergoedt. De gemeente kijkt naar uw inkomen en vermogen.",
+        "aanvragen": "Bij de gemeente, vóór u de kosten maakt. Antwoord binnen 8 weken.",
+        "url": "https://www.schiermonnikoog.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schiermonnikoog: Bijzondere bijstand",
+            "url": "https://www.schiermonnikoog.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Het fonds betaalt de contributie of het lesgeld voor sport, muziek of een creatieve hobby van uw kind als u weinig geld hebt, soms ook de benodigdheden.",
+        "aanvragen": "Via het formulier op de pagina; ook de juf, meester of buurtsportcoach kan helpen.",
+        "url": "https://www.schiermonnikoog.nl/jeugdfonds-sport-cultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schiermonnikoog: Jeugdfonds Sport & Cultuur",
+            "url": "https://www.schiermonnikoog.nl/jeugdfonds-sport-cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Vergoeding leerlingenvervoer",
+        "omschrijving": "School op de vaste wal? Bij speciaal onderwijs op 6 kilometer of meer, of een kind met beperking, vergoedt de gemeente vervoer. Soms regelt zij vervoer Lauwersoog-Dokkum.",
+        "aanvragen": "Online via de pagina, met een verklaring van de school. Besluit binnen 8 weken.",
+        "url": "https://www.schiermonnikoog.nl/vergoeding-leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schiermonnikoog: Vergoeding leerlingenvervoer",
+            "url": "https://www.schiermonnikoog.nl/vergoeding-leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Mantelzorgers die zich aanmelden voor de mantelzorgondersteuning krijgen jaarlijks een waardering. Jonge mantelzorgers (8 tot 24 jaar) krijgen cadeaukaarten.",
+        "ouders": "ja",
+        "aanvragen": "Meld u aan bij de mantelzorgondersteuning via de pagina.",
+        "url": "https://www.schiermonnikoog.nl/aanmelden-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schiermonnikoog: Aanmelden mantelzorgers",
+            "url": "https://www.schiermonnikoog.nl/aanmelden-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Schiermonnikoog: Mantelzorg",
+            "url": "https://www.schiermonnikoog.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "kinderopvang"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

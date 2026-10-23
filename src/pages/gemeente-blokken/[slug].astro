@@ -10,6 +10,9 @@ import ContactRegel from '../../components/ContactRegel.astro';
 import register from '../../../scripts/data/gemeenten-register.json';
 import { getCollection } from 'astro:content';
 import { routeLabel, contacten, regelSoort } from '../../lib/routes';
+import { REGELING_STAP } from '../../lib/verdiepingen';
+import { GEEN_REGELING } from '../../lib/regelingen';
+import GeldRegeling from '../../components/GeldRegeling.astro';
 
 export async function getStaticPaths() {
   const gemeenten = await getCollection('gemeenten');
@@ -45,6 +48,8 @@ const spoed = d.toegang.routes.find((x) => x.type === 'spoed');
 const routeTypes = [...new Set(d.toegang.routes.map((x) => x.type))];
 // Het register schrijft sommige nummers met haakjes: "(014) 030" is 14 030 (het verkorte nummer van de gemeente), "(0800) 1809"
 // is 0800 1809. Zo staan ze er zoals u ze intoetst, en werkt de belknop.
+/** Geldregelingen, voor de regelingencheck in Mijn overzicht. */
+const geld = d.geldregelingen;
 const regTel = reg?.telefoon?.replace(/^\(014\)\s*0?/, '14 0').replace(/^\((0[89]00)\)\s*/, '$1 ');
 ---
 <meta name="robots" content="noindex" />
@@ -164,6 +169,27 @@ const regTel = reg?.telefoon?.replace(/^\(014\)\s*0?/, '14 0').replace(/^\((0[89
       : <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders in {d.naam} bekijken<span aria-hidden="true"> ↗</span></a></span>}</span></span>
   )}
 </template>
+
+<!-- Mijn overzicht, regelingencheck ("Extra kosten of kinderbijslag"): de regelingen van de gemeente onder de stap waar ze bij horen,
+     onder één kopje (niet "In <gemeente>:" voor elke regeling). Bij mantelzorg zegt data-ouders of een ouder van een minderjarig kind de
+     waardering kan krijgen (src/scripts/overzicht/geld.ts). De pagina met alle regelingen alleen als geen regeling er al naartoe linkt. -->
+{REGELING_STAP.filter((r) => r.soorten).map((stap) => {
+  const lijst = (geld?.regelingen ?? []).filter((x) => stap.soorten!.includes(x.soort)).sort((a, b) => stap.soorten!.indexOf(a.soort) - stap.soorten!.indexOf(b.soort));
+  const geen = stap.soorten!.filter((soort) => GEEN_REGELING[soort] && geld?.nietGevonden.includes(soort as (typeof geld.nietGevonden)[number]));
+  const alle = stap.overzicht && geld?.overzicht && !lijst.some((x) => x.url === geld.overzicht!.url) ? geld.overzicht : undefined;
+  return (
+    <template data-slot={`overzicht-regelingen-${stap.rol}`}>
+      {(lijst.length > 0 || geen.length > 0 || alle) && (
+        <div class="stap-regelingen" data-rg-lokaal>
+          {lijst.length > 0 && <p class="stap-regelingen-kop">Deze lokale regelingen zijn mogelijk ook interessant:</p>}
+          {lijst.length > 0 && <ul>{lijst.map((x) => <GeldRegeling r={x} gemeente={d.naam} />)}</ul>}
+          {geen.map((soort) => <p class="stap-regeling" data-regeling={soort} data-geen>{d.naam} {GEEN_REGELING[soort]}</p>)}
+          {alle && <p class="stap-regeling">Alle regelingen in {d.naam}: <a href={alle.url} target="_blank" rel="noopener">{alle.naam}<span aria-hidden="true"> ↗</span></a></p>}
+        </div>
+      )}
+    </template>
+  );
+})}
 
 <!-- Mijn overzicht, blok 2: de andere ingangen, lokale steun en direct regelen. -->
 <template data-slot="overzicht-routes">

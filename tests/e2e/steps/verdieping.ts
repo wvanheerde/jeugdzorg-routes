@@ -4,8 +4,8 @@
  */
 import { expect, type Page } from '@playwright/test';
 import type { DataTable } from 'playwright-bdd';
-import { When, Then } from './fixtures';
-import { stapContacten, gemeenteSlug } from './inhoud';
+import { Given, When, Then } from './fixtures';
+import { stapContacten, gemeenteSlug, geldregelingen, gemeenteMetRegeling, vraagId, gemeenteNaam, overzichtUrl, gemeenteMetDubbeleOverzichtLink } from './inhoud';
 
 const blok = (page: Page) => page.locator('[data-verdieping]').locator('visible=true').first();
 const vraagBlok = (page: Page) => page.locator('[data-knelpunt-blok]').locator('visible=true').first();
@@ -16,9 +16,12 @@ const stappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[da
   // Niet in een dicht <details>: daar heeft een element in Chromium wel een offsetParent (zoals de stappen voor later bij afgewezen).
   lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null && !li.closest('details:not([open])'))
     .map((li) => {
-      // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst.
+      // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst zonder wat verborgen is
+      // (zoals het label "Past waarschijnlijk" van de regelingencheck).
       const lead = Array.from(li.querySelectorAll<HTMLElement>(':scope > .stap-lead')).find((e) => !e.hidden && e.textContent!.trim());
-      return ((lead ?? li).textContent ?? '').replace(/\s+/g, ' ').trim();
+      const kopie = (lead ?? li).cloneNode(true) as HTMLElement;
+      kopie.querySelectorAll('[hidden]').forEach((e) => e.remove());
+      return (kopie.textContent ?? '').replace(/\s+/g, ' ').trim();
     }));
 
 When('ik als geboortedatum {string} invul', async ({ page }, datum: string) => {
@@ -222,4 +225,62 @@ Then('staat het contact van het wijkteam onder stap {int}', async ({ page }, nr:
     const zichtbaar = lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null);
     return !!zichtbaar[nr - 1]?.querySelector(':scope > [data-wijkteam-stap] [data-geladen]');
   }, nr)).toBe(true);
+});
+
+/* ---------- Regelingencheck ("Extra kosten of kinderbijslag") ---------- */
+
+/** Een keuzeknop bij één vraag in het verdiepingsblok: "Ja" en "Nee" staan bij meer vragen. */
+When('ik bij {string} kies {string}', async ({ page }, vraag: string, naam: string) => {
+  const veld = blok(page).locator('.vd-velden > .field:visible').filter({ has: page.locator(':scope > :first-child', { hasText: vraag }) });
+  await veld.getByRole('button', { name: naam, exact: true }).or(veld.getByRole('button', { name: `✓ ${naam}`, exact: true })).click();
+});
+
+/** Het label "Past waarschijnlijk" in een zichtbare stap. */
+const stapLi = (page: Page, nr: number) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li').locator('visible=true').nth(nr - 1);
+Then('staat bij stap {int} {string}', async ({ page }, nr: number, tekst: string) => {
+  await expect(stapLi(page, nr).locator('.stap-past')).toHaveText(tekst);
+});
+const stapMet = (page: Page, begin: string) => vraagBlok(page).locator('li').filter({ hasText: begin }).locator('visible=true').first();
+Then('staat bij de stap {string} {string}', async ({ page }, begin: string, tekst: string) => {
+  await expect(stapMet(page, begin).locator('.stap-past')).toHaveText(tekst);
+});
+
+const gemeenteUitUrl = (page: Page) => new URL(page.url()).searchParams.get('gemeente')!;
+Given('ik open het overzicht voor {string} in een gemeente met een regeling voor {string}', async ({ page }, vraag: string, soort: string) => {
+  await page.goto(`overzicht/?k=${vraagId(vraag)}&gemeente=${gemeenteMetRegeling((r) => r.soort === soort)}`);
+});
+Then('staat de regeling van die gemeente voor {string} onder de stap {string}', async ({ page }, soort: string, begin: string) => {
+  const r = geldregelingen(gemeenteUitUrl(page)).find((x) => x.soort === soort)!;
+  await expect(stapMet(page, begin).getByRole('link', { name: r.naam })).toBeVisible();
+});
+Then('staat bij die regeling tot welk inkomen hij geldt, als de gemeente dat noemt', async ({ page }) => {
+  const r = geldregelingen(gemeenteUitUrl(page)).find((x) => x.soort === 'meerkosten')!;
+  const regel = vraagBlok(page).locator('[data-regeling="meerkosten"]').locator('visible=true').first();
+  if (typeof r.inkomensgrens === 'number') await expect(regel).toContainText(`tot ${r.inkomensgrens}% van ${r.grondslag === 'minimumloon' ? 'het wettelijk minimumloon' : 'het sociaal minimum'}`);
+  else if (r.inkomensgrens === 'geen') await expect(regel).toContainText('Zonder inkomensgrens');
+  else await expect(regel).not.toContainText('sociaal minimum');
+});
+Then('is er niets bewaard onder {string}', async ({ page }, sleutel: string) => {
+  expect(await page.evaluate((k) => localStorage.getItem(k), sleutel)).toBeNull();
+});
+Then('staat boven de regelingen bij die stap {string}', async ({ page }, kop: string) => {
+  await expect(vraagBlok(page).locator('[data-rg-lokaal]').locator('visible=true').first().locator('.stap-regelingen-kop')).toHaveText(kop);
+});
+Then('staat er geen "In <gemeente>:" voor elke regeling', async ({ page }) => {
+  const naam = gemeenteNaam(gemeenteUitUrl(page));
+  await expect(vraagBlok(page).locator('[data-rg-lokaal]').locator('visible=true').first()).not.toContainText(`In ${naam}:`);
+});
+Given('ik open het overzicht voor {string} in een gemeente waar een regeling naar de pagina met alle regelingen linkt', async ({ page }, vraag: string) => {
+  await page.goto(`overzicht/?k=${vraagId(vraag)}&gemeente=${gemeenteMetDubbeleOverzichtLink()}`);
+});
+Then('linkt bij de stap {string} maar één link naar die pagina', async ({ page }, begin: string) => {
+  const url = overzichtUrl(gemeenteUitUrl(page))!;
+  await expect(stapMet(page, begin).locator('[data-rg-lokaal] a').first()).toBeVisible();
+  await expect(stapMet(page, begin).locator(`a[href="${url}"]`)).toHaveCount(1);
+});
+/** De lokale regelingen staan als opsomming in een stap; ze tellen niet mee in de nummering van de stappen (fout gevonden 21-10). */
+Then('hebben de lokale regelingen geen stapnummer', async ({ page }) => {
+  const li = vraagBlok(page).locator('[data-rg-lokaal] li').locator('visible=true').first();
+  await expect(li).toBeVisible();
+  expect(await li.evaluate((e) => [getComputedStyle(e, '::before').content, getComputedStyle(e).counterIncrement])).toEqual(['none', 'none']);
 });

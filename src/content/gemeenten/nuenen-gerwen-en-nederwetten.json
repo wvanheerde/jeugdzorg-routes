@@ -241,6 +241,161 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor mensen met een laag inkomen",
+      "url": "https://www.nuenen.nl/regelingen-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming Eigen Risico",
+        "omschrijving": "Een vergoeding voor het verplichte eigen risico als u chronisch ziek bent of een handicap heeft. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier, over het afgelopen jaar",
+        "url": "https://www.nuenen.nl/eigen-risico",
+        "bronnen": [
+          {
+            "titel": "Tegemoetkoming Eigen Risico",
+            "url": "https://www.nuenen.nl/eigen-risico",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Medische kosten via bijzondere bijstand",
+        "omschrijving": "Heeft u medische kosten die uw zorgverzekering niet vergoedt? Dan kunt u bijzondere bijstand aanvragen, als u 18 jaar of ouder bent.",
+        "alleenOuder": true,
+        "aanvragen": "Online met DigiD, vóórdat u de kosten maakt",
+        "url": "https://www.nuenen.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand",
+            "url": "https://www.nuenen.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een zorgverzekering bij VGZ met korting en extra vergoedingen, bijvoorbeeld voor fysiotherapie en de tandarts. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via de website van de verzekeraar; overstappen kan vanaf januari",
+        "url": "https://www.nuenen.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Collectieve zorgverzekering",
+            "url": "https://www.nuenen.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente zorgverzekeringen Nuenen",
+            "url": "https://www.gezondverzekerd.nl/gemeente/nuenen-c-a/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Regelingen voor mensen met een laag inkomen",
+            "url": "https://www.nuenen.nl/regelingen-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Een bijdrage in noodzakelijke extra kosten die u nergens anders vergoed krijgt, als u 18 jaar of ouder bent en weinig inkomen heeft.",
+        "aanvragen": "Online met DigiD, vóórdat u de kosten maakt",
+        "url": "https://www.nuenen.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand",
+            "url": "https://www.nuenen.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Bijdrageregeling maatschappelijke deelname",
+        "omschrijving": "Een vergoeding voor sport, cultuur en andere activiteiten voor u en uw gezinsleden, bijvoorbeeld de contributie van een sportclub.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD",
+        "url": "https://www.nuenen.nl/bijdrageregeling-maatschappelijke-deelname",
+        "bronnen": [
+          {
+            "titel": "Bijdrageregeling maatschappelijke deelname",
+            "url": "https://www.nuenen.nl/bijdrageregeling-maatschappelijke-deelname",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport en Cultuur",
+        "omschrijving": "Het fonds betaalt de contributie of het lesgeld voor sport, kunst of cultuur voor kinderen van 0 tot 18 jaar uit gezinnen met te weinig geld.",
+        "aanvragen": "Via een intermediair (een medewerker van Actief Nuenen) namens u",
+        "url": "https://www.nuenen.nl/jeugdfonds-sport-en-cultuur",
+        "bronnen": [
+          {
+            "titel": "Jeugdfonds Sport en Cultuur voor Nuenense kinderen",
+            "url": "https://www.nuenen.nl/jeugdfonds-sport-en-cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld",
+        "omschrijving": "Hulp als uw kind door te weinig geld niet mee kan doen aan activiteiten binnen en buiten school. Voor kinderen van 6 tot en met 18 jaar.",
+        "aanvragen": "Informeer bij het Centrum Maatschappelijke Deelname",
+        "url": "https://www.nuenen.nl/regelingen-laag-inkomen",
+        "bronnen": [
+          {
+            "titel": "Regelingen voor mensen met een laag inkomen",
+            "url": "https://www.nuenen.nl/regelingen-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding naar school voor kinderen die door afstand of een handicap niet zelfstandig kunnen reizen. Soms betaalt u de eerste kilometers zelf.",
+        "aanvragen": "Vóór 1 juni voor het nieuwe schooljaar, met het aanvraagformulier",
+        "url": "https://www.nuenen.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer",
+            "url": "https://www.nuenen.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een bon van € 50 in 2026 als u langdurig zorgt voor iemand met een ziekte of beperking, ook voor uw kind. Jonge mantelzorgers van 8 tot en met 24 jaar kunnen hem ook krijgen.",
+        "ouders": "ja",
+        "aanvragen": "Schrijf u in bij het steunpunt mantelzorg en meld u online aan",
+        "url": "https://www.nuenen.nl/mantelzorgwaardering-2026",
+        "bronnen": [
+          {
+            "titel": "Mantelzorgwaardering 2026",
+            "url": "https://www.nuenen.nl/mantelzorgwaardering-2026",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "kinderopvang"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Het CMD krijgt volgens de gemeente flink meer aanmeldingen voor jeugd, zonder bekende oorzaak. Op elke basisschool is nu een vaste CMD-medewerker aanwezig. Vanaf 2027 wil de gemeente het CMD versterken, onder meer met een vaste contactpersoon voor ouders bij ingewikkelde situaties en een medewerker voor kwaliteit. Wachttijden en een tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is het CMD. Vraag bij uw aanmelding hoe lang het duurt, leg afspraken schriftelijk vast en vraag het CMD om een onafhankelijke cliëntondersteuner. Is de wachttijd lang, dan mag u ook naar de huisarts voor een verwijzing. Een klacht over het CMD dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [

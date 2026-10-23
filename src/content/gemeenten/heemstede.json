@@ -230,6 +230,144 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor minima",
+      "url": "https://www.heemstede.nl/hulp-bij-geldzaken-en-werk/regelingen-voor-minima"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang op sociaal-medische indicatie",
+        "omschrijving": "Hebt u een beperking of een psychisch probleem en daardoor kinderopvang nodig voor uw kind (0 tot en met 12 jaar)? Dan kan de gemeente meebetalen.",
+        "aanvragen": "Aanvraag bij de gemeente, met advies van Loket Heemstede of het Centrum voor Jeugd en Gezin.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR666672/1",
+        "bronnen": [
+          {
+            "titel": "Verordening kinderopvang op sociaal-medische indicatie Heemstede 2022",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR666672/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Gemeentepolis)",
+        "omschrijving": "Een collectieve zorgverzekering met korting op de aanvullende verzekering. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online aanmelden; de Intergemeentelijke Afdeling Sociale Zaken controleert of u meedoet.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/heemstede/",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: Heemstede",
+            "url": "https://www.gezondverzekerd.nl/gemeente/heemstede/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u onverwachte, noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u bijzondere bijstand krijgen, als gift of lening.",
+        "aanvragen": "Online met DigiD, bij de Intergemeentelijke Afdeling Sociale Zaken.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/regelingen-volwassenen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "IASZ: Bijzondere bijstand",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/regelingen-volwassenen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Eropuit! (kinderen)",
+        "omschrijving": "Een bijdrage voor sport, cultuur of een dagje uit voor kinderen jonger dan 18 jaar, bijvoorbeeld lidmaatschap van een club of muziekles.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, uiterlijk drie maanden na afloop van het kalenderjaar.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/eropuit-kinderen",
+        "bronnen": [
+          {
+            "titel": "IASZ: Eropuit! (kinderen)",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/eropuit-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "IASZ: Inkomensgrenzen",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/inkomensgrenzen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Bijdrage schoolkosten",
+        "omschrijving": "Een bijdrage in schoolkosten zoals ouderbijdrage, schoolmateriaal of schoolreisje voor kinderen van 4 tot 18 jaar op de basisschool, middelbare school of het beroepsonderwijs.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, uiterlijk drie maanden na afloop van het schooljaar.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-schoolkosten",
+        "bronnen": [
+          {
+            "titel": "IASZ: Bijdrage schoolkosten",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-schoolkosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Bijdrage computer",
+        "omschrijving": "Een bijdrage in de kosten van een computer of laptop voor kinderen van 8 tot en met 17 jaar die bij u wonen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, met betaalbewijzen, uiterlijk drie maanden na afloop van het kalenderjaar.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-computer",
+        "bronnen": [
+          {
+            "titel": "IASZ: Bijdrage computer",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-computer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Is school meer dan 6 kilometer van huis, of kan uw kind door een handicap niet zelf reizen? Dan kunt u een vergoeding of aangepast vervoer krijgen.",
+        "aanvragen": "Online met DigiD; vóór 1 juni voor het nieuwe schooljaar. Aanvragen tijdens het schooljaar kan ook.",
+        "url": "https://www.heemstede.nl/scholen-leerplicht-en-kinderopvang/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Heemstede: Leerlingenvervoer",
+            "url": "https://www.heemstede.nl/scholen-leerplicht-en-kinderopvang/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijkse blijk van waardering van € 50 per mantelzorger in 2026, als de mantelzorger bij Tandem is aangemeld en de zorgvrager niet in een zorginstelling woont.",
+        "aanvragen": "Meld u aan bij Tandem; u krijgt een brief over hoe u de waardering krijgt.",
+        "url": "https://www.tandemmantelzorg.nl/",
+        "bronnen": [
+          {
+            "titel": "Besluit maatschappelijke ondersteuning Heemstede 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR749268/1",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Heemstede: Hulp bij mantelzorg",
+            "url": "https://www.heemstede.nl/zorg-en-hulp/hulp-bij-mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

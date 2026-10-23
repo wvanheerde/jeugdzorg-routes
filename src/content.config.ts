@@ -52,6 +52,21 @@ const route = z.object({
   doorlooptijd: z.string().optional(),
 });
 
+/**
+ * Soorten geldregelingen van een gemeente (veld geldregelingen):
+ * meerkosten = tegemoetkoming in extra kosten bij chronische ziekte of beperking (ook als het via de bijzondere bijstand loopt, maar dan als eigen regeling genoemd);
+ * zorgkosten = andere regelingen voor kosten van zorg die ook voor een kind of het gezin gelden: vervoer naar zorg of ziekenhuisbezoek, hulpmiddelen,
+ *   medische kosten via de bijzondere bijstand als eigen onderdeel, dieet, een tegemoetkoming in het eigen risico (ook dat van de ouder zelf),
+ *   kosten of leges van een gehandicaptenparkeerkaart (besluit gebruiker 21-10-2026);
+ * kinderopvang = tegemoetkoming in kinderopvang om medische of sociale redenen (sociaal-medische indicatie);
+ * zorgverzekering = collectieve zorgverzekering voor inwoners met een laag inkomen;
+ * bijzondere-bijstand = bijzondere bijstand voor noodzakelijke kosten die niets anders vergoedt;
+ * meedoen = kindpakket, meedoenregeling of kindregeling (sport, school, cultuur), ook Stichting Leergeld of Jeugdfonds als de gemeente daarheen verwijst;
+ * leerlingenvervoer = vervoer of vergoeding naar school (speciaal onderwijs, ver weg, beperking);
+ * mantelzorg = de jaarlijkse mantelzorgwaardering.
+ */
+const geldSoort = z.enum(['meerkosten', 'zorgkosten', 'kinderopvang', 'zorgverzekering', 'bijzondere-bijstand', 'meedoen', 'leerlingenvervoer', 'mantelzorg']);
+
 /* ---------- Collecties ---------- */
 
 const gemeenten = defineCollection({
@@ -163,6 +178,42 @@ const gemeenten = defineCollection({
         nodig: z.string().optional(),
       }),
     ).default([]),
+
+    /**
+     * 5b. Geld: regelingen van de gemeente voor gezinnen met een kind dat extra zorg nodig heeft, of met een laag inkomen.
+     * Gebruikt door de regelingencheck in Mijn overzicht (vraag "Extra kosten of kinderbijslag"). Verplicht: alle gemeenten zijn onderzocht.
+     * Zie CONTENT.md, "Gemeenten: geldregelingen".
+     */
+    geldregelingen: z.object({
+      /** De pagina van de gemeente met alle regelingen bij een laag inkomen of extra kosten (minimaregelingen). */
+      overzicht: z.object({ naam: z.string(), url: z.url() }).optional(),
+      regelingen: z.array(z.object({
+        soort: geldSoort,
+        /** Zoals de gemeente hem noemt, bv. "Tegemoetkoming meerkosten" of "Kindpakket". */
+        naam: z.string(),
+        /** Eén of twee zinnen voor ouders: wat u krijgt en voor wie. Geen telefoonnummers. */
+        omschrijving: z.string(),
+        /** Tot welk inkomen, in procent (bv. 120). 'geen' = zonder inkomensgrens. Weglaten als de bron het niet zegt, of als het geen harde grens is
+         *  (zoals bij bijzondere bijstand: boven een grens betaalt u een deel zelf). Geldt voor gezinnen met kinderen een andere grens, dan die. */
+        inkomensgrens: z.union([z.number().int().min(100).max(250), z.literal('geen')]).optional(),
+        /** Waarvan de inkomensgrens een percentage is: de bijstandsnorm (sociaal minimum, standaard) of het wettelijk minimumloon (zoals in Amsterdam). */
+        grondslag: z.enum(['bijstandsnorm', 'minimumloon']).optional(),
+        /** Alleen bij zorgkosten: de regeling is alleen voor de ouder zelf (18+, bv. eigen risico), niet voor kosten van het kind. Op de
+         *  gemeentepagina staat hij dan bij de regelingen voor een laag inkomen (besluit gebruiker 23-10-2026). */
+        alleenOuder: z.literal(true).optional(),
+        /** Alleen bij mantelzorg: kan een ouder van een minderjarig kind met extra zorg de waardering krijgen? Weglaten als de bron het niet zegt. */
+        ouders: z.enum(['ja', 'nee']).optional(),
+        /** Hoe en wanneer aanvragen, kort ("Online met DigiD", "Vóór 1 juni voor het nieuwe schooljaar"). Een termijn alleen als de bron hem noemt. */
+        aanvragen: z.string().optional(),
+        /** Info- of aanvraagpagina. */
+        url: z.url(),
+        /** Waar het gelezen is; meer dan één als feiten uit verschillende pagina's komen (bv. de grens uit de verordening, de aanvraag van de gemeentepagina). */
+        bronnen: z.array(bron).min(1),
+      })).default([]),
+      /** Soorten die nagezocht zijn en die de gemeente niet heeft (anders lijkt "niet gevonden" op "nog niet gezocht"). */
+      nietGevonden: z.array(geldSoort).default([]),
+      laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    }),
 
     /** 6. Hoe gaat het in deze gemeente? Alleen op basis van herleidbare, gedateerde bronnen. */
     ervaringen: z.object({

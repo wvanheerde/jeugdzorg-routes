@@ -216,6 +216,101 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Hulp bij extra kosten",
+      "url": "https://www.zwartewaterland.nl/hulp-bij-extra-kosten"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepolis",
+        "omschrijving": "Een collectieve zorgverzekering van Zilveren Kruis met aanvullende pakketten waar de gemeente aan meebetaalt. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via de website van de verzekeraar, met de keuzehulp.",
+        "url": "https://www.zwartewaterland.nl/gemeentepolis",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zwartewaterland: Gemeentepolis",
+            "url": "https://www.zwartewaterland.nl/gemeentepolis",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en onverwachte, noodzakelijke kosten die u niet zelf kunt betalen? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Met het aanvraagformulier op de pagina, binnen 3 maanden na de factuur.",
+        "url": "https://www.zwartewaterland.nl/bijzonderebijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zwartewaterland: Bijzondere bijstand",
+            "url": "https://www.zwartewaterland.nl/bijzonderebijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels bijzondere bijstand gemeente Zwartewaterland",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR736455/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Participatieregeling",
+        "omschrijving": "Voor kinderen van 0 tot 18 jaar met een laag inkomen thuis: een bijdrage voor sport, cultuur, zwemdiploma en een laptop of fiets bij de overstap naar het voortgezet onderwijs.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD of met het printbare formulier. Eén keer per jaar per persoon.",
+        "url": "https://www.zwartewaterland.nl/participatieregeling",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zwartewaterland: Participatieregeling",
+            "url": "https://www.zwartewaterland.nl/participatieregeling",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking of ziekte niet zelf naar school reizen, of is de school ver weg? Dan kunt u vervoer of een vergoeding krijgen, soms met een eigen bijdrage.",
+        "aanvragen": "Online of met het papieren formulier. Vraag op tijd aan, zeker voor het nieuwe schooljaar.",
+        "url": "https://www.zwartewaterland.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zwartewaterland: Leerlingenvervoer",
+            "url": "https://www.zwartewaterland.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een tegoedbon voor mantelzorgers die minstens 8 uur per week zorgen, ook van 6 tot 18 jaar. Wie de zorg krijgt, vraagt hem aan; voor een kind doet u dat namens uw kind.",
+        "ouders": "ja",
+        "aanvragen": "Met het aanvraagformulier op de pagina, via het Steunpunt Mantelzorg.",
+        "url": "https://www.zwartewaterland.nl/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zwartewaterland: Mantelzorgcompliment",
+            "url": "https://www.zwartewaterland.nl/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Zwartewaterland: Mantelzorg",
+            "url": "https://www.zwartewaterland.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

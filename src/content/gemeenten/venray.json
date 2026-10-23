@@ -258,6 +258,126 @@
       "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Laag inkomen",
+      "url": "https://www.venray.nl/laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming eigen risico zorgverzekering",
+        "omschrijving": "Hebt u langdurig hoge zorgkosten en een laag inkomen? Dan kunt u een tegemoetkoming krijgen in uw eigen risico. Alleen voor uzelf als u 21 jaar of ouder bent, niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 110,
+        "aanvragen": "Eén keer per kalenderjaar; u moet eerst 2 jaar achter elkaar het hele eigen risico hebben gebruikt.",
+        "url": "https://www.venray.nl/voorzieningen-lage-inkomens",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Voorzieningen lage inkomens",
+            "url": "https://www.venray.nl/voorzieningen-lage-inkomens",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kosten kinderopvang bij sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u tijdelijk niet voor uw kind (basisschoolleeftijd) zorgen door een beperking van u of uw kind, en hebt u geen kinderopvangtoeslag? Dan helpt de gemeente met de kosten.",
+        "aanvragen": "Via een gesprek met de medewerker jeugd; de indicatie stelt de gemeente vast.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR695761/1",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Beleidsregel tegemoetkoming kosten op basis van Sociaal Medische Indicatie (SMI)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR695761/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke kosten die u niet kunt betalen en die niets anders vergoedt? Dan kunt u extra geld van de gemeente krijgen, als gift of als lening.",
+        "aanvragen": "Online met DigiD, binnen twee maanden nadat de kosten zijn ontstaan.",
+        "url": "https://www.venray.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Bijzondere bijstand",
+            "url": "https://www.venray.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoenbudget",
+        "omschrijving": "Geld voor sport, cultuur of een bibliotheeklidmaatschap als uw gezin weinig inkomen heeft. Voor kinderen vanaf 4 jaar, voor zover Stichting Leergeld het niet al vergoedt.",
+        "inkomensgrens": 130,
+        "aanvragen": "Eén keer per kalenderjaar aanvragen, vanaf 1 februari tot en met 31 december.",
+        "url": "https://www.venray.nl/voorzieningen-lage-inkomens",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Voorzieningen lage inkomens",
+            "url": "https://www.venray.nl/voorzieningen-lage-inkomens",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Venray: Inkomensgrenzen",
+            "url": "https://www.venray.nl/inkomensgrenzen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Venray",
+        "omschrijving": "Bijdrage in schoolspullen, een fiets, sportcontributie of muziekles voor kinderen van 4 tot en met 17 jaar. Schoolspullen tot 130%, sport en cultuur tot 120%.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via de website van Stichting Leergeld Venray.",
+        "url": "https://www.venray.nl/stichting-leergeld-venray",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Stichting Leergeld Venray",
+            "url": "https://www.venray.nl/stichting-leergeld-venray",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelf naar school door een handicap, of ligt de dichtstbijzijnde school 6 kilometer of verder weg? Dan kunt u een vergoeding of taxivervoer krijgen.",
+        "aanvragen": "Online; elk schooljaar opnieuw. Vóór 1 juli voor het nieuwe schooljaar.",
+        "url": "https://www.venray.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Leerlingenvervoer",
+            "url": "https://www.venray.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Jaarlijks een bedankje voor uw mantelzorger: een geldbedrag, waardebonnen of overnachtingen in Logeerhuis Kapstok. Wie de zorg krijgt, vraagt het aan.",
+        "aanvragen": "Online; één keer per kalenderjaar per huishouden.",
+        "url": "https://www.venray.nl/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Venray: Mantelzorgwaardering",
+            "url": "https://www.venray.nl/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

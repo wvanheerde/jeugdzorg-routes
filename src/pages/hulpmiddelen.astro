@@ -1,6 +1,6 @@
 ---
 /**
- * Alle hulpmiddelen van de site bij elkaar: het vel voor het gesprek, het dagboek in Word, de moeilijke woorden en de
+ * Alle hulpmiddelen van de site bij elkaar: het vel voor het gesprek, het dagboek in Word, de regelingencheck, de moeilijke woorden en de
  * voorbeeldbrieven. Elders staan ze bij de stap waar ze horen; hier vindt een ouder ze terug zonder de route opnieuw te lopen.
  * De moeilijke woorden zijn te lang voor deze pagina; daar gaat een kaart heen. /brieven/ verwijst naar #brieven.
  */
@@ -12,7 +12,7 @@ import { getCollection } from 'astro:content';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde - c.data.volgorde);
 ---
-<Base title="Hulpmiddelen" description="Hulpmiddelen voor ouders bij jeugdhulp: een vel om het gesprek met het wijkteam voor te bereiden, een dagboek in Word, moeilijke woorden uitgelegd en voorbeeldbrieven.">
+<Base title="Hulpmiddelen" description="Hulpmiddelen voor ouders bij jeugdhulp: een vel om het gesprek met het wijkteam voor te bereiden, een dagboek in Word, een check welke regelingen passen, moeilijke woorden uitgelegd en voorbeeldbrieven.">
   <div class="page-head">
     <span class="eyebrow">Om te gebruiken</span>
     <h1>Hulpmiddelen</h1>
@@ -35,6 +35,15 @@ const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde 
         <h3 style="margin-top:.6rem">Dagboek van twee weken</h3>
         <p class="meta">Voor de aanvraag van dubbele kinderbijslag. Schrijf twee weken op welke extra zorg uw kind elke dag nodig heeft. Het dagboek heeft dezelfde onderdelen als het formulier van het CIZ, en zegt per onderdeel wat meetelt. Invullen op de computer of uitprinten.</p>
         <span class="arrow">Download (Word) →</span>
+      </a>
+      {/* De regelingencheck (verdieping bij "Extra kosten of kinderbijslag"). Zonder gemeente in het adres neemt Mijn overzicht de gemeente
+          die de ouder eerder koos, met de regelingen van die gemeente. */}
+      <a class="card link" href={`${base}/overzicht/?k=geld`}>
+        <div class="icon"><Icon name="coins" /></div>
+        <span class="badge">Een paar vragen</span>
+        <h3 style="margin-top:.6rem">Welke regelingen passen bij u?</h3>
+        <p class="meta">Dubbele kinderbijslag, geld voor extra kosten, een kindpakket of een mantelzorgwaardering? Beantwoord een paar vragen, dan ziet u welke regelingen waarschijnlijk passen, ook die van uw gemeente.</p>
+        <span class="arrow">Doe de regelingencheck →</span>
       </a>
       <a class="card link" href={`${base}/begrippen/`}>
         <div class="icon"><Icon name="book" /></div>

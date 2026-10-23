@@ -282,6 +282,159 @@
       "url": "https://zorgkaart.teamzorgportaal.nl/3"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Extra geld Zuidplas",
+      "url": "https://www.ijsselgemeenten.nl/extra-geld-zuidplas"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kosten kinderopvang (sociaal medische indicatie)",
+        "omschrijving": "Kan uw kind niet zonder kinderopvang door een beperking of omdat het goed is voor zijn ontwikkeling, of kunt u door ziekte niet zorgen? Dan kunt u een tegemoetkoming krijgen.",
+        "aanvragen": "Met het formulier op de pagina; alleen als u geen kinderopvangtoeslag of bijstand krijgt.",
+        "url": "https://www.ijsselgemeenten.nl/kosten-kinderopvang",
+        "bronnen": [
+          {
+            "titel": "IJsselgemeenten: Kosten kinderopvang",
+            "url": "https://www.ijsselgemeenten.nl/kosten-kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Tegemoetkoming kosten kinderopvang 2023",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR699089/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "VGZ Rotterdampakket",
+        "omschrijving": "Zorgverzekering voor inwoners van Zuidplas, handig bij veel medische kosten. Met een laag inkomen betaalt de gemeente mee. Kinderen zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Via de verzekeraar; overstappen kan elk jaar tot en met 31 december.",
+        "url": "https://www.ijsselgemeenten.nl/zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "IJsselgemeenten: Zorgverzekering",
+            "url": "https://www.ijsselgemeenten.nl/zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke kosten, bijvoorbeeld bij ziekte of een beperking, die u niet zelf kunt betalen en nergens vergoed krijgt? Dan kunt u bijzondere bijstand aanvragen.",
+        "aanvragen": "Online met DigiD of op papier, via IJsselgemeenten, binnen 13 weken na de rekening.",
+        "url": "https://www.zuidplas.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zuidplas: Bijzondere bijstand",
+            "url": "https://www.zuidplas.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "IJsselgemeenten: Bijzondere bijstand aanvragen",
+            "url": "https://www.ijsselgemeenten.nl/bijzondere-bijstand-aanvragen/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Vergoeding kosten schoolgaande kinderen",
+        "omschrijving": "Voor kinderen van 4 tot en met 17 jaar in een gezin met een laag inkomen: schoolkosten, sport en cultuur, zoals een kluisje, rekenmachine, contributie of muziekinstrument.",
+        "aanvragen": "Met het formulier op de pagina, per schooljaar; bewaar de rekeningen.",
+        "url": "https://www.ijsselgemeenten.nl/kosten-schoolgaande-kinderen/",
+        "bronnen": [
+          {
+            "titel": "IJsselgemeenten: Kosten schoolgaande kinderen",
+            "url": "https://www.ijsselgemeenten.nl/kosten-schoolgaande-kinderen/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Stichting ZO!: Kindpakket",
+            "url": "https://www.stzo.nl/kindpakket",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Hollandsche IJssel",
+        "omschrijving": "Voor kinderen van 4 tot en met 17 jaar uit gezinnen met weinig geld: bijvoorbeeld een fiets, laptop of rekenmachine. U vraagt eerst de vergoeding schoolgaande kinderen aan.",
+        "inkomensgrens": 130,
+        "aanvragen": "Via Stichting Leergeld, nadat u de vergoeding schoolgaande kinderen hebt gebruikt.",
+        "url": "https://www.stzo.nl/kindpakket",
+        "bronnen": [
+          {
+            "titel": "Stichting ZO!: Kindpakket",
+            "url": "https://www.stzo.nl/kindpakket",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Het fonds betaalt contributie of lesgeld voor sport, cultuur of zwemles voor kinderen uit gezinnen met weinig geld.",
+        "inkomensgrens": 120,
+        "aanvragen": "Niet zelf; via een tussenpersoon, zoals een leerkracht of het sociaal wijkteam.",
+        "url": "https://www.stzo.nl/kindpakket",
+        "bronnen": [
+          {
+            "titel": "Stichting ZO!: Kindpakket",
+            "url": "https://www.stzo.nl/kindpakket",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Gaat uw kind naar speciaal onderwijs of kan het door een beperking niet zelf naar school reizen? Dan kunt u een vergoeding voor vervoer krijgen.",
+        "aanvragen": "Online met DigiD. Vóór 1 juni aanvragen, dan is het vervoer er bij de start van het schooljaar.",
+        "url": "https://www.zuidplas.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zuidplas: Leerlingenvervoer",
+            "url": "https://www.zuidplas.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Stichting ZO!: Leerlingenvervoer",
+            "url": "https://www.stzo.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering via Steunpunt Mantelzorg",
+        "omschrijving": "Twee keer per jaar een bijeenkomst voor mantelzorgers, zoals een High Tea; geen geldbedrag. Zorgen voor uw kind telt mee. Jonge mantelzorgers hebben eigen activiteiten.",
+        "ouders": "ja",
+        "aanvragen": "Meld u aan als mantelzorger met het online formulier; geregistreerden krijgen een uitnodiging.",
+        "url": "https://www.stzo.nl/mantelzorg-waardering-en-activiteiten",
+        "bronnen": [
+          {
+            "titel": "Stichting ZO!: Waardering en activiteiten",
+            "url": "https://www.stzo.nl/mantelzorg-waardering-en-activiteiten",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Stichting ZO!: Informatie voor iedereen die zorgt",
+            "url": "https://www.stzo.nl/informatie-voor-iedereen-die-zorgt-voor-een-ander",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

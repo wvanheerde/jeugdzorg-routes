@@ -30,6 +30,7 @@ import VerdiepingWordt18 from '../components/VerdiepingWordt18.astro';
 import VerdiepingAfgewezen from '../components/VerdiepingAfgewezen.astro';
 import VerdiepingGescheiden from '../components/VerdiepingGescheiden.astro';
 import VerdiepingUitbreiden from '../components/VerdiepingUitbreiden.astro';
+import VerdiepingGeld from '../components/VerdiepingGeld.astro';
 import { hoofdStappen, vervolg } from '../lib/stappen';
 import { maakStapProps, situatieStapProps } from '../lib/stap-props';
 import { controleerVerdiepingen, gezagStap, GEZAG_LEAD, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
@@ -139,6 +140,7 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
           {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
           {k.id === 'gescheiden' && <VerdiepingGescheiden id="gescheiden" naarStappen="stappen-gescheiden" uitleg="Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp." />}
           {k.id === 'uitbreiden' && <VerdiepingUitbreiden />}
+          {k.id === 'geld' && <VerdiepingGeld />}
           {/* Gezag bij hulp aanvragen: ingeklapt, want het geldt alleen voor wie niet samenwoont met de andere ouder; met de situatie
               Scheiding of een antwoord staat het open (scripts/overzicht/gescheiden.ts). Persona-test Linda, ronde 25. */}
           {k.id === 'beginnen' && (
@@ -186,6 +188,15 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
                 <summary>Andere stappen die soms nodig zijn</summary>
                 <p class="meta">Deze past niet bij wat u hierboven koos, maar kan toch gelden.</p>
                 <ol class="steps-anders" data-ub-anders-lijst></ol>
+              </details>
+            )}
+            {/* "Extra kosten of kinderbijslag": regelingen die niet bij de antwoorden passen, ingeklapt in plaats van weg (of iets past,
+                beslist de SVB, het CIZ of de gemeente). Het script (scripts/overzicht/geld.ts) verplaatst de stappen hierheen en terug. */}
+            {k.id === 'geld' && (
+              <details class="o4 meer-brieven meer-stappen" data-rg-anders hidden>
+                <summary>Andere regelingen die soms passen</summary>
+                <p class="meta">Deze passen niet bij uw antwoorden, maar kunnen toch gelden. Twijfelt u, vraag het dan na.</p>
+                <ol class="steps-anders" data-rg-anders-lijst></ol>
               </details>
             )}
             {/* "Hulp is afgewezen of te weinig" zonder besluit op papier: alleen stap 1 is nu nodig. Het script (scripts/overzicht/afgewezen.ts)

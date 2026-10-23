@@ -34,6 +34,13 @@ Given('ik open het overzicht voor {string} in {string}', async ({ page }, vraag:
 Given('ik open het overzicht voor {string} in {string} met de situatie {string}', async ({ page }, vraag: string, gemeente: string, situatie: string) => {
   await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: situatieId(situatie) });
 });
+/** Zonder gemeente: voor vragen die ook zonder gemeente iets tonen (zoals extra kosten), als het gedrag niet van de gemeente mag afhangen. */
+Given('ik open het overzicht voor {string} zonder gemeente', async ({ page }, vraag: string) => {
+  await openOverzicht(page, { k: vraagId(vraag) });
+});
+Given('ik open het overzicht voor {string} zonder gemeente met leeftijd {string}', async ({ page }, vraag: string, leeftijd: string) => {
+  await openOverzicht(page, { k: vraagId(vraag), l: leeftijdId(leeftijd) });
+});
 Given('ik open het overzicht voor {string} in {string} met leeftijd {string}', async ({ page }, vraag: string, gemeente: string, leeftijd: string) => {
   await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), l: leeftijdId(leeftijd) });
 });
@@ -72,7 +79,7 @@ When('ik de pagina opnieuw open', async ({ page }) => {
 /** Opnieuw openen zonder de antwoorden van de verdieping in de url: dan gelden de bewaarde antwoorden (localStorage). */
 When('ik het overzicht later opnieuw open', async ({ page }) => {
   const u = new URL(page.url());
-  for (const p of ['geboren', 'na18', 'naar', 'datum', 'reden', 'wacht', 'aanvraag', 'ingebreke', 'besluit', 'papier', 'besluitdatum', 'gezag', 'nodig', 'einde']) u.searchParams.delete(p);
+  for (const p of ['geboren', 'na18', 'naar', 'datum', 'reden', 'wacht', 'aanvraag', 'ingebreke', 'besluit', 'papier', 'besluitdatum', 'gezag', 'nodig', 'einde', 'zorg', 'dkb', 'alleen', 'kosten', 'inkomen']) u.searchParams.delete(p);
   await page.goto(u.toString());
 });
 

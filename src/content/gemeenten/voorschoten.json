@@ -250,6 +250,138 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Laag inkomen",
+      "url": "https://www.voorschoten.nl/laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Bijzondere bijstand chronisch zieken en gehandicapten",
+        "omschrijving": "Hebt u een laag inkomen en extra kosten door een chronische ziekte of beperking, van uzelf of van uw kind? Dan kunt u jaarlijks een tegemoetkoming krijgen.",
+        "inkomensgrens": 110,
+        "aanvragen": "Met een bijstandsuitkering digitaal; anders belt u de gemeente.",
+        "url": "https://www.lv.nl/bijzondere-bijstand-chronisch-zieken-en-gehandicapten",
+        "bronnen": [
+          {
+            "titel": "Leidschendam-Voorburg (voert uit voor Voorschoten): Bijzondere bijstand chronisch zieken en gehandicapten",
+            "url": "https://www.lv.nl/bijzondere-bijstand-chronisch-zieken-en-gehandicapten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kosten kinderopvang (sociaal-medische indicatie)",
+        "omschrijving": "Hebt u een sociaal-medische indicatie van uw huisarts of maatschappelijk werk? Dan kunt u een tegemoetkoming krijgen voor de kinderopvang van uw kind tot 12 jaar.",
+        "aanvragen": "U vraagt het aan bij de gemeente, met de verklaring van uw huisarts of maatschappelijk werk.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR628163",
+        "bronnen": [
+          {
+            "titel": "Voorschoten: Beleidsregel kinderopvang sociaal domein 2020",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR628163/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepolis",
+        "omschrijving": "Een collectieve zorgverzekering bij Zorg en Zekerheid met korting op de aanvullende verzekering. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online, in de periode waarin u van zorgverzekeraar kunt wisselen.",
+        "url": "https://www.voorschoten.nl/gemeentepolis",
+        "bronnen": [
+          {
+            "titel": "Gemeente Voorschoten: Gemeentepolis",
+            "url": "https://www.voorschoten.nl/gemeentepolis",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en noodzakelijke, bijzondere kosten die niets anders vergoedt? Dan kunt u bijzondere bijstand krijgen, als gift of als lening.",
+        "inkomensgrens": 110,
+        "aanvragen": "Vraag het aan voordat u de kosten maakt; bel de gemeente om te beginnen.",
+        "url": "https://www.lv.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Leidschendam-Voorburg (voert uit voor Voorschoten): Bijzondere bijstand",
+            "url": "https://www.lv.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Regeling maatschappelijke participatie",
+        "omschrijving": "Een tegemoetkoming voor sport, cultuur of cursussen, voor volwassenen en voor kinderen tot 18 jaar met een laag inkomen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met een bijstandsuitkering digitaal; anders belt u de gemeente.",
+        "url": "https://www.lv.nl/regeling-maatschappelijke-participatie",
+        "bronnen": [
+          {
+            "titel": "Leidschendam-Voorburg (voert uit voor Voorschoten): Regeling maatschappelijke participatie",
+            "url": "https://www.lv.nl/regeling-maatschappelijke-participatie",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Voorschoten",
+        "omschrijving": "Leergeld helpt kinderen uit gezinnen met weinig geld mee te doen met sport, muziek en cultuur, en zorgt bijvoorbeeld voor een fiets of computer voor school.",
+        "aanvragen": "Via Stichting Leergeld Voorschoten.",
+        "url": "https://www.voorschoten.nl/kindpakket-minimaregelingen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Voorschoten: Kindpakket (minimaregelingen)",
+            "url": "https://www.voorschoten.nl/kindpakket-minimaregelingen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking niet zelf naar school, of ligt de dichtstbijzijnde passende school ver weg? Dan kunt u een vergoeding of aangepast vervoer krijgen.",
+        "aanvragen": "Vóór 1 mei voor het komende schooljaar.",
+        "url": "https://www.voorschoten.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Voorschoten: Leerlingenvervoer",
+            "url": "https://www.voorschoten.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een activiteit of attentie rond de Dag van de Mantelzorg, geen geldbedrag. Zorgt u voor uw kind? Dan telt u mee. Jonge mantelzorgers tot 25 jaar ook.",
+        "ouders": "ja",
+        "aanvragen": "Laat u registreren bij Voorschoten Voor Elkaar; zij maken de actie bekend.",
+        "url": "https://www.voorschotenvoorelkaar.nl/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Voorschoten Voor Elkaar: Mantelzorgwaardering",
+            "url": "https://www.voorschotenvoorelkaar.nl/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Voorschoten Voor Elkaar: Mantelzorg en meer",
+            "url": "https://www.voorschotenvoorelkaar.nl/mantelzorg-en-meer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

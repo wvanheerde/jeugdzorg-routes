@@ -249,6 +249,144 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomensondersteuning",
+      "url": "https://www.zevenaar.nl/inkomensondersteuning"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Bijdrage chronisch zieken en gehandicapten",
+        "omschrijving": "Hebt u of uw minderjarige kind een chronische ziekte of beperking en een laag inkomen? Dan kunt u elk jaar een bijdrage voor de extra kosten krijgen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier voor inkomensondersteuning; de peilmaand voor uw inkomen is januari.",
+        "url": "https://www.zevenaar.nl/inkomensondersteuning",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zevenaar: Inkomensondersteuning",
+            "url": "https://www.zevenaar.nl/inkomensondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatieregeling zorgverzekering chronisch zieken en gehandicapten",
+        "omschrijving": "Hoort u of uw minderjarige kind bij de chronisch zieken of gehandicapten en hebt u het eigen risico helemaal betaald? Dan kunt u jaarlijks een bijdrage in de ziektekosten krijgen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier Compensatieregeling; niet met de collectieve aanvullende verzekering.",
+        "url": "https://www.zevenaar.nl/inkomensondersteuning",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zevenaar: Inkomensondersteuning",
+            "url": "https://www.zevenaar.nl/inkomensondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang bij een sociaal-medische indicatie (SMI)",
+        "omschrijving": "Is kinderopvang nodig door een sociale of medische situatie van u of uw kind, en hebt u geen recht op kinderopvangtoeslag? Dan kunt u een vergoeding krijgen.",
+        "inkomensgrens": 120,
+        "grondslag": "minimumloon",
+        "aanvragen": "Via het aanvraagformulier van de RSD de Liemers; de hoogte hangt af van uw inkomen.",
+        "url": "https://www.rsddeliemers.nl/aanvragen-sociaal-medische-indicatie-kinderopvang",
+        "bronnen": [
+          {
+            "titel": "RSD de Liemers: Aanvragen sociaal medische indicatie kinderopvang",
+            "url": "https://www.rsddeliemers.nl/aanvragen-sociaal-medische-indicatie-kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Zevenaar: Aanvullende bijdrage kinderopvang",
+            "url": "https://www.zevenaar.nl/aanvullende-bijdrage-kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Menzis GarantVerzorgd)",
+        "omschrijving": "Een zorgverzekering voor een laag inkomen waar de gemeente aan meebetaalt, met korting op de aanvullende verzekering. Met GarantVerzorgd 3 krijgt u het eigen risico vergoed.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online aanmelden via de website van de zorgverzekeraar.",
+        "url": "https://www.zevenaar.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zevenaar: Collectieve zorgverzekering",
+            "url": "https://www.zevenaar.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke bijzondere kosten die u niet kunt betalen en die niets anders vergoedt? Dan kan de gemeente bijspringen. Medische kosten vraagt u eerst bij uw verzekeraar aan.",
+        "aanvragen": "Met het aanvraagformulier op de pagina; de gemeente besluit binnen 8 weken.",
+        "url": "https://www.zevenaar.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zevenaar: Bijzondere bijstand",
+            "url": "https://www.zevenaar.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket",
+        "omschrijving": "Regelingen voor kinderen in een gezin met een krappe beurs: onder meer GelrePas, laptop, zwemles, schoolgeld en reiskosten naar school.",
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier Kindpakket op de pagina.",
+        "url": "https://www.zevenaar.nl/kindpakket",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zevenaar: Kindpakket",
+            "url": "https://www.zevenaar.nl/kindpakket",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking of de afstand niet zelf naar school? Dan kunt u vervoer of een vergoeding krijgen. Soms betaalt u een eigen bijdrage.",
+        "aanvragen": "Online, vóór 1 mei voor het nieuwe schooljaar.",
+        "url": "https://www.zevenaar.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Zevenaar: Leerlingenvervoer",
+            "url": "https://www.zevenaar.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Mantelzorgers in Zevenaar krijgen jaarlijks een blijk van waardering: in 2026 een VVV-bon van € 30. Het steunpunt voor mantelzorgers regelt de aanmelding.",
+        "aanvragen": "Via het aanmeldformulier van het steunpunt mantelzorg.",
+        "url": "https://caleidoz.nl/mantelzorgwaardering/",
+        "bronnen": [
+          {
+            "titel": "Caleidoz: Mantelzorgwaardering",
+            "url": "https://caleidoz.nl/mantelzorgwaardering/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Zevenaar: Mantelzorg",
+            "url": "https://www.zevenaar.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Ouders en jongeren zijn overwegend positief over de jeugdhulp zelf, maar de weg ernaartoe was lang. De rekenkamer noemde in augustus 2025 lange wachttijden, wisselende medewerkers jeugd en veel gedoe. Begin 2025 duurde het rond de 20 weken voordat de gemeente een hulpvraag oppakte. Volgens de gemeente is de wachtlijst bij de medewerkers jeugd in de zomer van 2026 bijna weggewerkt; op de website staat nu een wachttijd van 11 weken.\n\nUw eerste aanspreekpunt is de medewerker jeugd van de gemeente. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast, bijvoorbeeld het gezinsplan en de beschikking. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht over de medewerkers jeugd dient u in via de klachtenregeling van de gemeente; de Nationale ombudsman is de volgende stap.",
     "signalen": [

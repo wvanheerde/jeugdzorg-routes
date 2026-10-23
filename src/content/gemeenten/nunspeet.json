@@ -242,6 +242,141 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Werk, inkomen en geldzorgen",
+      "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijdrage eigen risico",
+        "omschrijving": "Alleen voor uzelf (21 jaar of ouder), niet voor uw kind. Hebt u een laag inkomen en gebruikt u elk jaar uw hele eigen risico op? Dan betaalt de gemeente dat bedrag.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD of eHerkenning, of met een papieren formulier.",
+        "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/bijdrage-eigen-risico",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Bijdrage eigen risico",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/bijdrage-eigen-risico",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Nunspeet: Normen",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/normen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (gemeentepolis)",
+        "omschrijving": "Hebt u een laag inkomen en weinig vermogen? Dan krijgt u korting op een aanvullende zorgverzekering. Er zijn drie pakketten bij Zilveren Kruis.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via de website van de gemeentepolis; meld u vóór 31 december voor een start per 1 januari.",
+        "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/collectieve-zorgverzekering-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Collectieve zorgverzekering (gemeentepolis)",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/collectieve-zorgverzekering-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Nunspeet: Normen",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/normen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke kosten die u niet kon voorzien en die niets anders vergoedt? Dan kunt u een bijdrage van de gemeente krijgen. U moet 21 jaar of ouder zijn.",
+        "aanvragen": "Online met DigiD of eHerkenning, voordat u de kosten maakt.",
+        "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Bijzondere bijstand",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Fiets- en laptopbijdrage (voor kinderen)",
+        "omschrijving": "Voor gezinnen met weinig geld: een bijdrage voor een fiets (kind van 4 tot 18 jaar) of laptop (8 tot 18 jaar). In 2026 € 123 tot € 372 voor een fiets, € 525 voor een laptop.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD of eHerkenning, of met een papieren formulier.",
+        "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/fiets-en-laptopbijdrage-voor-kinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Fiets- en laptopbijdrage (voor kinderen)",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/fiets-en-laptopbijdrage-voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Nunspeet: Normen",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/normen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Voor kinderen van 0 tot 18 jaar in een gezin met te weinig geld voor een sport- of muziekvereniging. Ook voor zwemlessen. Het fonds betaalt de contributie aan de vereniging.",
+        "aanvragen": "Niet zelf: een intermediair, zoals een school of het Centrum voor Jeugd en Gezin, meldt uw kind aan.",
+        "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/jeugdfonds-sportcultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Jeugdfonds Sport & Cultuur",
+            "url": "https://www.nunspeet.nl/laag-inkomen-en-uitkering/jeugdfonds-sportcultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Heeft uw kind een beperking of is de school ver weg? Dan betaalt de gemeente (een deel van) het vervoer of zorgt ze voor aangepast vervoer (taxi).",
+        "aanvragen": "Via de afdeling leerlingenvervoer in Elburg; de aanvraag moet elk jaar vóór 1 juni binnen zijn.",
+        "url": "https://www.nunspeet.nl/jeugd-en-onderwijs/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Leerlingenvervoer",
+            "url": "https://www.nunspeet.nl/jeugd-en-onderwijs/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijks bedankje in cadeaubonnen voor lokale winkels. U zorgt langer dan 3 maanden en meer dan 8 uur per week, bijvoorbeeld voor uw kind met een beperking.",
+        "ouders": "ja",
+        "aanvragen": "Meld u aan bij Mantelzorgcentrum Nunspeet; de zorgontvanger moet in Nunspeet wonen.",
+        "url": "https://www.nunspeet.nl/zorg-en-ondersteuning/ondersteuning-voor-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Gemeente Nunspeet: Ondersteuning voor mantelzorgers",
+            "url": "https://www.nunspeet.nl/zorg-en-ondersteuning/ondersteuning-voor-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Mantelzorgcentrum Nunspeet: Aanmelden",
+            "url": "https://www.mantelzorg-nunspeet.nl/voor-wie/mantelzorgers/aanmelden/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Steeds meer kinderen in Nunspeet krijgen jeugdhulp: 904 in 2025, tegen 858 in 2024. De gemeente wil dat gezinnen vaker eerst lichte hulp, school of het eigen netwerk gebruiken. Volgens een plan voor 2026 tot en met 2028 wordt hulp minder vaak automatisch verlengd en maakt de gemeente meer afspraken met scholen. Wat ouders van het CJG vinden en hoe lang het duurt tot een eerste gesprek, is niet openbaar te vinden.\n\nVraag bij uw aanmelding bij het CJG hoe lang het duurt en leg afspraken schriftelijk vast. Krijgt uw kind al hulp, bespreek dan ruim voor het einde of verlenging nodig is. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht over het CJG gaat eerst naar de locatiemanager van het CJG, een klacht over de gemeente naar de gemeente.",
     "signalen": [

@@ -292,6 +292,161 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Laat geen hulp liggen",
+      "url": "https://www.gemeentelelystad.nl/laatgeenhulpliggen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Medische kosten en dieetkosten (bijzondere bijstand)",
+        "omschrijving": "Extra kosten door een medisch noodzakelijk dieet, of zorgkosten die uw verzekering niet vergoedt? Dan kunt u soms bijzondere bijstand krijgen. Eigen risico niet.",
+        "aanvragen": "Online met DigiD; een medisch bewijs van de noodzaak is nodig.",
+        "url": "https://www.gemeentelelystad.nl/4/Medische-kosten.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Medische kosten",
+            "url": "https://www.gemeentelelystad.nl/4/Medische-kosten.html",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor reiskosten (ziekenbezoek)",
+        "omschrijving": "Bezoekt u een zieke uit uw gezin, zoals uw kind, in een instelling buiten Lelystad? Dan kunt u de reiskosten vergoed krijgen, tot het tarief van het openbaar vervoer.",
+        "aanvragen": "Vraag eerst een vergoeding aan bij uw zorgverzekeraar; daarna online met DigiD.",
+        "url": "https://www.gemeentelelystad.nl/4/Bijzondere-bijstand-voor-reiskosten.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Bijzondere bijstand voor reiskosten",
+            "url": "https://www.gemeentelelystad.nl/4/Bijzondere-bijstand-voor-reiskosten.html",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Beleidsregels Participatiewet en aanverwante regelingen Lelystad 2021 (artikel 6.12)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR671500/2",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u of uw partner door gezondheid of sociale redenen niet werken en niet voor uw kind zorgen? Dan kan de gemeente meebetalen aan kinderopvang. Een indicatie is nodig.",
+        "aanvragen": "Online met DigiD, vóórdat u een contract met de opvang tekent.",
+        "url": "https://www.gemeentelelystad.nl/4/onderwijs/zorg-Kinderopvang/Kinderopvangtoeslag-en-eventuele-aanvulling.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Kinderopvangtoeslag en eventuele aanvulling",
+            "url": "https://www.gemeentelelystad.nl/4/onderwijs/zorg-Kinderopvang/Kinderopvangtoeslag-en-eventuele-aanvulling.html",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering via VGZ",
+        "omschrijving": "Een zorgverzekering met korting en een bijdrage van de gemeente, met extra vergoedingen voor bijvoorbeeld bril, fysiotherapie en tandarts. Zonder medische keuring.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online, bij een betalingsachterstand lukt het vaak niet. Overstappen kan tot en met 31 december.",
+        "url": "https://www.gemeentelelystad.nl/zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Een zorgverzekering voor iedere Lelystedeling",
+            "url": "https://www.gemeentelelystad.nl/zorgverzekering",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Gezondverzekerd.nl: Lelystad",
+            "url": "https://www.gezondverzekerd.nl/gemeente/lelystad/zorgverzekeringen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke bijzondere kosten die u niet zelf kunt betalen en die niets anders vergoedt, zoals babyuitzet. U moet 18 jaar of ouder zijn.",
+        "aanvragen": "Online met DigiD, binnen 4 weken nadat u de kosten maakte.",
+        "url": "https://www.gemeentelelystad.nl/4/Bijzondere-bijstand.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Bijzondere bijstand",
+            "url": "https://www.gemeentelelystad.nl/4/Bijzondere-bijstand.html",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Lelystad",
+        "omschrijving": "Voor kinderen van 4 tot 18 jaar in een gezin met weinig geld: een fiets, laptop of bijdrage in schoolkosten, schoolreisje en kamp.",
+        "inkomensgrens": 150,
+        "aanvragen": "Via het aanvraagformulier van Leergeld.",
+        "url": "https://leergeld-lelystad.nl/",
+        "bronnen": [
+          {
+            "titel": "Stichting Leergeld Lelystad",
+            "url": "https://leergeld-lelystad.nl/",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Gemeente Lelystad: Laat geen hulp liggen",
+            "url": "https://www.gemeentelelystad.nl/laatgeenhulpliggen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Betaalt de contributie of lessen voor sport, muziek of dans voor kinderen uit gezinnen met weinig geld. De gemeente verwijst hiernaartoe.",
+        "aanvragen": "Via een intermediair, zoals school of een medewerker van de gemeente of Leergeld.",
+        "url": "https://jeugdfondssportencultuur.nl/fondsen/flevoland/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Laat geen hulp liggen",
+            "url": "https://www.gemeentelelystad.nl/laatgeenhulpliggen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Voor kinderen die door een handicap niet zelf naar school kunnen, naar speciaal onderwijs gaan of ver moeten reizen. Bij hoger inkomen soms een eigen bijdrage.",
+        "aanvragen": "Online met DigiD, elk schooljaar opnieuw; uiterlijk 1 juni voor vervoer vanaf de eerste schooldag.",
+        "url": "https://www.gemeentelelystad.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Lelystad: Leerlingenvervoer",
+            "url": "https://www.gemeentelelystad.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Jaarlijkse mantelzorgwaardering",
+        "omschrijving": "Lelystad geeft mantelzorgers van inwoners met een zorgvraag elk jaar een waardering: een Lelypas met tegoed of een geldbedrag. Vraag bij de gemeente na hoe u hem krijgt.",
+        "aanvragen": "Vraag na bij de gemeente of het steunpunt voor mantelzorgers.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR720037/1",
+        "bronnen": [
+          {
+            "titel": "Verordening maatschappelijke ondersteuning Lelystad 2024, artikel 27",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR720037/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "In 2026 liep de toegang tot jeugdhulp in Lelystad vast. Eind februari blokkeerde de gemeente de toegang van JEL tot de computers, waarna de directeur werd geschorst en later ontslagen. De dienstverlening lag een aantal dagen stil en is daarna hervat met een interim-directeur en ingehuurde medewerkers. Per 1 juli 2026 zijn er nieuwe aanbieders voor lokale jeugdhulp, en de gemeente wil de toegang opnieuw inrichten.\n\nBewaar bij een aanvraag de ontvangstbevestiging en noteer de datum: de gemeente moet binnen acht weken besluiten. Neem een gratis cliëntondersteuner van MEE Samen mee naar de gesprekken met JEL. Staat uw kind op een wachtlijst van een aanbieder zonder contract, geef dan toestemming om uw gegevens met de gemeente te delen, anders vervalt de plek bij de nieuwe aanbieders. Komt u er met JEL niet uit, gebruik dan de klachtroute van JEL of bel Jeugdstem.",
     "signalen": [

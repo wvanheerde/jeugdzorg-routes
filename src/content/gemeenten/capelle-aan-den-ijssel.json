@@ -279,6 +279,127 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Geldzorgen",
+      "url": "https://www.capelleaandenijssel.nl/geldzorgen"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kosten kinderopvang bij een sociaal medische indicatie (SMI)",
+        "omschrijving": "Heeft uw kind een beperking, is opvang nodig voor zijn ontwikkeling, of kunt u door ziekte of handicap tijdelijk niet voor uw kind zorgen? Dan kunt u een tegemoetkoming krijgen.",
+        "aanvragen": "Met het formulier op de pagina, als u geen bijstandsuitkering en geen kinderopvangtoeslag heeft.",
+        "url": "https://www.ijsselgemeenten.nl/kosten-kinderopvang",
+        "bronnen": [
+          {
+            "titel": "IJsselgemeenten: Kosten kinderopvang",
+            "url": "https://www.ijsselgemeenten.nl/kosten-kinderopvang",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Beleidsregels Tegemoetkoming kosten kinderopvang 2024",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR755502/1",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "VGZ Rotterdampakket",
+        "omschrijving": "Een zorgverzekering voor inwoners van Capelle. Met een inkomen onder 130% van de bijstand betaalt de gemeente mee en heeft u geen eigen risico.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online overstappen bij de verzekeraar, kan tot en met 31 december voor het nieuwe jaar.",
+        "url": "https://www.ijsselgemeenten.nl/zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "IJsselgemeenten: Zorgverzekering",
+            "url": "https://www.ijsselgemeenten.nl/zorgverzekering",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Heeft u een laag inkomen en bijzondere kosten die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u een vergoeding krijgen.",
+        "aanvragen": "Online met DigiD, binnen 13 weken na de datum van de rekening.",
+        "url": "https://www.ijsselgemeenten.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "IJsselgemeenten: Bijzondere bijstand aanvragen",
+            "url": "https://www.ijsselgemeenten.nl/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Heeft u een laag inkomen? Het fonds betaalt mee aan sport, zwemles, muziek, dans of toneel voor uw kind van 4 tot en met 17 jaar.",
+        "aanvragen": "Via een contactpersoon, bijvoorbeeld op school of bij het Centrum voor Jeugd en Gezin.",
+        "url": "https://www.capelleaandenijssel.nl/jeugdfonds-sport-cultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Capelle aan den IJssel: Jeugdfonds Sport & Cultuur",
+            "url": "https://www.capelleaandenijssel.nl/jeugdfonds-sport-cultuur",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld",
+        "omschrijving": "Heeft u een laag inkomen? Leergeld helpt bij schoolspullen, een laptop of een fiets voor uw schoolgaande kind.",
+        "url": "https://www.leergeldijssel.nl/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Capelle aan den IJssel: Geldzorgen",
+            "url": "https://www.capelleaandenijssel.nl/geldzorgen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking of een afstand van meer dan 6 km niet zelf naar school? Dan krijgt u een vergoeding voor fiets, ov of eigen vervoer, of aangepast vervoer.",
+        "aanvragen": "Online aanvragen met een schoolverklaring; besluit binnen 8 weken. Vraag op tijd aan.",
+        "url": "https://www.capelleaandenijssel.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Capelle aan den IJssel: Leerlingenvervoer",
+            "url": "https://www.capelleaandenijssel.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering (VVV-bon)",
+        "omschrijving": "Mantelzorgers die zijn geregistreerd bij Mantelzorg Capelle krijgen elk jaar een bedankje van de gemeente in de vorm van een VVV-bon. Dat kan ook als u zorgt voor uw kind.",
+        "ouders": "ja",
+        "aanvragen": "Meld u aan als mantelzorger bij Mantelzorg Capelle; u hoort dan wanneer u de bon kunt ophalen.",
+        "url": "https://mantelzorgcapelle.nl/veelgestelde-vragen/",
+        "bronnen": [
+          {
+            "titel": "Mantelzorg Capelle: Veelgestelde vragen",
+            "url": "https://mantelzorgcapelle.nl/veelgestelde-vragen/",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Mantelzorg Capelle: Home",
+            "url": "https://mantelzorgcapelle.nl/",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-22"
+  },
   "ervaringen": {
     "samenvatting": "Het CJG meldt zelf dat er bij de jeugdhulp nog wachttijden zijn: in 2025 werd 77% van de jeugdigen binnen 45 dagen geholpen, het doel is 90%. Ouders geven de jeugdhulp van het CJG gemiddeld een 8,2, maar dat komt uit een kleine meting. Sinds 2026 kijkt de gemeente vaker eerst naar groepsaanbod en lichte hulp en minder naar individuele hulp. Bij een controle van de gemeente bij vijf pgb-aanbieders ontbrak in veel personeelsdossiers een tijdige verklaring omtrent het gedrag (VOG).\n\nVraag bij de aanmelding hoe lang het duurt voor de hulp start, en vraag om een schriftelijk verslag en een kopie van uw aanvraag. Neem een gratis cliëntondersteuner van Welzijn Capelle mee. Bent u niet tevreden, bel dan de leidinggevende van het CJG of dien een klacht in. Komt u er niet uit, ga dan naar Klachtenportaal Zorg of vraag hulp van Jeugdstem.",
     "signalen": [

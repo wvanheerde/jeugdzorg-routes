@@ -153,6 +153,36 @@ export const uitbreidenRol = (x: string) => UITBREIDEN_STAP.find((u) => x.starts
 export const NODIG_KEUZE = [{ id: 'meer', label: 'Er is meer of andere hulp nodig' }, { id: 'afloop', label: 'Het besluit loopt af' }];
 export const AFLOOP_ZIN = 'Kijk op de beschikking wat de einddatum is. Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente heeft in de regel tot acht weken om te beslissen.';
 
+/**
+ * "Extra kosten of kinderbijslag": de regelingencheck. Elke stap over een regeling begint herkenbaar (REGELING_STAP); de antwoorden
+ * bepalen of die waarschijnlijk past (bovenaan, met "Past waarschijnlijk"), niet past (ingeklapt onder "Andere regelingen die soms passen")
+ * of nog open is (blijft staan). Wat past, staat in src/scripts/overzicht/geld.ts. Onder de stap komen de regelingen van de gemeente
+ * van deze soorten, onder één kopje (veld geldregelingen, template overzicht-regelingen-<rol> in gemeente-blokken/[slug].astro).
+ * Stap 1 heeft per leeftijd een eigen begin (leeftijdsstappen in geld.md); die horen allemaal bij dkiz.
+ */
+export type RegelingRol = 'dkiz' | 'extra' | 'meerkosten' | 'inkomen' | 'vervoer' | 'mantelzorg' | 'wlz' | 'aftrek';
+export const REGELING_STAP: { begin: string; rol: RegelingRol; soorten?: string[]; overzicht?: boolean }[] = [
+  { begin: 'Is uw kind 3', rol: 'dkiz' },
+  { begin: 'Heeft uw kind veel meer zorg nodig', rol: 'dkiz' },
+  { begin: 'Dubbele kinderbijslag is er voor', rol: 'dkiz' },
+  { begin: 'Bent u alleenstaande ouder', rol: 'extra' },
+  { begin: 'Maakt u extra kosten', rol: 'meerkosten', soorten: ['meerkosten', 'zorgkosten', 'kinderopvang', 'bijzondere-bijstand'] },
+  { begin: 'Is het met uw inkomen soms krap', rol: 'inkomen', soorten: ['zorgverzekering', 'meedoen'], overzicht: true },
+  { begin: 'Gaat uw kind naar speciaal onderwijs', rol: 'vervoer', soorten: ['leerlingenvervoer'] },
+  { begin: 'Zorgt u veel meer voor uw kind', rol: 'mantelzorg', soorten: ['mantelzorg'] },
+  { begin: 'Heeft uw kind altijd 24 uur per dag', rol: 'wlz' },
+  { begin: 'Betaalt u zelf zorgkosten', rol: 'aftrek' },
+];
+export const regelingStap = (x: string) => REGELING_STAP.find((r) => x.startsWith(r.begin));
+export const JA_NEE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee' }];
+export const JA_NEE_WEET = [...JA_NEE, { id: 'weet-niet', label: 'Weet ik niet' }];
+export const KOSTEN_KEUZE = [
+  { id: 'school', label: 'Vervoer naar school' },
+  { id: 'zorg', label: 'Reizen naar zorg of behandeling' },
+  { id: 'ziekte', label: 'Andere kosten door ziekte of beperking' },
+  { id: 'geen', label: 'Geen van deze' },
+];
+
 /** Bij de build: begint geen stap meer met een begin hierboven, dan faalt de build (anders valt de verdieping stil weg). */
 export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   // Veranderen de stappen van de verhuizing, dan moet de tijdlijn mee; anders valt de verdieping stil zonder dat iemand het ziet.
@@ -171,6 +201,9 @@ export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   if (!gescheidenStappen.some((x) => x.includes(KIES_ZIN))) throw new Error(`gescheiden.md: geen stap bevat "${KIES_ZIN}" (zie KIES_ZIN in src/lib/verdiepingen.ts)`);
   const uitbreidenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'uitbreiden')!);
   UITBREIDEN_STAP.forEach((u) => { if (!uitbreidenStappen.some((x) => x.startsWith(u.begin))) throw new Error(`uitbreiden.md: geen stap begint met "${u.begin}" (zie UITBREIDEN_STAP in src/lib/verdiepingen.ts)`); });
+  const geld = knelpunten.find((k) => k.id === 'geld')!;
+  const geldStappen = [...hoofdStappen(geld), ...geld.data.leeftijdsstappen.flatMap((l) => Object.entries(l).filter(([b]) => b !== 'begin').map(([, t]) => t as string))];
+  REGELING_STAP.forEach((r) => { if (!geldStappen.some((x) => x.startsWith(r.begin))) throw new Error(`geld.md: geen stap begint met "${r.begin}" (zie REGELING_STAP in src/lib/verdiepingen.ts)`); });
   if (!uitbreidenStappen.some((x) => x.includes(AFLOOP_ZIN))) throw new Error(`uitbreiden.md: geen stap bevat "${AFLOOP_ZIN}" (zie AFLOOP_ZIN in src/lib/verdiepingen.ts)`);
   const afgewezenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'afgewezen')!);
   AFGEWEZEN_STAP.forEach((a) => { if (!afgewezenStappen.some((x) => x.startsWith(a.begin))) throw new Error(`afgewezen.md: geen stap begint met "${a.begin}" (zie AFGEWEZEN_STAP in src/lib/verdiepingen.ts)`); });

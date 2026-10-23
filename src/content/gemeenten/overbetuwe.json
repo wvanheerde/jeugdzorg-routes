@@ -245,6 +245,149 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Toeslagen en bijdragen",
+      "url": "https://www.sociaalteamoverbetuwe.nl/toeslagen-en-bijdragen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatie eigen risico",
+        "omschrijving": "Met een laag inkomen kunt u een deel van uw eigen risico terugkrijgen als u het volledig hebt gebruikt. Alleen voor uzelf vanaf 18 jaar, niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Vraag het aanvraagformulier aan bij het Sociaal Team.",
+        "url": "https://www.sociaalteamoverbetuwe.nl/compensatie-eigen-risico",
+        "bronnen": [
+          {
+            "titel": "Sociaal Team Overbetuwe: Compensatie eigen risico",
+            "url": "https://www.sociaalteamoverbetuwe.nl/compensatie-eigen-risico",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Minder betalen door medisch afval",
+        "omschrijving": "Hebt u door medische redenen veel restafval? Dan betaalt u een vast bedrag per jaar in plaats van per keer dat u de container buiten zet.",
+        "aanvragen": "Bekijk op de pagina of de jaarregeling voor u voordeliger is.",
+        "url": "https://www.overbetuwe.nl/minder-betalen-door-medisch-afval",
+        "bronnen": [
+          {
+            "titel": "Gemeente Overbetuwe: Minder betalen door medisch afval",
+            "url": "https://www.overbetuwe.nl/minder-betalen-door-medisch-afval",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Opvang bij ziekte (tegemoetkoming kinderopvang, SMI)",
+        "omschrijving": "Kunt u tijdelijk niet voor uw kind (0 tot 4 jaar) zorgen door ziekte, een beperking of een crisis, en hebt u geen kinderopvangtoeslag? Dan kunt u een tegemoetkoming krijgen.",
+        "aanvragen": "Via het Sociaal Team, dat eerst een indicatie (SMI) afgeeft.",
+        "url": "https://www.sociaalteamoverbetuwe.nl/kinderopvang",
+        "bronnen": [
+          {
+            "titel": "Sociaal Team Overbetuwe: Kinderopvang",
+            "url": "https://www.sociaalteamoverbetuwe.nl/kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Regeling tegemoetkoming kosten kinderopvang bij SMI gemeente Overbetuwe 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR759859/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en weinig spaargeld, en onverwachte noodzakelijke kosten die niets anders vergoedt? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Vraag het aanvraagformulier aan bij het Sociaal Team, voordat u de kosten betaalt.",
+        "url": "https://www.sociaalteamoverbetuwe.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Sociaal Team Overbetuwe: Bijzondere bijstand aanvragen",
+            "url": "https://www.sociaalteamoverbetuwe.nl/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoenregeling (Meedoen in Overbetuwe)",
+        "omschrijving": "Voor kinderen vanaf 4 jaar en volwassenen in een gezin met weinig geld. U kiest in een webwinkel sport, zwemles, cultuur of een uitstapje.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via de website van Meedoen in Overbetuwe; u krijgt een account met punten.",
+        "url": "https://meedoeninoverbetuwe.nl",
+        "bronnen": [
+          {
+            "titel": "Meedoen in Overbetuwe",
+            "url": "https://meedoeninoverbetuwe.nl",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Sociaal Team Overbetuwe: Toeslagen en bijdragen",
+            "url": "https://www.sociaalteamoverbetuwe.nl/toeslagen-en-bijdragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Oost Betuwe",
+        "omschrijving": "Hulp voor kinderen van 3 tot 21 jaar uit gezinnen met geldzorgen: schoolspullen, laptop, gymkleding, sportcontributie en zwemdiploma.",
+        "aanvragen": "Online via de website van de stichting.",
+        "url": "https://www.leergeld.nl/oostbetuwe/",
+        "bronnen": [
+          {
+            "titel": "Stichting Leergeld Oost Betuwe",
+            "url": "https://www.leergeld.nl/oostbetuwe/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Sociaal Team Overbetuwe: Mijn inkomen verhogen",
+            "url": "https://www.sociaalteamoverbetuwe.nl/mijn-inkomen-verhogen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking, ziekte of afstand (6 kilometer of meer) niet zelf naar school? Dan krijgt u een vergoeding of vervoer. Op de basisschool soms met eigen bijdrage.",
+        "aanvragen": "Online, met een schoolverklaring. De gemeente beslist binnen 8 weken.",
+        "url": "https://www.sociaalteamoverbetuwe.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Sociaal Team Overbetuwe: Leerlingenvervoer",
+            "url": "https://www.sociaalteamoverbetuwe.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijks bedankje voor een mantelzorger van 18 jaar of ouder die minstens 8 uur per week zorgt: € 140 voor het jaar 2026.",
+        "aanvragen": "Wie de zorg krijgt, vraagt het aan; voor een kind doet u dat namens uw kind.",
+        "url": "https://www.sociaalteamoverbetuwe.nl/mantelzorgwaardering-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Sociaal Team Overbetuwe: Mantelzorgwaardering aanvragen",
+            "url": "https://www.sociaalteamoverbetuwe.nl/mantelzorgwaardering-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

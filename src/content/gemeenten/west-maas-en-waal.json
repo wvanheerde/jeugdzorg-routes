@@ -221,6 +221,166 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Minimaregelingen",
+      "url": "https://www.westmaasenwaal.nl/minimaregelingen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatieregeling zorgkosten",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Met een laag inkomen en een chronische ziekte of beperking, of een aanvullende verzekering, krijgt u een bedrag per jaar.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Online, uiterlijk 31 december van dat jaar. Chronisch zieken sturen de Wmo-beschikking mee.",
+        "url": "https://www.westmaasenwaal.nl/compensatieregeling-zorgkosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Compensatieregeling zorgkosten",
+            "url": "https://www.westmaasenwaal.nl/compensatieregeling-zorgkosten",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels lokaal minimabeleid 2024",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR707191/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor medische kosten",
+        "omschrijving": "Voor kosten die uw zorgverzekering niet vergoedt, zoals een medisch dieet, vaker wassen van kleding, reiskosten naar het ziekenhuis of de eigen bijdrage voor thuiszorg.",
+        "aanvragen": "Via de uitvoerder van de gemeente, voordat u de kosten maakt. Bewaar alle bonnen.",
+        "url": "https://www.westmaasenwaal.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Bijzondere bijstand",
+            "url": "https://www.westmaasenwaal.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Sociaal Medische Indicatie voor kinderopvang",
+        "omschrijving": "Kunt u tijdelijk niet voor uw kind (0 tot 12 jaar) zorgen om medische of sociale reden, en hebt u geen kinderopvangtoeslag? Dan helpt de gemeente met de kosten, tot 6 maanden.",
+        "aanvragen": "Via het aanvraagformulier op de pagina. Daarna nodigt VraagWijzer u uit voor een gesprek.",
+        "url": "https://www.westmaasenwaal.nl/sociaal-medische-indicatie-voor-kinderopvang",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Sociaal Medische Indicatie voor kinderopvang",
+            "url": "https://www.westmaasenwaal.nl/sociaal-medische-indicatie-voor-kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregel kinderopvang op sociaal medische indicatie",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR674350/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke kosten die u door bijzondere omstandigheden hebt en die niets anders vergoedt, als u weinig inkomen en vermogen hebt.",
+        "aanvragen": "Via de uitvoerder van de gemeente, voordat u de kosten maakt.",
+        "url": "https://www.westmaasenwaal.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Bijzondere bijstand",
+            "url": "https://www.westmaasenwaal.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Meedoen-regeling tot en met 17 jaar",
+        "omschrijving": "Een bijdrage voor sport, een vereniging, schoolkosten of een fiets voor uw kind, als u een laag inkomen hebt. Voor kinderen van 0 tot 18 jaar.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online, elk kalenderjaar opnieuw; aanvragen over voorgaande jaren kan niet.",
+        "url": "https://www.westmaasenwaal.nl/MeedoenVoorKinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Meedoen-regeling tot en met 17 jaar",
+            "url": "https://www.westmaasenwaal.nl/MeedoenVoorKinderen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Computerregeling basisonderwijs",
+        "omschrijving": "Een bijdrage voor een laptop, tablet of 2-in-1 voor uw kind op de basisschool, als u een laag inkomen hebt.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via het aanvraagformulier op de pagina.",
+        "url": "https://www.westmaasenwaal.nl/computerregelingBasisonderwijs",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Computerregeling basisonderwijs",
+            "url": "https://www.westmaasenwaal.nl/computerregelingBasisonderwijs",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Computerregeling voortgezet onderwijs",
+        "omschrijving": "Een bijdrage voor een laptop of tablet voor uw kind in het voortgezet of middelbaar onderwijs (jonger dan 18 jaar), als u een laag inkomen hebt.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online via het aanvraagformulier op de pagina.",
+        "url": "https://www.westmaasenwaal.nl/computerregeling",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Computerregeling voortgezet onderwijs",
+            "url": "https://www.westmaasenwaal.nl/computerregeling",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een handicap of stoornis niet zelf naar school? Dan kunt u een vergoeding voor openbaar vervoer of fiets, een kilometervergoeding of aangepast vervoer krijgen.",
+        "aanvragen": "Online met DigiD. De gemeente beslist binnen acht weken, dus vraag op tijd aan.",
+        "url": "https://www.westmaasenwaal.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Leerlingenvervoer",
+            "url": "https://www.westmaasenwaal.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Elk jaar twee waardebonnen voor mantelzorgers, ook als u zorgt voor uw kind. U meldt zich aan bij het Steunpunt Mantelzorg.",
+        "ouders": "ja",
+        "aanvragen": "Via het Steunpunt Mantelzorg; u wordt dan ook als mantelzorger geregistreerd.",
+        "url": "https://www.westmaasenwaal.nl/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Gemeente West Maas en Waal: Mantelzorgcompliment",
+            "url": "https://www.westmaasenwaal.nl/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente West Maas en Waal: Ondersteuning voor mantelzorgers",
+            "url": "https://www.westmaasenwaal.nl/ondersteuning-voor-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

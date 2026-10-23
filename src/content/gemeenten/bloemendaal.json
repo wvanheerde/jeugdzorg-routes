@@ -247,6 +247,145 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor minima",
+      "url": "https://www.bloemendaal.nl/hulp-bij-geldzaken-en-werk/regelingen-voor-minima"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang op sociaal-medische indicatie",
+        "omschrijving": "Hebt u een beperking of een psychisch probleem en daardoor kinderopvang nodig voor uw kind (0 tot en met 12 jaar)? Dan kan de gemeente meebetalen.",
+        "aanvragen": "Aanvraag bij de gemeente, met advies van het Centrum voor Jeugd en Gezin.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR654049/1",
+        "bronnen": [
+          {
+            "titel": "Verordening kinderopvang op sociaal-medische indicatie Bloemendaal 2021",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR654049/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Gemeentepolis)",
+        "omschrijving": "Een collectieve zorgverzekering met korting op de aanvullende verzekering. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online aanmelden; de Intergemeentelijke Afdeling Sociale Zaken controleert of u meedoet.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/bloemendaal/",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: Bloemendaal",
+            "url": "https://www.gezondverzekerd.nl/gemeente/bloemendaal/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u onverwachte, noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u bijzondere bijstand krijgen, als gift of lening.",
+        "aanvragen": "Online met DigiD, bij de Intergemeentelijke Afdeling Sociale Zaken.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/regelingen-volwassenen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "IASZ: Bijzondere bijstand",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/regelingen-volwassenen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Eropuit! (kinderen)",
+        "omschrijving": "Een bijdrage voor sport, cultuur of een dagje uit voor kinderen jonger dan 18 jaar, bijvoorbeeld lidmaatschap van een club of muziekles.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, uiterlijk drie maanden na afloop van het kalenderjaar.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/eropuit-kinderen",
+        "bronnen": [
+          {
+            "titel": "IASZ: Eropuit! (kinderen)",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/eropuit-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "IASZ: Inkomensgrenzen",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/inkomensgrenzen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Bijdrage schoolkosten",
+        "omschrijving": "Een bijdrage in schoolkosten zoals ouderbijdrage, schoolmateriaal of schoolreisje voor kinderen van 4 tot 18 jaar op de basisschool, middelbare school of het beroepsonderwijs.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, uiterlijk drie maanden na afloop van het schooljaar.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-schoolkosten",
+        "bronnen": [
+          {
+            "titel": "IASZ: Bijdrage schoolkosten",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-schoolkosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Bijdrage computer",
+        "omschrijving": "Een bijdrage in de kosten van een computer of laptop voor kinderen van 8 tot en met 17 jaar die bij u wonen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD, met betaalbewijzen, uiterlijk drie maanden na afloop van het kalenderjaar.",
+        "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-computer",
+        "bronnen": [
+          {
+            "titel": "IASZ: Bijdrage computer",
+            "url": "https://www.iasz.nl/hulp-bij-laag-inkomen/kindregelingen/bijdrage-computer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Is school meer dan 6 kilometer van huis, of kan uw kind door een handicap niet zelf reizen? Dan kunt u een vergoeding of aangepast vervoer krijgen.",
+        "aanvragen": "Online met DigiD; vóór 1 juni voor het nieuwe schooljaar. Aanvragen tijdens het schooljaar kan ook.",
+        "url": "https://www.bloemendaal.nl/scholen-leerplicht-en-kinderopvang/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Bloemendaal: Leerlingenvervoer",
+            "url": "https://www.bloemendaal.nl/scholen-leerplicht-en-kinderopvang/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Dag van de Mantelzorg en ondersteuning door Tandem",
+        "omschrijving": "Mantelzorgers, ook van een kind met extra zorg, krijgen steun van Tandem en een uitnodiging voor de Dag van de Mantelzorg. Geen geldbedrag.",
+        "ouders": "ja",
+        "aanvragen": "Meld u aan bij Tandem; dan krijgt u in oktober vanzelf een uitnodiging.",
+        "url": "https://www.tandemmantelzorg.nl/geld-en-regelzaken/",
+        "bronnen": [
+          {
+            "titel": "Tandem: Hulp bij geld- en regelzaken",
+            "url": "https://www.tandemmantelzorg.nl/geld-en-regelzaken/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Bloemendaal: Hulp bij mantelzorg",
+            "url": "https://www.bloemendaal.nl/zorg-en-hulp/hulp-bij-mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

@@ -241,6 +241,139 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomensondersteuning",
+      "url": "https://www.wassenaar.nl/inkomensondersteuning"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Regeling Hoge Zorgkosten",
+        "omschrijving": "Hebt u of uw kind in 2026 € 300 of meer aan zorgkosten gehad die de zorgverzekering niet vergoedt, zoals tandarts of fysiotherapie? Dan kunt u een geldbedrag aanvragen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD. U bent zelf 18 jaar of ouder. Aanvragen kan alleen voor kosten van dit jaar.",
+        "url": "https://www.lv.nl/regeling-hoge-zorgkosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leidschendam-Voorburg: Regeling Hoge Zorgkosten (ook voor Wassenaar)",
+            "url": "https://www.lv.nl/regeling-hoge-zorgkosten",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Wassenaar: Inkomensondersteuning",
+            "url": "https://www.wassenaar.nl/inkomensondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociaal-medische indicatie",
+        "omschrijving": "Voor kinderen tot 12 jaar als een huisarts, maatschappelijk werker of andere hulpverlener opvang nodig vindt om medische of sociale redenen. Tijdelijk, zolang de indicatie duurt.",
+        "aanvragen": "Met een verklaring van uw huisarts of hulpverlener; vraag de gemeente naar de aanvraag.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR627521/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels kinderopvang sociaal domein 2019 Wassenaar",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR627521/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Gemeentepolis)",
+        "omschrijving": "Een zorgverzekering van Menzis met korting op de aanvullende verzekering. Kinderen tot 18 jaar zijn gratis meeverzekerd bij hun ouder.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online, via de website van de gemeentepolis.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/wassenaar/zorgverzekeringen",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: zorgverzekeringen Wassenaar",
+            "url": "https://www.gezondverzekerd.nl/gemeente/wassenaar/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke extra kosten bij ziekte, een beperking of een andere reden, die u niet zelf kunt betalen en die niets anders vergoedt. Soms betaalt u een deel zelf.",
+        "aanvragen": "Via de gemeente Leidschendam-Voorburg, die dit voor Wassenaar uitvoert.",
+        "url": "https://www.wassenaar.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Wassenaar: Bijzondere bijstand",
+            "url": "https://www.wassenaar.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Tegemoetkoming school-, cultuur- en sportkosten",
+        "omschrijving": "Voor schoolgaande kinderen tot 18 jaar in een gezin met een laag inkomen: een vergoeding voor bijvoorbeeld schoolreisje, schriften, boeken of een fiets. Eén keer per schooljaar.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD als u een uitkering hebt; anders telefonisch via de gemeente.",
+        "url": "https://www.wassenaar.nl/inkomensondersteuning",
+        "bronnen": [
+          {
+            "titel": "Gemeente Wassenaar: Inkomensondersteuning",
+            "url": "https://www.wassenaar.nl/inkomensondersteuning",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Regeling maatschappelijke participatie",
+        "omschrijving": "Hebt u een laag inkomen? Dan krijgt u een tegemoetkoming voor sociale, culturele en sportieve activiteiten, zoals sportclub, cursus of bibliotheek. Ook voor uw kind.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online als u een bijstandsuitkering hebt; anders telefonisch via de gemeente.",
+        "url": "https://www.lv.nl/regeling-maatschappelijke-participatie",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leidschendam-Voorburg: Regeling maatschappelijke participatie (Voorschoten en Wassenaar)",
+            "url": "https://www.lv.nl/regeling-maatschappelijke-participatie",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Wassenaar",
+        "omschrijving": "Hulp voor uw kind bij kosten die u niet kunt betalen, bijvoorbeeld een fiets, zwemles, tekenles of een cadeau en traktaties voor een verjaardag.",
+        "aanvragen": "Via de aanvraag op de website van Leergeld.",
+        "url": "https://www.leergeldwassenaar.nl/mogelijkheden",
+        "bronnen": [
+          {
+            "titel": "Gemeente Wassenaar: Geld voor school en sport",
+            "url": "https://www.wassenaar.nl/geld-voor-school-en-sport",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Een vergoeding of voorziening voor de kosten van reizen naar school als uw kind dat door een beperking niet zelfstandig kan, of naar een school ver weg gaat.",
+        "aanvragen": "Elk jaar opnieuw, online met DigiD, uiterlijk 15 mei.",
+        "url": "https://www.wassenaar.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Wassenaar: Leerlingenvervoer",
+            "url": "https://www.wassenaar.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Inwoners geven het eerste contact met het Sociaal Team gemiddeld een 7,8, vooral omdat ze vriendelijk worden geholpen. Verbeterpunten zijn terugkoppeling en duidelijkheid over wachttijden en termijnen, vooral bij aanvragen voor specialistische hulp. Voor gesprekken met een medewerker jeugd is er een wachtlijst. Meer kinderen krijgen specialistische jeugdhulp (701 in 2025, tegen 644 in 2024), maar Wassenaar zit onder het landelijk gemiddelde.\n\nVraag bij uw aanmelding bij het Sociaal Team hoe lang het duurt voor u een medewerker jeugd spreekt, en leg afspraken schriftelijk vast. Hoort u binnen 8 weken niets over uw aanvraag, vraag dan naar de stand van zaken. Neem een onafhankelijke cliëntondersteuner van MEE mee. Een klacht over de gemeente dient u in via de klachtregeling van de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [

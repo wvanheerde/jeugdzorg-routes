@@ -236,6 +236,161 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor mensen met een laag inkomen",
+      "url": "https://www.vlieland.nl/regelingen-voor-mensen-met-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming in de Medische Kosten",
+        "omschrijving": "Voor medische kosten die uw zorgverzekering niet vergoedt, zoals bril, tandarts en fysiotherapie. U bent 18 jaar of ouder en hebt een laag inkomen.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD of met een papieren formulier; eerst bij de zorgverzekering declareren.",
+        "url": "https://www.vlieland.nl/tegemoetkoming-medische-kosten-naast-je-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Tegemoetkoming medische kosten naast je zorgverzekering",
+            "url": "https://www.vlieland.nl/tegemoetkoming-medische-kosten-naast-je-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "De Dienst Noardwest Fryslân: Vergoeding medische kosten",
+            "url": "https://www.dedienst.nl/vergoedingen/medischekosten/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatieregeling Eigen Risico (CER)",
+        "omschrijving": "Hebt u uw eigen risico helemaal verbruikt en een inkomen tot de bijstandsnorm? Dan krijgt u een tegemoetkoming. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 100,
+        "aanvragen": "Aanvragen kan tot en met 30 juni van het jaar erna, met het bericht van de zorgverzekeraar.",
+        "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Compensatieregeling Eigen Risico",
+            "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor zorgkosten",
+        "omschrijving": "Hebt u een goede zorgverzekering en toch hoge zorgkosten die niet (helemaal) vergoed worden? Dan kunt u extra hulp krijgen via de bijzondere bijstand.",
+        "aanvragen": "Vraag het aan bij De Dienst Noardwest Fryslân, vóór u de kosten maakt.",
+        "url": "https://www.vlieland.nl/bijzondere-bijstand-voor-zorgkosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Bijzondere bijstand voor zorgkosten",
+            "url": "https://www.vlieland.nl/bijzondere-bijstand-voor-zorgkosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang met een sociaal-medische indicatie",
+        "omschrijving": "Kinderopvang vergoed als u door ernstige lichamelijke, psychische of sociale problemen tijdelijk niet voor uw kind kunt zorgen. Een onafhankelijk adviesorgaan geeft advies.",
+        "aanvragen": "Vraag het aan bij de gemeente; de beleidsregels zeggen wat u moet aanleveren.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR658872/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels tegemoetkoming kinderopvang Sociaal Medische Indicatie Vlieland 2021",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR658872/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke extra kosten bij ziekte, een beperking of een andere reden, die u niet zelf kunt betalen en die niets anders vergoedt, zoals een bril of tandartskosten.",
+        "aanvragen": "Vraag het aan vóór u de kosten maakt.",
+        "url": "https://www.vlieland.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Bijzondere bijstand",
+            "url": "https://www.vlieland.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Samen voor alle kinderen (Stichting Leergeld)",
+        "omschrijving": "Kinderen van 4 tot 18 jaar uit gezinnen met weinig geld krijgen hulp bij sport, muziekles, schoolreis, fiets of computer. Het geld gaat naar de vereniging of school.",
+        "inkomensgrens": 120,
+        "aanvragen": "Vooraf online aanvragen via de website van Stichting Leergeld.",
+        "url": "https://www.vlieland.nl/vergoeding-sport-muziekles-en-schoolkosten-stichting-leergeld",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Vergoeding sport, muziekles en schoolkosten (Stichting Leergeld)",
+            "url": "https://www.vlieland.nl/vergoeding-sport-muziekles-en-schoolkosten-stichting-leergeld",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur",
+        "omschrijving": "Kinderen en jongeren uit gezinnen met weinig geld krijgen contributie of lesgeld betaald voor sport, muziek of een andere creatieve activiteit.",
+        "aanvragen": "Via het formulier van het Jeugdfonds; school of buurtsportcoach kan helpen.",
+        "url": "https://www.vlieland.nl/jeugdfonds-sport-cultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Jeugdfonds Sport & Cultuur",
+            "url": "https://www.vlieland.nl/jeugdfonds-sport-cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Vergoeding leerlingenvervoer",
+        "omschrijving": "Voor kinderen op een school voor (speciaal) onderwijs op 6 kilometer of meer, of met een handicap. Ook voor vmbo-leerlingen die dagelijks naar Terschelling reizen.",
+        "aanvragen": "Online, met een verklaring van de school. Aanvragen voor elk schooljaar.",
+        "url": "https://www.vlieland.nl/vergoeding-leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Vergoeding leerlingenvervoer",
+            "url": "https://www.vlieland.nl/vergoeding-leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Vlieland: Tegemoetkoming kosten dagelijks vervoer Vlieland-Terschelling",
+            "url": "https://www.vlieland.nl/tegemoetkoming-kosten-dagelijks-vervoer-vlieland-terschelling",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "ouders": "ja",
+        "omschrijving": "€ 100 in 2026 voor wie langer dan drie maanden gemiddeld vier uur per week extra zorgt, ook voor een eigen (pleeg)kind. De mantelzorger is 18 jaar of ouder.",
+        "aanvragen": "Met het aanvraagformulier, uiterlijk 31 december 2026. Zorgvrager of mantelzorger kan het invullen.",
+        "url": "https://www.vlieland.nl/mantelzorgcompliment",
+        "bronnen": [
+          {
+            "titel": "Gemeente Vlieland: Mantelzorgcompliment",
+            "url": "https://www.vlieland.nl/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Op Vlieland is er één dorp en één school. Volgens Omroep Zilt sprak de Kinderombudsvrouw in 2025 met ongeveer 100 kinderen; sommigen voelen zich onvrij en kunnen gepest worden moeilijk ontlopen. De gemeente stelde in februari 2026 een Programma Jeugd vast, en sinds september 2026 werkt er een jongerenwerker. Een cliëntervaringsonderzoek Jeugd en gemeten wachttijden van de toegang zijn niet openbaar te vinden.\n\nBegin bij het Eilandteam of bij de buurtwelzijnswerker op het eiland. Vraag bij uw aanmelding hoe lang het duurt en of de hulp op Vlieland of op het vasteland is. Leg afspraken schriftelijk vast en neem een onafhankelijke cliëntondersteuner mee. Een klacht over het team dient u in bij de gemeente; de Nationale ombudsman is de volgende stap.",
     "signalen": [

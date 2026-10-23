@@ -100,3 +100,125 @@ Bij een volgende ronde nakijken of er een nieuwer cijfer is (staan in `doorloopt
 - capelle-aan-den-ijssel: raadsvragen over schoolverzuim en thuiszitters (2026). Nakijken als het college antwoordt.
 - nissewaard: Beschikbaarheidswijzer heeft mogelijk geen pagina voor Nissewaard (bronnen noemen /jeugdhulp/voorne-aan-zee).
 - baarle-nassau: rapportcijfer cliëntervaringsonderzoek 7,7 (raadsbrief) of 7,9 (factsheet).
+
+## Geldregelingen (regelingencheck), sinds 21-10-2026
+
+- Elk jaar in januari: inkomensgrenzen en bedragen in `geldregelingen` (veranderen per 1 januari).
+- apeldoorn: inkomensgrens RegelRecht/Kidsregeling 130% geldt volgens het Verzamelbesluit Participatiewet (art. 4.10) in 2025 en 2026; vanaf 2027 weer 120%, tenzij verlengd. Nakijken in januari 2027.
+- Sites offline op 21-10-2026 (lek in PHP), gelezen via archiefkopieën; url's nakijken zodra de site terug is:
+  - apeldoorn (apeldoorn.nl, samen055.nl; kopieën maart-juni 2026);
+  - assen (assen.nl: kindpakket, leerlingenvervoer, mantelzorgwaardering; kopieën okt-dec 2025). Kindpakket: 130% (Leergeld, kopie 2025) of 120% (WPDA 2026)?
+  - druten (druten.nl, leergeld2stromenland.nl; kopieën april-juni 2026).
+- amsterdam: amsterdam.nl achter een bot-controle; meerkosten- en zorgverzekeringspagina van de gemeente niet zelf gelezen (url uit de A-Z-lijst). Mantelzorgwaardering niet gevonden, ook niet als "niet aanwezig" vastgelegd.
+- den-haag: denhaag.nl gaf 403/502 op 21-10-2026; alles via archiefkopieën (februari-juni 2026). Mantelzorgwaardering: aanvraagperiode 2026 niet bevestigd.
+- eindhoven: inkomensgrens Meedoenbijdrage 130% ("In 2025 en 2026 hebben meer mensen in Eindhoven recht"): mogelijk tijdelijk, nakijken in januari 2027.
+- rotterdam: Jeugdtegoed (bedragen en 130%), mantelzorgcadeau en VGZ Rotterdampakket gelden voor 2026; nakijken in januari 2027.
+- utrecht: utrecht.nl en leergeldutrecht.nl offline op 21-10-2026; rondkomen-, mantelzorg- en leerlingenvervoerpagina via archief (2025-10 / 2026-01). Leergeld-bedragen uit 2024.
+- groningen: gemeente.groningen.nl offline op 21-10-2026; meerkostenpagina via kopie 2023-09-21, leerlingenvervoer via kopie 2019; url's bijzondere bijstand, leerlingenvervoer en minimaloket niet live gecontroleerd. Bedrag meerkosten € 400 (2026).
+- tilburg: inkomenstabellen wijzigen per 1 januari en 1 juli.
+- arnhem: Wijkteams Arnhem (aanvraag leerlingenvervoer) offline op 21-10-2026; aanvraagweg nakijken. Collectieve aanvullende zorgverzekering via Menzis loopt af (2026): nietGevonden.
+- haarlemmermeer: haarlemmermeergemeente.nl offline op 21-10-2026; pagina's via archief (sept 2025-feb 2026). Kindpakket 150% geldt voor aanvragen 1-6-2026 t/m 31-5-2027 (CVDR754270); nakijken vanaf juni 2027.
+- maastricht: pagina "tegemoetkoming in de kosten van onderwijs" gaf 403 op 21-10-2026; mogelijk een extra meedoen-regeling.
+- dordrecht: meemantelzorg.nl gaf 503 op 21-10-2026; Gemeentepolis-pagina spreekt over 2027.
+- zwolle: zwolle.nl offline op 21-10-2026; alle gemeentepagina's via kopieën sept-nov 2025 (grens 130%, Kindregeling "alleen voor 2025"). Nakijken als de site terug is.
+- zoetermeer: zoetermeer.nl offline op 21-10-2026; pagina's via archief (feb-okt 2026). Stadspas079 komt in 2027.
+- emmen: gemeente.emmen.nl offline op 21-10-2026; pagina's via archief (okt-dec 2025). "Kindpakket (0 tot 21 jaar)" in het menu niet onderzocht. Mantelzorgcompliment: url naar beleidsregels (geen gemeentepagina); bedrag € 50 of € 250 onduidelijk.
+- delft: delftvoorelkaar.nl (mantelzorgwaardering) offline op 21-10-2026; via archief (kopie 2025).
+- venlo: venlo.nl offline op 21-10-2026; pagina's via archief (maart-okt 2026). Kindpakket en Jeugdfonds alleen in een kopie uit 2022: niet opgenomen.
+- apeldoorn (zorgkosten): pagina's via archief (maart-juni 2026).
+- zwolle (zorgkosten): zwolle.nl/voorbeelden-van-kosten via kopie 2025-08-11.
+- haarlemmermeer: /bijzondere-bijstand is nu de pagina "Volwassenpakket"; zorgkosten alleen uit beleidsregels 2026.
+- apeldoorn: vergoeding kinderopvang (sociaal-medische indicatie) 125% en eigen risico/parkeerkaart 130% niet zelf gecontroleerd (site offline, archief gaf geen antwoord).
+- venlo, druten (kinderopvang SMI): url naar de beleidsregel, geen gemeentepagina; nakijken als de sites online zijn.
+- almere: kinderopvang (SMIK): "In 2026 is het geld op"; nakijken in januari 2027.
+- Ronde 22-10-2026 (enschede..hengelo, 20 gemeenten):
+  - heerlen: heerlen.nl offline op 22-10-2026 ("Tijdelijk niet beschikbaar"); alles via archief (zorgverzekering 2026-02, kindpakket 2025-08, mantelzorg/leerlingenvervoer/bijzondere bijstand 2024-07, laag inkomen 2024-05). Termijn leerlingenvervoer "vóór 1 mei" en mantelzorgbedrag uit 2024: nakijken als de site terug is. Kinderopvang (SMI) en zorgkosten niet onderzocht.
+  - hilversum: tegemoetkoming chronisch zieken: route via dubbele kinderbijslag vervalt per 1-1-2027; mantelzorgwaardering € 50 uit de regeling van 2024 (CVDR726037), nieuwere regeling nakijken.
+  - helmond: nadere regels mantelzorgwaardering 2026 vervallen 1-11-2026; bedrag (€ 50) nakijken als de regels voor 2027 er zijn.
+  - sittard-geleen: tegemoetkoming zorgkosten 2026 (€ 150, 130%) loopt tot 1-7-2027.
+  - sudwest-fryslan: eigen-risicotegemoetkoming 2026 aanvragen t/m 31-3-2027; bedrag € 265 nakijken in 2027.
+  - nissewaard: thuisinnissewaard.nl offline op 22-10-2026 (mantelzorg en mogelijk meerkosten daar); zorgverzekeringspagina geschreven voor 2026.
+  - land-van-cuijk: mantelzorgwaardering € 100 (2026), aanvragen tot 1 oktober; nakijken in 2027.
+- Ronde 22-10-2026 middag (schiedam..barneveld):
+  - Sites offline op 22-10-2026, gelezen via archief: voorne-aan-zee (voorneaanzee.nl, kopieën 2026, o.a. kindpakket 2026-05-20); capelle-aan-den-ijssel (capelleaandenijssel.nl en ijsselgemeenten.nl, kopieën 2025-11 t/m 2026-06; mantelzorgcapelle.nl 2025); westerkwartier (westerkwartier.nl, kopieën 2026; mantelzorgwaardering-pagina niet in het archief); zeist (rsdkrh.nl, kopieën 2026-01 t/m 2026-06); bergen-op-zoom (bergenopzoom.nl/leerlingenvervoer 2026-05-15, /mantelzorg 2026-04-17); gouda (gouda.mantelzorgcentraal.nl, kopie 2026-05-14; waardering 2026 stond nog niet vast). Nakijken als de sites terug zijn.
+  - schiedam: meerkosten en eigen risico € 100 "over 2025"; formulieren 2026 staan al online: nakijken in 2027.
+  - nieuwegein: aanmeldperiode zorgverzekering op de WIL-pagina nog die van 2025; mantelzorgnieuwegein.nl gaf 503.
+  - stichtse-vecht: nieuwe subsidieregeling "Ondersteuning Mantelzorgers 2027–2031"; mantelzorgcompliment nakijken in 2027.
+  - westerkwartier: meerkostenregeling (eigen risico) aanvragen t/m 30 juni 2026; nakijken in 2027.
+  - barneveld: beleidsregels SMI uit 2019 (CVDR619980), nog geldend.
+- Ronde 23-10-2026 (vijfheerenlanden..heerenveen):
+  - roermond: inkomensgrens 130% voor bijzondere bijstand en inkomenstoeslag tijdelijk tot 1-1-2027 (nieuwsbericht 6-5-2025); nakijken in januari 2027.
+  - den-helder: Kindpakket aanvragen t/m 30 november 2026; aanvraagperiode 2027 nakijken.
+  - goeree-overflakkee: mantelzorgcompliment € 150 (2026), aanvraag 15 sep t/m 31 okt; nakijken of de periode elk jaar terugkomt.
+  - krimpenerwaard: mantelzorgwaardering inleveren uiterlijk 31 oktober (pagina) of 1 november (verordening); nakijken in 2027.
+  - heerenveen: Heerenveen Zorgt Regeling € 170 (2026), aanvraag 1 feb t/m 31 okt 2026.
+  - midden-groningen: termijn leerlingenvervoer "1 juni 2026" op de pagina; begin 2027 nakijken.
+  - woerden: Ferm Werk-bedragen en -grenzen voor 2026 (TMZ € 260).
+  - oosterhout: mantelzorgwaardering-pagina noemt nog "in 2024" € 50; leerlingenvervoer via nieuwe uitvoerder (Forseti).
+- Rondes 23-10-2026 middag/avond (noordwijk..aalten, 100 gemeenten):
+  - wijchen: kindregeling stopt per 1-1-2027, daarna via Stichting Leergeld (tekst noemt de datum); na 1-1-2027 de tekst aanpassen.
+  - eemsdelta: meerkostenpagina is die van 2025 (tegemoetkoming-meerkosten-zorg-2025); nakijken of er een pagina voor 2026 komt.
+  - leudal: SMI-verordening nieuw per 2-10-2026; gemeentepagina volgt misschien.
+  - lochem: datum leerlingenvervoer wordt "elk jaar bekendgemaakt via een brief"; Gemeentepolis 2027 komt in november.
+  - noordwijk, teylingen (ISD Bollenstreek): mantelzorgwaardering 2026 pas op 19 oktober geopend; teylingen.nl verhuisd, pagina's nog dun.
+  - houten, nieuwegein, ijsselstein (WIL): Gemeentepolis-pagina's nog met het aanbod van 2025.
+  - zwijndrecht, papendrecht, hendrik-ido-ambacht: socialedienstdrechtsteden.nl/smi gaf 401.
+  - stichtse-vecht, berkelland: mantelzorgregelingen vervallen eind 2026 of krijgen een nieuwe subsidieregeling 2027.
+  - diemen: SMI-beleidsregels (CVDR768249) gelden pas vanaf 1-1-2027; tekst noemt dat. In 2027 nakijken of er een gemeentepagina is en de datum uit de tekst halen.
+- Ronde 23-10-2026 middag (noordoostpolder..heusden):
+  - houten, nieuwegein (WIL Lekstroom): collectieve zorgverzekering nog het aanbod van 2025; tegemoetkoming zorgkosten "binnenkort de regeling voor 2027".
+  - zuidplas: zorgverzekeringspagina noemt "overstappen tot en met 31 december 2025"; pagina ijsselgemeenten.nl/zorgverzekering-2027 niet gelezen.
+  - heusden: Gemeentepolis-pagina noemt "Overstappen kan tot en met 31 december 2025"; baanbrekers.org achter een bot-controle (403).
+  - het-hogeland: inkomensgrens 120% "vanaf 1 juli 2026"; eigen risico € 385 (2026).
+  - middelburg: Orionis-fonds noemt "kosten die u maakt in 2025"; mantelzorgwaardering € 150 (2026), aanvragen 1 feb t/m 30 apr.
+  - zutphen: Gemeentepolis-premies 2026; nakijken na 19 november.
+  - weert: mantelzorgattentie € 15 (2026), aanmelden t/m 10 oktober 2026.
+  - ridderkerk: termijn leerlingenvervoer "voor 1 mei 2026"; nakijken of die elk jaar terugkomt.
+  - waalwijk: PasWijzer-norm 130% uit de normenlijst per 1 juli 2026 (xlsx).
+- Ronde 23-10-2026 middag (heemstede..hillegom, 50 gemeenten):
+  - wijdemeren: gaat op 1-1-2027 op in Hilversum; alle geldregelingen dan nakijken (of overnemen van hilversum).
+  - duiven: nieuw beleid om zorgkosten via bijzondere bijstand te vergoeden stond nog niet op de site; collectieve zorgverzekering gestopt per 1-1-2026.
+  - albrandswaard: pagina's leerlingenvervoer en gehandicaptenparkeerkaart gaven 404 (wel in sitemap); url leerlingenvervoer is nu de verordening.
+  - steenbergen: Vraagwijzer-pagina's over mantelzorg en geld gaven 403 (bot-controle); mantelzorg nog niet ingevuld.
+  - loon-op-zand: baanbrekers.nl onbereikbaar; meerkosten en bijzondere bijstand van Baanbrekers niet gezien.
+  - weststellingwerf: meijo.nl (mantelzorgcadeau) gaf een serverfout.
+  - elburg: mantelzorgwaardering niet gevonden; Stichting Wiel nog nakijken.
+  - borger-odoorn: Andes-pagina mantelzorgwaardering gaf 404.
+  - sliedrecht: mantelzorgwaardering alleen uit een nieuwsbericht over 2025 (Baggerbonnen); 2026 nakijken.
+  - beuningen: inkomensgrenzen op de pagina's "per 1 januari 2025".
+  - ooststellingwerf: kleding- en schoenenbonnenactie 2026 (t/m 30 november 2026); eigen risico € 125 (2026).
+  - zwartewaterland: mantelzorgcompliment "op dit moment niet aan te vragen"; termijn leerlingenvervoer "uiterlijk 24 juli" hoorde bij de overstap naar een nieuwe vervoerder.
+  - voorst: Gemeentepolis-pagina noemt "overstappen vóór 1 januari 2026".
+  - baarn: Kidskaarten en Declaratiefonds aanvraagperiode 1-10-2026 t/m 2-2-2027; mantelzorgbon € 125 (2026).
+  - zundert: pagina van Mantelzorg Zundert (Surplus) noemt Oosterhout en "Fijn Oosterhout" (sjabloonfout?).
+- Ronde 23-10-2026 avond (bunschoten..gulpen-wittem, 50 gemeenten):
+  - olst-wijhe: gemeentesite onbereikbaar vanuit de container; alles via archiefkopieën (o.a. ondersteuning.olst-wijhe.nl/kinderopvang van 5-6-2026). Nakijken op de live site.
+  - beek: mantelzorgwaardering in 2026 niet aan te vragen, "vanaf begin 2027" weer.
+  - valkenburg-aan-de-geul: nadere regels mantelzorgwaardering lopen t/m 31-12-2026.
+  - someren: nadere regels mantelzorgwaardering "2022-2026" lopen af.
+  - heeze-leende: mantelzorg-url is de pagina voor 2026 (/vraag-de-mantelzorgwaardering-2026-aan).
+  - heumen: Heumenstegoed € 275 (2026), aanvragen tot 15 november.
+  - cranendonck: Fashioncheque € 150 (2026) is eenmalig.
+  - brummen: Fashioncheque vervalt per 1-1-2027 (wordt een pas voor activiteiten en uitjes).
+  - heerde: Kledingpas € 130 (2026, incl. eenmalig € 25 extra; geldig t/m 31-12-2026); Stip-pagina zorgverzekering heet "2025".
+  - urk: pagina tegemoetkoming zorgkosten verouderd (€ 250, t/m 1-11-2025), beleidsregels noemen € 150 en "vóór 1 juli".
+  - lopik: inkomensgrens zorgverzekering 110% uit de WIL-tabel van 2025.
+  - hilvarenbeek: zorgverzekeringspagina noemt overstapdata van 2023; kinderopvang via het Samenzorgteam (kan 2027 veranderen).
+  - woudenberg: Gemeentepolis-pagina noemt nog 2025.
+  - gennep: aanmeldpagina mantelzorgcompliment geeft 404; beleidsregels bijzondere bijstand 2026 gelden vanaf 22-10-2026.
+  - veere: Fonds Cultuur, Sport en Onderwijs noemt "kosten die u maakt in 2025".
+  - west-maas-en-waal, loon-op-zand: werkzaak.nl / baanbrekers.nl onbereikbaar.
+  - hardinxveld-giessendam: SDD-pagina /smi gaf 401.
+- Ronde 23-10-2026 laat (montfoort..schiermonnikoog, laatste 32):
+  - ameland: tegemoetkoming meerkosten € 225 "over 2025"; regeling voor 2026 nakijken.
+  - doesburg: mantelzorgwaardering € 100 alleen in 2026 (2027 hangt af van de begroting).
+  - laren, eemnes, blaricum: kledingpakket van het Kindarrangement tijdelijk niet aan te vragen.
+  - pekela: gemeentepagina zorgverzekering verouderd (2023/2024); grens uit richtlijnen 2023.
+  - oudewater: mantelzorgbronnen alleen van 2020 en 2023.
+  - noord-beveland: zwemproject zonder jaar ("net als vorig jaar").
+  - baarle-nassau, montfoort: zorgverzekeringspagina's nog niet bijgewerkt voor 2027.
+  - kapelle: voorwaarden mantelzorg (/link-kapelle/...) gaven 401.
+- Gelijktrekronde 23-10-2026:
+  - pekela: mantelzorg-url is een nieuwsbericht over 10 november 2026; in 2027 een vaste pagina zoeken.
+  - enschede, lelystad, sluis, urk, zoetermeer, reusel-de-mierden, noord-beveland: mantelzorgwaardering alleen uit de regels; aanvraagroute en gemeentepagina nog niet gevonden.
+  - lingewaard: mantelzorgcompliment gestopt per 1-1-2026; nakijken of er iets voor in de plaats komt.

@@ -11,11 +11,12 @@ import { wachten } from './wachten';
 import { afgewezen } from './afgewezen';
 import { gescheiden } from './gescheiden';
 import { uitbreiden } from './uitbreiden';
+import { geld } from './geld';
 import { maakRender } from './render';
 
 // De verdiepingen tekenen na een antwoord de hele pagina opnieuw (render staat hieronder, pas na de verdiepingen).
 const opnieuw = () => render();
-const v = { verhuizing: verhuizing(opnieuw), hulpStopt: hulpStopt(opnieuw), wordt18: wordt18(opnieuw), wachten: wachten(opnieuw), afgewezen: afgewezen(opnieuw), gescheiden: gescheiden(opnieuw), uitbreiden: uitbreiden(opnieuw) };
+const v = { verhuizing: verhuizing(opnieuw), hulpStopt: hulpStopt(opnieuw), wordt18: wordt18(opnieuw), wachten: wachten(opnieuw), afgewezen: afgewezen(opnieuw), gescheiden: gescheiden(opnieuw), uitbreiden: uitbreiden(opnieuw), geld: geld(opnieuw) };
 const render = maakRender(v);
 
 Promise.all([laadGemeente(keuze.gem), laadNieuweGemeente(v.verhuizing.naar())]).then(() => {

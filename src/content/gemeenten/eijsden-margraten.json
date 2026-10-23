@@ -265,6 +265,131 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomen",
+      "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen.html"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Zorgverzekeringsbudget",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. Met een laag inkomen en een aanvullende zorgverzekering krijgt u elk jaar een tegemoetkoming in de premie.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier van de pagina, één keer per kalenderjaar",
+        "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen/Tegemoetkoming-premie-aanvullende-zorg.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Eijsden-Margraten: Zorgverzekeringsbudget",
+            "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen/Tegemoetkoming-premie-aanvullende-zorg.html",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Sociaal Medische Indicatie (SMI) kinderopvang",
+        "omschrijving": "Kunt u door een beperking of sociale situatie niet voor uw kind (tot en met 12 jaar) zorgen en hebt u geen kinderopvangtoeslag? Dan vergoedt de gemeente opvang, na een keuring.",
+        "aanvragen": "Via de gemeente; een externe keuring bepaalt of opvang nodig is",
+        "url": "https://www.eijsden-margraten.nl/nl/Jeugdonderwijsenkinderopvang/Kinderopvang/SMi.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Eijsden-Margraten: Sociaal Medische Indicatie (SMI) kinderopvang",
+            "url": "https://www.eijsden-margraten.nl/nl/Jeugdonderwijsenkinderopvang/Kinderopvang/SMi.html",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering VGZ Zuid-Limburg",
+        "omschrijving": "Een zorgverzekering voor inwoners met een laag inkomen, met een pakket zonder eigen risico of een voordeliger pakket. Kinderen zijn gratis meeverzekerd.",
+        "inkomensgrens": 150,
+        "aanvragen": "Via de verzekeraar. Overstappen kan elk jaar tot 31 december.",
+        "url": "https://www.socialezaken-mh.nl/kind-en-gezin/collectieve-zorgverzekering-vgz-zuid-limburg",
+        "bronnen": [
+          {
+            "titel": "Sociale Zaken Maastricht Heuvelland: Collectieve zorgverzekering VGZ Zuid-Limburg",
+            "url": "https://www.socialezaken-mh.nl/kind-en-gezin/collectieve-zorgverzekering-vgz-zuid-limburg",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "VGZ: Zorgverzekering voor lagere inkomens in Zuid-Limburg",
+            "url": "https://www.vgz.nl/zuidlimburg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u onverwachte, noodzakelijke kosten die u niet zelf kunt betalen en die niemand anders vergoedt? Dan kan de gemeente die kosten betalen.",
+        "aanvragen": "Met het aanvraagformulier op de pagina",
+        "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen/Bijzondere-bijstand.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Eijsden-Margraten: Bijzondere bijstand",
+            "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen/Bijzondere-bijstand.html",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindbudget",
+        "omschrijving": "Met een laag inkomen en een kind van 12 tot en met 17 jaar op het voortgezet onderwijs krijgt u elk schooljaar een tegemoetkoming per kind, afhankelijk van uw inkomen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier op de pagina, één keer per schooljaar",
+        "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen/Tegemoetkoming-in-de-kosten-voor-school.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Eijsden-Margraten: Kindbudget",
+            "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Werk-inkomen-en-schulden/Inkomen/Tegemoetkoming-in-de-kosten-voor-school.html",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelf naar school, door een beperking of omdat de school ver weg ligt? Dan krijgt u een vergoeding of regelt de gemeente vervoer met een bus of taxi.",
+        "aanvragen": "Bij de gemeente Maastricht, die dit voor Eijsden-Margraten uitvoert; online met DigiD of per post",
+        "url": "https://www.eijsden-margraten.nl/nl/Jeugdonderwijsenkinderopvang/Onderwijs/Leerlingenvervoer.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Eijsden-Margraten: Leerlingenvervoer",
+            "url": "https://www.eijsden-margraten.nl/nl/Jeugdonderwijsenkinderopvang/Onderwijs/Leerlingenvervoer.html",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Maastricht: Leerlingenvervoer",
+            "url": "https://www.gemeentemaastricht.nl/onderwijs-en-jeugd/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een financiële bijdrage als bedankje voor wie vrijwillig en langdurig zorgt, ook voor een kind. Wie de zorg krijgt vraagt het aan; voor een kind doet u dat namens uw kind.",
+        "ouders": "ja",
+        "aanvragen": "Online of met een aanvraagformulier, in een vaste periode in het najaar",
+        "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Zorg-en-maatschappelijke-ondersteuning-Wmo/mantelzorg.html",
+        "bronnen": [
+          {
+            "titel": "Gemeente Eijsden-Margraten: Mantelzorgondersteuning en Mantelzorgcompliment",
+            "url": "https://www.eijsden-margraten.nl/nl/Inwoners-overzicht/Zorg-en-maatschappelijke-ondersteuning-Wmo/mantelzorg.html",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

@@ -1,0 +1,14 @@
+---
+/** Eén geldregeling van een gemeente als regel in een opsomming: naam (link), omschrijving, inkomensgrens en hoe aanvragen.
+ *  Op de gemeentepagina en onder de stappen van de regelingencheck in Mijn overzicht (gemeente-blokken/[slug].astro).
+ *  data-ouders: bij mantelzorg of een ouder van een minderjarig kind de waardering kan krijgen (src/scripts/overzicht/geld.ts). */
+import type { CollectionEntry } from 'astro:content';
+import { inkomensgrens } from '../lib/regelingen';
+type Regeling = NonNullable<CollectionEntry<'gemeenten'>['data']['geldregelingen']>['regelingen'][number];
+interface Props { r: Regeling; gemeente: string }
+const { r, gemeente } = Astro.props;
+---
+<li data-regeling={r.soort} data-ouders={r.ouders}>
+  <a href={r.url} target="_blank" rel="noopener">{r.naam}<span aria-hidden="true"> ↗</span></a>. {r.omschrijving}{' '}
+  {r.soort === 'mantelzorg' && r.ouders === 'nee' ? `${gemeente} geeft ouders van een minderjarig kind geen mantelzorgwaardering.` : [inkomensgrens(r.inkomensgrens, r.grondslag), r.aanvragen].filter(Boolean).join(' ')}
+</li>

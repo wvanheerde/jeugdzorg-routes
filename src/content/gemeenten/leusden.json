@@ -245,6 +245,134 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Rondkomen",
+      "url": "https://www.leusden.nl/rondkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Zorgkosten chronisch ziek of beperking (Tegemoetkoming chronisch zieken en beperkten)",
+        "omschrijving": "Hebt u een laag inkomen en een chronische ziekte of beperking? Dan kunt u geld krijgen voor zorgkosten van het jaar ervoor. Vraag na of het ook voor uw kind kan.",
+        "aanvragen": "Eén keer per jaar, met het aanvraagformulier bij Lariks.",
+        "url": "https://www.leusden.nl/rondkomen/zorgkosten-chronisch-ziek-of-beperking",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leusden: Zorgkosten chronisch ziek of beperking",
+            "url": "https://www.leusden.nl/rondkomen/zorgkosten-chronisch-ziek-of-beperking",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Lariks: Tegemoetkoming chronisch zieken en beperkten",
+            "url": "https://www.lariks-leusden.nl/tczb",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentezorgpolis (goedkopere zorgverzekering)",
+        "omschrijving": "Een voordelige zorgverzekering met extra vergoedingen voor inwoners met een lager inkomen. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Via de gemeente Amersfoort, tot en met 31 december.",
+        "url": "https://www.amersfoort.nl/gemeentezorgpolis-voor-mensen-met-een-lager-inkomen-leusden",
+        "bronnen": [
+          {
+            "titel": "Gemeente Amersfoort: Gemeentezorgpolis voor mensen met een lager inkomen Leusden",
+            "url": "https://www.amersfoort.nl/gemeentezorgpolis-voor-mensen-met-een-lager-inkomen-leusden",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Leusden: Goedkopere zorgverzekering",
+            "url": "https://www.leusden.nl/rondkomen/goedkopere-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Een vergoeding voor noodzakelijke extra kosten door bijzondere omstandigheden, bijvoorbeeld onverwachte zorgkosten of een kapotte wasmachine.",
+        "aanvragen": "Aanvragen bij de gemeente Amersfoort, die dit voor Leusden uitvoert.",
+        "url": "https://www.leusden.nl/rondkomen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leusden: Bijzondere bijstand",
+            "url": "https://www.leusden.nl/rondkomen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket",
+        "omschrijving": "Bij een laag inkomen of schuldhulp: kledingbon, schoolkosten brugklas, huiswerkbegeleiding, bijdrage voor sport of cultuur vanaf de vierde klas, en luiers.",
+        "inkomensgrens": 130,
+        "aanvragen": "Bij Lariks, met het aanvraagformulier op de pagina.",
+        "url": "https://www.leusden.nl/kindregelingen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leusden: Regelingen voor kinderen",
+            "url": "https://www.leusden.nl/kindregelingen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Kindpakket Leusden 2020",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR635439/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds De Boom",
+        "omschrijving": "Een vergoeding voor sport, muziek of hobby voor kinderen van 4 tot 18 jaar. Ook voor schoolkosten op de middelbare school, zoals ouderbijdrage, laptop, excursie of fiets.",
+        "aanvragen": "Via de pagina Regelingen voor kinderen.",
+        "url": "https://www.leusden.nl/kindregelingen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leusden: Regelingen voor kinderen",
+            "url": "https://www.leusden.nl/kindregelingen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding voor kinderen die niet zelf naar school kunnen reizen of naar speciaal onderwijs gaan (school verder dan 6 kilometer). Mogelijk een eigen bijdrage.",
+        "aanvragen": "Formulier met schoolverklaring, vóór 1 juni voor het volgende schooljaar.",
+        "url": "https://www.leusden.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leusden: Leerlingenvervoer",
+            "url": "https://www.leusden.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Mantelzorgers kunnen jaarlijks een klein geldbedrag als waardering krijgen, ook als u zorgt voor uw kind jonger dan 18. Jonge mantelzorgers (8 tot en met 24 jaar) ook.",
+        "ouders": "ja",
+        "aanvragen": "Voor uw kind jonger dan 18 jaar vraagt u het zelf aan via het formulier van Lariks.",
+        "url": "https://www.leusden.nl/hulp-zorg-en-onderwijs/hulp-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Gemeente Leusden: Hulp mantelzorgers",
+            "url": "https://www.leusden.nl/hulp-zorg-en-onderwijs/hulp-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "kinderopvang"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Lariks welzijn en zorg is in Leusden de toegang tot jeugdhulp. Volgens de gemeente verwijst Lariks minder vaak door naar specialistische hulp en kijkt het vaker eerst naar lichte hulp en uw eigen netwerk. Specialistische hulp komt sinds 2024 van één aanbieder voor de hele regio, MetMaya. Volgens de regio moeten kinderen daar vaak op wachten, en verschilt de wachttijd per hulpvraag.\n\nVraag Lariks bij uw aanmelding hoe lang het duurt en welke hulp er in de tussentijd mogelijk is. Leg afspraken schriftelijk vast en neem zo nodig een cliëntondersteuner van MEE mee. Komt u er met Lariks niet uit, dien dan een klacht in bij de klachtencoördinator van Lariks. Tegen een besluit maakt u bezwaar bij de gemeente.",
     "signalen": [

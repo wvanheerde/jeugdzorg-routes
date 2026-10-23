@@ -241,6 +241,119 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Ondersteuning lage inkomens",
+      "url": "https://www.kampen.nl/ondersteuning-lage-inkomens"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijdrage hoge zorgkosten",
+        "omschrijving": "Heeft u met een laag inkomen hoge zorgkosten, zoals het eigen risico? Die bijdrage is voor mensen van 18 jaar en ouder. Zorgkosten voor uw kind? Vraag het de gemeente.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Online, één keer per jaar. Voor uw kind: neem contact op met de gemeente.",
+        "url": "https://www.kampen.nl/bijdrage-hoge-zorgkosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Bijdrage hoge zorgkosten",
+            "url": "https://www.kampen.nl/bijdrage-hoge-zorgkosten",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Bijdrage voor kinderopvang (sociaal-medische indicatie)",
+        "omschrijving": "Kunt u door medische of sociale problemen niet altijd voor uw kind zorgen? Dan kunt u kinderopvang vergoed krijgen, ook zonder toeslag. Een arts stelt een indicatie op.",
+        "aanvragen": "Eerst een indicatie van de jeugdarts; daarna stuurt de gemeente een aanvraagformulier.",
+        "url": "https://www.kampen.nl/bijdrage-voor-kinderopvang-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Bijdrage voor kinderopvang aanvragen",
+            "url": "https://www.kampen.nl/bijdrage-voor-kinderopvang-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een collectieve zorgverzekering met voordeel voor inwoners met een bijstandsuitkering of een laag inkomen.",
+        "aanvragen": "Via de zorgverzekeraar; de gemeente helpt op de balie.",
+        "url": "https://www.kampen.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Collectieve zorgverzekering",
+            "url": "https://www.kampen.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand aanvragen",
+        "omschrijving": "Hebt u een laag inkomen en weinig vermogen, en onverwachte noodzakelijke kosten, zoals hoge zorgkosten die uw verzekering niet betaalt? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Online met DigiD, binnen 2 maanden nadat u de kosten hebt gemaakt.",
+        "url": "https://www.kampen.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Bijzondere bijstand aanvragen",
+            "url": "https://www.kampen.nl/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Samen voor alle kinderen",
+        "omschrijving": "Hebt u een laag inkomen? Dan kan uw kind van 0 tot 18 jaar een bijdrage krijgen voor sport, zwemles, cultuur, schoolspullen of een fiets.",
+        "aanvragen": "Online op de website van Samen voor alle kinderen; de aanbieder krijgt het geld.",
+        "url": "https://www.kampen.nl/samen-voor-alle-kinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Samen voor alle kinderen",
+            "url": "https://www.kampen.nl/samen-voor-alle-kinderen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding voor kinderen in het speciaal onderwijs of die door een beperking niet zelf naar school kunnen reizen. De school is minimaal 6 kilometer van huis.",
+        "aanvragen": "Online met DigiD. Voor het nieuwe schooljaar graag vóór 1 mei.",
+        "url": "https://www.kampen.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Leerlingenvervoer",
+            "url": "https://www.kampen.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Zorgt u onbetaald voor uw kind, partner of een ander? Dan kunt u elk jaar een waardering aanvragen. Mantelzorgers onder 18 jaar krijgen een tegoedbon.",
+        "ouders": "ja",
+        "aanvragen": "Online met DigiD, elk jaar opnieuw, tot en met 31 december.",
+        "url": "https://www.kampen.nl/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Kampen: Mantelzorgwaardering",
+            "url": "https://www.kampen.nl/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

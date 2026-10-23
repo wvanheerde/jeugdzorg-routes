@@ -245,6 +245,185 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Werk en inkomen",
+      "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Extra vergoeding voor chronisch zieken en gehandicapten (AV-gemeente-Top)",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind. U betaalt de premie van de standaardverzekering en bent verzekerd als in de Top; de gemeente betaalt het verschil.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Eerst deelnemen aan de collectieve verzekering; de voorwaarden staan op de pagina.",
+        "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Collectieve_aanvullende_verzekering_aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Collectieve aanvullende verzekering aanvragen",
+            "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Collectieve_aanvullende_verzekering_aanvragen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Collectieve Zorgverzekering Gemeente Ouder-Amstel 2026 (CVDR746168)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR746168/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Kosten gehandicaptenparkeerkaart vergoed via bijzondere bijstand",
+        "omschrijving": "Hebt u een minimuminkomen en kunt u de keuring en de kaart voor een gehandicaptenparkeerkaart niet betalen? Dan krijgt u de kosten misschien vergoed.",
+        "aanvragen": "Vraag bijzondere bijstand aan vóórdat u de kosten maakt.",
+        "url": "https://www.ouder-amstel.nl/Home/Parkeren/Gehandicaptenparkeerkaart",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Gehandicaptenparkeerkaart",
+            "url": "https://www.ouder-amstel.nl/Home/Parkeren/Gehandicaptenparkeerkaart",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang SMI",
+        "omschrijving": "Kunt u tijdelijk niet volledig voor uw kind zorgen door sociale of gezondheidsproblemen? Voor kinderen van 0 tot 4 jaar en buitenschoolse opvang. Een indicatie is nodig.",
+        "aanvragen": "Met het aanvraagformulier op de pagina, elk jaar opnieuw.",
+        "url": "https://www.ouder-amstel.nl/Home/Kinderopvang/Tegemoetkoming_kinderopvang_SMI",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Tegemoetkoming kinderopvang SMI",
+            "url": "https://www.ouder-amstel.nl/Home/Kinderopvang/Tegemoetkoming_kinderopvang_SMI",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve aanvullende verzekering (AV-gemeente-Standaard)",
+        "omschrijving": "Een aanvullende zorgverzekering voor mensen met weinig geld, betaald door de gemeente, met het eigen risico meeverzekerd. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Met de formulieren op de pagina; er geldt ook een vermogensgrens.",
+        "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Collectieve_aanvullende_verzekering_aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Collectieve aanvullende verzekering aanvragen",
+            "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Collectieve_aanvullende_verzekering_aanvragen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Collectieve Zorgverzekering Gemeente Ouder-Amstel 2026 (CVDR746168)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR746168/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Een vergoeding voor noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt, bijvoorbeeld gezinshulp, bewindvoering of advocaatkosten.",
+        "aanvragen": "Online met DigiD, vóórdat u de kosten maakt. Besluit binnen 8 weken.",
+        "url": "https://www.ouder-amstel.nl/Home/Bijstand_en_uitkeringen/Bijzondere_bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Bijzondere bijstand",
+            "url": "https://www.ouder-amstel.nl/Home/Bijstand_en_uitkeringen/Bijzondere_bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Declaratiefonds",
+        "omschrijving": "Een tegoed voor sport, cultuur of schoolkosten voor uw gezin. In 2026 is dat € 330 per kind van 5 tot en met 17 jaar en € 150 per volwassene.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier op de pagina. Betaal zelf en dien daarna de bon in.",
+        "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Declaratiefonds",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Declaratiefonds",
+            "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Declaratiefonds",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport en Cultuur",
+        "omschrijving": "Het fonds betaalt contributie, lesgeld of sportkleding rechtstreeks aan de vereniging of winkel, voor kinderen tot 18 jaar.",
+        "inkomensgrens": 130,
+        "aanvragen": "Alleen een professional rond uw kind, zoals een leerkracht, kan het aanvragen.",
+        "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Jeugdfonds_Sport_en_Cultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Jeugdfonds Sport en Cultuur",
+            "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Jeugdfonds_Sport_en_Cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Computerregeling",
+        "omschrijving": "Voor kinderen van 12 tot 18 jaar in het voortgezet onderwijs: een vergoeding voor een computer. In 2026 is dat € 500.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier op de pagina.",
+        "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Computerregeling",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Computerregeling",
+            "url": "https://www.ouder-amstel.nl/Home/Werk_en_inkomen/Computerregeling",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelfstandig naar school reizen, bijvoorbeeld naar speciaal onderwijs? Dan krijgt u een vergoeding of aangepast vervoer. Soms betaalt u een eigen bijdrage.",
+        "aanvragen": "Online met DigiD of eHerkenning, met een schoolverklaring. Besluit binnen 8 weken.",
+        "url": "https://www.ouder-amstel.nl/Home/Jeugd/Leerlingenvervoer_aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Ouder-Amstel: Leerlingenvervoer aanvragen",
+            "url": "https://www.ouder-amstel.nl/Home/Jeugd/Leerlingenvervoer_aanvragen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Elk jaar een waardering als u meer dan 8 uur per week of langer dan 3 maanden zorgt voor een naaste, zoals uw kind, in Ouder-Amstel. U moet ingeschreven zijn bij Mantelzorg & Meer.",
+        "ouders": "ja",
+        "aanvragen": "Schrijf u in bij Mantelzorg & Meer; zij sturen de waardering elk jaar toe.",
+        "url": "https://mantelzorgenmeer.nl/wat-is-mantelzorg/mantelzorgwaardering/",
+        "bronnen": [
+          {
+            "titel": "Mantelzorg & Meer: Mantelzorgwaardering",
+            "url": "https://mantelzorgenmeer.nl/wat-is-mantelzorg/mantelzorgwaardering/",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels maatschappelijke ondersteuning Ouder-Amstel 2026 (CVDR750110)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR750110/1",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Ouder-Amstel: Mantelzorg",
+            "url": "https://www.ouder-amstel.nl/Home/Hulp_zorg_en_ondersteuning/Mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

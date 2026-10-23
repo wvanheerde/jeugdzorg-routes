@@ -3,7 +3,10 @@ import Base from '../../layouts/Base.astro';
 import GemeenteCard from '../../components/GemeenteCard.astro';
 import GemeenteZoeker from '../../components/GemeenteZoeker.astro';
 import { getCollection } from 'astro:content';
+import { GELD_SOORTEN } from '../../lib/regelingen';
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+/** Filter op regelingen: alleen soorten die minstens één gemeente heeft. Alle gemeenten zijn onderzocht (geldregelingen is verplicht); dat zegt de uitleg. */
+const soorten = GELD_SOORTEN.filter((s) => gemeenten.some((g) => g.data.geldregelingen?.regelingen.some((r) => r.soort === s.id)));
 ---
 <Base title="Gemeenten" description="Zoek uw gemeente en zie waar u terechtkunt voor jeugdhulp, wie u kunt bellen en hoe het daar gaat.">
   <div class="page-head">
@@ -11,9 +14,45 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     <h1>Gemeenten</h1>
     <p class="lead">Alle {gemeenten.length} Nederlandse gemeenten staan op deze site. Elke gemeentepagina volgt dezelfde indeling: toegang, rechten, aanbod en lokale steun.</p>
     <div style="max-width:34rem;margin-top:1.25rem"><GemeenteZoeker target="#gemeenten-grid" /></div>
+    {soorten.length > 0 && (
+      <div class="geld-filter" data-geld-filter>
+        <p id="geld-filter-kop" class="geld-filter-kop">Gemeenten met een regeling voor:</p>
+        <div class="chips-select" role="group" aria-labelledby="geld-filter-kop">
+          {soorten.map((s) => <button type="button" class="chip-btn" aria-pressed="false" value={s.id}>{s.label}</button>)}
+        </div>
+        <p class="geld-aantal" data-geld-aantal aria-live="polite" hidden></p>
+        <p class="meta" data-geld-uitleg hidden>Alle gemeenten zijn onderzocht op regelingen. Staat een gemeente er niet bij, dan is die regeling daar niet gevonden.</p>
+      </div>
+    )}
   </div>
   <div class="grid" id="gemeenten-grid">
-    {gemeenten.map((g) => <GemeenteCard g={g} showStatus />)}
+    {gemeenten.map((g) => <GemeenteCard g={g} />)}
   </div>
   <p class="empty empty-result" hidden style="margin-top:1rem">Geen gemeente gevonden.</p>
 </Base>
+<script>
+  // Filter op regelingen: een kaart blijft als de gemeente elke gekozen soort heeft (data-regelingen op GemeenteCard). Het zoekveld
+  // (GemeenteZoeker.astro) doet de rest: het toont alleen kaarten zonder data-filter-uit.
+  const blok = document.querySelector<HTMLElement>('[data-geld-filter]');
+  if (blok) {
+    const knoppen = Array.from(blok.querySelectorAll<HTMLButtonElement>('button[value]'));
+    const uitleg = blok.querySelector<HTMLElement>('[data-geld-uitleg]')!;
+    const kaarten = Array.from(document.querySelectorAll<HTMLElement>('#gemeenten-grid [data-regelingen]'));
+    const aantal = blok.querySelector<HTMLElement>('[data-geld-aantal]')!;
+    // Hoeveel gemeenten er zichtbaar zijn, ook na typen in het zoekveld (dat telt na het filter).
+    const tel = () => {
+      const n = kaarten.filter((c) => !c.hidden).length;
+      aantal.textContent = `${n} ${n === 1 ? 'gemeente' : 'gemeenten'} gevonden`;
+    };
+    document.querySelector('form.search input')?.addEventListener('input', () => setTimeout(tel));
+    knoppen.forEach((b) => b.addEventListener('click', () => {
+      b.setAttribute('aria-pressed', String(b.getAttribute('aria-pressed') !== 'true'));
+      const gekozen = knoppen.filter((k) => k.getAttribute('aria-pressed') === 'true').map((k) => k.value);
+      kaarten.forEach((c) => { const heeft = (c.dataset.regelingen ?? '').split(' '); c.toggleAttribute('data-filter-uit', !gekozen.every((s) => heeft.includes(s))); });
+      uitleg.hidden = gekozen.length === 0;
+      aantal.hidden = gekozen.length === 0;
+      document.dispatchEvent(new CustomEvent('jr:filter'));
+      tel();
+    }));
+  }
+</script>

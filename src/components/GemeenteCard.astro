@@ -1,15 +1,15 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-interface Props { g: CollectionEntry<'gemeenten'>; showStatus?: boolean }
-const { g, showStatus = false } = Astro.props;
-import { datum } from '../lib/routes';
+interface Props { g: CollectionEntry<'gemeenten'> }
+const { g } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const toegang = g.data.toegang.routes.find((r) => r.type === 'wijkteam')?.naam;
+/** Voor het filter op regelingen (gemeenten/index.astro): de soorten die de gemeente heeft. */
+const soorten = [...new Set((g.data.geldregelingen?.regelingen ?? []).map((r) => r.soort))].join(' ');
 ---
-<a class="card link" href={`${base}/gemeenten/${g.id}/`} data-naam={g.data.naam.toLowerCase()} data-provincie={g.data.provincie.toLowerCase()}>
+<a class="card link" href={`${base}/gemeenten/${g.id}/`} data-naam={g.data.naam.toLowerCase()} data-provincie={g.data.provincie.toLowerCase()} data-regelingen={soorten}>
   <h3>{g.data.naam}</h3>
   <p class="meta">{g.data.provincie}{g.data.jeugdzorgregio && <> · regio {g.data.jeugdzorgregio}</>}</p>
   {toegang && <p class="meta"><strong>Toegang:</strong> {toegang}</p>}
-  {showStatus && <p class="meta">Bijgewerkt {datum(g.data.meta.laatstGecontroleerd)}</p>}
   <span class="arrow">Bekijk routes →</span>
 </a>

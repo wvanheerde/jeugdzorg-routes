@@ -231,6 +231,155 @@
       "url": "https://www.sociaaldomein-limburgnoord.nl/zoektool"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Laag inkomen",
+      "url": "https://www.gennep.nl/laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor medische kosten en reiskosten bij behandeling",
+        "omschrijving": "Hebt u extra kosten door ziekte of een beperking die de zorgverzekering niet vergoedt, zoals reiskosten naar het ziekenhuis? Dan kunt u bijzondere bijstand aanvragen.",
+        "aanvragen": "Vraag het aan vóór u de kosten maakt, met het formulier op de pagina.",
+        "url": "https://www.gennep.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Bijzondere bijstand",
+            "url": "https://www.gennep.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Vergoeding keuring gehandicaptenparkeerkaart",
+        "omschrijving": "Hebt u een inkomen op bijstandsniveau? Dan kunt u bijzondere bijstand krijgen voor de medische keuring voor een gehandicaptenparkeerkaart, ook als u de kaart niet krijgt.",
+        "aanvragen": "Vraag bijzondere bijstand aan; u mag dit één keer per jaar doen.",
+        "url": "https://www.gennep.nl/gehandicaptenparkeerkaart",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Gehandicaptenparkeerkaart",
+            "url": "https://www.gennep.nl/gehandicaptenparkeerkaart",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Met een laag inkomen krijgt u korting op de aanvullende verzekering bij CZ of VGZ. U kunt ook het eigen risico meeverzekeren. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Kies online een pakket; overstappen kan van half november tot en met 31 december.",
+        "url": "https://www.gennep.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Collectieve zorgverzekering",
+            "url": "https://www.gennep.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u bijzondere bijstand aanvragen. Soms betaalt u een deel zelf.",
+        "aanvragen": "Vraag het aan vóór u de kosten maakt, met het formulier op de pagina.",
+        "url": "https://www.gennep.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Bijzondere bijstand",
+            "url": "https://www.gennep.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Gennep: Beleidsregels bijzondere bijstand 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR768185/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport en Cultuur Limburg",
+        "omschrijving": "Het fonds betaalt de contributie of het lesgeld voor sport of cultuur van kinderen van 4 tot 18 jaar uit gezinnen met een laag inkomen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Een Meerkracht meldt uw kind aan, bijvoorbeeld iemand van Team Toegang of een leraar.",
+        "url": "https://www.gennep.nl/regelingen-voor-kinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Regelingen voor kinderen",
+            "url": "https://www.gennep.nl/regelingen-voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Gennep: Beleidsregels minimabeleid",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR701564/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld: schoolspullen voor kinderen",
+        "omschrijving": "Stichting Leergeld helpt met schoolkosten van kinderen van 4 tot 18 jaar uit gezinnen met een laag inkomen, zoals een laptop (vanaf groep 8), een fiets of gymkleding.",
+        "inkomensgrens": 120,
+        "aanvragen": "Maak via de stichting een afspraak voor een persoonlijk gesprek.",
+        "url": "https://www.gennep.nl/regelingen-voor-kinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Regelingen voor kinderen",
+            "url": "https://www.gennep.nl/regelingen-voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Gennep: Beleidsregels minimabeleid",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR701564/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Zwemvaardigheidsregeling",
+        "omschrijving": "De gemeente betaalt zwemles voor diploma A en B aan kinderen uit gezinnen met een laag inkomen, en aan kinderen met een beperking die niet kunnen meedoen aan gewone zwemles.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online of met het formulier op de pagina; het besluit is 1 jaar geldig.",
+        "url": "https://www.gennep.nl/regelingen-voor-kinderen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Regelingen voor kinderen",
+            "url": "https://www.gennep.nl/regelingen-voor-kinderen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Gennep: Beleidsregels minimabeleid",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR701564/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "U kunt een vergoeding krijgen voor het vervoer van uw kind naar speciaal onderwijs, naar een school verder dan 6 kilometer, of als uw kind door een beperking niet zelf kan reizen.",
+        "aanvragen": "Vraag een formulier aan bij de gemeente.",
+        "url": "https://www.gennep.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Gennep: Leerlingenvervoer",
+            "url": "https://www.gennep.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "kinderopvang"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

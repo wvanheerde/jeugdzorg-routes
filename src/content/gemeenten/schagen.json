@@ -241,6 +241,96 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Meer regelingen voor mensen met een laag inkomen",
+      "url": "https://www.schagen.nl/meer-regelingen-voor-mensen-met-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang op basis van Sociale Medische Indicatie",
+        "omschrijving": "Lukt het door medische of sociale redenen even niet om goed voor uw kind te zorgen? Dan kan de gemeente kortdurend de kosten van kinderopvang vergoeden.",
+        "aanvragen": "Via het wijkteam; de medewerker bespreekt met u of dit past.",
+        "url": "https://www.schagen.nl/kinderopvang",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schagen: Kinderopvang",
+            "url": "https://www.schagen.nl/kinderopvang",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepakket zorgverzekering",
+        "omschrijving": "Een collectieve zorgverzekering van Univé met een aanvullend pakket voor medische kosten, waar de gemeente aan meebetaalt. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online via de website van de verzekeraar; de gemeente beoordeelt uw inkomen.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/schagen/zorgverzekeringen",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: Gemeente Schagen",
+            "url": "https://www.gezondverzekerd.nl/gemeente/schagen/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Schagen: Meer regelingen voor mensen met een laag inkomen",
+            "url": "https://www.schagen.nl/meer-regelingen-voor-mensen-met-een-laag-inkomen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en kosten die u door uw omstandigheden moet maken, zoals medische kosten, en die niets anders vergoedt? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Online met DigiD, bij voorkeur vóór u de kosten maakt.",
+        "url": "https://www.schagen.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schagen: Bijzondere bijstand",
+            "url": "https://www.schagen.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket",
+        "omschrijving": "Kinderen van 0 tot 18 jaar uit gezinnen met een laag inkomen kunnen meedoen aan sport, cultuur en onderwijs. U kiest activiteiten en producten uit een webshop.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met DigiD, elk jaar opnieuw.",
+        "url": "https://www.schagen.nl/meedoen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schagen: Meedoen",
+            "url": "https://www.schagen.nl/meedoen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een beperking niet zelf reizen, of ligt de school ver weg (meer dan 6 kilometer)? Dan kunt u vervoer of een vergoeding krijgen. Soms betaalt u een eigen bijdrage.",
+        "aanvragen": "Online via het aanvraagformulier op de pagina.",
+        "url": "https://www.schagen.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Schagen: Leerlingenvervoer",
+            "url": "https://www.schagen.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

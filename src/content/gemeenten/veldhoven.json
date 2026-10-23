@@ -252,6 +252,129 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Uitkering, werk en bijstand",
+      "url": "https://www.veldhoven.nl/inwoners-en-ondernemers/uitkering-werk-en-bijstand"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming eigen risico zorgverzekering",
+        "omschrijving": "Heeft u een laag inkomen en betaalt u zelf elk jaar het volledige eigen risico? Dan kunt u een tegemoetkoming krijgen. Alleen voor volwassenen vanaf 18 jaar, dus voor uzelf.",
+        "alleenOuder": true,
+        "inkomensgrens": 120,
+        "aanvragen": "Met het aanvraagformulier van de pagina; de gemeente beslist binnen 8 weken.",
+        "url": "https://www.veldhoven.nl/tegemoetkoming-chronische-ziekte-beperking",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Tegemoetkoming voor chronische ziekte en/of beperking",
+            "url": "https://www.veldhoven.nl/tegemoetkoming-chronische-ziekte-beperking",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Sociaal medische indicatie (SMI) kinderopvang",
+        "omschrijving": "Kunt u om sociale of medische redenen niet zelf voor uw kind zorgen? Dan kunt u hulp krijgen bij de kosten van kinderopvang, tot en met groep 8. Een medewerker onderzoekt dit.",
+        "aanvragen": "Samen met een medewerker van de gemeente stelt u een ondersteuningsplan op; dat is de aanvraag.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR738697/1",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Beleidsregels Sociaal Medische Indicatie (SMI)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR738697/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering",
+        "omschrijving": "Een zorgverzekering met aanvullende dekking bij VGZ of CZ, waaraan de gemeente meebetaalt. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Neem telefonisch contact op met de gemeente.",
+        "url": "https://www.veldhoven.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Collectieve zorgverzekering",
+            "url": "https://www.veldhoven.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hulp bij noodzakelijke, onverwachte kosten die u niet zelf kunt betalen en nergens anders vergoed krijgt. U moet 18 jaar of ouder zijn.",
+        "aanvragen": "Bel voor een afspraak; vraag aan binnen 3 maanden nadat u de kosten maakte.",
+        "url": "https://www.veldhoven.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Bijzondere bijstand",
+            "url": "https://www.veldhoven.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld Veldhoven & De Kempen",
+        "omschrijving": "Voor schoolgaande kinderen uit gezinnen met geldzorgen: hulp bij onder meer schoolspullen, laptop, fiets, sport en cultuur. De gemeente verwijst hiernaar.",
+        "aanvragen": "Via de website van de stichting.",
+        "url": "https://www.leergeldveldhovendekempen.nl/",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Meedoen-voorziening",
+            "url": "https://www.veldhoven.nl/meedoen-voorziening",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Stichting Leergeld Veldhoven & De Kempen",
+            "url": "https://www.leergeldveldhovendekempen.nl/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door ziekte of een beperking niet zelfstandig naar school? Dan zorgt de gemeente onder voorwaarden voor vervoer.",
+        "aanvragen": "Online via het vervoersportaal; bij cluster 3 of 4 met toelaatbaarheidsverklaring.",
+        "url": "https://www.veldhoven.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Leerlingenvervoer",
+            "url": "https://www.veldhoven.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijkse waardering voor mantelzorgers. Aanmelden kan bij het Steunpunt Mantelzorg van SWOVE.",
+        "aanvragen": "Meld u aan bij het steunpunt mantelzorg.",
+        "url": "https://www.veldhoven.nl/mantelzorg",
+        "bronnen": [
+          {
+            "titel": "Gemeente Veldhoven: Mantelzorg",
+            "url": "https://www.veldhoven.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Veldhoven: Nadere regels voor mantelzorgwaardering",
+            "url": "https://www.veldhoven.nl/data/downloadables/9/9/nadere-regels-voor-mantelzorgwaardering.pdf",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

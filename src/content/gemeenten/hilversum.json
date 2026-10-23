@@ -345,6 +345,137 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomen en toeslagen",
+      "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Tegemoetkoming chronisch zieken en gehandicapten",
+        "omschrijving": "Heeft u of uw kind extra zorgkosten die de zorgverzekering niet vergoedt, zoals reiskosten naar het ziekenhuis? Dan krijgt u met een laag inkomen een deel terug.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier, uiterlijk 31 december, voor de kosten van dat jaar.",
+        "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen/extra-geld-chronisch-zieken-gehandicapten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Extra geld chronisch zieken en gehandicapten",
+            "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen/extra-geld-chronisch-zieken-gehandicapten",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Gehandicaptenparkeerkaart via bijzondere bijstand",
+        "omschrijving": "Kunt u de kosten van een gehandicaptenparkeerkaart niet betalen? Dan kan de gemeente die kosten met bijzondere bijstand vergoeden.",
+        "aanvragen": "Met het aanvraagformulier bijzondere bijstand, voordat u de kosten maakt.",
+        "url": "https://hilversum.nl/sociaal-plein/uitkering-werk-bijstand/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Bijzondere bijstand",
+            "url": "https://hilversum.nl/sociaal-plein/uitkering-werk-bijstand/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Geld voor kinderopvang bij ziekte of beperking",
+        "omschrijving": "Heeft u, uw partner of uw kind (0 tot 12 jaar) een ziekte of beperking en geen kinderopvangtoeslag? Dan betaalt de gemeente de opvang (deels). Met een indicatie.",
+        "aanvragen": "Eerst een verklaring (sociaal-medische indicatie), dan het formulier. Besluit binnen 8 weken.",
+        "url": "https://hilversum.nl/geld-voor-kinderopvang-bij-ziekte-beperking",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Geld voor kinderopvang bij ziekte of beperking",
+            "url": "https://hilversum.nl/geld-voor-kinderopvang-bij-ziekte-beperking",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Zorgverzekering bij laag inkomen",
+        "omschrijving": "Een basisverzekering met aanvullende dekking voor inwoners met een laag inkomen. De gemeente betaalt mee, het eigen risico is lager en u kunt het in termijnen betalen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online bij de verzekeraar; u hoeft geen medische keuring.",
+        "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen/zorgverzekering-bij-laag-inkomen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Zorgverzekering bij laag inkomen",
+            "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen/zorgverzekering-bij-laag-inkomen",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u door een bijzondere situatie noodzakelijke kosten die u niet kunt betalen en die niets anders vergoedt? Dan kan de gemeente bijspringen, ook zonder uitkering.",
+        "aanvragen": "Met het aanvraagformulier, liefst voordat u de kosten maakt.",
+        "url": "https://hilversum.nl/sociaal-plein/uitkering-werk-bijstand/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Bijzondere bijstand",
+            "url": "https://hilversum.nl/sociaal-plein/uitkering-werk-bijstand/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Kindpakket",
+        "omschrijving": "Geld voor uw kind van 0 tot en met 17 jaar voor bijvoorbeeld sport, school, luiers of zwemles, als u een laag inkomen of een uitkering hebt.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier, elk jaar opnieuw; een jaar loopt van 1 juli tot en met 30 juni.",
+        "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen/kindpakket",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Kindpakket",
+            "url": "https://hilversum.nl/sociaal-plein/inkomen-toeslagen/kindpakket",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of vergoeding voor kinderen die door ziekte, beperking of gedrag niet zelf naar school kunnen reizen, of naar een school voor bijzonder onderwijs verder dan 6 kilometer.",
+        "aanvragen": "Online met DigiD. Na 1 juni is het mogelijk niet op tijd voor het nieuwe schooljaar geregeld.",
+        "url": "https://hilversum.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Leerlingenvervoer",
+            "url": "https://hilversum.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijkse waardering (€ 50 volgens de regeling van 2024) voor wie langer dan drie maanden of meer dan acht uur per week voor een inwoner van Hilversum zorgt, ook voor uw kind.",
+        "aanvragen": "Aanmelden van 1 oktober tot 31 december; wie de zorg krijgt, tekent ook het formulier.",
+        "url": "https://hilversum.nl/sociaal-plein/zorg-hulp-steun/hulp-voor-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Gemeente Hilversum: Hulp voor mantelzorgers",
+            "url": "https://hilversum.nl/sociaal-plein/zorg-hulp-steun/hulp-voor-mantelzorgers",
+            "geraadpleegd": "2026-10-22"
+          },
+          {
+            "titel": "Gemeente Hilversum: Nadere regeling mantelzorgwaardering 2024",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR726037/1",
+            "geraadpleegd": "2026-10-22"
+          }
+        ],
+        "ouders": "ja"
+      }
+    ],
+    "nietGevonden": [],
+    "laatstGecontroleerd": "2026-10-22"
+  },
   "ervaringen": {
     "samenvatting": "Volgens de rekenkamer maakte Hilversum de afgelopen jaren vooruitgang met jeugdhulp en worden de medewerkers jeugd en hulpverleners door gezinnen gewaardeerd. Gezinnen ervaren het zorglandschap wel als onduidelijk, de weg naar hulp als zwaar en tijdrovend, en de overgang naar 18 jaar als zorgelijk. In 2025 liep de wachttijd voor het in behandeling nemen van een aanvraag op tot gemiddeld acht weken door een tekort aan medewerkers jeugd, en in het regionale cliëntervaringsonderzoek over 2024 noemden ouders wachttijden, verloop van medewerkers jeugd en bureaucratie als verbeterpunten.\n\nVoor ouders betekent dit: vraag bij uw aanvraag meteen naar de verwachte termijn en naar overbruggingshulp, leg afspraken schriftelijk vast en neem een cliëntondersteuner van MEE Dichtbij mee. Dien bij stilstand of een slechte ervaring een klacht in bij de klachtencoördinator van de gemeente; bij een beschikking waar u het niet mee eens bent kunt u binnen 6 weken bezwaar maken. U kunt ook met een verwijzing van de huisarts rechtstreeks naar een aanbieder, zonder eerst het Sociaal Plein te hoeven doorlopen.",
     "signalen": [

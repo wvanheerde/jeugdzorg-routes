@@ -270,6 +270,190 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Hulp bij laag inkomen",
+      "url": "https://www.socialewegwijzerscherpenzeel.nl/is/een-vraag-over/werk-geld-en-uitkering/hulp-bij-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming eigen risico",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "omschrijving": "Hebt u een laag inkomen en hoge zorgkosten? Dan krijgt u een deel van uw verbruikte eigen risico terug. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "aanvragen": "Met het aanvraagformulier op de gemeentesite, tot 31 december van het jaar erna.",
+        "url": "https://www.scherpenzeel.nl/form/tegemoetkoming-eigen-risico-aanvraagformulier/informatie-vooraf-0",
+        "bronnen": [
+          {
+            "titel": "Gemeente Scherpenzeel: Aanvraagformulieren voor Hulp, zorg en inkomen",
+            "url": "https://www.scherpenzeel.nl/aanvraagformulieren-voor-hulp-zorg-en-inkomen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Bijzondere bijstand en minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor zorgkosten",
+        "omschrijving": "Kosten van behandeling of medicijnen die uw verzekering niet vergoedt, kunt u soms vergoed krijgen. Een verklaring van de arts laat zien dat de zorg nodig is.",
+        "aanvragen": "Vraag het aan bij het Sociaal Team; kijk eerst of uw aanvullende verzekering het vergoedt.",
+        "url": "https://www.socialewegwijzerscherpenzeel.nl/is/een-vraag-over/werk-geld-en-uitkering/hulp-bij-laag-inkomen/zorg/vergoedingen-zorgkosten",
+        "bronnen": [
+          {
+            "titel": "Sociale Wegwijzer Scherpenzeel: Vergoedingen zorgkosten",
+            "url": "https://www.socialewegwijzerscherpenzeel.nl/is/een-vraag-over/werk-geld-en-uitkering/hulp-bij-laag-inkomen/zorg/vergoedingen-zorgkosten",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Bijzondere bijstand en minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Kinderopvang bij een sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u door een beperking niet alle zorg voor uw kind geven, of heeft uw kind opvang nodig voor een gezonde ontwikkeling? Dan kan de gemeente de opvang deels betalen.",
+        "aanvragen": "De gemeente vraagt zo nodig advies aan de GGD; de tegemoetkoming geldt voor maximaal 6 maanden.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels Bijzondere bijstand en minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepolis (collectieve zorgverzekering)",
+        "inkomensgrens": 130,
+        "omschrijving": "Een collectieve zorgverzekering van Zilveren Kruis voor mensen met een laag inkomen en weinig vermogen. De gemeente betaalt mee aan de premie van de aanvullende verzekering.",
+        "aanvragen": "Online aanvragen via de website voor gemeentepolissen; het Sociaal Team kijkt met u mee.",
+        "url": "https://www.gezondverzekerd.nl/gemeente/scherpenzeel/zorgverzekeringen",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: zorgverzekeringen gemeente Scherpenzeel",
+            "url": "https://www.gezondverzekerd.nl/gemeente/scherpenzeel/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Bijzondere bijstand en minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen, weinig vermogen en noodzakelijke kosten die niets anders vergoedt? Dan kan de gemeente die kosten helemaal of deels betalen.",
+        "aanvragen": "Online met het aanvraagformulier, of op papier via het Sociaal Team.",
+        "url": "https://www.socialewegwijzerscherpenzeel.nl/is/een-vraag-over/werk-geld-en-uitkering/hulp-bij-laag-inkomen/andere-regelingen/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Sociale Wegwijzer Scherpenzeel: Bijzondere bijstand",
+            "url": "https://www.socialewegwijzerscherpenzeel.nl/is/een-vraag-over/werk-geld-en-uitkering/hulp-bij-laag-inkomen/andere-regelingen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Bijdrage maatschappelijke participatie (Meedoenregeling)",
+        "inkomensgrens": 130,
+        "omschrijving": "Een bedrag per kind om te besteden aan sport, cultuur, zwemles, muziekles of uitstapjes. U kiest zelf waaraan u het uitgeeft.",
+        "aanvragen": "Online met het aanvraagformulier participatieregelingen, of op papier via het Sociaal Team.",
+        "url": "https://www.socialewegwijzerscherpenzeel.nl/is/werk-en-inkomen/minimaregelingen/bijdrage-schoolspullen-laptop-fiets",
+        "bronnen": [
+          {
+            "titel": "Sociale Wegwijzer Scherpenzeel: Bijdrage voor schoolspullen, sport en cultuur",
+            "url": "https://www.socialewegwijzerscherpenzeel.nl/is/werk-en-inkomen/minimaregelingen/bijdrage-schoolspullen-laptop-fiets",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Scherpenzeel: Geld voor kinderen uit gezinnen met lager inkomen",
+            "url": "https://www.scherpenzeel.nl/geld-voor-kinderen-uit-gezinnen-met-lager-inkomen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Bijzondere bijstand en minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Schoolkostenregeling",
+        "inkomensgrens": 130,
+        "omschrijving": "Een vergoeding per jaar voor schoolkosten van kinderen van 4 tot 18 jaar, zoals ouderbijdrage, schooltas, fiets of gymkleding. Extra geld bij de start van het voortgezet onderwijs.",
+        "aanvragen": "Online met het aanvraagformulier participatieregelingen, of op papier via het Sociaal Team.",
+        "url": "https://www.socialewegwijzerscherpenzeel.nl/is/werk-en-inkomen/minimaregelingen/bijdrage-schoolspullen-laptop-fiets",
+        "bronnen": [
+          {
+            "titel": "Sociale Wegwijzer Scherpenzeel: Bijdrage voor schoolspullen, sport en cultuur",
+            "url": "https://www.socialewegwijzerscherpenzeel.nl/is/werk-en-inkomen/minimaregelingen/bijdrage-schoolspullen-laptop-fiets",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels Bijzondere bijstand en minimaregelingen 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR733445/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Gaat uw kind naar speciaal onderwijs ver weg, of kan het door een beperking niet zelf reizen? Dan krijgt u een vergoeding of aangepast vervoer. Soms betaalt u een eigen bijdrage.",
+        "aanvragen": "Online met DigiD; aanvragen vóór het nieuwe schooljaar, zodat het vervoer op tijd start.",
+        "url": "https://www.scherpenzeel.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Scherpenzeel: Leerlingenvervoer",
+            "url": "https://www.scherpenzeel.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "ouders": "ja",
+        "omschrijving": "Een jaarlijks bedrag voor mantelzorgers, ook als u zorgt voor uw kind (€ 100 in 2026). Jonge mantelzorgers van 12 tot 18 jaar krijgen € 50 in 2026.",
+        "aanvragen": "Elk jaar opnieuw aanvragen, in het najaar met het aanvraagformulier. Het gaat niet vanzelf.",
+        "url": "https://www.scherpenzeel.nl/mantelzorgwaardering-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Scherpenzeel: Mantelzorgwaardering aanvragen",
+            "url": "https://www.scherpenzeel.nl/mantelzorgwaardering-aanvragen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Scherpenzeel: Mantelzorg ondersteuning",
+            "url": "https://www.scherpenzeel.nl/mantelzorg-ondersteuning",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Regeling Mantelzorgwaardering 2021",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR662633/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Steeds meer jongeren in Scherpenzeel krijgen jeugdhulp: van 11,2 procent van de jongeren tot 18 jaar in 2022 naar 13,1 procent in 2025. Ouders die in 2025 meededen aan het cliëntervaringsonderzoek geven de medewerker jeugd gemiddeld een 8,1. Ongeveer een op de acht ouders wachtte langer dan zes maanden op hulp. De gemeente wil meer doen om problemen te voorkomen, zoals jeugdhulp op de basisscholen, en bekijkt opnieuw welke hulp zij blijft bieden.\n\nVraag bij uw melding bij het Sociaal Team hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Laat u iemand namens u klagen, geef die persoon dan een schriftelijke machtiging.",
     "signalen": [

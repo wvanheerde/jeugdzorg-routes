@@ -240,6 +240,117 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Inkomen en vergoedingen",
+      "url": "https://www.doesburg.nl/inkomen-en-vergoedingen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming voor chronisch zieken en mensen met een beperking",
+        "omschrijving": "€ 300 in 2026 voor extra zorgkosten. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 110,
+        "aanvragen": "Online met DigiD, in het najaar; elk jaar opnieuw aanvragen",
+        "url": "https://www.doesburg.nl/tegemoetkoming-inwoners-chronische-ziekte-of-handicap",
+        "bronnen": [
+          {
+            "titel": "Tegemoetkoming voor chronisch zieken en mensen met een beperking",
+            "url": "https://www.doesburg.nl/tegemoetkoming-inwoners-chronische-ziekte-of-handicap",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Sociaal-medische indicatie (SMI) kinderopvang",
+        "omschrijving": "De gemeente betaalt kinderopvang voor kinderen van 0 tot 12 jaar als dat nodig is door een beperking van een ouder of de thuissituatie. Zonder eigen bijdrage.",
+        "aanvragen": "Met het aanvraagformulier; een medewerker van de gemeente onderzoekt eerst uw situatie",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR743856/1",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels Sociaal Medische Indicatie Doesburg 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR743856/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Extra geld voor noodzakelijke kosten die u niet kunt betalen en die niets anders vergoedt. Voor inwoners van 18 jaar of ouder met een laag inkomen.",
+        "aanvragen": "Online met DigiD; de gemeente reageert binnen 8 weken",
+        "url": "https://www.doesburg.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand",
+            "url": "https://www.doesburg.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "SUN Jeugd",
+        "omschrijving": "Geld voor kinderen van 4 tot en met 17 jaar voor onder meer een laptop, fiets, zwemles of lidmaatschap van een sport- of cultuurvereniging.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via het formulier van SUN Jeugd; u krijgt kinderbijslag voor uw kind",
+        "url": "https://www.doesburg.nl/sun-jeugd",
+        "bronnen": [
+          {
+            "titel": "SUN Jeugd: hulp voor kinderen bij sport, cultuur of schoolspullen",
+            "url": "https://www.doesburg.nl/sun-jeugd",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of vergoeding naar school voor kinderen op speciaal onderwijs, die door ziekte of beperking niet zelf kunnen reizen, of bij meer dan 6 kilometer afstand.",
+        "aanvragen": "Online; voor taxivervoer in het nieuwe schooljaar uiterlijk 1 juni",
+        "url": "https://www.doesburg.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer",
+            "url": "https://www.doesburg.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Waardering voor mantelzorgers",
+        "omschrijving": "Een cadeaubon van € 100 in 2026 voor wie onbetaald zorgt voor een naaste, zoals uw kind met een beperking. Jonge mantelzorgers van 8 tot en met 24 jaar krijgen € 50.",
+        "ouders": "ja",
+        "aanvragen": "Online met DigiD, elk jaar van 1 augustus tot en met 1 oktober",
+        "url": "https://www.doesburg.nl/waardering-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Waardering voor mantelzorgers",
+            "url": "https://www.doesburg.nl/waardering-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Mantelzorg en respijtzorg",
+            "url": "https://www.doesburg.nl/mantelzorg-en-respijtzorg",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Nadere regels mantelzorgwaardering gemeente Doesburg 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR743901/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

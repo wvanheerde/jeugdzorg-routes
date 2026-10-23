@@ -244,6 +244,142 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen voor mensen met een laag inkomen",
+      "url": "https://www.harlingen.nl/regelingen-voor-mensen-met-een-laag-inkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Vergoeding medische kosten (Tegemoetkoming in de Medische Kosten)",
+        "omschrijving": "Voor medische kosten die uw zorgverzekering niet vergoedt, zoals bril, tandarts en fysiotherapie. U bent 18 jaar of ouder en hebt een laag inkomen.",
+        "alleenOuder": true,
+        "inkomensgrens": 130,
+        "aanvragen": "Online met DigiD of met een papieren formulier; eerst bij de zorgverzekering declareren.",
+        "url": "https://www.harlingen.nl/vergoedingen-medische-kosten-naast-uw-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Harlingen: Vergoedingen medische kosten naast uw zorgverzekering",
+            "url": "https://www.harlingen.nl/vergoedingen-medische-kosten-naast-uw-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "De Dienst Noardwest Fryslân: Vergoeding medische kosten",
+            "url": "https://www.dedienst.nl/vergoedingen/medischekosten/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Compensatieregeling Eigen Risico (CER)",
+        "omschrijving": "Hebt u uw eigen risico helemaal verbruikt en een inkomen tot de bijstandsnorm? Dan krijgt u een tegemoetkoming. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 100,
+        "aanvragen": "Aanvragen kan tot en met 30 juni van het jaar erna, met het bericht van de zorgverzekeraar.",
+        "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Compensatieregeling Eigen Risico",
+            "url": "https://www.dedienst.nl/vergoedingen/vergoeding-eigen-risico/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor reiskosten naar een medisch specialist",
+        "omschrijving": "Hebt u een laag inkomen en kunt u de reiskosten naar een medisch specialist niet zelf betalen? Dan krijgt u misschien bijzondere bijstand.",
+        "aanvragen": "Aanvragen vóór u de kosten maakt, met het formulier op de pagina.",
+        "url": "https://www.harlingen.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Harlingen: Bijzondere bijstand",
+            "url": "https://www.harlingen.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kosten kinderopvang op basis van een sociaal medische indicatie",
+        "omschrijving": "Kinderopvang vergoed als lichamelijke, psychische of sociale problemen bij u of uw kind opvang nodig maken. Uw behandelende hulpverlener geeft hiervoor een indicatie af.",
+        "inkomensgrens": 150,
+        "grondslag": "minimumloon",
+        "aanvragen": "Neem eerst contact op; aanvragen uiterlijk 3 maanden na de start van de opvang.",
+        "url": "https://www.harlingen.nl/tegemoetkoming-kosten-kinderopvang-op-basis-van-een-sociaal-medische-indicatie",
+        "bronnen": [
+          {
+            "titel": "Gemeente Harlingen: Tegemoetkoming kosten kinderopvang op basis van een sociaal medische indicatie",
+            "url": "https://www.harlingen.nl/tegemoetkoming-kosten-kinderopvang-op-basis-van-een-sociaal-medische-indicatie",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Voor noodzakelijke extra kosten die u niet zelf kunt betalen en die niets anders vergoedt, zoals reiskosten naar een medisch specialist of naar school voor uw kinderen.",
+        "aanvragen": "Aanvragen vóór u de kosten maakt, met het formulier op de pagina.",
+        "url": "https://www.harlingen.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Harlingen: Bijzondere bijstand",
+            "url": "https://www.harlingen.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Sam& voor alle kinderen",
+        "omschrijving": "Hebt u een laag inkomen en kinderen onder 18? Dan kunt u een vergoeding krijgen voor sport, muziekles, schoolspullen, een laptop of een verjaardagscadeau.",
+        "aanvragen": "Online bij Sam&; vul de postcode van uw kind in.",
+        "url": "https://www.dedienst.nl/vergoedingen/regelingen-voor-kinderen/",
+        "bronnen": [
+          {
+            "titel": "De Dienst Noardwest Fryslân: Regelingen voor kinderen",
+            "url": "https://www.dedienst.nl/vergoedingen/regelingen-voor-kinderen/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Voor kinderen met een beperking of op speciaal onderwijs. Meestal vanaf 6 kilometer; kan uw kind door een beperking niet met het openbaar vervoer, dan geldt geen afstand.",
+        "aanvragen": "Online met DigiD, vóór 1 juni voor het nieuwe schooljaar.",
+        "url": "https://www.harlingen.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Harlingen: Leerlingenvervoer",
+            "url": "https://www.harlingen.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment Harlingen",
+        "omschrijving": "Een jaarlijkse financiële waardering voor mantelzorgers vanaf 18 jaar. Jonge mantelzorgers van 10 tot en met 17 jaar krijgen een bioscoopbon.",
+        "aanvragen": "Aanvragen kan tot en met 31 december van het lopende jaar, via het steunpunt.",
+        "url": "https://connexa.nl/aanbod/mantelzorgcompliment/",
+        "bronnen": [
+          {
+            "titel": "Connexa (Steunpunt Mantelzorg Harlingen): Mantelzorgcompliment Harlingen",
+            "url": "https://connexa.nl/aanbod/mantelzorgcompliment/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten",
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [

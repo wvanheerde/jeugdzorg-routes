@@ -249,6 +249,154 @@
       "omschrijving": "Openbaar, zonder inloggen."
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Extra hulp",
+      "url": "https://www.isd-kompas.nl/extrahulp"
+    },
+    "regelingen": [
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u door sociale of medische redenen tijdelijk niet voor uw kinderen zorgen en hebt u geen kinderopvangtoeslag? Dan kunt u een tegemoetkoming voor kinderopvang krijgen.",
+        "aanvragen": "Met het aanvraagformulier van de gemeente. De gemeente kan om advies van een arts vragen.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR764767/1",
+        "bronnen": [
+          {
+            "titel": "Gemeente Beekdaelen: Beleidsregels Sociaal Medische Indicatie Beekdaelen",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR764767/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "VGZ Zuid-Limburgpakket (collectieve zorgverzekering)",
+        "omschrijving": "Een uitgebreide zorgverzekering zonder eigen risico, voor wie 18 jaar of ouder is en weinig verdient. Tot 120% van de bijstandsnorm krijgt u ook een bijdrage in de premie.",
+        "inkomensgrens": 150,
+        "aanvragen": "Sluit af bij de verzekeraar. De bijdrage in de premie vraagt u apart aan bij de sociale dienst.",
+        "url": "https://www.isd-kompas.nl/vgz",
+        "bronnen": [
+          {
+            "titel": "ISD Kompas: VGZ Zuid-Limburg",
+            "url": "https://www.isd-kompas.nl/vgz",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "ISD Kompas: Bijdrage premie VGZ Zuid-Limburg",
+            "url": "https://www.isd-kompas.nl/bijdragevgz",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Medische kosten via bijzondere bijstand",
+        "omschrijving": "Betaalt de zorgverzekering een medische rekening niet helemaal? Dan kan de sociale dienst soms het restant vergoeden. Dat kan alleen als u de collectieve zorgverzekering hebt.",
+        "inkomensgrens": 120,
+        "aanvragen": "Neem vooraf contact op, voordat de rekening komt.",
+        "url": "https://www.isd-kompas.nl/bijzonderebijstand",
+        "bronnen": [
+          {
+            "titel": "ISD Kompas: Bijzondere bijstand",
+            "url": "https://www.isd-kompas.nl/bijzonderebijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u bijzondere bijstand aanvragen, als u een laag inkomen en weinig vermogen hebt.",
+        "inkomensgrens": 120,
+        "aanvragen": "Online met het aanvraagformulier. Vraag vooraf of u in aanmerking komt.",
+        "url": "https://www.isd-kompas.nl/bijzonderebijstand",
+        "bronnen": [
+          {
+            "titel": "ISD Kompas: Bijzondere bijstand",
+            "url": "https://www.isd-kompas.nl/bijzonderebijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beekdaelen Sociaal: Bijzondere bijstand",
+            "url": "https://www.beekdaelensociaal.nl/is/een-vraag-over/werk-geld-en-uitkering/hulp-bij-laag-inkomen/andere-regelingen/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Leergeld Parkstad",
+        "omschrijving": "Voor kinderen van 4 tot en met 18 jaar in een gezin met te weinig geld: schoolspullen, een laptop, sport, muziek of zwemles. De vergoeding gaat naar de vereniging of school.",
+        "aanvragen": "U vraagt het rechtstreeks aan bij Leergeld Parkstad.",
+        "url": "https://www.isd-kompas.nl/leergeld",
+        "bronnen": [
+          {
+            "titel": "ISD Kompas: Leergeld Parkstad",
+            "url": "https://www.isd-kompas.nl/leergeld",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Schoolspullenpas",
+        "omschrijving": "Voor kinderen van 4 tot en met 18 jaar in een gezin met te weinig geld: een pas om schoolspullen te kopen, zoals schriften, een schooltas, gymkleren of een rekenmachine.",
+        "aanvragen": "Elk jaar tussen 1 januari en 1 juli, voor het nieuwe schooljaar.",
+        "url": "https://www.isd-kompas.nl/schoolspullenpas",
+        "bronnen": [
+          {
+            "titel": "ISD Kompas: Schoolspullenpas",
+            "url": "https://www.isd-kompas.nl/schoolspullenpas",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind niet zelf naar school, door een beperking of een verre school? Meestal een vergoeding voor fiets of openbaar vervoer; aangepast vervoer alleen bij uitzondering.",
+        "aanvragen": "Vraag het aanvraagformulier bij de gemeente. Elk jaar vóór 20 mei aanvragen.",
+        "url": "https://www.beekdaelensociaal.nl/is/een-vraag-over/vervoer/taxi-bus-trein/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Beekdaelen Sociaal: Leerlingenvervoer",
+            "url": "https://www.beekdaelensociaal.nl/is/een-vraag-over/vervoer/taxi-bus-trein/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment",
+        "omschrijving": "Een geldelijke waardering voor mantelzorgers van iemand in Beekdaelen. Ook jonge mantelzorgers vanaf 12 jaar kunnen het krijgen. Wie de zorg krijgt, vraagt het aan.",
+        "ouders": "ja",
+        "aanvragen": "In een korte periode in het najaar. De mantelzorger moet bij het steunpunt geregistreerd zijn.",
+        "url": "https://www.beekdaelensociaal.nl/is/een-vraag-over/zorgen-voor-een-ander/mantelzorg-volhouden/mantelzorgwaardering",
+        "bronnen": [
+          {
+            "titel": "Beekdaelen Sociaal: Mantelzorgwaardering",
+            "url": "https://www.beekdaelensociaal.nl/is/een-vraag-over/zorgen-voor-een-ander/mantelzorg-volhouden/mantelzorgwaardering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Beekdaelen: Mantelzorgcompliment",
+            "url": "https://www.beekdaelen.nl/mantelzorgcompliment",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Beekdaelen: Beleidsplan Mantelzorg 2023-2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR696887/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Beekdaelen verandert de toegang tot jeugdhulp. In Nuth en Schinveld werken sinds 2025 lokale teams in de wijk, en later wil de gemeente één centrale plek voor jeugd, gezinnen en andere inwoners. In het cliëntervaringsonderzoek over 2024 vonden ouders de medewerkers jeugd vriendelijk, maar een deel vond dat de aanvraag en de start van de hulp niet snel genoeg gingen. Wachttijden voor de toegang zijn niet openbaar te vinden.\n\nUw eerste aanspreekpunt is Team Jeugd van de gemeente. Vraag bij uw aanmelding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een Meedenker (onafhankelijke cliëntondersteuner) mee naar het gesprek. Een klacht over Team Jeugd dient u in bij de gemeente; daarna kunt u naar de Nationale ombudsman.",
     "signalen": [

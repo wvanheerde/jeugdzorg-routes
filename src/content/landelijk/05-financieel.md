@@ -2,7 +2,7 @@
 titel: Financiële regelingen
 samenvatting: Heeft uw kind veel extra zorg nodig? Dan krijgt u misschien dubbele kinderbijslag of ander geld. Dat gaat niet vanzelf.
 volgorde: 5
-laatstGecontroleerd: "2026-10-17"
+laatstGecontroleerd: "2026-10-21"
 bronnen:
   - titel: SVB – Dubbele kinderbijslag bij intensieve zorg
     url: https://www.svb.nl/nl/kinderbijslag/dubbele-kinderbijslag/dubbele-kinderbijslag-thuiswonend-kind-intensieve-zorg
@@ -34,6 +34,15 @@ bronnen:
   - titel: CIZ – Beoordelingskader dubbele kinderbijslag bij intensieve zorg
     url: https://ciz.nl/beoordelingskader-dubbele-kinderbijslag
     geraadpleegd: "2026-10-16"
+  - titel: Belastingdienst – Zorgkosten 2026, overzicht aftrekbare kosten
+    url: https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/overzicht-zorgkosten-2026
+    geraadpleegd: "2026-10-21"
+  - titel: Belastingdienst – Voor wie mag u zorgkosten aftrekken?
+    url: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/relatie_familie_en_gezondheid/gezondheid/aftrek_zorgkosten/voor_wie_mag_u_zorgkosten_aftrekken
+    geraadpleegd: "2026-10-21"
+  - titel: Dienst Toeslagen – Hoe moet ik kindgebonden budget aanvragen?
+    url: https://www.belastingdienst.nl/wps/wcm/connect/nl/kindgebonden-budget/content/hoe-moet-ik-kindgebonden-budget-aanvragen
+    geraadpleegd: "2026-10-21"
 ---
 
 ## Dubbele kinderbijslag bij intensieve zorg
@@ -92,8 +101,11 @@ Kreeg u een **heel kalenderjaar** dubbele kinderbijslag? Dan heeft u misschien r
 
 ## Andere regelingen
 
+In [Mijn overzicht](../overzicht/?k=geld) ziet u met een paar vragen welke regelingen waarschijnlijk bij u passen, ook die van uw gemeente.
+
 - **Geen eigen bijdrage.** Voor jeugdhulp betaalt u geen eigen bijdrage. En kinderen zijn gratis meeverzekerd in de zorgverzekering.
 - **Wet langdurige zorg (Wlz).** Heeft uw kind altijd 24 uur per dag zorg of toezicht nodig? Dan kunt u een Wlz-indicatie aanvragen bij het CIZ. De zorg loopt dan niet meer via de gemeente, maar via het zorgkantoor.
-- **Regelingen van de gemeente.** Veel gemeenten geven geld voor extra kosten bij een chronische ziekte of beperking. Of ze hebben een kindpakket of een collectieve zorgverzekering. Vraag ernaar bij het wijkteam of de cliëntondersteuner.
-- **Belasting.** Sommige zorgkosten kunt u misschien aftrekken in de aangifte inkomstenbelasting. Bijvoorbeeld reiskosten naar behandelaars of dieetkosten.
+- **Kindgebonden budget.** Een bedrag van Dienst Toeslagen voor ouders, afhankelijk van uw inkomen. Krijgt u huurtoeslag, zorgtoeslag of kinderopvangtoeslag? Dan krijgt u het vanzelf als u er recht op heeft. Anders vraagt u het zelf aan via Mijn toeslagen.
+- **Regelingen van de gemeente.** Veel gemeenten geven geld voor extra kosten bij een chronische ziekte of beperking. Of ze hebben een kindpakket of een collectieve zorgverzekering voor gezinnen met een laag inkomen. Vergoedt niets anders noodzakelijke kosten, dan kan bijzondere bijstand helpen. Gaat uw kind naar speciaal onderwijs of naar een school ver weg, dan regelt de gemeente leerlingenvervoer. En veel gemeenten geven mantelzorgers een jaarlijkse waardering; niet elke gemeente geeft die aan ouders van een minderjarig kind. Vraag ernaar bij de gemeente, het wijkteam of de cliëntondersteuner.
+- **Belasting.** Betaalt u zelf zorgkosten die niemand vergoedt? Dan kunt u ze misschien aftrekken in de aangifte inkomstenbelasting. Dat kan ook voor kinderen jonger dan 27 die de kosten niet zelf kunnen betalen. Bijvoorbeeld vervoer naar arts of behandelaar, een dieet op voorschrift van een arts of diëtist, of extra kleding en beddengoed. Het eigen risico telt niet mee, en geestelijke gezondheidszorg en dyslexiezorg voor kinderen ook niet. Alleen het deel boven een drempelbedrag is aftrekbaar.
 - **Extra advies over pgb.** Per Saldo geeft advies over hoe een pgb samengaat met andere regelingen.

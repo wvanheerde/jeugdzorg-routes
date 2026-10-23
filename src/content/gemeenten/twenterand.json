@@ -269,6 +269,138 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Minimaregelingen",
+      "url": "https://www.twenterand.nl/minimaregelingen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand: reiskosten naar ziekenhuis of behandeling",
+        "omschrijving": "Moet u voor uw kind ver reizen voor een medische behandeling en vergoedt niets anders de kosten? Dan kan de gemeente de reiskosten vergoeden.",
+        "aanvragen": "Online met DigiD, voordat u de kosten maakt.",
+        "url": "https://www.twenterand.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Bijzondere bijstand",
+            "url": "https://www.twenterand.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Beleidsregels bijzondere bijstand Twenterand 2026",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR762261/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Tegemoetkoming kinderopvang bij sociaal-medische indicatie (SMI)",
+        "omschrijving": "Kunt u door ziekte of een beperking tijdelijk niet voor uw kind tot en met groep 8 zorgen, en hebt u geen of weinig kinderopvangtoeslag? Dan kunt u een tegemoetkoming krijgen.",
+        "aanvragen": "Bij de gemeente, met bewijs dat opvang nodig is. Samen met een medewerker jeugd maakt u een plan.",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR648544/3",
+        "bronnen": [
+          {
+            "titel": "Verordening Sociaal Medische Indicatie (SMI) Twenterand 2020",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR648544/3",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Gemeentepolis)",
+        "omschrijving": "Een zorgverzekering met aanvullende pakketten voor inwoners met hoge zorgkosten en een laag inkomen.",
+        "inkomensgrens": 120,
+        "aanvragen": "Overstappen kan alleen per 1 januari van het nieuwe jaar.",
+        "url": "https://www.twenterand.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Collectieve zorgverzekering",
+            "url": "https://www.twenterand.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en noodzakelijke kosten die niets anders vergoedt? Dan kan de gemeente die kosten vergoeden.",
+        "aanvragen": "Online met DigiD, voordat u de kosten maakt.",
+        "url": "https://www.twenterand.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Bijzondere bijstand",
+            "url": "https://www.twenterand.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport en Cultuur",
+        "omschrijving": "Voor kinderen van 6 tot 18 jaar in een gezin met weinig geld: het fonds betaalt bijvoorbeeld sportclub, zwemles of muziekles.",
+        "inkomensgrens": 120,
+        "aanvragen": "Niet zelf: een hulpverlener, maatschappelijk werker of medewerker jeugd vraagt het voor uw kind aan.",
+        "url": "https://www.twenterand.nl/jeugdfonds-sport-en-cultuur",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Jeugdfonds sport en cultuur",
+            "url": "https://www.twenterand.nl/jeugdfonds-sport-en-cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Leergeld Twenterand",
+        "omschrijving": "Hulp bij kosten van zwemles, muziekles, schoolreisjes, een fiets of een computer voor school, als u het zelf niet kunt betalen.",
+        "aanvragen": "Neem contact op met de stichting; een medewerker komt bij u thuis of belt u.",
+        "url": "https://www.twenterand.nl/leergeld-twenterand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Leergeld Twenterand",
+            "url": "https://www.twenterand.nl/leergeld-twenterand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Kan uw kind door een ernstige beperking niet zelf naar school, of gaat het naar speciaal onderwijs ver weg? Dan kunt u een vergoeding of aangepast vervoer krijgen.",
+        "aanvragen": "Online met DigiD. Vraag ruim voor het nieuwe schooljaar aan.",
+        "url": "https://www.twenterand.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Leerlingenvervoer",
+            "url": "https://www.twenterand.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgwaardering",
+        "omschrijving": "Een jaarlijkse VVV-cadeaukaart voor wie langdurig en onbetaald zorgt voor onder meer een kind met een beperking of ziekte. Mantelzorgers vanaf 18 jaar kunnen hem krijgen.",
+        "ouders": "ja",
+        "aanvragen": "Maak een afspraak bij het steunpunt mantelzorg; aanvragen kan tot en met 31 december.",
+        "url": "https://www.twenterand.nl/mantelzorg",
+        "bronnen": [
+          {
+            "titel": "Gemeente Twenterand: Mantelzorg",
+            "url": "https://www.twenterand.nl/mantelzorg",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Ouders moeten nu soms bij elk loket hun verhaal opnieuw doen. Daarom wil Twenterand een kernondersteuner in elke kern en uiterlijk in 2028 een lokaal team; eind 2026 besluit het college hoe dat team eruitziet. Een tevredenheidsonderzoek onder ouders over 2025 is positief, maar rust op 28 antwoorden. Gemeten wachttijden voor de toegang zijn niet openbaar te vinden.\n\nBegin bij het Team Jeugdhulpconsulenten of de praktijkondersteuner jeugd bij uw huisarts. Vraag bij uw melding hoe lang het duurt en leg afspraken schriftelijk vast. Neem een onafhankelijke cliëntondersteuner van MEE Samen mee. Een klacht over de gemeente gaat naar de klachtencoördinator; daarna kunt u naar de Nationale ombudsman.",
     "signalen": [

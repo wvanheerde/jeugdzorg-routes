@@ -16,6 +16,8 @@ const today = new Date().toISOString().slice(0, 10);
 // niets in samenvattingen.
 const TEL = /(?<!\d)(?:0\d{1,4}[ -]?\d{2,4}[ -]?\d{2,4}(?:[ -]?\d{2,4})?|14[ -]?0\d{2,3})(?!\d)/g; // ook 14-nummers (14 0164)
 const MAIL = /[\w.+-]+@[\w-]+\.[\w.-]*\w/g;
+/** Geldregelingen: hooguit zoveel tekens (CONTENT.md, "Gemeenten: geldregelingen"). */
+const GELD_OMSCHRIJVING = 180, GELD_AANVRAGEN = 100;
 const norm = (x) => (x.includes('@') ? x.toLowerCase() : x.replace(/\D/g, ''));
 const ROUTES_MET_CONTACT = ['wijkteam', 'huisarts', 'school', 'spoed'];
 function contactCheck(data) {
@@ -66,6 +68,26 @@ for (const f of files) {
   // Geen 06-nummers om te bellen: vaak van één medewerker, en ze veranderen ongemerkt. Een WhatsApp-nummer mag wel.
   const mobiel = JSON.stringify(publiek).replace(/https?:[^"]*/g, '').replace(/WhatsApp:? (?:\+31 ?6|06)[ -]?(?:\d[ -]?){7}\d/g, '').match(/(?<!\d)(?:\+31 ?6|06)[ -]?(?:\d[ -]?){7}\d(?!\d)/g);
   if (mobiel) { console.error(`✗ ${path}: 06-nummer: ${mobiel.join('; ')}`); errors++; }
+  // Geldregelingen (regelingencheck, CONTENT.md "Gemeenten: geldregelingen"): geen nummers in de tekst, ouders alleen bij mantelzorg,
+  // een soort niet tegelijk gevonden en niet gevonden, en geen bron van na de controledatum.
+  const geld = data.geldregelingen;
+  if (geld) {
+    for (const r of geld.regelingen ?? []) {
+      // Kort, en zonder contactgegevens of websitenamen: de link bij de naam is genoeg (gebruiker, 22-10-2026).
+      const tekst = `${r.omschrijving} ${r.aanvragen ?? ''}`;
+      const contact = [...(tekst.match(/[\w.-]+@[\w.-]+|(?<!\d)0\d{1,3}[ -]?\d{3}[ \d]{2,}|\b14 ?0\d{2,3}\b|\bpostbus\b|\b[\w-]+\.(?:nl|eu|com|org)\b/gi) ?? []), ...(tekst.match(/\b\d{4} ?[A-Z]{2}\b(?! ?[a-z])/g) ?? [])];
+      if (contact.length) console.warn(`! ${path}: geldregeling '${r.naam}': contactgegevens of website in de tekst: ${contact.join('; ')}`);
+      if (r.omschrijving.length > GELD_OMSCHRIJVING) console.warn(`! ${path}: geldregeling '${r.naam}': omschrijving ${r.omschrijving.length} tekens (hooguit ${GELD_OMSCHRIJVING})`);
+      if ((r.aanvragen ?? '').length > GELD_AANVRAGEN) console.warn(`! ${path}: geldregeling '${r.naam}': aanvragen ${r.aanvragen.length} tekens (hooguit ${GELD_AANVRAGEN})`);
+      if (r.ouders && r.soort !== 'mantelzorg') { console.error(`✗ ${path}: geldregeling '${r.naam}': 'ouders' hoort alleen bij mantelzorg`); errors++; }
+      if (r.alleenOuder && r.soort !== 'zorgkosten') { console.error(`✗ ${path}: geldregeling '${r.naam}': 'alleenOuder' hoort alleen bij zorgkosten`); errors++; }
+      if (r.soort === 'zorgkosten' && !r.alleenOuder && /alleen voor u ?zelf/i.test(r.omschrijving)) console.warn(`! ${path}: geldregeling '${r.naam}': omschrijving zegt "alleen voor uzelf" maar alleenOuder ontbreekt`);
+      if ((r.bronnen ?? []).some((b) => b.geraadpleegd > geld.laatstGecontroleerd)) { console.error(`✗ ${path}: geldregeling '${r.naam}': bron geraadpleegd na laatstGecontroleerd`); errors++; }
+    }
+    const dubbel = (geld.nietGevonden ?? []).filter((s) => geld.regelingen?.some((r) => r.soort === s));
+    if (dubbel.length) { console.error(`✗ ${path}: geldregelingen: ${dubbel.join(', ')} staat bij regelingen én bij nietGevonden`); errors++; }
+    if (geld.laatstGecontroleerd > today) { console.error(`✗ ${path}: geldregelingen.laatstGecontroleerd ligt in de toekomst`); errors++; }
+  }
   // Netnummer van vier cijfers (0543, 0599) hoort niet als "054 349 3333" gegroepeerd te worden.
   const tweeCijferig = /^0(10|13|15|20|23|24|26|30|33|35|36|38|40|43|45|46|50|53|55|58|7\d|8[2-8]|9[17]|6)/;
   const scheef = (JSON.stringify(publiek).match(/"telefoon":"0\d\d \d{3} \d{4}"/g) ?? []).map((t) => t.slice(12, -1)).filter((t) => !tweeCijferig.test(t.replace(/\s/g, '')));

@@ -287,6 +287,143 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Regelingen en vergoedingen",
+      "url": "https://gemeente.groningen.nl/regelingen-en-vergoedingen"
+    },
+    "regelingen": [
+      {
+        "soort": "meerkosten",
+        "naam": "Meerkostenregeling",
+        "omschrijving": "Heeft u of uw kind extra kosten door een chronische ziekte of beperking? Bij een laag inkomen krijgt u € 400 per jaar (regels 2026). Voor een kind doet u een aparte aanvraag.",
+        "inkomensgrens": 120,
+        "grondslag": "minimumloon",
+        "aanvragen": "Online met DigiD, van 1 april tot en met 30 november, over het jaar ervoor.",
+        "url": "https://gemeente.groningen.nl/meerkostenregeling",
+        "bronnen": [
+          {
+            "titel": "Nadere regels maatschappelijke ondersteuning gemeente Groningen 2026 (hoofdstuk 4)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR753706/1",
+            "geraadpleegd": "2026-10-21"
+          },
+          {
+            "titel": "Gemeente Groningen: Meerkostenregeling",
+            "url": "https://gemeente.groningen.nl/meerkostenregeling",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor extra wassen van kleding en beddengoed",
+        "omschrijving": "Moet kleding en beddengoed vaker gewassen worden, bijvoorbeeld door een ziekte? Dan kunt u bijzondere bijstand aanvragen.",
+        "aanvragen": "Online met DigiD, voordat u de kosten maakt.",
+        "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Groningen: Bijzondere bijstand aanvragen",
+            "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor medische kosten",
+        "omschrijving": "Vergoedt uw zorgverzekering een behandeling niet of maar deels, zoals fysiotherapie? Dan kunt u bijzondere bijstand krijgen.",
+        "aanvragen": "Online met DigiD, voordat u de kosten maakt.",
+        "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Groningen: Bijzondere bijstand aanvragen",
+            "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor tandarts en mondhygiënist",
+        "omschrijving": "Kunt u de tandarts of mondhygiënist niet betalen bij een laag inkomen? Dan worden veel behandelingen vergoed tot € 1.000 per kalenderjaar.",
+        "aanvragen": "Online met DigiD. Dien de nota eerst in bij uw zorgverzekering.",
+        "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Groningen: Bijzondere bijstand aanvragen",
+            "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Bijdrage kinderopvang voor minima en vergoeding op sociaal medische indicatie",
+        "omschrijving": "Geld voor kinderopvang als u of uw kind die om een sociale of medische reden nodig heeft. Een (gemeente)arts stelt vast of het nodig is.",
+        "aanvragen": "Online met DigiD.",
+        "url": "https://gemeente.groningen.nl/bijdrage-kinderopvang-voor-minima-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Gemeente Groningen: Bijdrage kinderopvang voor minima aanvragen",
+            "url": "https://gemeente.groningen.nl/bijdrage-kinderopvang-voor-minima-aanvragen",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u een laag inkomen en weinig spaargeld, en moet u noodzakelijke kosten maken die niets anders vergoedt? Dan kan de gemeente bijspringen.",
+        "aanvragen": "Vraag het aan voordat u de kosten maakt, via de pagina van de gemeente.",
+        "url": "https://gemeente.groningen.nl/bijzondere-bijstand-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Beleidsregels algemene en bijzondere bijstand Participatiewet, IOAW, IOAZ en Bbz 2004",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR610839/16",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vergoeding of een taxibusje als uw kind door een beperking niet zelf naar school kan of de school ver is. Basisonderwijs: meer dan 6 kilometer, speciaal onderwijs: meer dan 3.",
+        "aanvragen": "Met het formulier van de gemeente. U hoort binnen acht weken nadat alles binnen is.",
+        "url": "https://gemeente.groningen.nl/leerlingenvervoer-aanvragen",
+        "bronnen": [
+          {
+            "titel": "Verordening leerlingenvervoer gemeente Groningen 2019",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR628064/1",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Waarderingskaart voor mantelzorgers",
+        "omschrijving": "Elk jaar een waarderingskaart met vouchers als bedankje voor mantelzorgers. Het Steunpunt Mantelzorg van Humanitas regelt de aanvraag.",
+        "ouders": "ja",
+        "aanvragen": "Elk jaar opnieuw via het formulier van Humanitas.",
+        "url": "https://www.humanitas.nl/groningen/aanvraag-mantelzorgkaart",
+        "bronnen": [
+          {
+            "titel": "Humanitas Groningen: Inschrijven als mantelzorger en aanvragen Waarderingskaart",
+            "url": "https://www.humanitas.nl/groningen/aanvraag-mantelzorgkaart",
+            "geraadpleegd": "2026-10-21"
+          },
+          {
+            "titel": "Nadere regels maatschappelijke ondersteuning gemeente Groningen 2026 (artikel 6.1)",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR753706/1",
+            "geraadpleegd": "2026-10-21"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "zorgverzekering"
+    ],
+    "laatstGecontroleerd": "2026-10-21"
+  },
   "ervaringen": {
     "samenvatting": "In Groningen loopt de toegang tot jeugdhulp via WIJ Groningen, dat sinds 2023 ook zelf de Basis jeugdhulp uitvoert. Gezinnen zijn daar in de impactmeting van 2024 overwegend tevreden over (84 procent), maar de gemeentelijke ombudsman, onderzoeksjournalisten en de gemeenteraad wijzen sinds 2024 op dezelfde knelpunten: wachttijden aan de voorkant, gebrekkige communicatie en het ontbreken van een schriftelijk besluit, waardoor bezwaar maken lastig is. In oktober 2025 erkende het college achterstanden bij de toegang; in mei 2026 concludeerde de Rekenkamer dat de raad te weinig grip heeft op WIJ en in oktober 2026 oordeelde de ombudsman dat het toegangsproces niet behoorlijk is ingericht. Jeugdbescherming Noord stond van juli 2025 tot juni 2026 onder verscherpt toezicht van de inspecties.\n\nBijna de helft van de trajecten start hier via huisarts, jeugdarts of medisch specialist; die route is dus een reëel alternatief naast WIJ. Leg afspraken met WIJ schriftelijk vast (van gesprekken wordt volgens de ombudsman meestal geen verslag gemaakt) en vraag bij een wens voor specialistische hulp uitdrukkelijk om het onderzoek en een beschikking van de gemeente, zodat u bezwaar kunt maken. Neem een cliëntondersteuner van MEE Noord of een vertrouwenspersoon mee naar het gesprek. Blijft een reactie of besluit uit, dien dan een klacht in bij WIJ of de Ombudsman Groningen; bij spoed hoeft u volgens de gemeente nooit te wachten.",
     "signalen": [

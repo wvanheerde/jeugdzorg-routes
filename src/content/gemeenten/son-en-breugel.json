@@ -252,6 +252,154 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "overzicht": {
+      "naam": "Geld en hulp bij rondkomen",
+      "url": "https://www.sonenbreugel.nl/geld-en-hulp-bij-rondkomen"
+    },
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming eigen risico zorgverzekering en eigen bijdrage Wmo",
+        "omschrijving": "€ 300 in 2026 bij een chronische ziekte of beperking, voor het eigen risico of de eigen bijdrage Wmo. Alleen voor uzelf (18 jaar of ouder), niet voor uw kind.",
+        "alleenOuder": true,
+        "inkomensgrens": 150,
+        "aanvragen": "Online met DigiD, na afloop van het kalenderjaar; elk jaar opnieuw",
+        "url": "https://www.sonenbreugel.nl/tegemoetkoming-eigen-risico-zorgverzekering-en-eigen-bijdrage-wmo-ivm-chronische-zieke-of-beperking",
+        "bronnen": [
+          {
+            "titel": "Tegemoetkoming eigen risico zorgverzekering en eigen bijdrage Wmo",
+            "url": "https://www.sonenbreugel.nl/tegemoetkoming-eigen-risico-zorgverzekering-en-eigen-bijdrage-wmo-ivm-chronische-zieke-of-beperking",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgkosten",
+        "naam": "Bijzondere bijstand voor medische kosten",
+        "omschrijving": "Bijzondere bijstand kan medische kosten betalen die uw zorgverzekering niet vergoedt. Het geldt voor u als ouder of voor het gezin.",
+        "aanvragen": "Online met DigiD, vóórdat u de kosten maakt",
+        "url": "https://www.sonenbreugel.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand",
+            "url": "https://www.sonenbreugel.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Sociaal-medische indicatie (SMI) kinderopvang",
+        "omschrijving": "Kinderopvang voor kinderen van 0 tot 13 jaar als een ouder om sociale of medische redenen tijdelijk niet kan zorgen. De jeugdarts beoordeelt dit; voor maximaal 6 maanden.",
+        "aanvragen": "Via de kinderopvang en de jeugdarts; alleen zonder recht op kinderopvangtoeslag",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR740992/1",
+        "bronnen": [
+          {
+            "titel": "Subsidieregeling voorschoolse voorzieningen en SMI gemeente Son en Breugel 2025",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR740992/1",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Collectieve zorgverzekering (Gemeentepolis)",
+        "omschrijving": "Een zorgverzekering bij VGZ met korting en extra vergoedingen, zoals fysiotherapie en tandarts. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 120,
+        "aanvragen": "Via de website van de verzekeraar, kies de gemeentepolis",
+        "url": "https://www.sonenbreugel.nl/collectieve-zorgverzekering",
+        "bronnen": [
+          {
+            "titel": "Collectieve zorgverzekering",
+            "url": "https://www.sonenbreugel.nl/collectieve-zorgverzekering",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gezondverzekerd.nl: Son en Breugel",
+            "url": "https://www.gezondverzekerd.nl/gemeente/son-en-breugel/",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hulp bij noodzakelijke kosten die u niet zelf kunt betalen en die niets anders vergoedt. Boven 120% van de bijstandsnorm betaalt u een deel zelf.",
+        "aanvragen": "Online met DigiD, vóórdat u de kosten maakt",
+        "url": "https://www.sonenbreugel.nl/bijzondere-bijstand",
+        "bronnen": [
+          {
+            "titel": "Bijzondere bijstand",
+            "url": "https://www.sonenbreugel.nl/bijzondere-bijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Stichting Leergeld",
+        "omschrijving": "Betaalt voor kinderen uit gezinnen met een laag inkomen kosten van school, sport en cultuur, zoals een laptop, fiets of contributie. U krijgt geen geld; zij betalen direct.",
+        "inkomensgrens": 120,
+        "aanvragen": "Neem contact op met de stichting; zij komen bij u thuis",
+        "url": "https://www.sonenbreugel.nl/ondersteuning-kosten-kinderen",
+        "bronnen": [
+          {
+            "titel": "Ondersteuning kosten kinderen",
+            "url": "https://www.sonenbreugel.nl/ondersteuning-kosten-kinderen",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Jeugdfonds Sport & Cultuur Brabant (muziekles)",
+        "omschrijving": "Betaalt muziekles voor kinderen van 0 tot 18 jaar uit gezinnen met een uitkering, schuldhulp of een aantoonbaar minimaal inkomen. Het hele cursusjaar volledig vergoed.",
+        "aanvragen": "Via een Meerkracht (tussenpersoon) van het fonds",
+        "url": "https://www.sonenbreugel.nl/spelregels-jeugdfonds-sport-cultuur",
+        "bronnen": [
+          {
+            "titel": "Spelregels Jeugdfonds Sport & Cultuur Brabant",
+            "url": "https://www.sonenbreugel.nl/spelregels-jeugdfonds-sport-cultuur",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding naar school voor kinderen die door een beperking niet zelf kunnen reizen, of die ver van een (speciale) school wonen.",
+        "aanvragen": "Online met DigiD, vóór 31 mei voor het nieuwe schooljaar",
+        "url": "https://www.sonenbreugel.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Leerlingenvervoer",
+            "url": "https://www.sonenbreugel.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Gemeentelijke mantelzorgwaardering",
+        "ouders": "ja",
+        "omschrijving": "Mantelzorgers die zich aanmelden bij het Steunpunt Mantelzorg komen in de loop van het jaar in aanmerking voor een waardering. Zorgt u voor een gehandicapt kind, dan telt dat mee.",
+        "aanvragen": "Meld u aan bij het Steunpunt Mantelzorg via de pagina",
+        "url": "https://www.sonenbreugel.nl/ondersteuning-voor-mantelzorgers",
+        "bronnen": [
+          {
+            "titel": "Ondersteuning voor mantelzorgers",
+            "url": "https://www.sonenbreugel.nl/ondersteuning-voor-mantelzorgers",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "ervaringen": {
     "samenvatting": "Het cmd. wil lichte vragen eerder opvangen, met groepsaanbod, de praktijkondersteuner jeugd bij de huisarts en hulp van het eigen netwerk. Specialistische hulp zet het minder snel in. In 2024 kreeg 11 procent van de jongeren tot 18 jaar jeugdhulp, landelijk was dat 12 procent. Wachttijden voor een eerste gesprek en een tevredenheidsonderzoek onder ouders zijn niet openbaar te vinden.\n\nVraag bij uw aanmelding bij het cmd. hoe lang het duurt. Lees het ondersteuningsverslag goed: bent u het er niet mee eens, teken dan voor gezien en schrijf erbij waarom. Neem zo nodig een onafhankelijke cliëntondersteuner mee. Een klacht over het cmd. dient u in bij de gemeente, daarna kunt u naar de Nationale ombudsman.",
     "signalen": [

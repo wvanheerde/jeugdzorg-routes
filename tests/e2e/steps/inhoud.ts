@@ -39,3 +39,38 @@ export const stapContacten = (slug: string) => {
   const co = d.rechten.onafhankelijkeClientondersteuning as Contact;
   return [...(wt ? [{ ...lijst(wt.contact)[0], naam: wt.naam as string }] : []), co].filter((c) => c?.naam) as Contact[];
 };
+
+export type Geldregeling = { soort: string; naam: string; inkomensgrens?: number | 'geen'; grondslag?: 'bijstandsnorm' | 'minimumloon'; ouders?: 'ja' | 'nee'; alleenOuder?: true };
+type Geld = { overzicht?: { naam: string; url: string }; regelingen: (Geldregeling & { url: string })[] };
+const geldVan = (slug: string): Geld | undefined => JSON.parse(fs.readFileSync(path.join(CONTENT, 'gemeenten', `${slug}.json`), 'utf8')).geldregelingen;
+export const gemeenteNaam = (slug: string): string => JSON.parse(fs.readFileSync(path.join(CONTENT, 'gemeenten', `${slug}.json`), 'utf8')).naam;
+/** De url van de pagina met alle regelingen van de gemeente (geldregelingen.overzicht). */
+export const overzichtUrl = (slug: string) => geldVan(slug)?.overzicht?.url;
+/** Eerste gemeente (op alfabet) waar precies één regeling, bij een laag inkomen, naar dezelfde pagina linkt als de pagina met alle regelingen
+ *  (linken er twee regelingen naartoe, zoals in Barneveld, dan staan er terecht twee links). */
+export const gemeenteMetDubbeleOverzichtLink = () => {
+  const slug = fs.readdirSync(path.join(CONTENT, 'gemeenten')).map((f) => f.replace(/\.json$/, '')).sort().find((s) => {
+    const g = geldVan(s);
+    if (!g?.overzicht) return false;
+    const naarOverzicht = g.regelingen.filter((r) => r.url === g.overzicht!.url);
+    return naarOverzicht.length === 1 && ['zorgverzekering', 'meedoen'].includes(naarOverzicht[0].soort);
+  });
+  if (!slug) throw new Error('Geen gemeente waar een regeling naar de pagina met alle regelingen linkt');
+  return slug;
+};
+/** De geldregelingen van een gemeente (veld geldregelingen), of een lege lijst. */
+export const geldregelingen = (slug: string): Geldregeling[] =>
+  JSON.parse(fs.readFileSync(path.join(CONTENT, 'gemeenten', `${slug}.json`), 'utf8')).geldregelingen?.regelingen ?? [];
+/** De eerste gemeente (op alfabet) met een regeling die hieraan voldoet; zo hangt een scenario niet aan één gemeente die nog onderzocht wordt. */
+export const gemeenteMetRegeling = (past: (r: Geldregeling) => boolean) => {
+  const slug = fs.readdirSync(path.join(CONTENT, 'gemeenten')).map((f) => f.replace(/\.json$/, '')).sort().find((s) => geldregelingen(s).some(past));
+  if (!slug) throw new Error('Geen gemeente met zo\'n regeling in src/content/gemeenten');
+  return slug;
+};
+
+/** Alle gemeenten (slug) met hun geldregelingen; zonder het veld: undefined. */
+const alleGemeenten = () => fs.readdirSync(path.join(CONTENT, 'gemeenten')).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, '')).sort();
+/** Namen van de gemeenten die van elke soort minstens één regeling hebben. */
+export const gemeentenMetSoorten = (soorten: string[]) => alleGemeenten().filter((s) => soorten.every((soort) => geldregelingen(s).some((r) => r.soort === soort))).map(gemeenteNaam);
+export const aantalGemeenten = () => alleGemeenten().length;
+export const gemeenteZonderSoort = (soort: string) => alleGemeenten().find((s) => !geldregelingen(s).some((r) => r.soort === soort))!;

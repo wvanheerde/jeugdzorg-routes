@@ -250,6 +250,130 @@
       "url": "https://jeugdstem.nl/contact"
     }
   ],
+  "geldregelingen": {
+    "regelingen": [
+      {
+        "soort": "zorgkosten",
+        "naam": "Tegemoetkoming zorgkosten",
+        "omschrijving": "Alleen voor uzelf (18 jaar of ouder), niet voor uw kind: een bijdrage in uw eigen risico als u dat helemaal hebt gebruikt, en in de premie van uw aanvullende verzekering.",
+        "alleenOuder": true,
+        "aanvragen": "Met het aanvraagformulier; eigen risico binnen drie maanden na bericht van de verzekeraar",
+        "url": "https://www.olst-wijhe.nl/zorgkosten",
+        "bronnen": [
+          {
+            "titel": "Gemeente Olst-Wijhe: Zorgkosten",
+            "url": "https://www.olst-wijhe.nl/zorgkosten",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Olst-Wijhe: Beleidsregels sociaal domein",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR717610/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "kinderopvang",
+        "naam": "Bijdrage kinderopvang bij sociaal-medische indicatie",
+        "omschrijving": "Is kinderopvang nodig door een beperking van u of uw kind? Dan kan de gemeente een bijdrage geven voor een kind tot en met de basisschoolleeftijd, met een indicatie.",
+        "aanvragen": "Via de gemeente; de jeugdarts of medewerker jeugd geeft eerst een indicatie",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR717610/2",
+        "bronnen": [
+          {
+            "titel": "Gemeente Olst-Wijhe: Beleidsregels sociaal domein",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR717610/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "zorgverzekering",
+        "naam": "Gemeentepolis (collectieve zorgverzekering)",
+        "omschrijving": "Een collectieve zorgverzekering van Salland Zorgverzekeringen met extra vergoedingen en korting op de premie. Kinderen tot 18 jaar zijn gratis meeverzekerd.",
+        "inkomensgrens": 130,
+        "aanvragen": "Online aanmelden via de verzekeraar; overstappen kan van half november tot 1 januari",
+        "url": "https://www.gezondverzekerd.nl/gemeente/olst-wijhe/zorgverzekeringen",
+        "bronnen": [
+          {
+            "titel": "Gezondverzekerd.nl: Zorgverzekeringen gemeente Olst-Wijhe",
+            "url": "https://www.gezondverzekerd.nl/gemeente/olst-wijhe/zorgverzekeringen",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Olst-Wijhe: Beleidsregels sociaal domein",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR717610/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "bijzondere-bijstand",
+        "naam": "Bijzondere bijstand",
+        "omschrijving": "Hebt u noodzakelijke, bijzondere kosten die u niet zelf kunt betalen en die niets anders vergoedt? Dan kunt u bijzondere bijstand aanvragen.",
+        "aanvragen": "Met het aanvraagformulier financiële tegemoetkoming, per post of bij de balie na afspraak",
+        "url": "https://www.olst-wijhe.nl/bijzonderebijstand",
+        "bronnen": [
+          {
+            "titel": "Gemeente Olst-Wijhe: Bijzondere bijstand",
+            "url": "https://www.olst-wijhe.nl/bijzonderebijstand",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "meedoen",
+        "naam": "Reductieregeling",
+        "omschrijving": "Een bijdrage voor kosten van school, computer, sport, cultuur, kinderkleding en andere activiteiten van uw kinderen, voor gezinnen met een laag inkomen.",
+        "inkomensgrens": 130,
+        "aanvragen": "Met het aanvraagformulier; kosten van vorig jaar uiterlijk 1 februari indienen",
+        "url": "https://www.olst-wijhe.nl/reductieregeling",
+        "bronnen": [
+          {
+            "titel": "Gemeente Olst-Wijhe: Reductieregeling",
+            "url": "https://www.olst-wijhe.nl/reductieregeling",
+            "geraadpleegd": "2026-10-23"
+          },
+          {
+            "titel": "Gemeente Olst-Wijhe: Beleidsregels sociaal domein",
+            "url": "https://lokaleregelgeving.overheid.nl/CVDR717610/2",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "leerlingenvervoer",
+        "naam": "Leerlingenvervoer",
+        "omschrijving": "Vervoer of een vergoeding voor een kind dat niet zelf naar school kan, door een handicap of omdat de school ver weg ligt. Bij aangepast vervoer betaalt u soms een eigen bijdrage.",
+        "aanvragen": "Online met DigiD, vóór 1 juni voor het nieuwe schooljaar",
+        "url": "https://www.olst-wijhe.nl/leerlingenvervoer",
+        "bronnen": [
+          {
+            "titel": "Gemeente Olst-Wijhe: Leerlingenvervoer",
+            "url": "https://www.olst-wijhe.nl/leerlingenvervoer",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      },
+      {
+        "soort": "mantelzorg",
+        "naam": "Mantelzorgcompliment (Blijk van Waardering)",
+        "omschrijving": "Eén keer per jaar cadeaubonnen om uw mantelzorger te bedanken. Ook jonge mantelzorgers van 6 tot en met 25 jaar die zorgen voor een broer, zus of ouder kunnen het aanvragen.",
+        "aanvragen": "Wie de zorg krijgt, vraagt het aan met een online formulier van het steunpunt mantelzorg",
+        "url": "https://www.olst-wijhe.nl/blijkvanwaardering",
+        "bronnen": [
+          {
+            "titel": "Gemeente Olst-Wijhe: Blijk van Waardering",
+            "url": "https://www.olst-wijhe.nl/blijkvanwaardering",
+            "geraadpleegd": "2026-10-23"
+          }
+        ]
+      }
+    ],
+    "nietGevonden": [
+      "meerkosten"
+    ],
+    "laatstGecontroleerd": "2026-10-23"
+  },
   "meta": {
     "laatstGecontroleerd": "2026-10-16",
     "bronnen": [
