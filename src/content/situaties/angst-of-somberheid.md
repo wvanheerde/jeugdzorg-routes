@@ -1,6 +1,7 @@
 ---
 titel: Angst of somberheid
 herkenning: "Mijn kind is bang, piekert veel, trekt zich terug, lijkt somber, of durft buitenshuis niet te praten (selectief mutisme)."
+zoekwoorden: ["bang", "angstig", "paniekaanvallen", "piekeren", "faalangst", "somber", "depressief", "verdrietig", "teruggetrokken", "zwijgt op school"]
 samenvatting: "Angst en depressie bij kinderen en jongeren zijn goed te behandelen, vooral met cognitieve gedragstherapie. Bij jongeren is het belangrijk dat hulp snel start. Denkt uw kind aan zelfdoding of beschadigt het zichzelf? Zoek dan direct hulp."
 themas: [angst, somberheid, depressie, ggz, zelfbeeld, onderwijs, selectief mutisme]
 hulpsoorten: [behandeling-jeugd-ggz, opvoedondersteuning, ambulante-begeleiding, crisishulp]

@@ -65,7 +65,7 @@ export const woorden: { vormen: string[]; uitleg: string; /** Kop op de begrippe
   { vormen: ['ontvangstbevestiging'], uitleg: 'Een bericht dat uw brief of e-mail is aangekomen. Bewaar het: het laat zien wanneer u iets heeft gestuurd.' },
   { vormen: ['keukentafelgesprek'], uitleg: 'Een gesprek met een medewerker van de gemeente of het wijkteam over wat u nodig heeft. Vaak bij u thuis.' },
   { vormen: ['zorg in natura', 'hulp in natura', 'in natura'], uitleg: 'Hulp van een aanbieder met een contract met de gemeente. De gemeente betaalt die aanbieder zelf; u krijgt geen geld.' },
-  { vormen: ['zorgovereenkomst', 'zorgovereenkomsten'], uitleg: 'Een afspraak op papier met de hulpverlener die u met een pgb betaalt: wat die doet, hoeveel uur en voor welk tarief.' },
+  { vormen: ['zorgovereenkomst', 'zorgovereenkomsten'], uitleg: 'Een afspraak op papier met de hulpverlener die u met een pgb betaalt: wat die doet, hoeveel uur en voor welk tarief. De gemeente en de SVB keuren hem goed.' },
   { vormen: ['declareren', 'declareert', 'declaratie'], uitleg: 'Een rekening indienen, zodat de uren of kosten worden uitbetaald.' },
   { vormen: ['JGZ', 'jeugdgezondheidszorg'], titel: 'JGZ (jeugdgezondheidszorg)', uitleg: 'Het consultatiebureau en de jeugdarts en jeugdverpleegkundige. Zij volgen de groei en ontwikkeling van alle kinderen tot 18 jaar.' },
   { vormen: ['intern begeleider'], uitleg: 'De medewerker op de basisschool die extra hulp voor leerlingen regelt.' },

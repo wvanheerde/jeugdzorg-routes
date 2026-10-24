@@ -413,10 +413,10 @@ Given('ik open de pagina van een gemeente met een regeling voor {string}', async
 const slugUitPad = (page: Page) => new URL(page.url()).pathname.split('/').filter(Boolean).pop()!;
 Then('staat de regeling van die gemeente voor {string} onder de kop {string}', async ({ page }, soort: string, kop: string) => {
   const r = geldregelingen(slugUitPad(page)).find((x) => x.soort === soort)!;
-  const groep = page.locator('#geld [data-geld-soort]', { has: page.locator('h3, h4', { hasText: kop }) });
+  const groep = page.locator('section:has(> h2#geld) [data-geld-soort]', { has: page.locator('h3, h4', { hasText: kop }) });
   await expect(groep.getByRole('link', { name: r.naam })).toBeVisible();
 });
-const krapBlok = (page: Page, krap: string) => page.locator('#geld [data-geld-krap]', { has: page.locator('h3', { hasText: krap }) });
+const krapBlok = (page: Page, krap: string) => page.locator('section:has(> h2#geld) [data-geld-krap]', { has: page.locator('h3', { hasText: krap }) });
 let geldNaam = '';
 Given('ik open de pagina van een gemeente met een zorgkostenregeling alleen voor de ouder zelf', async ({ page }) => {
   const past = (r: Geldregeling) => r.soort === 'zorgkosten' && r.alleenOuder === true;
@@ -434,15 +434,15 @@ Then('staat die regeling onder {string}', async ({ page }, krap: string) => {
   await expect(krapBlok(page, krap).getByRole('link', { name: geldNaam }).first()).toBeVisible();
 });
 Then('staat die regeling niet onder {string}', async ({ page }, krap: string) => {
-  await expect(page.locator('#geld').getByRole('link', { name: geldNaam }).first()).toBeVisible();
-  await expect(page.locator('#geld [data-geld-krap]').getByRole('link', { name: geldNaam })).toHaveCount(0);
+  await expect(page.locator('section:has(> h2#geld)').getByRole('link', { name: geldNaam }).first()).toBeVisible();
+  await expect(page.locator('section:has(> h2#geld) [data-geld-krap]').getByRole('link', { name: geldNaam })).toHaveCount(0);
 });
 Then('staat de kop {string} onder {string}', async ({ page }, kop: string, krap: string) => {
   await expect(krapBlok(page, krap).locator('[data-geld-soort] h4', { hasText: kop })).toBeVisible();
 });
 Then('staat de kop {string} niet onder {string}', async ({ page }, kop: string, krap: string) => {
-  await expect(page.locator('#geld [data-geld-soort]', { hasText: kop }).first()).toBeVisible();
-  await expect(page.locator('#geld [data-geld-krap] [data-geld-soort]', { hasText: kop })).toHaveCount(0);
+  await expect(page.locator('section:has(> h2#geld) [data-geld-soort]', { hasText: kop }).first()).toBeVisible();
+  await expect(page.locator('section:has(> h2#geld) [data-geld-krap] [data-geld-soort]', { hasText: kop })).toHaveCount(0);
 });
 Then('gaat de link {string} naar de regelingencheck voor die gemeente', async ({ page }, naam: string) => {
   const href = await page.getByRole('link', { name: naam }).first().getAttribute('href');
@@ -475,4 +475,115 @@ Then('zie ik hoeveel gemeenten er gevonden zijn', async ({ page }) => {
 /** Een kaart is één grote link (kop, tekst en pijl); de naam van de link is de hele kaart, daarom op de kop. */
 When('ik de kaart {string} open', async ({ page }, kop: string) => {
   await page.locator('a.card', { has: page.locator('h3', { hasText: kop }) }).locator('visible=true').first().click();
+});
+
+// ---------- zoeken op de site (zoeken.feature, src/scripts/zoeken.ts) ----------
+const zoekResultaten = (page: Page) => page.locator('[data-zoek-resultaten] li[data-soort]').locator('visible=true');
+Then('staat de knop {string} rechts naast {string} in het menu', async ({ page }, knop: string, link: string) => {
+  const [k, l] = [await page.getByRole('button', { name: knop, exact: true }).locator('visible=true').first().boundingBox(), await page.locator('#hoofdnavigatie').getByRole('link', { name: link, exact: true }).boundingBox()];
+  expect(k!.x, 'rechts van de link').toBeGreaterThanOrEqual(l!.x + l!.width);
+  expect(k!.y < l!.y + l!.height && l!.y < k!.y + k!.height, 'op dezelfde regel').toBe(true);
+});
+Then('staat de cursor op de knop {string}', async ({ page }, knop: string) => {
+  await expect(page.getByRole('button', { name: knop, exact: true }).locator('visible=true').first()).toBeFocused();
+});
+Then('zie ik het zoekresultaat {string} met de soort {string}', async ({ page }, titel: string, soort: string) => {
+  const r = zoekResultaten(page).filter({ has: page.getByRole('link', { name: titel }) }).first();
+  await expect(r).toBeVisible();
+  await expect(r).toHaveAttribute('data-soort', soort);
+});
+Then('is het eerste zoekresultaat {string}', async ({ page }, titel: string) => {
+  await expect(zoekResultaten(page).first().getByRole('link')).toContainText(titel);
+});
+Then('staan er hooguit {int} gemeenten tussen de zoekresultaten', async ({ page }, n: number) => {
+  await expect(zoekResultaten(page).first()).toBeVisible();
+  expect(await zoekResultaten(page).and(page.locator('[data-soort="Gemeente"]')).count()).toBeLessThanOrEqual(n);
+});
+Then('staan er meer dan {int} gemeenten tussen de zoekresultaten', async ({ page }, n: number) => {
+  await expect.poll(() => page.locator('[data-zoek-resultaten] li[data-soort="Gemeente"]').locator('visible=true').count()).toBeGreaterThan(n);
+});
+Then('gaat geen zoekresultaat naar {string}', async ({ page }, pad: string) => {
+  await expect(zoekResultaten(page).first()).toBeVisible();
+  for (const href of await zoekResultaten(page).getByRole('link').evaluateAll((as) => as.map((a) => a.getAttribute('href') ?? '')))
+    expect(href, href).not.toContain(pad);
+});
+Then('staan de gemeenten onder de andere zoekresultaten', async ({ page }) => {
+  await expect(zoekResultaten(page).first()).toBeVisible();
+  const soorten = await zoekResultaten(page).evaluateAll((lis) => lis.map((li) => (li as HTMLElement).dataset.soort));
+  const eersteGemeente = soorten.indexOf('Gemeente');
+  expect(soorten.some((x) => x !== 'Gemeente'), 'er zijn andere resultaten').toBe(true);
+  expect(eersteGemeente === -1 || soorten.slice(eersteGemeente).every((x) => x === 'Gemeente'), soorten.join(', ')).toBe(true);
+});
+Then('gaat het zoekresultaat {string} naar {string}', async ({ page }, titel: string, pad: string) => {
+  const link = zoekResultaten(page).getByRole('link', { name: titel }).first();
+  await expect(link).toBeVisible();
+  expect(new URL((await link.getAttribute('href'))!, page.url()).pathname + new URL((await link.getAttribute('href'))!, page.url()).hash).toMatch(new RegExp(`${pad.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`));
+});
+/** Vertraagt het laden van de zoekfunctie (pagefind.js), zodat te zien is wat er staat terwijl die laadt. */
+Given('de zoekfunctie laadt traag', async ({ page }) => {
+  await page.route('**/pagefind/pagefind.js', async (route) => { await new Promise((r) => setTimeout(r, 1500)); await route.continue(); });
+});
+/** Snelkoppelingen bovenaan een pagina (nav.toc, "Snel naar"). */
+Then('staat bovenaan de snelkoppeling {string} naar {string}', async ({ page }, naam: string, anker: string) => {
+  const link = page.locator('nav.toc').getByRole('link', { name: naam, exact: true });
+  await expect(link).toBeVisible();
+  await expect(link).toHaveAttribute('href', new RegExp(`${anker}$`));
+});
+/** Zoals "gaat de link … naar …", maar alleen een link met precies deze tekst ("Trauma", niet "Traumagerichte therapie"). */
+Then('gaat de link met precies de tekst {string} naar {string}', async ({ page }, naam: string, doel: string) => {
+  const link = page.getByRole('link', { name: naam, exact: true }).locator('visible=true').first();
+  // Het adres waar de link echt naartoe gaat (ook bij een relatief adres als "../trauma/").
+  expect(await link.evaluate((a) => (a as HTMLAnchorElement).href)).toMatch(new RegExp(`${doel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`));
+});
+Then('staat bij het zoekresultaat {string} de tekst {string}', async ({ page }, titel: string, tekst: string) => {
+  const r = zoekResultaten(page).filter({ has: page.getByRole('link', { name: titel }) }).first();
+  await expect(r.locator('p')).toContainText(tekst);
+});
+/** Elke kop van dit niveau in de inhoud heeft een id (anker); de zoekfunctie (Pagefind) linkt alleen naar koppen met een anker. */
+Then('heeft elke kop {word} in de inhoud een anker', async ({ page }, kop: string) => {
+  const zonder = await page.locator(`main ${kop}`).evaluateAll((hs) => hs.filter((h) => !h.id && !h.closest('[data-pagefind-ignore]')).map((h) => h.textContent?.trim()));
+  expect(zonder, 'koppen zonder anker').toEqual([]);
+});
+/** Snelkoppelingen naar een plek op de pagina (inhoudsopgave, zijnavigatie) wijzen naar een kop, niet naar een blok (behalve blokken buiten de zoekindex). */
+Then('wijzen de snelkoppelingen op de pagina naar koppen', async ({ page }) => {
+  const fout = await page.locator('nav a[href^="#"]').evaluateAll((as) => as.map((a) => a.getAttribute('href')!.slice(1)).filter((id) => {
+    const doel = document.getElementById(id);
+    // Blokken die niet in de zoekindex staan (zoals de bronnen) mogen een anker op het blok houden.
+    return id && !!doel && !/^H[1-6]$/.test(doel.tagName) && !doel.closest('[data-pagefind-ignore]');
+  }));
+  expect(fout, 'snelkoppelingen naar een blok').toEqual([]);
+});
+/** Klik op de pagina onder het paneel met resultaten (onderaan het scherm). */
+When('ik onder de zoekresultaten klik', async ({ page }) => {
+  const h = page.viewportSize()!.height;
+  await page.mouse.click(5, h - 5);
+});
+Then('zie ik geen zoekresultaten', async ({ page }) => {
+  await expect(page.locator('[data-zoek-paneel]')).toBeHidden();
+});
+
+
+Given('het scherm is {int} pixels breed', async ({ page }, breedte: number) => {
+  await page.setViewportSize({ width: breedte, height: 700 });
+});
+
+const knopEnVergrootglas = async (page: Page, naam: string) => ({
+  knop: (await page.locator('.site-header').getByRole('button', { name: naam, exact: true }).boundingBox())!,
+  zoek: (await page.locator('.site-header [data-zoek-knop]').boundingBox())!,
+  breedte: page.viewportSize()!.width,
+});
+
+Then('staat de knop {string} links naast het vergrootglas', async ({ page }, naam: string) => {
+  const { knop, zoek, breedte } = await knopEnVergrootglas(page, naam);
+  expect(Math.abs(knop.y + knop.height / 2 - (zoek.y + zoek.height / 2))).toBeLessThan(4);
+  expect(knop.x + knop.width).toBeLessThan(zoek.x + 1);
+  // Het vergrootglas staat rechts, vlak bij de rand (binnen de marge van de kop).
+  expect(breedte - (zoek.x + zoek.width)).toBeLessThan(28);
+});
+
+Then('staat de knop {string} rechts onder het vergrootglas', async ({ page }, naam: string) => {
+  const { knop, zoek, breedte } = await knopEnVergrootglas(page, naam);
+  expect(knop.y).toBeGreaterThan(zoek.y + zoek.height - 1);
+  expect(breedte - (knop.x + knop.width)).toBeLessThan(28);
+  expect(breedte - (zoek.x + zoek.width)).toBeLessThan(28);
 });

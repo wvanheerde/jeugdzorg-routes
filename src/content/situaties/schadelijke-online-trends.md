@@ -1,6 +1,7 @@
 ---
 titel: Schadelijke online trends
 herkenning: "Mijn kind doet mee aan gevaarlijke challenges, wordt online onder druk gezet of komt niet meer los van schadelijke filmpjes en berichten."
+zoekwoorden: ["challenge", "TikTok", "sexting", "online pesten", "sextortion", "chantage", "social media", "filmpjes"]
 samenvatting: "Denk aan gevaarlijke challenges, extreme filmpjes over diëten of fitness, sextortion en online pesten. Of aan apps die steeds heftiger beelden laten zien. Dit is nieuw voor veel hulpverleners. Er zijn wel speciale meldpunten en hulplijnen. En bij ernstige gevolgen is er gewoon jeugdhulp."
 themas: [online, social media, pesten, sextortion, zelfbeschadiging, zelfbeeld, eetproblemen, onderwijs]
 hulpsoorten: [behandeling-jeugd-ggz, opvoedondersteuning, ambulante-begeleiding, crisishulp]

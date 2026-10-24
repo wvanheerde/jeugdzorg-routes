@@ -1,7 +1,8 @@
 ---
 titel: "Dwang en tics"
 herkenning: "Mijn kind moet dingen steeds herhalen of controleren, heeft rituelen waar het niet zonder kan, of maakt onwillekeurige bewegingen of geluiden."
-samenvatting: "Dwang (OCD) en tics komen vaker voor dan gedacht. Bij tics hoort ook het syndroom van Gilles de la Tourette. Ze gaan vaak samen met angst, ADHD of autisme. Beide zijn goed te behandelen met gedragstherapie. De eerste stap is zien dat uw kind dit niet expres doet, en ook niet om aandacht te trekken."
+zoekwoorden: ["dwanggedachten", "OCD", "rituelen", "steeds controleren", "steeds handen wassen", "tics", "Tourette", "knipperen", "keelschrapen"]
+samenvatting: "Dwang (OCD) en tics komen vaker voor dan gedacht. Bij tics hoort ook het syndroom van Gilles de la Tourette. Ze gaan vaak samen met angst, ADHD of autisme. Gedragstherapie laat bij beide goede resultaten zien. Uw kind doet dit niet expres, en ook niet om aandacht te vragen. Dat weten is de eerste stap."
 themas: [dwang, tics, tourette]
 hulpsoorten: [behandeling-jeugd-ggz, opvoedondersteuning, ambulante-begeleiding]
 routes:

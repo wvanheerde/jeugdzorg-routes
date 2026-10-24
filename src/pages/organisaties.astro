@@ -18,6 +18,7 @@ const soortLabel: Record<string, { label: string; icon: any; cls?: string }> = {
 };
 const zoektekst = (o: (typeof orgs)[number]) => [o.data.naam, o.data.omschrijving, ...o.data.themas].join(' ').toLowerCase();
 const groepen = Object.keys(soortLabel).map((k) => ({ k, ...soortLabel[k], items: orgs.filter((o) => o.data.soort === k) })).filter((g) => g.items.length);
+// Ankers van de blokken staan op de kop (h2), niet op de <section>: dan linkt de zoekfunctie (Pagefind) naar het blok.
 ---
 <Base title="Organisaties" description="Landelijke organisaties waar ouders terechtkunnen voor advies, cliëntondersteuning en steun bij jeugdhulp en onderwijs.">
   <div class="page-head">
@@ -26,16 +27,16 @@ const groepen = Object.keys(soortLabel).map((k) => ({ k, ...soortLabel[k], items
     <p class="lead">Belangen- en patiëntenorganisaties, ouderverenigingen en hulplijnen. Zij bieden informatie, lotgenotencontact en vaak ook bijeenkomsten en activiteiten.</p>
     <div style="max-width:34rem;margin-top:1.25rem"><GemeenteZoeker target="#organisaties-lijst" placeholder="Zoek op naam of onderwerp, bv. autisme…" label="Zoek organisatie" /></div>
   </div>
-  <nav class="toc" aria-label="Snel naar">{groepen.map((g) => <a href={`#${g.k}`}>{g.label}</a>)}</nav>
+  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">{groepen.map((g) => <a href={`#${g.k}`}>{g.label}</a>)}</nav>
   <div id="organisaties-lijst">
   {groepen.map((g) => (
-    <section id={g.k} style="scroll-margin-top:5.5rem">
-      <div class="kicker"><h2>{g.label}</h2><span class="line"></span></div>
+    <section>
+      <div class="kicker"><h2 id={g.k} style="scroll-margin-top:5.5rem">{g.label}</h2><span class="line"></span></div>
       <div class="grid" style="margin-top:1.25rem">
         {g.items.map((o) => (
           <div class="card" id={o.id} style="scroll-margin-top:5.5rem" data-zoek={zoektekst(o)}>
             <div class={`icon ${g.cls ?? ''}`}><Icon name={g.icon} /></div>
-            <h3>{o.data.naam}</h3>
+            <h3 id={o.id} style="scroll-margin-top:6rem">{o.data.naam}</h3>
             <div class="tags">{o.data.themas.map((t) => <span>{t}</span>)}</div>
             <p>{o.data.omschrijving}</p>
             {o.data.watBiedenZij.length > 0 && <ul>{o.data.watBiedenZij.map((w) => <li>{w}</li>)}</ul>}

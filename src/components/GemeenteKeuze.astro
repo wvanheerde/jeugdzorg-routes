@@ -5,7 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 interface Props { label?: string; id?: string }
-const { label = 'Waar woont u?', id = 'gemeente-keuze' } = Astro.props;
+const { label = 'In welke gemeente woont u?', id = 'gemeente-keuze' } = Astro.props;
 const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
 ---
 <div class="gemeente-rij">
@@ -46,7 +46,7 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
 
   // Bij een verhuizing gaat het om de gemeente waar u nu woont; de nieuwe gemeente vraagt het overzicht apart.
   const zetLabel = (kp: string) => document.querySelectorAll<HTMLElement>('[data-gemeente-label]').forEach((e) => {
-    e.textContent = kp === 'verhuizing' && e.dataset.gemeenteLabel === 'Waar woont u?' ? 'Waar woont u nu?' : e.dataset.gemeenteLabel!;
+    e.textContent = kp === 'verhuizing' && e.dataset.gemeenteLabel === 'In welke gemeente woont u?' ? 'In welke gemeente woont u nu?' : e.dataset.gemeenteLabel!;
   });
   zetLabel(new URLSearchParams(location.search).get('k') ?? localStorage.getItem('jr.knelpunt') ?? '');
   document.addEventListener('jr:knelpunt', (e) => zetLabel((e as CustomEvent).detail));

@@ -1,6 +1,7 @@
 ---
 titel: Langdurig of ernstig ziek
 herkenning: "Mijn kind is langdurig of ernstig ziek, of heeft een lichamelijke beperking."
+zoekwoorden: ["chronisch ziek", "ernstig ziek", "kanker", "diabetes", "epilepsie", "lichamelijke beperking", "rolstoel", "ziekenhuis", "revalidatie"]
 samenvatting: "Medische zorg loopt via het ziekenhuis en de zorgverzekeraar. De gemeente zorgt voor begeleiding, verzorging thuis, logeren en steun aan het hele gezin. Daarnaast zijn er regelingen voor geld en stichtingen die het gezin wat lucht geven."
 themas: [langdurig ziek, ernstig ziek, chronische ziekte, beperking, gezin, verlichting, mantelzorg, brusjes]
 hulpsoorten: [persoonlijke-verzorging, ambulante-begeleiding, logeren-respijt, dagbesteding, opvoedondersteuning]

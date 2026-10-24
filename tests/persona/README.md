@@ -45,3 +45,4 @@ Kopieer een bestaand scenario. Houd "Voor de tester" in de taal en kennis van de
 - 2026-10-19: persona Yvonne en scenario 20 (besluit loopt af op 30 november en er is meer nodig, Haarlem) toegevoegd voor de verdieping bij "Ik wil hulp uitbreiden". Totaal 20.
 - 2026-10-20 (na ronde 24): scores gemak en vertrouwen als rapportcijfer van 1 tot 10 (6 voldoende, 8 goed) in plaats van 1 tot 7. Oude scores omrekenen met 1 + (x − 1) × 1,5 en dat vermelden bij een vergelijking.
 - 2026-10-23: scenario's 21 (Sanne, besluit nalezen en bezwaartermijn, Emmen), 22 (Fatima, besluit begrijpen, Rotterdam), 23 (Lisa, logboek, Haarlem) en 24 (Naima, "Dit is mijn kind", Leeuwarden) toegevoegd voor de vellen om af te drukken. Totaal 24.
+- 2026-10-24: scenario's 25 (Mark, brief terugvinden), 26 (Ingrid, woord opzoeken), 27 (Naima, in een zin, telefoon) en 28 (Sanne, in een zin, telefoon) toegevoegd voor de zoekfunctie in het menu. De opdracht noemt de zoekfunctie niet. Totaal 28.

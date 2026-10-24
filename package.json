@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/sitemap.mjs",
+    "build": "astro build && node scripts/sitemap.mjs && pagefind --site dist --silent",
     "preview": "astro preview",
     "check": "astro check",
     "validate": "node scripts/validate-content.mjs",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@types/node": "^26.6.5",
+    "pagefind": "^1.5.2",
     "typescript": "^6.0.3"
   }
 }

@@ -1,6 +1,7 @@
 ---
 titel: "Eetstoornis"
 herkenning: "Mijn kind eet steeds minder, is geobsedeerd door eten, gewicht of sporten, eet stiekem heel veel, of ik vermoed dat het braakt."
+zoekwoorden: ["anorexia", "boulimia", "eetbuien", "eet niet meer", "afvallen", "braken", "overgeven", "obsessief sporten", "gewicht"]
 samenvatting: "Een eetstoornis is een ernstige psychische ziekte die ook het lichaam schaadt. Anorexia kan levensbedreigend zijn. Snel hulp zoeken maakt het verschil. Hoe korter de eetstoornis bestaat, hoe groter de kans op herstel. Begin bij de huisarts. Eerst wordt het lichaam gecontroleerd. In de behandeling zijn ouders onmisbaar."
 themas: [eetstoornis, anorexia, boulimia]
 hulpsoorten: [behandeling-jeugd-ggz, crisishulp, ambulante-begeleiding]

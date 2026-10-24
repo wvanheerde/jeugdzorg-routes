@@ -69,7 +69,7 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
 
   <div class="kicker" id="gemeenten"><h2>Gemeenten <span class="badge count">{gemeenten.length}</span></h2><span class="line"></span><a class="btn secondary" href={`${base}/gemeenten/`}>Alle gemeenten</a></div>
   <div style="max-width:30rem;margin:1rem 0 1.25rem"><GemeenteZoeker target="#gemeenten-grid" /></div>
-  <div class="grid" id="gemeenten-grid">
+  <div class="grid" id="gemeenten-grid" data-pagefind-ignore>
     {gemeenten.map((g) => <GemeenteCard g={g} />)}
   </div>
   <p class="empty empty-result" hidden style="margin-top:1rem">Geen gemeente gevonden. De <a href={`${base}/landelijk/`}>landelijke rechten</a> gelden overal.</p>

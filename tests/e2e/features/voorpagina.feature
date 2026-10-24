@@ -11,7 +11,7 @@ Functionaliteit: Voorpagina en startvragen
     Gegeven ik open de voorpagina
     Dan is de hoofdkop "Wegwijs in de jeugdzorg, per gemeente"
     En zie ik "Uw gemeente regelt jeugdhulp, en iedere gemeente doet dat anders."
-    En zie ik "Waar woont u?"
+    En zie ik "In welke gemeente woont u?"
     En zie ik "Wat is uw situatie?" niet
     En zie ik de knop "Ik zoek hulp voor mijn kind" niet
     Als ik als gemeente "Utrecht" kies
@@ -34,7 +34,7 @@ Functionaliteit: Voorpagina en startvragen
     De verborgen link "Zoek op woonplaats" hield daar ruimte vrij (21-10).
     Gegeven ik open de voorpagina
     Als ik als gemeente "Utrecht" kies
-    Dan staat "Wat is uw situatie?" vlak onder de keuzelijst "Waar woont u?"
+    Dan staat "Wat is uw situatie?" vlak onder de keuzelijst "In welke gemeente woont u?"
 
   Scenario: Spoed staat apart bovenaan, zonder gemeente
     Gegeven ik open de voorpagina
@@ -238,7 +238,7 @@ Functionaliteit: Voorpagina en startvragen
     En ik als gemeente "Utrecht" kies
     Als ik kies "Er verandert iets"
     En ik kies "Wij verhuizen"
-    Dan zie ik "Waar woont u nu?"
+    Dan zie ik "In welke gemeente woont u nu?"
 
   Scenario: Keuzes worden onthouden en zijn te wissen, behalve de gemeente
     De gemeente blijft staan: die verandert zelden, en de ouder hoeft hem dan niet opnieuw te zoeken (20-10).

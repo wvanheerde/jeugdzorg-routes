@@ -29,6 +29,19 @@ Functionaliteit: Opmaak, menu en voettekst
       | Gemeenten      |
       | Hulpmiddelen   |
 
+  @mobiel
+  Abstract Scenario: Op de telefoon staat de knop "Menu" links naast het vergrootglas, op een heel smal scherm eronder (<breedte> pixels)
+    Zoals op de laptop: het menu links van het vergrootglas, beide rechts (24-10). Op de iPhone 13 stond Menu eerst onder het logo.
+    Gegeven het scherm is <breedte> pixels breed
+    En ik open de voorpagina
+    Dan staat de knop "Menu" <plek> het vergrootglas
+
+    Voorbeelden:
+      | breedte | plek         |
+      | 360     | links naast  |
+      | 390     | links naast  |
+      | 320     | rechts onder |
+
   Scenario: De voettekst wijst naar over deze site, de moeilijke woorden en de hulplijnen
     "Over deze site" staat alleen in de voettekst, niet in het hoofdmenu (20-10).
     Gegeven ik open de voorpagina

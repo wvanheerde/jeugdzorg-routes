@@ -1,6 +1,8 @@
 ---
 titel: "Verslaving en gamen"
 herkenning: "Mijn kind gebruikt alcohol of drugs, gamet of gokt zoveel dat school, slaap en contacten eronder lijden, en gesprekken lopen uit op ruzie."
+zoekwoorden: ["gamen", "gameverslaving", "blowen", "drugs", "alcohol", "drinken", "gokken", "vapen", "schermtijd"]
+zoekvormen: ["gamet", "blowt", "drinkt", "gokt", "vapet"]
 samenvatting: "Ongeveer vier procent van de middelbare scholieren gamet zo veel dat het problemen geeft. Alcohol- en drugsgebruik begint vaak in de tienerjaren. De hulp loopt deels via andere wegen dan gewone jeugdhulp. De verslavingszorg heeft eigen teams en programma's voor jongeren. Ouders hebben een eigen plek in de behandeling. Wil uw tiener zelf geen hulp? Dan kunt u toch zelf steun zoeken."
 themas: [verslaving, gamen, alcohol, drugs, gokken, jonge mantelzorger]
 hulpsoorten: [behandeling-jeugd-ggz, ambulante-begeleiding, opvoedondersteuning]

@@ -36,3 +36,10 @@ Functionaliteit: Moeilijke woorden
     Gegeven ik open het overzicht voor "Ik wil hulp uitbreiden" in "Haarlem"
     Dan zie ik "Kies alles wat past."
     En is "Kies" met precies deze letters geen moeilijk woord
+
+  Scenario: De uitleg van "zorgovereenkomst" zegt wie hem goedkeurt
+    Ingrid (persona-test zoeken, 24-10) vond de uitleg in de lijst, maar moest verder zoeken naar wie hem goedkeurt.
+    Gegeven ik open de pagina "begrippen/"
+    Als ik "zorgovereenkomst" zoek in "Zoek een woord"
+    Dan zie ik "De gemeente en de SVB keuren hem goed."
+

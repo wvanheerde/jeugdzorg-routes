@@ -1,7 +1,9 @@
 ---
 titel: Gedragsproblemen
 herkenning: "Mijn kind heeft driftbuien, is opstandig of agressief, en wij komen er thuis niet meer uit."
-samenvatting: "Ernstige of langdurige gedragsproblemen zijn een van de meest voorkomende redenen voor jeugdhulp. Er zijn aanpakken die bewezen effectief zijn. Het belangrijkste is dat ouders zelf begeleiding krijgen, niet alleen het kind."
+zoekwoorden: ["slaan", "schoppen", "bijten", "spugen", "vechten", "driftbuien", "woedeaanvallen", "agressief", "opstandig", "luistert niet", "brutaal", "liegen", "stelen"]
+zoekvormen: ["slaat", "sloeg", "schopt", "bijt", "spuugt", "vecht", "liegt", "steelt", "scheldt"]
+samenvatting: "Ernstige of langdurige gedragsproblemen zijn een van de meest voorkomende redenen voor jeugdhulp. Er zijn aanpakken die bewezen effectief zijn. Het belangrijkste is dat ouders zelf ook begeleiding krijgen, niet alleen het kind."
 themas: [gedragsproblemen, opvoeden, gezin, agressie, onderwijs]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, behandeling-jeugd-ggz, dagbesteding]
 routes:

@@ -1,0 +1,16 @@
+{"stap":1,"tijd":"2026-10-24T11:19:55.218Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-24T11:19:55.793Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"open","args":["http://127.0.0.1:4329/gemeenten/utrecht/"]}
+{"stap":3,"tijd":"2026-10-24T11:19:55.841Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"kijk","args":[],"lengte":1654}
+{"stap":4,"tijd":"2026-10-24T11:19:59.235Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"notitie","args":["Brief klacht wachtlijst... ik probeer Zoeken bovenin. stap 1/12"],"tekst":"Brief klacht wachtlijst... ik probeer Zoeken bovenin. stap 1/12"}
+{"stap":5,"tijd":"2026-10-24T11:20:01.110Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"klik","args":["9"]}
+{"stap":6,"tijd":"2026-10-24T11:20:01.158Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"kijk","args":[],"lengte":1559}
+{"stap":7,"tijd":"2026-10-24T11:20:04.870Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"typ","args":["3","klacht brief"]}
+{"stap":8,"tijd":"2026-10-24T11:20:04.951Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"kijk","args":[],"lengte":1589}
+{"stap":9,"tijd":"2026-10-24T11:20:05.082Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"foto","args":["zoek"]}
+{"stap":10,"tijd":"2026-10-24T11:20:08.712Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"kijk","args":[],"lengte":2829}
+{"stap":11,"tijd":"2026-10-24T11:20:12.896Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"notitie","args":["Eerste resultaat 'Klacht over de hulpverlener of de aanbieder' met 'te lang wacht op een plek': dat is hem. stap 3/12"],"tekst":"Eerste resultaat 'Klacht over de hulpverlener of de aanbieder' met 'te lang wacht op een plek': dat is hem. stap 3/12"}
+{"stap":12,"tijd":"2026-10-24T11:20:14.739Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"klik","args":["5"]}
+{"stap":13,"tijd":"2026-10-24T11:20:14.778Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"kijk","args":[],"lengte":1911}
+{"stap":14,"tijd":"2026-10-24T11:20:14.853Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"foto","args":["brief"]}
+{"stap":15,"tijd":"2026-10-24T11:20:23.457Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"notitie","args":["Brief voor me, met knop 'We wachten te lang op een plek'. Klaar in 3 stappen."],"tekst":"Brief voor me, met knop 'We wachten te lang op een plek'. Klaar in 3 stappen."}
+{"stap":16,"tijd":"2026-10-24T11:20:23.493Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"stop"}

@@ -1,0 +1,22 @@
+{"stap":1,"tijd":"2026-10-24T10:49:10.785Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-24T10:49:11.435Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"open","args":["http://127.0.0.1:4329/gemeenten/utrecht/"]}
+{"stap":3,"tijd":"2026-10-24T10:49:11.487Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"kijk","args":[],"lengte":1654}
+{"stap":4,"tijd":"2026-10-24T10:49:15.277Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"notitie","args":["Brief met voorbeeldtekst... Ik probeer Hulpmiddelen in het menu. stap 1/12"],"tekst":"Brief met voorbeeldtekst... Ik probeer Hulpmiddelen in het menu. stap 1/12"}
+{"stap":5,"tijd":"2026-10-24T10:49:17.131Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"klik","args":["8"]}
+{"stap":6,"tijd":"2026-10-24T10:49:20.332Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"foto","args":["eerste"]}
+{"stap":7,"tijd":"2026-10-24T10:49:20.376Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"kijk","args":[],"lengte":1526}
+{"stap":8,"tijd":"2026-10-24T10:49:23.767Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"notitie","args":["Stap 2/12: hier staat een lijst, maar ik zie geen brief voor een klacht. Even omlaag scrollen."],"tekst":"Stap 2/12: hier staat een lijst, maar ik zie geen brief voor een klacht. Even omlaag scrollen."}
+{"stap":9,"tijd":"2026-10-24T10:49:24.290Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"scroll","args":["omlaag"]}
+{"stap":10,"tijd":"2026-10-24T10:49:28.004Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"notitie","args":["Stap 3/12: geen klachtbrief in Hulpmiddelen. Ik gebruik Zoeken bovenin."],"tekst":"Stap 3/12: geen klachtbrief in Hulpmiddelen. Ik gebruik Zoeken bovenin."}
+{"stap":11,"tijd":"2026-10-24T10:49:29.859Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"klik","args":["9"]}
+{"stap":12,"tijd":"2026-10-24T10:49:29.901Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"kijk","args":[],"lengte":1169}
+{"stap":13,"tijd":"2026-10-24T10:49:33.292Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"typ","args":["3","klacht brief"]}
+{"stap":14,"tijd":"2026-10-24T10:49:33.344Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"kijk","args":[],"lengte":1191}
+{"stap":15,"tijd":"2026-10-24T10:49:38.355Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"foto","args":["zoek"]}
+{"stap":16,"tijd":"2026-10-24T10:49:39.406Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"kijk","args":[],"lengte":2426}
+{"stap":17,"tijd":"2026-10-24T10:49:46.310Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"notitie","args":["Stap 6/12: zoeken op klacht brief geeft een lijst. Nummer 6, Klacht over de hulpverlener of de aanbieder, lijkt wat ik zocht: lang wachten staat erbij."],"tekst":"Stap 6/12: zoeken op klacht brief geeft een lijst. Nummer 6, Klacht over de hulpverlener of de aanbieder, lijkt wat ik zocht: lang wachten staat erbij."}
+{"stap":18,"tijd":"2026-10-24T10:49:48.157Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"klik","args":["6"]}
+{"stap":19,"tijd":"2026-10-24T10:49:48.202Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"kijk","args":[],"lengte":1911}
+{"stap":20,"tijd":"2026-10-24T10:50:00.106Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"notitie","args":["Dit is de brief. Klaar in 6 stappen. Zoeken werkte goed, maar ik zocht eerst in Hulpmiddelen en daar staat de klachtbrief niet."],"tekst":"Dit is de brief. Klaar in 6 stappen. Zoeken werkte goed, maar ik zocht eerst in Hulpmiddelen en daar staat de klachtbrief niet."}
+{"stap":21,"tijd":"2026-10-24T10:50:00.179Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"foto","args":["brief"]}
+{"stap":22,"tijd":"2026-10-24T10:50:00.222Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"stop"}

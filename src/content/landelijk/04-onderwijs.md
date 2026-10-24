@@ -42,7 +42,7 @@ Het begint met de **zorgplicht** van de school. Die start als u uw kind **schrif
 - dat aanbod geven op de eigen school. Of samen met u een andere school vinden die het wél kan;
 - u bij elke stap betrekken en het OPP met u bespreken.
 
-De school mag een kind niet weigeren omdat het ondersteuning nodig heeft. Zegt de school "wij kunnen dit niet"? Dan is dat geen eindpunt. Dan begint juist de zorgplicht. De school moet dan zelf een andere passende plek vinden. U hoeft niet zelf te gaan zoeken.
+De school mag een kind niet weigeren omdat het ondersteuning nodig heeft. Lukt het op de eigen school niet? Dan zoekt de school een andere passende plek. Dat heet zorgplicht. U hoeft niet zelf te gaan zoeken.
 
 Wanneer is het tijd om dit te starten? Let op deze signalen:
 
@@ -51,10 +51,10 @@ Wanneer is het tijd om dit te starten? Let op deze signalen:
 - de cijfers worden slechter, ook al doet uw kind zijn best;
 - u hoort steeds "het komt wel".
 
-Vraag dan schriftelijk om een gesprek en om het OPP. Een voorbeeldbrief vindt u bij de situatie [School loopt vast of kind zit thuis](../situaties/school-loopt-vast/).
+Vraag school dan om een gesprek en om het OPP. Een voorbeeldbrief vindt u bij de situatie [School loopt vast of kind zit thuis](../situaties/school-loopt-vast/).
 
 ## Waar onderwijs en jeugdhulp elkaar raken
 
 - **Hulp in de klas die geen onderwijs is.** Denk aan begeleiding bij gedrag of bij een beperking. Dat is jeugdhulp. De gemeente betaalt het, ook als het op school gebeurt. School en gemeente kunnen dat samen regelen in een **onderwijs-zorgarrangement**.
-- **Thuiszitten.** Gaat uw kind lange tijd niet naar school? Dan moeten school, samenwerkingsverband, leerplicht én gemeente samenwerken. Vraag om één overleg met iedereen aan tafel. Een **vrijstelling van de leerplicht** klinkt misschien als rust. Maar dan vervalt het recht op onderwijs. Teken dus niet onder druk. Vraag eerst naar maatwerk, deeltijdonderwijs of een arrangement.
+- **Thuiszitten.** Gaat uw kind lange tijd niet naar school? Dan moeten school, samenwerkingsverband, leerplicht én gemeente samenwerken. Vraag om één overleg met iedereen aan tafel. Een **vrijstelling van de leerplicht** klinkt misschien als rust. Maar dan vervalt het recht op onderwijs. Teken die dus alleen als u zeker weet dat het de beste keuze is. Vraag eerst naar maatwerk, deeltijdonderwijs of een arrangement.
 - **Komt u er niet uit?** **Onderwijsconsulenten**, onafhankelijke adviseurs van de overheid, bemiddelen gratis. De landelijke **Geschillencommissie passend onderwijs** doet binnen tien weken een uitspraak over toelating, verwijdering en het OPP. Ouders & Onderwijs geeft gratis advies over de hele route.

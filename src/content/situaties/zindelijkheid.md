@@ -1,6 +1,8 @@
 ---
 titel: Zindelijkheid
 herkenning: Mijn kind wordt niet zindelijk, of is het weer kwijtgeraakt.
+zoekwoorden: ["zindelijk", "plassen", "poepen", "in de broek", "bedplassen", "plast in bed", "luier", "broekpoepen", "natte broek"]
+zoekvormen: ["plast", "poept"]
 samenvatting: "Problemen met plassen of poepen komen veel voor. Ze zijn vaak goed te behandelen. Maar de hulp is verdeeld over huisarts, jeugdarts, ziekenhuis en gemeente. Laat eerst een arts kijken. Zoek daarna gericht naar gespecialiseerde begeleiding."
 themas: [zindelijkheid, bedplassen, ontwikkelingsproblemen, beperking, gezin, opvoeden]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, persoonlijke-verzorging]

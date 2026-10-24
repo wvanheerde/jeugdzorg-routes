@@ -1,6 +1,7 @@
 ---
 titel: Onveiligheid thuis
 herkenning: "Ik maak me zorgen over de veiligheid van een kind: geweld, verwaarlozing, of ik red het zelf niet meer."
+zoekwoorden: ["huiselijk geweld", "mishandeling", "kindermishandeling", "verwaarlozing", "misbruik", "geweld thuis", "onveilig"]
 samenvatting: "Bij onveiligheid thuis gaat het eerst om de veiligheid van het kind. Hulp vragen is bijna altijd beter dan afwachten. Dat geldt ook als u zelf de ouder bent die het niet meer redt. Zelf om hulp vragen werkt in uw voordeel."
 themas: [veiligheid, huiselijk geweld, kindermishandeling, gezin, crisis, hechting, pleegzorg, trauma, kinderrechten]
 hulpsoorten: [crisishulp, ambulante-begeleiding, opvoedondersteuning, verblijf-pleegzorg, jeugdbescherming]

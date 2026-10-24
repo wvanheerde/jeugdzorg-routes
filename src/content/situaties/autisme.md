@@ -1,6 +1,7 @@
 ---
 titel: "Autisme (ASS)"
 herkenning: "Mijn kind heeft autisme (ASS), of ik vermoed het."
+zoekwoorden: ["autistisch", "ASS", "PDD-NOS", "prikkelgevoelig", "overprikkeld", "moeite met veranderingen", "vast in routines", "sociale contacten"]
 samenvatting: "In het handboek dat artsen gebruiken (de DSM-5) heet autisme autismespectrumstoornis (ASS). Autisme is geen ziekte die overgaat. Het is een manier waarop het brein informatie verwerkt. Hulp helpt iedereen dit te begrijpen, brengt structuur en ontlast het gezin. Veel gezinnen hebben recht op meer hulp dan ze denken."
 themas: [autisme, ontwikkelingsproblemen, onderwijs, gezin]
 hulpsoorten: [behandeling-jeugd-ggz, ambulante-begeleiding, logeren-respijt, dagbesteding, opvoedondersteuning]

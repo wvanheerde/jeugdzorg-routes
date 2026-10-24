@@ -20,8 +20,9 @@ const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde 
     <p class="lead">Alles om zelf mee aan de slag te gaan: om een gesprek voor te bereiden en om iets op papier te vragen. U vindt ze ook bij de stappen in Mijn overzicht, op de plek waar u ze nodig heeft.</p>
   </div>
 
-  <section class="section" id="voorbereiden">
-    <h2>Voorbereiden</h2>
+  <nav class="toc" data-pagefind-ignore aria-label="Snel naar"><a href="#voorbereiden">Voorbereiden</a><a href="#brieven">Voorbeeldbrieven</a></nav>
+  <section class="section">
+    <h2 id="voorbereiden">Voorbereiden</h2>
     <div class="grid">
       <a class="card link" href={`${base}/gesprek/`}>
         <div class="icon"><Icon name="users" /></div>
@@ -77,8 +78,8 @@ const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde 
     </div>
   </section>
 
-  <section class="section" id="brieven" style="scroll-margin-top:5.5rem">
-    <h2>Voorbeeldbrieven</h2>
+  <section class="section">
+    <h2 id="brieven">Voorbeeldbrieven</h2>
     <p class="meta">Kant-en-klare teksten om een gesprek, hulp of bezwaar op papier te vragen. Bij elke brief staat wanneer u hem gebruikt en waar u op let. Invullen, kopiëren, versturen. De brieven zijn voorbeelden, geen juridisch advies.</p>
     <div class="grid">{brieven.map((b) => <BriefKaart b={b} />)}</div>
   </section>

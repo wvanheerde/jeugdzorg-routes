@@ -42,6 +42,14 @@ const nav = [
   { href: `${base}/hulpmiddelen/`, label: 'Hulpmiddelen', ook: [`${base}/brieven/`, `${base}/gesprek/`, `${base}/logboek/`, `${base}/beschikking/`, `${base}/mijn-kind/`, `${base}/begrippen/`] },
 ];
 // "Over deze site" staat alleen in de voettekst.
+/** Soort pagina voor de zoekresultaten (Pagefind-filter "soort", zie src/scripts/zoeken.ts). */
+const SOORTEN: [RegExp, string][] = [
+  [/^gemeenten\/[^/]+\/$/, 'Gemeente'], [/^situaties\/./, 'Situatie'], [/^brieven\/./, 'Voorbeeldbrief'], [/^therapievormen\/./, 'Therapievorm'],
+  [/^hulpsoorten\/./, 'Hulpsoort'], [/^landelijk\//, 'Landelijk'], [/^organisaties\//, 'Organisaties'], [/^begrippen\//, 'Moeilijke woorden'],
+  [/^(gesprek|logboek|beschikking|mijn-kind|hulpmiddelen|brieven)\//, 'Hulpmiddel'],
+];
+const relatief = path.slice(base.length).replace(/^\//, '');
+const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
 ---
 <!doctype html>
 <html lang="nl">
@@ -82,13 +90,23 @@ const nav = [
           <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0f6b6e"/><path d="M17 47 C 17 32, 42 42, 43 28" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".95"/><path d="M43 10.5 a 9.5 9.5 0 0 1 9.5 9.5 c 0 7 -9.5 15 -9.5 15 s -9.5 -8 -9.5 -15 a 9.5 9.5 0 0 1 9.5 -9.5 z" fill="#ffb088"/><circle cx="43" cy="20" r="3.6" fill="#0f6b6e"/><circle cx="17" cy="47" r="5.5" fill="#fff"/></svg>
           Jeugdzorg<span>Routes</span>
         </a>
-        <button type="button" class="menu-knop" aria-expanded="false" aria-controls="hoofdnavigatie" data-menu-knop>Menu</button>
+        {/* Zoeken (zoeken.feature): het vergrootglas vervangt het menu door een zoekbalk; het script laadt Pagefind pas bij het openen. */}
+        <div class="kop-knoppen">
+          <button type="button" class="zoek-knop" aria-label="Zoeken" aria-expanded="false" aria-controls="zoekbalk" data-zoek-knop hidden><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+          <button type="button" class="menu-knop" aria-expanded="false" aria-controls="hoofdnavigatie" data-menu-knop>Menu</button>
+        </div>
+        {/* Het menu staat na de knoppen, zodat u op de telefoon na "Menu" met Tab bij de links komt; op de laptop zet CSS het voor het vergrootglas. */}
         <nav class="nav" id="hoofdnavigatie" aria-label="Hoofdnavigatie">
           {nav.map((n) => <a href={n.href} aria-current={[n.href, ...(n.ook ?? [])].some((h) => path.startsWith(h)) ? 'page' : undefined}>{n.label}</a>)}
         </nav>
+        <form class="zoekbalk" id="zoekbalk" role="search" data-zoekbalk hidden onsubmit="return false">
+          <input type="search" aria-label="Zoek op de site" placeholder="Zoek op de site, bv. bezwaar of autisme…" autocomplete="off" data-zoek-invoer />
+          <button type="button" class="zoek-sluit" aria-label="Zoeken sluiten" data-zoek-sluit>×</button>
+        </form>
       </div>
+      <div class="zoek-paneel" data-zoek-paneel hidden><div class="container"><p class="meta" data-zoek-melding role="status"></p><ol class="zoek-resultaten" data-zoek-resultaten></ol></div></div>
     </header>
-    <main id="inhoud"><div class="container"><slot /></div></main>
+    <main id="inhoud" data-pagefind-body={noindex ? undefined : ''} data-pagefind-filter={noindex ? undefined : `soort:${soort}`}><div class="container"><slot /></div></main>
     <footer class="site-footer">
       <div class="container">
         <div class="cols">
@@ -149,6 +167,9 @@ const nav = [
       });
     </script>
     <script is:inline set:html={`window.__jrWoorden = ${JSON.stringify(woorden)};`} />
+    <script>
+      import '../scripts/zoeken';
+    </script>
     <script>
       // Leg officiële woorden één keer per pagina uit: eerste keer onderstreept, uitleg na een tik.
       const lijst = (window as any).__jrWoorden as { vormen: string[]; uitleg: string; hoofdletters?: boolean }[];

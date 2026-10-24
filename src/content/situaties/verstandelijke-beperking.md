@@ -1,6 +1,7 @@
 ---
 titel: Verstandelijke beperking
 herkenning: Mijn kind heeft een (lichte) verstandelijke beperking of een ontwikkelingsachterstand.
+zoekwoorden: ["LVB", "licht verstandelijk beperkt", "ontwikkelingsachterstand", "laag IQ", "syndroom van Down"]
 samenvatting: "Kinderen met een verstandelijke beperking hebben vaak hun hele leven ondersteuning nodig. Dan is het belangrijk om goed te verdelen wat via de Jeugdwet, de Wlz en het onderwijs loopt. En om op tijd vooruit te kijken naar de tijd dat uw kind volwassen wordt."
 themas: [verstandelijke beperking, beperking, ontwikkelingsproblemen, onderwijs, gezin, mantelzorg]
 hulpsoorten: [ambulante-begeleiding, dagbesteding, logeren-respijt, persoonlijke-verzorging, opvoedondersteuning, verblijf-pleegzorg]

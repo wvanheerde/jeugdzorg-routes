@@ -5,7 +5,7 @@ aan: school
 tips:
   - "Stuur de brief per e-mail aan de intern begeleider of zorgcoördinator. Zet de directeur in de cc. Dan staat uw vraag op papier."
   - "Schrijf precies op wat u ziet: sinds wanneer, hoe vaak en wat het met uw kind doet. Dat helpt meer dan een diagnose."
-  - "Belt de leerplichtambtenaar u? Vertel dan dat u school om een gesprek heeft gevraagd. Teken geen vrijstelling van de leerplicht onder druk: dan heeft uw kind geen recht meer op onderwijs. Vraag eerst naar andere mogelijkheden."
+  - "Belt de leerplichtambtenaar u? Vertel dan dat u school om een gesprek heeft gevraagd. Wordt een vrijstelling van de leerplicht voorgesteld? Teken die alleen als u zeker weet dat het de beste keuze is: dan heeft uw kind geen recht meer op onderwijs. Vraag eerst naar andere mogelijkheden."
   - "Vraag een cliëntondersteuner of iemand van Ouders & Onderwijs om mee te gaan naar het gesprek."
 bronnen:
   - titel: "Ouders & Onderwijs – Afspraken over begeleiding van uw kind"

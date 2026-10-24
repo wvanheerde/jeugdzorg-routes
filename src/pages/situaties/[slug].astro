@@ -44,7 +44,11 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
   <div class="page-head">
     <span class="eyebrow">Situatie</span>
     <h1>{afbreken(d.titel)}</h1>
+    {/* Voor de zoekresultaten (zoeken.ts): bij een situatie staat de herkenningszin, niet een stukje tekst met de verborgen zoekvormen. */}
+    <span hidden data-pagefind-meta={`herkenning:${d.herkenning}`}></span>
     <p class="lead">{d.samenvatting}</p>
+    {/* Zoekvormen in een attribuut: Pagefind indexeert het (data-pagefind-index-attrs), op de pagina staat het niet. */}
+    {d.zoekwoorden.length > 0 && <p class="meta zoekwoorden" data-pagefind-weight="10" data-pagefind-index-attrs={d.zoekvormen.length ? 'data-zoekvormen' : undefined} data-zoekvormen={d.zoekvormen.length ? d.zoekvormen.join(' ') : undefined} data-pagefind-meta={`zoekwoorden:${[...d.zoekwoorden, ...d.zoekvormen].join('|')}`}>Ook bij: {d.zoekwoorden.join(', ')}.</p>}
     <div class="chips" style="margin-top:.75rem"><span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span></div>
     {d.landelijk.includes('05-financieel') && (
       <div class="notice geld-hint"><Icon name="euro" /><div>Veel extra zorg thuis? Misschien heeft u recht op <strong>dubbele kinderbijslag</strong> of andere regelingen. <a href={`${base}/landelijk/#05-financieel`}>Lees wat er is en hoe u het aanvraagt</a>.</div></div>
@@ -52,7 +56,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
   </div>
 
   <div class="section" id="gemeente">
-    <h2><span class="section-num">·</span>In uw gemeente</h2>
+    <h2><span class="section-num" data-pagefind-ignore>·</span>In uw gemeente</h2>
     <GemeenteKeuze />
     <p class="meta gemeente-blok" data-gemeente="" hidden>Kies uw gemeente; de contactgegevens verschijnen dan bij de routes hieronder.</p>
     <p class="meta gemeente-blok" data-gemeente="_overig" hidden>Uw gemeente staat nog niet op deze site. De routes hieronder gelden overal; de naam van het toegangsteam vindt u op de website van uw gemeente (zoek op "jeugdhulp" of "wijkteam").</p>
@@ -76,7 +80,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
     </aside>
     <div>
       <section class="section" id="routes">
-        <h2><span class="section-num">1</span>Welke route is logisch?</h2>
+        <h2><span class="section-num" data-pagefind-ignore>1</span>Welke route is logisch?</h2>
         {d.routes.map((r, i) => (
           <div class={`route ${r.type}`}>
             {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>
@@ -91,12 +95,12 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
       </section>
 
       <section class="section prose" id="uitleg">
-        <h2><span class="section-num">2</span>Wat helpt, en waar het vaak misgaat</h2>
+        <h2><span class="section-num" data-pagefind-ignore>2</span>Wat helpt, en waar het vaak misgaat</h2>
         <Content />
       </section>
 
       <section class="section" id="hulp">
-        <h2><span class="section-num">3</span>Welke hulp bestaat er?</h2>
+        <h2><span class="section-num" data-pagefind-ignore>3</span>Welke hulp bestaat er?</h2>
         <ToegangLegenda />
         <div class="grid">
           {hulpsoorten.map((h) => h && (
@@ -107,13 +111,13 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
       </section>
 
       <section class="section" id="therapie">
-        <h2><span class="section-num">4</span>Welke therapievormen kunnen passen?</h2>
+        <h2><span class="section-num" data-pagefind-ignore>4</span>Welke therapievormen kunnen passen?</h2>
         <p class="meta">Een therapievorm is de manier van werken binnen de hulp hierboven, meestal binnen behandeling; op de pagina van elke vorm staat waar die onder valt. Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar. <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.</p>
         {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid gelijk">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
       </section>
 
       <section class="section" id="regelingen">
-        <h2><span class="section-num">5</span>Rechten en regelingen</h2>
+        <h2><span class="section-num" data-pagefind-ignore>5</span>Rechten en regelingen</h2>
         {d.regelingen.length > 0 && (
           <ul class="linklist">{d.regelingen.map((r) => <li>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>)}</ul>
         )}
@@ -121,7 +125,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
       </section>
 
       <section class="section" id="organisaties">
-        <h2><span class="section-num">6</span>Organisaties die hierbij passen</h2>
+        <h2><span class="section-num" data-pagefind-ignore>6</span>Organisaties die hierbij passen</h2>
         {organisaties.length === 0 ? <p class="empty">Nog geen organisaties gekoppeld.</p> : (
           <div class="grid">
             {organisaties.map((o) => (
@@ -138,7 +142,7 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
 
       {brieven.length > 0 && (
         <section class="section" id="brieven">
-          <h2><span class="section-num">7</span>Voorbeeldbrieven</h2>
+          <h2><span class="section-num" data-pagefind-ignore>7</span>Voorbeeldbrieven</h2>
           <p class="meta">Bij deze situatie horen deze kant-en-klare teksten om een gesprek, hulp of bezwaar schriftelijk aan te vragen. Invullen, kopiëren, versturen.</p>
           <div class="grid">{brieven.map((b) => <BriefKaart b={b} />)}</div>
         </section>

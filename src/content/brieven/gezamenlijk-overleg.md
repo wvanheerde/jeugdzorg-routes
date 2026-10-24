@@ -5,7 +5,7 @@ aan: overig
 tips:
   - "Stuur de brief aan iedereen tegelijk. Dan weet iedereen dat de vraag ook bij hem of haar ligt."
   - "Vraag om één coördinator. Die is na het overleg uw vaste contactpersoon."
-  - "Komt er geen overleg? Gaat het om school? Dan kan de leerplichtambtenaar of een adviseur van Onderwijsconsulenten (onafhankelijk, van de overheid) het overleg afdwingen. Gaat het om zorg? Dan kan een cliëntondersteuner dat doen."
+  - "Komt er geen overleg? Gaat het om school? Vraag dan de leerplichtambtenaar of een adviseur van Onderwijsconsulenten (onafhankelijk, van de overheid) om iedereen om tafel te brengen. Gaat het om zorg? Dan kan een cliëntondersteuner helpen het overleg te regelen."
 bronnen:
   - titel: "Onderwijsconsulenten"
     url: https://www.onderwijsconsulenten.nl/

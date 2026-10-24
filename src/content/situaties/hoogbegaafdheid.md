@@ -1,7 +1,8 @@
 ---
 titel: "Hoogbegaafdheid"
 herkenning: "Mijn kind is (vermoedelijk) hoogbegaafd en loopt vast: verveelt zich, presteert onder zijn kunnen, is ongelukkig op school of thuis."
-samenvatting: "Hoogbegaafdheid alleen is geen reden voor jeugdhulp. Passend onderwijs is eerst de taak van school en het samenwerkingsverband. Maar loopt uw kind erdoor vast? Bijvoorbeeld door onderpresteren, thuiszitten, somberheid of gedrag? Dan is dat wél een reden om hulp te vragen. Vaak speelt er dan meer tegelijk, zoals autisme, ADHD of angst. Dat heet dubbel bijzonder."
+zoekwoorden: ["hoogbegaafd", "verveelt zich op school", "onderpresteren", "perfectionistisch", "plusklas", "versnellen"]
+samenvatting: "Hoogbegaafdheid alleen is geen reden voor jeugdhulp. Passend onderwijs is eerst de taak van school en het samenwerkingsverband. Maar loopt uw kind erdoor vast? Bijvoorbeeld door onderpresteren, thuiszitten, somberheid of gedrag? Dan is dat wél een reden om hulp te vragen. Soms speelt er meer tegelijk, zoals autisme of ADHD. Dat heet dubbel bijzonder. Ook angst of somberheid kan meespelen."
 themas: [hoogbegaafdheid, onderwijs, onderpresteren, thuiszitters, zelfbeeld, dubbel bijzonder]
 hulpsoorten: [opvoedondersteuning, behandeling-jeugd-ggz, ambulante-begeleiding]
 routes:
@@ -36,6 +37,9 @@ bronnen:
   - titel: "Kenniscentrum Hoogbegaafdheid (SLO)"
     url: https://kenniscentrumhb.nl/
     geraadpleegd: "2026-10-10"
+  - titel: "Kenniscentrum Hoogbegaafdheid – Dubbel bijzonder"
+    url: https://kenniscentrumhb.nl/thema-dubbel-bijzonder/
+    geraadpleegd: "2026-10-24"
   - titel: "Pharos – Oudervereniging voor hoogbegaafde kinderen"
     url: https://www.pharosnl.nl/
     geraadpleegd: "2026-10-10"

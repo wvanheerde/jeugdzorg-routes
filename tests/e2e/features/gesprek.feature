@@ -38,7 +38,7 @@ Functionaliteit: Uw gesprek met het wijkteam voorbereiden
 
   Scenario: Zonder gemeente zijn er lege regels voor de contacten
     Gegeven ik open de pagina "gesprek/"
-    Dan zie ik "Waar woont u?"
+    Dan zie ik "In welke gemeente woont u?"
     En staan er geen contacten van een gemeente op het vel
 
   Scenario: Met een gekozen gemeente staan het wijkteam en de cliëntondersteuner op het vel
@@ -50,7 +50,7 @@ Functionaliteit: Uw gesprek met het wijkteam voorbereiden
     Gegeven ik heb eerder gekozen voor de gemeente "Utrecht"
     En ik open de pagina "gesprek/"
     En ik het afdrukvoorbeeld bekijk
-    Dan zie ik "Waar woont u?" niet
+    Dan zie ik "In welke gemeente woont u?" niet
     Maar staan het wijkteam en de cliëntondersteuner van de gemeente op het vel
     En zie ik de kop "Vragen die u kunt stellen"
 

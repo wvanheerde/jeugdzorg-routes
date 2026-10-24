@@ -1,7 +1,8 @@
 ---
 titel: Mantelzorg in het gezin
 herkenning: "Iemand in ons gezin zorgt structureel voor een ander: een kind voor een broer, zus of ouder, of wij als ouders raken overbelast door de zorg."
-samenvatting: "Mantelzorg in een gezin ziet er steeds anders uit. Er zijn brusjes: kinderen met een broer of zus met een beperking of ziekte. Er zijn kinderen die zorgen voor een ouder met een lichamelijke of psychische ziekte of een verslaving. En er zijn ouders die zelf overbelast raken. Gemeenten moeten mantelzorgers ondersteunen, ook jonge mantelzorgers. Ze bieden dat zelden uit zichzelf aan. U moet er dus om vragen."
+zoekwoorden: ["jonge mantelzorger", "overbelast", "zorgen voor broer of zus", "zieke ouder", "uitgeput", "respijtzorg", "logeeropvang"]
+samenvatting: "Mantelzorg in een gezin komt in vele vormen. Er zijn brusjes: kinderen met een broer of zus met een beperking of ziekte. Er zijn kinderen die zorgen voor een ouder met een lichamelijke of psychische ziekte of een verslaving. En er zijn ouders die zelf overbelast raken. Gemeenten moeten mantelzorgers ondersteunen, ook jonge mantelzorgers. Ze bieden dat zelden uit zichzelf aan. U moet er dus om vragen."
 themas: [mantelzorg, jonge mantelzorger, brusjes, gezin, beperking, langdurig ziek, ggz, verslaving, respijtzorg, kopp]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, logeren-respijt]
 routes:

@@ -1,7 +1,8 @@
 ---
 titel: "Trauma"
 herkenning: "Mijn kind heeft iets ergs meegemaakt (geweld, misbruik, een ongeluk, een vechtscheiding) en is sindsdien anders: bang, boos, teruggetrokken of slaapt slecht."
-samenvatting: "Veel kinderen herstellen na een ingrijpende gebeurtenis met steun van de mensen om hen heen. Houden de klachten langer dan een maand aan, of worden ze erger? Dan is behandeling nodig. En die behandeling is effectief. Aanbevolen zijn traumagerichte cognitieve gedragstherapie en EMDR. Wacht daar niet mee."
+zoekwoorden: ["ingrijpende gebeurtenis", "PTSS", "ongeluk", "misbruik", "herbelevingen", "schrikachtig", "nachtmerries"]
+samenvatting: "Veel kinderen herstellen na een ingrijpende gebeurtenis met steun van de mensen om hen heen. Nemen de klachten na vier weken niet af, of worden ze erger? Vraag dan om hulp. Traumagerichte cognitieve gedragstherapie en EMDR laten goede resultaten zien. Wacht daar niet mee."
 themas: [trauma, seksueel geweld, kindermishandeling, huiselijk geweld, veiligheid, verlies, rouw]
 hulpsoorten: [behandeling-jeugd-ggz, ambulante-begeleiding, opvoedondersteuning, crisishulp]
 routes:

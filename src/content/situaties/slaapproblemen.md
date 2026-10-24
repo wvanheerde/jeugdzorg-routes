@@ -1,6 +1,8 @@
 ---
 titel: Slaapproblemen
 herkenning: "Mijn kind slaapt slecht: komt moeilijk in slaap, wordt 's nachts vaak wakker, wil niet alleen slapen of ligt 's avonds lang wakker."
+zoekwoorden: ["slaapt slecht", "inslapen", "doorslapen", "nachtmerries", "'s nachts wakker", "wil niet alleen slapen", "bedtijd"]
+zoekvormen: ["slaapt", "wordt wakker"]
 samenvatting: "Slecht slapen is zwaar, voor uw kind en voor u. Er zijn goede aanpakken voor, per leeftijd. Meestal is daar geen jeugdhulp voor nodig. Het consultatiebureau of de jeugdarts helpt met uitleg, een slaapdagboek en een aanpak die bij uw kind en uw gezin past. Snurkt uw kind veel of valt het overdag ongewild in slaap? Laat dan eerst een arts kijken."
 themas: [slaap, slaapproblemen, opvoeden, gezin, ontwikkelingsproblemen]
 hulpsoorten: [opvoedondersteuning, behandeling-jeugd-ggz]
@@ -64,7 +66,7 @@ bronnen:
 - **Een vast ritme en een rustige avond.** Elke dag dezelfde bedtijd, ook in het weekend. Een rustig uur voor het slapengaan, zonder schermen. Geen televisie, computer of telefoon in de slaapkamer. Een rustige, donkere slaapkamer van 16 tot 18 graden. Geen zware maaltijd in de twee uur voor bedtijd, maar ook niet met honger naar bed. En overdag bewegen en naar buiten, vooral in de ochtend: daglicht helpt de biologische klok. <sup><a class="bron" href="https://www.jgzrichtlijnen.nl/wp-content/uploads/2026/05/20260521-Samenvattingskaart-JGZ-richtlijn-Slaap-2026.pdf" target="_blank" rel="noopener">bron</a></sup>
 - **Een slaapdagboek.** Schrijf een paar weken op wanneer uw kind naar bed gaat, in slaap valt, wakker wordt en opstaat, en hoe het overdag gaat. Dan ziet u samen met de jeugdverpleegkundige of jeugdarts beter wat er speelt.
 - **Een aanpak die past bij de leeftijd.** Bij jonge kinderen helpen een vaste bedtijdroutine en stap voor stap leren zelf in slaap te vallen. Bij schoolkinderen helpt het om de bedtijd geleidelijk te veranderen. Bij tieners met slapeloosheid helpt cognitieve gedragstherapie, zoals SlimSlapen. Zie de therapievormen hieronder.
-- **Kijken wat erachter zit.** Soms houdt iets anders het slechte slapen in stand: angst voor het donker, spanning of ruzie in het gezin, of overprikkeling. Dan helpt het om dat aan te pakken. De jeugdarts vraagt daar ook naar.
+- **Kijken wat erachter zit.** Soms houdt iets anders het slechte slapen in stand: angst voor het donker, spanning of ruzie in het gezin, of overprikkeling. Dan helpt het om dat aan te pakken. De jeugdarts vraagt daar ook naar. Slaapt uw kind slecht sinds het iets ergs heeft meegemaakt, zoals een ongeluk, met nachtmerries of veel angst? Kijk dan ook bij [Trauma](../trauma/).
 
 ## Bij ADHD, autisme of een verstandelijke beperking
 

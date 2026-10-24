@@ -43,22 +43,22 @@ const ob: Record<string, string> = { richtlijn: 'Aanbevolen in een zorgstandaard
     <div>
       <AfdrukKnop />
       <TherapieToelichting />
-      <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het en hoe werkt het?</h2><p>{d.watIsHet}</p><p>{d.hoeWerktHet}</p>
+      <section class="section"><h2 id="wat"><span class="section-num" data-pagefind-ignore>1</span>Wat is het en hoe werkt het?</h2><p>{d.watIsHet}</p><p>{d.hoeWerktHet}</p>
         {d.sessie && <><h3>Zo gaat een sessie</h3><p>{d.sessie}</p></>}
         {d.programmas.length > 0 && <><h3>Vormen</h3><ul>{d.programmas.map((p) => <li><strong>{p.url ? <a href={p.url} target="_blank" rel="noopener">{p.naam}<span aria-hidden="true"> ↗</span></a> : p.naam}</strong> – {p.omschrijving}</li>)}</ul></>}</section>
-      <section class="section regelen" id="aanvragen"><h2><span class="section-num">2</span>Zo vraagt u het aan</h2>
+      <section class="section regelen"><h2 id="aanvragen" data-pagefind-index-attrs="data-zoekvormen" data-zoekvormen="aanvragen aanvraag aanmelden"><span class="section-num" data-pagefind-ignore>2</span>Zo vraagt u het aan</h2>
         {(hulpsoorten.length > 0 || d.zorgverzekering) && <p class="meta"><strong>Valt onder:</strong> {hulpsoorten.map((x, i) => <>{i > 0 && ' en '}{x.data.inDePraktijk ? <a href={`${base}/hulpsoorten/${x.id}/`}>{x.data.naam.toLowerCase()}</a> : <a href={`${base}/situaties/#${x.id}`}>{x.data.naam.toLowerCase()}</a>}</>)}{hulpsoorten.length > 0 && d.zorgverzekering && '; '}{d.zorgverzekering && (hulpsoorten.length > 0 ? 'deels via de zorgverzekering' : 'de zorgverzekering, niet de gemeente')}.</p>}
         <p>{d.aanvragen}</p>
         {d.vragen.length > 0 && <><h3>Vragen voor de behandelaar</h3><ul>{d.vragen.map((v) => <li>{v}</li>)}</ul></>}
         {/\bverwijzer\b/i.test(d.aanvragen) && <p class="meta"><strong>Wie is de verwijzer?</strong> De huisarts, de jeugdarts of een medisch specialist. Ook het wijkteam van uw gemeente kan u verder helpen.</p>}
         <p class="meta">Beschrijf in uw hulpvraag wat u ziet, wat u wilt bereiken en waarom deze vorm daarbij past. Zo kunnen u en het team samen de afweging maken; het team kent het lokale aanbod en kan een andere vorm voorstellen als die beter past. {brieven.length > 0 && <a href={`${base}/brieven/aanvraag-jeugdhulp/`}>Voorbeeldbrief hulpvraag →</a>}</p>
       </section>
-      <section class="section" id="voorwie"><h2><span class="section-num">3</span>Voor wie past het?</h2><p>{d.voorWie}</p>{d.leeftijd && <p class="meta">Leeftijd: ongeveer {d.leeftijd.van ?? 0}{d.leeftijd.tot ? ` tot ${d.leeftijd.tot}` : ' jaar en ouder'}{d.leeftijd.tot ? ' jaar' : ''}.</p>}
+      <section class="section"><h2 id="voorwie"><span class="section-num" data-pagefind-ignore>3</span>Voor wie past het?</h2><p>{d.voorWie}</p>{d.leeftijd && <p class="meta">Leeftijd: ongeveer {d.leeftijd.van ?? 0}{d.leeftijd.tot ? ` tot ${d.leeftijd.tot}` : ' jaar en ouder'}{d.leeftijd.tot ? ' jaar' : ''}.</p>}
         {d.overwegingen.length > 0 && <ul>{d.overwegingen.map((o) => <li>{o}</li>)}</ul>}</section>
-      <section class="section" id="verwachting"><h2><span class="section-num">4</span>Wat kunt u verwachten?</h2><p>{d.verwachting}</p>
+      <section class="section"><h2 id="verwachting"><span class="section-num" data-pagefind-ignore>4</span>Wat kunt u verwachten?</h2><p>{d.verwachting}</p>
         {d.vraagt && <><h3>Wat het van uw kind en van u vraagt</h3><p>{d.vraagt}</p></>}
         {d.voortgang && <><h3>Wanneer merkt u verschil?</h3><p>{d.voortgang}</p></>}</section>
-      <section class="section" id="onderbouwing"><h2><span class="section-num">5</span>Onderbouwing en vergoeding</h2>
+      <section class="section"><h2 id="onderbouwing"><span class="section-num" data-pagefind-ignore>5</span>Onderbouwing en vergoeding</h2>
         <p><strong>{ob[d.onderbouwing.label]}.</strong> {metLinks(d.onderbouwing.toelichting).map((x) => (x.href ? <a href={x.href}>{x.tekst}</a> : x.tekst))}</p>
         {d.effect && <><h3>Wat onderzoek laat zien</h3><p>{d.effect}</p></>}
         <p><strong>Vergoeding:</strong> {d.vergoeding}</p></section>

@@ -6,7 +6,6 @@ import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
-const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 ---
 <Base title="Situaties en hulpsoorten" description="Herkent u de situatie van uw kind? Lees per situatie welke hulp er is, waar u begint en wat u zelf kunt doen.">
@@ -25,19 +24,7 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
     ))}
   </div>
 
-  <div class="kicker" id="knelpunten"><h2>Waar gaat uw vraag over?</h2><span class="line"></span></div>
-  <p class="lead" style="font-size:1.05rem;margin-top:.75rem">Naast wat er bij uw kind speelt, telt waar uw vraag over gaat. Kies wat past; u krijgt dan direct de stappen, brieven en contactgegevens die daarbij horen.</p>
-  <div class="grid" style="margin-top:1.25rem">
-    {knelpunten.map((k) => (
-      <a class="card link" href={`${base}/overzicht/?k=${k.id}`}>
-        <h3>{k.data.titel}</h3>
-        <p class="meta">{k.data.herkenning}</p>
-        <span class="arrow">Wat kan ik nu doen →</span>
-      </a>
-    ))}
-  </div>
-
-  <div class="kicker" id="hulpsoorten"><h2>Welke soorten jeugdhulp bestaan er?</h2><span class="line"></span></div>
+  <div class="kicker"><h2 id="hulpsoorten">Welke soorten jeugdhulp bestaan er?</h2><span class="line"></span></div>
   <p class="lead" style="font-size:1.05rem;margin-top:.75rem">Dit zijn de soorten hulp die elke gemeente moet kunnen bieden. De namen van aanbieders verschillen, de soorten niet.</p>
   <ToegangLegenda />
   <div class="grid" style="margin-top:1.25rem">

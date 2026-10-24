@@ -1,7 +1,8 @@
 ---
 titel: Scheiding
 herkenning: Wij gaan uit elkaar, of de scheiding leidt tot problemen bij ons kind.
-samenvatting: "Een scheiding is op zich geen reden voor jeugdhulp. Maar langdurige ruzie tussen ouders is het schadelijkst voor kinderen. Er is veel hulp die makkelijk te krijgen is, voor ouders én voor kinderen zelf."
+zoekwoorden: ["uit elkaar", "gescheiden ouders", "vechtscheiding", "omgang", "co-ouderschap", "ex-partner", "nieuw gezin"]
+samenvatting: "Een scheiding is op zich geen reden voor jeugdhulp. Maar langdurige ruzie tussen ouders is het schadelijkst voor kinderen. Er is veel hulp, voor ouders én voor kinderen zelf. Het wijkteam helpt u kiezen wat past."
 themas: [scheiding, gezin, opvoeden, conflict]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, behandeling-jeugd-ggz]
 routes:

@@ -42,3 +42,10 @@ Functionaliteit: Hulpmiddelen
   Scenario: Het adres brieven/ gaat naar de voorbeeldbrieven op de pagina hulpmiddelen
     Gegeven ik open de pagina "brieven/"
     Dan staat in de url "hulpmiddelen/#brieven"
+
+  Scenario: Bovenaan staan snelkoppelingen naar de onderdelen, ook naar de voorbeeldbrieven
+    De voorbeeldbrieven staan onderaan; Mark zocht de klachtbrief en scrolde niet zo ver (persona-test 24-10).
+    Gegeven ik open de pagina "hulpmiddelen/"
+    Dan staat bovenaan de snelkoppeling "Voorbeeldbrieven" naar "#brieven"
+    En staat bovenaan de snelkoppeling "Voorbereiden" naar "#voorbereiden"
+

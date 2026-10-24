@@ -16,7 +16,7 @@ const metTel = !!c.telefoon && !zonder.includes('telefoon');
 <p class:list={['contact', cls]}>
   {metNaam && <><strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}</>}
   {(metTel || c.email || c.url) && (
-    <span class="ci-rij">
+    <span class="ci-rij" data-pagefind-ignore>
       {metTel && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${c.telefoon!.replace(/\s/g, '')}`}>{c.telefoon}</a></span>}
       {c.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${c.email}`}>{c.email}</a></span>}
       {c.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={c.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}

@@ -334,6 +334,10 @@ const situaties = defineCollection({
     titel: z.string(),
     /** Korte zin in de taal van de ouder, bv. "Mijn kind heeft autisme of ik vermoed dat". */
     herkenning: z.string(),
+    /** Woorden zoals ouders ze gebruiken ("slaat", "plast in bed"): als regel "Ook bij: …" op de pagina en zwaar in de zoekindex (zoeken.feature). */
+    zoekwoorden: z.array(z.string()).default([]),
+    /** Vervoegingen ("slaat", "gamet") die de zoekfunctie anders niet vindt: alleen in de zoekindex, niet zichtbaar ("slaan, slaat" las vreemd). */
+    zoekvormen: z.array(z.string()).default([]),
     samenvatting: z.string(),
     /** Thema-tags; koppelen aan organisaties.themas en gemeenten.lokaleInitiatieven.themas. */
     themas: z.array(z.string()).min(1),

@@ -74,6 +74,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
   <div class="page-head">
     <span class="eyebrow">Gemeente</span>
     <h1>Jeugdzorg in {d.naam}</h1>
+    {/* Voor de zoekfunctie (zoeken.ts): noemt een zoekopdracht de gemeente of een woonplaats, dan staat deze pagina bovenaan. */}
+    <span hidden data-pagefind-meta={`plaatsen:${[d.naam, ...woonplaatsen].join('|')}`}></span>
     {woonplaatsen.length > 0 && (
       <div class="meta woonplaatsen" data-woonplaatsen>Ook voor {woonplaatsen.length <= WOONPLAATSEN_ZONDER_UITKLAPPER ? `${opsomming(woonplaatsen)}.` : <>{woonplaatsen.slice(0, WOONPLAATSEN_IN_BEELD).join(', ')} <details class="woonplaatsen-meer"><summary>en {woonplaatsen.length - WOONPLAATSEN_IN_BEELD} andere woonplaatsen</summary>{`${woonplaatsen.slice(WOONPLAATSEN_IN_BEELD).join(', ')}.`}</details></>}</div>
     )}
@@ -89,7 +91,7 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
   <AfdrukKnop />
   {wijkteam && toegangContact && (
     <div class="eerste-contact kaart-boven">
-      <h2 class="h3-maat">Hier meldt u zich in {d.naam}: {wijkteam.naam}</h2>
+      <h2 class="h3-maat" id="melden">Hier meldt u zich in {d.naam}: {wijkteam.naam}</h2>
       {!/wijkteam/i.test(wijkteam.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
       {toegangContact.telefoon && <a class="btn primary bel" href={`tel:${toegangContact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{toegangContact.telefoon}</a>}
       <Contact contact={toegangContact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />
@@ -109,12 +111,12 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
 
     {/* secties-tellen: op papier opnieuw genummerd, want "Direct regelen" valt daar weg (global.css, @media print). */}
     <div class="secties-tellen">
-      <nav class="toc" aria-label="Snel naar">
+      <nav class="toc" data-pagefind-ignore aria-label="Snel naar">
         {secties.map((s) => <a href={`#${s.id}`}>{s.n}. {s.t}</a>)}
       </nav>
 
-      <section class="section" id="toegang">
-        <h2><span class="section-num">1</span>Hoe krijg ik hulp?</h2>
+      <section class="section">
+        <h2 id="toegang"><span class="section-num" data-pagefind-ignore>1</span>Hoe krijg ik hulp?</h2>
         <p>{d.toegang.samenvatting}</p>
         {d.toegang.routes.map((r) => r.type === 'spoed' ? (
           /* Spoed is een vast blok: de landelijke nummers plus een link naar de crisispagina van de gemeente.
@@ -139,8 +141,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
         ))}
       </section>
 
-      <section class="section" id="rechten">
-        <h2><span class="section-num">2</span>Waar heb ik recht op?</h2>
+      <section class="section">
+        <h2 id="rechten"><span class="section-num" data-pagefind-ignore>2</span>Waar heb ik recht op?</h2>
         {/* Per recht: kop met de kern, de tekst van de gemeente en één contactblok. De algemene uitleg staat op de landelijke pagina
              (link onderaan); grijze vaste tekst per recht herhaalde wat de gemeentetekst al zei. */}
         <h3>Cliëntondersteuning: gratis iemand naast u</h3>
@@ -170,8 +172,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
         <p class="meta" style="margin-top:1.25rem">Deze rechten gelden in heel Nederland. Meer uitleg: <a href={`${base}/landelijk/#03-rechten`}>cliëntondersteuning en pgb</a>, <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>klacht of bezwaar</a> en <a href={`${base}/landelijk/#05-financieel`}>financiële regelingen</a>.</p>
       </section>
 
-      <section class="section" id="aanbod">
-        <h2><span class="section-num">3</span>Welke hulp is er?</h2>
+      <section class="section">
+        <h2 id="aanbod"><span class="section-num" data-pagefind-ignore>3</span>Welke hulp is er?</h2>
         {d.aanbod.samenvatting && <p>{d.aanbod.samenvatting}</p>}
         {categorieen.length > 0 && (
           <ul class="aanbod-lijst">{categorieen.map((c) => <li><strong>{c.naam}</strong>{c.omschrijving && <><br />{c.omschrijving}</>}</li>)}</ul>
@@ -181,8 +183,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
           : <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders met een contract bekijken<span aria-hidden="true"> ↗</span></a></p>)}
       </section>
 
-      <section class="section" id="lokaal">
-        <h2><span class="section-num">4</span>Lokale steun en initiatieven</h2>
+      <section class="section">
+        <h2 id="lokaal"><span class="section-num" data-pagefind-ignore>4</span>Lokale steun en initiatieven</h2>
         {lokaleInitiatieven.length === 0 ? <p class="empty">Nog geen lokale initiatieven opgenomen.</p> : (
           <div class="grid">
             {lokaleInitiatieven.map((i) => (
@@ -200,8 +202,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
 
       {/* Geld en regelingen (veld geldregelingen, verplicht: alle gemeenten zijn onderzocht): per soort onder een eigen kop. Eerst wat met
           de zorg voor het kind te maken heeft, daaronder de regelingen voor een laag inkomen onder een eigen kopje (lib/regelingen.ts). */}
-      <section class="section" id="geld">
-        <h2><span class="section-num">5</span>Geld en regelingen</h2>
+      <section class="section">
+        <h2 id="geld"><span class="section-num" data-pagefind-ignore>5</span>Geld en regelingen</h2>
         <p>Regelingen van {d.naam} voor gezinnen met een kind dat extra zorg nodig heeft. De meeste gaan niet vanzelf: u vraagt ze zelf aan. <a href={`${base}/overzicht/?k=geld&gemeente=${g.id}`}>Welke regelingen passen bij u?</a></p>
         {geldZorg.map((s) => (
           <div class="geld-soort" data-geld-soort={s.id}>
@@ -227,8 +229,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
         <p class="meta">Landelijke regelingen, zoals dubbele kinderbijslag: <a href={`${base}/landelijk/#05-financieel`}>Financiële regelingen</a>.</p>
       </section>
 
-      <section class="section regelen" id="regelen">
-        <h2><span class="section-num">6</span>Direct regelen</h2>
+      <section class="section regelen">
+        <h2 id="regelen"><span class="section-num" data-pagefind-ignore>6</span>Direct regelen</h2>
         {directRegelen.length === 0 ? <p class="empty">Nog geen directe links opgenomen. Kijk op de <a href={d.websiteJeugd} target="_blank" rel="noopener">website van de gemeente</a>.</p> : (
           <ul class="linklist">
             {directRegelen.map((r) => (
@@ -243,8 +245,8 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
         <p class="meta" style="margin-top:1rem">Landelijke aanvragen, zoals dubbele kinderbijslag en Wlz, staan bij <a href={`${base}/landelijk/#06-aanvragen`}>Direct regelen (landelijk)</a>.</p>
       </section>
 
-      <section class="section" id="ervaringen">
-        <h2><span class="section-num">7</span>Hoe gaat het met de jeugdhulp in {d.naam}?</h2>
+      <section class="section">
+        <h2 id="ervaringen"><span class="section-num" data-pagefind-ignore>7</span>Hoe gaat het met de jeugdhulp in {d.naam}?</h2>
         {!d.ervaringen ? <p class="empty">Nog geen beeld opgenomen. Deze sectie wordt gevuld met openbare bronnen zoals inspectierapporten, cliëntervaringsonderzoek en regionale journalistiek.</p> : (<details class="inklapper" id="ervaringen-inhoud" data-op-papier-open>
           <summary>Lees wat we vonden{signalen.length > 0 && <> ({signalen.length} {signalen.length === 1 ? 'bericht' : 'berichten'} uit openbare bronnen)</>}</summary>
           {d.ervaringen.samenvatting.split(/\n\s*\n/).map((al) => <p>{al}</p>)}

@@ -25,7 +25,7 @@ const soorten = GELD_SOORTEN.filter((s) => gemeenten.some((g) => g.data.geldrege
       </div>
     )}
   </div>
-  <div class="grid" id="gemeenten-grid">
+  <div class="grid" id="gemeenten-grid" data-pagefind-ignore>
     {gemeenten.map((g) => <GemeenteCard g={g} />)}
   </div>
   <p class="empty empty-result" hidden style="margin-top:1rem">Geen gemeente gevonden.</p>

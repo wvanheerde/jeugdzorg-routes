@@ -1,7 +1,8 @@
 ---
 titel: "Moeite met taal en praten (TOS)"
 herkenning: "Mijn kind praat weinig of onduidelijk, begrijpt instructies slecht of vindt moeilijk woorden, terwijl het goed hoort en zich verder normaal ontwikkelt."
-samenvatting: "Ongeveer één op de twintig kinderen heeft een taalontwikkelingsstoornis. Die wordt vaak gemist. Of hij wordt aangezien voor autisme, verlegenheid of een gedragsprobleem. De weg naar hulp is anders dan bij gewone jeugdhulp. U gaat via de jeugdarts of huisarts naar een audiologisch centrum. Behandeling en onderwijs lopen via gespecialiseerde organisaties zoals Kentalis en Auris. Dat wordt betaald uit de zorgverzekering en het onderwijs."
+zoekwoorden: ["taalontwikkelingsstoornis", "praat niet", "praat weinig", "spraakachterstand", "praat onduidelijk", "logopedie", "begrijpt niet wat je zegt"]
+samenvatting: "Ongeveer één op de twintig kinderen heeft een taalontwikkelingsstoornis. Die wordt vaak gemist. Of hij wordt aangezien voor autisme, verlegenheid of een gedragsprobleem. De weg naar hulp is anders dan bij gewone jeugdhulp. U gaat via de jeugdarts of huisarts naar een audiologisch centrum. Behandeling en onderwijs lopen via gespecialiseerde organisaties zoals Kentalis en Auris."
 themas: [tos, taal, spraak]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding]
 routes:

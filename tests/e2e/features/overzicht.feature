@@ -14,7 +14,7 @@ Functionaliteit: Mijn overzicht
     Dan zie ik "Utrecht · Ik heb nog geen hulp · ADHD en ADD"
     En zie ik de link "Keuzes aanpassen" niet
     En zie ik de knop "Keuzes aanpassen" niet
-    En zie ik "Waar woont u?" niet
+    En zie ik "In welke gemeente woont u?" niet
     En zie ik de knop "ADHD en ADD" niet
 
   Abstract Scenario: "Uw keuzes" noemt de keuze met de woorden van de voorpagina
@@ -83,7 +83,7 @@ Functionaliteit: Mijn overzicht
     Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Alphen aan den Rijn" met de situatie "School loopt vast of kind zit thuis"
     Dan staan de stappen in deze volgorde:
       | Begin bij school.                                   |
-      | Vraag school schriftelijk om een gesprek            |
+      | Vraag school om een gesprek over wat uw kind      |
       | Komt u er met school niet uit                       |
       | Speelt er thuis of bij uw kind meer                 |
       | Vraag na elk gesprek om de afspraken op papier      |
@@ -100,7 +100,7 @@ Functionaliteit: Mijn overzicht
     Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Alphen aan den Rijn" met de situaties "<eerst>" en "<daarna>"
     Dan staan de stappen in deze volgorde:
       | Begin bij school.                              |
-      | Vraag school schriftelijk om een gesprek       |
+      | Vraag school om een gesprek over wat uw kind |
       | Komt u er met school niet uit                  |
       | Speelt er thuis of bij uw kind meer            |
       | Vraag na elk gesprek om de afspraken op papier |
@@ -133,7 +133,7 @@ Functionaliteit: Mijn overzicht
     Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht" met de situaties "<eerst>" en "<daarna>"
     Dan begint stap 1 met "Begin bij de huisarts of jeugdarts."
     En zie ik "School loopt vast of kind zit thuis? Ga daarvoor ook naar school."
-    En begint stap 2 met "Vraag school schriftelijk om een gesprek"
+    En begint stap 2 met "Vraag school om een gesprek over wat uw kind"
 
     Voorbeelden:
       | eerst                               | daarna                              |

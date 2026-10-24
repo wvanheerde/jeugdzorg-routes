@@ -18,11 +18,12 @@ const laatste = items.map((i) => i.data.laatstGecontroleerd).sort().at(-1) ?? ''
     <AfdrukKop />
     <p class="lead">Dit is wettelijk geregeld en geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's. Onderaan staat hoe het met de jeugdhulp in Nederland gaat, uit ons onderzoek bij alle gemeenten.</p>
   </div>
-  <nav class="toc" aria-label="Snel naar">{items.map((i) => <a href={`#${i.id}`}>{i.data.titel}</a>)}</nav>
+  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">{items.map((i) => <a href={`#${i.id}`}>{i.data.titel}</a>)}</nav>
   <AfdrukKnop />
   {rendered.map(({ i, Content }, idx) => (
-    <section class="section prose" id={i.id}>
-      <h2><span class="section-num">{idx + 1}</span>{i.data.titel}</h2>
+    <section class="section prose">
+      {/* Het anker staat op de kop, niet op het blok: dan vindt de zoekfunctie (Pagefind) het onderdeel als treffer. */}
+      <h2 id={i.id}><span class="section-num" data-pagefind-ignore>{idx + 1}</span>{i.data.titel}</h2>
       <p class="lead" style="font-size:1.05rem">{i.data.samenvatting}</p>
       {idx === 0 && (
         <figure class="kaart-nl">

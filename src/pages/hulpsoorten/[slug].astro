@@ -37,19 +37,19 @@ const vormen = (await getCollection('therapievormen')).filter((t) => t.data.hulp
       </nav>
     </aside>
     <div>
-      <section class="section" id="wat"><h2><span class="section-num">1</span>Wat is het?</h2>
+      <section class="section"><h2 id="wat"><span class="section-num" data-pagefind-ignore>1</span>Wat is het?</h2>
         <p>{d.inDePraktijk}</p>
         {d.voorbeelden.length > 0 && <><h3>Voorbeelden</h3><ul>{d.voorbeelden.map((v) => <li>{v}</li>)}</ul></>}
         {vormen.length > VORMEN_LIJST_MAX
           ? <p class="meta">Binnen deze hulp werken behandelaars met verschillende therapievormen. Welke passen, verschilt per situatie: kijk op de pagina van uw situatie, of in het <a href={`${base}/therapievormen/`}>overzicht van alle therapievormen</a>.</p>
           : vormen.length > 0 && <><h3>Therapievormen binnen deze hulp</h3><ul>{vormen.map((t) => <li><a href={`${base}/therapievormen/${t.id}/`}>{t.data.naam}</a> – {t.data.kort}</li>)}</ul></>}</section>
-      <section class="section" id="voorwie"><h2><span class="section-num">2</span>Voor wie is het?</h2>
+      <section class="section"><h2 id="voorwie"><span class="section-num" data-pagefind-ignore>2</span>Voor wie is het?</h2>
         <p>{d.voorWie}</p>
         {d.nietVoor && <p>{d.nietVoor}</p>}
         {situaties.length > 0 && <p class="meta">Komt vaak voor bij: {situaties.map((s, i) => <>{i > 0 && ', '}<a href={`${base}/situaties/${s.id}/`}>{s.data.titel.toLowerCase()}</a></>)}.</p>}</section>
-      <section class="section" id="verwachting"><h2><span class="section-num">3</span>Wat kunt u verwachten?</h2>
+      <section class="section"><h2 id="verwachting"><span class="section-num" data-pagefind-ignore>3</span>Wat kunt u verwachten?</h2>
         <p>{d.verwachting}</p></section>
-      <section class="section regelen" id="aanvragen"><h2><span class="section-num">4</span>{rechter ? 'Wie beslist' : 'Zo vraagt u het aan'}</h2>
+      <section class="section regelen"><h2 id="aanvragen" data-pagefind-index-attrs="data-zoekvormen" data-zoekvormen="aanvragen aanvraag aanmelden"><span class="section-num" data-pagefind-ignore>4</span>{rechter ? 'Wie beslist' : 'Zo vraagt u het aan'}</h2>
         <Toegang waarde={d.beschikkingNodig} />
         {d.toegangVia.length > 0 && <p class="meta">U komt erbij via {d.toegangVia.map((t) => via[t]).join(' of ')}.</p>}
         {d.vragen.length > 0 && <><h3>{rechter ? 'Vragen voor de jeugdbeschermer' : 'Vragen voor het wijkteam of de verwijzer'}</h3><ul>{d.vragen.map((v) => <li>{v}</li>)}</ul></>}

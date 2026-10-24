@@ -1,0 +1,14 @@
+{"stap":1,"tijd":"2026-10-24T11:44:11.982Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-24T11:44:12.538Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"open","args":["http://127.0.0.1:4329/gemeenten/utrecht/"]}
+{"stap":3,"tijd":"2026-10-24T11:44:12.592Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"kijk","args":[],"lengte":1654}
+{"stap":4,"tijd":"2026-10-24T11:44:16.299Z","url":"http://127.0.0.1:4329/gemeenten/utrecht/","cmd":"notitie","args":["Stap 1/12: brieven staan vast onder Hulpmiddelen? Klik dat."],"tekst":"Stap 1/12: brieven staan vast onder Hulpmiddelen? Klik dat."}
+{"stap":5,"tijd":"2026-10-24T11:44:18.149Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"klik","args":["8"]}
+{"stap":6,"tijd":"2026-10-24T11:44:18.196Z","url":"http://127.0.0.1:4329/hulpmiddelen/","cmd":"kijk","args":[],"lengte":1578}
+{"stap":7,"tijd":"2026-10-24T11:44:22.841Z","url":"http://127.0.0.1:4329/hulpmiddelen/#brieven","cmd":"klik","args":["11"]}
+{"stap":8,"tijd":"2026-10-24T11:44:22.879Z","url":"http://127.0.0.1:4329/hulpmiddelen/#brieven","cmd":"kijk","args":[],"lengte":2964}
+{"stap":9,"tijd":"2026-10-24T11:44:26.355Z","url":"http://127.0.0.1:4329/hulpmiddelen/#brieven","cmd":"notitie","args":["Stap 2/12: Hulpmiddelen, Voorbeeldbrieven; 'Klacht over de hulpverlener of de aanbieder... te lang wacht' is hem."],"tekst":"Stap 2/12: Hulpmiddelen, Voorbeeldbrieven; 'Klacht over de hulpverlener of de aanbieder... te lang wacht' is hem."}
+{"stap":10,"tijd":"2026-10-24T11:44:28.200Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"klik","args":["26"]}
+{"stap":11,"tijd":"2026-10-24T11:44:28.241Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"kijk","args":[],"lengte":1911}
+{"stap":12,"tijd":"2026-10-24T11:44:28.300Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"foto","args":["/workspaces/jeugdzorg-routes/tests/persona/runs/2026-10-24-zoeken-r4/25-mark-brief-terugvinden/brief.png"]}
+{"stap":13,"tijd":"2026-10-24T11:44:35.643Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"notitie","args":["Stap 3/12: de brief, met 'We wachten te lang op een plek'. Gevonden in 3 stappen."],"tekst":"Stap 3/12: de brief, met 'We wachten te lang op een plek'. Gevonden in 3 stappen."}
+{"stap":14,"tijd":"2026-10-24T11:44:35.682Z","url":"http://127.0.0.1:4329/brieven/klacht-aanbieder/","cmd":"stop"}

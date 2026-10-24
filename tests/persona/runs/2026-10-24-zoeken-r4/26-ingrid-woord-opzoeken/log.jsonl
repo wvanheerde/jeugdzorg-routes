@@ -1,0 +1,19 @@
+{"stap":1,"tijd":"2026-10-24T11:44:11.526Z","url":"about:blank","cmd":"start","device":"desktop"}
+{"stap":2,"tijd":"2026-10-24T11:44:12.069Z","url":"http://127.0.0.1:4329/","cmd":"open","args":["http://127.0.0.1:4329/"]}
+{"stap":3,"tijd":"2026-10-24T11:44:12.153Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1309}
+{"stap":4,"tijd":"2026-10-24T11:44:16.539Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":5,"tijd":"2026-10-24T11:44:16.570Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 1/15: Zoeken-knop bovenin, daar zoek ik zorgovereenkomst."],"tekst":"stap 1/15: Zoeken-knop bovenin, daar zoek ik zorgovereenkomst."}
+{"stap":6,"tijd":"2026-10-24T11:44:18.418Z","url":"http://127.0.0.1:4329/","cmd":"klik","args":["9"]}
+{"stap":7,"tijd":"2026-10-24T11:44:18.466Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1214}
+{"stap":8,"tijd":"2026-10-24T11:44:18.555Z","url":"http://127.0.0.1:4329/","cmd":"typ","args":["1","zorgovereenkomst"],"fout":"Fout: locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]"}
+{"stap":9,"tijd":"2026-10-24T11:44:18.614Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":1214}
+{"stap":10,"tijd":"2026-10-24T11:44:25.521Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 3/15: verkeerd nummer geprobeerd, het veld is nummer 3. Nu typen: zorgovereenkomst."],"tekst":"stap 3/15: verkeerd nummer geprobeerd, het veld is nummer 3. Nu typen: zorgovereenkomst."}
+{"stap":11,"tijd":"2026-10-24T11:44:25.867Z","url":"http://127.0.0.1:4329/","cmd":"typ","args":["3","zorgovereenkomst"]}
+{"stap":12,"tijd":"2026-10-24T11:44:25.939Z","url":"http://127.0.0.1:4329/","cmd":"kijk","args":[],"lengte":2439}
+{"stap":13,"tijd":"2026-10-24T11:44:29.540Z","url":"http://127.0.0.1:4329/","cmd":"foto","args":[]}
+{"stap":14,"tijd":"2026-10-24T11:44:29.579Z","url":"http://127.0.0.1:4329/","cmd":"notitie","args":["stap 4/15: Bovenaan Moeilijke woorden: Zorgovereenkomst, precies wat ik zocht. Klik."],"tekst":"stap 4/15: Bovenaan Moeilijke woorden: Zorgovereenkomst, precies wat ik zocht. Klik."}
+{"stap":15,"tijd":"2026-10-24T11:44:31.437Z","url":"http://127.0.0.1:4329/begrippen/#zorgovereenkomst","cmd":"klik","args":["5"]}
+{"stap":16,"tijd":"2026-10-24T11:44:31.482Z","url":"http://127.0.0.1:4329/begrippen/#zorgovereenkomst","cmd":"kijk","args":[],"lengte":1699}
+{"stap":17,"tijd":"2026-10-24T11:44:43.663Z","url":"http://127.0.0.1:4329/begrippen/#zorgovereenkomst","cmd":"foto","args":[]}
+{"stap":18,"tijd":"2026-10-24T11:44:43.698Z","url":"http://127.0.0.1:4329/begrippen/#zorgovereenkomst","cmd":"notitie","args":["Klaar: een afspraak op papier met de hulpverlener (wat, uren, tarief), goedgekeurd door gemeente en SVB. Wel kort, niets over wie ik eerst benader."],"tekst":"Klaar: een afspraak op papier met de hulpverlener (wat, uren, tarief), goedgekeurd door gemeente en SVB. Wel kort, niets over wie ik eerst benader."}
+{"stap":19,"tijd":"2026-10-24T11:44:43.735Z","url":"http://127.0.0.1:4329/begrippen/#zorgovereenkomst","cmd":"stop"}

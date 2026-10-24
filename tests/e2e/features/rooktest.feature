@@ -4,7 +4,7 @@ Functionaliteit: Rooktest
 
   Scenario: De voorpagina laadt
     Gegeven ik open de voorpagina
-    Dan zie ik "Waar woont u?"
+    Dan zie ik "In welke gemeente woont u?"
 
   Scenario: De datum staat vast
     Gegeven ik open het overzicht voor "Mijn kind wordt 18" in "Apeldoorn"
