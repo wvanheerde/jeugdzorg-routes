@@ -58,5 +58,5 @@ Functionaliteit: Uw gesprek met het wijkteam voorbereiden
     Gegeven ik open het overzicht voor "Ik wil hulp aanvragen" in "Utrecht"
     Dan staat de link "Bereid het gesprek voor" onder de stap "Zet uw vraag op papier"
     En gaat de link "Bereid het gesprek voor" naar "gesprek/"
-    Als ik naar de pagina "landelijk/" ga
+    En ik open de pagina "landelijk/"
     Dan gaat de link "vel om uw gesprek voor te bereiden" naar "gesprek/"

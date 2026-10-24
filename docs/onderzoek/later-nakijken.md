@@ -222,3 +222,8 @@ Bij een volgende ronde nakijken of er een nieuwer cijfer is (staan in `doorloopt
   - pekela: mantelzorg-url is een nieuwsbericht over 10 november 2026; in 2027 een vaste pagina zoeken.
   - enschede, lelystad, sluis, urk, zoetermeer, reusel-de-mierden, noord-beveland: mantelzorgwaardering alleen uit de regels; aanvraagroute en gemeentepagina nog niet gevonden.
   - lingewaard: mantelzorgcompliment gestopt per 1-1-2026; nakijken of er iets voor in de plaats komt.
+
+## Termijn van een klacht (24-10-2026)
+- Awb art. 9:8 lid 1 nalezen: na hoeveel tijd hoeft een bestuursorgaan een klacht niet te behandelen (een jaar?). Op 24-10 lukte dat niet (wettekst afgekapt, samenvatting onbetrouwbaar). Als het vaststaat: eventueel "bij de gemeente: over iets van meer dan … geleden (Awb 9:8)" toevoegen bij de zin over de termijn (optie C), in `07-klacht-of-bezwaar.md`, `vastgelopen.md`, `wachten.md`, `klacht.md`, brief `klacht-toegangsteam` en `03-rechten.md`.
+- Roermond, Duiven en Maastricht zeiden in hun eigen gegevens "geen termijn"; op 24-10 gelijkgetrokken met de rest van de site (besluit gebruiker), zonder hun klachtenregeling na te lezen. Bij de volgende onderzoeksronde nakijken wat die regelingen zeggen.
+

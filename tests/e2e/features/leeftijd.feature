@@ -57,10 +57,14 @@ Functionaliteit: Leeftijd van het kind
     En zie ik "Is uw kind 3 tot 18 jaar" niet
     En zie ik "Bij deze leeftijd:" niet
 
-  Scenario: Bij kinderbijslag staat de link naar wat u opschrijft in stap 1 zelf
-    Fatima (ronde 27) las "via de link onder deze stappen" en moest ver omlaag om die te vinden.
+  Scenario: Bij kinderbijslag staat de kern in stap 1 zelf, met een link naar meer uitleg
+    Fatima (ronde 27) moest ver omlaag naar de link; in ronde 29 bracht de link haar bovenaan de lange uitleg over geld en zocht ze zes schermen
+    naar wat ze wilde weten: wat ze opschrijft en of ze moet terugbetalen.
     Gegeven ik open het overzicht voor "Extra kosten of kinderbijslag" in "Rotterdam" met leeftijd "4 tot 12"
-    Dan staat in stap 1 de link "Wat u opschrijft en hoe het zit met terugbetalen →"
+    Dan staat in stap 1 de tekst "Schrijf op wat u extra doet"
+    En staat in stap 1 de tekst "Beschrijft u eerlijk wat u doet? Dan doet u niets fout."
+    En staat in stap 1 de link "Meer over dubbele kinderbijslag →"
+    En gaat de link "Meer over dubbele kinderbijslag →" naar "landelijk/#dubbele-kinderbijslag-bij-intensieve-zorg"
     En zie ik "via de link onder deze stappen" niet
 
   Scenario: Bij kinderbijslag en een jong kind zegt stap 1 dat het vanaf 3 jaar kan

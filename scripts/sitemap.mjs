@@ -24,14 +24,16 @@ for (const bestand of paginas(DIST)) {
   const html = readFileSync(bestand, 'utf8');
   if (/<meta name="robots" content="[^"]*noindex/.test(html)) continue;
   const map = relative(DIST, bestand).split(sep).slice(0, -1).join('/');
-  urls.push(`${site}${base}${map ? `${map}/` : ''}`);
+  // Datum van de laatste controle, als de pagina die meegeeft (schema.org dateModified, zoals de gemeentepagina's).
+  const lastmod = html.match(/"dateModified":"(\d{4}-\d{2}-\d{2})"/)?.[1];
+  urls.push({ loc: `${site}${base}${map ? `${map}/` : ''}`, lastmod });
 }
-urls.sort();
+urls.sort((a, b) => (a.loc < b.loc ? -1 : a.loc > b.loc ? 1 : 0));
 
 const xml = [
   '<?xml version="1.0" encoding="UTF-8"?>',
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...urls.map((u) => `  <url><loc>${u}</loc></url>`),
+  ...urls.map((u) => `  <url><loc>${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`),
   '</urlset>',
   '',
 ].join('\n');

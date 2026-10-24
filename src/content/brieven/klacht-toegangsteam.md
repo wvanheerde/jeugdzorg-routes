@@ -1,6 +1,6 @@
 ---
 titel: "Klacht bij het wijkteam of jeugdteam"
-wanneer: "Als er niets gebeurt. Of als u geen verslag of plan krijgt, afspraken niet worden nagekomen of u slecht wordt behandeld. Voor een klacht geldt geen termijn. Een klacht is vaak sneller dan bezwaar."
+wanneer: "Als er niets gebeurt. Of als u geen verslag of plan krijgt, afspraken niet worden nagekomen of u slecht wordt behandeld. Er is geen vaste termijn, maar doe het wel zo snel mogelijk: over iets van lang geleden hoeft een organisatie een klacht niet altijd te behandelen. Over een besluit maakt u bezwaar."
 aan: wijkteam
 tips:
   - "Stuur de klacht per e-mail naar het klachtadres van de organisatie. Dat adres staat op de pagina van uw gemeente. Zet 'klacht' in het onderwerp."

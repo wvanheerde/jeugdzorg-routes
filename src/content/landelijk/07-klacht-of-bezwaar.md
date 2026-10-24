@@ -1,6 +1,6 @@
 ---
 titel: "Klacht of bezwaar: wat werkt wanneer?"
-samenvatting: "Loopt de hulp vast? Dan kunt u meer doen dan alleen bezwaar maken. Een klacht is meestal sneller. Komt er geen besluit? Dan is een ingebrekestelling het sterkste middel."
+samenvatting: "Loopt de hulp vast zonder dat er een besluit is? Dan past een klacht. Komt er geen besluit? Dan is een ingebrekestelling het sterkste middel. Over een besluit maakt u bezwaar."
 volgorde: 7
 laatstGecontroleerd: "2026-10-18"
 bronnen:
@@ -27,9 +27,11 @@ Bezwaar en klacht zijn twee verschillende dingen. Vaak loopt de hulp vast zonder
 |---|---|---|
 | Waartegen | Een besluit (beschikking): afwijzing, te weinig uren, geen pgb | Hoe men werkt en met u omgaat: niet reageren, geen plan, van het kastje naar de muur |
 | Bij wie | De gemeente, via een vaste procedure | De organisatie zelf: wijkteam, jeugdloket, aanbieder |
-| Termijn | Binnen 6 weken, anders vervalt het recht | Geen termijn |
+| Termijn | Binnen 6 weken, anders vervalt het recht | Geen vaste termijn, maar dien hem zo snel mogelijk in |
 | Duur | 6 tot 18 weken | Vaak een paar weken, soms één gesprek |
 | Uitkomst | Juridisch bindend | Niet bindend, maar organisaties laten een klacht zelden hoog oplopen |
+
+Voor een klacht is er geen vaste termijn zoals bij bezwaar. Dien hem wel zo snel mogelijk in: over iets van lang geleden hoeft een organisatie een klacht niet altijd te behandelen. Hoe lang, staat in de klachtenregeling van de organisatie.
 
 ## De ladder, van makkelijk naar formeel
 
@@ -44,4 +46,4 @@ Bezwaar en klacht zijn twee verschillende dingen. Vaak loopt de hulp vast zonder
 
 - **Schriftelijk.** Een e-mail is genoeg. Wat op papier staat, telt. Wat alleen is gezegd, telt niet.
 - **Vraag altijd om een beschikking.** Zonder besluit kunt u geen bezwaar maken en niemand in gebreke stellen. Krijgt u mondeling "nee" te horen? Vraag dan om dat op papier.
-- **Begin onder aan de ladder, maar let op de termijn.** Een klacht samen met een vertrouwenspersoon lost vaak meer op dan een bezwaarschrift. En het kost u minder energie. Heeft u een besluit gekregen waar u het niet mee eens bent? Maak dan altijd binnen zes weken bezwaar. Die termijn loopt door, ook als u ondertussen een klacht indient.
+- **Begin onder aan de ladder, maar let op de termijn.** Een klacht samen met een vertrouwenspersoon lost vaak al veel op. Heeft u een besluit gekregen waar u het niet mee eens bent? Maak dan altijd binnen zes weken bezwaar. Die termijn loopt door, ook als u ondertussen een klacht indient.

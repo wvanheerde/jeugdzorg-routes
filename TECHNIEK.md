@@ -54,10 +54,11 @@ npm test                      # alles: unit, laptop, telefoon
 npx playwright test --project=desktop -g "datumveld"   # een deel
 npm run test:ui               # stap voor stap meekijken
 npm run rapport               # het rapport van de laatste run
+npx bddgen export --unused-steps   # stappen die geen scenario meer gebruikt (opruimen)
 ```
 
 **Opbouw (`tests/e2e/`)**
-- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, afdrukken, hulpmiddelen, elke verdieping, datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
+- `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, afdrukken, hulpmiddelen, elke verdieping, de vellen om af te drukken (logboek, beschikking, mijn kind), datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
 - `steps/*.ts`: de stappen achter de zinnen (Playwright via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)). Hergebruik een bestaande zin waar dat kan; een nieuwe zin hoort in het bestand van het onderwerp (`algemeen`, `verdieping`, `velden`, `paginas`).
 - `steps/inhoud.ts`: scenario's gebruiken gewone namen ("Mijn kind wordt 18", "ADHD en ADD", "Apeldoorn", "12 tot 18"); de bijbehorende id's komen uit `src/content`.
 - `unit/*.spec.ts`: losse functies uit `src/lib` (termijnen en feestdagen, datums lezen, afbreken, organisaties herkennen, de woordenlijst), zonder browser.
@@ -70,7 +71,7 @@ npm run rapport               # het rapport van de laatste run
 - Geen herhaalpogingen: een test die soms faalt is een fout (in de site of in de test), geen pech. Wacht in een scenario op wat een gebruiker ziet ("Dan zie ik de suggestie …") voordat je verder klikt.
 
 **Werkwijze: eerst het scenario**
-Beschrijf nieuw of gewijzigd gedrag eerst als scenario, draai het (het moet falen om de goede reden), en schrijf dan de code tot het slaagt. Het scenario is de afspraak; de code voert hem uit. Een wijziging is pas klaar als `validate`, `check`, `build` en `npm test` slagen. Zie ook CLAUDE.md.
+Beschrijf nieuw of gewijzigd gedrag eerst als scenario, draai het (het moet falen om de goede reden), en schrijf dan de code tot het slaagt. Het scenario is de afspraak; de code voert hem uit. Een wijziging is pas klaar als `validate`, `check`, `build` en de gedragstests die bij de wijziging horen slagen. Draai lokaal een subset, bijvoorbeeld `cd tests/e2e && npx bddgen && npx playwright test features/vellen features/afdrukken`, en niet de hele `npm test` (traag, kost batterij); de hele reeks draait in GitHub Actions vóór elke publicatie. Zie ook CLAUDE.md.
 
 **Wanneer een scenario toevoegen**
 Bij nieuw gedrag of een nieuwe afspraak over gedrag (zoals in CONTENT.md) hoort een scenario, in dezelfde wijziging. Verandert bewust gedrag, pas dan het scenario aan. Inhoud zelf (teksten van gemeenten, bronnen) controleert `npm run validate`; die controles herhalen de scenario's niet. Schrijf verwachtingen op wat vastligt (koppen, gedrag, datums die de site uitrekent), niet op inhoud die bij een onderzoeksronde verandert, zoals telefoonnummers van een gemeente.
@@ -105,7 +106,7 @@ Maak een gratis account op [goatcounter.com](https://www.goatcounter.com) (voor 
 
 ## Zoekmachines en AI-crawlers
 
-- `npm run build` schrijft ook `dist/sitemap.xml` (`scripts/sitemap.mjs`); pagina's met `noindex` (zoals *Mijn overzicht*) staan er niet in.
+- `npm run build` schrijft ook `dist/sitemap.xml` (`scripts/sitemap.mjs`); pagina's met `noindex` (zoals *Mijn overzicht*) staan er niet in. Geeft een pagina in haar gestructureerde gegevens een `dateModified` mee (de gemeentepagina's: datum van de laatste controle), dan staat die als `lastmod` in de sitemap.
 - `src/pages/robots.txt.ts`: zoekmachines en live AI-zoekfuncties die met een link citeren zijn welkom; crawlers die verzamelen voor AI-training worden geweigerd (lijst bovenin het bestand). Dit is een verzoek; niet iedere scraper houdt zich eraan. robots.txt werkt alleen in de hoofdmap van een domein, dus pas met een eigen domein.
 - Voorbehoud tekst- en datamining (art. 15o Auteurswet): `public/.well-known/tdmrep.json` en de metatag `tdm-reservation` in `src/layouts/Base.astro`. Zie ook [LICENSE-INHOUD.md](LICENSE-INHOUD.md).
 

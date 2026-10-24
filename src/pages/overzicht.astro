@@ -31,8 +31,8 @@ import VerdiepingAfgewezen from '../components/VerdiepingAfgewezen.astro';
 import VerdiepingGescheiden from '../components/VerdiepingGescheiden.astro';
 import VerdiepingUitbreiden from '../components/VerdiepingUitbreiden.astro';
 import VerdiepingGeld from '../components/VerdiepingGeld.astro';
-import { hoofdStappen, vervolg } from '../lib/stappen';
-import { maakStapProps, situatieStapProps } from '../lib/stap-props';
+import { alleStappen, hoofdStappen, vervolg } from '../lib/stappen';
+import { maakStapProps, situatieStapProps, controleerVellen } from '../lib/stap-props';
 import { controleerVerdiepingen, gezagStap, GEZAG_LEAD, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
@@ -49,6 +49,7 @@ situaties.forEach((s) => therapieVolgorde(s, therapie));
 const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
 const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
 controleerVerdiepingen(knelpunten);
+controleerVellen([...knelpunten.map((k) => ({ id: k.id, stappen: alleStappen(k) })), ...situaties.map((s) => ({ id: s.id, stappen: (s.data.stappen ?? []).map((x) => (typeof x === 'string' ? x : x.stap)) }))]);
 /** Een stap die zich aan de leeftijd aanpast (leeftijdsstappen, zoals bij kinderbijslag): per band de vervangende tekst. Het script
  *  (render.ts) toont per groep de variant van de gekozen leeftijd, anders de gewone stap. De build faalt als een begin niet bij precies één stap past. */
 const leeftijdsVarianten = (k: (typeof knelpunten)[number], st: string) => {

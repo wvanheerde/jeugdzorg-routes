@@ -95,5 +95,15 @@ for (const f of files) {
 }
 // Jargon in alle content (ook situaties, landelijk, brieven): waarschuwing, zie scripts/jargon.mjs.
 for (const m of jargonCheck()) console.warn(`! ${m}`);
+// Klacht en bezwaar zijn voor verschillende dingen (CONTENT.md, besluit 24-10): niet vergelijken ("sneller dan bezwaar"), en geen
+// "geen termijn" of "zonder termijn" voor een klacht (wel: zo snel mogelijk, zie de klachttermijn). Waarschuwing in alle content.
+const KLACHT_ZINNEN = /(sneller|eenvoudiger|makkelijker|laagdrempeliger) dan (een )?bezwaar|meer op dan een bezwaarschrift|(geen|zonder) (bezwaar)?termijn|geldt geen termijn/i;
+const alleContent = async (dir) => (await readdir(dir, { withFileTypes: true })).flatMap((e) => (e.isDirectory() ? [] : [join(dir, e.name)]));
+for (const sub of await readdir('src/content')) {
+  for (const f of await alleContent(join('src/content', sub)).catch(() => [])) {
+    const m = (await readFile(f, 'utf8')).match(KLACHT_ZINNEN);
+    if (m) console.warn(`! ${f}: "${m[0]}": klacht en bezwaar niet vergelijken en geen "geen termijn" voor een klacht (CONTENT.md, klacht of bezwaar)`);
+  }
+}
 console.log(errors ? `${errors} fout(en)` : `✓ ${files.length} gemeente(n) gecontroleerd`);
 process.exit(errors ? 1 : 0);

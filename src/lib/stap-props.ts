@@ -19,7 +19,25 @@ const STAP_BRIEF: [RegExp, string][] = [
   [/nieuw gesprek en een nieuw besluit/i, 'verzoek-meer-hulp'],
 ];
 /** Korte naam in de link, zodat twee brieflinks bij elkaar niet hetzelfde heten. */
-const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met school', ingebrekestelling: 'ingebrekestelling', 'bezwaar-beschikking': 'bezwaar', 'klacht-toegangsteam': 'klacht', 'klacht-aanbieder': 'klacht', 'verhuizing-overdracht': 'overdracht', 'gezamenlijk-overleg': 'gezamenlijk overleg', 'verzoek-meer-hulp': 'meer of andere hulp' };
+const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met school', ingebrekestelling: 'ingebrekestelling', 'bezwaar-beschikking': 'bezwaar', 'klacht-toegangsteam': 'klacht aan het wijkteam', 'klacht-aanbieder': 'klacht aan de aanbieder', 'verhuizing-overdracht': 'overdracht', 'gezamenlijk-overleg': 'gezamenlijk overleg', 'verzoek-meer-hulp': 'meer of andere hulp' };
+/** Vellen om af te drukken bij de stap waar ze horen (vraag of situatie, begin van de stap). Elke regel moet een stap vinden: zie de controle onderaan. */
+const BESCHIKKING = { pad: 'beschikking/', tekst: 'Het besluit nalezen: wat hoort erin te staan' };
+const VEL_BIJ_STAP: { bij: string; begin: string; vel: { pad: string; tekst: string } }[] = [
+  { bij: 'beginnen', begin: 'Vraag na het gesprek om een verslag op papier', vel: BESCHIKKING },
+  { bij: 'uitbreiden', begin: 'Vraag om het nieuwe besluit op papier', vel: BESCHIKKING },
+  { bij: 'verhuizing', begin: 'Vraag het huidige besluit (de beschikking) op papier', vel: BESCHIKKING },
+  { bij: 'afgewezen', begin: 'Stuur binnen zes weken', vel: BESCHIKKING }, // niet bij de eerste stap: die valt weg als de ouder het besluit op papier heeft
+  { bij: 'hulp-stopt', begin: 'Loopt het besluit af?', vel: BESCHIKKING },
+  { bij: 'beschikking', begin: 'Lees het besluit na', vel: BESCHIKKING },
+  { bij: 'hulp-stopt', begin: 'Vraag om een warme overdracht', vel: { pad: 'mijn-kind/', tekst: 'Dit is mijn kind: één vel voor een nieuwe hulpverlener' } },
+  { bij: 'school-loopt-vast', begin: 'Vraag na elk gesprek om de afspraken op papier', vel: { pad: 'logboek/', tekst: 'Logboek om af te drukken' } },
+];
+const velBij = (bij: string, stap: string) => VEL_BIJ_STAP.find((v) => v.bij === bij && stap.startsWith(v.begin))?.vel;
+/** Faalt de build als een vel geen stap meer vindt (de tekst van de stap is veranderd). */
+export const controleerVellen = (stappen: { id: string; stappen: string[] }[]) => VEL_BIJ_STAP.forEach((v) => {
+  const s = stappen.find((x) => x.id === v.bij);
+  if (!s || !s.stappen.some((st) => st.startsWith(v.begin))) throw new Error(`Vel ${v.vel.pad} hoort bij een stap van "${v.bij}" die begint met "${v.begin}", maar die stap is er niet. Pas VEL_BIJ_STAP in src/lib/stap-props.ts aan.`);
+});
 /**
  * Wat er bij elke stap hoort (zie StapInhoud.astro):
  * - genoemde landelijke organisaties: nummer en website onder de stap die ze als eerste noemt, niet in de zin (persona-tests ronde 21);
@@ -28,9 +46,10 @@ const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met
  * - de aanbieders (Beschikbaarheidswijzer of gemeentepagina) onder de eerste stap over een andere aanbieder;
  * - het wijkteam onder de eerste stap die het noemt, als het niet bovenaan staat (wijkteamBovenaan: false);
  * - hoe het in de gemeente gaat onder stap 1 (standInGemeente);
- * - bij "Zet uw vraag op papier" het vel om het gesprek voor te bereiden (/gesprek/);
+ * - bij "Zet uw vraag op papier" het vel om het gesprek voor te bereiden (/gesprek/); bij andere stappen een ander vel (VEL_BIJ_STAP);
  * - bij "Vindt u de stap spannend?" de tips over hulp vragen;
- * - bij dubbele kinderbijslag de landelijke uitleg (wat u opschrijft, terugbetalen) in de stap zelf (Fatima, ronde 27);
+ * - bij dubbele kinderbijslag de kern in de stap zelf (KinderbijslagKern: aanvragen, wat u opschrijft, terugbetalen) met een link naar de
+ *   landelijke uitleg (Fatima, ronde 27 en 29);
  * - bij de verhuizing: de plek van de stap in de tijdlijn en de nieuwe gemeente (zie verdiepingen.ts);
  * - bij extra kosten (regelingencheck): de rol van de stap en de soorten regelingen van de gemeente die eronder komen;
  * - bij wachten, afgewezen, gescheiden en uitbreiden: de route, rol of het gezag van de stap en de zin die een datum uit de verdieping vervangt. Daar staat geen rekenhulp
@@ -65,6 +84,7 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         wijkteam: x === wt,
         stand: metGemeente && x === alle[0] ? k.data.standInGemeente : undefined,
         gesprek: k.id === 'beginnen' && x.startsWith('Zet uw vraag op papier'),
+        vel: velBij(k.id, x),
         tips: k.id === 'beginnen' && x.startsWith('Vindt u de stap spannend'),
         kinderbijslag: k.id === 'geld' && x.includes('Vraag dan dubbele kinderbijslag aan'),
         moment: k.id === 'verhuizing' ? verhuisMoment(x) : undefined,
@@ -90,6 +110,6 @@ export const situatieStapProps = (organisaties: Organisatie[], sit: Situatie): C
   const co = stappen.find((s) => s.stap.includes('cliëntondersteuner'))?.stap;
   return stappen.map(({ stap, brief }) => {
     if (brief && !BRIEF_LABEL[brief]) throw new Error(`${sit.id}.md: geen korte naam voor de brief "${brief}" (zie BRIEF_LABEL in src/lib/stap-props.ts)`);
-    return { tekst: stap, orgs: genoemdIn(stap, organisaties, gehad), brief: brief ? { id: brief, label: BRIEF_LABEL[brief] } : undefined, co: stap === co };
+    return { tekst: stap, orgs: genoemdIn(stap, organisaties, gehad), brief: brief ? { id: brief, label: BRIEF_LABEL[brief] } : undefined, co: stap === co, vel: velBij(sit.id, stap) };
   });
 };

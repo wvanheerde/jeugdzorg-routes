@@ -5,7 +5,7 @@ samenvatting: "Wachten hoeft u niet zomaar te accepteren. Er is tijdelijke hulp 
 stappen:
   - stap: "Wacht u op een gesprek of een besluit van de gemeente? Vraag dan op papier om een besluit, en vraag hoe lang het nog duurt en of er tijdelijke hulp is tot de echte hulp begint (overbruggingshulp). De gemeente moet in de regel binnen acht weken beslissen."
     daarna:
-      - "Hoort u niets meer of belt niemand terug? Dien dan een klacht in bij het wijkteam. Een klacht is laagdrempelig en heeft geen termijn."
+      - "Hoort u niets meer of belt niemand terug? Dien dan een klacht in bij het wijkteam. Een klacht is laagdrempelig. Doe het wel zo snel mogelijk: over iets van lang geleden hoeft een organisatie een klacht niet altijd te behandelen."
       - "Zijn de acht weken na uw aanvraag voorbij? Stuur dan een brief waarin u de gemeente laat weten dat ze te laat is (ingebrekestelling). De gemeente moet dan binnen twee weken beslissen."
       - "Komt er twee weken na uw ingebrekestelling nog steeds geen besluit? Dan kunt u de rechter vragen om de gemeente te laten beslissen, zonder advocaat. Het Juridisch Loket helpt gratis als u een laag inkomen heeft. U heeft dan ook recht op een dwangsom van hooguit € 1.442. Gemeenten betalen die niet altijd uit zichzelf; vraag er dan schriftelijk om."
   - "Wacht u op de aanbieder, na een verwijzing van de huisarts of de gemeente? Bel de aanbieder en vraag hoe lang het nog duurt en of er tijdelijke hulp is. Meld de wachttijd ook bij het wijkteam: de gemeente blijft verantwoordelijk voor passende hulp. Dat geldt ook voor jeugd-GGZ, zoals een psycholoog na een verwijzing van de huisarts: tot 18 jaar betaalt de gemeente, niet de zorgverzekering."

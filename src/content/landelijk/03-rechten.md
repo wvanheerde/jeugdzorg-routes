@@ -64,7 +64,7 @@ Een besluit over jeugdhulp heet een **beschikking**. Bent u het niet eens met he
 
 ## Klachten
 
-Bent u niet tevreden over hoe het wijkteam of een zorgaanbieder werkt of met u omgaat? Dan kunt u een klacht indienen bij die organisatie. Elke organisatie moet een **klachtenregeling** hebben, met een onafhankelijke klachtencommissie. Voor een klacht geldt geen termijn. Een klacht is vaak sneller dan bezwaar. Lees meer bij [Klacht of bezwaar: wat werkt wanneer?](#07-klacht-of-bezwaar).
+Bent u niet tevreden over hoe het wijkteam of een zorgaanbieder werkt of met u omgaat? Dan kunt u een klacht indienen bij die organisatie. Elke organisatie moet een **klachtenregeling** hebben, met een onafhankelijke klachtencommissie. Er is geen vaste termijn zoals bij bezwaar, maar doe het wel zo snel mogelijk. Over een besluit maakt u bezwaar. Lees meer bij [Klacht of bezwaar: wat werkt wanneer?](#07-klacht-of-bezwaar).
 
 ## Vertrouwenspersoon
 

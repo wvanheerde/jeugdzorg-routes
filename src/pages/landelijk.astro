@@ -16,7 +16,7 @@ const laatste = items.map((i) => i.data.laatstGecontroleerd).sort().at(-1) ?? ''
     <span class="eyebrow">Geldt overal</span>
     <h1>Waar u landelijk recht op heeft</h1>
     <AfdrukKop />
-    <p class="lead">Dit is wettelijk geregeld en geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's.</p>
+    <p class="lead">Dit is wettelijk geregeld en geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's. Onderaan staat hoe het met de jeugdhulp in Nederland gaat, uit ons onderzoek bij alle gemeenten.</p>
   </div>
   <nav class="toc" aria-label="Snel naar">{items.map((i) => <a href={`#${i.id}`}>{i.data.titel}</a>)}</nav>
   <AfdrukKnop />

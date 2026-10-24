@@ -1,7 +1,7 @@
 ---
 titel: "De gesprekken lopen vast"
 herkenning: "Er is wel contact, maar er komt geen plan, afspraken worden niet nagekomen of iedereen wijst naar elkaar."
-samenvatting: "Dit is het moment voor een klacht, niet voor bezwaar. Voor een klacht geldt geen termijn. De organisatie moet reageren, en het is vaak binnen een paar weken opgelost."
+samenvatting: "Dit is het moment voor een klacht, niet voor bezwaar. Er is geen vaste termijn zoals bij bezwaar, maar dien de klacht wel zo snel mogelijk in: over iets van lang geleden hoeft een organisatie een klacht niet altijd te behandelen. De organisatie moet reageren, en het is vaak binnen een paar weken opgelost."
 stappen:
   - "Zet op een rij wat is beloofd en wat niet is gebeurd, met data. Dat is uw klacht."
   - "Vraag een vertrouwenspersoon van Jeugdstem om mee te doen. Dat is gratis. Alleen al dat iemand meekijkt, verandert vaak de toon."

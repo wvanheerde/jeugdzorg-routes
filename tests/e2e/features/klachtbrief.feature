@@ -44,7 +44,7 @@ Functionaliteit: Klachtbrief samenstellen
   Scenario: Vanuit "Wij wachten te lang" staat de klacht over wachten al aan
     Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"
     Als ik kies "Een plek bij een aanbieder"
-    En ik klik op "Voorbeeldbrief klacht →"
+    En ik klik op "Voorbeeldbrief klacht aan de aanbieder →"
     Dan is de knop "We wachten te lang op een plek" aangezet
     En staat in de brief "op uw wachtlijst"
 
@@ -81,7 +81,7 @@ Functionaliteit: Klachtbrief samenstellen
     Gegeven ik open het overzicht voor "Wij wachten te lang" in "Emmen"
     Als ik kies "Een gesprek of besluit van de gemeente"
     Dan zie ik "Hoort u niets meer of belt niemand terug?"
-    Als ik klik op "Voorbeeldbrief klacht →"
+    Als ik klik op "Voorbeeldbrief klacht aan het wijkteam →"
     Dan is de knop "Het duurt te lang" aangezet
 
   Scenario: Het klachtadres van de gekozen gemeente staat al in de brief aan het wijkteam
@@ -125,3 +125,32 @@ Functionaliteit: Klachtbrief samenstellen
     Als ik klik op "Kopieer de brief"
     Dan zie ik "De brief is geselecteerd. Kies Kopiëren (of Ctrl+C) en plak hem in een e-mail."
     En is de tekst van de brief geselecteerd
+
+  Scenario: Bij "Ik wil een klacht indienen" staan eerst bezwaar of klacht, dan de klacht bij het wijkteam en bij de aanbieder, elk met een eigen brief
+    Beide brieven heetten "Voorbeeldbrief klacht"; op één pagina was niet te zien welke welke was (24-10).
+    Gegeven ik open het overzicht voor "Ik wil een klacht indienen" in "Emmen"
+    Dan begint stap 1 met "Gaat het om een besluit"
+    En staat de link "Voorbeeldbrief klacht aan het wijkteam →" onder de stap "Gaat uw klacht over het wijkteam of de gemeente?"
+    En gaat de link "Voorbeeldbrief klacht aan het wijkteam →" naar "brieven/klacht-toegangsteam/"
+    En staat de link "Voorbeeldbrief klacht aan de aanbieder →" onder de stap "Gaat uw klacht over de hulpverlener of de aanbieder?"
+    En gaat de link "Voorbeeldbrief klacht aan de aanbieder →" naar "brieven/klacht-aanbieder/"
+    En zie ik "Klacht over het wijkteam"
+
+  Abstract Scenario: Over klacht en bezwaar zegt de site overal hetzelfde (<plek>)
+    Een klacht is voor hoe men werkt of met u omgaat, bezwaar voor een besluit; de site vergelijkt ze niet ("vaak sneller dan bezwaar").
+    Voor een klacht is er geen vaste termijn, maar wel: zo snel mogelijk. "Geen termijn" sprak het klachtblok van gemeenten als Emmen
+    tegen ("minder dan een jaar geleden"). Besluiten 24-10. Zonder gemeente: de teksten van gemeenten controleert npm run validate.
+    Gegeven ik open de pagina "<adres>"
+    Dan zie ik "over iets van lang geleden hoeft een organisatie een klacht niet altijd te behandelen"
+    En zie ik "geen termijn" niet
+    En zie ik "zonder termijn" niet
+    En zie ik "sneller dan bezwaar" niet
+    En zie ik "eenvoudiger dan bezwaar" niet
+    En zie ik "meer op dan een bezwaarschrift" niet
+
+    Voorbeelden:
+      | plek                       | adres                        |
+      | Klacht of bezwaar          | landelijk/                   |
+      | brief aan het wijkteam     | brieven/klacht-toegangsteam/ |
+      | De gesprekken lopen vast   | overzicht/?k=vastgelopen     |
+      | Ik wil een klacht indienen | overzicht/?k=klacht          |

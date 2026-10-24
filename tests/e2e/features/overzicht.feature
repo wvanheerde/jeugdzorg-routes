@@ -49,6 +49,13 @@ Functionaliteit: Mijn overzicht
     En zie ik de kop "Hier meldt u zich in Utrecht"
     En zie ik een belknop
 
+  Scenario: Met een beschikking in handen staat het wijkteam onder de eerste stap, niet bovenaan
+    De ouder kent het wijkteam al en leest eerst het besluit na; het wijkteam is nodig als er iets ontbreekt (23-10).
+    Gegeven ik open het overzicht voor "Ik heb een beschikking gekregen" in "Utrecht"
+    Dan zie ik de kop "Waar u terechtkunt in Utrecht"
+    En begint stap 1 met "Lees het besluit na."
+    En staat het contact van het wijkteam onder stap 1
+
   Scenario: Een vraag geeft een eigen kop bij "Wat kunt u doen"
     Gegeven ik open het overzicht voor "Wij wachten te lang" in "Utrecht"
     Dan zie ik de kop "Wat kunt u doen: wij wachten te lang"

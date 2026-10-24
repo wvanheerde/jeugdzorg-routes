@@ -97,9 +97,14 @@ Then('begint stap {int} met {string}', async ({ page }, nr: number, tekst: strin
 });
 
 /** Een link binnen een stap zelf (niet ergens onder de lijst): Fatima (ronde 27) moest daarvoor ver omlaag. */
+/** De zichtbare genummerde stappen van de gekozen vraag (ook bij een situatie of bij hulp aanvragen). */
+const zichtbareStappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').locator('visible=true');
+/** Tekst in een stap zelf (niet ergens anders op de pagina), zoals de kern over dubbele kinderbijslag. */
+Then('staat in stap {int} de tekst {string}', async ({ page }, nr: number, tekst: string) => {
+  await expect(zichtbareStappen(page).nth(nr - 1).getByText(tekst).first()).toBeVisible();
+});
 Then('staat in stap {int} de link {string}', async ({ page }, nr: number, naam: string) => {
-  const lis = vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').locator('visible=true');
-  await expect(lis.nth(nr - 1).getByRole('link', { name: naam })).toBeVisible();
+  await expect(zichtbareStappen(page).nth(nr - 1).getByRole('link', { name: naam })).toBeVisible();
 });
 
 Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: DataTable) => {

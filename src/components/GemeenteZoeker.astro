@@ -1,6 +1,8 @@
 ---
 /**
- * Filtert kaarten op de pagina: gemeenten (op naam en provincie) of andere kaarten met `data-zoek`.
+ * Filtert kaarten op de pagina: gemeenten (op naam, provincie en woonplaats) of andere kaarten met `data-zoek`.
+ * De woonplaatsen (public/woonplaatsen.json, zelfde lijst en namen als op de gemeentepagina) laadt het script pas bij het eerste
+ * typen, zodat de pagina niet groter wordt; vindt het een gemeente via een woonplaats, dan zegt de kaart welke ("Ter Aar valt onder …").
  * Secties zonder zichtbare kaart verdwijnen mee.
  * Werkt zonder JavaScript (alle kaarten zichtbaar) en met een paar regels vanilla JS.
  * Een ander filter op de pagina (zoals regelingen op de lijst met gemeenten) zet data-filter-uit op een kaart en stuurt jr:filter.
@@ -15,6 +17,10 @@ const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } =
   <button type="submit" class="btn primary">Zoeken</button>
 </form>
 <script>
+  import { toonNaam } from '../lib/woonplaatsen';
+  const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  let woonplaatsen: Promise<[string, string][]> | null = null;
   document.querySelectorAll<HTMLFormElement>('form.search[data-target]').forEach((form) => {
     const input = form.querySelector('input')!;
     const grid = document.querySelector(form.dataset.target!);
@@ -22,18 +28,50 @@ const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } =
     const cards = Array.from(grid.querySelectorAll<HTMLElement>('[data-naam], [data-zoek]'));
     const sections = Array.from(grid.querySelectorAll<HTMLElement>('section'));
     const empty = grid.parentElement?.querySelector<HTMLElement>('.empty-result');
+    // Gemeentekaarten (data-naam): per gemeente de woonplaatsen, na het laden. Sleutel is het adres van de kaart (/gemeenten/<slug>/).
+    const gemeenteKaarten = cards.filter((c) => c.dataset.naam);
+    let perGemeente = new Map<HTMLElement, { naam: string; n: string }[]>();
+    const laad = () => {
+      if (!gemeenteKaarten.length || woonplaatsen) return;
+      woonplaatsen = fetch(`${base}/woonplaatsen.json`).then((r) => r.json());
+      woonplaatsen.then((paren) => {
+        const kaart = new Map(gemeenteKaarten.map((c) => [c.getAttribute('href')!.split('/').filter(Boolean).at(-1)!, c]));
+        perGemeente = new Map();
+        for (const [plaats, slug] of paren) {
+          const c = kaart.get(slug); if (!c) continue;
+          const naam = toonNaam(plaats, c.querySelector('h3')?.textContent ?? '');
+          perGemeente.set(c, [...(perGemeente.get(c) ?? []), { naam, n: norm(naam) }]);
+        }
+        apply();
+      }).catch(() => { woonplaatsen = null; });
+    };
+    /** Een woonplaats waarvan een woord begint met wat er getypt is ("ter aar", "huppel"); niet midden in een woord, anders levert "ter" ook Oosterhout op. */
+    // "ter aar" vindt ook Ter Aard (Assen): dat is gewenst, de kaart zegt welke woonplaats het is.
+    const viaWoonplaats = (c: HTMLElement, q: string) => (q.length < 2 ? undefined : perGemeente.get(c)?.find((w) => w.n.startsWith(q) || w.n.includes(` ${q}`) || w.n.includes(`-${q}`)));
+    const meld = (c: HTMLElement, naam?: string) => {
+      let p = c.querySelector<HTMLElement>('[data-via-woonplaats]');
+      if (!naam) { if (p) p.hidden = true; return; }
+      p ??= Object.assign(document.createElement('p'), { className: 'meta via-woonplaats' });
+      p.setAttribute('data-via-woonplaats', '');
+      p.textContent = `${naam} valt onder deze gemeente.`;
+      p.hidden = false;
+      c.querySelector('h3')?.after(p);
+    };
     const apply = () => {
-      const q = input.value.trim().toLowerCase();
+      const q = norm(input.value);
       let n = 0;
       for (const c of cards) {
-        const tekst = c.dataset.zoek ?? `${c.dataset.naam} ${c.dataset.provincie}`;
-        const hit = (!q || tekst.includes(q)) && !c.hasAttribute('data-filter-uit');
+        const tekst = norm(c.dataset.zoek ?? `${c.dataset.naam} ${c.dataset.provincie}`);
+        const direct = !q || tekst.includes(q);
+        const woonplaats = !direct && c.dataset.naam ? viaWoonplaats(c, q) : undefined;
+        if (c.dataset.naam) meld(c, woonplaats?.naam);
+        const hit = (direct || !!woonplaats) && !c.hasAttribute('data-filter-uit');
         c.hidden = !hit; if (hit) n++;
       }
       for (const s of sections) s.hidden = !s.querySelector('[data-zoek]:not([hidden]), [data-naam]:not([hidden])');
       if (empty) empty.hidden = n > 0;
     };
-    input.addEventListener('input', apply);
+    input.addEventListener('input', () => { laad(); apply(); });
     document.addEventListener('jr:filter', apply);
     form.addEventListener('submit', () => { apply(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });

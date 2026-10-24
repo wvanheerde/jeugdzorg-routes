@@ -1,0 +1,921 @@
+[
+  {
+    "slug": "huizen",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Meer signalen over wachtlijsten, praktijkondersteuner jeugd blijft",
+      "strengerToegang": "Nieuwe regels voor jeugdhulp sinds november 2025",
+      "clientervaring": "Ouders over jeugdhulp in Gooi en Vechtstreek"
+    },
+    "twijfel": "Cliëntervaring komt uit een kleine regionale meting die de regio zelf niet representatief noemt."
+  },
+  {
+    "slug": "hulst",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuwe verordening jeugdhulp sinds 2026"
+    },
+    "twijfel": "In juli 2026 geen wachtenden voor intake: geen daling beschreven, dus 'niet genoemd'. Overgang naar een nieuwe Zeeuwse inkooporganisatie in 2027 is geen nieuwe inkoop, dus false."
+  },
+  {
+    "slug": "ijsselstein",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Wachtlijst bij het Jeugdteam, overbruggingshulp onderzocht",
+      "strengerToegang": "Nieuwe inkoop ambulante hulp en hulp in onderwijstijd per augustus 2027",
+      "nieuweToegangOfInkoop": "Nieuwe inkoop ambulante hulp en hulp in onderwijstijd per augustus 2027"
+    },
+    "twijfel": "Er is een wachtlijst bij het Jeugdteam, maar niet hoe lang die is of of die groeit."
+  },
+  {
+    "slug": "kaag-en-braassem",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": true,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "JGT: iets meer kinderen op de wachtlijst",
+      "geenPlek": "Aanmeldstop bij een aanbieder en korte wachttijd bij het JGT",
+      "geldDruk": "Aanmeldstop bij een aanbieder en korte wachttijd bij het JGT",
+      "nieuweToegangOfInkoop": "Regio wil met beschikkingen en meer regie werken"
+    },
+    "twijfel": "Geldsignaal is een uitgeput budget bij één aanbieder, geen tekort op de begroting. Meer regie en beschikkingen (2027) niet als strengere toegang geteld."
+  },
+  {
+    "slug": "kampen",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Regiovisie jeugdhulp IJsselland 2026-2031",
+      "nieuweToegangOfInkoop": "Lokaal Team: gezinswerkers en meer schoolmaatschappelijk werk"
+    },
+    "twijfel": "Oplopende wachttijden gelden voor de regio IJsselland, niet specifiek voor Kampen."
+  },
+  {
+    "slug": "kapelle",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuwe regels voor jeugdhulp vanaf 25 oktober 2025",
+      "nieuweToegangOfInkoop": "Nieuwe contracten met jeugdhulpaanbieders sinds 1 juni 2026"
+    }
+  },
+  {
+    "slug": "katwijk",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuwe Verordening Jeugdhulp geldt sinds 1 september 2026",
+      "nieuweToegangOfInkoop": "Sociaal Wijkteam krijgt een nieuwe opdracht"
+    },
+    "twijfel": "De gemeente wil wachttijden korter maken, maar noemt niet hoe lang ze zijn; daarom 'niet genoemd'."
+  },
+  {
+    "slug": "kerkrade",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Ouders waarderen contact met medewerker jeugd, maar wachten lang",
+      "nieuweToegangOfInkoop": "Twee grote aanbieders in problemen, nieuwe contracten voor verblijf en crisishulp",
+      "clientervaring": "Ouders waarderen contact met medewerker jeugd, maar wachten lang"
+    }
+  },
+  {
+    "slug": "koggenland",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Wachttijden opgelopen door nieuwe systemen en wachtlijsten bij aanbieders",
+      "strengerToegang": "Nieuwe verordening jeugdhulp met scherpere regels"
+    },
+    "twijfel": "Nieuwe regionale contracten (1 juli 2025) staan alleen in de samenvatting, niet in een signaal; daarom nieuweToegangOfInkoop false."
+  },
+  {
+    "slug": "krimpen-aan-den-ijssel",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "strengerToegang": "Strengere regels voor jeugdhulp sinds 2025",
+      "nieuweToegangOfInkoop": "Normenkader voor duur en omvang van lokale jeugdhulp",
+      "clientervaring": "Cliëntervaringsonderzoek Jeugd 2024: rapportcijfers 7,5 tot 7,6"
+    }
+  },
+  {
+    "slug": "krimpenerwaard",
+    "wachten": "niet genoemd",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "geenPlek": "Jeugdondersteuners bij de huisarts: tijdelijk onderbezet",
+      "nieuweToegangOfInkoop": "Lokale teams en nieuwe regels in voorbereiding",
+      "clientervaring": "Cliëntervaringsonderzoek jeugd over 2024"
+    },
+    "twijfel": "Personeelstekort is tijdelijk (twee praktijken); de cliëntervaring komt uit een kleine meting (36 ouders)."
+  },
+  {
+    "slug": "laarbeek",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {},
+    "twijfel": "Jeugdprofessionals overbruggen wachttijd en de regio wil kortere wachttijden, maar lengte of groei wordt niet genoemd. Onderzoek naar het toegangsteam is nog geen herinrichting."
+  },
+  {
+    "slug": "land-van-cuijk",
+    "wachten": "wisselend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Nieuwsbrief Sociaal Domein: CJG op school verkort de wachttijd; Wachtlijsten bij Veilig Thuis Oost-Brabant",
+      "clientervaring": "Cliëntervaringsonderzoek Jeugd 2023: CJG gemiddeld een 7,7"
+    },
+    "twijfel": "Wachttijd bij het CJG korter, maar wachtlijsten bij aanbieders en gecertificeerde instellingen; Veilig Thuis zelf is geen jeugdhulp."
+  },
+  {
+    "slug": "landgraaf",
+    "wachten": "wisselend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Cliëntervaringsonderzoek over 2024: gesprek een 7,3, langer wachten op hulp",
+      "clientervaring": "Cliëntervaringsonderzoek over 2024: gesprek een 7,3, langer wachten op hulp"
+    },
+    "twijfel": "Team Jeugd heeft volgens de gemeente geen wachtlijst, terwijl ouders langer wachten op de start van de hulp (kleine aantallen). Geen passende onderwijsplek is geen tekort aan jeugdhulp, dus geenPlek false."
+  },
+  {
+    "slug": "landsmeer",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Cliëntervaringsonderzoek Jeugd: hulp goed, toegang kan beter",
+      "nieuweToegangOfInkoop": "Nieuwe contracten specialistische jeugdhulp per 1 januari 2027",
+      "clientervaring": "Cliëntervaringsonderzoek Jeugd: hulp goed, toegang kan beter"
+    },
+    "twijfel": "Wachttijd tot een half jaar staat alleen in de samenvatting; cliëntervaring uit gesprekken met tien cliënten. Plan voor sterkere lokale teams ging niet door 'omdat er te weinig mensen waren', niet als geenPlek geteld."
+  },
+  {
+    "slug": "lansingerland",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Strengere regels voor jeugdhulp in de verordening",
+      "nieuweToegangOfInkoop": "Plan voor een breder lokaal team"
+    },
+    "twijfel": "Stoppen met subsidie voor maatjes- en ouderprojecten is een voorstel zonder genoemde reden; niet als geldDruk geteld. Breder lokaal team is nog een plan."
+  },
+  {
+    "slug": "laren",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "nieuweToegangOfInkoop": "Plannen voor 2027: sterkere lokale teams en jeugdpreventie",
+      "clientervaring": "Rekenkamer BEL: inwoners tevreden, informatie en vindbaarheid kunnen beter"
+    },
+    "twijfel": "Regels uit 2025 zeggen hulp 'liefst zo kort mogelijk'; niet duidelijk genoeg als strengere toegang. Rekenkamer noemt ook informatiegaten."
+  },
+  {
+    "slug": "leiden",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Regionale jaarrapportage 2024: Leiden hoogste aandeel kinderen in jeugdhulp",
+      "geenPlek": "Inspecties: kwaliteit jeugdbescherming in de regio grotendeels onvoldoende",
+      "strengerToegang": "Nieuwe verordening jeugdhulp: strenger kijken, eerst wat u zelf en uw omgeving kunnen"
+    },
+    "twijfel": "Het inspectierapport gaat over de kwaliteit van jeugdbescherming, niet over hoe ouders de hulp ervaren; daarom clientervaring 'geen'."
+  },
+  {
+    "slug": "leiderdorp",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuwe regels: eerst eigen mogelijkheden en lichte hulp"
+    }
+  },
+  {
+    "slug": "leidschendam-voorburg",
+    "wachten": "wisselend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Jaarstukken 2025: wachtlijst weggewerkt, nieuwe toegang later; Wachttijd bij aanbieders: kinderdagcentra langer dan een jaar",
+      "strengerToegang": "Wat de nieuwe regels voor ouders betekenen",
+      "nieuweToegangOfInkoop": "Plan: een nieuw lokaal team voor de toegang"
+    }
+  },
+  {
+    "slug": "lelystad",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Drie keer een melding dat een besluit over jeugdhulp te laat kwam",
+      "geenPlek": "Cliëntervaringsonderzoek Jeugd 2025: verwijzer 6,8, wachtlijsten genoemd",
+      "nieuweToegangOfInkoop": "Nieuwe aanbieders voor lokale jeugdhulp vanaf 1 juli 2026",
+      "clientervaring": "Cliëntervaringsonderzoek Jeugd 2025: verwijzer 6,8, wachtlijsten genoemd"
+    },
+    "twijfel": "Het cliëntervaringsonderzoek noemt de gemeente zelf indicatief (respons 13,7%)."
+  },
+  {
+    "slug": "leudal",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "CJG: meer wachtenden in 2024",
+      "clientervaring": "CJG: meer wachtenden in 2024"
+    },
+    "twijfel": "Cliëntervaring (7,2) is een eigen meting van het CJG. Ziekte en personeel bij het CJG niet als geenPlek geteld; nieuwe afspraken met hetzelfde CJG en een onderzoek naar een eigen team zijn geen nieuwe toegang."
+  },
+  {
+    "slug": "leusden",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Wachtlijst voor specialistische jeugdhulp in de regio",
+      "strengerToegang": "Gemeente wil vaker eerst lichte hulp inzetten",
+      "nieuweToegangOfInkoop": "Gemeente wil vaker eerst lichte hulp inzetten"
+    },
+    "twijfel": "Wachtlijstsignaal is van december 2024 en via buurgemeente Eemnes. Afspraken met MetMaya 'worden vernieuwd', zonder details."
+  },
+  {
+    "slug": "leeuwarden",
+    "wachten": "wisselend",
+    "geenPlek": false,
+    "geldDruk": true,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Cliëntervaringsonderzoek Jeugd 2023: positief over toegang, wachttijden knelpunt",
+      "geldDruk": "Kostenbeheersing jeugdhulp: kosten blijven stijgen",
+      "strengerToegang": "Kostenbeheersing jeugdhulp: kosten blijven stijgen",
+      "clientervaring": "Cliëntervaringsonderzoek Jeugd 2023: positief over toegang, wachttijden knelpunt"
+    },
+    "twijfel": "Wachttijd bij het Jeugdexpertteam daalde in 2024 van meer dan 120 naar 80 dagen, maar is nog lang; nieuwere cijfers ontbreken. Strengere toegang afgeleid uit 'toetsing bij verwijzers en aanbieders'."
+  },
+  {
+    "slug": "lingewaard",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "74 jeugdigen op de wachtlijst voor onderzoek van de hulpvraag",
+      "nieuweToegangOfInkoop": "Incluzio Lingewaard is sinds 2026 de toegang",
+      "clientervaring": "Cliëntervaringsonderzoek jeugdhulp over 2025"
+    },
+    "twijfel": "Cliëntervaring uit een kleine respons (11%), en minder mensen voelden zich goed geholpen door de gemeente; het zwartboek van een raadsfractie is niet meegeteld."
+  },
+  {
+    "slug": "lisse",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Rekenkamer: wachttijden zetten preventieve jeugdhulp onder druk",
+      "strengerToegang": "Nieuwe Verordening Jeugdhulp vanaf 2026"
+    },
+    "twijfel": "Personeelstekort zat bij de jeugdgezondheidszorg, niet bij de jeugdhulp; daarom geenPlek false. Het rekenkameronderzoek gaat niet over hoe ouders de hulp ervaren."
+  },
+  {
+    "slug": "lochem",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "clientervaring": "Rekenkamer: samenwerking in het jeugdbeleid verbeterd"
+    },
+    "twijfel": "Strengere pgb-voorwaarden niet als strengere toegang geteld."
+  },
+  {
+    "slug": "loon-op-zand",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Een derde van de aanvragen binnen de wettelijke termijn",
+      "strengerToegang": "Kritischer kijken bij verlenging van hulp",
+      "nieuweToegangOfInkoop": "Sterk Lokaal Team sinds april 2025",
+      "clientervaring": "Lagere score voor Loon op Zand dan de regio"
+    },
+    "twijfel": "Cliëntervaring berust op 28 lokale invullers. 'Wachten' gaat hier over de tijd tot een besluit."
+  },
+  {
+    "slug": "lopik",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Gemeente wil wachtlijst jeugdhulp verkorten",
+      "nieuweToegangOfInkoop": "Medewerker jeugd en Integraal Jeugdcentrum erbij"
+    },
+    "twijfel": "Er is een wachtlijst, maar hoe lang die is staat er niet. Het Integraal Jeugdcentrum geteld als nieuwe inrichting van de toegang."
+  },
+  {
+    "slug": "losser",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "strengerToegang": "Vaker aanmelden via team wijz, minder via externe verwijzers",
+      "clientervaring": "Ouders geven jeugdhulp een 7,9, jongeren een 7,7"
+    },
+    "twijfel": "Er zijn wachttijden bij aanbieders, maar niet hoe lang of of ze groeien; daarom 'niet genoemd'. 'Toegang versterkt' en het plan voor 2027 niet als nieuwe toegang geteld."
+  },
+  {
+    "slug": "maasdriel",
+    "wachten": "dalend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Wachten op een besluit over jeugdhulp",
+      "clientervaring": "Meer ouders zeggen: snel geholpen door de medewerker jeugd"
+    },
+    "twijfel": "Cliëntervaring is een eigen onderzoek van de gemeente. De nieuwe regels van 2026 zeggen niet of hulp strenger wordt toegekend."
+  },
+  {
+    "slug": "maasgouw",
+    "wachten": "wisselend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "CJG Midden-Limburg: cliënten overwegend tevreden, wachttijden een zorg",
+      "clientervaring": "CJG Midden-Limburg: cliënten overwegend tevreden, wachttijden een zorg"
+    },
+    "twijfel": "Lange wachttijden die volgens het CJG eind 2025 langzaam afnemen. Cliëntervaring is een eigen, niet-representatieve meting van het CJG voor zeven gemeenten."
+  },
+  {
+    "slug": "maashorst",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Proef met een stevig lokaal team in Zeeland en Uden-Oost",
+      "strengerToegang": "Lichte hulp eerst, specialistische hulp voor complexe vragen",
+      "nieuweToegangOfInkoop": "Proef met een stevig lokaal team in Zeeland en Uden-Oost"
+    },
+    "twijfel": "'Inwoners wachten te lang' zonder cijfers. De inspectie gaat over Veilig Thuis, niet over hoe ouders de jeugdhulp ervaren."
+  },
+  {
+    "slug": "maassluis",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Rekenkamer: wachtlijsten blijven, weinig tijd voor lichte hulp",
+      "strengerToegang": "Nieuw college: meer lichte hulp, strengere afweging",
+      "clientervaring": "Ouders en jongeren geven de hulp in Maassluis een 7,9"
+    },
+    "twijfel": "Wachtlijst bleef stabiel (81) maar de rekenkamer spreekt van lange wachtlijsten. Strengere afweging is een voornemen in de begroting 2027. Cliëntervaring is een kleine eigen meting van Mevis. Nieuwe inkoop pas vanaf 2029, dus false."
+  },
+  {
+    "slug": "maastricht",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "nieuweToegangOfInkoop": "Regio Zuid-Limburg: zestien gemeenten werken aan passende jeugdhulp en nieuwe verblijfscontracten"
+    },
+    "twijfel": "Financiële problemen bij aanbieders en 'kosten beheersbaar houden' niet als geldDruk van de gemeente geteld."
+  },
+  {
+    "slug": "medemblik",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Rekenkamer: zeven maanden wachten op eerste gesprek",
+      "nieuweToegangOfInkoop": "Nieuwe regels voor jeugdhulp sinds 1 juli 2025",
+      "clientervaring": "Cliëntervaringsonderzoek jeugd 2025: hulp 7,6, contact met gemeente 6,8"
+    },
+    "twijfel": "Cliëntervaring uit een kleine respons (34 van 410)."
+  },
+  {
+    "slug": "meerssen",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "clientervaring": "Ouders geven jeugdhulp een 8,0"
+    },
+    "twijfel": "Minder deeltijdgroepen bij de Mutsaersstichting (10 naar 8) niet als tekort aan aanbod geteld."
+  },
+  {
+    "slug": "meierijstad",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Jeugdhulp groeit, overstap naar lichtere hulp loopt vast op wachtlijsten",
+      "strengerToegang": "Nieuwe verordening: eerst eigen mogelijkheden, dan hulp op maat",
+      "nieuweToegangOfInkoop": "Medewerkers jeugd sinds 2026 in dienst van de gemeente"
+    }
+  },
+  {
+    "slug": "meppel",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Lange wachttijden bij specialistische jeugdhulp",
+      "geenPlek": "Lange wachttijden bij specialistische jeugdhulp",
+      "clientervaring": "Ouders over hulp in 2025: snelheid en uitleg kunnen beter"
+    },
+    "twijfel": "Cliëntervaring is niet representatief (respons 23,3%). Onderzoek naar stevige lokale teams is nog geen nieuwe toegang."
+  },
+  {
+    "slug": "middelburg",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuw beleidskader jeugd vastgesteld",
+      "nieuweToegangOfInkoop": "Plan: nieuw team voor jeugd in de buurt"
+    },
+    "twijfel": "Strengere toegang berust op een beleidskader ('eerst wat gezin en netwerk kunnen'), niet op een verordening. Nieuwe contracten zijn uitgesteld naar 2028; nieuwe toegang telt vanwege het ontwerp en de proef in 2026-2027."
+  },
+  {
+    "slug": "midden-delfland",
+    "wachten": "dalend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Kortere wachtlijst bij het Sociaal Team door frontoffice",
+      "strengerToegang": "Nieuwe verordening: duidelijker wat ouders zelf doen",
+      "nieuweToegangOfInkoop": "Kortere wachtlijst bij het Sociaal Team door frontoffice"
+    }
+  },
+  {
+    "slug": "midden-drenthe",
+    "wachten": "niet genoemd",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "geenPlek": "Aanbieders zitten vol, ook voor complexe hulp",
+      "nieuweToegangOfInkoop": "Nieuw lokaal team: gezinsbegeleiders op school",
+      "clientervaring": "Ouders geven jeugdhulp een 8,0"
+    }
+  },
+  {
+    "slug": "midden-groningen",
+    "wachten": "dalend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Wachtlijst bij het Sociaal Team korter eind 2024",
+      "nieuweToegangOfInkoop": "Sociaal Team wordt per 1 januari 2027 een gemeentelijke stichting",
+      "clientervaring": "Gemiddeld rapportcijfer voor jeugdhulp 7,3 over 2024"
+    },
+    "twijfel": "De daling van de wachtlijst is van eind 2024 (nog 92 wachtenden). Het rapportcijfer 7,3 heeft geen openbare opzet of respons."
+  },
+  {
+    "slug": "moerdijk",
+    "wachten": "wisselend",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Intake bij het CJG korter; Rekenkameronderzoek jeugdhulp en wachttijden",
+      "geenPlek": "Rekenkameronderzoek jeugdhulp en wachttijden",
+      "nieuweToegangOfInkoop": "Nieuwe regionale opdracht voor de jeugdprofessionals vanaf 2027"
+    },
+    "twijfel": "Intake bij het CJG korter (zonder meting), terwijl de gemeente wachttijden en te weinig plek bij specialistische hulp een blijvend risico noemt. Strengere regels liggen nog bij de raad (29 oktober 2026), dus strengerToegang false."
+  },
+  {
+    "slug": "molenlanden",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {},
+    "twijfel": "Lange wachttijden en de ervaringen van ouders komen uit een regionaal onderzoek over 2022, te oud en zonder cijfers per gemeente; daarom 'niet genoemd' en 'geen'. Meer hulp in het Sociaal Team om minder door te sturen niet als strengere toegang geteld."
+  },
+  {
+    "slug": "montferland",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Gemeente: wachtlijsten jeugdzorg zijn lang",
+      "geenPlek": "Gemeente: wachtlijsten jeugdzorg zijn lang",
+      "nieuweToegangOfInkoop": "Nieuwe regionale contracten jeugdhulp vanaf 2026",
+      "clientervaring": "Cliëntervaringsonderzoek jeugdhulp over 2023"
+    },
+    "twijfel": "Cliëntervaring is indicatief (respons 12-14%)."
+  },
+  {
+    "slug": "montfoort",
+    "wachten": "dalend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Jeugdhulp op school voor leerlingen van twee speciale scholen"
+    },
+    "twijfel": "Kortere wachttijd geldt alleen voor jeugdhulp op twee speciale scholen. De nieuwe regionale organisatie (2027) die de inkoop regelt en de meerjarige overeenkomst met het Jeugdteam zijn niet als nieuwe inkoop of toegang geteld."
+  },
+  {
+    "slug": "mook-en-middelaar",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "nieuweToegangOfInkoop": "Plan: lokaal team voor alle leeftijden",
+      "clientervaring": "Cliëntervaringsonderzoek 2023: ouders tevreden, kleine groep"
+    },
+    "twijfel": "Wachttijd van ongeveer twee maanden staat alleen op de gemeentesite, niet in een signaal. Cliëntervaring uit een kleine groep (18 en 22 ouders). Lokaal team is nog een plan."
+  },
+  {
+    "slug": "neder-betuwe",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Ouders meestal tevreden, wel zorgen over wachtlijsten",
+      "strengerToegang": "Nieuwe verordening jeugdhulp sinds januari 2026",
+      "nieuweToegangOfInkoop": "Plan: één sterk lokaal team uiterlijk 2028",
+      "clientervaring": "Ouders meestal tevreden, wel zorgen over wachtlijsten"
+    },
+    "twijfel": "Cliëntervaring uit groepsgesprekken, niet representatief. Minder preventieve activiteiten vanaf 2029 zonder genoemde reden; niet als geldDruk geteld."
+  },
+  {
+    "slug": "nederweert",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "CJG: cliënten overwegend tevreden, wel wachttijden",
+      "clientervaring": "CJG: cliënten overwegend tevreden, wel wachttijden"
+    },
+    "twijfel": "Cliëntervaring is een eigen meting van het CJG."
+  },
+  {
+    "slug": "nieuwegein",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Gemeente meldt wachttijden en kijkt eerst naar lichte hulp",
+      "strengerToegang": "Meer hulp op middelbare scholen, vaker eerst hulp in de buurt",
+      "clientervaring": "Ouders overwegend positief over Geynwijs, wel knelpunten bij wachten en contact"
+    },
+    "twijfel": "Er zijn wachttijden (15% wachtte langer dan zes weken), maar niet of ze groeien. Strengere toegang afgeleid uit het Triageteam dat vaker naar hulp in de buurt verwijst."
+  },
+  {
+    "slug": "nieuwkoop",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Wachttijd bij het Jeugd- en Gezinsteam moet omlaag"
+    },
+    "twijfel": "Een beschikking bij elke aanvraag (sinds september 2026) niet als strengere of nieuwe toegang geteld."
+  },
+  {
+    "slug": "nijkerk",
+    "wachten": "dalend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "positief",
+    "bewijs": {
+      "wachten": "Wachtlijsten Sociaal Team in 2025 weggewerkt",
+      "strengerToegang": "Coalitieakkoord: korte hulp, minder doorverwijzen",
+      "clientervaring": "Ouders tevreden over medewerker jeugd en hulp, iets minder dan vorig jaar"
+    },
+    "twijfel": "Strengere toegang is een voornemen uit het coalitieakkoord. Eén gegronde klacht bij de ombudsman niet meegewogen in de cliëntervaring. Sociaal Team dat vanaf 2027 meer zelf begeleidt niet als nieuwe toegang geteld."
+  },
+  {
+    "slug": "nijmegen",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": true,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Uitvoeringsagenda: besparen op ambulante jeugdhulp, wachttijden jeugd-GGZ tot zes maanden",
+      "geenPlek": "Gemeente kiest voor 'toekomstbestendige' jeugdhulp: eerst eigen netwerk, dan buurtteam",
+      "geldDruk": "Uitvoeringsagenda: besparen op ambulante jeugdhulp, wachttijden jeugd-GGZ tot zes maanden",
+      "strengerToegang": "Gemeente kiest voor 'toekomstbestendige' jeugdhulp: eerst eigen netwerk, dan buurtteam",
+      "clientervaring": "Ombudsman Nijmegen uit zorgen over toegang tot jeugdhulp; Jongeren geven de jeugdhulp een 7,5"
+    },
+    "twijfel": "Cliëntervaring: jongeren positief (onderzoek over 2023), de ombudsman kritisch over de toegang."
+  },
+  {
+    "slug": "nissewaard",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuwe Verordening Jeugdhulp Nissewaard 2026 van kracht",
+      "nieuweToegangOfInkoop": "Proef: huisartsverwijzingen via Team Jeugd (1 april 2026 tot 31 maart 2028)"
+    },
+    "twijfel": "De wachtlijst gaat over Veilig Thuis, niet over jeugdhulp."
+  },
+  {
+    "slug": "noardeast-fryslan",
+    "wachten": "niet genoemd",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "geenPlek": "Vaker aparte afspraken voor kinderen die niet passen in het gewone aanbod"
+    }
+  },
+  {
+    "slug": "noord-beveland",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Nieuwe regels jeugdhulp: strenger over vergoeding"
+    }
+  },
+  {
+    "slug": "noordenveld",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "nieuweToegangOfInkoop": "Twaalf Drentse gemeenten richten Jeugdhulpregio Drenthe op"
+    }
+  },
+  {
+    "slug": "noordoostpolder",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "nieuweToegangOfInkoop": "Samenwerking regio Flevoland: onenigheid in 2025, nieuwe afspraken"
+    },
+    "twijfel": "Nieuwe gezamenlijke inkoop vanaf 2027, maar niet alle gemeenten doen mee en het is niet zeker dat Noordoostpolder meedoet. Korter crisisverblijf niet als strengere toegang geteld."
+  },
+  {
+    "slug": "noordwijk",
+    "wachten": "oplopend",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Regio: wachtlijsten nemen toe",
+      "strengerToegang": "Nieuwe regels voor jeugdhulp sinds 1 juli 2026",
+      "nieuweToegangOfInkoop": "Plan Stevige basis voor de jeugd"
+    },
+    "twijfel": "Wachtlijsten nemen toe in de regio Holland Rijnland, niet specifiek in Noordwijk. Nieuwe toegang telt vanwege nieuwe afspraken met Voor ieder 1 (2025-2031), dezelfde organisatie."
+  },
+  {
+    "slug": "nuenen-gerwen-en-nederwetten",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {},
+    "twijfel": "Meer aanmeldingen bij het CMD, maar geen wachttijden genoemd. Plannen om het CMD te versterken niet als nieuwe toegang geteld."
+  },
+  {
+    "slug": "nunspeet",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "strengerToegang": "Plan: minder automatische verlenging van hulp"
+    },
+    "twijfel": "Nieuwe aanbesteding van de beoordelaar voor dyslexiezorg (2027) gaat alleen over dyslexie; niet als nieuwe inkoop geteld."
+  },
+  {
+    "slug": "oegstgeest",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": true,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "geen",
+    "bewijs": {
+      "wachten": "Regiovisie 'Samen rondom de jeugd' zet in op lichtere hulp",
+      "geenPlek": "Inspecties: kwaliteit jeugdbescherming in de regio grotendeels onvoldoende",
+      "geldDruk": "Jeugdzorguitgaven ruim boven vergelijkbare gemeenten",
+      "strengerToegang": "Begroting 2026: besparing op jeugdzorg door inzet op preventie"
+    },
+    "twijfel": "Lange wachttijden en het tekort aan aanbod gelden voor de regio, niet specifiek voor Oegstgeest."
+  },
+  {
+    "slug": "oirschot",
+    "wachten": "oplopend",
+    "geenPlek": true,
+    "geldDruk": false,
+    "strengerToegang": false,
+    "nieuweToegangOfInkoop": false,
+    "clientervaring": "gemengd",
+    "bewijs": {
+      "wachten": "Ouders missen één aanspreekpunt",
+      "geenPlek": "Regio koopt specialistische jeugdhulp vanaf 2028 anders in",
+      "clientervaring": "Jeugdhulp krijgt een 7,2, maar minder ouders vinden de hulp passend"
+    },
+    "twijfel": "Nieuwe inkoop gaat pas in 2028 in, dus false. Cliëntervaring is een eigen onderzoek van de gemeente."
+  },
+  {
+    "slug": "oisterwijk",
+    "wachten": "niet genoemd",
+    "geenPlek": false,
+    "geldDruk": false,
+    "strengerToegang": true,
+    "nieuweToegangOfInkoop": true,
+    "clientervaring": "positief",
+    "bewijs": {
+      "strengerToegang": "Plan voor 2027: minder verwijzingen door artsen, meer hulp in de buurt",
+      "nieuweToegangOfInkoop": "Jeugdhulp steeds vaker via één ingang",
+      "clientervaring": "Cliëntervaringsonderzoek Jeugdhulp 2025: totaalcijfer 7,4"
+    },
+    "twijfel": "Strengere toegang afgeleid uit doelen voor minder verwijzingen door artsen en meer hulp zonder besluit."
+  }
+]

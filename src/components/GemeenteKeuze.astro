@@ -30,6 +30,7 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
 </div>
 <script>
   import { koppelSuggesties } from '../lib/suggesties';
+  import { toonNaam } from '../lib/woonplaatsen';
   const KEY = 'jr.gemeente';
   const fromUrl = new URLSearchParams(location.search).get('gemeente');
   if (fromUrl) localStorage.setItem(KEY, fromUrl);
@@ -60,7 +61,8 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     const uitkomst = blok.querySelector<HTMLElement>('[data-woonplaats-uitkomst]')!;
     if (!sel) return;
     const gemNaam = (slug: string) => Array.from(sel.options).find((o) => o.value === slug)?.text ?? slug;
-    const label = (plaats: string, slug: string) => `${plaats} (gemeente ${gemNaam(slug)})`;
+    // De naam zonder toevoegingen uit de registratie ("Winterswijk Huppel" wordt "Huppel"), zie lib/woonplaatsen.ts.
+    const label = (plaats: string, slug: string) => `${toonNaam(plaats, gemNaam(slug))} (gemeente ${gemNaam(slug)})`;
     let opties = new Map<string, string>();
     let labels: string[] = [];
     const suggesties = koppelSuggesties(invoer, () => labels);

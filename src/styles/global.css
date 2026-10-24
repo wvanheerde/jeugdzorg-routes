@@ -533,6 +533,7 @@ th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform:
 .stap-org { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1.1rem; }
 .stap-org { margin-top: .6rem; }
 #nu-doen .stap-tips { display: block; margin-top: .4rem; font-size: .9rem; font-weight: 400; }
+#nu-doen .stap-kern p { margin: .5rem 0 0; font-size: .95rem; }
 .stap-org strong { font-weight: 600; flex-basis: 100%; }
 .stap-org .ci { display: inline-flex; align-items: baseline; gap: .4rem; font-size: .85rem; } /* telefoon, e-mail en website kleiner dan de naam */
 .stap-org .ico { align-self: center; color: var(--c-primary); }
@@ -755,6 +756,14 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 .vel-vragen { list-style: none; padding: 0; margin: 0; }
 .vel-vragen li { margin: 0 0 .8rem; }
 .vel-vragen .vel-vakje { display: inline; font-size: 1.1em; margin-right: .2rem; }
+/* Logboek (logboek.astro) en "Wie er al helpen" (mijn-kind.astro): dezelfde tabel als het dagboek, andere kolommen. */
+.vel-logboek th:nth-child(1) { width: 12%; }
+.vel-logboek th:nth-child(2) { width: 20%; }
+.vel-logboek th:nth-child(5) { width: 12%; }
+.vel-logboek td { height: 5rem; }
+.vel-helpers th:nth-child(1) { width: 25%; }
+.vel-helpers th:nth-child(3) { width: 30%; }
+.vel-helpers td { height: 2.6rem; }
 
 /* ---------- Afdrukken (Mijn overzicht, en elke andere pagina) ---------- */
 /* Knop op het scherm: rechts boven het eerste blok, in de witruimte erboven (neemt zelf geen ruimte in, duwt het blok niet omlaag). */
@@ -852,10 +861,16 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
   a[data-website]::after { content: ": " attr(data-adres); }
   .chip[data-website] { gap: 0; }
   .woord { text-decoration: none; }
-  /* Vel gespreksvoorbereiding: alleen wat op papier hoort; rijen en vragen niet over twee pagina's. */
+  /* Vellen (gesprek, logboek, beschikking, mijn kind): alleen wat op papier hoort; rijen en vragen niet over twee pagina's. */
   .alleen-scherm { display: none !important; }
   .vel-blok, .vel-veld, .vel-vragen li, .vel-dagboek tr { break-inside: avoid; page-break-inside: avoid; }
   .vel-dagboek td { height: 3.4rem; }
+  .vel-logboek td { height: 4rem; }
+  .vel-helpers td { height: 2.2rem; }
+  /* "Dit is mijn kind" past op voor- en achterkant van één vel: iets lagere schrijfregels. */
+  .vel-compact .vel-lijn { height: 1.5rem; }
+  .vel-compact .vel-blok h2 { margin: .5rem 0 .1rem; }
+  .vel-compact .vel-blok > .meta { margin: 0; }
   .vel-dagboek th { background: none; }
   /* Bronnen in de tijdlijn ("Hoe gaat het"): gewone kleine tekst op de regel, zonder kader. */
   .tijdlijn sup { vertical-align: baseline; font-size: .8rem; }
@@ -868,3 +883,10 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual
 }
 /* Gezag bij "Weet ik niet": de waarschijnlijke uitkomst, ook als het blok ingeklapt is (VerdiepingGescheiden.astro). */
 .verdieping .vd-uitkomst { margin: .5rem 0 0; font-size: .92rem; }
+
+/* Woonplaatsen onder de kop van een gemeentepagina; bij veel kernen de rest achter een uitklapper in de regel zelf. */
+.woonplaatsen { margin: .2rem 0 .6rem; }
+.woonplaatsen-meer { display: inline; }
+.woonplaatsen-meer > summary { display: inline; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.woonplaatsen-meer > summary::-webkit-details-marker { display: none; }
+@media print { .woonplaatsen-meer > summary { display: none; } .woonplaatsen-meer { display: inline; } }

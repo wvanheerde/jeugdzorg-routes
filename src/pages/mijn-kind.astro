@@ -1,0 +1,68 @@
+---
+/**
+ * "Dit is mijn kind": een vel om af te drukken en met de hand in te vullen, voor elke nieuwe hulpverlener, leerkracht of opvang,
+ * zodat de ouder niet steeds opnieuw het hele verhaal vertelt. Hoort bij de warme overdracht ("De hulp stopt"). Geen bronnen: het vel
+ * vraagt alleen, het zegt niets over rechten of hulp. De site bewaart niets van wat de ouder invult.
+ */
+import Base from '../layouts/Base.astro';
+import AfdrukKnop from '../components/AfdrukKnop.astro';
+import AfdrukKop from '../components/AfdrukKop.astro';
+
+/** Blokken met lege regels: kop, korte hint, aantal regels. */
+const BLOKKEN: { kop: string; hint: string; regels: number }[] = [
+  { kop: 'Waar mijn kind goed in is', hint: 'En wat het graag doet. Zo leert een nieuwe hulpverlener uw kind eerst van de goede kant kennen.', regels: 3 },
+  { kop: 'Wat lastig is', hint: 'Thuis, op school of met anderen. Wat ziet u, en hoe vaak?', regels: 3 },
+  { kop: 'Wat helpt', hint: 'Bijvoorbeeld vooraf vertellen wat er gaat gebeuren, een vaste plek, korte zinnen of even rust.', regels: 3 },
+  { kop: 'Wat niet helpt', hint: 'Of wat uw kind onrustig, boos of bang maakt.', regels: 3 },
+  { kop: 'Zo praat u het best met mijn kind', hint: 'Bijvoorbeeld: eerst kennismaken, naast uw kind gaan zitten, niet te veel vragen tegelijk.', regels: 2 },
+  { kop: 'Als het misgaat', hint: 'Wat helpt dan, en wie belt u?', regels: 2 },
+  { kop: 'Wat er al bekend is', hint: 'Een diagnose, een onderzoek, medicijnen of allergieën. Alleen als u dat wilt delen.', regels: 2 },
+  { kop: 'Wat we al geprobeerd hebben', hint: 'Eerdere hulp of afspraken op school. Wat werkte, en wat niet?', regels: 2 },
+];
+const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
+---
+<Base title="Dit is mijn kind" description="Een vel om af te drukken voor een nieuwe hulpverlener, leerkracht of opvang: wat helpt, wat niet, en wat uw kind zelf wil zeggen.">
+  <div class="page-head">
+    <span class="eyebrow">Om af te drukken</span>
+    <h1>Dit is mijn kind</h1>
+    <AfdrukKop />
+    <p class="lead">Een vel voor elke nieuwe hulpverlener, leerkracht of opvang. Dan hoeft u niet steeds opnieuw het hele verhaal te vertellen. Vul het samen met uw kind in als dat kan. U beslist zelf wat u invult en aan wie u het geeft.</p>
+    <p class="meta alleen-scherm">Geen printer? Bewaar het vel als PDF en druk het af bij de bibliotheek. Of vraag de school of de hulpverlener om het voor u af te drukken.</p>
+  </div>
+  <AfdrukKnop />
+
+  <section class="section vel vel-compact" id="over">
+    <h2>Over mijn kind</h2>
+    <div class="vel-velden">
+      {['Naam', 'Leeftijd', 'Woont bij (bij twee huizen: wanneer waar)', 'School of opvang', 'Ouder of verzorger, met telefoon', 'Ingevuld op'].map((v) => (
+        <div class="vel-veld"><span class="vel-label">{v}</span><div class="vel-waarde"><span class="vel-lijn" aria-hidden="true"></span></div></div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section vel vel-compact" id="mijn-kind">
+    {BLOKKEN.map((b) => (
+      <div class="vel-blok">
+        <h2>{b.kop}</h2>
+        <p class="meta">{b.hint}</p>
+        {rij(b.regels).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}
+      </div>
+    ))}
+  </section>
+
+  <section class="section vel vel-compact" id="wie-helpen">
+    <h2>Wie er al helpen</h2>
+    <div class="tabel-scroll">
+      <table class="vel-dagboek vel-helpers">
+        <thead><tr><th scope="col">Naam</th><th scope="col">Organisatie, en wat doet hij of zij?</th><th scope="col">Telefoon of e-mail</th></tr></thead>
+        <tbody>{rij(4).map(() => <tr><td></td><td></td><td></td></tr>)}</tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section vel vel-compact" id="zelf">
+    <h2>Wat mijn kind zelf wil zeggen</h2>
+    <p class="meta">Laat uw kind dit zelf schrijven of tekenen, of schrijf op wat het zegt.</p>
+    {rij(3).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}
+  </section>
+</Base>

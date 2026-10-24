@@ -4,8 +4,12 @@ import '@fontsource-variable/inter';
 import '@fontsource-variable/source-serif-4';
 import '../styles/global.css';
 import { site } from '../site';
-interface Props { title: string; description?: string; /** Niet in zoekmachines (bv. persoonlijke pagina's). */ noindex?: boolean; }
-const { title, description = 'Overzicht van jeugdzorgroutes, rechten en steun voor ouders in Nederland, per gemeente.', noindex = false } = Astro.props;
+interface Props {
+  title: string; description?: string; /** Niet in zoekmachines (bv. persoonlijke pagina's). */ noindex?: boolean;
+  /** Extra gestructureerde gegevens (schema.org) voor zoekmachines, zoals een kruimelpad op een gemeentepagina. */
+  gegevens?: Record<string, unknown>[];
+}
+const { title, description = 'Overzicht van jeugdzorgroutes, rechten en steun voor ouders in Nederland, per gemeente.', noindex = false, gegevens = [] } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const path = Astro.url.pathname;
 /** Zoekmachines tonen ongeveer 155 tekens: eerste alinea, afgekapt op een woordgrens. */
@@ -19,22 +23,23 @@ const beschrijving = kort(description);
 const canonical = Astro.site ? new URL(path, Astro.site).href : undefined;
 const volledigeTitel = `${title} · Jeugdzorg Routes`;
 const isHome = path === `${base}/`;
-const jsonLd = isHome && Astro.site ? JSON.stringify({
-  '@context': 'https://schema.org',
+const website = isHome && Astro.site ? {
   '@type': 'WebSite',
   name: 'Jeugdzorg Routes',
   url: new URL(`${base}/`, Astro.site).href,
   inLanguage: 'nl-NL',
   description: beschrijving,
-}) : undefined;
+} : undefined;
+const ld = [website, ...gegevens].filter(Boolean);
+const jsonLd = ld.length ? JSON.stringify(ld.length === 1 ? { '@context': 'https://schema.org', ...ld[0] } : { '@context': 'https://schema.org', '@graph': ld }) : undefined;
 const nav = [
   { href: `${base}/situaties/`, label: 'Situaties' },
   { href: `${base}/gemeenten/`, label: 'Gemeenten' },
   { href: `${base}/landelijk/`, label: 'Landelijk' },
   { href: `${base}/organisaties/`, label: 'Organisaties' },
   { href: `${base}/therapievormen/`, label: 'Therapievormen' },
-  // De brieven, het gespreksvel en de moeilijke woorden zijn onderdeel van de hulpmiddelen: daar wijst het menu dan ook "Hulpmiddelen" aan.
-  { href: `${base}/hulpmiddelen/`, label: 'Hulpmiddelen', ook: [`${base}/brieven/`, `${base}/gesprek/`, `${base}/begrippen/`] },
+  // De brieven, de vellen om af te drukken en de moeilijke woorden zijn onderdeel van de hulpmiddelen: daar wijst het menu dan ook "Hulpmiddelen" aan.
+  { href: `${base}/hulpmiddelen/`, label: 'Hulpmiddelen', ook: [`${base}/brieven/`, `${base}/gesprek/`, `${base}/logboek/`, `${base}/beschikking/`, `${base}/mijn-kind/`, `${base}/begrippen/`] },
 ];
 // "Over deze site" staat alleen in de voettekst.
 ---

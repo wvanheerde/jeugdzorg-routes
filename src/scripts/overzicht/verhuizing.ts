@@ -3,6 +3,7 @@
  * eerder bezoek; bij een wijziging gaan ze in de URL, zodat het overzicht te bewaren en te delen is.
  */
 import { laadNieuweGemeente } from '../../lib/gemeente-blokken';
+import { toonNaam } from '../../lib/woonplaatsen';
 import { dagenTot, leesDatum } from '../../lib/termijnen';
 import { koppelDatumvelden } from '../../lib/datumveld';
 import { koppelSuggesties } from '../../lib/suggesties';
@@ -28,9 +29,11 @@ export const verhuizing = (opnieuw: () => void) => {
   const vhSuggesties = naarVeld ? koppelSuggesties(naarVeld, () => plaatsLabels) : null;
   let woonplaatsen: Promise<void> | null = null;
   const laadWoonplaatsen = () => (woonplaatsen ??= fetch(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/woonplaatsen.json`).then((r) => r.json()).then((paren: [string, string][]) => {
+    // De naam zonder toevoegingen uit de registratie ("Spijk Gem Zevenaar" wordt "Spijk"), zie lib/woonplaatsen.ts.
+    paren = paren.filter(([, slug]) => namen.g[slug]).map(([plaats, slug]) => [toonNaam(plaats, namen.g[slug]), slug]);
     const per = new Map<string, Set<string>>();
     paren.forEach(([plaats, slug]) => per.set(plaats.toLowerCase(), (per.get(plaats.toLowerCase()) ?? new Set()).add(slug)));
-    const opties = paren.filter(([, slug]) => namen.g[slug]).map(([plaats, slug]) => {
+    const opties = paren.map(([plaats, slug]) => {
       const label = `${plaats} (gemeente ${namen.g[slug]})`;
       plaatsen.set(label.toLowerCase(), slug);
       if (per.get(plaats.toLowerCase())!.size === 1 && !plaatsen.has(plaats.toLowerCase())) plaatsen.set(plaats.toLowerCase(), slug);

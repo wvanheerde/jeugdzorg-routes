@@ -39,6 +39,11 @@ Subagents doen het werk (`gemeente-onderzoeker`, `gemeente-redacteur`); de hoofd
 - `node scripts/validate-content.mjs` en `npm run build` (bouwt naar `dist/`; naar een andere schijf faalt het).
 - Overzicht voor de gebruiker: per gemeente de transparantie-uitkomsten en het CBS-aandeel, wat is bijgestuurd, wat open staat.
 - Punten die pas na een datum of gebeurtenis na te kijken zijn: in `docs/onderzoek/later-nakijken.md` zetten.
+- **Landelijk beeld bijwerken** (onderdeel "Hoe gaat het met de jeugdhulp in Nederland?" op `/landelijk/`, `src/content/landelijk/08-landelijk-beeld.md`). Het beeld is opgebouwd uit alle gemeentepagina's; na elke ronde die gemeenten bijwerkt, moet het opnieuw:
+  1. `python3 scripts/landelijk-beeld.py` voor de tellingen uit de gegevens (openheid, huisarts, toegang, steun en geld); uitkomst in `docs/onderzoek/landelijk-beeld-cijfers.md`.
+  2. De indeling van de signalen (`docs/onderzoek/landelijk-beeld/indeling.json`: wachten, geen plek, geld, strengere toegang, nieuwe toegang of inkoop, cliëntervaring) opnieuw laten maken voor de bijgewerkte gemeenten, met dezelfde regels (`docs/onderzoek/landelijk-beeld/regels.md`); agents schrijven een eigen bestand, de hoofdagent voegt samen in `indeling.json`. Steekproef controleren. Op de site afgeronde getallen ("ongeveer 3 op de 10"), exacte tellingen alleen in het verslag.
+  3. De getallen en de datum in het onderdeel aanpassen; zijn de verhoudingen merkbaar verschoven, dan ook de tekst. De landelijke bronnen (`docs/onderzoek/landelijk-beeld-bronnen-*.md`: CBS, Hervormingsagenda, inspectie) nakijken op nieuwere cijfers.
+  4. Meld de gebruiker wat er in het beeld veranderd is.
 - Niet committen: dat doet de gebruiker zelf.
 
 ## Geldregelingen-ronde (veld `geldregelingen`, regelingencheck)

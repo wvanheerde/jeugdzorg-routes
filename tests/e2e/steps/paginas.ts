@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { woonplaatsenVoor } from '../../../src/lib/woonplaatsen';
 /**
  * Stappen voor pagina's en onderdelen: koppen, secties, menu, moeilijke woorden, gemeentekeuze, zoeken, brieven.
  * Koppen kunnen zachte afbreekstreepjes bevatten (lib/afbreken.ts); die worden bij het vergelijken weggelaten.
@@ -125,11 +127,11 @@ Then('staat bij elke website het adres', async ({ page }) => {
 });
 
 // ---------- gespreksvoorbereiding (gesprek/) ----------
-When('ik naar de pagina {string} ga', async ({ page }, pad: string) => {
-  await page.goto(pad.replace(/^\//, ''));
-});
 Then('heeft het dagboek {int} dagen om in te vullen', async ({ page }, n: number) => {
   await expect(page.locator('[data-dagboek] tbody tr').locator('visible=true')).toHaveCount(n);
+});
+Then('heeft het logboek {int} regels om in te vullen', async ({ page }, n: number) => {
+  await expect(page.locator('[data-logboek] tbody tr').locator('visible=true')).toHaveCount(n);
 });
 // De contacten komen uit de gemeenteblokken (zoals in Mijn overzicht): wijkteam en cliëntondersteuner.
 const contactenOpVel = (page: Page) => page.locator('[data-vel-contacten] .stap-contact').locator('visible=true');
@@ -316,9 +318,6 @@ Then('staat op het klembord geen {string}', async ({ page }, tekst: string) => {
 });
 
 // ---------- tekst op een plek ----------
-Then('staat in {string} de tekst {string} te lezen', async ({ page }, selector: string, tekst: string) => {
-  await expect.poll(async () => schoon((await page.locator(selector).locator('visible=true').first().textContent()) ?? '')).toContain(tekst);
-});
 
 // ---------- inklapbare onderdelen ----------
 When('ik het onderdeel {string} open', async ({ page }, tekst: string) => {
@@ -346,6 +345,25 @@ Then('bevat {string} de tekst {string}', async ({ page, baseURL }, bestand: stri
 });
 Then('bevat {string} niet de tekst {string}', async ({ page, baseURL }, bestand: string, stuk: string) => {
   expect(await haal(page, baseURL, bestand)).not.toContain(stuk);
+});
+Then('begint de beschrijving voor zoekmachines met {string}', async ({ page }, begin: string) => {
+  expect(await page.locator('meta[name="description"]').getAttribute('content')).toMatch(new RegExp(`^${begin.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
+});
+/** Het kruimelpad uit de gestructureerde gegevens (schema.org BreadcrumbList), met " › " tussen de namen. */
+Then('is het kruimelpad voor zoekmachines {string}', async ({ page }, pad: string) => {
+  const blokken = await page.locator('script[type="application/ld+json"]').allTextContents();
+  const lijst = blokken.map((b) => JSON.parse(b)).flatMap((j) => (Array.isArray(j['@graph']) ? j['@graph'] : [j])).find((j) => j['@type'] === 'BreadcrumbList');
+  expect((lijst?.itemListElement ?? []).map((i: { name: string }) => i.name).join(' › ')).toBe(pad);
+});
+/** Alle woonplaatsen van de gemeente (public/woonplaatsen.json) staan in het kopblok, ook die achter de uitklapper. */
+Then('staan de woonplaatsen van de gemeente onder de kop', async ({ page }) => {
+  const slug = new URL(page.url()).pathname.split('/').filter(Boolean).at(-1)!;
+  const paren: [string, string][] = JSON.parse(readFileSync(new URL('../../../public/woonplaatsen.json', import.meta.url), 'utf8'));
+  const gemeente = (await page.locator('h1').textContent())!.replace(/^Jeugdzorg in /, '').trim();
+  const namen = woonplaatsenVoor(paren, slug, gemeente);
+  expect(namen.length).toBeGreaterThan(0);
+  const tekst = (await page.locator('.page-head [data-woonplaatsen]').textContent()) ?? '';
+  for (const n of namen) expect(tekst, n).toContain(n);
 });
 Then('mag de pagina niet in zoekmachines', async ({ page }) => {
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);

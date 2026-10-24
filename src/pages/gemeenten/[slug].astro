@@ -7,6 +7,8 @@ import SpoedNummers from '../../components/SpoedNummers.astro';
 import Sources from '../../components/Sources.astro';
 import Icon from '../../components/Icon.astro';
 import register from '../../../scripts/data/gemeenten-register.json';
+import woonplaatsLijst from '../../../public/woonplaatsen.json';
+import { woonplaatsenVoor } from '../../lib/woonplaatsen';
 import { getCollection } from 'astro:content';
 import { contacten, routeLabel, datum } from '../../lib/routes';
 import { GELD_SOORTEN, GEEN_REGELING, ZORGKOSTEN_OUDER } from '../../lib/regelingen';
@@ -47,13 +49,34 @@ const signalen = (d.ervaringen?.signalen ?? []).slice().sort((a, b) => b.datum.l
 // Vaste contactkaart bovenaan: het toegangsteam (persona-tests: ouders vonden het nummer niet op een lange pagina).
 const wijkteam = d.toegang.routes.find((r) => r.type === 'wijkteam');
 const toegangContact = wijkteam ? contacten(wijkteam.contact)[0] : undefined;
+// Zoekmachines (zoekmachines.feature): ouders zoeken op "jeugdzorg <gemeente>" of "jeugdzorg <woonplaats>".
+const woonplaatsen = woonplaatsenVoor(woonplaatsLijst as [string, string][], g.id, d.naam);
+/** Zoveel woonplaatsen staan direct in beeld; de rest achter een uitklapper (Súdwest-Fryslân heeft er 89). Tot twaalf staan ze er
+ *  allemaal, zodat er achter de uitklapper nooit maar één of twee staan. */
+const WOONPLAATSEN_IN_BEELD = 10;
+const WOONPLAATSEN_ZONDER_UITKLAPPER = 12;
+const opsomming = (namen: string[]) => (namen.length > 1 ? `${namen.slice(0, -1).join(', ')} en ${namen.at(-1)}` : namen[0] ?? '');
+const zoekBeschrijving = `Jeugdzorg in ${d.naam}: u meldt zich bij ${(wijkteam?.naam ?? 'het wijkteam').replace(/\s*\(.*?\)/g, '')}. Wie u gratis helpt, welke hulp er is en wat u kunt doen.`;
+const site = Astro.site ? new URL(`${base}/`, Astro.site).href : undefined;
+const gegevens = site ? [
+  { '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Jeugdzorg Routes', item: site },
+    { '@type': 'ListItem', position: 2, name: 'Gemeenten', item: new URL('gemeenten/', site).href },
+    { '@type': 'ListItem', position: 3, name: d.naam, item: new URL(`gemeenten/${g.id}/`, site).href },
+  ] },
+  { '@type': 'WebPage', name: `Jeugdzorg in ${d.naam}`, inLanguage: 'nl-NL', dateModified: d.meta.laatstGecontroleerd,
+    about: { '@type': 'AdministrativeArea', name: `Gemeente ${d.naam}`, containedInPlace: { '@type': 'AdministrativeArea', name: d.provincie }, ...(woonplaatsen.length ? { containsPlace: woonplaatsen.map((w) => ({ '@type': 'Place', name: w })) } : {}) } },
+] : [];
 const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
   !!toegangContact && (c.naam === toegangContact.naam || (!!c.telefoon && c.telefoon.replace(/\D/g, '') === toegangContact.telefoon?.replace(/\D/g, '')));
 ---
-<Base title={`Jeugdhulp in ${d.naam}`} description={d.toegang.samenvatting}>
+<Base title={`Jeugdzorg in ${d.naam}: hulp vragen en waar u terechtkunt`} description={zoekBeschrijving} gegevens={gegevens}>
   <div class="page-head">
     <span class="eyebrow">Gemeente</span>
-    <h1>Jeugdhulp in {d.naam}</h1>
+    <h1>Jeugdzorg in {d.naam}</h1>
+    {woonplaatsen.length > 0 && (
+      <div class="meta woonplaatsen" data-woonplaatsen>Ook voor {woonplaatsen.length <= WOONPLAATSEN_ZONDER_UITKLAPPER ? `${opsomming(woonplaatsen)}.` : <>{woonplaatsen.slice(0, WOONPLAATSEN_IN_BEELD).join(', ')} <details class="woonplaatsen-meer"><summary>en {woonplaatsen.length - WOONPLAATSEN_IN_BEELD} andere woonplaatsen</summary>{`${woonplaatsen.slice(WOONPLAATSEN_IN_BEELD).join(', ')}.`}</details></>}</div>
+    )}
     <AfdrukKop />
     <div class="chips">
       <span class="chip">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</span>

@@ -56,6 +56,27 @@ Functionaliteit: Voorpagina en startvragen
     En zie ik "Hoe oud is het kind?" niet
     En gaat de link "Toon mijn overzicht" naar "k=zorgen-om-kind"
 
+  Scenario: Wie een klacht wil indienen, kiest dat onder "Er is al hulp, maar…" en gaat naar Mijn overzicht
+    De uitleg van het vlak noemt de klacht, maar er was geen keuze met dat woord; Mark en Sanne gokten (persona-tests ronde 28 en 29).
+    Gegeven ik open de voorpagina
+    En ik als gemeente "Utrecht" kies
+    Als ik kies "Er is al hulp, maar…"
+    En ik kies "Ik wil een klacht indienen"
+    Dan zie ik de link "Toon mijn overzicht"
+    En zie ik "Hoe oud is uw kind?" niet
+    En gaat de link "Toon mijn overzicht" naar "k=klacht"
+
+  Scenario: Met een beschikking in handen gaat de ouder naar Mijn overzicht, zonder vragen over leeftijd of situatie
+    Sanne en Fatima (persona-test 23-10) hadden een brief met "Beschikking" erboven en vonden daar geen keuze voor; ze gokten
+    op "Hulp is afgewezen of te weinig" of "De hulp stopt". Ook deze route komt op Mijn overzicht; dat linkt naar de controlelijst.
+    Gegeven ik open de voorpagina
+    En ik als gemeente "Utrecht" kies
+    Als ik kies "Er is al hulp, maar…"
+    En ik kies "Ik heb een beschikking gekregen"
+    Dan zie ik de link "Toon mijn overzicht"
+    En zie ik "Hoe oud is uw kind?" niet
+    En gaat de link "Toon mijn overzicht" naar "k=beschikking"
+
   Abstract Scenario: Bij "<vraag>" vraagt de site <wel of niet> naar de leeftijd en wat er speelt
     De leeftijd en wat er speelt veranderen het overzicht alleen bij vragen over de hulp zelf (welke hulp, welke therapie);
     bij vragen over de gang van zaken, regels of geld niet (20-10). Per vraag: startSituaties in src/content/knelpunten.
