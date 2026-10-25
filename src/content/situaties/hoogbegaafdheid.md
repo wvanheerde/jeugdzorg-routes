@@ -2,7 +2,8 @@
 titel: "Hoogbegaafdheid"
 herkenning: "Mijn kind is (vermoedelijk) hoogbegaafd en loopt vast: verveelt zich, presteert onder zijn kunnen, is ongelukkig op school of thuis."
 zoekwoorden: ["hoogbegaafd", "verveelt zich op school", "onderpresteren", "perfectionistisch", "plusklas", "versnellen"]
-samenvatting: "Hoogbegaafdheid alleen is geen reden voor jeugdhulp. Passend onderwijs is eerst de taak van school en het samenwerkingsverband. Maar loopt uw kind erdoor vast? Bijvoorbeeld door onderpresteren, thuiszitten, somberheid of gedrag? Dan is dat wél een reden om hulp te vragen. Soms speelt er meer tegelijk, zoals autisme of ADHD. Dat heet dubbel bijzonder. Ook angst of somberheid kan meespelen."
+samenvatting: "Een hoogbegaafd kind kan vastlopen: het verveelt zich, presteert onder zijn kunnen of is ongelukkig op school of thuis. Soms speelt er meer tegelijk, zoals autisme of ADHD (dubbel bijzonder), of angst of somberheid."
+inleiding: "Hoogbegaafdheid alleen is geen reden voor jeugdhulp; passend onderwijs is eerst de taak van school en het samenwerkingsverband. Loopt uw kind erdoor vast, bijvoorbeeld door onderpresteren, thuiszitten, somberheid of gedrag, dan is dat wél een reden om hulp te vragen."
 themas: [hoogbegaafdheid, onderwijs, onderpresteren, thuiszitters, zelfbeeld, dubbel bijzonder]
 hulpsoorten: [opvoedondersteuning, behandeling-jeugd-ggz, ambulante-begeleiding]
 routes:
@@ -31,6 +32,7 @@ therapievormen:
     - id: act-jongeren
     - id: mindfulness-kinderen
   toelichting: "Geen richtlijn. Volgorde naar de situatie: uitleg voor kind en omgeving, dan hulp bij onderpresteren (plannen, beginnen), dan sociaal en emotioneel; ACT en mindfulness bij faalangst of perfectionisme."
+groep: ontwikkeling
 volgorde: 18
 laatstGecontroleerd: "2026-10-12"
 bronnen:

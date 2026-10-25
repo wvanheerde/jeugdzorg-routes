@@ -194,7 +194,7 @@ Functionaliteit: Voorpagina en startvragen
     Dan staat de knop "ADHD en ADD" onder "Vaak bij deze leeftijd"
     En staat de knop "ADHD en ADD" één keer op de pagina
     En staat de knop "Eetstoornis" onder "Andere situaties"
-    En zie ik 20 situaties om te kiezen
+    En zie ik 27 situaties om te kiezen
 
   Scenario: Een gekozen situatie blijft gekozen als de leeftijd verandert
     Gegeven ik open de voorpagina

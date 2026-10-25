@@ -253,3 +253,29 @@ Then('staat de knop {string} rechts onder het vergrootglas', async ({ page }, na
   expect(breedte - (knop.x + knop.width)).toBeLessThan(28);
   expect(breedte - (zoek.x + zoek.width)).toBeLessThan(28);
 });
+
+/** De lead onder de hoofdkop van een situatie: tel de zinnen (een punt, vraagteken of uitroepteken aan het eind van een woord). */
+Then('heeft de inleiding onder de hoofdkop hooguit {int} zinnen', async ({ page }, max: number) => {
+  const tekst = (await page.locator('.page-head .lead').innerText()).trim();
+  const zinnen = tekst.split(/(?<=[.!?])\s+/).filter(Boolean);
+  expect(zinnen.length, tekst).toBeLessThanOrEqual(max);
+});
+Then('staat onder {string} vóór de routes {string}', async ({ page }, kop: string, tekst: string) => {
+  const sectie = page.locator('section', { has: page.getByRole('heading', { name: kop }) });
+  const inleiding = sectie.locator('[data-route-inleiding]');
+  await expect(inleiding).toContainText(tekst);
+  const voorRoute = await inleiding.evaluate((el) => {
+    const route = el.parentElement!.querySelector('.route');
+    return !!route && !!(el.compareDocumentPosition(route) & Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+  expect(voorRoute).toBe(true);
+});
+
+/** Op de pagina Situaties: een groep is een section met een kop en daaronder de tegels. */
+const groep = (page: Page, kop: string) => page.locator('section', { has: page.getByRole('heading', { level: 2, name: kop, exact: true }) });
+Then('staat de tegel {string} onder de kop {string}', async ({ page }, tegel: string, kop: string) => {
+  await expect(groep(page, kop).getByRole('heading', { level: 3, name: tegel, exact: true })).toBeVisible();
+});
+Then('staat onder de kop {string} eerst de tegel {string}', async ({ page }, kop: string, tegel: string) => {
+  await expect(groep(page, kop).getByRole('heading', { level: 3 }).first()).toHaveText(tegel);
+});

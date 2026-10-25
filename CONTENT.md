@@ -125,7 +125,7 @@ Op de voorpagina (`components/Startvragen.astro`, `lib/startvragen.ts`) kiest de
 Stap 3 en 4 staan er alleen waar ze het overzicht veranderen. "Wat speelt er?" (en daarvoor de leeftijd) bij vragen over de hulp zelf: hulp aanvragen, uitbreiden, afgewezen, de hulp stopt, de hulp werkt niet, wordt 18 (`startSituaties`). Alleen de leeftijd bij een vraag met een stap die zich aan de leeftijd aanpast (`leeftijdsstappen`), zoals extra kosten of kinderbijslag: stap 1 over dubbele kinderbijslag (3 tot 18 jaar) heeft per leeftijd een eigen tekst, alleen met een bron in `bronnen`, en in de stap zelf de link naar wat u opschrijft en terugbetalen (Fatima, ronde 27; `kinderbijslag` in `src/lib/stap-props.ts`). Bij de andere vragen (wachten, vastgelopen, verhuizen, uit elkaar, pgb, zorgen om een kind van een ander) staat na de vraag meteen *Toon mijn overzicht*, en toont het overzicht geen leeftijdstip, zodat een bewaarde leeftijd niets verandert.
 
 3. **Hoe oud is uw kind?** Vier vlakken; niet over te slaan. Bij "Mijn kind wordt 18" vervalt deze vraag: de leeftijd is dan 12 tot 18 (`VASTE_LEEFTIJD`).
-4. **Wat speelt er bij uw kind? Kies alles wat past.** Bovenaan, onder "Vaak bij deze leeftijd", de situaties met die leeftijd in `vaakBij`; daaronder alle andere situaties op alfabet onder "Andere situaties", zonder groepen (20-10: de vier groepen maakten de lijst niet lichter). Er verdwijnt niets; een situatie staat één keer op het scherm. Per leeftijd 3 tot 7 situaties (controle bij het bouwen).
+4. **Wat speelt er bij uw kind? Kies alles wat past.** Bovenaan, onder "Vaak bij deze leeftijd", de situaties met die leeftijd in `vaakBij`; daaronder alle andere situaties op alfabet onder "Andere situaties", zonder groepen (20-10: de vier groepen maakten de lijst niet lichter). Er verdwijnt niets; een situatie staat één keer op het scherm. Per leeftijd 3 tot 10 situaties (controle bij het bouwen; 25-10 verhoogd van 7, zodat wat vaak voorkomt ook bovenaan staat).
 
 - Eerdere antwoorden blijven staan als regel ("U koos …", "Het gaat om …", "Leeftijd …") met *wijzigen*. Op de telefoon schuift na een keuze de volgende vraag in beeld (die viel anders buiten het scherm); op de laptop blijft de pagina staan.
 - Spoed staat apart bovenaan ("Kan het niet wachten?"), zonder gemeente.
@@ -178,6 +178,15 @@ Noemt een stap een andere vraag tussen aanhalingstekens, precies met de titel (L
 - `regelingen` bevat alleen rechten, wetten, procedures en geld. Hulplijnen en organisaties horen in `src/content/organisaties/` met de juiste `themas`, zodat ze automatisch bij de situatie verschijnen.
 - Noem nooit behandelaars of praktijken; therapievormen worden generiek beschreven in `src/content/therapievormen/`.
 
+## Situaties: inleiding
+
+- De `samenvatting` onder de kop is hooguit **twee zinnen**: wat de ouder als eerste moet weten (de build faalt anders). De rest staat in `inleiding`; die staat onder "Welke route is logisch?", vóór de routes (25-10: de inleiding bovenaan was vaak lang). In Mijn overzicht staan bij een lichte start of een ingeklapte aanvraag beide achter elkaar; de kaarten "Verdieping per situatie" en de omschrijving voor zoekmachines tonen alleen de samenvatting (`situaties.feature`).
+- Een waarschuwing over veiligheid (zoals "schud nooit een baby") mag uit de samenvatting naar de inleiding, maar nooit verdwijnen.
+
+## Situaties: groepen op de pagina Situaties
+
+- Elke situatie heeft een `groep`: Ontwikkeling en leren, Gevoelens en gedrag, Lichaam en gezondheid, Gezin, Veiligheid, Online en verslaving (`src/lib/situatie-groepen.ts`). De pagina Situaties toont de groepen in die volgorde, met een kop, en daarbinnen de situaties op alfabet (25-10: de tegels stonden in de volgorde waarin ze erbij kwamen). `volgorde` blijft voor Mijn overzicht (welke situatie voorgaat). Een nieuwe situatie krijgt een groep; past er geen, overleg dan eerst over een nieuwe groep.
+
 ## Situaties: "Wat helpt vaak" en "Waar het vaak misgaat"
 
 1. Elk punt is óf een recht, óf een vraag die de ouder kan stellen, óf een verwijzing naar een richtlijn of officiële instantie. Geen eigen behandeladvies.
@@ -215,7 +224,7 @@ Noemt een stap een andere vraag tussen aanhalingstekens, precies met de titel (L
 - `leeftijd` (van/tot in jaren, tot exclusief) alleen invullen als de vorm echt leeftijdsgebonden is; het overzicht verbergt vormen buiten de gekozen leeftijdsband. Bij "Mijn kind wordt 18" is de leeftijd vanzelf 12–18 (de voorpagina vraagt hem dan niet). Hulpsoorten kennen hetzelfde veld (nu alleen dyslexiezorg: 7–13).
 - Medicatie wordt niet als therapievorm beschreven; alleen hoe het gesprek erover hoort te gaan.
 - Verdieping (optioneel, alleen op de eigen pagina, niet op de kaarten): `sessie` (wat er in de kamer gebeurt), `programmas` (varianten of programma's, geen aanbieders), `vraagt` (wat het van kind en gezin vraagt, ook tussen de sessies), `voortgang` (wanneer u verschil merkt, en wat als dat uitblijft), `effect` (wat onderzoek laat zien: om hoeveel kinderen het ging, hoe snel, hoe blijvend, en wat nog weinig onderzocht is) en `vragen` (voor de behandelaar). Alleen wat een richtlijn, het NJi, een beroepsvereniging of gepubliceerd onderzoek zegt, met de bron in `bronnen`. Cijfers altijd met de groep erbij ("bij 103 kinderen van 8 tot 18 jaar"). Voorbeeld: `emdr.json`.
-  - Kort: `verwachting`, `vraagt`, `voortgang` en `effect` elk twee tot drie zinnen; `sessie` hooguit vijf; `programmas` hooguit drie; `vragen` hooguit vijf. Niets herhalen dat al in een ander veld staat.
+  - Kort: `verwachting`, `vraagt`, `voortgang` en `effect` elk twee tot drie zinnen; `sessie` hooguit vijf; `programmas` hooguit vijf (verhoogd van drie, 25-10); `vragen` hooguit vijf. Niets herhalen dat al in een ander veld staat.
   - Vaktermen en namen van andere behandelingen in een paar woorden uitleggen ("schrijftherapie, waarbij het kind opschrijft wat er gebeurde"). Alleen naar een andere therapievorm op de site verwijzen als het echt dezelfde behandeling is.
   - Geen detailcijfers die een ouder niet helpen kiezen (effectgroottes, behandeltijd in minuten). Wel: hoeveel kinderen vooruitgaan, na hoeveel sessies, hoe blijvend, en voor wie het minder onderzocht is.
 

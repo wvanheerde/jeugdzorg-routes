@@ -270,7 +270,7 @@ const namen: Namen = {
                 .filter((sit) => sit.data.lichteStart || sit.data.aanvraagIngeklapt || sit.data.stappen)
                 .map((sit) => (
                   <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>
-                    {sit.data.samenvatting}
+                    {sit.data.inleiding ? `${sit.data.samenvatting} ${sit.data.inleiding}` : sit.data.samenvatting}
                   </p>
                 ))}
             {k.id === 'wachten' && (
@@ -542,7 +542,8 @@ const namen: Namen = {
             <p class="meta vs-leeftijd">
               <strong>Bij deze leeftijd:</strong>{' '}
               <span data-tip-school>
-                informeer ook school. De intern begeleider ziet uw kind elke dag en kan het wijkteam of de jeugdarts helpen met wat hij of zij ziet.{' '}
+                informeer ook school. De leerkracht ziet uw kind elke dag; via de intern begeleider kan school het wijkteam of de jeugdarts vertellen wat zij
+                zien.{' '}
               </span>
               Let op leeftijdsgrenzen van regelingen, zoals vergoed dyslexieonderzoek tot 13 jaar.
             </p>

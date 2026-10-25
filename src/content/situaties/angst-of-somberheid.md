@@ -2,7 +2,8 @@
 titel: Angst of somberheid
 herkenning: "Mijn kind is bang, piekert veel, trekt zich terug, lijkt somber, of durft buitenshuis niet te praten (selectief mutisme)."
 zoekwoorden: ["bang", "angstig", "paniekaanvallen", "piekeren", "faalangst", "somber", "depressief", "verdrietig", "teruggetrokken", "zwijgt op school"]
-samenvatting: "Angst en depressie bij kinderen en jongeren zijn goed te behandelen, vooral met cognitieve gedragstherapie. Bij jongeren is het belangrijk dat hulp snel start. Denkt uw kind aan zelfdoding of beschadigt het zichzelf? Zoek dan direct hulp."
+samenvatting: "Bij angst of somberheid is uw kind bang, piekert het veel, trekt het zich terug of lijkt het somber. Angst en depressie bij kinderen en jongeren zijn goed te behandelen."
+inleiding: "Vooral cognitieve gedragstherapie wordt aanbevolen. Bij jongeren is het belangrijk dat hulp snel start. Denkt uw kind aan zelfdoding of beschadigt het zichzelf? Zoek dan direct hulp."
 themas: [angst, somberheid, depressie, ggz, zelfbeeld, onderwijs, selectief mutisme]
 hulpsoorten: [behandeling-jeugd-ggz, opvoedondersteuning, ambulante-begeleiding, crisishulp]
 routes:
@@ -42,9 +43,13 @@ therapievormen:
       url: https://kenniscentrum-kjp.nl/professionals/depressie/
       geraadpleegd: "2026-10-14"
 vaakBij: ["4-12", "12-18", "18-99"]
+groep: gevoelens
 volgorde: 12
 laatstGecontroleerd: "2026-10-12"
 bronnen:
+  - titel: "Kenniscentrum KJP – Bipolaire stoornis bij kinderen en adolescenten"
+    url: https://kenniscentrum-kjp.nl/professionals/bipolaire-stoornis/
+    geraadpleegd: "2026-10-25"
   - titel: NJi – Angst
     url: https://www.nji.nl/angst
     geraadpleegd: "2026-10-10"
@@ -69,3 +74,4 @@ bronnen:
 
 - **"Het is een fase."** Duurt de somberheid langer dan een paar weken en heeft uw kind er last van in het dagelijks leven? Dan is dat een reden om hulp te zoeken.
 - **Uw kind wil zelf geen hulp.** Vanaf 16 jaar beslist uw kind grotendeels zelf. Blijf met uw kind in gesprek. Zoek ook zelf steun, bijvoorbeeld bij MIND of het wijkteam.
+- **Periodes van somberheid en periodes van opvallend druk zijn.** Wisselt somberheid af met een week of langer waarin uw kind veel minder slaap nodig heeft, heel veel praat of overmoedig is? Vertel dat aan de huisarts of behandelaar. Het kan bij een bipolaire stoornis horen. Die is bij kinderen heel zeldzaam en komt bij jongeren vaker voor; vaak gaat er een periode van somberheid aan vooraf. <sup><a class="bron" href="https://kenniscentrum-kjp.nl/professionals/bipolaire-stoornis/" target="_blank" rel="noopener">bron</a></sup>

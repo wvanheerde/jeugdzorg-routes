@@ -5,8 +5,15 @@ import HulpsoortKaart from '../../components/HulpsoortKaart.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
 import { base } from '../../site';
+import { SITUATIE_GROEPEN } from '../../lib/situatie-groepen';
 const situaties = await gesorteerd('situaties');
 const hulpsoorten = await gesorteerd('hulpsoorten');
+/** Per groep (vaste volgorde) de situaties op alfabet. */
+const opNaam = new Intl.Collator('nl', { sensitivity: 'base' });
+const groepen = SITUATIE_GROEPEN.map((g) => ({
+  ...g,
+  situaties: situaties.filter((s) => s.data.groep === g.id).sort((a, b) => opNaam.compare(a.data.titel, b.data.titel)),
+}));
 ---
 
 <Base
@@ -21,15 +28,20 @@ const hulpsoorten = await gesorteerd('hulpsoorten');
       Meerdere situaties tegelijk komt vaak voor; kijk gerust bij allebei.
     </p>
   </div>
-  <div class="grid">
-    {situaties.map((s) => (
-      <a class="card link" href={`${base}/situaties/${s.id}/`}>
-        <h3>{afbreken(s.data.titel)}</h3>
-        <p class="meta">{s.data.herkenning}</p>
-        <span class="arrow">Bekijk →</span>
-      </a>
-    ))}
-  </div>
+  {groepen.map((g) => (
+    <section class="situatie-groep" aria-labelledby={`groep-${g.id}`}>
+      <h2 id={`groep-${g.id}`}>{g.titel}</h2>
+      <div class="grid">
+        {g.situaties.map((s) => (
+          <a class="card link" href={`${base}/situaties/${s.id}/`}>
+            <h3>{afbreken(s.data.titel)}</h3>
+            <p class="meta">{s.data.herkenning}</p>
+            <span class="arrow">Bekijk →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
 
   <div class="kicker">
     <h2 id="hulpsoorten">Welke soorten jeugdhulp bestaan er?</h2>

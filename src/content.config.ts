@@ -12,6 +12,7 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 import { BAND_IDS, type BandId } from './lib/leeftijden';
+import { GROEP_IDS } from './lib/situatie-groepen';
 
 /* ---------- Herbruikbare bouwstenen ---------- */
 
@@ -378,7 +379,12 @@ const situaties = defineCollection({
     zoekwoorden: z.array(z.string()).default([]),
     /** Vervoegingen ("slaat", "gamet") die de zoekfunctie anders niet vindt: alleen in de zoekindex, niet zichtbaar ("slaan, slaat" las vreemd). */
     zoekvormen: z.array(z.string()).default([]),
-    samenvatting: z.string(),
+    /** Korte inleiding onder de kop: hooguit twee zinnen (25-10; controle bij het bouwen). De rest staat in `inleiding`. */
+    samenvatting: z.string().refine((s) => s.trim().split(/(?<=[.!?])\s+/).length <= 2, {
+      message: 'De samenvatting van een situatie is hooguit twee zinnen; zet de rest in `inleiding` (staat onder "Welke route is logisch?").',
+    }),
+    /** Vervolg van de samenvatting: staat onder "Welke route is logisch?", vóór de routes. In Mijn overzicht na de samenvatting. */
+    inleiding: z.string().optional(),
     /** Thema-tags; koppelen aan organisaties.themas en gemeenten.lokaleInitiatieven.themas. */
     themas: z.array(z.string()).min(1),
     /** Id's uit de collectie hulpsoorten, in volgorde van relevantie. */
@@ -432,9 +438,11 @@ const situaties = defineCollection({
     /**
      * Voorpagina (startvragen, src/lib/startvragen.ts): bij welke leeftijden de situatie bovenaan staat onder "Vaak bij deze
      * leeftijd"; de rest staat op alfabet onder "Andere situaties". Dat is een volgorde om sneller te vinden, geen grens: de
-     * situatie staat er bij elke leeftijd. Per leeftijd 3 tot 7 situaties (controle bij het bouwen).
+     * situatie staat er bij elke leeftijd. Per leeftijd 3 tot 10 situaties (controle bij het bouwen).
      */
     vaakBij: z.array(z.enum(BAND_IDS)).default([]),
+    /** Groep op de pagina Situaties (src/lib/situatie-groepen.ts). */
+    groep: z.enum(GROEP_IDS),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

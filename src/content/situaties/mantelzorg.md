@@ -2,14 +2,13 @@
 titel: Mantelzorg in het gezin
 herkenning: "Iemand in ons gezin zorgt structureel voor een ander: een kind voor een broer, zus of ouder, of wij als ouders raken overbelast door de zorg."
 zoekwoorden: ["jonge mantelzorger", "overbelast", "zorgen voor broer of zus", "zieke ouder", "uitgeput", "respijtzorg", "logeeropvang"]
-samenvatting: "Mantelzorg in een gezin komt in vele vormen. Er zijn brusjes: kinderen met een broer of zus met een beperking of ziekte. Er zijn kinderen die zorgen voor een ouder met een lichamelijke of psychische ziekte of een verslaving. En er zijn ouders die zelf overbelast raken. Gemeenten moeten mantelzorgers ondersteunen, ook jonge mantelzorgers. Ze bieden dat zelden uit zichzelf aan. U moet er dus om vragen."
+samenvatting: "Mantelzorg in een gezin komt in vele vormen: brusjes met een broer of zus met een beperking of ziekte, en kinderen die zorgen voor een ouder met een lichamelijke of psychische ziekte of een verslaving. Ook ouders kunnen zelf overbelast raken door de zorg."
+inleiding: "Gemeenten moeten mantelzorgers ondersteunen, ook jonge mantelzorgers. Ze bieden dat zelden uit zichzelf aan, dus u moet er om vragen."
 themas: [mantelzorg, jonge mantelzorger, brusjes, gezin, beperking, langdurig ziek, ggz, verslaving, respijtzorg, kopp]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, logeren-respijt]
 routes:
   - type: wijkteam
     waarom: "Of bij het steunpunt mantelzorg van uw gemeente. Bij beide kunt u terecht voor brusjesgroepen, activiteiten voor jonge mantelzorgers, respijtzorg en een mantelzorgwaardering. Vraag er zelf naar. Vraag ook of het hele gezin in het plan komt."
-  - type: school
-    waarom: "Vertel het aan de leerkracht of mentor. Jonge mantelzorgers halen soms lagere cijfers, of juist heel goede. Ze zijn vaak moe of afwezig. School kan rekening houden met de situatie thuis en uw kind ruimte geven."
 landelijk: [03-rechten, 05-financieel]
 regelingen:
   - naam: "Steun voor mantelzorgers via de gemeente"
@@ -31,6 +30,7 @@ therapievormen:
     - titel: "Richtlijn KOPP/KOV: kernaanbevelingen"
       url: https://richtlijnenjeugdhulp.nl/koppkov/kernaanbevelingen
       geraadpleegd: "2026-10-14"
+groep: gezin
 volgorde: 17
 laatstGecontroleerd: "2026-10-12"
 bronnen:
@@ -59,6 +59,7 @@ bronnen:
 - **Het benoemen.** Veel kinderen en ouders weten niet dat hun situatie een naam heeft. En dat anderen het ook meemaken. Alleen dat weten helpt al.
 - **Eigen tijd en aandacht** voor de kinderen die geen zorg nodig hebben. Respijtzorg voor het kind dat veel zorg nodig heeft, maakt dat mogelijk. Vraag het aan als onderdeel van de hulp aan het gezin.
 - **Eigen hulp als het nodig is.** Krijgt een jonge mantelzorger zelf klachten, zoals angst, somberheid, buikpijn of slaapproblemen? Dan is dat een reden om hulp te vragen voor dat kind zelf. Zie ook [Angst of somberheid](../angst-of-somberheid/).
+- **Vertel het op school.** Vertel het aan de leerkracht of mentor. Jonge mantelzorgers halen soms lagere cijfers, of juist heel goede, en zijn vaak moe of afwezig. School kan rekening houden met de situatie thuis en uw kind ruimte geven.
 
 ## Waar het vaak misgaat
 

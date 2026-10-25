@@ -1,9 +1,15 @@
 ---
 titel: Uw rechten als ouder
-samenvatting: Cliëntondersteuning, pgb, uw dossier inzien, bezwaar, een vertrouwenspersoon en wie toestemming geeft voor hulp. Dit is in heel Nederland hetzelfde geregeld, in elke gemeente.
+samenvatting: Cliëntondersteuning, pgb, uw dossier inzien, bezwaar, een vertrouwenspersoon, samen beslissen, een tolk en wie toestemming geeft voor hulp. Dit is in heel Nederland hetzelfde geregeld, in elke gemeente.
 volgorde: 3
-laatstGecontroleerd: "2026-10-21"
+laatstGecontroleerd: "2026-10-25"
 bronnen:
+  - titel: NJi – Hoe wordt besloten welke hulp mijn kind krijgt? (richtlijn Samen beslissen over hulp)
+    url: https://www.nji.nl/kennis/beslissen-over-hulp/hoe-wordt-besloten-welke-hulp-mijn-kind-krijgt
+    geraadpleegd: "2026-10-25"
+  - titel: Pharos – Richtlijn Omgaan met taalbarrières in de zorg en het sociaal domein
+    url: https://www.pharos.nl/kennisbank/richtlijn-omgaan-met-taalbarrieres-in-zorg-en-sociaal-domein/
+    geraadpleegd: "2026-10-25"
   - titel: Jeugdstem – Rechten in de jeugdhulp
     url: https://jeugdstem.nl/
     geraadpleegd: "2026-10-10"
@@ -69,6 +75,14 @@ Bent u niet tevreden over hoe het wijkteam of een zorgaanbieder werkt of met u o
 ## Vertrouwenspersoon
 
 Heeft u met jeugdhulp te maken? Dan kunt u gratis terecht bij een onafhankelijke **vertrouwenspersoon van Jeugdstem**. Jeugdstem heette vroeger AKJ. Dit recht staat in de wet.
+
+## Samen beslissen over de hulp
+
+Welke hulp uw kind krijgt, beslist de hulpverlener niet alleen: u en uw kind beslissen mee. De richtlijn Samen beslissen over hulp beschrijft de stappen: wat is uw vraag, is er meer onderzoek nodig, wat wilt u bereiken, en welke hulp past daarbij. Bij elke stap hoort u en uw kind betrokken te zijn. Het is normaal als u niet meteen op alle vragen een antwoord heeft; dan zijn er meer gesprekken. <sup><a class="bron" href="https://www.nji.nl/kennis/beslissen-over-hulp/hoe-wordt-besloten-welke-hulp-mijn-kind-krijgt" target="_blank" rel="noopener">bron</a></sup>
+
+## Een tolk
+
+Spreekt u niet goed Nederlands? Vraag dan om een tolk. Volgens de richtlijn Omgaan met taalbarrières zetten hulpverleners bij ingewikkelde gesprekken een tolk in. Familie of vrienden mogen alleen tolken als zij dat willen en beide talen goed spreken, en een kind hoort nooit te tolken. Wie de tolk betaalt, verschilt. <sup><a class="bron" href="https://www.pharos.nl/kennisbank/richtlijn-omgaan-met-taalbarrieres-in-zorg-en-sociaal-domein/" target="_blank" rel="noopener">bron</a></sup>
 
 ## Wie geeft toestemming voor hulp? (gezag)
 

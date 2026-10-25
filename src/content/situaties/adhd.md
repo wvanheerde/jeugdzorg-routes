@@ -2,7 +2,8 @@
 titel: "ADHD en ADD"
 herkenning: "Mijn kind is druk, snel afgeleid of impulsief, of juist dromerig, traag op gang en vergeetachtig."
 zoekwoorden: ["druk", "beweeglijk", "onrustig", "kan niet stilzitten", "snel afgeleid", "concentratie", "impulsief", "dromerig", "vergeetachtig", "chaotisch"]
-samenvatting: "ADD is geen aparte diagnose meer sinds het handboek dat artsen gebruiken (de DSM-5). Het heet nu ADHD van het onoplettende type. Uw kind heeft dus dezelfde rechten en kan dezelfde routes volgen. ADD wordt vaak later herkend, omdat het kind stil is en minder opvalt in de klas. ADHD is goed te begeleiden, maar de volgorde is belangrijk. Richtlijnen adviseren eerst begeleiding van ouders en leerkrachten, en pas daarna medicatie. U heeft recht op onderzoek, begeleiding en ondersteuning op school."
+samenvatting: "Bij ADHD is een kind druk, snel afgeleid of impulsief. Bij de onoplettende vorm (vroeger ADD) is het juist dromerig en traag op gang; die wordt vaak later herkend, omdat het kind stil is en minder opvalt in de klas."
+inleiding: "ADHD is goed te begeleiden, maar de volgorde is belangrijk. Richtlijnen adviseren eerst begeleiding van ouders en leerkrachten, en pas daarna medicatie. ADD is geen aparte diagnose meer sinds het handboek dat artsen gebruiken (de DSM-5); uw kind heeft dus dezelfde rechten en kan dezelfde routes volgen. U heeft recht op onderzoek, begeleiding en ondersteuning op school."
 themas: [adhd, add, ontwikkelingsproblemen, onderwijs, gedragsproblemen, gezin]
 hulpsoorten: [behandeling-jeugd-ggz, opvoedondersteuning, ambulante-begeleiding]
 routes:
@@ -35,6 +36,7 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/uploads/2025-04/Richtlijn-ADHD.pdf
       geraadpleegd: "2026-10-14"
 vaakBij: ["4-12"]
+groep: ontwikkeling
 volgorde: 10
 laatstGecontroleerd: "2026-10-12"
 bronnen:

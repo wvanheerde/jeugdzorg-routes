@@ -3,7 +3,8 @@ titel: Gedragsproblemen
 herkenning: "Mijn kind heeft driftbuien, is opstandig of agressief, en wij komen er thuis niet meer uit."
 zoekwoorden: ["slaan", "schoppen", "bijten", "spugen", "vechten", "driftbuien", "woedeaanvallen", "agressief", "opstandig", "luistert niet", "brutaal", "liegen", "stelen"]
 zoekvormen: ["slaat", "sloeg", "schopt", "bijt", "spuugt", "vecht", "liegt", "steelt", "scheldt"]
-samenvatting: "Ernstige of langdurige gedragsproblemen zijn een van de meest voorkomende redenen voor jeugdhulp. Er zijn aanpakken die bewezen effectief zijn. Het belangrijkste is dat ouders zelf ook begeleiding krijgen, niet alleen het kind."
+samenvatting: "Bij ernstige gedragsproblemen is uw kind al enkele maanden dwars, opstandig, driftig of agressief, en heeft het kind of de omgeving daar last van. Het is een van de meest voorkomende redenen voor jeugdhulp."
+inleiding: "Er zijn aanpakken die bewezen effectief zijn. Het belangrijkste is dat ouders zelf ook begeleiding krijgen, niet alleen het kind."
 themas: [gedragsproblemen, opvoeden, gezin, agressie, onderwijs]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, behandeling-jeugd-ggz, dagbesteding]
 routes:
@@ -22,19 +23,20 @@ therapievormen:
     - id: oudertraining
     - id: systeemtherapie
     - id: mst-mdft
-    - id: cognitieve-gedragstherapie
+    - id: training-boosheid-agressie
   ook:
     - id: intensieve-gezinsbehandeling
     - id: probleemgedrag-verstandelijke-beperking
     - id: video-interactiebegeleiding
   bijkomend:
     - id: psychomotorische-therapie
-  toelichting: "Tot 12 jaar een ouderinterventie gericht op opvoedvaardigheden; bij 8-12 jaar zo nodig CGT erbij. Vanaf 12 jaar gezinstherapie of een multisysteeminterventie, met CGT."
+  toelichting: "Tot 12 jaar een ouderinterventie gericht op opvoedvaardigheden; bij 8-12 jaar zo nodig CGT voor het kind erbij (training bij boosheid en agressie). Vanaf 12 jaar gezinstherapie of een multisysteeminterventie, met CGT."
   bronnen:
     - titel: "Richtlijn Ernstige gedragsproblemen: kernaanbevelingen"
       url: https://richtlijnenjeugdhulp.nl/ernstige-gedragsproblemen/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 vaakBij: ["0-4", "4-12", "12-18"]
+groep: gevoelens
 volgorde: 11
 laatstGecontroleerd: "2026-10-12"
 bronnen:

@@ -2,7 +2,8 @@
 titel: School loopt vast of kind zit thuis
 herkenning: Mijn kind gaat niet of nauwelijks meer naar school, of het gaat op school steeds slechter.
 zoekwoorden: ["thuiszitter", "wil niet naar school", "schoolweigeren", "verzuim", "leerplicht", "geschorst", "passend onderwijs", "OPP"]
-samenvatting: "Zit uw kind thuis of dreigt het uit te vallen? Dan gaat het om onderwijs én jeugdhulp. School en samenwerkingsverband moeten zorgen voor onderwijs dat past. De gemeente moet zorgen voor hulp bij de oorzaak. U kent uw kind het best, school kent het onderwijs. Samen zoekt u wat past."
+samenvatting: "Zit uw kind thuis of dreigt het uit te vallen? Dan gaat het om onderwijs én jeugdhulp."
+inleiding: "School en samenwerkingsverband moeten zorgen voor onderwijs dat past. De gemeente moet zorgen voor hulp bij de oorzaak. U kent uw kind het best, school kent het onderwijs. Samen zoekt u wat past."
 themas: [onderwijs, passend onderwijs, thuiszitters, leerproblemen, school, kinderrechten, bezwaar]
 hulpsoorten: [behandeling-jeugd-ggz, ambulante-begeleiding, dagbesteding, dyslexiezorg, opvoedondersteuning]
 routes:
@@ -31,6 +32,7 @@ stappen:
   - "Speelt er thuis of bij uw kind meer, zoals angst, somberheid of problemen in het gezin? Vraag dan ook jeugdhulp aan, bij het wijkteam of via de huisarts. Hoe dat gaat, leest u hieronder."
   - "Vraag na elk gesprek om de afspraken op papier. Houd zelf een logboek bij van afspraken en gebeurtenissen. Dat helpt bij elke volgende stap."
 vaakBij: ["4-12", "12-18"]
+groep: ontwikkeling
 volgorde: 3
 laatstGecontroleerd: "2026-10-17"
 bronnen:

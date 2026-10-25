@@ -2,7 +2,8 @@
 titel: Onveiligheid thuis
 herkenning: "Ik maak me zorgen over de veiligheid van een kind: geweld, verwaarlozing, of ik red het zelf niet meer."
 zoekwoorden: ["huiselijk geweld", "mishandeling", "kindermishandeling", "verwaarlozing", "misbruik", "geweld thuis", "onveilig"]
-samenvatting: "Bij onveiligheid thuis gaat het eerst om de veiligheid van het kind. Hulp vragen is bijna altijd beter dan afwachten. Dat geldt ook als u zelf de ouder bent die het niet meer redt. Zelf om hulp vragen werkt in uw voordeel."
+samenvatting: "Onveilig thuis kan gaan om geweld, verwaarlozing, of een ouder die het niet meer redt. Dan gaat het eerst om de veiligheid van het kind."
+inleiding: "Hulp vragen is bijna altijd beter dan afwachten, ook als u zelf de ouder bent die het niet meer redt. Zelf om hulp vragen werkt in uw voordeel."
 themas: [veiligheid, huiselijk geweld, kindermishandeling, gezin, crisis, hechting, pleegzorg, trauma, kinderrechten]
 hulpsoorten: [crisishulp, ambulante-begeleiding, opvoedondersteuning, verblijf-pleegzorg, jeugdbescherming]
 routes:
@@ -42,9 +43,13 @@ therapievormen:
       url: https://richtlijnenjeugdhulp.nl/problematische-gehechtheid/kernaanbevelingen
       geraadpleegd: "2026-10-14"
 aanvraagIngeklapt: true
+groep: veiligheid
 volgorde: 15
 laatstGecontroleerd: "2026-10-17"
 bronnen:
+  - titel: "Rijksoverheid – Meisjesbesnijdenis tegengaan"
+    url: https://www.rijksoverheid.nl/onderwerpen/kindermishandeling/meisjesbesnijdenis-tegengaan
+    geraadpleegd: "2026-10-25"
   - titel: NJi – Kindermishandeling
     url: https://www.nji.nl/kindermishandeling
     geraadpleegd: "2026-10-10"
@@ -58,6 +63,7 @@ bronnen:
 - **Advies vragen voordat het uit de hand loopt.** Veilig Thuis geeft ook advies aan ouders over hun eigen situatie.
 - **Intensieve hulp thuis**, zoals Families First of snelle hulp aan huis. Deze hulp is bedoeld om ervoor te zorgen dat een kind thuis kan blijven wonen. Volgens onderzoek woont bij Families First de meerderheid van de kinderen na afloop nog thuis. Een garantie is dat niet. De veiligheid van het kind gaat altijd voor. <sup><a class="bron" href="https://www.nji.nl/kennis/uithuisplaatsing/wat-kan-ik-doen-om-uithuisplaatsing-te-voorkomen" target="_blank" rel="noopener">bron</a></sup>
 - **Een eigen plan met de mensen om u heen.** Zo'n familiegroepsplan weegt zwaar, ook bij de kinderrechter.
+- **Druk van familie om uw dochter te laten besnijden?** Meisjesbesnijdenis is in Nederland strafbaar, ook als het in het buitenland gebeurt. Bij de jeugdarts of de GGD kunt u een Verklaring tegen meisjesbesnijdenis krijgen, om aan familie te laten zien. Veilig Thuis geeft advies, ook anoniem. <sup><a class="bron" href="https://www.rijksoverheid.nl/onderwerpen/kindermishandeling/meisjesbesnijdenis-tegengaan" target="_blank" rel="noopener">bron</a></sup>
 
 ## Hechtingsproblemen
 

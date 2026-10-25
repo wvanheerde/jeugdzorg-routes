@@ -2,7 +2,8 @@
 titel: Langdurig of ernstig ziek
 herkenning: "Mijn kind is langdurig of ernstig ziek, of heeft een lichamelijke beperking."
 zoekwoorden: ["chronisch ziek", "ernstig ziek", "kanker", "diabetes", "epilepsie", "lichamelijke beperking", "rolstoel", "ziekenhuis", "revalidatie"]
-samenvatting: "Medische zorg loopt via het ziekenhuis en de zorgverzekeraar. De gemeente zorgt voor begeleiding, verzorging thuis, logeren en steun aan het hele gezin. Daarnaast zijn er regelingen voor geld en stichtingen die het gezin wat lucht geven."
+samenvatting: "Een langdurige of ernstige ziekte of lichamelijke beperking raakt het hele gezin: uw kind, u als ouder, en broers en zussen."
+inleiding: "Medische zorg loopt via het ziekenhuis en de zorgverzekeraar. De gemeente zorgt voor begeleiding, verzorging thuis, logeren en steun aan het hele gezin. Daarnaast zijn er regelingen voor geld en stichtingen die het gezin wat lucht geven."
 themas: [langdurig ziek, ernstig ziek, chronische ziekte, beperking, gezin, verlichting, mantelzorg, brusjes]
 hulpsoorten: [persoonlijke-verzorging, ambulante-begeleiding, logeren-respijt, dagbesteding, opvoedondersteuning]
 routes:
@@ -30,9 +31,16 @@ therapievormen:
     - id: speltherapie-beeldend
   toelichting: "Geen richtlijn. ACT voor jongeren die leren leven met ziekte of pijn; groepen voor broers en zussen; daarna gezinsgerichte en speltherapie."
 vaakBij: ["18-99"]
+groep: lichaam
 volgorde: 2
 laatstGecontroleerd: "2026-10-12"
 bronnen:
+  - titel: "NJi – NHG-Standaard Buikpijn bij kinderen"
+    url: https://www.nji.nl/databanken/richtlijnen/nhg-standaard-buikpijn-bij-kinderen
+    geraadpleegd: "2026-10-25"
+  - titel: "Zorgstandaard Somatisch onvoldoende verklaarde lichamelijke klachten (SOLK)"
+    url: https://www.ggzstandaarden.nl/zorgstandaarden/somatisch-onvoldoende-verklaarde-lichamelijke-klachten-solk
+    geraadpleegd: "2026-10-25"
   - titel: Kind en Ziekenhuis
     url: https://kindenziekenhuis.nl/
     geraadpleegd: "2026-10-10"
@@ -52,6 +60,10 @@ Zorg voor een ziek kind valt onder drie wetten tegelijk. Dat is verwarrend. Daar
 | Blijvende, intensieve zorg met 24 uur toezicht | Wlz, via het CIZ |
 
 Een **onafhankelijke cliëntondersteuner** mag u bij alle drie helpen. Bij de Wlz staat dat zelfs met zoveel woorden in de regels.
+
+## Klachten zonder duidelijke oorzaak
+
+Houdt uw kind al weken buikpijn, hoofdpijn of moeheid, en vindt de arts geen ziekte die het verklaart? Dat komt veel voor; bij kinderen gaat het vaak om buikpijn. De klachten zijn echt, ook zonder gevonden oorzaak. De aanpak is erop gericht dat uw kind zo veel mogelijk gewoon naar school blijft gaan en blijft meedoen. Blijven de klachten en het dagelijks leven loopt vast, dan kan de huisarts verwijzen naar een kinderarts of de jeugd-GGZ. <sup><a class="bron" href="https://www.nji.nl/databanken/richtlijnen/nhg-standaard-buikpijn-bij-kinderen" target="_blank" rel="noopener">bron</a></sup>
 
 ## Vergeet de rest van het gezin niet
 

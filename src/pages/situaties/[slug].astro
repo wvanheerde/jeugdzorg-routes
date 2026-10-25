@@ -134,6 +134,11 @@ const brieven = (await gesorteerd('brieven')).filter((b) => b.data.situaties.inc
           </span>
           Welke route is logisch?
         </h2>
+        {d.inleiding && (
+          <p class="route-inleiding" data-route-inleiding>
+            {d.inleiding}
+          </p>
+        )}
         {d.routes.map((r, i) => (
           <div class={`route ${r.type}`}>
             {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>

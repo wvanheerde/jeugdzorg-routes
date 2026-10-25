@@ -2,7 +2,8 @@
 titel: "Dyslexie en dyscalculie"
 herkenning: "Mijn kind blijft achter met lezen, spellen of rekenen ondanks extra oefenen, en raakt daardoor gefrustreerd of onzeker."
 zoekwoorden: ["dyslexie", "dyscalculie", "moeite met lezen", "moeite met spellen", "moeite met rekenen", "leerachterstand", "leerproblemen"]
-samenvatting: "Dyslexie en dyscalculie zijn leerstoornissen. Ze hebben niets te maken met slim zijn of je best doen. School moet als eerste extra hulp geven. Bij ernstige dyslexie betaalt de gemeente onderzoek en behandeling voor kinderen van 7 tot 13 jaar. Dan moet school wel een leerlingdossier aanleveren. Voor dyscalculie bestaat zo'n vergoeding niet. Daar loopt alles via school."
+samenvatting: "Bij dyslexie of dyscalculie blijft uw kind achter met lezen, spellen of rekenen, ook met extra oefenen. Dat heeft niets te maken met slim zijn of je best doen."
+inleiding: "School moet als eerste extra hulp geven. Bij ernstige dyslexie betaalt de gemeente onderzoek en behandeling voor kinderen van 7 tot 13 jaar. Dan moet school wel een leerlingdossier aanleveren. Voor dyscalculie bestaat zo'n vergoeding niet. Daar loopt alles via school."
 themas: [dyslexie, dyscalculie, leerproblemen, onderwijs, zelfbeeld, add]
 hulpsoorten: [dyslexiezorg, opvoedondersteuning]
 routes:
@@ -23,6 +24,7 @@ regelingen:
   - naam: "Dyscalculie: geen vergoede zorg, wel rechten op school"
     toelichting: "De gemeente betaalt geen onderzoek naar dyscalculie. Soms betaalt school of het samenwerkingsverband het. Met een dyscalculieverklaring heeft uw kind recht op hulpmiddelen en extra tijd bij toetsen en examens."
 vaakBij: ["4-12"]
+groep: ontwikkeling
 volgorde: 23
 laatstGecontroleerd: "2026-10-12"
 bronnen:

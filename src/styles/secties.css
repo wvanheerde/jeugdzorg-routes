@@ -64,3 +64,6 @@
   .toc-wrap[data-meer-links][data-meer-rechts] > .toc { -webkit-mask-image: linear-gradient(to right, transparent 3%, #000 25%, #000 75%, transparent 97%); mask-image: linear-gradient(to right, transparent 3%, #000 25%, #000 75%, transparent 97%); }
   .toc-wrap[data-meer-rechts] > .toc-pijl.rechts, .toc-wrap[data-meer-links] > .toc-pijl.links { display: grid; place-items: center; }
 }
+.route-inleiding { margin: 0 0 1rem; max-width: 46rem; }
+.situatie-groep { margin-top: 2rem; }
+.situatie-groep h2 { font-size: 1.25rem; margin: 0 0 .75rem; }

@@ -3,7 +3,8 @@ titel: Slaapproblemen
 herkenning: "Mijn kind slaapt slecht: komt moeilijk in slaap, wordt 's nachts vaak wakker, wil niet alleen slapen of ligt 's avonds lang wakker."
 zoekwoorden: ["slaapt slecht", "inslapen", "doorslapen", "nachtmerries", "'s nachts wakker", "wil niet alleen slapen", "bedtijd"]
 zoekvormen: ["slaapt", "wordt wakker"]
-samenvatting: "Slecht slapen is zwaar, voor uw kind en voor u. Er zijn goede aanpakken voor, per leeftijd. Meestal is daar geen jeugdhulp voor nodig. Het consultatiebureau of de jeugdarts helpt met uitleg, een slaapdagboek en een aanpak die bij uw kind en uw gezin past. Snurkt uw kind veel of valt het overdag ongewild in slaap? Laat dan eerst een arts kijken."
+samenvatting: "Slecht slapen is zwaar, voor uw kind en voor u: moeilijk in slaap komen, 's nachts vaak wakker worden of niet alleen willen slapen. Er zijn goede aanpakken voor, per leeftijd."
+inleiding: "Meestal is daar geen jeugdhulp voor nodig. Het consultatiebureau of de jeugdarts helpt met uitleg, een slaapdagboek en een aanpak die bij uw kind en uw gezin past. Snurkt uw kind veel of valt het overdag ongewild in slaap? Laat dan eerst een arts kijken."
 themas: [slaap, slaapproblemen, opvoeden, gezin, ontwikkelingsproblemen]
 hulpsoorten: [opvoedondersteuning, behandeling-jeugd-ggz]
 routes:
@@ -43,6 +44,7 @@ therapievormen:
       url: https://www.nswo.nl/wp-content/uploads/Expert_opinion_melatonine_06052023.pdf
       geraadpleegd: "2026-10-16"
 vaakBij: ["0-4"]
+groep: lichaam
 volgorde: 5
 laatstGecontroleerd: "2026-10-16"
 bronnen:

@@ -1,19 +1,19 @@
 {
-  "naam": "Medicatie als aanvulling",
+  "naam": "Medicatie naast andere hulp",
   "soort": "medicatie",
-  "kort": "Geen therapievorm, maar een keuze die bij sommige situaties naast therapie aan de orde kan komen.",
-  "watIsHet": "Bij ADHD, ernstige angst of dwang, tics en depressie bij jongeren kan een kinderarts of kinderpsychiater medicatie voorstellen. Dit overzicht beschrijft geen middelen; het beschrijft wat u mag verwachten van het gesprek daarover.",
-  "hoeWerktHet": "Medicatie vermindert klachten maar leert geen vaardigheden; daarom staat het in richtlijnen naast gedragsmatige behandeling en oudertraining. Bij angst en dwang komt het pas in beeld als therapie onvoldoende helpt; bij matige of ernstige ADHD kan het volgens de richtlijn ook direct na uitleg en adviezen, als ouders dat willen. De zorgstandaarden schrijven gezamenlijke besluitvorming voor: uitleg over effect, bijwerkingen, duur en alternatieven, en een proefperiode met evaluatie.",
-  "voorWie": "Alleen op indicatie van een arts. Bij angst en dwang meestal als therapie onvoldoende helpt; bij matige of ernstige ADHD eventueel al direct na uitleg en adviezen.",
+  "kort": "Geen therapievorm, maar een keuze die bij sommige situaties naast therapie en andere hulp aan de orde kan komen.",
+  "watIsHet": "Bij ADHD, ernstige angst of dwang, tics, depressie bij jongeren en een psychose kan een kinderarts of kinderpsychiater medicatie voorstellen. Dit overzicht beschrijft geen middelen; het beschrijft wat u mag verwachten van het gesprek daarover.",
+  "hoeWerktHet": "Medicatie vermindert klachten maar leert geen vaardigheden; daarom staat het in richtlijnen naast gedragsmatige behandeling en oudertraining. Bij angst en dwang komt het pas in beeld als therapie onvoldoende helpt; bij matige of ernstige ADHD kan het volgens de richtlijn ook direct na uitleg en adviezen, als ouders dat willen. Bij een psychotische stoornis hoort een antipsychoticum volgens het Kenniscentrum Kinder- en Jeugdpsychiatrie juist bij de eerste behandeling, samen met uitleg, gesprekken en het gezin; bij stemmen horen zonder psychotische stoornis niet. De zorgstandaarden schrijven gezamenlijke besluitvorming voor: uitleg over effect, bijwerkingen, duur en alternatieven, en een proefperiode met evaluatie.",
+  "voorWie": "Alleen op indicatie van een arts. Bij angst en dwang meestal als therapie onvoldoende helpt; bij matige of ernstige ADHD eventueel al direct na uitleg en adviezen; bij een psychotische stoornis vanaf het begin, naast de andere behandeling.",
   "verwachting": "Instelperiode van enkele weken met controles; daarna periodieke evaluatie en afspraken over stoppen of afbouwen.",
   "onderbouwing": {
     "label": "richtlijn",
-    "toelichting": "De zorgstandaard ADHD en de richtlijnen voor angst en depressie beschrijven wanneer medicatie wordt overwogen en dat de beslissing samen met ouders en kind wordt genomen."
+    "toelichting": "De zorgstandaard ADHD, de richtlijnen voor angst en depressie en de praktijkstandaard psychose van het Kenniscentrum Kinder- en Jeugdpsychiatrie beschrijven wanneer medicatie wordt overwogen en dat de beslissing samen met ouders en kind wordt genomen."
   },
   "vergoeding": "Zorgverzekering (geneesmiddelen) in combinatie met behandeling via de Jeugdwet. Ook als een kinderarts bijvoorbeeld ADHD behandelt, valt de behandeling onder de Jeugdwet; alleen de geneesmiddelen lopen via de zorgverzekering.",
   "aanvragen": "U vraagt geen medicatie aan; u kunt wel vragen om een gesprek met een arts over de afweging, en om uitleg waarom medicatie wel of niet wordt voorgesteld. Het Kenniscentrum Kinder- en Jeugdpsychiatrie heeft daar ouderinformatie over ('Begrijp je medicijn').",
   "overwegingen": [
-    "Vraag altijd welke niet-medicamenteuze stappen eerst zijn geprobeerd.",
+    "Vraag welke andere stappen eerst zijn geprobeerd, of (bij een psychose) welke andere behandeling er tegelijk begint.",
     "U mag een second opinion vragen."
   ],
   "sessie": "In het eerste gesprek legt de arts uit wat medicatie wel en niet kan doen: wat u mag verwachten, hoe lang het duurt voordat u iets merkt, welke bijwerkingen er kunnen komen, hoe lang uw kind het gebruikt en wat er gebeurt bij stoppen. Bij ADHD-medicatie meet de arts vooraf de bloeddruk, hartslag, lengte en het gewicht, zodat veranderingen later te zien zijn. In het begin, en na elke aanpassing van de dosis, is er vaker contact met de arts. Bij elke controle bespreekt u hoe het gaat met de klachten, thuis en op school, met slapen en eten, en of er bijwerkingen zijn; vaak vullen u en de leerkracht daarvoor een vragenlijst in. Gaat het goed met ADHD-medicatie, dan komt uw kind ongeveer elke 6 maanden op controle.",
@@ -30,7 +30,8 @@
   "situaties": [
     "adhd",
     "angst-of-somberheid",
-    "dwang-en-tics"
+    "dwang-en-tics",
+    "psychose"
   ],
   "hulpsoorten": [
     "behandeling-jeugd-ggz"
@@ -119,9 +120,14 @@
       "titel": "Zorginstituut Nederland – Kindergeneeskunde: afbakening Jeugdwet en Zorgverzekeringswet (2015)",
       "url": "https://www.zorginstituutnederland.nl/documenten/2015/04/13/kindergeneeskunde-afbakening-jeugdwet-en-zorgverzekeringwet",
       "geraadpleegd": "2026-10-15"
+    },
+    {
+      "titel": "Kenniscentrum KJP – Psychotische stoornissen, behandeling en medicatie",
+      "url": "https://kenniscentrum-kjp.nl/professionals/psychose/",
+      "geraadpleegd": "2026-10-25"
     }
   ],
   "meta": {
-    "laatstGecontroleerd": "2026-10-15"
+    "laatstGecontroleerd": "2026-10-25"
   }
 }

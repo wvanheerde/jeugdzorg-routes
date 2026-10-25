@@ -2,7 +2,8 @@
 titel: "Eetstoornis"
 herkenning: "Mijn kind eet steeds minder, is geobsedeerd door eten, gewicht of sporten, eet stiekem heel veel, of ik vermoed dat het braakt."
 zoekwoorden: ["anorexia", "boulimia", "eetbuien", "eet niet meer", "afvallen", "braken", "overgeven", "obsessief sporten", "gewicht"]
-samenvatting: "Een eetstoornis is een ernstige psychische ziekte die ook het lichaam schaadt. Anorexia kan levensbedreigend zijn. Snel hulp zoeken maakt het verschil. Hoe korter de eetstoornis bestaat, hoe groter de kans op herstel. Begin bij de huisarts. Eerst wordt het lichaam gecontroleerd. In de behandeling zijn ouders onmisbaar."
+samenvatting: "Een eetstoornis is een ernstige psychische ziekte die ook het lichaam schaadt; anorexia kan levensbedreigend zijn. Hoe korter de eetstoornis bestaat, hoe groter de kans op herstel."
+inleiding: "Snel hulp zoeken maakt daarom het verschil: begin bij de huisarts. Eerst wordt het lichaam gecontroleerd. In de behandeling zijn ouders onmisbaar."
 themas: [eetstoornis, anorexia, boulimia]
 hulpsoorten: [behandeling-jeugd-ggz, crisishulp, ambulante-begeleiding]
 routes:
@@ -32,9 +33,13 @@ therapievormen:
       url: https://kenniscentrum-kjp.nl/professionals/boulimia-nervosa/
       geraadpleegd: "2026-10-14"
 vaakBij: ["12-18"]
+groep: gevoelens
 volgorde: 20
 laatstGecontroleerd: "2026-10-12"
 bronnen:
+  - titel: "JGZ-richtlijn Voeding en eetgedrag"
+    url: https://www.jgzrichtlijnen.nl/richtlijn/jgz-richtlijn-voeding-en-eetgedrag/
+    geraadpleegd: "2026-10-25"
   - titel: "Zorgstandaard Eetstoornissen"
     url: https://www.ggzstandaarden.nl/zorgstandaarden/eetstoornissen
     geraadpleegd: "2026-10-10"
@@ -51,6 +56,10 @@ bronnen:
 - **Snel in actie komen.** Volgens de zorgstandaard vergroot een vroege behandeling de kans op herstel sterk. Wacht niet tot het gewicht "echt te laag" is. Het gedrag en de angst rond eten zijn al het signaal. <sup><a class="bron" href="https://www.ggzstandaarden.nl/zorgstandaarden/eetstoornissen" target="_blank" rel="noopener">bron</a></sup>
 - **Behandeling met het hele gezin.** Bij jongeren met anorexia wordt gezinsbehandeling aanbevolen. Daarin bepalen ouders tijdelijk weer wat en wanneer hun kind eet. U bent niet de oorzaak, maar wel een deel van de oplossing.
 - **Eerste hulp voor ouders.** De First EET Kit van de landelijke ketenaanpak K-EET legt uit wat u thuis wel en niet doet. WEET heeft een hulplijn voor naasten. <sup><a class="bron" href="https://www.firsteetkit.nl/" target="_blank" rel="noopener">bron</a></sup>
+
+## Jonge kinderen die slecht of kieskeurig eten
+
+Peuters zijn vaak wispelturige eters: ze willen zelf kiezen en lusten van alles opeens niet meer. Dat hoort bij de ontwikkeling. Weigert uw kind lang hele soorten eten, of groeit het minder goed, bespreek het dan met het consultatiebureau of de jeugdarts. Die kijkt naar de groei en geeft advies. <sup><a class="bron" href="https://www.jgzrichtlijnen.nl/richtlijn/jgz-richtlijn-voeding-en-eetgedrag/" target="_blank" rel="noopener">bron</a></sup>
 
 ## Waar het vaak misgaat
 

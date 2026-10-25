@@ -3,7 +3,8 @@ titel: Zindelijkheid
 herkenning: Mijn kind wordt niet zindelijk, of is het weer kwijtgeraakt.
 zoekwoorden: ["zindelijk", "plassen", "poepen", "in de broek", "bedplassen", "plast in bed", "luier", "broekpoepen", "natte broek"]
 zoekvormen: ["plast", "poept"]
-samenvatting: "Problemen met plassen of poepen komen veel voor. Ze zijn vaak goed te behandelen. Maar de hulp is verdeeld over huisarts, jeugdarts, ziekenhuis en gemeente. Laat eerst een arts kijken. Zoek daarna gericht naar gespecialiseerde begeleiding."
+samenvatting: "Problemen met plassen of poepen, zoals bedplassen of broekpoepen, komen veel voor en zijn vaak goed te behandelen."
+inleiding: "Laat eerst een arts kijken. De hulp is verdeeld over huisarts, jeugdarts, ziekenhuis en gemeente. Zoek daarna gericht naar gespecialiseerde begeleiding."
 themas: [zindelijkheid, bedplassen, ontwikkelingsproblemen, beperking, gezin, opvoeden]
 hulpsoorten: [opvoedondersteuning, ambulante-begeleiding, persoonlijke-verzorging]
 routes:
@@ -18,6 +19,7 @@ regelingen:
   - naam: "Pgb voor gespecialiseerde begeleiding"
     toelichting: "Heeft de gemeente geen afspraken met een aanbieder die deze begeleiding geeft? Dan is dat een argument voor een pgb. U sluit dan een zorgovereenkomst met de zorgverlener, en de SVB betaalt uit het budget. Hoeveel papierwerk de aanvraag is, verschilt per gemeente. Vaak vult u samen met het wijkteam een plan in. Zie de landelijke uitleg."
 vaakBij: ["0-4"]
+groep: lichaam
 volgorde: 4
 laatstGecontroleerd: "2026-10-12"
 bronnen:

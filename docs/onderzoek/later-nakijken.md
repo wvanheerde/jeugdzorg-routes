@@ -101,6 +101,13 @@ Bij een volgende ronde nakijken of er een nieuwer cijfer is (staan in `doorloopt
 - nissewaard: Beschikbaarheidswijzer heeft mogelijk geen pagina voor Nissewaard (bronnen noemen /jeugdhulp/voorne-aan-zee).
 - baarle-nassau: rapportcijfer cliëntervaringsonderzoek 7,7 (raadsbrief) of 7,9 (factsheet).
 
+## Situaties uit de richtlijnenronde (25-10-2026)
+
+- gepest: concept-Wet Vrij en Veilig Onderwijs (volgens de JGZ-richtlijn Pesten in juni 2025 nog niet aangenomen). Nakijken of de wet is aangenomen en wat er voor ouders verandert (aanspreekpunt, klachten). (https://www.jgzrichtlijnen.nl/richtlijn/jgz-richtlijn-pesten/)
+- rouw: wezenuitkering (SVB) niet opgenomen, omdat de SVB-site op 25-10 niet te lezen was. Nakijken of hij als regeling bij Rouw en verlies hoort. (https://www.svb.nl/)
+- overgewicht, eetstoornis: de JGZ-richtlijnen Overgewicht (2012) en Voeding en eetgedrag (2017) zijn in herziening. Na publicatie de pagina's nalopen. (https://www.jgzrichtlijnen.nl/)
+- overgewicht: vergoeding ketenaanpak kinderen; de NZa-beleidsregel 2025–2026 vervalt per 1-1-2027. In januari 2027 de nieuwe regel (BR/REG-27106) lezen en de tekst nakijken. (https://www.nza.nl/onderwerpen/p/preventie/gli-en-ketenaanpak-zorg-en-ondersteuning-van-kinderen)
+
 ## Geldregelingen (regelingencheck), sinds 21-10-2026
 
 - Elk jaar in januari: inkomensgrenzen en bedragen in `geldregelingen` (veranderen per 1 januari).

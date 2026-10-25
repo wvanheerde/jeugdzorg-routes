@@ -39,9 +39,9 @@ export const startNaam = (k: CollectionEntry<'knelpunten'>) =>
 /** Bij deze vraag staat de leeftijd vast; de vraag naar de leeftijd vervalt. */
 export const VASTE_LEEFTIJD: Record<string, string> = { 'wordt-18': '12-18' };
 
-/** Per leeftijd 3 tot 7 situaties bovenaan: minder heeft weinig zin, meer maakt het blok weer lang. */
+/** Per leeftijd 3 tot 10 situaties bovenaan: minder heeft weinig zin, meer maakt het blok weer lang (25-10: van 7 naar 10). */
 const VAAK_MIN = 3,
-  VAAK_MAX = 7;
+  VAAK_MAX = 10;
 
 /** Controle bij het bouwen: elk vlak met een vervolgvraag heeft vragen, en elke leeftijd een passend aantal situaties. */
 export const controleerStartvragen = (knelpunten: CollectionEntry<'knelpunten'>[], situaties: CollectionEntry<'situaties'>[], banden: string[]) => {
