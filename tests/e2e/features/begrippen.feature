@@ -43,3 +43,16 @@ Functionaliteit: Moeilijke woorden
     Als ik "zorgovereenkomst" zoek in "Zoek een woord"
     Dan zie ik "De gemeente en de SVB keuren hem goed."
 
+
+  Scenario: Het verschil tussen jeugdzorg en jeugdhulp staat in de lijst
+    De site gebruikt "jeugdzorg" in de naam en in koppen (daarop zoeken ouders) en "jeugdhulp" in de tekst. Het NJi maakt onderscheid.
+    Gegeven ik open de pagina "begrippen/"
+    Als ik "jeugdzorg" zoek in "Zoek een woord"
+    Dan zie ik "Verzamelwoord voor jeugdhulp, jeugdbescherming en jeugdreclassering."
+    Als ik "jeugdhulp" zoek in "Zoek een woord"
+    Dan zie ik "Het woord uit de Jeugdwet"
+
+  Scenario: Jeugdhulp staat alleen in de lijst, niet onderstreept in de tekst
+    Het woord staat op bijna elke pagina; overal een uitleg erbij maakt de tekst onrustig.
+    Gegeven ik open de pagina "hulpsoorten/ambulante-begeleiding/"
+    Dan is "jeugdhulp" met precies deze letters geen moeilijk woord

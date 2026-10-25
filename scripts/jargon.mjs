@@ -132,3 +132,36 @@ export function jargonCheck() {
     );
   return meldingen;
 }
+
+// "Jeugdzorg" is het geheel van jeugdhulp, jeugdbescherming en jeugdreclassering (NJi); voor ouders gaat het bijna altijd om jeugdhulp,
+// het woord uit de Jeugdwet (CONTENT.md, "Jeugdhulp of jeugdzorg"). Niet gemeld: namen, zinnen die ook over jeugdbescherming of
+// jeugdreclassering gaan, signalen en ervaringen en het landelijk beeld (cijfers en beleid: die volgen het woord van de bron) en
+// organisaties (die beschrijven zich in hun eigen woorden).
+const JEUGDZORG_NAMEN = /Bureau Jeugdzorg|Jeugdzorgplus|Bijstand in jeugdzorg|Jeugdzorg Nederland|Jeugdzorg Routes|toegangsteam jeugdzorg/gi;
+const JEUGDZORG_BREED = /jeugdbescherm|jeugdreclassering|Jeugdstem|Hervormingsagenda/i;
+const JEUGDZORG_OVERSLAAN = new Set([...OVERSLAAN, 'signalen', 'ervaringen', 'titel', 'jeugdzorgregio', 'websiteJeugd', 'contact']);
+const tekstMetVeld = (x, veld = '', uit = []) => {
+  if (Array.isArray(x)) x.forEach((v) => tekstMetVeld(v, veld, uit));
+  else if (x && typeof x === 'object')
+    for (const [k, v] of Object.entries(x)) {
+      if (!JEUGDZORG_OVERSLAAN.has(k)) tekstMetVeld(v, veld ? `${veld}.${k}` : k, uit);
+    }
+  else if (typeof x === 'string' && !/^https?:/.test(x)) uit.push([veld, x]);
+  return uit;
+};
+/** Meldt "jeugdzorg" in lopende tekst waar waarschijnlijk jeugdhulp bedoeld is. */
+export function jeugdzorgCheck() {
+  const meldingen = [];
+  for (const map of readdirSync(ROOT).filter((m) => m !== 'organisaties'))
+    for (const f of readdirSync(`${ROOT}/${map}`).filter((f) => !f.includes('landelijk-beeld'))) {
+      const pad = `${ROOT}/${map}/${f}`;
+      const ruw = readFileSync(pad, 'utf8');
+      const delen = f.endsWith('.json') ? tekstMetVeld(JSON.parse(ruw)) : mdTekst(ruw).map((t) => ['', t]);
+      for (const [veld, tekst] of delen)
+        for (const zin of tekst.replace(JEUGDZORG_NAMEN, '').split(/(?<=[.?!])\s+/)) {
+          if (!/(?<!\p{L})jeugdzorg/iu.test(zin) || JEUGDZORG_BREED.test(zin)) continue;
+          meldingen.push(`${pad}${veld ? ` (${veld})` : ''}: "jeugdzorg" in de tekst, bedoelt u jeugdhulp? "${zin.trim().slice(0, 120)}"`);
+        }
+    }
+  return meldingen;
+}

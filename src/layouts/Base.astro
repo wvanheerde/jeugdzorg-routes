@@ -277,7 +277,7 @@ const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
       import { woorden as lijst } from '../lib/woorden';
       // Leg officiële woorden één keer per pagina uit: eerste keer onderstreept, uitleg na een tik.
       const vormNaar = new Map<string, number>();
-      lijst.forEach((w, i) => w.vormen.forEach((v) => vormNaar.set(v.toLowerCase(), i)));
+      lijst.forEach((w, i) => !w.alleenInLijst && w.vormen.forEach((v) => vormNaar.set(v.toLowerCase(), i)));
       const vormen = [...vormNaar.keys()].sort((a, b) => b.length - a.length).map((v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
       const re = new RegExp(`(?<![\\p{L}\\d-])(${vormen.join('|')})(?![\\p{L}\\d-])`, 'giu');
       // Eén keer per hoofdstuk (section/article), anders per pagina: op lange pagina's staat de uitleg dan bij wat de ouder leest.

@@ -9,7 +9,20 @@ export const woorden: {
   uitleg: string;
   /** Kop op de begrippenpagina als die anders is dan de eerste vorm (bv. afkorting voluit). */ titel?: string;
   /** Alleen precies zo geschreven (KIES, niet het werkwoord kies). */ hoofdletters?: boolean;
+  /** Alleen op de begrippenpagina, niet onderstreept in de tekst (woorden die op bijna elke pagina staan, of in namen als Bureau Jeugdzorg). */ alleenInLijst?: boolean;
 }[] = [
+  {
+    vormen: ['jeugdhulp'],
+    alleenInLijst: true,
+    uitleg:
+      'Hulp bij opgroeien, opvoeden, psychische problemen of een beperking van uw kind: van een paar gesprekken tot hulp waarbij uw kind ergens anders woont. U vraagt het meestal aan bij de gemeente of via de huisarts. Het woord uit de Jeugdwet, en waar deze site vooral over gaat.',
+  },
+  {
+    vormen: ['jeugdzorg'],
+    alleenInLijst: true,
+    uitleg:
+      'Verzamelwoord voor jeugdhulp, jeugdbescherming en jeugdreclassering. Jeugdhulp vraagt u zelf aan. Over jeugdbescherming en jeugdreclassering beslist meestal de rechter.',
+  },
   {
     vormen: ['beschikking', 'beschikkingen'],
     uitleg: 'Het besluit van de gemeente over welke hulp uw kind krijgt, op papier. Tegen dit besluit kunt u bezwaar maken.',

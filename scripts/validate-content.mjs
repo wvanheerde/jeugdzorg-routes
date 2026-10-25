@@ -1,8 +1,8 @@
 // Snelle controle van de content zonder volledige build: JSON-syntax, verplichte velden,
-// datumvolgorde, dubbele CBS-codes, het verbod op 112 en 06-nummers, contactgegevens en jargon (waarschuwing). Het volledige schema wordt afgedwongen door `astro build`.
+// datumvolgorde, dubbele CBS-codes, het verbod op 112 en 06-nummers, contactgegevens, jargon en "jeugdzorg" waar jeugdhulp bedoeld is (waarschuwing). Het volledige schema wordt afgedwongen door `astro build`.
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { jargonCheck } from './jargon.mjs';
+import { jargonCheck, jeugdzorgCheck } from './jargon.mjs';
 
 const dir = 'src/content/gemeenten';
 const files = (await readdir(dir)).filter((f) => f.endsWith('.json'));
@@ -162,6 +162,8 @@ for (const f of files) {
 }
 // Jargon in alle content (ook situaties, landelijk, brieven): waarschuwing, zie scripts/jargon.mjs.
 for (const m of jargonCheck()) console.warn(`! ${m}`);
+// "Jeugdzorg" waar jeugdhulp bedoeld is: waarschuwing, zie scripts/jargon.mjs.
+for (const m of jeugdzorgCheck()) console.warn(`! ${m}`);
 // Klacht en bezwaar zijn voor verschillende dingen (CONTENT.md, besluit 24-10): niet vergelijken ("sneller dan bezwaar"), en geen
 // "geen termijn" of "zonder termijn" voor een klacht (wel: zo snel mogelijk, zie de klachttermijn). Waarschuwing in alle content.
 const KLACHT_ZINNEN =
