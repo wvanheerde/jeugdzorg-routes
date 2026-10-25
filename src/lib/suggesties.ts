@@ -23,13 +23,25 @@ export const koppelSuggesties = (invoer: HTMLInputElement, labels: () => string[
   invoer.setAttribute('aria-controls', id);
   invoer.setAttribute('aria-expanded', 'false');
 
-  let bron: string[] = [], index: { label: string; n: string; woorden: string[] }[] = [];
-  let treffers: string[] = [], actief = -1, zelf = false;
-  const sluit = () => { lijst.hidden = true; actief = -1; invoer.setAttribute('aria-expanded', 'false'); invoer.removeAttribute('aria-activedescendant'); };
-  const markeer = () => lijst.querySelectorAll('li').forEach((li, i) => {
-    li.setAttribute('aria-selected', String(i === actief));
-    if (i === actief) { invoer.setAttribute('aria-activedescendant', li.id); li.scrollIntoView({ block: 'nearest' }); }
-  });
+  let bron: string[] = [],
+    index: { label: string; n: string; woorden: string[] }[] = [];
+  let treffers: string[] = [],
+    actief = -1,
+    zelf = false;
+  const sluit = () => {
+    lijst.hidden = true;
+    actief = -1;
+    invoer.setAttribute('aria-expanded', 'false');
+    invoer.removeAttribute('aria-activedescendant');
+  };
+  const markeer = () =>
+    lijst.querySelectorAll('li').forEach((li, i) => {
+      li.setAttribute('aria-selected', String(i === actief));
+      if (i === actief) {
+        invoer.setAttribute('aria-activedescendant', li.id);
+        li.scrollIntoView({ block: 'nearest' });
+      }
+    });
   const kies = (label: string) => {
     zelf = true;
     invoer.value = label;
@@ -43,12 +55,17 @@ export const koppelSuggesties = (invoer: HTMLInputElement, labels: () => string[
     if (nu !== bron || nu.length !== index.length) {
       bron = nu;
       // Zoeken in de plaatsnaam, niet in "(gemeente …)": anders komen bij "alm" alle dorpen van Almelo mee.
-      index = nu.map((label) => { const n = norm(label.replace(/\s*\(.*\)$/, '')); return { label, n, woorden: n.split(/[\s'-]+/) }; });
+      index = nu.map((label) => {
+        const n = norm(label.replace(/\s*\(.*\)$/, ''));
+        return { label, n, woorden: n.split(/[\s'-]+/) };
+      });
     }
     const q = norm(invoer.value);
     if (!q) return sluit();
     // Eerst wat met de getypte letters begint, dan een woord dat ermee begint, dan de rest waar het in staat.
-    const begin: string[] = [], woord: string[] = [], ergens: string[] = [];
+    const begin: string[] = [],
+      woord: string[] = [],
+      ergens: string[] = [];
     for (const e of index) {
       if (e.n.startsWith(q)) begin.push(e.label);
       else if (e.woorden.some((w) => w.startsWith(q))) woord.push(e.label);
@@ -59,34 +76,51 @@ export const koppelSuggesties = (invoer: HTMLInputElement, labels: () => string[
     treffers = [...begin, ...woord, ...ergens].slice(0, MAX);
     if (!treffers.length || (treffers.length === 1 && norm(treffers[0]) === q)) return sluit();
     actief = gemarkeerd ? treffers.indexOf(gemarkeerd) : -1;
-    lijst.replaceChildren(...treffers.map((t, i) => {
-      const li = Object.assign(document.createElement('li'), { id: `${id}-${i}`, textContent: t });
-      li.setAttribute('role', 'option');
-      return li;
-    }));
+    lijst.replaceChildren(
+      ...treffers.map((t, i) => {
+        const li = Object.assign(document.createElement('li'), { id: `${id}-${i}`, textContent: t });
+        li.setAttribute('role', 'option');
+        return li;
+      }),
+    );
     if (actief >= 0) markeer();
-    const r = invoer.getBoundingClientRect(), p = (lijst.offsetParent ?? anker.parentElement!).getBoundingClientRect();
+    const r = invoer.getBoundingClientRect(),
+      p = (lijst.offsetParent ?? anker.parentElement!).getBoundingClientRect();
     Object.assign(lijst.style, { left: `${r.left - p.left}px`, top: `${r.bottom - p.top + 2}px`, width: `${r.width}px` });
     lijst.hidden = false;
     invoer.setAttribute('aria-expanded', 'true');
   };
 
-  invoer.addEventListener('input', () => { if (!zelf) toon(); });
+  invoer.addEventListener('input', () => {
+    if (!zelf) toon();
+  });
   invoer.addEventListener('blur', sluit);
   // Op de telefoon het veld naar boven halen, anders valt de lijst achter het toetsenbord. De vaste kop is ±5rem hoog.
-  if (matchMedia('(pointer: coarse)').matches) invoer.addEventListener('focus', () => setTimeout(() => {
-    const boven = invoer.getBoundingClientRect().top, kop = 5 * parseFloat(getComputedStyle(document.documentElement).fontSize);
-    if (boven > window.innerHeight * 0.35 || boven < kop) window.scrollBy({ top: boven - kop, behavior: 'smooth' });
-  }, 300));
+  if (matchMedia('(pointer: coarse)').matches)
+    invoer.addEventListener('focus', () =>
+      setTimeout(() => {
+        const boven = invoer.getBoundingClientRect().top,
+          kop = 5 * parseFloat(getComputedStyle(document.documentElement).fontSize);
+        if (boven > window.innerHeight * 0.35 || boven < kop) window.scrollBy({ top: boven - kop, behavior: 'smooth' });
+      }, 300),
+    );
   invoer.addEventListener('keydown', (e) => {
-    if (lijst.hidden) { if (e.key === 'ArrowDown' && invoer.value) toon(); return; }
+    if (lijst.hidden) {
+      if (e.key === 'ArrowDown' && invoer.value) toon();
+      return;
+    }
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
       actief = (actief + (e.key === 'ArrowDown' ? 1 : -1) + treffers.length + 1) % (treffers.length + 1);
       if (actief === treffers.length) actief = -1;
       markeer();
-    } else if (e.key === 'Enter' && actief >= 0) { e.preventDefault(); kies(treffers[actief]); }
-    else if (e.key === 'Escape') { e.preventDefault(); sluit(); }
+    } else if (e.key === 'Enter' && actief >= 0) {
+      e.preventDefault();
+      kies(treffers[actief]);
+    } else if (e.key === 'Escape') {
+      e.preventDefault();
+      sluit();
+    }
   });
   // pointerdown houdt de focus in het veld (anders sluit blur de lijst vóór de klik).
   lijst.addEventListener('pointerdown', (e) => e.preventDefault());
@@ -94,5 +128,9 @@ export const koppelSuggesties = (invoer: HTMLInputElement, labels: () => string[
     const li = (e.target as HTMLElement).closest('li');
     if (li) kies(li.textContent!);
   });
-  return { ververs: () => { if (document.activeElement === invoer) toon(); } };
+  return {
+    ververs: () => {
+      if (document.activeElement === invoer) toon();
+    },
+  };
 };

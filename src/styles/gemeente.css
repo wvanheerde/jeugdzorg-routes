@@ -1,0 +1,79 @@
+/* ---------- Gemeentepagina: direct regelen, tips, tijdlijn, transparantie, geld en regelingen, woonplaatsen ---------- */
+/* ---------- Direct regelen ---------- */
+.linklist { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); }
+.linklist li { background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: .9rem 1.1rem; }
+.linklist li > a { display: inline-flex; align-items: center; gap: .5rem; font-weight: 600; text-decoration: none; font-size: 1.02rem; }
+.linklist li > a:hover { text-decoration: underline; }
+.linklist li > a svg { width: 17px; height: 17px; flex: none; }
+.linklist li p { margin: .35rem 0 0; font-size: .93rem; color: var(--c-muted); }
+/* Blokken met "wat u nu doet": teal, de kleur van de route. Terracotta blijft voor spoed en de belknop. */
+.regelen { border-left: 4px solid var(--c-primary); }
+.prose .linklist { margin: 1rem 0; }
+.aanbod-lijst li + li { margin-top: .6rem; }
+/* ---------- Tips van ouders ---------- */
+.tips-sectie { background: #fffaf3; border-color: #f3dcc0; }
+.tip p { font-size: .95rem; }
+.tips-disclaimer { background: var(--c-surface); border: 1px dashed var(--c-border); border-radius: var(--radius-sm); padding: .6rem .9rem; margin: .5rem 0 1.25rem; }
+.inline-icon { width: 14px; height: 14px; vertical-align: -2px; }
+/* ---------- Bronverwijzing in lopende tekst ---------- */
+sup a.bron { font-size: .7rem; font-weight: 600; color: var(--c-muted); text-decoration: none; border: 1px solid var(--c-border); border-radius: 4px; padding: 0 .3rem; margin-left: .15rem; vertical-align: super; }
+sup a.bron:hover { color: var(--c-primary); border-color: var(--c-primary); }
+/* ---------- Tijdlijn (ervaringen) ---------- */
+.tijdlijn { list-style: none; padding: 0; margin: 1rem 0; border-left: 2px solid var(--c-border); }
+.tijdlijn li { position: relative; padding: 0 0 1.1rem 1.4rem; }
+.tijdlijn li::before { content: ""; position: absolute; left: -7px; top: .35rem; width: 12px; height: 12px; border-radius: 50%; background: var(--c-primary); border: 2px solid #fff; }
+.tijdlijn .tl-kop { display: flex; gap: .6rem; align-items: center; font-size: .85rem; color: var(--c-muted); margin-bottom: .2rem; }
+.tijdlijn p { margin: .25rem 0 0; font-size: .95rem; }
+/* ---------- Knelpunt: onderdelen per gemeente ---------- */
+.onderdelen { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); margin: .5rem 0 1rem; }
+.onderdeel { background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: .8rem 1rem; }
+.onderdeel .contact { margin-top: .4rem; }
+.onderdeel p.meta { margin: .3rem 0 0; }
+/* ---------- Transparantie gemeente ---------- */
+.transparantie { background: var(--c-surface-2); border: 1px solid var(--c-border); border-radius: var(--radius-sm); padding: .9rem 1.1rem; margin: .5rem 0 1rem; }
+.tp-tabel { margin: 0; font-size: .93rem; }
+.tp-tabel th { width: 13rem; font-weight: 600; color: var(--c-text); text-transform: none; letter-spacing: 0; font-size: .93rem; padding: .55rem .6rem .55rem 0; vertical-align: top; }
+.tp-tabel td { padding: .55rem .6rem; vertical-align: top; }
+.tp-tabel td:nth-child(2) { white-space: nowrap; width: 8.5rem; }
+.tp-tabel tr:last-child th, .tp-tabel tr:last-child td { border-bottom: 0; }
+.tp-status { display: inline-block; font-weight: 700; font-size: .82rem; padding: .12rem .55rem; border-radius: 999px; background: var(--c-bg); border: 1px solid var(--c-border); color: var(--c-text); }
+.tp-status.s-onbekend { color: var(--c-muted); font-weight: 500; }
+.tp-status.s-cijfer { background: var(--c-primary-soft); border-color: transparent; color: var(--c-primary-dark); }
+@media (max-width: 640px) {
+  .tp-tabel th { width: auto; display: block; padding-bottom: 0; border-bottom: 0; }
+  .tp-tabel td { display: block; padding-top: .2rem; }
+  .tp-tabel td:nth-child(2) { border-bottom: 0; }
+}
+/* Kaartje van Nederland bij "De Jeugdwet in het kort": rechts naast de tekst, op smalle schermen erboven */
+.kaart-nl { margin: 1rem auto 1.5rem; width: 220px; }
+.kaart-nl img { display: block; width: 100%; height: auto; }
+.kaart-nl figcaption { margin-top: .5rem; font-size: .85rem; color: var(--c-muted); text-align: center; line-height: 1.4; }
+@media (min-width: 820px) {
+  .kaart-nl { float: right; width: 260px; margin: 0 0 1.5rem 2.5rem; }
+}
+/* Toelichting bij therapievormen: ingeklapt, de kern staat in de samenvatting */
+details.tips-disclaimer summary { cursor: pointer; }
+details.tips-disclaimer p { margin: .5rem 0 0; }
+/* Lijst met gemeenten: filter op regelingen. */
+.geld-filter { margin-top: 1.1rem; }
+.geld-filter-kop { margin: 0 0 .4rem; font-weight: 600; }
+.geld-filter .meta { max-width: 46rem; }
+.geld-filter [data-geld-uitleg] { margin-top: .2rem; }
+.geld-filter .geld-aantal { margin: .6rem 0 0; font-weight: 600; }
+/* Gemeentepagina, Geld en regelingen: per soort een kop en een opsomming. */
+.geld-soort h3, .geld-soort h4 { margin-bottom: .35rem; }
+.geld-krap { margin-top: 1.6rem; padding-top: 1.1rem; border-top: 1px solid var(--c-border); }
+.geld-krap > h3 { margin: 0 0 .3rem; color: var(--c-text); }
+.geld-krap > p { margin: 0 0 .4rem; max-width: 46rem; }
+.geld-soort h4 { font-family: var(--font-head); font-size: 1.2rem; font-weight: 600; line-height: 1.2; margin: 1.2rem 0 .35rem; color: var(--c-primary-dark); }
+.geld-lijst { margin: 0 0 1rem; padding-left: 1.2rem; }
+.geld-lijst li { margin: 0 0 .5rem; }
+/* Woonplaatsen onder de kop van een gemeentepagina; bij veel kernen de rest achter een uitklapper in de regel zelf. */
+.woonplaatsen { margin: .2rem 0 .6rem; }
+.woonplaatsen-meer { display: inline; }
+.woonplaatsen-meer > summary { display: inline; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.woonplaatsen-meer > summary::-webkit-details-marker { display: none; }
+@media print {
+  .woonplaatsen-meer > summary { display: none; }
+  .woonplaatsen-meer { display: inline; }
+}

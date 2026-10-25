@@ -6,7 +6,12 @@
 import { alleStappen, hoofdStappen, type Knelpunt } from './stappen';
 
 /** Verhuizing: welke stap wanneer hoort. De kop ("Nu", "Vóór de verhuizing" …) komt pas als de ouder een datum invult. */
-export const VERHUIS_MOMENT: [string, 'nu' | 'voor' | 'na' | 'pleeg'][] = [['Meld de verhuizing', 'nu'], ['Vraag het huidige besluit', 'voor'], ['Neem vóór de verhuizing al contact op', 'na'], ['Woont uw kind in een pleeggezin', 'pleeg']];
+export const VERHUIS_MOMENT: [string, 'nu' | 'voor' | 'na' | 'pleeg'][] = [
+  ['Meld de verhuizing', 'nu'],
+  ['Vraag het huidige besluit', 'voor'],
+  ['Neem vóór de verhuizing al contact op', 'na'],
+  ['Woont uw kind in een pleeggezin', 'pleeg'],
+];
 export const verhuisMoment = (x: string) => VERHUIS_MOMENT.find(([begin]) => x.startsWith(begin))?.[1];
 /** "De hulp stopt": per stap de reden waar die bij hoort (verdieping "Waarom stopt de hulp?"). Stappen zonder reden gelden altijd. */
 export const HULP_STOPT_REDEN: { id: string; begin: string; label: string }[] = [
@@ -68,11 +73,17 @@ export const WACHT_OP: { begin: string; op: 'gemeente' | 'aanbieder' }[] = [
   { begin: 'Vraag de huisarts of het wijkteam naar een andere aanbieder', op: 'aanbieder' },
   { begin: 'Helpen bellen en melden niet', op: 'aanbieder' },
 ];
-export const WACHT_KEUZE = [{ id: 'gemeente', label: 'Een gesprek of besluit van de gemeente' }, { id: 'aanbieder', label: 'Een plek bij een aanbieder' }];
+export const WACHT_KEUZE = [
+  { id: 'gemeente', label: 'Een gesprek of besluit van de gemeente' },
+  { id: 'aanbieder', label: 'Een plek bij een aanbieder' },
+];
 /** Bij wachten staat in de klachtbrieven de klacht over de wachttijd al aan (veld klachten in src/content/brieven). */
 export const KLACHT_BIJ_WACHTEN: Record<string, string> = { 'klacht-aanbieder': '?klacht=wachten', 'klacht-toegangsteam': '?klacht=duurt-lang' };
 export const WACHT_ZIN = 'De gemeente moet in de regel binnen acht weken beslissen.';
-export const WACHT_LEAD = { ingebrekestelling: 'Zijn de acht weken na uw aanvraag voorbij?', daarna: 'Komt er twee weken na uw ingebrekestelling nog steeds geen besluit?' } as const;
+export const WACHT_LEAD = {
+  ingebrekestelling: 'Zijn de acht weken na uw aanvraag voorbij?',
+  daarna: 'Komt er twee weken na uw ingebrekestelling nog steeds geen besluit?',
+} as const;
 export const wachtLead = (x: string) => (Object.keys(WACHT_LEAD) as (keyof typeof WACHT_LEAD)[]).find((id) => x.startsWith(WACHT_LEAD[id]));
 export const wordt18 = (x: string) => WORDT_18.find((w) => x.startsWith(w.begin));
 /**
@@ -87,8 +98,14 @@ export const AFGEWEZEN_STAP: { begin: string; rol: 'papier' | 'pgb' }[] = [
   { begin: 'Is er wel hulp toegekend, maar past die niet', rol: 'pgb' },
 ];
 export const afgewezenRol = (x: string) => AFGEWEZEN_STAP.find((a) => x.startsWith(a.begin))?.rol;
-export const BESLUIT_KEUZE = [{ id: 'afgewezen', label: 'Geen of te weinig hulp' }, { id: 'past-niet', label: 'De hulp past niet' }];
-export const PAPIER_KEUZE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee, alleen gezegd' }];
+export const BESLUIT_KEUZE = [
+  { id: 'afgewezen', label: 'Geen of te weinig hulp' },
+  { id: 'past-niet', label: 'De hulp past niet' },
+];
+export const PAPIER_KEUZE = [
+  { id: 'ja', label: 'Ja' },
+  { id: 'nee', label: 'Nee, alleen gezegd' },
+];
 export const BEZWAAR_ZIN = 'Stuur binnen zes weken na de datum op het besluit een brief waarin u bezwaar maakt.';
 
 /**
@@ -113,7 +130,10 @@ export const GEZAG_KEUZE = [
 /** Bij "Weet ik niet": twee korte vragen en de waarschijnlijke uitkomst (persona-test Linda, ronde 27 en 28: ze moest haar eigen geval
  *  uit een lijst halen). Wie het kind erkende, zegt wie de moeder is. Zelfde regels als de stap "Weet u niet wie het gezag heeft?"
  *  in gescheiden.md (BW 1:251, 1:252, 1:253b; erkenning vanaf 2023). Het uittreksel blijft de manier om het zeker te weten. */
-export const GETROUWD_KEUZE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee' }];
+export const GETROUWD_KEUZE = [
+  { id: 'ja', label: 'Ja' },
+  { id: 'nee', label: 'Nee' },
+];
 export const ERKEND_KEUZE = [
   { id: 'ander', label: 'Vóór 2023, door de andere ouder' },
   { id: 'ik', label: 'Vóór 2023, door mij' },
@@ -123,10 +143,27 @@ export const ERKEND_KEUZE = [
 type Gezag = 'samen' | 'ik' | 'ander';
 /** De uitkomst per antwoord: welk gezag waarschijnlijk geldt (de stappen volgen dat), de samenvatting en de uitleg. */
 export const GEZAG_UITKOMST: Record<string, { gezag: Gezag; samenvatting: string; uitleg: string }> = {
-  getrouwd: { gezag: 'samen', samenvatting: 'Waarschijnlijk hebben jullie samen het gezag.', uitleg: 'U was getrouwd of geregistreerd partner, bij de geboorte of later. Dan hebben jullie samen het gezag, ook na de scheiding.' },
-  ander: { gezag: 'ik', samenvatting: 'Waarschijnlijk heeft u alleen het gezag.', uitleg: 'U was niet getrouwd en de andere ouder heeft uw kind vóór 2023 erkend. Dan heeft alleen de moeder het gezag: dat bent u. Tenzij jullie samen gezag hebben laten vastleggen.' },
-  ik: { gezag: 'ander', samenvatting: 'Waarschijnlijk heeft alleen de andere ouder het gezag.', uitleg: 'U was niet getrouwd en u heeft uw kind vóór 2023 erkend. Dan heeft alleen de moeder het gezag. Tenzij jullie samen gezag hebben laten vastleggen.' },
-  '2023': { gezag: 'samen', samenvatting: 'Waarschijnlijk hebben jullie samen het gezag.', uitleg: 'U was niet getrouwd en uw kind is in 2023 of later erkend. Dan hebben jullie samen het gezag, tenzij bij de erkenning iets anders is vastgelegd.' },
+  getrouwd: {
+    gezag: 'samen',
+    samenvatting: 'Waarschijnlijk hebben jullie samen het gezag.',
+    uitleg: 'U was getrouwd of geregistreerd partner, bij de geboorte of later. Dan hebben jullie samen het gezag, ook na de scheiding.',
+  },
+  ander: {
+    gezag: 'ik',
+    samenvatting: 'Waarschijnlijk heeft u alleen het gezag.',
+    uitleg:
+      'U was niet getrouwd en de andere ouder heeft uw kind vóór 2023 erkend. Dan heeft alleen de moeder het gezag: dat bent u. Tenzij jullie samen gezag hebben laten vastleggen.',
+  },
+  ik: {
+    gezag: 'ander',
+    samenvatting: 'Waarschijnlijk heeft alleen de andere ouder het gezag.',
+    uitleg: 'U was niet getrouwd en u heeft uw kind vóór 2023 erkend. Dan heeft alleen de moeder het gezag. Tenzij jullie samen gezag hebben laten vastleggen.',
+  },
+  '2023': {
+    gezag: 'samen',
+    samenvatting: 'Waarschijnlijk hebben jullie samen het gezag.',
+    uitleg: 'U was niet getrouwd en uw kind is in 2023 of later erkend. Dan hebben jullie samen het gezag, tenzij bij de erkenning iets anders is vastgelegd.',
+  },
 };
 /** Achter elke uitkomst: de rechter gaat voor, en het uittreksel maakt het zeker (de link staat in VerdiepingGescheiden.astro). */
 export const GEZAG_UITKOMST_SLOT = 'Heeft de rechter iets over het gezag beslist, dan geldt dat. Zeker weten?';
@@ -135,7 +172,8 @@ export const gezagUitkomst = (getrouwd: string, erkend: string) =>
   getrouwd === 'ja' ? GEZAG_UITKOMST.getrouwd : getrouwd === 'nee' && erkend !== 'onbekend' ? GEZAG_UITKOMST[erkend] : undefined;
 
 /** Het deel van de inleiding (samenvatting in gescheiden.md) dat alleen bij gezamenlijk gezag geldt: weg bij alleen ik of alleen de ander. */
-export const GEZAG_LEAD = 'Voor behandeling of hulp aan uw kind is bij gezamenlijk gezag wel toestemming van beide ouders nodig. Weigert de andere ouder? Dan kan de rechter toestemming geven.';
+export const GEZAG_LEAD =
+  'Voor behandeling of hulp aan uw kind is bij gezamenlijk gezag wel toestemming van beide ouders nodig. Weigert de andere ouder? Dan kan de rechter toestemming geven.';
 export const KIES_ZIN = 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt wel toestemming van beide ouders.';
 export const KIES_ZIN_BIJ: Record<string, string> = {
   ik: 'Een groep voor kinderen van gescheiden ouders, zoals KIES, vraagt toestemming van de ouder met gezag: dat bent u.',
@@ -150,8 +188,12 @@ export const KIES_ZIN_BIJ: Record<string, string> = {
  */
 export const UITBREIDEN_STAP: { begin: string; rol: 'afloop' }[] = [{ begin: 'Loopt het besluit bijna af', rol: 'afloop' }];
 export const uitbreidenRol = (x: string) => UITBREIDEN_STAP.find((u) => x.startsWith(u.begin))?.rol;
-export const NODIG_KEUZE = [{ id: 'meer', label: 'Er is meer of andere hulp nodig' }, { id: 'afloop', label: 'Het besluit loopt af' }];
-export const AFLOOP_ZIN = 'Kijk op de beschikking wat de einddatum is. Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente heeft in de regel tot acht weken om te beslissen.';
+export const NODIG_KEUZE = [
+  { id: 'meer', label: 'Er is meer of andere hulp nodig' },
+  { id: 'afloop', label: 'Het besluit loopt af' },
+];
+export const AFLOOP_ZIN =
+  'Kijk op de beschikking wat de einddatum is. Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente heeft in de regel tot acht weken om te beslissen.';
 
 /**
  * "Extra kosten of kinderbijslag": de regelingencheck. Elke stap over een regeling begint herkenbaar (REGELING_STAP); de antwoorden
@@ -174,7 +216,10 @@ export const REGELING_STAP: { begin: string; rol: RegelingRol; soorten?: string[
   { begin: 'Betaalt u zelf zorgkosten', rol: 'aftrek' },
 ];
 export const regelingStap = (x: string) => REGELING_STAP.find((r) => x.startsWith(r.begin));
-export const JA_NEE = [{ id: 'ja', label: 'Ja' }, { id: 'nee', label: 'Nee' }];
+export const JA_NEE = [
+  { id: 'ja', label: 'Ja' },
+  { id: 'nee', label: 'Nee' },
+];
 export const JA_NEE_WEET = [...JA_NEE, { id: 'weet-niet', label: 'Weet ik niet' }];
 export const KOSTEN_KEUZE = [
   { id: 'school', label: 'Vervoer naar school' },
@@ -187,26 +232,65 @@ export const KOSTEN_KEUZE = [
 export const controleerVerdiepingen = (knelpunten: Knelpunt[]) => {
   // Veranderen de stappen van de verhuizing, dan moet de tijdlijn mee; anders valt de verdieping stil zonder dat iemand het ziet.
   const verhuisStappen = alleStappen(knelpunten.find((k) => k.id === 'verhuizing')!);
-  VERHUIS_MOMENT.forEach(([begin]) => { if (!verhuisStappen.some((x) => x.startsWith(begin))) throw new Error(`verhuizing.md: geen stap begint met "${begin}" (zie VERHUIS_MOMENT in src/lib/verdiepingen.ts)`); });
+  VERHUIS_MOMENT.forEach(([begin]) => {
+    if (!verhuisStappen.some((x) => x.startsWith(begin)))
+      throw new Error(`verhuizing.md: geen stap begint met "${begin}" (zie VERHUIS_MOMENT in src/lib/verdiepingen.ts)`);
+  });
   const hulpStoptStappen = hoofdStappen(knelpunten.find((k) => k.id === 'hulp-stopt')!);
-  HULP_STOPT_REDEN.forEach((r) => { if (!hulpStoptStappen.some((x) => x.startsWith(r.begin))) throw new Error(`hulp-stopt.md: geen stap begint met "${r.begin}" (zie HULP_STOPT_REDEN in src/lib/verdiepingen.ts)`); });
+  HULP_STOPT_REDEN.forEach((r) => {
+    if (!hulpStoptStappen.some((x) => x.startsWith(r.begin)))
+      throw new Error(`hulp-stopt.md: geen stap begint met "${r.begin}" (zie HULP_STOPT_REDEN in src/lib/verdiepingen.ts)`);
+  });
   const wordt18Stappen = alleStappen(knelpunten.find((k) => k.id === 'wordt-18')!);
-  WORDT_18.forEach((w) => { if (!wordt18Stappen.some((x) => x.startsWith(w.begin))) throw new Error(`wordt-18.md: geen stap begint met "${w.begin}" (zie WORDT_18 in src/lib/verdiepingen.ts)`); });
+  WORDT_18.forEach((w) => {
+    if (!wordt18Stappen.some((x) => x.startsWith(w.begin)))
+      throw new Error(`wordt-18.md: geen stap begint met "${w.begin}" (zie WORDT_18 in src/lib/verdiepingen.ts)`);
+  });
   const wachtStappen = alleStappen(knelpunten.find((k) => k.id === 'wachten')!);
-  WACHT_OP.forEach((w) => { if (!wachtStappen.some((x) => x.startsWith(w.begin))) throw new Error(`wachten.md: geen stap begint met "${w.begin}" (zie WACHT_OP in src/lib/verdiepingen.ts)`); });
-  if (!wachtStappen.some((x) => x.includes(WACHT_ZIN))) throw new Error(`wachten.md: geen stap bevat "${WACHT_ZIN}" (zie WACHT_ZIN in src/lib/verdiepingen.ts)`);
+  WACHT_OP.forEach((w) => {
+    if (!wachtStappen.some((x) => x.startsWith(w.begin)))
+      throw new Error(`wachten.md: geen stap begint met "${w.begin}" (zie WACHT_OP in src/lib/verdiepingen.ts)`);
+  });
+  if (!wachtStappen.some((x) => x.includes(WACHT_ZIN)))
+    throw new Error(`wachten.md: geen stap bevat "${WACHT_ZIN}" (zie WACHT_ZIN in src/lib/verdiepingen.ts)`);
   const gescheidenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'gescheiden')!);
-  GEZAG_STAP.forEach((g) => { if (!gescheidenStappen.some((x) => x.startsWith(g.begin))) throw new Error(`gescheiden.md: geen stap begint met "${g.begin}" (zie GEZAG_STAP in src/lib/verdiepingen.ts)`); });
-  if (!knelpunten.find((k) => k.id === 'gescheiden')!.data.samenvatting.includes(GEZAG_LEAD)) throw new Error(`gescheiden.md: de samenvatting bevat niet "${GEZAG_LEAD}" (zie GEZAG_LEAD in src/lib/verdiepingen.ts)`);
-  if (!gescheidenStappen.some((x) => x.includes(KIES_ZIN))) throw new Error(`gescheiden.md: geen stap bevat "${KIES_ZIN}" (zie KIES_ZIN in src/lib/verdiepingen.ts)`);
+  GEZAG_STAP.forEach((g) => {
+    if (!gescheidenStappen.some((x) => x.startsWith(g.begin)))
+      throw new Error(`gescheiden.md: geen stap begint met "${g.begin}" (zie GEZAG_STAP in src/lib/verdiepingen.ts)`);
+  });
+  if (!knelpunten.find((k) => k.id === 'gescheiden')!.data.samenvatting.includes(GEZAG_LEAD))
+    throw new Error(`gescheiden.md: de samenvatting bevat niet "${GEZAG_LEAD}" (zie GEZAG_LEAD in src/lib/verdiepingen.ts)`);
+  if (!gescheidenStappen.some((x) => x.includes(KIES_ZIN)))
+    throw new Error(`gescheiden.md: geen stap bevat "${KIES_ZIN}" (zie KIES_ZIN in src/lib/verdiepingen.ts)`);
   const uitbreidenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'uitbreiden')!);
-  UITBREIDEN_STAP.forEach((u) => { if (!uitbreidenStappen.some((x) => x.startsWith(u.begin))) throw new Error(`uitbreiden.md: geen stap begint met "${u.begin}" (zie UITBREIDEN_STAP in src/lib/verdiepingen.ts)`); });
+  UITBREIDEN_STAP.forEach((u) => {
+    if (!uitbreidenStappen.some((x) => x.startsWith(u.begin)))
+      throw new Error(`uitbreiden.md: geen stap begint met "${u.begin}" (zie UITBREIDEN_STAP in src/lib/verdiepingen.ts)`);
+  });
   const geld = knelpunten.find((k) => k.id === 'geld')!;
-  const geldStappen = [...hoofdStappen(geld), ...geld.data.leeftijdsstappen.flatMap((l) => Object.entries(l).filter(([b]) => b !== 'begin').map(([, t]) => t as string))];
-  REGELING_STAP.forEach((r) => { if (!geldStappen.some((x) => x.startsWith(r.begin))) throw new Error(`geld.md: geen stap begint met "${r.begin}" (zie REGELING_STAP in src/lib/verdiepingen.ts)`); });
-  if (!uitbreidenStappen.some((x) => x.includes(AFLOOP_ZIN))) throw new Error(`uitbreiden.md: geen stap bevat "${AFLOOP_ZIN}" (zie AFLOOP_ZIN in src/lib/verdiepingen.ts)`);
+  const geldStappen = [
+    ...hoofdStappen(geld),
+    ...geld.data.leeftijdsstappen.flatMap((l) =>
+      Object.entries(l)
+        .filter(([b]) => b !== 'begin')
+        .map(([, t]) => t as string),
+    ),
+  ];
+  REGELING_STAP.forEach((r) => {
+    if (!geldStappen.some((x) => x.startsWith(r.begin)))
+      throw new Error(`geld.md: geen stap begint met "${r.begin}" (zie REGELING_STAP in src/lib/verdiepingen.ts)`);
+  });
+  if (!uitbreidenStappen.some((x) => x.includes(AFLOOP_ZIN)))
+    throw new Error(`uitbreiden.md: geen stap bevat "${AFLOOP_ZIN}" (zie AFLOOP_ZIN in src/lib/verdiepingen.ts)`);
   const afgewezenStappen = hoofdStappen(knelpunten.find((k) => k.id === 'afgewezen')!);
-  AFGEWEZEN_STAP.forEach((a) => { if (!afgewezenStappen.some((x) => x.startsWith(a.begin))) throw new Error(`afgewezen.md: geen stap begint met "${a.begin}" (zie AFGEWEZEN_STAP in src/lib/verdiepingen.ts)`); });
-  if (!afgewezenStappen.some((x) => x.startsWith(BEZWAAR_ZIN))) throw new Error(`afgewezen.md: geen stap begint met "${BEZWAAR_ZIN}" (zie BEZWAAR_ZIN in src/lib/verdiepingen.ts)`);
-  Object.values(WACHT_LEAD).forEach((begin) => { if (!wachtStappen.some((x) => x.startsWith(begin))) throw new Error(`wachten.md: geen stap begint met "${begin}" (zie WACHT_LEAD in src/lib/verdiepingen.ts)`); });
+  AFGEWEZEN_STAP.forEach((a) => {
+    if (!afgewezenStappen.some((x) => x.startsWith(a.begin)))
+      throw new Error(`afgewezen.md: geen stap begint met "${a.begin}" (zie AFGEWEZEN_STAP in src/lib/verdiepingen.ts)`);
+  });
+  if (!afgewezenStappen.some((x) => x.startsWith(BEZWAAR_ZIN)))
+    throw new Error(`afgewezen.md: geen stap begint met "${BEZWAAR_ZIN}" (zie BEZWAAR_ZIN in src/lib/verdiepingen.ts)`);
+  Object.values(WACHT_LEAD).forEach((begin) => {
+    if (!wachtStappen.some((x) => x.startsWith(begin)))
+      throw new Error(`wachten.md: geen stap begint met "${begin}" (zie WACHT_LEAD in src/lib/verdiepingen.ts)`);
+  });
 };

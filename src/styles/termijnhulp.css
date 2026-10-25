@@ -1,0 +1,14 @@
+/* ---------- Termijnenhulp (TermijnenHulp.astro) ---------- */
+/* Termijnenhulp (bezwaar, beslistermijn): ingeklapt onder de stap of boven de brief */
+.termijnhulp { margin: .6rem 0 .25rem; padding: .5rem .85rem; border: 1px solid var(--c-border, #e2ddd3); border-radius: 10px; background: var(--c-surface, #fff); font-size: .97rem; font-weight: 400; }
+.termijnhulp > summary { cursor: pointer; color: var(--c-primary-dark); font-weight: 600; padding: .2rem 0; }
+.termijnhulp[open] > summary { margin-bottom: .5rem; }
+.brief-acties + .termijnhulp { margin: 0 0 1.25rem; }
+.termijnhulp .th-blok + .th-blok { margin-top: .9rem; padding-top: .9rem; border-top: 1px solid var(--c-border, #e2ddd3); }
+.termijnhulp .th-label { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; }
+.termijnhulp .th-label > label { font-weight: 600; }
+.termijnhulp .th-uitkomst { margin-top: .6rem; }
+.termijnhulp .th-uitkomst p { margin: 0; }
+.termijnhulp .th-uitkomst p + p { margin-top: .4rem; }
+.termijnhulp .th-brief { margin: .5rem 0 0; }
+.termijnhulp .th-noot { margin: .8rem 0 .2rem; font-size: .8rem; color: var(--c-muted); }

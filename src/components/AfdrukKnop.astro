@@ -1,10 +1,15 @@
 ---
 /**
  * Knop "Afdrukken of bewaren als PDF", rechts boven het eerste blok van de pagina. Neemt zelf geen ruimte in: hij staat in de
- * witruimte erboven (global.css, .afdruk-rij). Zet bovenaan de pagina ook AfdrukKop neer (datum en adres op papier).
+ * witruimte erboven (styles/afdrukken.css, .afdruk-rij). Zet bovenaan de pagina ook AfdrukKop neer (datum en adres op papier).
  */
 ---
-<p class="afdruk-rij"><button type="button" class="afdruk-knop" data-afdrukken title="Wat u hebt opengeklapt, komt mee op papier."><span class="ico ico-printer" aria-hidden="true"></span>Afdrukken of bewaren als PDF</button></p>
+
+<p class="afdruk-rij">
+  <button type="button" class="afdruk-knop" data-afdrukken title="Wat u hebt opengeklapt, komt mee op papier.">
+    <span class="ico ico-printer" aria-hidden="true"></span>Afdrukken of bewaren als PDF
+  </button>
+</p>
 <script>
   import '../scripts/afdrukken';
 </script>

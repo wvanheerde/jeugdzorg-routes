@@ -6,18 +6,38 @@ import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 import { BESLUIT_KEUZE, PAPIER_KEUZE } from '../lib/verdiepingen';
 ---
-<Verdieping id="afgewezen" titel="Tot wanneer kunt u bezwaar maken?" naarStappen="stappen-afgewezen" uitleg="Vul de datum op het besluit in, dan ziet u tot wanneer u bezwaar kunt maken. Met de andere vragen ziet u alleen de stappen die nu nodig zijn.">
-  <div class="field vd-keuze"><span id="af-papier-kop">Heeft u het besluit op papier?</span>
+
+<Verdieping
+  id="afgewezen"
+  titel="Tot wanneer kunt u bezwaar maken?"
+  naarStappen="stappen-afgewezen"
+  uitleg="Vul de datum op het besluit in, dan ziet u tot wanneer u bezwaar kunt maken. Met de andere vragen ziet u alleen de stappen die nu nodig zijn."
+>
+  <div class="field vd-keuze">
+    <span id="af-papier-kop">Heeft u het besluit op papier?</span>
     <div class="chips-select" role="group" aria-labelledby="af-papier-kop">
-      {PAPIER_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-af-papier>{o.label}</button>)}
+      {PAPIER_KEUZE.map((o) => (
+        <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-af-papier>
+          {o.label}
+        </button>
+      ))}
     </div>
   </div>
   {/* Alleen met het besluit op papier: de zes weken tellen vanaf de datum erop (Awb 6:7, 6:8). */}
-  <div class="field vd-datum" data-af-datum-vraag hidden><label for="af-datum">Welke datum staat op het besluit?</label><DatumVeld id="af-datum" minJaren={-3} maxJaren={0} veld="af-datum" /><span class="meta vd-hint">Staat meestal bovenaan de brief.</span></div>
+  <div class="field vd-datum" data-af-datum-vraag hidden>
+    <label for="af-datum">Welke datum staat op het besluit?</label>
+    <DatumVeld id="af-datum" minJaren={-3} maxJaren={0} veld="af-datum" />
+    <span class="meta vd-hint">Staat meestal bovenaan de brief.</span>
+  </div>
   <p class="meta vd-melding" data-af-melding hidden></p>
-  <div class="field vd-keuze"><span id="af-besluit-kop">Kreeg u geen of te weinig hulp, of past de hulp niet?</span>
+  <div class="field vd-keuze">
+    <span id="af-besluit-kop">Kreeg u geen of te weinig hulp, of past de hulp niet?</span>
     <div class="chips-select" role="group" aria-labelledby="af-besluit-kop">
-      {BESLUIT_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-af-besluit>{o.label}</button>)}
+      {BESLUIT_KEUZE.map((o) => (
+        <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-af-besluit>
+          {o.label}
+        </button>
+      ))}
     </div>
   </div>
 </Verdieping>

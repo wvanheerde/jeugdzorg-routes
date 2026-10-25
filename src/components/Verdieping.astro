@@ -11,16 +11,41 @@
  *  toont hem via data-vd-gevolg), want de stappen veranderen buiten beeld (persona-test Peter r6). */
 /** titel: de vraag zelf ("Waarop wacht u?"). "Meer passend advies" zei niet waar het over ging en werd gemist (persona-tests ronde 24).
  *  Een vraag in het blok die gelijk is aan de titel valt weg; de knoppen verwijzen dan naar vd-vraag-<id>. */
-interface Props { id: string; titel: string; uitleg?: string; naarStappen?: string }
+interface Props {
+  id: string;
+  titel: string;
+  uitleg?: string;
+  naarStappen?: string;
+}
 const { id, titel, uitleg, naarStappen } = Astro.props;
 ---
+
 <section class="verdieping o1" data-verdieping={id} aria-labelledby={`vd-kop-${id}`}>
   <div data-vd-vragen>
-    <h3 id={`vd-kop-${id}`}><span id={`vd-vraag-${id}`}>{titel}</span></h3>
+    <h3 id={`vd-kop-${id}`}>
+      <span id={`vd-vraag-${id}`}>{titel}</span>
+    </h3>
     {uitleg && <p class="meta vd-uitleg">{uitleg}</p>}
-    <div class="vd-velden"><slot /></div>
+    <div class="vd-velden">
+      <slot />
+    </div>
   </div>
-  <p class="vd-samenvatting" aria-live="polite"><span data-vd-samenvatting data-geen-uitleg></span><span class="vd-acties">{naarStappen && <a class="vd-gevolg" href={`#${naarStappen}`} data-vd-gevolg hidden>De stappen zijn aangepast&nbsp;↓</a>}<button type="button" class="linkknop" data-vd-aanpassen hidden>Aanpassen</button><button type="button" class="linkknop" data-vd-wissen hidden>Wissen</button></span></p>
+  <p class="vd-samenvatting" aria-live="polite">
+    <span data-vd-samenvatting data-geen-uitleg></span>
+    <span class="vd-acties">
+      {naarStappen && (
+        <a class="vd-gevolg" href={`#${naarStappen}`} data-vd-gevolg hidden>
+          De stappen zijn aangepast&nbsp;↓
+        </a>
+      )}
+      <button type="button" class="linkknop" data-vd-aanpassen hidden>
+        Aanpassen
+      </button>
+      <button type="button" class="linkknop" data-vd-wissen hidden>
+        Wissen
+      </button>
+    </span>
+  </p>
   {/* Wat bij het antwoord hoort en ook ingeklapt zichtbaar blijft (zoals de waarschijnlijke uitkomst bij het gezag). */}
   <slot name="na" />
 </section>
@@ -39,7 +64,13 @@ const { id, titel, uitleg, naarStappen } = Astro.props;
     // komt lager op de pagina (persona-test Erik, ronde 24). Alleen na een klik; bij een bewaard antwoord springt de pagina niet.
     let geklikt = 0;
     // Capture: vóór het script van de pagina het veld toont (de MutationObserver komt direct na dat script).
-    vragen.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('button')) geklikt = Date.now(); }, true);
+    vragen.addEventListener(
+      'click',
+      (e) => {
+        if ((e.target as HTMLElement).closest('button')) geklikt = Date.now();
+      },
+      true,
+    );
     new MutationObserver((wijzigingen) => {
       if (Date.now() - geklikt > 1000) return;
       const veld = wijzigingen.map((w) => w.target as HTMLElement).find((el) => !el.hidden && el.matches('.vd-datum'));

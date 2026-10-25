@@ -2,11 +2,16 @@
 /** Contactregeltje onder een stap of route: per genoemde organisatie de naam, het nummer, het e-mailadres en de website (ContactRegel). */
 import { korteNaam } from '../lib/genoemd';
 import ContactRegel from './ContactRegel.astro';
-interface Props { orgs: { data: { naam: string; telefoon?: string; email?: string; url: string; linktekst?: string } }[] }
+interface Props {
+  orgs: { data: { naam: string; telefoon?: string; email?: string; url: string; linktekst?: string } }[];
+}
 const { orgs } = Astro.props;
 ---
+
 {orgs.length > 0 && (
   <span class="stap-contact">
-    {orgs.map((o) => <ContactRegel naam={korteNaam(o.data.naam)} telefoon={o.data.telefoon} email={o.data.email} url={o.data.url} linktekst={o.data.linktekst} />)}
+    {orgs.map((o) => (
+      <ContactRegel naam={korteNaam(o.data.naam)} telefoon={o.data.telefoon} email={o.data.email} url={o.data.url} linktekst={o.data.linktekst} />
+    ))}
   </span>
 )}

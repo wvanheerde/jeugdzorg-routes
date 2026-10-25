@@ -12,15 +12,23 @@ export const regelingPast = (rol: string, a: Antwoorden, mantelNee = false): boo
       // Dubbele kinderbijslag is er tot 18 jaar (SVB); de stap zegt dat zelf bij een kind van 18 of ouder.
       if (a.leeftijd === '18-99') return a.zorg ? false : null;
       return a.zorg === 'nee' ? false : a.dkb === 'ja' ? 'gedaan' : a.zorg === 'ja' ? true : null;
-    case 'extra': return a.zorg === 'nee' || a.dkb === 'nee' || a.alleen === 'nee' ? false : a.alleen === 'ja' ? true : null;
-    case 'meerkosten': return a.zorg === 'ja' || k('zorg', 'ziekte') ? true : a.zorg === 'nee' && k('zorg', 'ziekte') === false ? false : null;
-    case 'inkomen': return a.inkomen === 'nee' ? false : a.inkomen ? true : null;
-    case 'vervoer': return k('school');
-    case 'mantelzorg': return a.zorg === 'nee' || (a.zorg === 'ja' && mantelNee) ? false : a.zorg === 'ja' ? true : null;
+    case 'extra':
+      return a.zorg === 'nee' || a.dkb === 'nee' || a.alleen === 'nee' ? false : a.alleen === 'ja' ? true : null;
+    case 'meerkosten':
+      return a.zorg === 'ja' || k('zorg', 'ziekte') ? true : a.zorg === 'nee' && k('zorg', 'ziekte') === false ? false : null;
+    case 'inkomen':
+      return a.inkomen === 'nee' ? false : a.inkomen ? true : null;
+    case 'vervoer':
+      return k('school');
+    case 'mantelzorg':
+      return a.zorg === 'nee' || (a.zorg === 'ja' && mantelNee) ? false : a.zorg === 'ja' ? true : null;
     // Wlz: ook bij veel zorg niet "waarschijnlijk"; dag en nacht zorg of toezicht is een zwaardere eis.
-    case 'wlz': return a.zorg === 'nee' ? false : null;
-    case 'aftrek': return k('zorg', 'ziekte');
-    default: return null;
+    case 'wlz':
+      return a.zorg === 'nee' ? false : null;
+    case 'aftrek':
+      return k('zorg', 'ziekte');
+    default:
+      return null;
   }
 };
 
@@ -49,4 +57,8 @@ export const GEEN_REGELING: Record<string, string> = {
 };
 /** Tot welk inkomen, in gewone woorden. */
 export const inkomensgrens = (g?: number | 'geen', grondslag?: string) =>
-  g === 'geen' ? 'Zonder inkomensgrens.' : g ? `Voor een inkomen tot ${g}% van ${grondslag === 'minimumloon' ? 'het wettelijk minimumloon' : 'het sociaal minimum'}.` : '';
+  g === 'geen'
+    ? 'Zonder inkomensgrens.'
+    : g
+      ? `Voor een inkomen tot ${g}% van ${grondslag === 'minimumloon' ? 'het wettelijk minimumloon' : 'het sociaal minimum'}.`
+      : '';

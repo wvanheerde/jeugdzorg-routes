@@ -1,0 +1,41 @@
+/* ---------- Verdieping in Mijn overzicht (Verdieping.astro en Verdieping*.astro) ---------- */
+@media (max-width: 640px) {
+  /* Verdieping: iets smallere knoppen, zodat korte labels per twee op een regel passen (blok is ±263 px breed). */
+  .verdieping .chip-btn { padding-left: .55rem; padding-right: .55rem; }
+  /* "De stappen zijn aangepast" en "Wissen" samen op een regel. */
+  .verdieping .vd-samenvatting .vd-acties { gap: .3rem 1rem; }
+  .verdieping .vd-samenvatting .vd-acties > * { font-size: .86rem; }
+}
+/* Verdieping in "Wat kunt u doen": optionele vragen die de stappen passend maken (Verdieping.astro). */
+.verdieping { margin: 0 0 1.1rem; padding: .9rem 1.1rem 1rem; background: var(--c-primary-soft); border-radius: var(--radius); }
+.verdieping h3 { margin: 0 0 .25rem; font-size: 1.02rem; }
+.verdieping .vd-uitleg { margin: 0 0 .8rem; }
+.verdieping .vd-velden { display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; align-items: start; }
+.verdieping .vd-velden > .field { flex: 1 1 15rem; max-width: 22rem; }
+.verdieping .vd-velden > .vd-datum { flex: 0 1 auto; max-width: none; }
+.verdieping .vd-velden .vd-datum .th-veld { max-width: 11.5rem; }
+.verdieping .vd-velden .gemeente-keuze { height: 2.8rem; margin: 0; box-sizing: border-box; }
+.verdieping .vd-velden .th-veld { width: 100%; max-width: none; height: 2.8rem; box-sizing: border-box; }
+.verdieping .vd-velden > .vd-keuze { flex-basis: 100%; max-width: none; }
+.verdieping .vd-melding { flex-basis: 100%; margin: 0; color: var(--c-accent); }
+.verdieping .vd-gevolg { font-size: inherit; }
+.verdieping[data-vd-ingeklapt] .vd-gevolg { display: none; }
+[id^="stappen-"] { scroll-margin-top: 6rem; }
+.verdieping .vd-samenvatting { margin: .8rem 0 0; font-size: .92rem; }
+/* Lege samenvatting weg, maar niet als het blok ingeklapt is: dan moet "Aanpassen" zichtbaar blijven. */
+.verdieping:not([data-vd-ingeklapt]) .vd-samenvatting:has([data-vd-samenvatting]:empty) { display: none; }
+.verdieping[data-vd-ingeklapt] .vd-samenvatting { margin-top: 0; }
+/* "Waarom stopt de hulp?": met de vragen open is de gekozen optie zelf de samenvatting. */
+[data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) [data-vd-samenvatting] { display: none; }
+[data-verdieping="hulp-stopt"]:not([data-vd-ingeklapt]) .vd-acties { margin-top: 0; }
+/* "Waarop wacht u?": zonder datum herhaalt de samenvatting alleen de keuze; dan ook alleen ingeklapt (data-alleen-ingeklapt, src/scripts/overzicht/wachten.ts). */
+.verdieping:not([data-vd-ingeklapt]) [data-vd-samenvatting][data-alleen-ingeklapt] { display: none; }
+.verdieping:not([data-vd-ingeklapt]) .vd-samenvatting:has([data-alleen-ingeklapt]) .vd-acties { margin-top: 0; }
+.verdieping .vd-acties { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; margin-top: .3rem; }
+.verdieping .vd-acties:not(:has(button:not([hidden]))) { display: none; }
+.verdieping .linkknop { background: none; border: 0; padding: 0; font: inherit; font-weight: 400; font-size: .92rem; color: var(--c-primary-dark); text-decoration: underline; cursor: pointer; }
+.verdieping .field > label { font-weight: 600; font-size: .95rem; }
+.verdieping .field > .vd-hint { margin: 0; font-size: .88rem; font-weight: 400; }
+.verdieping input[data-th-invoer] { height: 100%; box-sizing: border-box; padding: .65rem .9rem; background: #fff; font-size: 1.02rem; }
+/* Gezag bij "Weet ik niet": de waarschijnlijke uitkomst, ook als het blok ingeklapt is (VerdiepingGescheiden.astro). */
+.verdieping .vd-uitkomst { margin: .5rem 0 0; font-size: .92rem; }

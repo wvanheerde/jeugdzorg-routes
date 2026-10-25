@@ -1,25 +1,52 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { afbreken } from '../lib/afbreken';
-interface Props { t: CollectionEntry<'therapievormen'> }
+import { base } from '../site';
+interface Props {
+  t: CollectionEntry<'therapievormen'>;
+}
 const { t } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const soort: Record<string, string> = { gesprekstherapie: 'Gesprekstherapie', gedragstherapie: 'Gedragstherapie', traumabehandeling: 'Traumabehandeling', oudertraining: 'Oudertraining', gezinsbehandeling: 'Gezinsbehandeling', vaktherapie: 'Vaktherapie', training: 'Training', groep: 'Groep', paramedisch: 'Paramedisch', medicatie: 'Medicatie' };
+const soort: Record<string, string> = {
+  gesprekstherapie: 'Gesprekstherapie',
+  gedragstherapie: 'Gedragstherapie',
+  traumabehandeling: 'Traumabehandeling',
+  oudertraining: 'Oudertraining',
+  gezinsbehandeling: 'Gezinsbehandeling',
+  vaktherapie: 'Vaktherapie',
+  training: 'Training',
+  groep: 'Groep',
+  paramedisch: 'Paramedisch',
+  medicatie: 'Medicatie',
+};
 const ob: Record<string, { kort: string; cls: string; lang: string }> = {
   richtlijn: { kort: 'Aanbevolen in richtlijn', cls: 'nee', lang: 'Aanbevolen in een zorgstandaard of jeugdhulprichtlijn.' },
   erkend: { kort: 'Erkend door NJi', cls: 'nee', lang: 'Opgenomen in de databank effectieve jeugdinterventies van het NJi.' },
-  onderbouwd: { kort: 'Goed onderbouwd (NJi)', cls: 'soms', lang: 'In de NJi-databank als goed onderbouwd beoordeeld: de aanpak is goed beschreven, maar het effect is nog niet onderzocht.' },
+  onderbouwd: {
+    kort: 'Goed onderbouwd (NJi)',
+    cls: 'soms',
+    lang: 'In de NJi-databank als goed onderbouwd beoordeeld: de aanpak is goed beschreven, maar het effect is nog niet onderzocht.',
+  },
   gangbaar: { kort: 'Gangbaar, beperkter onderzocht', cls: 'soms', lang: 'Breed toegepast, maar minder wetenschappelijk onderzocht dan de andere vormen.' },
 };
 const o = ob[t.data.onderbouwing.label];
 ---
+
 <a class="card link" href={`${base}/therapievormen/${t.id}/`}>
   <span class="badge">{soort[t.data.soort]}</span>
   <h3 style="margin-top:.6rem">{afbreken(t.data.naam)}</h3>
   <p>{t.data.kort}</p>
-  {t.data.leeftijd && <p class="meta">Leeftijd: {t.data.leeftijd.van ?? 0}{t.data.leeftijd.tot ? ` tot ${t.data.leeftijd.tot} jaar` : ' jaar en ouder'}</p>}
+  {t.data.leeftijd && (
+    <p class="meta">
+      Leeftijd: {t.data.leeftijd.van ?? 0}
+      {t.data.leeftijd.tot ? ` tot ${t.data.leeftijd.tot} jaar` : ' jaar en ouder'}
+    </p>
+  )}
   <div class="kaart-voet">
-    <p class={`toegang t-${o.cls}`} title={o.lang}><span class="dot" aria-hidden="true"></span>{o.kort}<span class="sr-only">. {o.lang}</span></p>
+    <p class={`toegang t-${o.cls}`} title={o.lang}>
+      <span class="dot" aria-hidden="true"></span>
+      {o.kort}
+      <span class="sr-only">. {o.lang}</span>
+    </p>
     <span class="arrow">Wat is het en hoe vraag ik het aan →</span>
   </div>
 </a>

@@ -6,13 +6,14 @@ import Contact from '../../components/Contact.astro';
 import SpoedNummers from '../../components/SpoedNummers.astro';
 import Sources from '../../components/Sources.astro';
 import Icon from '../../components/Icon.astro';
-import register from '../../../scripts/data/gemeenten-register.json';
+import { registerVan, postadresGeraadpleegd } from '../../lib/register';
 import woonplaatsLijst from '../../../public/woonplaatsen.json';
 import { woonplaatsenVoor } from '../../lib/woonplaatsen';
 import { getCollection } from 'astro:content';
 import { contacten, routeLabel, datum } from '../../lib/routes';
 import { GELD_SOORTEN, GEEN_REGELING, ZORGKOSTEN_OUDER } from '../../lib/regelingen';
 import GeldRegeling from '../../components/GeldRegeling.astro';
+import { base } from '../../site';
 
 export async function getStaticPaths() {
   const gemeenten = await getCollection('gemeenten');
@@ -20,12 +21,11 @@ export async function getStaticPaths() {
 }
 const { g } = Astro.props;
 const d = g.data;
-const postadres = register.gemeenten.find((x: { cbsCode: string; postadres?: string }) => x.cbsCode === d.cbsCode)?.postadres;
+const postadres = registerVan(d.cbsCode)?.postadres;
 // Defensief: na een schemawijziging kan een draaiende dev-server nog oude data serveren.
 const directRegelen = d.directRegelen ?? [];
 const lokaleInitiatieven = d.lokaleInitiatieven ?? [];
 const categorieen = d.aanbod.categorieen ?? [];
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const secties = [
   { id: 'toegang', n: 1, t: 'Hoe krijg ik hulp?' },
   { id: 'rechten', n: 2, t: 'Waar heb ik recht op?' },
@@ -35,11 +35,21 @@ const secties = [
   { id: 'regelen', n: 6, t: 'Direct regelen' },
   { id: 'ervaringen', n: 7, t: 'Hoe gaat het hier?' },
 ];
-const soortLabel: Record<string, string> = { inspectie: 'Inspectie', clientervaringsonderzoek: 'Cliëntervaringsonderzoek', rekenkamer: 'Rekenkamer', ombudsman: 'Ombudsman', rechtspraak: 'Rechtspraak', gemeenteraad: 'Gemeenteraad', nieuws: 'Nieuws' };
+const soortLabel: Record<string, string> = {
+  inspectie: 'Inspectie',
+  clientervaringsonderzoek: 'Cliëntervaringsonderzoek',
+  rekenkamer: 'Rekenkamer',
+  ombudsman: 'Ombudsman',
+  rechtspraak: 'Rechtspraak',
+  gemeenteraad: 'Gemeenteraad',
+  nieuws: 'Nieuws',
+};
 /** Geld en regelingen: per soort de regelingen van de gemeente, in de vaste volgorde (lib/regelingen.ts). */
 const geld = d.geldregelingen;
 // Zorgkosten alleen voor de ouder zelf (alleenOuder) staan bij de regelingen voor een laag inkomen, direct na de zorgverzekering.
-const geldGroepen = GELD_SOORTEN.map((s) => ({ ...s, lijst: geld.regelingen.filter((r) => r.soort === s.id && !r.alleenOuder) })).filter((s) => s.lijst.length > 0);
+const geldGroepen = GELD_SOORTEN.map((s) => ({ ...s, lijst: geld.regelingen.filter((r) => r.soort === s.id && !r.alleenOuder) })).filter(
+  (s) => s.lijst.length > 0,
+);
 const zorgkostenOuder = { id: 'zorgkosten-ouder', label: ZORGKOSTEN_OUDER, inkomen: true as const, lijst: geld.regelingen.filter((r) => r.alleenOuder) };
 const geldZorg = geldGroepen.filter((s) => !s.inkomen);
 const geldKrap = geldGroepen.filter((s) => s.inkomen);
@@ -55,21 +65,37 @@ const woonplaatsen = woonplaatsenVoor(woonplaatsLijst as [string, string][], g.i
  *  allemaal, zodat er achter de uitklapper nooit maar één of twee staan. */
 const WOONPLAATSEN_IN_BEELD = 10;
 const WOONPLAATSEN_ZONDER_UITKLAPPER = 12;
-const opsomming = (namen: string[]) => (namen.length > 1 ? `${namen.slice(0, -1).join(', ')} en ${namen.at(-1)}` : namen[0] ?? '');
+const opsomming = (namen: string[]) => (namen.length > 1 ? `${namen.slice(0, -1).join(', ')} en ${namen.at(-1)}` : (namen[0] ?? ''));
 const zoekBeschrijving = `Jeugdzorg in ${d.naam}: u meldt zich bij ${(wijkteam?.naam ?? 'het wijkteam').replace(/\s*\(.*?\)/g, '')}. Wie u gratis helpt, welke hulp er is en wat u kunt doen.`;
 const site = Astro.site ? new URL(`${base}/`, Astro.site).href : undefined;
-const gegevens = site ? [
-  { '@type': 'BreadcrumbList', itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Jeugdzorg Routes', item: site },
-    { '@type': 'ListItem', position: 2, name: 'Gemeenten', item: new URL('gemeenten/', site).href },
-    { '@type': 'ListItem', position: 3, name: d.naam, item: new URL(`gemeenten/${g.id}/`, site).href },
-  ] },
-  { '@type': 'WebPage', name: `Jeugdzorg in ${d.naam}`, inLanguage: 'nl-NL', dateModified: d.meta.laatstGecontroleerd,
-    about: { '@type': 'AdministrativeArea', name: `Gemeente ${d.naam}`, containedInPlace: { '@type': 'AdministrativeArea', name: d.provincie }, ...(woonplaatsen.length ? { containsPlace: woonplaatsen.map((w) => ({ '@type': 'Place', name: w })) } : {}) } },
-] : [];
+const gegevens = site
+  ? [
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Jeugdzorg Routes', item: site },
+          { '@type': 'ListItem', position: 2, name: 'Gemeenten', item: new URL('gemeenten/', site).href },
+          { '@type': 'ListItem', position: 3, name: d.naam, item: new URL(`gemeenten/${g.id}/`, site).href },
+        ],
+      },
+      {
+        '@type': 'WebPage',
+        name: `Jeugdzorg in ${d.naam}`,
+        inLanguage: 'nl-NL',
+        dateModified: d.meta.laatstGecontroleerd,
+        about: {
+          '@type': 'AdministrativeArea',
+          name: `Gemeente ${d.naam}`,
+          containedInPlace: { '@type': 'AdministrativeArea', name: d.provincie },
+          ...(woonplaatsen.length ? { containsPlace: woonplaatsen.map((w) => ({ '@type': 'Place', name: w })) } : {}),
+        },
+      },
+    ]
+  : [];
 const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
   !!toegangContact && (c.naam === toegangContact.naam || (!!c.telefoon && c.telefoon.replace(/\D/g, '') === toegangContact.telefoon?.replace(/\D/g, '')));
 ---
+
 <Base title={`Jeugdzorg in ${d.naam}: hulp vragen en waar u terechtkunt`} description={zoekBeschrijving} gegevens={gegevens}>
   <div class="page-head">
     <span class="eyebrow">Gemeente</span>
@@ -77,25 +103,55 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
     {/* Voor de zoekfunctie (zoeken.ts): noemt een zoekopdracht de gemeente of een woonplaats, dan staat deze pagina bovenaan. */}
     <span hidden data-pagefind-meta={`plaatsen:${[d.naam, ...woonplaatsen].join('|')}`}></span>
     {woonplaatsen.length > 0 && (
-      <div class="meta woonplaatsen" data-woonplaatsen>Ook voor {woonplaatsen.length <= WOONPLAATSEN_ZONDER_UITKLAPPER ? `${opsomming(woonplaatsen)}.` : <>{woonplaatsen.slice(0, WOONPLAATSEN_IN_BEELD).join(', ')} <details class="woonplaatsen-meer"><summary>en {woonplaatsen.length - WOONPLAATSEN_IN_BEELD} andere woonplaatsen</summary>{`${woonplaatsen.slice(WOONPLAATSEN_IN_BEELD).join(', ')}.`}</details></>}</div>
+      <div class="meta woonplaatsen" data-woonplaatsen>
+        Ook voor{' '}
+        {woonplaatsen.length <= WOONPLAATSEN_ZONDER_UITKLAPPER ? (
+          `${opsomming(woonplaatsen)}.`
+        ) : (
+          <>
+            {woonplaatsen.slice(0, WOONPLAATSEN_IN_BEELD).join(', ')}{' '}
+            <details class="woonplaatsen-meer">
+              <summary>en {woonplaatsen.length - WOONPLAATSEN_IN_BEELD} andere woonplaatsen</summary>
+              {`${woonplaatsen.slice(WOONPLAATSEN_IN_BEELD).join(', ')}.`}
+            </details>
+          </>
+        )}
+      </div>
     )}
     <AfdrukKop />
     <div class="chips">
       <span class="chip">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</span>
-      <span class="chip"><Icon name="map" />{d.provincie}</span>
+      <span class="chip">
+        <Icon name="map" />
+        {d.provincie}
+      </span>
       {d.jeugdzorgregio && <span class="chip">Regio {d.jeugdzorgregio}</span>}
-      <a class="chip" href={d.websiteJeugd} target="_blank" rel="noopener">Website gemeente<span aria-hidden="true"> ↗</span></a>
+      <a class="chip" href={d.websiteJeugd} target="_blank" rel="noopener">
+        Website gemeente<span aria-hidden="true"> ↗</span>
+      </a>
     </div>
   </div>
 
   <AfdrukKnop />
   {wijkteam && toegangContact && (
     <div class="eerste-contact kaart-boven">
-      <h2 class="h3-maat" id="melden">Hier meldt u zich in {d.naam}: {wijkteam.naam}</h2>
-      {!/wijkteam/i.test(wijkteam.naam) && <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>}
-      {toegangContact.telefoon && <a class="btn primary bel" href={`tel:${toegangContact.telefoon.replace(/\s/g, '')}`}><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Bel </span>{toegangContact.telefoon}</a>}
+      <h2 class="h3-maat" id="melden">
+        Hier meldt u zich in {d.naam}: {wijkteam.naam}
+      </h2>
+      {!/wijkteam/i.test(wijkteam.naam) && (
+        <p class="meta wijkteam-uitleg">Dit is het wijkteam van {d.naam}: het team van de gemeente voor vragen over opvoeden, opgroeien en jeugdhulp.</p>
+      )}
+      {toegangContact.telefoon && (
+        <a class="btn primary bel" href={`tel:${toegangContact.telefoon.replace(/\s/g, '')}`}>
+          <span class="ico ico-phone" aria-hidden="true"></span>
+          <span class="sr-only">Bel </span>
+          {toegangContact.telefoon}
+        </a>
+      )}
       <Contact contact={toegangContact} zonder={['naam', 'telefoon', 'adres']} class="kaal" />
-      <p class="meta">Liever via de huisarts of school, of kan het niet wachten? <a href="#toegang">Bekijk alle ingangen</a>.</p>
+      <p class="meta">
+        Liever via de huisarts of school, of kan het niet wachten? <a href="#toegang">Bekijk alle ingangen</a>.
+      </p>
     </div>
   )}
 
@@ -103,180 +159,469 @@ const isWijkteamContact = (c: { naam?: string; telefoon?: string }) =>
     <aside class="side">
       <nav aria-label="Inhoud">
         <strong>Op deze pagina</strong>
-        {secties.map((s) => <a href={`#${s.id}`}><span class="n">{s.n}</span>{s.t}</a>)}
-        <a href="#bronnen"><span class="n">·</span>Bronnen</a>
+        {secties.map((s) => (
+          <a href={`#${s.id}`}>
+            <span class="n">{s.n}</span>
+            {s.t}
+          </a>
+        ))}
+        <a href="#bronnen">
+          <span class="n">·</span>Bronnen
+        </a>
       </nav>
       <div class="status-card">Bijgewerkt {datum(d.meta.laatstGecontroleerd)}</div>
     </aside>
 
-    {/* secties-tellen: op papier opnieuw genummerd, want "Direct regelen" valt daar weg (global.css, @media print). */}
+    {/* secties-tellen: op papier opnieuw genummerd, want "Direct regelen" valt daar weg (styles/afdrukken.css, @media print). */}
     <div class="secties-tellen">
       <nav class="toc" data-pagefind-ignore aria-label="Snel naar">
-        {secties.map((s) => <a href={`#${s.id}`}>{s.n}. {s.t}</a>)}
+        {secties.map((s) => (
+          <a href={`#${s.id}`}>
+            {s.n}. {s.t}
+          </a>
+        ))}
       </nav>
 
       <section class="section">
-        <h2 id="toegang"><span class="section-num" data-pagefind-ignore>1</span>Hoe krijg ik hulp?</h2>
+        <h2 id="toegang">
+          <span class="section-num" data-pagefind-ignore>
+            1
+          </span>
+          Hoe krijg ik hulp?
+        </h2>
         <p>{d.toegang.samenvatting}</p>
-        {d.toegang.routes.map((r) => r.type === 'spoed' ? (
-          /* Spoed is een vast blok: de landelijke nummers plus een link naar de crisispagina van de gemeente.
+        {d.toegang.routes.map((r) =>
+          r.type === 'spoed' ? (
+            /* Spoed is een vast blok: de landelijke nummers plus een link naar de crisispagina van de gemeente.
              De eigen tekst per gemeente herhaalde wat het vaste blok al zegt en wordt niet getoond. */
-          <div class="route spoed">
-            <span class="badge">{routeLabel.spoed}</span>
-            <h3>Kan het niet wachten?</h3>
-            <SpoedNummers />
-            {contacten(r.contact).filter((c) => c.url).map((c) => <p class="meta">Meer crisisdiensten in {d.naam}: <a href={c.url} target="_blank" rel="noopener">{c.naam}<span aria-hidden="true"> ↗</span></a></p>)}
-          </div>
-        ) : (
-          <div class={`route ${r.type}`}>
-            {/* Bij huisarts en school begint de kop al met "Via …"; het label herhaalde dat. */}
-            {r.type !== 'huisarts' && r.type !== 'school' && <span class="badge">{routeLabel[r.type]}</span>}
-            <h3>{r.naam}</h3>
-            <p>{r.omschrijving}</p>
-            <ol class="steps">{r.stappen.map((s) => <li>{s}</li>)}</ol>
-            {r.doorlooptijd && <p class="meta"><em>{r.doorlooptijd}</em></p>}
-            {/* Het contact van het wijkteam staat al in de kaart bovenaan en bij de wijkteamroute; bij de andere routes niet nog eens. */}
-            {contacten(r.contact).filter((c) => r.type === 'wijkteam' || !isWijkteamContact(c)).map((c) => <Contact contact={c} />)}
-          </div>
-        ))}
+            <div class="route spoed">
+              <span class="badge">{routeLabel.spoed}</span>
+              <h3>Kan het niet wachten?</h3>
+              <SpoedNummers />
+              {contacten(r.contact)
+                .filter((c) => c.url)
+                .map((c) => (
+                  <p class="meta">
+                    Meer crisisdiensten in {d.naam}:{' '}
+                    <a href={c.url} target="_blank" rel="noopener">
+                      {c.naam}
+                      <span aria-hidden="true"> ↗</span>
+                    </a>
+                  </p>
+                ))}
+            </div>
+          ) : (
+            <div class={`route ${r.type}`}>
+              {/* Bij huisarts en school begint de kop al met "Via …"; het label herhaalde dat. */}
+              {r.type !== 'huisarts' && r.type !== 'school' && <span class="badge">{routeLabel[r.type]}</span>}
+              <h3>{r.naam}</h3>
+              <p>{r.omschrijving}</p>
+              <ol class="steps">
+                {r.stappen.map((s) => (
+                  <li>{s}</li>
+                ))}
+              </ol>
+              {r.doorlooptijd && (
+                <p class="meta">
+                  <em>{r.doorlooptijd}</em>
+                </p>
+              )}
+              {/* Het contact van het wijkteam staat al in de kaart bovenaan en bij de wijkteamroute; bij de andere routes niet nog eens. */}
+              {contacten(r.contact)
+                .filter((c) => r.type === 'wijkteam' || !isWijkteamContact(c))
+                .map((c) => (
+                  <Contact contact={c} />
+                ))}
+            </div>
+          ),
+        )}
       </section>
 
       <section class="section">
-        <h2 id="rechten"><span class="section-num" data-pagefind-ignore>2</span>Waar heb ik recht op?</h2>
+        <h2 id="rechten">
+          <span class="section-num" data-pagefind-ignore>
+            2
+          </span>
+          Waar heb ik recht op?
+        </h2>
         {/* Per recht: kop met de kern, de tekst van de gemeente en één contactblok. De algemene uitleg staat op de landelijke pagina
              (link onderaan); grijze vaste tekst per recht herhaalde wat de gemeentetekst al zei. */}
         <h3>Cliëntondersteuning: gratis iemand naast u</h3>
         {d.rechten.onafhankelijkeClientondersteuning.toelichting && <p>{d.rechten.onafhankelijkeClientondersteuning.toelichting}</p>}
         <Contact contact={d.rechten.onafhankelijkeClientondersteuning} />
-        {(d.rechten.onafhankelijkeClientondersteuning.andere ?? []).map((c) => <Contact contact={c} />)}
+        {(d.rechten.onafhankelijkeClientondersteuning.andere ?? []).map((c) => (
+          <Contact contact={c} />
+        ))}
 
         <h3>Persoonsgebonden budget (pgb): zelf hulp inkopen</h3>
-        <p>{!d.rechten.pgb.mogelijk && 'Een pgb wordt in deze gemeente niet of beperkt verstrekt. '}{d.rechten.pgb.toelichting}
-          {d.rechten.pgb.url && <> <a href={d.rechten.pgb.url} target="_blank" rel="noopener">Pgb bij de gemeente<span aria-hidden="true"> ↗</span></a></>}</p>
+        <p>
+          {!d.rechten.pgb.mogelijk && 'Een pgb wordt in deze gemeente niet of beperkt verstrekt. '}
+          {d.rechten.pgb.toelichting}
+          {d.rechten.pgb.url && (
+            <>
+              {' '}
+              <a href={d.rechten.pgb.url} target="_blank" rel="noopener">
+                Pgb bij de gemeente<span aria-hidden="true"> ↗</span>
+              </a>
+            </>
+          )}
+        </p>
 
         <h3>Klacht: als er niets gebeurt of u slecht behandeld wordt</h3>
         <p>{d.rechten.klacht.toelichting}</p>
-        <Contact contact={{ naam: d.rechten.klacht.naam, email: d.rechten.klacht.email, telefoon: d.rechten.klacht.telefoon, url: d.rechten.klacht.url, adres: d.rechten.klacht.adres && `Per post: ${d.rechten.klacht.adres}` }} />
-        {d.rechten.klacht.extern && <Contact contact={{ ...d.rechten.klacht.extern, adres: d.rechten.klacht.extern.adres && `Per post: ${d.rechten.klacht.extern.adres}` }} />}
+        <Contact
+          contact={{
+            naam: d.rechten.klacht.naam,
+            email: d.rechten.klacht.email,
+            telefoon: d.rechten.klacht.telefoon,
+            url: d.rechten.klacht.url,
+            adres: d.rechten.klacht.adres && `Per post: ${d.rechten.klacht.adres}`,
+          }}
+        />
+        {d.rechten.klacht.extern && (
+          <Contact contact={{ ...d.rechten.klacht.extern, adres: d.rechten.klacht.extern.adres && `Per post: ${d.rechten.klacht.extern.adres}` }} />
+        )}
 
         <h3>Bezwaar: tegen een besluit, binnen 6 weken</h3>
         <p>{d.rechten.bezwaar.toelichting}</p>
         {/* Bezwaar gaat naar het postadres van de gemeente (register), tenzij de gemeente een ander adres noemt (bezwaar.adres). */}
-        {(d.rechten.bezwaar.url || d.rechten.bezwaar.adres || postadres) && <Contact contact={{ naam: `Bezwaar bij gemeente ${d.naam}`, url: d.rechten.bezwaar.url, adres: d.rechten.bezwaar.adres ? `Per post: ${d.rechten.bezwaar.adres}` : d.rechten.bezwaar.adresInBesluit ? undefined : postadres && `Per post: Gemeente ${d.naam}, ${postadres}` }} />}
+        {(d.rechten.bezwaar.url || d.rechten.bezwaar.adres || postadres) && (
+          <Contact
+            contact={{
+              naam: `Bezwaar bij gemeente ${d.naam}`,
+              url: d.rechten.bezwaar.url,
+              adres: d.rechten.bezwaar.adres
+                ? `Per post: ${d.rechten.bezwaar.adres}`
+                : d.rechten.bezwaar.adresInBesluit
+                  ? undefined
+                  : postadres && `Per post: Gemeente ${d.naam}, ${postadres}`,
+            }}
+          />
+        )}
 
-        {d.rechten.vertrouwenspersoon && (<>
-          <h3>Vertrouwenspersoon: iemand aan uw kant</h3>
-          <p>Heeft u vragen over uw rechten, of komt u er met het wijkteam of een hulpverlener niet uit? Een vertrouwenspersoon luistert, legt uit en helpt u bij een klacht. Gratis en onafhankelijk van de gemeente.</p>
-          <Contact contact={d.rechten.vertrouwenspersoon} />
-        </>)}
-        <p class="meta" style="margin-top:1.25rem">Deze rechten gelden in heel Nederland. Meer uitleg: <a href={`${base}/landelijk/#03-rechten`}>cliëntondersteuning en pgb</a>, <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>klacht of bezwaar</a> en <a href={`${base}/landelijk/#05-financieel`}>financiële regelingen</a>.</p>
+        {d.rechten.vertrouwenspersoon && (
+          <>
+            <h3>Vertrouwenspersoon: iemand aan uw kant</h3>
+            <p>
+              Heeft u vragen over uw rechten, of komt u er met het wijkteam of een hulpverlener niet uit? Een vertrouwenspersoon luistert, legt uit en helpt u
+              bij een klacht. Gratis en onafhankelijk van de gemeente.
+            </p>
+            <Contact contact={d.rechten.vertrouwenspersoon} />
+          </>
+        )}
+        <p class="meta" style="margin-top:1.25rem">
+          Deze rechten gelden in heel Nederland. Meer uitleg: <a href={`${base}/landelijk/#03-rechten`}>cliëntondersteuning en pgb</a>,{' '}
+          <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>klacht of bezwaar</a> en <a href={`${base}/landelijk/#05-financieel`}>financiële regelingen</a>.
+        </p>
       </section>
 
       <section class="section">
-        <h2 id="aanbod"><span class="section-num" data-pagefind-ignore>3</span>Welke hulp is er?</h2>
+        <h2 id="aanbod">
+          <span class="section-num" data-pagefind-ignore>
+            3
+          </span>
+          Welke hulp is er?
+        </h2>
         {d.aanbod.samenvatting && <p>{d.aanbod.samenvatting}</p>}
         {categorieen.length > 0 && (
-          <ul class="aanbod-lijst">{categorieen.map((c) => <li><strong>{c.naam}</strong>{c.omschrijving && <><br />{c.omschrijving}</>}</li>)}</ul>
+          <ul class="aanbod-lijst">
+            {categorieen.map((c) => (
+              <li>
+                <strong>{c.naam}</strong>
+                {c.omschrijving && (
+                  <>
+                    <br />
+                    {c.omschrijving}
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
         )}
-        {d.aanbod.gecontracteerdeAanbiedersUrl && (d.aanbod.gecontracteerdeAanbiedersUrl.includes('beschikbaarheidswijzer')
-          ? <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders en wachttijden bekijken<span aria-hidden="true"> ↗</span></a><br /><span class="meta">In de Beschikbaarheidswijzer van de regio. Openbaar, zonder inloggen.</span></p>
-          : <p><a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">Aanbieders met een contract bekijken<span aria-hidden="true"> ↗</span></a></p>)}
+        {d.aanbod.gecontracteerdeAanbiedersUrl &&
+          (d.aanbod.gecontracteerdeAanbiedersUrl.includes('beschikbaarheidswijzer') ? (
+            <p>
+              <a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">
+                Aanbieders en wachttijden bekijken<span aria-hidden="true"> ↗</span>
+              </a>
+              <br />
+              <span class="meta">In de Beschikbaarheidswijzer van de regio. Openbaar, zonder inloggen.</span>
+            </p>
+          ) : (
+            <p>
+              <a href={d.aanbod.gecontracteerdeAanbiedersUrl} target="_blank" rel="noopener">
+                Aanbieders met een contract bekijken<span aria-hidden="true"> ↗</span>
+              </a>
+            </p>
+          ))}
       </section>
 
       <section class="section">
-        <h2 id="lokaal"><span class="section-num" data-pagefind-ignore>4</span>Lokale steun en initiatieven</h2>
-        {lokaleInitiatieven.length === 0 ? <p class="empty">Nog geen lokale initiatieven opgenomen.</p> : (
+        <h2 id="lokaal">
+          <span class="section-num" data-pagefind-ignore>
+            4
+          </span>
+          Lokale steun en initiatieven
+        </h2>
+        {lokaleInitiatieven.length === 0 ? (
+          <p class="empty">Nog geen lokale initiatieven opgenomen.</p>
+        ) : (
           <div class="grid">
             {lokaleInitiatieven.map((i) => (
               <div class="card">
                 <span class="badge">{i.soort}</span>
                 <h3 style="margin-top:.6rem">{i.naam}</h3>
                 <p>{i.omschrijving}</p>
-                {(i.url || i.contact) && <Contact contact={{ ...i.contact, naam: i.contact?.naam ?? i.naam, url: i.contact?.url ?? i.url }} zonder={!i.contact?.naam || i.contact.naam === i.naam ? ['naam'] : []} class="kaal org-voet" />}
+                {(i.url || i.contact) && (
+                  <Contact
+                    contact={{ ...i.contact, naam: i.contact?.naam ?? i.naam, url: i.contact?.url ?? i.url }}
+                    zonder={!i.contact?.naam || i.contact.naam === i.naam ? ['naam'] : []}
+                    class="kaal org-voet"
+                  />
+                )}
               </div>
             ))}
           </div>
         )}
-        <p class="meta" style="margin-top:1.25rem">Zie ook de <a href={`${base}/organisaties/`}>landelijke organisaties</a>.</p>
+        <p class="meta" style="margin-top:1.25rem">
+          Zie ook de <a href={`${base}/organisaties/`}>landelijke organisaties</a>.
+        </p>
       </section>
 
       {/* Geld en regelingen (veld geldregelingen, verplicht: alle gemeenten zijn onderzocht): per soort onder een eigen kop. Eerst wat met
           de zorg voor het kind te maken heeft, daaronder de regelingen voor een laag inkomen onder een eigen kopje (lib/regelingen.ts). */}
       <section class="section">
-        <h2 id="geld"><span class="section-num" data-pagefind-ignore>5</span>Geld en regelingen</h2>
-        <p>Regelingen van {d.naam} voor gezinnen met een kind dat extra zorg nodig heeft. De meeste gaan niet vanzelf: u vraagt ze zelf aan. <a href={`${base}/overzicht/?k=geld&gemeente=${g.id}`}>Welke regelingen passen bij u?</a></p>
+        <h2 id="geld">
+          <span class="section-num" data-pagefind-ignore>
+            5
+          </span>
+          Geld en regelingen
+        </h2>
+        <p>
+          Regelingen van {d.naam} voor gezinnen met een kind dat extra zorg nodig heeft. De meeste gaan niet vanzelf: u vraagt ze zelf aan.{' '}
+          <a href={`${base}/overzicht/?k=geld&gemeente=${g.id}`}>Welke regelingen passen bij u?</a>
+        </p>
         {geldZorg.map((s) => (
           <div class="geld-soort" data-geld-soort={s.id}>
             <h3>{s.label}</h3>
-            <ul class="geld-lijst">{s.lijst.map((r) => <GeldRegeling r={r} gemeente={d.naam} />)}</ul>
+            <ul class="geld-lijst">
+              {s.lijst.map((r) => (
+                <GeldRegeling r={r} gemeente={d.naam} />
+              ))}
+            </ul>
           </div>
         ))}
-        {geenRegeling(false).map((x) => <p class="meta">{d.naam} {GEEN_REGELING[x]}</p>)}
+        {geenRegeling(false).map((x) => (
+          <p class="meta">
+            {d.naam} {GEEN_REGELING[x]}
+          </p>
+        ))}
         {(geldKrap.length > 0 || geenRegeling(true).length > 0) && (
           <div class="geld-krap" data-geld-krap>
             <h3>Regelingen bij een laag inkomen</h3>
-            <p>Zorg voor een kind kost vaak tijd en geld, en leidt soms tot minder inkomen. Deze regelingen zijn er voor iedereen met een laag inkomen; ze kunnen extra kosten helpen dragen.</p>
+            <p>
+              Zorg voor een kind kost vaak tijd en geld, en leidt soms tot minder inkomen. Deze regelingen zijn er voor iedereen met een laag inkomen; ze kunnen
+              extra kosten helpen dragen.
+            </p>
             {geldKrap.map((s) => (
               <div class="geld-soort" data-geld-soort={s.id}>
                 <h4>{s.label}</h4>
-                <ul class="geld-lijst">{s.lijst.map((r) => <GeldRegeling r={r} gemeente={d.naam} />)}</ul>
+                <ul class="geld-lijst">
+                  {s.lijst.map((r) => (
+                    <GeldRegeling r={r} gemeente={d.naam} />
+                  ))}
+                </ul>
               </div>
             ))}
-            {geenRegeling(true).map((x) => <p class="meta">{d.naam} {GEEN_REGELING[x]}</p>)}
+            {geenRegeling(true).map((x) => (
+              <p class="meta">
+                {d.naam} {GEEN_REGELING[x]}
+              </p>
+            ))}
           </div>
         )}
-        {geld.overzicht && <p>Alle regelingen in {d.naam}: <a href={geld.overzicht.url} target="_blank" rel="noopener">{geld.overzicht.naam}<span aria-hidden="true"> ↗</span></a></p>}
-        <p class="meta">Landelijke regelingen, zoals dubbele kinderbijslag: <a href={`${base}/landelijk/#05-financieel`}>Financiële regelingen</a>.</p>
+        {geld.overzicht && (
+          <p>
+            Alle regelingen in {d.naam}:{' '}
+            <a href={geld.overzicht.url} target="_blank" rel="noopener">
+              {geld.overzicht.naam}
+              <span aria-hidden="true"> ↗</span>
+            </a>
+          </p>
+        )}
+        <p class="meta">
+          Landelijke regelingen, zoals dubbele kinderbijslag: <a href={`${base}/landelijk/#05-financieel`}>Financiële regelingen</a>.
+        </p>
       </section>
 
       <section class="section regelen">
-        <h2 id="regelen"><span class="section-num" data-pagefind-ignore>6</span>Direct regelen</h2>
-        {directRegelen.length === 0 ? <p class="empty">Nog geen directe links opgenomen. Kijk op de <a href={d.websiteJeugd} target="_blank" rel="noopener">website van de gemeente</a>.</p> : (
+        <h2 id="regelen">
+          <span class="section-num" data-pagefind-ignore>
+            6
+          </span>
+          Direct regelen
+        </h2>
+        {directRegelen.length === 0 ? (
+          <p class="empty">
+            Nog geen directe links opgenomen. Kijk op de{' '}
+            <a href={d.websiteJeugd} target="_blank" rel="noopener">
+              website van de gemeente
+            </a>
+            .
+          </p>
+        ) : (
           <ul class="linklist">
             {directRegelen.map((r) => (
               <li>
-                <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a>
+                <a href={r.url} target="_blank" rel="noopener">
+                  <Icon name="external" />
+                  {r.naam}
+                </a>
                 {r.omschrijving && <p>{r.omschrijving}</p>}
                 {r.nodig && <p class="meta">Nodig: {r.nodig}</p>}
               </li>
             ))}
           </ul>
         )}
-        <p class="meta" style="margin-top:1rem">Landelijke aanvragen, zoals dubbele kinderbijslag en Wlz, staan bij <a href={`${base}/landelijk/#06-aanvragen`}>Direct regelen (landelijk)</a>.</p>
+        <p class="meta" style="margin-top:1rem">
+          Landelijke aanvragen, zoals dubbele kinderbijslag en Wlz, staan bij <a href={`${base}/landelijk/#06-aanvragen`}>Direct regelen (landelijk)</a>.
+        </p>
       </section>
 
       <section class="section">
-        <h2 id="ervaringen"><span class="section-num" data-pagefind-ignore>7</span>Hoe gaat het met de jeugdhulp in {d.naam}?</h2>
-        {!d.ervaringen ? <p class="empty">Nog geen beeld opgenomen. Deze sectie wordt gevuld met openbare bronnen zoals inspectierapporten, cliëntervaringsonderzoek en regionale journalistiek.</p> : (<details class="inklapper" id="ervaringen-inhoud" data-op-papier-open>
-          <summary>Lees wat we vonden{signalen.length > 0 && <> ({signalen.length} {signalen.length === 1 ? 'bericht' : 'berichten'} uit openbare bronnen)</>}</summary>
-          {d.ervaringen.samenvatting.split(/\n\s*\n/).map((al) => <p>{al}</p>)}
-          {d.ervaringen.transparantie && (() => { const t = d.ervaringen.transparantie; const lbl: Record<string, string> = { ja: 'Ja', nee: 'Nee', onbekend: 'Niet nagezocht' }; return (
-            <div class="transparantie">
-              <strong>Wat de gemeente zelf openbaar maakt</strong>
-              <p class="meta" style="margin:.2rem 0 .6rem">Dit zegt alleen óf de gemeente deze informatie publiceert, niet hoe goed de hulp is. Wachttijden bij aanbieders en aantallen klachten maken de meeste gemeenten niet openbaar; daarom staan ze hier niet.</p>
-              <table class="tp-tabel">
-                <tbody>
-                  <tr><th scope="row">Cliëntervaringsonderzoek Jeugd</th><td><span class={`tp-status s-${t.clientervaringsonderzoek.status}`}>{lbl[t.clientervaringsonderzoek.status]}</span>{t.clientervaringsonderzoek.jaar && <span class="meta"> {t.clientervaringsonderzoek.jaar}</span>}</td><td>{t.clientervaringsonderzoek.samenvatting}{t.clientervaringsonderzoek.url && <> <a href={t.clientervaringsonderzoek.url} target="_blank" rel="noopener">bron<span aria-hidden="true"> ↗</span></a></>}</td></tr>
-                  <tr><th scope="row">Doorlooptijden van de toegang</th><td><span class={`tp-status s-${t.doorlooptijden.status}`}>{lbl[t.doorlooptijden.status]}</span></td><td>{t.doorlooptijden.samenvatting}{t.doorlooptijden.url && <> <a href={t.doorlooptijden.url} target="_blank" rel="noopener">bron<span aria-hidden="true"> ↗</span></a></>}</td></tr>
-                  {t.aandeelHuisarts && <tr><th scope="row">Start via huisarts of specialist</th><td><span class="tp-status s-cijfer">{t.aandeelHuisarts.percentage}%</span><span class="meta"> {t.aandeelHuisarts.jaar}</span></td><td>Aandeel van de in {t.aandeelHuisarts.jaar} gestarte jeugdhulptrajecten in deze gemeente dat via huisarts, jeugdarts of medisch specialist begon{t.aandeelHuisarts.landelijk && <>; voor heel Nederland is dat {t.aandeelHuisarts.landelijk}%</>}. Hoger dan landelijk betekent dat de medische route hier vaker wordt gebruikt dan het gemeentelijke team; lager betekent dat de toegang vooral via de gemeente loopt. Het zegt niets over de kwaliteit van beide routes. <a href={t.aandeelHuisarts.url} target="_blank" rel="noopener">bron<span aria-hidden="true"> ↗</span></a></td></tr>}
-                </tbody>
-              </table>
-            </div>
-          ); })()}
-          <ol class="tijdlijn">
-            {signalen.map((x) => (
-              <li>
-                <div class="tl-kop"><span class="badge">{soortLabel[x.soort]}</span> <time datetime={x.datum}>{x.datum}</time></div>
-                <strong>{x.titel}</strong>
-                <p>{x.samenvatting} <sup><a class="bron" href={x.bron.url} target="_blank" rel="noopener">{x.bron.titel}</a></sup></p>
-              </li>
+        <h2 id="ervaringen">
+          <span class="section-num" data-pagefind-ignore>
+            7
+          </span>
+          Hoe gaat het met de jeugdhulp in {d.naam}?
+        </h2>
+        {!d.ervaringen ? (
+          <p class="empty">
+            Nog geen beeld opgenomen. Deze sectie wordt gevuld met openbare bronnen zoals inspectierapporten, cliëntervaringsonderzoek en regionale
+            journalistiek.
+          </p>
+        ) : (
+          <details class="inklapper" id="ervaringen-inhoud" data-op-papier-open>
+            <summary>
+              Lees wat we vonden
+              {signalen.length > 0 && (
+                <>
+                  {' '}
+                  ({signalen.length} {signalen.length === 1 ? 'bericht' : 'berichten'} uit openbare bronnen)
+                </>
+              )}
+            </summary>
+            {d.ervaringen.samenvatting.split(/\n\s*\n/).map((al) => (
+              <p>{al}</p>
             ))}
-          </ol>
-          <p class="meta">Gebaseerd op openbare bronnen, geen individuele beoordelingen. Laatst bijgewerkt {d.ervaringen.laatstBijgewerkt}. Kent u een relevante openbare bron? Meld het via GitHub.</p>
-        </details>)}
+            {d.ervaringen.transparantie &&
+              (() => {
+                const t = d.ervaringen.transparantie;
+                const lbl: Record<string, string> = { ja: 'Ja', nee: 'Nee', onbekend: 'Niet nagezocht' };
+                return (
+                  <div class="transparantie">
+                    <strong>Wat de gemeente zelf openbaar maakt</strong>
+                    <p class="meta" style="margin:.2rem 0 .6rem">
+                      Dit zegt alleen óf de gemeente deze informatie publiceert, niet hoe goed de hulp is. Wachttijden bij aanbieders en aantallen klachten
+                      maken de meeste gemeenten niet openbaar; daarom staan ze hier niet.
+                    </p>
+                    <table class="tp-tabel">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Cliëntervaringsonderzoek Jeugd</th>
+                          <td>
+                            <span class={`tp-status s-${t.clientervaringsonderzoek.status}`}>{lbl[t.clientervaringsonderzoek.status]}</span>
+                            {t.clientervaringsonderzoek.jaar && <span class="meta"> {t.clientervaringsonderzoek.jaar}</span>}
+                          </td>
+                          <td>
+                            {t.clientervaringsonderzoek.samenvatting}
+                            {t.clientervaringsonderzoek.url && (
+                              <>
+                                {' '}
+                                <a href={t.clientervaringsonderzoek.url} target="_blank" rel="noopener">
+                                  bron<span aria-hidden="true"> ↗</span>
+                                </a>
+                              </>
+                            )}
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Doorlooptijden van de toegang</th>
+                          <td>
+                            <span class={`tp-status s-${t.doorlooptijden.status}`}>{lbl[t.doorlooptijden.status]}</span>
+                          </td>
+                          <td>
+                            {t.doorlooptijden.samenvatting}
+                            {t.doorlooptijden.url && (
+                              <>
+                                {' '}
+                                <a href={t.doorlooptijden.url} target="_blank" rel="noopener">
+                                  bron<span aria-hidden="true"> ↗</span>
+                                </a>
+                              </>
+                            )}
+                          </td>
+                        </tr>
+                        {t.aandeelHuisarts && (
+                          <tr>
+                            <th scope="row">Start via huisarts of specialist</th>
+                            <td>
+                              <span class="tp-status s-cijfer">{t.aandeelHuisarts.percentage}%</span>
+                              <span class="meta"> {t.aandeelHuisarts.jaar}</span>
+                            </td>
+                            <td>
+                              Aandeel van de in {t.aandeelHuisarts.jaar} gestarte jeugdhulptrajecten in deze gemeente dat via huisarts, jeugdarts of medisch
+                              specialist begon{t.aandeelHuisarts.landelijk && <>; voor heel Nederland is dat {t.aandeelHuisarts.landelijk}%</>}. Hoger dan
+                              landelijk betekent dat de medische route hier vaker wordt gebruikt dan het gemeentelijke team; lager betekent dat de toegang
+                              vooral via de gemeente loopt. Het zegt niets over de kwaliteit van beide routes.{' '}
+                              <a href={t.aandeelHuisarts.url} target="_blank" rel="noopener">
+                                bron<span aria-hidden="true"> ↗</span>
+                              </a>
+                            </td>
+                          </tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                );
+              })()}
+            <ol class="tijdlijn">
+              {signalen.map((x) => (
+                <li>
+                  <div class="tl-kop">
+                    <span class="badge">{soortLabel[x.soort]}</span> <time datetime={x.datum}>{x.datum}</time>
+                  </div>
+                  <strong>{x.titel}</strong>
+                  <p>
+                    {x.samenvatting}{' '}
+                    <sup>
+                      <a class="bron" href={x.bron.url} target="_blank" rel="noopener">
+                        {x.bron.titel}
+                      </a>
+                    </sup>
+                  </p>
+                </li>
+              ))}
+            </ol>
+            <p class="meta">
+              Gebaseerd op openbare bronnen, geen individuele beoordelingen. Laatst bijgewerkt {d.ervaringen.laatstBijgewerkt}. Kent u een relevante openbare
+              bron? Meld het via GitHub.
+            </p>
+          </details>
+        )}
       </section>
 
-      <Sources bronnen={postadres && !d.rechten.bezwaar.adres && !d.rechten.bezwaar.adresInBesluit ? [...d.meta.bronnen, { titel: 'Register van Overheidsorganisaties (postadres)', url: 'https://organisaties.overheid.nl', geraadpleegd: register.postadresGeraadpleegd }] : d.meta.bronnen} laatstGecontroleerd={d.meta.laatstGecontroleerd} />
+      <Sources
+        bronnen={
+          postadres && !d.rechten.bezwaar.adres && !d.rechten.bezwaar.adresInBesluit
+            ? [
+                ...d.meta.bronnen,
+                { titel: 'Register van Overheidsorganisaties (postadres)', url: 'https://organisaties.overheid.nl', geraadpleegd: postadresGeraadpleegd },
+              ]
+            : d.meta.bronnen
+        }
+        laatstGecontroleerd={d.meta.laatstGecontroleerd}
+      />
     </div>
   </div>
 </Base>

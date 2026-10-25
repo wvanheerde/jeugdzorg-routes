@@ -1,0 +1,16 @@
+# Prettier slaat ook alles uit .gitignore over (dist, node_modules, testuitvoer).
+package-lock.json
+# Inhoud en data: geschreven door onderzoek en redactie, niet door een formatter.
+src/content/
+public/
+docs/
+*.md
+# CSS: één regel per selector, in een vaste volgorde (zie src/styles/global.css).
+src/styles/
+# Verslagen en werkbestanden van agents en persona-tests.
+.claude/
+.impeccable/
+tests/persona/
+scripts/data/
+scripts/onderzoek/
+test-results/

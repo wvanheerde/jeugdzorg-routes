@@ -71,9 +71,7 @@ function tabel(kolommen, rijen, { hoogte = 480, eersteKolomGrijs = true } = {}) 
   const cel = (inhoud, i, { kop = false, grijs = false } = {}) => {
     const shd = kop ? '<w:shd w:val="clear" w:color="auto" w:fill="1F4E5F"/>' : grijs ? '<w:shd w:val="clear" w:color="auto" w:fill="EEF3F4"/>' : '';
     const regels = String(inhoud).split('\n');
-    const ps = regels
-      .map((r) => p(r, { size: kop ? 20 : 20, kleur: kop ? 'FFFFFF' : undefined, na: 0 }))
-      .join('');
+    const ps = regels.map((r) => p(r, { size: kop ? 20 : 20, kleur: kop ? 'FFFFFF' : undefined, na: 0 })).join('');
     return `<w:tc><w:tcPr><w:tcW w:w="${w[i]}" w:type="dxa"/>${shd}</w:tcPr>${ps}</w:tc>`;
   };
   const kopRij = `<w:tr><w:trPr><w:tblHeader/><w:cantSplit/></w:trPr>${kolommen.map((k, i) => cel(`**${k.kop}**`, i, { kop: true })).join('')}</w:tr>`;
@@ -85,9 +83,7 @@ function tabel(kolommen, rijen, { hoogte = 480, eersteKolomGrijs = true } = {}) 
           .join('')}</w:tr>`,
     )
     .join('');
-  const rand = ['top', 'left', 'bottom', 'right', 'insideH', 'insideV']
-    .map((z) => `<w:${z} w:val="single" w:sz="4" w:space="0" w:color="9DB3B9"/>`)
-    .join('');
+  const rand = ['top', 'left', 'bottom', 'right', 'insideH', 'insideV'].map((z) => `<w:${z} w:val="single" w:sz="4" w:space="0" w:color="9DB3B9"/>`).join('');
   return `<w:tbl><w:tblPr><w:tblW w:w="${BREEDTE}" w:type="dxa"/><w:tblBorders>${rand}</w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:top w:w="60" w:type="dxa"/><w:left w:w="100" w:type="dxa"/><w:bottom w:w="60" w:type="dxa"/><w:right w:w="100" w:type="dxa"/></w:tblCellMar></w:tblPr><w:tblGrid>${w
     .map((x) => `<w:gridCol w:w="${x}"/>`)
     .join('')}</w:tblGrid>${kopRij}${body}</w:tbl>${p('', { size: 8, na: 0 })}`;
@@ -108,8 +104,8 @@ const VERZORGING = [
   },
   {
     naam: 'Zindelijkheid',
-    telt: 'Uw kind is overdag én \'s nachts niet zindelijk. Of u moet bij elk wc-bezoek de hele tijd bij uw kind blijven.',
-    niet: 'Alleen \'s nachts een luier. Regelmatig een ongelukje. Hulp bij afvegen of bij de menstruatie. Herinneren dat het naar de wc moet.',
+    telt: "Uw kind is overdag én 's nachts niet zindelijk. Of u moet bij elk wc-bezoek de hele tijd bij uw kind blijven.",
+    niet: "Alleen 's nachts een luier. Regelmatig een ongelukje. Hulp bij afvegen of bij de menstruatie. Herinneren dat het naar de wc moet.",
   },
   {
     naam: 'Eten en drinken',
@@ -141,7 +137,7 @@ const OPPASSING = [
   {
     naam: 'Alleen thuis zijn',
     telt: 'Uw kind kan niet langer dan 30 minuten alleen thuis zijn, door zijn ziekte of stoornis. Het gaat om wat uw kind kán, niet om wat u toestaat.',
-    niet: 'Uw kind kan langer dan 30 minuten alleen zijn. Ook als dat alleen overdag lukt en \'s avonds niet.',
+    niet: "Uw kind kan langer dan 30 minuten alleen zijn. Ook als dat alleen overdag lukt en 's avonds niet.",
   },
   {
     naam: 'Begeleiding buitenshuis',
@@ -176,9 +172,15 @@ function dagpagina(n) {
       { hoogte: 480, eersteKolomGrijs: false },
     ),
     h2('Verzorging'),
-    tabel(ZORGKOLOMMEN, VERZORGING.map((o) => [o.naam, '', '', ERBIJ])),
+    tabel(
+      ZORGKOLOMMEN,
+      VERZORGING.map((o) => [o.naam, '', '', ERBIJ]),
+    ),
     h2('Oppassing (toezicht)'),
-    tabel(ZORGKOLOMMEN, OPPASSING.map((o) => [o.naam, '', '', ERBIJ])),
+    tabel(
+      ZORGKOLOMMEN,
+      OPPASSING.map((o) => [o.naam, '', '', ERBIJ]),
+    ),
     h2('De nacht'),
     tabel(
       [
@@ -197,7 +199,10 @@ function dagpagina(n) {
         { kop: 'Wat deed u?', breedte: 0.33 },
         { kop: 'Hoe lang?', breedte: 0.15 },
       ],
-      [['', '', '', ''], ['', '', '', '']],
+      [
+        ['', '', '', ''],
+        ['', '', '', ''],
+      ],
       { hoogte: 600, eersteKolomGrijs: false },
     ),
     h2('Wat wilt u nog kwijt over vandaag?'),
@@ -220,12 +225,19 @@ const intro = [
   bullet('Vul elke dag één pagina in, op de computer of op papier. Liefst dezelfde dag, of de ochtend erna.'),
   bullet('Schrijf alleen op wat u **extra** doet. Het gewone werk van ouders hoeft er niet in.'),
   bullet('Schrijf op wat u echt doet. Ook wat voor u gewoon is geworden. Maak het niet kleiner dan het is.'),
-  bullet('Kruis bij **Erbij blijven?** aan of u de hele tijd bij uw kind moest blijven, of dat even kijken genoeg was. Dat vindt het CIZ belangrijk. Vult u het in op de computer? Wis dan het antwoord dat niet past.'),
+  bullet(
+    'Kruis bij **Erbij blijven?** aan of u de hele tijd bij uw kind moest blijven, of dat even kijken genoeg was. Dat vindt het CIZ belangrijk. Vult u het in op de computer? Wis dan het antwoord dat niet past.',
+  ),
   bullet('Ging er een onderdeel goed die dag? Laat het vak dan leeg.'),
   bullet('Vul ook de betere dagen in. Ook dan doet u vaak meer dan andere ouders.'),
   h2('Voorbeeld van één regel'),
   tabel(ZORGKOLOMMEN, [
-    ['Lichaamshygiëne', 'Kleding klaarleggen en stap voor stap zeggen wat ze moet doen. Ze raakt in paniek van de sokken, ik trek ze aan.', '2 keer', '☒ hele tijd  ☐ even'],
+    [
+      'Lichaamshygiëne',
+      'Kleding klaarleggen en stap voor stap zeggen wat ze moet doen. Ze raakt in paniek van de sokken, ik trek ze aan.',
+      '2 keer',
+      '☒ hele tijd  ☐ even',
+    ],
     ['Gedrag', 'Woedeaanval na school. Bij haar blijven tot ze rustig was, broertje uit de kamer gehaald.', '1 keer', '☒ hele tijd  ☐ even'],
   ]),
   h2('Over uw kind'),
@@ -255,8 +267,12 @@ const UITLEGKOLOMMEN = [
 const onderdelen = [
   h1('Hoe beslist het CIZ?', { pageBreakBefore: true }),
   p(`Het CIZ gebruikt een [beoordelingskader](${CIZ_KADER}). Hier staat in gewone woorden wat daarin staat. Het CIZ kijkt in twee stappen:`),
-  bullet('**Heeft uw kind een ziekte of stoornis?** Een arts of behandelaar moet dat hebben vastgesteld, bijvoorbeeld een kinderarts of psychiater. Stuur die brief mee. Zonder vastgestelde ziekte of stoornis is het advies van het CIZ negatief.'),
-  bullet('**Hoeveel zorg heeft uw kind nodig?** Het CIZ kijkt naar tien onderdelen: vijf voor verzorging en vijf voor oppassing (toezicht). Bij elk onderdeel beslist het CIZ: telt dit mee, ja of nee.'),
+  bullet(
+    '**Heeft uw kind een ziekte of stoornis?** Een arts of behandelaar moet dat hebben vastgesteld, bijvoorbeeld een kinderarts of psychiater. Stuur die brief mee. Zonder vastgestelde ziekte of stoornis is het advies van het CIZ negatief.',
+  ),
+  bullet(
+    '**Hoeveel zorg heeft uw kind nodig?** Het CIZ kijkt naar tien onderdelen: vijf voor verzorging en vijf voor oppassing (toezicht). Bij elk onderdeel beslist het CIZ: telt dit mee, ja of nee.',
+  ),
   p('Hoeveel onderdelen moeten meetellen? Dat hangt af van de leeftijd van uw kind:'),
   tabel(
     [
@@ -272,16 +288,28 @@ const onderdelen = [
   ),
   h2('Waar let het CIZ op?'),
   bullet('**Moet u erbij blijven, of is af en toe kijken genoeg?** Dat maakt bij bijna elk onderdeel het verschil. Schrijf het daarom steeds op.'),
-  bullet('**Het CIZ telt geen minuten.** Daarom vraagt dit dagboek niet hoeveel minuten elk onderdeel kost. Bij de nacht en moeilijke momenten schrijft u wel op hoe lang het duurde.'),
+  bullet(
+    '**Het CIZ telt geen minuten.** Daarom vraagt dit dagboek niet hoeveel minuten elk onderdeel kost. Bij de nacht en moeilijke momenten schrijft u wel op hoe lang het duurde.',
+  ),
   bullet('**Het gaat om wat uw kind kán.** Niet om wat u uw kind (nog) niet laat doen.'),
   bullet('**Het gaat om zorg die blijft.** Een korte moeilijke periode telt niet.'),
-  p('Op de volgende pagina\'s staat per onderdeel wat meetelt. Herkent u uw kind niet precies? Schrijf toch op wat u doet, en vraag het toch aan. Het CIZ beslist. Ook de voorbeelden bij "meestal niet genoeg" zijn geen harde regels.'),
+  p(
+    'Op de volgende pagina\'s staat per onderdeel wat meetelt. Herkent u uw kind niet precies? Schrijf toch op wat u doet, en vraag het toch aan. Het CIZ beslist. Ook de voorbeelden bij "meestal niet genoeg" zijn geen harde regels.',
+  ),
   h1('Wat telt mee? Verzorging', { pageBreakBefore: true }),
-  tabel(UITLEGKOLOMMEN, VERZORGING.map((o) => [`**${o.naam}**`, o.telt, o.niet])),
+  tabel(
+    UITLEGKOLOMMEN,
+    VERZORGING.map((o) => [`**${o.naam}**`, o.telt, o.niet]),
+  ),
   h1('Wat telt mee? Oppassing (toezicht)', { pageBreakBefore: true }),
-  tabel(UITLEGKOLOMMEN, OPPASSING.map((o) => [`**${o.naam}**`, o.telt, o.niet])),
+  tabel(
+    UITLEGKOLOMMEN,
+    OPPASSING.map((o) => [`**${o.naam}**`, o.telt, o.niet]),
+  ),
   h2('De nacht en moeilijke momenten'),
-  p('Op elke dagpagina staan ook vakken voor de nacht en voor moeilijke momenten. Het CIZ vraagt daar niet apart naar. Schrijf het op bij het onderdeel waar het bij hoort. Bijvoorbeeld: een luier \'s nachts hoort bij zindelijkheid, een woedeaanval bij gedrag. Past het nergens? Schrijf het dan bij **Overige informatie** in het formulier.'),
+  p(
+    "Op elke dagpagina staan ook vakken voor de nacht en voor moeilijke momenten. Het CIZ vraagt daar niet apart naar. Schrijf het op bij het onderdeel waar het bij hoort. Bijvoorbeeld: een luier 's nachts hoort bij zindelijkheid, een woedeaanval bij gedrag. Past het nergens? Schrijf het dan bij **Overige informatie** in het formulier.",
+  ),
 ].join('');
 
 const samenvatting = [
@@ -316,7 +344,10 @@ const samenvatting = [
     hoogte: 2400,
     eersteKolomGrijs: false,
   }),
-  p('Dit dagboek komt van Jeugdzorg Routes (www.jeugdzorg-routes.nl). U mag het delen en aanpassen, niet commercieel (licentie CC BY-NC-SA 4.0).', { size: 18, kleur: '5A6B70' }),
+  p('Dit dagboek komt van Jeugdzorg Routes (www.jeugdzorg-routes.nl). U mag het delen en aanpassen, niet commercieel (licentie CC BY-NC-SA 4.0).', {
+    size: 18,
+    kleur: '5A6B70',
+  }),
 ].join('');
 
 const sectPr =
@@ -353,7 +384,10 @@ const rels = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 const docRels = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rIdStyles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/><Relationship Id="rIdNum" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering" Target="numbering.xml"/><Relationship Id="rIdFooter" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml"/>${links
-  .map((url, i) => `<Relationship Id="rIdLink${i + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="${esc(url)}" TargetMode="External"/>`)
+  .map(
+    (url, i) =>
+      `<Relationship Id="rIdLink${i + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="${esc(url)}" TargetMode="External"/>`,
+  )
   .join('')}</Relationships>`;
 
 const core = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>

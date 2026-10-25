@@ -14,54 +14,66 @@
  */
 import { leesDatum } from './termijnen';
 
-export const koppelDatumvelden = () => document.querySelectorAll<HTMLElement>('.th-veld:not([data-gekoppeld])').forEach((veld) => {
-  veld.setAttribute('data-gekoppeld', '');
-  const tekst = veld.querySelector<HTMLInputElement>('[data-th-invoer]')!;
-  const datum = veld.querySelector<HTMLInputElement>('[data-th-datum]')!;
-  const iso = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-  const grens = (jaren?: string) => { if (!jaren) return ''; const d = new Date(); d.setFullYear(d.getFullYear() + +jaren); return iso(d); };
-  datum.min = grens(veld.dataset.minJaren);
-  datum.max = grens(veld.dataset.maxJaren);
-  // Alleen als de waarde anders is: een kalender die al opengaat, kan sluiten als het veld eronder verandert (Firefox).
-  const neemOver = () => {
-    const d = leesDatum(tekst.value);
-    const nieuw = d ? iso(d) : grens(veld.dataset.startJaren);
-    if (datum.value !== nieuw) datum.value = nieuw;
-  };
-  // Typen: na de dag en de maand komt vanzelf een streepje (1402 → 14-02-). Alleen bij typen, niet bij wissen of plakken.
-  // Typt de ouder zelf ook een streepje (of punt, schuine streep, spatie), dan telt dat niet dubbel: 01-10-2026 blijft 01-10-2026.
-  tekst.addEventListener('input', (e) => {
-    if ((e as InputEvent).inputType !== 'insertText') return;
-    if (/^(\d{2}-|\d{2}-\d{2}-)[-./ ]$/.test(tekst.value)) tekst.value = tekst.value.slice(0, -1);
-    else if (/^\d{2}$|^\d{2}-\d{2}$/.test(tekst.value)) tekst.value += '-';
-  });
-  if (matchMedia('(pointer: coarse)').matches) {
-    veld.classList.add('th-aanraak');
-    datum.addEventListener('pointerdown', neemOver);
-  } else {
-    veld.querySelector('[data-th-kalender]')?.addEventListener('click', () => {
-      neemOver();
-      try { (datum as any).showPicker(); } catch { datum.focus(); /* geen showPicker: dan typt de ouder de datum */ }
+export const koppelDatumvelden = () =>
+  document.querySelectorAll<HTMLElement>('.th-veld:not([data-gekoppeld])').forEach((veld) => {
+    veld.setAttribute('data-gekoppeld', '');
+    const tekst = veld.querySelector<HTMLInputElement>('[data-th-invoer]')!;
+    const datum = veld.querySelector<HTMLInputElement>('[data-th-datum]')!;
+    const iso = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    const grens = (jaren?: string) => {
+      if (!jaren) return '';
+      const d = new Date();
+      d.setFullYear(d.getFullYear() + +jaren);
+      return iso(d);
+    };
+    datum.min = grens(veld.dataset.minJaren);
+    datum.max = grens(veld.dataset.maxJaren);
+    // Alleen als de waarde anders is: een kalender die al opengaat, kan sluiten als het veld eronder verandert (Firefox).
+    const neemOver = () => {
+      const d = leesDatum(tekst.value);
+      const nieuw = d ? iso(d) : grens(veld.dataset.startJaren);
+      if (datum.value !== nieuw) datum.value = nieuw;
+    };
+    // Typen: na de dag en de maand komt vanzelf een streepje (1402 → 14-02-). Alleen bij typen, niet bij wissen of plakken.
+    // Typt de ouder zelf ook een streepje (of punt, schuine streep, spatie), dan telt dat niet dubbel: 01-10-2026 blijft 01-10-2026.
+    tekst.addEventListener('input', (e) => {
+      if ((e as InputEvent).inputType !== 'insertText') return;
+      if (/^(\d{2}-|\d{2}-\d{2}-)[-./ ]$/.test(tekst.value)) tekst.value = tekst.value.slice(0, -1);
+      else if (/^\d{2}$|^\d{2}-\d{2}$/.test(tekst.value)) tekst.value += '-';
     });
-  }
-  // Uit de kalender: meteen in het tekstveld, doorgeven na even stilstaan of bij het sluiten van de kalender.
-  let wacht: ReturnType<typeof setTimeout> | undefined;
-  const geefDoor = () => {
-    clearTimeout(wacht);
-    wacht = undefined;
-    tekst.dispatchEvent(new Event('input', { bubbles: true }));
-  };
-  const uitKalender = () => {
-    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(datum.value);
-    // Leeg: gewist in de kalender van het toestel (iOS "Wis").
-    if (!m && (datum.value || !tekst.value)) return;
-    const nieuw = m ? `${m[3]}-${m[2]}-${m[1]}` : '';
-    if (nieuw === tekst.value) return;
-    tekst.value = nieuw;
-    clearTimeout(wacht);
-    wacht = setTimeout(geefDoor, 800);
-  };
-  datum.addEventListener('input', uitKalender);
-  datum.addEventListener('change', uitKalender);
-  datum.addEventListener('blur', () => { if (wacht !== undefined) geefDoor(); });
-});
+    if (matchMedia('(pointer: coarse)').matches) {
+      veld.classList.add('th-aanraak');
+      datum.addEventListener('pointerdown', neemOver);
+    } else {
+      veld.querySelector('[data-th-kalender]')?.addEventListener('click', () => {
+        neemOver();
+        try {
+          (datum as any).showPicker();
+        } catch {
+          datum.focus(); /* geen showPicker: dan typt de ouder de datum */
+        }
+      });
+    }
+    // Uit de kalender: meteen in het tekstveld, doorgeven na even stilstaan of bij het sluiten van de kalender.
+    let wacht: ReturnType<typeof setTimeout> | undefined;
+    const geefDoor = () => {
+      clearTimeout(wacht);
+      wacht = undefined;
+      tekst.dispatchEvent(new Event('input', { bubbles: true }));
+    };
+    const uitKalender = () => {
+      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(datum.value);
+      // Leeg: gewist in de kalender van het toestel (iOS "Wis").
+      if (!m && (datum.value || !tekst.value)) return;
+      const nieuw = m ? `${m[3]}-${m[2]}-${m[1]}` : '';
+      if (nieuw === tekst.value) return;
+      tekst.value = nieuw;
+      clearTimeout(wacht);
+      wacht = setTimeout(geefDoor, 800);
+    };
+    datum.addEventListener('input', uitKalender);
+    datum.addEventListener('change', uitKalender);
+    datum.addEventListener('blur', () => {
+      if (wacht !== undefined) geefDoor();
+    });
+  });

@@ -1,14 +1,27 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import Icon from './Icon.astro';
+import { base } from '../site';
 /** zoek: een vraag achter de link, zoals ?klacht=wachten (dan staat die klacht in de brief al aan). */
-interface Props { b: CollectionEntry<'brieven'>; zoek?: string }
+interface Props {
+  b: CollectionEntry<'brieven'>;
+  zoek?: string;
+}
 const { b, zoek = '' } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const aan: Record<string, string> = { school: 'Aan school', gemeente: 'Aan de gemeente', wijkteam: 'Aan het wijkteam', huisarts: 'Aan de huisarts of jeugdarts', aanbieder: 'Aan de hulpverlener', overig: 'Aan meerdere partijen' };
+const aan: Record<string, string> = {
+  school: 'Aan school',
+  gemeente: 'Aan de gemeente',
+  wijkteam: 'Aan het wijkteam',
+  huisarts: 'Aan de huisarts of jeugdarts',
+  aanbieder: 'Aan de hulpverlener',
+  overig: 'Aan meerdere partijen',
+};
 ---
+
 <a class="card link" href={`${base}/brieven/${b.id}/${zoek}`} data-brief-kaart={b.id} data-aan={b.data.aan}>
-  <div class="icon"><Icon name="file" /></div>
+  <div class="icon">
+    <Icon name="file" />
+  </div>
   <span class="badge">{aan[b.data.aan]}</span>
   <h3 style="margin-top:.6rem">{b.data.titel}</h3>
   <p class="meta">{b.data.wanneer}</p>

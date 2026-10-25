@@ -9,12 +9,14 @@ import { therapieVolgorde, VORMEN_LIJST_MAX, hulpsoortenVoor } from '../../lib/t
 import SpoedNummers from '../../components/SpoedNummers.astro';
 import BriefKaart from '../../components/BriefKaart.astro';
 import { getCollection, getEntry, render } from 'astro:content';
+import { gesorteerd } from '../../lib/collecties';
 import { routeLabel, koppelThemas, datum } from '../../lib/routes';
 import HulpsoortKaart from '../../components/HulpsoortKaart.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
 import { genoemdIn } from '../../lib/genoemd';
 import OrgRegel from '../../components/OrgRegel.astro';
+import { base } from '../../site';
 
 export async function getStaticPaths() {
   const situaties = await getCollection('situaties');
@@ -22,24 +24,24 @@ export async function getStaticPaths() {
 }
 const { s } = Astro.props;
 const d = s.data;
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const { Content } = await render(s);
 const alleOrganisaties = await getCollection('organisaties');
-
 
 const landelijk = (await Promise.all(d.landelijk.map((id) => getEntry('landelijk', id)))).filter(Boolean);
 const kt = koppelThemas(d.themas);
 const matchT = (themas: string[]) => themas.some((t) => kt.includes(t));
-const organisaties = (await getCollection('organisaties')).filter((o) => matchT(o.data.themas)).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const organisaties = (await gesorteerd('organisaties')).filter((o) => matchT(o.data.themas));
 const alleVormen = await getCollection('therapievormen');
 const hulpsoorten = (await Promise.all(hulpsoortenVoor(s, alleVormen).map((id) => getEntry('hulpsoorten', id)))).filter(Boolean);
 const therapie = therapieVolgorde(s, alleVormen);
 // Hulpsoorten met veel vormen (Behandeling) linken op deze pagina naar de vormen voor deze situatie, niet naar de algemene lijst.
 // "Trauma" → "trauma", maar "ADHD en ADD" blijft staan.
 const inZin = (t: string) => (/^\p{Lu}\p{Ll}/u.test(t) ? t[0].toLowerCase() + t.slice(1) : t);
-const naarTherapie = (id: string) => alleVormen.filter((t) => t.data.hulpsoorten.includes(id)).length > VORMEN_LIJST_MAX && therapie.some((t) => t.data.hulpsoorten.includes(id));
-const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.includes(s.id)).sort((a, c) => a.data.volgorde - c.data.volgorde);
+const naarTherapie = (id: string) =>
+  alleVormen.filter((t) => t.data.hulpsoorten.includes(id)).length > VORMEN_LIJST_MAX && therapie.some((t) => t.data.hulpsoorten.includes(id));
+const brieven = (await gesorteerd('brieven')).filter((b) => b.data.situaties.includes(s.id));
 ---
+
 <Base title={d.titel} description={d.samenvatting}>
   <div class="page-head">
     <span class="eyebrow">Situatie</span>
@@ -48,18 +50,46 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
     <span hidden data-pagefind-meta={`herkenning:${d.herkenning}`}></span>
     <p class="lead">{d.samenvatting}</p>
     {/* Zoekvormen in een attribuut: Pagefind indexeert het (data-pagefind-index-attrs), op de pagina staat het niet. */}
-    {d.zoekwoorden.length > 0 && <p class="meta zoekwoorden" data-pagefind-weight="10" data-pagefind-index-attrs={d.zoekvormen.length ? 'data-zoekvormen' : undefined} data-zoekvormen={d.zoekvormen.length ? d.zoekvormen.join(' ') : undefined} data-pagefind-meta={`zoekwoorden:${[...d.zoekwoorden, ...d.zoekvormen].join('|')}`}>Ook bij: {d.zoekwoorden.join(', ')}.</p>}
-    <div class="chips" style="margin-top:.75rem"><span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span></div>
+    {d.zoekwoorden.length > 0 && (
+      <p
+        class="meta zoekwoorden"
+        data-pagefind-weight="10"
+        data-pagefind-index-attrs={d.zoekvormen.length ? 'data-zoekvormen' : undefined}
+        data-zoekvormen={d.zoekvormen.length ? d.zoekvormen.join(' ') : undefined}
+        data-pagefind-meta={`zoekwoorden:${[...d.zoekwoorden, ...d.zoekvormen].join('|')}`}
+      >
+        Ook bij: {d.zoekwoorden.join(', ')}.
+      </p>
+    )}
+    <div class="chips" style="margin-top:.75rem">
+      <span class="chip">Bijgewerkt {datum(d.laatstGecontroleerd)}</span>
+    </div>
     {d.landelijk.includes('05-financieel') && (
-      <div class="notice geld-hint"><Icon name="euro" /><div>Veel extra zorg thuis? Misschien heeft u recht op <strong>dubbele kinderbijslag</strong> of andere regelingen. <a href={`${base}/landelijk/#05-financieel`}>Lees wat er is en hoe u het aanvraagt</a>.</div></div>
+      <div class="notice geld-hint">
+        <Icon name="euro" />
+        <div>
+          Veel extra zorg thuis? Misschien heeft u recht op <strong>dubbele kinderbijslag</strong> of andere regelingen.{' '}
+          <a href={`${base}/landelijk/#05-financieel`}>Lees wat er is en hoe u het aanvraagt</a>.
+        </div>
+      </div>
     )}
   </div>
 
   <div class="section" id="gemeente">
-    <h2><span class="section-num" data-pagefind-ignore>·</span>In uw gemeente</h2>
+    <h2>
+      <span class="section-num" data-pagefind-ignore>
+        ·
+      </span>
+      In uw gemeente
+    </h2>
     <GemeenteKeuze />
-    <p class="meta gemeente-blok" data-gemeente="" hidden>Kies uw gemeente; de contactgegevens verschijnen dan bij de routes hieronder.</p>
-    <p class="meta gemeente-blok" data-gemeente="_overig" hidden>Uw gemeente staat nog niet op deze site. De routes hieronder gelden overal; de naam van het toegangsteam vindt u op de website van uw gemeente (zoek op "jeugdhulp" of "wijkteam").</p>
+    <p class="meta gemeente-blok" data-gemeente="" hidden>
+      Kies uw gemeente; de contactgegevens verschijnen dan bij de routes hieronder.
+    </p>
+    <p class="meta gemeente-blok" data-gemeente="_overig" hidden>
+      Uw gemeente staat nog niet op deze site. De routes hieronder gelden overal; de naam van het toegangsteam vindt u op de website van uw gemeente (zoek op
+      "jeugdhulp" of "wijkteam").
+    </p>
     <!-- De blokken van de gekozen gemeente (data-gemeente-slot) komen uit src/pages/gemeente-blokken/[slug].astro, opgehaald door src/lib/gemeente-blokken.ts. -->
     <div data-gemeente-slot="situatie-intro"></div>
   </div>
@@ -68,19 +98,42 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
     <aside class="side">
       <nav aria-label="Inhoud">
         <strong>Op deze pagina</strong>
-        <a href="#gemeente"><span class="n">·</span>In uw gemeente</a>
-        <a href="#routes"><span class="n">1</span>Welke route?</a>
-        <a href="#uitleg"><span class="n">2</span>Wat helpt</a>
-        <a href="#hulp"><span class="n">3</span>Welke hulp?</a>
-        <a href="#therapie"><span class="n">4</span>Therapievormen</a>
-        <a href="#regelingen"><span class="n">5</span>Rechten en regelingen</a>
-        <a href="#organisaties"><span class="n">6</span>Organisaties</a>
-        {brieven.length > 0 && <a href="#brieven"><span class="n">7</span>Voorbeeldbrieven</a>}
+        <a href="#gemeente">
+          <span class="n">·</span>In uw gemeente
+        </a>
+        <a href="#routes">
+          <span class="n">1</span>Welke route?
+        </a>
+        <a href="#uitleg">
+          <span class="n">2</span>Wat helpt
+        </a>
+        <a href="#hulp">
+          <span class="n">3</span>Welke hulp?
+        </a>
+        <a href="#therapie">
+          <span class="n">4</span>Therapievormen
+        </a>
+        <a href="#regelingen">
+          <span class="n">5</span>Rechten en regelingen
+        </a>
+        <a href="#organisaties">
+          <span class="n">6</span>Organisaties
+        </a>
+        {brieven.length > 0 && (
+          <a href="#brieven">
+            <span class="n">7</span>Voorbeeldbrieven
+          </a>
+        )}
       </nav>
     </aside>
     <div>
       <section class="section" id="routes">
-        <h2><span class="section-num" data-pagefind-ignore>1</span>Welke route is logisch?</h2>
+        <h2>
+          <span class="section-num" data-pagefind-ignore>
+            1
+          </span>
+          Welke route is logisch?
+        </h2>
         {d.routes.map((r, i) => (
           <div class={`route ${r.type}`}>
             {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>
@@ -91,42 +144,110 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
             <div data-gemeente-slot={`route-${r.type}`}></div>
           </div>
         ))}
-        <p class="meta">De eerste route is in deze situatie meestal de beste start, maar alle routes staan open; u mag kiezen. <a href={`${base}/landelijk/#02-toegang`}>Meer over toegang</a>.</p>
+        <p class="meta">
+          De eerste route is in deze situatie meestal de beste start, maar alle routes staan open; u mag kiezen.{' '}
+          <a href={`${base}/landelijk/#02-toegang`}>Meer over toegang</a>.
+        </p>
       </section>
 
       <section class="section prose" id="uitleg">
-        <h2><span class="section-num" data-pagefind-ignore>2</span>Wat helpt, en waar het vaak misgaat</h2>
+        <h2>
+          <span class="section-num" data-pagefind-ignore>
+            2
+          </span>
+          Wat helpt, en waar het vaak misgaat
+        </h2>
         <Content />
       </section>
 
       <section class="section" id="hulp">
-        <h2><span class="section-num" data-pagefind-ignore>3</span>Welke hulp bestaat er?</h2>
+        <h2>
+          <span class="section-num" data-pagefind-ignore>
+            3
+          </span>
+          Welke hulp bestaat er?
+        </h2>
         <ToegangLegenda />
-        <div class="grid">
-          {hulpsoorten.map((h) => h && (
-            <HulpsoortKaart h={h} naarTherapie={naarTherapie(h.id) ? inZin(d.titel) : undefined} />
-          ))}
-        </div>
-        <p class="meta" style="margin-top:1rem"><a href={`${base}/situaties/#hulpsoorten`}>Alle hulpsoorten</a></p>
+        <div class="grid">{hulpsoorten.map((h) => h && <HulpsoortKaart h={h} naarTherapie={naarTherapie(h.id) ? inZin(d.titel) : undefined} />)}</div>
+        <p class="meta" style="margin-top:1rem">
+          <a href={`${base}/situaties/#hulpsoorten`}>Alle hulpsoorten</a>
+        </p>
       </section>
 
       <section class="section" id="therapie">
-        <h2><span class="section-num" data-pagefind-ignore>4</span>Welke therapievormen kunnen passen?</h2>
-        <p class="meta">Een therapievorm is de manier van werken binnen de hulp hierboven, meestal binnen behandeling; op de pagina van elke vorm staat waar die onder valt. Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar. <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.</p>
-        {therapie.length === 0 ? <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p> : <div class="grid gelijk">{therapie.map((t) => <TherapieKaart t={t} />)}</div>}
+        <h2>
+          <span class="section-num" data-pagefind-ignore>
+            4
+          </span>
+          Welke therapievormen kunnen passen?
+        </h2>
+        <p class="meta">
+          Een therapievorm is de manier van werken binnen de hulp hierboven, meestal binnen behandeling; op de pagina van elke vorm staat waar die onder valt.
+          Gangbare vormen uit richtlijnen en de NJi-databank; niet volledig, en welke past beslist u met de verwijzer of behandelaar.{' '}
+          <a href={`${base}/therapievormen/`}>Alle therapievormen</a>.
+        </p>
+        {therapie.length === 0 ? (
+          <p class="empty">Nog geen therapievormen gekoppeld aan deze situatie.</p>
+        ) : (
+          <div class="grid gelijk">
+            {therapie.map((t) => (
+              <TherapieKaart t={t} />
+            ))}
+          </div>
+        )}
       </section>
 
       <section class="section" id="regelingen">
-        <h2><span class="section-num" data-pagefind-ignore>5</span>Rechten en regelingen</h2>
+        <h2>
+          <span class="section-num" data-pagefind-ignore>
+            5
+          </span>
+          Rechten en regelingen
+        </h2>
         {d.regelingen.length > 0 && (
-          <ul class="linklist">{d.regelingen.map((r) => <li>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>)}</ul>
+          <ul class="linklist">
+            {d.regelingen.map((r) => (
+              <li>
+                {r.url ? (
+                  <a href={r.url} target="_blank" rel="noopener">
+                    <Icon name="external" />
+                    {r.naam}
+                  </a>
+                ) : (
+                  <strong>{r.naam}</strong>
+                )}
+                <p>{r.toelichting}</p>
+              </li>
+            ))}
+          </ul>
         )}
-        {landelijk.length > 0 && (<><h3>Landelijke uitleg</h3><ul>{landelijk.map((l) => l && <li><a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}</li>)}</ul></>)}
+        {landelijk.length > 0 && (
+          <>
+            <h3>Landelijke uitleg</h3>
+            <ul>
+              {landelijk.map(
+                (l) =>
+                  l && (
+                    <li>
+                      <a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}
+                    </li>
+                  ),
+              )}
+            </ul>
+          </>
+        )}
       </section>
 
       <section class="section" id="organisaties">
-        <h2><span class="section-num" data-pagefind-ignore>6</span>Organisaties die hierbij passen</h2>
-        {organisaties.length === 0 ? <p class="empty">Nog geen organisaties gekoppeld.</p> : (
+        <h2>
+          <span class="section-num" data-pagefind-ignore>
+            6
+          </span>
+          Organisaties die hierbij passen
+        </h2>
+        {organisaties.length === 0 ? (
+          <p class="empty">Nog geen organisaties gekoppeld.</p>
+        ) : (
           <div class="grid">
             {organisaties.map((o) => (
               <div class="card">
@@ -142,9 +263,20 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
 
       {brieven.length > 0 && (
         <section class="section" id="brieven">
-          <h2><span class="section-num" data-pagefind-ignore>7</span>Voorbeeldbrieven</h2>
-          <p class="meta">Bij deze situatie horen deze kant-en-klare teksten om een gesprek, hulp of bezwaar schriftelijk aan te vragen. Invullen, kopiëren, versturen.</p>
-          <div class="grid">{brieven.map((b) => <BriefKaart b={b} />)}</div>
+          <h2>
+            <span class="section-num" data-pagefind-ignore>
+              7
+            </span>
+            Voorbeeldbrieven
+          </h2>
+          <p class="meta">
+            Bij deze situatie horen deze kant-en-klare teksten om een gesprek, hulp of bezwaar schriftelijk aan te vragen. Invullen, kopiëren, versturen.
+          </p>
+          <div class="grid">
+            {brieven.map((b) => (
+              <BriefKaart b={b} />
+            ))}
+          </div>
         </section>
       )}
 
@@ -154,13 +286,16 @@ const brieven = (await getCollection('brieven')).filter((b) => b.data.situaties.
 </Base>
 <script>
   import { laadGemeente } from '../../lib/gemeente-blokken';
+  import { OPSLAG, uitUrlOfOpslag } from '../../lib/opslag';
   const show = (id: string) => {
-    document.querySelectorAll<HTMLElement>('.gemeente-blok').forEach((b) => { b.hidden = b.dataset.gemeente !== id; });
+    document.querySelectorAll<HTMLElement>('.gemeente-blok').forEach((b) => {
+      b.hidden = b.dataset.gemeente !== id;
+    });
     const any = Array.from(document.querySelectorAll<HTMLElement>('.gemeente-blok')).some((b) => !b.hidden);
     if (!any) document.querySelector<HTMLElement>('.gemeente-blok[data-gemeente=""]')!.hidden = false;
   };
   const kies = (id: string) => laadGemeente(id).then((ok) => ok && show(id));
   document.addEventListener('jr:gemeente', (e) => kies((e as CustomEvent).detail));
   // Beginstand: URL of eerder gekozen gemeente.
-  kies(new URLSearchParams(location.search).get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '');
+  kies(uitUrlOfOpslag('gemeente', OPSLAG.gemeente));
 </script>

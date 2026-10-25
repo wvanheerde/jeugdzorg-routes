@@ -9,46 +9,74 @@
  *   het besluit (jr.afgewezen), dan staan die er meteen in en is de rekenhulp open.
  */
 import DatumVeld from './DatumVeld.astro';
-interface Props { soort: 'bezwaar' | 'besluit'; brief?: string; inBrief?: boolean }
+interface Props {
+  soort: 'bezwaar' | 'besluit';
+  brief?: string;
+  inBrief?: boolean;
+}
 const { soort, brief, inBrief = false } = Astro.props;
 // Eigen id per veld, zodat alleen het label en het veld zelf de kalender openen (niet de ruimte ernaast).
 const uid = Math.random().toString(36).slice(2, 8);
 ---
+
 <details class="termijnhulp" data-termijnhulp={soort} data-in-brief={inBrief ? '' : undefined}>
-  {soort === 'bezwaar'
-    ? <summary>Reken uit tot wanneer u bezwaar kunt maken</summary>
-    : <summary>Reken uit wanneer de gemeente moet beslissen</summary>}
+  {soort === 'bezwaar' ? <summary>Reken uit tot wanneer u bezwaar kunt maken</summary> : <summary>Reken uit wanneer de gemeente moet beslissen</summary>}
   {soort === 'bezwaar' ? (
     <div class="th-blok">
-      <div class="th-label"><label for={`th-besluit-${uid}`}>Datum op het besluit</label><DatumVeld id={`th-besluit-${uid}`} invoer="besluit" /></div>
+      <div class="th-label">
+        <label for={`th-besluit-${uid}`}>Datum op het besluit</label>
+        <DatumVeld id={`th-besluit-${uid}`} invoer="besluit" />
+      </div>
       <div class="th-uitkomst" data-th-uitkomst="besluit" aria-live="polite" hidden></div>
     </div>
-  ) : (<>
-    <div class="th-blok">
-      <div class="th-label"><label for={`th-aanvraag-${uid}`}>Datum waarop de gemeente uw aanvraag kreeg</label><DatumVeld id={`th-aanvraag-${uid}`} invoer="aanvraag" /></div>
-      <div class="th-uitkomst" data-th-uitkomst="aanvraag" aria-live="polite" hidden></div>
-      {brief && <p class="th-brief" data-th-brief hidden><a href={brief}>Voorbeeldbrief ingebrekestelling →</a></p>}
-    </div>
-    <div class="th-blok">
-      <div class="th-label"><label for={`th-ingebreke-${uid}`}>Al een ingebrekestelling gestuurd? Datum waarop de gemeente die kreeg</label><DatumVeld id={`th-ingebreke-${uid}`} invoer="ingebreke" /></div>
-      <div class="th-uitkomst" data-th-uitkomst="ingebreke" aria-live="polite" hidden></div>
-    </div>
-  </>)}
-  <p class="th-noot">Valt de laatste dag in het weekend of op een feestdag, dan geldt de eerstvolgende werkdag. Dit is een hulpmiddel, geen juridisch advies.</p>
+  ) : (
+    <>
+      <div class="th-blok">
+        <div class="th-label">
+          <label for={`th-aanvraag-${uid}`}>Datum waarop de gemeente uw aanvraag kreeg</label>
+          <DatumVeld id={`th-aanvraag-${uid}`} invoer="aanvraag" />
+        </div>
+        <div class="th-uitkomst" data-th-uitkomst="aanvraag" aria-live="polite" hidden></div>
+        {brief && (
+          <p class="th-brief" data-th-brief hidden>
+            <a href={brief}>Voorbeeldbrief ingebrekestelling →</a>
+          </p>
+        )}
+      </div>
+      <div class="th-blok">
+        <div class="th-label">
+          <label for={`th-ingebreke-${uid}`}>Al een ingebrekestelling gestuurd? Datum waarop de gemeente die kreeg</label>
+          <DatumVeld id={`th-ingebreke-${uid}`} invoer="ingebreke" />
+        </div>
+        <div class="th-uitkomst" data-th-uitkomst="ingebreke" aria-live="polite" hidden></div>
+      </div>
+    </>
+  )}
+  <p class="th-noot">
+    Valt de laatste dag in het weekend of op een feestdag, dan geldt de eerstvolgende werkdag. Dit is een hulpmiddel, geen juridisch advies.
+  </p>
 </details>
 
 <script>
   import { bezwaarTot, beslissenTot, naIngebrekestelling, volgendeDag, dagenTot, leesDatum, schrijf } from '../lib/termijnen';
   import { koppelDatumvelden } from '../lib/datumveld';
+  import { OPSLAG, leesJson } from '../lib/opslag';
 
-  const zet = (el: HTMLElement | null, html: string | null) => { if (!el) return; el.hidden = !html; el.innerHTML = html ?? ''; };
+  const zet = (el: HTMLElement | null, html: string | null) => {
+    if (!el) return;
+    el.hidden = !html;
+    el.innerHTML = html ?? '';
+  };
   // Pas een melding als er genoeg getypt is om een datum te zijn; tijdens het typen niets.
   const fout = (s: string) => (s.replace(/\D/g, '').length >= 8 ? '<p>Vul de datum in als dd-mm-jjjj, bijvoorbeeld 03-10-2026.</p>' : null);
   // Op de briefpagina gaat de datum ook de brief in; de briefpagina luistert naar dit event.
   const naarBrief = (blok: HTMLElement, veld: string, d: Date | null, termijn?: Date) =>
     blok.hasAttribute('data-in-brief') && document.dispatchEvent(new CustomEvent('jr:termijn', { detail: { veld, d, termijn } }));
   const inBriefNoot = (blok: HTMLElement) => (blok.hasAttribute('data-in-brief') ? '<p class="meta">De datum staat nu ook in de brief hieronder.</p>' : '');
-  const nog = (d: Date) => { const n = dagenTot(d); return n > 1 ? `Dat is over ${n} dagen.` : n === 1 ? 'Dat is morgen.' : n === 0 ? 'Dat is vandaag.' : ''; };
+  const nog = (d: Date) => {
+    const n = dagenTot(d);
+    return n > 1 ? `Dat is over ${n} dagen.` : n === 1 ? 'Dat is morgen.' : n === 0 ? 'Dat is vandaag.' : '';
+  };
 
   // Kalenderknop en dd-mm-jjjj: zie lib/datumveld.ts.
   koppelDatumvelden();
@@ -62,22 +90,35 @@ const uid = Math.random().toString(36).slice(2, 8);
       naarBrief(blok, 'besluit', d);
       if (!d) return zet(uit('besluit'), fout((e.target as HTMLInputElement).value));
       const tot = bezwaarTot(d);
-      zet(uit('besluit'), dagenTot(tot) >= 0
-        ? `<p><strong>Uw bezwaar moet uiterlijk ${schrijf(tot)} binnen zijn.</strong> ${nog(tot)}</p><p>Verstuur het liever een paar dagen eerder. Het bezwaar mag kort zijn: uw redenen kunt u later aanvullen.</p>${inBriefNoot(blok)}`
-        : `<p><strong>De termijn liep tot en met ${schrijf(tot)}.</strong></p><p>Stuur toch een bezwaar en leg uit waarom het later is. De gemeente beslist of ze het nog behandelt.</p>${inBriefNoot(blok)}`);
+      zet(
+        uit('besluit'),
+        dagenTot(tot) >= 0
+          ? `<p><strong>Uw bezwaar moet uiterlijk ${schrijf(tot)} binnen zijn.</strong> ${nog(tot)}</p><p>Verstuur het liever een paar dagen eerder. Het bezwaar mag kort zijn: uw redenen kunt u later aanvullen.</p>${inBriefNoot(blok)}`
+          : `<p><strong>De termijn liep tot en met ${schrijf(tot)}.</strong></p><p>Stuur toch een bezwaar en leg uit waarom het later is. De gemeente beslist of ze het nog behandelt.</p>${inBriefNoot(blok)}`,
+      );
     });
 
     const brief = blok.querySelector<HTMLElement>('[data-th-brief]');
     invoer('aanvraag')?.addEventListener('input', (e) => {
       const d = leesDatum((e.target as HTMLInputElement).value);
-      if (!d) { naarBrief(blok, 'aanvraag', null); if (brief) brief.hidden = true; return zet(uit('aanvraag'), fout((e.target as HTMLInputElement).value)); }
+      if (!d) {
+        naarBrief(blok, 'aanvraag', null);
+        if (brief) brief.hidden = true;
+        return zet(uit('aanvraag'), fout((e.target as HTMLInputElement).value));
+      }
       const tot = beslissenTot(d);
       naarBrief(blok, 'aanvraag', d, tot);
       const vanaf = volgendeDag(tot);
       const voorbij = dagenTot(vanaf) <= 0;
-      zet(uit('aanvraag'), `<p><strong>De gemeente moet in de regel uiterlijk ${schrijf(tot)} beslissen.</strong> ${voorbij ? '' : nog(tot)}</p>`
-        + `<p>Heeft de gemeente u laten weten dat het langer duurt? Dan geldt die datum.</p>`
-        + (voorbij ? `<p><strong>Is er nog geen besluit? Dan kunt u de gemeente nu in gebreke stellen.</strong></p>` : `<p><strong>Vanaf ${schrijf(vanaf)} kunt u de gemeente in gebreke stellen</strong>, als er dan nog geen besluit is.</p>`) + inBriefNoot(blok));
+      zet(
+        uit('aanvraag'),
+        `<p><strong>De gemeente moet in de regel uiterlijk ${schrijf(tot)} beslissen.</strong> ${voorbij ? '' : nog(tot)}</p>` +
+          `<p>Heeft de gemeente u laten weten dat het langer duurt? Dan geldt die datum.</p>` +
+          (voorbij
+            ? `<p><strong>Is er nog geen besluit? Dan kunt u de gemeente nu in gebreke stellen.</strong></p>`
+            : `<p><strong>Vanaf ${schrijf(vanaf)} kunt u de gemeente in gebreke stellen</strong>, als er dan nog geen besluit is.</p>`) +
+          inBriefNoot(blok),
+      );
       if (brief) brief.hidden = false;
     });
 
@@ -85,19 +126,28 @@ const uid = Math.random().toString(36).slice(2, 8);
       const d = leesDatum((e.target as HTMLInputElement).value);
       if (!d) return zet(uit('ingebreke'), fout((e.target as HTMLInputElement).value));
       const { laatsteDag, vanaf } = naIngebrekestelling(d);
-      zet(uit('ingebreke'), `<p><strong>De gemeente heeft tot en met ${schrijf(laatsteDag)} om alsnog te beslissen.</strong></p>`
-        + `<p>Blijft het besluit uit, dan kunt u vanaf ${schrijf(vanaf)} de rechter vragen om de gemeente te laten beslissen. U hoeft dan niet eerst bezwaar te maken.</p>`
-        + `<p>U heeft dan ook recht op een dwangsom van hooguit € 1.442. Gemeenten betalen die niet altijd uit zichzelf; vraag er dan schriftelijk om.</p>`);
+      zet(
+        uit('ingebreke'),
+        `<p><strong>De gemeente heeft tot en met ${schrijf(laatsteDag)} om alsnog te beslissen.</strong></p>` +
+          `<p>Blijft het besluit uit, dan kunt u vanaf ${schrijf(vanaf)} de rechter vragen om de gemeente te laten beslissen. U hoeft dan niet eerst bezwaar te maken.</p>` +
+          `<p>U heeft dan ook recht op een dwangsom van hooguit € 1.442. Gemeenten betalen die niet altijd uit zichzelf; vraag er dan schriftelijk om.</p>`,
+      );
     });
   });
 
   // Datums uit de verdiepingen "Wij wachten te lang" en "Hulp is afgewezen of te weinig" (Mijn overzicht), zodat de ouder ze niet
   // twee keer invult. Pas na het laden van alle scripts: dan luistert de briefpagina al naar jr:termijn.
   const uitOverzicht = () => {
-    const lees = (key: string) => { try { return JSON.parse(localStorage.getItem(key) ?? '{}'); } catch { return {}; } };
-    const w = lees('jr.wachten'), a = lees('jr.afgewezen');
+    const w = leesJson(OPSLAG.wachten),
+      a = leesJson(OPSLAG.afgewezen);
     const datums: Record<string, [string, unknown][]> = {
-      besluit: w.op === 'gemeente' ? [['aanvraag', w.aanvraag], ['ingebreke', w.ingebreke]] : [],
+      besluit:
+        w.op === 'gemeente'
+          ? [
+              ['aanvraag', w.aanvraag],
+              ['ingebreke', w.ingebreke],
+            ]
+          : [],
       bezwaar: [['besluit', a.datum]],
     };
     document.querySelectorAll<HTMLDetailsElement>('[data-termijnhulp][data-in-brief]').forEach((blok) => {
@@ -112,5 +162,6 @@ const uid = Math.random().toString(36).slice(2, 8);
       if (gevuld) blok.open = true;
     });
   };
-  if (document.readyState === 'complete') uitOverzicht(); else window.addEventListener('load', uitOverzicht, { once: true });
+  if (document.readyState === 'complete') uitOverzicht();
+  else window.addEventListener('load', uitOverzicht, { once: true });
 </script>

@@ -13,15 +13,52 @@ const { contact: c, zonder = [], class: cls } = Astro.props;
 const metNaam = !zonder.includes('naam');
 const metTel = !!c.telefoon && !zonder.includes('telefoon');
 ---
+
 <p class:list={['contact', cls]}>
-  {metNaam && <><strong>{c.naam}</strong>{c.omschrijving && <> – {c.omschrijving}</>}</>}
+  {metNaam && (
+    <>
+      <strong>{c.naam}</strong>
+      {c.omschrijving && <> – {c.omschrijving}</>}
+    </>
+  )}
   {(metTel || c.email || c.url) && (
     <span class="ci-rij" data-pagefind-ignore>
-      {metTel && <span class="ci"><span class="ico ico-phone" aria-hidden="true"></span><span class="sr-only">Telefoon: </span><a href={`tel:${c.telefoon!.replace(/\s/g, '')}`}>{c.telefoon}</a></span>}
-      {c.email && <span class="ci"><span class="ico ico-mail" aria-hidden="true"></span><span class="sr-only">E-mail: </span><a href={`mailto:${c.email}`}>{c.email}</a></span>}
-      {c.url && <span class="ci"><span class="ico ico-globe" aria-hidden="true"></span><a href={c.url} target="_blank" rel="noopener">Website<span aria-hidden="true"> ↗</span></a></span>}
+      {metTel && (
+        <span class="ci">
+          <span class="ico ico-phone" aria-hidden="true"></span>
+          <span class="sr-only">Telefoon: </span>
+          <a href={`tel:${c.telefoon!.replace(/\s/g, '')}`}>{c.telefoon}</a>
+        </span>
+      )}
+      {c.email && (
+        <span class="ci">
+          <span class="ico ico-mail" aria-hidden="true"></span>
+          <span class="sr-only">E-mail: </span>
+          <a href={`mailto:${c.email}`}>{c.email}</a>
+        </span>
+      )}
+      {c.url && (
+        <span class="ci">
+          <span class="ico ico-globe" aria-hidden="true"></span>
+          <a href={c.url} target="_blank" rel="noopener">
+            Website<span aria-hidden="true"> ↗</span>
+          </a>
+        </span>
+      )}
     </span>
   )}
-  {c.adres && !zonder.includes('adres') && <span class="ci blok"><span class="ico ico-pin" aria-hidden="true"></span><span class="sr-only">Adres: </span><span>{c.adres}</span></span>}
-  {c.openingstijden && <span class="ci blok"><span class="ico ico-clock" aria-hidden="true"></span><span class="sr-only">Bereikbaar: </span><span>{c.openingstijden}</span></span>}
+  {c.adres && !zonder.includes('adres') && (
+    <span class="ci blok">
+      <span class="ico ico-pin" aria-hidden="true"></span>
+      <span class="sr-only">Adres: </span>
+      <span>{c.adres}</span>
+    </span>
+  )}
+  {c.openingstijden && (
+    <span class="ci blok">
+      <span class="ico ico-clock" aria-hidden="true"></span>
+      <span class="sr-only">Bereikbaar: </span>
+      <span>{c.openingstijden}</span>
+    </span>
+  )}
 </p>

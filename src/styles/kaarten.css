@@ -1,0 +1,52 @@
+/* ---------- Kaarten, badges, meldingen en toegangslabels ---------- */
+.card { display: flex; flex-direction: column; }
+.toegang { display: flex; align-items: center; gap: .5rem; margin: auto 0 0; padding-top: .75rem; border-top: 1px solid var(--c-border); font-size: .85rem; font-weight: 600; color: var(--c-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: help; }
+.toegang .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.toegang.t-nee .dot { background: var(--c-ok); }
+.toegang.t-ja .dot { background: var(--c-accent); }
+.toegang.t-soms .dot { background: #e0a100; }
+.toegang.t-spoed .dot, .toegang.t-rechter .dot { background: var(--c-muted); }
+.toegang-legenda { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; font-size: .85rem; color: var(--c-muted); margin: .25rem 0 1rem; }
+.toegang-legenda span { display: inline-flex; align-items: center; gap: .4rem; }
+/* ---------- Kaarten ---------- */
+.grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+.card { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1.5rem 1.6rem; box-shadow: var(--shadow-sm); }
+.card h3 { margin-top: 0; }
+.card.link { text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: .35rem; transition: transform .15s, box-shadow .15s, border-color .15s; }
+.card.link:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--c-primary); }
+.card.link .arrow { margin-top: auto; color: var(--c-primary); font-weight: 600; font-size: .92rem; }
+.card .icon { width: 44px; height: 44px; border-radius: 12px; background: var(--c-primary-soft); color: var(--c-primary); display: grid; place-items: center; margin-bottom: 1rem; }
+.card .icon svg { width: 24px; height: 24px; }
+.card .icon.accent { background: var(--c-accent-soft); color: var(--c-accent); }
+.card .icon.ok { background: var(--c-ok-soft); color: var(--c-ok); }
+.card ul { padding-left: 1.1rem; margin: .5rem 0; font-size: .95rem; }
+/* ---------- Badges & notices ---------- */
+.badge { display: inline-block; font-size: .74rem; font-weight: 700; padding: .18rem .65rem; border-radius: 999px; background: var(--c-primary-soft); color: var(--c-primary-dark); text-transform: uppercase; letter-spacing: .05em; }
+.badge.begin { background: var(--c-primary); color: #fff; }
+.badge.voorbeeld { background: var(--c-warn-bg); color: #8a5a00; }
+.badge.concept { background: #eef0ff; color: #3b45a8; }
+.badge.count { font-size: .55em; vertical-align: middle; margin-left: .35rem; text-transform: none; letter-spacing: 0; }
+.badge.gecontroleerd { background: var(--c-ok-soft); color: var(--c-ok); }
+.notice { display: flex; gap: .8rem; background: var(--c-warn-bg); border: 1px solid var(--c-warn-border); border-radius: var(--radius-sm); padding: .9rem 1.2rem; margin: 0 0 1.5rem; font-size: .95rem; }
+.notice svg { width: 22px; height: 22px; flex: none; color: #b47400; margin-top: .1rem; }
+/* ---------- Kaartvoet: status + link altijd onderaan en uitgelijnd ---------- */
+.kaart-voet { margin-top: auto; display: flex; flex-direction: column; gap: .35rem; }
+.kaart-voet .toegang { margin: 0; }
+.kaart-voet .arrow { margin-top: 0; }
+@media (prefers-reduced-motion: reduce) {
+  .card.link:hover { transform: none; }
+}
+/* Kaarten met een link onderaan: de link staat bij alle kaarten in een rij op dezelfde hoogte */
+.card .org-voet { margin-top: auto; padding-top: .5rem; margin-bottom: 0; }
+.card > .badge { align-self: flex-start; }
+/* Kaarten met een knop onderaan (hulpvorm in de brief): knop en link onderaan de kaart, per rij op gelijke hoogte */
+.card .kaart-acties { margin-top: auto; padding-top: .75rem; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.card .kaart-acties .meta { margin: 0; }
+/* Mijn overzicht: therapiekaarten zitten in een filter-div; laat de kaart die vullen, zodat kaarten in een rij even hoog zijn. */
+.grid > [data-tip-situaties] { display: flex; }
+.grid > [data-tip-situaties] > .card { flex: 1; }
+/* Therapiekaarten: alle rijen even hoog (de hoogste kaart bepaalt), voor een rustig overzicht.
+   Alleen bij twee of meer kolommen; op de telefoon staan ze onder elkaar en gaf het alleen lege ruimte. */
+@media (min-width: 40rem) {
+  .grid.gelijk { grid-auto-rows: 1fr; }
+}

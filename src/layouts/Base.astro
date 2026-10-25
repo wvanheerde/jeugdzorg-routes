@@ -1,16 +1,21 @@
 ---
-import { woorden } from '../lib/woorden';
 import '@fontsource-variable/inter';
 import '@fontsource-variable/source-serif-4';
 import '../styles/global.css';
-import { site } from '../site';
+import { site, base } from '../site';
 interface Props {
-  title: string; description?: string; /** Niet in zoekmachines (bv. persoonlijke pagina's). */ noindex?: boolean;
+  title: string;
+  description?: string;
+  /** Niet in zoekmachines (bv. persoonlijke pagina's). */ noindex?: boolean;
   /** Extra gestructureerde gegevens (schema.org) voor zoekmachines, zoals een kruimelpad op een gemeentepagina. */
   gegevens?: Record<string, unknown>[];
 }
-const { title, description = 'Overzicht van jeugdzorgroutes, rechten en steun voor ouders in Nederland, per gemeente.', noindex = false, gegevens = [] } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const {
+  title,
+  description = 'Overzicht van jeugdzorgroutes, rechten en steun voor ouders in Nederland, per gemeente.',
+  noindex = false,
+  gegevens = [],
+} = Astro.props;
 const path = Astro.url.pathname;
 /** Zoekmachines tonen ongeveer 155 tekens: eerste alinea, afgekapt op een woordgrens. */
 function kort(tekst: string, max = 155) {
@@ -23,15 +28,20 @@ const beschrijving = kort(description);
 const canonical = Astro.site ? new URL(path, Astro.site).href : undefined;
 const volledigeTitel = `${title} · Jeugdzorg Routes`;
 const isHome = path === `${base}/`;
-const website = isHome && Astro.site ? {
-  '@type': 'WebSite',
-  name: 'Jeugdzorg Routes',
-  url: new URL(`${base}/`, Astro.site).href,
-  inLanguage: 'nl-NL',
-  description: beschrijving,
-} : undefined;
+const website =
+  isHome && Astro.site
+    ? {
+        '@type': 'WebSite',
+        name: 'Jeugdzorg Routes',
+        url: new URL(`${base}/`, Astro.site).href,
+        inLanguage: 'nl-NL',
+        description: beschrijving,
+      }
+    : undefined;
 const ld = [website, ...gegevens].filter(Boolean);
-const jsonLd = ld.length ? JSON.stringify(ld.length === 1 ? { '@context': 'https://schema.org', ...ld[0] } : { '@context': 'https://schema.org', '@graph': ld }) : undefined;
+const jsonLd = ld.length
+  ? JSON.stringify(ld.length === 1 ? { '@context': 'https://schema.org', ...ld[0] } : { '@context': 'https://schema.org', '@graph': ld })
+  : undefined;
 const nav = [
   { href: `${base}/situaties/`, label: 'Situaties' },
   { href: `${base}/gemeenten/`, label: 'Gemeenten' },
@@ -39,18 +49,29 @@ const nav = [
   { href: `${base}/organisaties/`, label: 'Organisaties' },
   { href: `${base}/therapievormen/`, label: 'Therapievormen' },
   // De brieven, de vellen om af te drukken en de moeilijke woorden zijn onderdeel van de hulpmiddelen: daar wijst het menu dan ook "Hulpmiddelen" aan.
-  { href: `${base}/hulpmiddelen/`, label: 'Hulpmiddelen', ook: [`${base}/brieven/`, `${base}/gesprek/`, `${base}/logboek/`, `${base}/beschikking/`, `${base}/mijn-kind/`, `${base}/begrippen/`] },
+  {
+    href: `${base}/hulpmiddelen/`,
+    label: 'Hulpmiddelen',
+    ook: [`${base}/brieven/`, `${base}/gesprek/`, `${base}/logboek/`, `${base}/beschikking/`, `${base}/mijn-kind/`, `${base}/begrippen/`],
+  },
 ];
 // "Over deze site" staat alleen in de voettekst.
 /** Soort pagina voor de zoekresultaten (Pagefind-filter "soort", zie src/scripts/zoeken.ts). */
 const SOORTEN: [RegExp, string][] = [
-  [/^gemeenten\/[^/]+\/$/, 'Gemeente'], [/^situaties\/./, 'Situatie'], [/^brieven\/./, 'Voorbeeldbrief'], [/^therapievormen\/./, 'Therapievorm'],
-  [/^hulpsoorten\/./, 'Hulpsoort'], [/^landelijk\//, 'Landelijk'], [/^organisaties\//, 'Organisaties'], [/^begrippen\//, 'Moeilijke woorden'],
+  [/^gemeenten\/[^/]+\/$/, 'Gemeente'],
+  [/^situaties\/./, 'Situatie'],
+  [/^brieven\/./, 'Voorbeeldbrief'],
+  [/^therapievormen\/./, 'Therapievorm'],
+  [/^hulpsoorten\/./, 'Hulpsoort'],
+  [/^landelijk\//, 'Landelijk'],
+  [/^organisaties\//, 'Organisaties'],
+  [/^begrippen\//, 'Moeilijke woorden'],
   [/^(gesprek|logboek|beschikking|mijn-kind|hulpmiddelen|brieven)\//, 'Hulpmiddel'],
 ];
 const relatief = path.slice(base.length).replace(/^\//, '');
 const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
 ---
+
 <!doctype html>
 <html lang="nl">
   <head>
@@ -77,36 +98,70 @@ const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
     <link rel="apple-touch-icon" href={`${base}/apple-touch-icon.png`} />
     <link rel="manifest" href={`${base}/site.webmanifest`} />
     {/* Klasse 'js' al vóór het tekenen: anders staat het menu op de telefoon even open en springt de pagina als het inklapt. */}
-    <script is:inline>document.documentElement.classList.add('js');</script>
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
     {/* Alleen het pad tellen, zonder ?gemeente=…&s=…: de keuzes van een ouder gaan niet naar de teller. */}
     {site.goatcounter && <script is:inline set:html={`window.goatcounter = { path: function () { return location.pathname; } };`} />}
-    {site.goatcounter && <script is:inline data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} async src="https://gc.zgo.at/count.js"></script>}
+    {site.goatcounter && (
+      <script is:inline data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} async src="https://gc.zgo.at/count.js"></script>
+    )}
   </head>
   <body>
-    <a class="skip" href="#inhoud">Direct naar inhoud</a>
+    <a class="skip" href="#inhoud">
+      Direct naar inhoud
+    </a>
     <header class="site-header">
       <div class="container">
         <a class="brand" href={`${base}/`}>
-          <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0f6b6e"/><path d="M17 47 C 17 32, 42 42, 43 28" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".95"/><path d="M43 10.5 a 9.5 9.5 0 0 1 9.5 9.5 c 0 7 -9.5 15 -9.5 15 s -9.5 -8 -9.5 -15 a 9.5 9.5 0 0 1 9.5 -9.5 z" fill="#ffb088"/><circle cx="43" cy="20" r="3.6" fill="#0f6b6e"/><circle cx="17" cy="47" r="5.5" fill="#fff"/></svg>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="16" fill="#0f6b6e" />
+            <path d="M17 47 C 17 32, 42 42, 43 28" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".95" />
+            <path d="M43 10.5 a 9.5 9.5 0 0 1 9.5 9.5 c 0 7 -9.5 15 -9.5 15 s -9.5 -8 -9.5 -15 a 9.5 9.5 0 0 1 9.5 -9.5 z" fill="#ffb088" />
+            <circle cx="43" cy="20" r="3.6" fill="#0f6b6e" />
+            <circle cx="17" cy="47" r="5.5" fill="#fff" />
+          </svg>
           Jeugdzorg<span>Routes</span>
         </a>
         {/* Zoeken (zoeken.feature): het vergrootglas vervangt het menu door een zoekbalk; het script laadt Pagefind pas bij het openen. */}
         <div class="kop-knoppen">
-          <button type="button" class="zoek-knop" aria-label="Zoeken" aria-expanded="false" aria-controls="zoekbalk" data-zoek-knop hidden><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
-          <button type="button" class="menu-knop" aria-expanded="false" aria-controls="hoofdnavigatie" data-menu-knop>Menu</button>
+          <button type="button" class="zoek-knop" aria-label="Zoeken" aria-expanded="false" aria-controls="zoekbalk" data-zoek-knop hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2" />
+              <path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            </svg>
+          </button>
+          <button type="button" class="menu-knop" aria-expanded="false" aria-controls="hoofdnavigatie" data-menu-knop>
+            Menu
+          </button>
         </div>
         {/* Het menu staat na de knoppen, zodat u op de telefoon na "Menu" met Tab bij de links komt; op de laptop zet CSS het voor het vergrootglas. */}
         <nav class="nav" id="hoofdnavigatie" aria-label="Hoofdnavigatie">
-          {nav.map((n) => <a href={n.href} aria-current={[n.href, ...(n.ook ?? [])].some((h) => path.startsWith(h)) ? 'page' : undefined}>{n.label}</a>)}
+          {nav.map((n) => (
+            <a href={n.href} aria-current={[n.href, ...(n.ook ?? [])].some((h) => path.startsWith(h)) ? 'page' : undefined}>
+              {n.label}
+            </a>
+          ))}
         </nav>
         <form class="zoekbalk" id="zoekbalk" role="search" data-zoekbalk hidden onsubmit="return false">
           <input type="search" aria-label="Zoek op de site" placeholder="Zoek op de site, bv. bezwaar of autisme…" autocomplete="off" data-zoek-invoer />
-          <button type="button" class="zoek-sluit" aria-label="Zoeken sluiten" data-zoek-sluit>×</button>
+          <button type="button" class="zoek-sluit" aria-label="Zoeken sluiten" data-zoek-sluit>
+            ×
+          </button>
         </form>
       </div>
-      <div class="zoek-paneel" data-zoek-paneel hidden><div class="container"><p class="meta" data-zoek-melding role="status"></p><ol class="zoek-resultaten" data-zoek-resultaten></ol></div></div>
+      <div class="zoek-paneel" data-zoek-paneel hidden>
+        <div class="container">
+          <p class="meta" data-zoek-melding role="status"></p>
+          <ol class="zoek-resultaten" data-zoek-resultaten></ol>
+        </div>
+      </div>
     </header>
-    <main id="inhoud" data-pagefind-body={noindex ? undefined : ''} data-pagefind-filter={noindex ? undefined : `soort:${soort}`}><div class="container"><slot /></div></main>
+    <main id="inhoud" data-pagefind-body={noindex ? undefined : ''} data-pagefind-filter={noindex ? undefined : `soort:${soort}`}>
+      <div class="container">
+        <slot />
+      </div>
+    </main>
     <footer class="site-footer">
       <div class="container">
         <div class="cols">
@@ -115,64 +170,112 @@ const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
             <p>Onafhankelijke wegwijzer voor ouders. Geen hulpverlening, geen onderdeel van een gemeente of zorgaanbieder.</p>
             <p>Gebouwd en samengesteld met hulp van AI, onder redactie van de beheerder. Elk kwartaal bijgewerkt; bronnen staan bij de inhoud.</p>
             <ul>
-              <li><a href={`${base}/over/`}>Over deze site</a></li>
-              <li><a href={`${base}/begrippen/`}>Moeilijke woorden uitgelegd</a></li>
+              <li>
+                <a href={`${base}/over/`}>Over deze site</a>
+              </li>
+              <li>
+                <a href={`${base}/begrippen/`}>Moeilijke woorden uitgelegd</a>
+              </li>
             </ul>
           </div>
           <div>
             <p class="footer-kop">Hulplijnen</p>
             <ul>
-              <li>Veilig Thuis (24/7, gratis): <a href="tel:08002000">0800-2000</a></li>
-              <li>113 Zelfmoordpreventie (24/7, gratis): <a href="tel:08000113">0800-0113</a></li>
-              <li>Vertrouwenspersoon Jeugdstem: <a href="tel:0885551000">088 555 1000</a></li>
+              <li>
+                Veilig Thuis (24/7, gratis): <a href="tel:08002000">0800-2000</a>
+              </li>
+              <li>
+                113 Zelfmoordpreventie (24/7, gratis): <a href="tel:08000113">0800-0113</a>
+              </li>
+              <li>
+                Vertrouwenspersoon Jeugdstem: <a href="tel:0885551000">088 555 1000</a>
+              </li>
             </ul>
           </div>
           <div>
             <p class="footer-kop">Navigatie</p>
-            <ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+            <ul>
+              {nav.map((n) => (
+                <li>
+                  <a href={n.href}>{n.label}</a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-        <div class="bottom">Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of jeugdarts. Geen cookies, geen persoonsgegevens. <span class="niet-printen">Fout gezien of iets gemist? <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">Stel een wijziging voor via GitHub</a>.</span></div>
+        <div class="bottom">
+          Algemene informatie over routes, rechten en regelingen; geen diagnoses, geen medisch of juridisch advies. Aan deze informatie kunt u geen rechten
+          ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Met vragen over de gezondheid van uw kind gaat u naar de huisarts of
+          jeugdarts. Geen cookies, geen persoonsgegevens.{' '}
+          <span class="niet-printen">
+            Fout gezien of iets gemist?{' '}
+            <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">
+              Stel een wijziging voor via GitHub
+            </a>
+            .
+          </span>
+        </div>
       </div>
     </footer>
     <script is:inline>
       // Menu op de telefoon: links pas tonen na een tik op "Menu" (zonder JavaScript blijven ze gewoon zichtbaar).
       (() => {
         document.documentElement.classList.add('js');
-        const kop = document.querySelector('.site-header'); const knop = document.querySelector('[data-menu-knop]');
+        const kop = document.querySelector('.site-header');
+        const knop = document.querySelector('[data-menu-knop]');
         knop?.addEventListener('click', () => {
           const open = kop.classList.toggle('menu-open');
           knop.setAttribute('aria-expanded', String(open));
         });
         // Hoogte van de vaste kop, zodat andere vaste balken (zoals de keuzes op Mijn overzicht) er netjes onder komen.
         // Pas meten nadat het menu is ingeklapt (class 'js'), en opnieuw bij elke verandering van de kop (menu open/dicht, draaien).
-        const zet = () => { if (kop) document.documentElement.style.setProperty('--kop-hoogte', kop.offsetHeight + 'px'); };
+        const zet = () => {
+          if (kop) document.documentElement.style.setProperty('--kop-hoogte', kop.offsetHeight + 'px');
+        };
         zet();
-        if (kop && 'ResizeObserver' in window) new ResizeObserver(zet).observe(kop); else addEventListener('resize', zet);
+        if (kop && 'ResizeObserver' in window) new ResizeObserver(zet).observe(kop);
+        else addEventListener('resize', zet);
       })();
     </script>
     <script is:inline>
       // Inhoudsopgaven met knoppen (.toc): op de telefoon een veegrij. Pijlknoppen aan de rand laten zien dat er meer is.
       document.querySelectorAll('nav.toc').forEach((toc) => {
-        const wrap = document.createElement('div'); wrap.className = 'toc-wrap';
-        toc.replaceWith(wrap); wrap.append(toc);
+        const wrap = document.createElement('div');
+        wrap.className = 'toc-wrap';
+        toc.replaceWith(wrap);
+        wrap.append(toc);
         // Getekende chevron (geen tekstteken): staat altijd precies in het midden van de cirkel.
-        const svg = (d) => `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
-        const pijl = (kant, d, label) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'toc-pijl ' + kant; b.innerHTML = svg(d); b.setAttribute('aria-label', label); wrap.append(b); return b; };
-        const l = pijl('links', 'M14.5 6l-6 6 6 6', 'Vorige onderwerpen'), r = pijl('rechts', 'M9.5 6l6 6-6 6', 'Meer onderwerpen');
+        const svg = (d) =>
+          `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+        const pijl = (kant, d, label) => {
+          const b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'toc-pijl ' + kant;
+          b.innerHTML = svg(d);
+          b.setAttribute('aria-label', label);
+          wrap.append(b);
+          return b;
+        };
+        const l = pijl('links', 'M14.5 6l-6 6 6 6', 'Vorige onderwerpen'),
+          r = pijl('rechts', 'M9.5 6l6 6-6 6', 'Meer onderwerpen');
         const stap = (dir) => toc.scrollBy({ left: dir * toc.clientWidth * 0.7, behavior: 'smooth' });
-        l.addEventListener('click', () => stap(-1)); r.addEventListener('click', () => stap(1));
-        const bij = () => { wrap.toggleAttribute('data-meer-links', toc.scrollLeft > 4); wrap.toggleAttribute('data-meer-rechts', toc.scrollLeft + toc.clientWidth < toc.scrollWidth - 4); };
-        toc.addEventListener('scroll', bij, { passive: true }); addEventListener('resize', bij); bij();
+        l.addEventListener('click', () => stap(-1));
+        r.addEventListener('click', () => stap(1));
+        const bij = () => {
+          wrap.toggleAttribute('data-meer-links', toc.scrollLeft > 4);
+          wrap.toggleAttribute('data-meer-rechts', toc.scrollLeft + toc.clientWidth < toc.scrollWidth - 4);
+        };
+        toc.addEventListener('scroll', bij, { passive: true });
+        addEventListener('resize', bij);
+        bij();
       });
     </script>
-    <script is:inline set:html={`window.__jrWoorden = ${JSON.stringify(woorden)};`} />
     <script>
       import '../scripts/zoeken';
     </script>
     <script>
+      import { woorden as lijst } from '../lib/woorden';
       // Leg officiële woorden één keer per pagina uit: eerste keer onderstreept, uitleg na een tik.
-      const lijst = (window as any).__jrWoorden as { vormen: string[]; uitleg: string; hoofdletters?: boolean }[];
       const vormNaar = new Map<string, number>();
       lijst.forEach((w, i) => w.vormen.forEach((v) => vormNaar.set(v.toLowerCase(), i)));
       const vormen = [...vormNaar.keys()].sort((a, b) => b.length - a.length).map((v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
@@ -181,19 +284,22 @@ const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
       const gebruikt = new Map<Element, Set<number>>();
       // [data-geen-uitleg]: de begrippenpagina zelf.
       // .sr-only: tekst alleen voor schermlezers; daar geen (onzichtbare) uitlegknop, anders krijgt het zichtbare woord in die sectie geen uitleg.
-      const overslaan = 'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable], .sr-only, [data-geen-uitleg]';
+      const overslaan =
+        'a, button, select, option, summary, label, script, style, nav, header, footer, h1, h2, h3, h4, strong, .woord, .woord-uitleg, .sources, .chip, .badge, code, pre, [contenteditable], .sr-only, [data-geen-uitleg]';
       let n = 0;
-      const zichtbaar = (el: Element) => (el as HTMLElement).checkVisibility ? (el as HTMLElement).checkVisibility() : !!(el as HTMLElement).offsetParent;
+      const zichtbaar = (el: Element) => ((el as HTMLElement).checkVisibility ? (el as HTMLElement).checkVisibility() : !!(el as HTMLElement).offsetParent);
       const markeer = () => {
         const main = document.getElementById('inhoud');
         if (!main) return;
         // Verborgen of overgeslagen elementen in één keer met alles erin overslaan (FILTER_REJECT op het element). Mijn overzicht bevat
         // de blokken van alle gemeenten verborgen; per tekstknoop controleren maakte de pagina op telefoons seconden lang onbruikbaar.
-        const walker = document.createTreeWalker(main, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, { acceptNode: (n) => {
-          if (n.nodeType === Node.TEXT_NODE) return NodeFilter.FILTER_ACCEPT;
-          const el = n as HTMLElement;
-          return el.hidden || el.matches(overslaan) || !zichtbaar(el) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
-        } });
+        const walker = document.createTreeWalker(main, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
+          acceptNode: (n) => {
+            if (n.nodeType === Node.TEXT_NODE) return NodeFilter.FILTER_ACCEPT;
+            const el = n as HTMLElement;
+            return el.hidden || el.matches(overslaan) || !zichtbaar(el) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
+          },
+        });
         const nodes: Text[] = [];
         while (walker.nextNode()) if (walker.currentNode.nodeType === Node.TEXT_NODE) nodes.push(walker.currentNode as Text);
         for (const node of nodes) {
@@ -214,24 +320,60 @@ const soort = SOORTEN.find(([re]) => re.test(relatief))?.[1] ?? 'Pagina';
             const id = `woord-${++n}`;
             // Een span met role="button" in plaats van <button>: tekst in een knop valt weg bij kopiëren (de ouder kopieert een stap met gaten erin).
             const knop = document.createElement('span');
-            knop.setAttribute('role', 'button'); knop.tabIndex = 0; knop.className = 'woord'; knop.textContent = m[1];
-            knop.setAttribute('aria-expanded', 'false'); knop.setAttribute('aria-controls', id);
+            knop.setAttribute('role', 'button');
+            knop.tabIndex = 0;
+            knop.className = 'woord';
+            knop.textContent = m[1];
+            knop.setAttribute('aria-expanded', 'false');
+            knop.setAttribute('aria-controls', id);
             const uitleg = document.createElement('span');
-            uitleg.className = 'woord-uitleg'; uitleg.id = id; uitleg.hidden = true; uitleg.textContent = lijst[i].uitleg;
-            const wissel = () => { const open = uitleg.hidden; uitleg.hidden = !open; knop.setAttribute('aria-expanded', String(open)); };
+            uitleg.className = 'woord-uitleg';
+            uitleg.id = id;
+            uitleg.hidden = true;
+            uitleg.textContent = lijst[i].uitleg;
+            const wissel = () => {
+              const open = uitleg.hidden;
+              uitleg.hidden = !open;
+              knop.setAttribute('aria-expanded', String(open));
+            };
             knop.addEventListener('click', wissel);
-            knop.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); wissel(); } });
+            knop.addEventListener('keydown', (e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                wissel();
+              }
+            });
             voor.replaceWith(knop, uitleg);
             break; // één woord per tekstknoop; de rest van die knoop staat nu in een nieuwe knoop en komt bij de volgende ronde aan bod
           }
         }
       };
       // Na de eerste weergave (het overzicht toont pas na het lezen van de keuzes wat zichtbaar is), en opnieuw na elke keuze.
-      setTimeout(() => { markeer(); markeer(); markeer(); });
+      setTimeout(() => {
+        markeer();
+        markeer();
+        markeer();
+      });
       // jr:getekend: Mijn overzicht is klaar met tekenen (ook na het ophalen van de gemeente).
-      for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd', 'jr:getekend']) document.addEventListener(ev, () => setTimeout(() => { markeer(); markeer(); }));
+      for (const ev of ['jr:situaties', 'jr:gemeente', 'jr:knelpunt', 'jr:leeftijd', 'jr:getekend'])
+        document.addEventListener(ev, () =>
+          setTimeout(() => {
+            markeer();
+            markeer();
+          }),
+        );
       // Ook na het uitklappen van een inklapblok (details): die tekst was eerst niet zichtbaar.
-      document.addEventListener('toggle', (e) => { if ((e.target as HTMLDetailsElement).open) setTimeout(() => { markeer(); markeer(); }); }, true);
+      document.addEventListener(
+        'toggle',
+        (e) => {
+          if ((e.target as HTMLDetailsElement).open)
+            setTimeout(() => {
+              markeer();
+              markeer();
+            });
+        },
+        true,
+      );
     </script>
   </body>
 </html>

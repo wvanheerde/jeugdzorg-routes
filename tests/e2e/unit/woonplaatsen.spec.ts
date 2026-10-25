@@ -22,7 +22,13 @@ test.describe('toonNaam', () => {
 });
 
 test.describe('woonplaatsenVoor', () => {
-  const lijst: [string, string][] = [['Hoorn NH', 'hoorn'], ['Zwaag', 'hoorn'], ['Blokker', 'hoorn'], ['Spijk Gem Zevenaar', 'zevenaar'], ['Spijk', 'zevenaar']];
+  const lijst: [string, string][] = [
+    ['Hoorn NH', 'hoorn'],
+    ['Zwaag', 'hoorn'],
+    ['Blokker', 'hoorn'],
+    ['Spijk Gem Zevenaar', 'zevenaar'],
+    ['Spijk', 'zevenaar'],
+  ];
   test('op alfabet, zonder de gemeente zelf en zonder dubbele namen', () => {
     expect(woonplaatsenVoor(lijst, 'hoorn', 'Hoorn')).toEqual(['Blokker', 'Zwaag']);
     expect(woonplaatsenVoor(lijst, 'zevenaar', 'Zevenaar')).toEqual(['Spijk']);

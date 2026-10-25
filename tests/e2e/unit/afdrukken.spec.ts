@@ -14,11 +14,18 @@ test.describe('kortAdres', () => {
 
 test.describe('overzichtAdres', () => {
   test('de keuzes voorop, dan de antwoorden van de verdieping, zonder anker', () => {
-    expect(overzichtAdres('https://example.nl/overzicht/?gezag=samen&k=gescheiden#stappen', { gemeente: 'tilburg', k: 'gescheiden', s: ['adhd', 'scheiding'], l: '4-12' }))
-      .toBe('https://example.nl/overzicht/?gemeente=tilburg&k=gescheiden&s=adhd,scheiding&l=4-12&gezag=samen');
+    expect(
+      overzichtAdres('https://example.nl/overzicht/?gezag=samen&k=gescheiden#stappen', {
+        gemeente: 'tilburg',
+        k: 'gescheiden',
+        s: ['adhd', 'scheiding'],
+        l: '4-12',
+      }),
+    ).toBe('https://example.nl/overzicht/?gemeente=tilburg&k=gescheiden&s=adhd,scheiding&l=4-12&gezag=samen');
   });
   test('keuzes die alleen in de browser bewaard zijn, komen ook in het adres', () => {
-    expect(overzichtAdres('https://example.nl/jeugdzorg-routes/overzicht/', { gemeente: 'utrecht', k: '', s: [], l: '' }))
-      .toBe('https://example.nl/jeugdzorg-routes/overzicht/?gemeente=utrecht');
+    expect(overzichtAdres('https://example.nl/jeugdzorg-routes/overzicht/', { gemeente: 'utrecht', k: '', s: [], l: '' })).toBe(
+      'https://example.nl/jeugdzorg-routes/overzicht/?gemeente=utrecht',
+    );
   });
 });

@@ -14,31 +14,60 @@ import AfdrukKnop from '../components/AfdrukKnop.astro';
 import AfdrukKop from '../components/AfdrukKop.astro';
 import TermijnenHulp from '../components/TermijnenHulp.astro';
 import Sources from '../components/Sources.astro';
+import { base } from '../site';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 /** Wat de ouder naloopt. "Moet" alleen waar de Awb het zegt (uitleg: 3:46/3:47, bezwaar: 3:45); de rest regelt de verordening (zie boven). */
 const PUNTEN: { wat: string; uitleg: string }[] = [
   { wat: 'Welke hulp uw kind krijgt.', uitleg: 'Klopt dat met wat u in het gesprek heeft besproken?' },
   { wat: 'Hoeveel hulp.', uitleg: 'Bijvoorbeeld het aantal uren per week of per maand, of het aantal behandelingen.' },
   { wat: 'Vanaf wanneer en tot wanneer.', uitleg: 'Kijk vooral naar de einddatum, en schrijf die bovenaan op.' },
-  { wat: 'Of de gemeente de hulp regelt, of dat u een pgb krijgt.', uitleg: 'Bij een pgb hoort ook het bedrag erin, en waarvoor u het mag gebruiken. Staat er niet in welke aanbieder de hulp geeft? Vraag het dan na.' },
-  { wat: 'Waarom de gemeente zo besliste.', uitleg: 'Een besluit moet een goede uitleg hebben. Krijgt u minder dan u vroeg, of krijgt u niets? Dan hoort de uitleg te zeggen waarom.' },
+  {
+    wat: 'Of de gemeente de hulp regelt, of dat u een pgb krijgt.',
+    uitleg: 'Bij een pgb hoort ook het bedrag erin, en waarvoor u het mag gebruiken. Staat er niet in welke aanbieder de hulp geeft? Vraag het dan na.',
+  },
+  {
+    wat: 'Waarom de gemeente zo besliste.',
+    uitleg: 'Een besluit moet een goede uitleg hebben. Krijgt u minder dan u vroeg, of krijgt u niets? Dan hoort de uitleg te zeggen waarom.',
+  },
   { wat: 'Hoe u bezwaar maakt.', uitleg: 'Bij wie en binnen welke termijn. Ook dat moet in het besluit staan.' },
 ];
 const bronnen = [
-  { titel: 'Algemene wet bestuursrecht, art. 3:45, 3:46, 3:47, 4:13, 6:7 en 6:8 (wetten.overheid.nl)', url: 'https://wetten.overheid.nl/BWBR0005537/', geraadpleegd: '2026-10-23' },
-  { titel: 'Jeugdwet, art. 2.9: de gemeente regelt de toekenning in een verordening (wetten.overheid.nl)', url: 'https://wetten.overheid.nl/BWBR0034925/', geraadpleegd: '2026-10-23' },
-  { titel: 'Verordening jeugdhulp, art. 15 "Inhoud beschikking", bijvoorbeeld Hoeksche Waard 2026 (lokaleregelgeving.overheid.nl)', url: 'https://lokaleregelgeving.overheid.nl/CVDR767002/1', geraadpleegd: '2026-10-23' },
-  { titel: 'NJi – Jeugdwet: beslissen over hulp', url: 'https://www.nji.nl/kennis/beslissen-over-hulp/jeugdwet-beslissen-over-hulp', geraadpleegd: '2026-10-23' },
+  {
+    titel: 'Algemene wet bestuursrecht, art. 3:45, 3:46, 3:47, 4:13, 6:7 en 6:8 (wetten.overheid.nl)',
+    url: 'https://wetten.overheid.nl/BWBR0005537/',
+    geraadpleegd: '2026-10-23',
+  },
+  {
+    titel: 'Jeugdwet, art. 2.9: de gemeente regelt de toekenning in een verordening (wetten.overheid.nl)',
+    url: 'https://wetten.overheid.nl/BWBR0034925/',
+    geraadpleegd: '2026-10-23',
+  },
+  {
+    titel: 'Verordening jeugdhulp, art. 15 "Inhoud beschikking", bijvoorbeeld Hoeksche Waard 2026 (lokaleregelgeving.overheid.nl)',
+    url: 'https://lokaleregelgeving.overheid.nl/CVDR767002/1',
+    geraadpleegd: '2026-10-23',
+  },
+  {
+    titel: 'NJi – Jeugdwet: beslissen over hulp',
+    url: 'https://www.nji.nl/kennis/beslissen-over-hulp/jeugdwet-beslissen-over-hulp',
+    geraadpleegd: '2026-10-23',
+  },
 ];
 const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
 ---
-<Base title="Uw beschikking nalezen" description="Een controlelijst om af te drukken: staat in het besluit van de gemeente over jeugdhulp alles wat erin hoort, en tot wanneer kunt u bezwaar maken?">
+
+<Base
+  title="Uw beschikking nalezen"
+  description="Een controlelijst om af te drukken: staat in het besluit van de gemeente over jeugdhulp alles wat erin hoort, en tot wanneer kunt u bezwaar maken?"
+>
   <div class="page-head">
     <span class="eyebrow">Om af te drukken</span>
     <h1>Uw beschikking nalezen</h1>
     <AfdrukKop />
-    <p class="lead">De beschikking is het besluit van de gemeente over de hulp voor uw kind, op papier. Loop het besluit na met deze lijst. Ontbreekt er iets, of is iets niet duidelijk? Vraag het dan na bij het wijkteam, het liefst op papier.</p>
+    <p class="lead">
+      De beschikking is het besluit van de gemeente over de hulp voor uw kind, op papier. Loop het besluit na met deze lijst. Ontbreekt er iets, of is iets niet
+      duidelijk? Vraag het dan na bij het wijkteam, het liefst op papier.
+    </p>
   </div>
   <AfdrukKnop />
 
@@ -46,35 +75,81 @@ const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
     <h2>Uw besluit</h2>
     <div class="vel-velden">
       {['Datum op het besluit', 'Nummer van de brief (kenmerk)', 'Einddatum van de hulp', 'Bezwaar uiterlijk'].map((v, i) => (
-        <Fragment>{i === 3 && <p class="meta">Vul onderstaand veld in als u het niet met het besluit eens bent.</p>}<div class="vel-veld"><span class="vel-label">{v}</span><div class="vel-waarde"><span class="vel-lijn" aria-hidden="true"></span></div></div></Fragment>
+        <Fragment>
+          {i === 3 && <p class="meta">Vul onderstaand veld in als u het niet met het besluit eens bent.</p>}
+          <div class="vel-veld">
+            <span class="vel-label">{v}</span>
+            <div class="vel-waarde">
+              <span class="vel-lijn" aria-hidden="true"></span>
+            </div>
+          </div>
+        </Fragment>
       ))}
     </div>
-    <p class="meta">Zie ook <a href="#niet-eens">"Bent u het er niet mee eens?"</a></p>
-    <div class="alleen-scherm"><TermijnenHulp soort="bezwaar" /></div>
+    <p class="meta">
+      Zie ook <a href="#niet-eens">"Bent u het er niet mee eens?"</a>
+    </p>
+    <div class="alleen-scherm">
+      <TermijnenHulp soort="bezwaar" />
+    </div>
   </section>
 
   <section class="section vel" id="staat-erin">
     <h2>Staat dit erin?</h2>
     <p>Kruis aan wat u in het besluit vindt. Schrijf eronder wat ontbreekt of wat u wilt navragen.</p>
-    <ul class="vel-vragen">{PUNTEN.map((p) => <li><span class="vel-vakje" aria-hidden="true">☐</span> <strong>{p.wat}</strong> {p.uitleg}{rij(1).map(() => <span class="vel-lijn" aria-hidden="true"></span>)}</li>)}</ul>
-    <p class="meta">Wat er precies in het besluit moet staan, regelt uw gemeente zelf, in haar regels voor jeugdhulp (de verordening). In veel gemeenten zijn dat in elk geval de hulp, hoeveel, vanaf wanneer en hoe lang, en bij een pgb het bedrag. Soms staat een deel in het plan of verslag dat bij het besluit hoort. Dan telt dat mee.</p>
+    <ul class="vel-vragen">
+      {PUNTEN.map((p) => (
+        <li>
+          <span class="vel-vakje" aria-hidden="true">
+            ☐
+          </span>{' '}
+          <strong>{p.wat}</strong> {p.uitleg}
+          {rij(1).map(() => (
+            <span class="vel-lijn" aria-hidden="true"></span>
+          ))}
+        </li>
+      ))}
+    </ul>
+    <p class="meta">
+      Wat er precies in het besluit moet staan, regelt uw gemeente zelf, in haar regels voor jeugdhulp (de verordening). In veel gemeenten zijn dat in elk geval
+      de hulp, hoeveel, vanaf wanneer en hoe lang, en bij een pgb het bedrag. Soms staat een deel in het plan of verslag dat bij het besluit hoort. Dan telt dat
+      mee.
+    </p>
   </section>
 
   <section class="section vel" id="niet-eens">
     <h2>Bent u het er niet mee eens?</h2>
-    <p>Maak dan binnen zes weken bezwaar bij de gemeente. De zes weken tellen vanaf de dag na de datum op het besluit. Het bezwaar mag kort zijn: uw redenen kunt u later aanvullen. Ook als u bezwaar maakt, geldt het besluit tot de gemeente opnieuw beslist.</p>
-    <p class="alleen-scherm"><a class="stap-brief" href={`${base}/brieven/bezwaar-beschikking/`}>Voorbeeldbrief bezwaar →</a></p>
-    <p class="meta alleen-scherm">Meer over de stappen bij <a href={`${base}/overzicht/?k=afgewezen`}>"Hulp is afgewezen of te weinig"</a>. Gaat het niet om het besluit, maar om hoe u bent behandeld? Dan past een klacht beter: <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>Klacht of bezwaar: wat werkt wanneer?</a></p>
+    <p>
+      Maak dan binnen zes weken bezwaar bij de gemeente. De zes weken tellen vanaf de dag na de datum op het besluit. Het bezwaar mag kort zijn: uw redenen kunt
+      u later aanvullen. Ook als u bezwaar maakt, geldt het besluit tot de gemeente opnieuw beslist.
+    </p>
+    <p class="alleen-scherm">
+      <a class="stap-brief" href={`${base}/brieven/bezwaar-beschikking/`}>
+        Voorbeeldbrief bezwaar →
+      </a>
+    </p>
+    <p class="meta alleen-scherm">
+      Meer over de stappen bij <a href={`${base}/overzicht/?k=afgewezen`}>"Hulp is afgewezen of te weinig"</a>. Gaat het niet om het besluit, maar om hoe u bent
+      behandeld? Dan past een klacht beter: <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>Klacht of bezwaar: wat werkt wanneer?</a>
+    </p>
   </section>
 
   <section class="section vel" id="loopt-af">
     <h2>Loopt het besluit af?</h2>
-    <p>Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente mag er meestal acht weken over doen om te beslissen. Vraag ook of de hulp kan doorlopen tot het nieuwe besluit er is.</p>
-    <p class="meta alleen-scherm">Meer bij <a href={`${base}/overzicht/?k=uitbreiden`}>"Ik wil hulp uitbreiden"</a>.</p>
+    <p>
+      Meld ruim op tijd dat de hulp nog nodig is, bijvoorbeeld drie maanden van tevoren. De gemeente mag er meestal acht weken over doen om te beslissen. Vraag
+      ook of de hulp kan doorlopen tot het nieuwe besluit er is.
+    </p>
+    <p class="meta alleen-scherm">
+      Meer bij <a href={`${base}/overzicht/?k=uitbreiden`}>"Ik wil hulp uitbreiden"</a>.
+    </p>
     <p class="meta">Bewaar het besluit bij uw andere brieven en verslagen. U heeft het nodig als u meer hulp vraagt, als de hulp stopt of als u verhuist.</p>
   </section>
 
-  <p class="meta">Deze lijst is een hulpmiddel. Het is geen advies van een jurist. Twijfelt u? Vraag een cliëntondersteuner van uw gemeente of het Juridisch Loket om mee te kijken. Dat is gratis.</p>
+  <p class="meta">
+    Deze lijst is een hulpmiddel. Het is geen advies van een jurist. Twijfelt u? Vraag een cliëntondersteuner van uw gemeente of het Juridisch Loket om mee te
+    kijken. Dat is gratis.
+  </p>
 
   <Sources bronnen={bronnen} laatstGecontroleerd="2026-10-23" />
 </Base>

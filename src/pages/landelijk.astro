@@ -3,28 +3,51 @@ import Base from '../layouts/Base.astro';
 import AfdrukKnop from '../components/AfdrukKnop.astro';
 import AfdrukKop from '../components/AfdrukKop.astro';
 import Sources from '../components/Sources.astro';
-import { getCollection, render } from 'astro:content';
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const items = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+import { render } from 'astro:content';
+import { gesorteerd } from '../lib/collecties';
+import { base } from '../site';
+const items = await gesorteerd('landelijk');
 const rendered = await Promise.all(items.map(async (i) => ({ i, Content: (await render(i)).Content })));
 // Alle bronnen van de onderdelen samen, één keer per adres, onderaan de pagina.
 const alleBronnen = items.flatMap((i) => i.data.bronnen).filter((b, n, a) => a.findIndex((x) => x.url === b.url) === n);
-const laatste = items.map((i) => i.data.laatstGecontroleerd).sort().at(-1) ?? '';
+const laatste =
+  items
+    .map((i) => i.data.laatstGecontroleerd)
+    .sort()
+    .at(-1) ?? '';
 ---
-<Base title="Landelijke rechten" description="Wat overal in Nederland geldt: de Jeugdwet, hoe u hulp aanvraagt, bezwaar maken, een pgb en hulp bij passend onderwijs.">
+
+<Base
+  title="Landelijke rechten"
+  description="Wat overal in Nederland geldt: de Jeugdwet, hoe u hulp aanvraagt, bezwaar maken, een pgb en hulp bij passend onderwijs."
+>
   <div class="page-head">
     <span class="eyebrow">Geldt overal</span>
     <h1>Waar u landelijk recht op heeft</h1>
     <AfdrukKop />
-    <p class="lead">Dit is wettelijk geregeld en geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's. Onderaan staat hoe het met de jeugdhulp in Nederland gaat, uit ons onderzoek bij alle gemeenten.</p>
+    <p class="lead">
+      Dit is wettelijk geregeld en geldt in elke gemeente. De gemeentelijke invulling vindt u op de gemeentepagina's. Onderaan staat hoe het met de jeugdhulp in
+      Nederland gaat, uit ons onderzoek bij alle gemeenten.
+    </p>
   </div>
-  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">{items.map((i) => <a href={`#${i.id}`}>{i.data.titel}</a>)}</nav>
+  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">
+    {items.map((i) => (
+      <a href={`#${i.id}`}>{i.data.titel}</a>
+    ))}
+  </nav>
   <AfdrukKnop />
   {rendered.map(({ i, Content }, idx) => (
     <section class="section prose">
       {/* Het anker staat op de kop, niet op het blok: dan vindt de zoekfunctie (Pagefind) het onderdeel als treffer. */}
-      <h2 id={i.id}><span class="section-num" data-pagefind-ignore>{idx + 1}</span>{i.data.titel}</h2>
-      <p class="lead" style="font-size:1.05rem">{i.data.samenvatting}</p>
+      <h2 id={i.id}>
+        <span class="section-num" data-pagefind-ignore>
+          {idx + 1}
+        </span>
+        {i.data.titel}
+      </h2>
+      <p class="lead" style="font-size:1.05rem">
+        {i.data.samenvatting}
+      </p>
       {idx === 0 && (
         <figure class="kaart-nl">
           <img src={`${base}/nederland-gemeenten.svg`} alt="Kaart van Nederland met de grenzen van alle 342 gemeenten" width="266" height="314" />

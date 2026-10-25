@@ -21,7 +21,11 @@ When('ik op een aanraakscherm de kalenderknop bij {string} aantik', async ({ pag
 When('de kalender bij {string} snel achter elkaar de datums {string} doorgeeft', async ({ page }, label: string, lijst: string) => {
   const datum = datumVeld(page, label).locator('[data-th-datum]');
   for (const d of lijst.split(',').map((x) => x.trim())) {
-    await datum.evaluate((e: HTMLInputElement, v) => { e.value = v; e.dispatchEvent(new Event('input', { bubbles: true })); e.dispatchEvent(new Event('change', { bubbles: true })); }, d);
+    await datum.evaluate((e: HTMLInputElement, v) => {
+      e.value = v;
+      e.dispatchEvent(new Event('input', { bubbles: true }));
+      e.dispatchEvent(new Event('change', { bubbles: true }));
+    }, d);
     await page.waitForTimeout(80);
   }
 });
@@ -42,11 +46,16 @@ Then('loopt de kalender bij {string} van {string} tot {string}', async ({ page }
 
 Then('ligt de kalender bij {string} alleen op de kalenderknop', async ({ page }, label: string) => {
   const veld = datumVeld(page, label);
-  const tekst = await veld.locator('[data-th-invoer]').boundingBox(), knop = await veld.locator('[data-th-kalender]').boundingBox();
-  const bovenop = (x: number, y: number) => page.evaluate(([x, y]) => {
-    const e = document.elementFromPoint(x, y) as HTMLElement | null;
-    return e?.hasAttribute('data-th-datum') ? 'kalender' : e?.hasAttribute('data-th-invoer') ? 'tekstveld' : e?.tagName ?? '';
-  }, [x, y]);
+  const tekst = await veld.locator('[data-th-invoer]').boundingBox(),
+    knop = await veld.locator('[data-th-kalender]').boundingBox();
+  const bovenop = (x: number, y: number) =>
+    page.evaluate(
+      ([x, y]) => {
+        const e = document.elementFromPoint(x, y) as HTMLElement | null;
+        return e?.hasAttribute('data-th-datum') ? 'kalender' : e?.hasAttribute('data-th-invoer') ? 'tekstveld' : (e?.tagName ?? '');
+      },
+      [x, y],
+    );
   expect(await bovenop(tekst!.x + 20, tekst!.y + tekst!.height / 2)).toBe('tekstveld');
   expect(await bovenop(knop!.x + knop!.width / 2, knop!.y + knop!.height / 2)).toBe('kalender');
 });
@@ -78,4 +87,19 @@ Then('staat de cursor in {string}', async ({ page }, label: string) => {
 });
 Then('staat de cursor niet in {string}', async ({ page }, label: string) => {
   await expect(page.getByLabel(label, { exact: true }).locator('visible=true').first()).not.toBeFocused();
+});
+
+// ---------- datumveld: kalender sluiten ----------
+When('de kalender bij {string} de datum {string} doorgeeft en sluit', async ({ page }, label: string, iso: string) => {
+  const datum = page.locator('.th-veld', { has: page.getByLabel(label, { exact: true }) }).locator('[data-th-datum]');
+  await datum.evaluate((e: HTMLInputElement, v) => {
+    e.value = v;
+    e.dispatchEvent(new Event('input', { bubbles: true }));
+    e.dispatchEvent(new Event('change', { bubbles: true }));
+    e.dispatchEvent(new FocusEvent('blur'));
+  }, iso);
+});
+Then('staat {string} meteen in de url', async ({ page }, stuk: string) => {
+  // Sneller dan de wachttijd van 800 ms: bij het sluiten van de kalender geeft het veld de datum direct door.
+  await expect.poll(() => decodeURIComponent(page.url()), { timeout: 400 }).toContain(stuk);
 });

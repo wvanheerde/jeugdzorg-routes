@@ -1,0 +1,39 @@
+/* ---------- Vel: uw gesprek voorbereiden (gesprek.astro), om af te drukken en met de hand in te vullen ---------- */
+.vel h3 { margin: 1.1rem 0 .2rem; }
+.vel .vel-blok:first-of-type h3 { margin-top: .4rem; }
+.vel-lijn { display: block; height: 1.9rem; border-bottom: 1px solid #b9c2c9; }
+.vel-blok > .meta { margin: 0 0 .2rem; }
+.vel-gemeente { margin-bottom: 1rem; }
+/* Na een keuze is de zoeklink weg; dan geen lege ruimte eronder (op de telefoon staat dat blok onder de keuzelijst). */
+.vel-gemeente .gemeente-keuze { margin-bottom: 0; }
+.vel-gemeente [data-woonplaats-uitkomst]:empty { display: none; }
+.vel-gemeente [data-woonplaats-open][style*="hidden"] { display: none; }
+.vel-velden { display: grid; gap: .6rem; }
+.vel-veld { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: .25rem 1rem; align-items: end; }
+.vel-label { font-weight: 600; padding-bottom: .25rem; }
+/* Een geladen contact van de gemeente vervangt de lege regel. */
+.vel-waarde:has([data-geladen]) > .vel-lijn { display: none; }
+.vel-veld:has([data-geladen]) { align-items: start; }
+.vel-veld:has([data-geladen]) .vel-label { padding-bottom: 0; }
+.vel-waarde .stap-org { margin-top: 0; }
+@media (max-width: 40rem) {
+  .vel-veld { grid-template-columns: minmax(0, 1fr); }
+}
+.vel-dagboek { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.vel-dagboek th, .vel-dagboek td { border: 1px solid #b9c2c9; padding: .35rem .5rem; text-align: left; vertical-align: top; }
+.vel-dagboek th { font-weight: 600; background: var(--c-surface-2); }
+.vel-dagboek td { height: 4.2rem; }
+.vel-dagboek th:nth-child(1) { width: 14%; }
+.vel-dagboek th:nth-child(2) { width: 18%; }
+.vel-vakje { display: block; white-space: nowrap; }
+.vel-vragen { list-style: none; padding: 0; margin: 0; }
+.vel-vragen li { margin: 0 0 .8rem; }
+.vel-vragen .vel-vakje { display: inline; font-size: 1.1em; margin-right: .2rem; }
+/* Logboek (logboek.astro) en "Wie er al helpen" (mijn-kind.astro): dezelfde tabel als het dagboek, andere kolommen. */
+.vel-logboek th:nth-child(1) { width: 12%; }
+.vel-logboek th:nth-child(2) { width: 20%; }
+.vel-logboek th:nth-child(5) { width: 12%; }
+.vel-logboek td { height: 5rem; }
+.vel-helpers th:nth-child(1) { width: 25%; }
+.vel-helpers th:nth-child(3) { width: 30%; }
+.vel-helpers td { height: 2.6rem; }

@@ -1,0 +1,89 @@
+/* ---------- Voorpagina: hero en startvragen ---------- */
+.hero { position: relative; overflow: hidden; overflow: clip; background: linear-gradient(135deg, #0f6b6e 0%, #126f72 60%, #157676 100%); color: #fff; border-radius: calc(var(--radius) + 6px); padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 5vw, 4rem); margin-bottom: 3rem; box-shadow: var(--shadow-md); }
+/* overflow: clip (niet hidden): hidden maakt de hero een scrollcontainer, en dan schoof scrollIntoView de inhoud binnen de groene box omhoog. */
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+.hero::before { width: 32rem; height: 32rem; right: -10rem; top: -14rem; background: rgba(255,255,255,.07); }
+.hero::after { width: 18rem; height: 18rem; right: 8rem; bottom: -10rem; background: rgba(217,98,43,.25); }
+.hero > * { position: relative; }
+.hero h1 { color: #fff; max-width: 40rem; }
+.hero .lead { color: #fff; }
+.hero .eyebrow { color: #ffd9c4; }
+.search { display: flex; gap: .5rem; max-width: 34rem; margin-top: 1.75rem; background: #fff; border-radius: 999px; padding: .35rem .35rem .35rem 1.1rem; box-shadow: var(--shadow-md); align-items: center; }
+.search svg { width: 20px; height: 20px; color: var(--c-muted); flex: none; }
+.search input { flex: 1; border: 0; font: inherit; font-size: 1.05rem; padding: .55rem 0; outline: none; color: var(--c-text); background: transparent; min-width: 0; }
+.search input::placeholder { color: #66727f; }
+.search .btn { border-radius: 999px; padding: .6rem 1.2rem; }
+.hero .hint { font-size: .9rem; color: #fff; margin: .75rem 0 0 .5rem; }
+.hero .hint + .hint { margin-top: .3rem; }
+/* ---------- Startvragen (voorpagina, Startvragen.astro) ----------
+   Eén vraag tegelijk, in vlakken. Donkere, doorschijnende vlakken: witte tekst op een lichte overlay haalde de contrastnorm
+   niet (3,6:1, ontwerpcontrole schets 3). Koppen en uitleg klein genoeg dat "Zorgen om een kind van een ander" op de telefoon
+   op één regel past; alle vlakken gelijk. */
+.hero-boven { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem 1rem; }
+.spoed-link { display: inline-flex; align-items: center; gap: .6rem; color: #fff; text-decoration: none; font-size: 1.02rem; font-weight: 650; padding: .45rem 1.1rem .45rem .45rem; border: 1.5px solid #ffb088; border-radius: 999px; }
+.spoed-link:hover { background: rgba(0,0,0,.15); color: #fff; }
+.spoed-ico { width: 2rem; height: 2rem; border-radius: 50%; background: #ffb088; color: var(--c-primary-dark); display: grid; place-items: center; flex: none; }
+.spoed-ico svg { width: 1.1rem; height: 1.1rem; }
+.spoed-pijl { color: #ffb088; }
+.startvragen { display: grid; gap: 1.1rem; margin-top: 1.5rem; max-width: 50rem; background: rgba(0,0,0,.14); border: 1px solid rgba(255,255,255,.22); border-radius: var(--radius); padding: 1.2rem 1.3rem 1.4rem; }
+.startvragen [hidden] { display: none !important; }
+.startvragen .field > span, .sv-vraag { font-weight: 650; font-size: 1.05rem; }
+.sv-vraag { margin: 0 0 .6rem; }
+/* Op de telefoon schuift de volgende vraag in beeld: net onder de vaste kopbalk, niet erachter. */
+.sv-stap, .sv-antwoord { scroll-margin-top: calc(var(--kop-hoogte, 4rem) + 1rem); }
+.sv-tegels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; }
+.sv-tegels-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.sv-tegel { font: inherit; text-align: left; color: #fff; background: rgba(0,0,0,.12); border: 1.5px solid rgba(255,255,255,.55); border-radius: var(--radius-sm); padding: .8rem 1rem; cursor: pointer; display: grid; gap: .15rem; align-content: start; }
+.sv-tegel:hover { background: rgba(0,0,0,.22); border-color: #fff; }
+.sv-tegel b { font-size: .86rem; font-weight: 650; }
+.sv-tegel small { font-size: .82rem; line-height: 1.45; }
+.sv-tegels-kort .sv-tegel { padding: .75rem 1rem; }
+/* Kind van een ander: hetzelfde vlak, rechts onder de andere vier. */
+.sv-tegel[data-sv-hoofd="ander"] { grid-column: 2; }
+.sv-antwoord { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .6rem; padding: .55rem .8rem; background: rgba(255,255,255,.1); border-radius: var(--radius-sm); font-size: .95rem; }
+.sv-antwoord .sv-label { color: #e2f1ef; font-size: .85rem; }
+.sv-antwoord b { font-weight: 650; }
+.startvragen .linkknop { background: none; border: 0; padding: 0; font: inherit; color: #fff; text-decoration: underline; cursor: pointer; }
+.sv-antwoord .linkknop { margin-left: auto; color: #fff; font-size: .85rem; }
+.sv-groep + .sv-groep { margin-top: .75rem; }
+.sv-groep-kop { font-size: .66rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; margin: 0 0 .3rem; }
+.sv-andere { font-size: .92rem; font-weight: 650; margin: 0 0 .45rem; padding-top: .9rem; border-top: 1px solid rgba(255,255,255,.25); }
+.startvragen .chip-btn { border-color: rgba(255,255,255,.6); background: rgba(0,0,0,.12); }
+.startvragen .chip-btn[aria-pressed="true"] { background: #fff; border-color: #fff; }
+.sv-verder { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; }
+.sv-verder .keuzes-wissen { color: #fff; }
+.sv-melding { flex-basis: 100%; margin: 0; padding: .5rem .8rem; background: #fff; color: var(--c-text); border-left: 4px solid var(--c-accent); border-radius: var(--radius-sm); font-size: .92rem; }
+@media (max-width: 600px) {
+  .hero-boven { display: grid; justify-content: stretch; }
+  .spoed-link { display: flex; width: 100%; }
+  .spoed-pijl { margin-left: auto; }
+  .startvragen { padding: 1rem .9rem 1.2rem; }
+  .sv-tegels { grid-template-columns: 1fr; }
+  .sv-tegels-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sv-tegel[data-sv-hoofd="ander"] { grid-column: 1; }
+  .sv-verder .btn { width: 100%; justify-content: center; }
+}
+@media (max-width: 640px) {
+  .hero { padding: 1.5rem 1.25rem; margin-bottom: 2rem; }
+  .hero h1 { font-size: 1.6rem; margin-bottom: .5rem; }
+  .hero .lead { font-size: 1rem; line-height: 1.5; margin: 0 0 1rem; }
+  .hero .eyebrow { font-size: .75rem; }
+  .search { flex-wrap: wrap; }
+  .search .btn { width: 100%; justify-content: center; }
+  .search { border-radius: var(--radius); }
+  .search .btn { padding: .55rem .9rem; }
+}
+/* Startpagina: na een vraagknop scrollen de leeftijds- en situatierij in beeld, net onder de vaste kop */
+.knelpunt-herkenning { margin: .6rem 0 0; font-style: italic; color: inherit; opacity: .9; }
+.knelpunt-herkenning, .leeftijd-keuze, .situatie-keuze { scroll-margin-top: calc(var(--kop-hoogte, 4rem) + 1.25rem); }
+/* Voorpagina op de telefoon: minder rand rond de startvragen */
+@media (max-width: 640px) {
+  .hero { padding-left: 1rem; padding-right: 1rem; }
+}
+/* Voorpagina: hint dat er onder het keuzeblok nog informatie staat */
+.meer-hint { position: fixed; left: 50%; transform: translateX(-50%); white-space: nowrap; max-width: calc(100vw - 2rem); bottom: calc(1rem + env(safe-area-inset-bottom)); z-index: 45; display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .95rem; border-radius: 999px; background: var(--c-surface); color: var(--c-primary-dark); font-weight: 600; font-size: .88rem; text-decoration: none; border: 1px solid var(--c-border); box-shadow: var(--shadow-md); }
+.meer-hint[hidden] { display: none; }
+.meer-hint:hover { border-color: var(--c-primary); }
+/* Voorpagina: "Keuzes wissen" naast "Toon mijn overzicht", als bescheiden tekstlink */
+.keuzes-wissen { background: none; border: 0; padding: 0 .25rem; font: inherit; font-size: .95rem; color: inherit; text-decoration: underline; cursor: pointer; align-self: center; }
+.keuzes-wissen[hidden] { display: none; }

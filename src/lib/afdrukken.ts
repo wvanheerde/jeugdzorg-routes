@@ -16,7 +16,9 @@ export const overzichtAdres = (huidig: string, keuzes: { gemeente: string; k: st
   if (keuzes.k) p.set('k', keuzes.k);
   if (keuzes.s.length) p.set('s', keuzes.s.join(','));
   if (keuzes.l) p.set('l', keuzes.l);
-  u.searchParams.forEach((v, k) => { if (!['gemeente', 'k', 's', 'l'].includes(k)) p.set(k, v); });
+  u.searchParams.forEach((v, k) => {
+    if (!['gemeente', 'k', 's', 'l'].includes(k)) p.set(k, v);
+  });
   u.search = p.toString().replace(/%2C/g, ',');
   u.hash = '';
   return u.href;

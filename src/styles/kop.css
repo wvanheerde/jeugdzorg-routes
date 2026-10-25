@@ -1,0 +1,68 @@
+/* ---------- Header ---------- */
+.site-header { position: sticky; top: 0; z-index: 50; background: rgba(247,245,240,.85); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--c-border); }
+.site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 4.75rem; }
+.brand { display: flex; align-items: center; gap: .7rem; font-family: var(--font-head); font-weight: 700; text-decoration: none; color: var(--c-text); font-size: 1.4rem; }
+.brand svg { width: 44px; height: 44px; flex: none; }
+.brand span { color: var(--c-primary); }
+.nav { display: flex; gap: .25rem; flex-wrap: wrap; }
+.nav a { text-decoration: none; color: var(--c-muted); font-weight: 500; font-size: .95rem; padding: .45rem .8rem; border-radius: 999px; transition: background .15s, color .15s; }
+.menu-knop { display: none; align-items: center; font: inherit; font-weight: 600; font-size: .95rem; color: var(--c-primary-dark); background: var(--c-primary-soft); border: 0; border-radius: 999px; padding: .45rem 1rem; cursor: pointer; }
+.menu-knop::after { content: ""; width: .45rem; height: .45rem; margin-left: .5rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
+.menu-open .menu-knop::after { transform: translateY(2px) rotate(-135deg); }
+.nav a:hover { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.nav a[aria-current="page"] { background: var(--c-primary); color: #fff; }
+@media (max-width: 640px) {
+  .site-header .container { height: auto; padding: .6rem 1.25rem; flex-wrap: wrap; gap: .25rem 1rem; }
+  .menu-knop { display: inline-flex; }
+  .site-header .brand { font-size: 1.15rem; gap: .5rem; }
+  .site-header .brand svg { width: 2rem; height: 2rem; }
+  .js .site-header:not(.menu-open) .nav { display: none; }
+  .nav { width: 100%; flex-direction: column; gap: 0; padding: .25rem 0 .5rem; }
+  .nav a { padding: .6rem .8rem; font-size: 1rem; }
+}
+/* Zoeken op de site (src/scripts/zoeken.ts): vergrootglas rechts in het menu; open vervangt de zoekbalk het menu. */
+.zoek-knop { display: inline-flex; align-items: center; justify-content: center; width: 2.4rem; height: 2.4rem; flex: none; border: 0; border-radius: 999px; background: none; color: var(--c-muted); cursor: pointer; }
+.zoek-knop[hidden] { display: none; }
+.kop-knoppen { order: 2; display: flex; flex-wrap: wrap; align-items: center; gap: .25rem; }
+.site-header .container > .nav { order: 1; }
+.zoekbalk { order: 2; }
+.zoek-open .kop-knoppen { display: none; }
+.zoek-knop svg { width: 1.25rem; height: 1.25rem; }
+.zoek-knop:hover, .zoek-knop:focus-visible { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.site-header .container > .nav { margin-left: auto; }
+.zoekbalk { flex: 1 1 0; min-width: 0; display: flex; align-items: center; gap: .5rem; margin-left: 1rem; }
+.zoekbalk[hidden] { display: none; }
+.zoekbalk input { flex: 1; width: 100%; min-width: 0; font: inherit; font-size: 1rem; padding: .55rem 1rem; border: 1.5px solid var(--c-border); border-radius: 999px; background: var(--c-surface); }
+.zoekbalk input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+.zoekbalk input:focus { outline: 2px solid var(--c-primary); outline-offset: 1px; border-color: var(--c-primary); }
+.zoek-sluit { flex: none; width: 2.4rem; height: 2.4rem; border: 0; border-radius: 999px; background: none; font-size: 1.6rem; line-height: 1; color: var(--c-muted); cursor: pointer; }
+.zoek-sluit:hover, .zoek-sluit:focus-visible { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.zoek-open .nav, .zoek-open .menu-knop, .zoek-open .zoek-knop { display: none !important; }
+.zoek-paneel { position: absolute; left: 0; right: 0; top: 100%; background: var(--c-surface); border-bottom: 1px solid var(--c-border); box-shadow: 0 12px 24px rgba(0,0,0,.08); max-height: min(70vh, 36rem); overflow-y: auto; }
+.zoek-paneel[hidden] { display: none; }
+.site-header .zoek-paneel .container { display: block; height: auto; padding-top: .75rem; padding-bottom: 1rem; }
+.zoek-paneel .meta:empty { display: none; }
+.zoek-resultaten { list-style: none; margin: 0; padding: 0; }
+.zoek-resultaten > li { padding: .65rem 0; border-bottom: 1px solid var(--c-border); }
+.zoek-resultaten > li:last-child { border-bottom: 0; }
+.zoek-resultaten a { font-weight: 600; }
+.zoek-resultaten p { margin: .2rem 0 0; font-size: .92rem; color: var(--c-muted); }
+.zoek-resultaten mark { background: #fff1b8; color: inherit; padding: 0 .1em; }
+.zoek-soort { display: block; font-size: .75rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--c-primary); margin-bottom: .1rem; }
+@media (max-width: 640px) {
+  .site-header .brand { order: 0; }
+  /* Menu links van het vergrootglas, zoals op de laptop, beide rechts naast het logo. Past dat niet, dan Menu rechts onder het
+     vergrootglas: Menu staat eerst (order), en wrap-reverse zet de eerste regel onderaan (24-10). */
+  .site-header .container { column-gap: .25rem; }
+  .kop-knoppen { order: 1; flex: 1 0 2.4rem; justify-content: flex-end; flex-wrap: wrap-reverse; }
+  .kop-knoppen .menu-knop { order: -1; }
+  .site-header .brand { font-size: 1.05rem; gap: .45rem; }
+  .site-header .brand svg { width: 1.85rem; height: 1.85rem; }
+  .menu-knop { padding: .45rem .8rem; }
+  .site-header .container > .nav { order: 3; margin-left: 0; }
+  .zoekbalk { order: 1; margin-left: .5rem; }
+  .zoek-open .brand { font-size: 0; gap: 0; }
+}
+@media print {
+  .zoek-knop, .zoekbalk, .zoek-paneel { display: none !important; }
+}

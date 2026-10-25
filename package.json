@@ -8,6 +8,8 @@
     "build": "astro build && node scripts/sitemap.mjs && pagefind --site dist --silent",
     "preview": "astro preview",
     "check": "astro check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "validate": "node scripts/validate-content.mjs",
     "links": "node scripts/check-links.mjs",
     "scaffold": "node scripts/scaffold-gemeenten.mjs",
@@ -27,6 +29,8 @@
     "@astrojs/check": "^0.9.10",
     "@types/node": "^26.6.5",
     "pagefind": "^1.5.2",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.2",
     "typescript": "^6.0.3"
   }
 }

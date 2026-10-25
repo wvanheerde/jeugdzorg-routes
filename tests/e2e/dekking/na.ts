@@ -13,15 +13,16 @@ const PAGES = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../
 /** src/pages/gemeenten/[slug].astro → { route: '/gemeenten/[slug]/', re: /^\/gemeenten\/[^/]+\/$/ } */
 const routes = () => {
   const uit: { route: string; re: RegExp }[] = [];
-  const loop = (map: string) => fs.readdirSync(path.join(PAGES, map), { withFileTypes: true }).forEach((f) => {
-    const rel = path.join(map, f.name);
-    if (f.isDirectory()) return loop(rel);
-    let r = '/' + rel.replace(/\\/g, '/').replace(/\.(astro|ts)$/, '');
-    r = r.replace(/\/index$/, '/');
-    if (!/\.\w+$/.test(r) && !r.endsWith('/')) r += '/';
-    const re = new RegExp('^' + r.replace(/[.*+?^${}()|\\]/g, '\\$&').replace(/\\\[[^\]]+\]|\[[^\]]+\]/g, '[^/]+') + '$');
-    uit.push({ route: r, re });
-  });
+  const loop = (map: string) =>
+    fs.readdirSync(path.join(PAGES, map), { withFileTypes: true }).forEach((f) => {
+      const rel = path.join(map, f.name);
+      if (f.isDirectory()) return loop(rel);
+      let r = '/' + rel.replace(/\\/g, '/').replace(/\.(astro|ts)$/, '');
+      r = r.replace(/\/index$/, '/');
+      if (!/\.\w+$/.test(r) && !r.endsWith('/')) r += '/';
+      const re = new RegExp('^' + r.replace(/[.*+?^${}()|\\]/g, '\\$&').replace(/\\\[[^\]]+\]|\[[^\]]+\]/g, '[^/]+') + '$');
+      uit.push({ route: r, re });
+    });
   loop('.');
   return uit.sort((a, b) => a.route.localeCompare(b.route));
 };
@@ -31,23 +32,43 @@ export default async function () {
   const code = await new CoverageReport(codeOpties).generate();
 
   const base = (process.env.BASE_PATH ?? '/').replace(/\/?$/, '/');
-  const bezoeken = fs.existsSync(BEZOCHT) ? fs.readdirSync(BEZOCHT).flatMap((f) =>
-    fs.readFileSync(path.join(BEZOCHT, f), 'utf8').trim().split('\n').filter(Boolean).map((r) => JSON.parse(r) as { test: string; paden: string[] })) : [];
+  const bezoeken = fs.existsSync(BEZOCHT)
+    ? fs.readdirSync(BEZOCHT).flatMap((f) =>
+        fs
+          .readFileSync(path.join(BEZOCHT, f), 'utf8')
+          .trim()
+          .split('\n')
+          .filter(Boolean)
+          .map((r) => JSON.parse(r) as { test: string; paden: string[] }),
+      )
+    : [];
   const rijen = routes().map(({ route, re }) => {
     const tests = new Set(bezoeken.filter((b) => b.paden.some((p) => re.test('/' + p.replace(base, '').replace(/^\//, '')))).map((b) => b.test));
     return { route, n: tests.size };
   });
-  const paginas = ['# Dekking per paginasoort', '', 'Aantal scenario-uitvoeringen (laptop en telefoon apart) dat de paginasoort bezocht of ophaalde.', '',
-    '| Paginasoort | Scenario-uitvoeringen |', '|---|---|',
-    ...rijen.map((r) => `| \`${r.route}\` | ${r.n === 0 ? '**0, niet getest**' : r.n} |`)].join('\n');
+  const paginas = [
+    '# Dekking per paginasoort',
+    '',
+    'Aantal scenario-uitvoeringen (laptop en telefoon apart) dat de paginasoort bezocht of ophaalde.',
+    '',
+    '| Paginasoort | Scenario-uitvoeringen |',
+    '|---|---|',
+    ...rijen.map((r) => `| \`${r.route}\` | ${r.n === 0 ? '**0, niet getest**' : r.n} |`),
+  ].join('\n');
   fs.writeFileSync(path.join(RAPPORT, 'paginas.md'), paginas + '\n');
 
   const s = code?.summary as any;
   const pct = (m: string) => (s?.[m]?.pct ?? 0).toFixed(1);
-  const samenvatting = ['# Dekkingsmeting', '',
-    `- Regels: ${pct('lines')}%`, `- Functies: ${pct('functions')}%`, `- Takken: ${pct('branches')}%`,
-    `- Paginasoorten getest: ${rijen.filter((r) => r.n).length} van ${rijen.length}`, '',
-    'Details: `code/index.html` (per bronbestand, met niet-uitgevoerde regels) en `paginas.md`.'].join('\n');
+  const samenvatting = [
+    '# Dekkingsmeting',
+    '',
+    `- Regels: ${pct('lines')}%`,
+    `- Functies: ${pct('functions')}%`,
+    `- Takken: ${pct('branches')}%`,
+    `- Paginasoorten getest: ${rijen.filter((r) => r.n).length} van ${rijen.length}`,
+    '',
+    'Details: `code/index.html` (per bronbestand, met niet-uitgevoerde regels) en `paginas.md`.',
+  ].join('\n');
   fs.writeFileSync(path.join(RAPPORT, 'samenvatting.md'), samenvatting + '\n');
   console.log('\n' + samenvatting + '\n\n' + paginas + '\n');
   // In GitHub Actions: samenvatting bij de run zetten.
@@ -58,6 +79,9 @@ export default async function () {
   const min = Number(process.env.DEKKING_MINIMUM ?? 0);
   const regels = s?.lines?.pct ?? 0;
   const zonder = rijen.filter((r) => !r.n).map((r) => r.route);
-  if (regels < min) throw new Error(`Codedekking ${regels.toFixed(1)}% is lager dan de ondergrens van ${min}%. Schrijf scenario's voor de code die niet draait (zie dekking-rapport/code/index.html).`);
+  if (regels < min)
+    throw new Error(
+      `Codedekking ${regels.toFixed(1)}% is lager dan de ondergrens van ${min}%. Schrijf scenario's voor de code die niet draait (zie dekking-rapport/code/index.html).`,
+    );
   if (min && zonder.length) throw new Error(`Paginasoorten zonder scenario: ${zonder.join(', ')}`);
 }

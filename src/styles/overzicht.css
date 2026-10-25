@@ -1,0 +1,108 @@
+/* ---------- Mijn overzicht ---------- */
+/* Volgende stap en inklapbare secties */
+.volgende-stap { border-left: 4px solid var(--c-primary); background: var(--c-primary-soft); }
+.volgende-stap .vs-tekst { font-size: 1.1rem; margin: 0 0 .5rem; }
+.volgende-stap .vs-leeftijd { border-top: 1px dashed var(--c-border); padding-top: .6rem; margin-top: .6rem; }
+/* Ingeklapte extra brieven onder "Wat kunt u nu doen". */
+.meer-brieven { margin-top: 1rem; }
+.meer-brieven > summary { cursor: pointer; font-weight: 600; color: var(--c-primary); padding: .5rem 0; list-style: none; display: flex; align-items: center; gap: .5rem; }
+.meer-brieven > summary::-webkit-details-marker { display: none; }
+.meer-brieven > summary::before { content: ''; width: .5rem; height: .5rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s; flex: none; }
+.meer-brieven[open] > summary::before { transform: rotate(45deg); }
+/* "Mijn kind wordt 18": stappen die niet bij de keuzes passen, ingeklapt onder de stappen (zonder nummers: het zijn geen stappen in de volgorde). */
+.meer-stappen > .meta { margin: 0 0 .6rem; }
+.meer-stappen .steps-anders { margin: 0; padding-left: 1.2rem; list-style: disc; }
+.meer-stappen .steps-anders > li { margin: 0 0 .9rem; }
+.meer-stappen .steps-anders .steps-sub { margin-top: .4rem; }
+.meer-brieven > .grid { margin-top: .5rem; }
+/* Antwoord eerst: de contactkaart bovenaan */
+.eerste-contact { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; margin-top: 1rem; }
+.eerste-contact h3 { margin: 0 0 .6rem; }
+.eerste-contact .wijkteam-uitleg { margin: -.3rem 0 .6rem; }
+.eerste-contact .ec-cjg { padding-bottom: .75rem; margin-bottom: .9rem; border-bottom: 1px solid var(--c-border); }
+.kaart-boven { margin: 0 0 1.5rem; }
+.kaart-boven h2.h3-maat { font-size: 1.15rem; margin: 0 0 .6rem; }
+.kaart-boven p.meta { margin: .2rem 0 0; }
+.kaart-boven p.wijkteam-uitleg { margin: -.3rem 0 .6rem; } /* zelfde ruimte boven de belknop als in Mijn overzicht */
+.eerste-contact .bel { display: inline-flex; gap: .55rem; font-size: 1.1rem; margin: .6rem 0 .5rem; }
+.geld-hint { margin-top: 1rem; }
+/* Kop en knop van de wijkteamkaart, afhankelijk van de eerste stap */
+.eerste-contact .kop-tweede, .eerste-contact .kop-verhuizing, .eerste-contact .tel-gewoon { display: none; }
+[data-modus="tweede"] .eerste-contact .kop-standaard, [data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
+[data-modus="tweede"] .eerste-contact .kop-tweede, [data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
+[data-modus="tweede"] .eerste-contact .bel { display: none; }
+[data-modus="tweede"] .eerste-contact .tel-gewoon { display: block; margin: 0 0 .4rem; }
+/* Mijn overzicht: blok 1 (stap 1, contact, overige stappen, handig, brieven); volgorde wordt in de HTML gezet */
+#nu-doen .stap-een li { font-weight: 400; }
+/* Vet begin van een stap (vraag of moment). Alle stappen even groot als de inleiding erboven. */
+#nu-doen .stap-lead { font-weight: 700; }
+/* Stap 1 bij meer situaties: de ingang van een andere gekozen situatie die ergens anders begint. */
+#nu-doen .stap-ook { margin: .6rem 0 0; }
+#nu-doen .o4 { margin-top: 0; }
+#nu-doen .lead-klein { margin: 0 0 .75rem; }
+/* Ruimte tussen het blok "Hier meldt u zich" en de tekst eronder. */
+#nu-doen .eerste-contact { margin-bottom: 1rem; }
+.eerste-contact .kop-verhuizing { display: none; }
+#nu-doen .stap-nieuw { display: block; }
+/* Verhuizing: twee wijkteams bij de stappen, dus de gemeente erboven (ook voor de huidige gemeente onder stap 1). */
+.stap-wt-gemeente { display: none; }
+[data-modus="verhuizing"] .stap-wt-gemeente { display: block; margin-top: .6rem; font-weight: 600; color: var(--c-text); }
+[data-modus="verhuizing"] .stap-wt-gemeente + .stap-org { margin-top: .2rem; }
+.stap-wt-uitleg { display: none; }
+[data-modus="verhuizing"] .stap-wt-uitleg { display: block; margin-top: .2rem; font-size: .9rem; }
+.eerste-contact .kop-wijkteam { display: none; }
+[data-kop="wijkteam"] .eerste-contact .kop-standaard { display: none; }
+[data-kop="wijkteam"] .eerste-contact .kop-wijkteam { display: inline; }
+[data-modus="verhuizing"] .eerste-contact .kop-standaard { display: none; }
+[data-modus="verhuizing"] .eerste-contact .kop-verhuizing { display: inline; }
+/* Contactkaart bovenaan per vraag: bezwaar bij afwijzing, klacht bij vastgelopen gesprekken, wachttijd bij wachten */
+/* "Hoe lang duurt het?" staat altijd (ingeklapt) in de kaart: ook wie hulp aanvraagt wil dat weten (persona-tests, Rob). */
+.eerste-contact .ec-bezwaar, .eerste-contact .ec-klacht { display: none; }
+[data-modus="bezwaar"] .eerste-contact .ec-standaard, [data-modus="klacht"] .eerste-contact .ec-standaard { display: none; }
+[data-modus="bezwaar"] .eerste-contact .ec-bezwaar, [data-modus="klacht"] .eerste-contact .ec-klacht, [data-modus="wachten"] .eerste-contact .ec-wachten { display: block; }
+[data-modus="bezwaar"] [data-onderdeel="bezwaar"], [data-modus="bezwaar"] [data-onderdeel="postadres"], [data-modus="klacht"] [data-onderdeel="klacht"] { display: none !important; }
+/* Mijn overzicht: vaste regel bij wachten en contact van genoemde organisaties */
+#nu-doen .wacht-erger { background: var(--c-warn-bg); border-left: 3px solid var(--c-warn-border); padding: .5rem .75rem; border-radius: 6px; margin: 0 0 .75rem; }
+#nu-doen .stap-tips { display: block; margin-top: .4rem; font-size: .9rem; font-weight: 400; }
+#nu-doen .stap-kern p { margin: .5rem 0 0; font-size: .95rem; }
+/* Mijn overzicht: witregel tussen de lokale initiatieven */
+.lokale-steun > li + li { margin-top: 1rem; }
+.eerste-contact details.ec-wachten summary, .wijkteam-regel details.ec-wachten summary { cursor: pointer; font-weight: 600; }
+.wijkteam-regel > p { margin: 0; }
+/* Brieflink op een eigen regel onder de stap, niet vet: achter de zin maakte het geheel druk. */
+#nu-doen .stap-brief { display: block; width: fit-content; margin-top: .4rem; font-size: .9rem; font-weight: 400; }
+#nu-doen .wijkteam-regel { margin: .25rem 0 1rem; padding: .6rem .8rem; background: var(--c-primary-soft); border-radius: 8px; }
+/* Mijn overzicht, hulp aanvragen: de gezagsvraag ingeklapt onder de inleiding (alleen voor wie niet samenwoont met de andere ouder). */
+.gezag-inklap { margin: 0 0 1rem; }
+.gezag-inklap > summary { cursor: pointer; font-weight: 600; color: var(--c-primary-dark); }
+.gezag-inklap[open] > summary { margin-bottom: .6rem; }
+/* Mijn overzicht: keuzes bovenaan in de zijnavigatie (desktop) */
+.side .side-keuzes { padding-bottom: .8rem; margin-bottom: .8rem; border-bottom: 1px solid var(--c-border); }
+.side .side-keuzes p { margin: 0 0 .35rem; font-size: .9rem; color: var(--c-text); }
+/* "Hoe lang duurt het?" (uitklapper) en "Hoe gaat het?" (link) naast elkaar, in dezelfde opmaak. Open: uitleg eronder, link schuift mee. */
+.ec-wacht-rij { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1.25rem; margin-top: .4rem; }
+.ec-wacht-rij details.ec-wachten { margin: 0; }
+.ec-wacht-rij details.ec-wachten[open] { flex-basis: 100%; }
+.ec-wacht-rij details.ec-wachten p { margin: .3rem 0 0; }
+.ec-wacht-rij summary, .ec-wacht-rij .ec-hoe { font-size: .9rem; font-weight: 600; color: var(--c-primary-dark); text-decoration: none; }
+.ec-wacht-rij .ec-hoe:hover, .ec-wacht-rij summary:hover { text-decoration: underline; }
+/* Regel "Liever eerst het wijkteam?": telefoonnummer met icoon, niet afbreken. */
+.wijkteam-regel > .stap-org { margin-top: .2rem; }
+.wijkteam-regel .wt-gelijk, [data-gelijk] .wijkteam-regel .wt-alt { display: none; }
+[data-gelijk] .wijkteam-regel .wt-gelijk { display: inline; }
+.eerste-contact .ec-bezwaar .btn + .meta, .eerste-contact .ec-bezwaar .btn + p { margin-top: .9rem; }
+/* "Hoe lang duurt het / Hoe gaat het in …" onder stap 1 (standInGemeente). */
+/* "Mijn kind wordt 18": de datum die de geboortedatum oplevert, gemarkeerd; de uitleg erachter in gewone letters. */
+#nu-doen mark.stap-datum { background: var(--c-primary-soft); color: var(--c-primary-dark); padding: .05em .35em; border-radius: 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+#nu-doen .stap-datum-uitleg { font-weight: 400; }
+/* Regelingencheck ("Extra kosten of kinderbijslag"): label bij een regeling die waarschijnlijk past, en de regelingen van de gemeente onder de stap. */
+#nu-doen .stap-past { display: inline-block; margin: 0 .45rem .15rem 0; padding: .05em .45em; border-radius: 4px; background: var(--c-ok-soft); color: var(--c-ok); font-size: .8rem; font-weight: 600; vertical-align: .08em; }
+#nu-doen .stap-regelingen { margin-top: .55rem; font-size: .92rem; font-weight: 400; }
+#nu-doen .stap-regelingen-kop { margin: 0 0 .25rem; font-weight: 600; }
+#nu-doen .stap-regelingen ul { margin: 0; padding-left: 1.2rem; list-style: disc; }
+/* Gewone opsomming, ook binnen de genummerde stappen: geen stapnummer en geen tellen (anders liep de nummering van de stappen door). */
+#nu-doen ol.steps .stap-regelingen li { margin: 0 0 .35rem; padding-left: 0; counter-increment: none; }
+#nu-doen ol.steps .stap-regelingen li::before { content: none; }
+#nu-doen .stap-regeling { margin: .35rem 0 0; }
+#nu-doen .stap-stand { margin-top: .5rem; font-size: .95rem; font-weight: 400; }
+#nu-doen .stap-stand details.ec-wachten summary { cursor: pointer; }

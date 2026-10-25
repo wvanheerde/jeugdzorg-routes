@@ -7,11 +7,23 @@
  * of woonplaats (meta "plaatsen" op de gemeentepagina), dan staat die gemeente bovenaan. Gaat een treffer over één onderdeel van een lange pagina
  * (zoals Landelijk), dan linkt het resultaat naar dat onderdeel.
  */
+import { base } from '../site';
+
 type Treffer = { url: string; titel: string; stukje: string; soort: string; score: number; plaatsen: string[]; zoekwoorden: string[]; inKop: number };
-type PagefindData = { url: string; meta: { title?: string; plaatsen?: string; zoekwoorden?: string; herkenning?: string }; excerpt: string; filters: Record<string, string[]>; sub_results?: { url: string; title: string; excerpt: string; locations?: number[] }[] };
+type PagefindData = {
+  url: string;
+  meta: { title?: string; plaatsen?: string; zoekwoorden?: string; herkenning?: string };
+  excerpt: string;
+  filters: Record<string, string[]>;
+  sub_results?: { url: string; title: string; excerpt: string; locations?: number[] }[];
+};
 type Resultaat = { id: string; score: number; data: () => Promise<PagefindData> };
 type Uitkomst = { results: Resultaat[]; samen: number };
-type Pagefind = { options: (o: object) => Promise<void>; search: (q: string, o?: object) => Promise<Uitkomst>; debouncedSearch: (q: string, o?: object) => Promise<Uitkomst | null> };
+type Pagefind = {
+  options: (o: object) => Promise<void>;
+  search: (q: string, o?: object) => Promise<Uitkomst>;
+  debouncedSearch: (q: string, o?: object) => Promise<Uitkomst | null>;
+};
 
 const MAX_RESULTATEN = 12;
 /** Zoveel pagina's met maar één van de zoekwoorden lezen we er altijd bij. */
@@ -21,7 +33,6 @@ const MAX_GEMEENTEN = 3;
 const WEINIG = 3;
 /** Zoveel gemeenten extra na "Meer gemeenten". */
 const MEER_GEMEENTEN = 20;
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const kop = document.querySelector<HTMLElement>('.site-header');
 const knop = document.querySelector<HTMLButtonElement>('[data-zoek-knop]');
 const balk = document.querySelector<HTMLFormElement>('[data-zoekbalk]');
@@ -32,17 +43,26 @@ const melding = document.querySelector<HTMLElement>('[data-zoek-melding]');
 const lijst = document.querySelector<HTMLOListElement>('[data-zoek-resultaten]');
 
 let pagefind: Promise<Pagefind> | null = null;
-const laad = () => (pagefind ??= import(/* @vite-ignore */ `${base}/pagefind/pagefind.js`).then(async (p: Pagefind) => {
-  await p.options({ baseUrl: `${base}/` });
-  return p;
-}).catch((e) => { pagefind = null; throw e; }));
+const laad = () =>
+  (pagefind ??= import(/* @vite-ignore */ `${base}/pagefind/pagefind.js`)
+    .then(async (p: Pagefind) => {
+      await p.options({ baseUrl: `${base}/` });
+      return p;
+    })
+    .catch((e) => {
+      pagefind = null;
+      throw e;
+    }));
 
 const open = () => {
   kop!.classList.add('zoek-open');
   balk!.hidden = false;
   knop!.setAttribute('aria-expanded', 'true');
   invoer!.focus();
-  laad().catch(() => { melding!.textContent = 'Zoeken lukt nu niet. Probeer het later opnieuw.'; paneel!.hidden = false; });
+  laad().catch(() => {
+    melding!.textContent = 'Zoeken lukt nu niet. Probeer het later opnieuw.';
+    paneel!.hidden = false;
+  });
 };
 const sluit = () => {
   kop!.classList.remove('zoek-open');
@@ -81,14 +101,19 @@ const naarTreffer = (d: PagefindData, score: number, term = ''): Treffer => {
   const titel = zonderStreepjes(d.meta.title ?? d.url);
   const soort = d.filters.soort?.[0] ?? 'Pagina';
   const woorden = term ? kern(term).split(' ') : [];
-  const metAnker = (d.sub_results ?? []).filter((x) => x.url.includes('#')).map((x) => ({ ...x, title: zonderStreepjes(x.title) })).filter((x) => x.title !== titel);
+  const metAnker = (d.sub_results ?? [])
+    .filter((x) => x.url.includes('#'))
+    .map((x) => ({ ...x, title: zonderStreepjes(x.title) }))
+    .filter((x) => x.title !== titel);
   const kopWoorden = (x: { title: string }) => norm(zonderHaakjes(x.title)).trim().split(' ');
   let sub: (typeof metAnker)[number] | undefined;
   if (soort === 'Situatie') sub = undefined;
   else {
     // 1. Een kop die precies past, anders de kortste kop met alle zoekwoorden.
     const precies = metAnker.find((x) => woorden.length && kopWoorden(x).join(' ') === woorden.join(' '));
-    const metAlle = metAnker.filter((x) => woorden.length && woorden.every((w) => norm(x.title).includes(` ${w} `))).sort((a, b) => kopWoorden(a).length - kopWoorden(b).length)[0];
+    const metAlle = metAnker
+      .filter((x) => woorden.length && woorden.every((w) => norm(x.title).includes(` ${w} `)))
+      .sort((a, b) => kopWoorden(a).length - kopWoorden(b).length)[0];
     sub = precies ?? metAlle;
     if (!sub && EEN_ONDERWERP.has(soort)) {
       // 3. Pagina over één onderwerp: een onderdeel waar de zoekopdracht over gaat, anders de uitleg.
@@ -98,7 +123,9 @@ const naarTreffer = (d: PagefindData, score: number, term = ''): Treffer => {
       // 4. Pagina over veel onderwerpen: het onderdeel met de meeste treffers.
       const anderDeel = metAnker.some((x) => !x.url.endsWith('#ervaringen') && (x.locations?.length ?? 0) > 0);
       const subs = (d.sub_results ?? []).filter((x) => !(soort === 'Gemeente' && anderDeel && x.url.endsWith('#ervaringen')));
-      const beste = [...subs].sort((a, b) => (b.locations?.length ?? 0) - (a.locations?.length ?? 0) || Number(b.url.includes('#')) - Number(a.url.includes('#')))[0];
+      const beste = [...subs].sort(
+        (a, b) => (b.locations?.length ?? 0) - (a.locations?.length ?? 0) || Number(b.url.includes('#')) - Number(a.url.includes('#')),
+      )[0];
       sub = beste && metAnker.find((x) => x.url === beste.url);
     }
   }
@@ -109,7 +136,7 @@ const naarTreffer = (d: PagefindData, score: number, term = ''): Treffer => {
     /** Hoeveel zoekwoorden in de titel of de gekozen kop staan: zo'n pagina gaat voor een pagina waar ze alleen in de tekst staan. */
     inKop: woorden.filter((w) => norm(volledigeTitel).includes(` ${w} `)).length,
     // Bij een situatie de herkenningszin: het stukje tekst kon de verborgen zoekvormen tonen ("slaapt wordt wakker").
-    stukje: soort === 'Situatie' && d.meta.herkenning ? ontsnap(d.meta.herkenning) : sub?.excerpt ?? d.excerpt,
+    stukje: soort === 'Situatie' && d.meta.herkenning ? ontsnap(d.meta.herkenning) : (sub?.excerpt ?? d.excerpt),
     soort,
     score,
     plaatsen: (d.meta.plaatsen ?? '').split('|').filter(Boolean),
@@ -128,18 +155,31 @@ const item = (t: Treffer) => {
   return li;
 };
 
-const norm = (s: string) => ` ${s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()} `;
+const norm = (s: string) =>
+  ` ${s
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()} `;
 /** Noemt de zoekopdracht deze naam als losse woorden ("bezwaar utrecht" noemt Utrecht, "utrechtse heuvelrug" niet)? */
 const noemt = (q: string, naam: string) => norm(q).includes(norm(naam));
 
 /** Woorden die in een zin van een ouder niets zeggen over het onderwerp ("Mijn kind is nog steeds niet zindelijk"). */
-const STOPWOORDEN = new Set(('mijn ons onze zijn haar hun kind kinderen zoon dochter jongen meisje baby peuter puber is was wordt werd heeft hebben ' +
-  'heb doet doen gaat wil wilt kan kunnen moet nog steeds niet geen wel al meer erg heel veel vaak soms altijd nooit hele de het een en of ' +
-  'op in aan met van voor naar bij om over uit tot dan dat die dit wat hoe waarom wanneer hij zij ze we wij ik u je jij me mij hem andere anderen ' +
-  'dag dagen keer zo ook maar want omdat als woon woont wonen last').split(' '));
+const STOPWOORDEN = new Set(
+  (
+    'mijn ons onze zijn haar hun kind kinderen zoon dochter jongen meisje baby peuter puber is was wordt werd heeft hebben ' +
+    'heb doet doen gaat wil wilt kan kunnen moet nog steeds niet geen wel al meer erg heel veel vaak soms altijd nooit hele de het een en of ' +
+    'op in aan met van voor naar bij om over uit tot dan dat die dit wat hoe waarom wanneer hij zij ze we wij ik u je jij me mij hem andere anderen ' +
+    'dag dagen keer zo ook maar want omdat als woon woont wonen last'
+  ).split(' '),
+);
 /** De woorden die iets zeggen; bij een zin van één of twee woorden de zin zelf. */
 const kern = (q: string) => {
-  const woorden = norm(q).trim().split(' ').filter((w) => w && !STOPWOORDEN.has(w));
+  const woorden = norm(q)
+    .trim()
+    .split(' ')
+    .filter((w) => w && !STOPWOORDEN.has(w));
   return woorden.length ? woorden.join(' ') : q;
 };
 
@@ -147,9 +187,16 @@ let laatste = '';
 const zoek = async () => {
   const q = invoer!.value.trim();
   laatste = q;
-  if (!q) { paneel!.hidden = true; lijst!.replaceChildren(); return; }
+  if (!q) {
+    paneel!.hidden = true;
+    lijst!.replaceChildren();
+    return;
+  }
   // Melding tot de resultaten er zijn: de eerste keer laadt de zoekfunctie even (Ingrid, persona-test 24-10).
-  if (!lijst!.children.length) { melding!.textContent = 'Zoeken…'; paneel!.hidden = false; }
+  if (!lijst!.children.length) {
+    melding!.textContent = 'Zoeken…';
+    paneel!.hidden = false;
+  }
   const p = await laad();
   /** Zoeken op alle woorden samen. Staat er weinig met alle woorden (een lange pagina heeft ze soms toevallig allemaal), dan ook op
    *  de losse woorden, met de scores opgeteld; wat alle woorden heeft, blijft bovenaan. Met `altijdLos` ook als er genoeg is: de pagina
@@ -159,10 +206,11 @@ const zoek = async () => {
     const woorden = term.split(' ');
     if (!u || (u.results.length >= WEINIG && !altijdLos) || woorden.length < 2) return u && { ...u, samen: u.results.length };
     const per = new Map<string, Resultaat>();
-    for (const w of woorden) for (const r of (await p.search(w, { filters })).results) {
-      const al = per.get(r.id);
-      per.set(r.id, al ? { ...al, score: al.score + r.score } : r);
-    }
+    for (const w of woorden)
+      for (const r of (await p.search(w, { filters })).results) {
+        const al = per.get(r.id);
+        per.set(r.id, al ? { ...al, score: al.score + r.score } : r);
+      }
     const alle = new Set(u.results.map((r) => r.id));
     return { results: [...u.results, ...[...per.values()].filter((r) => !alle.has(r.id)).sort((a, b) => b.score - a.score)], samen: u.results.length };
   };
@@ -173,8 +221,12 @@ const zoek = async () => {
   const gemeenteUitkomst = (await vind(term, { soort: 'Gemeente' }))!;
   const lees = (u: Uitkomst, n: number) => Promise.all(u.results.slice(0, n).map(async (r) => naarTreffer(await r.data(), r.score, term)));
   // Van de andere pagina's: wat alle woorden heeft, plus een paar met één woord; die laatste komen alleen naar voren met het woord in een kop.
-  const leesAnders = (u: Uitkomst, t = term) => Promise.all([...u.results.slice(0, Math.min(u.samen, MAX_RESULTATEN)), ...u.results.slice(u.samen, u.samen + Math.max(LOS_EXTRA, MAX_RESULTATEN - u.samen))]
-    .map(async (r) => naarTreffer(await r.data(), r.score, t)));
+  const leesAnders = (u: Uitkomst, t = term) =>
+    Promise.all(
+      [...u.results.slice(0, Math.min(u.samen, MAX_RESULTATEN)), ...u.results.slice(u.samen, u.samen + Math.max(LOS_EXTRA, MAX_RESULTATEN - u.samen))].map(
+        async (r) => naarTreffer(await r.data(), r.score, t),
+      ),
+    );
   // Van de gemeenten alleen de eerste drie ophalen (elk stukje is een apart bestand); de rest pas bij "Meer gemeenten".
   const [andereTreffers, gemeenteTreffers] = await Promise.all([leesAnders(anders), lees(gemeenteUitkomst, MAX_GEMEENTEN)]);
   let eerst = andereTreffers;
@@ -191,7 +243,13 @@ const zoek = async () => {
   // Een situatie waarvan een zoekwoord letterlijk in de zoekopdracht staat ("gamet", "slaat"), gaat voor de andere pagina's.
   const woorden = new Set(norm(term).trim().split(' '));
   // Alleen de woorden die iets zeggen tellen, aan beide kanten ("wil niet naar school" telt als "school").
-  const herkend = (t: Treffer) => t.soort === 'Situatie' && [...t.zoekwoorden, t.titel].some((z) => kern(z).split(' ').every((w) => woorden.has(w)));
+  const herkend = (t: Treffer) =>
+    t.soort === 'Situatie' &&
+    [...t.zoekwoorden, t.titel].some((z) =>
+      kern(z)
+        .split(' ')
+        .every((w) => woorden.has(w)),
+    );
   // Een situatie die het woord alleen terloops noemt ("zorgovereenkomst" bij Zindelijkheid), komt na de andere soorten pagina's.
   const terloops = (t: Treffer) => t.soort === 'Situatie' && !herkend(t);
   // Daarna: zoekwoorden in de titel of een kop ("jeugdstem", "kinderbijslag") gaan voor zoekwoorden alleen in de tekst (sort is stabiel).
@@ -227,10 +285,26 @@ if (kop && knop && balk && invoer && sluitKnop && paneel && melding && lijst) {
   knop.hidden = false;
   knop.addEventListener('click', open);
   sluitKnop.addEventListener('click', sluit);
-  invoer.addEventListener('input', () => { zoek().catch(() => { melding.textContent = 'Zoeken lukt nu niet. Probeer het later opnieuw.'; paneel.hidden = false; }); });
-  balk.addEventListener('submit', () => { zoek().catch(() => { melding.textContent = 'Zoeken lukt nu niet. Probeer het later opnieuw.'; paneel.hidden = false; }); });
+  invoer.addEventListener('input', () => {
+    zoek().catch(() => {
+      melding.textContent = 'Zoeken lukt nu niet. Probeer het later opnieuw.';
+      paneel.hidden = false;
+    });
+  });
+  balk.addEventListener('submit', () => {
+    zoek().catch(() => {
+      melding.textContent = 'Zoeken lukt nu niet. Probeer het later opnieuw.';
+      paneel.hidden = false;
+    });
+  });
   // Buiten de kopbalk klikken sluit de lijst met resultaten; de zoekbalk blijft open. In het zoekveld klikken opent hem weer.
-  document.addEventListener('click', (e) => { if (!paneel.hidden && !kop.contains(e.target as Node)) paneel.hidden = true; });
-  invoer.addEventListener('click', () => { if (invoer.value.trim() && lijst.children.length) paneel.hidden = false; });
-  kop.addEventListener('keydown', (e) => { if (e.key === 'Escape' && kop.classList.contains('zoek-open')) sluit(); });
+  document.addEventListener('click', (e) => {
+    if (!paneel.hidden && !kop.contains(e.target as Node)) paneel.hidden = true;
+  });
+  invoer.addEventListener('click', () => {
+    if (invoer.value.trim() && lijst.children.length) paneel.hidden = false;
+  });
+  kop.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && kop.classList.contains('zoek-open')) sluit();
+  });
 }

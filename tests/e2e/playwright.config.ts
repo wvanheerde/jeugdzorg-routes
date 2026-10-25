@@ -14,13 +14,20 @@ const CI = !!process.env.CI;
 
 // In de devcontainer staan de systeembibliotheken van Chromium in een eigen map (tests/persona/tools/setup.sh).
 const LIBS = `${os.homedir()}/.cache/jr-browser-libs`;
-const launchOptions = fs.existsSync(LIBS) ? {
-  env: {
-    ...process.env,
-    LD_LIBRARY_PATH: [`${LIBS}/root/usr/lib/aarch64-linux-gnu`, `${LIBS}/root/lib/aarch64-linux-gnu`, `${LIBS}/root/usr/lib/x86_64-linux-gnu`, `${LIBS}/root/lib/x86_64-linux-gnu`].join(':'),
-    ...(fs.existsSync(`${LIBS}/fonts.conf`) ? { FONTCONFIG_FILE: `${LIBS}/fonts.conf` } : {}),
-  },
-} : {};
+const launchOptions = fs.existsSync(LIBS)
+  ? {
+      env: {
+        ...process.env,
+        LD_LIBRARY_PATH: [
+          `${LIBS}/root/usr/lib/aarch64-linux-gnu`,
+          `${LIBS}/root/lib/aarch64-linux-gnu`,
+          `${LIBS}/root/usr/lib/x86_64-linux-gnu`,
+          `${LIBS}/root/lib/x86_64-linux-gnu`,
+        ].join(':'),
+        ...(fs.existsSync(`${LIBS}/fonts.conf`) ? { FONTCONFIG_FILE: `${LIBS}/fonts.conf` } : {}),
+      },
+    }
+  : {};
 
 const testDir = defineBddConfig({ features: 'features/**/*.feature', steps: 'steps/**/*.ts', language: 'nl' });
 

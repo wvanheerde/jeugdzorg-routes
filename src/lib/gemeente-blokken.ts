@@ -3,15 +3,22 @@
  * alle 342 gemeenten in elke pagina mee te sturen. Elk element met data-gemeente-slot="naam" krijgt de inhoud van
  * <template data-slot="naam">; wat er van een eerder gekozen gemeente stond, gaat eruit.
  */
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+import { base } from '../site';
+
 const cache = new Map<string, Promise<Document | null>>();
 const haal = (slug: string) => {
   if (!cache.has(slug)) {
-    cache.set(slug, fetch(`${base}/gemeente-blokken/${slug}/`)
-      .then((r) => (r.ok ? r.text() : null))
-      .then((t) => (t ? new DOMParser().parseFromString(t, 'text/html') : null))
-      // Geen verbinding: niet onthouden, zodat een volgende keuze het opnieuw probeert.
-      .catch(() => { cache.delete(slug); return null; }));
+    cache.set(
+      slug,
+      fetch(`${base}/gemeente-blokken/${slug}/`)
+        .then((r) => (r.ok ? r.text() : null))
+        .then((t) => (t ? new DOMParser().parseFromString(t, 'text/html') : null))
+        // Geen verbinding: niet onthouden, zodat een volgende keuze het opnieuw probeert.
+        .catch(() => {
+          cache.delete(slug);
+          return null;
+        }),
+    );
   }
   return cache.get(slug)!;
 };
@@ -22,7 +29,10 @@ const vul = (doc: Document | null, attr: string) => {
     plek.querySelectorAll(':scope > [data-geladen]').forEach((e) => e.remove());
     const tpl = doc?.querySelector<HTMLTemplateElement>(`template[data-slot="${plek.getAttribute(attr)}"]`);
     if (!tpl) return;
-    Array.from(document.importNode(tpl.content, true).children).forEach((e) => { e.setAttribute('data-geladen', ''); plek.append(e); });
+    Array.from(document.importNode(tpl.content, true).children).forEach((e) => {
+      e.setAttribute('data-geladen', '');
+      plek.append(e);
+    });
   });
 };
 const haalVeilig = (slug: string) => (/^[a-z0-9-]+$/.test(slug) ? haal(slug) : Promise.resolve(null));

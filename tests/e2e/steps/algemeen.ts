@@ -35,12 +35,18 @@ Given('ik open het overzicht voor {string} in {string} met de situatie {string}'
   await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: situatieId(situatie) });
 });
 /** Twee situaties, in de volgorde waarin de ouder ze koos (die volgorde mag het overzicht niet veranderen). */
-Given('ik open het overzicht voor {string} in {string} met de situaties {string} en {string}', async ({ page }, vraag: string, gemeente: string, s1: string, s2: string) => {
-  await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: [s1, s2].map(situatieId).join(',') });
-});
-Given('ik open het overzicht voor {string} in {string} met de situaties {string} en {string} en leeftijd {string}', async ({ page }, vraag: string, gemeente: string, s1: string, s2: string, leeftijd: string) => {
-  await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: [s1, s2].map(situatieId).join(','), l: leeftijdId(leeftijd) });
-});
+Given(
+  'ik open het overzicht voor {string} in {string} met de situaties {string} en {string}',
+  async ({ page }, vraag: string, gemeente: string, s1: string, s2: string) => {
+    await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: [s1, s2].map(situatieId).join(',') });
+  },
+);
+Given(
+  'ik open het overzicht voor {string} in {string} met de situaties {string} en {string} en leeftijd {string}',
+  async ({ page }, vraag: string, gemeente: string, s1: string, s2: string, leeftijd: string) => {
+    await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: [s1, s2].map(situatieId).join(','), l: leeftijdId(leeftijd) });
+  },
+);
 /** Zonder gemeente: voor vragen die ook zonder gemeente iets tonen (zoals extra kosten), als het gedrag niet van de gemeente mag afhangen. */
 Given('ik open het overzicht voor {string} zonder gemeente', async ({ page }, vraag: string) => {
   await openOverzicht(page, { k: vraagId(vraag) });
@@ -51,21 +57,39 @@ Given('ik open het overzicht voor {string} zonder gemeente met leeftijd {string}
 Given('ik open het overzicht voor {string} in {string} met leeftijd {string}', async ({ page }, vraag: string, gemeente: string, leeftijd: string) => {
   await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), l: leeftijdId(leeftijd) });
 });
-Given('ik open het overzicht voor {string} in {string} met de situatie {string} en leeftijd {string}', async ({ page }, vraag: string, gemeente: string, situatie: string, leeftijd: string) => {
-  await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: situatieId(situatie), l: leeftijdId(leeftijd) });
-});
+Given(
+  'ik open het overzicht voor {string} in {string} met de situatie {string} en leeftijd {string}',
+  async ({ page }, vraag: string, gemeente: string, situatie: string, leeftijd: string) => {
+    await openOverzicht(page, { k: vraagId(vraag), gemeente: gemeenteSlug(gemeente), s: situatieId(situatie), l: leeftijdId(leeftijd) });
+  },
+);
 
 /** Zichtbare knop met precies deze naam (keuzeknoppen, "Aanpassen", "Wissen" …). Een aangezette keuzeknop heeft een vinkje
  *  ervoor (CSS ::before, telt mee in de toegankelijke naam): "✓ Begeleiding of dagbesteding". */
-const regex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-export const knop = (page: Page, naam: string) => page.getByRole('button', { name: new RegExp(`^(✓ )?${regex(naam)}$`) }).locator('visible=true').first();
+export const regex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+/** Tekst zonder zachte afbreekstreepjes (lib/afbreken.ts) en met enkele spaties. */
+export const schoon = (s: string) =>
+  s
+    .replace(/\u00ad/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+export const knop = (page: Page, naam: string) =>
+  page
+    .getByRole('button', { name: new RegExp(`^(✓ )?${regex(naam)}$`) })
+    .locator('visible=true')
+    .first();
 
 When('ik kies {string}', async ({ page }, naam: string) => {
   await knop(page, naam).click();
 });
 
 When('ik klik op {string}', async ({ page }, naam: string) => {
-  await page.getByRole('link', { name: naam, exact: true }).or(page.getByRole('button', { name: naam, exact: true })).locator('visible=true').first().click();
+  await page
+    .getByRole('link', { name: naam, exact: true })
+    .or(page.getByRole('button', { name: naam, exact: true }))
+    .locator('visible=true')
+    .first()
+    .click();
 });
 
 When('ik {string} typ in {string}', async ({ page }, tekst: string, veld: string) => {
@@ -86,7 +110,28 @@ When('ik de pagina opnieuw open', async ({ page }) => {
 /** Opnieuw openen zonder de antwoorden van de verdieping in de url: dan gelden de bewaarde antwoorden (localStorage). */
 When('ik het overzicht later opnieuw open', async ({ page }) => {
   const u = new URL(page.url());
-  for (const p of ['geboren', 'na18', 'naar', 'datum', 'reden', 'wacht', 'aanvraag', 'ingebreke', 'besluit', 'papier', 'besluitdatum', 'gezag', 'nodig', 'einde', 'zorg', 'dkb', 'alleen', 'kosten', 'inkomen']) u.searchParams.delete(p);
+  for (const p of [
+    'geboren',
+    'na18',
+    'naar',
+    'datum',
+    'reden',
+    'wacht',
+    'aanvraag',
+    'ingebreke',
+    'besluit',
+    'papier',
+    'besluitdatum',
+    'gezag',
+    'nodig',
+    'einde',
+    'zorg',
+    'dkb',
+    'alleen',
+    'kosten',
+    'inkomen',
+  ])
+    u.searchParams.delete(p);
   await page.goto(u.toString());
 });
 

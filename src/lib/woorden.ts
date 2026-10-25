@@ -4,120 +4,404 @@
  * Eerst de tekst zelf in gewone taal schrijven; deze lijst is voor woorden die ouders tóch moeten herkennen.
  * Elke vorm in `vormen` is een woord of woordgroep zoals die in de tekst staat (hoofdletters maken niet uit, behalve bij `hoofdletters: true`).
  */
-export const woorden: { vormen: string[]; uitleg: string; /** Kop op de begrippenpagina als die anders is dan de eerste vorm (bv. afkorting voluit). */ titel?: string; /** Alleen precies zo geschreven (KIES, niet het werkwoord kies). */ hoofdletters?: boolean }[] = [
-  { vormen: ['beschikking', 'beschikkingen'], uitleg: 'Het besluit van de gemeente over welke hulp uw kind krijgt, op papier. Tegen dit besluit kunt u bezwaar maken.' },
-  { vormen: ['bezwaarschrift', 'bezwaar maken'], uitleg: 'De gemeente vragen een besluit opnieuw te bekijken. Dat moet binnen zes weken na de datum op het besluit.' },
-  { vormen: ['cliëntondersteuner', 'cliëntondersteuning', 'onafhankelijke cliëntondersteuner', 'onafhankelijke cliëntondersteuning'], uitleg: 'Iemand die gratis met u meedenkt en meegaat naar gesprekken. Beslist zelf niet over uw hulp.' },
-  { vormen: ['toegangsteam', 'toegangsteams'], uitleg: 'Het team van de gemeente waar u jeugdhulp aanvraagt. Het heet per gemeente anders, bijvoorbeeld wijkteam, CJG of jeugdteam.' },
-  { vormen: ['wijkteam', 'wijkteams'], uitleg: 'Het team van de gemeente waar u terechtkunt met vragen over opvoeden en hulp. Het heet per gemeente anders, bijvoorbeeld CJG of jeugdteam.' },
-  { vormen: ['pgb', 'persoonsgebonden budget'], titel: 'pgb (persoonsgebonden budget)', uitleg: 'Geld van de gemeente waarmee u zelf de hulp regelt en betaalt. Het geeft extra administratie.' },
-  { vormen: ['Wmo', 'Wmo-melding'], uitleg: 'Wet maatschappelijke ondersteuning: de wet voor hulp van de gemeente aan volwassenen, zoals begeleiding of dagbesteding.' },
-  { vormen: ['Wlz', 'Wlz-indicatie', 'Wet langdurige zorg'], titel: 'Wlz (Wet langdurige zorg)', uitleg: 'Wet langdurige zorg: voor wie blijvend dag en nacht zorg of toezicht nodig heeft. Het CIZ beslist of dat zo is.' },
+export const woorden: {
+  vormen: string[];
+  uitleg: string;
+  /** Kop op de begrippenpagina als die anders is dan de eerste vorm (bv. afkorting voluit). */ titel?: string;
+  /** Alleen precies zo geschreven (KIES, niet het werkwoord kies). */ hoofdletters?: boolean;
+}[] = [
+  {
+    vormen: ['beschikking', 'beschikkingen'],
+    uitleg: 'Het besluit van de gemeente over welke hulp uw kind krijgt, op papier. Tegen dit besluit kunt u bezwaar maken.',
+  },
+  {
+    vormen: ['bezwaarschrift', 'bezwaar maken'],
+    uitleg: 'De gemeente vragen een besluit opnieuw te bekijken. Dat moet binnen zes weken na de datum op het besluit.',
+  },
+  {
+    vormen: ['cliëntondersteuner', 'cliëntondersteuning', 'onafhankelijke cliëntondersteuner', 'onafhankelijke cliëntondersteuning'],
+    uitleg: 'Iemand die gratis met u meedenkt en meegaat naar gesprekken. Beslist zelf niet over uw hulp.',
+  },
+  {
+    vormen: ['toegangsteam', 'toegangsteams'],
+    uitleg: 'Het team van de gemeente waar u jeugdhulp aanvraagt. Het heet per gemeente anders, bijvoorbeeld wijkteam, CJG of jeugdteam.',
+  },
+  {
+    vormen: ['wijkteam', 'wijkteams'],
+    uitleg: 'Het team van de gemeente waar u terechtkunt met vragen over opvoeden en hulp. Het heet per gemeente anders, bijvoorbeeld CJG of jeugdteam.',
+  },
+  {
+    vormen: ['pgb', 'persoonsgebonden budget'],
+    titel: 'pgb (persoonsgebonden budget)',
+    uitleg: 'Geld van de gemeente waarmee u zelf de hulp regelt en betaalt. Het geeft extra administratie.',
+  },
+  {
+    vormen: ['Wmo', 'Wmo-melding'],
+    uitleg: 'Wet maatschappelijke ondersteuning: de wet voor hulp van de gemeente aan volwassenen, zoals begeleiding of dagbesteding.',
+  },
+  {
+    vormen: ['Wlz', 'Wlz-indicatie', 'Wet langdurige zorg'],
+    titel: 'Wlz (Wet langdurige zorg)',
+    uitleg: 'Wet langdurige zorg: voor wie blijvend dag en nacht zorg of toezicht nodig heeft. Het CIZ beslist of dat zo is.',
+  },
   { vormen: ['CIZ'], uitleg: 'Centrum Indicatiestelling Zorg. Beoordeelt aanvragen voor de Wlz en adviseert de SVB over dubbele kinderbijslag.' },
   { vormen: ['SVB'], uitleg: 'Sociale Verzekeringsbank. Betaalt de kinderbijslag, ook de dubbele.' },
-  { vormen: ['sociaal minimum'], uitleg: 'Het bedrag dat iemand in de bijstand krijgt om van te leven. Gemeenten zeggen vaak dat een regeling geldt tot een inkomen van bijvoorbeeld 120% daarvan.' },
-  { vormen: ['bijzondere bijstand'], uitleg: 'Geld van de gemeente voor noodzakelijke kosten die u zelf niet kunt betalen en die niets anders vergoedt. Ook als u werkt, bij een laag inkomen.' },
-  { vormen: ['mantelzorgwaardering'], uitleg: 'Een jaarlijks bedankje van de gemeente voor mensen die voor een naaste zorgen, zoals een bedrag of een cadeaubon.' },
-  { vormen: ['leerlingenvervoer'], uitleg: 'Vervoer of een vergoeding van de gemeente om naar school te reizen, bijvoorbeeld naar speciaal onderwijs of een school ver weg.' },
-  { vormen: ['collectieve zorgverzekering'], uitleg: 'Een zorgverzekering met korting en extra dekking die de gemeente regelt voor inwoners met een laag inkomen.' },
-  { vormen: ['VGZ'], hoofdletters: true, uitleg: 'Een zorgverzekeraar. Veel gemeenten hebben met VGZ een collectieve zorgverzekering voor inwoners met een laag inkomen.' },
-  { vormen: ['CZ'], hoofdletters: true, uitleg: 'Een zorgverzekeraar. Sommige gemeenten hebben met CZ een collectieve zorgverzekering voor inwoners met een laag inkomen.' },
-  { vormen: ['AV'], hoofdletters: true, uitleg: 'Aanvullende verzekering: een zorgverzekering bovenop de basisverzekering, bijvoorbeeld voor tandarts of fysiotherapie. Zorgverzekeraars gebruiken AV vaak in de naam van een pakket.' },
-  { vormen: ['DSW'], hoofdletters: true, uitleg: 'Een zorgverzekeraar. Sommige gemeenten hebben met DSW een collectieve zorgverzekering voor inwoners met een laag inkomen.' },
+  {
+    vormen: ['sociaal minimum'],
+    uitleg:
+      'Het bedrag dat iemand in de bijstand krijgt om van te leven. Gemeenten zeggen vaak dat een regeling geldt tot een inkomen van bijvoorbeeld 120% daarvan.',
+  },
+  {
+    vormen: ['bijzondere bijstand'],
+    uitleg: 'Geld van de gemeente voor noodzakelijke kosten die u zelf niet kunt betalen en die niets anders vergoedt. Ook als u werkt, bij een laag inkomen.',
+  },
+  {
+    vormen: ['mantelzorgwaardering'],
+    uitleg: 'Een jaarlijks bedankje van de gemeente voor mensen die voor een naaste zorgen, zoals een bedrag of een cadeaubon.',
+  },
+  {
+    vormen: ['leerlingenvervoer'],
+    uitleg: 'Vervoer of een vergoeding van de gemeente om naar school te reizen, bijvoorbeeld naar speciaal onderwijs of een school ver weg.',
+  },
+  {
+    vormen: ['collectieve zorgverzekering'],
+    uitleg: 'Een zorgverzekering met korting en extra dekking die de gemeente regelt voor inwoners met een laag inkomen.',
+  },
+  {
+    vormen: ['VGZ'],
+    hoofdletters: true,
+    uitleg: 'Een zorgverzekeraar. Veel gemeenten hebben met VGZ een collectieve zorgverzekering voor inwoners met een laag inkomen.',
+  },
+  {
+    vormen: ['CZ'],
+    hoofdletters: true,
+    uitleg: 'Een zorgverzekeraar. Sommige gemeenten hebben met CZ een collectieve zorgverzekering voor inwoners met een laag inkomen.',
+  },
+  {
+    vormen: ['AV'],
+    hoofdletters: true,
+    uitleg:
+      'Aanvullende verzekering: een zorgverzekering bovenop de basisverzekering, bijvoorbeeld voor tandarts of fysiotherapie. Zorgverzekeraars gebruiken AV vaak in de naam van een pakket.',
+  },
+  {
+    vormen: ['DSW'],
+    hoofdletters: true,
+    uitleg: 'Een zorgverzekeraar. Sommige gemeenten hebben met DSW een collectieve zorgverzekering voor inwoners met een laag inkomen.',
+  },
   { vormen: ['kindgebonden budget'], uitleg: 'Geld van Dienst Toeslagen voor ouders met kinderen onder 18, afhankelijk van uw inkomen.' },
   { vormen: ['indicatie'], uitleg: 'Een besluit dat iemand recht heeft op een bepaalde zorg.' },
-  { vormen: ['ingebrekestelling', 'in gebreke stellen'], uitleg: 'Een brief waarin u de gemeente laat weten dat ze te laat is met beslissen. Daarna moet ze binnen twee weken beslissen.' },
+  {
+    vormen: ['ingebrekestelling', 'in gebreke stellen'],
+    uitleg: 'Een brief waarin u de gemeente laat weten dat ze te laat is met beslissen. Daarna moet ze binnen twee weken beslissen.',
+  },
   { vormen: ['hoorzitting'], uitleg: 'Een gesprek waarin u uw bezwaar mag toelichten.' },
-  { vormen: ['voorlopige voorziening'], uitleg: 'Een snelle tijdelijke beslissing van de rechter, zolang uw bezwaar loopt. Alleen als het echt niet kan wachten.' },
+  {
+    vormen: ['voorlopige voorziening'],
+    uitleg: 'Een snelle tijdelijke beslissing van de rechter, zolang uw bezwaar loopt. Alleen als het echt niet kan wachten.',
+  },
   { vormen: ['jeugd-GGZ', 'GGZ'], titel: 'jeugd-GGZ', uitleg: 'Geestelijke gezondheidszorg, bijvoorbeeld hulp van een psycholoog of psychiater.' },
   { vormen: ['diagnostiek'], uitleg: 'Onderzoek naar wat er met uw kind aan de hand is.' },
   { vormen: ['overbruggingshulp', 'overbrugging'], uitleg: 'Tijdelijke hulp terwijl u op de echte hulp wacht.' },
-  { vormen: ['praktijkondersteuner jeugd', 'POH-jeugd', 'POH jeugd', 'POH', 'praktijkondersteuner'], titel: 'praktijkondersteuner jeugd (POH-jeugd)', uitleg: 'Een hulpverlener bij de huisarts die korte gesprekken voert met kinderen en ouders.' },
+  {
+    vormen: ['praktijkondersteuner jeugd', 'POH-jeugd', 'POH jeugd', 'POH', 'praktijkondersteuner'],
+    titel: 'praktijkondersteuner jeugd (POH-jeugd)',
+    uitleg: 'Een hulpverlener bij de huisarts die korte gesprekken voert met kinderen en ouders.',
+  },
   { vormen: ['jeugdarts'], uitleg: 'Arts van het consultatiebureau of de GGD die kinderen volgt. Mag ook doorverwijzen naar hulp.' },
-  { vormen: ['gecontracteerde aanbieder', 'gecontracteerde aanbieders'], uitleg: 'Een hulporganisatie waar de gemeente afspraken mee heeft. Die hulp betaalt de gemeente.' },
+  {
+    vormen: ['gecontracteerde aanbieder', 'gecontracteerde aanbieders'],
+    uitleg: 'Een hulporganisatie waar de gemeente afspraken mee heeft. Die hulp betaalt de gemeente.',
+  },
   { vormen: ['aanbieder', 'aanbieders', 'zorgaanbieder', 'jeugdhulpaanbieder'], uitleg: 'Een organisatie of praktijk die de hulp geeft.' },
-  { vormen: ['samenwerkingsverband', 'samenwerkingsverbanden', 'samenwerkingsverband passend onderwijs', 'SWV'], titel: 'samenwerkingsverband passend onderwijs (SWV)', uitleg: 'De scholen in de regio werken samen zodat elk kind onderwijs krijgt dat past. Dit verband regelt extra steun op school.' },
-  { vormen: ['ontwikkelingsperspectief', 'OPP'], titel: 'ontwikkelingsperspectief (OPP)', uitleg: 'Een plan van school voor een leerling die extra steun krijgt.' },
+  {
+    vormen: ['samenwerkingsverband', 'samenwerkingsverbanden', 'samenwerkingsverband passend onderwijs', 'SWV'],
+    titel: 'samenwerkingsverband passend onderwijs (SWV)',
+    uitleg: 'De scholen in de regio werken samen zodat elk kind onderwijs krijgt dat past. Dit verband regelt extra steun op school.',
+  },
+  {
+    vormen: ['ontwikkelingsperspectief', 'OPP'],
+    titel: 'ontwikkelingsperspectief (OPP)',
+    uitleg: 'Een plan van school voor een leerling die extra steun krijgt.',
+  },
   { vormen: ['verlengde jeugdhulp'], uitleg: 'Jeugdhulp die na de 18e verjaardag doorloopt, tot uiterlijk 23 jaar.' },
   { vormen: ['gecertificeerde instelling'], uitleg: 'Organisatie voor jeugdbescherming. Alleen in beeld als de rechter een maatregel heeft opgelegd.' },
   { vormen: ['Beschikbaarheidswijzer'], uitleg: 'Openbare website met aanbieders en hun wachttijden in de regio. Niet elke regio heeft er een.' },
   { vormen: ['familiegroepsplan', 'gezinsplan'], uitleg: 'Een plan dat u met uw gezin en mensen om u heen maakt over de hulp.' },
-  { vormen: ['mentorschap'], uitleg: 'Iemand die beslissingen over zorg mag nemen voor een volwassene die dat niet zelf kan. De kantonrechter wijst een mentor aan.' },
-  { vormen: ['bewind', 'bewindvoerder'], uitleg: 'Iemand die het geld beheert voor een volwassene die dat niet zelf kan. De kantonrechter wijst een bewindvoerder aan.' },
+  {
+    vormen: ['mentorschap'],
+    uitleg: 'Iemand die beslissingen over zorg mag nemen voor een volwassene die dat niet zelf kan. De kantonrechter wijst een mentor aan.',
+  },
+  {
+    vormen: ['bewind', 'bewindvoerder'],
+    uitleg: 'Iemand die het geld beheert voor een volwassene die dat niet zelf kan. De kantonrechter wijst een bewindvoerder aan.',
+  },
   { vormen: ['curatele'], uitleg: 'Iemand beslist over zowel zorg als geld voor een volwassene die dat niet zelf kan. De kantonrechter beslist hierover.' },
-  { vormen: ['Wajong'], uitleg: 'Uitkering van UWV voor jongeren die door ziekte of een beperking nu en later niet kunnen werken. Kan uw kind met begeleiding of aanpassingen wel werken, dan is er geen Wajong maar soms andere steun.' },
+  {
+    vormen: ['Wajong'],
+    uitleg:
+      'Uitkering van UWV voor jongeren die door ziekte of een beperking nu en later niet kunnen werken. Kan uw kind met begeleiding of aanpassingen wel werken, dan is er geen Wajong maar soms andere steun.',
+  },
   { vormen: ['systemisch werken', 'systemisch'], uitleg: 'Hulp waarbij het hele gezin wordt betrokken, niet alleen het kind.' },
-  { vormen: ['KIES'], hoofdletters: true, uitleg: 'Een aanpak voor kinderen van gescheiden ouders. Een getrainde begeleider helpt het kind de scheiding te begrijpen en erover te praten, vaak in een groep met andere kinderen. Via school, het wijkteam of de gemeente.' },
+  {
+    vormen: ['KIES'],
+    hoofdletters: true,
+    uitleg:
+      'Een aanpak voor kinderen van gescheiden ouders. Een getrainde begeleider helpt het kind de scheiding te begrijpen en erover te praten, vaak in een groep met andere kinderen. Via school, het wijkteam of de gemeente.',
+  },
   { vormen: ['vertrouwenspersoon'], uitleg: 'Iemand van Jeugdstem die u gratis en onafhankelijk helpt als u vastloopt met de hulp.' },
   { vormen: ['warme overdracht'], uitleg: 'De oude en de nieuwe hulpverlener of gemeente dragen samen over, met u erbij, zodat er niets verloren gaat.' },
   { vormen: ['ambulante begeleiding', 'ambulante hulp', 'ambulant'], uitleg: 'Hulp bij u thuis of op afspraak, zonder dat uw kind ergens blijft slapen.' },
-  { vormen: ['crisisdienst'], uitleg: 'Hulpverleners die bij een psychische crisis snel komen helpen, ook \'s avonds en in het weekend. De huisarts of huisartsenpost schakelt hen in.' },
+  {
+    vormen: ['crisisdienst'],
+    uitleg: "Hulpverleners die bij een psychische crisis snel komen helpen, ook 's avonds en in het weekend. De huisarts of huisartsenpost schakelt hen in.",
+  },
   { vormen: ['oppassing'], uitleg: 'Toezicht houden op uw kind en het begeleiden, omdat het niet alleen kan zijn of zichzelf niet kan bezighouden.' },
-  { vormen: ['vervangende toestemming'], uitleg: 'De kinderrechter geeft toestemming in plaats van de ouder die weigert. Dan kan de hulp of behandeling toch beginnen.' },
-  { vormen: ['gezag', 'gezamenlijk gezag'], uitleg: 'Het recht en de plicht om beslissingen over uw kind te nemen. Na een scheiding houden ouders meestal allebei het gezag.' },
-  { vormen: ['toevoeging'], uitleg: 'Bij een laag inkomen betaalt de Raad voor Rechtsbijstand een groot deel van de kosten van een advocaat of mediator. U betaalt zelf een eigen bijdrage.' },
+  {
+    vormen: ['vervangende toestemming'],
+    uitleg: 'De kinderrechter geeft toestemming in plaats van de ouder die weigert. Dan kan de hulp of behandeling toch beginnen.',
+  },
+  {
+    vormen: ['gezag', 'gezamenlijk gezag'],
+    uitleg: 'Het recht en de plicht om beslissingen over uw kind te nemen. Na een scheiding houden ouders meestal allebei het gezag.',
+  },
+  {
+    vormen: ['toevoeging'],
+    uitleg:
+      'Bij een laag inkomen betaalt de Raad voor Rechtsbijstand een groot deel van de kosten van een advocaat of mediator. U betaalt zelf een eigen bijdrage.',
+  },
   { vormen: ['ouderschapsbemiddeling', 'mediation', 'mediator'], uitleg: 'Een neutrale bemiddelaar helpt ouders om samen afspraken over hun kind te maken.' },
-  { vormen: ['verwijzer', 'verwijzing', 'verwijsbrief'], uitleg: 'Wie de hulp in gang zet: het wijkteam van de gemeente, de huisarts, de jeugdarts of een medisch specialist.' },
-  { vormen: ['consulent', 'consulenten', 'jeugdconsulent', 'jeugdconsulenten', 'jeugdhulpconsulent', 'jeugdhulpconsulenten'], uitleg: 'Een medewerker jeugd van de gemeente. Bespreekt met u welke hulp uw kind nodig heeft. In brieven van de gemeente heet die vaak zo.' },
-  { vormen: ['onderwijsconsulent', 'onderwijsconsulenten'], uitleg: 'Een gratis en onafhankelijke adviseur als u en school er samen niet uitkomen, bijvoorbeeld als uw kind thuiszit.' },
-  { vormen: ['dwangsom'], uitleg: 'Geld dat de gemeente u volgens de wet moet betalen als zij na uw ingebrekestelling nog steeds niet op tijd beslist. Soms moet u er zelf om vragen.' },
+  {
+    vormen: ['verwijzer', 'verwijzing', 'verwijsbrief'],
+    uitleg: 'Wie de hulp in gang zet: het wijkteam van de gemeente, de huisarts, de jeugdarts of een medisch specialist.',
+  },
+  {
+    vormen: ['consulent', 'consulenten', 'jeugdconsulent', 'jeugdconsulenten', 'jeugdhulpconsulent', 'jeugdhulpconsulenten'],
+    uitleg: 'Een medewerker jeugd van de gemeente. Bespreekt met u welke hulp uw kind nodig heeft. In brieven van de gemeente heet die vaak zo.',
+  },
+  {
+    vormen: ['onderwijsconsulent', 'onderwijsconsulenten'],
+    uitleg: 'Een gratis en onafhankelijke adviseur als u en school er samen niet uitkomen, bijvoorbeeld als uw kind thuiszit.',
+  },
+  {
+    vormen: ['dwangsom'],
+    uitleg:
+      'Geld dat de gemeente u volgens de wet moet betalen als zij na uw ingebrekestelling nog steeds niet op tijd beslist. Soms moet u er zelf om vragen.',
+  },
   { vormen: ['kenmerk'], uitleg: 'Het nummer of de code van een brief of besluit. Het staat meestal bovenaan de brief, bij "ons kenmerk".' },
   { vormen: ['ontvangstbevestiging'], uitleg: 'Een bericht dat uw brief of e-mail is aangekomen. Bewaar het: het laat zien wanneer u iets heeft gestuurd.' },
   { vormen: ['keukentafelgesprek'], uitleg: 'Een gesprek met een medewerker van de gemeente of het wijkteam over wat u nodig heeft. Vaak bij u thuis.' },
-  { vormen: ['zorg in natura', 'hulp in natura', 'in natura'], uitleg: 'Hulp van een aanbieder met een contract met de gemeente. De gemeente betaalt die aanbieder zelf; u krijgt geen geld.' },
-  { vormen: ['zorgovereenkomst', 'zorgovereenkomsten'], uitleg: 'Een afspraak op papier met de hulpverlener die u met een pgb betaalt: wat die doet, hoeveel uur en voor welk tarief. De gemeente en de SVB keuren hem goed.' },
+  {
+    vormen: ['zorg in natura', 'hulp in natura', 'in natura'],
+    uitleg: 'Hulp van een aanbieder met een contract met de gemeente. De gemeente betaalt die aanbieder zelf; u krijgt geen geld.',
+  },
+  {
+    vormen: ['zorgovereenkomst', 'zorgovereenkomsten'],
+    uitleg:
+      'Een afspraak op papier met de hulpverlener die u met een pgb betaalt: wat die doet, hoeveel uur en voor welk tarief. De gemeente en de SVB keuren hem goed.',
+  },
   { vormen: ['declareren', 'declareert', 'declaratie'], uitleg: 'Een rekening indienen, zodat de uren of kosten worden uitbetaald.' },
-  { vormen: ['JGZ', 'jeugdgezondheidszorg'], titel: 'JGZ (jeugdgezondheidszorg)', uitleg: 'Het consultatiebureau en de jeugdarts en jeugdverpleegkundige. Zij volgen de groei en ontwikkeling van alle kinderen tot 18 jaar.' },
+  {
+    vormen: ['JGZ', 'jeugdgezondheidszorg'],
+    titel: 'JGZ (jeugdgezondheidszorg)',
+    uitleg: 'Het consultatiebureau en de jeugdarts en jeugdverpleegkundige. Zij volgen de groei en ontwikkeling van alle kinderen tot 18 jaar.',
+  },
   { vormen: ['intern begeleider'], uitleg: 'De medewerker op de basisschool die extra hulp voor leerlingen regelt.' },
   { vormen: ['zorgcoördinator'], uitleg: 'De medewerker op de middelbare school die extra hulp voor leerlingen regelt.' },
-  { vormen: ['handelingsdeel'], uitleg: 'Het deel van het ontwikkelingsperspectief (OPP) waarin staat wat school gaat doen. Daarvoor heeft school uw instemming nodig.' },
-  { vormen: ['onderwijs-zorgarrangement', 'onderwijszorgarrangement'], uitleg: 'Afspraken waarin school en jeugdhulp samen regelen wat een leerling nodig heeft, bijvoorbeeld begeleiding in de klas.' },
-  { vormen: ['zorgplicht'], uitleg: 'School moet zorgen voor een passende plek voor een leerling die extra steun nodig heeft. Op de eigen school of op een andere school.' },
-  { vormen: ['leerplichtambtenaar'], uitleg: 'Een medewerker van de gemeente die let op schoolverzuim. Kan ook helpen om school, ouders en hulp samen om tafel te krijgen.' },
-  { vormen: ['zorgstandaard', 'zorgstandaarden'], uitleg: 'Een beschrijving van goede zorg bij een bepaalde klacht of stoornis, gemaakt door behandelaars samen met patiënten en ouders.' },
-  { vormen: ['jeugdhulprichtlijn', 'jeugdhulprichtlijnen'], uitleg: 'Afspraken voor professionals in de jeugdhulp over wat goed werkt bij een bepaald probleem.' },
-  { vormen: ['PTSS', 'posttraumatische stressstoornis'], titel: 'PTSS (posttraumatische stressstoornis)', uitleg: 'Klachten die lang blijven na een schokkende gebeurtenis, zoals nachtmerries, snel schrikken en dingen vermijden die eraan herinneren.' },
-  { vormen: ['griffierecht'], uitleg: 'Het bedrag dat u betaalt om een zaak bij de rechter te beginnen. Krijgt u gelijk, dan krijgt u het terug. Met een laag inkomen kunt u vragen om het niet te hoeven betalen.' },
+  {
+    vormen: ['handelingsdeel'],
+    uitleg: 'Het deel van het ontwikkelingsperspectief (OPP) waarin staat wat school gaat doen. Daarvoor heeft school uw instemming nodig.',
+  },
+  {
+    vormen: ['onderwijs-zorgarrangement', 'onderwijszorgarrangement'],
+    uitleg: 'Afspraken waarin school en jeugdhulp samen regelen wat een leerling nodig heeft, bijvoorbeeld begeleiding in de klas.',
+  },
+  {
+    vormen: ['zorgplicht'],
+    uitleg: 'School moet zorgen voor een passende plek voor een leerling die extra steun nodig heeft. Op de eigen school of op een andere school.',
+  },
+  {
+    vormen: ['leerplichtambtenaar'],
+    uitleg: 'Een medewerker van de gemeente die let op schoolverzuim. Kan ook helpen om school, ouders en hulp samen om tafel te krijgen.',
+  },
+  {
+    vormen: ['zorgstandaard', 'zorgstandaarden'],
+    uitleg: 'Een beschrijving van goede zorg bij een bepaalde klacht of stoornis, gemaakt door behandelaars samen met patiënten en ouders.',
+  },
+  {
+    vormen: ['jeugdhulprichtlijn', 'jeugdhulprichtlijnen'],
+    uitleg: 'Afspraken voor professionals in de jeugdhulp over wat goed werkt bij een bepaald probleem.',
+  },
+  {
+    vormen: ['PTSS', 'posttraumatische stressstoornis'],
+    titel: 'PTSS (posttraumatische stressstoornis)',
+    uitleg: 'Klachten die lang blijven na een schokkende gebeurtenis, zoals nachtmerries, snel schrikken en dingen vermijden die eraan herinneren.',
+  },
+  {
+    vormen: ['griffierecht'],
+    uitleg:
+      'Het bedrag dat u betaalt om een zaak bij de rechter te beginnen. Krijgt u gelijk, dan krijgt u het terug. Met een laag inkomen kunt u vragen om het niet te hoeven betalen.',
+  },
   { vormen: ['Jeugdwet'], uitleg: 'De wet die regelt dat de gemeente zorgt voor hulp aan kinderen en jongeren tot 18 jaar, en hun ouders.' },
-  { vormen: ['CJG', 'Centrum voor Jeugd en Gezin'], titel: 'CJG (Centrum voor Jeugd en Gezin)', uitleg: 'De plek in de gemeente voor vragen over opgroeien en opvoeden. In sommige gemeenten vraagt u hier ook jeugdhulp aan.' },
-  { vormen: ['maatwerkvoorziening', 'maatwerkvoorzieningen'], uitleg: 'Hulp die past bij uw kind en waarover de gemeente een besluit neemt (een beschikking). Tegen dat besluit kunt u bezwaar maken.' },
-  { vormen: ['algemene voorziening', 'algemene voorzieningen', 'vrij toegankelijke hulp', 'vrij toegankelijke jeugdhulp', 'vrij toegankelijk', 'vrij toegankelijke'], titel: 'algemene voorziening (vrij toegankelijke hulp)', uitleg: 'Hulp waarvoor u geen besluit van de gemeente nodig heeft, zoals een cursus of gesprekken bij het wijkteam. U kunt er zelf naartoe.' },
-  { vormen: ['specialistische jeugdhulp', 'specialistische hulp'], uitleg: 'Hulp van een gespecialiseerde aanbieder, bijvoorbeeld behandeling in de jeugd-GGZ. Daarvoor is meestal een verwijzing of een besluit van de gemeente nodig.' },
-  { vormen: ['casusregisseur', 'casusregie', 'procesregisseur'], uitleg: 'Eén vaste hulpverlener die het overzicht houdt over alle hulp aan uw gezin. Bij die persoon kunt u met al uw vragen terecht.' },
-  { vormen: ['ondersteuningsplan', 'ondersteuningsplannen'], uitleg: 'Een plan op papier over de hulp voor uw kind: wat er gebeurt, wie het doet, hoe vaak en met welk doel. Gemeenten, wijkteams en scholen gebruiken dit woord.' },
-  { vormen: ['perspectiefplan'], uitleg: 'Een plan waarin staat wat er aan de hand is, wat u wilt bereiken en welke hulp daarbij past. Sommige gemeenten vragen erom bij een aanvraag of een pgb.' },
+  {
+    vormen: ['CJG', 'Centrum voor Jeugd en Gezin'],
+    titel: 'CJG (Centrum voor Jeugd en Gezin)',
+    uitleg: 'De plek in de gemeente voor vragen over opgroeien en opvoeden. In sommige gemeenten vraagt u hier ook jeugdhulp aan.',
+  },
+  {
+    vormen: ['maatwerkvoorziening', 'maatwerkvoorzieningen'],
+    uitleg: 'Hulp die past bij uw kind en waarover de gemeente een besluit neemt (een beschikking). Tegen dat besluit kunt u bezwaar maken.',
+  },
+  {
+    vormen: [
+      'algemene voorziening',
+      'algemene voorzieningen',
+      'vrij toegankelijke hulp',
+      'vrij toegankelijke jeugdhulp',
+      'vrij toegankelijk',
+      'vrij toegankelijke',
+    ],
+    titel: 'algemene voorziening (vrij toegankelijke hulp)',
+    uitleg: 'Hulp waarvoor u geen besluit van de gemeente nodig heeft, zoals een cursus of gesprekken bij het wijkteam. U kunt er zelf naartoe.',
+  },
+  {
+    vormen: ['specialistische jeugdhulp', 'specialistische hulp'],
+    uitleg:
+      'Hulp van een gespecialiseerde aanbieder, bijvoorbeeld behandeling in de jeugd-GGZ. Daarvoor is meestal een verwijzing of een besluit van de gemeente nodig.',
+  },
+  {
+    vormen: ['casusregisseur', 'casusregie', 'procesregisseur'],
+    uitleg: 'Eén vaste hulpverlener die het overzicht houdt over alle hulp aan uw gezin. Bij die persoon kunt u met al uw vragen terecht.',
+  },
+  {
+    vormen: ['ondersteuningsplan', 'ondersteuningsplannen'],
+    uitleg:
+      'Een plan op papier over de hulp voor uw kind: wat er gebeurt, wie het doet, hoe vaak en met welk doel. Gemeenten, wijkteams en scholen gebruiken dit woord.',
+  },
+  {
+    vormen: ['perspectiefplan'],
+    uitleg:
+      'Een plan waarin staat wat er aan de hand is, wat u wilt bereiken en welke hulp daarbij past. Sommige gemeenten vragen erom bij een aanvraag of een pgb.',
+  },
   { vormen: ['pgb-plan', 'budgetplan'], uitleg: 'Een plan dat u maakt als u een pgb wilt: welke hulp u inkoopt, bij wie, hoeveel uur en wat het kost.' },
-  { vormen: ['gebruikelijke hulp', 'gebruikelijke zorg'], uitleg: 'Hulp die ouders gewoonlijk zelf aan een kind van die leeftijd geven. Daarvoor geeft de gemeente geen jeugdhulp of pgb.' },
-  { vormen: ['behandelplan', 'behandelplannen'], uitleg: 'Een plan van de behandelaar met de doelen van de behandeling en hoe die bereikt worden. U bespreekt het samen en kijkt regelmatig of het werkt.' },
+  {
+    vormen: ['gebruikelijke hulp', 'gebruikelijke zorg'],
+    uitleg: 'Hulp die ouders gewoonlijk zelf aan een kind van die leeftijd geven. Daarvoor geeft de gemeente geen jeugdhulp of pgb.',
+  },
+  {
+    vormen: ['behandelplan', 'behandelplannen'],
+    uitleg: 'Een plan van de behandelaar met de doelen van de behandeling en hoe die bereikt worden. U bespreekt het samen en kijkt regelmatig of het werkt.',
+  },
   { vormen: ['intake', 'intakegesprek'], uitleg: 'Het eerste gesprek bij een hulpverlener of aanbieder. U bespreekt wat er speelt en wat u wilt bereiken.' },
   { vormen: ['second opinion'], uitleg: 'Een tweede mening van een andere deskundige over hetzelfde plan, besluit of onderzoek.' },
-  { vormen: ['orthopedagoog', 'gedragswetenschapper', 'gedragskundige'], uitleg: 'Een deskundige in gedrag en ontwikkeling van kinderen. Doet onderzoek, geeft advies of behandelt.' },
-  { vormen: ['SKJ', 'Kwaliteitsregister Jeugd'], titel: 'SKJ (Kwaliteitsregister Jeugd)', uitleg: 'Een register van opgeleide jeugdprofessionals. Wie erin staat, moet zich blijven bijscholen en zich aan een beroepscode houden.' },
-  { vormen: ['BIG-register', 'BIG'], uitleg: 'Een register van zorgverleners met een beschermd beroep, zoals artsen en psychologen. Daarin ziet u of iemand bevoegd is.' },
-  { vormen: ['VOG', 'Verklaring Omtrent het Gedrag'], titel: 'VOG (Verklaring Omtrent het Gedrag)', uitleg: 'Een verklaring van de overheid dat iemand geen strafblad heeft dat in de weg staat bij het werk, bijvoorbeeld met kinderen.' },
-  { vormen: ['BSN', 'burgerservicenummer'], titel: 'BSN (burgerservicenummer)', uitleg: 'Het persoonlijke nummer van uw kind bij de overheid. Het staat op het paspoort, de ID-kaart en de zorgpas.' },
-  { vormen: ['dagbehandeling'], uitleg: 'Behandeling overdag in een groep, een paar dagdelen per week of elke dag. Soms samen met school of in plaats van school.' },
+  {
+    vormen: ['orthopedagoog', 'gedragswetenschapper', 'gedragskundige'],
+    uitleg: 'Een deskundige in gedrag en ontwikkeling van kinderen. Doet onderzoek, geeft advies of behandelt.',
+  },
+  {
+    vormen: ['SKJ', 'Kwaliteitsregister Jeugd'],
+    titel: 'SKJ (Kwaliteitsregister Jeugd)',
+    uitleg: 'Een register van opgeleide jeugdprofessionals. Wie erin staat, moet zich blijven bijscholen en zich aan een beroepscode houden.',
+  },
+  {
+    vormen: ['BIG-register', 'BIG'],
+    uitleg: 'Een register van zorgverleners met een beschermd beroep, zoals artsen en psychologen. Daarin ziet u of iemand bevoegd is.',
+  },
+  {
+    vormen: ['VOG', 'Verklaring Omtrent het Gedrag'],
+    titel: 'VOG (Verklaring Omtrent het Gedrag)',
+    uitleg: 'Een verklaring van de overheid dat iemand geen strafblad heeft dat in de weg staat bij het werk, bijvoorbeeld met kinderen.',
+  },
+  {
+    vormen: ['BSN', 'burgerservicenummer'],
+    titel: 'BSN (burgerservicenummer)',
+    uitleg: 'Het persoonlijke nummer van uw kind bij de overheid. Het staat op het paspoort, de ID-kaart en de zorgpas.',
+  },
+  {
+    vormen: ['dagbehandeling'],
+    uitleg: 'Behandeling overdag in een groep, een paar dagdelen per week of elke dag. Soms samen met school of in plaats van school.',
+  },
   { vormen: ['dagbesteding'], uitleg: 'Een vaste plek overdag met begeleiding en activiteiten in een groep, voor wie extra begeleiding nodig heeft.' },
-  { vormen: ['respijtzorg'], uitleg: 'Zorg die de taken van u als ouder even overneemt, zodat u op adem kunt komen. Bijvoorbeeld logeren of een ervaren oppas.' },
-  { vormen: ['logeeropvang', 'logeerhuis', 'kortdurend verblijf'], uitleg: 'Uw kind logeert een paar dagen, bijvoorbeeld een weekend, bij een organisatie of gastgezin. Zo heeft u als ouder even rust.' },
-  { vormen: ['hulp met verblijf', 'jeugdhulp met verblijf'], uitleg: 'Hulp waarbij uw kind ergens anders woont of slaapt, zoals in een pleeggezin, gezinshuis of woongroep.' },
-  { vormen: ['pleegzorg', 'pleeggezin', 'pleeggezinnen'], uitleg: 'Een kind woont tijdelijk of langer in een ander gezin, soms bij familie of bekenden. De ouders blijven meestal betrokken.' },
-  { vormen: ['deeltijdpleegzorg'], uitleg: 'Uw kind logeert regelmatig bij een pleeggezin, bijvoorbeeld een weekend per maand. Zo heeft u als ouder even rust.' },
-  { vormen: ['gezinshuis', 'gezinshuizen'], uitleg: 'Een gewoon huis waar gezinshuisouders samenwonen met een paar kinderen die niet thuis kunnen wonen. Minstens één van die ouders is opgeleid als hulpverlener.' },
+  {
+    vormen: ['respijtzorg'],
+    uitleg: 'Zorg die de taken van u als ouder even overneemt, zodat u op adem kunt komen. Bijvoorbeeld logeren of een ervaren oppas.',
+  },
+  {
+    vormen: ['logeeropvang', 'logeerhuis', 'kortdurend verblijf'],
+    uitleg: 'Uw kind logeert een paar dagen, bijvoorbeeld een weekend, bij een organisatie of gastgezin. Zo heeft u als ouder even rust.',
+  },
+  {
+    vormen: ['hulp met verblijf', 'jeugdhulp met verblijf'],
+    uitleg: 'Hulp waarbij uw kind ergens anders woont of slaapt, zoals in een pleeggezin, gezinshuis of woongroep.',
+  },
+  {
+    vormen: ['pleegzorg', 'pleeggezin', 'pleeggezinnen'],
+    uitleg: 'Een kind woont tijdelijk of langer in een ander gezin, soms bij familie of bekenden. De ouders blijven meestal betrokken.',
+  },
+  {
+    vormen: ['deeltijdpleegzorg'],
+    uitleg: 'Uw kind logeert regelmatig bij een pleeggezin, bijvoorbeeld een weekend per maand. Zo heeft u als ouder even rust.',
+  },
+  {
+    vormen: ['gezinshuis', 'gezinshuizen'],
+    uitleg:
+      'Een gewoon huis waar gezinshuisouders samenwonen met een paar kinderen die niet thuis kunnen wonen. Minstens één van die ouders is opgeleid als hulpverlener.',
+  },
   { vormen: ['kamertraining'], uitleg: 'Een jongere woont op een eigen kamer met begeleiding en leert zo zelfstandig wonen.' },
-  { vormen: ['gesloten jeugdhulp'], uitleg: 'Jeugdhulp op een plek die een jongere niet zelf mag verlaten. Dat kan alleen als de kinderrechter toestemming geeft.' },
-  { vormen: ['ondertoezichtstelling', 'OTS'], titel: 'ondertoezichtstelling (OTS)', uitleg: 'Een maatregel van de kinderrechter. Een jeugdbeschermer begeleidt het gezin en kan aanwijzingen geven. U houdt zelf het gezag.' },
-  { vormen: ['jeugdbeschermingsmaatregel', 'jeugdbeschermingsmaatregelen', 'kinderbeschermingsmaatregel'], uitleg: 'Een besluit van de kinderrechter dat een kind extra bescherming krijgt, bijvoorbeeld een ondertoezichtstelling. Meestal is er eerst hulp geweest waar het gezin zelf voor koos.' },
-  { vormen: ['jeugdbeschermer', 'jeugdbeschermers', 'gezinsvoogd'], uitleg: 'Een medewerker van een organisatie voor jeugdbescherming. Begeleidt het gezin na een maatregel van de kinderrechter. Vroeger heette dit gezinsvoogd.' },
-  { vormen: ['Raad voor de Kinderbescherming'], uitleg: 'Onderzoekt of een kind bescherming nodig heeft en adviseert de rechter. Bijvoorbeeld bij zorgen over de veiligheid, of bij onenigheid over een kind na een scheiding.' },
+  {
+    vormen: ['gesloten jeugdhulp'],
+    uitleg: 'Jeugdhulp op een plek die een jongere niet zelf mag verlaten. Dat kan alleen als de kinderrechter toestemming geeft.',
+  },
+  {
+    vormen: ['ondertoezichtstelling', 'OTS'],
+    titel: 'ondertoezichtstelling (OTS)',
+    uitleg: 'Een maatregel van de kinderrechter. Een jeugdbeschermer begeleidt het gezin en kan aanwijzingen geven. U houdt zelf het gezag.',
+  },
+  {
+    vormen: ['jeugdbeschermingsmaatregel', 'jeugdbeschermingsmaatregelen', 'kinderbeschermingsmaatregel'],
+    uitleg:
+      'Een besluit van de kinderrechter dat een kind extra bescherming krijgt, bijvoorbeeld een ondertoezichtstelling. Meestal is er eerst hulp geweest waar het gezin zelf voor koos.',
+  },
+  {
+    vormen: ['jeugdbeschermer', 'jeugdbeschermers', 'gezinsvoogd'],
+    uitleg:
+      'Een medewerker van een organisatie voor jeugdbescherming. Begeleidt het gezin na een maatregel van de kinderrechter. Vroeger heette dit gezinsvoogd.',
+  },
+  {
+    vormen: ['Raad voor de Kinderbescherming'],
+    uitleg:
+      'Onderzoekt of een kind bescherming nodig heeft en adviseert de rechter. Bijvoorbeeld bij zorgen over de veiligheid, of bij onenigheid over een kind na een scheiding.',
+  },
   { vormen: ['PO', 'primair onderwijs'], titel: 'PO (primair onderwijs)', uitleg: 'De basisschool en het speciaal basisonderwijs.' },
   { vormen: ['VO', 'voortgezet onderwijs'], titel: 'VO (voortgezet onderwijs)', uitleg: 'De middelbare school, zoals vmbo, havo en vwo.' },
-  { vormen: ['BSO', 'buitenschoolse opvang'], titel: 'BSO (buitenschoolse opvang)', uitleg: 'Opvang voor schoolkinderen voor en na school en in de vakanties.' },
-  { vormen: ['KDV', 'kinderdagverblijf', 'kinderdagverblijven'], titel: 'kinderdagverblijf (KDV)', uitleg: 'Opvang voor kinderen tot 4 jaar, een of meer dagen per week.' },
-  { vormen: ['speciaal onderwijs', 'voortgezet speciaal onderwijs'], uitleg: 'Scholen voor kinderen die op een gewone school niet genoeg steun kunnen krijgen, bijvoorbeeld door een beperking of ziekte. Het samenwerkingsverband beslist over een plek.' },
-  { vormen: ['thuiszitter', 'thuiszitters'], uitleg: 'Een leerplichtig kind dat langer dan vier weken niet naar school gaat zonder vrijstelling, of niet op een school staat ingeschreven.' },
-  { vormen: ['TOS', 'taalontwikkelingsstoornis'], titel: 'TOS (taalontwikkelingsstoornis)', uitleg: 'Een kind heeft blijvend veel moeite met leren praten of taal begrijpen, terwijl het goed hoort.' },
-  { vormen: ['KOPP/KOV', 'KOPP', 'KOV'], titel: 'KOPP/KOV', uitleg: 'Kinderen van ouders met psychische problemen (KOPP) of met een verslaving (KOV). Voor hen zijn er groepen en gesprekken.' },
+  {
+    vormen: ['BSO', 'buitenschoolse opvang'],
+    titel: 'BSO (buitenschoolse opvang)',
+    uitleg: 'Opvang voor schoolkinderen voor en na school en in de vakanties.',
+  },
+  {
+    vormen: ['KDV', 'kinderdagverblijf', 'kinderdagverblijven'],
+    titel: 'kinderdagverblijf (KDV)',
+    uitleg: 'Opvang voor kinderen tot 4 jaar, een of meer dagen per week.',
+  },
+  {
+    vormen: ['speciaal onderwijs', 'voortgezet speciaal onderwijs'],
+    uitleg:
+      'Scholen voor kinderen die op een gewone school niet genoeg steun kunnen krijgen, bijvoorbeeld door een beperking of ziekte. Het samenwerkingsverband beslist over een plek.',
+  },
+  {
+    vormen: ['thuiszitter', 'thuiszitters'],
+    uitleg: 'Een leerplichtig kind dat langer dan vier weken niet naar school gaat zonder vrijstelling, of niet op een school staat ingeschreven.',
+  },
+  {
+    vormen: ['TOS', 'taalontwikkelingsstoornis'],
+    titel: 'TOS (taalontwikkelingsstoornis)',
+    uitleg: 'Een kind heeft blijvend veel moeite met leren praten of taal begrijpen, terwijl het goed hoort.',
+  },
+  {
+    vormen: ['KOPP/KOV', 'KOPP', 'KOV'],
+    titel: 'KOPP/KOV',
+    uitleg: 'Kinderen van ouders met psychische problemen (KOPP) of met een verslaving (KOV). Voor hen zijn er groepen en gesprekken.',
+  },
 ];
 
 /**

@@ -8,18 +8,30 @@
  * Een ander filter op de pagina (zoals regelingen op de lijst met gemeenten) zet data-filter-uit op een kaart en stuurt jr:filter.
  */
 import Icon from './Icon.astro';
-interface Props { placeholder?: string; label?: string; target: string }
+interface Props {
+  placeholder?: string;
+  label?: string;
+  target: string;
+}
 const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } = Astro.props;
 ---
+
 <form class="search" role="search" data-target={target} onsubmit="return false">
   <Icon name="search" />
   <input type="search" name="q" placeholder={placeholder} aria-label={label} autocomplete="off" />
-  <button type="submit" class="btn primary">Zoeken</button>
+  <button type="submit" class="btn primary">
+    Zoeken
+  </button>
 </form>
 <script>
   import { toonNaam } from '../lib/woonplaatsen';
-  const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  import { base } from '../site';
+  const norm = (s: string) =>
+    s
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .trim();
   let woonplaatsen: Promise<[string, string][]> | null = null;
   document.querySelectorAll<HTMLFormElement>('form.search[data-target]').forEach((form) => {
     const input = form.querySelector('input')!;
@@ -34,23 +46,32 @@ const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } =
     const laad = () => {
       if (!gemeenteKaarten.length || woonplaatsen) return;
       woonplaatsen = fetch(`${base}/woonplaatsen.json`).then((r) => r.json());
-      woonplaatsen.then((paren) => {
-        const kaart = new Map(gemeenteKaarten.map((c) => [c.getAttribute('href')!.split('/').filter(Boolean).at(-1)!, c]));
-        perGemeente = new Map();
-        for (const [plaats, slug] of paren) {
-          const c = kaart.get(slug); if (!c) continue;
-          const naam = toonNaam(plaats, c.querySelector('h3')?.textContent ?? '');
-          perGemeente.set(c, [...(perGemeente.get(c) ?? []), { naam, n: norm(naam) }]);
-        }
-        apply();
-      }).catch(() => { woonplaatsen = null; });
+      woonplaatsen
+        .then((paren) => {
+          const kaart = new Map(gemeenteKaarten.map((c) => [c.getAttribute('href')!.split('/').filter(Boolean).at(-1)!, c]));
+          perGemeente = new Map();
+          for (const [plaats, slug] of paren) {
+            const c = kaart.get(slug);
+            if (!c) continue;
+            const naam = toonNaam(plaats, c.querySelector('h3')?.textContent ?? '');
+            perGemeente.set(c, [...(perGemeente.get(c) ?? []), { naam, n: norm(naam) }]);
+          }
+          apply();
+        })
+        .catch(() => {
+          woonplaatsen = null;
+        });
     };
     /** Een woonplaats waarvan een woord begint met wat er getypt is ("ter aar", "huppel"); niet midden in een woord, anders levert "ter" ook Oosterhout op. */
     // "ter aar" vindt ook Ter Aard (Assen): dat is gewenst, de kaart zegt welke woonplaats het is.
-    const viaWoonplaats = (c: HTMLElement, q: string) => (q.length < 2 ? undefined : perGemeente.get(c)?.find((w) => w.n.startsWith(q) || w.n.includes(` ${q}`) || w.n.includes(`-${q}`)));
+    const viaWoonplaats = (c: HTMLElement, q: string) =>
+      q.length < 2 ? undefined : perGemeente.get(c)?.find((w) => w.n.startsWith(q) || w.n.includes(` ${q}`) || w.n.includes(`-${q}`));
     const meld = (c: HTMLElement, naam?: string) => {
       let p = c.querySelector<HTMLElement>('[data-via-woonplaats]');
-      if (!naam) { if (p) p.hidden = true; return; }
+      if (!naam) {
+        if (p) p.hidden = true;
+        return;
+      }
       p ??= Object.assign(document.createElement('p'), { className: 'meta via-woonplaats' });
       p.setAttribute('data-via-woonplaats', '');
       p.textContent = `${naam} valt onder deze gemeente.`;
@@ -66,13 +87,20 @@ const { placeholder = 'Zoek uw gemeente…', label = 'Zoek gemeente', target } =
         const woonplaats = !direct && c.dataset.naam ? viaWoonplaats(c, q) : undefined;
         if (c.dataset.naam) meld(c, woonplaats?.naam);
         const hit = (direct || !!woonplaats) && !c.hasAttribute('data-filter-uit');
-        c.hidden = !hit; if (hit) n++;
+        c.hidden = !hit;
+        if (hit) n++;
       }
       for (const s of sections) s.hidden = !s.querySelector('[data-zoek]:not([hidden]), [data-naam]:not([hidden])');
       if (empty) empty.hidden = n > 0;
     };
-    input.addEventListener('input', () => { laad(); apply(); });
+    input.addEventListener('input', () => {
+      laad();
+      apply();
+    });
     document.addEventListener('jr:filter', apply);
-    form.addEventListener('submit', () => { apply(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    form.addEventListener('submit', () => {
+      apply();
+      grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   });
 </script>

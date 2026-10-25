@@ -3,8 +3,8 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Contact from '../components/Contact.astro';
 import GemeenteZoeker from '../components/GemeenteZoeker.astro';
-import { getCollection } from 'astro:content';
-const orgs = (await getCollection('organisaties')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+import { gesorteerd } from '../lib/collecties';
+const orgs = await gesorteerd('organisaties');
 const soortLabel: Record<string, { label: string; icon: any; cls?: string }> = {
   hulplijn: { label: 'Hulplijnen', icon: 'phone', cls: 'accent' },
   belangenorganisatie: { label: 'Belangenorganisaties', icon: 'shield' },
@@ -17,35 +17,70 @@ const soortLabel: Record<string, { label: string; icon: any; cls?: string }> = {
   overig: { label: 'Zorg- en onderwijsorganisaties', icon: 'book' },
 };
 const zoektekst = (o: (typeof orgs)[number]) => [o.data.naam, o.data.omschrijving, ...o.data.themas].join(' ').toLowerCase();
-const groepen = Object.keys(soortLabel).map((k) => ({ k, ...soortLabel[k], items: orgs.filter((o) => o.data.soort === k) })).filter((g) => g.items.length);
+const groepen = Object.keys(soortLabel)
+  .map((k) => ({ k, ...soortLabel[k], items: orgs.filter((o) => o.data.soort === k) }))
+  .filter((g) => g.items.length);
 // Ankers van de blokken staan op de kop (h2), niet op de <section>: dan linkt de zoekfunctie (Pagefind) naar het blok.
 ---
-<Base title="Organisaties" description="Landelijke organisaties waar ouders terechtkunnen voor advies, cliëntondersteuning en steun bij jeugdhulp en onderwijs.">
+
+<Base
+  title="Organisaties"
+  description="Landelijke organisaties waar ouders terechtkunnen voor advies, cliëntondersteuning en steun bij jeugdhulp en onderwijs."
+>
   <div class="page-head">
     <span class="eyebrow">Landelijk</span>
     <h1>Organisaties die u verder helpen</h1>
-    <p class="lead">Belangen- en patiëntenorganisaties, ouderverenigingen en hulplijnen. Zij bieden informatie, lotgenotencontact en vaak ook bijeenkomsten en activiteiten.</p>
-    <div style="max-width:34rem;margin-top:1.25rem"><GemeenteZoeker target="#organisaties-lijst" placeholder="Zoek op naam of onderwerp, bv. autisme…" label="Zoek organisatie" /></div>
+    <p class="lead">
+      Belangen- en patiëntenorganisaties, ouderverenigingen en hulplijnen. Zij bieden informatie, lotgenotencontact en vaak ook bijeenkomsten en activiteiten.
+    </p>
+    <div style="max-width:34rem;margin-top:1.25rem">
+      <GemeenteZoeker target="#organisaties-lijst" placeholder="Zoek op naam of onderwerp, bv. autisme…" label="Zoek organisatie" />
+    </div>
   </div>
-  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">{groepen.map((g) => <a href={`#${g.k}`}>{g.label}</a>)}</nav>
+  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">
+    {groepen.map((g) => (
+      <a href={`#${g.k}`}>{g.label}</a>
+    ))}
+  </nav>
   <div id="organisaties-lijst">
-  {groepen.map((g) => (
-    <section>
-      <div class="kicker"><h2 id={g.k} style="scroll-margin-top:5.5rem">{g.label}</h2><span class="line"></span></div>
-      <div class="grid" style="margin-top:1.25rem">
-        {g.items.map((o) => (
-          <div class="card" id={o.id} style="scroll-margin-top:5.5rem" data-zoek={zoektekst(o)}>
-            <div class={`icon ${g.cls ?? ''}`}><Icon name={g.icon} /></div>
-            <h3 id={o.id} style="scroll-margin-top:6rem">{o.data.naam}</h3>
-            <div class="tags">{o.data.themas.map((t) => <span>{t}</span>)}</div>
-            <p>{o.data.omschrijving}</p>
-            {o.data.watBiedenZij.length > 0 && <ul>{o.data.watBiedenZij.map((w) => <li>{w}</li>)}</ul>}
-            <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
-          </div>
-        ))}
-      </div>
-    </section>
-  ))}
+    {groepen.map((g) => (
+      <section>
+        <div class="kicker">
+          <h2 id={g.k} style="scroll-margin-top:5.5rem">
+            {g.label}
+          </h2>
+          <span class="line"></span>
+        </div>
+        <div class="grid" style="margin-top:1.25rem">
+          {g.items.map((o) => (
+            <div class="card" id={o.id} style="scroll-margin-top:5.5rem" data-zoek={zoektekst(o)}>
+              <div class={`icon ${g.cls ?? ''}`}>
+                <Icon name={g.icon} />
+              </div>
+              <h3 id={o.id} style="scroll-margin-top:6rem">
+                {o.data.naam}
+              </h3>
+              <div class="tags">
+                {o.data.themas.map((t) => (
+                  <span>{t}</span>
+                ))}
+              </div>
+              <p>{o.data.omschrijving}</p>
+              {o.data.watBiedenZij.length > 0 && (
+                <ul>
+                  {o.data.watBiedenZij.map((w) => (
+                    <li>{w}</li>
+                  ))}
+                </ul>
+              )}
+              <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
   </div>
-  <p class="empty empty-result" hidden style="margin-top:1rem">Geen organisatie gevonden.</p>
+  <p class="empty empty-result" hidden style="margin-top:1rem">
+    Geen organisatie gevonden.
+  </p>
 </Base>

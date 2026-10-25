@@ -1,6 +1,12 @@
 ---
 /** Alleen op papier: wanneer afgedrukt en waar de actuele versie staat (gevuld door scripts/afdrukken.ts). Hoort bij AfdrukKnop. */
-interface Props { wat?: string }
+interface Props {
+  wat?: string;
+}
 const { wat = 'deze pagina' } = Astro.props;
 ---
-<p class="alleen-print afdruk-kop" data-pagefind-ignore>Afgedrukt op <span data-afdruk-datum></span> van Jeugdzorg Routes. Contactgegevens en regels kunnen veranderen; de actuele versie van {wat} staat op <span class="afdruk-adres" data-afdruk-adres></span></p>
+
+<p class="alleen-print afdruk-kop" data-pagefind-ignore>
+  Afgedrukt op <span data-afdruk-datum></span> van Jeugdzorg Routes. Contactgegevens en regels kunnen veranderen; de actuele versie van {wat} staat op{' '}
+  <span class="afdruk-adres" data-afdruk-adres></span>
+</p>

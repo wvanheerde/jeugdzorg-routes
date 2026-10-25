@@ -22,7 +22,8 @@ for (const f of (await readdir(dir)).filter((f) => f.endsWith('.json'))) {
 
 const slugify = (naam) =>
   naam
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
     .replace(/^'s-/, 's-')
     .replace(/[^a-z0-9]+/g, '-')
@@ -39,7 +40,8 @@ const skelet = (g) => ({
       {
         type: 'wijkteam',
         naam: 'Toegangsteam van de gemeente',
-        omschrijving: 'Elke gemeente heeft een team dat aanvragen voor jeugdhulp beoordeelt en een beschikking afgeeft. De lokale naam en werkwijze zijn voor deze gemeente nog niet nagezocht.',
+        omschrijving:
+          'Elke gemeente heeft een team dat aanvragen voor jeugdhulp beoordeelt en een beschikking afgeeft. De lokale naam en werkwijze zijn voor deze gemeente nog niet nagezocht.',
         stappen: [
           `Bel de gemeente of zoek op de website op "jeugdhulp" naar het toegangsteam.`,
           'Vraag om een gesprek; u mag iemand meenemen, bijvoorbeeld een onafhankelijke cliëntondersteuner.',
@@ -54,7 +56,8 @@ const skelet = (g) => ({
       {
         type: 'huisarts',
         naam: 'Via huisarts, jeugdarts of medisch specialist',
-        omschrijving: 'Volgens de Jeugdwet mogen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het toegangsteam.',
+        omschrijving:
+          'Volgens de Jeugdwet mogen huisarts, jeugdarts en medisch specialist rechtstreeks verwijzen naar jeugdhulp die de gemeente heeft ingekocht. Dit is een gelijkwaardige route naast het toegangsteam.',
         stappen: [
           'Bespreek uw zorgen met de huisarts of de jeugdarts van de GGD.',
           'De arts verwijst naar een door de gemeente gecontracteerde aanbieder.',
@@ -75,19 +78,23 @@ const skelet = (g) => ({
   rechten: {
     onafhankelijkeClientondersteuning: {
       naam: 'Onafhankelijke cliëntondersteuning (via de gemeente)',
-      toelichting: 'Elke gemeente moet gratis en onafhankelijke cliëntondersteuning aanbieden (Wmo 2015). Wie dit in deze gemeente uitvoert, bijvoorbeeld MEE of Zorgbelang, is nog niet nagezocht. Vraag het toegangsteam ernaar of zoek op de gemeentesite op "cliëntondersteuning".',
+      toelichting:
+        'Elke gemeente moet gratis en onafhankelijke cliëntondersteuning aanbieden (Wmo 2015). Wie dit in deze gemeente uitvoert, bijvoorbeeld MEE of Zorgbelang, is nog niet nagezocht. Vraag het toegangsteam ernaar of zoek op de gemeentesite op "cliëntondersteuning".',
     },
     klacht: {
       naam: 'Klacht bij het toegangsteam of de gemeente',
-      toelichting: 'Bespreek het eerst met de medewerker. Komt u er niet uit, dan kunt u een klacht indienen bij de gemeente; die moet een klachtenregeling hebben (Algemene wet bestuursrecht). De lokale klachtenregeling van het toegangsteam is nog niet nagezocht.',
+      toelichting:
+        'Bespreek het eerst met de medewerker. Komt u er niet uit, dan kunt u een klacht indienen bij de gemeente; die moet een klachtenregeling hebben (Algemene wet bestuursrecht). De lokale klachtenregeling van het toegangsteam is nog niet nagezocht.',
       extern: { naam: 'Nationale ombudsman of lokale ombudsman', url: 'https://www.nationaleombudsman.nl/' },
     },
     bezwaar: {
-      toelichting: 'Tegen een beschikking (besluit) van de gemeente kunt u binnen 6 weken na verzending bezwaar maken. Het adres staat onderaan het besluit. Daarna staat beroep open bij de rechtbank.',
+      toelichting:
+        'Tegen een beschikking (besluit) van de gemeente kunt u binnen 6 weken na verzending bezwaar maken. Het adres staat onderaan het besluit. Daarna staat beroep open bij de rechtbank.',
     },
     pgb: {
       mogelijk: true,
-      toelichting: 'Een persoonsgebonden budget is in elke gemeente mogelijk als u kunt uitleggen waarom zorg in natura niet passend is en u het budget kunt beheren (Jeugdwet artikel 8.1.1). De lokale voorwaarden en tarieven zijn nog niet nagezocht.',
+      toelichting:
+        'Een persoonsgebonden budget is in elke gemeente mogelijk als u kunt uitleggen waarom zorg in natura niet passend is en u het budget kunt beheren (Jeugdwet artikel 8.1.1). De lokale voorwaarden en tarieven zijn nog niet nagezocht.',
     },
     vertrouwenspersoon: {
       naam: 'Jeugdstem (voorheen AKJ)',
@@ -101,13 +108,15 @@ const skelet = (g) => ({
     categorieen: [],
   },
   lokaleInitiatieven: [],
-  directRegelen: [
-    { naam: 'Vertrouwenspersoon Jeugdstem inschakelen', url: 'https://jeugdstem.nl/contact' },
-  ],
+  directRegelen: [{ naam: 'Vertrouwenspersoon Jeugdstem inschakelen', url: 'https://jeugdstem.nl/contact' }],
   meta: {
     laatstGecontroleerd: vandaag,
     bronnen: [
-      { titel: 'Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)', url: 'https://organisaties.overheid.nl/', geraadpleegd: register.geraadpleegd },
+      {
+        titel: 'Register van Overheidsorganisaties – gemeenten (naam, website, telefoon)',
+        url: 'https://organisaties.overheid.nl/',
+        geraadpleegd: register.geraadpleegd,
+      },
     ],
     opmerkingen: `Automatisch aangemaakt op ${vandaag} uit het Register van Overheidsorganisaties. Alleen landelijke regels en de algemene contactgegevens van de gemeente; websiteJeugd is de homepage van de gemeente, niet een jeugdpagina. Nog niet onderzocht: toegangsteam, klachtenregeling, cliëntondersteuning, pgb-voorwaarden, aanbod, lokale initiatieven en ervaringen.`,
   },
@@ -116,7 +125,10 @@ const skelet = (g) => ({
 let n = 0;
 for (const g of register.gemeenten) {
   if (bestaand.has(g.cbsCode)) continue;
-  if (!g.website || !g.provincie) { console.warn(`! ${g.naam} (${g.cbsCode}) overgeslagen: website of provincie ontbreekt`); continue; }
+  if (!g.website || !g.provincie) {
+    console.warn(`! ${g.naam} (${g.cbsCode}) overgeslagen: website of provincie ontbreekt`);
+    continue;
+  }
   const file = join(dir, `${slugify(g.naam)}.json`);
   await writeFile(file, JSON.stringify(skelet(g), null, 2) + '\n');
   n++;

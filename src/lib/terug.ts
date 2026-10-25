@@ -6,13 +6,22 @@
  * - Van buiten de site: naar de eerst gekozen situatie die bij deze pagina hoort (data-situaties), tenzij data-alleen-herkomst;
  *   anders blijft de standaardlink staan.
  */
+import { base } from '../site';
+import { OPSLAG, leesLijst } from './opslag';
+
 export function zetTerugLink() {
   const a = document.querySelector<HTMLAnchorElement>('[data-terug]');
   if (!a) return;
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-  const opties = (a.dataset.situaties ?? '').split(';').filter(Boolean).map((x) => x.split('|'));
+  const opties = (a.dataset.situaties ?? '')
+    .split(';')
+    .filter(Boolean)
+    .map((x) => x.split('|'));
   let van: URL | undefined;
-  try { van = document.referrer ? new URL(document.referrer) : undefined; } catch { van = undefined; }
+  try {
+    van = document.referrer ? new URL(document.referrer) : undefined;
+  } catch {
+    van = undefined;
+  }
   if (van && van.origin === location.origin && van.pathname !== location.pathname) {
     const pad = van.pathname.slice(base.length);
     if (pad.startsWith('/overzicht')) {
@@ -32,7 +41,10 @@ export function zetTerugLink() {
     return;
   }
   if (a.hasAttribute('data-alleen-herkomst')) return;
-  const gekozen = (localStorage.getItem('jr.situaties') ?? '').split(',').filter(Boolean);
+  const gekozen = leesLijst(OPSLAG.situaties);
   const hit = opties.find(([id]) => gekozen.includes(id)) ?? (opties.length === 1 ? opties[0] : undefined);
-  if (hit) { a.href = a.href.replace(/\/situaties\/.*$/, `/situaties/${hit[0]}/${a.dataset.anchor}`); a.textContent = `← Terug naar ${hit[1]}`; }
+  if (hit) {
+    a.href = a.href.replace(/\/situaties\/.*$/, `/situaties/${hit[0]}/${a.dataset.anchor}`);
+    a.textContent = `← Terug naar ${hit[1]}`;
+  }
 }

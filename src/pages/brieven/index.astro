@@ -1,8 +1,9 @@
 ---
 /** /brieven/ zelf heeft geen pagina: de voorbeeldbrieven staan bij elkaar op de pagina Hulpmiddelen. */
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+import { base } from '../../site';
 const doel = `${base}/hulpmiddelen/#brieven`;
 ---
+
 <!doctype html>
 <html lang="nl">
   <head>
@@ -13,6 +14,8 @@ const doel = `${base}/hulpmiddelen/#brieven`;
     <link rel="canonical" href={new URL(doel, Astro.site).href} />
   </head>
   <body>
-    <p>De voorbeeldbrieven staan op de pagina <a href={doel}>Hulpmiddelen</a>.</p>
+    <p>
+      De voorbeeldbrieven staan op de pagina <a href={doel}>Hulpmiddelen</a>.
+    </p>
   </body>
 </html>

@@ -4,7 +4,22 @@ import type { ComponentProps } from 'astro/types';
 import type StapInhoud from '../components/StapInhoud.astro';
 import { genoemdIn } from './genoemd';
 import { alleStappen, hoofdStappen, type Knelpunt } from './stappen';
-import { AFLOOP_ZIN, BEZWAAR_ZIN, KIES_ZIN, KLACHT_BIJ_WACHTEN, WACHT_OP, WACHT_ZIN, afgewezenRol, gezagStap, hulpStoptReden, regelingStap, uitbreidenRol, verhuisMoment, wachtLead, wordt18 } from './verdiepingen';
+import {
+  AFLOOP_ZIN,
+  BEZWAAR_ZIN,
+  KIES_ZIN,
+  KLACHT_BIJ_WACHTEN,
+  WACHT_OP,
+  WACHT_ZIN,
+  afgewezenRol,
+  gezagStap,
+  hulpStoptReden,
+  regelingStap,
+  uitbreidenRol,
+  verhuisMoment,
+  wachtLead,
+  wordt18,
+} from './verdiepingen';
 
 type Organisatie = CollectionEntry<'organisaties'>;
 type Situatie = CollectionEntry<'situaties'>;
@@ -19,7 +34,16 @@ const STAP_BRIEF: [RegExp, string][] = [
   [/nieuw gesprek en een nieuw besluit/i, 'verzoek-meer-hulp'],
 ];
 /** Korte naam in de link, zodat twee brieflinks bij elkaar niet hetzelfde heten. */
-const BRIEF_LABEL: Record<string, string> = { 'gesprek-school-opp': 'gesprek met school', ingebrekestelling: 'ingebrekestelling', 'bezwaar-beschikking': 'bezwaar', 'klacht-toegangsteam': 'klacht aan het wijkteam', 'klacht-aanbieder': 'klacht aan de aanbieder', 'verhuizing-overdracht': 'overdracht', 'gezamenlijk-overleg': 'gezamenlijk overleg', 'verzoek-meer-hulp': 'meer of andere hulp' };
+const BRIEF_LABEL: Record<string, string> = {
+  'gesprek-school-opp': 'gesprek met school',
+  ingebrekestelling: 'ingebrekestelling',
+  'bezwaar-beschikking': 'bezwaar',
+  'klacht-toegangsteam': 'klacht aan het wijkteam',
+  'klacht-aanbieder': 'klacht aan de aanbieder',
+  'verhuizing-overdracht': 'overdracht',
+  'gezamenlijk-overleg': 'gezamenlijk overleg',
+  'verzoek-meer-hulp': 'meer of andere hulp',
+};
 /** Vellen om af te drukken bij de stap waar ze horen (vraag of situatie, begin van de stap). Elke regel moet een stap vinden: zie de controle onderaan. */
 const BESCHIKKING = { pad: 'beschikking/', tekst: 'Het besluit nalezen: wat hoort erin te staan' };
 const VEL_BIJ_STAP: { bij: string; begin: string; vel: { pad: string; tekst: string } }[] = [
@@ -34,10 +58,14 @@ const VEL_BIJ_STAP: { bij: string; begin: string; vel: { pad: string; tekst: str
 ];
 const velBij = (bij: string, stap: string) => VEL_BIJ_STAP.find((v) => v.bij === bij && stap.startsWith(v.begin))?.vel;
 /** Faalt de build als een vel geen stap meer vindt (de tekst van de stap is veranderd). */
-export const controleerVellen = (stappen: { id: string; stappen: string[] }[]) => VEL_BIJ_STAP.forEach((v) => {
-  const s = stappen.find((x) => x.id === v.bij);
-  if (!s || !s.stappen.some((st) => st.startsWith(v.begin))) throw new Error(`Vel ${v.vel.pad} hoort bij een stap van "${v.bij}" die begint met "${v.begin}", maar die stap is er niet. Pas VEL_BIJ_STAP in src/lib/stap-props.ts aan.`);
-});
+export const controleerVellen = (stappen: { id: string; stappen: string[] }[]) =>
+  VEL_BIJ_STAP.forEach((v) => {
+    const s = stappen.find((x) => x.id === v.bij);
+    if (!s || !s.stappen.some((st) => st.startsWith(v.begin)))
+      throw new Error(
+        `Vel ${v.vel.pad} hoort bij een stap van "${v.bij}" die begint met "${v.begin}", maar die stap is er niet. Pas VEL_BIJ_STAP in src/lib/stap-props.ts aan.`,
+      );
+  });
 /**
  * Wat er bij elke stap hoort (zie StapInhoud.astro):
  * - genoemde landelijke organisaties: nummer en website onder de stap die ze als eerste noemt, niet in de zin (persona-tests ronde 21);
@@ -63,18 +91,21 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
       const gehad = new Set<string>();
       const orgs = new Map(alle.map((x) => [x, genoemdIn(x, organisaties, gehad)]));
       const gebruikt = new Set<string>();
-      const brief = new Map(alle.map((x) => {
-        const hit = STAP_BRIEF.find(([re, id]) => re.test(x) && k.data.brieven.includes(id) && !gebruikt.has(id));
-        if (hit) gebruikt.add(hit[1]);
-        // Bij wachten gaat een klacht over de wachttijd: die klacht staat in de brief dan al aan (KLACHT_BIJ_WACHTEN).
-        return [x, hit ? { id: hit[1], label: BRIEF_LABEL[hit[1]], zoek: k.id === 'wachten' ? KLACHT_BIJ_WACHTEN[hit[1]] : undefined } : undefined];
-      }));
+      const brief = new Map(
+        alle.map((x) => {
+          const hit = STAP_BRIEF.find(([re, id]) => re.test(x) && k.data.brieven.includes(id) && !gebruikt.has(id));
+          if (hit) gebruikt.add(hit[1]);
+          // Bij wachten gaat een klacht over de wachttijd: die klacht staat in de brief dan al aan (KLACHT_BIJ_WACHTEN).
+          return [x, hit ? { id: hit[1], label: BRIEF_LABEL[hit[1]], zoek: k.id === 'wachten' ? KLACHT_BIJ_WACHTEN[hit[1]] : undefined } : undefined];
+        }),
+      );
       const metGemeente = !k.data.zonderGemeente;
       const co = metGemeente ? alle.find((x) => x.includes('cliëntondersteuner')) : undefined;
       const aanb = metGemeente && k.data.gemeenteOnderdelen.includes('aanbieders') ? alle.find((x) => x.includes('andere aanbieder')) : undefined;
       // Liever onder een hoofdstap dan onder een vervolgstap: bij wachten noemt de klachtstap (1A, alleen route gemeente) het wijkteam eerder
       // dan de stap over de aanbieder, en dan verdween het contact bij wachten op een aanbieder.
-      const wt = metGemeente && !k.data.wijkteamBovenaan ? hoofdStappen(k).find((x) => x.includes('wijkteam')) ?? alle.find((x) => x.includes('wijkteam')) : undefined;
+      const wt =
+        metGemeente && !k.data.wijkteamBovenaan ? (hoofdStappen(k).find((x) => x.includes('wijkteam')) ?? alle.find((x) => x.includes('wijkteam'))) : undefined;
       stapPropsPer.set(k.id, (x: string) => ({
         tekst: x,
         orgs: orgs.get(x) ?? [],
@@ -95,7 +126,10 @@ export const maakStapProps = (organisaties: Organisatie[]) => {
         regeling: k.id === 'geld' ? regelingStap(x) : undefined,
         uitbreiden: k.id === 'uitbreiden' ? { rol: uitbreidenRol(x), zin: x.includes(AFLOOP_ZIN) ? AFLOOP_ZIN : undefined } : undefined,
         gescheiden: k.id === 'gescheiden' ? { gezag: gezagStap(x), zin: x.includes(KIES_ZIN) ? KIES_ZIN : undefined } : undefined,
-        wacht: k.id === 'wachten' ? { op: WACHT_OP.find((w) => x.startsWith(w.begin))?.op, zin: x.includes(WACHT_ZIN) ? WACHT_ZIN : undefined, lead: wachtLead(x) } : undefined,
+        wacht:
+          k.id === 'wachten'
+            ? { op: WACHT_OP.find((w) => x.startsWith(w.begin))?.op, zin: x.includes(WACHT_ZIN) ? WACHT_ZIN : undefined, lead: wachtLead(x) }
+            : undefined,
       }));
     }
     return stapPropsPer.get(k.id)!(st);
@@ -110,6 +144,12 @@ export const situatieStapProps = (organisaties: Organisatie[], sit: Situatie): C
   const co = stappen.find((s) => s.stap.includes('cliëntondersteuner'))?.stap;
   return stappen.map(({ stap, brief }) => {
     if (brief && !BRIEF_LABEL[brief]) throw new Error(`${sit.id}.md: geen korte naam voor de brief "${brief}" (zie BRIEF_LABEL in src/lib/stap-props.ts)`);
-    return { tekst: stap, orgs: genoemdIn(stap, organisaties, gehad), brief: brief ? { id: brief, label: BRIEF_LABEL[brief] } : undefined, co: stap === co, vel: velBij(sit.id, stap) };
+    return {
+      tekst: stap,
+      orgs: genoemdIn(stap, organisaties, gehad),
+      brief: brief ? { id: brief, label: BRIEF_LABEL[brief] } : undefined,
+      co: stap === co,
+      vel: velBij(sit.id, stap),
+    };
   });
 };

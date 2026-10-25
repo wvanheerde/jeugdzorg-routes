@@ -3,25 +3,51 @@ import Base from '../../layouts/Base.astro';
 import TherapieKaart from '../../components/TherapieKaart.astro';
 import { therapieVolgorde } from '../../lib/therapie';
 import TherapieToelichting from '../../components/TherapieToelichting.astro';
-import { getCollection } from 'astro:content';
+import { gesorteerd } from '../../lib/collecties';
 import { afbreken } from '../../lib/afbreken';
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const alle = (await getCollection('therapievormen')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
-const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+import { base } from '../../site';
+const alle = await gesorteerd('therapievormen');
+const situaties = await gesorteerd('situaties');
 // Ankers van de blokken staan op de kop (h2), niet op de <section>: dan linkt de zoekfunctie (Pagefind) naar het blok.
 ---
+
 <Base title="Therapievormen" description="Uitleg over veelgebruikte therapievormen in de jeugdhulp: wat ze zijn, voor wie en wat u ervan kunt verwachten.">
   <div class="page-head">
     <span class="eyebrow">Weten wat bestaat</span>
     <h1>Therapievormen per situatie</h1>
-    <p class="lead">Welke hulp bestaat er, en wat kunt u ervan verwachten? Kies de situatie van uw kind en lees per vorm hoe het werkt en hoe u het aanvraagt.</p>
+    <p class="lead">
+      Welke hulp bestaat er, en wat kunt u ervan verwachten? Kies de situatie van uw kind en lees per vorm hoe het werkt en hoe u het aanvraagt.
+    </p>
     <TherapieToelichting />
   </div>
-  <nav class="toc" data-pagefind-ignore aria-label="Per situatie">{situaties.filter((s) => alle.some((t) => t.data.situaties.includes(s.id))).map((s) => <a href={`#${s.id}`}>{s.data.titel}</a>)}</nav>
-  {situaties.map((s) => { const ts = therapieVolgorde(s, alle); return ts.length > 0 && (
-    <section>
-      <div class="kicker"><h2 id={s.id} style="scroll-margin-top:5.5rem">{afbreken(s.data.titel)}</h2><span class="line"></span><a class="btn secondary" href={`${base}/situaties/${s.id}/`}>Naar de situatie</a></div>
-      <div class="grid gelijk" style="margin-top:1.25rem">{ts.map((t) => <TherapieKaart t={t} />)}</div>
-    </section>
-  ); })}
+  <nav class="toc" data-pagefind-ignore aria-label="Per situatie">
+    {situaties
+      .filter((s) => alle.some((t) => t.data.situaties.includes(s.id)))
+      .map((s) => (
+        <a href={`#${s.id}`}>{s.data.titel}</a>
+      ))}
+  </nav>
+  {situaties.map((s) => {
+    const ts = therapieVolgorde(s, alle);
+    return (
+      ts.length > 0 && (
+        <section>
+          <div class="kicker">
+            <h2 id={s.id} style="scroll-margin-top:5.5rem">
+              {afbreken(s.data.titel)}
+            </h2>
+            <span class="line"></span>
+            <a class="btn secondary" href={`${base}/situaties/${s.id}/`}>
+              Naar de situatie
+            </a>
+          </div>
+          <div class="grid gelijk" style="margin-top:1.25rem">
+            {ts.map((t) => (
+              <TherapieKaart t={t} />
+            ))}
+          </div>
+        </section>
+      )
+    );
+  })}
 </Base>

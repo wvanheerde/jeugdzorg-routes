@@ -8,30 +8,56 @@ import Base from '../layouts/Base.astro';
 import AfdrukKnop from '../components/AfdrukKnop.astro';
 import AfdrukKop from '../components/AfdrukKop.astro';
 import GemeenteKeuze from '../components/GemeenteKeuze.astro';
+import { base } from '../site';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const REGELS = 12;
 /** Aantal lege schrijfregels. */
 const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
 ---
-<Base title="Logboek van afspraken en contacten" description="Een logboek om af te drukken: schrijf na elk contact met school, wijkteam of hulpverlener op wat er is besproken en afgesproken.">
+
+<Base
+  title="Logboek van afspraken en contacten"
+  description="Een logboek om af te drukken: schrijf na elk contact met school, wijkteam of hulpverlener op wat er is besproken en afgesproken."
+>
   <div class="page-head">
     <span class="eyebrow">Om af te drukken</span>
     <h1>Logboek van afspraken en contacten</h1>
     <AfdrukKop />
-    <p class="lead">Schrijf na elk contact kort op wat er is besproken en afgesproken: met school, het wijkteam, de huisarts of een hulpverlener. Dan ziet u later wat er is gebeurd en hoe lang iets duurt. Dat helpt bij elke volgende stap.</p>
-    <p class="meta alleen-scherm">Geen printer? Bewaar het vel als PDF en druk het af bij de bibliotheek. Of vraag de school of de hulpverlener om het voor u af te drukken.</p>
+    <p class="lead">
+      Schrijf na elk contact kort op wat er is besproken en afgesproken: met school, het wijkteam, de huisarts of een hulpverlener. Dan ziet u later wat er is
+      gebeurd en hoe lang iets duurt. Dat helpt bij elke volgende stap.
+    </p>
+    <p class="meta alleen-scherm">
+      Geen printer? Bewaar het vel als PDF en druk het af bij de bibliotheek. Of vraag de school of de hulpverlener om het voor u af te drukken.
+    </p>
   </div>
   <AfdrukKnop />
 
   <section class="section vel" id="betrokken">
     <h2>Wie zijn er betrokken?</h2>
-    <div class="alleen-scherm vel-gemeente"><GemeenteKeuze /></div>
+    <div class="alleen-scherm vel-gemeente">
+      <GemeenteKeuze />
+    </div>
     <div class="vel-velden" data-vel-contacten>
-      <div class="vel-veld"><span class="vel-label">Wijkteam</span><div class="vel-waarde" data-gemeente-slot="overzicht-wijkteam-stap"><span class="vel-lijn" aria-hidden="true"></span></div></div>
-      <div class="vel-veld"><span class="vel-label">Cliëntondersteuner</span><div class="vel-waarde" data-gemeente-slot="overzicht-co-stap"><span class="vel-lijn" aria-hidden="true"></span></div></div>
+      <div class="vel-veld">
+        <span class="vel-label">Wijkteam</span>
+        <div class="vel-waarde" data-gemeente-slot="overzicht-wijkteam-stap">
+          <span class="vel-lijn" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="vel-veld">
+        <span class="vel-label">Cliëntondersteuner</span>
+        <div class="vel-waarde" data-gemeente-slot="overzicht-co-stap">
+          <span class="vel-lijn" aria-hidden="true"></span>
+        </div>
+      </div>
       {['School (intern begeleider of mentor)', 'Leerplichtambtenaar', 'Huisarts of jeugdarts', 'Hulpverlener of aanbieder', 'Anders'].map((wie) => (
-        <div class="vel-veld"><span class="vel-label">{wie}</span><div class="vel-waarde"><span class="vel-lijn" aria-hidden="true"></span></div></div>
+        <div class="vel-veld">
+          <span class="vel-label">{wie}</span>
+          <div class="vel-waarde">
+            <span class="vel-lijn" aria-hidden="true"></span>
+          </div>
+        </div>
       ))}
     </div>
   </section>
@@ -41,8 +67,29 @@ const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
     <p>Ook een telefoontje of een mail telt. Schrijf het zo snel mogelijk op, dan weet u het nog precies.</p>
     <div class="tabel-scroll">
       <table class="vel-dagboek vel-logboek" data-logboek>
-        <thead><tr><th scope="col">Datum</th><th scope="col">Met wie, en hoe? (gesprek, telefoon, mail)</th><th scope="col">Wat is er besproken en afgesproken?</th><th scope="col">Wie doet wat, vóór wanneer?</th><th scope="col">Op papier?</th></tr></thead>
-        <tbody>{rij(REGELS).map(() => <tr><td></td><td></td><td></td><td></td><td><span class="vel-vakje">☐ ja</span><span class="vel-vakje">☐ gevraagd</span></td></tr>)}</tbody>
+        <thead>
+          <tr>
+            <th scope="col">Datum</th>
+            <th scope="col">Met wie, en hoe? (gesprek, telefoon, mail)</th>
+            <th scope="col">Wat is er besproken en afgesproken?</th>
+            <th scope="col">Wie doet wat, vóór wanneer?</th>
+            <th scope="col">Op papier?</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rij(REGELS).map(() => (
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <span class="vel-vakje">☐ ja</span>
+                <span class="vel-vakje">☐ gevraagd</span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
       </table>
     </div>
     <p class="meta">Is het vel vol? Druk het nog eens af, of ga verder op een gewoon vel papier.</p>
@@ -51,19 +98,32 @@ const rij = (n: number) => Array.from({ length: n }, (_, i) => i);
   <section class="section vel" id="tips">
     <h2>Zo heeft u er het meest aan</h2>
     <ul>
-      <li><strong>Vraag na elk gesprek om de afspraken op papier.</strong> Een verslag of een korte mail is genoeg. Krijgt u niets? Stuur dan zelf een mail met wat u heeft afgesproken, en vraag of het klopt.</li>
-      <li><strong>Schrijf ook op wat niet gebeurde.</strong> Is een afspraak niet nagekomen, of komt er geen reactie? Zet het erbij, met de datum.</li>
-      <li><strong>Bewaar brieven, mails en verslagen bij elkaar</strong>, op datum. Ook het besluit van de gemeente (de beschikking).</li>
-      <li><strong>Neem het logboek mee naar elk gesprek.</strong> Dan hoeft u niets uit uw geheugen te halen, en kunt u laten zien hoe lang iets al loopt.</li>
+      <li>
+        <strong>Vraag na elk gesprek om de afspraken op papier.</strong> Een verslag of een korte mail is genoeg. Krijgt u niets? Stuur dan zelf een mail met
+        wat u heeft afgesproken, en vraag of het klopt.
+      </li>
+      <li>
+        <strong>Schrijf ook op wat niet gebeurde.</strong> Is een afspraak niet nagekomen, of komt er geen reactie? Zet het erbij, met de datum.
+      </li>
+      <li>
+        <strong>Bewaar brieven, mails en verslagen bij elkaar</strong>, op datum. Ook het besluit van de gemeente (de beschikking).
+      </li>
+      <li>
+        <strong>Neem het logboek mee naar elk gesprek.</strong> Dan hoeft u niets uit uw geheugen te halen, en kunt u laten zien hoe lang iets al loopt.
+      </li>
     </ul>
-    <p class="meta alleen-scherm">Loopt het vast, en wilt u een klacht indienen of bezwaar maken? Dan helpt het logboek u. Lees meer bij <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>Klacht of bezwaar: wat werkt wanneer?</a></p>
+    <p class="meta alleen-scherm">
+      Loopt het vast, en wilt u een klacht indienen of bezwaar maken? Dan helpt het logboek u. Lees meer bij{' '}
+      <a href={`${base}/landelijk/#07-klacht-of-bezwaar`}>Klacht of bezwaar: wat werkt wanneer?</a>
+    </p>
   </section>
 </Base>
 <script>
   import { laadGemeente } from '../lib/gemeente-blokken';
+  import { OPSLAG, uitUrlOfOpslag } from '../lib/opslag';
   import { bijwerken } from '../scripts/afdrukken';
   // De contacten van de gekozen gemeente (zoals op het vel voor het gesprek); zonder gemeente blijven de lege regels staan.
   const laad = (slug: string) => laadGemeente(slug).then((ok) => ok && bijwerken());
-  laad(new URLSearchParams(location.search).get('gemeente') ?? localStorage.getItem('jr.gemeente') ?? '');
+  laad(uitUrlOfOpslag('gemeente', OPSLAG.gemeente));
   document.addEventListener('jr:gemeente', (e) => laad((e as CustomEvent).detail));
 </script>

@@ -1,0 +1,8 @@
+---
+/** Gegevens voor het browserscript van deze pagina, getypt per naam (src/lib/paginadata.ts). Lezen met leesData(naam). */
+import { alsJson, dataId, type PaginaData, type PaginaDataNaam } from '../lib/paginadata';
+type Props = { [K in PaginaDataNaam]: { naam: K; data: PaginaData[K] } }[PaginaDataNaam];
+const { naam, data } = Astro.props;
+---
+
+<script is:inline type="application/json" id={dataId(naam)} set:html={alsJson(data)} />

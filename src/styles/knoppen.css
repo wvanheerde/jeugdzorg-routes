@@ -1,0 +1,10 @@
+/* ---------- Knoppen ---------- */
+.btn { display: inline-flex; align-items: center; gap: .4rem; padding: .7rem 1.25rem; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .98rem; border: 1.5px solid transparent; cursor: pointer; transition: transform .1s, box-shadow .15s, background .15s; font-family: var(--font-body); }
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--c-accent); color: #fff; }
+.btn.primary:hover { background: #a84415; color: #fff; }
+.btn.secondary { background: #fff; color: var(--c-primary); border-color: var(--c-primary); }
+.btn.secondary:hover { background: var(--c-primary-soft); }
+.btn.ghost { background: rgba(255,255,255,.14); color: #fff; border-color: rgba(255,255,255,.35); }
+.btn.ghost:hover { background: rgba(255,255,255,.22); color: #fff; }
+.actions { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }

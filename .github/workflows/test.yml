@@ -7,7 +7,7 @@ on:
     branches-ignore: [main]
   workflow_call:
 permissions: { contents: read }
-concurrency: { group: "tests-${{ github.ref }}", cancel-in-progress: true }
+concurrency: { group: 'tests-${{ github.ref }}', cancel-in-progress: true }
 jobs:
   test:
     # Vaste versie: ubuntu-latest schuift mee (vanaf 19 oktober 2026 Ubuntu 26) en dan kan de browser anders draaien.
@@ -32,6 +32,8 @@ jobs:
         run: npm run validate
       - name: Types controleren
         run: npm run check
+      - name: Opmaak van de code controleren (Prettier)
+        run: npm run format:check
       - name: Testgereedschap installeren
         working-directory: tests/e2e
         run: npm ci
@@ -51,7 +53,7 @@ jobs:
       # telefoon) en daarbij de dekking. Faalt een test, zakt de dekking onder de ondergrens of heeft een paginasoort geen
       # scenario, dan faalt deze stap. Lokaal draait npm test tegen de gewone build. Zie TECHNIEK.md, "Tests" en "Dekking".
       - name: Bouwen, gedragstests en dekking
-        env: { DEKKING_MINIMUM: "85" }
+        env: { DEKKING_MINIMUM: '85' }
         run: npm run dekking
       - name: Dekkingsrapport bewaren
         if: always()

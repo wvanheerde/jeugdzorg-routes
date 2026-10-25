@@ -1,0 +1,27 @@
+/* ---------- Voorbeeldbrieven ---------- */
+.brief { background: #fff; border: 1px solid var(--c-border); border-radius: var(--radius); padding: 2rem 2.2rem; font-family: var(--font-body); line-height: 1.7; box-shadow: var(--shadow-sm); }
+.brief p { margin: 0 0 1rem; }
+.brief ol { padding-left: 1.4rem; }
+.brief-acties { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.tips-lijst { padding-left: 1.1rem; margin: 0; font-size: .9rem; }
+.tips-lijst li { margin-bottom: .5rem; }
+.tips-mobiel { display: block; margin: 0 0 1.25rem; padding: .7rem 1rem; background: #fffaf3; border: 1px solid #f3dcc0; border-radius: var(--radius-sm); }
+.tips-mobiel summary { cursor: pointer; font-weight: 600; }
+.tips-mobiel ul { margin: .6rem 0 0; padding-left: 1.1rem; font-size: .95rem; }
+.tips-mobiel li { margin-bottom: .45rem; }
+.brief-acties-onder { margin-top: 1rem; }
+@media (min-width: 960px) {
+  .tips-mobiel { display: none; }
+}
+/* ---------- Therapievorm in brief ---------- */
+.voorbeeldzin { background: #fff; border-left: 3px solid var(--c-primary); padding: .6rem .9rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: .95rem; }
+[data-ingevoegd] { background: var(--c-primary-soft); border-radius: var(--radius-sm); padding: .4rem .6rem; }
+.klacht-keuze { margin: 0 0 1.2rem; }
+.klacht-keuze h2 { margin: 0 0 .3rem; font-size: 1.15rem; }
+.klacht-keuze .meta { margin: 0 0 .6rem; }
+.klacht-keuze .klacht-gevolg { margin: .5rem 0 0; font-size: .9rem; }
+#brief-tekst { scroll-margin-top: 6rem; }
+/* Gekozen hulp of therapievorm in een brief. */
+.card.brief-keuze.gekozen { border-color: var(--c-primary); box-shadow: 0 0 0 1px var(--c-primary) inset; }
+/* Knop en link onder elkaar, zodat de link niet verspringt als de knoptekst verandert. */
+.brief-keuze .kaart-acties { flex-direction: column; align-items: flex-start; }

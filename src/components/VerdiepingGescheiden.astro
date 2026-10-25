@@ -5,27 +5,51 @@
 import { getEntry } from 'astro:content';
 import Verdieping from './Verdieping.astro';
 import { GEZAG_KEUZE, GETROUWD_KEUZE, ERKEND_KEUZE, GEZAG_UITKOMST_SLOT } from '../lib/verdiepingen';
-interface Props { id: string; naarStappen: string; uitleg: string }
+interface Props {
+  id: string;
+  naarStappen: string;
+  uitleg: string;
+}
 const { id, naarStappen, uitleg } = Astro.props;
 const register = (await getEntry('organisaties', 'gezagsregister'))!;
 ---
+
 <Verdieping id={id} titel="Wie heeft het gezag over uw kind?" naarStappen={naarStappen} uitleg={uitleg}>
   {/* Knoppen zoals bij de andere keuzes (startvragen op de voorpagina): één keuze, nog eens klikken haalt hem weg. */}
   <div class="field vd-keuze">
     <div class="chips-select" role="group" aria-labelledby={`vd-vraag-${id}`}>
-      {GEZAG_KEUZE.map((g) => <button type="button" class="chip-btn" aria-pressed="false" value={g.id} data-gezag-keuze data-samenvatting={g.samenvatting}>{g.label}</button>)}
+      {GEZAG_KEUZE.map((g) => (
+        <button type="button" class="chip-btn" aria-pressed="false" value={g.id} data-gezag-keuze data-samenvatting={g.samenvatting}>
+          {g.label}
+        </button>
+      ))}
     </div>
   </div>
-  <div class="field vd-keuze" data-gz-getrouwd-vraag hidden><span id={`gz-getrouwd-${id}`}>Waren jullie getrouwd of geregistreerd partner?</span>
+  <div class="field vd-keuze" data-gz-getrouwd-vraag hidden>
+    <span id={`gz-getrouwd-${id}`}>Waren jullie getrouwd of geregistreerd partner?</span>
     <div class="chips-select" role="group" aria-labelledby={`gz-getrouwd-${id}`}>
-      {GETROUWD_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-gz-getrouwd>{o.label}</button>)}
+      {GETROUWD_KEUZE.map((o) => (
+        <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-gz-getrouwd>
+          {o.label}
+        </button>
+      ))}
     </div>
     <span class="meta vd-hint">Bij de geboorte van uw kind, of later.</span>
   </div>
-  <div class="field vd-keuze" data-gz-erkend-vraag hidden><span id={`gz-erkend-${id}`}>Wanneer is uw kind erkend, en door wie?</span>
+  <div class="field vd-keuze" data-gz-erkend-vraag hidden>
+    <span id={`gz-erkend-${id}`}>Wanneer is uw kind erkend, en door wie?</span>
     <div class="chips-select" role="group" aria-labelledby={`gz-erkend-${id}`}>
-      {ERKEND_KEUZE.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-gz-erkend>{o.label}</button>)}
+      {ERKEND_KEUZE.map((o) => (
+        <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-gz-erkend>
+          {o.label}
+        </button>
+      ))}
     </div>
   </div>
-  <p slot="na" class="vd-uitkomst" data-gz-uitkomst hidden><span data-gz-uitkomst-tekst data-geen-uitleg></span> {GEZAG_UITKOMST_SLOT} <a href={register.data.url} target="_blank" rel="noopener">Vraag een gratis uittreksel aan uit het gezagsregister<span aria-hidden="true"> ↗</span></a></p>
+  <p slot="na" class="vd-uitkomst" data-gz-uitkomst hidden>
+    <span data-gz-uitkomst-tekst data-geen-uitleg></span> {GEZAG_UITKOMST_SLOT}{' '}
+    <a href={register.data.url} target="_blank" rel="noopener">
+      Vraag een gratis uittreksel aan uit het gezagsregister<span aria-hidden="true"> ↗</span>
+    </a>
+  </p>
 </Verdieping>

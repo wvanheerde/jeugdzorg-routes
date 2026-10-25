@@ -32,7 +32,9 @@ export function therapieVolgorde(s: Situatie, alle: Therapie[]): Therapie[] {
   const mist = gekoppeld.filter((t) => !ids.includes(t.id)).map((t) => t.id);
   const teveel = ids.filter((id) => !gekoppeld.some((t) => t.id === id));
   if (dubbel.length || mist.length || teveel.length)
-    throw new Error(`Volgorde therapievormen bij situatie "${s.id}" klopt niet met therapievormen.situaties. Dubbel: ${dubbel.join(', ') || '-'}; niet ingedeeld: ${mist.join(', ') || '-'}; niet gekoppeld: ${teveel.join(', ') || '-'}.`);
+    throw new Error(
+      `Volgorde therapievormen bij situatie "${s.id}" klopt niet met therapievormen.situaties. Dubbel: ${dubbel.join(', ') || '-'}; niet ingedeeld: ${mist.join(', ') || '-'}; niet gekoppeld: ${teveel.join(', ') || '-'}.`,
+    );
   return ids.map((id) => gekoppeld.find((t) => t.id === id)!);
 }
 

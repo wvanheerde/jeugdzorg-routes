@@ -1,13 +1,14 @@
 /**
  * Afdrukken of bewaren als PDF, op elke pagina met de knop (components/AfdrukKnop.astro). De opmaak voor papier staat in
- * global.css (@media print); hier de knop, de regel bovenaan met datum en adres (components/AfdrukKop.astro), en het adres bij
+ * styles/afdrukken.css (@media print); hier de knop, de regel bovenaan met datum en adres (components/AfdrukKop.astro), en het adres bij
  * elke link naar een andere site (data-adres, getoond via CSS; bij een link "Website" in plaats van het pijltje).
  * Werkt ook bij Ctrl+P of het menu van de browser: alles staat al klaar na het laden.
  */
 import { kortAdres } from '../lib/afdrukken';
 
 const q = (s: string) => Array.from(document.querySelectorAll<HTMLElement>(s));
-const datum = () => q('[data-afdruk-datum]').forEach((e) => (e.textContent = new Date().toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' })));
+const datum = () =>
+  q('[data-afdruk-datum]').forEach((e) => (e.textContent = new Date().toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' })));
 
 /** Datum, adres van de pagina en de adressen bij links. Mijn overzicht roept dit na elke keer tekenen opnieuw aan, met het
  *  adres inclusief de keuzes (scripts/overzicht/afdrukken.ts); de blokken van de gemeente komen daar pas later binnen. */

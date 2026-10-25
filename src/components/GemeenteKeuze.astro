@@ -3,56 +3,66 @@
  * Keuzelijst van gemeenten. Onthoudt de keuze in localStorage ("jr.gemeente")
  * en leest ?gemeente= uit de URL. Andere componenten luisteren naar het event "jr:gemeente".
  */
-import { getCollection } from 'astro:content';
-interface Props { label?: string; id?: string }
+import { gesorteerd } from '../lib/collecties';
+interface Props {
+  label?: string;
+  id?: string;
+}
 const { label = 'In welke gemeente woont u?', id = 'gemeente-keuze' } = Astro.props;
-const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const gemeenten = await gesorteerd('gemeenten');
 ---
+
 <div class="gemeente-rij">
-<label class="field" for={id}>
-  <span data-gemeente-label={label}>{label}</span>
-  <select id={id} class="gemeente-keuze" data-gemeente-keuze>
-    <option value="">Kies uw gemeente…</option>
-    {gemeenten.map((g) => <option value={g.id}>{g.data.naam}</option>)}
-    <option value="_overig">Mijn gemeente staat er niet bij</option>
-  </select>
-</label>
-<!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent; treffers via lib/suggesties.ts. -->
-<!-- Opengeklapt is het een veld zoals de keuzelijst (eigen kop, zelfde hoogte); de link verdwijnt zodra er een gemeente gekozen is. -->
-<div class="woonplaats-zoek" data-woonplaats-zoek>
-  <button type="button" class="linkknop" data-woonplaats-open>Weet u uw gemeente niet? Zoek op woonplaats</button>
-  <label class="field" data-woonplaats-veld hidden>
-    <span>Of typ uw woonplaats</span>
-    <input type="search" class="gemeente-keuze" placeholder="Bijvoorbeeld Roden" autocomplete="off" enterkeyhint="done" data-woonplaats-invoer />
+  <label class="field" for={id}>
+    <span data-gemeente-label={label}>{label}</span>
+    <select id={id} class="gemeente-keuze" data-gemeente-keuze>
+      <option value="">Kies uw gemeente…</option>
+      {gemeenten.map((g) => (
+        <option value={g.id}>{g.data.naam}</option>
+      ))}
+      <option value="_overig">Mijn gemeente staat er niet bij</option>
+    </select>
   </label>
-  <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
-</div>
+  <!-- Zoeken op woonplaats: de lijst (public/woonplaatsen.json) wordt pas geladen als iemand het veld opent; treffers via lib/suggesties.ts. -->
+  <!-- Opengeklapt is het een veld zoals de keuzelijst (eigen kop, zelfde hoogte); de link verdwijnt zodra er een gemeente gekozen is. -->
+  <div class="woonplaats-zoek" data-woonplaats-zoek>
+    <button type="button" class="linkknop" data-woonplaats-open>
+      Weet u uw gemeente niet? Zoek op woonplaats
+    </button>
+    <label class="field" data-woonplaats-veld hidden>
+      <span>Of typ uw woonplaats</span>
+      <input type="search" class="gemeente-keuze" placeholder="Bijvoorbeeld Roden" autocomplete="off" enterkeyhint="done" data-woonplaats-invoer />
+    </label>
+    <p class="meta" data-woonplaats-uitkomst aria-live="polite"></p>
+  </div>
 </div>
 <script>
   import { koppelSuggesties } from '../lib/suggesties';
   import { toonNaam } from '../lib/woonplaatsen';
-  const KEY = 'jr.gemeente';
+  import { base } from '../site';
+  import { OPSLAG, lees, bewaar, uitUrlOfOpslag } from '../lib/opslag';
   const fromUrl = new URLSearchParams(location.search).get('gemeente');
-  if (fromUrl) localStorage.setItem(KEY, fromUrl);
-  const current = localStorage.getItem(KEY) ?? '';
+  if (fromUrl) bewaar(OPSLAG.gemeente, fromUrl);
+  const current = lees(OPSLAG.gemeente);
   document.querySelectorAll<HTMLSelectElement>('[data-gemeente-keuze]').forEach((sel) => {
     if (current && Array.from(sel.options).some((o) => o.value === current)) sel.value = current;
     sel.addEventListener('change', () => {
-      localStorage.setItem(KEY, sel.value);
+      bewaar(OPSLAG.gemeente, sel.value);
       document.dispatchEvent(new CustomEvent('jr:gemeente', { detail: sel.value }));
     });
   });
   document.dispatchEvent(new CustomEvent('jr:gemeente', { detail: current }));
 
   // Bij een verhuizing gaat het om de gemeente waar u nu woont; de nieuwe gemeente vraagt het overzicht apart.
-  const zetLabel = (kp: string) => document.querySelectorAll<HTMLElement>('[data-gemeente-label]').forEach((e) => {
-    e.textContent = kp === 'verhuizing' && e.dataset.gemeenteLabel === 'In welke gemeente woont u?' ? 'In welke gemeente woont u nu?' : e.dataset.gemeenteLabel!;
-  });
-  zetLabel(new URLSearchParams(location.search).get('k') ?? localStorage.getItem('jr.knelpunt') ?? '');
+  const zetLabel = (kp: string) =>
+    document.querySelectorAll<HTMLElement>('[data-gemeente-label]').forEach((e) => {
+      e.textContent =
+        kp === 'verhuizing' && e.dataset.gemeenteLabel === 'In welke gemeente woont u?' ? 'In welke gemeente woont u nu?' : e.dataset.gemeenteLabel!;
+    });
+  zetLabel(uitUrlOfOpslag('k', OPSLAG.knelpunt));
   document.addEventListener('jr:knelpunt', (e) => zetLabel((e as CustomEvent).detail));
 
   // Woonplaats → gemeente. Ligt een woonplaats in twee gemeenten, dan staan beide in de lijst.
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   let lijst: Promise<[string, string][]> | null = null;
   document.querySelectorAll<HTMLElement>('[data-woonplaats-zoek]').forEach((blok) => {
     const sel = blok.previousElementSibling?.querySelector<HTMLSelectElement>('[data-gemeente-keuze]');
@@ -69,7 +79,10 @@ const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.
     const open = blok.querySelector<HTMLElement>('[data-woonplaats-open]')!;
     // Is er al een gemeente gekozen, dan is zoeken op woonplaats niet nodig (persona-tests: de link werd aangezien voor de bevestigknop).
     // Onzichtbaar maar met behoud van ruimte, anders verspringen de knoppen eronder op de telefoon (persona-tests ronde 19).
-    const toonLink = () => { open.hidden = !veld.hidden; open.style.visibility = sel.value ? 'hidden' : ''; };
+    const toonLink = () => {
+      open.hidden = !veld.hidden;
+      open.style.visibility = sel.value ? 'hidden' : '';
+    };
     sel.addEventListener('change', toonLink);
     toonLink();
     open.addEventListener('click', async () => {

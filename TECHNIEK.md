@@ -11,6 +11,7 @@ npm run dev        # http://localhost:4321
 npm run validate   # snelle contentcheck (schema, 112, 06-nummers, contactblokken, jargon)
 npm run build      # volledige build + sitemap -> dist/
 npm run links      # alle URL's in de content op bereikbaarheid controleren
+npm run format     # code opmaken met Prettier (npm run format:check controleert alleen)
 npm test           # gedragstests tegen dist/ (eerst npm run build), zie "Tests"
 ```
 
@@ -30,9 +31,16 @@ src/pages/                     routes: /, /gemeenten/, /situaties/, /landelijk/,
                                /therapievormen/, /hulpmiddelen/ (brieven, gesprek, dagboek, begrippen),
                                /brieven/ (verwijst naar /hulpmiddelen/#brieven), /overzicht/, /over/, robots.txt
 src/layouts, src/components    opmaak
-src/scripts/overzicht/         browserscript van Mijn overzicht: keuzes, verdiepingen (één bestand per vraag), render, afdrukken
-src/scripts/afdrukken.ts       afdrukken of bewaren als PDF (knop: components/AfdrukKnop.astro, opmaak: @media print in global.css)
-src/site.ts                    repository-link en GoatCounter-code
+src/styles/                    CSS per onderdeel (kop, voorpagina, kaarten, overzicht, verdieping …); global.css laadt ze in een
+                               vaste volgorde (die telt: bij gelijke specificiteit wint de latere regel), afdrukken.css als laatste
+src/scripts/overzicht/         browserscript van Mijn overzicht: keuzes, verdiepingen (één bestand per vraag; het gedeelde skelet
+                               in verdieping.ts: inklappen, wissen, samenvatting, keuzeknoppen, datumvelden), render, afdrukken;
+                               de regels voor wat zichtbaar is staan los in src/lib/overzicht-toestand.ts (met unit-tests)
+src/scripts/afdrukken.ts       afdrukken of bewaren als PDF (knop: components/AfdrukKnop.astro, opmaak: @media print in styles/afdrukken.css)
+src/site.ts                    base (begin van elk intern pad), repository-link en GoatCounter-code
+src/lib/                       gedeelde functies, o.a. collecties.ts (vaste volgorde van de collecties), opslag.ts (wat de
+                               browser bewaart, sleutels jr.*), paginadata.ts (gegevens van pagina naar browserscript, getypt;
+                               in de pagina met components/PaginaData.astro), register.ts (gemeentenregister), leeftijden.ts
 scripts/                       validatie, linkcheck, sitemap, scaffold, dagboek-docx (bouwt public/downloads/dagboek-zorg-twee-weken.docx)
 scripts/data/                  register van gemeenten en gedeelde regiogegevens (jeugdregio, GGD)
 scripts/onderzoek/             hulpscripts voor het onderzoek per gemeente (zie de README daar)
@@ -40,6 +48,10 @@ tests/e2e/                     gedragstests: scenario's in het Nederlands (Gherk
 tests/persona/                 persona-tests in een echte browser (zie de README daar)
 .claude/                       instructies voor de AI-agents die onderzoek en redactie doen
 ```
+
+## Opmaak van de code
+
+[Prettier](https://prettier.io) met `prettier-plugin-astro` (instellingen in `.prettierrc.json`: enkele aanhalingstekens, regels tot 160 tekens). Het maakt TypeScript, Astro, JavaScript, JSON en YAML op; inhoud (`src/content/`, markdown), CSS (`src/styles/`, één regel per selector), `public/`, `docs/` en de werkbestanden van agents staan in `.prettierignore`. Draai `npm run format` voor je klaar bent; GitHub Actions controleert het met `npm run format:check`.
 
 ## Tests
 
@@ -59,9 +71,9 @@ npx bddgen export --unused-steps   # stappen die geen scenario meer gebruikt (op
 
 **Opbouw (`tests/e2e/`)**
 - `features/*.feature`: de scenario's, in Gherkin met `# language: nl` (Functionaliteit, Achtergrond, Scenario, Gegeven, Als, Dan, En). Eén bestand per onderdeel: voorpagina, overzicht, afdrukken, hulpmiddelen, elke verdieping, de vellen om af te drukken (logboek, beschikking, mijn kind), datumveld, suggestielijst, leeftijd, gemeenten, situaties, hulpsoorten en therapievormen, brieven, moeilijke woorden, overige pagina's, zoekmachines, opmaak en menu.
-- `steps/*.ts`: de stappen achter de zinnen (Playwright via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)). Hergebruik een bestaande zin waar dat kan; een nieuwe zin hoort in het bestand van het onderwerp (`algemeen`, `verdieping`, `velden`, `paginas`).
+- `steps/*.ts`: de stappen achter de zinnen (Playwright via [playwright-bdd](https://vitalets.github.io/playwright-bdd/)). Hergebruik een bestaande zin waar dat kan; een nieuwe zin hoort in het bestand van het onderwerp (`algemeen`, `paginas`, `navigatie`, `startvragen`, `verdieping`, `velden`, `brieven`, `geld`, `woorden`, `afdrukken`, `zoeken`, `zoekmachines`).
 - `steps/inhoud.ts`: scenario's gebruiken gewone namen ("Mijn kind wordt 18", "ADHD en ADD", "Apeldoorn", "12 tot 18"); de bijbehorende id's komen uit `src/content`.
-- `unit/*.spec.ts`: losse functies uit `src/lib` (termijnen en feestdagen, datums lezen, afbreken, organisaties herkennen, de woordenlijst), zonder browser.
+- `unit/*.spec.ts`: losse functies uit `src/lib` (termijnen en feestdagen, datums lezen, afbreken, organisaties herkennen, de woordenlijst, wat Mijn overzicht bij welke keuzes toont), zonder browser.
 - `server.mjs`: serveert `dist/`, ook onder het subpad van GitHub Pages (`BASE_PATH`).
 
 **Altijd dezelfde uitkomst** (`steps/fixtures.ts`, `playwright.config.ts`)
@@ -71,13 +83,13 @@ npx bddgen export --unused-steps   # stappen die geen scenario meer gebruikt (op
 - Geen herhaalpogingen: een test die soms faalt is een fout (in de site of in de test), geen pech. Wacht in een scenario op wat een gebruiker ziet ("Dan zie ik de suggestie …") voordat je verder klikt.
 
 **Werkwijze: eerst het scenario**
-Beschrijf nieuw of gewijzigd gedrag eerst als scenario, draai het (het moet falen om de goede reden), en schrijf dan de code tot het slaagt. Het scenario is de afspraak; de code voert hem uit. Een wijziging is pas klaar als `validate`, `check`, `build` en de gedragstests die bij de wijziging horen slagen. Draai lokaal een subset, bijvoorbeeld `cd tests/e2e && npx bddgen && npx playwright test features/vellen features/afdrukken`, en niet de hele `npm test` (traag, kost batterij); de hele reeks draait in GitHub Actions vóór elke publicatie. Zie ook CLAUDE.md.
+Beschrijf nieuw of gewijzigd gedrag eerst als scenario, draai het (het moet falen om de goede reden), en schrijf dan de code tot het slaagt. Het scenario is de afspraak; de code voert hem uit. Een wijziging is pas klaar als `validate`, `check`, `format:check`, `build` en de gedragstests die bij de wijziging horen slagen. Draai lokaal een subset, bijvoorbeeld `cd tests/e2e && npx bddgen && npx playwright test features/vellen features/afdrukken`, en niet de hele `npm test` (traag, kost batterij); de hele reeks draait in GitHub Actions vóór elke publicatie. Zie ook CLAUDE.md.
 
 **Wanneer een scenario toevoegen**
 Bij nieuw gedrag of een nieuwe afspraak over gedrag (zoals in CONTENT.md) hoort een scenario, in dezelfde wijziging. Verandert bewust gedrag, pas dan het scenario aan. Inhoud zelf (teksten van gemeenten, bronnen) controleert `npm run validate`; die controles herhalen de scenario's niet. Schrijf verwachtingen op wat vastligt (koppen, gedrag, datums die de site uitrekent), niet op inhoud die bij een onderzoeksronde verandert, zoals telefoonnummers van een gemeente.
 
 **In GitHub Actions** (`.github/workflows/test.yml`)
-Bij elke pull request en push buiten `main`: `validate`, `astro check`, en dan in één stap de meetbuild (met hetzelfde subpad als de echte site) met alle gedragstests en de dekkingsmeting (zie "Dekking"). Lokaal draait `npm test` tegen de gewone build. Runner: `ubuntu-24.04` (vast, niet `ubuntu-latest`), Node 24. `deploy.yml` roept deze workflow eerst aan; pas als alles slaagt wordt er gebouwd en gepubliceerd. Faalt er iets, dan staat het rapport als download (`testrapport`) bij de run.
+Bij elke pull request en push buiten `main`: `validate`, `astro check`, `format:check`, en dan in één stap de meetbuild (met hetzelfde subpad als de echte site) met alle gedragstests en de dekkingsmeting (zie "Dekking"). Lokaal draait `npm test` tegen de gewone build. Runner: `ubuntu-24.04` (vast, niet `ubuntu-latest`), Node 24. `deploy.yml` roept deze workflow eerst aan; pas als alles slaagt wordt er gebouwd en gepubliceerd. Faalt er iets, dan staat het rapport als download (`testrapport`) bij de run.
 
 **Dekking** (`npm run dekking` in de hoofdmap)
 Bouwt de site apart met sourcemaps (en zonder scripts in de HTML), draait alle tests en meet daarbij:
@@ -117,10 +129,10 @@ Mijn overzicht, de gemeentepagina's, de therapievormen, de landelijke rechten en
 
 **Een pagina toevoegen** (twee regels):
 1. `<AfdrukKop />` in de `page-head`, onder de `h1`: alleen op papier, met datum en adres van de pagina (`wat="dit overzicht"` voor een andere omschrijving).
-2. `<AfdrukKnop />` direct vóór het eerste blok. De knop staat in de witruimte erboven en duwt het blok niet omlaag; is die witruimte te krap (zoals direct onder de kop), geef dan de kop meer marge in `global.css`.
+2. `<AfdrukKnop />` direct vóór het eerste blok. De knop staat in de witruimte erboven en duwt het blok niet omlaag; is die witruimte te krap (zoals direct onder de kop), geef dan de kop meer marge in `src/styles/afdrukken.css`.
 3. Voeg de pagina toe aan de voorbeelden van het scenario "Ook <pagina> kan op papier" in `afdrukken.feature`.
 
-**Wat er op papier staat** (`@media print` onderaan `src/styles/global.css`, voor de hele site):
+**Wat er op papier staat** (`@media print` in `src/styles/afdrukken.css`, voor de hele site):
 - Geen menu, knoppen, keuzevelden, zijbalk, knoppen naar onderdelen (`.toc`) of terug-link. Geen raster om de pagina (Safari en Firefox schoven dat in zijn geheel naar pagina 2).
 - Wat dichtgeklapt is, blijft van papier; wat de ouder openklapt, komt mee. Uitzonderingen: de kanttekening bij therapievormen (alleen de zin), en blokken met `data-op-papier-open` (zoals "Hoe gaat het met de jeugdhulp" op een gemeentepagina): die klapt `src/scripts/afdrukken.ts` vlak voor het afdrukken open (`beforeprint`) en daarna weer dicht.
 - Kaarten en blokken naast elkaar (`.grid`, `.linklist`, `.onderdelen`) worden een lijst onder elkaar.

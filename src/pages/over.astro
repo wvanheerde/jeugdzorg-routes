@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { site } from '../site';
 ---
+
 <Base title="Over deze site" description="Wie Jeugdzorg Routes maakt, waar de informatie vandaan komt en hoe u een fout of aanvulling doorgeeft.">
   <div class="page-head">
     <span class="eyebrow">Over</span>
@@ -10,20 +11,68 @@ import { site } from '../site';
   </div>
   <div class="section prose">
     <h2>Waarom deze site?</h2>
-    <p>Deze site is gemaakt door ouders van kinderen die zelf langdurig hulp nodig hadden. Zij liepen aan tegen de obstakels van het systeem: lange wachttijden, onduidelijke informatie, weinig begrip en een rommelige organisatie en administratie. Er was veel uitzoekwerk nodig, en er waren veel drempels te overwinnen.</p>
-    <p>In Nederland is veel mogelijk, en daar mogen we tot op zekere hoogte blij mee zijn. Maar passende zorg komt niet vanzelf. U moet er vaak hard voor werken om die te krijgen en te houden. Met deze site hopen we dat werk voor andere ouders wat lichter te maken.</p>
+    <p>
+      Deze site is gemaakt door ouders van kinderen die zelf langdurig hulp nodig hadden. Zij liepen aan tegen de obstakels van het systeem: lange wachttijden,
+      onduidelijke informatie, weinig begrip en een rommelige organisatie en administratie. Er was veel uitzoekwerk nodig, en er waren veel drempels te
+      overwinnen.
+    </p>
+    <p>
+      In Nederland is veel mogelijk, en daar mogen we tot op zekere hoogte blij mee zijn. Maar passende zorg komt niet vanzelf. U moet er vaak hard voor werken
+      om die te krijgen en te houden. Met deze site hopen we dat werk voor andere ouders wat lichter te maken.
+    </p>
     <h2>Wat deze site wel en niet is</h2>
-    <p>Een wegwijzer: welke routes er zijn, waar u recht op heeft en waar u terechtkunt. De site biedt zelf geen hulp, stelt geen diagnoses en geeft geen behandeladvies. Over gezondheid en behandeling beslist u samen met de huisarts, jeugdarts of behandelaar. De site is geen onderdeel van een gemeente of zorgaanbieder, heeft geen zakelijke band met organisaties die erop staan en ontvangt geen vergoeding voor vermeldingen.</p>
+    <p>
+      Een wegwijzer: welke routes er zijn, waar u recht op heeft en waar u terechtkunt. De site biedt zelf geen hulp, stelt geen diagnoses en geeft geen
+      behandeladvies. Over gezondheid en behandeling beslist u samen met de huisarts, jeugdarts of behandelaar. De site is geen onderdeel van een gemeente of
+      zorgaanbieder, heeft geen zakelijke band met organisaties die erop staan en ontvangt geen vergoeding voor vermeldingen.
+    </p>
     <h2>Waarom voorbeeldbrieven?</h2>
-    <p>Bellen of aan de balie uitleggen is voor veel ouders een drempel. Een brief schrijft u rustig, u kunt iemand laten meelezen, en u vraagt iets op papier terug. Zo heeft u iets in handen als het later vastloopt. De brieven zijn voorbeelden, geen juridisch advies.</p>
+    <p>
+      Bellen of aan de balie uitleggen is voor veel ouders een drempel. Een brief schrijft u rustig, u kunt iemand laten meelezen, en u vraagt iets op papier
+      terug. Zo heeft u iets in handen als het later vastloopt. De brieven zijn voorbeelden, geen juridisch advies.
+    </p>
     <h2>Hoe de site is gemaakt</h2>
-    <p>De site is samengesteld met hulp van AI. De beheerder bepaalt wat erop komt en controleert de inhoud. Bij elke bewering staat een bron, en elke pagina vermeldt wanneer die is bijgewerkt. De inhoud wordt <strong>eens per kwartaal</strong> nagelopen.</p>
-    <p>AI en bronnen kunnen fouten bevatten, en regels en contactgegevens veranderen. Aan deze site kunt u geen rechten ontlenen. Wat in uw besluit of in de regels van uw gemeente staat, gaat voor. Twijfelt u? Vraag het na bij de gemeente of het Juridisch Loket.</p>
-    <h2 id="wijziging" style="scroll-margin-top:5.5rem">Een fout melden</h2>
-    <p>Klopt iets niet of mist er iets? Maak een <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">issue aan op GitHub</a> (gratis account nodig). Noem de pagina, wat er mis is en als het kan de bron. De broncode en alle inhoud staan openbaar in <a href={site.repoUrl} target="_blank" rel="noopener">dezelfde repository</a>.</p>
+    <p>
+      De site is samengesteld met hulp van AI. De beheerder bepaalt wat erop komt en controleert de inhoud. Bij elke bewering staat een bron, en elke pagina
+      vermeldt wanneer die is bijgewerkt. De inhoud wordt <strong>eens per kwartaal</strong> nagelopen.
+    </p>
+    <p>
+      AI en bronnen kunnen fouten bevatten, en regels en contactgegevens veranderen. Aan deze site kunt u geen rechten ontlenen. Wat in uw besluit of in de
+      regels van uw gemeente staat, gaat voor. Twijfelt u? Vraag het na bij de gemeente of het Juridisch Loket.
+    </p>
+    <h2 id="wijziging" style="scroll-margin-top:5.5rem">
+      Een fout melden
+    </h2>
+    <p>
+      Klopt iets niet of mist er iets? Maak een{' '}
+      <a href={`${site.repoUrl}/issues/new`} target="_blank" rel="noopener">
+        issue aan op GitHub
+      </a>{' '}
+      (gratis account nodig). Noem de pagina, wat er mis is en als het kan de bron. De broncode en alle inhoud staan openbaar in{' '}
+      <a href={site.repoUrl} target="_blank" rel="noopener">
+        dezelfde repository
+      </a>
+      .
+    </p>
     <h2>Privacy</h2>
-    <p>Geen cookies en geen persoonsgegevens. Uw gekozen gemeente, leeftijd en situaties blijven alleen in uw eigen browser.{site.goatcounter && <> Bezoeken tellen wij met GoatCounter, zonder cookies en zonder bezoekers te volgen.</>}</p>
-    <h2 id="licentie" style="scroll-margin-top:5.5rem">Hergebruik</h2>
-    <p>U mag de teksten niet-commercieel overnemen en bewerken, met Jeugdzorg Routes als bron en onder dezelfde voorwaarden (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.nl" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>). Feiten, overheidsinformatie en teksten van anderen vallen daarbuiten. Commercieel gebruik, ook het trainen van commerciële AI-modellen, is niet toegestaan, en voor tekst- en datamining geldt een voorbehoud. Zie de <a href={`${site.repoUrl}/blob/main/LICENSE-INHOUD.md`} target="_blank" rel="noopener">volledige licentie</a>.</p>
+    <p>
+      Geen cookies en geen persoonsgegevens. Uw gekozen gemeente, leeftijd en situaties blijven alleen in uw eigen browser.
+      {site.goatcounter && <> Bezoeken tellen wij met GoatCounter, zonder cookies en zonder bezoekers te volgen.</>}
+    </p>
+    <h2 id="licentie" style="scroll-margin-top:5.5rem">
+      Hergebruik
+    </h2>
+    <p>
+      U mag de teksten niet-commercieel overnemen en bewerken, met Jeugdzorg Routes als bron en onder dezelfde voorwaarden (
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.nl" target="_blank" rel="noopener">
+        CC BY-NC-SA 4.0
+      </a>
+      ). Feiten, overheidsinformatie en teksten van anderen vallen daarbuiten. Commercieel gebruik, ook het trainen van commerciële AI-modellen, is niet
+      toegestaan, en voor tekst- en datamining geldt een voorbehoud. Zie de{' '}
+      <a href={`${site.repoUrl}/blob/main/LICENSE-INHOUD.md`} target="_blank" rel="noopener">
+        volledige licentie
+      </a>
+      .
+    </p>
   </div>
 </Base>

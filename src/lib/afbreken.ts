@@ -1,9 +1,27 @@
 /**
  * Nette afbreekplek in lange samenstellingen in koppen: een zachte afbreekstreep vóór het laatste deel
- * ("Zindelijkheids-training", "Taalontwikkelings-stoornis"). De browser breekt koppen zelf niet meer af (zie global.css,
+ * ("Zindelijkheids-training", "Taalontwikkelings-stoornis"). De browser breekt koppen zelf niet meer af (zie styles/basis.css,
  * hyphens: manual); met automatisch afbreken brak hij ook korte woorden en lange woorden op rare plekken.
  */
-const DELEN = ['training', 'therapie', 'behandeling', 'begeleiding', 'ondersteuning', 'verwerking', 'preventie', 'gebruik', 'stoornis', 'stoornissen', 'problemen', 'zorg', 'onderzoek', 'interventie', 'bemiddeling', 'beperking', 'begaafdheid'];
+const DELEN = [
+  'training',
+  'therapie',
+  'behandeling',
+  'begeleiding',
+  'ondersteuning',
+  'verwerking',
+  'preventie',
+  'gebruik',
+  'stoornis',
+  'stoornissen',
+  'problemen',
+  'zorg',
+  'onderzoek',
+  'interventie',
+  'bemiddeling',
+  'beperking',
+  'begaafdheid',
+];
 const MIN_WOORD = 13;
 const MIN_BEGIN = 5;
 export const afbreken = (tekst: string) =>

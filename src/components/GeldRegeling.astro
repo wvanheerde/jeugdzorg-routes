@@ -5,10 +5,20 @@
 import type { CollectionEntry } from 'astro:content';
 import { inkomensgrens } from '../lib/regelingen';
 type Regeling = NonNullable<CollectionEntry<'gemeenten'>['data']['geldregelingen']>['regelingen'][number];
-interface Props { r: Regeling; gemeente: string }
+interface Props {
+  r: Regeling;
+  gemeente: string;
+}
 const { r, gemeente } = Astro.props;
 ---
+
 <li data-regeling={r.soort} data-ouders={r.ouders}>
-  <a href={r.url} target="_blank" rel="noopener">{r.naam}<span aria-hidden="true"> ↗</span></a>. {r.omschrijving}{' '}
-  {r.soort === 'mantelzorg' && r.ouders === 'nee' ? `${gemeente} geeft ouders van een minderjarig kind geen mantelzorgwaardering.` : [inkomensgrens(r.inkomensgrens, r.grondslag), r.aanvragen].filter(Boolean).join(' ')}
+  <a href={r.url} target="_blank" rel="noopener">
+    {r.naam}
+    <span aria-hidden="true"> ↗</span>
+  </a>
+  . {r.omschrijving}{' '}
+  {r.soort === 'mantelzorg' && r.ouders === 'nee'
+    ? `${gemeente} geeft ouders van een minderjarig kind geen mantelzorgwaardering.`
+    : [inkomensgrens(r.inkomensgrens, r.grondslag), r.aanvragen].filter(Boolean).join(' ')}
 </li>

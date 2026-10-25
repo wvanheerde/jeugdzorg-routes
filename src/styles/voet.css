@@ -1,0 +1,13 @@
+/* ---------- Footer ---------- */
+.footer-kop { margin: 0 0 .6rem; color: var(--c-text); font-weight: 700; font-size: .95rem; }
+.site-footer { background: var(--c-surface); border-top: 1px solid var(--c-border); color: var(--c-muted); font-size: .92rem; padding: 2.5rem 0 2rem; }
+.site-footer .cols { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.site-footer h4 { margin: 0 0 .6rem; color: var(--c-text); font-size: .95rem; }
+.site-footer ul { list-style: none; padding: 0; margin: 0; }
+.site-footer li { margin-bottom: .35rem; }
+/* Links in de footer zien eruit als links (kleur en onderstreping), net als in de lopende tekst. */
+.site-footer a { color: var(--c-primary); text-decoration: underline; }
+.site-footer a:hover { color: var(--c-primary-dark); }
+.site-footer .bottom { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--c-border); font-size: .85rem; }
+/* Mijn overzicht: voettekst verborgen tot de inhoud getekend is (zie overzicht.astro), anders knippert hij bij het laden in beeld */
+.jr-laden .site-footer { visibility: hidden; }

@@ -5,24 +5,39 @@
 import { expect, type Page } from '@playwright/test';
 import type { DataTable } from 'playwright-bdd';
 import { Given, When, Then } from './fixtures';
-import { stapContacten, gemeenteSlug, geldregelingen, gemeenteMetRegeling, vraagId, gemeenteNaam, overzichtUrl, gemeenteMetDubbeleOverzichtLink } from './inhoud';
+import { regex } from './algemeen';
+import {
+  stapContacten,
+  gemeenteSlug,
+  geldregelingen,
+  gemeenteMetRegeling,
+  vraagId,
+  gemeenteNaam,
+  overzichtUrl,
+  gemeenteMetDubbeleOverzichtLink,
+} from './inhoud';
 
 const blok = (page: Page) => page.locator('[data-verdieping]').locator('visible=true').first();
 const vraagBlok = (page: Page) => page.locator('[data-knelpunt-blok]').locator('visible=true').first();
 
 /** De vetgedrukte begintekst van elke zichtbare hoofdstap (stap 1, de genummerde lijst of de eigen stappen van de situatie),
  *  zonder de ingeklapte "andere stappen". */
-const stappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').evaluateAll((lis) =>
-  // Niet in een dicht <details>: daar heeft een element in Chromium wel een offsetParent (zoals de stappen voor later bij afgewezen).
-  lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null && !li.closest('details:not([open])'))
-    .map((li) => {
-      // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst zonder wat verborgen is
-      // (zoals het label "Past waarschijnlijk" van de regelingencheck).
-      const lead = Array.from(li.querySelectorAll<HTMLElement>(':scope > .stap-lead')).find((e) => !e.hidden && e.textContent!.trim());
-      const kopie = (lead ?? li).cloneNode(true) as HTMLElement;
-      kopie.querySelectorAll('[hidden]').forEach((e) => e.remove());
-      return (kopie.textContent ?? '').replace(/\s+/g, ' ').trim();
-    }));
+const stappen = (page: Page) =>
+  vraagBlok(page)
+    .locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li')
+    .evaluateAll((lis) =>
+      // Niet in een dicht <details>: daar heeft een element in Chromium wel een offsetParent (zoals de stappen voor later bij afgewezen).
+      lis
+        .filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null && !li.closest('details:not([open])'))
+        .map((li) => {
+          // De zichtbare, niet-lege vetgedrukte begintekst; heeft de stap die niet, dan de hele tekst zonder wat verborgen is
+          // (zoals het label "Past waarschijnlijk" van de regelingencheck).
+          const lead = Array.from(li.querySelectorAll<HTMLElement>(':scope > .stap-lead')).find((e) => !e.hidden && e.textContent!.trim());
+          const kopie = (lead ?? li).cloneNode(true) as HTMLElement;
+          kopie.querySelectorAll('[hidden]').forEach((e) => e.remove());
+          return (kopie.textContent ?? '').replace(/\s+/g, ' ').trim();
+        }),
+    );
 
 When('ik als geboortedatum {string} invul', async ({ page }, datum: string) => {
   await page.getByLabel('Wanneer is uw kind geboren?').fill(datum);
@@ -86,33 +101,50 @@ Then('is er geen samenvatting', async ({ page }) => {
 
 Then('staan de stappen in deze volgorde:', async ({ page }, tabel: DataTable) => {
   const verwacht = tabel.raw().map((r) => r[0]);
-  await expect.poll(async () => {
-    const echt = await stappen(page);
-    return echt.length === verwacht.length && verwacht.every((v, i) => echt[i].startsWith(v)) ? 'ok' : echt;
-  }).toBe('ok');
+  await expect
+    .poll(async () => {
+      const echt = await stappen(page);
+      return echt.length === verwacht.length && verwacht.every((v, i) => echt[i].startsWith(v)) ? 'ok' : echt;
+    })
+    .toBe('ok');
 });
 
 Then('begint stap {int} met {string}', async ({ page }, nr: number, tekst: string) => {
-  await expect.poll(async () => (await stappen(page))[nr - 1] ?? '').toMatch(new RegExp(`^${tekst.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
+  await expect.poll(async () => (await stappen(page))[nr - 1] ?? '').toMatch(new RegExp(`^${regex(tekst)}`));
 });
 
 /** Een link binnen een stap zelf (niet ergens onder de lijst): Fatima (ronde 27) moest daarvoor ver omlaag. */
 /** De zichtbare genummerde stappen van de gekozen vraag (ook bij een situatie of bij hulp aanvragen). */
-const zichtbareStappen = (page: Page) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').locator('visible=true');
+const zichtbareStappen = (page: Page) =>
+  vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li, ol[data-situatie-stappen] > li').locator('visible=true');
 /** Tekst in een stap zelf (niet ergens anders op de pagina), zoals de kern over dubbele kinderbijslag. */
 Then('staat in stap {int} de tekst {string}', async ({ page }, nr: number, tekst: string) => {
-  await expect(zichtbareStappen(page).nth(nr - 1).getByText(tekst).first()).toBeVisible();
+  await expect(
+    zichtbareStappen(page)
+      .nth(nr - 1)
+      .getByText(tekst)
+      .first(),
+  ).toBeVisible();
 });
 Then('staat in stap {int} de link {string}', async ({ page }, nr: number, naam: string) => {
-  await expect(zichtbareStappen(page).nth(nr - 1).getByRole('link', { name: naam })).toBeVisible();
+  await expect(
+    zichtbareStappen(page)
+      .nth(nr - 1)
+      .getByRole('link', { name: naam }),
+  ).toBeVisible();
 });
 
 Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: DataTable) => {
   const anders = vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) });
   await expect(anders).toBeVisible();
   // De ingeklapte lijst: bij 18 worden en uitbreiden de andere stappen (steps-anders), bij afgewezen de stappen voor later (de hele genummerde lijst).
-  const echt = await anders.locator('ol.steps-anders > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis) =>
-    lis.filter((li) => !(li as HTMLElement).hidden).map((li) => (li.querySelector(':scope > .stap-lead')?.textContent || li.textContent || '').replace(/\s+/g, ' ').trim()));
+  const echt = await anders
+    .locator('ol.steps-anders > li, ol[data-aanvraag-stappen] > li')
+    .evaluateAll((lis) =>
+      lis
+        .filter((li) => !(li as HTMLElement).hidden)
+        .map((li) => (li.querySelector(':scope > .stap-lead')?.textContent || li.textContent || '').replace(/\s+/g, ' ').trim()),
+    );
   const verwacht = tabel.raw().map((r) => r[0]);
   expect(echt.length, `ingeklapte stappen: ${echt.join(' | ')}`).toBe(verwacht.length);
   verwacht.forEach((v, i) => expect(echt[i]).toContain(v));
@@ -120,20 +152,34 @@ Then('staan onder {string} de stappen:', async ({ page }, kop: string, tabel: Da
 
 /** De eerste lijst na stap 1 (start="2", ook als die ingeklapt staat) telt verder vanaf het aantal zichtbare stappen erboven. */
 Then('loopt de nummering van de stappen daarna door bij {int}', async ({ page }, nr: number) => {
-  await expect.poll(() => vraagBlok(page).locator('ol.steps[start="2"]').evaluateAll((ols) => {
-    const ol = ols.find((o) => !o.closest('[hidden]'));
-    return ol ? getComputedStyle(ol).counterReset : 'geen lijst';
-  })).toBe(`step ${nr - 1}`);
+  await expect
+    .poll(() =>
+      vraagBlok(page)
+        .locator('ol.steps[start="2"]')
+        .evaluateAll((ols) => {
+          const ol = ols.find((o) => !o.closest('[hidden]'));
+          return ol ? getComputedStyle(ol).counterReset : 'geen lijst';
+        }),
+    )
+    .toBe(`step ${nr - 1}`);
 });
 
 /** De vette begintekst van de vervolgstappen (A, B …) onder de zichtbare stap die met deze tekst begint. */
 Then('staan onder stap {string} de vervolgstappen:', async ({ page }, stap: string, tabel: DataTable) => {
   const verwacht = tabel.raw().map((r) => r[0]);
-  await expect.poll(() => vraagBlok(page).locator('ol.steps > li').evaluateAll((lis, begin) => {
-    const li = lis.find((l) => (l as HTMLElement).offsetParent !== null && (l.querySelector(':scope > .stap-lead')?.textContent ?? '').trim().startsWith(begin));
-    if (!li) return 'stap niet gevonden';
-    return Array.from(li.querySelectorAll(':scope > ol.steps-sub > li > .stap-lead')).map((e) => (e.textContent ?? '').replace(/\s+/g, ' ').trim());
-  }, stap)).toEqual(verwacht);
+  await expect
+    .poll(() =>
+      vraagBlok(page)
+        .locator('ol.steps > li')
+        .evaluateAll((lis, begin) => {
+          const li = lis.find(
+            (l) => (l as HTMLElement).offsetParent !== null && (l.querySelector(':scope > .stap-lead')?.textContent ?? '').trim().startsWith(begin),
+          );
+          if (!li) return 'stap niet gevonden';
+          return Array.from(li.querySelectorAll(':scope > ol.steps-sub > li > .stap-lead')).map((e) => (e.textContent ?? '').replace(/\s+/g, ' ').trim());
+        }, stap),
+    )
+    .toEqual(verwacht);
 });
 
 /** Het contactregeltje van een organisatie (naam en website, OrgRegel) staat onder deze vervolgstap, en nergens anders in de vraag. */
@@ -166,19 +212,28 @@ Then('staat de link {string} onder de stap {string}', async ({ page }, naam: str
 });
 
 Then('staat de link naar {string} onder de vervolgstap {string}', async ({ page }, org: string, stap: string) => {
-  const regels = vraagBlok(page).locator('.stap-org', { has: page.locator('strong', { hasText: org }) }).locator('visible=true');
+  const regels = vraagBlok(page)
+    .locator('.stap-org', { has: page.locator('strong', { hasText: org }) })
+    .locator('visible=true');
   await expect(regels).toHaveCount(1);
-  const lead = await regels.first().evaluate((e) => e.closest('ol.steps-sub > li')?.querySelector(':scope > .stap-lead')?.textContent?.trim() ?? 'niet onder een vervolgstap');
+  const lead = await regels
+    .first()
+    .evaluate((e) => e.closest('ol.steps-sub > li')?.querySelector(':scope > .stap-lead')?.textContent?.trim() ?? 'niet onder een vervolgstap');
   expect(lead.startsWith(stap), lead).toBe(true);
 });
 
 Then('is er geen blok {string}', async ({ page }, kop: string) => {
-  await expect(vraagBlok(page).locator('details', { has: page.locator('summary', { hasText: kop }) }).locator('visible=true')).toHaveCount(0);
+  await expect(
+    vraagBlok(page)
+      .locator('details', { has: page.locator('summary', { hasText: kop }) })
+      .locator('visible=true'),
+  ).toHaveCount(0);
 });
 
 Then('staat de link {string} naast {string}', async ({ page }, link: string, naast: string) => {
   const rij = blok(page).locator('.vd-acties');
-  const a = rij.getByRole('link', { name: link }), b = rij.getByRole('button', { name: naast, exact: true });
+  const a = rij.getByRole('link', { name: link }),
+    b = rij.getByRole('button', { name: naast, exact: true });
   await expect(a).toBeVisible();
   await expect(b).toBeVisible();
   const [ra, rb] = [await a.boundingBox(), await b.boundingBox()];
@@ -226,22 +281,37 @@ Then('zie ik bij het verdiepingsblok de melding {string}', async ({ page }, teks
 
 /** De contactregel van het wijkteam (uit de blokken van de gemeente) staat zichtbaar onder deze zichtbare hoofdstap. */
 Then('staat het contact van het wijkteam onder stap {int}', async ({ page }, nr: number) => {
-  await expect.poll(() => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li').evaluateAll((lis, nr) => {
-    const zichtbaar = lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null);
-    return !!zichtbaar[nr - 1]?.querySelector(':scope > [data-wijkteam-stap] [data-geladen]');
-  }, nr)).toBe(true);
+  await expect
+    .poll(() =>
+      vraagBlok(page)
+        .locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li')
+        .evaluateAll((lis, nr) => {
+          const zichtbaar = lis.filter((li) => !(li as HTMLElement).hidden && (li as HTMLElement).offsetParent !== null);
+          return !!zichtbaar[nr - 1]?.querySelector(':scope > [data-wijkteam-stap] [data-geladen]');
+        }, nr),
+    )
+    .toBe(true);
 });
 
 /* ---------- Regelingencheck ("Extra kosten of kinderbijslag") ---------- */
 
 /** Een keuzeknop bij één vraag in het verdiepingsblok: "Ja" en "Nee" staan bij meer vragen. */
 When('ik bij {string} kies {string}', async ({ page }, vraag: string, naam: string) => {
-  const veld = blok(page).locator('.vd-velden > .field:visible').filter({ has: page.locator(':scope > :first-child', { hasText: vraag }) });
-  await veld.getByRole('button', { name: naam, exact: true }).or(veld.getByRole('button', { name: `✓ ${naam}`, exact: true })).click();
+  const veld = blok(page)
+    .locator('.vd-velden > .field:visible')
+    .filter({ has: page.locator(':scope > :first-child', { hasText: vraag }) });
+  await veld
+    .getByRole('button', { name: naam, exact: true })
+    .or(veld.getByRole('button', { name: `✓ ${naam}`, exact: true }))
+    .click();
 });
 
 /** Het label "Past waarschijnlijk" in een zichtbare stap. */
-const stapLi = (page: Page, nr: number) => vraagBlok(page).locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li').locator('visible=true').nth(nr - 1);
+const stapLi = (page: Page, nr: number) =>
+  vraagBlok(page)
+    .locator('ol.stap-een > li, ol[data-aanvraag-stappen] > li')
+    .locator('visible=true')
+    .nth(nr - 1);
 Then('staat bij stap {int} {string}', async ({ page }, nr: number, tekst: string) => {
   await expect(stapLi(page, nr).locator('.stap-past')).toHaveText(tekst);
 });
@@ -261,7 +331,8 @@ Then('staat de regeling van die gemeente voor {string} onder de stap {string}', 
 Then('staat bij die regeling tot welk inkomen hij geldt, als de gemeente dat noemt', async ({ page }) => {
   const r = geldregelingen(gemeenteUitUrl(page)).find((x) => x.soort === 'meerkosten')!;
   const regel = vraagBlok(page).locator('[data-regeling="meerkosten"]').locator('visible=true').first();
-  if (typeof r.inkomensgrens === 'number') await expect(regel).toContainText(`tot ${r.inkomensgrens}% van ${r.grondslag === 'minimumloon' ? 'het wettelijk minimumloon' : 'het sociaal minimum'}`);
+  if (typeof r.inkomensgrens === 'number')
+    await expect(regel).toContainText(`tot ${r.inkomensgrens}% van ${r.grondslag === 'minimumloon' ? 'het wettelijk minimumloon' : 'het sociaal minimum'}`);
   else if (r.inkomensgrens === 'geen') await expect(regel).toContainText('Zonder inkomensgrens');
   else await expect(regel).not.toContainText('sociaal minimum');
 });

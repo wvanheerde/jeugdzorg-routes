@@ -1,0 +1,43 @@
+/* ---------- Keuzevelden en keuzeknoppen (startvragen, verdiepingen, brieven) ---------- */
+.field { display: grid; gap: .45rem; min-width: 0; }
+.field > span { font-weight: 600; font-size: .95rem; }
+.gemeente-keuze { font: inherit; font-size: 1.02rem; padding: .65rem .9rem; border-radius: var(--radius-sm); border: 1px solid var(--c-border); background: #fff; color: var(--c-text); width: 100%; max-width: 28rem; min-width: 0; }
+.chips-select { display: flex; flex-wrap: wrap; gap: .35rem; }
+.chip-btn { font: inherit; font-size: .84rem; font-weight: 500; padding: .3rem .75rem; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.55); background: rgba(255,255,255,.12); color: #fff; cursor: pointer; transition: background .15s, border-color .15s; }
+.chip-btn:hover { background: rgba(255,255,255,.22); }
+.chip-btn[aria-pressed="true"] { background: #fff; color: var(--c-primary-dark); border-color: #fff; font-weight: 600; }
+.chip-btn[aria-pressed="true"]::before { content: "✓ "; }
+.section .field { margin-top: 0; }
+.section .gemeente-keuze { margin-bottom: .75rem; }
+.gemeente-blok { border-top: 1px solid var(--c-border); margin-top: 1rem; padding-top: .5rem; }
+@media (max-width: 640px) {
+  .chip-btn { font-size: .84rem; padding: .38rem .75rem; }
+}
+.klacht-keuze .chip-btn, .verdieping .chip-btn, .geld-filter .chip-btn { border-color: var(--c-border); background: var(--c-surface); color: var(--c-text); }
+.klacht-keuze .chip-btn:hover, .verdieping .chip-btn:hover, .geld-filter .chip-btn:hover { border-color: var(--c-primary); }
+.klacht-keuze .chip-btn[aria-pressed="true"], .verdieping .chip-btn[aria-pressed="true"], .geld-filter .chip-btn[aria-pressed="true"] { background: var(--c-primary); border-color: var(--c-primary); color: #fff; }
+/* Gemeentekeuze en zoeken op woonplaats in één rij: op desktop naast elkaar (onderaan uitgelijnd), op de telefoon onder elkaar */
+.gemeente-rij { display: flex; flex-wrap: wrap; align-items: flex-start; gap: .35rem 1.25rem; }
+.gemeente-rij > .field { flex: 1 1 18rem; max-width: 28rem; }
+.woonplaats-zoek { margin: 0; flex: 1 1 14rem; max-width: 24rem; display: grid; gap: .3rem; }
+/* De link staat op de hoogte van de keuzelijst (onder diens kop), het opengeklapte veld heeft een eigen kop. */
+.woonplaats-zoek > .linkknop { justify-self: start; margin-top: 2.35rem; }
+.woonplaats-zoek .field[hidden], .woonplaats-zoek .linkknop[hidden] { display: none; }
+.woonplaats-zoek .gemeente-keuze { max-width: none; }
+/* Keuzelijst en zoekveld naast elkaar precies even hoog (anders verschilden ze door regelhoogte en het pijltje van de lijst). */
+.gemeente-rij .gemeente-keuze { height: 2.8rem; line-height: normal; }
+/* Geen pijltje van de woordenlijst: het is een zoekveld, geen keuzelijst. */
+.woonplaats-zoek input::-webkit-calendar-picker-indicator { display: none !important; }
+@media (max-width: 640px) {
+  .gemeente-rij { flex-direction: column; align-items: stretch; }
+  .gemeente-rij > .field, .woonplaats-zoek { flex: none; max-width: none; }
+  .woonplaats-zoek > .linkknop { margin-top: 0; }
+  /* Na het kiezen is de link onzichtbaar (GemeenteKeuze.astro). Naast de keuzelijst houdt hij zijn plek, zodat niets verspringt;
+     eronder liet hij een lege strook achter. */
+  .woonplaats-zoek > .linkknop[style*="hidden"] { display: none; }
+}
+.woonplaats-zoek .linkknop { background: none; border: 0; padding-left: 0; padding-right: 0; padding-top: 0; font: inherit; font-size: .9rem; color: inherit; text-decoration: underline; cursor: pointer; text-align: left; }
+.woonplaats-zoek .meta { margin: 0; color: inherit; }
+.woonplaats-zoek .meta:empty { display: none; }
+/* Gemeentekeuze even laten oplichten als iemand eerst een vraag kiest zonder gemeente */
+.gemeente-keuze.aandacht { outline: 3px solid var(--c-accent, #c2541d); outline-offset: 2px; }

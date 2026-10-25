@@ -4,13 +4,22 @@ import Verdieping from './Verdieping.astro';
 import DatumVeld from './DatumVeld.astro';
 import { NA_18 } from '../lib/verdiepingen';
 ---
+
 <Verdieping id="wordt-18" titel="Wanneer wordt uw kind 18, en wat is daarna nodig?" naarStappen="stappen-wordt-18">
   {/* Geen uitleg: de vragen spreken voor zich en het blok moet kort blijven, anders staan de stappen ver weg (op de telefoon 1042 px tot stap 1). */}
-  <div class="field vd-datum"><label for="w18-datum">Wanneer is uw kind geboren?</label><DatumVeld id="w18-datum" minJaren={-23} maxJaren={0} startJaren={-16} veld="w18-datum" /></div>
+  <div class="field vd-datum">
+    <label for="w18-datum">Wanneer is uw kind geboren?</label>
+    <DatumVeld id="w18-datum" minJaren={-23} maxJaren={0} startJaren={-16} veld="w18-datum" />
+  </div>
   {/* Meer keuzes tegelijk: veel kinderen hebben na 18 zowel behandeling als begeleiding nodig. */}
-  <div class="field vd-keuze"><span id="w18-soort-kop">Welke hulp is na 18 nog nodig? Kies alles wat past.</span>
+  <div class="field vd-keuze">
+    <span id="w18-soort-kop">Welke hulp is na 18 nog nodig? Kies alles wat past.</span>
     <div class="chips-select" role="group" aria-labelledby="w18-soort-kop">
-      {NA_18.map((o) => <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-w18-soort data-label={o.label} data-toont={o.toont.join(' ')}>{o.label}</button>)}
+      {NA_18.map((o) => (
+        <button type="button" class="chip-btn" aria-pressed="false" value={o.id} data-w18-soort data-label={o.label} data-toont={o.toont.join(' ')}>
+          {o.label}
+        </button>
+      ))}
     </div>
   </div>
   <p class="meta vd-melding" data-w18-melding hidden></p>

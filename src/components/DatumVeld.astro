@@ -16,4 +16,20 @@ interface Props {
 }
 const { id, minJaren, maxJaren, startJaren, veld, invoer = '' } = Astro.props;
 ---
-<span class="th-veld" data-min-jaren={minJaren} data-max-jaren={maxJaren} data-start-jaren={startJaren}><input type="text" inputmode="numeric" placeholder="dd-mm-jjjj" maxlength="10" autocomplete="off" id={id} data-th-invoer={invoer} {...(veld ? { [`data-${veld}`]: '' } : {})} /><button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender"><span class="ico ico-calendar" aria-hidden="true"></span></button><input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" /></span>
+
+<span class="th-veld" data-min-jaren={minJaren} data-max-jaren={maxJaren} data-start-jaren={startJaren}>
+  <input
+    type="text"
+    inputmode="numeric"
+    placeholder="dd-mm-jjjj"
+    maxlength="10"
+    autocomplete="off"
+    id={id}
+    data-th-invoer={invoer}
+    {...(veld ? { [`data-${veld}`]: '' } : {})}
+  />
+  <button type="button" class="th-kalender" data-th-kalender aria-label="Kies een datum in de kalender">
+    <span class="ico ico-calendar" aria-hidden="true"></span>
+  </button>
+  <input type="date" class="th-datum" data-th-datum tabindex="-1" aria-hidden="true" />
+</span>

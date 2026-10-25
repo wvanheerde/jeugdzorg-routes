@@ -13,6 +13,11 @@ import BriefKaart from '../components/BriefKaart.astro';
 import SpoedNummers from '../components/SpoedNummers.astro';
 import TherapieKaart from '../components/TherapieKaart.astro';
 import { getCollection } from 'astro:content';
+import { gesorteerd } from '../lib/collecties';
+import { BANDEN, BAND_IDS } from '../lib/leeftijden';
+import { OPSLAG } from '../lib/opslag';
+import PaginaData from '../components/PaginaData.astro';
+import type { SituatieData, KnelpuntData, Namen } from '../lib/paginadata';
 import { routeLabel, beginBij, koppelThemas } from '../lib/routes';
 import { rangVan, therapieVolgorde, VORMEN_LIJST_MAX, hulpsoortenVoor } from '../lib/therapie';
 import HulpsoortKaart from '../components/HulpsoortKaart.astro';
@@ -34,72 +39,136 @@ import VerdiepingGeld from '../components/VerdiepingGeld.astro';
 import { alleStappen, hoofdStappen, vervolg } from '../lib/stappen';
 import { maakStapProps, situatieStapProps, controleerVellen } from '../lib/stap-props';
 import { controleerVerdiepingen, gezagStap, GEZAG_LEAD, KLACHT_BIJ_WACHTEN } from '../lib/verdiepingen';
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
-const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
-const organisaties = (await getCollection('organisaties')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+import { base } from '../site';
+const situaties = await gesorteerd('situaties');
+const hulpsoorten = await gesorteerd('hulpsoorten');
+const organisaties = await gesorteerd('organisaties');
 /** Wat er onder elke stap komt (lib/stap-props.ts). */
 const stapProps = maakStapProps(organisaties);
-const gemeenten = (await getCollection('gemeenten')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
-const therapie = (await getCollection('therapievormen')).sort((a, b) => a.data.naam.localeCompare(b.data.naam));
+const gemeenten = await gesorteerd('gemeenten');
+const therapie = await gesorteerd('therapievormen');
 // Hulpsoorten met veel vormen (Behandeling) linken naar de therapievormen hieronder, net als op de situatiepagina.
 const veelVormen = (id: string) => therapie.filter((t) => t.data.hulpsoorten.includes(id)).length > VORMEN_LIJST_MAX;
 /** Per therapievorm de plek in de volgorde van elke situatie die er een heeft: "situatie:plek". Controleert ook de volgorde zelf. */
 situaties.forEach((s) => therapieVolgorde(s, therapie));
-const tipRang = (id: string) => situaties.map((s) => { const r = rangVan(s, id); return r === null ? '' : `${s.id}:${r}`; }).filter(Boolean).join(' ');
-const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const tipRang = (id: string) =>
+  situaties
+    .map((s) => {
+      const r = rangVan(s, id);
+      return r === null ? '' : `${s.id}:${r}`;
+    })
+    .filter(Boolean)
+    .join(' ');
+const knelpunten = await gesorteerd('knelpunten');
 controleerVerdiepingen(knelpunten);
-controleerVellen([...knelpunten.map((k) => ({ id: k.id, stappen: alleStappen(k) })), ...situaties.map((s) => ({ id: s.id, stappen: (s.data.stappen ?? []).map((x) => (typeof x === 'string' ? x : x.stap)) }))]);
+controleerVellen([
+  ...knelpunten.map((k) => ({ id: k.id, stappen: alleStappen(k) })),
+  ...situaties.map((s) => ({ id: s.id, stappen: (s.data.stappen ?? []).map((x) => (typeof x === 'string' ? x : x.stap)) })),
+]);
 /** Een stap die zich aan de leeftijd aanpast (leeftijdsstappen, zoals bij kinderbijslag): per band de vervangende tekst. Het script
  *  (render.ts) toont per groep de variant van de gekozen leeftijd, anders de gewone stap. De build faalt als een begin niet bij precies één stap past. */
 const leeftijdsVarianten = (k: (typeof knelpunten)[number], st: string) => {
   const ls = k.data.leeftijdsstappen.find((l) => st.startsWith(l.begin));
-  return ls ? (['0-4', '4-12', '12-18', '18-99'] as const).filter((b) => ls[b]).map((b) => ({ band: b, tekst: ls[b]! })) : [];
+  return ls ? BAND_IDS.filter((b) => ls[b]).map((b) => ({ band: b, tekst: ls[b]! })) : [];
 };
-knelpunten.forEach((k) => k.data.leeftijdsstappen.forEach((l) => {
-  const n = hoofdStappen(k).filter((st) => st.startsWith(l.begin)).length;
-  if (n !== 1) throw new Error(`knelpunten/${k.id}.md: leeftijdsstap "${l.begin}" past bij ${n} stappen; dat moet er precies één zijn.`);
-}));
+knelpunten.forEach((k) =>
+  k.data.leeftijdsstappen.forEach((l) => {
+    const n = hoofdStappen(k).filter((st) => st.startsWith(l.begin)).length;
+    if (n !== 1) throw new Error(`knelpunten/${k.id}.md: leeftijdsstap "${l.begin}" past bij ${n} stappen; dat moet er precies één zijn.`);
+  }),
+);
 /** De stappen over gezag ("Wij zijn uit elkaar"), ook bij "Ik wil hulp aanvragen" met de situatie Scheiding. */
 const gescheidenVraag = knelpunten.find((k) => k.id === 'gescheiden')!;
 const gezagStappen = hoofdStappen(gescheidenVraag).filter((x) => gezagStap(x));
-const brieven = (await getCollection('brieven'));
-const knelData = Object.fromEntries(knelpunten.map((k) => [k.id, { onderdelen: k.data.gemeenteOnderdelen, landelijk: k.data.landelijk, zonderGemeente: k.data.zonderGemeente, wijkteamBovenaan: k.data.wijkteamBovenaan, situaties: k.data.startSituaties }]));
-const landelijk = (await getCollection('landelijk')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const brieven = await getCollection('brieven');
+const knelData: Record<string, KnelpuntData> = Object.fromEntries(
+  knelpunten.map((k) => [
+    k.id,
+    {
+      onderdelen: k.data.gemeenteOnderdelen,
+      landelijk: k.data.landelijk,
+      zonderGemeente: k.data.zonderGemeente,
+      wijkteamBovenaan: k.data.wijkteamBovenaan,
+      situaties: k.data.startSituaties,
+    },
+  ]),
+);
+const landelijk = await gesorteerd('landelijk');
 /** Compacte data voor de browser: per situatie de koppelsleutels. */
 /** Voorrang bij meer situaties: de situatie die het meest bepaalt waar u begint, gaat voor (niet de eerst gekozen). Eerst onveiligheid
  *  thuis (aanvraagIngeklapt: veiligheid voorop), dan wat niet kan wachten (spoed in de routes), dan wat geen lichte start heeft, dan de
  *  rest; binnen een groep de volgorde op de voorpagina. Eigen afweging van de site (23-10), geen bron. */
-const voorrang = (s: (typeof situaties)[number]) => (s.data.aanvraagIngeklapt ? 0 : s.data.routes.some((r) => r.type === 'spoed') ? 1 : s.data.lichteStart ? 3 : 2) * 1000 + s.data.volgorde;
+const voorrang = (s: (typeof situaties)[number]) =>
+  (s.data.aanvraagIngeklapt ? 0 : s.data.routes.some((r) => r.type === 'spoed') ? 1 : s.data.lichteStart ? 3 : 2) * 1000 + s.data.volgorde;
 /** Waar de situatie begint: het type van de eerste route, of de eigen tekst (beginBij) als die er is. Begint een andere gekozen situatie ergens anders, dan staat die ingang ook in stap 1. */
 const startVan = (s: (typeof situaties)[number]) => s.data.routes[0].beginBij ?? s.data.routes[0].type;
 /** Zinsdeel na "Begin bij …" voor de eerste route van een situatie. */
-const beginTekst = (s: (typeof situaties)[number]) => { const r0 = s.data.routes[0]; return r0.beginBij ?? (s.data.lichteStart && r0.type === 'wijkteam' ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente' : beginBij[r0.type]); };
-const sitData = Object.fromEntries(situaties.map((s) => [s.id, { voorrang: voorrang(s), start: startVan(s), themas: koppelThemas(s.data.themas), hulpsoorten: hulpsoortenVoor(s, therapie), routes: s.data.routes.map((r) => r.type), landelijk: s.data.landelijk, licht: s.data.lichteStart, jgz: s.data.jgzVoorop, inklap: s.data.lichteStart || s.data.aanvraagIngeklapt || !!s.data.stappen, rang: !!s.data.therapievormen, gelijk: !!s.data.routes[0].beginBij }]));
+const beginTekst = (s: (typeof situaties)[number]) => {
+  const r0 = s.data.routes[0];
+  return (
+    r0.beginBij ??
+    (s.data.lichteStart && r0.type === 'wijkteam'
+      ? 'het wijkteam, het Centrum voor Jeugd en Gezin (CJG) of het consultatiebureau van uw gemeente'
+      : beginBij[r0.type])
+  );
+};
+const sitData: Record<string, SituatieData> = Object.fromEntries(
+  situaties.map((s) => [
+    s.id,
+    {
+      voorrang: voorrang(s),
+      start: startVan(s),
+      themas: koppelThemas(s.data.themas),
+      hulpsoorten: hulpsoortenVoor(s, therapie),
+      routes: s.data.routes.map((r) => r.type),
+      landelijk: s.data.landelijk,
+      licht: s.data.lichteStart,
+      jgz: s.data.jgzVoorop,
+      inklap: s.data.lichteStart || s.data.aanvraagIngeklapt || !!s.data.stappen,
+      rang: !!s.data.therapievormen,
+      gelijk: !!s.data.routes[0].beginBij,
+    },
+  ]),
+);
 const j = (a: string[]) => a.join(' ');
 /** Namen voor de samenvatting van de keuzes. */
-const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])), k: Object.fromEntries(knelpunten.map((x) => [x.id, startNaam(x)])), g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])), l: { '0-4': 'jonger dan 4', '4-12': '4 tot 12 jaar', '12-18': '12 tot 18 jaar', '18-99': '18 of ouder' } as Record<string, string> };
+const namen: Namen = {
+  s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])),
+  k: Object.fromEntries(knelpunten.map((x) => [x.id, startNaam(x)])),
+  g: Object.fromEntries(gemeenten.map((x) => [x.id, x.data.naam])),
+  l: Object.fromEntries(BANDEN.map((b) => [b.id, b.samenvatting])),
+};
 ---
+
 <Base title="Mijn overzicht" noindex>
   <div class="page-head">
     {/* De keuzes maakt de ouder op de voorpagina; hier staan ze alleen als samenvatting (20-10: op twee plekken bijhouden voegde weinig toe). */}
-    <p class="meta terug" style="margin-bottom:.5rem"><a href={`${base}/`}>← Terug naar de voorpagina</a></p>
+    <p class="meta terug" style="margin-bottom:.5rem">
+      <a href={`${base}/`}>← Terug naar de voorpagina</a>
+    </p>
     <span class="eyebrow">Op maat</span>
     <h1>Mijn overzicht</h1>
-    <p class="lead" data-intro>Kies op de voorpagina uw gemeente en uw situatie. Dan ziet u hier wat u kunt doen.</p>
+    <p class="lead" data-intro>
+      Kies op de voorpagina uw gemeente en uw situatie. Dan ziet u hier wat u kunt doen.
+    </p>
     <AfdrukKop wat="dit overzicht" />
   </div>
 
   {/* De keuzes als samenvatting (op de telefoon en op papier; op de laptop staan ze in de zijkolom). Zonder keuzes verborgen. */}
   <div class="section regelen keuzes" id="top" data-keuzes hidden>
-    <p><strong>Uw keuzes</strong> <span class="meta" data-keuzes-samenvatting></span></p>
+    <p>
+      <strong>Uw keuzes</strong> <span class="meta" data-keuzes-samenvatting></span>
+    </p>
   </div>
   <!-- Meteen (niet pas na het laden van de scripts): de samenvatting, en de inleiding weg. Anders versprong de pagina. -->
-  <script is:inline define:vars={{ namen }}>
+  <script is:inline define:vars={{ namen, OPSLAG }}>
     (() => {
       const p = new URLSearchParams(location.search);
       const v = (k, key) => p.get(k) ?? localStorage.getItem(key) ?? '';
-      const s = v('s', 'jr.situaties').split(',').filter(Boolean), k = v('k', 'jr.knelpunt'), g = v('gemeente', 'jr.gemeente'), l = v('l', 'jr.leeftijd');
+      const s = v('s', OPSLAG.situaties).split(',').filter(Boolean),
+        k = v('k', OPSLAG.knelpunt),
+        g = v('gemeente', OPSLAG.gemeente),
+        l = v('l', OPSLAG.leeftijd);
       const d = document.querySelector('[data-keuzes]');
       if (!(s.length || k || g)) return;
       d.hidden = false;
@@ -113,241 +182,532 @@ const namen = { s: Object.fromEntries(situaties.map((x) => [x.id, x.data.titel])
   </script>
 
   <div data-inhoud hidden class="page-with-side">
-   <aside class="side">
-    <nav aria-label="Inhoud" data-zijnav>
-      <div class="side-keuzes">
-        <strong>Uw keuzes</strong>
-        <p data-keuzes-samenvatting></p>
-      </div>
-      <!-- Samenvatting meteen overnemen uit het keuzeblok (gevuld door het vroege script hierboven), zodat de zijnavigatie niet verspringt. -->
-      <script is:inline>document.currentScript.previousElementSibling.querySelector('[data-keuzes-samenvatting]').textContent = document.querySelector('[data-keuzes] [data-keuzes-samenvatting]').textContent;</script>
-      <strong>Op deze pagina</strong>
-      <a href="#nu-doen" data-nav="nu-doen"><span class="n">→</span>Wat kunt u doen</a>
-      <a href="#gemeente" data-nav="gemeente"><span class="n">1</span>Andere ingangen</a>
-      <a href="#hulp" data-nav="hulp"><span class="n">2</span>Welke hulp</a>
-      <a href="#tips" data-nav="tips"><span class="n">3</span>Therapievormen</a>
-      <a href="#situaties" data-nav="situaties"><span class="n">4</span>Verdieping</a>
-      <a href="#regelingen" data-nav="regelingen"><span class="n">5</span>Rechten en regelingen</a>
-      <a href="#organisaties" data-nav="organisaties"><span class="n">6</span>Organisaties</a>
-    </nav>
-   </aside>
-   <div>
-    <!--
+    <aside class="side">
+      <nav aria-label="Inhoud" data-zijnav>
+        <div class="side-keuzes">
+          <strong>Uw keuzes</strong>
+          <p data-keuzes-samenvatting></p>
+        </div>
+        <!-- Samenvatting meteen overnemen uit het keuzeblok (gevuld door het vroege script hierboven), zodat de zijnavigatie niet verspringt. -->
+        <script is:inline>
+          document.currentScript.previousElementSibling.querySelector('[data-keuzes-samenvatting]').textContent = document.querySelector(
+            '[data-keuzes] [data-keuzes-samenvatting]',
+          ).textContent;
+        </script>
+        <strong>Op deze pagina</strong>
+        <a href="#nu-doen" data-nav="nu-doen">
+          <span class="n">→</span>Wat kunt u doen
+        </a>
+        <a href="#gemeente" data-nav="gemeente">
+          <span class="n">1</span>Andere ingangen
+        </a>
+        <a href="#hulp" data-nav="hulp">
+          <span class="n">2</span>Welke hulp
+        </a>
+        <a href="#tips" data-nav="tips">
+          <span class="n">3</span>Therapievormen
+        </a>
+        <a href="#situaties" data-nav="situaties">
+          <span class="n">4</span>Verdieping
+        </a>
+        <a href="#regelingen" data-nav="regelingen">
+          <span class="n">5</span>Rechten en regelingen
+        </a>
+        <a href="#organisaties" data-nav="organisaties">
+          <span class="n">6</span>Organisaties
+        </a>
+      </nav>
+    </aside>
+    <div>
+      <!--
       Blok 1, "Wat kunt u doen": de stappen, met stap 1 voorop. Direct na stap 1 staat het contact van de eerste ingang
       (meestal het wijkteam), daarna de overige stappen, wat er in de gemeente bij die stappen hoort, en de brieven.
       De volgorde komt uit CSS (order), zodat de per-knelpunt- en per-gemeenteblokken los van elkaar kunnen blijven.
     -->
-    <AfdrukKnop />
-    <section class="section regelen antwoord" id="nu-doen" data-knelpunt-wrap hidden>
-      {knelpunten.map((k) => (
-        <div data-knelpunt-blok={k.id} hidden>
-          <h2 class="o1"><span class="section-num">→</span>{k.id === 'beginnen' ? 'Wat kunt u doen' : `Wat kunt u doen: ${k.data.titel.toLowerCase()}`}</h2>
-          {k.id === 'verhuizing' && <VerdiepingVerhuizing />}
-          {k.id === 'hulp-stopt' && <VerdiepingHulpStopt />}
-          {k.id === 'wachten' && <VerdiepingWachten />}
-          {k.id === 'wordt-18' && <VerdiepingWordt18 />}
-          {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
-          {k.id === 'gescheiden' && <VerdiepingGescheiden id="gescheiden" naarStappen="stappen-gescheiden" uitleg="Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp." />}
-          {k.id === 'uitbreiden' && <VerdiepingUitbreiden />}
-          {k.id === 'geld' && <VerdiepingGeld />}
-          {/* Gezag bij hulp aanvragen: ingeklapt, want het geldt alleen voor wie niet samenwoont met de andere ouder; met de situatie
+      <AfdrukKnop />
+      <section class="section regelen antwoord" id="nu-doen" data-knelpunt-wrap hidden>
+        {knelpunten.map((k) => (
+          <div data-knelpunt-blok={k.id} hidden>
+            <h2 class="o1">
+              <span class="section-num">→</span>
+              {k.id === 'beginnen' ? 'Wat kunt u doen' : `Wat kunt u doen: ${k.data.titel.toLowerCase()}`}
+            </h2>
+            {k.id === 'verhuizing' && <VerdiepingVerhuizing />}
+            {k.id === 'hulp-stopt' && <VerdiepingHulpStopt />}
+            {k.id === 'wachten' && <VerdiepingWachten />}
+            {k.id === 'wordt-18' && <VerdiepingWordt18 />}
+            {k.id === 'afgewezen' && <VerdiepingAfgewezen />}
+            {k.id === 'gescheiden' && (
+              <VerdiepingGescheiden
+                id="gescheiden"
+                naarStappen="stappen-gescheiden"
+                uitleg="Dan ziet u alleen de stappen die daarbij horen, ook wie toestemming geeft voor hulp."
+              />
+            )}
+            {k.id === 'uitbreiden' && <VerdiepingUitbreiden />}
+            {k.id === 'geld' && <VerdiepingGeld />}
+            {/* Gezag bij hulp aanvragen: ingeklapt, want het geldt alleen voor wie niet samenwoont met de andere ouder; met de situatie
               Scheiding of een antwoord staat het open (scripts/overzicht/gescheiden.ts). Persona-test Linda, ronde 25. */}
-          {k.id === 'beginnen' && (
-            <details class="o1 gezag-inklap" data-gezag-inklap>
-              <summary>Woont u niet samen met de andere ouder? Kijk dan of die moet meebeslissen.</summary>
-              <VerdiepingGescheiden id="gezag-beginnen" naarStappen="stappen-beginnen" uitleg="Mag u hulp regelen zonder de andere ouder? Dat hangt af van wie het gezag heeft. Kies het hieronder, dan ziet u wie toestemming geeft." />
-            </details>
-          )}
-          {/* Doel van de link "De stappen zijn aangepast" in de verdieping: het begin van de stappen (stap 1 kan verborgen zijn). */}
-          {/* Bij gescheiden staat het deel over gezamenlijk gezag apart, zodat de verdieping het kan weghalen (GEZAG_LEAD). */}
-          <p class="o1 lead-klein" data-generieke-lead id={`stappen-${k.id}`}>{k.id === 'gescheiden' ? k.data.samenvatting.split(GEZAG_LEAD).flatMap((t, i) => (i ? [<span data-gezag-lead>{GEZAG_LEAD}</span>, t] : [t])) : k.data.samenvatting}</p>
-          {k.id === 'beginnen' && situaties.filter((sit) => sit.data.lichteStart || sit.data.aanvraagIngeklapt || sit.data.stappen).map((sit) => <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>{sit.data.samenvatting}</p>)}
-          {k.id === 'wachten' && <p class="o1 meta wacht-erger"><strong>Wordt het erger terwijl u wacht?</strong> Bel de huisarts. 's Avonds en in het weekend hoort u via hetzelfde nummer hoe u de huisartsenpost bereikt. <a href={`${base}/overzicht/?k=spoed`}>Het kan niet wachten →</a></p>}
-          {k.id === 'spoed' ? <div class="o2"><SpoedNummers /></div> : (<>
-            <ol class="steps stap-een o2">
-              {k.id === 'beginnen' ? (<>
-                <li data-generieke-stap><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} /></li>
-                {situaties.map((sit) => { const r0 = sit.data.routes[0]; return <li data-situatie-stap={sit.id} hidden><strong class="stap-lead">Begin bij {beginTekst(sit)}.</strong> {r0.waarom}<OrgRegel orgs={genoemdIn(r0.waarom, organisaties)} /></li>; })}
-                {/* Met de situatie Scheiding: de stap die bij het gezag hoort, uit gescheiden.md (verdieping gezag-beginnen). */}
-                {gezagStappen.map((x) => { const i = hoofdStappen(gescheidenVraag).indexOf(x); return <li data-gezag-bij-aanvraag hidden><StapInhoud {...stapProps(gescheidenVraag, x)} />{vervolg(gescheidenVraag, i).length > 0 && <ol class="steps-sub">{vervolg(gescheidenVraag, i).map((v) => <li><StapInhoud {...stapProps(gescheidenVraag, v)} /></li>)}</ol>}</li>; })}
-              </>) : <>{k.id === 'verhuizing' && <li data-vh-binnen hidden></li>}<li data-lf-groep={leeftijdsVarianten(k, hoofdStappen(k)[0]).length ? `${k.id}:0` : undefined}><StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />{vervolg(k, 0).length > 0 && <ol class="steps-sub">{vervolg(k, 0).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li>{leeftijdsVarianten(k, hoofdStappen(k)[0]).map((v) => <li data-lf-groep={`${k.id}:0`} data-lf-band={v.band} hidden><StapInhoud {...stapProps(k, v.tekst)} /></li>)}</>}
-            </ol>
-            {/* Begint een andere gekozen situatie ergens anders, dan noemt stap 1 die ingang ook. Het script zet de regel in stap 1. */}
-            {k.id === 'beginnen' && <div data-ook-houder hidden>{situaties.map((sit) => <p class="stap-ook" data-situatie-ook={sit.id}><strong>{sit.data.titel}? Ga daarvoor ook naar {beginTekst(sit)}.</strong> {sit.data.routes[0].waarom}<OrgRegel orgs={genoemdIn(sit.data.routes[0].waarom, organisaties)} /></p>)}</div>}
-            {/* Eigen stappen van de situatie (zoals school loopt vast), vóór de ingeklapte aanvraag. */}
-            {k.id === 'beginnen' && situaties.filter((sit) => sit.data.stappen).map((sit) => <ol class="steps o4" data-situatie-stappen={sit.id} start="2" hidden>{situatieStapProps(organisaties, sit).map((p) => <li><StapInhoud {...p} /></li>)}</ol>)}
             {k.id === 'beginnen' && (
-              <details class="o4 meer-brieven" data-aanvraag-inklap hidden>
-                <summary>Is er toch jeugdhulp nodig? Zo vraagt u die aan</summary>
-                <ol class="steps" start="2">{hoofdStappen(k).slice(1).map((st, i) => <li><StapInhoud {...stapProps(k, st)} />{vervolg(k, i + 1).length > 0 && <ol class="steps-sub">{vervolg(k, i + 1).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li>)}</ol>
+              <details class="o1 gezag-inklap" data-gezag-inklap>
+                <summary>Woont u niet samen met de andere ouder? Kijk dan of die moet meebeslissen.</summary>
+                <VerdiepingGescheiden
+                  id="gezag-beginnen"
+                  naarStappen="stappen-beginnen"
+                  uitleg="Mag u hulp regelen zonder de andere ouder? Dat hangt af van wie het gezag heeft. Kies het hieronder, dan ziet u wie toestemming geeft."
+                />
               </details>
             )}
-            {k.data.stappen.length > 1 && <ol class="steps o4" data-aanvraag-stappen start="2">{hoofdStappen(k).slice(1).map((st, i) => <li><StapInhoud {...stapProps(k, st)} />{vervolg(k, i + 1).length > 0 && <ol class="steps-sub">{vervolg(k, i + 1).map((v) => <li><StapInhoud {...stapProps(k, v)} /></li>)}</ol>}</li>)}</ol>}
-            {/* "Mijn kind wordt 18": stappen die niet bij de gekozen hulp passen, ingeklapt in plaats van weg (persona-tests Peter r3/r4:
-                wat verdween, miste hij zonder het te weten). Het script (scripts/overzicht/wordt-18.ts) verplaatst de stappen hierheen en terug. */}
-            {k.id === 'wordt-18' && (
-              <details class="o4 meer-brieven meer-stappen" data-w18-anders hidden>
-                <summary>Andere stappen die soms nodig zijn</summary>
-                <p class="meta">Deze passen niet bij wat u hierboven koos, maar kunnen toch gelden. Twijfelt u, vraag het dan aan het wijkteam.</p>
-                <ol class="steps-anders" data-w18-anders-lijst></ol>
-              </details>
+            {/* Doel van de link "De stappen zijn aangepast" in de verdieping: het begin van de stappen (stap 1 kan verborgen zijn). */}
+            {/* Bij gescheiden staat het deel over gezamenlijk gezag apart, zodat de verdieping het kan weghalen (GEZAG_LEAD). */}
+            <p class="o1 lead-klein" data-generieke-lead id={`stappen-${k.id}`}>
+              {k.id === 'gescheiden'
+                ? k.data.samenvatting.split(GEZAG_LEAD).flatMap((t, i) => (i ? [<span data-gezag-lead>{GEZAG_LEAD}</span>, t] : [t]))
+                : k.data.samenvatting}
+            </p>
+            {k.id === 'beginnen' &&
+              situaties
+                .filter((sit) => sit.data.lichteStart || sit.data.aanvraagIngeklapt || sit.data.stappen)
+                .map((sit) => (
+                  <p class="o1 lead-klein" data-situatie-lead={sit.id} hidden>
+                    {sit.data.samenvatting}
+                  </p>
+                ))}
+            {k.id === 'wachten' && (
+              <p class="o1 meta wacht-erger">
+                <strong>Wordt het erger terwijl u wacht?</strong> Bel de huisarts. 's Avonds en in het weekend hoort u via hetzelfde nummer hoe u de
+                huisartsenpost bereikt. <a href={`${base}/overzicht/?k=spoed`}>Het kan niet wachten →</a>
+              </p>
             )}
-            {/* "Ik wil hulp uitbreiden" met alleen meer hulp nodig: de stap over het aflopen ingeklapt (zoals bij 18 worden). Het script
-                (scripts/overzicht/uitbreiden.ts) verplaatst hem hierheen en terug. */}
-            {k.id === 'uitbreiden' && (
-              <details class="o4 meer-brieven meer-stappen" data-ub-anders hidden>
-                <summary>Andere stappen die soms nodig zijn</summary>
-                <p class="meta">Deze past niet bij wat u hierboven koos, maar kan toch gelden.</p>
-                <ol class="steps-anders" data-ub-anders-lijst></ol>
-              </details>
-            )}
-            {/* "Extra kosten of kinderbijslag": regelingen die niet bij de antwoorden passen, ingeklapt in plaats van weg (of iets past,
-                beslist de SVB, het CIZ of de gemeente). Het script (scripts/overzicht/geld.ts) verplaatst de stappen hierheen en terug. */}
-            {k.id === 'geld' && (
-              <details class="o4 meer-brieven meer-stappen" data-rg-anders hidden>
-                <summary>Andere regelingen die soms passen</summary>
-                <p class="meta">Deze passen niet bij uw antwoorden, maar kunnen toch gelden. Twijfelt u, vraag het dan na.</p>
-                <ol class="steps-anders" data-rg-anders-lijst></ol>
-              </details>
-            )}
-            {/* "Hulp is afgewezen of te weinig" zonder besluit op papier: alleen stap 1 is nu nodig. Het script (scripts/overzicht/afgewezen.ts)
-                verplaatst de genummerde stappen hierheen en terug. */}
-            {k.id === 'afgewezen' && (
-              <details class="o4 meer-brieven meer-stappen" data-af-later hidden>
-                <summary>Daarna: als u het besluit op papier heeft</summary>
-              </details>
-            )}
-          </>)}
-          
-          {k.id === 'verkeerde-hulp' && (<>
-            <p class="meta o5" data-tips-link hidden><a href="#tips">Welke andere vormen van hulp passen bij uw kind? Bekijk de therapievormen hieronder ↓</a></p>
-            <p class="meta o5" data-tips-link-alg><a href={`${base}/therapievormen/`}>Welke andere vormen van hulp zijn er? Bekijk de therapievormen →</a></p>
-          </>)}
-          {k.id === 'geld' && <p class="meta o5"><a href={`${base}/landelijk/#05-financieel`}>Dubbele kinderbijslag en andere regelingen: wat u opschrijft en hoe u aanvraagt →</a></p>}
-          {k.data.brieven.length > 0 && (<div class="o7" data-brieven-blok>
-            <h3>Voorbeeldbrieven</h3>
-            <div class="grid" data-generieke-brieven>{k.data.brieven.map((id) => { const b = brieven.find((x) => x.id === id); return b && <BriefKaart b={b} zoek={k.id === 'wachten' ? KLACHT_BIJ_WACHTEN[id] : undefined} />; })}</div>
-            {k.id === 'beginnen' && situaties.map((sit) => {
-              // Per situatie: de brieven die bij de routes van die situatie horen, in volgorde van de routes. Lege lijst = generieke brieven tonen.
-              const types = sit.data.routes.map((r) => r.type as string);
-              // Brieven die bij een ander knelpunt horen (klacht, bezwaar, verhuizing) zijn geen startbrieven.
-              const andere = new Set(knelpunten.filter((x) => x.id !== 'beginnen').flatMap((x) => x.data.brieven));
-              const eigen = brieven.filter((b) => b.data.situaties.includes(sit.id) && types.includes(b.data.aan) && (!andere.has(b.id) || k.data.brieven.includes(b.id))).sort((a, b) => types.indexOf(a.data.aan) - types.indexOf(b.data.aan) || a.data.volgorde - b.data.volgorde);
-              // Brieven voor de eerste route staan open; de rest staat ingeklapt onder "Andere brieven". Noemt stap 1 het wijkteam
-              // als gelijkwaardige ingang (beginBij, bv. ADHD), dan staat de brief aan het wijkteam ook open.
-              const r0 = sit.data.routes[0];
-              const directTypes = [types[0], ...(r0.beginBij && /wijkteam/.test(r0.beginBij) ? ['wijkteam'] : [])];
-              const direct = eigen.filter((b) => directTypes.includes(b.data.aan));
-              const rest = eigen.filter((b) => !directTypes.includes(b.data.aan));
-              return eigen.length > 0 && (
-                <div data-situatie-brieven={sit.id} hidden>
-                  <div class="grid">{(direct.length > 0 ? direct : eigen).map((b) => <BriefKaart b={b} />)}</div>
-                  {direct.length > 0 && rest.length > 0 && (
-                    <details class="meer-brieven">
-                      <summary>Andere brieven bij deze situatie ({rest.length})</summary>
-                      <p class="meta">Voor als u via een andere route begint, of later alsnog hulp aanvraagt.</p>
-                      <div class="grid">{rest.map((b) => <BriefKaart b={b} />)}</div>
-                    </details>
+            {k.id === 'spoed' ? (
+              <div class="o2">
+                <SpoedNummers />
+              </div>
+            ) : (
+              <>
+                <ol class="steps stap-een o2">
+                  {k.id === 'beginnen' ? (
+                    <>
+                      <li data-generieke-stap>
+                        <StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />
+                      </li>
+                      {situaties.map((sit) => {
+                        const r0 = sit.data.routes[0];
+                        return (
+                          <li data-situatie-stap={sit.id} hidden>
+                            <strong class="stap-lead">Begin bij {beginTekst(sit)}.</strong> {r0.waarom}
+                            <OrgRegel orgs={genoemdIn(r0.waarom, organisaties)} />
+                          </li>
+                        );
+                      })}
+                      {/* Met de situatie Scheiding: de stap die bij het gezag hoort, uit gescheiden.md (verdieping gezag-beginnen). */}
+                      {gezagStappen.map((x) => {
+                        const i = hoofdStappen(gescheidenVraag).indexOf(x);
+                        return (
+                          <li data-gezag-bij-aanvraag hidden>
+                            <StapInhoud {...stapProps(gescheidenVraag, x)} />
+                            {vervolg(gescheidenVraag, i).length > 0 && (
+                              <ol class="steps-sub">
+                                {vervolg(gescheidenVraag, i).map((v) => (
+                                  <li>
+                                    <StapInhoud {...stapProps(gescheidenVraag, v)} />
+                                  </li>
+                                ))}
+                              </ol>
+                            )}
+                          </li>
+                        );
+                      })}
+                    </>
+                  ) : (
+                    <>
+                      {k.id === 'verhuizing' && <li data-vh-binnen hidden></li>}
+                      <li data-lf-groep={leeftijdsVarianten(k, hoofdStappen(k)[0]).length ? `${k.id}:0` : undefined}>
+                        <StapInhoud {...stapProps(k, hoofdStappen(k)[0])} />
+                        {vervolg(k, 0).length > 0 && (
+                          <ol class="steps-sub">
+                            {vervolg(k, 0).map((v) => (
+                              <li>
+                                <StapInhoud {...stapProps(k, v)} />
+                              </li>
+                            ))}
+                          </ol>
+                        )}
+                      </li>
+                      {leeftijdsVarianten(k, hoofdStappen(k)[0]).map((v) => (
+                        <li data-lf-groep={`${k.id}:0`} data-lf-band={v.band} hidden>
+                          <StapInhoud {...stapProps(k, v.tekst)} />
+                        </li>
+                      ))}
+                    </>
                   )}
+                </ol>
+                {/* Begint een andere gekozen situatie ergens anders, dan noemt stap 1 die ingang ook. Het script zet de regel in stap 1. */}
+                {k.id === 'beginnen' && (
+                  <div data-ook-houder hidden>
+                    {situaties.map((sit) => (
+                      <p class="stap-ook" data-situatie-ook={sit.id}>
+                        <strong>
+                          {sit.data.titel}? Ga daarvoor ook naar {beginTekst(sit)}.
+                        </strong>{' '}
+                        {sit.data.routes[0].waarom}
+                        <OrgRegel orgs={genoemdIn(sit.data.routes[0].waarom, organisaties)} />
+                      </p>
+                    ))}
+                  </div>
+                )}
+                {/* Eigen stappen van de situatie (zoals school loopt vast), vóór de ingeklapte aanvraag. */}
+                {k.id === 'beginnen' &&
+                  situaties
+                    .filter((sit) => sit.data.stappen)
+                    .map((sit) => (
+                      <ol class="steps o4" data-situatie-stappen={sit.id} start="2" hidden>
+                        {situatieStapProps(organisaties, sit).map((p) => (
+                          <li>
+                            <StapInhoud {...p} />
+                          </li>
+                        ))}
+                      </ol>
+                    ))}
+                {k.id === 'beginnen' && (
+                  <details class="o4 meer-brieven" data-aanvraag-inklap hidden>
+                    <summary>Is er toch jeugdhulp nodig? Zo vraagt u die aan</summary>
+                    <ol class="steps" start="2">
+                      {hoofdStappen(k)
+                        .slice(1)
+                        .map((st, i) => (
+                          <li>
+                            <StapInhoud {...stapProps(k, st)} />
+                            {vervolg(k, i + 1).length > 0 && (
+                              <ol class="steps-sub">
+                                {vervolg(k, i + 1).map((v) => (
+                                  <li>
+                                    <StapInhoud {...stapProps(k, v)} />
+                                  </li>
+                                ))}
+                              </ol>
+                            )}
+                          </li>
+                        ))}
+                    </ol>
+                  </details>
+                )}
+                {k.data.stappen.length > 1 && (
+                  <ol class="steps o4" data-aanvraag-stappen start="2">
+                    {hoofdStappen(k)
+                      .slice(1)
+                      .map((st, i) => (
+                        <li>
+                          <StapInhoud {...stapProps(k, st)} />
+                          {vervolg(k, i + 1).length > 0 && (
+                            <ol class="steps-sub">
+                              {vervolg(k, i + 1).map((v) => (
+                                <li>
+                                  <StapInhoud {...stapProps(k, v)} />
+                                </li>
+                              ))}
+                            </ol>
+                          )}
+                        </li>
+                      ))}
+                  </ol>
+                )}
+                {/* "Mijn kind wordt 18": stappen die niet bij de gekozen hulp passen, ingeklapt in plaats van weg (persona-tests Peter r3/r4:
+                wat verdween, miste hij zonder het te weten). Het script (scripts/overzicht/wordt-18.ts) verplaatst de stappen hierheen en terug. */}
+                {k.id === 'wordt-18' && (
+                  <details class="o4 meer-brieven meer-stappen" data-w18-anders hidden>
+                    <summary>Andere stappen die soms nodig zijn</summary>
+                    <p class="meta">Deze passen niet bij wat u hierboven koos, maar kunnen toch gelden. Twijfelt u, vraag het dan aan het wijkteam.</p>
+                    <ol class="steps-anders" data-w18-anders-lijst></ol>
+                  </details>
+                )}
+                {/* "Ik wil hulp uitbreiden" met alleen meer hulp nodig: de stap over het aflopen ingeklapt (zoals bij 18 worden). Het script
+                (scripts/overzicht/uitbreiden.ts) verplaatst hem hierheen en terug. */}
+                {k.id === 'uitbreiden' && (
+                  <details class="o4 meer-brieven meer-stappen" data-ub-anders hidden>
+                    <summary>Andere stappen die soms nodig zijn</summary>
+                    <p class="meta">Deze past niet bij wat u hierboven koos, maar kan toch gelden.</p>
+                    <ol class="steps-anders" data-ub-anders-lijst></ol>
+                  </details>
+                )}
+                {/* "Extra kosten of kinderbijslag": regelingen die niet bij de antwoorden passen, ingeklapt in plaats van weg (of iets past,
+                beslist de SVB, het CIZ of de gemeente). Het script (scripts/overzicht/geld.ts) verplaatst de stappen hierheen en terug. */}
+                {k.id === 'geld' && (
+                  <details class="o4 meer-brieven meer-stappen" data-rg-anders hidden>
+                    <summary>Andere regelingen die soms passen</summary>
+                    <p class="meta">Deze passen niet bij uw antwoorden, maar kunnen toch gelden. Twijfelt u, vraag het dan na.</p>
+                    <ol class="steps-anders" data-rg-anders-lijst></ol>
+                  </details>
+                )}
+                {/* "Hulp is afgewezen of te weinig" zonder besluit op papier: alleen stap 1 is nu nodig. Het script (scripts/overzicht/afgewezen.ts)
+                verplaatst de genummerde stappen hierheen en terug. */}
+                {k.id === 'afgewezen' && (
+                  <details class="o4 meer-brieven meer-stappen" data-af-later hidden>
+                    <summary>Daarna: als u het besluit op papier heeft</summary>
+                  </details>
+                )}
+              </>
+            )}
+
+            {k.id === 'verkeerde-hulp' && (
+              <>
+                <p class="meta o5" data-tips-link hidden>
+                  <a href="#tips">Welke andere vormen van hulp passen bij uw kind? Bekijk de therapievormen hieronder ↓</a>
+                </p>
+                <p class="meta o5" data-tips-link-alg>
+                  <a href={`${base}/therapievormen/`}>Welke andere vormen van hulp zijn er? Bekijk de therapievormen →</a>
+                </p>
+              </>
+            )}
+            {k.id === 'geld' && (
+              <p class="meta o5">
+                <a href={`${base}/landelijk/#05-financieel`}>Dubbele kinderbijslag en andere regelingen: wat u opschrijft en hoe u aanvraagt →</a>
+              </p>
+            )}
+            {k.data.brieven.length > 0 && (
+              <div class="o7" data-brieven-blok>
+                <h3>Voorbeeldbrieven</h3>
+                <div class="grid" data-generieke-brieven>
+                  {k.data.brieven.map((id) => {
+                    const b = brieven.find((x) => x.id === id);
+                    return b && <BriefKaart b={b} zoek={k.id === 'wachten' ? KLACHT_BIJ_WACHTEN[id] : undefined} />;
+                  })}
                 </div>
-              );
-            })}
-          </div>)}
-          
-        </div>
-      ))}
-
-      <!-- Begint de situatie bij de huisarts of school? Dan onder stap 1 toch één regel met het wijkteam, als gelijkwaardige ingang (order 3). -->
-      <!-- De blokken van de gekozen gemeente (data-gemeente-slot) komen uit src/pages/gemeente-blokken/[slug].astro, opgehaald door src/lib/gemeente-blokken.ts. -->
-      <div class="o3" data-wijkteam-regel data-gemeente-slot="overzicht-wijkteam-regel"></div>
-
-      <!-- Contact van de eerste ingang, direct onder stap 1 (order 3). Eén keer op de pagina; in blok 2 staat deze ingang niet nog eens. -->
-      <div class="o3" data-eerste-contact data-gemeente-slot="overzicht-eerste-contact"></div>
-
-      <!-- Wat er in de gemeente bij de stappen hoort (order 6): cliëntondersteuning, klacht, bezwaar, enz. Het wijkteam zelf staat al onder stap 1. -->
-      <div class="o6" data-knelpunt-gemeente data-gemeente-slot="overzicht-handig">
-        <div class="gemeente-blok" data-gemeente=""><p class="meta">Kies uw gemeente om de contactgegevens te zien.</p></div>
-      </div>
-
-      <div class="o5b">
-        <div data-vs-leeftijd="0-4" hidden><p class="meta vs-leeftijd"><strong>Bij deze leeftijd:</strong> gaat de route via een arts, dan is dat de jeugdarts of jeugdverpleegkundige van het consultatiebureau. Die kent uw kind al en verwijst direct. Gaat de route via het wijkteam, vraag dan het consultatiebureau om het contact te leggen. School speelt nog geen rol.</p></div>
-        <div data-vs-leeftijd="4-12" hidden><p class="meta vs-leeftijd"><strong>Bij deze leeftijd:</strong> <span data-tip-school>informeer ook school. De intern begeleider ziet uw kind elke dag en kan het wijkteam of de jeugdarts helpen met wat hij of zij ziet. </span>Let op leeftijdsgrenzen van regelingen, zoals vergoed dyslexieonderzoek tot 13 jaar.</p></div>
-        <div data-vs-leeftijd="12-18" hidden><p class="meta vs-leeftijd"><strong>Bij deze leeftijd:</strong> uw kind beslist vanaf 12 mee en vanaf 16 grotendeels zelf. Hulpverleners delen dan minder met u. Neem uw kind mee in elke stap. Vanaf 16 hoort ook de overgang naar 18 erbij: <a href={`${base}/overzicht/?k=wordt-18`}>"Mijn kind wordt 18"</a>.</p></div>
-        <div data-vs-leeftijd="18-99" hidden><p class="meta vs-leeftijd"><strong>Bij deze leeftijd:</strong> de Jeugdwet geldt niet meer, tenzij verlengde jeugdhulp is toegekend. Voor een volwassen kind loopt hulp via de Wmo van de gemeente, de zorgverzekering of de Wlz, en uw kind beslist zelf. Zie <a href={`${base}/overzicht/?k=wordt-18`}>"Mijn kind wordt 18"</a>.</p></div>
-      </div>
-    </section>
-
-    <!-- Blok 2: de andere ingangen in de gemeente, elk één keer met contactgegevens. De ingang van blok 1 staat hier niet. -->
-    <section class="section" id="gemeente">
-      <h2><span class="section-num">1</span><span data-kop-gemeente>Andere ingangen</span></h2>
-      <div class="gemeente-blok" data-gemeente=""><p class="empty">Kies uw gemeente om te zien waar u daar terechtkunt. De routes hieronder gelden in elke gemeente.</p></div>
-      <div class="gemeente-blok" data-gemeente="_overig"><p>Uw gemeente staat nog niet op deze site. Zoek op de website van uw gemeente naar "jeugdhulp" of "wijkteam". De landelijke rechten en regelingen gelden ook voor u.</p></div>
-      <div data-gemeente-slot="overzicht-routes"></div>
-      <div data-routes-algemeen>
-        {situaties.map((s) => s.data.routes.filter((r) => r.type !== 'spoed').map((r, i) => (
-          <div class={`route ${r.type}`} data-situatie={s.id} hidden>{i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span> <span class="badge" style="background:var(--c-bg);color:var(--c-muted)">{s.data.titel}</span><p style="margin:.5rem 0 0">{r.waarom}</p></div>
-        )))}
-      </div>
-    </section>
-
-    <section class="section" id="hulp">
-      <h2><span class="section-num">2</span>Welke hulp bestaat er?</h2>
-      <ToegangLegenda />
-      <div class="grid">
-        {hulpsoorten.map((h) => (
-          <HulpsoortKaart h={h} voorbeelden={false} data-hulpsoort={h.id} data-van={h.data.leeftijd?.van ?? 0} data-tot={h.data.leeftijd?.tot ?? 99} hidden {...(veelVormen(h.id) ? { naarTherapie: 'uw situatie', anker: '#tips', 'data-naar-tips': `${base}/hulpsoorten/${h.id}/` } : {})} />
-        ))}
-      </div>
-    </section>
-
-    <section class="section" id="tips" data-tips-wrap>
-      <h2><span class="section-num">3</span>Welke therapievormen kunnen passen?</h2>
-      <div class="grid gelijk" data-tip-grid>{therapie.map((t, i) => <div data-tip-situaties={t.data.situaties.join(' ')} data-tip-hulpsoorten={t.data.hulpsoorten.join(' ')} data-tip-rang={tipRang(t.id)} data-tip-i={i} data-van={t.data.leeftijd?.van ?? 0} data-tot={t.data.leeftijd?.tot ?? 99} hidden><TherapieKaart t={t} /></div>)}</div>
-    </section>
-
-    <section class="section" id="situaties">
-      <h2><span class="section-num">4</span>Verdieping per situatie</h2>
-      <div class="grid">
-        {situaties.map((s) => (
-          <a class="card link" href={`${base}/situaties/${s.id}/`} data-situatie={s.id} hidden>
-            <h3>{afbreken(s.data.titel)}</h3>
-            <p class="meta">{s.data.samenvatting}</p>
-            <span class="arrow">Wat helpt en waar het misgaat →</span>
-          </a>
-        ))}
-      </div>
-    </section>
-
-    <section class="section" id="regelingen">
-      <h2><span class="section-num">5</span>Rechten en regelingen</h2>
-      <ul class="linklist" data-gemeente-slot="overzicht-leerplicht">
-        {situaties.map((s) => s.data.regelingen.map((r) => (
-          <li data-situatie={s.id} hidden>{r.url ? <a href={r.url} target="_blank" rel="noopener"><Icon name="external" />{r.naam}</a> : <strong>{r.naam}</strong>}<p>{r.toelichting}</p></li>
-        )))}
-      </ul>
-      <h3>Landelijke uitleg</h3>
-      <ul>{landelijk.map((l) => <li data-landelijk={l.id} hidden><a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}</li>)}</ul>
-    </section>
-
-    <section class="section" id="organisaties">
-      <h2><span class="section-num">6</span>Organisaties die hierbij passen</h2>
-      <div class="grid">
-        {organisaties.map((o) => (
-          <div class="card" data-themas={j(o.data.themas)} hidden>
-            <span class="badge">{o.data.soort}</span>
-            <h3 style="margin-top:.6rem">{o.data.naam}</h3>
-            <p>{o.data.omschrijving}</p>
-            <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
+                {k.id === 'beginnen' &&
+                  situaties.map((sit) => {
+                    // Per situatie: de brieven die bij de routes van die situatie horen, in volgorde van de routes. Lege lijst = generieke brieven tonen.
+                    const types = sit.data.routes.map((r) => r.type as string);
+                    // Brieven die bij een ander knelpunt horen (klacht, bezwaar, verhuizing) zijn geen startbrieven.
+                    const andere = new Set(knelpunten.filter((x) => x.id !== 'beginnen').flatMap((x) => x.data.brieven));
+                    const eigen = brieven
+                      .filter((b) => b.data.situaties.includes(sit.id) && types.includes(b.data.aan) && (!andere.has(b.id) || k.data.brieven.includes(b.id)))
+                      .sort((a, b) => types.indexOf(a.data.aan) - types.indexOf(b.data.aan) || a.data.volgorde - b.data.volgorde);
+                    // Brieven voor de eerste route staan open; de rest staat ingeklapt onder "Andere brieven". Noemt stap 1 het wijkteam
+                    // als gelijkwaardige ingang (beginBij, bv. ADHD), dan staat de brief aan het wijkteam ook open.
+                    const r0 = sit.data.routes[0];
+                    const directTypes = [types[0], ...(r0.beginBij && /wijkteam/.test(r0.beginBij) ? ['wijkteam'] : [])];
+                    const direct = eigen.filter((b) => directTypes.includes(b.data.aan));
+                    const rest = eigen.filter((b) => !directTypes.includes(b.data.aan));
+                    return (
+                      eigen.length > 0 && (
+                        <div data-situatie-brieven={sit.id} hidden>
+                          <div class="grid">
+                            {(direct.length > 0 ? direct : eigen).map((b) => (
+                              <BriefKaart b={b} />
+                            ))}
+                          </div>
+                          {direct.length > 0 && rest.length > 0 && (
+                            <details class="meer-brieven">
+                              <summary>Andere brieven bij deze situatie ({rest.length})</summary>
+                              <p class="meta">Voor als u via een andere route begint, of later alsnog hulp aanvraagt.</p>
+                              <div class="grid">
+                                {rest.map((b) => (
+                                  <BriefKaart b={b} />
+                                ))}
+                              </div>
+                            </details>
+                          )}
+                        </div>
+                      )
+                    );
+                  })}
+              </div>
+            )}
           </div>
         ))}
-      </div>
-    </section>
-    <!-- Bronnen van de gekozen vraag, onderaan zoals op alle pagina's; het script toont die van de gekozen vraag. -->
-    {knelpunten.filter((k) => k.data.bronnen.length > 0).map((k) => <Sources bronnen={k.data.bronnen} laatstGecontroleerd={k.data.laatstGecontroleerd} data-knelpunt-bronnen={k.id} id={`bronnen-${k.id}`} hidden />)}
-   </div>
+
+        <!-- Begint de situatie bij de huisarts of school? Dan onder stap 1 toch één regel met het wijkteam, als gelijkwaardige ingang (order 3). -->
+        <!-- De blokken van de gekozen gemeente (data-gemeente-slot) komen uit src/pages/gemeente-blokken/[slug].astro, opgehaald door src/lib/gemeente-blokken.ts. -->
+        <div class="o3" data-wijkteam-regel data-gemeente-slot="overzicht-wijkteam-regel"></div>
+
+        <!-- Contact van de eerste ingang, direct onder stap 1 (order 3). Eén keer op de pagina; in blok 2 staat deze ingang niet nog eens. -->
+        <div class="o3" data-eerste-contact data-gemeente-slot="overzicht-eerste-contact"></div>
+
+        <!-- Wat er in de gemeente bij de stappen hoort (order 6): cliëntondersteuning, klacht, bezwaar, enz. Het wijkteam zelf staat al onder stap 1. -->
+        <div class="o6" data-knelpunt-gemeente data-gemeente-slot="overzicht-handig">
+          <div class="gemeente-blok" data-gemeente="">
+            <p class="meta">Kies uw gemeente om de contactgegevens te zien.</p>
+          </div>
+        </div>
+
+        <div class="o5b">
+          <div data-vs-leeftijd="0-4" hidden>
+            <p class="meta vs-leeftijd">
+              <strong>Bij deze leeftijd:</strong> gaat de route via een arts, dan is dat de jeugdarts of jeugdverpleegkundige van het consultatiebureau. Die
+              kent uw kind al en verwijst direct. Gaat de route via het wijkteam, vraag dan het consultatiebureau om het contact te leggen. School speelt nog
+              geen rol.
+            </p>
+          </div>
+          <div data-vs-leeftijd="4-12" hidden>
+            <p class="meta vs-leeftijd">
+              <strong>Bij deze leeftijd:</strong>{' '}
+              <span data-tip-school>
+                informeer ook school. De intern begeleider ziet uw kind elke dag en kan het wijkteam of de jeugdarts helpen met wat hij of zij ziet.{' '}
+              </span>
+              Let op leeftijdsgrenzen van regelingen, zoals vergoed dyslexieonderzoek tot 13 jaar.
+            </p>
+          </div>
+          <div data-vs-leeftijd="12-18" hidden>
+            <p class="meta vs-leeftijd">
+              <strong>Bij deze leeftijd:</strong> uw kind beslist vanaf 12 mee en vanaf 16 grotendeels zelf. Hulpverleners delen dan minder met u. Neem uw kind
+              mee in elke stap. Vanaf 16 hoort ook de overgang naar 18 erbij: <a href={`${base}/overzicht/?k=wordt-18`}>"Mijn kind wordt 18"</a>.
+            </p>
+          </div>
+          <div data-vs-leeftijd="18-99" hidden>
+            <p class="meta vs-leeftijd">
+              <strong>Bij deze leeftijd:</strong> de Jeugdwet geldt niet meer, tenzij verlengde jeugdhulp is toegekend. Voor een volwassen kind loopt hulp via
+              de Wmo van de gemeente, de zorgverzekering of de Wlz, en uw kind beslist zelf. Zie{' '}
+              <a href={`${base}/overzicht/?k=wordt-18`}>"Mijn kind wordt 18"</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blok 2: de andere ingangen in de gemeente, elk één keer met contactgegevens. De ingang van blok 1 staat hier niet. -->
+      <section class="section" id="gemeente">
+        <h2>
+          <span class="section-num">1</span>
+          <span data-kop-gemeente>Andere ingangen</span>
+        </h2>
+        <div class="gemeente-blok" data-gemeente="">
+          <p class="empty">Kies uw gemeente om te zien waar u daar terechtkunt. De routes hieronder gelden in elke gemeente.</p>
+        </div>
+        <div class="gemeente-blok" data-gemeente="_overig">
+          <p>
+            Uw gemeente staat nog niet op deze site. Zoek op de website van uw gemeente naar "jeugdhulp" of "wijkteam". De landelijke rechten en regelingen
+            gelden ook voor u.
+          </p>
+        </div>
+        <div data-gemeente-slot="overzicht-routes"></div>
+        <div data-routes-algemeen>
+          {situaties.map((s) =>
+            s.data.routes
+              .filter((r) => r.type !== 'spoed')
+              .map((r, i) => (
+                <div class={`route ${r.type}`} data-situatie={s.id} hidden>
+                  {i === 0 && <span class="badge begin">Begin hier</span>} <span class="badge">{routeLabel[r.type]}</span>{' '}
+                  <span class="badge" style="background:var(--c-bg);color:var(--c-muted)">
+                    {s.data.titel}
+                  </span>
+                  <p style="margin:.5rem 0 0">{r.waarom}</p>
+                </div>
+              )),
+          )}
+        </div>
+      </section>
+
+      <section class="section" id="hulp">
+        <h2>
+          <span class="section-num">2</span>Welke hulp bestaat er?
+        </h2>
+        <ToegangLegenda />
+        <div class="grid">
+          {hulpsoorten.map((h) => (
+            <HulpsoortKaart
+              h={h}
+              voorbeelden={false}
+              data-hulpsoort={h.id}
+              data-van={h.data.leeftijd?.van ?? 0}
+              data-tot={h.data.leeftijd?.tot ?? 99}
+              hidden
+              {...(veelVormen(h.id) ? { naarTherapie: 'uw situatie', anker: '#tips', 'data-naar-tips': `${base}/hulpsoorten/${h.id}/` } : {})}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section class="section" id="tips" data-tips-wrap>
+        <h2>
+          <span class="section-num">3</span>Welke therapievormen kunnen passen?
+        </h2>
+        <div class="grid gelijk" data-tip-grid>
+          {therapie.map((t, i) => (
+            <div
+              data-tip-situaties={t.data.situaties.join(' ')}
+              data-tip-hulpsoorten={t.data.hulpsoorten.join(' ')}
+              data-tip-rang={tipRang(t.id)}
+              data-tip-i={i}
+              data-van={t.data.leeftijd?.van ?? 0}
+              data-tot={t.data.leeftijd?.tot ?? 99}
+              hidden
+            >
+              <TherapieKaart t={t} />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="section" id="situaties">
+        <h2>
+          <span class="section-num">4</span>Verdieping per situatie
+        </h2>
+        <div class="grid">
+          {situaties.map((s) => (
+            <a class="card link" href={`${base}/situaties/${s.id}/`} data-situatie={s.id} hidden>
+              <h3>{afbreken(s.data.titel)}</h3>
+              <p class="meta">{s.data.samenvatting}</p>
+              <span class="arrow">Wat helpt en waar het misgaat →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="section" id="regelingen">
+        <h2>
+          <span class="section-num">5</span>Rechten en regelingen
+        </h2>
+        <ul class="linklist" data-gemeente-slot="overzicht-leerplicht">
+          {situaties.map((s) =>
+            s.data.regelingen.map((r) => (
+              <li data-situatie={s.id} hidden>
+                {r.url ? (
+                  <a href={r.url} target="_blank" rel="noopener">
+                    <Icon name="external" />
+                    {r.naam}
+                  </a>
+                ) : (
+                  <strong>{r.naam}</strong>
+                )}
+                <p>{r.toelichting}</p>
+              </li>
+            )),
+          )}
+        </ul>
+        <h3>Landelijke uitleg</h3>
+        <ul>
+          {landelijk.map((l) => (
+            <li data-landelijk={l.id} hidden>
+              <a href={`${base}/landelijk/#${l.id}`}>{l.data.titel}</a> – {l.data.samenvatting}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="section" id="organisaties">
+        <h2>
+          <span class="section-num">6</span>Organisaties die hierbij passen
+        </h2>
+        <div class="grid">
+          {organisaties.map((o) => (
+            <div class="card" data-themas={j(o.data.themas)} hidden>
+              <span class="badge">{o.data.soort}</span>
+              <h3 style="margin-top:.6rem">{o.data.naam}</h3>
+              <p>{o.data.omschrijving}</p>
+              <Contact contact={{ naam: o.data.naam, url: o.data.url, telefoon: o.data.telefoon }} zonder={['naam']} class="kaal org-voet" />
+            </div>
+          ))}
+        </div>
+      </section>
+      <!-- Bronnen van de gekozen vraag, onderaan zoals op alle pagina's; het script toont die van de gekozen vraag. -->
+      {knelpunten
+        .filter((k) => k.data.bronnen.length > 0)
+        .map((k) => (
+          <Sources bronnen={k.data.bronnen} laatstGecontroleerd={k.data.laatstGecontroleerd} data-knelpunt-bronnen={k.id} id={`bronnen-${k.id}`} hidden />
+        ))}
+    </div>
   </div>
 </Base>
-<script is:inline set:html={`window.__jrKlachtWachten = ${JSON.stringify(KLACHT_BIJ_WACHTEN)}; window.__jrSituaties = ${JSON.stringify(sitData)}; window.__jrKnelpunten = ${JSON.stringify(knelData)}; window.__jrNamen = ${JSON.stringify(namen)};`} />
+<PaginaData naam="overzicht" data={{ situaties: sitData, knelpunten: knelData, namen }} />
 <script>
   import '../scripts/overzicht';
 </script>

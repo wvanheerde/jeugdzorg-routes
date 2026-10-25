@@ -1,0 +1,14 @@
+/* ---------- Moeilijke woorden en de begrippenlijst ---------- */
+/* Uitleg bij officiële woorden */
+.woord:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; border-radius: 2px; }
+.woord { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help; text-decoration: underline dotted var(--c-primary); text-underline-offset: .2em; text-decoration-thickness: 2px; }
+.woord[aria-expanded="true"] { color: var(--c-primary-dark); }
+.woord-uitleg { display: block; margin: .3rem 0 .5rem; padding: .5rem .7rem; font-size: .92rem; background: var(--c-primary-soft); border-left: 3px solid var(--c-primary); border-radius: 6px; }
+.woord-uitleg[hidden] { display: none; }
+/* Begrippenpagina */
+.begrippen { margin: 1rem 0 2rem; max-width: 46rem; }
+.begrippen > div { padding: .7rem 0; border-bottom: 1px solid var(--c-border); scroll-margin-top: 5.5rem; }
+.begrippen > div[hidden] { display: none; }
+.begrippen h3 { font-family: inherit; font-size: 1rem; font-weight: 700; margin: 0; scroll-margin-top: 6rem; }
+.begrippen p { margin: .2rem 0 0; }
+.begrippen > div:has(> :target) { background: var(--c-primary-soft); border-radius: 6px; padding-inline: .6rem; }

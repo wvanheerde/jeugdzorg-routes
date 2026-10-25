@@ -1,0 +1,25 @@
+/* ---------- Ontwerp-tokens ---------- */
+:root {
+  --c-bg: #f7f5f0;          /* warm zand */
+  --c-surface: #ffffff;
+  --c-surface-2: #fdfcfa;
+  --c-text: #1b2733;
+  --c-muted: #5c6b7a;
+  --c-border: #e6e1d8;
+  --c-primary: #0f6b6e;     /* diep teal */
+  --c-primary-dark: #0b5255;
+  --c-primary-soft: #e3f1f0;
+  --c-accent: #bf4f1c;      /* terracotta, spaarzaam */
+  --c-accent-soft: #fbeae1;
+  --c-warn-bg: #fff6e5;
+  --c-warn-border: #f0c67a;
+  --c-ok-soft: #e6f4ea;
+  --c-ok: #1d7a3a;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px rgba(27,39,51,.05), 0 1px 1px rgba(27,39,51,.03);
+  --shadow-md: 0 6px 20px rgba(27,39,51,.08);
+  --maxw: 74rem;
+  --font-body: 'Inter Variable', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-head: 'Source Serif 4 Variable', Georgia, 'Times New Roman', serif;
+}

@@ -8,68 +8,108 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import BriefKaart from '../components/BriefKaart.astro';
-import { getCollection } from 'astro:content';
+import { gesorteerd } from '../lib/collecties';
+import { base } from '../site';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde - c.data.volgorde);
+const brieven = await gesorteerd('brieven');
 ---
-<Base title="Hulpmiddelen" description="Hulpmiddelen voor ouders bij jeugdhulp: een vel om het gesprek met het wijkteam voor te bereiden, een logboek, een controlelijst voor de beschikking, een vel over uw kind, een dagboek in Word, een check welke regelingen passen, moeilijke woorden uitgelegd en voorbeeldbrieven.">
+
+<Base
+  title="Hulpmiddelen"
+  description="Hulpmiddelen voor ouders bij jeugdhulp: een vel om het gesprek met het wijkteam voor te bereiden, een logboek, een controlelijst voor de beschikking, een vel over uw kind, een dagboek in Word, een check welke regelingen passen, moeilijke woorden uitgelegd en voorbeeldbrieven."
+>
   <div class="page-head">
     <span class="eyebrow">Om te gebruiken</span>
     <h1>Hulpmiddelen</h1>
-    <p class="lead">Alles om zelf mee aan de slag te gaan: om een gesprek voor te bereiden en om iets op papier te vragen. U vindt ze ook bij de stappen in Mijn overzicht, op de plek waar u ze nodig heeft.</p>
+    <p class="lead">
+      Alles om zelf mee aan de slag te gaan: om een gesprek voor te bereiden en om iets op papier te vragen. U vindt ze ook bij de stappen in Mijn overzicht, op
+      de plek waar u ze nodig heeft.
+    </p>
   </div>
 
-  <nav class="toc" data-pagefind-ignore aria-label="Snel naar"><a href="#voorbereiden">Voorbereiden</a><a href="#brieven">Voorbeeldbrieven</a></nav>
+  <nav class="toc" data-pagefind-ignore aria-label="Snel naar">
+    <a href="#voorbereiden">Voorbereiden</a>
+    <a href="#brieven">Voorbeeldbrieven</a>
+  </nav>
   <section class="section">
     <h2 id="voorbereiden">Voorbereiden</h2>
     <div class="grid">
       <a class="card link" href={`${base}/gesprek/`}>
-        <div class="icon"><Icon name="users" /></div>
+        <div class="icon">
+          <Icon name="users" />
+        </div>
         <span class="badge">Om af te drukken</span>
         <h3 style="margin-top:.6rem">Uw gesprek voorbereiden</h3>
-        <p class="meta">Voor het gesprek met het wijkteam. Druk het vel af, vul het met de hand in en neem het mee. Met een dagboek van een week, zinnen die helpen en vragen om te stellen.</p>
+        <p class="meta">
+          Voor het gesprek met het wijkteam. Druk het vel af, vul het met de hand in en neem het mee. Met een dagboek van een week, zinnen die helpen en vragen
+          om te stellen.
+        </p>
         <span class="arrow">Bekijk en druk af →</span>
       </a>
       <a class="card link" href={`${base}/logboek/`}>
-        <div class="icon"><Icon name="file" /></div>
+        <div class="icon">
+          <Icon name="file" />
+        </div>
         <span class="badge">Om af te drukken</span>
         <h3 style="margin-top:.6rem">Logboek van afspraken en contacten</h3>
-        <p class="meta">Schrijf na elk gesprek, telefoontje of mail op wat er is afgesproken, en wie wat doet. Dan ziet u later wat er is gebeurd en hoe lang iets duurt.</p>
+        <p class="meta">
+          Schrijf na elk gesprek, telefoontje of mail op wat er is afgesproken, en wie wat doet. Dan ziet u later wat er is gebeurd en hoe lang iets duurt.
+        </p>
         <span class="arrow">Bekijk en druk af →</span>
       </a>
       <a class="card link" href={`${base}/beschikking/`}>
-        <div class="icon"><Icon name="shield" /></div>
+        <div class="icon">
+          <Icon name="shield" />
+        </div>
         <span class="badge">Om af te drukken</span>
         <h3 style="margin-top:.6rem">Uw beschikking nalezen</h3>
-        <p class="meta">Het besluit van de gemeente ontvangen? Kijk met deze lijst of erin staat wat erin hoort, en reken uit tot wanneer u bezwaar kunt maken.</p>
+        <p class="meta">
+          Het besluit van de gemeente ontvangen? Kijk met deze lijst of erin staat wat erin hoort, en reken uit tot wanneer u bezwaar kunt maken.
+        </p>
         <span class="arrow">Bekijk en druk af →</span>
       </a>
       <a class="card link" href={`${base}/mijn-kind/`}>
-        <div class="icon"><Icon name="heart" /></div>
+        <div class="icon">
+          <Icon name="heart" />
+        </div>
         <span class="badge">Om af te drukken</span>
         <h3 style="margin-top:.6rem">Dit is mijn kind</h3>
-        <p class="meta">Eén vel voor een nieuwe hulpverlener, leerkracht of opvang: wat helpt, wat niet, en wat uw kind zelf wil zeggen. Dan hoeft u niet steeds opnieuw het hele verhaal te vertellen.</p>
+        <p class="meta">
+          Eén vel voor een nieuwe hulpverlener, leerkracht of opvang: wat helpt, wat niet, en wat uw kind zelf wil zeggen. Dan hoeft u niet steeds opnieuw het
+          hele verhaal te vertellen.
+        </p>
         <span class="arrow">Bekijk en druk af →</span>
       </a>
       <a class="card link" href={`${base}/downloads/dagboek-zorg-twee-weken.docx`} download>
-        <div class="icon"><Icon name="clock" /></div>
+        <div class="icon">
+          <Icon name="clock" />
+        </div>
         <span class="badge">Word-bestand</span>
         <h3 style="margin-top:.6rem">Dagboek van twee weken</h3>
-        <p class="meta">Voor de aanvraag van dubbele kinderbijslag. Schrijf twee weken op welke extra zorg uw kind elke dag nodig heeft. Het dagboek heeft dezelfde onderdelen als het formulier van het CIZ, en zegt per onderdeel wat meetelt. Invullen op de computer of uitprinten.</p>
+        <p class="meta">
+          Voor de aanvraag van dubbele kinderbijslag. Schrijf twee weken op welke extra zorg uw kind elke dag nodig heeft. Het dagboek heeft dezelfde onderdelen
+          als het formulier van het CIZ, en zegt per onderdeel wat meetelt. Invullen op de computer of uitprinten.
+        </p>
         <span class="arrow">Download (Word) →</span>
       </a>
       {/* De regelingencheck (verdieping bij "Extra kosten of kinderbijslag"). Zonder gemeente in het adres neemt Mijn overzicht de gemeente
           die de ouder eerder koos, met de regelingen van die gemeente. */}
       <a class="card link" href={`${base}/overzicht/?k=geld`}>
-        <div class="icon"><Icon name="coins" /></div>
+        <div class="icon">
+          <Icon name="coins" />
+        </div>
         <span class="badge">Een paar vragen</span>
         <h3 style="margin-top:.6rem">Welke regelingen passen bij u?</h3>
-        <p class="meta">Dubbele kinderbijslag, geld voor extra kosten, een kindpakket of een mantelzorgwaardering? Beantwoord een paar vragen, dan ziet u welke regelingen waarschijnlijk passen, ook die van uw gemeente.</p>
+        <p class="meta">
+          Dubbele kinderbijslag, geld voor extra kosten, een kindpakket of een mantelzorgwaardering? Beantwoord een paar vragen, dan ziet u welke regelingen
+          waarschijnlijk passen, ook die van uw gemeente.
+        </p>
         <span class="arrow">Doe de regelingencheck →</span>
       </a>
       <a class="card link" href={`${base}/begrippen/`}>
-        <div class="icon"><Icon name="book" /></div>
+        <div class="icon">
+          <Icon name="book" />
+        </div>
         <span class="badge">Om op te zoeken</span>
         <h3 style="margin-top:.6rem">Moeilijke woorden uitgelegd</h3>
         <p class="meta">Een woord uit een brief of gesprek dat u niet kent? Hier staat het in gewone taal, van A tot Z.</p>
@@ -80,7 +120,14 @@ const brieven = (await getCollection('brieven')).sort((a, c) => a.data.volgorde 
 
   <section class="section">
     <h2 id="brieven">Voorbeeldbrieven</h2>
-    <p class="meta">Kant-en-klare teksten om een gesprek, hulp of bezwaar op papier te vragen. Bij elke brief staat wanneer u hem gebruikt en waar u op let. Invullen, kopiëren, versturen. De brieven zijn voorbeelden, geen juridisch advies.</p>
-    <div class="grid">{brieven.map((b) => <BriefKaart b={b} />)}</div>
+    <p class="meta">
+      Kant-en-klare teksten om een gesprek, hulp of bezwaar op papier te vragen. Bij elke brief staat wanneer u hem gebruikt en waar u op let. Invullen,
+      kopiëren, versturen. De brieven zijn voorbeelden, geen juridisch advies.
+    </p>
+    <div class="grid">
+      {brieven.map((b) => (
+        <BriefKaart b={b} />
+      ))}
+    </div>
   </section>
 </Base>

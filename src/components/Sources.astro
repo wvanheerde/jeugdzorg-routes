@@ -3,11 +3,30 @@
  * Bronnen van een pagina: altijd één blok helemaal onderaan (id="bronnen"), met de datum en de bronnen ingeklapt.
  * Gebruik dit op elke pagina met bronnen, zodat ze overal op dezelfde manier en plek staan. Zie CONTENT.md.
  */
-interface Props { bronnen: { titel: string; url: string; geraadpleegd: string }[]; laatstGecontroleerd: string; [attr: string]: unknown }
+interface Props {
+  bronnen: { titel: string; url: string; geraadpleegd: string }[];
+  laatstGecontroleerd: string;
+  [attr: string]: unknown;
+}
 import { datum } from '../lib/routes';
 const { bronnen, laatstGecontroleerd, ...attrs } = Astro.props;
 ---
+
 <section class="sources" id="bronnen" data-pagefind-ignore {...attrs}>
   {laatstGecontroleerd && <>Bijgewerkt {datum(laatstGecontroleerd)}</>}
-  {bronnen.length > 0 && <details class="inklapper"><summary>Bronnen ({bronnen.length})</summary><ul>{bronnen.map((b) => <li><a href={b.url} target="_blank" rel="noopener">{b.titel}</a> (geraadpleegd {b.geraadpleegd})</li>)}</ul></details>}
+  {bronnen.length > 0 && (
+    <details class="inklapper">
+      <summary>Bronnen ({bronnen.length})</summary>
+      <ul>
+        {bronnen.map((b) => (
+          <li>
+            <a href={b.url} target="_blank" rel="noopener">
+              {b.titel}
+            </a>{' '}
+            (geraadpleegd {b.geraadpleegd})
+          </li>
+        ))}
+      </ul>
+    </details>
+  )}
 </section>

@@ -1,18 +1,25 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getCollection } from 'astro:content';
+import { gesorteerd } from '../../lib/collecties';
 import HulpsoortKaart from '../../components/HulpsoortKaart.astro';
 import ToegangLegenda from '../../components/ToegangLegenda.astro';
 import { afbreken } from '../../lib/afbreken';
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const situaties = (await getCollection('situaties')).sort((a, b) => a.data.volgorde - b.data.volgorde);
-const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+import { base } from '../../site';
+const situaties = await gesorteerd('situaties');
+const hulpsoorten = await gesorteerd('hulpsoorten');
 ---
-<Base title="Situaties en hulpsoorten" description="Herkent u de situatie van uw kind? Lees per situatie welke hulp er is, waar u begint en wat u zelf kunt doen.">
+
+<Base
+  title="Situaties en hulpsoorten"
+  description="Herkent u de situatie van uw kind? Lees per situatie welke hulp er is, waar u begint en wat u zelf kunt doen."
+>
   <div class="page-head">
     <span class="eyebrow">Wat speelt er?</span>
     <h1>Situaties</h1>
-    <p class="lead">Kies wat het meest lijkt op uw situatie. U ziet dan welke hulp er bestaat, welke route logisch is en welke regelingen en organisaties erbij horen. Meerdere situaties tegelijk komt vaak voor; kijk gerust bij allebei.</p>
+    <p class="lead">
+      Kies wat het meest lijkt op uw situatie. U ziet dan welke hulp er bestaat, welke route logisch is en welke regelingen en organisaties erbij horen.
+      Meerdere situaties tegelijk komt vaak voor; kijk gerust bij allebei.
+    </p>
   </div>
   <div class="grid">
     {situaties.map((s) => (
@@ -24,8 +31,13 @@ const hulpsoorten = (await getCollection('hulpsoorten')).sort((a, b) => a.data.v
     ))}
   </div>
 
-  <div class="kicker"><h2 id="hulpsoorten">Welke soorten jeugdhulp bestaan er?</h2><span class="line"></span></div>
-  <p class="lead" style="font-size:1.05rem;margin-top:.75rem">Dit zijn de soorten hulp die elke gemeente moet kunnen bieden. De namen van aanbieders verschillen, de soorten niet.</p>
+  <div class="kicker">
+    <h2 id="hulpsoorten">Welke soorten jeugdhulp bestaan er?</h2>
+    <span class="line"></span>
+  </div>
+  <p class="lead" style="font-size:1.05rem;margin-top:.75rem">
+    Dit zijn de soorten hulp die elke gemeente moet kunnen bieden. De namen van aanbieders verschillen, de soorten niet.
+  </p>
   <ToegangLegenda />
   <div class="grid" style="margin-top:1.25rem">
     {hulpsoorten.map((h) => (

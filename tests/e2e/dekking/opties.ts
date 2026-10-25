@@ -22,7 +22,11 @@ export const codeOpties: CoverageReportOptions = {
   // Na het terugvertalen met sourcemaps: alleen eigen bronbestanden.
   sourceFilter: (p) => /(^|\/)src\//.test(p) && !p.includes('node_modules'),
   // "src/pages/x.astro?astro&type=script&index=0&lang.ts" → "src/pages/x.astro"
-  sourcePath: (p) => p.replace(/^.*?(src\/)/, 'src/').replace(/(\.astro).*$/, '$1').replace(/\?.*$/, ''),
+  sourcePath: (p) =>
+    p
+      .replace(/^.*?(src\/)/, 'src/')
+      .replace(/(\.astro).*$/, '$1')
+      .replace(/\?.*$/, ''),
 };
 
 /** Paden die een scenario bezocht of ophaalde, per testwerker in een eigen bestand (geen gelijktijdig schrijven). */

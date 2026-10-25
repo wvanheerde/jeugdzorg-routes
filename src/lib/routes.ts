@@ -1,5 +1,5 @@
 /** Contact van een route als lijst (het veld mag één blok of een lijst zijn). */
-export const contacten = <T,>(c: T | T[] | undefined): T[] => (c ? ([] as T[]).concat(c) : []);
+export const contacten = <T>(c: T | T[] | undefined): T[] => (c ? ([] as T[]).concat(c) : []);
 
 /** Korte label per route, in oudertaal (badges). */
 export const routeLabel: Record<string, string> = {
@@ -23,7 +23,10 @@ export const beginBij: Record<string, string> = {
 export const beschikking: Record<string, { kort: string; lang: string }> = {
   ja: { kort: 'Toestemming gemeente nodig', lang: 'De gemeente moet eerst een besluit nemen (een beschikking) voordat deze hulp start.' },
   nee: { kort: 'Vrij toegankelijk', lang: 'Geen verwijzing en geen besluit van de gemeente nodig; u kunt zelf contact opnemen.' },
-  soms: { kort: 'Soms toestemming gemeente nodig', lang: 'Of de gemeente eerst een besluit (beschikking) neemt, hangt af van de route. Via de huisarts, jeugdarts of specialist, of bij lichte hulp, is dat vaak niet nodig; via het wijkteam vaak wel.' },
+  soms: {
+    kort: 'Soms toestemming gemeente nodig',
+    lang: 'Of de gemeente eerst een besluit (beschikking) neemt, hangt af van de route. Via de huisarts, jeugdarts of specialist, of bij lichte hulp, is dat vaak niet nodig; via het wijkteam vaak wel.',
+  },
   spoed: { kort: 'Bij spoed direct, zonder besluit', lang: 'Bij acute nood start de hulp meteen, zonder besluit van de gemeente vooraf.' },
   rechter: { kort: 'Besluit van de kinderrechter', lang: 'Deze hulp vraagt u niet zelf aan: de kinderrechter beslist erover.' },
 };
@@ -44,11 +47,18 @@ export const datum = (iso: string) => {
  * Zo toont het overzicht alleen de links die bij de gekozen vraag passen: geen klacht of bezwaar bij een eerste hulpvraag.
  */
 export const regelSoort = (naam: string) =>
-  /klacht|niet tevreden|ombuds|meldpunt (zorg|signalen)|melding slechte|vastgelopen/i.test(naam) ? 'klacht'
-  : /bezwaar|verordening|beleidsregels/i.test(naam) ? 'bezwaar'
-  : /vertrouwens/i.test(naam) ? 'vertrouwenspersoon'
-  : /\bpgb\b|persoonsgebonden/i.test(naam) ? 'pgb'
-  : /crisis|spoed|veilig thuis/i.test(naam) ? 'spoed'
-  : /cli[eë]ntondersteun/i.test(naam) ? 'clientondersteuning'
-  : /aanbieder|wachttijd|beschikbaarheid/i.test(naam) ? 'aanbieders'
-  : 'toegang';
+  /klacht|niet tevreden|ombuds|meldpunt (zorg|signalen)|melding slechte|vastgelopen/i.test(naam)
+    ? 'klacht'
+    : /bezwaar|verordening|beleidsregels/i.test(naam)
+      ? 'bezwaar'
+      : /vertrouwens/i.test(naam)
+        ? 'vertrouwenspersoon'
+        : /\bpgb\b|persoonsgebonden/i.test(naam)
+          ? 'pgb'
+          : /crisis|spoed|veilig thuis/i.test(naam)
+            ? 'spoed'
+            : /cli[eë]ntondersteun/i.test(naam)
+              ? 'clientondersteuning'
+              : /aanbieder|wachttijd|beschikbaarheid/i.test(naam)
+                ? 'aanbieders'
+                : 'toegang';

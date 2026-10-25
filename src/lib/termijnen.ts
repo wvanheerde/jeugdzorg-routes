@@ -8,10 +8,20 @@ const zelfde = (a: Date, b: Date) => a.getFullYear() === b.getFullYear() && a.ge
 
 /** Eerste Paasdag (gregoriaans, anonieme algoritme). */
 const pasen = (j: number) => {
-  const a = j % 19, b = Math.floor(j / 100), c = j % 100, d = Math.floor(b / 4), e = b % 4;
-  const f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
-  const i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451);
-  const maand = Math.floor((h + l - 7 * m + 114) / 31), dg = ((h + l - 7 * m + 114) % 31) + 1;
+  const a = j % 19,
+    b = Math.floor(j / 100),
+    c = j % 100,
+    d = Math.floor(b / 4),
+    e = b % 4;
+  const f = Math.floor((b + 8) / 25),
+    g = Math.floor((b - f + 1) / 3),
+    h = (19 * a + b - d - g + 15) % 30;
+  const i = Math.floor(c / 4),
+    k = c % 4,
+    l = (32 + 2 * e + 2 * i - h - k) % 7,
+    m = Math.floor((a + 11 * h + 22 * l) / 451);
+  const maand = Math.floor((h + l - 7 * m + 114) / 31),
+    dg = ((h + l - 7 * m + 114) % 31) + 1;
   return new Date(j, maand - 1, dg);
 };
 
@@ -20,15 +30,26 @@ export const feestdagen = (j: number) => {
   const p = pasen(j);
   const koning = new Date(j, 3, 27);
   return [
-    new Date(j, 0, 1), dag(p, -2), dag(p, 1), koning.getDay() === 0 ? new Date(j, 3, 26) : koning,
-    new Date(j, 4, 5), dag(p, 39), dag(p, 50), new Date(j, 11, 25), new Date(j, 11, 26),
+    new Date(j, 0, 1),
+    dag(p, -2),
+    dag(p, 1),
+    koning.getDay() === 0 ? new Date(j, 3, 26) : koning,
+    new Date(j, 4, 5),
+    dag(p, 39),
+    dag(p, 50),
+    new Date(j, 11, 25),
+    new Date(j, 11, 26),
   ];
 };
 
 const vrij = (d: Date) => d.getDay() === 0 || d.getDay() === 6 || feestdagen(d.getFullYear()).some((f) => zelfde(f, d));
 
 /** Atw art. 1: eindigt een wettelijke termijn op een zaterdag, zondag of feestdag, dan op de eerstvolgende werkdag. */
-const naarWerkdag = (d: Date) => { let x = d; while (vrij(x)) x = dag(x, 1); return x; };
+const naarWerkdag = (d: Date) => {
+  let x = d;
+  while (vrij(x)) x = dag(x, 1);
+  return x;
+};
 
 /** Laatste dag om bezwaar te maken: zes weken, vanaf de dag na de datum op het besluit (Awb 6:7, 6:8). */
 export const bezwaarTot = (besluit: Date) => naarWerkdag(dag(besluit, 42));
@@ -44,7 +65,11 @@ export const volgendeDag = (d: Date) => dag(d, 1);
 /** Uiterlijk melden dat de hulp nog nodig is: acht weken vóór de einddatum van het besluit, want zo lang mag de gemeente in de regel
  *  over een besluit doen (Awb 4:13). Valt die dag in het weekend of op een feestdag, dan de werkdag ervoor. Eigen vuistregel: de wet
  *  telt vooruit vanaf de aanvraag, niet terug vanaf de einddatum. */
-export const meldenVoor = (einde: Date) => { let x = dag(einde, -56); while (vrij(x)) x = dag(x, -1); return x; };
+export const meldenVoor = (einde: Date) => {
+  let x = dag(einde, -56);
+  while (vrij(x)) x = dag(x, -1);
+  return x;
+};
 
 /** Hele dagen van vandaag tot d (negatief als d voorbij is). */
 export const dagenTot = (d: Date, vandaag = new Date()) => {

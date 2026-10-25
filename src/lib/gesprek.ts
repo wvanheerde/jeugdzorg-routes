@@ -36,7 +36,9 @@ export const VRAGEN: { moment: string; vragen: string[] }[] = [
   },
 ];
 
-const fout = (wat: string, waar: string) => { throw new Error(`Vel gespreksvoorbereiding: "${wat}" niet gevonden in ${waar}. Pas src/lib/gesprek.ts aan.`); };
+const fout = (wat: string, waar: string) => {
+  throw new Error(`Vel gespreksvoorbereiding: "${wat}" niet gevonden in ${waar}. Pas src/lib/gesprek.ts aan.`);
+};
 
 /** De tekst onder een kop (## kop) in markdown, tot de volgende kop van hetzelfde niveau. */
 export const sectie = (body: string, kop: string, waar: string) => {
@@ -46,7 +48,10 @@ export const sectie = (body: string, kop: string, waar: string) => {
 
 /** De alinea die met deze woorden begint. */
 export const alinea = (body: string, begin: string, waar: string) =>
-  body.split(/\n\s*\n/).map((a) => a.trim()).find((a) => a.startsWith(begin)) ?? fout(begin, waar);
+  body
+    .split(/\n\s*\n/)
+    .map((a) => a.trim())
+    .find((a) => a.startsWith(begin)) ?? fout(begin, waar);
 
 /** Kopjes van de voorbeeldbrief (**Kopje.** [uitleg]) met de uitleg tussen de haken, in de volgorde van de brief. */
 export const briefKopjes = (body: string, kopjes: string[], waar: string) =>
@@ -65,4 +70,8 @@ export const blokken = (md: string): Blok[] =>
       : { soort: 'p' as const, tekst: regels.join(' ') };
   });
 /** Tekst met **vet** in stukken, voor in de pagina (zonder set:html). */
-export const vet = (tekst: string) => tekst.split(/(\*\*[^*]+\*\*)/).filter(Boolean).map((d) => (d.startsWith('**') ? { vet: true, tekst: d.slice(2, -2) } : { vet: false, tekst: d }));
+export const vet = (tekst: string) =>
+  tekst
+    .split(/(\*\*[^*]+\*\*)/)
+    .filter(Boolean)
+    .map((d) => (d.startsWith('**') ? { vet: true, tekst: d.slice(2, -2) } : { vet: false, tekst: d }));

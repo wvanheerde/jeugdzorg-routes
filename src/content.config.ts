@@ -11,8 +11,12 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
+import { BAND_IDS, type BandId } from './lib/leeftijden';
 
 /* ---------- Herbruikbare bouwstenen ---------- */
+
+/** Per leeftijdsband een optionele tekst (leeftijdsstappen bij de knelpunten). */
+const perBand = Object.fromEntries(BAND_IDS.map((b) => [b, z.string().optional()])) as { [K in BandId]: z.ZodOptional<z.ZodString> };
 
 const bron = z.object({
   titel: z.string(),
@@ -37,11 +41,11 @@ const contact = z.object({
 const route = z.object({
   /** Vaste sleutel, zodat routes tussen gemeenten vergelijkbaar zijn. */
   type: z.enum([
-    'wijkteam',          // gemeentelijk toegangsteam (wijkteam, CJG, jeugdteam, ...)
-    'huisarts',          // verwijzing via huisarts / jeugdarts / medisch specialist
-    'school',            // via school / samenwerkingsverband passend onderwijs
+    'wijkteam', // gemeentelijk toegangsteam (wijkteam, CJG, jeugdteam, ...)
+    'huisarts', // verwijzing via huisarts / jeugdarts / medisch specialist
+    'school', // via school / samenwerkingsverband passend onderwijs
     'gecertificeerde-instelling', // jeugdbescherming / jeugdreclassering
-    'spoed',             // crisis / spoedzorg
+    'spoed', // crisis / spoedzorg
     'overig',
   ]),
   naam: z.string(),
@@ -108,7 +112,10 @@ const gemeenten = defineCollection({
         /** Postadres voor een klacht per brief, als dat in de tekst genoemd wordt. */
         adres: z.string().optional(),
         /** Onafhankelijke klachtencommissie of ombudsman als het intern niet lukt. Contactgegevens horen in de velden, niet in de naam. */
-        extern: contact.pick({ naam: true, url: true, telefoon: true, email: true, adres: true }).partial({ url: true, telefoon: true, email: true, adres: true }).optional(),
+        extern: contact
+          .pick({ naam: true, url: true, telefoon: true, email: true, adres: true })
+          .partial({ url: true, telefoon: true, email: true, adres: true })
+          .optional(),
       }),
       /** Bezwaar: formeel, alleen tegen een beschikking, binnen 6 weken. */
       bezwaar: z.object({
@@ -126,14 +133,16 @@ const gemeenten = defineCollection({
     aanbod: z.object({
       samenvatting: z.string().optional(),
       gecontracteerdeAanbiedersUrl: z.url().optional(),
-      categorieen: z.array(
-        z.object({
-          naam: z.string(),
-          omschrijving: z.string().optional(),
-          /** Verwijzingen naar hulpsoorten (id's uit src/content/hulpsoorten). */
-          hulpsoorten: z.array(z.string()).default([]),
-        }),
-      ).default([]),
+      categorieen: z
+        .array(
+          z.object({
+            naam: z.string(),
+            omschrijving: z.string().optional(),
+            /** Verwijzingen naar hulpsoorten (id's uit src/content/hulpsoorten). */
+            hulpsoorten: z.array(z.string()).default([]),
+          }),
+        )
+        .default([]),
     }),
 
     /**
@@ -142,42 +151,48 @@ const gemeenten = defineCollection({
      * wijkteam = het CJG is het wijkteam zelf (geen apart contact);
      * jgz = geen CJG, wel de jeugdgezondheidszorg (consultatiebureau, jeugdarts en jeugdverpleegkundige).
      */
-    cjg: z.discriminatedUnion('soort', [
-      z.object({ soort: z.literal('wijkteam') }),
-      z.object({ soort: z.enum(['cjg', 'jgz']), naam: z.string(), omschrijving: z.string(), contact: contact, bron: bron }),
-    ]).optional(),
+    cjg: z
+      .discriminatedUnion('soort', [
+        z.object({ soort: z.literal('wijkteam') }),
+        z.object({ soort: z.enum(['cjg', 'jgz']), naam: z.string(), omschrijving: z.string(), contact: contact, bron: bron }),
+      ])
+      .optional(),
 
     /** 4. Lokale steun buiten de formele zorg. */
-    lokaleInitiatieven: z.array(
-      z.object({
-        naam: z.string(),
-        soort: z.enum(['belangenorganisatie', 'oudergroep', 'vrijwilligers', 'informatiepunt', 'overig']),
-        omschrijving: z.string(),
-        /** Thema-tags, zelfde woordenlijst als bij situaties en organisaties. */
-        themas: z.array(z.string()).default([]),
-        url: z.url().optional(),
-        contact: contact.optional(),
-        /**
-         * Toon in Mijn overzicht (eenmalig gelabeld, 2026-10): bij welke situaties dit initiatief past (id's uit situaties);
-         * voorIedereen = bruikbaar voor elk gezin (bv. Home-Start, opvoedcafé), als aanvulling als er weinig specifieks is;
-         * verbergen = niet in Mijn overzicht (geen hulp voor ouders, of al elders getoond). Zonder deze velden: koppeling via themas.
-         */
-        situaties: z.array(z.string()).optional(),
-        voorIedereen: z.boolean().optional(),
-        verbergen: z.boolean().optional(),
-      }),
-    ).default([]),
+    lokaleInitiatieven: z
+      .array(
+        z.object({
+          naam: z.string(),
+          soort: z.enum(['belangenorganisatie', 'oudergroep', 'vrijwilligers', 'informatiepunt', 'overig']),
+          omschrijving: z.string(),
+          /** Thema-tags, zelfde woordenlijst als bij situaties en organisaties. */
+          themas: z.array(z.string()).default([]),
+          url: z.url().optional(),
+          contact: contact.optional(),
+          /**
+           * Toon in Mijn overzicht (eenmalig gelabeld, 2026-10): bij welke situaties dit initiatief past (id's uit situaties);
+           * voorIedereen = bruikbaar voor elk gezin (bv. Home-Start, opvoedcafé), als aanvulling als er weinig specifieks is;
+           * verbergen = niet in Mijn overzicht (geen hulp voor ouders, of al elders getoond). Zonder deze velden: koppeling via themas.
+           */
+          situaties: z.array(z.string()).optional(),
+          voorIedereen: z.boolean().optional(),
+          verbergen: z.boolean().optional(),
+        }),
+      )
+      .default([]),
 
     /** 5. Direct regelen: rechtstreekse links naar formulieren en aanvraagpagina's. */
-    directRegelen: z.array(
-      z.object({
-        naam: z.string(),
-        omschrijving: z.string().optional(),
-        url: z.url(),
-        /** Wat de ouder nodig heeft, bv. "DigiD" of "beschikking bij de hand". */
-        nodig: z.string().optional(),
-      }),
-    ).default([]),
+    directRegelen: z
+      .array(
+        z.object({
+          naam: z.string(),
+          omschrijving: z.string().optional(),
+          url: z.url(),
+          /** Wat de ouder nodig heeft, bv. "DigiD" of "beschikking bij de hand". */
+          nodig: z.string().optional(),
+        }),
+      )
+      .default([]),
 
     /**
      * 5b. Geld: regelingen van de gemeente voor gezinnen met een kind dat extra zorg nodig heeft, of met een laag inkomen.
@@ -187,55 +202,77 @@ const gemeenten = defineCollection({
     geldregelingen: z.object({
       /** De pagina van de gemeente met alle regelingen bij een laag inkomen of extra kosten (minimaregelingen). */
       overzicht: z.object({ naam: z.string(), url: z.url() }).optional(),
-      regelingen: z.array(z.object({
-        soort: geldSoort,
-        /** Zoals de gemeente hem noemt, bv. "Tegemoetkoming meerkosten" of "Kindpakket". */
-        naam: z.string(),
-        /** Eén of twee zinnen voor ouders: wat u krijgt en voor wie. Geen telefoonnummers. */
-        omschrijving: z.string(),
-        /** Tot welk inkomen, in procent (bv. 120). 'geen' = zonder inkomensgrens. Weglaten als de bron het niet zegt, of als het geen harde grens is
-         *  (zoals bij bijzondere bijstand: boven een grens betaalt u een deel zelf). Geldt voor gezinnen met kinderen een andere grens, dan die. */
-        inkomensgrens: z.union([z.number().int().min(100).max(250), z.literal('geen')]).optional(),
-        /** Waarvan de inkomensgrens een percentage is: de bijstandsnorm (sociaal minimum, standaard) of het wettelijk minimumloon (zoals in Amsterdam). */
-        grondslag: z.enum(['bijstandsnorm', 'minimumloon']).optional(),
-        /** Alleen bij zorgkosten: de regeling is alleen voor de ouder zelf (18+, bv. eigen risico), niet voor kosten van het kind. Op de
-         *  gemeentepagina staat hij dan bij de regelingen voor een laag inkomen (besluit gebruiker 23-10-2026). */
-        alleenOuder: z.literal(true).optional(),
-        /** Alleen bij mantelzorg: kan een ouder van een minderjarig kind met extra zorg de waardering krijgen? Weglaten als de bron het niet zegt. */
-        ouders: z.enum(['ja', 'nee']).optional(),
-        /** Hoe en wanneer aanvragen, kort ("Online met DigiD", "Vóór 1 juni voor het nieuwe schooljaar"). Een termijn alleen als de bron hem noemt. */
-        aanvragen: z.string().optional(),
-        /** Info- of aanvraagpagina. */
-        url: z.url(),
-        /** Waar het gelezen is; meer dan één als feiten uit verschillende pagina's komen (bv. de grens uit de verordening, de aanvraag van de gemeentepagina). */
-        bronnen: z.array(bron).min(1),
-      })).default([]),
+      regelingen: z
+        .array(
+          z.object({
+            soort: geldSoort,
+            /** Zoals de gemeente hem noemt, bv. "Tegemoetkoming meerkosten" of "Kindpakket". */
+            naam: z.string(),
+            /** Eén of twee zinnen voor ouders: wat u krijgt en voor wie. Geen telefoonnummers. */
+            omschrijving: z.string(),
+            /** Tot welk inkomen, in procent (bv. 120). 'geen' = zonder inkomensgrens. Weglaten als de bron het niet zegt, of als het geen harde grens is
+             *  (zoals bij bijzondere bijstand: boven een grens betaalt u een deel zelf). Geldt voor gezinnen met kinderen een andere grens, dan die. */
+            inkomensgrens: z.union([z.number().int().min(100).max(250), z.literal('geen')]).optional(),
+            /** Waarvan de inkomensgrens een percentage is: de bijstandsnorm (sociaal minimum, standaard) of het wettelijk minimumloon (zoals in Amsterdam). */
+            grondslag: z.enum(['bijstandsnorm', 'minimumloon']).optional(),
+            /** Alleen bij zorgkosten: de regeling is alleen voor de ouder zelf (18+, bv. eigen risico), niet voor kosten van het kind. Op de
+             *  gemeentepagina staat hij dan bij de regelingen voor een laag inkomen (besluit gebruiker 23-10-2026). */
+            alleenOuder: z.literal(true).optional(),
+            /** Alleen bij mantelzorg: kan een ouder van een minderjarig kind met extra zorg de waardering krijgen? Weglaten als de bron het niet zegt. */
+            ouders: z.enum(['ja', 'nee']).optional(),
+            /** Hoe en wanneer aanvragen, kort ("Online met DigiD", "Vóór 1 juni voor het nieuwe schooljaar"). Een termijn alleen als de bron hem noemt. */
+            aanvragen: z.string().optional(),
+            /** Info- of aanvraagpagina. */
+            url: z.url(),
+            /** Waar het gelezen is; meer dan één als feiten uit verschillende pagina's komen (bv. de grens uit de verordening, de aanvraag van de gemeentepagina). */
+            bronnen: z.array(bron).min(1),
+          }),
+        )
+        .default([]),
       /** Soorten die nagezocht zijn en die de gemeente niet heeft (anders lijkt "niet gevonden" op "nog niet gezocht"). */
       nietGevonden: z.array(geldSoort).default([]),
       laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     }),
 
     /** 6. Hoe gaat het in deze gemeente? Alleen op basis van herleidbare, gedateerde bronnen. */
-    ervaringen: z.object({
-      samenvatting: z.string(),
-      signalen: z.array(
-        z.object({
-          soort: z.enum(['inspectie', 'clientervaringsonderzoek', 'rekenkamer', 'ombudsman', 'rechtspraak', 'gemeenteraad', 'nieuws']),
-          titel: z.string(),
-          samenvatting: z.string(),
-          datum: z.string().regex(/^\d{4}-\d{2}(-\d{2})?$/, 'JJJJ-MM of JJJJ-MM-DD'),
-          bron: z.object({ titel: z.string(), url: z.url() }),
-        }),
-      ).default([]),
-      /** Wat de gemeente zelf openbaar maakt over de toegang. 'onbekend' = nog niet nagezocht. */
-      transparantie: z.object({
-        clientervaringsonderzoek: z.object({ status: z.enum(['ja', 'nee', 'onbekend']), jaar: z.string().optional(), url: z.url().optional(), samenvatting: z.string().optional() }),
-        doorlooptijden: z.object({ status: z.enum(['ja', 'nee', 'onbekend']), url: z.url().optional(), samenvatting: z.string().optional() }),
-        /** Aandeel jeugdhulptrajecten dat via de huisarts/medisch specialist start (CBS). */
-        aandeelHuisarts: z.object({ percentage: z.number(), jaar: z.string(), url: z.url(), /** Zelfde berekening voor heel Nederland, zelfde jaar. */ landelijk: z.number().optional() }).optional(),
-      }).optional(),
-      laatstBijgewerkt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-    }).optional(),
+    ervaringen: z
+      .object({
+        samenvatting: z.string(),
+        signalen: z
+          .array(
+            z.object({
+              soort: z.enum(['inspectie', 'clientervaringsonderzoek', 'rekenkamer', 'ombudsman', 'rechtspraak', 'gemeenteraad', 'nieuws']),
+              titel: z.string(),
+              samenvatting: z.string(),
+              datum: z.string().regex(/^\d{4}-\d{2}(-\d{2})?$/, 'JJJJ-MM of JJJJ-MM-DD'),
+              bron: z.object({ titel: z.string(), url: z.url() }),
+            }),
+          )
+          .default([]),
+        /** Wat de gemeente zelf openbaar maakt over de toegang. 'onbekend' = nog niet nagezocht. */
+        transparantie: z
+          .object({
+            clientervaringsonderzoek: z.object({
+              status: z.enum(['ja', 'nee', 'onbekend']),
+              jaar: z.string().optional(),
+              url: z.url().optional(),
+              samenvatting: z.string().optional(),
+            }),
+            doorlooptijden: z.object({ status: z.enum(['ja', 'nee', 'onbekend']), url: z.url().optional(), samenvatting: z.string().optional() }),
+            /** Aandeel jeugdhulptrajecten dat via de huisarts/medisch specialist start (CBS). */
+            aandeelHuisarts: z
+              .object({
+                percentage: z.number(),
+                jaar: z.string(),
+                url: z.url(),
+                /** Zelfde berekening voor heel Nederland, zelfde jaar. */ landelijk: z.number().optional(),
+              })
+              .optional(),
+          })
+          .optional(),
+        laatstBijgewerkt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      })
+      .optional(),
 
     /** 7. Metadata voor onderhoud. */
     meta: z.object({
@@ -320,7 +357,10 @@ const hulpsoorten = defineCollection({
     /** Vragen voor het wijkteam of de verwijzer, hooguit vijf. */
     vragen: z.array(z.string()).default([]),
     bronnen: z.array(bron).default([]),
-    laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+    laatstGecontroleerd: z
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/)
+      .optional(),
   }),
 });
 
@@ -344,12 +384,16 @@ const situaties = defineCollection({
     /** Id's uit de collectie hulpsoorten, in volgorde van relevantie. */
     hulpsoorten: z.array(z.string()).default([]),
     /** Welke toegangsroute(s) logisch zijn, met korte uitleg waarom. */
-    routes: z.array(z.object({
-      type: z.enum(['wijkteam', 'huisarts', 'school', 'gecertificeerde-instelling', 'spoed']),
-      waarom: z.string(),
-      /** Eigen tekst na "Begin bij …" voor de eerste route, als die breder is dan het type (bv. meerdere gelijkwaardige ingangen). */
-      beginBij: z.string().optional(),
-    })).min(1),
+    routes: z
+      .array(
+        z.object({
+          type: z.enum(['wijkteam', 'huisarts', 'school', 'gecertificeerde-instelling', 'spoed']),
+          waarom: z.string(),
+          /** Eigen tekst na "Begin bij …" voor de eerste route, als die breder is dan het type (bv. meerdere gelijkwaardige ingangen). */
+          beginBij: z.string().optional(),
+        }),
+      )
+      .min(1),
     /** Id's van landelijke hoofdstukken (bestandsnaam zonder .md) die hier relevant zijn. */
     landelijk: z.array(z.string()).default([]),
     /** Landelijke regelingen die specifiek voor deze situatie gelden. */
@@ -361,13 +405,15 @@ const situaties = defineCollection({
      * labels; groepen, `wanneer` en `toelichting` leggen de keuze vast. Zonder richtlijn: bronnen leeg en uitleg in `toelichting`.
      * De build faalt als een gekoppelde vorm ontbreekt of dubbel staat.
      */
-    therapievormen: z.object({
-      eerst: z.array(therapieItem).min(1),
-      ook: z.array(therapieItem).default([]),
-      bijkomend: z.array(therapieItem).default([]),
-      toelichting: z.string().optional(),
-      bronnen: z.array(bron).default([]),
-    }).optional(),
+    therapievormen: z
+      .object({
+        eerst: z.array(therapieItem).min(1),
+        ook: z.array(therapieItem).default([]),
+        bijkomend: z.array(therapieItem).default([]),
+        toelichting: z.string().optional(),
+        bronnen: z.array(bron).default([]),
+      })
+      .optional(),
     /** Op zich geen reden voor jeugdhulp (zoals scheiding): het overzicht begint dan met de uitleg en het CJG, en vouwt de aanvraagstappen in. */
     lichteStart: z.boolean().default(false),
     /**
@@ -388,7 +434,7 @@ const situaties = defineCollection({
      * leeftijd"; de rest staat op alfabet onder "Andere situaties". Dat is een volgorde om sneller te vinden, geen grens: de
      * situatie staat er bij elke leeftijd. Per leeftijd 3 tot 7 situaties (controle bij het bouwen).
      */
-    vaakBij: z.array(z.enum(['0-4', '4-12', '12-18', '18-99'])).default([]),
+    vaakBij: z.array(z.enum(BAND_IDS)).default([]),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
@@ -405,7 +451,18 @@ const therapievormen = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/therapievormen' }),
   schema: z.object({
     naam: z.string(),
-    soort: z.enum(['gesprekstherapie', 'gedragstherapie', 'traumabehandeling', 'oudertraining', 'gezinsbehandeling', 'vaktherapie', 'training', 'groep', 'paramedisch', 'medicatie']),
+    soort: z.enum([
+      'gesprekstherapie',
+      'gedragstherapie',
+      'traumabehandeling',
+      'oudertraining',
+      'gezinsbehandeling',
+      'vaktherapie',
+      'training',
+      'groep',
+      'paramedisch',
+      'medicatie',
+    ]),
     /** Eén zin: wat is het. */
     kort: z.string(),
     watIsHet: z.string(),
@@ -498,7 +555,9 @@ const knelpunten = defineCollection({
      */
     stappen: z.array(z.union([z.string(), z.object({ stap: z.string(), daarna: z.array(z.string()).min(1) })])).min(1),
     /** Welke onderdelen van de gemeentepagina relevant zijn, in volgorde van belang. */
-    gemeenteOnderdelen: z.array(z.enum(['toegang', 'clientondersteuning', 'klacht', 'bezwaar', 'spoed', 'aanbieders', 'vertrouwenspersoon', 'pgb', 'postadres'])).default([]),
+    gemeenteOnderdelen: z
+      .array(z.enum(['toegang', 'clientondersteuning', 'klacht', 'bezwaar', 'spoed', 'aanbieders', 'vertrouwenspersoon', 'pgb', 'postadres']))
+      .default([]),
     brieven: z.array(z.string()).default([]),
     landelijk: z.array(z.string()).default([]),
     /** Landelijke vraag (zoals kinderbijslag): het overzicht toont dan geen gegevens van de gemeente. */
@@ -531,7 +590,7 @@ const knelpunten = defineCollection({
      * band blijft de stap zoals hij is. Met zo'n stap vraagt de voorpagina ook de leeftijd. Alleen met een bron in `bronnen`;
      * de build faalt als het begin niet bij precies één stap past.
      */
-    leeftijdsstappen: z.array(z.object({ begin: z.string(), '0-4': z.string().optional(), '4-12': z.string().optional(), '12-18': z.string().optional(), '18-99': z.string().optional() })).default([]),
+    leeftijdsstappen: z.array(z.object({ begin: z.string(), ...perBand })).default([]),
     volgorde: z.number(),
     bronnen: z.array(bron).default([]),
     laatstGecontroleerd: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

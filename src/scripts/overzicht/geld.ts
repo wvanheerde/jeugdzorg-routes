@@ -5,24 +5,29 @@
  * (blijft staan, met "Past waarschijnlijk"), past niet (ingeklapt onder "Andere regelingen die soms passen"), of nog open (blijft staan).
  * Zonder antwoord dat iets uitsluit blijft een regeling staan: of hij past, beslist de SVB, het CIZ of de gemeente.
  */
-import { keuze, params, bewaard, zetInUrl } from './gedeeld';
+import { keuze, params, zetInUrl } from './gedeeld';
+import { OPSLAG, leesJson, bewaarJson } from '../../lib/opslag';
+import { verdieping, zetGedrukt, wissel, wisselMeer, lijstUit } from './verdieping';
 import { regelingPast } from '../../lib/regelingen';
 
-const RG_KEY = 'jr.regelingen';
+const RG_KEY = OPSLAG.regelingen;
 const ENKEL = ['zorg', 'dkb', 'alleen', 'inkomen'] as const;
 type Enkel = (typeof ENKEL)[number];
 
 export const geld = (opnieuw: () => void) => {
-  const rgBewaard = bewaard(RG_KEY);
-  const rgBlok = document.querySelector<HTMLElement>('[data-verdieping="geld"]');
-  const knoppen = Array.from(rgBlok?.querySelectorAll<HTMLButtonElement>('[data-rg-keuze]') ?? []);
-  const kostenKnoppen = Array.from(rgBlok?.querySelectorAll<HTMLButtonElement>('[data-rg-kosten]') ?? []);
+  const rgBewaard = leesJson(RG_KEY);
+  const vd = verdieping('geld');
+  const rgBlok = vd.blok;
+  const knoppen = vd.knoppen('[data-rg-keuze]');
+  const kostenKnoppen = vd.knoppen('[data-rg-kosten]');
   const geldig = (vraag: string, v: unknown) => knoppen.some((b) => b.dataset.rgKeuze === vraag && b.value === v);
-  const a = Object.fromEntries(ENKEL.map((v) => {
-    const w = params.get(v) ?? rgBewaard[v];
-    return [v, geldig(v, w) ? String(w) : ''];
-  })) as Record<Enkel, string>;
-  let kosten: string[] = String(params.get('kosten') ?? (Array.isArray(rgBewaard.kosten) ? rgBewaard.kosten.join(',') : '')).split(',').filter((id) => kostenKnoppen.some((b) => b.value === id));
+  const a = Object.fromEntries(
+    ENKEL.map((v) => {
+      const w = params.get(v) ?? rgBewaard[v];
+      return [v, geldig(v, w) ? String(w) : ''];
+    }),
+  ) as Record<Enkel, string>;
+  let kosten = lijstUit('kosten', rgBewaard.kosten, (id) => kostenKnoppen.some((b) => b.value === id));
 
   /** Welke vragen gelden: dubbele kinderbijslag alleen bij veel zorg (en een kind onder 18), het extra bedrag alleen als de ouder die al krijgt. */
   const geldt = (v: Enkel) => (v === 'dkb' ? a.zorg === 'ja' && keuze.lf !== '18-99' : v === 'alleen' ? a.zorg === 'ja' && a.dkb === 'ja' : true);
@@ -31,42 +36,49 @@ export const geld = (opnieuw: () => void) => {
   const klaar = () => ENKEL.every((v) => !geldt(v) || a[v]);
   const gewijzigd = () => {
     const w = Object.fromEntries(ENKEL.map((v) => [v, geldt(v) ? a[v] : ''])) as Record<Enkel, string>;
-    if (iets()) localStorage.setItem(RG_KEY, JSON.stringify({ ...w, kosten })); else localStorage.removeItem(RG_KEY);
+    bewaarJson(RG_KEY, iets() ? { ...w, kosten } : null);
     zetInUrl({ ...w, kosten: kosten.join(',') });
     opnieuw();
   };
   if (rgBlok) {
     // Bij een tweede bezoek staat het antwoord voorop, niet de vragen.
-    if (iets()) rgBlok.setAttribute('data-vd-ingeklapt', '');
-    knoppen.forEach((b) => b.addEventListener('click', () => {
-      const v = b.dataset.rgKeuze as Enkel;
-      a[v] = a[v] === b.value ? '' : b.value;
-      if (klaar() && a[v]) rgBlok.setAttribute('data-vd-ingeklapt', '');
-      gewijzigd();
-    }));
-    kostenKnoppen.forEach((b) => b.addEventListener('click', () => {
-      const aan = kosten.includes(b.value);
-      kosten = aan ? kosten.filter((x) => x !== b.value) : b.value === 'geen' ? ['geen'] : [...kosten.filter((x) => x !== 'geen'), b.value];
-      gewijzigd();
-    }));
-    rgBlok.querySelector('[data-vd-wissen]')?.addEventListener('click', () => {
+    if (iets()) vd.klapIn();
+    knoppen.forEach((b) =>
+      b.addEventListener('click', () => {
+        const v = b.dataset.rgKeuze as Enkel;
+        a[v] = wissel(a[v], b.value);
+        if (klaar() && a[v]) vd.klapIn();
+        gewijzigd();
+      }),
+    );
+    kostenKnoppen.forEach((b) =>
+      b.addEventListener('click', () => {
+        kosten = wisselMeer(kosten, b.value, 'geen');
+        gewijzigd();
+      }),
+    );
+    vd.bijWissen(() => {
       ENKEL.forEach((v) => (a[v] = ''));
       kosten = [];
-      rgBlok.removeAttribute('data-vd-ingeklapt');
-      gewijzigd();
-    });
+    }, gewijzigd);
   }
 
   // De stappen en waar ze stonden, om bij elke keer tekenen terug te kunnen zetten.
   const vraagBlok = document.querySelector<HTMLElement>('[data-knelpunt-blok="geld"]');
-  const plekken = Array.from(vraagBlok?.querySelectorAll<HTMLLIElement>('ol.stap-een > li, ol[data-aanvraag-stappen] > li') ?? []).map((li) => ({ li, ol: li.parentElement! }));
+  const plekken = Array.from(vraagBlok?.querySelectorAll<HTMLLIElement>('ol.stap-een > li, ol[data-aanvraag-stappen] > li') ?? []).map((li) => ({
+    li,
+    ol: li.parentElement!,
+  }));
 
   /** Tekent wat de antwoorden doen: welke vervolgvragen er zijn, en welke regelingen bovenaan, ingeklapt of weg. */
   const teken = () => {
     if (!rgBlok || !vraagBlok) return;
-    knoppen.forEach((b) => b.setAttribute('aria-pressed', String(a[b.dataset.rgKeuze as Enkel] === b.value)));
-    kostenKnoppen.forEach((b) => b.setAttribute('aria-pressed', String(kosten.includes(b.value))));
-    rgBlok.querySelectorAll<HTMLElement>('[data-rg-vraag]').forEach((f) => { const v = f.dataset.rgVraag as Enkel; if (ENKEL.includes(v)) f.hidden = !geldt(v); });
+    zetGedrukt(knoppen, (b) => a[b.dataset.rgKeuze as Enkel] === b.value);
+    zetGedrukt(kostenKnoppen, (b) => kosten.includes(b.value));
+    rgBlok.querySelectorAll<HTMLElement>('[data-rg-vraag]').forEach((f) => {
+      const v = f.dataset.rgVraag as Enkel;
+      if (ENKEL.includes(v)) f.hidden = !geldt(v);
+    });
 
     const anders = vraagBlok.querySelector<HTMLDetailsElement>('[data-rg-anders]');
     const andersLijst = vraagBlok.querySelector<HTMLOListElement>('[data-rg-anders-lijst]');
@@ -86,13 +98,12 @@ export const geld = (opnieuw: () => void) => {
     });
     if (anders) anders.hidden = !andersLijst?.children.length || !Array.from(andersLijst.children).some((li) => !(li as HTMLElement).hidden);
 
-    const sv = rgBlok.querySelector<HTMLElement>('[data-vd-samenvatting]');
-    const samenvatting = !iets() ? '' : n === 0 ? 'Geen van de regelingen past zeker. Ze staan er allemaal; kijk wat bij u past.'
-      : `${n === 1 ? '1 regeling past' : `${n} regelingen passen`} waarschijnlijk bij u. Ze staan bovenaan.`;
-    if (sv) sv.textContent = samenvatting;
-    rgBlok.querySelector<HTMLElement>('[data-vd-wissen]')!.hidden = !iets();
-    rgBlok.querySelector<HTMLElement>('[data-vd-gevolg]')!.hidden = !iets();
-    if (!iets()) rgBlok.removeAttribute('data-vd-ingeklapt');
+    const samenvatting = !iets()
+      ? ''
+      : n === 0
+        ? 'Geen van de regelingen past zeker. Ze staan er allemaal; kijk wat bij u past.'
+        : `${n === 1 ? '1 regeling past' : `${n} regelingen passen`} waarschijnlijk bij u. Ze staan bovenaan.`;
+    vd.stand({ samenvatting, ingevuld: iets() });
   };
   return { teken };
 };

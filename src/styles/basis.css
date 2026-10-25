@@ -1,0 +1,47 @@
+/* ---------- Basis ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { font-family: var(--font-body); color: var(--c-text); background: var(--c-bg); line-height: 1.65; font-size: 17px; -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+body { margin: 0; display: flex; flex-direction: column; min-height: 100vh; }
+main { flex: 1; padding: 2.5rem 0 5rem; }
+a { color: var(--c-primary); text-underline-offset: 3px; }
+a:hover { color: var(--c-primary-dark); }
+h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 600; letter-spacing: -0.005em; color: var(--c-text); text-wrap: balance; }
+h1 { font-size: clamp(2rem, 4vw, 2.8rem); margin: 0 0 .75rem; }
+h2 { font-size: 1.65rem; margin: 2.4rem 0 .9rem; }
+h3 { font-size: 1.2rem; margin: 1.5rem 0 .4rem; }
+p { margin: 0 0 1rem; }
+ul, ol { padding-left: 1.3rem; }
+li { margin-bottom: .3rem; }
+.container { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem; }
+.lead { font-size: 1.2rem; color: var(--c-muted); max-width: 46rem; line-height: 1.55; }
+.meta { color: var(--c-muted); font-size: .92rem; }
+.eyebrow { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--c-primary); margin-bottom: .6rem; }
+:focus-visible { outline: 3px solid var(--c-accent); outline-offset: 2px; border-radius: 4px; }
+.skip { position: absolute; left: -999px; top: 0; background: var(--c-text); color: #fff; padding: .5rem 1rem; z-index: 100; }
+.skip:focus { left: 1rem; top: 1rem; }
+/* ---------- Toegankelijkheid ---------- */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.tabel-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.chip { display: inline-flex; align-items: center; gap: .35rem; font-size: .9rem; color: var(--c-muted); background: var(--c-surface); border: 1px solid var(--c-border); border-radius: 999px; padding: .25rem .8rem; }
+.chip svg { width: 15px; height: 15px; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+th, td { text-align: left; border-bottom: 1px solid var(--c-border); padding: .6rem .7rem; vertical-align: top; }
+th { color: var(--c-muted); font-weight: 600; font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+.prose p { max-width: 46rem; }
+.prose h2 { font-size: 1.3rem; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: .4rem 0 .8rem; }
+.tags span { font-size: .76rem; background: var(--c-bg); color: var(--c-muted); border: 1px solid var(--c-border); border-radius: 4px; padding: .05rem .5rem; }
+.empty { color: var(--c-muted); font-style: italic; }
+@media (max-width: 640px) {
+  html { font-size: 16px; }
+  .alleen-breed { display: none; }
+  .prose table, .section table:not(.tp-tabel) { display: block; overflow-x: auto; white-space: nowrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+/* Lange woorden in koppen (bv. Taalontwikkelingsstoornis) afbreken in plaats van buiten beeld te laten lopen. Niet automatisch (hyphens: auto brak ook
+   woorden af die op de volgende regel pasten): lange samenstellingen krijgen een zachte afbreekstreep (src/lib/afbreken.ts); de rest breekt alleen als het echt niet past. */
+h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual; }

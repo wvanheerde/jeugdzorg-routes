@@ -1,0 +1,66 @@
+/* ---------- Secties ---------- */
+.section { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1.9rem 2.1rem; margin-bottom: 1.5rem; box-shadow: var(--shadow-sm); scroll-margin-top: 6rem; }
+.section > h2[id] { scroll-margin-top: 8rem; }
+.section > h2, .section h2:has(> .section-num) { margin-top: 0; display: flex; align-items: center; gap: .75rem; }
+.section-num { display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--c-primary); color: #fff; font-family: var(--font-body); font-weight: 700; font-size: 1rem; flex: none; }
+.section h3 { color: var(--c-primary-dark); }
+/* ---------- Gemeentepagina: zijbalk ---------- */
+.page-with-side { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: start; }
+.page-with-side > * { min-width: 0; } /* anders rekt een brede rij (bv. de veegrij) de kolom op */
+.side { display: none; }
+@media (min-width: 960px) {
+  .page-with-side { grid-template-columns: 15rem minmax(0, 1fr); }
+  .side { display: block; position: sticky; top: 6rem; }
+}
+.side nav, .side .side-blok { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 1rem 1.1rem; box-shadow: var(--shadow-sm); }
+.side nav strong, .side .side-kop { display: block; font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--c-muted); margin-bottom: .6rem; }
+.side nav a { display: flex; gap: .55rem; align-items: baseline; text-decoration: none; color: var(--c-text); padding: .4rem .35rem; border-radius: 6px; font-size: .93rem; }
+.side nav a:hover { background: var(--c-primary-soft); color: var(--c-primary-dark); }
+.side nav a .n { color: var(--c-primary); font-weight: 700; font-size: .8rem; min-width: 1rem; }
+.side .status-card { margin-top: 1rem; font-size: .88rem; color: var(--c-muted); padding: 0 .3rem; }
+.toc { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 2rem; }
+.toc a { font-size: .9rem; text-decoration: none; border: 1px solid var(--c-border); background: var(--c-surface); border-radius: 999px; padding: .3rem .9rem; color: var(--c-text); }
+.toc a:hover { border-color: var(--c-primary); color: var(--c-primary-dark); }
+/* Met zijnavigatie zijn de knoppen overbodig; ook de omhulling (.toc-wrap, met eigen marge) weg, anders staat het eerste blok lager dan de zijbalk. */
+@media (min-width: 960px) {
+  .page-with-side .toc, .page-with-side .toc-wrap { display: none; }
+}
+.side .status-card a { text-decoration: none; }
+/* ---------- Paginakop, bronnen en tussenkoppen ---------- */
+.page-head { margin-bottom: 2rem; }
+.page-head .lead { margin-top: .25rem; }
+.sources { font-size: .85rem; color: var(--c-muted); margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--c-border); }
+.sources ul { padding-left: 1.2rem; margin: .3rem 0; }
+.kicker { display: flex; align-items: center; gap: .8rem; margin-top: 3rem; }
+.kicker h2 { margin: 0; min-width: 0; }
+@media (max-width: 640px) {
+  /* Kop met knop ernaast: op de telefoon de knop onder de kop, zodat lange titels niet buiten beeld vallen */
+  .kicker { flex-wrap: wrap; row-gap: .6rem; }
+  .kicker h2 { flex: 1 1 100%; }
+  .kicker .line { display: none; }
+  .kicker .btn { padding: .45rem 1rem; font-size: .92rem; white-space: nowrap; }
+}
+.kicker .line { flex: 1; height: 1px; background: var(--c-border); }
+@media (max-width: 640px) {
+  .section { padding: 1.4rem 1.2rem; }
+}
+/* Inklapblokken (o.a. "Hoe gaat het hier?" en bronnen op gemeentepagina's) */
+.inklapper > summary { cursor: pointer; color: var(--c-primary-dark); font-weight: 600; padding: .3rem 0; }
+.inklapper[open] > summary { margin-bottom: .75rem; }
+.sources .inklapper > summary { font-weight: 500; font-size: .9rem; }
+/* Inhoudsopgave met knoppen (.toc): op de telefoon één veegrij met pijlknoppen aan de rand (script in Base.astro) */
+.toc-wrap { position: relative; margin: 1rem 0 2rem; }
+.toc-wrap > .toc { margin: 0; }
+.toc-pijl { display: none; position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 2.1rem; height: 2.1rem; border-radius: 50%; border: 0; background: var(--c-primary); color: #fff; padding: 0; line-height: 0; cursor: pointer; box-shadow: var(--shadow-md); }
+.toc-pijl svg { display: block; }
+.toc-pijl.links { left: -.25rem; }
+.toc-pijl.rechts { right: -.25rem; }
+@media (max-width: 640px) {
+  .toc-wrap > .toc { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: .15rem 0; scroll-padding: 0 2.5rem; }
+  .toc-wrap > .toc::-webkit-scrollbar { display: none; }
+  .toc-wrap > .toc a { flex: 0 0 auto; white-space: nowrap; }
+  .toc-wrap[data-meer-rechts] > .toc { -webkit-mask-image: linear-gradient(to right, #000 75%, transparent 97%); mask-image: linear-gradient(to right, #000 75%, transparent 97%); }
+  .toc-wrap[data-meer-links] > .toc { -webkit-mask-image: linear-gradient(to left, #000 75%, transparent 97%); mask-image: linear-gradient(to left, #000 75%, transparent 97%); }
+  .toc-wrap[data-meer-links][data-meer-rechts] > .toc { -webkit-mask-image: linear-gradient(to right, transparent 3%, #000 25%, #000 75%, transparent 97%); mask-image: linear-gradient(to right, transparent 3%, #000 25%, #000 75%, transparent 97%); }
+  .toc-wrap[data-meer-rechts] > .toc-pijl.rechts, .toc-wrap[data-meer-links] > .toc-pijl.links { display: grid; place-items: center; }
+}

@@ -9,100 +9,171 @@
  * ze mee in de url (gemeente, k, l, s).
  */
 import { getCollection } from 'astro:content';
+import { gesorteerd } from '../lib/collecties';
 import GemeenteKeuze from './GemeenteKeuze.astro';
 import { HOOFDKEUZES, VERVOLGVRAAG, VASTE_LEEFTIJD, STARTTITEL, controleerStartvragen } from '../lib/startvragen';
 import { BANDEN } from '../lib/leeftijden';
+import { base } from '../site';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const knelpunten = (await getCollection('knelpunten')).sort((a, b) => a.data.volgorde - b.data.volgorde);
+const knelpunten = await gesorteerd('knelpunten');
 // Op alfabet: zonder groepen leest een lange lijst zo het snelst.
 const situaties = (await getCollection('situaties')).sort((a, b) => a.data.titel.localeCompare(b.data.titel, 'nl'));
-controleerStartvragen(knelpunten, situaties, BANDEN.map((b) => b.id));
+controleerStartvragen(
+  knelpunten,
+  situaties,
+  BANDEN.map((b) => b.id),
+);
 const inGroep = (g: string) => knelpunten.filter((k) => k.data.startgroepen.includes(g as never));
 const enige = (g: string) => inGroep(g)[0]!.id;
 /** Een vlak zonder vervolgvraag heeft één vraag en is die vraag zelf (zoals "Ik heb zorgen om een kind van een ander"). */
 const zelfDeVraag = (g: string) => !(g in VERVOLGVRAAG);
 const gemeenteOptioneel = (k: (typeof knelpunten)[number]) => k.data.zonderGemeente || k.data.startgroepen.includes('spoed');
 /** Wat er speelt vraagt de site alleen als dat het overzicht verandert; de leeftijd ook als een stap zich aan de leeftijd aanpast. */
-const vervolg = (k: (typeof knelpunten)[number]) => ({ 'data-sv-situaties': String(k.data.startSituaties), 'data-sv-leeftijd-nodig': String(k.data.startSituaties || k.data.leeftijdsstappen.length > 0) });
+const vervolg = (k: (typeof knelpunten)[number]) => ({
+  'data-sv-situaties': String(k.data.startSituaties),
+  'data-sv-leeftijd-nodig': String(k.data.startSituaties || k.data.leeftijdsstappen.length > 0),
+});
 const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
 ---
+
 <div class="startvragen" data-startvragen data-base={base} data-vaste-leeftijd={JSON.stringify(VASTE_LEEFTIJD)}>
   <GemeenteKeuze />
 
   <div class="sv-stap" data-sv-stap="hoofd" hidden>
-    <p class="sv-vraag" id="sv-vraag-hoofd">Wat is uw situatie?</p>
+    <p class="sv-vraag" id="sv-vraag-hoofd">
+      Wat is uw situatie?
+    </p>
     <div class="sv-tegels" role="group" aria-labelledby="sv-vraag-hoofd">
       {HOOFDKEUZES.map((h) => (
-        <button type="button" class="sv-tegel" data-sv-hoofd={h.id} data-sv-knelpunt={zelfDeVraag(h.id) ? enige(h.id) : undefined}
-          data-gemeente-optioneel={zelfDeVraag(h.id) && gemeenteOptioneel(knelpunt(enige(h.id))) ? 'true' : undefined} {...(zelfDeVraag(h.id) ? vervolg(knelpunt(enige(h.id))) : {})} aria-labelledby={`sv-t-${h.id}`} aria-describedby={`sv-u-${h.id}`}>
-          <b id={`sv-t-${h.id}`}>{h.titel}</b><small id={`sv-u-${h.id}`}>{h.uitleg}</small>
+        <button
+          type="button"
+          class="sv-tegel"
+          data-sv-hoofd={h.id}
+          data-sv-knelpunt={zelfDeVraag(h.id) ? enige(h.id) : undefined}
+          data-gemeente-optioneel={zelfDeVraag(h.id) && gemeenteOptioneel(knelpunt(enige(h.id))) ? 'true' : undefined}
+          {...(zelfDeVraag(h.id) ? vervolg(knelpunt(enige(h.id))) : {})}
+          aria-labelledby={`sv-t-${h.id}`}
+          aria-describedby={`sv-u-${h.id}`}
+        >
+          <b id={`sv-t-${h.id}`}>{h.titel}</b>
+          <small id={`sv-u-${h.id}`}>{h.uitleg}</small>
         </button>
       ))}
     </div>
   </div>
-  <p class="sv-antwoord" data-antwoord data-sv-antwoord="hoofd" hidden><span class="sv-label">U koos</span> <b data-sv-tekst></b> <button type="button" class="linkknop" data-sv-wijzig="hoofd">wijzigen</button></p>
+  <p class="sv-antwoord" data-antwoord data-sv-antwoord="hoofd" hidden>
+    <span class="sv-label">U koos</span> <b data-sv-tekst></b>{' '}
+    <button type="button" class="linkknop" data-sv-wijzig="hoofd">
+      wijzigen
+    </button>
+  </p>
 
   {Object.entries(VERVOLGVRAAG).map(([g, vraag]) => (
     <div class="sv-stap" data-sv-stap="vraag" data-sv-groep={g} hidden>
-      <p class="sv-vraag" id={`sv-vraag-${g}`}>{vraag}</p>
+      <p class="sv-vraag" id={`sv-vraag-${g}`}>
+        {vraag}
+      </p>
       <div class="sv-tegels sv-tegels-kort" role="group" aria-labelledby={`sv-vraag-${g}`}>
-        {inGroep(g).map((k) => <button type="button" class="sv-tegel" data-sv-knelpunt={k.id} data-gemeente-optioneel={gemeenteOptioneel(k) ? 'true' : undefined} {...vervolg(k)}><b>{STARTTITEL[k.id] ?? k.data.titel}</b></button>)}
+        {inGroep(g).map((k) => (
+          <button type="button" class="sv-tegel" data-sv-knelpunt={k.id} data-gemeente-optioneel={gemeenteOptioneel(k) ? 'true' : undefined} {...vervolg(k)}>
+            <b>{STARTTITEL[k.id] ?? k.data.titel}</b>
+          </button>
+        ))}
       </div>
     </div>
   ))}
-  <p class="sv-antwoord" data-antwoord data-sv-antwoord="vraag" hidden><span class="sv-label">Het gaat om</span> <b data-sv-tekst></b> <button type="button" class="linkknop" data-sv-wijzig="vraag">wijzigen</button></p>
+  <p class="sv-antwoord" data-antwoord data-sv-antwoord="vraag" hidden>
+    <span class="sv-label">Het gaat om</span> <b data-sv-tekst></b>{' '}
+    <button type="button" class="linkknop" data-sv-wijzig="vraag">
+      wijzigen
+    </button>
+  </p>
 
   <div class="sv-stap" data-sv-stap="leeftijd" hidden>
-    <p class="sv-vraag" id="sv-vraag-leeftijd">Hoe oud is uw kind?</p>
+    <p class="sv-vraag" id="sv-vraag-leeftijd">
+      Hoe oud is uw kind?
+    </p>
     <div class="sv-tegels sv-tegels-kort sv-tegels-4" role="group" aria-labelledby="sv-vraag-leeftijd">
-      {BANDEN.map((b) => <button type="button" class="sv-tegel" data-sv-leeftijd={b.id}><b>{b.titel}</b></button>)}
+      {BANDEN.map((b) => (
+        <button type="button" class="sv-tegel" data-sv-leeftijd={b.id}>
+          <b>{b.titel}</b>
+        </button>
+      ))}
     </div>
   </div>
-  <p class="sv-antwoord" data-antwoord data-sv-antwoord="leeftijd" hidden><span class="sv-label">Leeftijd</span> <b data-sv-tekst></b> <button type="button" class="linkknop" data-sv-wijzig="leeftijd">wijzigen</button></p>
+  <p class="sv-antwoord" data-antwoord data-sv-antwoord="leeftijd" hidden>
+    <span class="sv-label">Leeftijd</span> <b data-sv-tekst></b>{' '}
+    <button type="button" class="linkknop" data-sv-wijzig="leeftijd">
+      wijzigen
+    </button>
+  </p>
 
   <div class="sv-stap" data-sv-stap="situaties" hidden>
     <p class="sv-vraag">Wat speelt er bij uw kind? Kies alles wat past.</p>
     {/* Bij een leeftijd zet het script de situaties die daarbij vaak spelen in dit groepje; de rest blijft in hun eigen groep. */}
-    <div class="sv-groep" data-groep-kop="Vaak bij deze leeftijd" data-sv-vaak hidden><p class="sv-groep-kop">Vaak bij deze leeftijd</p><div class="chips-select"></div></div>
+    <div class="sv-groep" data-groep-kop="Vaak bij deze leeftijd" data-sv-vaak hidden>
+      <p class="sv-groep-kop">Vaak bij deze leeftijd</p>
+      <div class="chips-select"></div>
+    </div>
     <div class="sv-groep" data-groep-kop="Andere situaties">
-      <p class="sv-andere" data-sv-andere hidden>Andere situaties</p>
+      <p class="sv-andere" data-sv-andere hidden>
+        Andere situaties
+      </p>
       <div class="chips-select" data-sv-rest>
-        {situaties.map((s) => <button type="button" class="chip-btn" data-startsituatie={s.id} data-vaak-bij={s.data.vaakBij.join(' ')} aria-pressed="false" title={s.data.herkenning}>{s.data.titel}</button>)}
+        {situaties.map((s) => (
+          <button
+            type="button"
+            class="chip-btn"
+            data-startsituatie={s.id}
+            data-vaak-bij={s.data.vaakBij.join(' ')}
+            aria-pressed="false"
+            title={s.data.herkenning}
+          >
+            {s.data.titel}
+          </button>
+        ))}
       </div>
     </div>
   </div>
 
   <div class="sv-verder" data-sv-verder hidden>
-    <a class="btn primary" href={`${base}/overzicht/`} data-overzicht>Toon mijn overzicht</a>
-    <button type="button" class="keuzes-wissen" data-keuzes-wissen hidden>Keuzes wissen</button>
+    <a class="btn primary" href={`${base}/overzicht/`} data-overzicht>
+      Toon mijn overzicht
+    </a>
+    <button type="button" class="keuzes-wissen" data-keuzes-wissen hidden>
+      Keuzes wissen
+    </button>
     <p class="sv-melding" data-sv-melding role="status" hidden></p>
   </div>
 </div>
 
 <script>
+  import { OPSLAG, lees, leesLijst, bewaar as opslaan, wisKeuzes } from '../lib/opslag';
   const blok = document.querySelector<HTMLElement>('[data-startvragen]')!;
   const $ = <T extends HTMLElement = HTMLElement>(s: string) => blok.querySelector<T>(s)!;
   const $$ = <T extends HTMLElement = HTMLElement>(s: string) => Array.from(blok.querySelectorAll<T>(s));
   const base = blok.dataset.base ?? '';
   const VASTE_LEEFTIJD = JSON.parse(blok.dataset.vasteLeeftijd ?? '{}') as Record<string, string>;
-  const KEY = { k: 'jr.knelpunt', l: 'jr.leeftijd', s: 'jr.situaties' } as const;
+  const KEY = { k: OPSLAG.knelpunt, l: OPSLAG.leeftijd, s: OPSLAG.situaties } as const;
 
   // Keuzes uit de url (een gedeelde link) gaan voor; anders wat eerder gekozen is (zoals in de keuzes van Mijn overzicht).
   const url = new URLSearchParams(location.search);
-  for (const [p, k] of Object.entries(KEY)) { const v = url.get(p); if (v !== null) localStorage.setItem(k, v); }
+  for (const [p, k] of Object.entries(KEY)) {
+    const v = url.get(p);
+    if (v !== null) opslaan(k, v);
+  }
   const knelpuntKnop = (id: string) => $$<HTMLButtonElement>('[data-sv-knelpunt]').find((b) => b.dataset.svKnelpunt === id);
-  let knelpunt = localStorage.getItem(KEY.k) ?? '';
+  let knelpunt = lees(KEY.k);
   if (knelpunt && !knelpuntKnop(knelpunt)) knelpunt = '';
   /** Vlak waar de vraag onder valt; bij een vlak met meer vragen kan de vraag nog leeg zijn. Een vraag kan onder meer vlakken
-   *  staan (zoals "Wij zijn uit elkaar"); daarom onthouden we ook het vlak (jr.startvlak). */
-  const VLAK = 'jr.startvlak';
+   *  staan (zoals "Wij zijn uit elkaar"); daarom onthouden we ook het vlak (OPSLAG.startvlak). */
   const vlakVan = (id: string) => knelpuntKnop(id)?.closest<HTMLElement>('[data-sv-groep]')?.dataset.svGroep ?? knelpuntKnop(id)?.dataset.svHoofd ?? '';
-  const inVlak = (vlak: string, id: string) => !!blok.querySelector(`[data-sv-groep="${vlak}"] [data-sv-knelpunt="${id}"], [data-sv-hoofd="${vlak}"][data-sv-knelpunt="${id}"]`);
-  const bewaardVlak = localStorage.getItem(VLAK) ?? '';
+  const inVlak = (vlak: string, id: string) =>
+    !!blok.querySelector(`[data-sv-groep="${vlak}"] [data-sv-knelpunt="${id}"], [data-sv-hoofd="${vlak}"][data-sv-knelpunt="${id}"]`);
+  const bewaardVlak = lees(OPSLAG.startvlak);
   let hoofd = knelpunt ? (inVlak(bewaardVlak, knelpunt) ? bewaardVlak : vlakVan(knelpunt)) : '';
-  let leeftijd = localStorage.getItem(KEY.l) ?? '';
-  const situaties = new Set((localStorage.getItem(KEY.s) ?? '').split(',').filter(Boolean));
+  let leeftijd = lees(KEY.l);
+  const situaties = new Set(leesLijst(KEY.s));
 
   const melding = $('[data-sv-melding]');
   const sel = document.querySelector<HTMLSelectElement>('[data-startvragen] [data-gemeente-keuze]');
@@ -119,18 +190,24 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
     return u.toString();
   };
   const bewaar = () => {
-    localStorage.setItem(KEY.k, knelpunt);
-    localStorage.setItem(KEY.l, leeftijd);
-    localStorage.setItem(KEY.s, [...situaties].join(','));
-    localStorage.setItem(VLAK, hoofd);
+    opslaan(KEY.k, knelpunt);
+    opslaan(KEY.l, leeftijd);
+    opslaan(KEY.s, [...situaties].join(','));
+    opslaan(OPSLAG.startvlak, hoofd);
   };
 
   // Situaties: bij een leeftijd staan de situaties die daarbij vaak spelen bovenaan, de rest op alfabet eronder. Er verdwijnt niets.
   const vaak = $('[data-sv-vaak] .chips-select');
   const thuis = new Map($$<HTMLButtonElement>('[data-startsituatie]').map((b) => [b, b.parentElement!]));
   const zetSituaties = () => {
-    thuis.forEach((groep, b) => { groep.appendChild(b); b.setAttribute('aria-pressed', String(situaties.has(b.dataset.startsituatie!))); });
-    if (leeftijd) thuis.forEach((_, b) => { if ((b.dataset.vaakBij ?? '').split(' ').includes(leeftijd)) vaak.appendChild(b); });
+    thuis.forEach((groep, b) => {
+      groep.appendChild(b);
+      b.setAttribute('aria-pressed', String(situaties.has(b.dataset.startsituatie!)));
+    });
+    if (leeftijd)
+      thuis.forEach((_, b) => {
+        if ((b.dataset.vaakBij ?? '').split(' ').includes(leeftijd)) vaak.appendChild(b);
+      });
     const metVaak = vaak.children.length > 0;
     $('[data-sv-vaak]').hidden = !metVaak;
     $('[data-sv-andere]').hidden = !metVaak;
@@ -147,7 +224,9 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
     // "Wat is uw situatie?" en alles daarna pas na de gemeente (ook "Mijn gemeente staat er niet bij" telt): zo kiest niemand
     // een vlak zonder gemeente en hoeft niemand twee keer op "Toon mijn overzicht" (persona-test Joyce, ronde 25).
     const metGemeente = !!sel?.value;
-    $$('[data-sv-stap], [data-sv-antwoord], [data-sv-verder]').forEach((e) => { if (!metGemeente) e.hidden = true; });
+    $$('[data-sv-stap], [data-sv-antwoord], [data-sv-verder]').forEach((e) => {
+      if (!metGemeente) e.hidden = true;
+    });
     if (!metGemeente) return;
     const vaste = VASTE_LEEFTIJD[knelpunt];
     if (vaste) leeftijd = vaste;
@@ -169,7 +248,7 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
     $<HTMLAnchorElement>('a[data-overzicht]').href = naarOverzicht();
     zetSituaties();
     if (!gemeenteNodig() || gemeente()) melding.hidden = true;
-    $('[data-keuzes-wissen]').hidden = !Object.values(KEY).some((k) => localStorage.getItem(k));
+    $('[data-keuzes-wissen]').hidden = !Object.values(KEY).some((k) => lees(k));
   };
   const meld = (ev: string, detail: unknown) => document.dispatchEvent(new CustomEvent(ev, { detail }));
   /** Op de telefoon schuift na een keuze de volgende vraag in beeld; die viel anders buiten het scherm (persona-tests Monique en
@@ -186,13 +265,18 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
     const onder = r.bottom + 12 - innerHeight;
     if (onder > 0) return scrollBy({ top: onder, behavior: beweging() });
     const op = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
-    if (r.top < 0 || !op || !knop.contains(op)) $$('[data-sv-antwoord]').find((e) => !e.hidden)?.scrollIntoView({ block: 'start', behavior: beweging() });
+    if (r.top < 0 || !op || !knop.contains(op))
+      $$('[data-sv-antwoord]')
+        .find((e) => !e.hidden)
+        ?.scrollIntoView({ block: 'start', behavior: beweging() });
   };
   const naarVolgende = () => {
     // Geen vraag meer, alleen nog de knop: dan de knop in beeld (ook op de laptop).
     if (!$('[data-sv-verder]').hidden && $('[data-sv-stap="situaties"]').hidden) return toonKnop();
     if (!telefoon.matches) return;
-    $$('[data-sv-stap]').find((s) => !s.hidden)?.scrollIntoView({ block: 'start', behavior: beweging() });
+    $$('[data-sv-stap]')
+      .find((s) => !s.hidden)
+      ?.scrollIntoView({ block: 'start', behavior: beweging() });
   };
   /** Een andere vraag: lag de leeftijd vast bij de vorige vraag (wordt 18), dan is die leeftijd niet meer gekozen. */
   const kiesKnelpunt = (nieuw: string) => {
@@ -200,35 +284,61 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
     knelpunt = nieuw;
   };
 
-  $$<HTMLButtonElement>('[data-sv-hoofd]').forEach((b) => b.addEventListener('click', () => {
-    hoofd = b.dataset.svHoofd!;
-    kiesKnelpunt(b.dataset.svKnelpunt ?? '');
-    bewaar(); teken(); meld('jr:knelpunt', knelpunt); meld('jr:leeftijd', leeftijd);
-    naarVolgende();
-  }));
-  $$<HTMLButtonElement>('[data-sv-stap="vraag"] [data-sv-knelpunt]').forEach((b) => b.addEventListener('click', () => {
-    kiesKnelpunt(b.dataset.svKnelpunt!);
-    bewaar(); teken(); meld('jr:knelpunt', knelpunt); meld('jr:leeftijd', leeftijd);
-    naarVolgende();
-  }));
-  $$<HTMLButtonElement>('[data-sv-leeftijd]').forEach((b) => b.addEventListener('click', () => {
-    leeftijd = b.dataset.svLeeftijd!;
-    bewaar(); teken(); meld('jr:leeftijd', leeftijd);
-    naarVolgende();
-  }));
-  $$<HTMLButtonElement>('[data-sv-wijzig]').forEach((b) => b.addEventListener('click', () => {
-    const stap = b.dataset.svWijzig;
-    if (stap === 'hoofd') { hoofd = ''; kiesKnelpunt(''); }
-    if (stap === 'vraag') kiesKnelpunt('');
-    if (stap === 'leeftijd') leeftijd = '';
-    bewaar(); teken(); meld('jr:knelpunt', knelpunt); meld('jr:leeftijd', leeftijd);
-  }));
-  $$<HTMLButtonElement>('[data-startsituatie]').forEach((b) => b.addEventListener('click', () => {
-    const id = b.dataset.startsituatie!;
-    situaties.has(id) ? situaties.delete(id) : situaties.add(id);
-    bewaar(); teken(); meld('jr:situaties', [...situaties]);
-    toonKnop();
-  }));
+  $$<HTMLButtonElement>('[data-sv-hoofd]').forEach((b) =>
+    b.addEventListener('click', () => {
+      hoofd = b.dataset.svHoofd!;
+      kiesKnelpunt(b.dataset.svKnelpunt ?? '');
+      bewaar();
+      teken();
+      meld('jr:knelpunt', knelpunt);
+      meld('jr:leeftijd', leeftijd);
+      naarVolgende();
+    }),
+  );
+  $$<HTMLButtonElement>('[data-sv-stap="vraag"] [data-sv-knelpunt]').forEach((b) =>
+    b.addEventListener('click', () => {
+      kiesKnelpunt(b.dataset.svKnelpunt!);
+      bewaar();
+      teken();
+      meld('jr:knelpunt', knelpunt);
+      meld('jr:leeftijd', leeftijd);
+      naarVolgende();
+    }),
+  );
+  $$<HTMLButtonElement>('[data-sv-leeftijd]').forEach((b) =>
+    b.addEventListener('click', () => {
+      leeftijd = b.dataset.svLeeftijd!;
+      bewaar();
+      teken();
+      meld('jr:leeftijd', leeftijd);
+      naarVolgende();
+    }),
+  );
+  $$<HTMLButtonElement>('[data-sv-wijzig]').forEach((b) =>
+    b.addEventListener('click', () => {
+      const stap = b.dataset.svWijzig;
+      if (stap === 'hoofd') {
+        hoofd = '';
+        kiesKnelpunt('');
+      }
+      if (stap === 'vraag') kiesKnelpunt('');
+      if (stap === 'leeftijd') leeftijd = '';
+      bewaar();
+      teken();
+      meld('jr:knelpunt', knelpunt);
+      meld('jr:leeftijd', leeftijd);
+    }),
+  );
+  $$<HTMLButtonElement>('[data-startsituatie]').forEach((b) =>
+    b.addEventListener('click', () => {
+      const id = b.dataset.startsituatie!;
+      situaties.has(id) ? situaties.delete(id) : situaties.add(id);
+      bewaar();
+      teken();
+      meld('jr:situaties', [...situaties]);
+      toonKnop();
+    }),
+  );
 
   // De gemeente is verplicht, behalve bij spoed en landelijke vragen (zoals kinderbijslag). Zonder gemeente naar de keuzelijst.
   $<HTMLAnchorElement>('a[data-overzicht]').addEventListener('click', (e) => {
@@ -246,9 +356,8 @@ const knelpunt = (id: string) => knelpunten.find((k) => k.id === id)!;
 
   // "Keuzes wissen": wist de vragen en de antwoorden in Mijn overzicht, en laadt de pagina schoon. De gemeente blijft staan:
   // die verandert zelden, en dan hoeft de ouder hem niet opnieuw te zoeken.
-  const ALLE = ['jr.knelpunt', 'jr.startvlak', 'jr.leeftijd', 'jr.situaties', 'jr.verhuizing', 'jr.hulpstopt', 'jr.wordt18', 'jr.wachten', 'jr.afgewezen', 'jr.gezag', 'jr.gezagweg', 'jr.uitbreiden', 'jr.regelingen'];
   $('[data-keuzes-wissen]').addEventListener('click', () => {
-    ALLE.forEach((k) => localStorage.removeItem(k));
+    wisKeuzes();
     location.replace(location.pathname);
   });
 
